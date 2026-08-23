@@ -1,4 +1,7 @@
 import BlogPostLayout from '@/components/BlogPostLayout';
+import { FreetokenQSplitFigure } from '../_figures/freetoken-qsplit';
+import { FreetokenCacheFigure } from '../_figures/freetoken-cache';
+import { FreetokenTiersFigure } from '../_figures/freetoken-tiers';
 
 export default function FreetokenPost() {
   return (
@@ -32,6 +35,7 @@ export default function FreetokenPost() {
       <p>
         FreeToken treats the GPU, CPU, host memory, and interconnects as one platform instead of patching around one GPU. It profiles the machine once — measuring the real bandwidth of both paths — and for each step splits expert misses between PCIe transfer and CPU-side compute <strong>in proportion</strong>, then merges GPU and CPU results exactly, with no approximation. The authors call it the q* policy.
       </p>
+      <FreetokenQSplitFigure />
       <p>
         The surprising part: two machines with the same GPU can end up with <strong>opposite</strong> strategies. An RTX 5090 in a gaming desktop should push nearly everything over PCIe; an 8 GB laptop is better off computing most misses on the CPU. That&apos;s not readable off a spec sheet — it&apos;s measured per machine.
       </p>
@@ -44,6 +48,7 @@ export default function FreetokenPost() {
       <p>
         FreeToken exposes Anthropic/OpenAI-compatible APIs, and the README lists the coding agents it integrates with: Codex, Claude Code, OpenCode, OpenClaw, DeepSeek Harness. Point Claude Code at a gaming PC running a 284B model instead of the cloud.
       </p>
+      <FreetokenCacheFigure />
 
       <h2>The numbers — and the honest caveat</h2>
       <p>Per the paper&apos;s own report:</p>
@@ -55,6 +60,7 @@ export default function FreetokenPost() {
       <p>
         For interactive agent work, 35–39 tok/s is genuinely usable — the paper uses the 33 tok/s median decode of Codex in production traces as its reference line. But all of these are the <strong>authors&apos; self-report</strong>, published August 17 and trending on Hugging Face within three days. Community validation still has to catch up. Treat them as strong proof-of-concept, not independently confirmed benchmarks. Early community recaps claim 2–4× over engines like Ollama — validate on your own hardware.
       </p>
+      <FreetokenTiersFigure />
 
       <h2>What this changes</h2>
       <p>
