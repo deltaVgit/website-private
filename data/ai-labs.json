@@ -1,92 +1,52 @@
 {
-  "updated": "2026-08-21T10:57:21Z",
+  "updated": "2026-08-23T09:37:00Z",
   "items": [
     {
-      "title": "Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirements for Making Market Decisions",
-      "url": "https://arxiv.org/abs/2608.18078",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2608.18078v1 Announce Type: new Abstract: This position paper argues that AI agents with chain-of-thought reasoning capabilities are predisposed to exhibit collusive behavior and should be required to obtain behavioral certification before making decisions that affect econo",
-      "tag": "ai"
-    },
-    {
-      "title": "Position: Profiling Game Worlds by Transition Complexity",
-      "url": "https://arxiv.org/abs/2608.18079",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2608.18079v1 Announce Type: new Abstract: Game world modeling (GWM) and reinforcement learning (RL) are often confounded because research papers rarely quantify how difficult the underlying transition prediction problem is at the declared interface (pixels/tokens/latents wi",
-      "tag": "ai"
-    },
-    {
-      "title": "Large Language Models in Mental Health: A Systematic Review of Applications, Innovations, and Ethical Challenges",
-      "url": "https://arxiv.org/abs/2608.18080",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2608.18080v1 Announce Type: new Abstract: We present a review on the applications of large language models (LLMs) in health, e.g., social media analysis, clinical conversational agents, therapy support tools, prompt engineering, multimodal learning, and ethical consideratio",
-      "tag": "ai"
-    },
-    {
-      "title": "Position: Behavioral Systems Require Behavioral Tests",
-      "url": "https://arxiv.org/abs/2608.18081",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2608.18081v1 Announce Type: new Abstract: Artificial agentic systems increasingly operate as behavioral systems by interacting with dynamic environments, pursuing goals, and adapting over time. Yet, current evaluation methods largely focus on performance outcomes, not the u",
-      "tag": "ai"
-    },
-    {
-      "title": "Towards On-Board Implementation of ML-Based Helicopter Weight Estimator",
-      "url": "https://arxiv.org/abs/2608.19210",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2608.19210v1 Announce Type: new Abstract: This paper focuses on the implementation of a novel supervised Machine Learning model for estimating helicopter weight during takeoff, utilizing extensive datasets from Airbus's global in-service fleet. The study details a learning ",
-      "tag": "ai"
-    },
-    {
-      "title": "Triangular Fuzzy Rescaling Distance",
-      "url": "https://arxiv.org/abs/2608.19234",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2608.19234v1 Announce Type: new Abstract: Decision-making in complex systems often involves dealing with imprecise or uncertain information, frequently represented using fuzzy sets, particularly Triangular Fuzzy Numbers (TFNs). A crucial aspect of many fuzzy methods is the ",
-      "tag": "ai"
-    },
-    {
-      "title": "Holtercare-Bench: A Multimodal Benchmark for Evaluating Long-Term Dynamic ECG Analysis",
-      "url": "https://arxiv.org/abs/2608.19297",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2608.19297v1 Announce Type: new Abstract: While multimodal large language models (MLLMs) excel in medical applications, most of them favor static images or short-term signals. In the critical field of dynamic electrocardiograms (ECG), models struggle with complex temporal r",
-      "tag": "ai"
-    },
-    {
-      "title": "A Virtual Member of a Community of Practice for the Society of Petroleum Engineers: From Prototype to Deployment",
-      "url": "https://arxiv.org/abs/2608.19199",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2608.19199v1 Announce Type: new Abstract: We describe the evolution of a virtual assistant, called ATHENA, designed to support the capture, retrieval, and dissemination of knowledge for members of a Community of Practice (CoP) related to the Oil and Gas sector. An evaluatio",
-      "tag": "ai"
-    },
-    {
-      "title": "Transformer Models for Text Summarization: A Comparative Study of BART, BERT, and RoBERTa",
-      "url": "https://arxiv.org/abs/2608.19200",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2608.19200v1 Announce Type: new Abstract: Text summarization refers to the task of condensing a document into a shorter version while preserving its key information. Automatic text summarization (ATS), driven by advancements in natural language processing (NLP), has develop",
-      "tag": "ai"
-    },
-    {
-      "title": "Automatic bioinformatic software named entity recognition from literature",
-      "url": "https://arxiv.org/abs/2608.19201",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2608.19201v1 Announce Type: new Abstract: Bioinformatics software and databases are essential components of modern life science research, yet their mentions in the scientific literature are often inconsistent and difficult to systematically identify at scale. The lack of a ",
-      "tag": "ai"
-    },
-    {
-      "title": "ChatGPT search now uses the site:operator at scale",
-      "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+      "title": "Quoting Linus Torvalds",
+      "url": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
       "source": "Simon Willison",
-      "published_at": "2026-08-20T23:57:32+00:00",
-      "summary": "ChatGPT search now uses the site:operator at scale Promptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside too",
+      "published_at": "2026-08-22T21:04:26+00:00",
+      "summary": "And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work. I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it. I suspect tho",
+      "tag": "ai"
+    },
+    {
+      "title": "llm 0.33",
+      "url": "https://simonwillison.net/2026/Aug/22/llm/",
+      "source": "Simon Willison",
+      "published_at": "2026-08-22T17:01:16+00:00",
+      "summary": "Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2 . #1608 , #1631 I shipped a quick 0.32.1 fix for this yesterday, but this is the more comprehensive fix. llm embed and llm emb",
+      "tag": "ai"
+    },
+    {
+      "title": "More than just code review",
+      "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
+      "source": "Simon Willison",
+      "published_at": "2026-08-22T15:56:54+00:00",
+      "summary": "The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way. Sometimes this involves reviewing every line of code they have wri",
+      "tag": "ai"
+    },
+    {
+      "title": "Big-World Intuitions",
+      "url": "https://www.lesswrong.com/posts/s22XzjQsrh6JXhXGH/big-world-intuitions",
+      "source": "LessWrong",
+      "published_at": "2026-08-21T18:30:56+00:00",
+      "summary": "Consider the following situations: when you are a small, growing startup in a big market, standard advice is not to worry too much about your competitors or try to do anything adversarial “against” them, but just to focus on growing and providing value to your own customers. when",
+      "tag": "ai"
+    },
+    {
+      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "source": "Google DeepMind",
+      "published_at": "2026-08-21T11:59:48+00:00",
+      "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+      "tag": "ai"
+    },
+    {
+      "title": "Measuring benchmark optimization in speech recognition",
+      "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "source": "Hugging Face Blog",
+      "published_at": "2026-08-21T00:00:00+00:00",
+      "summary": "",
       "tag": "ai"
     },
     {
@@ -95,14 +55,6 @@
       "source": "Hugging Face Blog",
       "published_at": "2026-08-20T16:52:57+00:00",
       "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
-      "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
-      "source": "Simon Willison",
-      "published_at": "2026-08-20T15:37:00+00:00",
-      "summary": "Research: A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView Today saw the long awaited release of Bun 1.4 , the first stable version since the infamous Rust rewrite a few months ago . Interestingly, the Rust rewrite was downplayed in the release notes, which introduced a",
       "tag": "ai"
     },
     {
@@ -119,14 +71,6 @@
       "source": "OpenAI",
       "published_at": "2026-08-20T00:00:00+00:00",
       "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
-      "tag": "ai"
-    },
-    {
-      "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
-      "url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
-      "source": "Simon Willison",
-      "published_at": "2026-08-19T23:16:00+00:00",
-      "summary": "Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this ",
       "tag": "ai"
     },
     {
@@ -174,14 +118,6 @@
       "url": "https://huggingface.co/blog/multi-vector-encoder",
       "source": "Hugging Face Blog",
       "published_at": "2026-08-18T00:00:00+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "source": "Hugging Face Blog",
-      "published_at": "2026-08-17T19:46:21+00:00",
       "summary": "",
       "tag": "ai"
     },
@@ -314,11 +250,75 @@
       "tag": "ai"
     },
     {
-      "title": "LLMs are (still) mostly powered by imitative learning, not RL",
-      "url": "https://www.lesswrong.com/posts/wYpjXRLqbLbnmjbJP/llms-are-still-mostly-powered-by-imitative-learning-not-rl",
-      "source": "LessWrong",
-      "published_at": "2026-08-04T00:56:54+00:00",
-      "summary": "Reinforcement learning from verifiable rewards (RLVR) is the hot new thing in LLM training. It’s so hot, and people spend so much time talking about it, that they sometimes lose sight of the big picture. Stepping back, LLMs can do lots of very impressive things. How? Where did th",
+      "title": "GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model",
+      "url": "https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/",
+      "source": "Meta Engineering",
+      "published_at": "2026-08-03T18:00:17+00:00",
+      "summary": "Meta’s Generative Ads Recommendation Model (GEM), the foundation model behind ads recommendations across Instagram and Facebook, now trains at LLM scale on several thousand of the latest-generation GPUs. This post goes into the details on how we achieved: doubling end-to-end (E2E",
+      "tag": "ai"
+    },
+    {
+      "title": "A Dynamical Model of AI Governability",
+      "url": "https://blog.eleuther.ai/dynamical-models-of-ai-governability/",
+      "source": "EleutherAI",
+      "published_at": "2026-07-13T00:00:00+00:00",
+      "summary": "A toy dynamical model of whether the AI workforce that builds future AI ends up cooperative or uncooperative: where the basin boundary lies, what current evidence says about which side we are on, and what would tell us we are on the good path.",
+      "tag": "ai"
+    },
+    {
+      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
+      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+      "source": "NVIDIA AI",
+      "published_at": "2026-07-08T15:00:27+00:00",
+      "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open mo",
+      "tag": "ai"
+    },
+    {
+      "title": "Early Indicators of Reward Hacking via Reasoning Interpolation",
+      "url": "https://blog.eleuther.ai/reward-hacking-indicators/",
+      "source": "EleutherAI",
+      "published_at": "2026-04-15T00:00:00+00:00",
+      "summary": "Using importance sampling with fine-tuned donor prefills to predict reward hacking emergence during training",
+      "tag": "ai"
+    },
+    {
+      "title": "NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES",
+      "url": "https://blogs.nvidia.com/blog/2026-ces-special-presentation/",
+      "source": "NVIDIA AI",
+      "published_at": "2026-01-05T23:30:18+00:00",
+      "summary": "NVIDIA founder and CEO Jensen Huang took the stage at the Fontainebleau Las Vegas to open CES 2026, declaring that AI is scaling into every domain and every device. “Computing has been fundamentally reshaped as a result of accelerated computing, as a result of artificial intellig",
+      "tag": "ai"
+    },
+    {
+      "title": "As AI Grows More Complex, Model Builders Rely on NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/leading-models-nvidia/",
+      "source": "NVIDIA AI",
+      "published_at": "2025-12-11T19:19:57+00:00",
+      "summary": "Unveiling what it describes as the most capable model series yet for professional knowledge work, OpenAI launched GPT-5.2 in December. The model was trained and deployed on NVIDIA infrastructure, including NVIDIA Hopper and GB200 NVL72 systems. GPT-5.3 Codex — the first OpenAI ag",
+      "tag": "ai"
+    },
+    {
+      "title": "Reward Hacking Resarch Update",
+      "url": "https://blog.eleuther.ai/reward_hacking/",
+      "source": "EleutherAI",
+      "published_at": "2025-10-07T00:00:00+00:00",
+      "summary": "Interim report on ongoing work on reward hacking",
+      "tag": "ai"
+    },
+    {
+      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
+      "url": "https://qwenlm.github.io/blog/qwen3guard/",
+      "source": "Qwen (Alibaba)",
+      "published_at": "2025-09-22T20:00:00+00:00",
+      "summary": "Tech Report GitHub Hugging Face ModelScope DISCORD Introduction We are excited to introduce Qwen3Guard, the first safety guardrail model in the Qwen family. Built upon the powerful Qwen3 foundation models and fine-tuned specifically for safety classificatoin, Qwen3Guard ensures r",
+      "tag": "ai"
+    },
+    {
+      "title": "Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency",
+      "url": "https://qwenlm.github.io/blog/qwen-image-edit/",
+      "source": "Qwen (Alibaba)",
+      "published_at": "2025-08-18T17:30:00+00:00",
+      "summary": "QWEN CHAT GITHUB HUGGING FACE MODELSCOPE DISCORD We are excited to introduce Qwen-Image-Edit, the image editing version of Qwen-Image. Built upon our 20B Qwen-Image model, Qwen-Image-Edit successfully extends Qwen-Image’s unique text rendering capabilities to image editing tasks,",
       "tag": "ai"
     }
   ],
