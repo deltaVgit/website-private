@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T10:00:34Z",
+  "updated_at": "2026-08-23T10:40:15Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.005215,
-        "change_24h": 10.3,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.17275,
-        "change_24h": 7.4,
+        "price": 0.177598,
+        "change_24h": 14.2,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.3,
-        "change_24h": 6.6,
+        "price": 3.26,
+        "change_24h": 8.2,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 16.77,
-        "change_24h": 6.4,
+        "price": 16.87,
+        "change_24h": 7.2,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.38,
-        "change_24h": 4.6,
+        "price": 2.4,
+        "change_24h": 5.7,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.636693,
+        "change_24h": 4.8,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.439899,
-        "change_24h": -14.3,
+        "price": 0.435016,
+        "change_24h": -15.0,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "POL",
+        "name": "POL (ex-MATIC)",
+        "price": 0.107741,
+        "change_24h": -9.3,
         "asset": "crypto"
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
-        "price": 2.45,
-        "change_24h": -13.7,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.379397,
-        "change_24h": -8.5,
+        "price": 2.48,
+        "change_24h": -7.9,
         "asset": "crypto"
       },
       {
         "symbol": "CRO",
         "name": "Cronos",
-        "price": 0.057108,
-        "change_24h": -8.5,
+        "price": 0.057444,
+        "change_24h": -7.0,
         "asset": "crypto"
       },
       {
-        "symbol": "SUI",
-        "name": "Sui",
-        "price": 0.800911,
-        "change_24h": -7.7,
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.384172,
+        "change_24h": -5.2,
         "asset": "crypto"
       }
     ]
