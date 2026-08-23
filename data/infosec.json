@@ -1,1 +1,289 @@
-{"kev": [{"cve": "CVE-2026-73570", "product": "Zimbra Collaboration Suite (ZCS)", "vendor": "Synacor", "name": "Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability", "dateAdded": "2026-08-21", "dueDate": "2026-08-24"}, {"cve": "CVE-2026-72530", "product": "Server", "vendor": "TrueConf", "name": "TrueConf Server Code Injection Vulnerability", "dateAdded": "2026-08-20", "dueDate": "2026-09-03"}, {"cve": "CVE-2026-72529", "product": "Server", "vendor": "TrueConf", "name": "TrueConf Server Missing Authentication for Critical Function Vulnerability", "dateAdded": "2026-08-20", "dueDate": "2026-08-23"}, {"cve": "CVE-2026-64849", "product": "MLflow", "vendor": "MLflow", "name": "MLflow Server-Side Request Forgery Vulnerability", "dateAdded": "2026-08-19", "dueDate": "2026-09-02"}, {"cve": "CVE-2026-33824", "product": "Internet Key Exchange (IKE) Service Extensions", "vendor": "Microsoft", "name": "Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability", "dateAdded": "2026-08-18", "dueDate": "2026-08-21"}, {"cve": "CVE-2026-59310", "product": "VMware vCenter", "vendor": "Broadcom", "name": "Broadcom VMware vCenter Path Traversal Vulnerability", "dateAdded": "2026-08-18", "dueDate": "2026-08-21"}, {"cve": "CVE-2026-55040", "product": "SharePoint", "vendor": "Microsoft", "name": "Microsoft SharePoint Weak Authentication Vulnerability", "dateAdded": "2026-08-18", "dueDate": "2026-08-21"}, {"cve": "CVE-2026-65400", "product": "macOS", "vendor": "Apple", "name": "Apple macOS Improper Authentication Vulnerability", "dateAdded": "2026-08-18", "dueDate": "2026-08-21"}], "updatedAt": "2026-08-21T17:46:43.6019Z", "cves": [{"id": "CVE-1999-0095", "severity": "N/A", "score": 0, "description": "The debug command in Sendmail is enabled, allowing attackers to execute commands as root.", "published": "1988-10-01T04:00:00.000"}, {"id": "CVE-1999-0082", "severity": "N/A", "score": 0, "description": "CWD ~root command in ftpd allows root access.", "published": "1988-11-11T05:00:00.000"}, {"id": "CVE-1999-1471", "severity": "N/A", "score": 0, "description": "Buffer overflow in passwd in BSD based operating systems 4.3 and earlier allows local users to gain root privileges by specifying a long she", "published": "1989-01-01T05:00:00.000"}, {"id": "CVE-1999-1122", "severity": "N/A", "score": 0, "description": "Vulnerability in restore in SunOS 4.0.3 and earlier allows local users to gain privileges.", "published": "1989-07-26T04:00:00.000"}, {"id": "CVE-1999-1467", "severity": "N/A", "score": 0, "description": "Vulnerability in rcp on SunOS 4.0.x allows remote attackers from trusted hosts to execute arbitrary commands as root, possibly related to th", "published": "1989-10-26T04:00:00.000"}, {"id": "CVE-1999-1506", "severity": "N/A", "score": 0, "description": "Vulnerability in SMI Sendmail 4.0 and earlier, on SunOS up to 4.0.3, allows remote attackers to access user bin.", "published": "1990-01-29T05:00:00.000"}, {"id": "CVE-1999-0084", "severity": "HIGH", "score": 8.4, "description": "Certain NFS servers allow users to use mknod to gain privileges by creating a writable kmem device and setting the UID to 0.", "published": "1990-05-01T04:00:00.000"}, {"id": "CVE-2000-0388", "severity": "N/A", "score": 0, "description": "Buffer overflow in FreeBSD libmytinfo library allows local users to execute commands via a long TERMCAP environmental variable.", "published": "1990-05-09T04:00:00.000"}], "breaches": [{"name": "000webhost", "domain": "000webhost.com", "date": "2015-03-01", "count": 14936670, "data": "Email addresses, IP addresses, Names, Passwords"}, {"name": "123RF", "domain": "123rf.com", "date": "2020-03-22", "count": 8661578, "data": "Email addresses, IP addresses, Names, Passwords, Phone numbers"}, {"name": "126", "domain": "126.com", "date": "2012-01-01", "count": 6414191, "data": "Email addresses, Passwords"}, {"name": "17Media", "domain": "17app.co", "date": "2016-04-19", "count": 4009640, "data": "Device information, Email addresses, IP addresses, Passwords, Usernames"}, {"name": "17173", "domain": "17173.com", "date": "2011-12-28", "count": 7485802, "data": "Email addresses, Passwords, Usernames"}, {"name": "1win", "domain": "1win.com", "date": "2024-11-02", "count": 96166543, "data": "Dates of birth, Email addresses, Geographic locations, IP addresses, Passwords"}, {"name": "2844Breaches", "domain": "", "date": "2018-02-19", "count": 80115532, "data": "Email addresses, Passwords"}, {"name": "2fast4u", "domain": "2fast4u.be", "date": "2017-12-20", "count": 17706, "data": "Email addresses, Passwords, Usernames"}]}
+{
+  "updatedAt": "2026-08-23T09:37:18Z",
+  "kev": [
+    {
+      "cve": "CVE-2026-73570",
+      "product": "Zimbra Collaboration Suite (ZCS)",
+      "vendor": "Synacor",
+      "name": "Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability",
+      "dateAdded": "2026-08-21",
+      "dueDate": "2026-08-24",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-72530",
+      "product": "Server",
+      "vendor": "TrueConf",
+      "name": "TrueConf Server Code Injection Vulnerability",
+      "dateAdded": "2026-08-20",
+      "dueDate": "2026-09-03",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-72529",
+      "product": "Server",
+      "vendor": "TrueConf",
+      "name": "TrueConf Server Missing Authentication for Critical Function Vulnerability",
+      "dateAdded": "2026-08-20",
+      "dueDate": "2026-08-23",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-64849",
+      "product": "MLflow",
+      "vendor": "MLflow",
+      "name": "MLflow Server-Side Request Forgery Vulnerability",
+      "dateAdded": "2026-08-19",
+      "dueDate": "2026-09-02",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-33824",
+      "product": "Internet Key Exchange (IKE) Service Extensions",
+      "vendor": "Microsoft",
+      "name": "Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
+      "dateAdded": "2026-08-18",
+      "dueDate": "2026-08-21",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-59310",
+      "product": "VMware vCenter",
+      "vendor": "Broadcom",
+      "name": "Broadcom VMware vCenter Path Traversal Vulnerability",
+      "dateAdded": "2026-08-18",
+      "dueDate": "2026-08-21",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-55040",
+      "product": "SharePoint",
+      "vendor": "Microsoft",
+      "name": "Microsoft SharePoint Weak Authentication Vulnerability",
+      "dateAdded": "2026-08-18",
+      "dueDate": "2026-08-21",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-65400",
+      "product": "macOS",
+      "vendor": "Apple",
+      "name": "Apple macOS Improper Authentication Vulnerability",
+      "dateAdded": "2026-08-18",
+      "dueDate": "2026-08-21",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2025-62593",
+      "product": "Ray",
+      "vendor": "Ray-Project",
+      "name": "Ray-Project Ray Code Injection Vulnerability",
+      "dateAdded": "2026-08-17",
+      "dueDate": "2026-08-20",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-20349",
+      "product": "Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)",
+      "vendor": "Cisco",
+      "name": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability",
+      "dateAdded": "2026-08-11",
+      "dueDate": "2026-08-14",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-68820",
+      "product": "Windows Ancillary Function Driver for WinSock",
+      "vendor": "Microsoft",
+      "name": "Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability",
+      "dateAdded": "2026-08-11",
+      "dueDate": "2026-08-25",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-72898",
+      "product": "Metabase",
+      "vendor": "Metabase",
+      "name": "Metabase SQL Injection Vulnerability",
+      "dateAdded": "2026-08-11",
+      "dueDate": "2026-08-14",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-8037",
+      "product": "LoadMaster",
+      "vendor": "Progress",
+      "name": "Progress LoadMaster Command Injection Vulnerability",
+      "dateAdded": "2026-08-07",
+      "dueDate": "2026-08-10",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-63077",
+      "product": "TeamCity",
+      "vendor": "JetBrains",
+      "name": "JetBrains TeamCity Deserialization of Untrusted Data Vulnerability",
+      "dateAdded": "2026-08-05",
+      "dueDate": "2026-08-08",
+      "knownRansomware": "Unknown"
+    }
+  ],
+  "cves": [
+    {
+      "id": "CVE-2026-15413",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "description": "The Link Factory WordPress plugin is a backdoor. Distributed as a \"homepage sentence publisher\", it exposes an operator-controlled REST API under /wp-json/link-factory/v1/ - authenticated by a detached Ed25519 signature ",
+      "published": "2026-08-13T09:17:12.153"
+    },
+    {
+      "id": "CVE-2026-14182",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "The Customer Email Verification for WooCommerce WordPress plugin before 3.2.6 does not correctly validate the email-verification activation code, relying on a loose comparison that an attacker can satisfy with a crafted ",
+      "published": "2026-08-13T06:17:37.887"
+    },
+    {
+      "id": "CVE-2026-49819",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "UpSnap is a wake on lan web app. Versions 4.4.1 through 5.3.5 are vulnerable to a missing-authentication / privilege-escalation chain in `pb.HandlerInitSuperuser` (`backend/pb/handlers.go:249`), reachable as `POST /api/u",
+      "published": "2026-08-13T00:17:32.747"
+    },
+    {
+      "id": "CVE-2026-16770",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "PDF::WebKit versions through 1.2 for Perl allow argument injection into wkhtmltopdf via meta tags in the source document. For an HTML string or file source, the constructor collects every element in the document head thr",
+      "published": "2026-08-13T00:17:31.763"
+    },
+    {
+      "id": "CVE-2026-11840",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "Zohocorp ManageEngine Password Manager Pro versions before 13232 and ManageEngine PAM360 versions before 8552 are vulnerable to authenticated SQL injection.",
+      "published": "2026-08-13T08:16:42.987"
+    },
+    {
+      "id": "CVE-2026-49473",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "@cedar-policy/authorization-for-expressjs is an open-source Express.js middleware that integrates Cedar authorization into Express applications by mapping HTTP requests to Cedar actions and evaluating authorization polic",
+      "published": "2026-08-13T00:17:32.587"
+    },
+    {
+      "id": "CVE-2026-46382",
+      "severity": "HIGH",
+      "score": 8.7,
+      "description": "The Meeting Room Booking System (MRBS) is a PHP-based application for booking meeting rooms. Prior to version 1.12.2, a user-supplied private/local URI can be made to be fetched without checks. Version 1.12.2 contains a ",
+      "published": "2026-08-13T00:17:32.090"
+    },
+    {
+      "id": "CVE-2026-18945",
+      "severity": "HIGH",
+      "score": 8.2,
+      "description": "The WP Helper Premium WordPress plugin before 4.7.6 does not verify the order key when rendering its custom order confirmation page or when handling the related AJAX actions, allowing unauthenticated users to view other ",
+      "published": "2026-08-13T06:17:38.120"
+    },
+    {
+      "id": "CVE-2026-13610",
+      "severity": "HIGH",
+      "score": 7.5,
+      "description": "The KiviCare WordPress plugin before 4.5.2 does not restrict the roles assignable through its unauthenticated registration endpoint, allowing unauthenticated attackers to create an active, privileged clinic-staff (doctor",
+      "published": "2026-08-13T06:17:37.780"
+    },
+    {
+      "id": "CVE-2026-18146",
+      "severity": "HIGH",
+      "score": 7.2,
+      "description": "The Fluent Forms – Customizable Contact Forms, Survey, Quiz, & Conversational Form Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Notification Smartcode Values in all versions up to, and in",
+      "published": "2026-08-13T07:17:06.523"
+    }
+  ],
+  "breaches": [
+    {
+      "name": "OzHairAndBeauty",
+      "domain": "ozhairandbeauty.com",
+      "date": "2026-08-15",
+      "count": 1988331,
+      "data": "Email addresses, Geographic locations, Names, Phone numbers, Purchases"
+    },
+    {
+      "name": "Fanlore",
+      "domain": "fanlore.org",
+      "date": "2026-08-06",
+      "count": 144520,
+      "data": "Email addresses, Names, Passwords, Usernames"
+    },
+    {
+      "name": "Alcon",
+      "domain": "alcon.com",
+      "date": "2026-08-01",
+      "count": 218395,
+      "data": "Email addresses, Names, Phone numbers, Physical addresses"
+    },
+    {
+      "name": "RingCentral",
+      "domain": "ringcentral.com",
+      "date": "2026-07-27",
+      "count": 1596490,
+      "data": "Email addresses, Names, Phone numbers, Physical addresses"
+    },
+    {
+      "name": "SplitVPN",
+      "domain": "splitvpn.io",
+      "date": "2026-07-21",
+      "count": 865336,
+      "data": "Device information, Email addresses, Geographic locations, IP addresses, Partial credit card data"
+    },
+    {
+      "name": "ExactSciences",
+      "domain": "exactsciences.com",
+      "date": "2026-07-15",
+      "count": 10869543,
+      "data": "Dates of birth, Email addresses, Genders, Names, Personal health data"
+    },
+    {
+      "name": "BrinksHome",
+      "domain": "brinkshome.com",
+      "date": "2026-07-13",
+      "count": 732162,
+      "data": "Dates of birth, Email addresses, Names, Partial credit card data, Phone numbers"
+    },
+    {
+      "name": "Fluke",
+      "domain": "fluke.com",
+      "date": "2026-07-01",
+      "count": 821100,
+      "data": "Email addresses, Employers, Job titles, Names, Physical addresses"
+    },
+    {
+      "name": "InterConSecurity",
+      "domain": "icsecurity.com",
+      "date": "2026-06-18",
+      "count": 276114,
+      "data": "Email addresses, Employers, Job titles, Names, Phone numbers"
+    },
+    {
+      "name": "OperationEndgame4",
+      "domain": "",
+      "date": "2026-06-18",
+      "count": 4348526,
+      "data": "Email addresses, Passwords"
+    },
+    {
+      "name": "HoustonCityCollege",
+      "domain": "hccs.edu",
+      "date": "2026-06-16",
+      "count": 831642,
+      "data": "Academic records, Citizenship statuses, Dates of birth, Email addresses, Genders"
+    },
+    {
+      "name": "GlendaleCommunityCollege",
+      "domain": "glendale.edu",
+      "date": "2026-06-15",
+      "count": 793925,
+      "data": "Academic records, Dates of birth, Email addresses, Genders, Government issued IDs"
+    }
+  ]
+}
