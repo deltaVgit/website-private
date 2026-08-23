@@ -36,10 +36,6 @@ export default function PillarPageView({
         backLabel={copy.backLabel}
       />
 
-      {/* Before the offers: the cards say what we build, Hydra shows one we
-          already shipped, running. */}
-      {pillar === 'ai' && <HydraShowcase lang={lang} />}
-
       <PageContainer className="pb-16 space-y-5" as="section">
         {copy.offers.map((offer) => (
           <OfferCard
@@ -55,6 +51,9 @@ export default function PillarPageView({
             ctaTopic={offer.ctaTopic}
             secondary={offer.secondary}
             secondaryTone={offer.secondaryTone}
+            // Hydra is the proof for exactly what the agents card sells — a
+            // shipped multi-agent system, demo-able from inside the card.
+            showcase={pillar === 'ai' && offer.id === 'agents' ? <HydraShowcase lang={lang} /> : undefined}
           />
         ))}
       </PageContainer>
