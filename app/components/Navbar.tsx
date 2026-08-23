@@ -130,13 +130,22 @@ export default function Navbar() {
   useEffect(() => { setMobileOpen(false); setForgeOpen(false); setSearchFocused(false); }, [pathname]);
 
   useEffect(() => {
-    if (!forgeOpen) return;
-    const close = (event: MouseEvent) => { if (!forgeRef.current?.contains(event.target as Node)) setForgeOpen(false); };
-    const key = (event: KeyboardEvent) => { if (event.key === 'Escape') setForgeOpen(false); };
-    document.addEventListener('mousedown', close);
-    document.addEventListener('keydown', key);
-    return () => { document.removeEventListener('mousedown', close); document.removeEventListener('keydown', key); };
-  }, [forgeOpen]);
+      if (!forgeOpen) return;
+      const close = (event: MouseEvent) => {
+        // Desktop disclosure: click inside the wrapper keeps it open.
+        if (forgeRef.current?.contains(event.target as Node)) return;
+        // Mobile menu: Blog, Tutorials, Forge and the + toggle live outside
+        // forgeRef. Closing on mousedown unmounts them before the click event
+        // lands — the links became unclickable. Let any link/button click
+        // through; navigation closes the menus via the pathname effect.
+        if (event.target instanceof Element && event.target.closest('a, button')) return;
+        setForgeOpen(false);
+      };
+      const key = (event: KeyboardEvent) => { if (event.key === 'Escape') setForgeOpen(false); };
+      document.addEventListener('mousedown', close);
+      document.addEventListener('keydown', key);
+      return () => { document.removeEventListener('mousedown', close); document.removeEventListener('keydown', key); };
+    }, [forgeOpen]);
 
   useEffect(() => {
     if (!mobileOpen) return;
