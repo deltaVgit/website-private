@@ -26,8 +26,8 @@ export type HydraCopy = {
 
 const en: HydraCopy = {
   label: 'Live example · Hydra',
-  title: 'The receptionist that never lets a lead go cold.',
-  lead: 'An agent workspace we built and put online: mail, calendar, tasks and treasury on one surface, asked in plain language and answered with sources.',
+  title: "Your company's new AI colleague, ready to work.",
+  lead: 'Mail, calendar, tasks, treasury, invoices — all in one workspace anyone can use in plain English. Processes invoices on arrival, ranks them by urgency, and keeps your team focused on the important deals.',
   chips: ['Inbox to invoice', 'Read-only by default', 'Runs on a schedule'],
   bridge: 'Built on mocked company data — your deployment runs on your real systems.',
   videoLabel: 'Watch the demo',
@@ -36,8 +36,8 @@ const en: HydraCopy = {
 
 const fr: HydraCopy = {
   label: 'Exemple réel · Hydra',
-  title: 'La réceptionniste qui ne laisse jamais un prospect refroidir.',
-  lead: "Un espace de travail agentique que nous avons construit et mis en ligne : messagerie, agenda, tâches et trésorerie sur une seule surface, interrogée en langage courant et répondue avec ses sources.",
+  title: 'Votre nouveau collègue IA pour vous aider!',
+  lead: "Mails, agenda, tâches, trésorerie, factures — tout sur un seul outil, utilisable en langage courant. Il traite les factures à la réception, les priorise par urgence, et garde votre équipe concentrée sur les deals importants.",
   chips: ['De l’e-mail à la facture', 'Lecture seule par défaut', 'Tourne à l’heure dite'],
   bridge: "Construit sur des données d'entreprise fictives — votre déploiement, lui, tourne sur vos systèmes réels.",
   videoLabel: 'Voir la démo',
