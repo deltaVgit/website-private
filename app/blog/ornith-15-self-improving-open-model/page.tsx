@@ -1,4 +1,7 @@
 import BlogPostLayout from '@/components/BlogPostLayout';
+import { OrnithLoopFigure } from '../_figures/ornith-loop';
+import { OrnithMoatsFigure } from '../_figures/ornith-moats';
+import { OrnithSizesFigure } from '../_figures/ornith-sizes';
 
 export default function Ornith15Post() {
   return (
@@ -55,6 +58,7 @@ export default function Ornith15Post() {
       <p>
         Same discipline on the harness reward: alignment, reward fidelity, and resistance to reward hacking. The details matter here because <strong>self-improvement is the fastest way to build an echo chamber</strong> if you get the reward wrong. They&apos;ve built in explicit drift-control — the difficulty tracks the model&apos;s own rollouts, so the curriculum evolves with capability instead of going stale or going off the rails.
       </p>
+      <OrnithLoopFigure />
 
       <h2>The other half: a 35B model that thinks like it&apos;s 3B</h2>
       <p>
@@ -104,6 +108,7 @@ export default function Ornith15Post() {
       <p>
         None of this says the closed labs die tomorrow — they have frontrunners, enterprise relationships, and genuinely big models. But their valuations rest on a scarcity assumption, and this is the first open release in a while that challenges all three scarce things at once. Cheaper access to intelligence isn&apos;t a pricing tweak; it&apos;s an architectural shift — and the architecture shift won&apos;t wobble when the speed claims drift.
       </p>
+      <OrnithMoatsFigure />
 
       <h2>Reader&apos;s guide — which Ornith, which build, ten-minute test</h2>
       <p>
@@ -132,6 +137,7 @@ export default function Ornith15Post() {
       <p>
         Point any OpenAI-compatible client at <code>localhost:8080</code> (the server is a drop-in chat API) and throw a real task at it — a refactor with a constraint, a small script with an error you&apos;ve seen before. Watch the token rate, then decide the honest question: <strong>is your use-case fine at 30 tok/s?</strong> Interactive chat: yes, comfortably. A multi-step agent loop making hundreds of calls: still yes, but the math changes. That 15–30 tok/s band is the true local trade — no rate limits, no data leaving the box, in exchange for less sheer speed than a cloud API. (You&apos;ll need a recent llama.cpp with <code>qwen3_5_moe</code> support; there&apos;s also an <a href="https://huggingface.co/mudler/Ornith-1.5-35B-A3B-APEX-MTP-GGUF" target="_blank" rel="noopener noreferrer" className="underline">APEX-MTP build</a> that adds speculative decoding against a bundled draft head if you want to squeeze tokens out of big-RAM machines.)
       </p>
+      <OrnithSizesFigure />
 
       <h2>The so-what</h2>
       <p>

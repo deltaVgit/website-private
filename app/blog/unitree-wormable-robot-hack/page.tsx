@@ -1,4 +1,7 @@
 import BlogPostLayout from '@/components/BlogPostLayout';
+import { UnitreeChainFigure } from '../_figures/unitree-chain';
+import { UnitreeTimelineFigure } from '../_figures/unitree-timeline';
+import { UnitreeWormFigure } from '../_figures/unitree-worm';
 
 export default function UnitreeWormablePost() {
   return (
@@ -35,6 +38,7 @@ export default function UnitreeWormablePost() {
       <p>
         String those together and a nearby attacker on the wireless network doesn&apos;t just get in — they get <strong>root</strong> on the robot. The researchers&apos; proof-of-concept rebooted a robot remotely. The same access would let an attacker implant persistent malware that survives restarts, exfiltrate anything the robot senses or stores, or silently block future firmware updates.
       </p>
+      <UnitreeChainFigure />
 
       <h2>The part that&apos;s actually scary: it&apos;s wormable</h2>
       <p>
@@ -46,6 +50,7 @@ export default function UnitreeWormablePost() {
       <p>
         A fair caveat, which the researchers and most reporting were careful to include: <em>wormable in the lab is not the same as guaranteed rapid spread in the real world.</em> Whether it actually propagates depends on how the robots are configured, how the network is segmented, firmware diversity, physical proximity, and how fast operators patch. But &ldquo;unlikely to go pandemic tomorrow&rdquo; is cold comfort when the capability is real and the exposure is physical.
       </p>
+      <UnitreeWormFigure />
 
       <h2>Disclosures didn&apos;t stop the story — they widened it</h2>
       <p>
@@ -61,6 +66,7 @@ export default function UnitreeWormablePost() {
       <p>
         That&apos;s the arc in three acts: a wormable bug → more bugs in the same family → a regulator treating the <em>class of device</em> as a supply-chain risk.
       </p>
+      <UnitreeTimelineFigure />
 
       <h2>The so-what</h2>
       <p>
