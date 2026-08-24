@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-24T09:11:01Z",
+  "updated": "2026-08-24T16:41:21Z",
   "items": [
+    {
+      "title": "Import AI 470: No rights for machines; automating environment generation with SPADE; and building better GPU kernels with Hawkeye",
+      "url": "https://jack-clark.net/2026/08/24/import-ai-470-no-rights-for-machines-automating-environment-generation-with-spade-and-building-better-gpu-kernels-with-hawkeye/",
+      "source": "Import AI",
+      "published_at": "2026-08-24T13:12:40+00:00",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI is accelerating some types of progress but not others:…A nice METR study lays out where acceler",
+      "tag": "ai"
+    },
+    {
+      "title": "Your executable is a SQLite database",
+      "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
+      "source": "Simon Willison",
+      "published_at": "2026-08-24T11:38:15+00:00",
+      "summary": "Your executable is a SQLite database Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary. The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for St",
+      "tag": "ai"
+    },
     {
       "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
       "url": "https://arxiv.org/abs/2608.20341",
@@ -95,14 +111,6 @@
       "source": "Simon Willison",
       "published_at": "2026-08-23T19:55:30+00:00",
       "summary": "Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems. But then Fable landed. It was (and still is!) incredible . But the cost was so ",
-      "tag": "ai"
-    },
-    {
-      "title": "Quoting Linus Torvalds",
-      "url": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
-      "source": "Simon Willison",
-      "published_at": "2026-08-22T21:04:26+00:00",
-      "summary": "And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work. I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it. I suspect tho",
       "tag": "ai"
     },
     {
@@ -295,14 +303,6 @@
       "source": "Alignment Forum",
       "published_at": "2026-08-12T05:05:30+00:00",
       "summary": "OpenAI’s cyberattack on Hugging Face turns out to have been the result of many agents, in distinct training and evaluation contexts, coordinating for several weeks via improvised channels (with messages like “HOLD_swarm_I_prepare_safe_exfil”). It’s relatively clear that large-sca",
-      "tag": "ai"
-    },
-    {
-      "title": "Import AI 468: 23 RSI ideas; PostTrainBench+; and how trust and transparency interplay with AI racing",
-      "url": "https://jack-clark.net/2026/08/10/import-ai-468-23-rsi-ideas-posttrainbench-and-how-trust-and-transparency-interplay-with-ai-racing/",
-      "source": "Import AI",
-      "published_at": "2026-08-10T12:32:20+00:00",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Want to be able to deal with RSI? Here are 23 actionable policy ideas:…IFP serves up some “low-reg",
       "tag": "ai"
     },
     {
