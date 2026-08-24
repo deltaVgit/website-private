@@ -1,11 +1,19 @@
 [
   {
+    "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
+    "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
+    "source": "The Hacker News",
+    "summary": "Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media, technology, and gaming sectors",
+    "added": "2026-08-24T08:08:31+00:00",
+    "expires": "2026-09-07T09:11:17Z"
+  },
+  {
     "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
     "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
     "source": "BleepingComputer",
     "summary": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
     "added": "2026-08-23T14:23:46+00:00",
-    "expires": "2026-09-07T07:42:06Z"
+    "expires": "2026-09-07T09:11:15Z"
   },
   {
     "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
@@ -13,7 +21,7 @@
     "source": "The Hacker News",
     "summary": "The U.S. Department of Justice (DoJ) announced on Friday that ByteDance-owned TikTok will pay $400 million to settle a 2024 lawsuit accusing the company of violating child privacy laws in the country. As part of the sett",
     "added": "2026-08-22T14:32:41+00:00",
-    "expires": "2026-09-07T07:42:07Z"
+    "expires": "2026-09-07T09:11:17Z"
   },
   {
     "title": "Hackers infect Android car head units with proxy botnet malware",
@@ -21,7 +29,7 @@
     "source": "BleepingComputer",
     "summary": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [...]",
     "added": "2026-08-22T14:14:24+00:00",
-    "expires": "2026-09-07T07:42:06Z"
+    "expires": "2026-09-07T09:11:15Z"
   },
   {
     "title": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
@@ -29,7 +37,7 @@
     "source": "BleepingComputer",
     "summary": "Windows named pipes provide fast interprocess communication, but weak access controls can expose privileged services to untrusted processes. ThreatLocker explains how endpoint verification, command authorization, strict ",
     "added": "2026-08-22T13:00:09+00:00",
-    "expires": "2026-09-07T07:42:06Z"
+    "expires": "2026-09-07T09:11:15Z"
   },
   {
     "title": "How an Emerging Industrial Protocol Family Could Put OT at Risk",
@@ -37,7 +45,7 @@
     "source": "Dark Reading",
     "summary": "New research shows how attacks against some unprotected TSN protocols could allow attackers to disrupt or manipulate physical processes",
     "added": "2026-08-21T20:24:42+00:00",
-    "expires": "2026-09-07T07:42:07Z"
+    "expires": "2026-09-07T09:11:16Z"
   },
   {
     "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
@@ -45,7 +53,7 @@
     "source": "The Hacker News",
     "summary": "Cybersecurity researchers have discovered a set of trojanized npm packages that masquerade as working calendar and streak utilities but are engineered to stealthily deliver an artificial intelligence (AI)-powered Linux i",
     "added": "2026-08-21T18:53:00+00:00",
-    "expires": "2026-09-07T07:42:07Z"
+    "expires": "2026-09-07T09:11:17Z"
   },
   {
     "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
@@ -53,7 +61,7 @@
     "source": "BleepingComputer",
     "summary": "A previously unknown malware family dubbed SynkLoader is being distributed in Microsoft Teams phishing campaigns to steal credentials via a fake lock screen. [...]",
     "added": "2026-08-21T18:01:30+00:00",
-    "expires": "2026-09-07T07:42:06Z"
+    "expires": "2026-09-07T09:11:15Z"
   },
   {
     "title": "OWASP Flags Top AI Skill Risks in New Security Blueprint",
@@ -61,7 +69,7 @@
     "source": "Dark Reading",
     "summary": "The Open Worldwide Application Security Project has a brand-new top 10 security list tailored for the modern era, and it debuts a Universal Skill Format to add consistency and security to the AI add-ons.",
     "added": "2026-08-21T17:36:53+00:00",
-    "expires": "2026-09-07T07:42:07Z"
+    "expires": "2026-09-07T09:11:16Z"
   },
   {
     "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
@@ -69,7 +77,7 @@
     "source": "BleepingComputer",
     "summary": "More than 9,300 Amazon Web Services (AWS) access keys publicly exposed between August 2022 and August 2026 are still active and valid. [...]",
     "added": "2026-08-21T15:55:15+00:00",
-    "expires": "2026-09-07T07:42:06Z"
+    "expires": "2026-09-07T09:11:15Z"
   },
   {
     "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
@@ -77,7 +85,7 @@
     "source": "The Hacker News",
     "summary": "Check Point Research has disclosed a technique that uses Microsoft Defender's own legitimately signed boot-time remediation driver to perform arbitrary kernel-level file and registry operations on Windows systems ranging",
     "added": "2026-08-21T15:52:10+00:00",
-    "expires": "2026-09-07T07:42:07Z"
+    "expires": "2026-09-07T09:11:17Z"
   },
   {
     "title": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
@@ -85,7 +93,7 @@
     "source": "The Hacker News",
     "summary": "Cybersecurity researchers have flagged a new malware family that's specifically designed to infect Android-based vehicle head unit firmware developed by DoFun. Kaspersky, which discovered the threat in June 2026, said th",
     "added": "2026-08-21T15:41:44+00:00",
-    "expires": "2026-09-07T07:42:07Z"
+    "expires": "2026-09-07T09:11:17Z"
   },
   {
     "title": "Calling on Cyber Pros to Help Defend City Hall",
@@ -93,7 +101,7 @@
     "source": "Dark Reading",
     "summary": "Government agencies with smaller budgets need support — and here's how you can help.",
     "added": "2026-08-21T14:00:00+00:00",
-    "expires": "2026-09-07T07:42:07Z"
+    "expires": "2026-09-07T09:11:16Z"
   },
   {
     "title": "OpenAI Adds Controls That Should've Been There Already",
@@ -101,7 +109,7 @@
     "source": "Dark Reading",
     "summary": "The new AI security controls follow the Hugging Face incident last month, though many of these additions perhaps should have been in place prior to the frontier models escaping.",
     "added": "2026-08-21T13:30:00+00:00",
-    "expires": "2026-09-07T07:42:07Z"
+    "expires": "2026-09-07T09:11:16Z"
   },
   {
     "title": "Hardware Makers Implement Post-Quantum Cryptography as Security Threats Near",
@@ -109,7 +117,7 @@
     "source": "Dark Reading",
     "summary": "The coming threat of super-powerful computers capable of cracking today’s algorithms requires upgrading encryption now. Tech companies have begun building defenses.",
     "added": "2026-08-21T13:10:33+00:00",
-    "expires": "2026-09-07T07:42:07Z"
+    "expires": "2026-09-07T09:11:16Z"
   },
   {
     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
@@ -117,14 +125,6 @@
     "source": "CISA Advisories",
     "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-73570 Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability Thi",
     "added": "2026-08-21T12:00:00+00:00",
-    "expires": "2026-09-07T07:42:08Z"
-  },
-  {
-    "title": "Wazuh and AI For Enhanced SOC Workflows",
-    "url": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html",
-    "source": "The Hacker News",
-    "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover ",
-    "added": "2026-08-21T11:21:39+00:00",
-    "expires": "2026-09-07T07:42:07Z"
+    "expires": "2026-09-07T09:11:17Z"
   }
 ]
