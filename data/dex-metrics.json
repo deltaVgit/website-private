@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T09:10:01Z",
+  "updated_at": "2026-08-24T11:23:31Z",
   "source": "https://api.llama.fi/overview/dexs",
   "weekly": [
     {
@@ -1102,9 +1102,9 @@
     },
     {
       "week": "2026-W09",
-      "curated": 61971846005.53,
-      "filtered": 61971846005.53,
-      "raw": 61971846005.53
+      "curated": 61973157653.53,
+      "filtered": 61973157653.53,
+      "raw": 61973157653.53
     },
     {
       "week": "2026-W10",
@@ -1144,15 +1144,15 @@
     },
     {
       "week": "2026-W16",
-      "curated": 53244562714.0,
-      "filtered": 53244562714.0,
-      "raw": 53244562714.0
+      "curated": 53244289013.0,
+      "filtered": 53244289013.0,
+      "raw": 53244289013.0
     },
     {
       "week": "2026-W17",
-      "curated": 49281666937.06,
-      "filtered": 49281666937.06,
-      "raw": 49281666937.06
+      "curated": 49282180328.06,
+      "filtered": 49282180328.06,
+      "raw": 49282180328.06
     },
     {
       "week": "2026-W18",
@@ -1240,49 +1240,49 @@
     },
     {
       "week": "2026-W32",
-      "curated": 41705938403.14,
-      "filtered": 41705938403.14,
-      "raw": 41705938403.14
+      "curated": 41705962840.14,
+      "filtered": 41705962840.14,
+      "raw": 41705962840.14
     },
     {
       "week": "2026-W33",
-      "curated": 37341128614.76001,
-      "filtered": 37341128614.76001,
-      "raw": 37341128614.76001
+      "curated": 37341340858.76001,
+      "filtered": 37341340858.76001,
+      "raw": 37341340858.76001
     },
     {
       "week": "2026-W34",
-      "curated": 67666024483.53001,
-      "filtered": 67666024483.53001,
-      "raw": 67666024483.53001
+      "curated": 68066049005.32001,
+      "filtered": 68066049005.32001,
+      "raw": 68066049005.32001
     },
     {
       "week": "2026-W35",
-      "curated": 8994348355.010002,
-      "filtered": 8994348355.010002,
-      "raw": 8994348355.010002
+      "curated": 9469916760.020002,
+      "filtered": 9469916760.020002,
+      "raw": 9469916760.020002
     }
   ],
   "chains": [
     {
       "chain": "Orca DEX",
-      "volume_24h": 342771349.0,
-      "delta_pct": -43.08
+      "volume_24h": 323383133.0,
+      "delta_pct": -46.3
     },
     {
       "chain": "Raydium AMM",
-      "volume_24h": 184581608.0,
-      "delta_pct": -32.96
+      "volume_24h": 178118466.0,
+      "delta_pct": -35.31
+    },
+    {
+      "chain": "Curve DEX",
+      "volume_24h": 59415997.0,
+      "delta_pct": -59.7
     },
     {
       "chain": "PancakeSwap AMM",
       "volume_24h": 50646778.0,
       "delta_pct": -22.2
-    },
-    {
-      "chain": "Curve DEX",
-      "volume_24h": 50328716.0,
-      "delta_pct": -65.87
     },
     {
       "chain": "Quickswap Dex",
@@ -1296,33 +1296,33 @@
     },
     {
       "chain": "Balancer V1",
-      "volume_24h": 3591802.0,
-      "delta_pct": 1130.79
+      "volume_24h": 3612412.0,
+      "delta_pct": 1137.85
     },
     {
       "chain": "SushiSwap",
-      "volume_24h": 874573.0,
-      "delta_pct": -47.24
-    },
-    {
-      "chain": "Defi Swap",
-      "volume_24h": 310361.0,
-      "delta_pct": 122.81
+      "volume_24h": 883984.0,
+      "delta_pct": -46.67
     },
     {
       "chain": "Bancor V2.1",
-      "volume_24h": 271032.0,
-      "delta_pct": -14.79
+      "volume_24h": 290974.0,
+      "delta_pct": -8.52
+    },
+    {
+      "chain": "Defi Swap",
+      "volume_24h": 73278.0,
+      "delta_pct": -47.39
     },
     {
       "chain": "Pangolin V2",
-      "volume_24h": 35946.0,
-      "delta_pct": -71.4
+      "volume_24h": 37869.0,
+      "delta_pct": -69.87
     },
     {
       "chain": "Nerve",
-      "volume_24h": 27797.0,
-      "delta_pct": -81.39
+      "volume_24h": 27880.0,
+      "delta_pct": -81.34
     }
   ]
 }
