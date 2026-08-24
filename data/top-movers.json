@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T08:31:42Z",
+  "updated_at": "2026-08-24T08:45:28Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 137.86,
-        "change_24h": 12.34,
+        "price": 138.07,
+        "change_24h": 11.41,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.519447,
-        "change_24h": 9.27,
+        "price": 0.522811,
+        "change_24h": 10.01,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.63221,
-        "change_24h": 8.99,
+        "price": 0.633034,
+        "change_24h": 8.77,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.124206,
+        "change_24h": 7.79,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
         "price": 3.52,
-        "change_24h": 8.28,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.12394,
-        "change_24h": 8.08,
+        "change_24h": 7.33,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.004834,
+        "change_24h": -7.07,
+        "asset": "crypto"
+      },
+      {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.421681,
-        "change_24h": -6.47,
+        "price": 0.423224,
+        "change_24h": -5.83,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.099939,
-        "change_24h": -5.34,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004852,
-        "change_24h": -4.84,
+        "price": 0.099962,
+        "change_24h": -5.17,
         "asset": "crypto"
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
-        "price": 2.38,
-        "change_24h": -4.47,
+        "price": 2.41,
+        "change_24h": -4.04,
         "asset": "crypto"
       },
       {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "price": 77.33,
-        "change_24h": -2.1,
+        "symbol": "ETC",
+        "name": "Ethereum Classic",
+        "price": 7.69,
+        "change_24h": -2.29,
         "asset": "crypto"
       }
     ]
