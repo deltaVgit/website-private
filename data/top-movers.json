@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T10:30:27Z",
+  "updated_at": "2026-08-24T10:54:10Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.73,
+        "change_24h": 13.61,
+        "asset": "crypto"
+      },
+      {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
-        "price": 0.009484,
-        "change_24h": 12.89,
+        "price": 0.009401,
+        "change_24h": 11.9,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.526844,
-        "change_24h": 10.46,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.125645,
-        "change_24h": 7.7,
+        "price": 0.525324,
+        "change_24h": 10.2,
         "asset": "crypto"
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 136.68,
-        "change_24h": 7.64,
+        "price": 136.16,
+        "change_24h": 7.95,
         "asset": "crypto"
       },
       {
-        "symbol": "XDC",
-        "name": "XDC Network",
-        "price": 0.030904,
-        "change_24h": 7.59,
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.125353,
+        "change_24h": 7.71,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.159312,
-        "change_24h": -10.64,
-        "asset": "crypto"
-      },
-      {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.405458,
-        "change_24h": -6.39,
+        "price": 0.378428,
+        "change_24h": -13.27,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004929,
-        "change_24h": -5.02,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.158745,
+        "change_24h": -7.77,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.099949,
-        "change_24h": -4.84,
+        "price": 0.099613,
+        "change_24h": -4.68,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.005001,
+        "change_24h": -3.18,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 423.95,
-        "change_24h": -2.42,
+        "price": 422.04,
+        "change_24h": -1.85,
         "asset": "crypto"
       }
     ]
