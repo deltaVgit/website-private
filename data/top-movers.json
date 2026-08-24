@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T08:45:28Z",
+  "updated_at": "2026-08-24T09:07:31Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "PENGU",
+        "name": "Pudgy Penguins",
+        "price": 0.009551,
+        "change_24h": 14.99,
+        "asset": "crypto"
+      },
+      {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 138.07,
-        "change_24h": 11.41,
+        "price": 139.44,
+        "change_24h": 11.9,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.522811,
-        "change_24h": 10.01,
+        "price": 0.523237,
+        "change_24h": 9.77,
         "asset": "crypto"
       },
       {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.633034,
-        "change_24h": 8.77,
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price": 0.030662,
+        "change_24h": 7.19,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.124206,
-        "change_24h": 7.79,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 3.52,
-        "change_24h": 7.33,
+        "price": 0.123699,
+        "change_24h": 6.85,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004834,
-        "change_24h": -7.07,
+        "price": 0.004874,
+        "change_24h": -6.6,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.423224,
-        "change_24h": -5.83,
+        "price": 0.418528,
+        "change_24h": -5.38,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.099962,
-        "change_24h": -5.17,
+        "price": 0.09972,
+        "change_24h": -5.34,
         "asset": "crypto"
       },
       {
-        "symbol": "TRUMP",
-        "name": "Official Trump",
-        "price": 2.41,
-        "change_24h": -4.04,
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 422.03,
+        "change_24h": -3.38,
         "asset": "crypto"
       },
       {
-        "symbol": "ETC",
-        "name": "Ethereum Classic",
-        "price": 7.69,
-        "change_24h": -2.29,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.161863,
+        "change_24h": -2.91,
         "asset": "crypto"
       }
     ]
