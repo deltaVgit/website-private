@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-08-24T14:53:56Z",
+  "updated_at": "2026-08-24T16:37:24Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "EZPW",
-        "name": "EZCORP, Inc.",
-        "price": 34.62,
-        "change_24h": 7.45,
+        "symbol": "SA",
+        "name": "Seabridge Gold, Inc.",
+        "price": 32.75,
+        "change_24h": 8.59,
+        "asset": "equity"
+      },
+      {
+        "symbol": "BMNR",
+        "name": "BitMine Immersion Technologies,",
+        "price": 24.79,
+        "change_24h": 8.58,
         "asset": "equity"
       },
       {
         "symbol": "NG",
         "name": "Novagold Resources Inc.",
-        "price": 9.225,
-        "change_24h": 5.79,
+        "price": 9.39,
+        "change_24h": 7.68,
         "asset": "equity"
       },
       {
         "symbol": "VERA",
         "name": "Vera Therapeutics, Inc.",
-        "price": 34.58,
-        "change_24h": 7.13,
+        "price": 34.23,
+        "change_24h": 6.07,
         "asset": "equity"
       },
       {
-        "symbol": "LIFE",
-        "name": "Ethos Technologies Inc.",
-        "price": 36.6,
-        "change_24h": 7.14,
-        "asset": "equity"
-      },
-      {
-        "symbol": "CLF",
-        "name": "Cleveland-Cliffs Inc.",
-        "price": 11.93,
-        "change_24h": 5.89,
+        "symbol": "EZPW",
+        "name": "EZCORP, Inc.",
+        "price": 34.21,
+        "change_24h": 6.18,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "price": 110.49,
-        "change_24h": -11.49,
+        "price": 111.36,
+        "change_24h": -10.78,
         "asset": "equity"
       },
       {
-        "symbol": "PONY",
-        "name": "Pony AI Inc.",
-        "price": 7.505,
-        "change_24h": -8.81,
-        "asset": "equity"
-      },
-      {
-        "symbol": "SLS",
-        "name": "SELLAS Life Sciences Group, Inc",
-        "price": 14.07,
-        "change_24h": -9.01,
-        "asset": "equity"
-      },
-      {
-        "symbol": "NBTX",
-        "name": "Nanobiotix S.A.",
-        "price": 39.77,
-        "change_24h": -8.68,
+        "symbol": "INOD",
+        "name": "Innodata Inc.",
+        "price": 58.28,
+        "change_24h": -9.24,
         "asset": "equity"
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "price": 64.76,
-        "change_24h": -8.45,
+        "price": 64.78,
+        "change_24h": -8.43,
+        "asset": "equity"
+      },
+      {
+        "symbol": "PONY",
+        "name": "Pony AI Inc.",
+        "price": 7.555,
+        "change_24h": -8.2,
+        "asset": "equity"
+      },
+      {
+        "symbol": "NBTX",
+        "name": "Nanobiotix S.A.",
+        "price": 39.99,
+        "change_24h": -8.17,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "PENGU",
-        "name": "Pudgy Penguins",
-        "price": 0.009549,
-        "change_24h": 11.67,
-        "asset": "crypto"
-      },
-      {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 5.67,
-        "change_24h": 10.25,
+        "price": 5.88,
+        "change_24h": 10.89,
         "asset": "crypto"
       },
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.116779,
-        "change_24h": 8.27,
+        "price": 0.117042,
+        "change_24h": 9.25,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.01488,
+        "change_24h": 6.31,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.128348,
-        "change_24h": 7.79,
+        "price": 0.125862,
+        "change_24h": 5.56,
         "asset": "crypto"
       },
       {
-        "symbol": "MNT",
-        "name": "Mantle",
-        "price": 0.533818,
-        "change_24h": 7.13,
+        "symbol": "CRO",
+        "name": "Cronos",
+        "price": 0.061917,
+        "change_24h": 5.35,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
-        "price": 2.49,
-        "change_24h": -9.21,
+        "price": 2.5,
+        "change_24h": -7.44,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004971,
-        "change_24h": -6.95,
+        "price": 0.004915,
+        "change_24h": -5.62,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.160778,
-        "change_24h": -5.78,
+        "price": 0.159844,
+        "change_24h": -4.66,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 4.37,
-        "change_24h": -2.79,
+        "price": 4.36,
+        "change_24h": -4.11,
         "asset": "crypto"
       },
       {
-        "symbol": "ATOM",
-        "name": "Cosmos Hub",
-        "price": 1.56,
-        "change_24h": -2.46,
+        "symbol": "AAVE",
+        "name": "Aave",
+        "price": 136.46,
+        "change_24h": -2.51,
         "asset": "crypto"
       }
     ]
