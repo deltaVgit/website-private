@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T09:37:18Z",
+  "updatedAt": "2026-08-24T07:42:08Z",
   "kev": [
     {
       "cve": "CVE-2026-73570",
@@ -130,74 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-15413",
+      "id": "CVE-2026-72811",
       "severity": "CRITICAL",
       "score": 10.0,
-      "description": "The Link Factory WordPress plugin is a backdoor. Distributed as a \"homepage sentence publisher\", it exposes an operator-controlled REST API under /wp-json/link-factory/v1/ - authenticated by a detached Ed25519 signature ",
-      "published": "2026-08-13T09:17:12.153"
+      "description": "SiYuan versions <= v3.7.2 contain a SQL injection vulnerability in the backlink/mention search query (kernel/model/backlink.go), which concatenates stored block metadata (title, name, alias, anchor text) and the client-s",
+      "published": "2026-08-14T12:16:43.903"
     },
     {
-      "id": "CVE-2026-14182",
+      "id": "CVE-2026-12949",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "The Customer Email Verification for WooCommerce WordPress plugin before 3.2.6 does not correctly validate the email-verification activation code, relying on a loose comparison that an attacker can satisfy with a crafted ",
-      "published": "2026-08-13T06:17:37.887"
+      "description": "The Wishlist Member plugin for WordPress is vulnerable to Account Takeover via Insufficient Verification of Data Authenticity in versions up to and including 3.34.1. This is due to the wpm_register() function validating ",
+      "published": "2026-08-14T06:16:53.237"
     },
     {
-      "id": "CVE-2026-49819",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "UpSnap is a wake on lan web app. Versions 4.4.1 through 5.3.5 are vulnerable to a missing-authentication / privilege-escalation chain in `pb.HandlerInitSuperuser` (`backend/pb/handlers.go:249`), reachable as `POST /api/u",
-      "published": "2026-08-13T00:17:32.747"
-    },
-    {
-      "id": "CVE-2026-16770",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "PDF::WebKit versions through 1.2 for Perl allow argument injection into wkhtmltopdf via meta tags in the source document. For an HTML string or file source, the constructor collects every element in the document head thr",
-      "published": "2026-08-13T00:17:31.763"
-    },
-    {
-      "id": "CVE-2026-11840",
+      "id": "CVE-2026-19822",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "Zohocorp ManageEngine Password Manager Pro versions before 13232 and ManageEngine PAM360 versions before 8552 are vulnerable to authenticated SQL injection.",
-      "published": "2026-08-13T08:16:42.987"
+      "description": "A vulnerability was identified in Tenda W20E 15.11.0.6(1068_1546_841)_CN_TDC. This issue affects the function lstAdd of the file /goform/editQos of the component QoS Edit. Such manipulation of the argument qosListConnect",
+      "published": "2026-08-14T12:16:43.577"
     },
     {
-      "id": "CVE-2026-49473",
+      "id": "CVE-2026-19821",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "@cedar-policy/authorization-for-expressjs is an open-source Express.js middleware that integrates Cedar authorization into Express applications by mapping HTTP requests to Cedar actions and evaluating authorization polic",
-      "published": "2026-08-13T00:17:32.587"
+      "description": "A vulnerability was determined in Tenda AC12 15.03.06.23_multi_TD01. This vulnerability affects the function formSetRebootTimer of the file /goform/SetSysAutoRebbotCfg of the component httpd web management interface. Thi",
+      "published": "2026-08-14T11:16:57.573"
     },
     {
-      "id": "CVE-2026-46382",
+      "id": "CVE-2026-19815",
       "severity": "HIGH",
-      "score": 8.7,
-      "description": "The Meeting Room Booking System (MRBS) is a PHP-based application for booking meeting rooms. Prior to version 1.12.2, a user-supplied private/local URI can be made to be fetched without checks. Version 1.12.2 contains a ",
-      "published": "2026-08-13T00:17:32.090"
+      "score": 8.8,
+      "description": "A flaw has been found in TOTOLINK A800R 4.1.2cu.5137_B20200730. Affected by this vulnerability is the function setParentalRules of the file /cgi-bin/cstecgi.cgi of the component firewall.so. Executing a manipulation of t",
+      "published": "2026-08-14T09:16:48.880"
     },
     {
-      "id": "CVE-2026-18945",
+      "id": "CVE-2026-19814",
       "severity": "HIGH",
-      "score": 8.2,
-      "description": "The WP Helper Premium WordPress plugin before 4.7.6 does not verify the order key when rendering its custom order confirmation page or when handling the related AJAX actions, allowing unauthenticated users to view other ",
-      "published": "2026-08-13T06:17:38.120"
+      "score": 8.8,
+      "description": "A vulnerability was detected in TOTOLINK A800R 4.1.2cu.5137_B20200730. Affected is the function setMacQos of the file /cgi-bin/cstecgi.cgi of the component firewall.so. Performing a manipulation of the argument macAddres",
+      "published": "2026-08-14T09:16:47.883"
     },
     {
-      "id": "CVE-2026-13610",
+      "id": "CVE-2026-19813",
       "severity": "HIGH",
-      "score": 7.5,
-      "description": "The KiviCare WordPress plugin before 4.5.2 does not restrict the roles assignable through its unauthenticated registration endpoint, allowing unauthenticated attackers to create an active, privileged clinic-staff (doctor",
-      "published": "2026-08-13T06:17:37.780"
+      "score": 8.8,
+      "description": "A security vulnerability has been detected in TOTOLINK A800R 4.1.2cu.5137_B20200730. This impacts the function setMacFilterRules of the file /cgi-bin/cstecgi.cgi of the component firewall.so. Such manipulation of the arg",
+      "published": "2026-08-14T08:17:38.427"
     },
     {
-      "id": "CVE-2026-18146",
+      "id": "CVE-2026-19812",
       "severity": "HIGH",
-      "score": 7.2,
-      "description": "The Fluent Forms – Customizable Contact Forms, Survey, Quiz, & Conversational Form Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Notification Smartcode Values in all versions up to, and in",
-      "published": "2026-08-13T07:17:06.523"
+      "score": 8.8,
+      "description": "A weakness has been identified in TOTOLINK A800R 4.1.2cu.5137_B20200730. This affects the function UploadCustomModule of the file /cgi-bin/cstecgi.cgi of the component product.so. This manipulation of the argument File c",
+      "published": "2026-08-14T08:17:38.263"
+    },
+    {
+      "id": "CVE-2026-19811",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "A security flaw has been discovered in TOTOLINK A800R 4.1.2cu.5137_B20200730. The impacted element is the function setIpQosRules of the file /cgi-bin/cstecgi.cgi of the component firewall.so. The manipulation of the argu",
+      "published": "2026-08-14T07:16:52.627"
+    },
+    {
+      "id": "CVE-2026-19792",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "A security flaw has been discovered in Tenda G0 up to 20260625. Impacted is the function setPortMapping of the file /goform/module of the component httpd web management interface. Performing a manipulation of the argumen",
+      "published": "2026-08-14T05:16:59.030"
+    },
+    {
+      "id": "CVE-2026-19791",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "A weakness has been identified in Tenda G0 up to 20260625. The affected element is the function addStaticRoute of the file /goform/module of the component httpd web management interface. Executing a manipulation of the a",
+      "published": "2026-08-14T05:16:58.857"
+    },
+    {
+      "id": "CVE-2026-19790",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "A vulnerability was identified in Tenda G0 up to 20260625. This issue affects the function formSetPortMirror of the file /goform/module of the component httpd Web Management Interface. Such manipulation of the argument p",
+      "published": "2026-08-14T04:16:40.780"
     }
   ],
   "breaches": [
