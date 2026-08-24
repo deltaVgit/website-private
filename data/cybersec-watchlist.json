@@ -1,67 +1,107 @@
 [
   {
-    "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
-    "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
+    "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
+    "url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
+    "source": "BleepingComputer",
+    "summary": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
+    "added": "2026-08-24T15:17:16+00:00",
+    "expires": "2026-09-07T16:41:31Z"
+  },
+  {
+    "title": "Tricky 'SynkLoader' Multitool May Herald Ransomware",
+    "url": "https://www.darkreading.com/threat-intelligence/tricky-synkloader-multitool-ransomware",
+    "source": "Dark Reading",
+    "summary": "An advanced, multilingual malware family brings back a trick from yesteryear — screen hijacking — for effective password theft, along with a slew of novel features.",
+    "added": "2026-08-24T15:02:32+00:00",
+    "expires": "2026-09-07T16:41:32Z"
+  },
+  {
+    "title": "ToxicPanda Banking Trojan Matures into Enterprise Threat",
+    "url": "https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat",
+    "source": "Dark Reading",
+    "summary": "The latest version of the Android malware has new features that expand its global reach and put more than users' financial applications at risk.",
+    "added": "2026-08-24T14:34:59+00:00",
+    "expires": "2026-09-07T16:41:32Z"
+  },
+  {
+    "title": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
+    "url": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
     "source": "The Hacker News",
-    "summary": "Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media, technology, and gaming sectors",
-    "added": "2026-08-24T08:08:31+00:00",
-    "expires": "2026-09-07T09:11:17Z"
+    "summary": "A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet. That’s roughly the mood this week. Trusted tools turn hostile, old weak spots get fresh attention, AI makes e",
+    "added": "2026-08-24T14:32:10+00:00",
+    "expires": "2026-09-07T16:41:33Z"
   },
   {
-    "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
-    "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
+    "title": "Microsoft Teams now lets admins block external bots from meetings",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/",
     "source": "BleepingComputer",
-    "summary": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
-    "added": "2026-08-23T14:23:46+00:00",
-    "expires": "2026-09-07T09:11:15Z"
+    "summary": "Microsoft is rolling out a new Teams meeting protection policy that allows administrators to automatically block all identified external bots from joining Teams meetings. [...]",
+    "added": "2026-08-24T14:00:19+00:00",
+    "expires": "2026-09-07T16:41:31Z"
   },
   {
-    "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
-    "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
+    "title": "South Korean startup platform breach exposes key management failures",
+    "url": "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/",
+    "source": "BleepingComputer",
+    "summary": "A breach at South Korea's government-backed startup platform exposed encrypted personal data after an encryption key was included in an API. Penta Security explains why encryption keys must be securely managed and kept s",
+    "added": "2026-08-24T14:00:10+00:00",
+    "expires": "2026-09-07T16:41:31Z"
+  },
+  {
+    "title": "Microsoft: August updates break printing, PDF export in WPF apps",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/",
+    "source": "BleepingComputer",
+    "summary": "Microsoft has confirmed that .NET Framework updates released as part of the August 2026 Patch Tuesday are breaking printing and PDF export in WPF applications. [...]",
+    "added": "2026-08-24T12:40:21+00:00",
+    "expires": "2026-09-07T16:41:31Z"
+  },
+  {
+    "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
+    "url": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
     "source": "The Hacker News",
-    "summary": "The U.S. Department of Justice (DoJ) announced on Friday that ByteDance-owned TikTok will pay $400 million to settle a 2024 lawsuit accusing the company of violating child privacy laws in the country. As part of the sett",
-    "added": "2026-08-22T14:32:41+00:00",
-    "expires": "2026-09-07T09:11:17Z"
+    "summary": "Cybersecurity researchers have flagged two new malware families called WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups. According to findings from Gen ",
+    "added": "2026-08-24T12:35:36+00:00",
+    "expires": "2026-09-07T16:41:33Z"
   },
   {
-    "title": "Hackers infect Android car head units with proxy botnet malware",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
-    "source": "BleepingComputer",
-    "summary": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [...]",
-    "added": "2026-08-22T14:14:24+00:00",
-    "expires": "2026-09-07T09:11:15Z"
+    "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
+    "url": "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html",
+    "source": "The Hacker News",
+    "summary": "If your developers are using AI coding tools, you are probably already seeing the upside: faster development, more code, and less time spent on routine work. The harder part is what comes after. AI can also introduce ope",
+    "added": "2026-08-24T11:58:00+00:00",
+    "expires": "2026-09-07T16:41:33Z"
   },
   {
-    "title": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
-    "url": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/",
+    "title": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
+    "url": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
+    "source": "The Hacker News",
+    "summary": "Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management server that could allow an unauthenticated remote attacker to take over any use",
+    "added": "2026-08-24T11:56:34+00:00",
+    "expires": "2026-09-07T16:41:33Z"
+  },
+  {
+    "title": "Operation QUICSILVER Targets Myanmar Government and IT with QUICAgent Backdoor",
+    "url": "https://thehackernews.com/2026/08/operation-quicsilver-targets-myanmar.html",
+    "source": "The Hacker News",
+    "summary": "Cybersecurity researchers have flagged a cyber espionage campaign targeting Myanmar that uses graduation ceremony invitation lures to deliver a Go backdoor called QUICAgent. The campaign, codenamed Operation QUICSILVER, ",
+    "added": "2026-08-24T11:51:36+00:00",
+    "expires": "2026-09-07T16:41:33Z"
+  },
+  {
+    "title": "CISA orders urgent patching of actively exploited Zimbra flaw",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
     "source": "BleepingComputer",
-    "summary": "Windows named pipes provide fast interprocess communication, but weak access controls can expose privileged services to untrusted processes. ThreatLocker explains how endpoint verification, command authorization, strict ",
-    "added": "2026-08-22T13:00:09+00:00",
-    "expires": "2026-09-07T09:11:15Z"
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies to patch an actively exploited vulnerability in Zimbra Collaboration Suite (ZCS) within three days. [...]",
+    "added": "2026-08-24T10:45:12+00:00",
+    "expires": "2026-09-07T16:41:31Z"
   },
   {
     "title": "How an Emerging Industrial Protocol Family Could Put OT at Risk",
     "url": "https://www.darkreading.com/ics-ot-security/how-emerging-industrial-protocol-family-put-ot-at-risk",
     "source": "Dark Reading",
-    "summary": "New research shows how attacks against some unprotected TSN protocols could allow attackers to disrupt or manipulate physical processes",
+    "summary": "New research shows how attacks against some unprotected TSN protocols could allow attackers to disrupt or manipulate physical processes.",
     "added": "2026-08-21T20:24:42+00:00",
-    "expires": "2026-09-07T09:11:16Z"
-  },
-  {
-    "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
-    "url": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
-    "source": "The Hacker News",
-    "summary": "Cybersecurity researchers have discovered a set of trojanized npm packages that masquerade as working calendar and streak utilities but are engineered to stealthily deliver an artificial intelligence (AI)-powered Linux i",
-    "added": "2026-08-21T18:53:00+00:00",
-    "expires": "2026-09-07T09:11:17Z"
-  },
-  {
-    "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
-    "url": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
-    "source": "BleepingComputer",
-    "summary": "A previously unknown malware family dubbed SynkLoader is being distributed in Microsoft Teams phishing campaigns to steal credentials via a fake lock screen. [...]",
-    "added": "2026-08-21T18:01:30+00:00",
-    "expires": "2026-09-07T09:11:15Z"
+    "expires": "2026-09-07T16:41:32Z"
   },
   {
     "title": "OWASP Flags Top AI Skill Risks in New Security Blueprint",
@@ -69,31 +109,7 @@
     "source": "Dark Reading",
     "summary": "The Open Worldwide Application Security Project has a brand-new top 10 security list tailored for the modern era, and it debuts a Universal Skill Format to add consistency and security to the AI add-ons.",
     "added": "2026-08-21T17:36:53+00:00",
-    "expires": "2026-09-07T09:11:16Z"
-  },
-  {
-    "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
-    "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
-    "source": "BleepingComputer",
-    "summary": "More than 9,300 Amazon Web Services (AWS) access keys publicly exposed between August 2022 and August 2026 are still active and valid. [...]",
-    "added": "2026-08-21T15:55:15+00:00",
-    "expires": "2026-09-07T09:11:15Z"
-  },
-  {
-    "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
-    "url": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
-    "source": "The Hacker News",
-    "summary": "Check Point Research has disclosed a technique that uses Microsoft Defender's own legitimately signed boot-time remediation driver to perform arbitrary kernel-level file and registry operations on Windows systems ranging",
-    "added": "2026-08-21T15:52:10+00:00",
-    "expires": "2026-09-07T09:11:17Z"
-  },
-  {
-    "title": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
-    "url": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
-    "source": "The Hacker News",
-    "summary": "Cybersecurity researchers have flagged a new malware family that's specifically designed to infect Android-based vehicle head unit firmware developed by DoFun. Kaspersky, which discovered the threat in June 2026, said th",
-    "added": "2026-08-21T15:41:44+00:00",
-    "expires": "2026-09-07T09:11:17Z"
+    "expires": "2026-09-07T16:41:32Z"
   },
   {
     "title": "Calling on Cyber Pros to Help Defend City Hall",
@@ -101,23 +117,7 @@
     "source": "Dark Reading",
     "summary": "Government agencies with smaller budgets need support — and here's how you can help.",
     "added": "2026-08-21T14:00:00+00:00",
-    "expires": "2026-09-07T09:11:16Z"
-  },
-  {
-    "title": "OpenAI Adds Controls That Should've Been There Already",
-    "url": "https://www.darkreading.com/application-security/openai-adds-controls-already",
-    "source": "Dark Reading",
-    "summary": "The new AI security controls follow the Hugging Face incident last month, though many of these additions perhaps should have been in place prior to the frontier models escaping.",
-    "added": "2026-08-21T13:30:00+00:00",
-    "expires": "2026-09-07T09:11:16Z"
-  },
-  {
-    "title": "Hardware Makers Implement Post-Quantum Cryptography as Security Threats Near",
-    "url": "https://www.darkreading.com/cyber-risk/hardware-makers-implement-post-quantum-cryptography",
-    "source": "Dark Reading",
-    "summary": "The coming threat of super-powerful computers capable of cracking today’s algorithms requires upgrading encryption now. Tech companies have begun building defenses.",
-    "added": "2026-08-21T13:10:33+00:00",
-    "expires": "2026-09-07T09:11:16Z"
+    "expires": "2026-09-07T16:41:32Z"
   },
   {
     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
@@ -125,6 +125,6 @@
     "source": "CISA Advisories",
     "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-73570 Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability Thi",
     "added": "2026-08-21T12:00:00+00:00",
-    "expires": "2026-09-07T09:11:17Z"
+    "expires": "2026-09-07T16:41:33Z"
   }
 ]
