@@ -7,15 +7,16 @@ import { useState, useEffect, useCallback } from 'react';
 import { Item, PatentsData } from './types';
 
 // Data JSON lives on the gh-pages branch (legacy Pages root).
-// GitHub Pages CDN (deltav-cc.github.io) can lag cron force-pushes by hours
-// (observed: indices stuck on SPX+CSI while tip had SMI/STOXX/DAX).
-// Prefer jsDelivr @gh-pages (tracks git tip), then Pages, then raw.
+// Mirror order matters: first-success-wins, so a stale-but-valid response
+// freezes the whole view. raw.githubusercontent.com always serves git tip
+// (~30s propagation, CORS-open); jsDelivr tracks tip within minutes;
+// the github.io Pages CDN caches per-PoP up to hours after force-pushes,
+// so it goes LAST — it once served Aug-23 snapshots for a full day while
+// raw/jsDelivr were already fresh (observed 2026-08-24).
 const DATA_MIRRORS = [
-  // Pages first: same-origin for the deployed site and always fresh.
-  // jsDelivr caches @gh-pages and ignores query cache-busting, so it can be hours stale — fallback only.
+  'https://raw.githubusercontent.com/deltavgit/website-private/gh-pages',
+  'https://cdn.jsdelivr.net/gh/deltavgit/website-private@gh-pages',
   'https://deltavgit.github.io/website-private',
-  'https://cdn.jsdelivr.net/gh/deltaVgit/website-private@gh-pages',
-  'https://raw.githubusercontent.com/deltaVgit/website-private/gh-pages',
 ] as const;
 const DATA_BASE = DATA_MIRRORS[0]; // site asset base (HTML still on Pages)
 const BASE = DATA_BASE;
@@ -200,7 +201,26 @@ function rel(it: { title: string; source: string }) {
 }
 function notTweet(it: { source: string }) { return !XSOURCES.some(s => it.source?.toLowerCase().includes(s)); }
 
-const proxy = (url: string) => `https://proxy.hub.deltav.cc/?url=${encodeURIComponent(url)}`;
+// Proxy chain for cross-origin reads that need a relay (HF API, CISA KEV).
+// proxy.hub.deltav.cc (a CF Worker custom domain) went NXDOMAIN on 2026-08-24
+// and silently froze every dependent panel — never depend on one host again:
+// try direct first (some sources are CORS-open), then the worker if it's
+// ever revived, then a public CORS relay as last resort.
+const WORKER_PROXY = 'https://proxy.hub.deltav.cc/?url=';
+const PUBLIC_RELAY = 'https://corsproxy.io/?url=';
+const proxy = (url: string) => `${PUBLIC_RELAY}${encodeURIComponent(url)}`;
+const proxiedCandidates = (url: string): string[] => {
+  const enc = encodeURIComponent(url);
+  return [url, `${WORKER_PROXY}${enc}`, `${PUBLIC_RELAY}${enc}`];
+};
+/** fetchJson across the direct→worker→relay chain; first success wins. */
+const fetchJsonProxied = async (url: string, ms = 8000): Promise<any | null> => {
+  for (const u of proxiedCandidates(url)) {
+    const d = await fetchJsonOnce(u, ms);
+    if (d != null) return d;
+  }
+  return null;
+};
 
 /* ---- HF abliterated models (live fallback, AI tab only) ---- */
 const ABLITERATED_SEARCH =
@@ -646,7 +666,7 @@ export function useIntelData(activeTab: string = 'macro') {
             });
             return;
           }
-          const live = await fetchJson(proxy(ABLITERATED_SEARCH));
+          const live = await fetchJsonProxied(ABLITERATED_SEARCH);
           if (Array.isArray(live)) {
             merge({ abliterated: mapAbliterated(live), abliteratedAt: new Date().toISOString() });
           }
@@ -1086,9 +1106,14 @@ export function useIntelData(activeTab: string = 'macro') {
     ];
     const results = await Promise.allSettled(
       feeds.map(async (f) => {
-        // Direct first (CORS-open sources), then proxy
+        // Direct first (CORS-open sources), then worker, then public relay
         let xml = await fetchText(f.url, 10000);
-        if (!xml) xml = await fetchText(proxy(f.url), 12000);
+        if (!xml) {
+          for (const u of proxiedCandidates(f.url).slice(1)) {
+            xml = await fetchText(u, 12000);
+            if (xml) break;
+          }
+        }
         if (!xml) return [] as Item[];
         return parseRssItems(xml, f.source, f.cap || 4);
       }),
@@ -1112,7 +1137,7 @@ export function useIntelData(activeTab: string = 'macro') {
     const result: any = { kev: [], cves: [], breaches: [] };
     let liveHits = 0;
     await Promise.allSettled([
-      fetchJson(proxy('https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json')).then((d) => {
+      fetchJsonProxied('https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json').then((d) => {
         if (d) {
           // Prefer recently added KEV; keep 12 for filtering in UI
           const sorted = [...(d.vulnerabilities || [])].sort((a: any, b: any) =>
@@ -1130,7 +1155,7 @@ export function useIntelData(activeTab: string = 'macro') {
           if (result.kev.length) liveHits += 1;
         }
       }),
-      fetchJson(proxy('https://services.nvd.nist.gov/rest/json/cves/2.0?resultsPerPage=12')).then((d) => {
+      fetchJsonProxied('https://services.nvd.nist.gov/rest/json/cves/2.0?resultsPerPage=12').then((d) => {
         if (d) {
           result.cves = (d.vulnerabilities || []).map((v: any) => {
             const cve = v.cve || {};
@@ -1141,7 +1166,7 @@ export function useIntelData(activeTab: string = 'macro') {
           if (result.cves.length) liveHits += 1;
         }
       }),
-      fetchJson(proxy('https://haveibeenpwned.com/api/v3/breaches')).then((d) => {
+      fetchJsonProxied('https://haveibeenpwned.com/api/v3/breaches').then((d) => {
         if (d) {
           const list = (Array.isArray(d) ? d : [])
             .slice()
