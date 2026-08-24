@@ -1,28 +1,108 @@
 {
-  "updated": "2026-08-23T09:37:00Z",
+  "updated": "2026-08-24T07:41:49Z",
   "items": [
+    {
+      "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
+      "url": "https://arxiv.org/abs/2608.20341",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-08-24T04:00:00+00:00",
+      "summary": "arXiv:2608.20341v1 Announce Type: new Abstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (SDLC). Rich context handling and multi-step reasonin",
+      "tag": "ai"
+    },
+    {
+      "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
+      "url": "https://arxiv.org/abs/2608.20342",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-08-24T04:00:00+00:00",
+      "summary": "arXiv:2608.20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instances of Claude Code -",
+      "tag": "ai"
+    },
+    {
+      "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
+      "url": "https://arxiv.org/abs/2608.20378",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-08-24T04:00:00+00:00",
+      "summary": "arXiv:2608.20378v1 Announce Type: new Abstract: Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundational knowledge of harmful concepts acquired during ",
+      "tag": "ai"
+    },
+    {
+      "title": "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
+      "url": "https://arxiv.org/abs/2608.20379",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-08-24T04:00:00+00:00",
+      "summary": "arXiv:2608.20379v1 Announce Type: new Abstract: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agentic frameworks that orchestrate perception, memory, and decision-making around p",
+      "tag": "ai"
+    },
+    {
+      "title": "Bankruptcy Prediction via Hybrid Resampling and Stacking Ensemble Techniques with Explainable Artificial Intelligence (XAI)-Driven Analysis",
+      "url": "https://arxiv.org/abs/2608.20343",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-08-24T04:00:00+00:00",
+      "summary": "arXiv:2608.20343v1 Announce Type: new Abstract: This study develops and evaluates a bankruptcy prediction framework that integrates consensus-based feature selection, hybrid resampling, stacking ensembles, and explainable artificial intelligence to improve minority-class detectio",
+      "tag": "ai"
+    },
+    {
+      "title": "Machine Learning and ARIMA Model Averaging for Adaptive Public Health Forecasting: Comparative Evaluation and an Ontario COVID-19 Case Study",
+      "url": "https://arxiv.org/abs/2608.20406",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-08-24T04:00:00+00:00",
+      "summary": "arXiv:2608.20406v1 Announce Type: new Abstract: Public health forecasts must respond to abrupt changes in surveillance data without over-extrapolating noise, reporting artifacts, or temporary trends. We evaluated autoregressive integrated moving average (ARIMA), random forest, an",
+      "tag": "ai"
+    },
+    {
+      "title": "From Thermal Preference Prediction to Adaptive Thermal Intervention: A Reinforcement Learning Approach Using Physiological and Environmental Sensing",
+      "url": "https://arxiv.org/abs/2608.20423",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-08-24T04:00:00+00:00",
+      "summary": "arXiv:2608.20423v1 Announce Type: new Abstract: Personalised thermal comfort is essential for occupant wellbeing and for the development of more responsive building-control strategies, yet conventional Heating, Ventilation, and Air Conditioning (HVAC) systems rely on static setpo",
+      "tag": "ai"
+    },
+    {
+      "title": "Beyond Raw Transcripts: Structured Persona Extraction for LLM-Based Digital Twins",
+      "url": "https://arxiv.org/abs/2608.20344",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-08-24T04:00:00+00:00",
+      "summary": "arXiv:2608.20344v1 Announce Type: new Abstract: LLM-based \"digital twins\" aim to simulate how an individual would behavein new environments or respond to novel questions, given some representation of that individual's prior responses. A common approach constructs this representat",
+      "tag": "ai"
+    },
+    {
+      "title": "When Vocabulary Comprehension Fails Clinical Reasoning: Evaluating Therapy Bots' Safety Risks for Generation Alpha",
+      "url": "https://arxiv.org/abs/2608.20345",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-08-24T04:00:00+00:00",
+      "summary": "arXiv:2608.20345v1 Announce Type: new Abstract: Conversational AI systems have become informal mental health support resources for Generation Alpha (Gen Alpha, born 2010-2024), with 13.1% of U.S. adolescents (5.4 million) using generative AI for mental health advice. While these ",
+      "tag": "ai"
+    },
+    {
+      "title": "Building and Evaluating a Synthetic Bengali Speech Resource for Telecom Customer Care",
+      "url": "https://arxiv.org/abs/2608.20346",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-08-24T04:00:00+00:00",
+      "summary": "arXiv:2608.20346v1 Announce Type: new Abstract: Speech systems used in customer-facing applications often require domain-specific language coverage. We present a synthetic Bengali speech dataset for telecom customer-care scenarios. The dataset contains 10,000 audio-text pairs, ap",
+      "tag": "ai"
+    },
+    {
+      "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+      "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+      "source": "Simon Willison",
+      "published_at": "2026-08-23T20:24:52+00:00",
+      "summary": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\": Anthropic's \"annualized revenue\" for July is up to $65bn - it was $47bn in May, and I collected more histor",
+      "tag": "ai"
+    },
+    {
+      "title": "Quoting Drew Breunig",
+      "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
+      "source": "Simon Willison",
+      "published_at": "2026-08-23T19:55:30+00:00",
+      "summary": "Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems. But then Fable landed. It was (and still is!) incredible . But the cost was so ",
+      "tag": "ai"
+    },
     {
       "title": "Quoting Linus Torvalds",
       "url": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
       "source": "Simon Willison",
       "published_at": "2026-08-22T21:04:26+00:00",
       "summary": "And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work. I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it. I suspect tho",
-      "tag": "ai"
-    },
-    {
-      "title": "llm 0.33",
-      "url": "https://simonwillison.net/2026/Aug/22/llm/",
-      "source": "Simon Willison",
-      "published_at": "2026-08-22T17:01:16+00:00",
-      "summary": "Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2 . #1608 , #1631 I shipped a quick 0.32.1 fix for this yesterday, but this is the more comprehensive fix. llm embed and llm emb",
-      "tag": "ai"
-    },
-    {
-      "title": "More than just code review",
-      "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
-      "source": "Simon Willison",
-      "published_at": "2026-08-22T15:56:54+00:00",
-      "summary": "The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way. Sometimes this involves reviewing every line of code they have wri",
       "tag": "ai"
     },
     {
@@ -239,86 +319,6 @@
       "source": "Google DeepMind",
       "published_at": "2026-08-06T15:06:15+00:00",
       "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "From User Sequences to Scaling Laws: A Multi-Stage Architecture for Meta’s Ads Ranking",
-      "url": "https://engineering.fb.com/2026/08/05/ml-applications/from-user-sequences-to-scaling-laws-a-multi-stage-architecture-for-metas-ads-ranking/",
-      "source": "Meta Engineering",
-      "published_at": "2026-08-05T19:20:20+00:00",
-      "summary": "Every day, Meta’s recommendation platforms handle billions of user interactions, generating rich temporal signals that capture individual preferences and intent across products, ads, and content. In our 2024 post on sequence learning for ads recommendations, we showed how modelin",
-      "tag": "ai"
-    },
-    {
-      "title": "GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model",
-      "url": "https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/",
-      "source": "Meta Engineering",
-      "published_at": "2026-08-03T18:00:17+00:00",
-      "summary": "Meta’s Generative Ads Recommendation Model (GEM), the foundation model behind ads recommendations across Instagram and Facebook, now trains at LLM scale on several thousand of the latest-generation GPUs. This post goes into the details on how we achieved: doubling end-to-end (E2E",
-      "tag": "ai"
-    },
-    {
-      "title": "A Dynamical Model of AI Governability",
-      "url": "https://blog.eleuther.ai/dynamical-models-of-ai-governability/",
-      "source": "EleutherAI",
-      "published_at": "2026-07-13T00:00:00+00:00",
-      "summary": "A toy dynamical model of whether the AI workforce that builds future AI ends up cooperative or uncooperative: where the basin boundary lies, what current evidence says about which side we are on, and what would tell us we are on the good path.",
-      "tag": "ai"
-    },
-    {
-      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
-      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
-      "source": "NVIDIA AI",
-      "published_at": "2026-07-08T15:00:27+00:00",
-      "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open mo",
-      "tag": "ai"
-    },
-    {
-      "title": "Early Indicators of Reward Hacking via Reasoning Interpolation",
-      "url": "https://blog.eleuther.ai/reward-hacking-indicators/",
-      "source": "EleutherAI",
-      "published_at": "2026-04-15T00:00:00+00:00",
-      "summary": "Using importance sampling with fine-tuned donor prefills to predict reward hacking emergence during training",
-      "tag": "ai"
-    },
-    {
-      "title": "NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES",
-      "url": "https://blogs.nvidia.com/blog/2026-ces-special-presentation/",
-      "source": "NVIDIA AI",
-      "published_at": "2026-01-05T23:30:18+00:00",
-      "summary": "NVIDIA founder and CEO Jensen Huang took the stage at the Fontainebleau Las Vegas to open CES 2026, declaring that AI is scaling into every domain and every device. “Computing has been fundamentally reshaped as a result of accelerated computing, as a result of artificial intellig",
-      "tag": "ai"
-    },
-    {
-      "title": "As AI Grows More Complex, Model Builders Rely on NVIDIA",
-      "url": "https://blogs.nvidia.com/blog/leading-models-nvidia/",
-      "source": "NVIDIA AI",
-      "published_at": "2025-12-11T19:19:57+00:00",
-      "summary": "Unveiling what it describes as the most capable model series yet for professional knowledge work, OpenAI launched GPT-5.2 in December. The model was trained and deployed on NVIDIA infrastructure, including NVIDIA Hopper and GB200 NVL72 systems. GPT-5.3 Codex — the first OpenAI ag",
-      "tag": "ai"
-    },
-    {
-      "title": "Reward Hacking Resarch Update",
-      "url": "https://blog.eleuther.ai/reward_hacking/",
-      "source": "EleutherAI",
-      "published_at": "2025-10-07T00:00:00+00:00",
-      "summary": "Interim report on ongoing work on reward hacking",
-      "tag": "ai"
-    },
-    {
-      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
-      "url": "https://qwenlm.github.io/blog/qwen3guard/",
-      "source": "Qwen (Alibaba)",
-      "published_at": "2025-09-22T20:00:00+00:00",
-      "summary": "Tech Report GitHub Hugging Face ModelScope DISCORD Introduction We are excited to introduce Qwen3Guard, the first safety guardrail model in the Qwen family. Built upon the powerful Qwen3 foundation models and fine-tuned specifically for safety classificatoin, Qwen3Guard ensures r",
-      "tag": "ai"
-    },
-    {
-      "title": "Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency",
-      "url": "https://qwenlm.github.io/blog/qwen-image-edit/",
-      "source": "Qwen (Alibaba)",
-      "published_at": "2025-08-18T17:30:00+00:00",
-      "summary": "QWEN CHAT GITHUB HUGGING FACE MODELSCOPE DISCORD We are excited to introduce Qwen-Image-Edit, the image editing version of Qwen-Image. Built upon our 20B Qwen-Image model, Qwen-Image-Edit successfully extends Qwen-Image’s unique text rendering capabilities to image editing tasks,",
       "tag": "ai"
     }
   ],
