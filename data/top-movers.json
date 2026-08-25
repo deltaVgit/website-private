@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T09:28:42Z",
+  "updated_at": "2026-08-25T10:00:31Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "INJ",
-        "name": "Injective",
-        "price": 5.92,
-        "change_24h": 9.65,
-        "asset": "crypto"
-      },
-      {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.455309,
-        "change_24h": 9.4,
+        "price": 0.462705,
+        "change_24h": 13.29,
         "asset": "crypto"
       },
       {
-        "symbol": "POL",
-        "name": "POL (ex-MATIC)",
-        "price": 0.121695,
-        "change_24h": 7.23,
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 5.82,
+        "change_24h": 8.16,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.221672,
-        "change_24h": 6.28,
+        "price": 0.220985,
+        "change_24h": 6.55,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "POL",
+        "name": "POL (ex-MATIC)",
+        "price": 0.120611,
+        "change_24h": 5.52,
         "asset": "crypto"
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price": 100.38,
-        "change_24h": 6.17,
+        "price": 99.68,
+        "change_24h": 5.23,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "AAVE",
-        "name": "Aave",
-        "price": 130.02,
-        "change_24h": -7.68,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.150517,
+        "change_24h": -6.33,
         "asset": "crypto"
       },
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.151745,
-        "change_24h": -6.02,
+        "symbol": "AAVE",
+        "name": "Aave",
+        "price": 129.23,
+        "change_24h": -5.96,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.67,
-        "change_24h": -4.29,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.606337,
-        "change_24h": -3.66,
+        "price": 2.65,
+        "change_24h": -5.72,
         "asset": "crypto"
       },
       {
         "symbol": "LTC",
         "name": "Litecoin",
-        "price": 51.62,
-        "change_24h": -2.83,
+        "price": 51.22,
+        "change_24h": -3.76,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.604006,
+        "change_24h": -3.74,
         "asset": "crypto"
       }
     ]
