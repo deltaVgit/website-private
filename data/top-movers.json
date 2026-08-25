@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-08-25T17:02:33Z",
+  "updated_at": "2026-08-25T17:17:35Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "STDN",
         "name": "Standard Nuclear, Inc.",
-        "price": 14.26,
-        "change_24h": 19.44,
+        "price": 14.16,
+        "change_24h": 18.59,
         "asset": "equity"
       },
       {
         "symbol": "ABCL",
         "name": "AbCellera Biologics Inc.",
         "price": 12.29,
-        "change_24h": 15.83,
-        "asset": "equity"
-      },
-      {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "price": 157.79,
-        "change_24h": 13.61,
+        "change_24h": 15.88,
         "asset": "equity"
       },
       {
         "symbol": "GENB",
         "name": "Generate Biomedicines, Inc.",
-        "price": 19.96,
-        "change_24h": 12.63,
+        "price": 20.25,
+        "change_24h": 14.28,
+        "asset": "equity"
+      },
+      {
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "price": 157.49,
+        "change_24h": 13.4,
         "asset": "equity"
       },
       {
         "symbol": "RUM",
         "name": "RUM Group Inc.",
-        "price": 10.35,
-        "change_24h": 10.58,
+        "price": 10.44,
+        "change_24h": 11.54,
         "asset": "equity"
       }
     ],
@@ -43,15 +43,15 @@
       {
         "symbol": "DKS",
         "name": "Dick's Sporting Goods Inc",
-        "price": 127.72,
-        "change_24h": -28.78,
+        "price": 126.8,
+        "change_24h": -29.29,
         "asset": "equity"
       },
       {
         "symbol": "BETA",
         "name": "Beta Technologies, Inc.",
-        "price": 22.35,
-        "change_24h": -6.25,
+        "price": 22.25,
+        "change_24h": -6.67,
         "asset": "equity"
       },
       {
@@ -64,15 +64,15 @@
       {
         "symbol": "BBWI",
         "name": "Bath & Body Works, Inc.",
-        "price": 18.07,
-        "change_24h": -5.74,
+        "price": 18.0,
+        "change_24h": -6.1,
         "asset": "equity"
       },
       {
         "symbol": "ALB",
         "name": "Albemarle Corporation",
-        "price": 133.98,
-        "change_24h": -5.32,
+        "price": 134.13,
+        "change_24h": -5.22,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 3.54,
-        "change_24h": 7.56,
-        "asset": "crypto"
-      },
-      {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.126272,
-        "change_24h": 7.37,
+        "price": 0.12567,
+        "change_24h": 7.88,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 18.11,
-        "change_24h": 7.17,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.460781,
-        "change_24h": 6.84,
+        "price": 18.02,
+        "change_24h": 7.5,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.015801,
-        "change_24h": 6.82,
+        "price": 0.015722,
+        "change_24h": 6.35,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 3.49,
+        "change_24h": 6.16,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ASTER",
+        "name": "Aster",
+        "price": 0.707256,
+        "change_24h": 3.85,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
-        "price": 2.29,
-        "change_24h": -7.79,
+        "price": 2.28,
+        "change_24h": -8.27,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.585793,
-        "change_24h": -7.25,
+        "price": 0.58295,
+        "change_24h": -7.02,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004529,
-        "change_24h": -5.57,
+        "symbol": "AAVE",
+        "name": "Aave",
+        "price": 127.11,
+        "change_24h": -5.32,
         "asset": "crypto"
       },
       {
         "symbol": "FLR",
         "name": "Flare",
-        "price": 0.006682,
-        "change_24h": -5.37,
+        "price": 0.006666,
+        "change_24h": -5.22,
         "asset": "crypto"
       },
       {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "price": 2.55,
-        "change_24h": -5.3,
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.028115,
+        "change_24h": -4.99,
         "asset": "crypto"
       }
     ]
