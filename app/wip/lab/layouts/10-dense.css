@@ -1,0 +1,421 @@
+/* 10 — Dense, reference mode.
+   Owned entirely by 10-dense.tsx. Every selector is prefixed `lay-dense-`, and
+   the only unprefixed classes touched are course-* ones this layout renders
+   through the real block engine — always under `.lay-dense-root`, so nothing
+   here can reach another proposal or the live course. */
+
+@layer components {
+  /* Element + class so the density beats `.course-prose` (0,1,0) whatever the
+     order the two stylesheets land in the bundle. */
+  article.lay-dense-root {
+    /* Overwritten in px by the component once it has measured the lab picker. */
+    --lay-dense-top: 8.5rem;
+    /* Reference mode reads the whole column: the 43.7rem prose measure the
+       course sets on .course-p / .course-table / .course-measure is exactly
+       what a lookup page must not have. One variable, zero specificity war. */
+    --course-measure: none;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: var(--text-secondary);
+  }
+
+  /* ── Record header ──────────────────────────────────────────────────── */
+
+  .lay-dense-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 0.9rem 2rem;
+    padding-bottom: 0.85rem;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+  .lay-dense-ident {
+    min-width: 0;
+    flex: 1 1 22rem;
+  }
+  .lay-dense-id {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    line-height: 1.4;
+    letter-spacing: 0.04em;
+    color: var(--text-muted);
+  }
+  .lay-dense-id b {
+    font-weight: 600;
+    color: var(--course-accent);
+  }
+  .lay-dense-title {
+    margin-top: 0.3rem;
+    font-size: 1.5rem;
+    line-height: 1.14;
+    letter-spacing: -0.022em;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+  .lay-dense-sub {
+    margin-top: 0.35rem;
+    font-size: 0.8125rem;
+    line-height: 1.5;
+    color: var(--text-tertiary);
+  }
+
+  .lay-dense-stats {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: var(--font-mono);
+  }
+  .lay-dense-stat {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0.1rem;
+    padding: 0 0.75rem;
+    border-left: 1px solid var(--border-subtle);
+  }
+  .lay-dense-stat:first-child {
+    padding-left: 0;
+    border-left: 0;
+  }
+  .lay-dense-stat:last-child {
+    padding-right: 0;
+  }
+  .lay-dense-stat-n {
+    font-size: 1rem;
+    line-height: 1.1;
+    color: var(--text-primary);
+    font-variant-numeric: tabular-nums;
+  }
+  .lay-dense-stat-k {
+    font-size: 0.5625rem;
+    line-height: 1.1;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  /* ── Sticky mini-index ──────────────────────────────────────────────── */
+
+  .lay-dense-index {
+    position: sticky;
+    /* Sits directly under the lab picker (sticky at 4rem, z-30) and slides
+       beneath it rather than over it if the measurement is ever off. */
+    top: var(--lay-dense-top);
+    z-index: 12;
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin: 0 -0.5rem;
+    padding: 0.4rem 0.5rem 0.35rem;
+    max-height: 5.75rem;
+    overflow-y: auto;
+    background: var(--bg-base);
+    border-bottom: 1px solid var(--border-subtle);
+  }
+  .lay-dense-index-label {
+    flex-shrink: 0;
+    font-family: var(--font-mono);
+    font-size: 0.5625rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  .lay-dense-index-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem 0.25rem;
+    min-width: 0;
+  }
+  .lay-dense-index-link {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.35rem;
+    padding: 0.15rem 0.4rem;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    line-height: 1.35;
+    color: var(--text-tertiary);
+    transition:
+      color 0.15s ease,
+      border-color 0.15s ease,
+      background-color 0.15s ease;
+  }
+  .lay-dense-index-link:hover {
+    color: var(--text-primary);
+    border-color: var(--border-hover);
+  }
+  .lay-dense-index-link:focus-visible {
+    outline: 2px solid var(--course-accent);
+    outline-offset: 1px;
+  }
+  .lay-dense-index-link.is-active {
+    color: var(--course-accent);
+    border-color: color-mix(in srgb, var(--course-accent) 45%, transparent);
+    background: color-mix(in srgb, var(--course-accent) 9%, transparent);
+  }
+  .lay-dense-index-num {
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    color: var(--text-muted);
+  }
+  .lay-dense-index-link.is-active .lay-dense-index-num {
+    color: inherit;
+    opacity: 0.75;
+  }
+  .lay-dense-index-sig {
+    font-size: 0.625rem;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+  }
+
+  /* ── Sections ───────────────────────────────────────────────────────── */
+
+  .lay-dense-body {
+    counter-reset: lay-dense-sec;
+    margin-top: 1.15rem;
+  }
+  .lay-dense-sec + .lay-dense-sec {
+    margin-top: 1.5rem;
+  }
+  /* `course-h2` stays on the element — OnThisPage queries that exact class to
+     build the right rail. Only the scale is ours. */
+  /* The row carries the layout; the heading carries only its own text, so the
+     right rail reads it cleanly. */
+  .lay-dense-root .lay-dense-h-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    counter-increment: lay-dense-sec;
+  }
+  .lay-dense-root .lay-dense-h-row::before {
+    content: counter(lay-dense-sec, decimal-leading-zero);
+    flex-shrink: 0;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    font-weight: 500;
+    color: var(--course-accent);
+  }
+  .lay-dense-root .lay-dense-h {
+    flex: 1 1 auto;
+    min-width: 0;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--border-subtle);
+    font-size: 1.0625rem;
+    line-height: 1.3;
+    letter-spacing: -0.008em;
+    /* Clears the site header, the lab picker and this layout's own index. */
+    scroll-margin-top: calc(var(--lay-dense-top) + 3.75rem);
+  }
+  .lay-dense-h-num {
+    flex-shrink: 0;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    font-weight: 500;
+    color: var(--course-accent);
+  }
+  .lay-dense-h-tag {
+    margin-left: auto;
+    flex-shrink: 0;
+    padding: 0.05rem 0.35rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 3px;
+    font-family: var(--font-mono);
+    font-size: 0.5625rem;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  /* ── Two-column prose runs ──────────────────────────────────────────── */
+
+  /* `column-width` + `column-count` together: two columns when there is room
+     for two 16rem measures, one when there is not. No breakpoint to maintain,
+     and it is correct inside the 1fr grid column at every container width. */
+  .lay-dense-flow {
+    margin-top: 0.65rem;
+    column-width: 16rem;
+    column-count: 2;
+    column-gap: 1.75rem;
+    column-rule: 1px solid var(--border-subtle);
+  }
+  .lay-dense-solo {
+    margin-top: 0.65rem;
+  }
+  .lay-dense-flow > *,
+  .lay-dense-solo > * {
+    margin: 0 0 0.6rem;
+  }
+  .lay-dense-flow > :last-child,
+  .lay-dense-solo > :last-child {
+    margin-bottom: 0;
+  }
+  /* A callout or a list split down the middle of a column rule is unreadable;
+     a paragraph is not, so paragraphs are still allowed to flow. */
+  .lay-dense-flow > .course-callout,
+  .lay-dense-flow > .course-list {
+    break-inside: avoid;
+  }
+
+  .lay-dense-wide {
+    margin-top: 0.65rem;
+  }
+  /* Blocks whose components carry their own Tailwind top margin (mt-7, mt-5) —
+     utilities outrank this layer, so the wrapper pulls them back instead. */
+  .lay-dense-wide--quiz {
+    margin-top: -1rem;
+  }
+  .lay-dense-wide--checklist,
+  .lay-dense-wide--steps {
+    margin-top: -0.55rem;
+  }
+
+  /* ── Condensed block engine ─────────────────────────────────────────── */
+
+  .lay-dense-root .course-p,
+  .lay-dense-root .course-list {
+    font-size: 0.875rem;
+    line-height: 1.52;
+  }
+  .lay-dense-root .course-lead {
+    font-size: 0.9375rem;
+    line-height: 1.55;
+    color: var(--text-primary);
+  }
+  .lay-dense-root .course-list > li + li {
+    margin-top: 0.25em;
+  }
+  .lay-dense-root .course-callout {
+    padding: 0.55rem 0.75rem;
+    border-radius: 0.375rem;
+    font-size: 0.8125rem;
+    line-height: 1.5;
+  }
+  .lay-dense-root .course-table-wrap {
+    border-radius: 0.375rem;
+  }
+  .lay-dense-root .course-table {
+    font-size: 0.78125rem;
+  }
+  .lay-dense-root .course-table th {
+    padding: 0.4rem 0.65rem;
+  }
+  .lay-dense-root .course-table td {
+    padding: 0.4rem 0.65rem;
+    line-height: 1.45;
+  }
+  .lay-dense-root .course-code-block {
+    margin: 0;
+    border-radius: 0.375rem;
+  }
+  .lay-dense-root .course-code-head {
+    padding: 0.3rem 0.5rem 0.3rem 0.7rem;
+  }
+  .lay-dense-root .course-code-pre {
+    padding: 0.55rem 0.7rem;
+    font-size: 0.78125rem;
+    line-height: 1.5;
+  }
+  .lay-dense-root .course-code-note {
+    padding: 0.4rem 0.7rem 0.5rem;
+    font-size: 0.71875rem;
+  }
+  .lay-dense-root .course-step-list {
+    margin-top: 0;
+  }
+  .lay-dense-root .course-lex-card {
+    padding: 0.75rem 0.8rem;
+    border-radius: 0.375rem;
+  }
+  .lay-dense-root .course-lex-term {
+    font-size: 0.875rem;
+  }
+  .lay-dense-root .course-links {
+    padding-top: 0.7rem;
+  }
+  .lay-dense-root .course-refs-summary {
+    font-size: 0.75rem;
+  }
+
+  /* ── Contact sheet ──────────────────────────────────────────────────── */
+
+  .lay-dense-plates-wrap {
+    margin-top: 0.65rem;
+  }
+  .lay-dense-plates-label {
+    margin-bottom: 0.3rem;
+    font-family: var(--font-mono);
+    font-size: 0.5625rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  .lay-dense-plates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .lay-dense-plate {
+    width: 9.5rem;
+    max-width: 100%;
+  }
+  /* CourseShot keeps its dialog, its zoom and its keyboard handling — only the
+     resting size changes, so ten screenshots cost two rows instead of ten
+     screens. Three classes deep to clear `.course-prose .course-shot`. */
+  .lay-dense-root .lay-dense-plate .course-shot {
+    margin-top: 0;
+    border-radius: 0.375rem;
+    border-color: var(--border-subtle);
+  }
+  .lay-dense-root .lay-dense-plate .course-shot img {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: left top;
+  }
+  .lay-dense-root .lay-dense-plate .course-shot-zoom {
+    right: 0.25rem;
+    bottom: 0.25rem;
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.25rem;
+    font-size: 0.5625rem;
+    letter-spacing: 0;
+  }
+  .lay-dense-root .lay-dense-plate .course-shot figcaption {
+    padding: 0.3rem 0.45rem 0.4rem;
+    font-size: 0.6875rem;
+    line-height: 1.35;
+  }
+
+  /* ── Foot ───────────────────────────────────────────────────────────── */
+
+  .lay-dense-foot {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 0.75rem 2rem;
+    margin-top: 1.75rem;
+    padding-top: 0.9rem;
+    border-top: 1px solid var(--border-subtle);
+  }
+  .lay-dense-foot-col {
+    min-width: 0;
+    flex: 1 1 20rem;
+  }
+  .lay-dense-foot-col--end {
+    flex: 0 0 auto;
+  }
+  .lay-dense-foot-title {
+    font-family: var(--font-mono);
+    font-size: 0.5625rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .lay-dense-index-link {
+      transition: none;
+    }
+  }
+}

@@ -1,0 +1,258 @@
+/* 02 — Text and media facing each other.
+   Two measures, side by side: a narrow reading column and a media gutter,
+   one grid row per section. Everything here is scoped to `lay-gutter-`. */
+
+@layer components {
+  .lay-gutter {
+    /* The whole proposal in four numbers. */
+    --lay-gutter-text: 34rem;
+    --lay-gutter-media: 25rem;
+    --lay-gutter-gap: 3.25rem;
+    /* Clears the site header + the sticky lab picker. */
+    --lay-gutter-top: 7.5rem;
+
+    max-width: calc(var(--lay-gutter-text) + var(--lay-gutter-media) + var(--lay-gutter-gap));
+    margin-inline: auto;
+  }
+
+  /* One row per section: the text on the left, everything that is looked at
+     rather than read on the right, both starting on the same line. */
+  .lay-gutter-row {
+    display: grid;
+    grid-template-columns: minmax(0, var(--lay-gutter-text)) minmax(0, var(--lay-gutter-media));
+    column-gap: var(--lay-gutter-gap);
+  }
+
+  /* The rule spans both columns, so the row boundary — and therefore the
+     pairing — is visible rather than implied. */
+  .lay-gutter-row + .lay-gutter-row {
+    margin-top: 3.25rem;
+    padding-top: 3.25rem;
+    border-top: 1px solid var(--border-subtle);
+  }
+
+  .lay-gutter-row--head .lay-gutter-text {
+    padding-bottom: 0.5rem;
+  }
+
+  .lay-gutter-text,
+  .lay-gutter-side {
+    min-width: 0;
+  }
+
+  .lay-gutter-text > .course-blocks {
+    margin-top: 1.15rem;
+  }
+
+  /* The cell stretches to the row height; this is what makes the visuals
+     travel with the paragraphs that describe them. */
+  .lay-gutter-sticky {
+    position: sticky;
+    top: var(--lay-gutter-top);
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+  }
+
+  /* Section marker. On a lesson with no visuals at all it is the only thing
+     in the gutter, and it follows the section down. */
+  .lay-gutter-tag {
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    line-height: 1;
+    letter-spacing: 0.14em;
+    color: var(--text-muted);
+    padding-top: 0.55rem;
+  }
+  .lay-gutter-row--head .lay-gutter-sticky {
+    padding-top: 0.35rem;
+  }
+
+  /* ── One item in the gutter ─────────────────────────────────────────── */
+
+  .lay-gutter-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+    scroll-margin-top: calc(var(--lay-gutter-top) + 1rem);
+  }
+
+  .lay-gutter-item-head {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    line-height: 1;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+  }
+  .lay-gutter-item-num {
+    color: var(--course-accent);
+  }
+  .lay-gutter-item-rule {
+    flex: 1;
+    height: 1px;
+    background: var(--border-subtle);
+  }
+
+  /* ── Header index: only when the lesson actually has visuals ────────── */
+
+  .lay-gutter-index {
+    border: 1px solid var(--border-subtle);
+    border-radius: 0.5rem;
+    background: var(--surface-card);
+    padding: 0.9rem 1rem 0.5rem;
+  }
+  .lay-gutter-index-title {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    line-height: 1;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+  }
+  .lay-gutter-index-count {
+    color: var(--course-accent);
+  }
+  .lay-gutter-index-list {
+    list-style: none;
+    margin: 0.6rem 0 0;
+    padding: 0;
+  }
+  .lay-gutter-index-list li + li {
+    border-top: 1px solid var(--border-subtle);
+  }
+
+  .lay-gutter-idx {
+    display: grid;
+    grid-template-columns: 1.75rem minmax(0, 1fr);
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color var(--duration-fast, 150ms) var(--ease-smooth, ease);
+  }
+  .lay-gutter-idx:hover,
+  .lay-gutter-idx:focus-visible {
+    color: var(--text-primary);
+  }
+  .lay-gutter-idx-num {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    line-height: 1.5;
+    color: var(--text-muted);
+    transition: color var(--duration-fast, 150ms) var(--ease-smooth, ease);
+  }
+  .lay-gutter-idx:hover .lay-gutter-idx-num,
+  .lay-gutter-idx:focus-visible .lay-gutter-idx-num {
+    color: var(--course-accent);
+  }
+  .lay-gutter-idx-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    min-width: 0;
+  }
+  .lay-gutter-idx-kind {
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  .lay-gutter-idx-label {
+    font-size: 0.8125rem;
+    line-height: 1.4;
+    /* Clamped, never shortened: the words stay the author's. */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* ── Making real blocks fit a 25rem gutter ──────────────────────────── */
+
+  .lay-gutter-side .course-shot,
+  .lay-gutter-side figure {
+    margin: 0;
+  }
+  .lay-gutter-side .course-table {
+    font-size: 0.8125rem;
+    line-height: 1.45;
+  }
+  .lay-gutter-side .course-table :is(th, td) {
+    padding: 0.45rem 0.6rem;
+  }
+  .lay-gutter-side .course-code-pre {
+    font-size: 0.78125rem;
+    padding: 0.7rem 0.85rem;
+  }
+  .lay-gutter-side .course-callout {
+    font-size: 0.9375rem;
+    line-height: 1.55;
+  }
+  /* Captions are read at gutter width, so they get the small size the rest of
+     the marginalia uses. */
+  .lay-gutter-side :is(figcaption, .course-code-note) {
+    font-size: 0.78125rem;
+  }
+
+  /* A 34rem reading column cannot host a three-across card grid — the lexicon
+     and the copy-cards stack instead. Tailwind's grid-cols utilities sit in a
+     later cascade layer, hence the override. */
+  .lay-gutter-text .course-grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  /* ── Collapse: the gutter goes under the section it belongs to ──────── */
+
+  @media (max-width: 60rem) {
+    .lay-gutter {
+      max-width: var(--lay-gutter-text);
+    }
+    .lay-gutter-row {
+      grid-template-columns: minmax(0, 1fr);
+      row-gap: 2rem;
+    }
+    .lay-gutter-sticky {
+      position: static;
+      gap: 2rem;
+    }
+    /* Still an aside, just a stacked one. */
+    .lay-gutter-side .lay-gutter-sticky {
+      padding-left: 1.1rem;
+      border-left: 1px solid var(--border-subtle);
+    }
+    .lay-gutter-row--head .lay-gutter-sticky,
+    .lay-gutter-row--proof .lay-gutter-sticky {
+      padding-left: 0;
+      border-left: 0;
+    }
+    .lay-gutter-tag {
+      padding-top: 0;
+    }
+    .lay-gutter-row + .lay-gutter-row {
+      margin-top: 2.5rem;
+      padding-top: 2.5rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .lay-gutter-idx,
+    .lay-gutter-idx-num {
+      transition: none;
+    }
+    .lay-gutter-item {
+      scroll-behavior: auto;
+    }
+  }
+}

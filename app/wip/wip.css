@@ -1,0 +1,569 @@
+/* ══════════════════════════════════════════════════════════════════════
+   WIP — work in progress, this route tree only.
+
+   Everything here is a *proposal*. It is deliberately kept out of
+   `app/forge/course/course.css`, which the live course and every open PR
+   depend on: a fix that is still being judged must not be able to break
+   production or collide with someone else's branch.
+
+   The rules below are scoped to `.wip-surface`, which sits alongside
+   `.aih-surface` on the WIP pages only. Nothing leaks.
+
+   When a proposal is accepted, it graduates into course.css as its own
+   small PR. Until then it lives here.
+   ══════════════════════════════════════════════════════════════════════ */
+
+@layer components {
+  /* ══ Proposal 1 — one measure, not two ═══════════════════════════════
+
+     The live course gives text a ~72-character line while tables, figures
+     and card grids take the whole grid track. On lesson 03 — ten
+     screenshots interleaved with eighteen paragraphs — that alternates two
+     right edges all the way down the page.
+
+     The mechanism is an accident: the escape rule is keyed on the `figure`
+     *element* (`course.css`, "Structure breaks out of the prose measure"),
+     written when the only figures were diagrams. `CourseShot` was added two
+     days later and inherited it for free.
+
+     Here the reading column *is* the measure, so every block shares one
+     right edge. Anything genuinely too wide scrolls inside its own box.
+     Screenshots keep their click-to-enlarge for detail.
+
+     Side effect worth having: this closes the 1280–1364px dead zone, where
+     the column dropped from 894px to 615px on crossing the three-column
+     breakpoint — a 279px discontinuity nobody asked for. */
+  .wip-surface {
+    --course-col: var(--course-measure);
+  }
+
+  /* ══ Proposal 2 — one inset scale, not nine ══════════════════════════
+
+     Boxes carry nine different horizontal paddings today: 0.85, 0.9, 1,
+     1.05, 1.1, 1.15, 1.25 and 1.5rem. A callout's text starts 18.4px in
+     while the paragraph above it starts at 0, and a step 13.6px. Even with
+     the right edges aligned, the left ones never are, and the eye reads
+     that as "the boxes stop earlier".
+
+     Two steps: a panel is inset by --course-pad, a row inside a list by
+     --course-pad-row. Nothing else sets its own horizontal padding. */
+  .wip-surface .course-prose {
+    --course-pad: 1.25rem;
+    --course-pad-row: 0.85rem;
+  }
+  .wip-surface .course-prose
+    :is(
+      .course-callout,
+      .course-quiz,
+      .course-lex-card,
+      .course-soul-card,
+      .course-nav-card,
+      .course-remember,
+      .course-win-when,
+      .course-primary-sources,
+      .course-advanced-summary,
+      .course-advanced-body,
+      .course-fig-half
+    ) {
+    padding-inline: var(--course-pad);
+  }
+  .wip-surface .course-prose :is(.course-step, .course-check-item, .course-who-step) {
+    padding-inline: var(--course-pad-row);
+  }
+  /* Code blocks and table cells set their own insets too — 1rem and 1.25rem
+     against a callout's 1.25rem — so leaving them out left the exact
+     misalignment this proposal is about, in the block type lesson 03 has
+     most of. */
+  .wip-surface .course-prose .course-code-pre {
+    padding-inline: var(--course-pad);
+  }
+  .wip-surface .course-prose :is(.course-table th, .course-table td) {
+    padding-inline: var(--course-pad);
+  }
+
+  /* ══ Proposal 3 — the "On this page" rail ════════════════════════════
+
+     It was 11px furniture in --text-muted (3.42:1 on this surface) with
+     nothing to anchor the eye. It is a navigation aid, not a footnote:
+     13px body, the title lifted to --text-tertiary for contrast, and each
+     entry numbered in the course accent.
+
+     The counter lives in CSS, so `OnThisPage` needs no change at all. */
+  .wip-surface .course-rail-title {
+    color: var(--text-tertiary);
+  }
+  .wip-surface .course-rail-nav ol {
+    counter-reset: course-rail;
+  }
+  .wip-surface .course-rail-nav li {
+    counter-increment: course-rail;
+  }
+  .wip-surface .course-rail-link {
+    display: grid;
+    grid-template-columns: 1.6rem 1fr;
+    align-items: baseline;
+    padding: 0.34rem 0;
+    font-size: 0.8125rem;
+    line-height: 1.45;
+  }
+  .wip-surface .course-rail-link::before {
+    content: counter(course-rail, decimal-leading-zero);
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    color: var(--course-accent);
+    opacity: 0.75;
+  }
+  .wip-surface .course-rail-link.is-active::before {
+    opacity: 1;
+  }
+
+  /* ── WIP chrome ─────────────────────────────────────────────────────── */
+
+  .wip-banner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem 0.9rem;
+    margin-bottom: 1.25rem;
+    padding: 0.6rem 0.9rem;
+    border: 1px dashed color-mix(in srgb, var(--accent-warning) 45%, transparent);
+    border-radius: 6px;
+    background: color-mix(in srgb, var(--accent-warning) 6%, transparent);
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+  }
+  .wip-banner b {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--accent-warning);
+  }
+
+  .wip-index-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    gap: 0.85rem;
+    margin-top: 2rem;
+  }
+  .wip-card {
+    display: block;
+    padding: 1.15rem 1.25rem 1.3rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 10px;
+    background: var(--surface-card);
+    transition: border-color 0.15s, background-color 0.15s;
+  }
+  .wip-card:hover {
+    border-color: var(--border-hover);
+    background: var(--surface-card-hover, var(--surface-card));
+  }
+  .wip-card h2 {
+    font-size: 1.0625rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.35rem;
+  }
+  .wip-card p {
+    font-size: 0.875rem;
+    line-height: 1.55;
+    color: var(--text-secondary);
+  }
+  .wip-card .wip-state {
+    display: inline-block;
+    margin-top: 0.7rem;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.5px;
+    color: var(--course-accent, var(--accent-cyan));
+  }
+}
+
+@layer components {
+  .wip-card-num {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 1px;
+    color: var(--course-accent, var(--accent-cyan));
+  }
+}
+
+@layer components {
+  /* ══ Proposal 4 — the glossary popover ═══════════════════════════════
+
+     Two real defects, both reported from the page:
+
+     1. It paints itself with --bg-surface, which is rgba(16,23,20,.82) —
+        82% opaque. A tooltip that lets the paragraph underneath show through
+        is a tooltip you cannot read. Surfaces that float above content have
+        to be opaque; that is what --surface-overlay exists for.
+     2. Nothing wraps. A term whose definition contains a long unbroken token
+        (`%LOCALAPPDATA%\hermes\profiles\<profile>\`) pushes straight out of
+        the 20rem box.
+
+     Utilities beat components in the cascade, so overriding a Tailwind
+     arbitrary value needs !important here. In the real fix these classes
+     come off the component instead. */
+  .wip-surface .course-term-pop {
+    /* --surface-overlay is itself .94 alpha, so it alone is not enough. An
+       opaque base carries the tint on top of it: fully opaque, still themed. */
+    background-color: var(--bg-base) !important;
+    background-image: linear-gradient(var(--surface-overlay), var(--surface-overlay));
+    overflow-wrap: anywhere;
+    max-width: min(22rem, calc(100vw - 2rem)) !important;
+  }
+  .wip-surface .course-term-pop p,
+  .wip-surface .course-term-pop div {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+}
+
+@layer components {
+  /* ══ The correction report ═══════════════════════════════════════════
+
+     A proposal you cannot see is a proposal you cannot judge. Each patched
+     lesson ends with what changed and why, struck-through beside its
+     replacement, so the decision to ship it is made on the page rather than
+     from a list in a chat window. */
+  .wip-fixes {
+    margin-top: 3rem;
+    padding: 1rem 1.25rem 1.15rem;
+    border: 1px dashed color-mix(in srgb, var(--accent-warning) 40%, transparent);
+    border-radius: 8px;
+    background: color-mix(in srgb, var(--accent-warning) 5%, transparent);
+  }
+  .wip-fixes h2 {
+    margin-bottom: 0.7rem;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--accent-warning);
+  }
+  .wip-fixes ol {
+    counter-reset: wip-fix;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .wip-fixes li {
+    counter-increment: wip-fix;
+    padding: 0.55rem 0 0.55rem 1.7rem;
+    position: relative;
+    border-top: 1px solid var(--border-subtle);
+  }
+  .wip-fixes li:first-child {
+    border-top: 0;
+  }
+  .wip-fixes li::before {
+    content: counter(wip-fix, decimal-leading-zero);
+    position: absolute;
+    left: 0;
+    top: 0.7rem;
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    color: var(--accent-warning);
+  }
+  .wip-fix-diff {
+    font-size: 0.8125rem;
+    line-height: 1.6;
+  }
+  .wip-fix-diff del {
+    color: var(--text-muted);
+    text-decoration-color: color-mix(in srgb, var(--accent-danger, crimson) 70%, transparent);
+  }
+  .wip-fix-diff ins {
+    color: var(--text-primary);
+    text-decoration: none;
+    background: color-mix(in srgb, var(--course-accent, var(--accent-cyan)) 14%, transparent);
+    border-radius: 3px;
+    padding: 0 0.2em;
+  }
+  .wip-fix-why {
+    margin-top: 0.35rem;
+    font-size: 0.8125rem;
+    line-height: 1.55;
+    color: var(--text-secondary);
+  }
+  .wip-fix-stale {
+    margin-top: 0.7rem;
+    font-size: 0.8125rem;
+    color: var(--accent-warning);
+  }
+}
+
+@layer components {
+  /* The French cost of a correction, shown with it. The FR file is keyed on the
+     English string, so correcting the English orphans the translation. */
+  .wip-fix-fr {
+    margin-top: 0.3rem;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    line-height: 1.5;
+    color: var(--accent-warning);
+  }
+}
+
+@layer components {
+  /* ══ Proposal 5 — centre the reading column ══════════════════════════
+
+     Below 1280px the right rail is hidden, and below 1024px the left table of
+     contents goes too, but the grid track keeps the full width. The reading
+     column stayed pinned to its left edge, so at 1022px the page measured 0px
+     of空 on the left and 255px on the right: the text looked shoved against
+     the margin with a hole beside it.
+
+     Centring inside the track is a no-op at 1280px and above, where the track
+     already equals the measure, and fixes every width below it. */
+  .wip-surface .course-reading {
+    justify-self: center;
+    width: 100%;
+    max-width: var(--course-measure);
+  }
+
+  /* ══ Proposal 6 — make the rail's current section obvious ═════════════
+
+     The rail was readable after Proposal 3, but the only thing separating the
+     current section from the other twelve was the accent colour on a 11px
+     numeral. That is a difference you have to look for. A tinted band and a
+     rule on the leading edge make it something you see without looking. */
+  .wip-surface .course-rail-link {
+    position: relative;
+    padding-inline: 0.55rem 0.4rem;
+    border-radius: 4px;
+    transition: background-color 0.15s, color 0.15s;
+  }
+  .wip-surface .course-rail-link::after {
+    content: '';
+    position: absolute;
+    inset-block: 0.18rem;
+    inset-inline-start: 0;
+    width: 2px;
+    border-radius: 2px;
+    background: var(--course-accent);
+    opacity: 0;
+    transition: opacity 0.15s;
+  }
+  .wip-surface .course-rail-link:hover {
+    background: color-mix(in srgb, var(--course-accent) 7%, transparent);
+    color: var(--text-secondary);
+  }
+  .wip-surface .course-rail-link.is-active {
+    background: color-mix(in srgb, var(--course-accent) 13%, transparent);
+    color: var(--text-primary);
+  }
+  .wip-surface .course-rail-link.is-active::after {
+    opacity: 1;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .wip-surface .course-rail-link,
+    .wip-surface .course-rail-link::after {
+      transition: none;
+    }
+  }
+}
+
+@layer components {
+  /* ══ Proposal 7 — give the rail the room that is already there ════════
+
+     Measured at 2030px: eight entries out of eight wrapped, most onto three
+     lines, inside a 14rem rail — while 329px of the window sat unused beside
+     it, because the page container caps at 1440px.
+
+     Widening the rail costs nothing here: the space comes out of a reading
+     track that was already wider than its measure, so the prose does not move
+     and the left table of contents does not either. At 21rem all eight entries
+     fit on one line, measured on the text rectangles rather than on the box,
+     which counts padding as a line. Two steps so the rail grows with the
+     window instead of jumping. */
+  @media (min-width: 1536px) {
+    .wip-surface .course-layout {
+      grid-template-columns: 15rem minmax(0, 1fr) 18rem;
+    }
+  }
+  @media (min-width: 1800px) {
+    .wip-surface .course-layout {
+      grid-template-columns: 15rem minmax(0, 1fr) 21rem;
+    }
+  }
+}
+
+@layer components {
+  /* ══ Proposal 8 — section headings ═══════════════════════════════════
+
+     Measured: an h2 had `margin-bottom: 0`, no rule, and no marker, so a new
+     section began with nothing but a size change to announce it. Six headings
+     out of seventy-two also carried a hand-typed number, all in one module,
+     which is why the numbering looked broken rather than absent.
+
+     The number is a counter here, so it belongs to the layout and stays right
+     when a section moves. The icon comes from HeadingMarks, which reads the
+     heading's own words. Which of the two you see is a choice, kept live in
+     `data-h2` so the three can be compared on the page instead of described. */
+  .wip-surface .course-prose {
+    counter-reset: wip-h2;
+  }
+  .wip-surface .course-prose section > h2 {
+    counter-increment: wip-h2;
+    display: flex;
+    align-items: baseline;
+    gap: 0.55rem;
+    margin-bottom: 1.15rem;
+    padding-bottom: 0.55rem;
+    border-bottom: 1px solid var(--border-subtle);
+    position: relative;
+  }
+  /* The accent sits on the leading edge of the rule, not across it: a full
+     accent underline at this size reads as a highlight, not a heading. */
+  .wip-surface .course-prose section > h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 3.5rem;
+    height: 2px;
+    border-radius: 2px;
+    background: var(--course-accent);
+  }
+  .wip-surface .course-prose section > h2::before {
+    content: counter(wip-h2, decimal-leading-zero);
+    flex: none;
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: var(--course-accent);
+  }
+  .wip-h2-icon {
+    flex: none;
+    align-self: center;
+    width: 1.15rem;
+    height: 1.15rem;
+    background-color: var(--course-accent);
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+  }
+
+  /* The three treatments. Default (no attribute yet) shows both, so the first
+     paint matches what the picker will say once it has read localStorage. */
+  .wip-surface[data-h2='number'] .wip-h2-icon {
+    display: none;
+  }
+  .wip-surface[data-h2='icon'] .course-prose section > h2::before {
+    content: none;
+  }
+
+  .wip-h2-picker {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem;
+    margin-bottom: 1.1rem;
+    padding: 0.4rem 0.55rem;
+    border: 1px dashed color-mix(in srgb, var(--accent-warning) 35%, transparent);
+    border-radius: 6px;
+  }
+  .wip-h2-picker-label {
+    margin-right: 0.3rem;
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  .wip-h2-opt {
+    padding: 0.22rem 0.55rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 4px;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    transition: color 0.15s, background-color 0.15s, border-color 0.15s;
+  }
+  .wip-h2-opt:hover {
+    color: var(--text-primary);
+    border-color: var(--border-hover);
+  }
+  .wip-h2-opt.is-active {
+    border-color: color-mix(in srgb, var(--course-accent) 55%, transparent);
+    background: color-mix(in srgb, var(--course-accent) 13%, transparent);
+    color: var(--text-primary);
+  }
+}
+
+@layer components {
+  /* ══ Proposal 9 — grids that fit their contents ══════════════════════
+
+     Every card grid is `lg:grid-cols-3`, whatever it holds. Measured on lesson
+     01: four grids of four cards and two of five, so the common case renders
+     three across and one alone on a second row.
+
+     Column count follows the card count instead of a fixed number. Four cards
+     make a square, two make a pair, five keep three across because two columns
+     would strand the fifth just as badly. `:has()` reads the count directly, so
+     nothing has to be annotated in the content.
+
+     The column count comes from Tailwind utilities on the element, and
+     utilities outrank this layer, so overriding them needs !important.
+     Scoped to .wip-surface, so it cannot reach the live course. */
+  .wip-surface .course-grid:has(> :last-child:nth-child(4)),
+  .wip-surface .course-grid:has(> :last-child:nth-child(2)) {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+
+  /* ══ Proposal 10 — quoted posts read as quotes ═══════════════════════
+
+     A tweet spanned the full reading measure, which made it look like another
+     section of the lesson rather than something borrowed from elsewhere. Pulled
+     in and centred, it reads as a quotation, which is what it is.
+
+     A tweet is a <figure>, so it is caught by the escape rule this whole
+     file exists to correct — and that rule reaches 0,2,1 of specificity
+     through the :not() nested in its :is(), which outranks a plain
+     two-class selector. Hence the third class here rather than !important. */
+  .wip-surface .course-prose .course-tweet {
+    max-width: 34rem;
+    margin-inline: auto;
+  }
+
+  /* ══ Proposal 11 — commands wrap instead of scrolling away ═══════════
+
+     Measured on lesson 06: a code block held 905px of content in a 697px box,
+     so the end of every long command sat behind a horizontal scrollbar — the
+     part that names the file you are meant to type.
+
+     Wrapping shows the whole command at once. The hanging indent is what makes
+     it readable: a wrapped line that starts at the left margin looks like a
+     second command, and a reader copying by hand would type it as one. */
+  .wip-surface .course-code-pre {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    overflow-x: visible;
+  }
+  .wip-surface .course-code-pre code {
+    display: block;
+    padding-left: 1.6rem;
+    text-indent: -1.6rem;
+  }
+
+  /* ══ Proposal 12 — the code block announces itself ═══════════════════
+
+     The header was transparent with its label at 72% opacity, so the one line
+     telling you what a command is for was the faintest thing in the block. It
+     gets a ground of its own and the label takes the accent. */
+  .wip-surface .course-code-head {
+    background: color-mix(in srgb, var(--course-accent) 9%, transparent);
+    border-bottom: 1px solid color-mix(in srgb, var(--course-accent) 22%, transparent);
+    color: var(--text-primary);
+  }
+  .wip-surface .course-code-head > :first-child {
+    color: var(--course-accent);
+    font-weight: 600;
+  }
+}

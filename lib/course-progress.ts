@@ -3,12 +3,30 @@
  * Keys are per-course; values are JSON string arrays of completed module/lab slugs.
  */
 
-export type CourseProgressId = 'open-harness' | 'open-design' | 'harness-labs';
+/** `visual-lab` is the internal design lab: it stores its own progress so
+ *  ticking a box in a mock-up never marks a real lesson as done. */
+export type CourseProgressId =
+  | 'open-harness'
+  | 'open-design'
+  | 'harness-labs'
+  /** The first lab, under /forge/course/visual-lab/. */
+  | 'visual-lab'
+  /**
+   * The two WIP sandboxes. They render the same thirteen modules with the
+   * same block ids as each other and as the lab, and the storage key is
+   * `dv-check:{courseId}:{slug}:{section}` — so sharing one id made a tick in
+   * one surface appear in all three.
+   */
+  | 'wip-course'
+  | 'wip-lab';
 
 const KEY: Record<CourseProgressId, string> = {
   'open-harness': 'dv-progress-open-harness',
   'open-design': 'dv-progress-open-design',
   'harness-labs': 'dv-progress-harness-labs',
+  'visual-lab': 'dv-progress-visual-lab',
+  'wip-course': 'dv-progress-wip-course',
+  'wip-lab': 'dv-progress-wip-lab',
 };
 
 /** Soft prereq: user confirmed Harness Part I before Design */

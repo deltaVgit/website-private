@@ -13,6 +13,7 @@ import {
   t,
 } from '@/app/data/courses/open-harness';
 import { useCompletedSet } from '@/app/components/course/CourseLearning';
+import type { CourseProgressId } from '@/lib/course-progress';
 import { OnThisPage } from '@/app/components/course/OnThisPage';
 
 /** EN-only until a full FR translate pass exists (toggle removed to avoid half-FR UI). */
@@ -48,14 +49,22 @@ export function CourseToc({
   lang,
   compact = false,
   basePath = '/forge/course/my-first-ai-agent/',
+  courseId = 'open-harness',
 }: {
   activeSlug?: string;
   lang: CourseLang;
   compact?: boolean;
   /** Route prefix — lets the OH2 edition reuse this nav on its own routes. */
   basePath?: string;
+  /**
+   * Which progress store the ticks come from. Defaults to the live course,
+   * so every existing caller is unchanged. A sandbox that writes its own
+   * progress has to pass its id here too, or the rail reports the real
+   * course's completions against the sandbox's lessons.
+   */
+  courseId?: CourseProgressId;
 }) {
-  const done = useCompletedSet('open-harness');
+  const done = useCompletedSet(courseId);
   const pct = Math.round((done.size / OPEN_HARNESS_MODULES.length) * 100);
   return (
     <nav

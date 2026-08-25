@@ -1,0 +1,408 @@
+/* 04 — Guided step by step.
+   One step on screen, a bounded stage that owns its own scrollbar, and a
+   deliberate move to reach the next one. Everything here is namespaced
+   `lay-guided-` so the ten proposals can share one page. */
+
+@layer components {
+  .lay-guided {
+    --lay-guided-stage-h: clamp(26rem, 60vh, 46rem);
+    --lay-guided-pad: clamp(1.25rem, 3.2vw, 2.75rem);
+    display: flex;
+    flex-direction: column;
+    max-width: 60rem;
+    margin-inline: auto;
+    scroll-margin-top: 7rem;
+  }
+
+  /* ── Header: where am I, how far in ─────────────────────────────────── */
+
+  .lay-guided-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    padding: 0 0 1.1rem;
+  }
+
+  .lay-guided-crumb {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    margin: 0;
+    font-size: 0.8125rem;
+    line-height: 1.2;
+    color: var(--text-muted);
+  }
+  .lay-guided-crumb-num {
+    padding: 0.15rem 0.45rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 0.4rem;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    color: var(--course-accent);
+  }
+  .lay-guided-crumb-part {
+    color: var(--text-tertiary);
+  }
+  .lay-guided-crumb-time {
+    margin-inline-start: auto;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .lay-guided-track {
+    position: relative;
+    height: 3px;
+    border-radius: 999px;
+    background: var(--border-subtle);
+    overflow: hidden;
+  }
+  .lay-guided-fill {
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: var(--lay-guided-pct, 0%);
+    border-radius: inherit;
+    background: var(--course-accent);
+    transition: width 0.32s ease;
+  }
+
+  .lay-guided-dots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+  .lay-guided-dot {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 30px;
+    height: 30px;
+    padding: 0 0.35rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 0.4rem;
+    background: transparent;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    line-height: 1;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition:
+      color 0.15s,
+      border-color 0.15s,
+      background-color 0.15s;
+  }
+  .lay-guided-dot.is-seen {
+    color: var(--text-secondary);
+    border-color: var(--border-hover);
+  }
+  .lay-guided-dot.is-optional {
+    border-style: dashed;
+  }
+  .lay-guided-dot:hover {
+    color: var(--text-primary);
+    border-color: var(--border-hover);
+    background: color-mix(in srgb, var(--text-primary) 5%, transparent);
+  }
+  .lay-guided-dot.is-current {
+    color: var(--course-accent);
+    border-color: color-mix(in srgb, var(--course-accent) 55%, transparent);
+    background: color-mix(in srgb, var(--course-accent) 10%, transparent);
+  }
+
+  /* ── Stage: the only thing you can scroll ───────────────────────────── */
+
+  .lay-guided-stage {
+    position: relative;
+    height: var(--lay-guided-stage-h);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    border: 1px solid var(--border-subtle);
+    border-radius: 0.9rem;
+    background: var(--surface-card);
+    scrollbar-gutter: stable;
+  }
+
+  .lay-guided-slide {
+    padding: var(--lay-guided-pad);
+    padding-bottom: calc(var(--lay-guided-pad) + 1.5rem);
+  }
+
+  .lay-guided-kicker {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 0 0 0.6rem;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--course-accent);
+  }
+
+  .lay-guided-badge {
+    padding: 0.1rem 0.4rem;
+    border: 1px dashed var(--border-hover);
+    border-radius: 0.35rem;
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+  }
+
+  .lay-guided-title {
+    margin: 0;
+    max-width: var(--course-measure);
+  }
+  .lay-guided-title:focus {
+    outline: none;
+  }
+  .lay-guided-title:focus-visible {
+    outline: 2px solid color-mix(in srgb, var(--course-accent) 70%, transparent);
+    outline-offset: 6px;
+    border-radius: 0.25rem;
+  }
+
+  .lay-guided-body {
+    margin-top: 1.6rem;
+  }
+
+  /* ── Cover: the road before the first step ──────────────────────────── */
+
+  .lay-guided-deck {
+    margin: 1rem 0 0;
+    color: var(--text-secondary);
+  }
+  .lay-guided-hero {
+    margin-top: 1.5rem;
+  }
+  .lay-guided-route-label {
+    margin: 2rem 0 0.75rem;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  .lay-guided-route {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid var(--border-subtle);
+  }
+  .lay-guided-route-item {
+    display: flex;
+    align-items: baseline;
+    gap: 0.9rem;
+    width: 100%;
+    padding: 0.7rem 0.5rem;
+    border: 0;
+    border-bottom: 1px solid var(--border-subtle);
+    background: transparent;
+    text-align: start;
+    font-size: 0.9375rem;
+    line-height: 1.45;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition:
+      color 0.15s,
+      background-color 0.15s,
+      padding-inline-start 0.15s;
+  }
+  .lay-guided-route-item:hover {
+    color: var(--text-primary);
+    background: color-mix(in srgb, var(--course-accent) 6%, transparent);
+    padding-inline-start: 0.85rem;
+  }
+  .lay-guided-route-num {
+    flex: none;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    color: var(--course-accent);
+  }
+  .lay-guided-route-text {
+    flex: 1;
+  }
+
+  /* ── Footer: the only way forward ───────────────────────────────────── */
+
+  .lay-guided-nav {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: stretch;
+    gap: 0.75rem;
+    margin-top: 0.9rem;
+  }
+
+  .lay-guided-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7rem;
+    min-height: 56px;
+    padding: 0.6rem 0.9rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 0.7rem;
+    background: transparent;
+    color: var(--text-secondary);
+    cursor: pointer;
+    text-align: start;
+    transition:
+      color 0.15s,
+      border-color 0.15s,
+      background-color 0.15s;
+  }
+  .lay-guided-btn:hover:not(:disabled) {
+    color: var(--text-primary);
+    border-color: var(--border-hover);
+    background: color-mix(in srgb, var(--text-primary) 4%, transparent);
+  }
+  .lay-guided-btn:disabled {
+    opacity: 0.38;
+    cursor: default;
+  }
+  .lay-guided-btn--next {
+    justify-content: flex-end;
+    text-align: end;
+    border-color: color-mix(in srgb, var(--course-accent) 40%, transparent);
+    background: color-mix(in srgb, var(--course-accent) 8%, transparent);
+    color: var(--text-primary);
+  }
+  .lay-guided-btn--next:hover:not(:disabled) {
+    border-color: color-mix(in srgb, var(--course-accent) 70%, transparent);
+    background: color-mix(in srgb, var(--course-accent) 14%, transparent);
+  }
+  .lay-guided-btn-side {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    min-width: 0;
+  }
+  .lay-guided-btn-kicker {
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  .lay-guided-btn--next .lay-guided-btn-kicker {
+    color: var(--course-accent);
+  }
+  .lay-guided-btn-label {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+    font-size: 0.875rem;
+    line-height: 1.3;
+  }
+  .lay-guided-btn-arrow {
+    flex: none;
+    font-size: 1rem;
+    line-height: 1;
+    color: var(--text-tertiary);
+  }
+  .lay-guided-btn--next .lay-guided-btn-arrow {
+    color: var(--course-accent);
+  }
+
+  .lay-guided-pos {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 0.35rem;
+    margin: 0;
+    padding-inline: 0.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+  }
+  .lay-guided-pos-now {
+    font-size: 1.125rem;
+    color: var(--text-primary);
+  }
+  .lay-guided-hint {
+    margin-inline-start: 0.6rem;
+    padding-inline-start: 0.6rem;
+    border-inline-start: 1px solid var(--border-subtle);
+    font-size: 0.625rem;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    white-space: nowrap;
+  }
+
+  /* On a phone there is no keyboard to hint at, and the next section's title
+     would eat the whole row — the counter and the arrows carry it alone. */
+  @media (max-width: 639px) {
+    .lay-guided-hint {
+      display: none;
+    }
+    .lay-guided-btn-label {
+      display: none;
+    }
+    .lay-guided-nav {
+      gap: 0.5rem;
+    }
+    .lay-guided-btn {
+      min-height: 48px;
+      justify-content: center;
+    }
+  }
+
+  /* ── Motion: the step slides in from the side you came from ─────────── */
+
+  .lay-guided-slide {
+    animation: lay-guided-in 0.26s ease both;
+  }
+  .lay-guided-slide.is-back {
+    animation-name: lay-guided-in-back;
+  }
+
+  @keyframes lay-guided-in {
+    from {
+      opacity: 0;
+      transform: translate3d(1.25rem, 0, 0);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes lay-guided-in-back {
+    from {
+      opacity: 0;
+      transform: translate3d(-1.25rem, 0, 0);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .lay-guided-slide,
+    .lay-guided-slide.is-back {
+      animation: none;
+    }
+    .lay-guided-fill {
+      transition: none;
+    }
+    .lay-guided-route-item {
+      transition: color 0.15s, background-color 0.15s;
+    }
+  }
+}
+
+@layer components {
+  /* Same reason as the panel body: a focusable scroller has to be visibly
+     focused, and an outset outline would be clipped by its own overflow. */
+  .lay-guided-stage:focus-visible {
+    outline: 2px solid var(--course-accent, var(--accent-cyan));
+    outline-offset: -2px;
+  }
+}

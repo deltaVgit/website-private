@@ -1,0 +1,631 @@
+/* ══════════════════════════════════════════════════════════════════════
+   Visual lab — ten treatments, this route only.
+
+   Loaded by the lab pages alone, so Next emits it as its own chunk and the
+   real course never downloads a byte of it. Everything is prefixed `vlab-`;
+   the only course classes touched are read, never redefined.
+
+   Icons are painted with mask-image so the file stays in public/ while the
+   glyph takes currentColor — which means every icon follows the accent and
+   the light theme without a second asset.
+   ══════════════════════════════════════════════════════════════════════ */
+
+@layer components {
+  /* ── icons ───────────────────────────────────────────────────────── */
+
+  .vlab-ico,
+  .vlab-brand {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-color: currentColor;
+    -webkit-mask: var(--vlab-ico) center / contain no-repeat;
+    mask: var(--vlab-ico) center / contain no-repeat;
+    flex: none;
+    vertical-align: -0.125em;
+  }
+
+  /* ── picker chrome ───────────────────────────────────────────────── */
+
+  .vlab-picker {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.375rem;
+    padding: 0.75rem 0 0;
+    margin-top: 0.5rem;
+    border-top: 1px solid var(--border-subtle);
+    position: sticky;
+    top: 4rem;
+    z-index: 20;
+    background: var(--bg-base, var(--bg-deep));
+  }
+  .vlab-tab {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    min-height: 32px;
+    padding: 0.35rem 0.7rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 4px;
+    font-size: 0.8125rem;
+    line-height: 1;
+    color: var(--text-tertiary);
+    transition: color 0.15s, border-color 0.15s, background-color 0.15s;
+  }
+  .vlab-tab:hover {
+    color: var(--text-primary);
+    border-color: var(--border-hover);
+  }
+  .vlab-tab.is-active {
+    color: var(--course-accent);
+    border-color: color-mix(in srgb, var(--course-accent) 45%, transparent);
+    background: color-mix(in srgb, var(--course-accent) 8%, transparent);
+  }
+  .vlab-tab-num {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    opacity: 0.6;
+  }
+  .vlab-blurb {
+    max-width: var(--course-measure);
+    margin: 1rem 0 2rem;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+  }
+  .vlab-tech {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--course-accent);
+  }
+
+  .vlab-sections > .vlab-sec + .vlab-sec {
+    margin-top: 3.5rem;
+  }
+
+  /* ── index ───────────────────────────────────────────────────────── */
+
+  .vlab-modlist {
+    margin-top: 2rem;
+    border-top: 1px solid var(--border-subtle);
+    max-width: var(--course-measure);
+  }
+  .vlab-modlist a {
+    display: grid;
+    grid-template-columns: 2.5rem 1fr auto;
+    gap: 1rem;
+    align-items: baseline;
+    padding: 0.85rem 0.25rem;
+    border-bottom: 1px solid var(--border-subtle);
+    color: var(--text-secondary);
+  }
+  .vlab-modlist a:hover {
+    color: var(--text-primary);
+    background: var(--bg-hover);
+  }
+  .vlab-modnum {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--course-accent);
+  }
+  .vlab-modmin {
+    font-size: 0.75rem;
+    color: var(--text-tertiary);
+  }
+
+  /* ══ 01 · systematic iconography ══════════════════════════════════ */
+
+  .vlab-t01 .vlab-sec .course-h2::before,
+  .vlab-t02 .vlab-sec .course-h2::before,
+  .vlab-t03 .vlab-sec .course-h2::before,
+  .vlab-t06 .vlab-sec .course-h2::before,
+  .vlab-t08 .vlab-sec .course-h2::before,
+  .vlab-t09 .vlab-sec .course-h2::before {
+    content: '';
+    display: inline-block;
+    width: 0.72em;
+    height: 0.72em;
+    margin-right: 0.5rem;
+    vertical-align: baseline;
+    background-color: var(--course-accent);
+    -webkit-mask: var(--vlab-ico) center / contain no-repeat;
+    mask: var(--vlab-ico) center / contain no-repeat;
+  }
+
+  .vlab-lexgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    gap: 0.85rem;
+    margin: 1.75rem 0;
+  }
+  .vlab-lexcard {
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    background: var(--surface-card);
+    padding: 1rem 1.1rem 1.15rem;
+  }
+  .vlab-lexcard h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.45rem;
+  }
+  .vlab-lexcard h3 .vlab-brand {
+    width: 1.05em;
+    height: 1.05em;
+    color: var(--course-accent);
+  }
+  .vlab-lexcard p {
+    font-size: 0.875rem;
+    line-height: 1.55;
+    color: var(--text-secondary);
+  }
+  .vlab-lexcard-remember {
+    margin-top: 0.7rem;
+    padding-top: 0.7rem;
+    border-top: 1px solid var(--border-subtle);
+    font-style: italic;
+    color: var(--text-tertiary) !important;
+  }
+
+  /* ══ 02 · opening sign ════════════════════════════════════════════ */
+
+  .vlab-hero-ico {
+    width: 3.25rem;
+    height: 3.25rem;
+    color: var(--course-accent);
+    margin-bottom: 0.9rem;
+    opacity: 0.9;
+  }
+
+  /* ══ 03 / 08 · authored animated diagram ══════════════════════════ */
+
+  .vlab-loop {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+    margin: 2.25rem 0;
+    padding: 1.5rem 1.25rem 1.75rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 10px;
+    background: var(--surface-card);
+  }
+  @media (max-width: 640px) {
+    .vlab-loop {
+      grid-template-columns: 1fr;
+    }
+  }
+  .vlab-loop-beat {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    gap: 0.3rem;
+    padding: 0.9rem 0.5rem;
+    border: 1px solid var(--border-default);
+    border-radius: 8px;
+    animation: vlabBeat 3.3s var(--ease-smooth) infinite;
+  }
+  .vlab-loop-ico {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--course-accent);
+  }
+  .vlab-loop-beat b {
+    font-size: 0.9375rem;
+    color: var(--text-primary);
+  }
+  .vlab-loop-beat span {
+    font-size: 0.75rem;
+    color: var(--text-tertiary);
+  }
+  .vlab-loop-arc {
+    position: absolute;
+    left: 1.25rem;
+    right: 1.25rem;
+    bottom: 0.7rem;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      color-mix(in srgb, var(--course-accent) 55%, transparent),
+      transparent
+    );
+    animation: vlabSweep 3.3s linear infinite;
+  }
+  @keyframes vlabBeat {
+    0%,
+    28%,
+    100% {
+      border-color: var(--border-default);
+      background: transparent;
+    }
+    7%,
+    21% {
+      border-color: var(--course-accent);
+      background: color-mix(in srgb, var(--course-accent) 9%, transparent);
+    }
+  }
+  @keyframes vlabSweep {
+    from {
+      transform: translateX(-30%) scaleX(0.4);
+    }
+    to {
+      transform: translateX(30%) scaleX(0.4);
+    }
+  }
+
+  /* 08 also wakes the section icons up on hover */
+  .vlab-t08 .vlab-sec .course-h2:hover::before {
+    animation: vlabPulse 0.8s var(--ease-smooth);
+  }
+  @keyframes vlabPulse {
+    50% {
+      transform: scale(1.25) rotate(-6deg);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .vlab-loop-beat,
+    .vlab-loop-arc,
+    .vlab-t08 .vlab-sec .course-h2:hover::before {
+      animation: none;
+    }
+  }
+
+  /* ══ 04 · annotated screenshots ═══════════════════════════════════ */
+
+  .vlab-annot {
+    margin: 2rem 0;
+  }
+  .vlab-annot-frame {
+    position: relative;
+    line-height: 0;
+  }
+  .vlab-annot-frame img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid var(--border-subtle);
+  }
+  .vlab-annot-dot {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 28px;
+    height: 28px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--course-accent);
+    color: var(--on-accent, #0a0f0d);
+    font-size: 0.8125rem;
+    font-weight: 700;
+    line-height: 1;
+    box-shadow: 0 0 0 4px color-mix(in srgb, var(--course-accent) 25%, transparent);
+    transition: transform 0.15s;
+  }
+  .vlab-annot-dot:hover,
+  .vlab-annot-dot.is-open {
+    transform: translate(-50%, -50%) scale(1.15);
+  }
+  .vlab-annot figcaption {
+    display: grid;
+    gap: 0.35rem;
+    margin-top: 0.75rem;
+    font-size: 0.8125rem;
+    min-height: 2.4rem;
+  }
+  .vlab-annot-hint {
+    color: var(--text-tertiary);
+    font-style: italic;
+  }
+  .vlab-annot-open {
+    color: var(--text-secondary);
+  }
+  .vlab-annot-open b {
+    color: var(--course-accent);
+    margin-right: 0.35rem;
+  }
+  .vlab-annot-cap {
+    color: var(--text-tertiary);
+  }
+
+  /* ══ 05 · flip cards ══════════════════════════════════════════════ */
+
+  .vlab-flipgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    gap: 0.85rem;
+    margin: 1.75rem 0;
+  }
+  .vlab-flip {
+    perspective: 900px;
+    min-height: 9.5rem;
+    text-align: left;
+  }
+  .vlab-flip-inner {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 9.5rem;
+    transition: transform 0.5s var(--ease-smooth);
+    transform-style: preserve-3d;
+  }
+  .vlab-flip.is-flipped .vlab-flip-inner {
+    transform: rotateY(180deg);
+  }
+  .vlab-flip-face {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 1rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    background: var(--surface-card);
+    backface-visibility: hidden;
+    overflow: hidden;
+  }
+  .vlab-flip-front {
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .vlab-flip-front .vlab-brand {
+    width: 1.4rem;
+    height: 1.4rem;
+    color: var(--course-accent);
+  }
+  .vlab-flip-term {
+    font-size: 1.0625rem;
+    font-weight: 600;
+    color: var(--text-primary);
+  }
+  .vlab-flip-cue {
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--course-accent);
+  }
+  .vlab-flip-back {
+    transform: rotateY(180deg);
+  }
+  .vlab-flip-body {
+    font-size: 0.8125rem;
+    line-height: 1.5;
+    color: var(--text-secondary);
+  }
+  .vlab-flip-remember {
+    margin-top: auto;
+    font-size: 0.75rem;
+    font-style: italic;
+    color: var(--text-tertiary);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .vlab-flip-inner {
+      transition: none;
+    }
+  }
+
+  /* ══ 06 · replayable terminal ═════════════════════════════════════ */
+
+  .vlab-term {
+    margin: 1.75rem 0;
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--surface-card-strong, var(--surface-card));
+  }
+  .vlab-term-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid var(--border-subtle);
+    font-size: 0.75rem;
+    color: var(--text-tertiary);
+  }
+  .vlab-term-dots {
+    display: inline-flex;
+    gap: 0.25rem;
+  }
+  .vlab-term-dots i {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--border-hover);
+  }
+  .vlab-term-title {
+    flex: 1;
+  }
+  .vlab-term-play {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    color: var(--course-accent);
+    padding: 0.2rem 0.5rem;
+    border: 1px solid color-mix(in srgb, var(--course-accent) 40%, transparent);
+    border-radius: 4px;
+    min-height: 24px;
+  }
+  .vlab-term-body {
+    display: grid;
+    padding: 0.9rem 1rem 1.1rem;
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    line-height: 1.75;
+    min-height: 5rem;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  .vlab-term-prompt {
+    color: var(--course-accent);
+    margin-right: 0.5rem;
+    user-select: none;
+  }
+  .vlab-term-out {
+    color: var(--text-tertiary);
+  }
+  .vlab-term-caret {
+    width: 8px;
+    height: 1.1em;
+    background: var(--course-accent);
+    animation: vlabBlink 1s steps(2) infinite;
+  }
+  @keyframes vlabBlink {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  /* ══ 07 · before / after slider ═══════════════════════════════════ */
+
+  .vlab-cmp {
+    margin: 1.75rem 0;
+  }
+  .vlab-cmp-stage {
+    position: relative;
+    display: grid;
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    overflow: hidden;
+    min-height: 13rem;
+    background: var(--surface-card);
+  }
+  .vlab-cmp-pane {
+    grid-area: 1 / 1;
+    padding: 1.1rem 1.25rem 1.4rem;
+  }
+  .vlab-cmp-pane h4 {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 0.7rem;
+  }
+  .vlab-cmp-pane li {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: var(--text-secondary);
+    padding: 0.25rem 0;
+  }
+  .vlab-cmp-left {
+    clip-path: inset(0 calc(100% - var(--vlab-pos)) 0 0);
+    background: color-mix(in srgb, var(--accent-red) 7%, transparent);
+  }
+  .vlab-cmp-left h4 {
+    color: var(--accent-red);
+  }
+  .vlab-cmp-right {
+    clip-path: inset(0 0 0 var(--vlab-pos));
+    background: color-mix(in srgb, var(--accent-green) 7%, transparent);
+  }
+  .vlab-cmp-right h4 {
+    color: var(--accent-green);
+  }
+  .vlab-cmp-seam {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: var(--vlab-pos);
+    width: 1px;
+    background: var(--course-accent);
+  }
+  .vlab-cmp-ctl input {
+    width: 100%;
+    margin-top: 0.6rem;
+    accent-color: var(--course-accent);
+  }
+
+  /* ══ 09 · sticky step rail ════════════════════════════════════════ */
+
+  .vlab-rail-wrap {
+    position: sticky;
+    top: 7.5rem;
+    z-index: 5;
+    margin: 1.5rem 0 2rem;
+    padding: 0.75rem 0.9rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    background: var(--surface-card-strong, var(--surface-card));
+  }
+  .vlab-rail {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1rem;
+  }
+  .vlab-rail li {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+  }
+  .vlab-rail-dot {
+    display: grid;
+    place-items: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid var(--border-hover);
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+  }
+  .vlab-rail li.is-done {
+    color: var(--text-tertiary);
+  }
+  .vlab-rail li.is-done .vlab-rail-dot {
+    border-color: color-mix(in srgb, var(--accent-green) 55%, transparent);
+    color: var(--accent-green);
+  }
+  .vlab-rail li.is-here {
+    color: var(--course-accent);
+  }
+  .vlab-rail li.is-here .vlab-rail-dot {
+    border-color: var(--course-accent);
+    background: color-mix(in srgb, var(--course-accent) 14%, transparent);
+  }
+
+  /* ══ 10 · typographic editorial ═══════════════════════════════════ */
+
+  /* Almost no imagery. If this one wins, the course never had an
+     illustration problem — it had a typography problem. */
+  .vlab-t10 .course-h2 {
+    font-family: var(--font-display, Georgia, serif);
+    letter-spacing: -0.02em;
+  }
+  .vlab-t10 .vlab-sec:first-child .course-p:first-of-type::first-letter {
+    float: left;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 3.4em;
+    line-height: 0.82;
+    padding: 0.08em 0.12em 0 0;
+    color: var(--course-accent);
+  }
+  .vlab-t10 .course-callout {
+    border: 0;
+    border-left: 2px solid var(--course-accent);
+    background: transparent;
+    padding-block: 0.35rem;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.15rem;
+    font-style: italic;
+    line-height: 1.5;
+    color: var(--text-primary);
+  }
+  .vlab-t10 .course-lex-card,
+  .vlab-t10 .vlab-lexcard {
+    border: 0;
+    border-top: 1px solid var(--border-subtle);
+    border-radius: 0;
+    background: transparent;
+    padding-inline: 0;
+  }
+  .vlab-t10 .course-blocks > .course-p {
+    font-size: 1.125rem;
+    line-height: 1.75;
+  }
+}

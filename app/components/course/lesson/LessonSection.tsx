@@ -13,11 +13,18 @@ export function LessonSection({
   lang,
   moduleSlug,
   showHeading = true,
+  /**
+   * Which course the checkbox state belongs to. Defaults to the real course,
+   * so every existing caller is untouched; the WIP sandbox passes its own id
+   * so reading a proposal never marks the live lesson as done.
+   */
+  courseId,
 }: {
   section: CourseSection;
   lang: CourseLang;
   moduleSlug: string;
   showHeading?: boolean;
+  courseId?: string;
 }) {
   const blocks = section.blocks ?? [];
   return (
@@ -25,7 +32,7 @@ export function LessonSection({
       {showHeading && <h2 className="course-h2">{t(section.heading, lang)}</h2>}
       <div className="course-blocks">
         {blocks.map((block, i) => (
-          <BlockRenderer key={i} block={block} lang={lang} moduleSlug={moduleSlug} />
+          <BlockRenderer key={i} block={block} lang={lang} moduleSlug={moduleSlug} courseId={courseId} />
         ))}
       </div>
     </section>

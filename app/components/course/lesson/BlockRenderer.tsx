@@ -36,10 +36,18 @@ export function BlockRenderer({
   block,
   lang,
   moduleSlug,
+  /**
+   * Which course the checkbox state belongs to. Defaults to the real course,
+   * so every existing caller keeps its progress keys untouched. The visual lab
+   * passes its own id so ticking a box in a mock-up never marks the real
+   * lesson as done.
+   */
+  courseId = 'open-harness',
 }: {
   block: CourseBlock;
   lang: CourseLang;
   moduleSlug: string;
+  courseId?: string;
 }) {
   switch (block.k) {
     case 'p':
@@ -72,7 +80,7 @@ export function BlockRenderer({
       // silently, which is how the $PDD commands never reached the page.
       return (
         <CourseSteps
-          courseId="open-harness"
+          courseId={courseId}
           moduleSlug={moduleSlug}
           sectionKey={block.id}
           items={block.items}
@@ -83,7 +91,7 @@ export function BlockRenderer({
     case 'checklist':
       return (
         <InteractiveChecklist
-          courseId="open-harness"
+          courseId={courseId}
           moduleSlug={moduleSlug}
           sectionKey={block.id}
           items={block.items.map((i) => t(i, lang))}

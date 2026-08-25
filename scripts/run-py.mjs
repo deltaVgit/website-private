@@ -64,7 +64,17 @@ for (const cmd of buildCandidates()) {
   const result = spawnSync(bin, args, {
     stdio: 'inherit',
     shell: false,
-    env: process.env,
+    // Force UTF-8 on the child's stdio. Our build scripts print check marks
+    // and arrows; on Windows a Python whose stdout defaults to cp1252 dies on
+    // the first one with UnicodeEncodeError and takes the whole build down.
+    // This is the single place every script in the repo is launched from, so
+    // it is the right place to guarantee the encoding.
+    // Only the std streams. PYTHONUTF8=1 would also flip the default
+    // encoding of every bare open() in scripts/, which is a much larger
+    // change than the crash it was added for and would make a build behave
+    // differently from running the same script by hand.
+    // `:replace` so a lone surrogate cannot kill the build either.
+    env: { ...process.env, PYTHONIOENCODING: 'utf-8:replace' },
     windowsHide: true,
   });
 
