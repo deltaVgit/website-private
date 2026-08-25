@@ -22,4 +22,3 @@ Short description of the repo or campaign workspace.
 
 - Auto-publish to social
 - Disable approvals “to go faster”
-EOF

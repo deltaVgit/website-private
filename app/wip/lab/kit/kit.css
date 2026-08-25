@@ -7,65 +7,8 @@
    prefix: no selector here matches anything the live course renders.
    ══════════════════════════════════════════════════════════════════════ */
 
-@layer components {
-  /* Masked shapes inherit `currentColor`, which is the whole point: one
-     asset, correct in light and dark, tintable per layout. */
-  .kit-glyph,
-  .kit-mark-masked {
-    display: inline-block;
-    background-color: currentColor;
-    mask-repeat: no-repeat;
-    mask-position: center;
-    mask-size: contain;
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-position: center;
-    -webkit-mask-size: contain;
-  }
-  .kit-glyph {
-    width: 1em;
-    height: 1em;
-    vertical-align: -0.125em;
-    flex: none;
-  }
-  .kit-mark {
-    flex: none;
-    vertical-align: middle;
-  }
-
-  .kit-strip {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0.5rem 0.85rem;
-    margin: 1.25rem 0;
-    padding: 0.6rem 0.85rem;
-    border: 1px solid var(--border-subtle);
-    border-radius: 8px;
-    background: var(--surface-card);
-  }
-  .kit-strip-label {
-    font-family: var(--font-mono);
-    font-size: 0.625rem;
-    letter-spacing: 1.2px;
-    text-transform: uppercase;
-    color: var(--text-muted);
-  }
-  .kit-strip ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem 0.75rem;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  .kit-strip li {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-    font-size: 0.8125rem;
-    color: var(--text-secondary);
-  }
-}
+/* The glyph, mark and strip base rules graduated to course.css with the spine
+   layout — every /wip page imports course.css, so the lab inherits them. */
 
 @layer components {
 

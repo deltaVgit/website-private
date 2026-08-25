@@ -339,6 +339,9 @@ export const UI_COPY = {
   part: { en: 'Part', fr: 'Partie' },
   langEn: { en: 'EN', fr: 'EN' },
   langFr: { en: 'FR', fr: 'FR' },
+  inThisLesson: { en: 'In this lesson', fr: 'Dans cette leçon' },
+  spineBehind: { en: 'of %TOTAL% sections behind you', fr: 'sur %TOTAL% sections derrière vous' },
+  backToSection: { en: 'Back to section', fr: 'Retour à la section' },
   downloadSoul: { en: 'Download template', fr: 'Télécharger le modèle' },
   downloadDesktop: { en: 'Download Hermes Desktop', fr: 'Télécharger Hermes Desktop' },
   resources: { en: 'Resources', fr: 'Ressources' },
@@ -1336,9 +1339,14 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
             { src: '/courses/open-harness/souls/writer.md', title: 'Writer', why: 'Drafts in your voice, cuts the filler' },
             { src: '/courses/open-harness/souls/coach.md', title: 'Coach', why: 'Asks before advising, ends with one next action' },
             { src: '/courses/open-harness/souls/coder.md', title: 'Coder', why: 'Small diffs, stated trade-offs, how to verify' },
+            { src: '/courses/open-harness/souls/reviewer.md', title: 'Reviewer', why: 'Investigates before judging, ranks severity, clear verdict' },
             { src: '/courses/open-harness/souls/kids-safe.md', title: 'Kids-safe', why: 'Simple words, hard limits, parent nearby' },
             { src: '/courses/open-harness/souls/sales.md', title: 'Sales', why: 'Honest outreach, drafts only — you send' },
           ] },
+          { k: 'callout', variant: 'note', text: L(
+            'The Reviewer soul has a built-in sibling: the `/review` command spawns an independent subagent that investigates the last 10 messages — it opens the work, runs the tests where feasible, and sends a structured review back into your session. You can pin a dedicated reviewer model under Settings → Model → Auxiliary models (`auxiliary.review`): a second set of eyes works best when it is not the same eyes.',
+            'L’âme Reviewer a un frère intégré : la commande `/review` lance un sous-agent indépendant qui enquête sur les 10 derniers messages — il ouvre le travail, lance les tests quand c’est faisable, et renvoie une revue structurée dans votre session. Vous pouvez épingler un modèle relecteur dédié dans Settings → Model → Auxiliary models (`auxiliary.review`) : un second regard fonctionne mieux quand ce n’est pas le même regard.',
+          ) },
           { k: 'p', text: L(
             'Writing your own instead? Answer these five, and the answers **are** the file — one section each. Keep it to 12–20 lines: a soul should be stable and specific in voice, not a dumping ground for temporary instructions.',
           ) },
@@ -1574,6 +1582,10 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
             '[Provider](https://hermes-agent.nousresearch.com/docs/integrations/providers) (OpenRouter, OpenCode, …) is where the key lives; model is capability and price. Free tiers still have limits. Before blaming the model, know what is already loaded in an empty session.',
           ) },
           { k: 'steps', id: '7-steps', items: [{ title: L('Note which provider and model are currently selected — you will want to know which one did the work.') }, { title: L('Optional: open the context / usage view in Desktop and jot the two biggest slices (tools / skills / memory).') }] },
+          { k: 'callout', variant: 'note', text: L(
+            'One habit that quietly multiplies your bill: switching models mid-session. Every switch invalidates the prompt cache on the model you switch to, and you repay the full input-token price for everything already loaded — tools, skills, memory, history. Not a Hermes quirk; a fundamental of inference. Pick a model per session and stay on it; route side tasks to auxiliary models instead.',
+            'Une habitude qui multiplie discrètement la facture : changer de modèle en pleine session. Chaque bascule invalide le cache de prompt du modèle d’arrivée, et vous repayez plein tarif les tokens d’entrée pour tout ce qui est déjà chargé — outils, skills, mémoire, historique. Ce n’est pas une bizarrerie d’Hermes ; c’est un fondamental de l’inférence. Choisissez un modèle par session et gardez-le ; confiez plutôt les tâches annexes aux modèles auxiliaires.',
+          ) },
           { k: 'tweet', id: '2081381590488568218', author: '@witcheer', height: 812,
             href: 'https://x.com/witcheer/status/2081381590488568218',
             caption: L('`hermes prompt-size` prints the fixed budget of a fresh session — note that tool schemas are the bigger half, and that it runs offline with no API call.'),
@@ -1827,6 +1839,10 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
           ] },
           { k: 'callout', variant: 'note', text: L(
             'A preference like “keep answers short” belongs in `USER.md`, not `SOUL.md`. Identity is what the agent is for everyone; memory is what it knows about this setup and this person.',
+          ) },
+          { k: 'p', text: L(
+            'Since v0.20.5 this pair reaches further than your chats: scheduled (cron) jobs load `MEMORY.md` and `USER.md` too, wake up already knowing your preferences, and can save new durable facts for future runs. Memory is shared by the profile, not by the job — one job’s durable fact helps every other job. Lesson 11 covers what that changes.',
+            'Depuis la v0.20.5, cette paire porte plus loin que vos chats : les jobs planifiés (cron) chargent aussi `MEMORY.md` et `USER.md`, se réveillent en connaissant déjà vos préférences, et peuvent enregistrer de nouveaux faits durables pour les exécutions futures. La mémoire est partagée par le profil, pas par le job — un fait durable écrit par un job sert à tous les autres. La leçon 11 détaille ce que ça change.',
           ) },
           { k: 'callout', variant: 'quote', text: L(
           'File over app: closed chat products do not offer this honesty.',
@@ -2268,6 +2284,10 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
           { k: 'list', items: [
           L('Include host, path, command, expected state, delivery target, success and failure behavior.'),
         ] },
+          { k: 'callout', variant: 'note', text: L(
+            'Update — since v0.20.5, a fresh worker shares your memory: scheduled jobs load `MEMORY.md` and `USER.md` like every other session and can save new durable facts with the memory tool. The amnesia that remains is the transcript — a job still starts with no chat history and no record of its own previous runs. Memory is who you are; continuity is what happened last time. A job that must not re-report yesterday’s story needs continuity or a small state file, not shared memory.',
+            'Mise à jour — depuis la v0.20.5, un worker neuf partage votre mémoire : les jobs planifiés chargent `MEMORY.md` et `USER.md` comme toute autre session et peuvent enregistrer de nouveaux faits durables avec l’outil mémoire. L’amnésie qui reste, c’est la transcription — un job démarre toujours sans historique de chat et sans trace de ses exécutions précédentes. La mémoire, c’est qui vous êtes ; la continuité, c’est ce qui s’est passé la dernière fois. Un job qui ne doit pas répéter l’histoire d’hier a besoin de continuité ou d’un petit fichier d’état, pas de la mémoire partagée.',
+          ) },
         ],
       },
       {
@@ -2277,6 +2297,10 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
           L('silent: suppress “all good” noise; still surface failures.'),
           L('no_agent / script-only: deterministic checks that need no model tokens.'),
           L('Wake gate: cheap pre-check first; wake the model only when something changed.'),
+          L(
+            'Per-job reasoning effort: `--reasoning-effort` pins the thinking level per job — minimal for cheap polls, high for deep daily syntheses. Cost tuned per job, without touching the global default or the model.',
+            'Effort de raisonnement par job : `--reasoning-effort` fixe le niveau de réflexion par job — minimal pour les sondages bon marché, high pour les grosses synthèses quotidiennes. Le coût se règle par job, sans toucher au défaut global ni au modèle.',
+          ),
         ] },
         ],
       },
@@ -2286,6 +2310,10 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
           { k: 'list', items: [
           L('Jobs must not spawn unbounded new jobs — runaway self-scheduling is blocked in healthy setups.'),
           L('Dangerous commands: prefer approvals.cron_mode deny (default) so headless jobs cannot YOLO host damage.'),
+          L(
+            'Memory writes from headless jobs: set `memory.write_approval: true` to stage them for review (`/memory pending` · `/memory approve` · `/memory reject`) — until approved, later runs never see them.',
+            'Écritures mémoire des jobs sans supervision : mettez `memory.write_approval: true` pour les mettre en attente de relecture (`/memory pending` · `/memory approve` · `/memory reject`) — tant qu’elles ne sont pas approuvées, les exécutions suivantes ne les voient pas.',
+          ),
         ] },
         ],
 

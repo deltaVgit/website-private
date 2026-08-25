@@ -1753,3 +1753,357 @@
     }
   }
 }
+
+/* ══════════════════════════════════════════════════════════════════════
+   THE KIT — glyphs and provider marks, graduated from the /wip layout lab.
+
+   Masked shapes inherit `currentColor`: one asset, correct in light and
+   dark, tintable by setting `color` on the parent. The `kit-` prefix is
+   kept so the lab's remaining layouts keep working unchanged.
+   ══════════════════════════════════════════════════════════════════════ */
+
+@layer components {
+  .kit-glyph,
+  .kit-mark-masked {
+    display: inline-block;
+    background-color: currentColor;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+  }
+  .kit-glyph {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+    flex: none;
+  }
+  .kit-mark {
+    flex: none;
+    vertical-align: middle;
+  }
+
+  .kit-strip {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.85rem;
+    margin: 1.25rem 0;
+    padding: 0.6rem 0.85rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    background: var(--surface-card);
+  }
+  .kit-strip-label {
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  .kit-strip ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.75rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .kit-strip li {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+  }
+
+  /* A heading glyph names what the heading already says — never decoration.
+     `headingIcon()` returns null for headings that map to no real concept,
+     and no icon beats a wrong icon. The ordinal that sat beside lab headings
+     is gone on purpose: the right-rail "On this page" list already numbers
+     the sections. */
+  .course-h2 > .kit-glyph {
+    width: 0.85em;
+    height: 0.85em;
+    margin-right: 0.15em;
+    color: var(--course-accent);
+  }
+}
+
+/* ══════════════════════════════════════════════════════════════════════
+   THE SPINE — the layout that won the lab (/wip/lab, layout 06).
+
+   One 2px thread down the left of the reading column. Sections are
+   numbered nodes on it, visuals branch off it as wider nodes, and the
+   segment behind the reader fills in the accent — the gutter is the
+   progress read-out. Geometry lives in four custom properties:
+     --spine-gap   how far the prose is inset from the track's left edge
+     --spine-x     where the line sits, measured from that same edge
+     --spine-line  the line in a row's own coordinates (negative)
+     --spine-node  diameter of a section node
+   Every row draws its own segment of line, which is why rows are
+   separated by padding and never by margin: a margin would leave a gap
+   in the thread.
+   ══════════════════════════════════════════════════════════════════════ */
+
+@layer components {
+  .course-spine {
+    --spine-gap: 3.5rem;
+    --spine-x: 1.1rem;
+    --spine-node: 1.9rem;
+    --spine-vis-pull: 1.15rem;
+    --spine-line: calc(var(--spine-x) - var(--spine-gap));
+  }
+
+  .course-spine-track {
+    position: relative;
+    padding-left: var(--spine-gap);
+  }
+
+  /* ── The thread ────────────────────────────────────────────────────── */
+
+  .course-spine-row {
+    position: relative;
+  }
+  .course-spine-row::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: var(--spine-line);
+    width: 2px;
+    border-radius: 2px;
+    background: var(--border-subtle);
+  }
+
+  /* The read segment. Sections only: filling the title block on load would
+     colour a third of the visible thread before a word has been read. */
+  .course-spine-sec::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: var(--spine-line);
+    width: 2px;
+    height: 100%;
+    border-radius: 2px;
+    background: var(--course-accent);
+    transform: scaleY(0);
+    transform-origin: top center;
+    transition: transform 0.5s var(--ease-smooth, ease);
+  }
+  .course-spine-sec[data-state='done']::after {
+    transform: scaleY(1);
+  }
+
+  /* ── Nodes ─────────────────────────────────────────────────────────── */
+
+  .course-spine-marker {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left: calc(var(--spine-line) + 1px - var(--spine-node) / 2);
+    display: block;
+    width: var(--spine-node);
+  }
+
+  /* Rides down the thread while its section is on screen, so the number of
+     where you are is always in the gutter — and clicking it walks back to
+     the top of that section. 6.5rem matches the course scroll-margin-top. */
+  .course-spine-node {
+    position: sticky;
+    top: 6.5rem;
+    display: grid;
+    place-items: center;
+    width: var(--spine-node);
+    height: var(--spine-node);
+    border: 1px solid var(--border-subtle);
+    border-radius: 999px;
+    /* Opaque, plus a ring of page: it masks the thread and anything
+       branching off it as the marker glides past. */
+    background: var(--bg-base);
+    box-shadow: 0 0 0 3px var(--bg-base);
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    line-height: 1;
+    color: var(--text-tertiary);
+    cursor: pointer;
+    transition:
+      color 0.3s var(--ease-smooth, ease),
+      border-color 0.3s var(--ease-smooth, ease),
+      background-color 0.3s var(--ease-smooth, ease);
+  }
+  .course-spine-node:hover {
+    border-color: var(--course-accent);
+    color: var(--text-primary);
+  }
+  .course-spine-node:focus-visible {
+    outline: 2px solid var(--course-accent);
+    outline-offset: 3px;
+  }
+  .course-spine-sec[data-state='active'] .course-spine-node {
+    border-color: var(--course-accent);
+    color: var(--course-accent);
+  }
+  .course-spine-sec[data-state='done'] .course-spine-node {
+    border-color: var(--course-accent);
+    background: var(--course-accent);
+    color: var(--bg-base);
+  }
+
+  /* Start and end caps. */
+  .course-spine-cap {
+    display: block;
+    width: 0.72rem;
+    height: 0.72rem;
+    margin: 0.72rem auto 0;
+    border-radius: 999px;
+    background: var(--course-accent);
+    box-shadow: 0 0 0 4px var(--bg-base);
+  }
+  .course-spine-cap--end {
+    width: 0.95rem;
+    height: 0.95rem;
+    margin-top: 0.5rem;
+    border: 2px solid var(--border-subtle);
+    background: var(--bg-base);
+    transition:
+      background-color 0.4s var(--ease-smooth, ease),
+      border-color 0.4s var(--ease-smooth, ease);
+  }
+  .course-spine-end[data-state='done'] .course-spine-cap--end {
+    border-color: var(--course-accent);
+    background: var(--course-accent);
+  }
+
+  /* ── Rows ──────────────────────────────────────────────────────────── */
+
+  .course-spine-head {
+    padding-bottom: 3.25rem;
+  }
+
+  .course-spine-readout {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.55rem;
+    margin-top: 1.75rem;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+  }
+  .course-spine-readout-num {
+    font-size: 1rem;
+    letter-spacing: 0;
+    color: var(--course-accent);
+  }
+
+  .course-spine-sec {
+    padding-bottom: 3.5rem;
+  }
+  .course-spine-sec > .course-h2 {
+    margin-bottom: 1.35rem;
+  }
+  .course-spine-body > * + * {
+    margin-top: 1.9rem;
+  }
+
+  /* The thread stops at the closing node instead of running past it. */
+  .course-spine-end {
+    padding-top: 0.15rem;
+  }
+  .course-spine-end::before {
+    bottom: auto;
+    height: 0.98rem;
+  }
+  .course-spine-end .course-proof {
+    margin-top: 0;
+  }
+
+  /* ── Visuals: wider nodes, branched off the thread ─────────────────── */
+
+  .course-spine-visual {
+    position: relative;
+    margin-left: calc(-1 * var(--spine-vis-pull));
+    padding: 1.35rem 1.15rem 1.1rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 0.85rem;
+    background: var(--course-accent-wash);
+  }
+  /* The branch: a hairline from the thread to the frame. */
+  .course-spine-visual::before {
+    content: '';
+    position: absolute;
+    top: 1.15rem;
+    left: calc(var(--spine-line) + var(--spine-vis-pull));
+    width: calc(-1 * (var(--spine-line) + var(--spine-vis-pull)));
+    height: 1px;
+    background: var(--border-subtle);
+  }
+  /* The node itself: wide where a section node is round, straddling the
+     line. Its tag is the block kind (IMG / FIG / POST), not invented prose. */
+  .course-spine-vnode {
+    position: absolute;
+    z-index: 1;
+    top: 0.55rem;
+    left: calc(var(--spine-line) + var(--spine-vis-pull) - 0.55rem);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 3.4rem;
+    height: 1.2rem;
+    padding: 0 0.5rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 999px;
+    background: var(--bg-base);
+    font-family: var(--font-mono);
+    font-size: 0.5625rem;
+    line-height: 1;
+    letter-spacing: 0.16em;
+    color: var(--text-tertiary);
+  }
+  .course-spine-visual figure {
+    margin: 0;
+  }
+
+  /* ── Responsive ────────────────────────────────────────────────────── */
+
+  /* From the breakpoint where the lesson list appears, the thread moves out
+     of the reading column and into the 3rem gutter beside it, so the prose
+     keeps its measure and the visuals gain the inset back. */
+  @media (min-width: 1024px) {
+    .course-spine {
+      margin-left: -2.25rem;
+    }
+  }
+  @media (min-width: 1280px) {
+    .course-spine-visual {
+      margin-right: -1.6rem;
+    }
+  }
+  @media (max-width: 639px) {
+    .course-spine {
+      --spine-gap: 2.35rem;
+      --spine-x: 0.7rem;
+      --spine-node: 1.6rem;
+      --spine-vis-pull: 0.7rem;
+    }
+    .course-spine-node {
+      font-size: 0.5625rem;
+    }
+    .course-spine-visual {
+      padding-inline: 0.9rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .course-spine-sec::after,
+    .course-spine-node,
+    .course-spine-cap--end {
+      transition: none;
+    }
+  }
+}
