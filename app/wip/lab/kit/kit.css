@@ -1,0 +1,250 @@
+/* ══════════════════════════════════════════════════════════════════════
+   The lab asset kit.
+
+   Shared by the ten layouts so a glyph looks the same everywhere it is
+   used, while each layout keeps its own sizing and colour by setting
+   `font-size` and `color` on the parent. Isolation comes from the `kit-`
+   prefix: no selector here matches anything the live course renders.
+   ══════════════════════════════════════════════════════════════════════ */
+
+@layer components {
+  /* Masked shapes inherit `currentColor`, which is the whole point: one
+     asset, correct in light and dark, tintable per layout. */
+  .kit-glyph,
+  .kit-mark-masked {
+    display: inline-block;
+    background-color: currentColor;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+  }
+  .kit-glyph {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+    flex: none;
+  }
+  .kit-mark {
+    flex: none;
+    vertical-align: middle;
+  }
+
+  .kit-strip {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.85rem;
+    margin: 1.25rem 0;
+    padding: 0.6rem 0.85rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    background: var(--surface-card);
+  }
+  .kit-strip-label {
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  .kit-strip ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.75rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .kit-strip li {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+  }
+}
+
+@layer components {
+
+  .kit-pin {
+    position: absolute;
+    /* The coordinates name a point, so the pin is centred on it rather than
+       hanging below and to the right of it. */
+    transform: translate(-50%, -50%);
+    display: grid;
+    place-items: center;
+    width: var(--kit-pin-d);
+    height: var(--kit-pin-d);
+    /* A ring, not a disc. An opaque marker sitting on the control it names
+       hides exactly what the reader came to look at. The centre stays clear
+       and the numeral carries its own shadow so it reads on any pixels
+       underneath; hover and focus fill it, because then the note is open
+       and covering a little is the point. */
+    border: 2px solid var(--course-accent, var(--accent-cyan));
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--bg-base) 70%, transparent);
+    color: var(--course-accent, var(--accent-cyan));
+    text-shadow:
+      0 0 3px var(--bg-base),
+      0 0 6px var(--bg-base);
+    font-weight: 600;
+    font-family: var(--font-mono);
+    font-size: clamp(0.5625rem, 1.35cqw, 0.6875rem);
+    line-height: 1;
+    cursor: pointer;
+    transition: transform 0.12s ease, background-color 0.12s, color 0.12s;
+  }
+  .kit-pin:hover,
+  .kit-pin:focus-visible,
+  .kit-pin.is-active {
+    transform: translate(-50%, -50%) scale(1.18);
+    background: var(--course-accent, var(--accent-cyan));
+    color: var(--bg-base);
+    text-shadow: none;
+  }
+
+  .kit-shot-notes {
+    counter-reset: kit-pin;
+    margin: 0.85rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .kit-shot-notes li {
+    counter-increment: kit-pin;
+    display: grid;
+    grid-template-columns: 1.6rem 1fr;
+    gap: 0.15rem 0.5rem;
+    padding: 0.32rem 0.4rem;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    line-height: 1.55;
+    color: var(--text-secondary);
+  }
+  .kit-shot-notes li::before {
+    content: counter(kit-pin);
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    color: var(--course-accent, var(--accent-cyan));
+  }
+  .kit-shot-notes li.is-active {
+    background: color-mix(in srgb, var(--course-accent, var(--accent-cyan)) 10%, transparent);
+  }
+  .kit-shot-notes b {
+    color: var(--text-primary);
+    font-weight: 600;
+  }
+}
+
+@layer components {
+  /* ── Pins laid over a screenshot the lesson already renders ──────────── */
+
+  /* The figure becomes the positioning context; the layer is a sibling of the
+     trigger, sized onto it from script. It cannot live inside the trigger,
+     because that is a <button> and a button inside a button is invalid HTML. */
+  figure.course-shot[data-pinned='yes'] {
+    position: relative;
+  }
+  .kit-pinlayer {
+    position: absolute;
+    display: block;
+    container-type: inline-size;
+    --kit-pin-d: clamp(1.05rem, 2.9cqw, 1.55rem);
+    --kit-pin-r: calc(var(--kit-pin-d) / 2);
+    /* The figure clips its overflow, so the tooltip has to be bounded by its
+       own half-width, not by a guessed inset. */
+    --kit-tip-w: min(20rem, 88cqw);
+    --kit-tip-r: calc(var(--kit-tip-w) / 2);
+    /* Clicks pass through the empty area to the figure's own trigger, so
+       enlarging the screenshot still works everywhere except on a marker. */
+    pointer-events: none;
+  }
+  .kit-pinlayer .kit-pin {
+    pointer-events: auto;
+  }
+
+  .kit-pinnotes {
+    margin-top: 0.6rem;
+  }
+  .kit-pinnotes .kit-shot-notes {
+    margin: 0;
+  }
+}
+
+@layer components {
+  /* ── The note, shown on its pin ──────────────────────────────────────
+     A list of eight annotations under every screenshot is a wall of text
+     between the reader and the next paragraph. The note now appears on the
+     marker it belongs to, and the full list stays available, folded, for the
+     cases hover cannot serve: touch, keyboard, print. */
+  .kit-pintip {
+    position: absolute;
+    z-index: 4;
+    transform: translate(-50%, calc(var(--kit-pin-d) * 0.75));
+    display: block;
+    width: max-content;
+    width: var(--kit-tip-w);
+    padding: 0.5rem 0.7rem;
+    border: 1px solid var(--border-default);
+    border-radius: 6px;
+    /* Opaque: a note you can read the screenshot through is not a note. */
+    background-color: var(--bg-base);
+    background-image: linear-gradient(var(--surface-overlay), var(--surface-overlay));
+    box-shadow: var(--shadow-lg);
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: var(--text-secondary);
+    text-align: left;
+    pointer-events: none;
+  }
+  /* Below the halfway line the tooltip would fall off the picture. */
+  .kit-pintip.is-above {
+    transform: translate(-50%, calc(-100% - var(--kit-pin-d) * 0.75));
+  }
+  .kit-pintip b {
+    color: var(--text-primary);
+    font-weight: 600;
+  }
+
+  .kit-pinfold {
+    margin-top: 0.5rem;
+  }
+  .kit-pinfold > summary {
+    cursor: pointer;
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  .kit-pinfold > summary:hover {
+    color: var(--text-secondary);
+  }
+  .kit-pinfold[open] > summary {
+    margin-bottom: 0.35rem;
+  }
+}
+
+@layer components {
+  /* The same markers over the enlarged picture.
+
+     The lightbox is where a reader goes to look closely, so the annotations
+     have to come with them. The box is positioned onto the image's rendered
+     rectangle from script; everything else — pin size, tooltip width, the
+     container query they are measured against — is inherited from the rules
+     above, so the two views cannot drift apart. */
+  /* The scroller is not a positioning context on its own, so an absolutely
+     placed child resolved against the dialog instead and landed a bar's
+     height too low. Gated on the layer's own presence, so it cannot reach
+     a lightbox this file did not annotate. */
+  .course-shot-scroll:has(.kit-pinlayer--zoom) {
+    position: relative;
+  }
+  .kit-pinlayer--zoom {
+    position: absolute;
+    z-index: 3;
+  }
+}

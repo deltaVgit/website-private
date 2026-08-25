@@ -63,7 +63,7 @@ export function TermChip({ termId, lang = 'en' }: { termId: string; lang: Course
       {open && position && (
         <div
           ref={popoverRef}
-          className="fixed z-50 bg-[var(--bg-surface)] border border-[var(--border-default)] rounded-lg shadow-lg p-4 max-w-xs"
+          className="course-term-pop fixed z-50 bg-[var(--bg-surface)] border border-[var(--border-default)] rounded-lg shadow-lg p-4 max-w-xs"
           style={{
             top: `${position.top}px`,
             left: `${position.left}px`,

@@ -1,0 +1,228 @@
+/* 05 — Pilot screenshot.
+   The screenshot of a section is lifted to the top of that section and pinned
+   there, so the instructions scroll underneath the window they describe.
+   Everything here is prefixed `lay-pilot-`; the only unprefixed selectors are
+   descendants of a prefixed one, where they restyle blocks the shared engine
+   rendered inside the pinned frame. */
+
+@layer components {
+  .lay-pilot {
+    /* Replaced at runtime with the measured bottom edge of the sticky lab
+       picker; this value only has to survive the first paint. */
+    --lay-pilot-top: 9rem;
+    --lay-pilot-shot-h: 40vh;
+  }
+
+  .lay-pilot-legend {
+    margin-top: 1.5rem;
+    padding-left: 0.9rem;
+    border-left: 2px solid color-mix(in srgb, var(--course-accent) 55%, transparent);
+    max-width: 34rem;
+    font-size: 0.8125rem;
+    line-height: 1.55;
+    color: var(--text-tertiary);
+  }
+
+  .lay-pilot-body {
+    margin-top: 3.5rem;
+  }
+
+  .lay-pilot-sec + .lay-pilot-sec {
+    margin-top: 4rem;
+  }
+
+  /* ── The pinned stage ──────────────────────────────────────────────────
+     Sticky inside its own section, so it releases the moment the section is
+     done and the next section's screen takes over. `--bg-base` is exactly the
+     surface colour behind the page, so the prose passing under it disappears
+     rather than showing through. */
+
+  .lay-pilot-stage {
+    position: sticky;
+    top: var(--lay-pilot-top);
+    z-index: 4;
+    padding: 0.85rem 0 0.75rem;
+    background: var(--bg-base);
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  /* A short wash under the pin, so a line of text does not stop dead on the
+     rule as it scrolls out of sight. */
+  .lay-pilot-stage::after {
+    content: '';
+    position: absolute;
+    inset: 100% 0 auto 0;
+    height: 1.25rem;
+    background: linear-gradient(to bottom, var(--bg-base), transparent);
+    pointer-events: none;
+  }
+
+  .lay-pilot-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+  }
+
+  .lay-pilot-num {
+    flex: none;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    line-height: 1;
+    letter-spacing: 0.08em;
+    padding: 0.25rem 0.4rem;
+    border: 1px solid color-mix(in srgb, var(--course-accent) 35%, transparent);
+    border-radius: 3px;
+    color: var(--course-accent);
+  }
+
+  .lay-pilot .lay-pilot-head .course-h2 {
+    flex: 1 1 auto;
+    min-width: 0;
+    margin: 0;
+  }
+
+  /* Compact only where it is pinned — a plain section keeps the full heading. */
+  .lay-pilot .lay-pilot-stage .course-h2 {
+    font-size: 1.0625rem;
+    line-height: 1.35;
+    letter-spacing: -0.01em;
+  }
+
+  .lay-pilot-toggle {
+    flex: none;
+    min-height: 28px;
+    padding: 0.25rem 0.55rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 4px;
+    background: transparent;
+    font-size: 0.75rem;
+    line-height: 1;
+    color: var(--text-tertiary);
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .lay-pilot-toggle:hover {
+    color: var(--text-primary);
+    border-color: var(--border-hover);
+  }
+
+  /* ── The frame ─────────────────────────────────────────────────────────
+     The block engine still renders the screenshot (click-to-enlarge and all);
+     it is only capped in height so the pin can never eat the whole viewport. */
+
+  .lay-pilot-frame {
+    margin-top: 0.7rem;
+  }
+  .lay-pilot-frame.is-closed,
+  .lay-pilot-strip.is-closed {
+    display: none;
+  }
+
+  .lay-pilot .lay-pilot-frame .course-shot {
+    margin-top: 0;
+    background: var(--surface-card);
+  }
+  .lay-pilot .lay-pilot-frame .course-shot img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: var(--lay-pilot-shot-h);
+    margin: 0 auto;
+  }
+  .lay-pilot .lay-pilot-frame .course-shot figcaption {
+    padding: 0.5rem 0.85rem 0.6rem;
+    font-size: 0.78125rem;
+    line-height: 1.5;
+  }
+
+  /* ── Screen strip ──────────────────────────────────────────────────────
+     Only when a section carries more than one shot. Scrolling swaps the pinned
+     screen at the point the shot originally sat; these buttons are the manual
+     override, and they take the prose with them. */
+
+  .lay-pilot-strip {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem;
+    margin-top: 0.6rem;
+  }
+
+  .lay-pilot-strip-label {
+    margin-right: 0.15rem;
+    font-size: 0.6875rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  .lay-pilot-thumb {
+    min-width: 32px;
+    min-height: 28px;
+    padding: 0.25rem 0.45rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 4px;
+    background: transparent;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    line-height: 1;
+    color: var(--text-tertiary);
+    transition: color 0.15s, border-color 0.15s, background-color 0.15s;
+  }
+  .lay-pilot-thumb:hover {
+    color: var(--text-primary);
+    border-color: var(--border-hover);
+  }
+  .lay-pilot-thumb[aria-pressed='true'] {
+    color: var(--course-accent);
+    border-color: color-mix(in srgb, var(--course-accent) 50%, transparent);
+    background: color-mix(in srgb, var(--course-accent) 10%, transparent);
+  }
+
+  /* ── What scrolls underneath ───────────────────────────────────────── */
+
+  .lay-pilot-steps {
+    padding-top: 1.4rem;
+  }
+
+  /* The hole an image left behind: zero-height, but it is what tells the pin
+     which screen the reader has reached. */
+  .lay-pilot .lay-pilot-mark {
+    display: block;
+    height: 0;
+    margin: 0;
+  }
+
+  .lay-pilot-sec--plain .lay-pilot-head {
+    margin-bottom: 1.25rem;
+  }
+
+  .lay-pilot-proof {
+    margin-top: 4.5rem;
+  }
+
+  /* Short viewports and phones: a pin worth 40vh would leave nothing to read,
+     so it shrinks; below 520px tall it stops pinning altogether. */
+  @media (max-width: 640px) {
+    .lay-pilot {
+      --lay-pilot-shot-h: 26vh;
+    }
+    .lay-pilot-head {
+      flex-wrap: wrap;
+    }
+  }
+  @media (max-height: 520px) {
+    .lay-pilot-stage {
+      position: static;
+    }
+    .lay-pilot-stage::after {
+      display: none;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .lay-pilot-toggle,
+    .lay-pilot-thumb {
+      transition: none;
+    }
+  }
+}

@@ -1,0 +1,474 @@
+/* 08 — Terminal first.
+   Actions occupy the wide centre lane; prose is pushed into a narrow margin
+   column beside the action it explains. Every selector is prefixed `lay-term-`
+   so the ten proposals can coexist, and every override of a shared `course-*`
+   class carries at least three classes so it wins against `.aih-surface .x`
+   whatever order the stylesheets happen to load in. */
+
+@layer components {
+  .lay-term {
+    --lay-term-margin: 10.5rem;
+    --lay-term-gap: 1.5rem;
+  }
+
+  /* ── Boot header ─────────────────────────────────────────────────────
+     The lesson opens as a session, not as an article: a status bar, the
+     title, then the flat list of everything this lesson asks you to do. */
+
+  .lay-term-boot {
+    border: 1px solid var(--border-subtle);
+    border-radius: 0.75rem;
+    background: var(--bg-card);
+    overflow: hidden;
+  }
+
+  .lay-term-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem 1rem;
+    padding: 0.5rem 0.9rem;
+    border-bottom: 1px solid var(--border-subtle);
+    background: var(--overlay-soft);
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+  }
+  .lay-term-bar-path {
+    color: var(--course-accent);
+  }
+  .lay-term-bar-meta {
+    color: var(--text-muted);
+  }
+
+  .lay-term-boot-body {
+    padding: 1.5rem 1.25rem 1.25rem;
+  }
+
+  .lay-term-part {
+    margin: 0 0 0.75rem;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  .lay-term .lay-term-title {
+    font-size: clamp(1.75rem, 3vw, 2.25rem);
+    letter-spacing: -0.028em;
+  }
+  .lay-term-caret {
+    display: inline-block;
+    margin-left: 0.35rem;
+    color: var(--course-accent);
+    opacity: 0.85;
+    animation: lay-term-blink 1.1s steps(1, end) infinite;
+  }
+  @keyframes lay-term-blink {
+    0%,
+    50% {
+      opacity: 0.85;
+    }
+    50.01%,
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .lay-term .lay-term-sub {
+    margin-top: 0.85rem;
+    max-width: 40rem;
+    color: var(--text-secondary);
+  }
+
+  /* ── Run sheet ───────────────────────────────────────────────────────
+     A table of contents made of verbs instead of headings. */
+
+  .lay-term-sheet {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-subtle);
+  }
+  .lay-term-sheet-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.6rem;
+  }
+  .lay-term-sheet-label {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  .lay-term-toggle {
+    padding: 0.3rem 0.7rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 0.5rem;
+    background: var(--surface-card);
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.06em;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition:
+      color var(--duration-fast) var(--ease-smooth),
+      border-color var(--duration-fast) var(--ease-smooth);
+  }
+  .lay-term-toggle:hover {
+    color: var(--text-primary);
+    border-color: var(--border-hover);
+  }
+  .lay-term-toggle[aria-pressed='true'] {
+    color: var(--course-accent);
+    border-color: color-mix(in srgb, var(--course-accent) 45%, var(--border-default));
+    background: color-mix(in srgb, var(--course-accent) 8%, transparent);
+  }
+  .lay-term-toggle:focus-visible {
+    outline: 2px solid var(--course-accent);
+    outline-offset: 2px;
+  }
+
+  .lay-term-sheet-empty {
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    line-height: 1.6;
+    color: var(--text-tertiary);
+  }
+
+  .lay-term-sheet-list {
+    display: grid;
+    gap: 1px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .lay-term-sheet-row {
+    display: grid;
+    grid-template-columns: 2rem 4.25rem minmax(0, 1fr);
+    align-items: baseline;
+    gap: 0.5rem;
+    padding: 0.35rem 0.4rem;
+    border-radius: 0.35rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: var(--text-tertiary);
+    text-decoration: none;
+    transition:
+      color var(--duration-fast) var(--ease-smooth),
+      background-color var(--duration-fast) var(--ease-smooth);
+  }
+  .lay-term-sheet-row:hover {
+    color: var(--text-primary);
+    background: var(--overlay-soft);
+  }
+  .lay-term-sheet-row:focus-visible {
+    outline: 2px solid var(--course-accent);
+    outline-offset: 1px;
+  }
+  .lay-term-sheet-n {
+    color: var(--text-disabled);
+  }
+  .lay-term-sheet-kind {
+    color: var(--course-accent);
+    letter-spacing: 0.08em;
+  }
+  .lay-term-sheet-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: var(--font-sans);
+    letter-spacing: 0;
+  }
+
+  /* ── The run: sections, beats, lanes ─────────────────────────────── */
+
+  .lay-term-run {
+    margin-top: 3rem;
+    display: grid;
+    gap: 3.5rem;
+  }
+
+  .lay-term-sec-head {
+    display: grid;
+    align-items: center;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+  /* The section title lives in the margin lane with the prose, not over the
+     stage: in this model a heading is orientation, not content. */
+  .lay-term .lay-term-sec-head .course-h2 {
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    scroll-margin-top: 6.5rem;
+  }
+  .lay-term-sec-rule {
+    display: block;
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      color-mix(in srgb, var(--course-accent) 40%, transparent),
+      var(--border-subtle) 35%,
+      transparent
+    );
+  }
+
+  .lay-term-beat {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.9rem;
+    align-items: start;
+  }
+  .lay-term-beat + .lay-term-beat {
+    margin-top: 2.25rem;
+  }
+  .lay-term-beat--proof {
+    margin-top: 3.5rem;
+  }
+
+  /* Margin lane: annotation size, quieter colour, its own hairline. */
+  .lay-term-note {
+    --course-measure: 100%;
+    border-left: 2px solid color-mix(in srgb, var(--course-accent) 30%, var(--border-subtle));
+    padding-left: 0.85rem;
+  }
+  .lay-term-note--empty {
+    display: none;
+  }
+  .lay-term .lay-term-note .course-p,
+  .lay-term .lay-term-note .course-lead,
+  .lay-term .lay-term-note .course-list {
+    font-size: 0.8125rem;
+    line-height: 1.6;
+    color: var(--text-tertiary);
+  }
+  .lay-term .lay-term-note .course-lead {
+    color: var(--text-secondary);
+  }
+  .lay-term .lay-term-note .course-callout {
+    padding: 0.6rem 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 0.78125rem;
+    line-height: 1.55;
+  }
+  .lay-term .lay-term-note.course-blocks > * + * {
+    margin-top: 0.75rem;
+  }
+  .lay-term .lay-term-note .course-bullet-mark {
+    color: var(--text-disabled);
+  }
+
+  /* Stage lane: the action, plus whatever evidence belongs to it. */
+  .lay-term-stage {
+    min-width: 0;
+  }
+  .lay-term-stage > * + * {
+    margin-top: 1.25rem;
+  }
+  .lay-term .lay-term-slot > * {
+    max-width: none;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  /* ── The frame ───────────────────────────────────────────────────── */
+
+  .lay-term-frame {
+    border: 1px solid var(--border-default);
+    border-radius: 0.75rem;
+    background: var(--bg-card);
+    overflow: hidden;
+    scroll-margin-top: 6.5rem;
+    box-shadow: inset 0 1px 0 color-mix(in srgb, var(--course-accent) 14%, transparent);
+  }
+  .lay-term-frame-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.45rem 0.9rem;
+    border-bottom: 1px solid var(--border-subtle);
+    background: var(--overlay-soft);
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    line-height: 1.5;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+  .lay-term-frame-kind {
+    font-weight: 600;
+    color: var(--course-accent);
+  }
+  .lay-term-frame-kind::before {
+    content: '▸ ';
+  }
+  .lay-term-frame-tag {
+    color: var(--text-disabled);
+  }
+  .lay-term-frame-body {
+    padding: 1rem;
+  }
+
+  /* A command inside the frame is the frame: no second border, no second
+     card, and a size step up — this is the thing you came for. */
+  .lay-term .lay-term-frame .course-code-block {
+    max-width: none;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+  }
+  .lay-term .lay-term-frame .course-code-head {
+    padding: 0 0 0.5rem;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+  .lay-term .lay-term-frame .course-code-pre {
+    padding: 0.85rem 0 0;
+    font-size: 0.9375rem;
+    line-height: 1.7;
+  }
+  .lay-term .lay-term-frame .course-code-note {
+    padding: 0.7rem 0 0;
+    margin-top: 0.7rem;
+  }
+  .lay-term .lay-term-frame .course-step-list,
+  .lay-term .lay-term-frame .course-quiz,
+  .lay-term .lay-term-frame .course-measure {
+    max-width: none;
+  }
+  .lay-term .lay-term-frame .course-step {
+    background: transparent;
+    border-color: var(--border-subtle);
+  }
+  /* A step's own command is already inside the frame — flatten it too, but
+     keep a hairline so one step never bleeds into the next. */
+  .lay-term .lay-term-frame .course-step-code .course-code-block {
+    border-top: 1px solid var(--border-subtle);
+    padding-top: 0.6rem;
+    margin-top: 0.6rem;
+  }
+  .lay-term-proof-cta {
+    margin-top: 1rem;
+  }
+
+  /* ── Interstitial ────────────────────────────────────────────────────
+     A section that asks for nothing does not get a frame. It narrows,
+     centres and steps back, so the eye reads it as breathing space between
+     two runs of commands rather than as another thing to do. */
+
+  .lay-term-rest {
+    --course-measure: 34rem;
+    position: relative;
+    padding: 2.25rem 0;
+    border-top: 1px solid var(--border-subtle);
+    border-bottom: 1px solid var(--border-subtle);
+  }
+  .lay-term .lay-term-rest .course-h2 {
+    margin: 0 auto 1.25rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+    color: var(--text-secondary);
+    scroll-margin-top: 6.5rem;
+  }
+  .lay-term .lay-term-rest .course-h2::before {
+    content: '· ';
+    color: var(--text-disabled);
+  }
+  .lay-term .lay-term-rest .course-blocks > * {
+    margin-inline: auto;
+  }
+  .lay-term .lay-term-rest .course-p,
+  .lay-term .lay-term-rest .course-list {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text-tertiary);
+  }
+
+  /* ── Commands only ───────────────────────────────────────────────────
+     Folds every word of supporting prose away and leaves the run sheet.
+     The headings stay, so the shape of the lesson does not move. */
+
+  .lay-term.is-bare .lay-term-note {
+    display: none;
+  }
+  .lay-term.is-bare .lay-term-rest {
+    padding: 1.1rem 0;
+  }
+  .lay-term.is-bare .lay-term-rest .course-blocks {
+    display: none;
+  }
+  .lay-term.is-bare .lay-term-rest .course-h2 {
+    margin-bottom: 0;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  /* ── Two lanes ───────────────────────────────────────────────────────
+     Only once there is room for a real margin. Below that the annotation
+     stays above its command, still at annotation size, still hairlined. */
+
+  @media (min-width: 1024px) {
+    .lay-term-beat,
+    .lay-term-sec-head {
+      grid-template-columns: var(--lay-term-margin) minmax(0, 1fr);
+      gap: var(--lay-term-gap);
+    }
+    .lay-term-note {
+      position: sticky;
+      top: 9.5rem; /* clears the sticky picker once it wraps to two rows */
+      border-left: 0;
+      padding-left: 0;
+      padding-right: 1rem;
+      border-right: 1px solid var(--border-subtle);
+    }
+    .lay-term-note--empty {
+      display: block;
+      border-right-color: transparent;
+    }
+    .lay-term.is-bare .lay-term-beat,
+    .lay-term.is-bare .lay-term-sec-head {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .lay-term.is-bare .lay-term-note--empty {
+      display: none;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .lay-term {
+      --lay-term-margin: 12.5rem;
+      --lay-term-gap: 2rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .lay-term-caret {
+      animation: none;
+    }
+    .lay-term-toggle,
+    .lay-term-sheet-row {
+      transition: none;
+    }
+  }
+}

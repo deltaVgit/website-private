@@ -15,6 +15,7 @@
   "homepage": "https://deltavgit.github.io/website-private/",
   "scripts": {
     "dev": "next dev",
+    "annotate": "npx -y agentation-mcp server",
     "prebuild": "node scripts/run-py.mjs scripts/copy-data.py && node scripts/run-py.mjs scripts/generate-intelhub-rss.py",
     "build": "node scripts/run-py.mjs scripts/copy-data.py && node scripts/run-py.mjs scripts/generate-intelhub-rss.py && next build && node scripts/run-py.mjs scripts/patch-basepath.py",
     "export": "next build",

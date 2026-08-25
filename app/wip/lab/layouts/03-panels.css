@@ -1,0 +1,498 @@
+/* 03 — One section, one screen.
+   A snap deck: the lesson gets its own scroller, every section is a panel the
+   exact height of that scroller, and nothing outside this file is touched. */
+
+@layer components {
+  .lay-panels-root {
+    /* --lay-panels-top is measured from the real chrome above the deck and
+       set from script; the 8rem fallback covers the no-JS case. Guessing it
+       put the deck's own position indicator below the fold. */
+    --lay-panels-top: 8rem;
+    --lay-panels-h: max(26rem, calc(100vh - var(--lay-panels-top)));
+    --lay-panels-pad: clamp(1.25rem, 3.2vw, 3rem);
+    position: relative;
+    isolation: isolate;
+    border: 1px solid var(--border-subtle);
+    border-radius: 0.9rem;
+    overflow: hidden;
+    background: var(--bg-base);
+  }
+
+  /* The deck is short on phones in landscape; dvh keeps the panel equal to what
+     is actually visible once the browser chrome collapses. */
+  @supports (height: 100dvh) {
+    .lay-panels-root {
+      --lay-panels-h: max(26rem, calc(100dvh - var(--lay-panels-top)));
+    }
+  }
+
+  .lay-panels-deck {
+    position: relative;
+    height: var(--lay-panels-h);
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-snap-type: y mandatory;
+    overscroll-behavior-y: contain;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-hover) transparent;
+  }
+
+  .lay-panels-deck:focus-visible {
+    outline: 2px solid var(--course-accent);
+    outline-offset: -2px;
+  }
+
+  .lay-panels-panel {
+    box-sizing: border-box;
+    height: var(--lay-panels-h);
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+    padding: var(--lay-panels-pad);
+    padding-bottom: calc(var(--lay-panels-pad) + 3.25rem);
+    /* Blocks inside a panel read on a slide, not in a 43rem book column. */
+    --course-measure: 41rem;
+  }
+
+  .lay-panels-panel + .lay-panels-panel {
+    border-top: 1px solid var(--border-subtle);
+  }
+
+  .lay-panels-panel--cover {
+    background:
+      radial-gradient(
+        ellipse at 12% 0%,
+        color-mix(in srgb, var(--course-accent) 9%, transparent),
+        transparent 62%
+      ),
+      var(--bg-base);
+  }
+
+  /* One row, two cells: a rail that never moves and a body that scrolls. */
+  .lay-panels-inner {
+    height: 100%;
+    display: grid;
+    grid-template-columns: minmax(11rem, 16rem) minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr);
+    gap: clamp(1.25rem, 2.6vw, 3rem);
+    max-width: 76rem;
+    margin: 0 auto;
+  }
+
+  .lay-panels-inner--cover {
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+    align-items: center;
+  }
+
+  .lay-panels-inner--solo {
+    grid-template-columns: minmax(0, 46rem);
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* ---- the rail --------------------------------------------------------- */
+
+  .lay-panels-aside {
+    align-self: center;
+    min-width: 0;
+    padding-right: 1.25rem;
+    border-right: 1px solid var(--border-subtle);
+    opacity: 0.55;
+    transition: opacity 0.35s ease;
+  }
+
+  .lay-panels-panel.is-active .lay-panels-aside {
+    opacity: 1;
+  }
+
+  .lay-panels-index {
+    font-family: var(--font-mono);
+    font-size: clamp(2.25rem, 4.4vw, 3.5rem);
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    color: var(--course-accent);
+  }
+
+  .lay-panels-index-of {
+    font-size: 0.875rem;
+    letter-spacing: 0;
+    color: var(--text-tertiary);
+    margin-left: 0.35rem;
+  }
+
+  .lay-panels-heading {
+    margin-top: 0.85rem;
+    font-size: clamp(1.25rem, 2.1vw, 1.75rem);
+    line-height: 1.2;
+    text-wrap: balance;
+  }
+
+  .lay-panels-kicker {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+  }
+
+  .lay-panels-tag {
+    display: inline-block;
+    padding: 0.1rem 0.4rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 0.4rem;
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+    white-space: nowrap;
+  }
+
+  .lay-panels-tag--block {
+    margin-top: 0.75rem;
+  }
+
+  .lay-panels-more {
+    margin-top: 1rem;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.06em;
+    color: var(--text-tertiary);
+  }
+
+  /* ---- the body --------------------------------------------------------- */
+
+  /* Auto margins, not justify-content: short sections sit dead centre, long
+     ones scroll from their real top instead of being clipped. */
+  .lay-panels-body {
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-hover) transparent;
+    scrollbar-gutter: stable;
+    padding-right: 0.5rem;
+  }
+
+  .lay-panels-body > * {
+    width: 100%;
+    margin-block: auto;
+  }
+
+  /* A screenshot must not own three screens on its own — the dialog is still
+     one click away for the full-size view. */
+  .lay-panels-body figure.course-shot img {
+    max-height: min(46vh, 26rem);
+    object-fit: contain;
+  }
+
+  .lay-panels-body .course-blocks > * + * {
+    margin-top: 1rem;
+  }
+
+  /* ---- cover ------------------------------------------------------------ */
+
+  .lay-panels-cover {
+    min-width: 0;
+  }
+
+  .lay-panels-meta {
+    margin-bottom: 1.1rem;
+  }
+
+  .lay-panels-title {
+    text-wrap: balance;
+  }
+
+  .lay-panels-sub {
+    margin-top: 1rem;
+    max-width: 34rem;
+  }
+
+  .lay-panels-hint {
+    margin-top: 1.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.04em;
+    color: var(--text-tertiary);
+  }
+
+  .lay-panels-kbd {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.35rem;
+    padding: 0.05rem 0.3rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 0.3rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+  }
+
+  .lay-panels-agenda {
+    align-self: center;
+    min-width: 0;
+    max-height: 100%;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-hover) transparent;
+    padding: 1rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 0.75rem;
+    background: var(--surface-card);
+  }
+
+  .lay-panels-agenda-title {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+    padding: 0 0.5rem 0.6rem;
+  }
+
+  .lay-panels-agenda-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .lay-panels-agenda-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: left;
+    color: var(--text-secondary);
+    transition: background-color 0.15s ease, color 0.15s ease;
+  }
+
+  .lay-panels-agenda-row:hover {
+    background: color-mix(in srgb, var(--course-accent) 8%, transparent);
+    color: var(--text-primary);
+  }
+
+  .lay-panels-agenda-row:focus-visible {
+    outline: 2px solid var(--course-accent);
+    outline-offset: 1px;
+  }
+
+  .lay-panels-agenda-num {
+    flex: none;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--course-accent);
+  }
+
+  .lay-panels-agenda-label {
+    flex: 1;
+    min-width: 0;
+    font-size: 0.9375rem;
+    line-height: 1.35;
+  }
+
+  /* ---- proof ------------------------------------------------------------ */
+
+  .lay-panels-proof > * + * {
+    margin-top: 1.25rem;
+  }
+
+  /* ---- the position pill ------------------------------------------------ */
+
+  /* Fixed to the window, not to the deck's bottom edge.
+
+     Anchoring it to the deck put it below the fold whenever the chrome
+     above (crumbs, banner, the sticky picker at two rows, the blurb) left
+     less room than the deck's own minimum height. The read-out is the only
+     thing telling a reader that more panels exist, so it cannot be the part
+     that scrolls away. It hides itself when the deck is not on screen. */
+  .lay-panels-hud {
+    position: fixed;
+    z-index: 2;
+    left: 50%;
+    bottom: 1.1rem;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    max-width: calc(100% - 2rem);
+    padding: 0.3rem 0.55rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 999px;
+    background: var(--surface-card);
+    backdrop-filter: blur(10px);
+  }
+
+  .lay-panels-hud-label {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.06em;
+    white-space: nowrap;
+    color: var(--text-secondary);
+  }
+
+  .lay-panels-dots {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    list-style: none;
+    margin: 0;
+    padding: 0 0.15rem;
+  }
+
+  .lay-panels-dot {
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 999px;
+    background: var(--border-hover);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+
+  .lay-panels-dot:hover {
+    background: var(--text-tertiary);
+  }
+
+  .lay-panels-dot.is-active {
+    background: var(--course-accent);
+    transform: scale(1.35);
+  }
+
+  .lay-panels-dot:focus-visible {
+    outline: 2px solid var(--course-accent);
+    outline-offset: 2px;
+  }
+
+  .lay-panels-step {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 999px;
+    font-size: 0.8125rem;
+    line-height: 1;
+    color: var(--text-secondary);
+    transition: background-color 0.15s ease, color 0.15s ease;
+  }
+
+  .lay-panels-step:hover:not(:disabled) {
+    background: color-mix(in srgb, var(--course-accent) 12%, transparent);
+    color: var(--text-primary);
+  }
+
+  .lay-panels-step:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+
+  .lay-panels-step:focus-visible {
+    outline: 2px solid var(--course-accent);
+    outline-offset: 1px;
+  }
+
+  /* ---- narrow ----------------------------------------------------------- */
+
+  @media (max-width: 61.99rem) {
+    .lay-panels-inner,
+    .lay-panels-inner--cover,
+    .lay-panels-inner--solo {
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-rows: auto minmax(0, 1fr);
+      align-items: stretch;
+      gap: 1rem;
+    }
+
+    .lay-panels-inner--cover {
+      grid-template-rows: auto minmax(0, 1fr);
+    }
+
+    .lay-panels-inner--solo {
+      grid-template-rows: minmax(0, 1fr);
+    }
+
+    .lay-panels-aside {
+      align-self: start;
+      display: flex;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.6rem 0.85rem;
+      padding: 0 0 0.85rem;
+      border-right: 0;
+      border-bottom: 1px solid var(--border-subtle);
+      opacity: 1;
+    }
+
+    .lay-panels-index {
+      font-size: 1.5rem;
+    }
+
+    .lay-panels-heading {
+      margin-top: 0;
+      font-size: 1.25rem;
+    }
+
+    .lay-panels-more {
+      margin-top: 0;
+      width: 100%;
+    }
+
+    .lay-panels-hud-label {
+      display: none;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .lay-panels-deck {
+      scroll-behavior: auto;
+    }
+
+    .lay-panels-aside,
+    .lay-panels-dot,
+    .lay-panels-step,
+    .lay-panels-agenda-row {
+      transition: none;
+    }
+
+    .lay-panels-dot.is-active {
+      transform: none;
+      outline: 2px solid var(--course-accent);
+      outline-offset: 2px;
+    }
+  }
+}
+
+@layer components {
+  /* The body is focusable now, so it needs to show it. Inset, because the
+     outline of a scroll container is otherwise clipped by its own overflow. */
+  .lay-panels-body:focus-visible {
+    outline: 2px solid var(--course-accent, var(--accent-cyan));
+    outline-offset: -2px;
+  }
+}
+
+@layer components {
+  /* The window-anchored read-out only exists while the deck is on screen; the
+     proof and the advanced tail scroll under it otherwise. */
+  .lay-panels-root:not([data-deck-onscreen]) .lay-panels-hud {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .lay-panels-hud {
+    transition: opacity 0.18s ease;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .lay-panels-hud {
+      transition: none;
+    }
+  }
+}

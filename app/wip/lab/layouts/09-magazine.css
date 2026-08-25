@@ -1,0 +1,362 @@
+/* ══════════════════════════════════════════════════════════════════════
+   09 — Magazine.
+
+   An asymmetric editorial grid: one wide main column for the prose, one
+   narrow marginal column for the apparatus (folio, contents, section
+   numerals, pull-quotes). Visuals ignore the grid and run full-bleed.
+
+   Mobile-first: below the breakpoint the two tracks stack, the margin
+   column becoming a kicker above the text it belongs to. The magazine
+   grid only switches on when there is genuinely room for both measures.
+
+   Every class is `lay-mag-` prefixed; nothing here leaks to another
+   layout, and no colour is spelled out — the light theme keeps working.
+   ══════════════════════════════════════════════════════════════════════ */
+
+@layer components {
+  .lay-mag {
+    /* The one face this layout adds. Georgia is on every desktop that
+       matters and its colour on dark is unusually good for display sizes. */
+    --lay-mag-serif: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Times New Roman', serif;
+    --lay-mag-margin-col: 18rem;
+    --lay-mag-gutter: 3.25rem;
+    --lay-mag-main-col: 47rem;
+    /* The reading measure here is the main column itself, so blocks stop
+       carrying a second, narrower right edge inside it. */
+    --course-measure: 100%;
+
+    max-width: var(--lay-mag-main-col);
+  }
+
+  /* ── The grid ─────────────────────────────────────────────────────── */
+
+  .lay-mag-row {
+    display: block;
+  }
+  .lay-mag-main {
+    min-width: 0;
+  }
+  .lay-mag-margin:not(:empty) {
+    margin-bottom: 1.4rem;
+  }
+
+  /* Vertical rhythm — generous, and owned in one place. */
+  .lay-mag-main > * + * {
+    margin-top: 1.6rem;
+  }
+  .lay-mag-sec {
+    margin-top: 4.5rem;
+  }
+  .lay-mag-sec > * + * {
+    margin-top: 2.25rem;
+  }
+  .lay-mag-sec > .lay-mag-sechead {
+    margin-top: 1.6rem;
+  }
+  .lay-mag-sec > .lay-mag-plate {
+    margin-top: 1.5rem;
+  }
+  .lay-mag-head {
+    margin-top: 1.75rem;
+  }
+  .lay-mag-end {
+    margin-top: 3rem;
+  }
+  .lay-mag-proof {
+    margin-top: 3.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-subtle);
+  }
+
+  .lay-mag-rule {
+    height: 1px;
+    background: var(--border-subtle);
+  }
+  /* Masthead bar — the one place the accent is allowed to be furniture. */
+  .lay-mag > .lay-mag-rule:first-child {
+    height: 2px;
+    background: var(--course-accent);
+  }
+
+  /* ── Masthead ─────────────────────────────────────────────────────── */
+
+  .lay-mag-folio {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    line-height: 1.4;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  .lay-mag-folio-num {
+    color: var(--course-accent);
+  }
+
+  .lay-mag-title {
+    font-family: var(--lay-mag-serif);
+    font-size: clamp(2.35rem, 4.4vw, 3.5rem);
+    line-height: 1.04;
+    letter-spacing: -0.018em;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+  .lay-mag-deck {
+    max-width: 36rem;
+    font-size: 1.25rem;
+    line-height: 1.55;
+    color: var(--text-secondary);
+  }
+  .lay-mag-head .lay-mag-main > * + * {
+    margin-top: 1.1rem;
+  }
+
+  /* ── Contents, in the margin ──────────────────────────────────────── */
+
+  .lay-mag-contents {
+    margin-top: 1.5rem;
+  }
+  .lay-mag-contents-title {
+    margin-bottom: 0.55rem;
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  .lay-mag-contents ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.28rem;
+  }
+  .lay-mag-contents a {
+    display: flex;
+    align-items: baseline;
+    gap: 0.7rem;
+    font-size: 0.8125rem;
+    line-height: 1.45;
+    color: var(--text-tertiary);
+    transition: color 0.15s ease;
+  }
+  .lay-mag-contents a:hover {
+    color: var(--text-primary);
+  }
+  .lay-mag-contents a:focus-visible {
+    outline: 2px solid var(--course-accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+    color: var(--text-primary);
+  }
+  .lay-mag-contents-num {
+    order: -1;
+    flex: none;
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    color: var(--course-accent);
+    opacity: 0.75;
+  }
+
+  /* ── Section openings ─────────────────────────────────────────────── */
+
+  .lay-mag-secnum {
+    font-family: var(--lay-mag-serif);
+    font-size: 1.5rem;
+    line-height: 1;
+    color: var(--course-accent);
+  }
+  .lay-mag-h2 {
+    font-family: var(--lay-mag-serif);
+    font-size: clamp(1.7rem, 2.4vw, 2.125rem);
+    line-height: 1.2;
+    letter-spacing: -0.012em;
+    font-weight: 700;
+    color: var(--text-primary);
+    scroll-margin-top: 6rem;
+  }
+
+  /* ── Callouts, reset as pull-quotes ───────────────────────────────── */
+
+  .lay-mag-quote {
+    --lay-mag-mark: var(--course-accent);
+    padding-left: 1.05rem;
+    border-left: 2px solid var(--lay-mag-mark);
+    color: var(--text-primary);
+    font-family: var(--lay-mag-serif);
+  }
+  .lay-mag-quote + .lay-mag-quote {
+    margin-top: 1.6rem;
+  }
+  .lay-mag-quote--warn {
+    --lay-mag-mark: var(--accent-warning);
+  }
+  .lay-mag-quote--said {
+    --lay-mag-mark: var(--accent-cyan);
+    font-style: italic;
+  }
+  /* Larger than the body in every tier; the longest ones step down so a
+     400-character note still fits a 288px margin without shouting. */
+  .lay-mag-quote-text {
+    font-size: 1.375rem;
+    line-height: 1.36;
+  }
+  .lay-mag-quote--lg .lay-mag-quote-text {
+    font-size: 1.5rem;
+    line-height: 1.32;
+  }
+  .lay-mag-quote--md .lay-mag-quote-text {
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+  .lay-mag-quote--sm .lay-mag-quote-text {
+    font-size: 1.125rem;
+    line-height: 1.48;
+  }
+
+  /* ── Plates: visuals break the grid ───────────────────────────────── */
+
+  /* `flow-root` keeps the figure's own top margin *inside* the plate instead
+     of collapsing through it, which turns that margin into the band the plate
+     number is set in. Nothing has to out-specify a Tailwind `my-8` on a
+     diagram, and screenshots and diagrams end up on the same band. */
+  .lay-mag-plate {
+    position: relative;
+    display: flow-root;
+  }
+  .lay-mag-plate-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  .lay-mag .lay-mag-plate .course-shot {
+    margin-top: 2rem;
+  }
+  .lay-mag .lay-mag-plate .course-shot figcaption {
+    font-family: var(--lay-mag-serif);
+    font-style: italic;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    color: var(--text-tertiary);
+  }
+
+  /* ── Drop cap ─────────────────────────────────────────────────────── */
+
+  .lay-mag-dropcap > .course-p::first-letter,
+  .lay-mag-dropcap > .course-lead::first-letter {
+    float: left;
+    margin: -0.1rem 0.55rem 0 0;
+    font-family: var(--lay-mag-serif);
+    font-size: 4.2rem;
+    font-weight: 400;
+    line-height: 0.88;
+    color: var(--course-accent);
+  }
+
+  /* ── End mark & proof ─────────────────────────────────────────────── */
+
+  /* The printer's end mark: this piece is over. */
+  .lay-mag-endmark {
+    display: block;
+    width: 0.6rem;
+    height: 0.6rem;
+    margin-left: auto;
+    background: var(--course-accent);
+  }
+  .lay-mag-proof-label {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  /* ══ The magazine grid switches on when both measures fit ══════════ */
+
+  @media (min-width: 75rem) {
+    .lay-mag {
+      max-width: calc(
+        var(--lay-mag-margin-col) + var(--lay-mag-gutter) + var(--lay-mag-main-col)
+      );
+    }
+    .lay-mag-row {
+      display: grid;
+      grid-template-columns: var(--lay-mag-margin-col) minmax(0, var(--lay-mag-main-col));
+      column-gap: var(--lay-mag-gutter);
+      align-items: start;
+    }
+    /* Marginal matter is set ragged-left, so the gutter reads as one hard
+       edge against the text block. */
+    .lay-mag-margin {
+      text-align: right;
+    }
+    .lay-mag-margin:not(:empty) {
+      margin-bottom: 0;
+    }
+
+    .lay-mag-contents a {
+      justify-content: flex-end;
+      text-align: right;
+    }
+    .lay-mag-contents-num {
+      order: 0;
+    }
+
+    .lay-mag-sechead {
+      align-items: baseline;
+    }
+    .lay-mag-secnum {
+      font-size: 2.5rem;
+    }
+
+    /* No left rule in the margin: a short rule above the quote keeps the
+       ragged-left edge clean. */
+    .lay-mag-quote {
+      position: relative;
+      padding-left: 0;
+      padding-top: 0.95rem;
+      border-left: 0;
+    }
+    .lay-mag-quote::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 2.75rem;
+      height: 2px;
+      background: var(--lay-mag-mark);
+    }
+    .lay-mag-quote + .lay-mag-quote {
+      margin-top: 2.25rem;
+    }
+
+    .lay-mag-dropcap > .course-p::first-letter,
+    .lay-mag-dropcap > .course-lead::first-letter {
+      font-size: 5.4rem;
+      margin-right: 0.65rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .lay-mag-contents a {
+      transition: none;
+    }
+  }
+}
+
+@layer components {
+  /* The runnable command under the deck. Kept to the text measure rather than
+     the full editorial grid: it is a command to copy, not a plate. */
+  .lay-mag-hero {
+    margin-top: 1.25rem;
+    max-width: 42rem;
+  }
+}

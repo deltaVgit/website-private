@@ -2,6 +2,7 @@
 
 import { useEffect, useId, useMemo, useRef, useState, type FormEvent } from 'react';
 import Link from 'next/link';
+import { WIP_SURFACES } from '@/app/wip/constants';
 import { usePathname, useRouter } from 'next/navigation';
 import type { ContentEntry } from '../data/content-index';
 import { hrefFor, isTranslated, localeFromPath, localePath, type Locale } from '@/lib/i18n';
@@ -29,6 +30,23 @@ function navHref(href: string, lang: Locale) {
  * individual courses (or a second course index) from here just competed with
  * the page the "Forge" label already points at.
  */
+/**
+ * Work in progress. Proposals live under /wip/ so they can be reviewed without
+ * touching the live course or colliding with an open branch. Not indexed.
+ */
+/**
+ * Is the work-in-progress sandbox advertised in the nav?
+ *
+ * The site is a static export and the deploy publishes all of `out/`, so
+ * `/wip/` is reachable on the live domain whatever this says. What this
+ * controls is whether every public page links to it. Visible while
+ * developing, hidden in a production build unless someone opts in on
+ * purpose, so an unfinished proposal cannot ship into the main nav by
+ * forgetting to remove a line.
+ */
+const SHOW_WIP =
+  process.env.NODE_ENV !== 'production' || process.env.NEXT_PUBLIC_SHOW_WIP === '1';
+
 const FORGE_LINKS = [
   { href: '/tutorials/', label: 'Tutorials', detail: 'Builds and walkthroughs' },
   { href: '/blog/', label: 'Blog', detail: 'Essays and field notes' },
@@ -116,18 +134,61 @@ function SearchSuggestions({ query, visible, onSelect }: { query: string; visibl
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [forgeOpen, setForgeOpen] = useState(false);
+  const [wipOpen, setWipOpen] = useState(false);
   const [query, setQuery] = useState('');
   const [searchFocused, setSearchFocused] = useState(false);
   const pathname = usePathname() || '/';
   const navLang = localeFromPath(pathname);
   const router = useRouter();
   const menuId = useId();
+  const wipId = useId();
   const forgeId = useId();
   const forgeRef = useRef<HTMLDivElement>(null);
+  const wipRef = useRef<HTMLDivElement>(null);
 
   // Route links close the menus explicitly; this also handles browser back/forward.
   // eslint-disable-next-line react-hooks/set-state-in-effect
-  useEffect(() => { setMobileOpen(false); setForgeOpen(false); setSearchFocused(false); }, [pathname]);
+  useEffect(() => { setMobileOpen(false); setForgeOpen(false); setWipOpen(false); setSearchFocused(false); }, [pathname]);
+
+
+  // The WIP disclosure had wipRef attached but never read, so it closed on
+
+  // mouse-leave only: a keyboard user could not dismiss it at all. Mirrors
+
+  // the Forge behaviour above rather than inventing a second one.
+
+  useEffect(() => {
+
+    if (!wipOpen) return;
+
+    const close = (event: MouseEvent) => {
+
+      if (wipRef.current?.contains(event.target as Node)) return;
+
+      setWipOpen(false);
+
+    };
+
+    const onKey = (event: KeyboardEvent) => {
+
+      if (event.key === 'Escape') setWipOpen(false);
+
+    };
+
+    document.addEventListener('mousedown', close);
+
+    document.addEventListener('keydown', onKey);
+
+    return () => {
+
+      document.removeEventListener('mousedown', close);
+
+      document.removeEventListener('keydown', onKey);
+
+    };
+
+  }, [wipOpen]);
+
 
   useEffect(() => {
       if (!forgeOpen) return;
@@ -183,6 +244,15 @@ export default function Navbar() {
               </div>
               {forgeOpen && <div id={forgeId} className="absolute right-0 top-full z-50 w-64 border border-[var(--border-default)] bg-[var(--surface-overlay)] p-2 shadow-[var(--shadow-lg)]" role="menu">{FORGE_LINKS.map((item) => <Link key={item.href} href={item.href} role="menuitem" className="block px-3 py-3 hover:bg-[var(--bg-hover)]" onClick={() => setForgeOpen(false)}><span className="block text-sm text-[var(--text-primary)]">{item.label}</span><span className="mt-1 block text-xs text-[var(--text-muted)]">{item.detail}</span></Link>)}</div>}
             </div>
+            {SHOW_WIP && (
+            <div ref={wipRef} className="relative" onMouseEnter={() => { setForgeOpen(false); setWipOpen(true); }} onMouseLeave={() => setWipOpen(false)} onFocus={() => { setForgeOpen(false); setWipOpen(true); }}>
+              <div className={`flex items-center ${isActive(pathname, '/wip/') ? 'text-[var(--text-primary)]' : 'text-[var(--text-secondary)]'}`}>
+                <Link href="/wip/" className="relative px-3 py-2 text-sm">WIP{isActive(pathname, '/wip/') && <span className="absolute -bottom-[1px] left-3 right-3 h-px bg-[var(--accent-warning)]" aria-hidden="true" />}</Link>
+                <button type="button" aria-expanded={wipOpen} aria-controls={wipId} aria-label="Show work in progress" onClick={() => { setForgeOpen(false); setWipOpen((value) => !value); }} className="inline-flex min-h-[24px] min-w-[24px] items-center justify-center px-1 py-2 text-xs text-[var(--accent-warning)]">⌄</button>
+              </div>
+              {wipOpen && <div id={wipId} className="absolute right-0 top-full z-50 w-64 border border-[var(--border-default)] bg-[var(--surface-overlay)] p-2 shadow-[var(--shadow-lg)]" role="menu">{WIP_SURFACES.map((item) => <Link key={item.key} href={item.href} role="menuitem" className="block px-3 py-3 hover:bg-[var(--bg-hover)]" onClick={() => setWipOpen(false)}><span className="block text-sm text-[var(--text-primary)]">{item.label}</span><span className="mt-1 block text-xs text-[var(--text-muted)]">{item.detail}</span></Link>)}</div>}
+            </div>
+            )}
             {NAV_ITEMS.slice(2).map((item) => <Link key={item.href} href={navHref(item.href, navLang)} aria-current={isActive(pathname, item.href) ? 'page' : undefined} className={`relative px-3 py-2 text-sm transition-colors ${isActive(pathname, item.href) ? 'text-[var(--text-primary)]' : 'text-[var(--text-secondary)] hover:text-[var(--text-primary)]'}`}>{item.label}{isActive(pathname, item.href) && <span className="absolute -bottom-[1px] left-3 right-3 h-px bg-[var(--accent-cyan)]" aria-hidden="true" />}</Link>)}
           </div>
 

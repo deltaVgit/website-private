@@ -1,0 +1,292 @@
+/* 06 — Vertical spine.
+
+   One thread down the left of the reading column. Sections are numbered nodes
+   on it, visuals are wider nodes branching off it, and the segment behind you
+   is filled in the accent — so the gutter is the progress read-out.
+
+   Geometry lives in four custom properties so the whole thing rescales from one
+   place:
+     --lay-gap   how far the prose is inset from the track's left edge
+     --lay-x     where the line sits, measured from that same edge
+     --lay-line  the line expressed in a row's own coordinates (negative)
+     --lay-node  diameter of a section node
+   Every row draws its own segment of line, which is why rows are separated by
+   padding and never by margin: a margin would leave a gap in the thread. */
+
+@layer components {
+  .lay-spine {
+    --lay-gap: 3.5rem;
+    --lay-x: 1.1rem;
+    --lay-node: 1.9rem;
+    --lay-vis-pull: 1.15rem;
+    --lay-line: calc(var(--lay-x) - var(--lay-gap));
+  }
+
+  .lay-spine-track {
+    position: relative;
+    padding-left: var(--lay-gap);
+  }
+
+  /* ── The thread ────────────────────────────────────────────────────── */
+
+  .lay-spine-row {
+    position: relative;
+  }
+  .lay-spine-row::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: var(--lay-line);
+    width: 2px;
+    border-radius: 2px;
+    background: var(--border-subtle);
+  }
+
+  /* The read segment. Sections only: filling the title block on load would
+     colour a third of the visible thread before a word has been read. */
+  .lay-spine-sec::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: var(--lay-line);
+    width: 2px;
+    height: 100%;
+    border-radius: 2px;
+    background: var(--course-accent);
+    transform: scaleY(0);
+    transform-origin: top center;
+    transition: transform 0.5s var(--ease-smooth, ease);
+  }
+  .lay-spine-sec[data-state='done']::after {
+    transform: scaleY(1);
+  }
+
+  /* ── Nodes ─────────────────────────────────────────────────────────── */
+
+  .lay-spine-marker {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left: calc(var(--lay-line) + 1px - var(--lay-node) / 2);
+    display: block;
+    width: var(--lay-node);
+  }
+
+  /* Rides down the thread while its section is on screen, so the number of
+     where you are is always in the gutter — and clicking it walks back to the
+     top of that section. */
+  .lay-spine-node {
+    position: sticky;
+    top: 9.5rem; /* clears the sticky picker once it wraps to two rows */
+    display: grid;
+    place-items: center;
+    width: var(--lay-node);
+    height: var(--lay-node);
+    border: 1px solid var(--border-subtle);
+    border-radius: 999px;
+    /* Opaque, plus a ring of page: it masks the thread and anything branching
+       off it as the marker glides past. */
+    background: var(--bg-base);
+    box-shadow: 0 0 0 3px var(--bg-base);
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    line-height: 1;
+    color: var(--text-tertiary);
+    cursor: pointer;
+    transition:
+      color 0.3s var(--ease-smooth, ease),
+      border-color 0.3s var(--ease-smooth, ease),
+      background-color 0.3s var(--ease-smooth, ease);
+  }
+  .lay-spine-node:hover {
+    border-color: var(--course-accent);
+    color: var(--text-primary);
+  }
+  .lay-spine-node:focus-visible {
+    outline: 2px solid var(--course-accent);
+    outline-offset: 3px;
+  }
+  .lay-spine-sec[data-state='active'] .lay-spine-node {
+    border-color: var(--course-accent);
+    color: var(--course-accent);
+  }
+  .lay-spine-sec[data-state='done'] .lay-spine-node {
+    border-color: var(--course-accent);
+    background: var(--course-accent);
+    color: var(--bg-base);
+  }
+
+  /* Start and end caps. */
+  .lay-spine-cap {
+    display: block;
+    width: 0.72rem;
+    height: 0.72rem;
+    margin: 0.72rem auto 0;
+    border-radius: 999px;
+    background: var(--course-accent);
+    box-shadow: 0 0 0 4px var(--bg-base);
+  }
+  .lay-spine-cap--end {
+    width: 0.95rem;
+    height: 0.95rem;
+    margin-top: 0.5rem;
+    border: 2px solid var(--border-subtle);
+    background: var(--bg-base);
+    transition:
+      background-color 0.4s var(--ease-smooth, ease),
+      border-color 0.4s var(--ease-smooth, ease);
+  }
+  .lay-spine-end[data-state='done'] .lay-spine-cap--end {
+    border-color: var(--course-accent);
+    background: var(--course-accent);
+  }
+
+  /* ── Rows ──────────────────────────────────────────────────────────── */
+
+  .lay-spine-head {
+    padding-bottom: 3.25rem;
+  }
+  .lay-spine-head .course-h1 {
+    margin-top: 0.85rem;
+  }
+  .lay-spine-head .course-lead {
+    margin-top: 1rem;
+  }
+  .lay-spine-hero {
+    margin-top: 1.5rem;
+  }
+
+  .lay-spine-readout {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.55rem;
+    margin-top: 1.75rem;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+  }
+  .lay-spine-readout-num {
+    font-size: 1rem;
+    letter-spacing: 0;
+    color: var(--course-accent);
+  }
+
+  .lay-spine-sec {
+    padding-bottom: 3.5rem;
+  }
+  .lay-spine-sec > .course-h2 {
+    margin-bottom: 1.35rem;
+  }
+  .lay-spine-body > * + * {
+    margin-top: 1.9rem;
+  }
+
+  /* The thread stops at the closing node instead of running past it. */
+  .lay-spine-end {
+    padding-top: 0.15rem;
+  }
+  .lay-spine-end::before {
+    bottom: auto;
+    height: 0.98rem;
+  }
+  .lay-spine-end .course-proof {
+    margin-top: 0;
+  }
+
+  /* ── Visuals: wider nodes, branched off the thread ─────────────────── */
+
+  .lay-spine-visual {
+    position: relative;
+    margin-left: calc(-1 * var(--lay-vis-pull));
+    padding: 1.35rem 1.15rem 1.1rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 0.85rem;
+    background: var(--course-accent-wash);
+  }
+  /* The branch: a hairline from the thread to the frame. */
+  .lay-spine-visual::before {
+    content: '';
+    position: absolute;
+    top: 1.15rem;
+    left: calc(var(--lay-line) + var(--lay-vis-pull));
+    width: calc(-1 * (var(--lay-line) + var(--lay-vis-pull)));
+    height: 1px;
+    background: var(--border-subtle);
+  }
+  /* The node itself: wide where a section node is round, straddling the line. */
+  .lay-spine-vnode {
+    position: absolute;
+    z-index: 1;
+    top: 0.55rem;
+    left: calc(var(--lay-line) + var(--lay-vis-pull) - 0.55rem);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 3.4rem;
+    height: 1.2rem;
+    padding: 0 0.5rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 999px;
+    background: var(--bg-base);
+    font-family: var(--font-mono);
+    font-size: 0.5625rem;
+    line-height: 1;
+    letter-spacing: 0.16em;
+    color: var(--text-tertiary);
+  }
+  .lay-spine-visual figure {
+    margin: 0;
+  }
+
+  /* ── Responsive ────────────────────────────────────────────────────── */
+
+  /* From the breakpoint where the lesson list appears, the thread moves out of
+     the reading column and into the 3rem gutter beside it, so the prose keeps
+     its measure and the visuals gain the inset back. */
+  @media (min-width: 1024px) {
+    .lay-spine {
+      margin-left: -2.25rem;
+    }
+  }
+  @media (min-width: 1280px) {
+    .lay-spine-visual {
+      margin-right: -1.6rem;
+    }
+  }
+  @media (max-width: 639px) {
+    .lay-spine {
+      --lay-gap: 2.35rem;
+      --lay-x: 0.7rem;
+      --lay-node: 1.6rem;
+      --lay-vis-pull: 0.7rem;
+    }
+    .lay-spine-node {
+      top: 5.4rem;
+      font-size: 0.5625rem;
+    }
+    .lay-spine-visual {
+      padding-inline: 0.9rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .lay-spine-sec::after,
+    .lay-spine-node,
+    .lay-spine-cap--end {
+      transition: none;
+    }
+  }
+}
+
+@layer components {
+  /* The picker is sticky and wraps to two rows well before 1280px, so a
+     jump to a heading landed with the heading hidden behind it. 08, 09
+     and 10 already reserve this; these two did not. */
+  .lay-spine-sec > .course-h2 {
+    scroll-margin-top: 9.5rem;
+  }
+}
