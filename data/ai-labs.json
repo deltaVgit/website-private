@@ -1,12 +1,84 @@
 {
-  "updated": "2026-08-24T16:41:21Z",
+  "updated": "2026-08-25T09:26:32Z",
   "items": [
+    {
+      "title": "Distinguishing Revision and Delayed Elaboration in Incremental Narrative Interpretation",
+      "url": "https://arxiv.org/abs/2608.21364",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-08-25T04:00:00+00:00",
+      "summary": "arXiv:2608.21364v1 Announce Type: new Abstract: Both human and AI systems that process narrative or long-form content operate incrementally: input is received over time, and internal representations must be updated accordingly. Incremental interpretation, therefore, depends not o",
+      "tag": "ai"
+    },
+    {
+      "title": "KSE-Web: An Analysis of Hybrid Retrieval and LLM-Assisted Query Expansion for Low-Resource Khmer Semantic Search",
+      "url": "https://arxiv.org/abs/2608.21365",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-08-25T04:00:00+00:00",
+      "summary": "arXiv:2608.21365v1 Announce Type: new Abstract: As a low-resource language, Khmer presents several retrieval challenges, including limited annotated data, ambiguous word boundaries, weak support in multilingual embedding models, and frequent mixed Khmer-English usage. This paper ",
+      "tag": "ai"
+    },
+    {
+      "title": "Wazobia Eval: A Benchmark for Nigerian Pidgin Emotion Understanding, Sarcasm Detection, and Cultural Reasoning",
+      "url": "https://arxiv.org/abs/2608.21369",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-08-25T04:00:00+00:00",
+      "summary": "arXiv:2608.21369v1 Announce Type: new Abstract: Nigerian Pidgin is one of Africa's most widely spoken languages, yet remains severely underrepresented in language model evaluation. Existing benchmarks primarily focus on translation, transcription, or generic sentiment analysis, l",
+      "tag": "ai"
+    },
+    {
+      "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+      "url": "https://huggingface.co/blog/gradio-workflow-guide",
+      "source": "Hugging Face Blog",
+      "published_at": "2026-08-25T00:00:00+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "source": "OpenAI",
+      "published_at": "2026-08-25T00:00:00+00:00",
+      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+      "tag": "ai"
+    },
+    {
+      "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
+      "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/",
+      "source": "Meta Engineering",
+      "published_at": "2026-08-24T18:02:29+00:00",
+      "summary": "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles. To meet this challenge at scale, Meta designed MetaRoCE – a clean-sheet RDMA transport protocol purpose-built for AI workloads on commodity Ether",
+      "tag": "ai"
+    },
+    {
+      "title": "MTIA 300: Meta’s First Training Chip with Built-in NICs and Communication-Offloading Engines",
+      "url": "https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/",
+      "source": "Meta Engineering",
+      "published_at": "2026-08-24T17:45:52+00:00",
+      "summary": "MTIA 300 is the first of Meta’s family of in-house training and inference accelerators optimized for training ranking and recommendation models. We’re sharing how MTIA 300’s built-in NIC chiplets allow it to meet the communication needs associated with training recommendation mod",
+      "tag": "ai"
+    },
+    {
+      "title": "llm-anthropic 0.27",
+      "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
+      "source": "Simon Willison",
+      "published_at": "2026-08-24T16:27:04+00:00",
+      "summary": "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic pr",
+      "tag": "ai"
+    },
     {
       "title": "Import AI 470: No rights for machines; automating environment generation with SPADE; and building better GPU kernels with Hawkeye",
       "url": "https://jack-clark.net/2026/08/24/import-ai-470-no-rights-for-machines-automating-environment-generation-with-spade-and-building-better-gpu-kernels-with-hawkeye/",
       "source": "Import AI",
       "published_at": "2026-08-24T13:12:40+00:00",
       "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI is accelerating some types of progress but not others:…A nice METR study lays out where acceler",
+      "tag": "ai"
+    },
+    {
+      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "url": "https://openai.com/index/gpt-5-6-in-kiro",
+      "source": "OpenAI",
+      "published_at": "2026-08-24T12:00:00+00:00",
+      "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
       "tag": "ai"
     },
     {
@@ -18,99 +90,11 @@
       "tag": "ai"
     },
     {
-      "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
-      "url": "https://arxiv.org/abs/2608.20341",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-08-24T04:00:00+00:00",
-      "summary": "arXiv:2608.20341v1 Announce Type: new Abstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (SDLC). Rich context handling and multi-step reasonin",
-      "tag": "ai"
-    },
-    {
-      "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
-      "url": "https://arxiv.org/abs/2608.20342",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-08-24T04:00:00+00:00",
-      "summary": "arXiv:2608.20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instances of Claude Code -",
-      "tag": "ai"
-    },
-    {
-      "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
-      "url": "https://arxiv.org/abs/2608.20378",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-08-24T04:00:00+00:00",
-      "summary": "arXiv:2608.20378v1 Announce Type: new Abstract: Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundational knowledge of harmful concepts acquired during ",
-      "tag": "ai"
-    },
-    {
-      "title": "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
-      "url": "https://arxiv.org/abs/2608.20379",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-08-24T04:00:00+00:00",
-      "summary": "arXiv:2608.20379v1 Announce Type: new Abstract: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agentic frameworks that orchestrate perception, memory, and decision-making around p",
-      "tag": "ai"
-    },
-    {
-      "title": "Bankruptcy Prediction via Hybrid Resampling and Stacking Ensemble Techniques with Explainable Artificial Intelligence (XAI)-Driven Analysis",
-      "url": "https://arxiv.org/abs/2608.20343",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-08-24T04:00:00+00:00",
-      "summary": "arXiv:2608.20343v1 Announce Type: new Abstract: This study develops and evaluates a bankruptcy prediction framework that integrates consensus-based feature selection, hybrid resampling, stacking ensembles, and explainable artificial intelligence to improve minority-class detectio",
-      "tag": "ai"
-    },
-    {
-      "title": "Machine Learning and ARIMA Model Averaging for Adaptive Public Health Forecasting: Comparative Evaluation and an Ontario COVID-19 Case Study",
-      "url": "https://arxiv.org/abs/2608.20406",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-08-24T04:00:00+00:00",
-      "summary": "arXiv:2608.20406v1 Announce Type: new Abstract: Public health forecasts must respond to abrupt changes in surveillance data without over-extrapolating noise, reporting artifacts, or temporary trends. We evaluated autoregressive integrated moving average (ARIMA), random forest, an",
-      "tag": "ai"
-    },
-    {
-      "title": "From Thermal Preference Prediction to Adaptive Thermal Intervention: A Reinforcement Learning Approach Using Physiological and Environmental Sensing",
-      "url": "https://arxiv.org/abs/2608.20423",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-08-24T04:00:00+00:00",
-      "summary": "arXiv:2608.20423v1 Announce Type: new Abstract: Personalised thermal comfort is essential for occupant wellbeing and for the development of more responsive building-control strategies, yet conventional Heating, Ventilation, and Air Conditioning (HVAC) systems rely on static setpo",
-      "tag": "ai"
-    },
-    {
-      "title": "Beyond Raw Transcripts: Structured Persona Extraction for LLM-Based Digital Twins",
-      "url": "https://arxiv.org/abs/2608.20344",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-08-24T04:00:00+00:00",
-      "summary": "arXiv:2608.20344v1 Announce Type: new Abstract: LLM-based \"digital twins\" aim to simulate how an individual would behavein new environments or respond to novel questions, given some representation of that individual's prior responses. A common approach constructs this representat",
-      "tag": "ai"
-    },
-    {
-      "title": "When Vocabulary Comprehension Fails Clinical Reasoning: Evaluating Therapy Bots' Safety Risks for Generation Alpha",
-      "url": "https://arxiv.org/abs/2608.20345",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-08-24T04:00:00+00:00",
-      "summary": "arXiv:2608.20345v1 Announce Type: new Abstract: Conversational AI systems have become informal mental health support resources for Generation Alpha (Gen Alpha, born 2010-2024), with 13.1% of U.S. adolescents (5.4 million) using generative AI for mental health advice. While these ",
-      "tag": "ai"
-    },
-    {
-      "title": "Building and Evaluating a Synthetic Bengali Speech Resource for Telecom Customer Care",
-      "url": "https://arxiv.org/abs/2608.20346",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-08-24T04:00:00+00:00",
-      "summary": "arXiv:2608.20346v1 Announce Type: new Abstract: Speech systems used in customer-facing applications often require domain-specific language coverage. We present a synthetic Bengali speech dataset for telecom customer-care scenarios. The dataset contains 10,000 audio-text pairs, ap",
-      "tag": "ai"
-    },
-    {
       "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
       "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
       "source": "Simon Willison",
       "published_at": "2026-08-23T20:24:52+00:00",
       "summary": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\": Anthropic's \"annualized revenue\" for July is up to $65bn - it was $47bn in May, and I collected more histor",
-      "tag": "ai"
-    },
-    {
-      "title": "Quoting Drew Breunig",
-      "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
-      "source": "Simon Willison",
-      "published_at": "2026-08-23T19:55:30+00:00",
-      "summary": "Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems. But then Fable landed. It was (and still is!) incredible . But the cost was so ",
       "tag": "ai"
     },
     {
@@ -162,14 +146,6 @@
       "tag": "ai"
     },
     {
-      "title": "Offering Zero Data Retention for frontier models",
-      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "source": "OpenAI",
-      "published_at": "2026-08-19T19:00:00+00:00",
-      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
-      "tag": "ai"
-    },
-    {
       "title": "5 new ways to level up your learning with Search",
       "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
       "source": "Google AI Blog",
@@ -186,26 +162,10 @@
       "tag": "ai"
     },
     {
-      "title": "Replit expands access to software creation with GPT-5.6 Luna",
-      "url": "https://openai.com/index/replit",
-      "source": "OpenAI",
-      "published_at": "2026-08-19T07:00:00+00:00",
-      "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
-      "tag": "ai"
-    },
-    {
       "title": "How Much Memory Does Your Agent Actually Need?",
       "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
       "source": "Hugging Face Blog",
       "published_at": "2026-08-18T18:09:38+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "url": "https://huggingface.co/blog/multi-vector-encoder",
-      "source": "Hugging Face Blog",
-      "published_at": "2026-08-18T00:00:00+00:00",
       "summary": "",
       "tag": "ai"
     },
@@ -319,6 +279,46 @@
       "source": "Google DeepMind",
       "published_at": "2026-08-06T15:06:15+00:00",
       "summary": "",
+      "tag": "ai"
+    },
+    {
+      "title": "A Dynamical Model of AI Governability",
+      "url": "https://blog.eleuther.ai/dynamical-models-of-ai-governability/",
+      "source": "EleutherAI",
+      "published_at": "2026-07-13T00:00:00+00:00",
+      "summary": "A toy dynamical model of whether the AI workforce that builds future AI ends up cooperative or uncooperative: where the basin boundary lies, what current evidence says about which side we are on, and what would tell us we are on the good path.",
+      "tag": "ai"
+    },
+    {
+      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
+      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+      "source": "NVIDIA AI",
+      "published_at": "2026-07-08T15:00:27+00:00",
+      "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open mo",
+      "tag": "ai"
+    },
+    {
+      "title": "Early Indicators of Reward Hacking via Reasoning Interpolation",
+      "url": "https://blog.eleuther.ai/reward-hacking-indicators/",
+      "source": "EleutherAI",
+      "published_at": "2026-04-15T00:00:00+00:00",
+      "summary": "Using importance sampling with fine-tuned donor prefills to predict reward hacking emergence during training",
+      "tag": "ai"
+    },
+    {
+      "title": "NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES",
+      "url": "https://blogs.nvidia.com/blog/2026-ces-special-presentation/",
+      "source": "NVIDIA AI",
+      "published_at": "2026-01-05T23:30:18+00:00",
+      "summary": "NVIDIA founder and CEO Jensen Huang took the stage at the Fontainebleau Las Vegas to open CES 2026, declaring that AI is scaling into every domain and every device. “Computing has been fundamentally reshaped as a result of accelerated computing, as a result of artificial intellig",
+      "tag": "ai"
+    },
+    {
+      "title": "As AI Grows More Complex, Model Builders Rely on NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/leading-models-nvidia/",
+      "source": "NVIDIA AI",
+      "published_at": "2025-12-11T19:19:57+00:00",
+      "summary": "Unveiling what it describes as the most capable model series yet for professional knowledge work, OpenAI launched GPT-5.2 in December. The model was trained and deployed on NVIDIA infrastructure, including NVIDIA Hopper and GB200 NVL72 systems. GPT-5.3 Codex — the first OpenAI ag",
       "tag": "ai"
     }
   ],
