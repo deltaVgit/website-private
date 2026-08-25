@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-08-25T13:47:31Z",
+  "updated_at": "2026-08-25T14:02:30Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "MAIR",
         "name": "Madison Air Solutions Corporati",
-        "price": 28.82,
-        "change_24h": 15.42,
+        "price": 28.28,
+        "change_24h": 13.26,
         "asset": "equity"
       },
       {
         "symbol": "ABCL",
         "name": "AbCellera Biologics Inc.",
-        "price": 11.83,
-        "change_24h": 11.52,
+        "price": 11.91,
+        "change_24h": 12.28,
         "asset": "equity"
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "price": 150.61,
-        "change_24h": 8.44,
+        "price": 154.87,
+        "change_24h": 11.51,
         "asset": "equity"
       },
       {
         "symbol": "CDLR",
         "name": "Cadeler A/S",
-        "price": 26.03,
-        "change_24h": 8.59,
+        "price": 26.05,
+        "change_24h": 8.68,
         "asset": "equity"
       },
       {
-        "symbol": "MRVL",
-        "name": "Marvell Technology, Inc.",
-        "price": 246.11,
-        "change_24h": 7.34,
+        "symbol": "SMCI",
+        "name": "Super Micro Computer, Inc.",
+        "price": 38.08,
+        "change_24h": 8.27,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "DKS",
         "name": "Dick's Sporting Goods Inc",
-        "price": 138.05,
-        "change_24h": -23.02,
-        "asset": "equity"
-      },
-      {
-        "symbol": "LBTYB",
-        "name": "Liberty Global Ltd.",
-        "price": 12.84,
-        "change_24h": -6.0,
+        "price": 135.17,
+        "change_24h": -24.62,
         "asset": "equity"
       },
       {
         "symbol": "ALB",
         "name": "Albemarle Corporation",
-        "price": 134.36,
-        "change_24h": -5.05,
+        "price": 133.72,
+        "change_24h": -5.5,
         "asset": "equity"
       },
       {
-        "symbol": "ASO",
-        "name": "Academy Sports and Outdoors, In",
-        "price": 44.21,
-        "change_24h": -4.21,
+        "symbol": "PAY",
+        "name": "Paymentus Holdings, Inc.",
+        "price": 37.98,
+        "change_24h": -4.91,
         "asset": "equity"
       },
       {
-        "symbol": "DAR",
-        "name": "Darling Ingredients Inc.",
-        "price": 59.74,
-        "change_24h": -4.13,
+        "symbol": "LBTYB",
+        "name": "Liberty Global Ltd.",
+        "price": 13.07,
+        "change_24h": -4.32,
+        "asset": "equity"
+      },
+      {
+        "symbol": "FIGS",
+        "name": "FIGS, Inc.",
+        "price": 14.58,
+        "change_24h": -4.14,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.448261,
-        "change_24h": 10.65,
-        "asset": "crypto"
-      },
-      {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 5.86,
-        "change_24h": 6.93,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.18,
-        "change_24h": 6.37,
+        "price": 5.85,
+        "change_24h": 6.21,
         "asset": "crypto"
       },
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.120257,
-        "change_24h": 5.62,
+        "price": 0.120788,
+        "change_24h": 5.28,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.17,
+        "change_24h": 5.12,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 443.3,
+        "change_24h": 4.92,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 17.54,
-        "change_24h": 4.56,
+        "price": 17.55,
+        "change_24h": 4.22,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.147329,
-        "change_24h": -7.72,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.11775,
-        "change_24h": -7.67,
+        "price": 0.147507,
+        "change_24h": -8.13,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004591,
-        "change_24h": -6.61,
+        "price": 0.0046,
+        "change_24h": -7.38,
         "asset": "crypto"
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
         "price": 2.3,
-        "change_24h": -6.42,
+        "change_24h": -7.2,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.117539,
+        "change_24h": -6.46,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.56,
-        "change_24h": -6.07,
+        "price": 2.55,
+        "change_24h": -6.32,
         "asset": "crypto"
       }
     ]
