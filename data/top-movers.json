@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-08-25T13:17:26Z",
+  "updated_at": "2026-08-25T13:32:28Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "TOP",
-        "name": "TOP Financial Group Limited",
-        "price": 16.24,
-        "change_24h": 14.93,
+        "symbol": "MAIR",
+        "name": "Madison Air Solutions Corporati",
+        "price": 28.52,
+        "change_24h": 14.11,
         "asset": "equity"
       },
       {
-        "symbol": "GENB",
-        "name": "Generate Biomedicines, Inc.",
-        "price": 17.72,
-        "change_24h": 9.93,
+        "symbol": "CDLR",
+        "name": "Cadeler A/S",
+        "price": 26.12,
+        "change_24h": 8.92,
         "asset": "equity"
       },
       {
-        "symbol": "SA",
-        "name": "Seabridge Gold, Inc.",
-        "price": 33.03,
-        "change_24h": 9.52,
+        "symbol": "NVTS",
+        "name": "Navitas Semiconductor Corporati",
+        "price": 13.36,
+        "change_24h": 9.24,
         "asset": "equity"
       },
       {
-        "symbol": "EZPW",
-        "name": "EZCORP, Inc.",
-        "price": 35.05,
-        "change_24h": 8.78,
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "price": 66.61,
+        "change_24h": 6.07,
         "asset": "equity"
       },
       {
-        "symbol": "LIFE",
-        "name": "Ethos Technologies Inc.",
-        "price": 36.72,
-        "change_24h": 7.49,
+        "symbol": "VICR",
+        "name": "Vicor Corporation",
+        "price": 200.0,
+        "change_24h": 5.27,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "AAOI",
-        "name": "Applied Optoelectronics, Inc.",
-        "price": 107.63,
-        "change_24h": -13.77,
+        "symbol": "DKS",
+        "name": "Dick's Sporting Goods Inc",
+        "price": 144.23,
+        "change_24h": -19.65,
         "asset": "equity"
       },
       {
-        "symbol": "NN",
-        "name": "NextNav Inc.",
-        "price": 15.79,
-        "change_24h": -10.03,
+        "symbol": "LBTYB",
+        "name": "Liberty Global Ltd.",
+        "price": 12.79,
+        "change_24h": -6.37,
         "asset": "equity"
       },
       {
-        "symbol": "ASTS",
-        "name": "AST SpaceMobile, Inc.",
-        "price": 62.35,
-        "change_24h": -9.18,
+        "symbol": "DPC",
+        "name": "DPC Holdings PLC",
+        "price": 43.49,
+        "change_24h": 1.4,
         "asset": "equity"
       },
       {
-        "symbol": "LUNR",
-        "name": "Intuitive Machines, Inc.",
-        "price": 16.66,
-        "change_24h": -9.06,
+        "symbol": "ASO",
+        "name": "Academy Sports and Outdoors, In",
+        "price": 44.43,
+        "change_24h": -3.73,
         "asset": "equity"
       },
       {
-        "symbol": "TEM",
-        "name": "Tempus AI, Inc.",
-        "price": 66.17,
-        "change_24h": -8.97,
+        "symbol": "HYMC",
+        "name": "Hycroft Mining Holding Corporat",
+        "price": 25.04,
+        "change_24h": -2.74,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.442628,
-        "change_24h": 9.55,
+        "price": 0.446802,
+        "change_24h": 9.96,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 5.92,
-        "change_24h": 7.62,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "POL",
-        "name": "POL (ex-MATIC)",
-        "price": 0.123334,
-        "change_24h": 6.46,
+        "price": 5.85,
+        "change_24h": 6.55,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.18,
-        "change_24h": 4.79,
+        "change_24h": 5.18,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "POL",
+        "name": "POL (ex-MATIC)",
+        "price": 0.120936,
+        "change_24h": 4.68,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 439.69,
-        "change_24h": 3.18,
+        "price": 435.34,
+        "change_24h": 2.82,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.148034,
-        "change_24h": -9.27,
+        "price": 0.147197,
+        "change_24h": -9.31,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.119555,
-        "change_24h": -8.97,
+        "price": 0.118077,
+        "change_24h": -9.05,
         "asset": "crypto"
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
-        "price": 2.33,
-        "change_24h": -8.17,
+        "price": 2.29,
+        "change_24h": -7.94,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.587444,
+        "change_24h": -7.49,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.00457,
-        "change_24h": -8.16,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "price": 2.57,
-        "change_24h": -7.2,
+        "price": 0.004619,
+        "change_24h": -7.22,
         "asset": "crypto"
       }
     ]
