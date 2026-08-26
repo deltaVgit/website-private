@@ -17,7 +17,7 @@ import { ModuleNav, useOpenHarnessLang } from '@/app/components/course/CourseShe
 import { CourseCode } from '@/app/components/course/lesson/CourseCode';
 import { LessonSection } from '@/app/components/course/lesson/LessonSection';
 import { BlockRenderer } from '@/app/components/course/lesson/BlockRenderer';
-import { HeadingGlyph, ProviderStrip } from '@/app/components/course/kit/Glyph';
+import { HeadingGlyph } from '@/app/components/course/kit/Glyph';
 
 /**
  * The lesson body, wearing the layout that won the /wip lab: the spine.
@@ -190,9 +190,6 @@ export function AihLessonBodyView({ module, lang }: { module: CourseModule; lang
           </div>
           <h1 className="course-h1 mt-4">{t(module.title, lang)}</h1>
           <p className="course-deck mt-4">{formatCourseText(t(module.subtitle, lang), lang)}</p>
-
-          {/* Only the providers this lesson genuinely names. */}
-          <ProviderStrip module={module} label={t(UI_COPY.inThisLesson, lang)} />
 
           {module.hero && (
             <div className="mt-8">
