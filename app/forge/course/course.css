@@ -2107,3 +2107,23 @@
     }
   }
 }
+
+/* ══════════════════════════════════════════════════════════════════════
+   CARD DISPOSITION — graduated from the /wip proposals.
+
+   A four-card grid rendered three across left one card alone on a second
+   row. Column count now follows the card count: four cards make a square,
+   two make a pair; three and five keep three across because two columns
+   would strand the fifth just as badly. `:has()` reads the count directly,
+   so nothing has to be annotated in the content.
+
+   The column count comes from Tailwind utilities on the element, and
+   utilities outrank this layer, so overriding them needs !important.
+   ══════════════════════════════════════════════════════════════════════ */
+
+@layer components {
+  .course-prose .course-grid:has(> :last-child:nth-child(4)),
+  .course-prose .course-grid:has(> :last-child:nth-child(2)) {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}

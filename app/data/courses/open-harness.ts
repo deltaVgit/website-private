@@ -339,7 +339,6 @@ export const UI_COPY = {
   part: { en: 'Part', fr: 'Partie' },
   langEn: { en: 'EN', fr: 'EN' },
   langFr: { en: 'FR', fr: 'FR' },
-  inThisLesson: { en: 'In this lesson', fr: 'Dans cette leçon' },
   spineBehind: { en: 'of %TOTAL% sections behind you', fr: 'sur %TOTAL% sections derrière vous' },
   backToSection: { en: 'Back to section', fr: 'Retour à la section' },
   downloadSoul: { en: 'Download template', fr: 'Télécharger le modèle' },
