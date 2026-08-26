@@ -529,7 +529,7 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
 
       },
       {
-        heading: L('1 · Core stack'),
+        heading: L('Core stack'),
         blocks: [
           { k: 'p', text: L(
             'Four words name almost everything in this course.',
@@ -566,7 +566,7 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
 
       },
       {
-        heading: L('2 · The agent loop (not the LLM alone)'),
+        heading: L('The agent loop (not the LLM alone)'),
         blocks: [
           { k: 'p', lead: true, text: L(
           'The loop is not “inside the LLM alone.” Operators decide who does Think vs Act vs Observe.',
@@ -667,7 +667,7 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
 
       },
       {
-        heading: L('3 · Models, cost, and keys'),
+        heading: L('Models, cost, and keys'),
         blocks: [
           { k: 'p', text: L(
             'How you pay for the brain, and where secrets live. One cloud rule: **conversation content can leave your machine**.',
@@ -704,7 +704,7 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
 
       },
       {
-        heading: L('4 · What it remembers, and what it forgets'),
+        heading: L('What it remembers, and what it forgets'),
         blocks: [
           { k: 'p', text: L(
             'Close the chat and today’s conversation is gone. Anything the agent should still know next week has to be **written to a file**. That one difference — context vs memory — is what beginners get wrong most, and it explains half the “why did it forget?” moments ahead.',
@@ -741,7 +741,7 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
 
       },
       {
-        heading: L('5 · Tools, skills, plugins, and MCP'),
+        heading: L('Tools, skills, plugins, and MCP'),
         blocks: [
           { k: 'p', text: L(
             'Two words carry most of it: tool = something the app can **do** (write a file, list a folder). Skill = a **howto** package that teaches the agent how to use tools for a job. Everything else can wait.',
@@ -806,7 +806,7 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
 
       },
       {
-        heading: L('6 · Reach outside the Desktop window'),
+        heading: L('Reach outside the Desktop window'),
         blocks: [
           { k: 'p', text: L(
             'Two words for work that happens when you are not staring at the app. Full how-to is lessons 05 and 11.',
@@ -882,7 +882,7 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
     part: 1,
     title: L('Let’s get ready'),
     subtitle: L(
-      'Pick where you’ll run Hermes (your laptop is fine). Sign up for one free AI account — we’ll link the exact page. Copy the long string the site calls an “API key.” Treat it like a password.',
+      'Pick where you’ll run Hermes (a machine that is not your daily laptop). Sign up for one free AI account — we’ll link the exact page. Copy the long string the site calls an “API key.” Treat it like a password.',
     ),
     minutes: 10,
     proof: L(
@@ -1256,7 +1256,7 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
     ),
     sections: [
       {
-        heading: L('What `SOUL.md` is'),
+        heading: L('What SOUL.md is'),
         blocks: [
           { k: 'p', text: L(
             '`SOUL.md` is the agent’s identity file: name, role, tone, hard limits. Hermes treats it as [primary personality](https://hermes-agent.nousresearch.com/docs/user-guide/features/personality) and loads it every session, whatever folder you are in. Prefer a short brief (~12–20 lines) over a one-line slogan.',
@@ -1270,7 +1270,7 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
 
       },
       {
-        heading: L('What `AGENTS.md` is'),
+        heading: L('What AGENTS.md is'),
         blocks: [
           { k: 'p', text: L(
             '`AGENTS.md` is the other half: a [project context file](https://hermes-agent.nousresearch.com/docs/user-guide/features/context-files) that sits in one folder — a repo, a campaign workspace — and describes what **that** project needs. Paths, conventions, things never to do. It travels with the folder, so a teammate cloning the repo gets the same rules.',
@@ -1616,7 +1616,7 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
             'You only run this on **yourself**. The engine refuses to plan without recorded consent. Not legal advice. This course does **not** connect an email account: the agent submits **web forms** in the browser; anything that is a letter is a `.txt` draft **you** send from your own mailbox. Credit bureaus that demand an ID (CRIF, SCHUFA, Experian…) stay in the digest.',
           ) },
           { k: 'code', block: {
-            label: L('Lane A — Switzerland (after this PR is live)'),
+            label: L('Lane A — Switzerland'),
             lang: 'sh',
             code: 'hermes skills install github:deltaVgit/website-private/public/courses/open-harness/skills/unbroker-ge',
             note: L('Desktop fallback: copy the `unbroker-ge` folder into this profile’s skills dir, e.g. `%LOCALAPPDATA%\\hermes\\profiles\\<profile>\\skills\\security\\unbroker-ge\\` on Windows. Not `~/.hermes/skills` unless that is actually your install.'),
@@ -1806,7 +1806,7 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
 
       },
       {
-        heading: L('`MEMORY.md` and `USER.md`'),
+        heading: L('MEMORY.md and USER.md'),
         blocks: [
           { k: 'p', text: L(
             '`MEMORY.md` is the [agent](~agent) notebook — your setup, your conventions, what it learned. `USER.md` is your card: name, preferences, things to avoid. The agent writes both; you can edit them in any text editor. Anything it never writes down, it never keeps.',
@@ -1885,7 +1885,7 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
               L('Only in the model weights'),
             ],
             correct: L('On disk (MEMORY / USER)'),
-            explain: L('The chat itself is temporary. `MEMORY.md` and `USER.md` are read again at the start of every new chat.'),
+            explain: L('The chat itself is temporary. MEMORY.md and USER.md are read again at the start of every new chat.'),
           } },
           { k: 'quiz', quiz: {
             question: L('File updated but chat “forgets” now?'),
