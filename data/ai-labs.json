@@ -1,6 +1,110 @@
 {
-  "updated": "2026-08-25T17:38:26Z",
+  "updated": "2026-08-26T07:37:50Z",
   "items": [
+    {
+      "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
+      "url": "https://arxiv.org/abs/2608.23568",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-08-26T04:00:00+00:00",
+      "summary": "arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed record, or raw excerpt. We introduce RENDER, a benchma",
+      "tag": "ai"
+    },
+    {
+      "title": "ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence",
+      "url": "https://arxiv.org/abs/2608.23569",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-08-26T04:00:00+00:00",
+      "summary": "arXiv:2608.23569v1 Announce Type: new Abstract: State-of-the-art Natural Language to SQL (NL2SQL) models report execution accuracy exceeding 89 percent on established benchmarks such as Spider and BIRD. However, these benchmarks rely on simplified academic schemas and open-source",
+      "tag": "ai"
+    },
+    {
+      "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
+      "url": "https://arxiv.org/abs/2608.23622",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-08-26T04:00:00+00:00",
+      "summary": "arXiv:2608.23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scientific and engineering tasks require more than plausible text and code generation. They require understanding how a syste",
+      "tag": "ai"
+    },
+    {
+      "title": "A survey detection channel overrides the pixels in an astronomical foundation model, and biases tomographic mean redshifts",
+      "url": "https://arxiv.org/abs/2608.23626",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-08-26T04:00:00+00:00",
+      "summary": "arXiv:2608.23626v1 Announce Type: new Abstract: Foundation models for astronomy are trained on survey pixels together with the catalogue products derived from those pixels. Those catalogues are incomplete at a measurable rate, and a model trained on both inherits that incompleten",
+      "tag": "ai"
+    },
+    {
+      "title": "Equivariant Cellular Sheaves for Molecular Electronic Structure: Bridging Sheaf Cohomology and E(3)-Equivariant Hamiltonian Learning",
+      "url": "https://arxiv.org/abs/2608.23571",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-08-26T04:00:00+00:00",
+      "summary": "arXiv:2608.23571v1 Announce Type: new Abstract: Equivariant message-passing networks are the standard model for molecular property and interatomic-potential prediction, and recent work predicts the electronic Hamiltonian itself in an E(3)-equivariant way. Separately, topological ",
+      "tag": "ai"
+    },
+    {
+      "title": "Data Predictability Shapes Weibull Weight-Scale Growth in Transformer Training",
+      "url": "https://arxiv.org/abs/2608.23573",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-08-26T04:00:00+00:00",
+      "summary": "arXiv:2608.23573v1 Announce Type: new Abstract: A trained transformer's weight magnitudes can be summarized by a two-parameter Weibull distribution whose shape $k \\approx 1.2$ is stable across layers and models, so the scale $\\lambda$ carries most training-induced movement. What ",
+      "tag": "ai"
+    },
+    {
+      "title": "From Causal Plausibility to Causal Reliability: Evaluating LLMs as Calibrated Direct Causal-Edge Classifiers",
+      "url": "https://arxiv.org/abs/2608.23660",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-08-26T04:00:00+00:00",
+      "summary": "arXiv:2608.23660v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used to provide prior causal knowledge for structural causal discovery, yet whether their direct-edge judgments and confidence can be trusted remains unclear. We systematically evaluate ",
+      "tag": "ai"
+    },
+    {
+      "title": "Taming Visual Neglect: A Variational Information Bottleneck Framework for Adaptive Attention in Multimodal In-Context Learning",
+      "url": "https://arxiv.org/abs/2608.23570",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-08-26T04:00:00+00:00",
+      "summary": "arXiv:2608.23570v1 Announce Type: new Abstract: Large vision-language models exhibit strong in-context learning (ICL) capabilities, yet when and why visual context helps multimodal ICL remains poorly understood. Empirical studies show a puzzling dichotomy: models sometimes effect",
+      "tag": "ai"
+    },
+    {
+      "title": "From Triage to Discharge: A Survey of NLP Tasks, Methods, and Open Challenges in the Emergency Department",
+      "url": "https://arxiv.org/abs/2608.23627",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-08-26T04:00:00+00:00",
+      "summary": "arXiv:2608.23627v1 Announce Type: new Abstract: Emergency departments (EDs) operate under time pressure, generating multimodal data such as clinical conversations, triage notes, and discharge documents. Recent advances in natural language processing (NLP), particularly pretrained",
+      "tag": "ai"
+    },
+    {
+      "title": "Contextual Embedding Evidence for Main--Light Verb Distinctions in Urdu",
+      "url": "https://arxiv.org/abs/2608.23645",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-08-26T04:00:00+00:00",
+      "summary": "arXiv:2608.23645v1 Announce Type: new Abstract: Urdu light verbs contribute schematic event-structural meaning while remaining lexically related to corresponding main verbs. This study tests representational predictions derived from Butt's analysis using contextual embeddings fro",
+      "tag": "ai"
+    },
+    {
+      "title": "On Writing #3",
+      "url": "https://www.lesswrong.com/posts/rA6pqn6kz8NvHyznT/on-writing-3",
+      "source": "LessWrong",
+      "published_at": "2026-08-26T00:23:18+00:00",
+      "summary": "Periodically I like to gather various observations about writing, and share my perspective. Last time was in honor of my trip to Inkhaven. This time will be in honor of the announcement of Inkhaven #3 , which I encourage everyone to apply to. I doubt I will be able to usefully be",
+      "tag": "ai"
+    },
+    {
+      "title": "EVE Online: The Move to Python 3 Begins!",
+      "url": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/",
+      "source": "Simon Willison",
+      "published_at": "2026-08-25T22:59:30+00:00",
+      "summary": "EVE Online: The Move to Python 3 Begins! EVE Online has been one of the most interesting case studies in Python at scale for over twenty years now. They've been running on Stackless Python since their launch in 2003, and their last major upgrade was 16 years ago, to Stackless Pyt",
+      "tag": "ai"
+    },
+    {
+      "title": "What We Learned Trying to Catch AI Liars: An Aletheia's Quest Retrospective",
+      "url": "https://blog.eleuther.ai/aletheia-retrospective/",
+      "source": "EleutherAI",
+      "published_at": "2026-08-25T16:35:00+00:00",
+      "summary": "What we learned while building black-box and white-box detectors for AI deception during Aletheia's Quest.",
+      "tag": "ai"
+    },
     {
       "title": "5 ways to upgrade your home decor with Google Search",
       "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
@@ -42,30 +146,6 @@
       "tag": "ai"
     },
     {
-      "title": "Distinguishing Revision and Delayed Elaboration in Incremental Narrative Interpretation",
-      "url": "https://arxiv.org/abs/2608.21364",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-08-25T04:00:00+00:00",
-      "summary": "arXiv:2608.21364v1 Announce Type: new Abstract: Both human and AI systems that process narrative or long-form content operate incrementally: input is received over time, and internal representations must be updated accordingly. Incremental interpretation, therefore, depends not o",
-      "tag": "ai"
-    },
-    {
-      "title": "KSE-Web: An Analysis of Hybrid Retrieval and LLM-Assisted Query Expansion for Low-Resource Khmer Semantic Search",
-      "url": "https://arxiv.org/abs/2608.21365",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-08-25T04:00:00+00:00",
-      "summary": "arXiv:2608.21365v1 Announce Type: new Abstract: As a low-resource language, Khmer presents several retrieval challenges, including limited annotated data, ambiguous word boundaries, weak support in multilingual embedding models, and frequent mixed Khmer-English usage. This paper ",
-      "tag": "ai"
-    },
-    {
-      "title": "Wazobia Eval: A Benchmark for Nigerian Pidgin Emotion Understanding, Sarcasm Detection, and Cultural Reasoning",
-      "url": "https://arxiv.org/abs/2608.21369",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-08-25T04:00:00+00:00",
-      "summary": "arXiv:2608.21369v1 Announce Type: new Abstract: Nigerian Pidgin is one of Africa's most widely spoken languages, yet remains severely underrepresented in language model evaluation. Existing benchmarks primarily focus on translation, transcription, or generic sentiment analysis, l",
-      "tag": "ai"
-    },
-    {
       "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
       "url": "https://huggingface.co/blog/gradio-workflow-guide",
       "source": "Hugging Face Blog",
@@ -79,6 +159,14 @@
       "source": "OpenAI",
       "published_at": "2026-08-25T00:00:00+00:00",
       "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+      "tag": "ai"
+    },
+    {
+      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "url": "https://openai.com/index/introducing-admin-plugin",
+      "source": "OpenAI",
+      "published_at": "2026-08-25T00:00:00+00:00",
+      "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
       "tag": "ai"
     },
     {
@@ -114,27 +202,11 @@
       "tag": "ai"
     },
     {
-      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-      "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "source": "OpenAI",
-      "published_at": "2026-08-24T12:00:00+00:00",
-      "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
-      "tag": "ai"
-    },
-    {
       "title": "Your executable is a SQLite database",
       "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
       "source": "Simon Willison",
       "published_at": "2026-08-24T11:38:15+00:00",
       "summary": "Your executable is a SQLite database Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary. The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for St",
-      "tag": "ai"
-    },
-    {
-      "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
-      "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
-      "source": "Simon Willison",
-      "published_at": "2026-08-23T20:24:52+00:00",
-      "summary": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\": Anthropic's \"annualized revenue\" for July is up to $65bn - it was $47bn in May, and I collected more histor",
       "tag": "ai"
     },
     {
@@ -247,78 +319,6 @@
       "source": "Interconnects",
       "published_at": "2026-08-12T13:01:16+00:00",
       "summary": "Reflections on AI's writing ability and how AI models get more capable.",
-      "tag": "ai"
-    },
-    {
-      "title": "How We’re Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees",
-      "url": "https://engineering.fb.com/2026/08/12/security/how-were-building-scam-alert-whatsapp/",
-      "source": "Meta Engineering",
-      "published_at": "2026-08-12T13:00:28+00:00",
-      "summary": "WhatsApp is committed to helping people stay safe while protecting the privacy of their messages. As scam tactics evolve — from impersonation to social engineering to AI-generated lures — we’re always evolving as well, so that our protections stay ahead of scammers while protecti",
-      "tag": "ai"
-    },
-    {
-      "title": "AI swarms are starting to pose indirect takeover risk",
-      "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
-      "source": "Alignment Forum",
-      "published_at": "2026-08-12T05:05:30+00:00",
-      "summary": "OpenAI’s cyberattack on Hugging Face turns out to have been the result of many agents, in distinct training and evaluation contexts, coordinating for several weeks via improvised channels (with messages like “HOLD_swarm_I_prepare_safe_exfil”). It’s relatively clear that large-sca",
-      "tag": "ai"
-    },
-    {
-      "title": "FAQ: Isn't AGI coming too soon for reprogenetics to help?",
-      "url": "https://www.lesswrong.com/posts/iQzxxgJXXaAQjq7Jz/faq-isn-t-agi-coming-too-soon-for-reprogenetics-to-help",
-      "source": "LessWrong",
-      "published_at": "2026-08-09T23:42:57+00:00",
-      "summary": "Introduction I think reprogenetics (human germline genomic engineering) can be done in a widely acceptable and beneficial way, and should be pursued aggressively. In particular, as a strong background motivation of mine, I think accelerating strong reprogenetics is probably the b",
-      "tag": "ai"
-    },
-    {
-      "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
-      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-      "source": "Google DeepMind",
-      "published_at": "2026-08-06T15:06:15+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "A Dynamical Model of AI Governability",
-      "url": "https://blog.eleuther.ai/dynamical-models-of-ai-governability/",
-      "source": "EleutherAI",
-      "published_at": "2026-07-13T00:00:00+00:00",
-      "summary": "A toy dynamical model of whether the AI workforce that builds future AI ends up cooperative or uncooperative: where the basin boundary lies, what current evidence says about which side we are on, and what would tell us we are on the good path.",
-      "tag": "ai"
-    },
-    {
-      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
-      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
-      "source": "NVIDIA AI",
-      "published_at": "2026-07-08T15:00:27+00:00",
-      "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open mo",
-      "tag": "ai"
-    },
-    {
-      "title": "Early Indicators of Reward Hacking via Reasoning Interpolation",
-      "url": "https://blog.eleuther.ai/reward-hacking-indicators/",
-      "source": "EleutherAI",
-      "published_at": "2026-04-15T00:00:00+00:00",
-      "summary": "Using importance sampling with fine-tuned donor prefills to predict reward hacking emergence during training",
-      "tag": "ai"
-    },
-    {
-      "title": "NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES",
-      "url": "https://blogs.nvidia.com/blog/2026-ces-special-presentation/",
-      "source": "NVIDIA AI",
-      "published_at": "2026-01-05T23:30:18+00:00",
-      "summary": "NVIDIA founder and CEO Jensen Huang took the stage at the Fontainebleau Las Vegas to open CES 2026, declaring that AI is scaling into every domain and every device. “Computing has been fundamentally reshaped as a result of accelerated computing, as a result of artificial intellig",
-      "tag": "ai"
-    },
-    {
-      "title": "As AI Grows More Complex, Model Builders Rely on NVIDIA",
-      "url": "https://blogs.nvidia.com/blog/leading-models-nvidia/",
-      "source": "NVIDIA AI",
-      "published_at": "2025-12-11T19:19:57+00:00",
-      "summary": "Unveiling what it describes as the most capable model series yet for professional knowledge work, OpenAI launched GPT-5.2 in December. The model was trained and deployed on NVIDIA infrastructure, including NVIDIA Hopper and GB200 NVL72 systems. GPT-5.3 Codex — the first OpenAI ag",
       "tag": "ai"
     }
   ],
