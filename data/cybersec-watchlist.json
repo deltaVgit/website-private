@@ -1,11 +1,75 @@
 [
   {
+    "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
+    "url": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
+    "source": "The Hacker News",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea. The vulnerability in question is CVE-",
+    "added": "2026-08-26T06:27:07+00:00",
+    "expires": "2026-09-09T07:38:17Z"
+  },
+  {
+    "title": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
+    "url": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
+    "source": "The Hacker News",
+    "summary": "Cybersecurity researchers have disclosed details of a phishing-as-a-service (PhaaS) platform built to strip Apple's Activation Lock from stolen devices, using rented AI voice agents that call theft victims posing as Appl",
+    "added": "2026-08-26T05:47:28+00:00",
+    "expires": "2026-09-09T07:38:17Z"
+  },
+  {
+    "title": "LACMA data breach last year exposed social security and medical data",
+    "url": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
+    "source": "BleepingComputer",
+    "summary": "The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. [...]",
+    "added": "2026-08-25T21:58:14+00:00",
+    "expires": "2026-09-09T07:38:16Z"
+  },
+  {
+    "title": "Hackers abuse npm mirrors to host phishing redirect pages",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
+    "source": "BleepingComputer",
+    "summary": "Threat actors are abusing npm and its mirrors to host malicious HTML pages that impersonate Cloudflare CAPTCHAs to redirect visitors to attacker-controlled websites. [...]",
+    "added": "2026-08-25T21:39:01+00:00",
+    "expires": "2026-09-09T07:38:16Z"
+  },
+  {
+    "title": "Hidden Prompts Trick AI Into False Email Summaries",
+    "url": "https://www.darkreading.com/cyber-risk/hidden-prompts-trick-ai-false-email-summaries",
+    "source": "Dark Reading",
+    "summary": "With some simple HTML that's invisible to users, attackers can manipulate AI-powered email summarizers into producing malicious information.",
+    "added": "2026-08-25T21:08:55+00:00",
+    "expires": "2026-09-09T07:38:17Z"
+  },
+  {
+    "title": "AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes",
+    "url": "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
+    "source": "BleepingComputer",
+    "summary": "A newly uncovered phishing-as-a-service (PhaaS) platform called AnonyMousKIT automates the retrieval of codes used to unlock stolen Apple devices and disable the Activation Lock feature. [...]",
+    "added": "2026-08-25T20:25:26+00:00",
+    "expires": "2026-09-09T07:38:16Z"
+  },
+  {
+    "title": "Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw",
+    "url": "https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw",
+    "source": "Dark Reading",
+    "summary": "Attackers can exploit a security bug in NVIDIA's tool to gain unauthenticated access to the local model server through the Ollama API, paving the way for persistent AI agent corruption.",
+    "added": "2026-08-25T19:50:16+00:00",
+    "expires": "2026-09-09T07:38:17Z"
+  },
+  {
+    "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
+    "url": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
+    "source": "The Hacker News",
+    "summary": "The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an \"unprecedented, whole-of-government, economic campaign\" against the nation and its enablers. \"We are ",
+    "added": "2026-08-25T18:17:17+00:00",
+    "expires": "2026-09-09T07:38:17Z"
+  },
+  {
     "title": "Massive DDoS attack disrupts Norway’s government digital services",
     "url": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
     "source": "BleepingComputer",
     "summary": "A large distributed denial-of-service (DDoS) attack has disrupted Norway's shared government digital infrastructure since Monday, affecting services used by the public sector. [...]",
     "added": "2026-08-25T15:52:36+00:00",
-    "expires": "2026-09-08T17:38:43Z"
+    "expires": "2026-09-09T07:38:16Z"
   },
   {
     "title": "Is Cyber Facing an Affordability Crisis?",
@@ -13,7 +77,7 @@
     "source": "Dark Reading",
     "summary": "As breach costs reach record highs and defense spending nears $240 billion, small businesses are dangerously exposed, threatening supply chain security.",
     "added": "2026-08-25T14:53:13+00:00",
-    "expires": "2026-09-08T17:38:45Z"
+    "expires": "2026-09-09T07:38:17Z"
   },
   {
     "title": "Hospital operator Nutex Health says data stolen in cyberattack",
@@ -21,7 +85,7 @@
     "source": "BleepingComputer",
     "summary": "Healthcare and services provider Nutex is investigating a data breach incident where an unauthorized third party exfiltrated information from company servers. [...]",
     "added": "2026-08-25T14:44:16+00:00",
-    "expires": "2026-09-08T17:38:43Z"
+    "expires": "2026-09-09T07:38:16Z"
   },
   {
     "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
@@ -29,23 +93,7 @@
     "source": "The Hacker News",
     "summary": "Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden instructions inside ",
     "added": "2026-08-25T14:07:37+00:00",
-    "expires": "2026-09-08T17:38:45Z"
-  },
-  {
-    "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
-    "url": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
-    "source": "BleepingComputer",
-    "summary": "Attackers are increasingly targeting the processes used to establish or recover identity rather than attacking the login itself. Specops explains how stronger identity verification can help organizations prevent fake wor",
-    "added": "2026-08-25T14:01:11+00:00",
-    "expires": "2026-09-08T17:38:43Z"
-  },
-  {
-    "title": "Microsoft PowerToys adds Alt+Tab-style switching for an app's windows",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-alt-plustab-style-switching-for-an-apps-windows/",
-    "source": "BleepingComputer",
-    "summary": "Microsoft updated its Windows PowerToys toolset with a new utility dubbed \"Window Hopper\" that lets users switch between an app's windows more quickly. [...]",
-    "added": "2026-08-25T13:51:58+00:00",
-    "expires": "2026-09-08T17:38:43Z"
+    "expires": "2026-09-09T07:38:17Z"
   },
   {
     "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
@@ -53,23 +101,15 @@
     "source": "The Hacker News",
     "summary": "Meta on Tuesday announced a set of WhatsApp account security features, including support for multiple passkeys to a single account to help users with both iOS and Android devices sign into their accounts using the phishi",
     "added": "2026-08-25T13:19:41+00:00",
-    "expires": "2026-09-08T17:38:45Z"
+    "expires": "2026-09-09T07:38:17Z"
   },
   {
-    "title": "WhatsApp adds stronger two-step verification, multiple passkeys",
-    "url": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
-    "source": "BleepingComputer",
-    "summary": "WhatsApp has started rolling out several new account security features, including support for multiple passkeys and stronger two-step verification. [...]",
-    "added": "2026-08-25T13:00:00+00:00",
-    "expires": "2026-09-08T17:38:43Z"
-  },
-  {
-    "title": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
-    "url": "https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html",
-    "source": "The Hacker News",
-    "summary": "Marimo has addressed a high-severity security flaw in its notebook software that allowed an attacker to execute an attacker-supplied Model Context Protocol (MCP) command in a specially crafted notebook, according to Vuln",
-    "added": "2026-08-25T12:43:51+00:00",
-    "expires": "2026-09-08T17:38:45Z"
+    "title": "Ebyte NE2-D11",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-06",
+    "source": "CISA Advisories",
+    "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized administrative access, disclose sensitive information, modify device configuration, hijack authenticated ses",
+    "added": "2026-08-25T12:00:00+00:00",
+    "expires": "2026-09-09T07:38:17Z"
   },
   {
     "title": "A Tale of Two SOCs: Insights From Two Red Team Assessments",
@@ -77,54 +117,14 @@
     "source": "CISA Advisories",
     "summary": "Advisory at a Glance Title A Tale of Two SOCs: Insights From Two Red Team Assessments Original Publication August 25, 2026 Executive Summary The Cybersecurity and Infrastructure Security Agency (CISA) conducted simultane",
     "added": "2026-08-25T12:00:00+00:00",
-    "expires": "2026-09-08T17:38:46Z"
+    "expires": "2026-09-09T07:38:17Z"
   },
   {
-    "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
-    "url": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
-    "source": "The Hacker News",
-    "summary": "Thousands of companies have been affected by the Mirage2FA campaign from 2024 to 2026. The commercial phishing-as-a-service toolkit targets Microsoft 365 accounts by abusing legitimate login flows and bypassing two-facto",
-    "added": "2026-08-25T11:56:15+00:00",
-    "expires": "2026-09-08T17:38:45Z"
-  },
-  {
-    "title": "24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages",
-    "url": "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
-    "source": "The Hacker News",
-    "summary": "Cybersecurity researchers have disclosed details of a new campaign that uses a cluster of 24 npm packages as free phishing infrastructure for redirecting to ClickFix-style fake CAPTCHA pages. \"While the malware is simply",
-    "added": "2026-08-25T11:52:43+00:00",
-    "expires": "2026-09-08T17:38:45Z"
-  },
-  {
-    "title": "Exploited Zimbra Flaw Highlights Shrinking Window to Patch",
-    "url": "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch",
-    "source": "Dark Reading",
-    "summary": "CISA has issued a three-day deadline for agencies to patch a Zimbra security vulnerability, CVE-2026-73570, which allows full takeover of a user's communications.",
-    "added": "2026-08-24T21:46:55+00:00",
-    "expires": "2026-09-08T17:38:45Z"
-  },
-  {
-    "title": "Foul Language: WordlistLoader Disguises Malware as Ordinary Text",
-    "url": "https://www.darkreading.com/data-privacy/wordlistloader-disguises-malware-ordinary-text",
-    "source": "Dark Reading",
-    "summary": "ClickFix-style threat campaigns are using a new trick to evade detection and deliver Amatera, an increasingly prevalent infostealer.",
-    "added": "2026-08-24T20:51:27+00:00",
-    "expires": "2026-09-08T17:38:45Z"
-  },
-  {
-    "title": "Tricky 'SynkLoader' Multitool May Herald Ransomware",
-    "url": "https://www.darkreading.com/threat-intelligence/tricky-synkloader-multitool-ransomware",
-    "source": "Dark Reading",
-    "summary": "An advanced, multilingual malware family brings back a trick from yesteryear — screen hijacking — for effective password theft, along with a slew of novel features.",
-    "added": "2026-08-24T15:02:32+00:00",
-    "expires": "2026-09-08T17:38:45Z"
-  },
-  {
-    "title": "ToxicPanda Banking Trojan Matures Into Enterprise Threat",
-    "url": "https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat",
-    "source": "Dark Reading",
-    "summary": "The latest version of the Android malware has new features that expand its global reach and put more than users' financial applications at risk.",
-    "added": "2026-08-24T14:34:59+00:00",
-    "expires": "2026-09-08T17:38:45Z"
+    "title": "Rently Smart Home",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-01",
+    "source": "CISA Advisories",
+    "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to access sensitive information and override user permissions. The following versions of Rently Smart Home are affected: Smart Home ",
+    "added": "2026-08-25T12:00:00+00:00",
+    "expires": "2026-09-09T07:38:17Z"
   }
 ]

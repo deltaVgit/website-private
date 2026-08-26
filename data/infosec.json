@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T17:38:46Z",
+  "updatedAt": "2026-08-26T07:38:17Z",
   "kev": [
     {
       "cve": "CVE-2026-60004",
@@ -130,88 +130,74 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-15341",
+      "id": "CVE-2026-18432",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "The User Session Synchronizer plugin for WordPress is vulnerable to Authentication Bypass leading to Account Takeover in all versions up to, and including, 1.4.0. The `synchronize_session()` function, hooked on `init` an",
-      "published": "2026-08-15T03:16:47.943"
+      "description": "The Frontend Admin by DynamiApps plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.29.9. The vulnerability exists because `ActionUser::conditions_logic()` gates the `curre",
+      "published": "2026-08-16T05:16:48.307"
     },
     {
-      "id": "CVE-2026-15303",
+      "id": "CVE-2026-16098",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "The 6Storage Rentals plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 2.27.0. This is due to the six_storage_create_wp_user() AJAX handler being registered on wp_ajax_nopriv_s",
-      "published": "2026-08-15T03:16:47.670"
+      "description": "The ProSolution WP Client plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.0.10 via the proSol_handleFileUpload function. This is due to missing validation of the attack",
+      "published": "2026-08-16T05:16:47.667"
     },
     {
-      "id": "CVE-2026-68457",
+      "id": "CVE-2026-19924",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "A security vulnerability has been detected in Tenda AC10 16.03.10.09_multi_TDE01. This vulnerability affects the function R7WebsSecurityHandler of the component httpd. The manipulation leads to improper authentication. T",
+      "published": "2026-08-16T02:16:47.247"
+    },
+    {
+      "id": "CVE-2026-14524",
       "severity": "CRITICAL",
       "score": 9.1,
-      "description": "In the Linux kernel, the following vulnerability has been resolved: ksmbd: use opener credentials for FSCTL mutations SET_SPARSE, SET_ZERO_DATA and SET_COMPRESSION operate on an open SMB handle but call VFS xattr, falloc",
-      "published": "2026-08-15T06:17:48.460"
+      "description": "The ProSolution WP Client plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the proSol_fileDeleteProcess function in all versions up to, and including, 2.0.8. This ",
+      "published": "2026-08-16T05:16:46.493"
     },
     {
-      "id": "CVE-2026-14484",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "description": "The RapiSafe – Secure Multi File Upload for Contact Form 7 plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the handleAjaxRemoveUpload function in all versions up ",
-      "published": "2026-08-15T03:16:47.263"
-    },
-    {
-      "id": "CVE-2026-68466",
+      "id": "CVE-2026-17123",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "In the Linux kernel, the following vulnerability has been resolved: mtd: rawnand: lpc32xx_slc: fail DMA transfer on completion timeout lpc32xx_xmit_dma() waits for the DMA completion callback but ignores wait_for_complet",
-      "published": "2026-08-15T06:19:34.530"
+      "description": "The Royal Elementor Addons plugin for WordPress is vulnerable to Server-Side Request Forgery in versions up to, and including, 1.7.1064 via the Form Builder widget's 'webhook_url' setting. The widget's render() method pe",
+      "published": "2026-08-16T05:16:48.033"
     },
     {
-      "id": "CVE-2026-15965",
+      "id": "CVE-2026-16099",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "The MaxUpload – Big File Uploads – Increase Maximum File Upload Size plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.4.0 via the handle_upload function. This is due to ",
-      "published": "2026-08-15T03:16:48.077"
+      "description": "The Podlove Podcast Publisher plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the create_link_item function in all versions up to, and including, 4.5.3. This make",
+      "published": "2026-08-16T05:16:47.780"
     },
     {
-      "id": "CVE-2026-15312",
+      "id": "CVE-2026-14498",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "The Propovoice: All-in-One Client Management System plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 1.7.8. This is due to the `create()` function's REST endpoint failing t",
-      "published": "2026-08-15T03:16:47.817"
+      "description": "The Query Wrangler plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.5.57 via the 'options' parameter parameter. This is due to missing capability check and nonce verific",
+      "published": "2026-08-16T05:16:46.360"
     },
     {
-      "id": "CVE-2026-15001",
+      "id": "CVE-2026-19926",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "The bLoyal: Loyalty & Promotions by bLoyal plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.1.611.78. This is due to the AJAX actions `save_bloyal_configuration_data` and",
-      "published": "2026-08-15T03:16:47.393"
+      "score": 7.3,
+      "description": "A vulnerability has been found in Evergreen up to 3.14.11/3.15.11/3.16.5/3.17-beta1. The affected element is an unknown function of the file /osrf-gateway-v1 of the component open-ils.fielder OpenSRF Service. Such manipu",
+      "published": "2026-08-16T02:16:48.790"
     },
     {
-      "id": "CVE-2026-68462",
+      "id": "CVE-2026-19919",
       "severity": "HIGH",
-      "score": 7.8,
-      "description": "In the Linux kernel, the following vulnerability has been resolved: bpf: Reject negative const offsets for buffer pointers The verifier rejects variable offsets for PTR_TO_TP_BUFFER and PTR_TO_BUF accesses, but it curren",
-      "published": "2026-08-15T06:18:39.803"
+      "score": 7.3,
+      "description": "A vulnerability was found in code-projects Online Shopping System 1.0. This impacts an unknown function of the file /login.php of the component Login. The manipulation of the argument email results in sql injection. The ",
+      "published": "2026-08-16T00:16:50.360"
     },
     {
-      "id": "CVE-2026-68461",
+      "id": "CVE-2026-15002",
       "severity": "HIGH",
-      "score": 7.8,
-      "description": "In the Linux kernel, the following vulnerability has been resolved: device property: initialize the remaining fields of fwnode_handle in fwnode_init() If a firmware node is allocated on the stack (for instance: temporary",
-      "published": "2026-08-15T06:18:34.113"
-    },
-    {
-      "id": "CVE-2026-68458",
-      "severity": "HIGH",
-      "score": 7.8,
-      "description": "In the Linux kernel, the following vulnerability has been resolved: binder: cache secctx size before release zeroes it binder_transaction() bounds the scatter-gather buffer area with sg_buf_end_offset and subtracts the a",
-      "published": "2026-08-15T06:18:15.350"
-    },
-    {
-      "id": "CVE-2026-16611",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "The Product Feed PRO for WooCommerce by AdTribes WordPress plugin before 13.5.7 does not perform an authorization check on one of its REST read routes, allowing unauthenticated users to disclose a store's feed configurat",
-      "published": "2026-08-15T06:17:08.380"
+      "score": 7.2,
+      "description": "The Platnosci Online Blue Media (Autopay) plugin for WordPress is vulnerable to Stored Cross-Site Scripting in versions up to, and including, 5.0.0 via the 'bm_woocommerce_css_editor_content' POST parameter. This is due ",
+      "published": "2026-08-16T05:16:46.620"
     }
   ],
   "breaches": [
@@ -221,6 +207,13 @@
       "date": "2026-08-15",
       "count": 1988331,
       "data": "Email addresses, Geographic locations, Names, Phone numbers, Purchases"
+    },
+    {
+      "name": "Carhartt",
+      "domain": "carhartt.com",
+      "date": "2026-08-13",
+      "count": 12933413,
+      "data": "Email addresses, Names, Phone numbers, Physical addresses"
     },
     {
       "name": "Fanlore",
@@ -291,13 +284,6 @@
       "date": "2026-06-16",
       "count": 831642,
       "data": "Academic records, Citizenship statuses, Dates of birth, Email addresses, Genders"
-    },
-    {
-      "name": "GlendaleCommunityCollege",
-      "domain": "glendale.edu",
-      "date": "2026-06-15",
-      "count": 793925,
-      "data": "Academic records, Dates of birth, Email addresses, Genders, Government issued IDs"
     }
   ]
 }
