@@ -1,4 +1,5 @@
 import type { MetadataRoute } from 'next';
+import { HARNESS_LABS } from '@/app/data/courses/harness-labs';
 import { SITE_URL } from '../lib/site';
 
 export const dynamic = 'force-static';
@@ -64,6 +65,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   add('fr/forge/course/my-first-ai-agent', 0.7);
   add('forge/course/my-first-ai-agent/glossary', 0.5);
   add('fr/forge/course/my-first-ai-agent/glossary', 0.5);
+  add('forge/course/my-first-ai-agent/labs', 0.5);
+  HARNESS_LABS.forEach((lab) => add(`forge/course/my-first-ai-agent/labs/${lab.slug}`, 0.5));
   for (let i = 0; i <= 12; i++) {
     const slug = String(i).padStart(2, '0');
     add(`forge/course/my-first-ai-agent/${slug}`, 0.6);

@@ -266,6 +266,15 @@ export const OPEN_HARNESS_GLOSSARY: GlossaryTerm[] = [
       'Self-contained scheduled job prompt: host, path, success/failure, as if the agent has amnesia.',
     ),
   },
+  {
+    id: 'bot',
+    group: 'part2',
+    term: L('Bot'),
+    def: L(
+      'A named Hermes profile in the Desktop roster: own soul, model, memory, skills, and chat. Bot Mode is the UI; the files still live under `~/.hermes/profiles/<name>/`.',
+    ),
+    avoid: L('Bot = a Telegram gateway; Bot = a separate product from profiles'),
+  },
 ];
 
 export const OPEN_HARNESS_PARTS: {
@@ -364,8 +373,8 @@ export const UI_COPY = {
     fr: 'Tous les termes de la leçon 01, sur une page.',
   },
   labsSub: {
-    en: 'drills: key rotation, failure studio, prompt budget, Kanban.',
-    fr: 'exercices : rotation des clés, atelier des pannes, budget de prompt, Kanban.',
+    en: 'drills: key rotation, failure studio, prompt budget, Kanban, Bot Mode.',
+    fr: 'exercices : rotation des clés, atelier des pannes, budget de prompt, Kanban, Bot Mode.',
   },
   reference: { en: 'Reference', fr: 'Référence' },
   endOfPartI: { en: 'End of Part I', fr: 'Fin de la Partie I' },
@@ -2483,12 +2492,16 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
           { k: 'p', text: L(
             'Kanban / boards: when work must cross agents and survive restarts. Use the official [multi-agent docs](https://hermes-agent.nousresearch.com/docs/user-guide/features/kanban) when serial pain is real.',
           ) },
+          { k: 'p', text: L(
+            'Bot Mode: the Desktop roster for those same profiles — named Bots, @mentions, group chats. Same primitive, a team you talk to. On by default in current Desktop.',
+          ) },
           { k: 'callout', variant: 'note', text: L(
           'Basics stop at one solid harness. Multi-agent and extra platforms are optional growth — not Part I homework.',
         ) },
           { k: 'links', items: [
           { label: L('Delegation'), href: 'https://hermes-agent.nousresearch.com/docs/user-guide/features/delegation' },
           { label: L('Kanban multi-agent'), href: 'https://hermes-agent.nousresearch.com/docs/user-guide/features/kanban' },
+          { label: L('Bot Mode'), href: 'https://hermes-agent.nousresearch.com/docs/user-guide/bot-mode' },
         ] },
         ],
 
@@ -2537,6 +2550,23 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
 
 
 
+      },
+      {
+        heading: L('Desktop Bot Mode (growth)'),
+        blocks: [
+          { k: 'p', text: L(
+            'Bot Mode is the Desktop roster for the same profiles you already created. Each Bot keeps its own role, model, memory, skills, and face. Bots can @mention each other and sit in a group chat. It ships on by default in current Desktop — not a second install.',
+          ) },
+          { k: 'list', items: [
+          L('A Bot is a profile under `~/.hermes/profiles/<name>/` — the Bots tab is a UI over that primitive.'),
+          L('Give each specialist a harness: soul, model pin, skills, tools, memory. Least tools per Bot.'),
+          L('One job per Bot, then a handoff. A roster is not a company; you stay the operator.'),
+        ] },
+          { k: 'links', items: [
+          { label: L('Lab: Bot Mode roster'), href: '/forge/course/my-first-ai-agent/labs/bot-mode-roster/' },
+          { label: L('Official Bot Mode docs'), href: 'https://hermes-agent.nousresearch.com/docs/user-guide/bot-mode' },
+        ] },
+        ],
       },
     ],
   },

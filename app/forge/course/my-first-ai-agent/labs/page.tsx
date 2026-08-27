@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { AihChrome } from '@/app/components/course/aihero/AihChrome';
 import { LabsLandingVisual } from '@/app/components/course/CourseVisuals';
-import { CoursePrivacyNote, HarnessCourseTabs } from '@/app/components/course/CourseLearning';
+import { CoursePrivacyNote } from '@/app/components/course/CourseLearning';
 import { HARNESS_LABS, HARNESS_LABS_META } from '@/app/data/courses/harness-labs';
 import { SITE_URL } from '@/lib/site';
 
@@ -25,28 +26,14 @@ const levelLabel = {
 
 export default function HarnessLabsIndexPage() {
   return (
-    <main className="page-container pt-16 md:pt-20 pb-24">
-      <div className="mb-8 flex flex-wrap items-center gap-3 text-sm">
-        <Link href="/forge/" className="text-[var(--text-muted)] hover:text-[var(--course-accent)]">
-          Forge
-        </Link>
-        <span className="text-[var(--text-disabled)]">/</span>
-        <Link
-          href="/forge/course/my-first-ai-agent/"
-          className="text-[var(--text-muted)] hover:text-[var(--course-accent)]"
-        >
-          My First AI Agent
-        </Link>
-        <span className="text-[var(--text-disabled)]">/</span>
-        <span className="text-[var(--text-secondary)]">Labs</span>
+    <AihChrome labs={{}}>
+    <article className="course-prose">
+      <div className="course-meta">
+        <span className="course-meta-num">＋</span>
+        <span aria-hidden>·</span>
+        <span>After mastery · not a second course</span>
       </div>
-
-      <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
-        <HarnessCourseTabs active="labs" />
-        <span className="course-privacy-chip">Local only</span>
-      </div>
-      <div className="eyebrow course-eyebrow text-[var(--course-accent)]">After mastery · not a second course</div>
-      <h1 className="section-title mt-3">{HARNESS_LABS_META.title}</h1>
+      <h1 className="course-h1 mt-4">{HARNESS_LABS_META.title}</h1>
       <CoursePrivacyNote className="mt-4" />
       <p className="mt-6 max-w-2xl text-xl text-[var(--text-secondary)] leading-relaxed">
         {HARNESS_LABS_META.tagline}
@@ -84,7 +71,7 @@ export default function HarnessLabsIndexPage() {
       </div>
 
       <section className="mt-12" aria-labelledby="labs-glance">
-        <h2 id="labs-glance" className="text-2xl font-semibold tracking-tight">
+        <h2 id="labs-glance" className="course-h2">
           Mastery vs labs
         </h2>
         <p className="mt-2 max-w-2xl text-sm text-[var(--text-secondary)]">
@@ -127,6 +114,7 @@ export default function HarnessLabsIndexPage() {
           </Link>
         ))}
       </div>
-    </main>
+    </article>
+    </AihChrome>
   );
 }

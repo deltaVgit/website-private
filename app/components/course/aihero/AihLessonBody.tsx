@@ -9,9 +9,11 @@ import {
   type CourseBlock,
   type CourseLang,
   type CourseModule,
+  type LocaleString,
 } from '@/app/data/courses/open-harness';
 import { formatCourseText } from '@/app/components/course/formatCourseText';
 import { InteractiveChecklist, MarkCompleteButton } from '@/app/components/course/CourseLearning';
+import type { CourseProgressId } from '@/lib/course-progress';
 import { HarnessModuleVisual } from '@/app/components/course/CourseVisuals';
 import { ModuleNav, useOpenHarnessLang } from '@/app/components/course/CourseShell';
 import { CourseCode } from '@/app/components/course/lesson/CourseCode';
@@ -131,14 +133,43 @@ function useSpineProgress(count: number, slug: string) {
   return { done, setters };
 }
 
-export function AihLessonBody({ module }: { module: CourseModule }) {
+export type LessonSeries = {
+  modules: CourseModule[];
+  courseId: string;
+  seriesLabel: LocaleString;
+  navBasePath: string;
+  indexHref?: string;
+  indexLabel?: LocaleString;
+  endHref?: string;
+  endLabel?: LocaleString;
+};
+
+export function AihLessonBody({
+  module,
+  series,
+}: {
+  module: CourseModule;
+  series?: LessonSeries;
+}) {
   const lang = useOpenHarnessLang();
-  return <AihLessonBodyView module={module} lang={lang} />;
+  return <AihLessonBodyView module={module} lang={lang} series={series} />;
 }
 
-export function AihLessonBodyView({ module, lang }: { module: CourseModule; lang: CourseLang }) {
-  const index = OPEN_HARNESS_MODULES.findIndex((m) => m.slug === module.slug) + 1;
-  const partLabel = `${t(UI_COPY.part, lang)} ${module.part === 1 ? 'I' : 'II'}`;
+export function AihLessonBodyView({
+  module,
+  lang,
+  series,
+}: {
+  module: CourseModule;
+  lang: CourseLang;
+  series?: LessonSeries;
+}) {
+  const catalog = series?.modules ?? OPEN_HARNESS_MODULES;
+  const courseId = series?.courseId ?? 'open-harness';
+  const index = catalog.findIndex((m) => m.slug === module.slug) + 1;
+  const seriesTitle = series
+    ? t(series.seriesLabel, lang)
+    : `${t(UI_COPY.backCourse, lang)} — ${t(UI_COPY.part, lang)} ${module.part === 1 ? 'I' : 'II'}`;
   const main = useMemo(() => module.sections.filter((s) => !s.advanced), [module]);
   const advanced = module.sections.filter((s) => s.advanced);
 
@@ -180,12 +211,11 @@ export function AihLessonBodyView({ module, lang }: { module: CourseModule; lang
 
           <div className="course-meta">
             <span className="course-meta-num">
-              {index} / {OPEN_HARNESS_MODULES.length}
+              {index} / {catalog.length}
             </span>
             <span aria-hidden>·</span>
             <span>
-              {t(UI_COPY.backCourse, lang)} — {partLabel} · {module.minutes}{' '}
-              {t(UI_COPY.minReadLong, lang)}
+              {seriesTitle} · {module.minutes} {t(UI_COPY.minReadLong, lang)}
             </span>
           </div>
           <h1 className="course-h1 mt-4">{t(module.title, lang)}</h1>
@@ -248,7 +278,13 @@ export function AihLessonBodyView({ module, lang }: { module: CourseModule; lang
                 run.kind === 'prose' ? (
                   <div key={ri} className="course-blocks">
                     {run.blocks.map((block, bi) => (
-                      <BlockRenderer key={bi} block={block} lang={lang} moduleSlug={module.slug} />
+                      <BlockRenderer
+                        key={bi}
+                        block={block}
+                        lang={lang}
+                        moduleSlug={module.slug}
+                        courseId={courseId}
+                      />
                     ))}
                   </div>
                 ) : (
@@ -257,7 +293,12 @@ export function AihLessonBodyView({ module, lang }: { module: CourseModule; lang
                       {VISUAL_TAG[run.block.k]}
                     </span>
                     <div className="course-blocks">
-                      <BlockRenderer block={run.block} lang={lang} moduleSlug={module.slug} />
+                      <BlockRenderer
+                        block={run.block}
+                        lang={lang}
+                        moduleSlug={module.slug}
+                        courseId={courseId}
+                      />
                     </div>
                   </div>
                 ),
@@ -306,7 +347,7 @@ export function AihLessonBodyView({ module, lang }: { module: CourseModule; lang
           <div className="course-proof">
             <h2 className="course-h3">{t(UI_COPY.proof, lang)}</h2>
             <InteractiveChecklist
-              courseId="open-harness"
+              courseId={courseId}
               moduleSlug={module.slug}
               sectionKey="module-proof"
               items={[t(module.proof, lang)]}
@@ -315,7 +356,7 @@ export function AihLessonBodyView({ module, lang }: { module: CourseModule; lang
               lang={lang}
             />
             <MarkCompleteButton
-              courseId="open-harness"
+              courseId={courseId as CourseProgressId}
               slug={module.slug}
               accent="orange"
               lang={lang}
@@ -324,7 +365,16 @@ export function AihLessonBodyView({ module, lang }: { module: CourseModule; lang
         </div>
       </div>
 
-      <ModuleNav module={module} lang={lang} basePath={courseBase(lang)} />
+      <ModuleNav
+        module={module}
+        lang={lang}
+        basePath={series?.navBasePath ?? courseBase(lang)}
+        catalog={catalog}
+        indexHref={series?.indexHref}
+        indexLabel={series?.indexLabel}
+        endHref={series?.endHref}
+        endLabel={series?.endLabel}
+      />
     </article>
   );
 }

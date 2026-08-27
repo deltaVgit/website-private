@@ -830,6 +830,7 @@
   "[Sub-agents](https://hermes-agent.nousresearch.com/docs/user-guide/features/delegation): spawn helpers for independent work. Brief them as strangers (failure, paths, definition of done). Least tools. Prefer cheaper children and a strong parent for synthesis. Avoid delegating tightly sequential interactive work.": "[Sous-agents](https://hermes-agent.nousresearch.com/docs/user-guide/features/delegation) : faire naître des aides pour un travail indépendant. Briefez-les comme des inconnus (échec, chemins, définition du « fini »). Le moins d’outils possible. Préférez des enfants moins chers et un parent fort pour la synthèse. Évitez de déléguer un travail interactif strictement séquentiel.",
   "Profiles: a second Hermes home (own model, memory, gateway, persona) when roles must stay isolated permanently — not a temporary helper.": "Profils : un second Hermes home (propre modèle, mémoire, gateway, persona) quand les rôles doivent rester isolés pour de bon — pas une aide temporaire.",
   "Kanban / boards: when work must cross agents and survive restarts. Use the official [multi-agent docs](https://hermes-agent.nousresearch.com/docs/user-guide/features/kanban) when serial pain is real.": "Kanban / tableaux : quand le travail doit traverser les agents et survivre aux redémarrages. Utilisez les [docs multi-agents officielles](https://hermes-agent.nousresearch.com/docs/user-guide/features/kanban) quand la douleur en série est réelle.",
+  "Bot Mode: the Desktop roster for those same profiles — named Bots, @mentions, group chats. Same primitive, a team you talk to. On by default in current Desktop.": "Bot Mode : le roster Desktop pour ces mêmes profils — Bots nommés, @mentions, chats de groupe. Même primitive, une équipe à qui vous parlez. Activé par défaut dans le Desktop actuel.",
   "Basics stop at one solid harness. Multi-agent and extra platforms are optional growth — not Part I homework.": "Les bases s’arrêtent à un harness solide. Multi-agents et plateformes en plus sont de la croissance optionnelle — pas un devoir de Partie I.",
   "Delegation": "Délégation",
   "Kanban multi-agent": "Kanban multi-agent",
@@ -848,5 +849,16 @@
   "Multi-profile boards need SOUL + tools working per profile first.": "Les tableaux multi-profils ont besoin de SOUL + outils qui marchent **par profil** d’abord.",
   "Write your own plugin or import via the [Desktop plugin SDK](https://hermes-agent.nousresearch.com/docs/developer-guide/desktop-plugin-sdk) when you outgrow defaults.": "Écrivez votre propre plugin ou importez via le [Desktop plugin SDK](https://hermes-agent.nousresearch.com/docs/developer-guide/desktop-plugin-sdk) quand vous dépassez les défauts.",
   "Lab: Kanban multi-profile": "Lab : Kanban multi-profile",
-  "Desktop plugin SDK": "Desktop plugin SDK"
+  "Desktop plugin SDK": "Desktop plugin SDK",
+  "Bot": "Bot",
+  "A named Hermes profile in the Desktop roster: own soul, model, memory, skills, and chat. Bot Mode is the UI; the files still live under `~/.hermes/profiles/<name>/`.": "Un profil Hermes nommé dans le roster Desktop : propre âme, modèle, mémoire, compétences et chat. Bot Mode est l’interface ; les fichiers vivent toujours sous `~/.hermes/profiles/<name>/`.",
+  "Bot = a Telegram gateway; Bot = a separate product from profiles": "Bot = une passerelle Telegram ; Bot = un produit distinct des profils",
+  "Bot Mode": "Bot Mode",
+  "Desktop Bot Mode (growth)": "Bot Mode Desktop (croissance)",
+  "Bot Mode is the Desktop roster for the same profiles you already created. Each Bot keeps its own role, model, memory, skills, and face. Bots can @mention each other and sit in a group chat. It ships on by default in current Desktop — not a second install.": "Bot Mode est le roster Desktop pour les profils que vous avez déjà créés. Chaque Bot garde son rôle, son modèle, sa mémoire, ses compétences et son visage. Les Bots peuvent se @mentionner et siéger dans un chat de groupe. Il est livré activé par défaut dans le Desktop actuel — pas une seconde installation.",
+  "A Bot is a profile under `~/.hermes/profiles/<name>/` — the Bots tab is a UI over that primitive.": "Un Bot est un profil sous `~/.hermes/profiles/<name>/` — l’onglet Bots est une interface sur cette primitive.",
+  "Give each specialist a harness: soul, model pin, skills, tools, memory. Least tools per Bot.": "Donnez à chaque spécialiste un harness : âme, modèle épinglé, compétences, outils, mémoire. Le moins d’outils possible par Bot.",
+  "One job per Bot, then a handoff. A roster is not a company; you stay the operator.": "Un job par Bot, puis une passation. Un roster n’est pas une entreprise ; vous restez l’opérateur.",
+  "Lab: Bot Mode roster": "Lab : roster Bot Mode",
+  "Official Bot Mode docs": "Docs officielles Bot Mode"
 }
