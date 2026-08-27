@@ -1,130 +1,130 @@
 [
   {
-    "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
-    "url": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
-    "source": "The Hacker News",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea. The vulnerability in question is CVE-",
-    "added": "2026-08-26T06:27:07+00:00",
-    "expires": "2026-09-09T07:38:17Z"
-  },
-  {
-    "title": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
-    "url": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
-    "source": "The Hacker News",
-    "summary": "Cybersecurity researchers have disclosed details of a phishing-as-a-service (PhaaS) platform built to strip Apple's Activation Lock from stolen devices, using rented AI voice agents that call theft victims posing as Appl",
-    "added": "2026-08-26T05:47:28+00:00",
-    "expires": "2026-09-09T07:38:17Z"
-  },
-  {
-    "title": "LACMA data breach last year exposed social security and medical data",
-    "url": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
+    "title": "ATF confirms “major incident” after recent Qilin breach claims",
+    "url": "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims/",
     "source": "BleepingComputer",
-    "summary": "The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. [...]",
-    "added": "2026-08-25T21:58:14+00:00",
-    "expires": "2026-09-09T07:38:16Z"
+    "summary": "ATF, the regulatory agency that enforces federal laws governing firearms and explosives in the United States, has confirmed that one of its systems was compromised after breach claims made by the Qilin ransomware gang. [",
+    "added": "2026-08-27T08:13:50+00:00",
+    "expires": "2026-09-10T09:04:30Z"
   },
   {
-    "title": "Hackers abuse npm mirrors to host phishing redirect pages",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
+    "title": "New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access",
+    "url": "https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html",
+    "source": "The Hacker News",
+    "summary": "Academic researchers have disclosed a Rowhammer attack impacting NVIDIA workstation GPUs with GDDR6 memory that defeats error correction codes (ECC), the mitigation NVIDIA recommends against GPU Rowhammer, and enables de",
+    "added": "2026-08-27T08:13:11+00:00",
+    "expires": "2026-09-10T09:04:31Z"
+  },
+  {
+    "title": "CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs",
+    "url": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html",
+    "source": "The Hacker News",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added six flaws to its Known Exploited Vulnerabilities (KEV) catalog, including a high-severity security vulnerability impacting Citrix NetSca",
+    "added": "2026-08-27T07:05:28+00:00",
+    "expires": "2026-09-10T09:04:31Z"
+  },
+  {
+    "title": "Critical Avada WordPress theme flaw enables zero-click RCE",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce/",
     "source": "BleepingComputer",
-    "summary": "Threat actors are abusing npm and its mirrors to host malicious HTML pages that impersonate Cloudflare CAPTCHAs to redirect visitors to attacker-controlled websites. [...]",
-    "added": "2026-08-25T21:39:01+00:00",
-    "expires": "2026-09-09T07:38:16Z"
+    "summary": "A critical vulnerability chain in the popular Avada theme for WordPress can be exploited by an unauthenticated attacker to execute arbitrary PHP code on the server. [...]",
+    "added": "2026-08-26T21:33:20+00:00",
+    "expires": "2026-09-10T09:04:30Z"
   },
   {
-    "title": "Hidden Prompts Trick AI Into False Email Summaries",
-    "url": "https://www.darkreading.com/cyber-risk/hidden-prompts-trick-ai-false-email-summaries",
+    "title": "Dark Caracal Adds New Malware to Cyber Espionage Arsenal",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/dark-caracal-adds-new-malware-cyber-espionage-arsenal",
     "source": "Dark Reading",
-    "summary": "With some simple HTML that's invisible to users, attackers can manipulate AI-powered email summarizers into producing malicious information.",
-    "added": "2026-08-25T21:08:55+00:00",
-    "expires": "2026-09-09T07:38:17Z"
+    "summary": "GoCaracal is a new modular malware framework that broadens Dark Caracal's capabilities to steal data and maintain access to victims.",
+    "added": "2026-08-26T21:33:06+00:00",
+    "expires": "2026-09-10T09:04:31Z"
   },
   {
-    "title": "AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes",
-    "url": "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
-    "source": "BleepingComputer",
-    "summary": "A newly uncovered phishing-as-a-service (PhaaS) platform called AnonyMousKIT automates the retrieval of codes used to unlock stolen Apple devices and disable the Activation Lock feature. [...]",
-    "added": "2026-08-25T20:25:26+00:00",
-    "expires": "2026-09-09T07:38:16Z"
-  },
-  {
-    "title": "Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw",
-    "url": "https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw",
+    "title": "Red Flags That Expose Fake North Korean IT Workers",
+    "url": "https://www.darkreading.com/insider-threats/red-flags-expose-fake-north-korean-it-workers",
     "source": "Dark Reading",
-    "summary": "Attackers can exploit a security bug in NVIDIA's tool to gain unauthenticated access to the local model server through the Ollama API, paving the way for persistent AI agent corruption.",
-    "added": "2026-08-25T19:50:16+00:00",
-    "expires": "2026-09-09T07:38:17Z"
+    "summary": "North Korean operatives posing as IT workers are improving their tactics, but researchers say there are still ways to spot them before they do damage.",
+    "added": "2026-08-26T19:21:24+00:00",
+    "expires": "2026-09-10T09:04:31Z"
   },
   {
-    "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
-    "url": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
-    "source": "The Hacker News",
-    "summary": "The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an \"unprecedented, whole-of-government, economic campaign\" against the nation and its enablers. \"We are ",
-    "added": "2026-08-25T18:17:17+00:00",
-    "expires": "2026-09-09T07:38:17Z"
-  },
-  {
-    "title": "Massive DDoS attack disrupts Norway’s government digital services",
-    "url": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
+    "title": "New GPUThor attack defeats NVIDIA ECC protection for root access",
+    "url": "https://www.bleepingcomputer.com/news/security/new-gputhor-attack-defeats-nvidia-ecc-protection-for-root-access/",
     "source": "BleepingComputer",
-    "summary": "A large distributed denial-of-service (DDoS) attack has disrupted Norway's shared government digital infrastructure since Monday, affecting services used by the public sector. [...]",
-    "added": "2026-08-25T15:52:36+00:00",
-    "expires": "2026-09-09T07:38:16Z"
+    "summary": "A newly disclosed Rowhammer attack called GPUThor can bypass error-correcting code (ECC) protections on NVIDIA GPUs, enabling denial-of-service (DoS) and root-level privilege escalation. [...]",
+    "added": "2026-08-26T18:48:24+00:00",
+    "expires": "2026-09-10T09:04:30Z"
   },
   {
-    "title": "Is Cyber Facing an Affordability Crisis?",
-    "url": "https://www.darkreading.com/cybersecurity-operations/is-cyber-facing-an-affordability-crisis-",
+    "title": "Android Malware Hijacks Update System for Car Head Units",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/android-malware-hijacks-update-system-car-head-units",
     "source": "Dark Reading",
-    "summary": "As breach costs reach record highs and defense spending nears $240 billion, small businesses are dangerously exposed, threatening supply chain security.",
-    "added": "2026-08-25T14:53:13+00:00",
-    "expires": "2026-09-09T07:38:17Z"
+    "summary": "Threat actors behind a notorious click-fraud botnet have set their sights on vehicle infotainment modules and are abusing legitimate functionality to spread infections.",
+    "added": "2026-08-26T17:33:45+00:00",
+    "expires": "2026-09-10T09:04:31Z"
   },
   {
-    "title": "Hospital operator Nutex Health says data stolen in cyberattack",
-    "url": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
+    "title": "FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations",
+    "url": "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html",
+    "source": "The Hacker News",
+    "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced the disruption of two hacking platforms named QScan and QTRouter operated by Chinese threat actors to target critical infrastructure and other sensitive network",
+    "added": "2026-08-26T16:42:03+00:00",
+    "expires": "2026-09-10T09:04:31Z"
+  },
+  {
+    "title": "Meta agrees to $18 billion settlement over teen social media harms",
+    "url": "https://www.bleepingcomputer.com/news/technology/meta-agrees-to-18-billion-settlement-over-teen-social-media-harms/",
     "source": "BleepingComputer",
-    "summary": "Healthcare and services provider Nutex is investigating a data breach incident where an unauthorized third party exfiltrated information from company servers. [...]",
-    "added": "2026-08-25T14:44:16+00:00",
-    "expires": "2026-09-09T07:38:16Z"
+    "summary": "Meta has reached a proposed settlement worth up to approximately $18 billion with a bipartisan coalition of 52 attorneys generals over allegations that Facebook and Instagram were deliberately designed to encourage compu",
+    "added": "2026-08-26T16:41:05+00:00",
+    "expires": "2026-09-10T09:04:30Z"
   },
   {
-    "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
-    "url": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
+    "title": "Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler",
+    "url": "https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html",
     "source": "The Hacker News",
-    "summary": "Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden instructions inside ",
-    "added": "2026-08-25T14:07:37+00:00",
-    "expires": "2026-09-09T07:38:17Z"
+    "summary": "Cybersecurity researchers have discovered additional infrastructure and previously undocumented malware associated with Nimbus Manticore, an Iranian state-sponsored hacking group affiliated with the Islamic Revolutionary",
+    "added": "2026-08-26T15:35:05+00:00",
+    "expires": "2026-09-10T09:04:31Z"
   },
   {
-    "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
-    "url": "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
+    "title": "Boston Scientific says cyberattack disrupted operations globally",
+    "url": "https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/",
+    "source": "BleepingComputer",
+    "summary": "Medical technology company Boston Scientific has been targeted in a cyberattack that disrupted some of its IT systems, causing operational disruptions globally. [...]",
+    "added": "2026-08-26T15:19:21+00:00",
+    "expires": "2026-09-10T09:04:30Z"
+  },
+  {
+    "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
+    "url": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
     "source": "The Hacker News",
-    "summary": "Meta on Tuesday announced a set of WhatsApp account security features, including support for multiple passkeys to a single account to help users with both iOS and Android devices sign into their accounts using the phishi",
-    "added": "2026-08-25T13:19:41+00:00",
-    "expires": "2026-09-09T07:38:17Z"
+    "summary": "Cybersecurity researchers have disclosed details of a new adversary-in-the-middle (AitM) phishing toolkit called NovaCookies that's used as a proxy to redirect Microsoft 365 sign-ins, while capturing authenticated sessio",
+    "added": "2026-08-26T13:44:31+00:00",
+    "expires": "2026-09-10T09:04:31Z"
   },
   {
-    "title": "Ebyte NE2-D11",
-    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-06",
+    "title": "CISA Vulnerability Review",
+    "url": "https://www.cisa.gov/resources-tools/resources/cisa-vulnerability-review",
     "source": "CISA Advisories",
-    "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized administrative access, disclose sensitive information, modify device configuration, hijack authenticated ses",
-    "added": "2026-08-25T12:00:00+00:00",
-    "expires": "2026-09-09T07:38:17Z"
+    "summary": "Most compromises do not rely on advanced techniques or cutting-edge tools. Cyber threat actors scan the internet looking for exposed, well-known software vulnerabilities to exploit. Basic security failures enable most co",
+    "added": "2026-08-26T12:00:00+00:00",
+    "expires": "2026-09-10T09:04:31Z"
   },
   {
-    "title": "A Tale of Two SOCs: Insights From Two Red Team Assessments",
-    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-237a",
+    "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
     "source": "CISA Advisories",
-    "summary": "Advisory at a Glance Title A Tale of Two SOCs: Insights From Two Red Team Assessments Original Publication August 25, 2026 Executive Summary The Cybersecurity and Infrastructure Security Agency (CISA) conducted simultane",
-    "added": "2026-08-25T12:00:00+00:00",
-    "expires": "2026-09-09T07:38:17Z"
+    "summary": "CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2015-3246 Red Hat Libuser Race Condition Vulnerability CVE-2015-5287 Red Hat Aut",
+    "added": "2026-08-26T12:00:00+00:00",
+    "expires": "2026-09-10T09:04:31Z"
   },
   {
-    "title": "Rently Smart Home",
-    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-01",
-    "source": "CISA Advisories",
-    "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to access sensitive information and override user permissions. The following versions of Rently Smart Home are affected: Smart Home ",
-    "added": "2026-08-25T12:00:00+00:00",
-    "expires": "2026-09-09T07:38:17Z"
+    "title": "'NovaCookies' Kit Steals Microsoft 365 Sessions for $320 a Month",
+    "url": "https://www.darkreading.com/endpoint-security/novacookies-steals-microsoft-365-sessions-320-a-month",
+    "source": "Dark Reading",
+    "summary": "The adversary-in-the-middle (AitM) phishing service lowers the barrier to entry for actors to create attacks and steal more than just user credentials.",
+    "added": "2026-08-26T11:33:40+00:00",
+    "expires": "2026-09-10T09:04:31Z"
   }
 ]

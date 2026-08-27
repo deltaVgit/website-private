@@ -1,6 +1,60 @@
 {
-  "updatedAt": "2026-08-26T07:38:17Z",
+  "updatedAt": "2026-08-27T09:04:31Z",
   "kev": [
+    {
+      "cve": "CVE-2021-23758",
+      "product": "Ajax.NET Professional",
+      "vendor": "Ajax.NET Professional",
+      "name": "Ajax.NET Professional Deserialization of Untrusted Data Vulnerability",
+      "dateAdded": "2026-08-26",
+      "dueDate": "2026-09-09",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2015-3246",
+      "product": "Libuser",
+      "vendor": "Red Hat",
+      "name": "Red Hat Libuser Race Condition Vulnerability",
+      "dateAdded": "2026-08-26",
+      "dueDate": "2026-09-09",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2015-5287",
+      "product": "Automatic Bug Reporting Tool",
+      "vendor": "Red Hat",
+      "name": "Red Hat Automatic Bug Reporting Tool Privilege Escalation Vulnerability",
+      "dateAdded": "2026-08-26",
+      "dueDate": "2026-09-09",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2022-0995",
+      "product": "Kernel",
+      "vendor": "Linux",
+      "name": "Linux Kernel Out-of-Bounds Write Vulnerability",
+      "dateAdded": "2026-08-26",
+      "dueDate": "2026-09-09",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-8452",
+      "product": "NetScaler ADC and NetScaler Gateway",
+      "vendor": "Citrix",
+      "name": "Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+      "dateAdded": "2026-08-26",
+      "dueDate": "2026-08-29",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2019-1068",
+      "product": "SQL Server",
+      "vendor": "Microsoft",
+      "name": "Microsoft SQL Server Remote Code Execution Vulnerability",
+      "dateAdded": "2026-08-26",
+      "dueDate": "2026-08-29",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2026-60004",
       "product": "Gitea",
@@ -72,132 +126,92 @@
       "dateAdded": "2026-08-18",
       "dueDate": "2026-08-21",
       "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-55040",
-      "product": "SharePoint",
-      "vendor": "Microsoft",
-      "name": "Microsoft SharePoint Weak Authentication Vulnerability",
-      "dateAdded": "2026-08-18",
-      "dueDate": "2026-08-21",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-65400",
-      "product": "macOS",
-      "vendor": "Apple",
-      "name": "Apple macOS Improper Authentication Vulnerability",
-      "dateAdded": "2026-08-18",
-      "dueDate": "2026-08-21",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2025-62593",
-      "product": "Ray",
-      "vendor": "Ray-Project",
-      "name": "Ray-Project Ray Code Injection Vulnerability",
-      "dateAdded": "2026-08-17",
-      "dueDate": "2026-08-20",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-20349",
-      "product": "Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)",
-      "vendor": "Cisco",
-      "name": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability",
-      "dateAdded": "2026-08-11",
-      "dueDate": "2026-08-14",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-68820",
-      "product": "Windows Ancillary Function Driver for WinSock",
-      "vendor": "Microsoft",
-      "name": "Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability",
-      "dateAdded": "2026-08-11",
-      "dueDate": "2026-08-25",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-72898",
-      "product": "Metabase",
-      "vendor": "Metabase",
-      "name": "Metabase SQL Injection Vulnerability",
-      "dateAdded": "2026-08-11",
-      "dueDate": "2026-08-14",
-      "knownRansomware": "Unknown"
     }
   ],
   "cves": [
     {
-      "id": "CVE-2026-18432",
+      "id": "CVE-2026-19977",
       "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The Frontend Admin by DynamiApps plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.29.9. The vulnerability exists because `ActionUser::conditions_logic()` gates the `curre",
-      "published": "2026-08-16T05:16:48.307"
+      "score": 10.0,
+      "description": "A vulnerability was detected in EFM ipTIME A3004T 14.19.0. The affected element is the function httpcon_check_session_url of the component Session Validation. Performing a manipulation results in improper authentication.",
+      "published": "2026-08-17T03:16:50.517"
     },
     {
-      "id": "CVE-2026-16098",
+      "id": "CVE-2026-15623",
       "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The ProSolution WP Client plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.0.10 via the proSol_handleFileUpload function. This is due to missing validation of the attack",
-      "published": "2026-08-16T05:16:47.667"
+      "score": 9.4,
+      "description": "A SQL Injection vulnerability in a legacy dashboard widget API in Google Cloud Google SecOps (Chronicle SOAR) versions prior to 6.3.85 on Google Cloud Platform allows an authenticated attacker to execute blind SQL querie",
+      "published": "2026-08-17T07:17:12.020"
     },
     {
-      "id": "CVE-2026-19924",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "A security vulnerability has been detected in Tenda AC10 16.03.10.09_multi_TDE01. This vulnerability affects the function R7WebsSecurityHandler of the component httpd. The manipulation leads to improper authentication. T",
-      "published": "2026-08-16T02:16:47.247"
-    },
-    {
-      "id": "CVE-2026-14524",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "description": "The ProSolution WP Client plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the proSol_fileDeleteProcess function in all versions up to, and including, 2.0.8. This ",
-      "published": "2026-08-16T05:16:46.493"
-    },
-    {
-      "id": "CVE-2026-17123",
+      "id": "CVE-2026-50602",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "The Royal Elementor Addons plugin for WordPress is vulnerable to Server-Side Request Forgery in versions up to, and including, 1.7.1064 via the Form Builder widget's 'webhook_url' setting. The widget's render() method pe",
-      "published": "2026-08-16T05:16:48.033"
+      "score": 8.5,
+      "description": "A security vulnerability has been identified in Planet9 due to incorrect file permissions assigned to an application executable used by the Planet9 background service. The service runs with SYSTEM privileges, while the a",
+      "published": "2026-08-17T03:16:50.840"
     },
     {
-      "id": "CVE-2026-16099",
+      "id": "CVE-2026-22072",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "The Podlove Podcast Publisher plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the create_link_item function in all versions up to, and including, 4.5.3. This make",
-      "published": "2026-08-16T05:16:47.780"
+      "score": 8.3,
+      "description": "Loading arbitrary external URLs through WebView components introduces malicious JS code that can steal arbitrary user tokens.",
+      "published": "2026-08-17T07:17:15.797"
     },
     {
-      "id": "CVE-2026-14498",
+      "id": "CVE-2026-19983",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "The Query Wrangler plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.5.57 via the 'options' parameter parameter. This is due to missing capability check and nonce verific",
-      "published": "2026-08-16T05:16:46.360"
+      "score": 8.3,
+      "description": "A vulnerability was detected in GL.iNet A1300, AX1800, AXT1800, MT2500, MT3000, MT6000, X3000 and XE3000 4.8.x. This issue affects some unknown processing of the file /usr/bin/gl_nas_sys of the component NAS Command Serv",
+      "published": "2026-08-17T05:17:09.947"
     },
     {
-      "id": "CVE-2026-19926",
+      "id": "CVE-2026-19979",
       "severity": "HIGH",
-      "score": 7.3,
-      "description": "A vulnerability has been found in Evergreen up to 3.14.11/3.15.11/3.16.5/3.17-beta1. The affected element is an unknown function of the file /osrf-gateway-v1 of the component open-ils.fielder OpenSRF Service. Such manipu",
-      "published": "2026-08-16T02:16:48.790"
+      "score": 8.3,
+      "description": "A vulnerability was identified in GL.iNet A1300, AX1800, AXT1800, BE1400, BE3600, BE6500, BE9300, BE10000, E5800, MT2500, MT3000, MT3600BE, MT5000, MT6000, X2000, X3000 and XE3000 up to 4.8.x. Affected by this vulnerabil",
+      "published": "2026-08-17T04:16:55.693"
     },
     {
-      "id": "CVE-2026-19919",
+      "id": "CVE-2026-19982",
       "severity": "HIGH",
-      "score": 7.3,
-      "description": "A vulnerability was found in code-projects Online Shopping System 1.0. This impacts an unknown function of the file /login.php of the component Login. The manipulation of the argument email results in sql injection. The ",
-      "published": "2026-08-16T00:16:50.360"
+      "score": 7.4,
+      "description": "A security vulnerability has been detected in GL.iNet BE9300 and MT6000 4.8.x. This vulnerability affects unknown code of the component Firewall-management RPC. The manipulation of the argument dest_port/dest_ip leads to",
+      "published": "2026-08-17T05:17:09.767"
     },
     {
-      "id": "CVE-2026-15002",
+      "id": "CVE-2026-19981",
       "severity": "HIGH",
-      "score": 7.2,
-      "description": "The Platnosci Online Blue Media (Autopay) plugin for WordPress is vulnerable to Stored Cross-Site Scripting in versions up to, and including, 5.0.0 via the 'bm_woocommerce_css_editor_content' POST parameter. This is due ",
-      "published": "2026-08-16T05:16:46.620"
+      "score": 7.4,
+      "description": "A weakness has been identified in GL.iNet A1300, AX1800, AXT1800, BE1400, BE3600, BE6500, BE9300, BE10000, E5800, MT2500, MT3000, MT3600BE, MT5000, MT6000, X2000, X3000 and XE3000 up to 4.8.x. This affects an unknown par",
+      "published": "2026-08-17T04:16:56.600"
+    },
+    {
+      "id": "CVE-2026-19980",
+      "severity": "HIGH",
+      "score": 7.4,
+      "description": "A security flaw has been discovered in GL.iNet A1300, AX1800, AXT1800, BE1400, BE3600, BE6500, BE9300, BE10000, E5800, MT2500, MT3000, MT3600BE, MT5000, MT6000, X2000, X3000 and XE3000 up to 4.8.x. Affected by this issue",
+      "published": "2026-08-17T04:16:56.250"
+    },
+    {
+      "id": "CVE-2026-19963",
+      "severity": "HIGH",
+      "score": 7.4,
+      "description": "A vulnerability has been found in Edimax EW-7478APC 1.04. Affected by this issue is the function stainfo of the file /goform/stainfo. The manipulation of the argument interface leads to command injection. It is possible ",
+      "published": "2026-08-17T00:16:27.137"
+    },
+    {
+      "id": "CVE-2026-19962",
+      "severity": "HIGH",
+      "score": 7.4,
+      "description": "A flaw has been found in Edimax EW-7478APC 1.04. Affected by this vulnerability is the function setWAN of the file /goform/setWAN. Executing a manipulation of the argument pppUserName/pptpUserName/L2TPUserName can lead t",
+      "published": "2026-08-17T00:16:26.490"
+    },
+    {
+      "id": "CVE-2026-74579",
+      "severity": "HIGH",
+      "score": 7.1,
+      "description": "In the Linux kernel, the following vulnerability has been resolved: netfilter: nft_payload: fix mask build for partial field offload nft_payload_offload_mask() builds the offload match mask for a payload expression that ",
+      "published": "2026-08-17T06:19:56.417"
     }
   ],
   "breaches": [
