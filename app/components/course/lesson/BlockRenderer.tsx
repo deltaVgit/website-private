@@ -224,10 +224,12 @@ export function BlockRenderer({
     case 'tweet':
       return (
         <CourseTweet
-          id={block.id}
           author={block.author}
           href={block.href}
-          height={block.height}
+          poster={block.poster}
+          posterWidth={block.posterWidth}
+          posterHeight={block.posterHeight}
+          hasVideo={block.hasVideo}
           caption={block.caption ? formatCourseText(t(block.caption, lang), lang) : undefined}
         />
       );

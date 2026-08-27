@@ -15,10 +15,9 @@
   # Strict Content-Security-Policy
   # Allows self + unsafe-inline for Next.js hydration / Tailwind.
   #
-  # frame-src: course lessons embed cited posts from X via X's own iframe
-  # endpoint rather than re-hosting the media, and /contact/ embeds the cal.com
-  # booking calendar. No third-party script runs on our pages — script-src
-  # stays 'self'.
+  # frame-src: /contact/ may draw the Cal.com *embed* URL (app.cal.com/.../embed).
+  # Cited X posts are local stills, not iframes. No third-party script runs on
+  # our pages — script-src stays 'self'.
   #
   # connect-src: the IntelHub dashboards fetch live data at runtime. Every host
   # below is fetched by app/intelhub/hooks.ts or a dashboard component; drop one
@@ -28,12 +27,12 @@
   #   proxy.hub.deltav.cc — our CORS proxy for feeds that send no CORS headers
   #   *.llama.fi, api.alternative.me, feargreedchart.com,
   #   query1.finance.yahoo.com — market data read straight from the browser
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self' https://deltav-cc.github.io https://cdn.jsdelivr.net https://raw.githubusercontent.com https://proxy.hub.deltav.cc https://api.llama.fi https://stablecoins.llama.fi https://yields.llama.fi https://api.alternative.me https://feargreedchart.com https://query1.finance.yahoo.com; frame-src https://platform.twitter.com https://cal.com https://app.cal.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests;
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self' https://deltav-cc.github.io https://cdn.jsdelivr.net https://raw.githubusercontent.com https://proxy.hub.deltav.cc https://api.llama.fi https://stablecoins.llama.fi https://yields.llama.fi https://api.alternative.me https://feargreedchart.com https://query1.finance.yahoo.com; frame-src https://cal.com https://app.cal.com https://app.cal.eu; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests;
 
   # Additional hardening
   Cross-Origin-Opener-Policy: same-origin
-  # credentialless, not require-corp: the X and cal.com embed frames do not send
-  # CORP headers, and require-corp would block them. Cross-origin subresources
+  # credentialless, not require-corp: the Cal.com embed frame does not send
+  # CORP headers, and require-corp would block it. Cross-origin subresources
   # still load without credentials, so the isolation that matters here is kept.
   Cross-Origin-Embedder-Policy: credentialless
   Cross-Origin-Resource-Policy: same-origin
