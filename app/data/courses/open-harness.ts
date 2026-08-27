@@ -91,11 +91,23 @@ export type CourseBlock =
    */
   | { k: 'copycards'; items: { src: string; title: string; why: string }[] }
   /**
-   * A post from X, embedded from X's own iframe endpoint — never re-hosted, so
-   * the media stays served by its author and the citation is part of the block.
-   * Needs `frame-src https://platform.twitter.com` in _headers.
+   * A cited post from X. Rendered as a local still (`poster`) plus a link —
+   * never a live iframe. `id` is the status id (filename key). `hasVideo`
+   * draws a play badge on the still; the click still goes to X.
    */
-  | { k: 'tweet'; id: string; author: string; href: string; caption?: LocaleString; height?: number }
+  | {
+      k: 'tweet';
+      id: string;
+      author: string;
+      href: string;
+      caption?: LocaleString;
+      poster?: string;
+      posterWidth?: number;
+      posterHeight?: number;
+      hasVideo?: boolean;
+      /** @deprecated ignored — live iframes were blank too often. */
+      height?: number;
+    }
   /**
    * A real screenshot from `public/`. `src` is a site-root path (the renderer
    * applies basePath). `alt` is required — a screenshot nobody can see is not
@@ -1594,9 +1606,12 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
             'One habit that quietly multiplies your bill: switching models mid-session. Every switch invalidates the prompt cache on the model you switch to, and you repay the full input-token price for everything already loaded — tools, skills, memory, history. Not a Hermes quirk; a fundamental of inference. Pick a model per session and stay on it; route side tasks to auxiliary models instead.',
             'Une habitude qui multiplie discrètement la facture : changer de modèle en pleine session. Chaque bascule invalide le cache de prompt du modèle d’arrivée, et vous repayez plein tarif les tokens d’entrée pour tout ce qui est déjà chargé — outils, skills, mémoire, historique. Ce n’est pas une bizarrerie d’Hermes ; c’est un fondamental de l’inférence. Choisissez un modèle par session et gardez-le ; confiez plutôt les tâches annexes aux modèles auxiliaires.',
           ) },
-          { k: 'tweet', id: '2081381590488568218', author: '@witcheer', height: 812,
+          { k: 'tweet', id: '2081381590488568218', author: '@witcheer',
             href: 'https://x.com/witcheer/status/2081381590488568218',
             caption: L('`hermes prompt-size` prints the fixed budget of a fresh session — note that tool schemas are the bigger half, and that it runs offline with no API call.'),
+            poster: '/courses/open-harness/citations/2081381590488568218.jpg',
+            posterWidth: 989,
+            posterHeight: 918,
           },
           { k: 'links', items: [
           { label: L('Lab: Prompt budget audit'), href: '/forge/course/my-first-ai-agent/labs/prompt-budget/' },
@@ -1665,9 +1680,13 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
           { k: 'p', text: L(
             'If you still have time after the receipt exists: `/learn` on a file you own, or the Desktop HUD (“this” instead of describing a window). Neither replaces the footprint loop.',
           ) },
-          { k: 'tweet', id: '2086130893811277833', author: '@imbabybrooklyn', height: 672,
+          { k: 'tweet', id: '2086130893811277833', author: '@imbabybrooklyn',
             href: 'https://x.com/imbabybrooklyn/status/2086130893811277833',
-            caption: L('The HUD in use — optional after the receipt exists.'),
+            caption: L('The HUD in use — optional after the receipt exists. Video plays on X.'),
+            poster: '/courses/open-harness/citations/2086130893811277833.jpg',
+            posterWidth: 1199,
+            posterHeight: 780,
+            hasVideo: true,
           },
           { k: 'callout', variant: 'note', text: L(
             'Skills live with the course: [unbroker-ge](/courses/open-harness/skills/unbroker-ge/SKILL.md) and [unbroker-eu](/courses/open-harness/skills/unbroker-eu/SKILL.md). Official US Unbroker stays optional if you also have a US footprint.',
@@ -1699,9 +1718,13 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
           L('`/undo` · `/retry` · `/branch` — conversation control'),
           L('`/rollback` + checkpoints — files already changed (not the same as `/undo`)'),
         ] },
-          { k: 'tweet', id: '2087618041328611676', author: '@witcheer', height: 575,
+          { k: 'tweet', id: '2087618041328611676', author: '@witcheer',
             href: 'https://x.com/witcheer/status/2087618041328611676',
-            caption: L('Context management in practice.'),
+            caption: L('Context management in practice. Video plays on X.'),
+            poster: '/courses/open-harness/citations/2087618041328611676.jpg',
+            posterWidth: 1200,
+            posterHeight: 730,
+            hasVideo: true,
           },
           { k: 'p', text: L(
             'None of that is memory, though. It only tidies the chat you are in. Everything Part II adds — notes it keeps, a folder of your own writing it can search, jobs that run while you sleep — starts from one idea: **if you want it kept, it has to be written to a file.** That is lesson 07.',

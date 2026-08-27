@@ -403,22 +403,79 @@
     color: var(--text-secondary);
   }
 
-  /* Embedded posts from X. The iframe sizes itself; we give it a sane floor so
-     the caption does not jump when it finishes loading. */
+  /* Cited posts from X: local still + link. No live iframe. */
   .course-prose .course-tweet {
     margin-top: 1.75rem;
+    max-width: 36rem;
   }
 
-  .course-prose .course-tweet-frame {
-    width: 100%;
-    /* X caps the card at 550px and paints white either side of it, so let the
-       frame stop there instead of bleeding on wider columns (labs). */
-    max-width: 550px;
+  .course-prose .course-tweet-card {
+    display: block;
     overflow: hidden;
-    border: 0;
+    border: 1px solid var(--border-default);
     border-radius: var(--radius-md, 0.75rem);
     background: var(--bg-deep);
-    color-scheme: dark;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .course-prose .course-tweet-card:hover .course-tweet-open {
+    color: var(--course-accent, var(--accent-orange));
+  }
+
+  .course-prose .course-tweet-still {
+    position: relative;
+    display: block;
+    background: var(--bg-deep);
+  }
+
+  .course-prose .course-tweet-still img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .course-prose .course-tweet-play {
+    position: absolute;
+    inset: 50% auto auto 50%;
+    display: grid;
+    place-items: center;
+    width: 3rem;
+    height: 3rem;
+    margin: -1.5rem 0 0 -1.5rem;
+    border-radius: 999px;
+    background: rgb(var(--shade-rgb) / 0.72);
+    color: var(--text-primary);
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+  }
+
+  .course-prose .course-tweet-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.25rem 1.25rem 0.75rem;
+  }
+
+  .course-prose .course-tweet-author {
+    font-family: var(--font-mono, ui-monospace, monospace);
+    font-size: 0.75rem;
+    letter-spacing: 0.04em;
+    color: var(--course-accent, var(--accent-orange));
+  }
+
+  .course-prose .course-tweet-excerpt {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--text-secondary);
+  }
+
+  .course-prose .course-tweet-open {
+    display: block;
+    padding: 0.65rem 1.1rem 0.85rem;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--text-tertiary);
   }
 
   .course-prose .course-tweet-cite {

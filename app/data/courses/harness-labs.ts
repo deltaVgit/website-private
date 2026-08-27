@@ -41,11 +41,19 @@ export type HarnessLab = {
     calloutVariant?: 'note' | 'warning' | 'quote';
     links?: { label: string; href: string }[];
     /**
-     * A cited post from X, embedded from X's own iframe endpoint — never
-     * re-hosted. `height` is tuned per post so the frame ends on the timestamp
-     * rather than the like/reply bar; see CourseTweet.
+     * A cited post from X. Local still (`poster`) plus a link — never a live
+     * iframe. See CourseTweet.
      */
-    tweet?: { id: string; author: string; href: string; caption?: string; height?: number };
+    tweet?: {
+      id: string;
+      author: string;
+      href: string;
+      caption?: string;
+      poster?: string;
+      posterWidth?: number;
+      posterHeight?: number;
+      hasVideo?: boolean;
+    };
   }[];
 };
 
@@ -250,10 +258,11 @@ Still works: yes/no
           id: '2083421808385307115',
           author: '@tonbistudio',
           href: 'https://x.com/tonbistudio/status/2083421808385307115',
-          caption: 'The Kanban board in use.',
-          // Tall on purpose: this is a quote-post, so the frame holds two
-          // stacked cards and the quoted Nous announcement video.
-          height: 1324,
+          caption: 'The Kanban board in use. Video plays on X.',
+          poster: '/courses/open-harness/citations/2083421808385307115.jpg',
+          posterWidth: 1200,
+          posterHeight: 675,
+          hasVideo: true,
         },
         links: [
           { label: 'Harness 12 — Own it forever', href: '/forge/course/my-first-ai-agent/12/' },
