@@ -5,7 +5,7 @@
         "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Uncensored-GGUF",
         "author": "JonathanColetti",
-        "likes": 772,
+        "likes": 773,
         "downloads": 1666948,
         "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "lastModified": "2026-08-26T00:38:44.000Z",
@@ -26,7 +26,7 @@
         "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "author": "0bserverx",
-        "likes": 292,
+        "likes": 293,
         "downloads": 830221,
         "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "lastModified": "2026-08-20T19:51:25.000Z",
@@ -363,7 +363,7 @@
       "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "author": "0bserverx",
-      "likes": 292,
+      "likes": 293,
       "downloads": 830221,
       "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "lastModified": "2026-08-20T19:51:25.000Z",
@@ -600,30 +600,30 @@
       "combo": 0.7437
     },
     {
-      "id": "PocketAiHub/Qwen3.8-27B-Abliterated-MTPLX-Optimized-Speed",
-      "name": "Qwen3.8-27B-Abliterated-MTPLX-Optimized-Speed",
-      "author": "PocketAiHub",
-      "likes": 21,
-      "downloads": 12893,
-      "url": "https://huggingface.co/PocketAiHub/Qwen3.8-27B-Abliterated-MTPLX-Optimized-Speed",
-      "lastModified": "2026-08-22T10:59:01.000Z",
-      "daysAgo": 5,
+      "id": "hotdogs/Qwen3.8-27B-abliterated-MTP-GGUF",
+      "name": "Qwen3.8-27B-abliterated-MTP-GGUF",
+      "author": "hotdogs",
+      "likes": 17,
+      "downloads": 28015,
+      "url": "https://huggingface.co/hotdogs/Qwen3.8-27B-abliterated-MTP-GGUF",
+      "lastModified": "2026-08-18T09:18:29.000Z",
+      "daysAgo": 9,
       "pipeline": "text-generation",
       "tags": [
-        "mlx",
-        "safetensors",
+        "gguf",
         "qwen3_5",
-        "apple-silicon",
-        "macos",
-        "mtplx",
-        "speculative-decoding",
-        "multi-token-prediction"
+        "abliterated",
+        "uncensored",
+        "llama.cpp",
+        "mtp",
+        "multi-token-prediction",
+        "image-text-to-text"
       ],
-      "pop": 0.6703,
-      "rec": 0.8571,
-      "combo": 0.7357
+      "pop": 0.7253,
+      "rec": 0.7692,
+      "combo": 0.7407
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-08-27T16:04:24Z"
+  "updated": "2026-08-27T16:34:26Z"
 }
