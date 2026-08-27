@@ -395,7 +395,7 @@ def build_btc_trend() -> list | None:
 
 def build_exchange_vol() -> dict | None:
     btcd = fetch_json(
-        "https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30"
+        "https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=365"
     )
     time.sleep(0.3)
     ex = fetch_json("https://api.coingecko.com/api/v3/exchanges?per_page=10")
@@ -407,7 +407,9 @@ def build_exchange_vol() -> dict | None:
     vol_history = []
     if btcd and btcd.get("total_volumes"):
         vols = btcd["total_volumes"]
-        step = max(1, len(vols) // 60)
+        # Keep every daily point (days=365): the dashboard needs daily
+        # granularity for its 1W/1M/3M/6M/1Y timeframe toggles.
+        step = 1
         for p in vols[::step]:
             vol_history.append({"t": int(p[0]), "v": p[1]})
 

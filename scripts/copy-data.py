@@ -407,7 +407,9 @@ try:
     vol_history = []
     if btc_data and btc_data.get('total_volumes'):
         vols = btc_data['total_volumes']
-        step = max(1, len(vols) // 100)
+        # Keep every daily point (days=365): the dashboard needs daily
+        # granularity for its 1W/1M/3M/6M/1Y timeframe toggles.
+        step = 1
         for i in range(0, len(vols), step):
             t, v_usd = vols[i]
             vol_history.append({'t': t, 'v': v_usd})

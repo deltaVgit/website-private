@@ -44,6 +44,24 @@ export function formatDate(iso: string | number): string {
   } catch { return String(iso); }
 }
 
+/** Compact USD label for chart axes — 1-2 significant digits + unit. */
+export function fmtAxisVal(v: number): string {
+  if (!Number.isFinite(v)) return '—';
+  if (v >= 1e12) return `$${(v / 1e12).toFixed(v >= 1e13 ? 0 : 1)}T`;
+  if (v >= 1e9) return `$${(v / 1e9).toFixed(v >= 1e10 ? 0 : 1)}B`;
+  if (v >= 1e6) return `$${(v / 1e6).toFixed(0)}M`;
+  return `$${Math.round(v).toLocaleString()}`;
+}
+
+/** Short date label for chart abscissa — "Jul 24" style. */
+export function fmtAxisDate(t: string | number): string {
+  try {
+    const d = typeof t === 'number' ? new Date(t) : new Date(t);
+    if (isNaN(d.getTime())) return String(t);
+    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  } catch { return String(t); }
+}
+
 /**
  * CoinGecko total_volumes are USD. Older snapshots wrongly multiplied by BTC price
  * (values ~1e15+). Detect and divide by a typical BTC price scale using the last
