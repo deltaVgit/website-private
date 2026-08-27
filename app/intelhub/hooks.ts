@@ -146,6 +146,17 @@ function cleanSummary(s: string) {
 }
 
 function getTag(title: string, summary?: string, source?: string): string {
+  // Upstream-authoritative category — MarketNewsFeed squawk API ships its own
+  // [CRYPTO]/[MACRO]/[ENERGY]/[STOCKS]/[OTHER] taxonomy per item (in source).
+  // Trust it verbatim instead of keyword-scoring: CRYPTO -> Crypto tab,
+  // everything else (macro/energy/stocks/geo misc) -> Macro tab.
+  if (source) {
+    const m = source.match(/\[(CRYPTO|MACRO|ENERGY|STOCKS|OTHER)\]/i);
+    if (m) {
+      const up = m[1].toUpperCase();
+      return up === 'CRYPTO' ? 'crypto' : 'macro';
+    }
+  }
   const txt = (title + ' ' + (summary || '')).toLowerCase();
   const titleLow = title.toLowerCase();
   const scores: Record<string, number> = {};
