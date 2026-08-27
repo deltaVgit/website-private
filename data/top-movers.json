@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-08-26T10:17:13Z",
+  "updated_at": "2026-08-27T08:28:07Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "ABCL",
-        "name": "AbCellera Biologics Inc.",
-        "price": 12.5,
-        "change_24h": 17.81,
+        "symbol": "BHVN",
+        "name": "Biohaven Ltd.",
+        "price": 16.95,
+        "change_24h": 17.87,
         "asset": "equity"
       },
       {
-        "symbol": "STDN",
-        "name": "Standard Nuclear, Inc.",
-        "price": 13.94,
-        "change_24h": 16.75,
+        "symbol": "BZ",
+        "name": "KANZHUN LIMITED - American Depo",
+        "price": 18.84,
+        "change_24h": 15.65,
         "asset": "equity"
       },
       {
-        "symbol": "GENB",
-        "name": "Generate Biomedicines, Inc.",
-        "price": 20.38,
-        "change_24h": 15.01,
+        "symbol": "SEDG",
+        "name": "SolarEdge Technologies, Inc.",
+        "price": 33.08,
+        "change_24h": 10.71,
         "asset": "equity"
       },
       {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "price": 158.83,
-        "change_24h": 14.36,
+        "symbol": "SMTC",
+        "name": "Semtech Corporation",
+        "price": 140.8,
+        "change_24h": 10.41,
         "asset": "equity"
       },
       {
-        "symbol": "MAIR",
-        "name": "Madison Air Solutions Corporati",
-        "price": 27.99,
-        "change_24h": 12.09,
+        "symbol": "URBN",
+        "name": "Urban Outfitters, Inc.",
+        "price": 82.95,
+        "change_24h": 9.46,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "DKS",
-        "name": "Dick's Sporting Goods Inc",
-        "price": 124.31,
-        "change_24h": -30.68,
+        "symbol": "GENB",
+        "name": "Generate Biomedicines, Inc.",
+        "price": 16.14,
+        "change_24h": -20.8,
         "asset": "equity"
       },
       {
-        "symbol": "BBWI",
-        "name": "Bath & Body Works, Inc.",
-        "price": 17.58,
-        "change_24h": -8.29,
+        "symbol": "SYRE",
+        "name": "Spyre Therapeutics, Inc.",
+        "price": 93.61,
+        "change_24h": -12.81,
         "asset": "equity"
       },
       {
-        "symbol": "BETA",
-        "name": "Beta Technologies, Inc.",
-        "price": 22.11,
-        "change_24h": -7.26,
+        "symbol": "FIGR",
+        "name": "Figure Technology Solutions, In",
+        "price": 37.08,
+        "change_24h": -9.87,
         "asset": "equity"
       },
       {
-        "symbol": "ALB",
-        "name": "Albemarle Corporation",
-        "price": 133.18,
-        "change_24h": -5.89,
+        "symbol": "QBTS",
+        "name": "D-Wave Quantum Inc.",
+        "price": 17.51,
+        "change_24h": -9.51,
         "asset": "equity"
       },
       {
-        "symbol": "ASO",
-        "name": "Academy Sports and Outdoors, In",
-        "price": 43.48,
-        "change_24h": -5.8,
+        "symbol": "SNAP",
+        "name": "Snap Inc.",
+        "price": 5.42,
+        "change_24h": -8.45,
         "asset": "equity"
       }
     ]
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.017575,
-        "change_24h": 20.86,
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "price": 0.601533,
+        "change_24h": 11.94,
         "asset": "crypto"
       },
       {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "price": 82.2,
-        "change_24h": 1.69,
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "price": 255.77,
+        "change_24h": 8.58,
         "asset": "crypto"
       },
       {
-        "symbol": "WLFI",
-        "name": "World Liberty Financial",
-        "price": 0.058468,
-        "change_24h": 1.68,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.15278,
+        "change_24h": 6.79,
         "asset": "crypto"
       },
       {
-        "symbol": "GT",
-        "name": "Gate",
-        "price": 7.86,
-        "change_24h": 1.44,
+        "symbol": "SOL",
+        "name": "Solana",
+        "price": 103.59,
+        "change_24h": 6.6,
         "asset": "crypto"
       },
       {
-        "symbol": "PI",
-        "name": "Pi Network",
-        "price": 0.090049,
-        "change_24h": 0.6,
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 18.1,
+        "change_24h": 5.01,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "XDC",
-        "name": "XDC Network",
-        "price": 0.027857,
-        "change_24h": -6.9,
+        "symbol": "POL",
+        "name": "POL (ex-MATIC)",
+        "price": 0.108677,
+        "change_24h": -10.3,
         "asset": "crypto"
       },
       {
-        "symbol": "TRUMP",
-        "name": "Official Trump",
-        "price": 2.23,
-        "change_24h": -6.88,
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.13,
+        "change_24h": -2.58,
         "asset": "crypto"
       },
       {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.027197,
-        "change_24h": -6.86,
+        "symbol": "ATOM",
+        "name": "Cosmos Hub",
+        "price": 1.52,
+        "change_24h": -1.63,
         "asset": "crypto"
       },
       {
-        "symbol": "PEPE",
-        "name": "Pepe",
-        "price": 4e-06,
-        "change_24h": -6.68,
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.116612,
+        "change_24h": -1.29,
         "asset": "crypto"
       },
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 788.13,
-        "change_24h": -6.45,
+        "symbol": "GRAM",
+        "name": "Gram (prev. Toncoin)",
+        "price": 1.41,
+        "change_24h": -1.19,
         "asset": "crypto"
       }
     ]
