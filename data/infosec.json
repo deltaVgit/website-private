@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-08-27T17:04:41Z",
+  "updatedAt": "2026-08-27T17:34:40Z",
   "kev": [
+    {
+      "cve": "CVE-2023-49105",
+      "product": "ownCloud",
+      "vendor": "ownCloud",
+      "name": "ownCloud Improper Authentication Vulnerability",
+      "dateAdded": "2026-08-27",
+      "dueDate": "2026-08-30",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-53362",
+      "product": "Kernel",
+      "vendor": "Linux",
+      "name": "Linux Kernel Unspecified Vulnerability",
+      "dateAdded": "2026-08-27",
+      "dueDate": "2026-08-30",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-66384",
+      "product": "Artifactory",
+      "vendor": "JFrog",
+      "name": "JFrog Artifactory Improper Limitation of a Pathname to a Restricted Directory Vulnerability",
+      "dateAdded": "2026-08-27",
+      "dueDate": "2026-09-10",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2021-23758",
       "product": "Ajax.NET Professional",
@@ -98,33 +125,6 @@
       "name": "TrueConf Server Missing Authentication for Critical Function Vulnerability",
       "dateAdded": "2026-08-20",
       "dueDate": "2026-08-23",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-64849",
-      "product": "MLflow",
-      "vendor": "MLflow",
-      "name": "MLflow Server-Side Request Forgery Vulnerability",
-      "dateAdded": "2026-08-19",
-      "dueDate": "2026-09-02",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-33824",
-      "product": "Internet Key Exchange (IKE) Service Extensions",
-      "vendor": "Microsoft",
-      "name": "Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
-      "dateAdded": "2026-08-18",
-      "dueDate": "2026-08-21",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-59310",
-      "product": "VMware vCenter",
-      "vendor": "Broadcom",
-      "name": "Broadcom VMware vCenter Path Traversal Vulnerability",
-      "dateAdded": "2026-08-18",
-      "dueDate": "2026-08-21",
       "knownRansomware": "Unknown"
     }
   ],
