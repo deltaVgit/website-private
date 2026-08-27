@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-26T07:37:50Z",
+  "updated": "2026-08-27T09:04:24Z",
   "items": [
     {
       "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
       "url": "https://arxiv.org/abs/2608.23568",
       "source": "arXiv cs.AI",
-      "published_at": "2026-08-26T04:00:00+00:00",
+      "published_at": "2026-08-27T04:00:00+00:00",
       "summary": "arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed record, or raw excerpt. We introduce RENDER, a benchma",
       "tag": "ai"
     },
@@ -13,7 +13,7 @@
       "title": "ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence",
       "url": "https://arxiv.org/abs/2608.23569",
       "source": "arXiv cs.AI",
-      "published_at": "2026-08-26T04:00:00+00:00",
+      "published_at": "2026-08-27T04:00:00+00:00",
       "summary": "arXiv:2608.23569v1 Announce Type: new Abstract: State-of-the-art Natural Language to SQL (NL2SQL) models report execution accuracy exceeding 89 percent on established benchmarks such as Spider and BIRD. However, these benchmarks rely on simplified academic schemas and open-source",
       "tag": "ai"
     },
@@ -21,7 +21,7 @@
       "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
       "url": "https://arxiv.org/abs/2608.23622",
       "source": "arXiv cs.AI",
-      "published_at": "2026-08-26T04:00:00+00:00",
+      "published_at": "2026-08-27T04:00:00+00:00",
       "summary": "arXiv:2608.23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scientific and engineering tasks require more than plausible text and code generation. They require understanding how a syste",
       "tag": "ai"
     },
@@ -29,56 +29,104 @@
       "title": "A survey detection channel overrides the pixels in an astronomical foundation model, and biases tomographic mean redshifts",
       "url": "https://arxiv.org/abs/2608.23626",
       "source": "arXiv cs.AI",
-      "published_at": "2026-08-26T04:00:00+00:00",
+      "published_at": "2026-08-27T04:00:00+00:00",
       "summary": "arXiv:2608.23626v1 Announce Type: new Abstract: Foundation models for astronomy are trained on survey pixels together with the catalogue products derived from those pixels. Those catalogues are incomplete at a measurable rate, and a model trained on both inherits that incompleten",
       "tag": "ai"
     },
     {
-      "title": "Equivariant Cellular Sheaves for Molecular Electronic Structure: Bridging Sheaf Cohomology and E(3)-Equivariant Hamiltonian Learning",
-      "url": "https://arxiv.org/abs/2608.23571",
+      "title": "Dynamic Influence-Weighted Distillation for Single-IMU Activity Recognition",
+      "url": "https://arxiv.org/abs/2608.24904",
       "source": "arXiv cs.LG",
-      "published_at": "2026-08-26T04:00:00+00:00",
-      "summary": "arXiv:2608.23571v1 Announce Type: new Abstract: Equivariant message-passing networks are the standard model for molecular property and interatomic-potential prediction, and recent work predicts the electronic Hamiltonian itself in an E(3)-equivariant way. Separately, topological ",
+      "published_at": "2026-08-27T04:00:00+00:00",
+      "summary": "arXiv:2608.24904v1 Announce Type: new Abstract: Inertial sensors at multiple body locations can improve activity recognition, but requiring every sensor at inference increases the deployment burden. We study whether four synchronized IMUs available during training can improve a s",
       "tag": "ai"
     },
     {
-      "title": "Data Predictability Shapes Weibull Weight-Scale Growth in Transformer Training",
-      "url": "https://arxiv.org/abs/2608.23573",
+      "title": "GreenLeaf Law Embed Tiny: A Compact Embedding Model for Legal Domain Retrieval",
+      "url": "https://arxiv.org/abs/2608.24936",
       "source": "arXiv cs.LG",
-      "published_at": "2026-08-26T04:00:00+00:00",
-      "summary": "arXiv:2608.23573v1 Announce Type: new Abstract: A trained transformer's weight magnitudes can be summarized by a two-parameter Weibull distribution whose shape $k \\approx 1.2$ is stable across layers and models, so the scale $\\lambda$ carries most training-induced movement. What ",
+      "published_at": "2026-08-27T04:00:00+00:00",
+      "summary": "arXiv:2608.24936v1 Announce Type: new Abstract: We present GreenLeaf Law Embed Tiny, a 0.6B parameter embedding model for legal domain retrieval. GreenLeaf-Tiny achieves 75.11% on the Massive Legal Embedding Benchmark (MLEB) and 64.38% on MTEB(Law, v1),demonstrating competitive p",
       "tag": "ai"
     },
     {
-      "title": "From Causal Plausibility to Causal Reliability: Evaluating LLMs as Calibrated Direct Causal-Edge Classifiers",
-      "url": "https://arxiv.org/abs/2608.23660",
+      "title": "Multi-Modal Anomaly Detection: A Survey",
+      "url": "https://arxiv.org/abs/2608.24937",
       "source": "arXiv cs.LG",
-      "published_at": "2026-08-26T04:00:00+00:00",
-      "summary": "arXiv:2608.23660v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used to provide prior causal knowledge for structural causal discovery, yet whether their direct-edge judgments and confidence can be trusted remains unclear. We systematically evaluate ",
+      "published_at": "2026-08-27T04:00:00+00:00",
+      "summary": "arXiv:2608.24937v1 Announce Type: new Abstract: Multi-Modal Anomaly Detection (MMAD) detects rare abnormal events from heterogeneous data sources and is increasingly used in safety- and reliability-critical applications such as industrial inspection and cybersecurity. Yet the lit",
       "tag": "ai"
     },
     {
-      "title": "Taming Visual Neglect: A Variational Information Bottleneck Framework for Adaptive Attention in Multimodal In-Context Learning",
-      "url": "https://arxiv.org/abs/2608.23570",
+      "title": "Detection != Reliable Control: Decodable Empathy Directions Yield at Most Partial Shifts in Automated Empathy Scores",
+      "url": "https://arxiv.org/abs/2608.24901",
       "source": "arXiv cs.CL",
-      "published_at": "2026-08-26T04:00:00+00:00",
-      "summary": "arXiv:2608.23570v1 Announce Type: new Abstract: Large vision-language models exhibit strong in-context learning (ICL) capabilities, yet when and why visual context helps multimodal ICL remains poorly understood. Empirical studies show a puzzling dichotomy: models sometimes effect",
+      "published_at": "2026-08-27T04:00:00+00:00",
+      "summary": "arXiv:2608.24901v1 Announce Type: new Abstract: A decodable \"empathy\" direction is routinely read as a causal lever, conflating decodability, automated-metric control, and human-perceived change. We test this for two EPITOME-derived facets -- Recognition (cognitive) and Resonance",
       "tag": "ai"
     },
     {
-      "title": "From Triage to Discharge: A Survey of NLP Tasks, Methods, and Open Challenges in the Emergency Department",
-      "url": "https://arxiv.org/abs/2608.23627",
+      "title": "Semantic Variability of Replies Across LLMs: Implications for Designing Conversation-Based Assessment",
+      "url": "https://arxiv.org/abs/2608.24920",
       "source": "arXiv cs.CL",
-      "published_at": "2026-08-26T04:00:00+00:00",
-      "summary": "arXiv:2608.23627v1 Announce Type: new Abstract: Emergency departments (EDs) operate under time pressure, generating multimodal data such as clinical conversations, triage notes, and discharge documents. Recent advances in natural language processing (NLP), particularly pretrained",
+      "published_at": "2026-08-27T04:00:00+00:00",
+      "summary": "arXiv:2608.24920v1 Announce Type: new Abstract: This study examines whether LLM-generated replies remain semantically consistent when the underlying LLM changes. Using messages from real collaborative conversations, we compared the semantic similarity of generated replies across ",
       "tag": "ai"
     },
     {
-      "title": "Contextual Embedding Evidence for Main--Light Verb Distinctions in Urdu",
-      "url": "https://arxiv.org/abs/2608.23645",
+      "title": "The Dialect Tax: Dialectal Biases Persist throughout the Language Modeling Pipeline",
+      "url": "https://arxiv.org/abs/2608.24952",
       "source": "arXiv cs.CL",
-      "published_at": "2026-08-26T04:00:00+00:00",
-      "summary": "arXiv:2608.23645v1 Announce Type: new Abstract: Urdu light verbs contribute schematic event-structural meaning while remaining lexically related to corresponding main verbs. This study tests representational predictions derived from Butt's analysis using contextual embeddings fro",
+      "published_at": "2026-08-27T04:00:00+00:00",
+      "summary": "arXiv:2608.24952v1 Announce Type: new Abstract: Systematic dialectal performance gaps in language models (LMs) are well documented, but the source of these disparities within the modern language modeling pipeline remains unclear. Our study traces this \"dialect tax\" across the nat",
+      "tag": "ai"
+    },
+    {
+      "title": "Qwen3.8-Flash-Next",
+      "url": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
+      "source": "Simon Willison",
+      "published_at": "2026-08-26T23:52:58+00:00",
+      "summary": "Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\". It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost. I've been tr",
+      "tag": "ai"
+    },
+    {
+      "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
+      "url": "https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "source": "Alignment Forum",
+      "published_at": "2026-08-26T19:40:21+00:00",
+      "summary": "We recently published the report from our brief independent investigation into this incident. You can read the full report here . Here is our tweet thread summarizing what we found: METR & Redwood Research investigated agent behavior in the Hugging Face incident. We found agents ",
+      "tag": "ai"
+    },
+    {
+      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+      "source": "Google DeepMind",
+      "published_at": "2026-08-26T17:01:00+00:00",
+      "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+      "tag": "ai"
+    },
+    {
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "source": "OpenAI",
+      "published_at": "2026-08-26T10:00:00+00:00",
+      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "tag": "ai"
+    },
+    {
+      "title": "Learning never stops: How AI makes learning continuous",
+      "url": "https://openai.com/index/learning-never-stops",
+      "source": "OpenAI",
+      "published_at": "2026-08-26T10:00:00+00:00",
+      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+      "tag": "ai"
+    },
+    {
+      "title": "Quoting Paul Dix",
+      "url": "https://simonwillison.net/2026/Aug/26/paul-dix/",
+      "source": "Simon Willison",
+      "published_at": "2026-08-26T08:07:55+00:00",
+      "summary": "The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because t",
       "tag": "ai"
     },
     {
@@ -87,6 +135,30 @@
       "source": "LessWrong",
       "published_at": "2026-08-26T00:23:18+00:00",
       "summary": "Periodically I like to gather various observations about writing, and share my perspective. Last time was in honor of my trip to Inkhaven. This time will be in honor of the announcement of Inkhaven #3 , which I encourage everyone to apply to. I doubt I will be able to usefully be",
+      "tag": "ai"
+    },
+    {
+      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+      "url": "https://huggingface.co/blog/train-multi-vector-encoder",
+      "source": "Hugging Face Blog",
+      "published_at": "2026-08-26T00:00:00+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
+      "title": "The Hugging Face incident and the road ahead",
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "source": "OpenAI",
+      "published_at": "2026-08-26T00:00:00+00:00",
+      "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+      "tag": "ai"
+    },
+    {
+      "title": "How loveholidays is making everyone a builder with Codex",
+      "url": "https://openai.com/index/loveholidays",
+      "source": "OpenAI",
+      "published_at": "2026-08-26T00:00:00+00:00",
+      "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
       "tag": "ai"
     },
     {
@@ -130,43 +202,11 @@
       "tag": "ai"
     },
     {
-      "title": "The full stack behind abundant intelligence",
-      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "source": "OpenAI",
-      "published_at": "2026-08-25T07:05:00+00:00",
-      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-      "tag": "ai"
-    },
-    {
-      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "url": "https://openai.com/index/jalapeno-first-results",
-      "source": "OpenAI",
-      "published_at": "2026-08-25T07:00:00+00:00",
-      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-      "tag": "ai"
-    },
-    {
       "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
       "url": "https://huggingface.co/blog/gradio-workflow-guide",
       "source": "Hugging Face Blog",
       "published_at": "2026-08-25T00:00:00+00:00",
       "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "Disrupting a new covert influence campaign from Russia",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "source": "OpenAI",
-      "published_at": "2026-08-25T00:00:00+00:00",
-      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
-      "tag": "ai"
-    },
-    {
-      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
-      "url": "https://openai.com/index/introducing-admin-plugin",
-      "source": "OpenAI",
-      "published_at": "2026-08-25T00:00:00+00:00",
-      "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
       "tag": "ai"
     },
     {
@@ -186,27 +226,11 @@
       "tag": "ai"
     },
     {
-      "title": "llm-anthropic 0.27",
-      "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
-      "source": "Simon Willison",
-      "published_at": "2026-08-24T16:27:04+00:00",
-      "summary": "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic pr",
-      "tag": "ai"
-    },
-    {
       "title": "Import AI 470: No rights for machines; automating environment generation with SPADE; and building better GPU kernels with Hawkeye",
       "url": "https://jack-clark.net/2026/08/24/import-ai-470-no-rights-for-machines-automating-environment-generation-with-spade-and-building-better-gpu-kernels-with-hawkeye/",
       "source": "Import AI",
       "published_at": "2026-08-24T13:12:40+00:00",
       "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI is accelerating some types of progress but not others:…A nice METR study lays out where acceler",
-      "tag": "ai"
-    },
-    {
-      "title": "Your executable is a SQLite database",
-      "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
-      "source": "Simon Willison",
-      "published_at": "2026-08-24T11:38:15+00:00",
-      "summary": "Your executable is a SQLite database Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary. The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for St",
       "tag": "ai"
     },
     {
@@ -223,14 +247,6 @@
       "source": "Google DeepMind",
       "published_at": "2026-08-21T11:59:48+00:00",
       "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
-      "tag": "ai"
-    },
-    {
-      "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
-      "url": "https://huggingface.co/blog/pwc-search",
-      "source": "Hugging Face Blog",
-      "published_at": "2026-08-21T00:00:00+00:00",
-      "summary": "",
       "tag": "ai"
     },
     {
@@ -303,22 +319,6 @@
       "source": "Google DeepMind",
       "published_at": "2026-08-13T17:04:18+00:00",
       "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "Putting sign language AI into users’ hands",
-      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-      "source": "Google DeepMind",
-      "published_at": "2026-08-12T14:01:59+00:00",
-      "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
-      "tag": "ai"
-    },
-    {
-      "title": "I wrote an AI textbook — how long until AI can do it better?",
-      "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
-      "source": "Interconnects",
-      "published_at": "2026-08-12T13:01:16+00:00",
-      "summary": "Reflections on AI's writing ability and how AI models get more capable.",
       "tag": "ai"
     }
   ],
