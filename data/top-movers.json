@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-08-27T15:30:27Z",
+  "updated_at": "2026-08-27T15:45:15Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "OKTA",
         "name": "Okta, Inc.",
-        "price": 170.22,
-        "change_24h": 26.64,
+        "price": 170.38,
+        "change_24h": 26.76,
         "asset": "equity"
       },
       {
         "symbol": "PURR",
         "name": "Hyperliquid Strategies Inc",
-        "price": 13.91,
-        "change_24h": 20.33,
+        "price": 13.88,
+        "change_24h": 20.03,
         "asset": "equity"
       },
       {
         "symbol": "CRWD",
         "name": "CrowdStrike Holdings, Inc.",
-        "price": 223.39,
-        "change_24h": 18.08,
+        "price": 221.18,
+        "change_24h": 16.91,
         "asset": "equity"
       },
       {
         "symbol": "VEEV",
         "name": "Veeva Systems Inc.",
-        "price": 284.87,
-        "change_24h": 16.32,
+        "price": 284.76,
+        "change_24h": 16.27,
         "asset": "equity"
       },
       {
         "symbol": "SAIL",
         "name": "SailPoint, Inc.",
-        "price": 20.67,
-        "change_24h": 13.45,
+        "price": 20.57,
+        "change_24h": 12.89,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "HQY",
         "name": "HealthEquity, Inc.",
-        "price": 90.6,
-        "change_24h": -13.24,
+        "price": 90.47,
+        "change_24h": -13.36,
         "asset": "equity"
       },
       {
         "symbol": "BHVN",
         "name": "Biohaven Ltd.",
-        "price": 15.69,
-        "change_24h": -7.43,
-        "asset": "equity"
-      },
-      {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "price": 139.41,
-        "change_24h": -6.85,
-        "asset": "equity"
-      },
-      {
-        "symbol": "VERA",
-        "name": "Vera Therapeutics, Inc.",
-        "price": 34.34,
-        "change_24h": -6.74,
+        "price": 15.77,
+        "change_24h": -6.97,
         "asset": "equity"
       },
       {
         "symbol": "PAY",
         "name": "Paymentus Holdings, Inc.",
-        "price": 37.21,
-        "change_24h": -5.63,
+        "price": 36.55,
+        "change_24h": -7.3,
+        "asset": "equity"
+      },
+      {
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "price": 138.96,
+        "change_24h": -7.15,
+        "asset": "equity"
+      },
+      {
+        "symbol": "BURL",
+        "name": "Burlington Stores, Inc.",
+        "price": 293.53,
+        "change_24h": -6.52,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 3.62,
-        "change_24h": 12.07,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.158252,
+        "change_24h": 12.77,
         "asset": "crypto"
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price": 107.53,
-        "change_24h": 11.9,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.156169,
-        "change_24h": 11.65,
+        "price": 107.23,
+        "change_24h": 11.54,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 254.09,
-        "change_24h": 10.99,
+        "price": 253.41,
+        "change_24h": 10.89,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 3.58,
+        "change_24h": 10.14,
         "asset": "crypto"
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
-        "price": 0.009695,
-        "change_24h": 8.57,
+        "price": 0.009682,
+        "change_24h": 8.48,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.108237,
-        "change_24h": -4.02,
+        "price": 0.107893,
+        "change_24h": -4.05,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.39797,
-        "change_24h": -3.65,
+        "price": 0.399207,
+        "change_24h": -3.7,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.098755,
-        "change_24h": -1.23,
+        "price": 0.098489,
+        "change_24h": -1.6,
         "asset": "crypto"
       },
       {
         "symbol": "BDX",
         "name": "Beldex",
-        "price": 0.080225,
-        "change_24h": -1.16,
+        "price": 0.08012,
+        "change_24h": -1.22,
         "asset": "crypto"
       },
       {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.01746,
-        "change_24h": -0.73,
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.002,
+        "change_24h": -0.69,
         "asset": "crypto"
       }
     ]
