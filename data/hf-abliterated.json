@@ -50,7 +50,7 @@
         "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "name": "Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1955,
+        "likes": 1958,
         "downloads": 785733,
         "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-06-05T17:55:41.000Z",
@@ -99,7 +99,7 @@
         "downloads": 482087,
         "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
         "lastModified": "2026-08-03T14:05:07.000Z",
-        "daysAgo": 23,
+        "daysAgo": 24,
         "pipeline": "text-generation",
         "tags": [
           "gguf",
@@ -112,8 +112,8 @@
           "deepseek-v4"
         ],
         "pop": 0.9268,
-        "rec": 0.566,
-        "combo": 0.8005
+        "rec": 0.5556,
+        "combo": 0.7969
       }
     ],
     "image_video": [
@@ -142,7 +142,7 @@
         "id": "ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "name": "flux2-klein-9b-uncensored-text-encoder",
         "author": "ponpoke",
-        "likes": 456,
+        "likes": 457,
         "downloads": 33599,
         "url": "https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "lastModified": "2026-05-02T11:34:41.000Z",
@@ -270,7 +270,7 @@
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 3528,
+        "likes": 3529,
         "downloads": 2360594,
         "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-04-17T02:59:21.000Z",
@@ -456,30 +456,6 @@
       "combo": 0.8019
     },
     {
-      "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
-      "name": "Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
-      "author": "huihui-ai",
-      "likes": 173,
-      "downloads": 482087,
-      "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
-      "lastModified": "2026-08-03T14:05:07.000Z",
-      "daysAgo": 23,
-      "pipeline": "text-generation",
-      "tags": [
-        "gguf",
-        "abliterated",
-        "uncensored",
-        "GGUF",
-        "huihui",
-        "quantized",
-        "deepseek",
-        "deepseek-v4"
-      ],
-      "pop": 0.9268,
-      "rec": 0.566,
-      "combo": 0.8005
-    },
-    {
       "id": "sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
       "name": "Huihui-Qwen3.8-27B-abliterated-NVFP4",
       "author": "sakamakismile",
@@ -502,6 +478,30 @@
       "pop": 0.7416,
       "rec": 0.9091,
       "combo": 0.8002
+    },
+    {
+      "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
+      "name": "Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
+      "author": "huihui-ai",
+      "likes": 173,
+      "downloads": 482087,
+      "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
+      "lastModified": "2026-08-03T14:05:07.000Z",
+      "daysAgo": 24,
+      "pipeline": "text-generation",
+      "tags": [
+        "gguf",
+        "abliterated",
+        "uncensored",
+        "GGUF",
+        "huihui",
+        "quantized",
+        "deepseek",
+        "deepseek-v4"
+      ],
+      "pop": 0.9268,
+      "rec": 0.5556,
+      "combo": 0.7969
     },
     {
       "id": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
@@ -625,5 +625,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-08-27T13:35:11Z"
+  "updated": "2026-08-27T14:05:13Z"
 }
