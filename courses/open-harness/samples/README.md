@@ -12,5 +12,6 @@ Filled examples of course artifacts. Copy into your own notes folder; do not com
 | `security-dials.example.md` | 10 Security |
 | `cron-runbook.example.md` | 11 Cron |
 | `failure-log.example.md` | Lab: failure-studio |
+| `bot-roster.example.md` | Lab: Bot Mode roster |
 
 Back to course: `/forge/course/my-first-ai-agent/`
