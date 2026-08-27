@@ -75,7 +75,7 @@
         "downloads": 633334,
         "url": "https://huggingface.co/mradermacher/Qwen3-VL-8B-Instruct-abliterated-GGUF",
         "lastModified": "2025-11-15T11:01:32.000Z",
-        "daysAgo": 284,
+        "daysAgo": 285,
         "pipeline": "",
         "tags": [
           "transformers",
@@ -88,8 +88,8 @@
           "base_model:quantized:prithivMLmods/Qwen3-VL-8B-Instruct-abliterated-v1"
         ],
         "pop": 0.9461,
-        "rec": 0.0955,
-        "combo": 0.6484
+        "rec": 0.0952,
+        "combo": 0.6483
       },
       {
         "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
@@ -408,34 +408,10 @@
       "combo": 0.884
     },
     {
-      "id": "sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
-      "name": "Huihui-Qwen3.8-27B-abliterated-NVFP4",
-      "author": "sakamakismile",
-      "likes": 34,
-      "downloads": 35270,
-      "url": "https://huggingface.co/sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
-      "lastModified": "2026-08-24T11:01:03.000Z",
-      "daysAgo": 2,
-      "pipeline": "text-generation",
-      "tags": [
-        "vllm",
-        "safetensors",
-        "qwen3_5",
-        "nvfp4",
-        "compressed-tensors",
-        "mtp",
-        "speculative-decoding",
-        "blackwell"
-      ],
-      "pop": 0.7416,
-      "rec": 0.9375,
-      "combo": 0.8101
-    },
-    {
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "name": "Huihui-Qwen3.8-27B-abliterated",
       "author": "huihui-ai",
-      "likes": 293,
+      "likes": 294,
       "downloads": 39350,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "lastModified": "2026-08-24T03:47:39.000Z",
@@ -504,6 +480,30 @@
       "combo": 0.8005
     },
     {
+      "id": "sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
+      "name": "Huihui-Qwen3.8-27B-abliterated-NVFP4",
+      "author": "sakamakismile",
+      "likes": 34,
+      "downloads": 35270,
+      "url": "https://huggingface.co/sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
+      "lastModified": "2026-08-24T11:01:03.000Z",
+      "daysAgo": 3,
+      "pipeline": "text-generation",
+      "tags": [
+        "vllm",
+        "safetensors",
+        "qwen3_5",
+        "nvfp4",
+        "compressed-tensors",
+        "mtp",
+        "speculative-decoding",
+        "blackwell"
+      ],
+      "pop": 0.7416,
+      "rec": 0.9091,
+      "combo": 0.8002
+    },
+    {
       "id": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
       "name": "Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
       "author": "gbuzhf",
@@ -559,7 +559,7 @@
       "downloads": 23082,
       "url": "https://huggingface.co/PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
       "lastModified": "2026-08-22T11:00:34.000Z",
-      "daysAgo": 4,
+      "daysAgo": 5,
       "pipeline": "image-text-to-text",
       "tags": [
         "gguf",
@@ -572,32 +572,8 @@
         "en"
       ],
       "pop": 0.7116,
-      "rec": 0.8824,
-      "combo": 0.7713
-    },
-    {
-      "id": "PocketAiHub/Qwen3.8-27B-Abliterated-MTPLX-Optimized-Speed",
-      "name": "Qwen3.8-27B-Abliterated-MTPLX-Optimized-Speed",
-      "author": "PocketAiHub",
-      "likes": 21,
-      "downloads": 12893,
-      "url": "https://huggingface.co/PocketAiHub/Qwen3.8-27B-Abliterated-MTPLX-Optimized-Speed",
-      "lastModified": "2026-08-22T10:59:01.000Z",
-      "daysAgo": 4,
-      "pipeline": "text-generation",
-      "tags": [
-        "mlx",
-        "safetensors",
-        "qwen3_5",
-        "apple-silicon",
-        "macos",
-        "mtplx",
-        "speculative-decoding",
-        "multi-token-prediction"
-      ],
-      "pop": 0.6703,
-      "rec": 0.8824,
-      "combo": 0.7445
+      "rec": 0.8571,
+      "combo": 0.7625
     },
     {
       "id": "drowzeys/keys-DeepSeekV4-Flash-GA-0731-Dspark-Abliterated-Anchored-Tensors",
@@ -622,8 +598,32 @@
       "pop": 0.6691,
       "rec": 0.8824,
       "combo": 0.7437
+    },
+    {
+      "id": "PocketAiHub/Qwen3.8-27B-Abliterated-MTPLX-Optimized-Speed",
+      "name": "Qwen3.8-27B-Abliterated-MTPLX-Optimized-Speed",
+      "author": "PocketAiHub",
+      "likes": 21,
+      "downloads": 12893,
+      "url": "https://huggingface.co/PocketAiHub/Qwen3.8-27B-Abliterated-MTPLX-Optimized-Speed",
+      "lastModified": "2026-08-22T10:59:01.000Z",
+      "daysAgo": 5,
+      "pipeline": "text-generation",
+      "tags": [
+        "mlx",
+        "safetensors",
+        "qwen3_5",
+        "apple-silicon",
+        "macos",
+        "mtplx",
+        "speculative-decoding",
+        "multi-token-prediction"
+      ],
+      "pop": 0.6703,
+      "rec": 0.8571,
+      "combo": 0.7357
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-08-27T10:35:01Z"
+  "updated": "2026-08-27T11:05:01Z"
 }
