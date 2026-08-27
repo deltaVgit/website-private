@@ -10,6 +10,7 @@ import {
   type CourseLang,
   type CourseModule,
   type CoursePartId,
+  type LocaleString,
   t,
 } from '@/app/data/courses/open-harness';
 import { useCompletedSet } from '@/app/components/course/CourseLearning';
@@ -50,6 +51,7 @@ export function CourseToc({
   compact = false,
   basePath = '/forge/course/my-first-ai-agent/',
   courseId = 'open-harness',
+  labsActive = false,
 }: {
   activeSlug?: string;
   lang: CourseLang;
@@ -63,6 +65,8 @@ export function CourseToc({
    * course's completions against the sandbox's lessons.
    */
   courseId?: CourseProgressId;
+  /** Highlight the Harness Labs row (lab pages are not lesson slugs). */
+  labsActive?: boolean;
 }) {
   const done = useCompletedSet(courseId);
   const pct = Math.round((done.size / OPEN_HARNESS_MODULES.length) * 100);
@@ -128,7 +132,11 @@ export function CourseToc({
             </Link>
           </li>
           <li>
-            <Link href="/forge/course/my-first-ai-agent/labs/" className="course-nav-item">
+            <Link
+              href="/forge/course/my-first-ai-agent/labs/"
+              aria-current={labsActive ? 'page' : undefined}
+              className={`course-nav-item ${labsActive ? 'is-active' : ''}`}
+            >
               <span className="course-nav-num" aria-hidden>
                 ·
               </span>
@@ -145,15 +153,25 @@ export function ModuleNav({
   module,
   lang,
   basePath = '/forge/course/my-first-ai-agent/',
+  catalog = OPEN_HARNESS_MODULES,
+  indexHref,
+  indexLabel,
+  endHref,
+  endLabel,
 }: {
   module: CourseModule;
   lang: CourseLang;
   /** Route prefix — lets the OH2 edition reuse prev/next on its own routes. */
   basePath?: string;
+  catalog?: CourseModule[];
+  indexHref?: string;
+  indexLabel?: LocaleString;
+  endHref?: string;
+  endLabel?: LocaleString;
 }) {
-  const idx = OPEN_HARNESS_MODULES.findIndex((m) => m.slug === module.slug);
-  const prev = idx > 0 ? OPEN_HARNESS_MODULES[idx - 1] : null;
-  const next = idx < OPEN_HARNESS_MODULES.length - 1 ? OPEN_HARNESS_MODULES[idx + 1] : null;
+  const idx = catalog.findIndex((m) => m.slug === module.slug);
+  const prev = idx > 0 ? catalog[idx - 1] : null;
+  const next = idx >= 0 && idx < catalog.length - 1 ? catalog[idx + 1] : null;
   const crossingToPart2 = module.slug === '06' && next?.slug === '07';
   const crossingFromPart1 = module.slug === '07' && prev?.slug === '06';
 
@@ -186,9 +204,11 @@ export function ModuleNav({
             <span className="course-nav-card-title">{t(prev.title, lang)}</span>
           </Link>
         ) : (
-          <Link href={basePath} className="course-nav-card">
+          <Link href={indexHref ?? basePath} className="course-nav-card">
             <span className="course-nav-card-dir">←</span>
-            <span className="course-nav-card-title">{t(UI_COPY.backCourse, lang)}</span>
+            <span className="course-nav-card-title">
+              {indexLabel ? t(indexLabel, lang) : t(UI_COPY.backCourse, lang)}
+            </span>
           </Link>
         )}
         {next ? (
@@ -201,11 +221,18 @@ export function ModuleNav({
           </Link>
         ) : (
           <Link
-            href={lang === 'fr' ? '/fr/contact/?topic=open-harness' : '/contact/?topic=open-harness'}
+            href={
+              endHref ??
+              (lang === 'fr' ? '/fr/contact/?topic=open-harness' : '/contact/?topic=open-harness')
+            }
             className="course-nav-card course-nav-card--next"
           >
-            <span className="course-nav-card-dir">{t(UI_COPY.contactNext, lang)}</span>
-            <span className="course-nav-card-title">{t(UI_COPY.contactDv, lang)}</span>
+            <span className="course-nav-card-dir">
+              {endLabel ? `${t(UI_COPY.next, lang)} →` : t(UI_COPY.contactNext, lang)}
+            </span>
+            <span className="course-nav-card-title">
+              {endLabel ? t(endLabel, lang) : t(UI_COPY.contactDv, lang)}
+            </span>
           </Link>
         )}
       </div>

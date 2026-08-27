@@ -212,6 +212,9 @@ export function HarnessModuleVisual({
   variant?: string;
 }) {
   // Section-level maps — one idea, only where the section asks for it
+  if (variant?.startsWith('lab-')) {
+    return <LabVisual slug={variant.slice(4)} />;
+  }
   if (variant === 'lexicon-loop') {
     return (
       <ArchitectureFlow
@@ -556,6 +559,18 @@ export function LabVisual({ slug }: { slug: string }) {
           { label: 'One card', detail: 'Small scope' },
           { label: 'Profiles', detail: '1–2 agents' },
           { label: 'kanban-notes', detail: 'Artifact' },
+        ]}
+      />
+    ),
+    'bot-mode-roster': (
+      <ArchitectureFlow
+        title="Bot Mode roster"
+        accent="purple"
+        steps={[
+          { label: 'Hire two', detail: 'researcher · writer' },
+          { label: 'Harness', detail: 'soul · model · tools' },
+          { label: '@handoff', detail: 'one job' },
+          { label: 'bot-roster.md', detail: 'Artifact' },
         ]}
       />
     ),
