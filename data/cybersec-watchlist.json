@@ -1,11 +1,27 @@
 [
   {
+    "title": "Carhartt data breach exposes information of 12.9 million accounts",
+    "url": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/",
+    "source": "BleepingComputer",
+    "summary": "The ShinyHunters extortion group has published sensitive data from nearly 13 million accounts stolen from clothing retailer giant Carhartt earlier this month, according to data breach notification service Have I Been Pwn",
+    "added": "2026-08-27T11:10:04+00:00",
+    "expires": "2026-09-10T11:35:16Z"
+  },
+  {
     "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
     "url": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
     "source": "Krebs on Security",
     "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever. In",
     "added": "2026-08-27T11:04:15+00:00",
-    "expires": "2026-09-10T11:05:15Z"
+    "expires": "2026-09-10T11:35:16Z"
+  },
+  {
+    "title": "Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security Tools",
+    "url": "https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html",
+    "source": "The Hacker News",
+    "summary": "Individuals and organizations in Cambodia have emerged as the target of a new campaign that delivers an open-source remote access trojan (RAT) called Spark RAT. \"The samples employ diverse lure themes, suggesting an effo",
+    "added": "2026-08-27T11:00:57+00:00",
+    "expires": "2026-09-10T11:35:17Z"
   },
   {
     "title": "GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address",
@@ -13,7 +29,7 @@
     "source": "The Hacker News",
     "summary": "Threat actors linked by Arctic Wolf to Dark Caracal with medium confidence deployed a previously undocumented Go-based malware framework, GoCaracal, during a June 2026 intrusion at an unnamed communications organization ",
     "added": "2026-08-27T09:33:38+00:00",
-    "expires": "2026-09-10T11:05:15Z"
+    "expires": "2026-09-10T11:35:17Z"
   },
   {
     "title": "CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday",
@@ -21,7 +37,7 @@
     "source": "BleepingComputer",
     "summary": "CISA has ordered U.S. government agencies to patch their Citrix NetScaler appliances against an actively exploited remote code execution vulnerability by Saturday. [...]",
     "added": "2026-08-27T09:16:50+00:00",
-    "expires": "2026-09-10T11:05:15Z"
+    "expires": "2026-09-10T11:35:16Z"
   },
   {
     "title": "ATF confirms “major incident” after recent Qilin breach claims",
@@ -29,7 +45,7 @@
     "source": "BleepingComputer",
     "summary": "ATF, the regulatory agency that enforces federal laws governing firearms and explosives in the United States, has confirmed that one of its systems was compromised after breach claims made by the Qilin ransomware gang. [",
     "added": "2026-08-27T08:13:50+00:00",
-    "expires": "2026-09-10T11:05:15Z"
+    "expires": "2026-09-10T11:35:16Z"
   },
   {
     "title": "New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access",
@@ -37,7 +53,7 @@
     "source": "The Hacker News",
     "summary": "Academic researchers have disclosed a Rowhammer attack impacting NVIDIA workstation GPUs with GDDR6 memory that defeats error correction codes (ECC), the mitigation NVIDIA recommends against GPU Rowhammer, and enables de",
     "added": "2026-08-27T08:13:11+00:00",
-    "expires": "2026-09-10T11:05:15Z"
+    "expires": "2026-09-10T11:35:17Z"
   },
   {
     "title": "CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs",
@@ -45,7 +61,7 @@
     "source": "The Hacker News",
     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added six flaws to its Known Exploited Vulnerabilities (KEV) catalog, including a high-severity security vulnerability impacting Citrix NetSca",
     "added": "2026-08-27T07:05:28+00:00",
-    "expires": "2026-09-10T11:05:15Z"
+    "expires": "2026-09-10T11:35:17Z"
   },
   {
     "title": "Critical Avada WordPress theme flaw enables zero-click RCE",
@@ -53,7 +69,7 @@
     "source": "BleepingComputer",
     "summary": "A critical vulnerability chain in the popular Avada theme for WordPress can be exploited by an unauthenticated attacker to execute arbitrary PHP code on the server. [...]",
     "added": "2026-08-26T21:33:20+00:00",
-    "expires": "2026-09-10T11:05:15Z"
+    "expires": "2026-09-10T11:35:16Z"
   },
   {
     "title": "Dark Caracal Adds New Malware to Cyber Espionage Arsenal",
@@ -61,7 +77,7 @@
     "source": "Dark Reading",
     "summary": "GoCaracal is a new modular malware framework that broadens Dark Caracal's capabilities to steal data and maintain access to victims.",
     "added": "2026-08-26T21:33:06+00:00",
-    "expires": "2026-09-10T11:05:15Z"
+    "expires": "2026-09-10T11:35:17Z"
   },
   {
     "title": "Red Flags That Expose Fake North Korean IT Workers",
@@ -69,7 +85,7 @@
     "source": "Dark Reading",
     "summary": "North Korean operatives posing as IT workers are improving their tactics, but researchers say there are still ways to spot them before they do damage.",
     "added": "2026-08-26T19:21:24+00:00",
-    "expires": "2026-09-10T11:05:15Z"
+    "expires": "2026-09-10T11:35:17Z"
   },
   {
     "title": "New GPUThor attack defeats NVIDIA ECC protection for root access",
@@ -77,7 +93,7 @@
     "source": "BleepingComputer",
     "summary": "A newly disclosed Rowhammer attack called GPUThor can bypass error-correcting code (ECC) protections on NVIDIA GPUs, enabling denial-of-service (DoS) and root-level privilege escalation. [...]",
     "added": "2026-08-26T18:48:24+00:00",
-    "expires": "2026-09-10T11:05:15Z"
+    "expires": "2026-09-10T11:35:16Z"
   },
   {
     "title": "Android Malware Hijacks Update System for Car Head Units",
@@ -85,7 +101,7 @@
     "source": "Dark Reading",
     "summary": "Threat actors behind a notorious click-fraud botnet have set their sights on vehicle infotainment modules and are abusing legitimate functionality to spread infections.",
     "added": "2026-08-26T17:33:45+00:00",
-    "expires": "2026-09-10T11:05:15Z"
+    "expires": "2026-09-10T11:35:17Z"
   },
   {
     "title": "FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations",
@@ -93,23 +109,7 @@
     "source": "The Hacker News",
     "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced the disruption of two hacking platforms named QScan and QTRouter operated by Chinese threat actors to target critical infrastructure and other sensitive network",
     "added": "2026-08-26T16:42:03+00:00",
-    "expires": "2026-09-10T11:05:15Z"
-  },
-  {
-    "title": "Meta agrees to $18 billion settlement over teen social media harms",
-    "url": "https://www.bleepingcomputer.com/news/technology/meta-agrees-to-18-billion-settlement-over-teen-social-media-harms/",
-    "source": "BleepingComputer",
-    "summary": "Meta has reached a proposed settlement worth up to approximately $18 billion with a bipartisan coalition of 52 attorneys generals over allegations that Facebook and Instagram were deliberately designed to encourage compu",
-    "added": "2026-08-26T16:41:05+00:00",
-    "expires": "2026-09-10T11:05:15Z"
-  },
-  {
-    "title": "Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler",
-    "url": "https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html",
-    "source": "The Hacker News",
-    "summary": "Cybersecurity researchers have discovered additional infrastructure and previously undocumented malware associated with Nimbus Manticore, an Iranian state-sponsored hacking group affiliated with the Islamic Revolutionary",
-    "added": "2026-08-26T15:35:05+00:00",
-    "expires": "2026-09-10T11:05:15Z"
+    "expires": "2026-09-10T11:35:17Z"
   },
   {
     "title": "CISA Vulnerability Review",
@@ -117,7 +117,7 @@
     "source": "CISA Advisories",
     "summary": "Most compromises do not rely on advanced techniques or cutting-edge tools. Cyber threat actors scan the internet looking for exposed, well-known software vulnerabilities to exploit. Basic security failures enable most co",
     "added": "2026-08-26T12:00:00+00:00",
-    "expires": "2026-09-10T11:05:16Z"
+    "expires": "2026-09-10T11:35:17Z"
   },
   {
     "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
@@ -125,6 +125,6 @@
     "source": "CISA Advisories",
     "summary": "CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2015-3246 Red Hat Libuser Race Condition Vulnerability CVE-2015-5287 Red Hat Aut",
     "added": "2026-08-26T12:00:00+00:00",
-    "expires": "2026-09-10T11:05:16Z"
+    "expires": "2026-09-10T11:35:17Z"
   }
 ]
