@@ -5,7 +5,7 @@
         "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Uncensored-GGUF",
         "author": "JonathanColetti",
-        "likes": 779,
+        "likes": 780,
         "downloads": 1666948,
         "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "lastModified": "2026-08-26T00:38:44.000Z",
@@ -68,30 +68,6 @@
         ]
       },
       {
-        "id": "mradermacher/Qwen3-VL-8B-Instruct-abliterated-GGUF",
-        "name": "Qwen3-VL-8B-Instruct-abliterated-GGUF",
-        "author": "mradermacher",
-        "likes": 10,
-        "downloads": 633334,
-        "url": "https://huggingface.co/mradermacher/Qwen3-VL-8B-Instruct-abliterated-GGUF",
-        "lastModified": "2025-11-15T11:01:32.000Z",
-        "daysAgo": 285,
-        "pipeline": "",
-        "tags": [
-          "transformers",
-          "gguf",
-          "text-generation-inference",
-          "abliterated",
-          "v1.0",
-          "en",
-          "base_model:prithivMLmods/Qwen3-VL-8B-Instruct-abliterated-v1",
-          "base_model:quantized:prithivMLmods/Qwen3-VL-8B-Instruct-abliterated-v1"
-        ],
-        "pop": 0.9461,
-        "rec": 0.0952,
-        "combo": 0.6483
-      },
-      {
         "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
         "name": "Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
         "author": "huihui-ai",
@@ -114,6 +90,27 @@
         "pop": 0.9268,
         "rec": 0.5556,
         "combo": 0.7969
+      },
+      {
+        "id": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
+        "name": "supergemma4-26b-uncensored-gguf-v2",
+        "author": "Jiunsong",
+        "likes": 979,
+        "downloads": 288089,
+        "url": "https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2",
+        "lastModified": "2026-04-12T13:42:43.000Z",
+        "daysAgo": 137,
+        "pipeline": "text-generation",
+        "tags": [
+          "gguf",
+          "gemma4",
+          "uncensored",
+          "fast",
+          "llama.cpp",
+          "apple-silicon",
+          "conversational",
+          "korean"
+        ]
       }
     ],
     "image_video": [
@@ -121,7 +118,7 @@
         "id": "ChrisColeTech/LTX-2.3-uncensored-v1.4-FP8",
         "name": "LTX-2.3-uncensored-v1.4-FP8",
         "author": "ChrisColeTech",
-        "likes": 71,
+        "likes": 72,
         "downloads": 44302,
         "url": "https://huggingface.co/ChrisColeTech/LTX-2.3-uncensored-v1.4-FP8",
         "lastModified": "2026-08-23T15:13:33.000Z",
@@ -202,24 +199,24 @@
         ]
       },
       {
-        "id": "Cordux/flux2-klein-4B-uncensored-text-encoder",
-        "name": "flux2-klein-4B-uncensored-text-encoder",
-        "author": "Cordux",
-        "likes": 114,
-        "downloads": 2298,
-        "url": "https://huggingface.co/Cordux/flux2-klein-4B-uncensored-text-encoder",
-        "lastModified": "2026-01-27T22:00:36.000Z",
-        "daysAgo": 211,
+        "id": "DeepNeuralNerd/Gemma-4-12B-it-uncensored-heretic-DeepNeuralNerd-LTX_2.5_ComfyUI",
+        "name": "Gemma-4-12B-it-uncensored-heretic-DeepNeuralNerd-LTX_2.5_ComfyUI",
+        "author": "DeepNeuralNerd",
+        "likes": 25,
+        "downloads": 0,
+        "url": "https://huggingface.co/DeepNeuralNerd/Gemma-4-12B-it-uncensored-heretic-DeepNeuralNerd-LTX_2.5_ComfyUI",
+        "lastModified": "2026-08-12T17:10:46.000Z",
+        "daysAgo": 15,
         "pipeline": "",
         "tags": [
-          "gguf",
-          "qwen3",
-          "abliterated",
-          "uncensored",
-          "text-generation-inference",
-          "flux2",
-          "klein",
-          "base_model:huihui-ai/Qwen3-4B-abliterated"
+          "transformers",
+          "gemma4_unified",
+          "gemma-4",
+          "ltx-2.5",
+          "comfyui",
+          "text-encoder",
+          "safetensors",
+          "bf16"
         ]
       }
     ],
@@ -625,5 +622,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-08-27T21:34:35Z"
+  "updated": "2026-08-27T22:04:36Z"
 }
