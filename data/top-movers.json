@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T11:15:53Z",
+  "updated_at": "2026-08-27T11:30:54Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "SPX",
-        "name": "SPX6900",
-        "price": 0.612677,
-        "change_24h": 14.78,
-        "asset": "crypto"
-      },
-      {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 256.54,
-        "change_24h": 9.04,
+        "price": 255.88,
+        "change_24h": 9.02,
         "asset": "crypto"
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price": 104.36,
-        "change_24h": 7.05,
+        "price": 104.25,
+        "change_24h": 7.11,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 18.2,
-        "change_24h": 5.57,
+        "price": 18.15,
+        "change_24h": 5.96,
         "asset": "crypto"
       },
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.149628,
-        "change_24h": 4.26,
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.69,
+        "change_24h": 5.29,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 4.45,
+        "change_24h": 4.01,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.107291,
-        "change_24h": -9.38,
+        "price": 0.107021,
+        "change_24h": -9.39,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
-        "price": 1.52,
-        "change_24h": -2.69,
+        "price": 1.51,
+        "change_24h": -2.89,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.090985,
-        "change_24h": -2.13,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.13,
-        "change_24h": -1.53,
+        "price": 0.09047,
+        "change_24h": -2.48,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.115969,
-        "change_24h": -1.36,
+        "price": 0.115334,
+        "change_24h": -1.91,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.12,
+        "change_24h": -1.69,
         "asset": "crypto"
       }
     ]
