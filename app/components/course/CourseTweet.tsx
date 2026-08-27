@@ -1,50 +1,73 @@
-'use client';
+import { withBasePath } from '@/lib/site';
 
 /**
- * A post from X, embedded rather than re-hosted.
+ * A cited post from X, shown as a local still — never a live iframe.
  *
- * Uses X's official iframe endpoint (platform.twitter.com/embed/Tweet.html),
- * not their widget script: the media stays served by X, the author keeps the
- * attribution and the click, and we add no third-party JavaScript to the page.
- * Requires `frame-src https://platform.twitter.com` in _headers — see the note
- * there. `loading="lazy"` keeps it off the wire until the reader scrolls to it.
+ * X's embed endpoint blanks out under our CSP (no widgets.js), in privacy
+ * browsers, and whenever X rate-limits anonymous frames. A still we host is
+ * the receipt; the original URL is the citation. Do not re-host the video:
+ * if the post is a video, the still is a poster and the click goes to X.
  */
 export function CourseTweet({
-  id,
   author,
   href,
   caption,
-  height = 560,
+  poster,
+  posterWidth,
+  posterHeight,
+  hasVideo = false,
 }: {
-  id: string;
   author: string;
   href: string;
   caption?: React.ReactNode;
-  /**
-   * Frame height in px. Paired with `scrolling="no"`: sized to show the post
-   * and its media, and to stop short of the like/reply bar, which we cannot
-   * style (cross-origin) and do not want mid-lesson. Tune per post — too short
-   * clips the video, which is worse than showing the bar.
-   */
-  height?: number;
+  /** Site-root path under `public/` (e.g. `/courses/open-harness/citations/id.jpg`). */
+  poster?: string;
+  posterWidth?: number;
+  posterHeight?: number;
+  hasVideo?: boolean;
 }) {
+  const src = poster ? withBasePath(poster) : undefined;
+
   return (
     <figure className="course-tweet">
-      <iframe
-        src={`https://platform.twitter.com/embed/Tweet.html?id=${id}&theme=dark&dnt=true&conversation=none`}
-        title={`Post by ${author} on X`}
-        loading="lazy"
-        scrolling="no"
-        allow="encrypted-media"
-        referrerPolicy="strict-origin-when-cross-origin"
-        className="course-tweet-frame"
-        style={{ height }}
-      />
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="course-tweet-card"
+      >
+        {src ? (
+          <span className="course-tweet-still">
+            <img
+              src={src}
+              alt=""
+              width={posterWidth}
+              height={posterHeight}
+              loading="lazy"
+              decoding="async"
+            />
+            {hasVideo ? (
+              <span className="course-tweet-play" aria-hidden>
+                ▶
+              </span>
+            ) : null}
+          </span>
+        ) : (
+          <span className="course-tweet-body">
+            <span className="course-tweet-author">{author}</span>
+            {caption ? <span className="course-tweet-excerpt">{caption}</span> : null}
+          </span>
+        )}
+        <span className="course-tweet-open">
+          Open on X <span aria-hidden>↗</span>
+        </span>
+      </a>
       <figcaption className="course-tweet-cite">
-        {caption ? <span>{caption} </span> : null}
+        {caption && src ? <span>{caption} </span> : null}
         <a href={href} target="_blank" rel="noopener noreferrer">
           {author} on X <span aria-hidden>↗</span>
         </a>
+        <span> — local still; original stays on X.</span>
       </figcaption>
     </figure>
   );

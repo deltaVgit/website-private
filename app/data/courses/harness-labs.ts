@@ -41,11 +41,19 @@ export type HarnessLab = {
     calloutVariant?: 'note' | 'warning' | 'quote';
     links?: { label: string; href: string }[];
     /**
-     * A cited post from X, embedded from X's own iframe endpoint — never
-     * re-hosted. `height` is tuned per post so the frame ends on the timestamp
-     * rather than the like/reply bar; see CourseTweet.
+     * A cited post from X. Local still (`poster`) plus a link — never a live
+     * iframe. See CourseTweet.
      */
-    tweet?: { id: string; author: string; href: string; caption?: string; height?: number };
+    tweet?: {
+      id: string;
+      author: string;
+      href: string;
+      caption?: string;
+      poster?: string;
+      posterWidth?: number;
+      posterHeight?: number;
+      hasVideo?: boolean;
+    };
   }[];
 };
 
@@ -250,10 +258,11 @@ Still works: yes/no
           id: '2083421808385307115',
           author: '@tonbistudio',
           href: 'https://x.com/tonbistudio/status/2083421808385307115',
-          caption: 'The Kanban board in use.',
-          // Tall on purpose: this is a quote-post, so the frame holds two
-          // stacked cards and the quoted Nous announcement video.
-          height: 1324,
+          caption: 'The Kanban board in use. Video plays on X.',
+          poster: '/courses/open-harness/citations/2083421808385307115.jpg',
+          posterWidth: 1200,
+          posterHeight: 675,
+          hasVideo: true,
         },
         links: [
           { label: 'Harness 12 — Own it forever', href: '/forge/course/my-first-ai-agent/12/' },
@@ -350,7 +359,10 @@ function labToModule(lab: HarnessLab): CourseModule {
                 author: section.tweet.author,
                 href: section.tweet.href,
                 caption: section.tweet.caption ? L(section.tweet.caption) : undefined,
-                height: section.tweet.height,
+                poster: section.tweet.poster,
+                posterWidth: section.tweet.posterWidth,
+                posterHeight: section.tweet.posterHeight,
+                hasVideo: section.tweet.hasVideo,
               },
             ]
           : []),
@@ -434,8 +446,11 @@ export const BOT_MODE_MODULE: CourseModule = {
           id: '2089471953472020757',
           author: '@witcheer',
           href: 'https://x.com/witcheer/status/2089471953472020757',
-          caption: L('Bot Mode docs: create, harness, avatars, routines, group chats, @mentions.'),
-          height: 1080,
+          caption: L('Bot Mode docs: create, harness, avatars, routines, group chats, @mentions. Video plays on X.'),
+          poster: '/courses/open-harness/citations/2089471953472020757.jpg',
+          posterWidth: 1199,
+          posterHeight: 674,
+          hasVideo: true,
         },
         {
           k: 'links',
@@ -548,7 +563,9 @@ export const BOT_MODE_MODULE: CourseModule = {
           author: '@shannholmberg',
           href: 'https://x.com/shannholmberg/status/2090179914461016276',
           caption: L('One Bot per vertical, each with its own harness — start with two, not seven.'),
-          height: 1360,
+          poster: '/courses/open-harness/citations/2090179914461016276.jpg',
+          posterWidth: 1380,
+          posterHeight: 1180,
         },
         {
           k: 'callout',
@@ -647,8 +664,11 @@ export const BOT_MODE_MODULE: CourseModule = {
           id: '2089583590028009610',
           author: '@tonbistudio',
           href: 'https://x.com/tonbistudio/status/2089583590028009610',
-          caption: L('Bot HR: specify the next specialist from the project’s needs. You still hire.'),
-          height: 1180,
+          caption: L('Bot HR: specify the next specialist from the project’s needs. You still hire. Video plays on X.'),
+          poster: '/courses/open-harness/citations/2089583590028009610.jpg',
+          posterWidth: 1200,
+          posterHeight: 675,
+          hasVideo: true,
         },
         {
           k: 'steps',
