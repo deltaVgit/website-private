@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T22:15:28Z",
+  "updated_at": "2026-08-27T22:30:28Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "VET",
-        "name": "VeChain",
-        "price": 0.007136,
-        "change_24h": 14.47,
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.242397,
+        "change_24h": 12.16,
         "asset": "crypto"
       },
       {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.242581,
-        "change_24h": 13.59,
+        "symbol": "VET",
+        "name": "VeChain",
+        "price": 0.007136,
+        "change_24h": 11.65,
         "asset": "crypto"
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
-        "price": 2.56,
-        "change_24h": 12.5,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 3.77,
-        "change_24h": 11.2,
+        "price": 2.55,
+        "change_24h": 11.55,
         "asset": "crypto"
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price": 109.64,
-        "change_24h": 10.9,
+        "price": 109.14,
+        "change_24h": 9.19,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "price": 253.03,
+        "change_24h": 8.96,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.398828,
-        "change_24h": -4.64,
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.111856,
+        "change_24h": -4.71,
         "asset": "crypto"
       },
       {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.112071,
-        "change_24h": -3.98,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.398301,
+        "change_24h": -4.66,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.096797,
-        "change_24h": -3.77,
+        "price": 0.096778,
+        "change_24h": -3.79,
         "asset": "crypto"
       },
       {
-        "symbol": "NEXO",
-        "name": "NEXO",
-        "price": 0.859025,
-        "change_24h": -1.96,
+        "symbol": "ASTER",
+        "name": "Aster",
+        "price": 0.70798,
+        "change_24h": -2.19,
         "asset": "crypto"
       },
       {
         "symbol": "HTX",
         "name": "HTX DAO",
         "price": 2e-06,
-        "change_24h": -1.72,
+        "change_24h": -1.67,
         "asset": "crypto"
       }
     ]
