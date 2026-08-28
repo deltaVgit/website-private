@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-28T10:39:33Z",
-  "source": "Yahoo Finance screener + Binance 24hr ticker (fallback)",
+  "updated_at": "2026-08-28T10:45:52Z",
+  "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "HEMI",
-        "name": "HEMI",
-        "price": 0.01121,
-        "change_24h": 39.78,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.167348,
+        "change_24h": 11.11,
         "asset": "crypto"
       },
       {
-        "symbol": "MANTRA",
-        "name": "MANTRA",
-        "price": 0.00521,
-        "change_24h": 26.15,
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.029226,
+        "change_24h": 4.79,
         "asset": "crypto"
       },
       {
-        "symbol": "EDEN",
-        "name": "EDEN",
-        "price": 0.07121,
-        "change_24h": 19.3,
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.233268,
+        "change_24h": 4.76,
         "asset": "crypto"
       },
       {
-        "symbol": "TRUMP",
-        "name": "TRUMP",
-        "price": 2.712,
-        "change_24h": 17.15,
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 470.13,
+        "change_24h": 4.19,
         "asset": "crypto"
       },
       {
-        "symbol": "PROM",
-        "name": "PROM",
-        "price": 5.341,
-        "change_24h": 15.66,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.417652,
+        "change_24h": 4.05,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "TUT",
-        "name": "TUT",
-        "price": 0.04551,
-        "change_24h": -15.08,
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 17.13,
+        "change_24h": -5.76,
         "asset": "crypto"
       },
       {
-        "symbol": "SNXXB",
-        "name": "SNXXB",
-        "price": 12.27,
-        "change_24h": -13.89,
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price": 4e-06,
+        "change_24h": -3.73,
         "asset": "crypto"
       },
       {
-        "symbol": "BEAMX",
-        "name": "BEAMX",
-        "price": 0.00167,
-        "change_24h": -13.87,
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "price": 243.9,
+        "change_24h": -3.58,
         "asset": "crypto"
       },
       {
-        "symbol": "BICO",
-        "name": "BICO",
-        "price": 0.02471,
-        "change_24h": -13.05,
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.088,
+        "change_24h": -3.19,
         "asset": "crypto"
       },
       {
-        "symbol": "JTO",
-        "name": "JTO",
-        "price": 0.4778,
-        "change_24h": -7.55,
+        "symbol": "RENDER",
+        "name": "Render",
+        "price": 1.49,
+        "change_24h": -3.19,
         "asset": "crypto"
       }
     ]
