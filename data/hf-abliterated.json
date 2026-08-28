@@ -202,24 +202,24 @@
         ]
       },
       {
-        "id": "DeepNeuralNerd/Gemma-4-12B-it-uncensored-heretic-DeepNeuralNerd-LTX_2.5_ComfyUI",
-        "name": "Gemma-4-12B-it-uncensored-heretic-DeepNeuralNerd-LTX_2.5_ComfyUI",
-        "author": "DeepNeuralNerd",
-        "likes": 25,
-        "downloads": 0,
-        "url": "https://huggingface.co/DeepNeuralNerd/Gemma-4-12B-it-uncensored-heretic-DeepNeuralNerd-LTX_2.5_ComfyUI",
-        "lastModified": "2026-08-12T17:10:46.000Z",
-        "daysAgo": 15,
+        "id": "Cordux/flux2-klein-4B-uncensored-text-encoder",
+        "name": "flux2-klein-4B-uncensored-text-encoder",
+        "author": "Cordux",
+        "likes": 114,
+        "downloads": 2298,
+        "url": "https://huggingface.co/Cordux/flux2-klein-4B-uncensored-text-encoder",
+        "lastModified": "2026-01-27T22:00:36.000Z",
+        "daysAgo": 212,
         "pipeline": "",
         "tags": [
-          "transformers",
-          "gemma4_unified",
-          "gemma-4",
-          "ltx-2.5",
-          "comfyui",
-          "text-encoder",
-          "safetensors",
-          "bf16"
+          "gguf",
+          "qwen3",
+          "abliterated",
+          "uncensored",
+          "text-generation-inference",
+          "flux2",
+          "klein",
+          "base_model:huihui-ai/Qwen3-4B-abliterated"
         ]
       }
     ],
@@ -295,7 +295,7 @@
         "downloads": 1355482,
         "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "lastModified": "2026-08-27T06:05:52.000Z",
-        "daysAgo": 0,
+        "daysAgo": 1,
         "pipeline": "image-text-to-text",
         "tags": [
           "transformers",
@@ -308,8 +308,8 @@
           "image-text-to-text"
         ],
         "pop": 1.0,
-        "rec": 1.0,
-        "combo": 1.0
+        "rec": 0.9677,
+        "combo": 0.9887
       },
       {
         "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V10-GGUF",
@@ -343,7 +343,7 @@
       "downloads": 1355482,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "lastModified": "2026-08-27T06:05:52.000Z",
-      "daysAgo": 0,
+      "daysAgo": 1,
       "pipeline": "image-text-to-text",
       "tags": [
         "transformers",
@@ -356,8 +356,8 @@
         "image-text-to-text"
       ],
       "pop": 1.0,
-      "rec": 1.0,
-      "combo": 1.0
+      "rec": 0.9677,
+      "combo": 0.9887
     },
     {
       "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
@@ -625,5 +625,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-08-28T06:04:48Z"
+  "updated": "2026-08-28T06:34:51Z"
 }
