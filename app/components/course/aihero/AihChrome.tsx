@@ -74,12 +74,12 @@ function AihChromeInner({
               <span aria-hidden>/</span>
               {labs.number ? (
                 <>
-                  <Link href={labsHref}>Labs</Link>
+                  <Link href={labsHref}>{t(UI_COPY.labs, lang)}</Link>
                   <span aria-hidden>/</span>
                   <span className="course-crumbs-here">{labs.number}</span>
                 </>
               ) : (
-                <span className="course-crumbs-here">Labs</span>
+                <span className="course-crumbs-here">{t(UI_COPY.labs, lang)}</span>
               )}
             </>
           ) : activeSlug ? (

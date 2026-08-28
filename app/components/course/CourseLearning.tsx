@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useCallback, useEffect, useState } from 'react';
 import {
   clearCompleted,
@@ -16,22 +17,23 @@ import {
   type CourseProgressId,
 } from '@/lib/course-progress';
 import { formatCourseText } from '@/app/components/course/formatCourseText';
-import type { CourseLang } from '@/app/data/courses/open-harness';
+import { UI_COPY, t, type CourseLang } from '@/app/data/courses/open-harness';
+import { localeFromPath } from '@/lib/i18n';
 
 /* ─── Privacy (local-only) ─────────────────────────────── */
 
 export function CoursePrivacyNote({ className = '' }: { className?: string }) {
+  const lang = localeFromPath(usePathname() ?? '');
   return (
     <p
       className={`course-t-meta leading-relaxed text-[var(--text-tertiary)] max-w-xl ${className}`}
       role="note"
     >
       <span className="font-mono course-t-meta uppercase tracking-[1.5px] text-[var(--text-muted)]">
-        Privacy
+        {t(UI_COPY.privacy, lang)}
       </span>
       <br />
-      Progress and checklists stay in this browser only (localStorage). No account, no sync, no
-      analytics from this feature. Clear site data or use the reset control to wipe.
+      {t(UI_COPY.privacyBody, lang)}
     </p>
   );
 }

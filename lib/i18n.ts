@@ -35,11 +35,8 @@ export function canonPath(path: string): string {
 export function isTranslated(path: string): boolean {
   const clean = canonPath(path);
   if ((TRANSLATED as readonly string[]).includes(clean)) return true;
-  // Lessons + glossary, not Harness Labs (still English).
-  if (
-    clean.startsWith('/forge/course/my-first-ai-agent/') &&
-    !clean.includes('/labs/')
-  ) {
+  // My First AI Agent: lessons, glossary, and Harness Labs.
+  if (clean.startsWith('/forge/course/my-first-ai-agent/')) {
     return true;
   }
   return false;

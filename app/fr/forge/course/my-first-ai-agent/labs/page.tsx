@@ -5,25 +5,25 @@ import { HARNESS_LABS_META } from '@/app/data/courses/harness-labs';
 import { SITE_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'My First AI Agent — Harness Labs | Delta V',
-  description: HARNESS_LABS_META.description.en,
+  title: 'Mon premier agent IA — Harness Labs | Delta V',
+  description: HARNESS_LABS_META.description.fr,
   alternates: {
-    canonical: `${SITE_URL}/forge/course/my-first-ai-agent/labs/`,
+    canonical: `${SITE_URL}/fr/forge/course/my-first-ai-agent/labs/`,
     languages: {
       en: `${SITE_URL}/forge/course/my-first-ai-agent/labs/`,
       fr: `${SITE_URL}/fr/forge/course/my-first-ai-agent/labs/`,
     },
   },
   openGraph: {
-    title: HARNESS_LABS_META.title.en,
-    description: HARNESS_LABS_META.tagline.en,
-    url: `${SITE_URL}/forge/course/my-first-ai-agent/labs/`,
+    title: HARNESS_LABS_META.title.fr,
+    description: HARNESS_LABS_META.tagline.fr,
+    url: `${SITE_URL}/fr/forge/course/my-first-ai-agent/labs/`,
     siteName: 'Delta V',
     type: 'website',
   },
 };
 
-export default function HarnessLabsIndexPage() {
+export default function HarnessLabsIndexPageFr() {
   return (
     <AihChrome labs={{}}>
       <LabsLanding />

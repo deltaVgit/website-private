@@ -407,9 +407,16 @@ export const UI_COPY = {
     fr: 'Voir la définition complète dans le glossaire',
   },
   minReadLong: { en: 'min read', fr: 'min de lecture' },
+  labs: { en: 'Labs', fr: 'Labs' },
+  harnessLabs: { en: 'Harness Labs', fr: 'Harness Labs' },
+  privacy: { en: 'Privacy', fr: 'Confidentialité' },
+  privacyBody: {
+    en: 'Progress and checklists stay in this browser only (localStorage). No account, no sync, no analytics from this feature. Clear site data or use the reset control to wipe.',
+    fr: 'La progression et les checklists restent dans ce navigateur (localStorage). Pas de compte, pas de synchro, pas d’analytics pour cette fonction. Effacez les données du site ou utilisez le bouton de réinitialisation.',
+  },
 } as const;
 
-/** Localized course URL prefix (lessons + glossary). Labs stay on the English path. */
+/** Localized course URL prefix (lessons, glossary, labs). */
 export function courseBase(lang: CourseLang): string {
   return lang === 'fr'
     ? '/fr/forge/course/my-first-ai-agent/'

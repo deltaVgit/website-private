@@ -91,10 +91,10 @@ export function AihLanding() {
         </p>
         <ol className="mt-5">
           <li>
-            <Link href="/forge/course/my-first-ai-agent/labs/" className="aih-toc-row">
+            <Link href={`${base}labs/`} className="aih-toc-row">
               <span className="aih-toc-num">＋</span>
               <span className="aih-toc-title">
-                Harness Labs
+                {t(UI_COPY.harnessLabs, lang)}
                 <span className="aih-toc-sub">
                   {HARNESS_LABS.length} {t(UI_COPY.labsSub, lang)}
                 </span>

@@ -5,15 +5,31 @@
  *
  * Listing cards stay on `HarnessLab`. Lesson bodies are `CourseModule`s so
  * they wear the same spine chrome as My First AI Agent.
+ *
+ * English is the source of truth in this file. French lives in
+ * `harness-labs.fr.json` and is looked up by exact EN string, same pattern
+ * as `open-harness.ts`. Artifact templates (`# failure-log.md`, etc.) stay
+ * English on purpose — they are files the operator writes, not UI copy.
  */
 import type {
+  CourseLang,
   CourseModule,
   CourseSection,
   CourseStep,
   LocaleString,
 } from '@/app/data/courses/open-harness';
+import labsFr from './harness-labs.fr.json';
 
-const L = (en: string): LocaleString => ({ en, fr: en });
+/** EN is source of truth; `fr` falls back to the JSON table, then to EN. */
+const FR_TABLE = labsFr as Record<string, string>;
+const L = (en: string, fr?: string): LocaleString => ({
+  en,
+  fr: fr ?? FR_TABLE[en] ?? en,
+});
+
+export function labsT(en: string, lang: CourseLang): string {
+  return lang === 'fr' ? (FR_TABLE[en] ?? en) : en;
+}
 
 export type HarnessLab = {
   id: string;
@@ -58,12 +74,37 @@ export type HarnessLab = {
 };
 
 export const HARNESS_LABS_META = {
-  title: 'Harness Labs',
-  tagline: 'Drills after mastery — not a second install course.',
-  description:
+  title: L('Harness Labs'),
+  tagline: L('Drills after mastery — not a second install course.'),
+  description: L(
     'Five optional drills after My First AI Agent Part I: rotate a key, break the harness on purpose, measure the empty-session budget, try the Kanban plugin, and run a Bot Mode roster. Not a second install course.',
+  ),
   href: '/forge/course/my-first-ai-agent/labs/',
   courseHref: '/forge/course/my-first-ai-agent/',
+};
+
+/** Index-page chrome (kicker, assumes box, level chips). Bodies use `L()` via labToModule. */
+export const LABS_INDEX_COPY = {
+  kicker: L('After mastery · not a second course'),
+  assumesLabel: L('Assumes'),
+  assumesBody: L(
+    'Hermes is already installed and chatting (My First AI Agent Part I). Course default is **Hermes Desktop** from mastery 03 — profile + SOUL exist; several drills open the Desktop cockpit. Labs do not re-teach install, BotFather from zero, or vault setup. CLI-only is fine if you can map the same proofs. If anything is missing, open the mastery modules first.',
+  ),
+  courseCta: L('My First AI Agent course →'),
+  startMastery: L('Start mastery Part I'),
+  glance: L('Mastery vs labs'),
+  glanceBlurb: L('Pedagogy lives in My First AI Agent. Labs only drill and produce artifacts.'),
+  requires: L('Requires'),
+  afterPartI: L('After Part I'),
+  afterPartII: L('After Part II'),
+  advanced: L('Advanced'),
+  threeLayers: L('Three layers'),
+  masteryLayer: L('Mastery'),
+  masteryDetail: L('Teach · proofs · install first'),
+  labsLayer: L('Labs'),
+  labsDetail: L('Drills · artifacts after Part I'),
+  skillsLayer: L('Skills'),
+  skillsDetail: L('Curated packages · enable few'),
 };
 
 export const HARNESS_LABS: HarnessLab[] = [
@@ -340,7 +381,7 @@ function labToModule(lab: HarnessLab): CourseModule {
       blocks: [
         ...(i === 0 ? ([{ k: 'figure' as const, variant: `lab-${lab.slug}` }] as const) : []),
         ...(section.paragraphs ?? []).map((text) => ({ k: 'p' as const, text: L(text) })),
-        ...(section.bullets ? [{ k: 'list' as const, items: section.bullets.map(L) }] : []),
+        ...(section.bullets ? [{ k: 'list' as const, items: section.bullets.map((item) => L(item)) }] : []),
         ...(steps ? [{ k: 'steps' as const, id: `${lab.slug}-${i}-steps`, items: steps }] : []),
         ...(section.callout
           ? [
