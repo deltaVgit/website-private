@@ -5,7 +5,7 @@
         "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Uncensored-GGUF",
         "author": "JonathanColetti",
-        "likes": 787,
+        "likes": 788,
         "downloads": 1666948,
         "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "lastModified": "2026-08-26T00:38:44.000Z",
@@ -68,30 +68,6 @@
         ]
       },
       {
-        "id": "wangzhang/gemma-4-31B-it-abliterated",
-        "name": "gemma-4-31B-it-abliterated",
-        "author": "wangzhang",
-        "likes": 29,
-        "downloads": 705304,
-        "url": "https://huggingface.co/wangzhang/gemma-4-31B-it-abliterated",
-        "lastModified": "2026-04-29T05:05:48.000Z",
-        "daysAgo": 121,
-        "pipeline": "",
-        "tags": [
-          "safetensors",
-          "gemma4",
-          "abliterated",
-          "uncensored",
-          "direct-weight-editing",
-          "abliterix",
-          "vllm",
-          "llm-judge"
-        ],
-        "pop": 0.9537,
-        "rec": 0.1987,
-        "combo": 0.6895
-      },
-      {
         "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
         "name": "Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
         "author": "huihui-ai",
@@ -114,6 +90,27 @@
         "pop": 0.9268,
         "rec": 0.5556,
         "combo": 0.7969
+      },
+      {
+        "id": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
+        "name": "supergemma4-26b-uncensored-gguf-v2",
+        "author": "Jiunsong",
+        "likes": 981,
+        "downloads": 286756,
+        "url": "https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2",
+        "lastModified": "2026-04-12T13:42:43.000Z",
+        "daysAgo": 137,
+        "pipeline": "text-generation",
+        "tags": [
+          "gguf",
+          "gemma4",
+          "uncensored",
+          "fast",
+          "llama.cpp",
+          "apple-silicon",
+          "conversational",
+          "korean"
+        ]
       }
     ],
     "image_video": [
@@ -625,5 +622,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-08-28T09:34:56Z"
+  "updated": "2026-08-28T10:04:57Z"
 }
