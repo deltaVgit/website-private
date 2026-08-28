@@ -25,26 +25,37 @@ type VolRange = keyof typeof VOL_RANGE_DAYS;
 
 /* Reusable daily-bar market chart card — owns its range toggle + hover.
    Used for both total volume (yellow) and total market cap (purple). */
+function sliceRange(series: ChartPoint[], range: VolRange): ChartPoint[] {
+  if (!series.length) return [];
+  const lastT = typeof series[series.length - 1].t === 'number'
+    ? (series[series.length - 1].t as number)
+    : Date.parse(String(series[series.length - 1].t));
+  const cutoff = lastT - VOL_RANGE_DAYS[range] * 86400000;
+  return series.filter((q) =>
+    (typeof q.t === 'number' ? q.t : Date.parse(String(q.t))) >= cutoff
+  );
+}
+
+/* Single daily-bar card: volume bars + optional market-cap curve overlay
+   (dual axis: left = bars, right = curve). Owns its range toggle + hover. */
 function DailyBarsCard({
-  title, chip, pts, accent, sourceNote,
+  title, chip, pts, accent, sourceNote, overlayPts, overlayAccent, overlayLabel,
 }: {
   title: string;
   chip: React.ReactNode;
   pts: ChartPoint[];
   accent: string;
   sourceNote: string;
+  overlayPts?: ChartPoint[];
+  overlayAccent?: string;
+  overlayLabel?: string;
 }) {
   const [range, setRange] = useState<VolRange>('1Y');
-  const windowed = useMemo(() => {
-    if (!pts.length) return [];
-    const lastT = typeof pts[pts.length - 1].t === 'number'
-      ? (pts[pts.length - 1].t as number)
-      : Date.parse(String(pts[pts.length - 1].t));
-    const cutoff = lastT - VOL_RANGE_DAYS[range] * 86400000;
-    return pts.filter((q) =>
-      (typeof q.t === 'number' ? q.t : Date.parse(String(q.t))) >= cutoff
-    );
-  }, [pts, range]);
+  const windowed = useMemo(() => sliceRange(pts, range), [pts, range]);
+  const overlayWindow = useMemo(
+    () => (overlayPts && overlayPts.length ? sliceRange(overlayPts, range) : []),
+    [overlayPts, range],
+  );
   const hover = useChartHover(windowed);
   const [hoverW, setHoverW] = useState(400);
   const handleMove = (e: React.MouseEvent) => {
@@ -55,9 +66,16 @@ function DailyBarsCard({
   const max = Math.max(...windowed.map((d) => d.v));
   const min = Math.min(...windowed.map((d) => d.v));
   const rng = max - min || 1;
+  const ovMax = overlayWindow.length ? Math.max(...overlayWindow.map((d) => d.v)) : 0;
+  const ovMin = overlayWindow.length ? Math.min(...overlayWindow.map((d) => d.v)) : 0;
+  const ovRng = ovMax - ovMin || 1;
   const fracs = [1, 0.75, 0.5, 0.25, 0];
   const HEIGHT = 104;
   const Y = (v: number) => 4 + (1 - (v - min) / rng) * (HEIGHT - 8);
+  const Yov = (v: number) => 4 + (1 - (v - ovMin) / ovRng) * (HEIGHT - 8);
+  const ovLine = overlayWindow.length
+    ? overlayWindow.map((d, i) => `${i},${Yov(d.v)}`).join(' ')
+    : null;
   return (
     <div className="mt-4 pt-4 border-t border-[var(--border-default)]">
       <div className="flex items-start justify-between gap-2 mb-2">
@@ -68,7 +86,13 @@ function DailyBarsCard({
               <span className="text-[var(--text-secondary)] font-medium normal-case tracking-normal ml-2">{chip}</span>
             )}
           </div>
-          <div className="text-[10px] text-[var(--text-muted)] mt-0.5">{windowed.length} pts · {sourceNote}</div>
+          <div className="text-[10px] text-[var(--text-muted)] mt-0.5">
+            {windowed.length} pts · {sourceNote}
+            <span className="ml-2 inline-flex items-center gap-1"><span className="w-2 h-2 inline-block rounded-[2px]" style={{ background: accent }} />vol</span>
+            {overlayWindow.length > 0 && overlayAccent && (
+              <span className="ml-2 inline-flex items-center gap-1"><span className="w-3 inline-block border-t-2" style={{ borderColor: overlayAccent }} />{overlayLabel ?? 'cap'}</span>
+            )}
+          </div>
         </div>
         <div className="flex gap-0.5 bg-[var(--bg-deep)] rounded-lg p-0.5 border border-[var(--border-default)] shrink-0">
           {(['1M', '3M', '6M', '1Y'] as const).map((k) => (
@@ -100,18 +124,41 @@ function DailyBarsCard({
             {windowed.map((d, i) => (
               <rect key={i} x={i} y={Y(d.v)} width={0.82} height={Math.max(1, HEIGHT - 4 - Y(d.v))} fill={accent} opacity={0.82} />
             ))}
+            {ovLine && overlayAccent && (
+              <polyline points={ovLine} fill="none" stroke={overlayAccent} strokeWidth="1.75" vectorEffect="non-scaling-stroke" />
+            )}
           </svg>
           {hover.hover && (
             <div className="absolute pointer-events-none bg-[var(--bg-elevated)] border border-[var(--border-hover)] rounded-lg px-2.5 py-1.5 text-[10px] shadow-lg z-10"
               style={{
-                left: hover.hover.x + 14 + 150 < hoverW ? hover.hover.x + 14 : Math.max(4, hover.hover.x - 150 - 14),
+                left: hover.hover.x + 14 + 170 < hoverW ? hover.hover.x + 14 : Math.max(4, hover.hover.x - 170 - 14),
                 top: Math.max(0, hover.hover.y - 40),
               }}>
-              <div className="text-[var(--text-primary)] font-semibold">{formatValue(hover.hover.point.v)}</div>
+              <div className="text-[var(--text-primary)] font-semibold">{formatValue(hover.hover.point.v)} <span className="text-[var(--text-muted)] font-normal">vol</span></div>
+              {(() => {
+                const tv = typeof hover.hover.point.t === 'number' ? hover.hover.point.t : Date.parse(String(hover.hover.point.t));
+                let nearest: number | null = null;
+                let best = Infinity;
+                for (const q of overlayWindow) {
+                  const qt = typeof q.t === 'number' ? q.t : Date.parse(String(q.t));
+                  const diff = Math.abs(qt - tv);
+                  if (diff < best) { best = diff; nearest = q.v; }
+                }
+                return nearest != null ? (
+                  <div className="text-[var(--text-primary)] font-semibold">{formatValue(nearest)} <span className="text-[var(--text-muted)] font-normal">{overlayLabel ?? 'cap'}</span></div>
+                ) : null;
+              })()}
               <div className="text-[var(--text-muted)]">{formatDate(hover.hover.point.t)}</div>
             </div>
           )}
         </div>
+        {overlayWindow.length > 0 && (
+          <div className="flex flex-col justify-between w-11 pl-1.5 text-left shrink-0 text-[9px] text-[var(--text-tertiary)] tabular-nums" style={{ height: HEIGHT }}>
+            {fracs.map((f) => (
+              <span key={f} className="leading-none">{fmtAxisVal(ovMin + f * ovRng)}</span>
+            ))}
+          </div>
+        )}
       </div>
       <div className="flex justify-between pl-11 pr-1 text-[9px] text-[var(--text-tertiary)] tabular-nums mt-1">
         <span>{fmtAxisDate(windowed[0].t)}</span>
@@ -601,18 +648,21 @@ export default function Web3Dashboard({
           </div>
         )}
         <DailyBarsCard
-          title="Total crypto volume"
-          chip={volAnchor != null ? `24h ${fmtBig(volAnchor)}` : null}
+          title="Total crypto market"
+          chip={
+            volAnchor != null || capNow != null ? (
+              <>
+                {volAnchor != null ? `24h vol ${fmtBig(volAnchor)}` : '24h vol ···'}
+                {capNow != null ? ` · cap ${fmtBig(capNow)}` : ''}
+              </>
+            ) : null
+          }
           pts={volHistory}
           accent="#eab308"
           sourceNote={exVol.vol_source === 'lcw' ? 'LCW all-market' : 'BTC proxy'}
-        />
-        <DailyBarsCard
-          title="Total market cap"
-          chip={capNow != null ? `now ${fmtBig(capNow)}` : null}
-          pts={capHistory}
-          accent="var(--accent-purple)"
-          sourceNote={exVol.vol_source === 'lcw' ? 'LCW all-market' : 'BTC proxy'}
+          overlayPts={capHistory}
+          overlayAccent="var(--accent-purple)"
+          overlayLabel="cap"
         />
       </div>
 
