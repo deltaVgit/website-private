@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T00:30:31Z",
+  "updated_at": "2026-08-28T00:45:31Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.239198,
-        "change_24h": 10.12,
+        "price": 0.241804,
+        "change_24h": 11.86,
         "asset": "crypto"
       },
       {
-        "symbol": "TAO",
-        "name": "Bittensor",
-        "price": 255.4,
-        "change_24h": 9.35,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SOL",
-        "name": "Solana",
-        "price": 109.6,
-        "change_24h": 8.3,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 3.7,
-        "change_24h": 8.23,
+        "symbol": "VET",
+        "name": "VeChain",
+        "price": 0.007275,
+        "change_24h": 9.81,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 4.69,
-        "change_24h": 7.19,
+        "price": 4.74,
+        "change_24h": 8.64,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 3.72,
+        "change_24h": 8.48,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SOL",
+        "name": "Solana",
+        "price": 109.58,
+        "change_24h": 8.42,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ASTER",
-        "name": "Aster",
-        "price": 0.706295,
-        "change_24h": -3.16,
-        "asset": "crypto"
-      },
-      {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.097434,
-        "change_24h": -3.13,
+        "price": 0.097366,
+        "change_24h": -3.25,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.11289,
-        "change_24h": -2.12,
+        "price": 0.113298,
+        "change_24h": -2.3,
         "asset": "crypto"
       },
       {
-        "symbol": "HTX",
-        "name": "HTX DAO",
-        "price": 2e-06,
-        "change_24h": -1.89,
+        "symbol": "ASTER",
+        "name": "Aster",
+        "price": 0.708703,
+        "change_24h": -2.01,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.12,
-        "change_24h": -1.66,
+        "change_24h": -1.8,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "HTX",
+        "name": "HTX DAO",
+        "price": 2e-06,
+        "change_24h": -1.73,
         "asset": "crypto"
       }
     ]
