@@ -5,7 +5,7 @@ import { SITE_URL } from '@/lib/site';
 export const metadata: Metadata = {
   title: 'Ingénierie IA',
   description:
-    'Des outils d’IA génériques aux systèmes de production taillés pour vos processus — conçus, livrés et durcis par nos ingénieurs.',
+    'Des spécialistes IA nommés pour les métiers que votre PME fait déjà — RH, revue, finance. Des fichiers que vous gardez. Vos gens décident encore.',
   alternates: {
     canonical: `${SITE_URL}/fr/ai/`,
     languages: { en: `${SITE_URL}/ai/`, fr: `${SITE_URL}/fr/ai/` },

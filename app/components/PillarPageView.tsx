@@ -44,6 +44,7 @@ export default function PillarPageView({
             id={offer.id}
             title={offer.title}
             pitch={formatCourseText(offer.pitch)}
+            jobs={offer.jobs}
             deliverables={offer.deliverables}
             process={offer.process}
             audience={offer.audience}

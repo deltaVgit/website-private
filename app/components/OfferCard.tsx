@@ -19,8 +19,13 @@ const Check = () => (
 );
 
 /** Shared detailed offer card for the AI and Web3 pillar pages. */
+const JOB_LABELS: Record<Locale, string> = {
+  en: 'The jobs',
+  fr: 'Les métiers',
+};
+
 export default function OfferCard({
-  id, title, pitch, deliverables, process, audience, ctaLabel, ctaTopic, secondary, secondaryTone,
+  id, title, pitch, jobs, deliverables, process, audience, ctaLabel, ctaTopic, secondary, secondaryTone,
   showcase,
   lang = DEFAULT_LOCALE,
 }: {
@@ -28,6 +33,7 @@ export default function OfferCard({
   lang?: Locale;
   title: string;
   pitch: React.ReactNode;
+  jobs?: { name: string; win: string }[];
   deliverables: string[];
   process: { step: string; desc: string }[];
   audience: string;
@@ -43,6 +49,27 @@ export default function OfferCard({
       <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[var(--accent-primary)] to-transparent" aria-hidden="true" />
       <h2 className="text-2xl md:text-3xl font-semibold tracking-tight mb-4">{title}</h2>
       <p className="text-[var(--text-secondary)] mb-8 max-w-3xl leading-relaxed">{pitch}</p>
+
+      {jobs && jobs.length > 0 && (
+        <div className="mb-8">
+          <div className="text-[10px] font-semibold tracking-[2px] uppercase text-[var(--accent-primary)] mb-3">
+            {JOB_LABELS[lang]}
+          </div>
+          <ul className="grid md:grid-cols-3 gap-3">
+            {jobs.map((job) => (
+              <li
+                key={job.name}
+                className="rounded-xl border border-[var(--border-default)] bg-[var(--surface-card)] p-4"
+              >
+                <div className="font-mono text-[10px] tracking-[1.5px] uppercase text-[var(--accent-cyan)]">
+                  {job.name}
+                </div>
+                <p className="mt-2 text-sm leading-relaxed text-[var(--text-secondary)]">{job.win}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       <AnimatedBackground><div className="grid md:grid-cols-2 gap-8 mb-8">
         <div>

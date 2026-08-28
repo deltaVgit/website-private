@@ -11,7 +11,7 @@ const ArrowUpRight = () => (
 
 /**
  * Hydra — a multi-agent system we shipped — as the proof panel inside the
- * "Tailored Multi-Agent Systems" offer card on the AI pillar page.
+ * "Specialists for your real jobs" offer card on the AI pillar page.
  *
  * Readers meet a real system we built before they read what we offer to
  * build. The primary CTA is the demo video once one is published

@@ -12,6 +12,8 @@ export type OfferCopy = {
   id: string;
   title: string;
   pitch: string;
+  /** Three SME jobs on the flagship card — the win, not the stack. */
+  jobs?: { name: string; win: string }[];
   deliverables: string[];
   process: { step: string; desc: string }[];
   audience: string;
@@ -34,29 +36,43 @@ const aiEn: PillarCopy = {
   label: 'Pillar 01 · AI Engineering',
   title: 'AI Engineering',
   description:
-    'AI tools built for your production systems. Designed and shipped by engineers who run these systems 24/7.',
+    'Named AI specialists for the jobs your SME already runs — HR, review, finance. Files you keep. Your people still decide. Shipped by engineers who run these systems.',
   ecosystemLabel: 'Ecosystem & Stack',
   backLabel: 'Home',
   offers: [
     {
       id: 'agents',
-      title: 'Tailored Multi-Agent Systems',
+      title: 'Specialists for your real jobs',
       pitch:
-        'We embed with your team, **map your real workflows and data**, then design and ship custom single or multi-agent systems built around the models that perform best for your use case.',
+        'One shared chatbot is how work blurs and files leak. We stand up **named specialists** — HR, reviewer, analyst — each with its own files, tools, and hard limits. Your people keep the judgment. The specialist does the grind and leaves a **file you can open without us**.',
+      jobs: [
+        {
+          name: 'HR / internal',
+          win: 'Screening notes, onboarding packs, policy answers from your handbook — not a public chat.',
+        },
+        {
+          name: 'Reviewer',
+          win: 'A verdict on a contract, pack, or PR: evidence, severity, and ship / revise / stop.',
+        },
+        {
+          name: 'Financial analyst',
+          win: 'A sourced brief you keep: numbers, risks, and what is still unknown.',
+        },
+      ],
       deliverables: [
-        'Agent architecture designed around your workflows (orchestration, memory, tool use)',
-        'Model selection benchmarked on your actual tasks — open-weight first when it wins',
-        'Local-first wherever it is workable — we favour deployments where your data and keys never leave your infrastructure',
-        'Guardrails, evaluation harness, and human-in-the-loop controls for high-stakes actions',
-        'Documentation and handover so your team owns the system',
+        'A named specialist per job that hurts — start with one, add more when it earns the next',
+        'A file you keep (brief, review, screening note) — chat alone is not the receipt',
+        'Least tools per specialist: the reviewer does not edit; the writer does not fetch',
+        'Your documents stay on your machine or your VPS — we do not send them to a public chat',
+        'Handover so your team can hire the next specialist without us',
       ],
       process: [
-        { step: 'Scoping call', desc: 'we map workflows, data sensitivity, and success criteria' },
-        { step: 'Architecture + prototype', desc: 'a working vertical slice on your real data' },
-        { step: 'Ship + harden', desc: 'production deployment, evals, OpSec review, handover' },
+        { step: 'Pick the job', desc: 'the 1–2 workflows that burn time this month, and what a good file looks like' },
+        { step: 'Working specialist', desc: 'a profile on a realistic pack — yours under NDA, or a mock we bring' },
+        { step: 'Yours to run', desc: 'production, approvals left manual, your team owns the souls and the files' },
       ],
       audience:
-        'Teams drowning in manual workflows; founders who need leverage without headcount; organizations that cannot send data to third-party clouds.',
+        'SME operators who cannot add headcount — HR, ops and legal review, finance. Teams that will not send their files to a public chat.',
       ctaLabel: 'Book a scoping call',
       ctaTopic: 'agents',
     },
@@ -112,29 +128,43 @@ const aiFr: PillarCopy = {
   label: 'Pilier 01 · Ingénierie IA',
   title: 'Ingénierie IA',
   description:
-    'Des outils d’IA taillés pour vos systèmes de production. Conçus et livrés par des ingénieurs qui font tourner ces systèmes 24h/24.',
+    'Des spécialistes IA nommés pour les métiers que votre PME fait déjà — RH, revue, finance. Des fichiers que vous gardez. Vos gens décident encore. Livrés par des ingénieurs qui font tourner ces systèmes.',
   ecosystemLabel: 'Écosystème et stack',
   backLabel: 'Accueil',
   offers: [
     {
       id: 'agents',
-      title: 'Systèmes multi-agents sur mesure',
+      title: 'Des spécialistes pour vos vrais métiers',
       pitch:
-        'Nous nous intégrons à votre équipe, **cartographions vos processus et vos données réels**, puis concevons et livrons des systèmes à un ou plusieurs agents, bâtis autour des modèles les plus performants pour votre cas d’usage.',
+        'Un chatbot partagé, c’est le travail qui se brouille et les fichiers qui fuient. Nous mettons en place des **spécialistes nommés** — RH, relecteur, analyste — chacun avec ses fichiers, ses outils et ses limites dures. Vos gens gardent le jugement. Le spécialiste fait le sale boulot et laisse un **fichier que vous ouvrez sans nous**.',
+      jobs: [
+        {
+          name: 'RH / interne',
+          win: 'Notes de screening, packs d’intégration, réponses de politique depuis votre handbook — pas un chat public.',
+        },
+        {
+          name: 'Relecteur',
+          win: 'Un verdict sur un contrat, un dossier ou une PR : preuves, sévérité, et livrer / réviser / arrêter.',
+        },
+        {
+          name: 'Analyste financier',
+          win: 'Un brief sourcé que vous gardez : chiffres, risques, et ce qui reste inconnu.',
+        },
+      ],
       deliverables: [
-        'Architecture d’agents pensée pour vos processus (orchestration, mémoire, usage des outils)',
-        'Choix des modèles mesuré sur vos tâches réelles — poids ouverts en priorité quand ils gagnent',
-        'Le local en priorité quand c’est réalisable — nous privilégions les déploiements où vos données et vos clés ne quittent pas votre infrastructure',
-        'Garde-fous, banc d’évaluation et validation humaine pour les actions sensibles',
-        'Documentation et transfert de compétences : le système appartient à votre équipe',
+        'Un spécialiste nommé par métier qui fait mal — commencez par un, ajoutez-en quand il a gagné le suivant',
+        'Un fichier que vous gardez (brief, revue, note de screening) — le chat seul n’est pas le reçu',
+        'Le moins d’outils par spécialiste : le relecteur n’édite pas ; le rédacteur ne va pas chercher',
+        'Vos documents restent sur votre machine ou votre VPS — nous ne les envoyons pas dans un chat public',
+        'Transfert : votre équipe peut embaucher le prochain spécialiste sans nous',
       ],
       process: [
-        { step: 'Cadrage', desc: 'processus, sensibilité des données et critères de réussite' },
-        { step: 'Architecture et prototype', desc: 'une tranche fonctionnelle sur vos vraies données' },
-        { step: 'Mise en production', desc: 'déploiement, évaluations, revue OpSec, transfert' },
+        { step: 'Choisir le métier', desc: 'les 1–2 flux qui brûlent du temps ce mois-ci, et à quoi ressemble un bon fichier' },
+        { step: 'Spécialiste qui marche', desc: 'un profil sur un dossier réaliste — le vôtre sous NDA, ou un mock que nous apportons' },
+        { step: 'À vous de le faire tourner', desc: 'production, approbations restées manuelles, votre équipe possède les âmes et les fichiers' },
       ],
       audience:
-        'Les équipes noyées sous les tâches manuelles, les fondateurs qui cherchent du levier sans recruter, et les organisations qui ne peuvent pas envoyer leurs données vers des clouds tiers.',
+        'Les opérateurs de PME qui ne peuvent pas recruter — RH, revue ops et juridique, finance. Les équipes qui n’enverront pas leurs fichiers dans un chat public.',
       ctaLabel: 'Réserver un cadrage',
       ctaTopic: 'agents',
     },

@@ -83,7 +83,7 @@ const en: ContactCopy = {
   ],
   enquirySubject: (need) => `Delta V — ${need} enquiry`,
   topicPrompts: {
-    agents: 'Tailored multi-agent system — my workflows and goals:\n',
+    agents: 'Specialists for our real jobs — the workflows that hurt and what a good file looks like:\n',
     inference: 'Inference & model engineering — current stack and pain points:\n',
     retainer: 'AI Engineer retainer — systems in production and what I need covered:\n',
     'web3-advisory': 'Setup & architecture advisory — my current setup and concerns:\n',
@@ -140,7 +140,7 @@ const fr: ContactCopy = {
   ],
   enquirySubject: (need) => `Delta V — demande ${need}`,
   topicPrompts: {
-    agents: 'Système multi-agents sur mesure — mes flux de travail et mes objectifs :\n',
+    agents: 'Spécialistes pour nos vrais métiers — les flux qui font mal et à quoi ressemble un bon fichier :\n',
     inference: 'Inférence et ingénierie de modèles — stack actuelle et points de friction :\n',
     retainer: 'Accompagnement AI Engineer — systèmes en production et besoins à couvrir :\n',
     'web3-advisory': 'Conseil architecture et mise en place — ma configuration et mes inquiétudes :\n',

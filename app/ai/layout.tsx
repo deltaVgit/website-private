@@ -3,10 +3,12 @@ import type { ReactNode } from "react";
 
 export const metadata: Metadata = {
   title: "AI Engineering",
-  description: "Frontier AI engineering — sovereign inference, autonomous agents, and model integration built with OpSec at the core.",
+  description:
+    "Named AI specialists for the jobs your SME already runs — HR, review, finance. Files you keep. Your people still decide.",
   openGraph: {
     title: "AI Engineering · Delta V",
-    description: "Frontier AI engineering — sovereign inference, autonomous agents, and model integration built with OpSec at the core.",
+    description:
+      "Named AI specialists for HR, review, and finance — files you keep, people still decide.",
   },
 };
 

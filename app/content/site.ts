@@ -50,7 +50,7 @@ const homeEn: HomeCopy = {
       title: 'AI Engineering',
       cta: 'Explore AI Engineering',
       bullets: [
-        'Tailored multi-agent systems',
+        'Named specialists for HR, review, and finance',
         'Inference and model engineering',
         'Ongoing AI engineer support',
       ],
@@ -80,9 +80,9 @@ const homeEn: HomeCopy = {
       cta: 'View Curriculum',
     },
     {
-      title: 'Tailored Multi-Agent Systems',
-      text: 'Custom single and multi-agent architectures built around your workflows, data, and use case — shipped and hardened.',
-      cta: 'Explore AI Engineering',
+      title: 'Specialists for your real jobs',
+      text: 'Named AI colleagues for HR, review, and finance — they work your files, leave a receipt, and your people keep the decisions.',
+      cta: 'See the offer',
     },
     {
       title: 'Growth Boost',
@@ -123,7 +123,7 @@ const homeFr: HomeCopy = {
       title: 'Ingénierie IA',
       cta: 'Découvrir l’ingénierie IA',
       bullets: [
-        'Systèmes multi-agents sur mesure',
+        'Spécialistes nommés pour RH, revue et finance',
         'Inférence et ingénierie de modèles',
         'Accompagnement continu par un ingénieur IA',
       ],
@@ -153,9 +153,9 @@ const homeFr: HomeCopy = {
       cta: 'Voir le programme',
     },
     {
-      title: 'Systèmes multi-agents sur mesure',
-      text: 'Des architectures à un ou plusieurs agents, bâties autour de vos processus, de vos données et de votre cas d’usage — livrées et durcies.',
-      cta: 'Découvrir l’ingénierie IA',
+      title: 'Des spécialistes pour vos vrais métiers',
+      text: 'Des collègues IA nommés pour la RH, la revue et la finance — ils travaillent vos fichiers, laissent un reçu, et vos gens gardent les décisions.',
+      cta: 'Voir l’offre',
     },
     {
       title: 'Traction, communauté et financement',
