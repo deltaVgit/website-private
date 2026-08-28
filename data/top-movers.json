@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-08-28T17:31:08Z",
+  "updated_at": "2026-08-28T17:46:09Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "ESTC",
         "name": "Elastic N.V.",
-        "price": 97.86,
-        "change_24h": 16.86,
+        "price": 99.66,
+        "change_24h": 19.01,
         "asset": "equity"
       },
       {
         "symbol": "SOLS",
         "name": "Solstice Advanced Materials Inc",
-        "price": 63.63,
-        "change_24h": 12.94,
+        "price": 63.77,
+        "change_24h": 13.18,
         "asset": "equity"
       },
       {
         "symbol": "TOP",
         "name": "TOP Financial Group Limited",
-        "price": 16.55,
-        "change_24h": 7.36,
-        "asset": "equity"
-      },
-      {
-        "symbol": "DKNG",
-        "name": "DraftKings Inc.",
-        "price": 25.41,
-        "change_24h": 4.93,
+        "price": 16.66,
+        "change_24h": 8.04,
         "asset": "equity"
       },
       {
         "symbol": "WDAY",
         "name": "Workday, Inc.",
-        "price": 205.16,
-        "change_24h": 5.99,
+        "price": 206.34,
+        "change_24h": 6.59,
+        "asset": "equity"
+      },
+      {
+        "symbol": "DKNG",
+        "name": "DraftKings Inc.",
+        "price": 25.72,
+        "change_24h": 6.19,
         "asset": "equity"
       }
     ],
@@ -43,29 +43,29 @@
       {
         "symbol": "IREN",
         "name": "IREN LIMITED",
-        "price": 34.98,
-        "change_24h": -13.68,
+        "price": 34.95,
+        "change_24h": -13.77,
         "asset": "equity"
       },
       {
         "symbol": "PYPL",
         "name": "PayPal Holdings, Inc.",
-        "price": 54.01,
-        "change_24h": -12.14,
+        "price": 53.84,
+        "change_24h": -12.4,
         "asset": "equity"
       },
       {
         "symbol": "RBRK",
         "name": "Rubrik, Inc.",
-        "price": 94.27,
-        "change_24h": -11.91,
+        "price": 94.31,
+        "change_24h": -11.87,
         "asset": "equity"
       },
       {
         "symbol": "BTDR",
         "name": "Bitdeer Technologies Group",
-        "price": 10.14,
-        "change_24h": -10.46,
+        "price": 10.12,
+        "change_24h": -10.64,
         "asset": "equity"
       },
       {
@@ -87,24 +87,24 @@
         "asset": "crypto"
       },
       {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.017665,
-        "change_24h": 1.31,
-        "asset": "crypto"
-      },
-      {
         "symbol": "TRUMP",
         "name": "Official Trump",
         "price": 2.68,
-        "change_24h": 1.24,
+        "change_24h": 2.81,
         "asset": "crypto"
       },
       {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 469.14,
-        "change_24h": 0.9,
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.017648,
+        "change_24h": 1.5,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.401804,
+        "change_24h": 0.89,
         "asset": "crypto"
       },
       {
@@ -119,36 +119,36 @@
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.988291,
-        "change_24h": -11.76,
+        "price": 0.990258,
+        "change_24h": -11.64,
         "asset": "crypto"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.006649,
-        "change_24h": -11.54,
+        "price": 0.006647,
+        "change_24h": -8.98,
         "asset": "crypto"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 248.0,
-        "change_24h": -9.2,
+        "price": 246.73,
+        "change_24h": -8.93,
         "asset": "crypto"
       },
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.390356,
-        "change_24h": -7.32,
+        "symbol": "CRO",
+        "name": "Cronos",
+        "price": 0.057082,
+        "change_24h": -7.34,
         "asset": "crypto"
       },
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 17.1,
-        "change_24h": -7.23,
+        "symbol": "RENDER",
+        "name": "Render",
+        "price": 1.44,
+        "change_24h": -7.16,
         "asset": "crypto"
       }
     ]
