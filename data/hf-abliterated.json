@@ -26,7 +26,7 @@
         "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "author": "0bserverx",
-        "likes": 304,
+        "likes": 305,
         "downloads": 830221,
         "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "lastModified": "2026-08-20T19:51:25.000Z",
@@ -160,6 +160,27 @@
         ]
       },
       {
+        "id": "darknight9121/FLUX.2-klein-base-9B-bucket-uncensored",
+        "name": "FLUX.2-klein-base-9B-bucket-uncensored",
+        "author": "darknight9121",
+        "likes": 22,
+        "downloads": 14269,
+        "url": "https://huggingface.co/darknight9121/FLUX.2-klein-base-9B-bucket-uncensored",
+        "lastModified": "2026-06-26T02:57:27.000Z",
+        "daysAgo": 63,
+        "pipeline": "image-to-image",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "image-generation",
+          "image-editing",
+          "flux",
+          "diffusion-single-file",
+          "image-to-image",
+          "en"
+        ]
+      },
+      {
         "id": "ponpoke/flux2-klein-4b-uncensored-text-encoder",
         "name": "flux2-klein-4b-uncensored-text-encoder",
         "author": "ponpoke",
@@ -199,27 +220,6 @@
           "en",
           "base_model:black-forest-labs/FLUX.1-dev",
           "base_model:quantized:black-forest-labs/FLUX.1-dev"
-        ]
-      },
-      {
-        "id": "Cordux/flux2-klein-4B-uncensored-text-encoder",
-        "name": "flux2-klein-4B-uncensored-text-encoder",
-        "author": "Cordux",
-        "likes": 114,
-        "downloads": 2243,
-        "url": "https://huggingface.co/Cordux/flux2-klein-4B-uncensored-text-encoder",
-        "lastModified": "2026-01-27T22:00:36.000Z",
-        "daysAgo": 212,
-        "pipeline": "",
-        "tags": [
-          "gguf",
-          "qwen3",
-          "abliterated",
-          "uncensored",
-          "text-generation-inference",
-          "flux2",
-          "klein",
-          "base_model:huihui-ai/Qwen3-4B-abliterated"
         ]
       }
     ],
@@ -363,7 +363,7 @@
       "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "author": "0bserverx",
-      "likes": 304,
+      "likes": 305,
       "downloads": 830221,
       "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "lastModified": "2026-08-20T19:51:25.000Z",
@@ -459,7 +459,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "name": "Huihui-Qwen3.8-27B-abliterated",
       "author": "huihui-ai",
-      "likes": 302,
+      "likes": 303,
       "downloads": 39350,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "lastModified": "2026-08-24T03:47:39.000Z",
@@ -576,30 +576,6 @@
       "combo": 0.7625
     },
     {
-      "id": "hotdogs/Qwen3.8-27B-abliterated-MTP-GGUF",
-      "name": "Qwen3.8-27B-abliterated-MTP-GGUF",
-      "author": "hotdogs",
-      "likes": 17,
-      "downloads": 28015,
-      "url": "https://huggingface.co/hotdogs/Qwen3.8-27B-abliterated-MTP-GGUF",
-      "lastModified": "2026-08-18T09:18:29.000Z",
-      "daysAgo": 9,
-      "pipeline": "text-generation",
-      "tags": [
-        "gguf",
-        "qwen3_5",
-        "abliterated",
-        "uncensored",
-        "llama.cpp",
-        "mtp",
-        "multi-token-prediction",
-        "image-text-to-text"
-      ],
-      "pop": 0.7253,
-      "rec": 0.7692,
-      "combo": 0.7407
-    },
-    {
       "id": "PocketAiHub/Qwen3.8-27B-Abliterated-MTPLX-Optimized-Speed",
       "name": "Qwen3.8-27B-Abliterated-MTPLX-Optimized-Speed",
       "author": "PocketAiHub",
@@ -622,8 +598,32 @@
       "pop": 0.6703,
       "rec": 0.8571,
       "combo": 0.7357
+    },
+    {
+      "id": "drowzeys/keys-DeepSeekV4-Flash-GA-0731-Dspark-Abliterated-Anchored-Tensors",
+      "name": "keys-DeepSeekV4-Flash-GA-0731-Dspark-Abliterated-Anchored-Tensors",
+      "author": "drowzeys",
+      "likes": 112,
+      "downloads": 12672,
+      "url": "https://huggingface.co/drowzeys/keys-DeepSeekV4-Flash-GA-0731-Dspark-Abliterated-Anchored-Tensors",
+      "lastModified": "2026-08-23T05:52:15.000Z",
+      "daysAgo": 5,
+      "pipeline": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v4",
+        "text-generation",
+        "deepseek",
+        "deepseek-v4",
+        "deepseek-v4-flash",
+        "0731"
+      ],
+      "pop": 0.6691,
+      "rec": 0.8571,
+      "combo": 0.7349
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-08-28T09:04:55Z"
+  "updated": "2026-08-28T09:34:56Z"
 }
