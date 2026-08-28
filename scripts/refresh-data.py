@@ -405,6 +405,7 @@ def build_exchange_vol() -> dict | None:
         btc_price = btc_chart["now"]
 
     vol_history = []
+    cap_history = []
     vol_source = "coingecko-btc"
     # Preferred: LiveCoinWatch all-market volume history (free-tier key) —
     # gated to ~2x/week (84h cache): the chart is a per-day bar series, so
@@ -420,6 +421,7 @@ def build_exchange_vol() -> dict | None:
                 _cached = json.load(_f)
             if _cached.get("vol_history"):
                 vol_history = _cached["vol_history"]
+                cap_history = _cached.get("cap_history", [])
                 vol_source = "lcw"
                 print(f"  [OK] LCW history reused from cache ({int((time.time() - os.path.getmtime(_lcw_state)) // 3600)}h old, {len(vol_history)} pts)")
         except Exception as _e:
@@ -430,7 +432,8 @@ def build_exchange_vol() -> dict | None:
             # LCW caps each response at ~100 pts, so a year of DAILY bars needs
             # four ~92-day chunks @1d merged by timestamp (~365 bars, one per day).
             _now = int(time.time() * 1000)
-            _merged: dict[int, float] = {}
+            _merged_v: dict[int, float] = {}
+            _merged_c: dict[int, float] = {}
             for _i in range(4):
                 _end_i = _now - _i * 92 * 86400000
                 _start_i = _now - (_i + 1) * 92 * 86400000
@@ -445,9 +448,13 @@ def build_exchange_vol() -> dict | None:
                     _lcw = json.loads(_r.read().decode())
                 _pts = _lcw if isinstance(_lcw, list) else (_lcw.get("history") or [])
                 for _h in _pts:
-                    if _h.get("date") is not None and _h.get("volume") is not None:
-                        _merged[int(_h["date"])] = float(_h["volume"])
-            vol_history = [{"t": t, "v": v} for t, v in sorted(_merged.items())]
+                    if _h.get("date") is not None:
+                        if _h.get("volume") is not None:
+                            _merged_v[int(_h["date"])] = float(_h["volume"])
+                        if _h.get("cap") is not None:
+                            _merged_c[int(_h["date"])] = float(_h["cap"])
+            vol_history = [{"t": _t, "v": _merged_v[_t]} for _t in sorted(_merged_v)]
+            cap_history = [{"t": _t, "v": _merged_c[_t]} for _t in sorted(_merged_c)]
             if vol_history:
                 vol_source = "lcw"
                 print(f"  [OK] LCW merged volume history: {len(vol_history)} pts")
@@ -455,7 +462,7 @@ def build_exchange_vol() -> dict | None:
                 try:
                     os.makedirs(os.path.dirname(_lcw_state), exist_ok=True)
                     with open(_lcw_state, "w", encoding="utf-8") as _f:
-                        json.dump({"vol_history": vol_history, "vol_source": vol_source}, _f)
+                        json.dump({"vol_history": vol_history, "cap_history": cap_history, "vol_source": vol_source}, _f)
                 except Exception as _e:
                     print(f"  [WARN] LCW cache write failed: {_e}")
         except Exception as _e:
@@ -484,6 +491,7 @@ def build_exchange_vol() -> dict | None:
     out = {
         "updated_at": utc_now(),
         "vol_history": vol_history,
+        "cap_history": cap_history,
         "vol_source": vol_source,
         "exchanges": exchanges,
         "total_vol_btc_24h": total_btc,

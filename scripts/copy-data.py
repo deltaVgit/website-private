@@ -405,6 +405,7 @@ try:
     # Volume history from BTC total_volumes.
     # CoinGecko market_chart total_volumes are already in vs_currency (USD) — do NOT multiply by price.
     vol_history = []
+    cap_history = []
     vol_source = 'coingecko-btc'
     # Preferred: LiveCoinWatch all-market volume history (free-tier key).
     # Official API: livecoinwatch.com/tools/api - POST /overview/history.
@@ -415,7 +416,8 @@ try:
             # LCW caps each response at ~100 pts, so a year of DAILY bars needs
             # four ~92-day chunks @1d merged by timestamp (~365 bars, one per day).
             _now = int(time.time() * 1000)
-            _merged = {}
+            _merged_v = {}
+            _merged_c = {}
             for _i in range(4):
                 _end_i = _now - _i * 92 * 86400000
                 _start_i = _now - (_i + 1) * 92 * 86400000
@@ -429,9 +431,13 @@ try:
                     _lcw = json.loads(_r.read().decode())
                 _pts = _lcw if isinstance(_lcw, list) else (_lcw.get('history') or [])
                 for _h in _pts:
-                    if _h.get('date') is not None and _h.get('volume') is not None:
-                        _merged[int(_h['date'])] = float(_h['volume'])
-            vol_history = [{'t': t, 'v': v} for t, v in sorted(_merged.items())]
+                    if _h.get('date') is not None:
+                        if _h.get('volume') is not None:
+                            _merged_v[int(_h['date'])] = float(_h['volume'])
+                        if _h.get('cap') is not None:
+                            _merged_c[int(_h['date'])] = float(_h['cap'])
+            vol_history = [{'t': _t, 'v': _merged_v[_t]} for _t in sorted(_merged_v)]
+            cap_history = [{'t': _t, 'v': _merged_c[_t]} for _t in sorted(_merged_c)]
             if vol_history:
                 vol_source = 'lcw'
                 print(f'[OK] LCW merged volume history: {len(vol_history)} pts')
@@ -455,6 +461,7 @@ try:
             with open(previous_path, 'r', encoding='utf-8') as f:
                 previous = json.load(f)
             vol_history = previous.get('vol_history', []) or []
+            cap_history = previous.get('cap_history', []) or []
             vol_source = previous.get('vol_source', 'coingecko-btc')
             if vol_history:
                 print(f'⚠ Using cached volume history: {len(vol_history)} points')
@@ -466,6 +473,7 @@ try:
         'total_vol_btc_24h': total_vol_btc,
         'total_vol_usd_24h': last_v,
         'vol_history': vol_history,
+        'cap_history': cap_history,
         'vol_source': vol_source,
         'vol_unit': 'usd',
     }
