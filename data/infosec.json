@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T23:34:52Z",
+  "updatedAt": "2026-08-28T00:04:49Z",
   "kev": [
     {
       "cve": "CVE-2023-49105",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-19977",
+      "id": "CVE-2026-75627",
       "severity": "CRITICAL",
-      "score": 10.0,
-      "description": "A vulnerability was detected in EFM ipTIME A3004T 14.19.0. The affected element is the function httpcon_check_session_url of the component Session Validation. Performing a manipulation results in improper authentication.",
-      "published": "2026-08-17T03:16:50.517"
+      "score": 9.8,
+      "description": "Bastillion fails to properly validate request URI paths in its controller dispatcher, allowing unauthenticated attackers to bypass authentication filters by prefixing requests with arbitrary path segments. Attackers can ",
+      "published": "2026-08-18T11:16:52.060"
     },
     {
-      "id": "CVE-2026-15623",
+      "id": "CVE-2026-34884",
       "severity": "CRITICAL",
-      "score": 9.4,
-      "description": "A SQL Injection vulnerability in a legacy dashboard widget API in Google Cloud Google SecOps (Chronicle SOAR) versions prior to 6.3.85 on Google Cloud Platform allows an authenticated attacker to execute blind SQL querie",
-      "published": "2026-08-17T07:17:12.020"
+      "score": 9.8,
+      "description": "SSRF via set_skywalking_url Tool and GraphQL expression injection vulnerability in Apache SkyWalking MCP. This issue affects Apache SkyWalking MCP: 0.1.0. Users are recommended to upgrade to version 0.2.0, which fixes th",
+      "published": "2026-08-18T08:16:42.470"
     },
     {
-      "id": "CVE-2026-50602",
-      "severity": "HIGH",
-      "score": 8.5,
-      "description": "A security vulnerability has been identified in Planet9 due to incorrect file permissions assigned to an application executable used by the Planet9 background service. The service runs with SYSTEM privileges, while the a",
-      "published": "2026-08-17T03:16:50.840"
+      "id": "CVE-2026-15748",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "The Forminator Forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.56.1 via the handle_file_upload function. This is due to insufficient file type validation in handl",
+      "published": "2026-08-18T06:16:40.670"
     },
     {
-      "id": "CVE-2026-22072",
-      "severity": "HIGH",
-      "score": 8.3,
-      "description": "Loading arbitrary external URLs through WebView components introduces malicious JS code that can steal arbitrary user tokens.",
-      "published": "2026-08-17T07:17:15.797"
+      "id": "CVE-2026-75626",
+      "severity": "CRITICAL",
+      "score": 9.3,
+      "description": "SpiderFoot fails to HTML-escape correlation titles built from external scan data sources including server banners and metadata. Attackers can inject malicious HTML elements with event handlers into correlation results th",
+      "published": "2026-08-18T11:16:51.920"
     },
     {
-      "id": "CVE-2026-19983",
-      "severity": "HIGH",
-      "score": 8.3,
-      "description": "A vulnerability was detected in GL.iNet A1300, AX1800, AXT1800, MT2500, MT3000, MT6000, X3000 and XE3000 4.8.x. This issue affects some unknown processing of the file /usr/bin/gl_nas_sys of the component NAS Command Serv",
-      "published": "2026-08-17T05:17:09.947"
+      "id": "CVE-2026-75094",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "description": "A flaw has been found in COMFAST CF-N1-S 2.6.0.1. This impacts the function sub_44B438 of the file /cgi-bin/mbox-config?method=SET§ion=ptest_ssid of the component CGI Interface. This manipulation of the argument ssid cau",
+      "published": "2026-08-18T02:17:30.757"
     },
     {
-      "id": "CVE-2026-19979",
+      "id": "CVE-2026-75827",
       "severity": "HIGH",
-      "score": 8.3,
-      "description": "A vulnerability was identified in GL.iNet A1300, AX1800, AXT1800, BE1400, BE3600, BE6500, BE9300, BE10000, E5800, MT2500, MT3000, MT3600BE, MT5000, MT6000, X2000, X3000 and XE3000 up to 4.8.x. Affected by this vulnerabil",
-      "published": "2026-08-17T04:16:55.693"
+      "score": 8.8,
+      "description": "Grav before 2.0.15 contains an arbitrary file write vulnerability in the Blueprint dynamic-data bare-function validation that uses an incomplete denylist instead of a positive allowlist. Attackers with page-edit or bluep",
+      "published": "2026-08-18T12:19:32.553"
     },
     {
-      "id": "CVE-2026-19982",
+      "id": "CVE-2026-75828",
       "severity": "HIGH",
-      "score": 7.4,
-      "description": "A security vulnerability has been detected in GL.iNet BE9300 and MT6000 4.8.x. This vulnerability affects unknown code of the component Firewall-management RPC. The manipulation of the argument dest_port/dest_ip leads to",
-      "published": "2026-08-17T05:17:09.767"
+      "score": 8.7,
+      "description": "Grav before 2.0.15 contains a stored cross-site scripting vulnerability in the detectXss() function where unpaired quotes in unquoted attribute values bypass event-handler detection. Authenticated editors can inject even",
+      "published": "2026-08-18T12:19:32.690"
     },
     {
-      "id": "CVE-2026-19981",
+      "id": "CVE-2026-74902",
       "severity": "HIGH",
-      "score": 7.4,
-      "description": "A weakness has been identified in GL.iNet A1300, AX1800, AXT1800, BE1400, BE3600, BE6500, BE9300, BE10000, E5800, MT2500, MT3000, MT3600BE, MT5000, MT6000, X2000, X3000 and XE3000 up to 4.8.x. This affects an unknown par",
-      "published": "2026-08-17T04:16:56.600"
+      "score": 8.6,
+      "description": "SiYuan before v3.7.4 contains a cross-site scripting vulnerability in the file upload validation flow that fails to escape filenames before inserting them into HTML via insertAdjacentHTML. Attackers can craft a malicious",
+      "published": "2026-08-18T12:19:30.370"
     },
     {
-      "id": "CVE-2026-19980",
+      "id": "CVE-2026-75829",
       "severity": "HIGH",
-      "score": 7.4,
-      "description": "A security flaw has been discovered in GL.iNet A1300, AX1800, AXT1800, BE1400, BE3600, BE6500, BE9300, BE10000, E5800, MT2500, MT3000, MT3600BE, MT5000, MT6000, X2000, X3000 and XE3000 up to 4.8.x. Affected by this issue",
-      "published": "2026-08-17T04:16:56.250"
+      "score": 8.1,
+      "description": "grav-plugin-api versions before 1.0.15 fail to validate Twig content in the translate() endpoint, allowing attackers with api.pages.write permission to persist pages with process.twig enabled. Attackers can submit crafte",
+      "published": "2026-08-18T12:19:32.827"
     },
     {
-      "id": "CVE-2026-19963",
+      "id": "CVE-2026-15371",
       "severity": "HIGH",
-      "score": 7.4,
-      "description": "A vulnerability has been found in Edimax EW-7478APC 1.04. Affected by this issue is the function stainfo of the file /goform/stainfo. The manipulation of the argument interface leads to command injection. It is possible ",
-      "published": "2026-08-17T00:16:27.137"
+      "score": 8.1,
+      "description": "Velociraptor's web GUI allows specifying a custom type for columns in tables. The URL type takes the cell value and forms a URL which can be clicked in the GUI.The code does not limit the schemes allowed in this URL , al",
+      "published": "2026-08-18T07:16:48.927"
     },
     {
-      "id": "CVE-2026-19962",
+      "id": "CVE-2026-74906",
       "severity": "HIGH",
-      "score": 7.4,
-      "description": "A flaw has been found in Edimax EW-7478APC 1.04. Affected by this vulnerability is the function setWAN of the file /goform/setWAN. Executing a manipulation of the argument pppUserName/pptpUserName/L2TPUserName can lead t",
-      "published": "2026-08-17T00:16:26.490"
+      "score": 7.5,
+      "description": "SiYuan before v3.7.4 contains an incorrect authorization vulnerability in eight publish-mode reader-facing endpoints that filter results using the visibility list instead of the disabled list. Anonymous visitors can disc",
+      "published": "2026-08-18T12:19:30.913"
     },
     {
-      "id": "CVE-2026-74579",
+      "id": "CVE-2026-74904",
       "severity": "HIGH",
-      "score": 7.1,
-      "description": "In the Linux kernel, the following vulnerability has been resolved: netfilter: nft_payload: fix mask build for partial field offload nft_payload_offload_mask() builds the offload match mask for a payload expression that ",
-      "published": "2026-08-17T06:19:56.417"
+      "score": 7.5,
+      "description": "SiYuan before v3.7.4 is missing authorization checks in 17 block metadata/content endpoints in kernel/api/block.go (including getRefText, checkBlockExist, and getBlockBreadcrumb). These handlers are gated only by basic a",
+      "published": "2026-08-18T12:19:30.643"
     }
   ],
   "breaches": [
