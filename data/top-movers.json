@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T08:15:47Z",
+  "updated_at": "2026-08-28T08:30:48Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.170297,
-        "change_24h": 11.62,
+        "price": 0.169331,
+        "change_24h": 10.26,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.23387,
-        "change_24h": 6.85,
+        "price": 0.234379,
+        "change_24h": 5.78,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.029559,
+        "change_24h": 4.88,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 4.64,
-        "change_24h": 5.09,
+        "price": 4.63,
+        "change_24h": 4.87,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 467.84,
-        "change_24h": 4.55,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLFI",
-        "name": "World Liberty Financial",
-        "price": 0.060514,
-        "change_24h": 3.92,
+        "price": 468.86,
+        "change_24h": 4.76,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "RENDER",
+        "name": "Render",
+        "price": 1.49,
+        "change_24h": -4.91,
+        "asset": "crypto"
+      },
+      {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.49,
-        "change_24h": -4.54,
+        "change_24h": -4.83,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "price": 245.79,
+        "change_24h": -4.8,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 17.33,
-        "change_24h": -4.47,
+        "price": 17.38,
+        "change_24h": -4.11,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.112329,
-        "change_24h": -3.83,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RENDER",
-        "name": "Render",
-        "price": 1.49,
-        "change_24h": -3.65,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "KCS",
-        "name": "KuCoin",
-        "price": 7.15,
-        "change_24h": -3.63,
+        "price": 0.112313,
+        "change_24h": -3.88,
         "asset": "crypto"
       }
     ]
