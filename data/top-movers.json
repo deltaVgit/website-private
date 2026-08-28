@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T12:30:56Z",
+  "updated_at": "2026-08-28T12:45:57Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,29 +82,22 @@
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.164326,
-        "change_24h": 12.63,
+        "price": 0.163991,
+        "change_24h": 12.76,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.234316,
-        "change_24h": 4.65,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 4.63,
-        "change_24h": 3.98,
+        "price": 0.234433,
+        "change_24h": 5.57,
         "asset": "crypto"
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.029219,
-        "change_24h": 3.7,
+        "price": 0.029057,
+        "change_24h": 3.75,
         "asset": "crypto"
       },
       {
@@ -113,42 +106,49 @@
         "price": 1.037,
         "change_24h": 3.37,
         "asset": "crypto"
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 4.61,
+        "change_24h": 3.19,
+        "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 17.14,
-        "change_24h": -5.82,
-        "asset": "crypto"
-      },
-      {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.55,
-        "change_24h": -5.33,
+        "price": 2.51,
+        "change_24h": -6.68,
         "asset": "crypto"
       },
       {
-        "symbol": "CRO",
-        "name": "Cronos",
-        "price": 0.058846,
-        "change_24h": -4.74,
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 17.13,
+        "change_24h": -6.41,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.074,
-        "change_24h": -4.67,
+        "price": 1.073,
+        "change_24h": -4.77,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CRO",
+        "name": "Cronos",
+        "price": 0.058681,
+        "change_24h": -4.66,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 244.86,
-        "change_24h": -4.5,
+        "price": 244.08,
+        "change_24h": -4.3,
         "asset": "crypto"
       }
     ]
