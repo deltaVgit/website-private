@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T08:45:49Z",
+  "updated_at": "2026-08-28T09:00:48Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.169516,
-        "change_24h": 9.0,
+        "price": 0.169861,
+        "change_24h": 8.54,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 468.95,
-        "change_24h": 4.93,
+        "price": 470.65,
+        "change_24h": 5.42,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.23497,
-        "change_24h": 4.63,
+        "price": 0.232664,
+        "change_24h": 3.45,
         "asset": "crypto"
       },
       {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.029502,
-        "change_24h": 4.19,
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.037,
+        "change_24h": 3.35,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 4.63,
-        "change_24h": 3.81,
+        "price": 4.6,
+        "change_24h": 3.28,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 17.14,
+        "change_24h": -5.83,
+        "asset": "crypto"
+      },
+      {
         "symbol": "RENDER",
         "name": "Render",
-        "price": 1.49,
-        "change_24h": -5.48,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "TAO",
-        "name": "Bittensor",
-        "price": 245.28,
-        "change_24h": -5.27,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "price": 2.53,
-        "change_24h": -3.82,
+        "price": 1.48,
+        "change_24h": -5.69,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.112496,
-        "change_24h": -3.78,
+        "price": 0.111578,
+        "change_24h": -4.58,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "price": 243.83,
+        "change_24h": -4.3,
         "asset": "crypto"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 263.14,
-        "change_24h": -3.67,
+        "price": 261.93,
+        "change_24h": -4.15,
         "asset": "crypto"
       }
     ]
