@@ -406,11 +406,25 @@ def build_exchange_vol() -> dict | None:
 
     vol_history = []
     vol_source = "coingecko-btc"
-    # Preferred: LiveCoinWatch all-market volume history (free-tier key).
+    # Preferred: LiveCoinWatch all-market volume history (free-tier key) —
+    # gated to ~2x/day (12h cache) to stay inside the free credit budget.
     # Official API: livecoinwatch.com/tools/api - POST /overview/history.
     # Key lives in env only (DASHBOARD_LCW_KEY or LCW_API_KEY), never in this repo.
     lcw_key = os.environ.get("DASHBOARD_LCW_KEY") or os.environ.get("LCW_API_KEY")
-    if lcw_key:
+    _lcw_state = os.environ.get("LCW_STATE_FILE") or os.path.join(os.path.dirname(__file__), "..", "state", "lcw-history.json")
+    if lcw_key and os.path.exists(_lcw_state) and time.time() - os.path.getmtime(_lcw_state) < 12 * 3600:
+        # Cache still fresh — reuse the last merged payload, no API calls.
+        try:
+            with open(_lcw_state, encoding="utf-8") as _f:
+                _cached = json.load(_f)
+            if _cached.get("vol_history"):
+                vol_history = _cached["vol_history"]
+                vol_source = "lcw"
+                print(f"  [OK] LCW history reused from cache ({int((time.time() - os.path.getmtime(_lcw_state)) // 3600)}h old, {len(vol_history)} pts)")
+        except Exception as _e:
+            vol_history = []
+            print(f"  [WARN] LCW cache read failed: {_e}")
+    if lcw_key and not vol_history:
         try:
             # LCW caps each response at ~100 pts; three granularities overlaid give
             # every toggle range real density: 1Y (100), 1M (100 daily), 1W (100 hourly).
@@ -434,6 +448,13 @@ def build_exchange_vol() -> dict | None:
             if vol_history:
                 vol_source = "lcw"
                 print(f"  [OK] LCW merged volume history: {len(vol_history)} pts")
+                # Persist as the 12h cache (also reused by the next run)
+                try:
+                    os.makedirs(os.path.dirname(_lcw_state), exist_ok=True)
+                    with open(_lcw_state, "w", encoding="utf-8") as _f:
+                        json.dump({"vol_history": vol_history, "vol_source": vol_source}, _f)
+                except Exception as _e:
+                    print(f"  [WARN] LCW cache write failed: {_e}")
         except Exception as _e:
             vol_history = []
             print(f"  [WARN] LCW history failed, falling back to CoinGecko BTC: {_e}")

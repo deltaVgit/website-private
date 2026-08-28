@@ -3,7 +3,7 @@
    DEX Dominance %, REV, Stablecoins by chain, ETF flows */
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useMemo, useRef, useState } from 'react';
 import { CategoryBox, SkeletonBlock, fmtCurrency, fmtCompact, PanelMeta, FieldStatusChip } from './Shared';
 import CryptoFrontierSignals from './CryptoFrontierSignals';
 import { useChartHover, formatDate, formatValue, fmtAxisVal, fmtAxisDate, sanitizeUsdVolumeHistory } from './ChartHover';
@@ -368,6 +368,11 @@ export default function Web3Dashboard({
     );
   }, [volHistory, volRange]);
   const volHover = useChartHover(volWindow);
+  const [volHoverW, setVolHoverW] = useState(400);
+  const handleVolMove = (e: React.MouseEvent) => {
+    if (e.currentTarget) setVolHoverW(e.currentTarget.getBoundingClientRect().width);
+    volHover.onMove(e);
+  };
 
   const totalVol = dd?.totalVolume24h || 0;
   const tvlRows = (dd?.tvl || []) as any[];
@@ -555,7 +560,7 @@ export default function Web3Dashboard({
                         <span key={f} className="leading-none">{fmtAxisVal(min + f * range)}</span>
                       ))}
                     </div>
-                    <div className="relative flex-1 sparkline-container" onMouseMove={volHover.onMove} onMouseLeave={volHover.onLeave}>
+                    <div className="relative flex-1 sparkline-container" onMouseMove={handleVolMove} onMouseLeave={volHover.onLeave}>
                       <svg className="w-full" style={{ height: HEIGHT }} viewBox={`0 0 ${pts.length} ${HEIGHT}`} preserveAspectRatio="none">
                         <defs>
                           <linearGradient id="totalVolGrad" x1="0" y1="0" x2="0" y2="1">
@@ -572,7 +577,12 @@ export default function Web3Dashboard({
                       </svg>
                       {volHover.hover && (
                         <div className="absolute pointer-events-none bg-[var(--bg-elevated)] border border-[var(--border-hover)] rounded-lg px-2.5 py-1.5 text-[10px] shadow-lg z-10"
-                          style={{ left: Math.min(volHover.hover.x + 8, 400), top: Math.max(0, volHover.hover.y - 40) }}>
+                          style={{
+                          left: volHover.hover.x + 14 + 150 < volHoverW
+                            ? volHover.hover.x + 14
+                            : Math.max(4, volHover.hover.x - 150 - 14),
+                          top: Math.max(0, volHover.hover.y - 40),
+                        }}>
                           <div className="text-[var(--text-primary)] font-semibold">{formatValue(volHover.hover.point.v)}</div>
                           <div className="text-[var(--text-muted)]">{formatDate(volHover.hover.point.t)}</div>
                         </div>
