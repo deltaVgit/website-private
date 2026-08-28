@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T06:45:45Z",
+  "updated_at": "2026-08-28T07:00:46Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.234021,
-        "change_24h": 8.78,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.166557,
+        "change_24h": 9.28,
         "asset": "crypto"
       },
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.165623,
-        "change_24h": 8.46,
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.235731,
+        "change_24h": 9.2,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 4.65,
-        "change_24h": 6.63,
+        "price": 4.67,
+        "change_24h": 6.51,
         "asset": "crypto"
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price": 107.59,
-        "change_24h": 6.39,
+        "price": 107.58,
+        "change_24h": 6.24,
         "asset": "crypto"
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.028826,
-        "change_24h": 5.02,
+        "price": 0.028875,
+        "change_24h": 4.75,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "SPX",
-        "name": "SPX6900",
-        "price": 0.596578,
-        "change_24h": -4.42,
-        "asset": "crypto"
-      },
-      {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.52,
-        "change_24h": -3.34,
+        "change_24h": -4.51,
         "asset": "crypto"
       },
       {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.113049,
-        "change_24h": -3.08,
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "price": 0.601582,
+        "change_24h": -4.15,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.097594,
-        "change_24h": -2.95,
+        "price": 0.09731,
+        "change_24h": -3.0,
         "asset": "crypto"
       },
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 17.44,
-        "change_24h": -2.85,
+        "symbol": "KCS",
+        "name": "KuCoin",
+        "price": 7.16,
+        "change_24h": -2.91,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.113454,
+        "change_24h": -2.55,
         "asset": "crypto"
       }
     ]
