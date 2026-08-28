@@ -1,6 +1,86 @@
 {
-  "updated": "2026-08-28T03:34:52Z",
+  "updated": "2026-08-28T04:04:51Z",
   "items": [
+    {
+      "title": "EduRiskX: A Neuro-Symbolic Framework with F-Logic Reasoning for Early Academic Risk Prediction",
+      "url": "https://arxiv.org/abs/2608.26107",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-08-28T04:00:00+00:00",
+      "summary": "arXiv:2608.26107v1 Announce Type: new Abstract: Predicting students' academic risk in online education is crucial for enabling timely interventions that can improve retention and learning outcomes. However, existing models often suffer from limited early detection capability and ",
+      "tag": "ai"
+    },
+    {
+      "title": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
+      "url": "https://arxiv.org/abs/2608.26109",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-08-28T04:00:00+00:00",
+      "summary": "arXiv:2608.26109v1 Announce Type: new Abstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical narrative needed for bedside use. Large language models (LLMs) may bridge this gap, and multi-step agent",
+      "tag": "ai"
+    },
+    {
+      "title": "Large Models for Battery Prognostics and Health Management: A Review and Future Roadmap",
+      "url": "https://arxiv.org/abs/2608.26111",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-08-28T04:00:00+00:00",
+      "summary": "arXiv:2608.26111v1 Announce Type: new Abstract: Battery Prognostics and Health Management (BPHM) is critical for ensuring the safe, reliable, and cost-effective operation of batteries across electric vehicles, grid storage, and consumer electronics. Conventional BPHM approaches, ",
+      "tag": "ai"
+    },
+    {
+      "title": "PICasso: An AI-Enabled Design Framework for Autonomous Optimization of Silicon Photonic Devices",
+      "url": "https://arxiv.org/abs/2608.26113",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-08-28T04:00:00+00:00",
+      "summary": "arXiv:2608.26113v1 Announce Type: new Abstract: We present PICasso, an AI-assisted framework for automated synthesis, verification, and optimization of photonic integrated circuits (PICs) from natural-language specifications. PICasso couples a structured NL -> YAML -> GDS generat",
+      "tag": "ai"
+    },
+    {
+      "title": "SLM-Conditioned Hierarchical Relation Routing for Labeled Property Graph Learning",
+      "url": "https://arxiv.org/abs/2608.26132",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-08-28T04:00:00+00:00",
+      "summary": "arXiv:2608.26132v1 Announce Type: new Abstract: Labeled property graphs combine relational structure with heterogeneous textual and categorical properties attached to both nodes and relationships. Conventional graph neural networks typically represent these properties as static f",
+      "tag": "ai"
+    },
+    {
+      "title": "NeuronFuzz: Safety Neuron Guided Fuzzing for LLM Safety Evaluation",
+      "url": "https://arxiv.org/abs/2608.26222",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-08-28T04:00:00+00:00",
+      "summary": "arXiv:2608.26222v1 Announce Type: new Abstract: Safety evaluation is critical for assessing whether aligned Large Language Models (LLMs) remain robust against jailbreak attacks. Existing automated testing methods, however, largely rely on response-level feedback: each candidate p",
+      "tag": "ai"
+    },
+    {
+      "title": "Pruning Binarized Neural Networks: A Dedicated Framework and Globally Weighted Algorithms",
+      "url": "https://arxiv.org/abs/2608.26233",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-08-28T04:00:00+00:00",
+      "summary": "arXiv:2608.26233v1 Announce Type: new Abstract: Extreme compression of deep neural networks, up to full binarization, dramatically reduces memory footprint and arithmetic complexity, facilitating deployment on constrained edge hardware with field-programmable gate arrays (FPGAs) ",
+      "tag": "ai"
+    },
+    {
+      "title": "TreeGraft: Adaptive Multi-Drafter Grafting for Tree-Based Speculative Decoding",
+      "url": "https://arxiv.org/abs/2608.26112",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-08-28T04:00:00+00:00",
+      "summary": "arXiv:2608.26112v1 Announce Type: new Abstract: Speculative decoding accelerates large language model inference through a draft-then-verify paradigm. Building on this, tree-structured methods improve inference by organizing proposals into multiple candidate paths, increasing the ",
+      "tag": "ai"
+    },
+    {
+      "title": "ElementCheck: Complexity-Aware Long-Form Text Factuality Evaluation via Sentence Elements",
+      "url": "https://arxiv.org/abs/2608.26118",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-08-28T04:00:00+00:00",
+      "summary": "arXiv:2608.26118v1 Announce Type: new Abstract: Existing long-form factuality evaluation relies on the decompose-retrieve-verify pipeline. However, the pipeline suffers from noise from claim decomposition and fixed verification granularity, resulting in unreliable results. We pro",
+      "tag": "ai"
+    },
+    {
+      "title": "DeflectBench: A Benchmark for Evaluating Rhetorical Fallacy Generation in LLMs",
+      "url": "https://arxiv.org/abs/2608.26119",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-08-28T04:00:00+00:00",
+      "summary": "arXiv:2608.26119v1 Announce Type: new Abstract: Whether large language models can be prompted to generate rhetorical fallacies on demand, and whether current safety post-training constrains this behavior, has received less attention than the related question of detecting fallacie",
+      "tag": "ai"
+    },
     {
       "title": "Breaking Claude Code Opus 5 Auto Mode",
       "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
@@ -39,86 +119,6 @@
       "source": "OpenAI",
       "published_at": "2026-08-27T09:00:00+00:00",
       "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-      "tag": "ai"
-    },
-    {
-      "title": "VLM-based automatic multi-granularity graph representation of building layouts for design informatics",
-      "url": "https://arxiv.org/abs/2608.24886",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-08-27T04:00:00+00:00",
-      "summary": "arXiv:2608.24886v1 Announce Type: new Abstract: Architectural floorplan images encode rich relational knowledge among functional spaces, which underpins design retrieval, knowledge-based reasoning, and BIM enrichment through the building lifecycle. However, it remains challenging",
-      "tag": "ai"
-    },
-    {
-      "title": "SIMGUIDE: Procedurally Grounded Multi-Context Representations for Personalized Agent Planning",
-      "url": "https://arxiv.org/abs/2608.24888",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-08-27T04:00:00+00:00",
-      "summary": "arXiv:2608.24888v1 Announce Type: new Abstract: Personalized AI agents overwhelmingly treat users as single entities: a flat profile concatenated into a prompt. This fails when the same person holds different priorities across life contexts -- and fails catastrophically when thos",
-      "tag": "ai"
-    },
-    {
-      "title": "Reliable LLM-Powered Decision Engines for Large-Scale Supply Chain Operations: Architecture, Safety, and Performance Guarantees",
-      "url": "https://arxiv.org/abs/2608.24889",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-08-27T04:00:00+00:00",
-      "summary": "arXiv:2608.24889v1 Announce Type: new Abstract: Current large-scale supply chains are highly uncertain, dynamic, and disruption prone that are challenging to serve up timely and resilient decisions through traditional rule-based and optimization-only systems. The increasing suppl",
-      "tag": "ai"
-    },
-    {
-      "title": "AI-Powered Mental Health Chatbots in Africa: A Systematic Review and Culturally Adaptive Framework",
-      "url": "https://arxiv.org/abs/2608.24890",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-08-27T04:00:00+00:00",
-      "summary": "arXiv:2608.24890v1 Announce Type: new Abstract: Mental health challenges in Africa remain under-addressed due to inadequate infrastructure, stigma, and a chronic shortage of professionals. Artificial Intelligence (AI)-powered chatbots are emerging globally as low-cost, accessible",
-      "tag": "ai"
-    },
-    {
-      "title": "Dynamic Influence-Weighted Distillation for Single-IMU Activity Recognition",
-      "url": "https://arxiv.org/abs/2608.24904",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-08-27T04:00:00+00:00",
-      "summary": "arXiv:2608.24904v1 Announce Type: new Abstract: Inertial sensors at multiple body locations can improve activity recognition, but requiring every sensor at inference increases the deployment burden. We study whether four synchronized IMUs available during training can improve a s",
-      "tag": "ai"
-    },
-    {
-      "title": "GreenLeaf Law Embed Tiny: A Compact Embedding Model for Legal Domain Retrieval",
-      "url": "https://arxiv.org/abs/2608.24936",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-08-27T04:00:00+00:00",
-      "summary": "arXiv:2608.24936v1 Announce Type: new Abstract: We present GreenLeaf Law Embed Tiny, a 0.6B parameter embedding model for legal domain retrieval. GreenLeaf-Tiny achieves 75.11% on the Massive Legal Embedding Benchmark (MLEB) and 64.38% on MTEB(Law, v1),demonstrating competitive p",
-      "tag": "ai"
-    },
-    {
-      "title": "Multi-Modal Anomaly Detection: A Survey",
-      "url": "https://arxiv.org/abs/2608.24937",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-08-27T04:00:00+00:00",
-      "summary": "arXiv:2608.24937v1 Announce Type: new Abstract: Multi-Modal Anomaly Detection (MMAD) detects rare abnormal events from heterogeneous data sources and is increasingly used in safety- and reliability-critical applications such as industrial inspection and cybersecurity. Yet the lit",
-      "tag": "ai"
-    },
-    {
-      "title": "Detection != Reliable Control: Decodable Empathy Directions Yield at Most Partial Shifts in Automated Empathy Scores",
-      "url": "https://arxiv.org/abs/2608.24901",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-08-27T04:00:00+00:00",
-      "summary": "arXiv:2608.24901v1 Announce Type: new Abstract: A decodable \"empathy\" direction is routinely read as a causal lever, conflating decodability, automated-metric control, and human-perceived change. We test this for two EPITOME-derived facets -- Recognition (cognitive) and Resonance",
-      "tag": "ai"
-    },
-    {
-      "title": "Semantic Variability of Replies Across LLMs: Implications for Designing Conversation-Based Assessment",
-      "url": "https://arxiv.org/abs/2608.24920",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-08-27T04:00:00+00:00",
-      "summary": "arXiv:2608.24920v1 Announce Type: new Abstract: This study examines whether LLM-generated replies remain semantically consistent when the underlying LLM changes. Using messages from real collaborative conversations, we compared the semantic similarity of generated replies across ",
-      "tag": "ai"
-    },
-    {
-      "title": "The Dialect Tax: Dialectal Biases Persist throughout the Language Modeling Pipeline",
-      "url": "https://arxiv.org/abs/2608.24952",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-08-27T04:00:00+00:00",
-      "summary": "arXiv:2608.24952v1 Announce Type: new Abstract: Systematic dialectal performance gaps in language models (LMs) are well documented, but the source of these disparities within the modern language modeling pipeline remains unclear. Our study traces this \"dialect tax\" across the nat",
       "tag": "ai"
     },
     {
