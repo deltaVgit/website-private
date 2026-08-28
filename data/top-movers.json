@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-08-28T15:31:02Z",
+  "updated_at": "2026-08-28T15:46:02Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "ESTC",
         "name": "Elastic N.V.",
-        "price": 98.56,
-        "change_24h": 17.7,
+        "price": 99.43,
+        "change_24h": 18.74,
         "asset": "equity"
       },
       {
         "symbol": "SOLS",
         "name": "Solstice Advanced Materials Inc",
-        "price": 64.52,
-        "change_24h": 14.51,
-        "asset": "equity"
-      },
-      {
-        "symbol": "AFRM",
-        "name": "Affirm Holdings, Inc.",
-        "price": 83.69,
-        "change_24h": 8.0,
+        "price": 65.0,
+        "change_24h": 15.37,
         "asset": "equity"
       },
       {
         "symbol": "WDAY",
         "name": "Workday, Inc.",
-        "price": 203.92,
-        "change_24h": 5.35,
+        "price": 204.74,
+        "change_24h": 5.77,
         "asset": "equity"
       },
       {
-        "symbol": "BBWI",
-        "name": "Bath & Body Works, Inc.",
-        "price": 19.66,
-        "change_24h": 5.43,
+        "symbol": "UI",
+        "name": "Ubiquiti Inc.",
+        "price": 625.52,
+        "change_24h": 5.51,
+        "asset": "equity"
+      },
+      {
+        "symbol": "AFRM",
+        "name": "Affirm Holdings, Inc.",
+        "price": 81.58,
+        "change_24h": 5.28,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "PYPL",
         "name": "PayPal Holdings, Inc.",
-        "price": 54.41,
-        "change_24h": -11.48,
+        "price": 54.28,
+        "change_24h": -11.7,
         "asset": "equity"
       },
       {
         "symbol": "IREN",
         "name": "IREN LIMITED",
-        "price": 36.21,
-        "change_24h": -10.66,
+        "price": 35.91,
+        "change_24h": -11.41,
         "asset": "equity"
       },
       {
         "symbol": "RBRK",
         "name": "Rubrik, Inc.",
-        "price": 96.21,
-        "change_24h": -10.1,
-        "asset": "equity"
-      },
-      {
-        "symbol": "SLS",
-        "name": "SELLAS Life Sciences Group, Inc",
-        "price": 13.74,
-        "change_24h": -9.66,
+        "price": 96.04,
+        "change_24h": -10.26,
         "asset": "equity"
       },
       {
         "symbol": "INFQ",
         "name": "Infleqtion, Inc.",
-        "price": 13.1,
-        "change_24h": -8.52,
+        "price": 12.92,
+        "change_24h": -9.78,
+        "asset": "equity"
+      },
+      {
+        "symbol": "SLS",
+        "name": "SELLAS Life Sciences Group, Inc",
+        "price": 13.85,
+        "change_24h": -8.93,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.172119,
-        "change_24h": 10.66,
+        "price": 0.173118,
+        "change_24h": 9.3,
         "asset": "crypto"
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
-        "price": 2.86,
-        "change_24h": 8.22,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.018139,
-        "change_24h": 3.81,
+        "price": 2.81,
+        "change_24h": 7.48,
         "asset": "crypto"
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
         "price": 1.037,
-        "change_24h": 3.43,
+        "change_24h": 3.42,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.018096,
+        "change_24h": 3.22,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.236442,
-        "change_24h": 2.46,
+        "price": 0.232864,
+        "change_24h": 1.79,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.036,
-        "change_24h": -7.67,
+        "price": 1.03,
+        "change_24h": -8.09,
         "asset": "crypto"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 254.13,
-        "change_24h": -6.71,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 17.16,
-        "change_24h": -5.41,
+        "price": 252.36,
+        "change_24h": -7.13,
         "asset": "crypto"
       },
       {
         "symbol": "FLR",
         "name": "Flare",
-        "price": 0.00639,
-        "change_24h": -4.87,
+        "price": 0.006336,
+        "change_24h": -5.72,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 17.12,
+        "change_24h": -5.69,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -4.55,
+        "change_24h": -5.4,
         "asset": "crypto"
       }
     ]
