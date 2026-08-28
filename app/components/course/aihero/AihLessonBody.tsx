@@ -20,6 +20,7 @@ import { CourseCode } from '@/app/components/course/lesson/CourseCode';
 import { LessonSection } from '@/app/components/course/lesson/LessonSection';
 import { BlockRenderer } from '@/app/components/course/lesson/BlockRenderer';
 import { HeadingGlyph } from '@/app/components/course/kit/Glyph';
+import { hrefFor } from '@/lib/i18n';
 
 /**
  * The lesson body, wearing the layout that won the /wip lab: the spine.
@@ -368,11 +369,11 @@ export function AihLessonBodyView({
       <ModuleNav
         module={module}
         lang={lang}
-        basePath={series?.navBasePath ?? courseBase(lang)}
+        basePath={series ? hrefFor(series.navBasePath, lang) : courseBase(lang)}
         catalog={catalog}
-        indexHref={series?.indexHref}
+        indexHref={series?.indexHref ? hrefFor(series.indexHref, lang) : undefined}
         indexLabel={series?.indexLabel}
-        endHref={series?.endHref}
+        endHref={series?.endHref ? hrefFor(series.endHref, lang) : undefined}
         endLabel={series?.endLabel}
       />
     </article>

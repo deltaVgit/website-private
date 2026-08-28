@@ -498,16 +498,24 @@ export function HarnessModuleVisual({
 
 /* ─── Labs ────────────────────────────────────────────── */
 
-export function LabsLandingVisual() {
+export function LabsLandingVisual({
+  title = 'Three layers',
+  steps,
+}: {
+  title?: string;
+  steps?: { label: string; detail: string }[];
+}) {
   return (
     <ArchitectureFlow
-      title="Three layers"
+      title={title}
       accent="orange"
-      steps={[
-        { label: 'Mastery', detail: 'Teach · proofs · install first' },
-        { label: 'Labs', detail: 'Drills · artifacts after Part I' },
-        { label: 'Skills', detail: 'Curated packages · enable few' },
-      ]}
+      steps={
+        steps ?? [
+          { label: 'Mastery', detail: 'Teach · proofs · install first' },
+          { label: 'Labs', detail: 'Drills · artifacts after Part I' },
+          { label: 'Skills', detail: 'Curated packages · enable few' },
+        ]
+      }
     />
   );
 }

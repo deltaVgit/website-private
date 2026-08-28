@@ -133,14 +133,14 @@ export function CourseToc({
           </li>
           <li>
             <Link
-              href="/forge/course/my-first-ai-agent/labs/"
+              href={`${basePath}labs/`}
               aria-current={labsActive ? 'page' : undefined}
               className={`course-nav-item ${labsActive ? 'is-active' : ''}`}
             >
               <span className="course-nav-num" aria-hidden>
                 ·
               </span>
-              <span>Harness Labs</span>
+              <span>{t(UI_COPY.harnessLabs, lang)}</span>
             </Link>
           </li>
         </ol>

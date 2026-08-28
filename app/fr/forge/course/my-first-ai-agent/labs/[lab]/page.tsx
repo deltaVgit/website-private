@@ -21,28 +21,29 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lab: slug } = await params;
   const lab = getHarnessLab(slug);
-  if (!lab) return { title: 'Harness Lab' };
+  const mod = getLabModule(slug);
+  if (!lab || !mod) return { title: 'Harness Labs' };
   return {
-    title: `${lab.number} · ${lab.title} — Harness Labs | Delta V`,
-    description: lab.subtitle,
+    title: `${lab.number} · ${mod.title.fr} — Harness Labs | Delta V`,
+    description: mod.subtitle.fr,
     alternates: {
-      canonical: `${SITE_URL}/forge/course/my-first-ai-agent/labs/${lab.slug}/`,
+      canonical: `${SITE_URL}/fr/forge/course/my-first-ai-agent/labs/${lab.slug}/`,
       languages: {
         en: `${SITE_URL}/forge/course/my-first-ai-agent/labs/${lab.slug}/`,
         fr: `${SITE_URL}/fr/forge/course/my-first-ai-agent/labs/${lab.slug}/`,
       },
     },
     openGraph: {
-      title: lab.title,
-      description: lab.subtitle,
-      url: `${SITE_URL}/forge/course/my-first-ai-agent/labs/${lab.slug}/`,
+      title: `${mod.title.fr} — Harness Labs`,
+      description: mod.subtitle.fr,
+      url: `${SITE_URL}/fr/forge/course/my-first-ai-agent/labs/${lab.slug}/`,
       siteName: 'Delta V',
       type: 'article',
     },
   };
 }
 
-export default async function HarnessLabPage({
+export default async function HarnessLabPageFr({
   params,
 }: {
   params: Promise<{ lab: string }>;
