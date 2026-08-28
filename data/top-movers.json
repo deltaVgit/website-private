@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T09:57:02Z",
+  "updated_at": "2026-08-28T09:59:24Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,15 +82,22 @@
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.165241,
-        "change_24h": 6.13,
+        "price": 0.165478,
+        "change_24h": 6.61,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 468.23,
-        "change_24h": 4.81,
+        "price": 468.95,
+        "change_24h": 4.67,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.413705,
+        "change_24h": 3.39,
         "asset": "crypto"
       },
       {
@@ -101,17 +108,10 @@
         "asset": "crypto"
       },
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.413458,
-        "change_24h": 3.22,
-        "asset": "crypto"
-      },
-      {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.029035,
-        "change_24h": 3.06,
+        "price": 0.029025,
+        "change_24h": 3.03,
         "asset": "crypto"
       }
     ],
@@ -120,35 +120,35 @@
         "symbol": "VVV",
         "name": "Venice Token",
         "price": 17.15,
-        "change_24h": -6.68,
+        "change_24h": -6.74,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
         "price": 1.48,
-        "change_24h": -4.51,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MNT",
-        "name": "Mantle",
-        "price": 0.518698,
-        "change_24h": -4.46,
+        "change_24h": -4.41,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -4.37,
+        "change_24h": -4.26,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "MNT",
+        "name": "Mantle",
+        "price": 0.519137,
+        "change_24h": -4.2,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.111979,
-        "change_24h": -4.24,
+        "price": 0.112065,
+        "change_24h": -4.06,
         "asset": "crypto"
       }
     ]
