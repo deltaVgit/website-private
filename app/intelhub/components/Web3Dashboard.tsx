@@ -3,7 +3,7 @@
    DEX Dominance %, REV, Stablecoins by chain, ETF flows */
 'use client';
 
-import { useMemo, useRef, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { CategoryBox, SkeletonBlock, fmtCurrency, fmtCompact, PanelMeta, FieldStatusChip } from './Shared';
 import CryptoFrontierSignals from './CryptoFrontierSignals';
 import { useChartHover, formatDate, formatValue, fmtAxisVal, fmtAxisDate, sanitizeUsdVolumeHistory } from './ChartHover';
