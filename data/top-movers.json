@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T00:00:31Z",
+  "updated_at": "2026-08-28T00:15:31Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
-        "price": 2.55,
-        "change_24h": 9.76,
+        "price": 2.56,
+        "change_24h": 10.75,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.23956,
-        "change_24h": 8.91,
+        "price": 0.238341,
+        "change_24h": 9.36,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 253.87,
-        "change_24h": 8.16,
+        "price": 253.15,
+        "change_24h": 8.39,
         "asset": "crypto"
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price": 109.19,
-        "change_24h": 7.03,
+        "price": 108.93,
+        "change_24h": 7.79,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
         "price": 3.7,
-        "change_24h": 7.01,
+        "change_24h": 7.7,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.097222,
+        "change_24h": -3.37,
+        "asset": "crypto"
+      },
+      {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.112201,
-        "change_24h": -4.54,
+        "price": 0.111968,
+        "change_24h": -3.35,
         "asset": "crypto"
       },
       {
         "symbol": "ASTER",
         "name": "Aster",
-        "price": 0.702931,
-        "change_24h": -3.52,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.097151,
-        "change_24h": -3.38,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "POL",
-        "name": "POL (ex-MATIC)",
-        "price": 0.107882,
-        "change_24h": -2.98,
+        "price": 0.703507,
+        "change_24h": -3.11,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.12,
-        "change_24h": -2.15,
+        "change_24h": -2.59,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEXO",
+        "name": "NEXO",
+        "price": 0.855195,
+        "change_24h": -2.01,
         "asset": "crypto"
       }
     ]
