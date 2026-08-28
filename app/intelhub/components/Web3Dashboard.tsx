@@ -20,7 +20,7 @@ import { blogIndex } from '@/app/data/content-index';
 function fmtBig(n: number): string { return fmtCurrency(n); }
 
 /* Volume chart timeframe toggle — windowed client-side, no extra fetches. */
-const VOL_RANGE_DAYS = { '1W': 7, '1M': 30, '3M': 90, '6M': 180, '1Y': 365 } as const;
+const VOL_RANGE_DAYS = { '1M': 30, '3M': 90, '6M': 180, '1Y': 365 } as const;
 type VolRange = keyof typeof VOL_RANGE_DAYS;
 
 /* -- DeFi Weekly Card -- */
@@ -528,7 +528,7 @@ export default function Web3Dashboard({
                 <div className="text-[10px] text-[var(--text-muted)] mt-0.5">{volWindow.length} pts · {exVol.vol_source === 'lcw' ? 'LCW all-market' : 'BTC proxy'}</div>
               </div>
               <div className="flex gap-0.5 bg-[var(--bg-deep)] rounded-lg p-0.5 border border-[var(--border-default)] shrink-0">
-                {(['1W', '1M', '3M', '6M', '1Y'] as const).map((k) => (
+                {(['1M', '3M', '6M', '1Y'] as const).map((k) => (
                   <button
                     key={k}
                     type="button"
@@ -551,8 +551,7 @@ export default function Web3Dashboard({
                 const fracs = [1, 0.75, 0.5, 0.25, 0];
                 const HEIGHT = 104;
                 const Y = (v: number) => 4 + (1 - (v - min) / range) * (HEIGHT - 8);
-                const line = pts.map((d, i) => `${(i / (pts.length - 1)) * pts.length},${Y(d.v)}`).join(' ');
-                const area = line + ` ${pts.length},${HEIGHT} 0,${HEIGHT}`;
+
                 return (
                   <>
                     <div className="flex flex-col justify-between w-11 pr-1.5 text-right shrink-0 text-[9px] text-[var(--text-tertiary)] tabular-nums" style={{ height: HEIGHT }}>
@@ -562,18 +561,21 @@ export default function Web3Dashboard({
                     </div>
                     <div className="relative flex-1 sparkline-container" onMouseMove={handleVolMove} onMouseLeave={volHover.onLeave}>
                       <svg className="w-full" style={{ height: HEIGHT }} viewBox={`0 0 ${pts.length} ${HEIGHT}`} preserveAspectRatio="none">
-                        <defs>
-                          <linearGradient id="totalVolGrad" x1="0" y1="0" x2="0" y2="1">
-                            <stop offset="0%" stopColor="#eab308" stopOpacity="0.3" />
-                            <stop offset="100%" stopColor="#eab308" stopOpacity="0.02" />
-                          </linearGradient>
-                        </defs>
                         {fracs.map((f) => (
                           <line key={f} x1="0" x2={pts.length} y1={Y(min + f * range)} y2={Y(min + f * range)}
                             stroke="var(--border-subtle)" strokeWidth="1" vectorEffect="non-scaling-stroke" />
                         ))}
-                        <polygon points={area} fill="url(#totalVolGrad)" />
-                        <polyline points={line} fill="none" stroke="#eab308" strokeWidth="1.5" vectorEffect="non-scaling-stroke" />
+                        {pts.map((d, i) => (
+                          <rect
+                            key={i}
+                            x={i}
+                            y={Y(d.v)}
+                            width={0.82}
+                            height={Math.max(1, HEIGHT - 4 - Y(d.v))}
+                            fill="#eab308"
+                            opacity={0.82}
+                          />
+                        ))}
                       </svg>
                       {volHover.hover && (
                         <div className="absolute pointer-events-none bg-[var(--bg-elevated)] border border-[var(--border-hover)] rounded-lg px-2.5 py-1.5 text-[10px] shadow-lg z-10"

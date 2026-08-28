@@ -412,14 +412,16 @@ try:
     lcw_key = os.environ.get('DASHBOARD_LCW_KEY') or os.environ.get('LCW_API_KEY')
     if lcw_key:
         try:
-            # LCW caps each response at ~100 pts; three granularities overlaid give
-            # every toggle range real density: 1Y (100), 1M (100 daily), 1W (100 hourly).
+            # LCW caps each response at ~100 pts, so a year of DAILY bars needs
+            # four ~92-day chunks @1d merged by timestamp (~365 bars, one per day).
             _now = int(time.time() * 1000)
             _merged = {}
-            for _gran, _days in (('1d', 365), ('1d', 30), ('1h', 7)):
+            for _i in range(4):
+                _end_i = _now - _i * 92 * 86400000
+                _start_i = _now - (_i + 1) * 92 * 86400000
                 _req = urllib.request.Request(
                     'https://api.livecoinwatch.com/overview/history',
-                    data=json.dumps({'currency': 'USD', 'start': _now - _days * 86400000, 'end': _now, 'granularity': _gran}).encode(),
+                    data=json.dumps({'currency': 'USD', 'start': _start_i, 'end': _end_i, 'granularity': '1d'}).encode(),
                     method='POST',
                     headers={'content-type': 'application/json', 'x-api-key': lcw_key},
                 )

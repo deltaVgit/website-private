@@ -407,12 +407,13 @@ def build_exchange_vol() -> dict | None:
     vol_history = []
     vol_source = "coingecko-btc"
     # Preferred: LiveCoinWatch all-market volume history (free-tier key) —
-    # gated to ~2x/day (12h cache) to stay inside the free credit budget.
+    # gated to ~2x/week (84h cache): the chart is a per-day bar series, so
+    # twice-weekly freshness is plenty and credits stay trivial.
     # Official API: livecoinwatch.com/tools/api - POST /overview/history.
     # Key lives in env only (DASHBOARD_LCW_KEY or LCW_API_KEY), never in this repo.
     lcw_key = os.environ.get("DASHBOARD_LCW_KEY") or os.environ.get("LCW_API_KEY")
     _lcw_state = os.environ.get("LCW_STATE_FILE") or os.path.join(os.path.dirname(__file__), "..", "state", "lcw-history.json")
-    if lcw_key and os.path.exists(_lcw_state) and time.time() - os.path.getmtime(_lcw_state) < 12 * 3600:
+    if lcw_key and os.path.exists(_lcw_state) and time.time() - os.path.getmtime(_lcw_state) < 84 * 3600:
         # Cache still fresh — reuse the last merged payload, no API calls.
         try:
             with open(_lcw_state, encoding="utf-8") as _f:
@@ -426,12 +427,14 @@ def build_exchange_vol() -> dict | None:
             print(f"  [WARN] LCW cache read failed: {_e}")
     if lcw_key and not vol_history:
         try:
-            # LCW caps each response at ~100 pts; three granularities overlaid give
-            # every toggle range real density: 1Y (100), 1M (100 daily), 1W (100 hourly).
+            # LCW caps each response at ~100 pts, so a year of DAILY bars needs
+            # four ~92-day chunks @1d merged by timestamp (~365 bars, one per day).
             _now = int(time.time() * 1000)
             _merged: dict[int, float] = {}
-            for _gran, _days in (("1d", 365), ("1d", 30), ("1h", 7)):
-                _body = json.dumps({"currency": "USD", "start": _now - _days * 86400000, "end": _now, "granularity": _gran}).encode()
+            for _i in range(4):
+                _end_i = _now - _i * 92 * 86400000
+                _start_i = _now - (_i + 1) * 92 * 86400000
+                _body = json.dumps({"currency": "USD", "start": _start_i, "end": _end_i, "granularity": "1d"}).encode()
                 _req = urllib.request.Request(
                     "https://api.livecoinwatch.com/overview/history",
                     data=_body,
