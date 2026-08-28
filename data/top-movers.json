@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T01:00:32Z",
+  "updated_at": "2026-08-28T01:15:35Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.007258,
-        "change_24h": 11.66,
+        "price": 0.007279,
+        "change_24h": 11.89,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.240761,
-        "change_24h": 11.27,
+        "price": 0.240805,
+        "change_24h": 11.71,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.73,
-        "change_24h": 10.14,
+        "price": 3.72,
+        "change_24h": 11.05,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 4.73,
-        "change_24h": 8.57,
+        "price": 4.74,
+        "change_24h": 9.75,
         "asset": "crypto"
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price": 109.39,
-        "change_24h": 8.53,
+        "price": 109.14,
+        "change_24h": 8.34,
         "asset": "crypto"
       }
     ],
@@ -119,21 +119,28 @@
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.097599,
-        "change_24h": -2.99,
+        "price": 0.097672,
+        "change_24h": -2.95,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "price": 0.600075,
+        "change_24h": -2.61,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.113612,
-        "change_24h": -2.44,
+        "price": 0.1139,
+        "change_24h": -1.91,
         "asset": "crypto"
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
-        "price": 1.019,
+        "price": 1.018,
         "change_24h": -1.58,
         "asset": "crypto"
       },
@@ -141,14 +148,7 @@
         "symbol": "HTX",
         "name": "HTX DAO",
         "price": 2e-06,
-        "change_24h": -1.54,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEXO",
-        "name": "NEXO",
-        "price": 0.858738,
-        "change_24h": -1.47,
+        "change_24h": -1.4,
         "asset": "crypto"
       }
     ]
