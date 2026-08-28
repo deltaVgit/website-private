@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T03:15:38Z",
+  "updated_at": "2026-08-28T03:30:38Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.164174,
+        "change_24h": 12.97,
+        "asset": "crypto"
+      },
+      {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.007194,
-        "change_24h": 11.36,
+        "price": 0.007203,
+        "change_24h": 11.13,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
         "price": 3.56,
-        "change_24h": 7.11,
+        "change_24h": 6.66,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 466.61,
-        "change_24h": 6.01,
+        "price": 468.82,
+        "change_24h": 6.4,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 4.63,
-        "change_24h": 5.9,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.232512,
-        "change_24h": 5.89,
+        "price": 4.65,
+        "change_24h": 5.7,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "price": 0.590576,
+        "change_24h": -6.95,
+        "asset": "crypto"
+      },
+      {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.111858,
-        "change_24h": -3.44,
+        "price": 0.111776,
+        "change_24h": -3.63,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.098026,
-        "change_24h": -2.27,
+        "price": 0.097732,
+        "change_24h": -2.84,
         "asset": "crypto"
       },
       {
         "symbol": "ASTER",
         "name": "Aster",
-        "price": 0.697145,
-        "change_24h": -2.2,
+        "price": 0.699305,
+        "change_24h": -2.1,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004687,
-        "change_24h": -1.98,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "HTX",
-        "name": "HTX DAO",
-        "price": 2e-06,
-        "change_24h": -1.79,
+        "price": 0.004709,
+        "change_24h": -2.01,
         "asset": "crypto"
       }
     ]
