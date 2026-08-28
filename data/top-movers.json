@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T08:30:48Z",
+  "updated_at": "2026-08-28T08:45:49Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.169331,
-        "change_24h": 10.26,
+        "price": 0.169516,
+        "change_24h": 9.0,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 468.95,
+        "change_24h": 4.93,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.234379,
-        "change_24h": 5.78,
+        "price": 0.23497,
+        "change_24h": 4.63,
         "asset": "crypto"
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.029559,
-        "change_24h": 4.88,
+        "price": 0.029502,
+        "change_24h": 4.19,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
         "price": 4.63,
-        "change_24h": 4.87,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 468.86,
-        "change_24h": 4.76,
+        "change_24h": 3.81,
         "asset": "crypto"
       }
     ],
@@ -120,35 +120,35 @@
         "symbol": "RENDER",
         "name": "Render",
         "price": 1.49,
-        "change_24h": -4.91,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "price": 2.49,
-        "change_24h": -4.83,
+        "change_24h": -5.48,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 245.79,
-        "change_24h": -4.8,
+        "price": 245.28,
+        "change_24h": -5.27,
         "asset": "crypto"
       },
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 17.38,
-        "change_24h": -4.11,
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.53,
+        "change_24h": -3.82,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.112313,
-        "change_24h": -3.88,
+        "price": 0.112496,
+        "change_24h": -3.78,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price": 263.14,
+        "change_24h": -3.67,
         "asset": "crypto"
       }
     ]
