@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T21:15:16Z",
+  "updated_at": "2026-08-28T21:30:19Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,8 +82,15 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.412488,
-        "change_24h": 3.53,
+        "price": 0.420966,
+        "change_24h": 5.76,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "TRUMP",
+        "name": "Official Trump",
+        "price": 2.64,
+        "change_24h": 3.62,
         "asset": "crypto"
       },
       {
@@ -94,24 +101,17 @@
         "asset": "crypto"
       },
       {
-        "symbol": "TRUMP",
-        "name": "Official Trump",
-        "price": 2.63,
-        "change_24h": 1.85,
-        "asset": "crypto"
-      },
-      {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.017625,
-        "change_24h": 1.83,
+        "price": 0.017597,
+        "change_24h": 1.87,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.097821,
-        "change_24h": 1.22,
+        "price": 0.097929,
+        "change_24h": 1.42,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 16.28,
-        "change_24h": -11.01,
+        "price": 16.25,
+        "change_24h": -10.75,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.38,
-        "change_24h": -9.7,
+        "price": 3.37,
+        "change_24h": -9.92,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.377576,
-        "change_24h": -8.6,
+        "price": 0.376714,
+        "change_24h": -8.52,
         "asset": "crypto"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 248.39,
-        "change_24h": -7.95,
+        "price": 248.12,
+        "change_24h": -7.82,
         "asset": "crypto"
       },
       {
         "symbol": "CRO",
         "name": "Cronos",
-        "price": 0.057013,
-        "change_24h": -7.65,
+        "price": 0.057161,
+        "change_24h": -7.28,
         "asset": "crypto"
       }
     ]
