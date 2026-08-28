@@ -412,23 +412,27 @@ try:
     lcw_key = os.environ.get('DASHBOARD_LCW_KEY') or os.environ.get('LCW_API_KEY')
     if lcw_key:
         try:
-            _end = int(time.time() * 1000)
-            _req = urllib.request.Request(
-                'https://api.livecoinwatch.com/overview/history',
-                data=json.dumps({'currency': 'USD', 'start': _end - 365 * 86400000, 'end': _end, 'granularity': '1d'}).encode(),
-                method='POST',
-                headers={'content-type': 'application/json', 'x-api-key': lcw_key},
-            )
-            with urllib.request.urlopen(_req, timeout=30) as _r:
-                _lcw = json.loads(_r.read().decode())
-            vol_history = [
-                {'t': int(h['date']), 'v': float(h['volume'])}
-                for h in (_lcw.get('history') or [])
-                if h.get('date') is not None and h.get('volume') is not None
-            ]
+            # LCW caps each response at ~100 pts; three granularities overlaid give
+            # every toggle range real density: 1Y (100), 1M (100 daily), 1W (100 hourly).
+            _now = int(time.time() * 1000)
+            _merged = {}
+            for _gran, _days in (('1d', 365), ('1d', 30), ('1h', 7)):
+                _req = urllib.request.Request(
+                    'https://api.livecoinwatch.com/overview/history',
+                    data=json.dumps({'currency': 'USD', 'start': _now - _days * 86400000, 'end': _now, 'granularity': _gran}).encode(),
+                    method='POST',
+                    headers={'content-type': 'application/json', 'x-api-key': lcw_key},
+                )
+                with urllib.request.urlopen(_req, timeout=30) as _r:
+                    _lcw = json.loads(_r.read().decode())
+                _pts = _lcw if isinstance(_lcw, list) else (_lcw.get('history') or [])
+                for _h in _pts:
+                    if _h.get('date') is not None and _h.get('volume') is not None:
+                        _merged[int(_h['date'])] = float(_h['volume'])
+            vol_history = [{'t': t, 'v': v} for t, v in sorted(_merged.items())]
             if vol_history:
                 vol_source = 'lcw'
-                print(f'[OK] LCW volume history: {len(vol_history)} pts')
+                print(f'[OK] LCW merged volume history: {len(vol_history)} pts')
         except Exception as e:
             vol_history = []
             print(f'[WARN] LCW history failed, falling back to CoinGecko BTC: {e}')
