@@ -5,7 +5,7 @@
         "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Uncensored-GGUF",
         "author": "JonathanColetti",
-        "likes": 785,
+        "likes": 786,
         "downloads": 1666948,
         "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "lastModified": "2026-08-26T00:38:44.000Z",
@@ -576,30 +576,6 @@
       "combo": 0.7625
     },
     {
-      "id": "drowzeys/keys-DeepSeekV4-Flash-GA-0731-Dspark-Abliterated-Anchored-Tensors",
-      "name": "keys-DeepSeekV4-Flash-GA-0731-Dspark-Abliterated-Anchored-Tensors",
-      "author": "drowzeys",
-      "likes": 112,
-      "downloads": 12672,
-      "url": "https://huggingface.co/drowzeys/keys-DeepSeekV4-Flash-GA-0731-Dspark-Abliterated-Anchored-Tensors",
-      "lastModified": "2026-08-23T05:52:15.000Z",
-      "daysAgo": 4,
-      "pipeline": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "deepseek_v4",
-        "text-generation",
-        "deepseek",
-        "deepseek-v4",
-        "deepseek-v4-flash",
-        "0731"
-      ],
-      "pop": 0.6691,
-      "rec": 0.8824,
-      "combo": 0.7437
-    },
-    {
       "id": "hotdogs/Qwen3.8-27B-abliterated-MTP-GGUF",
       "name": "Qwen3.8-27B-abliterated-MTP-GGUF",
       "author": "hotdogs",
@@ -622,8 +598,32 @@
       "pop": 0.7253,
       "rec": 0.7692,
       "combo": 0.7407
+    },
+    {
+      "id": "PocketAiHub/Qwen3.8-27B-Abliterated-MTPLX-Optimized-Speed",
+      "name": "Qwen3.8-27B-Abliterated-MTPLX-Optimized-Speed",
+      "author": "PocketAiHub",
+      "likes": 21,
+      "downloads": 12893,
+      "url": "https://huggingface.co/PocketAiHub/Qwen3.8-27B-Abliterated-MTPLX-Optimized-Speed",
+      "lastModified": "2026-08-22T10:59:01.000Z",
+      "daysAgo": 5,
+      "pipeline": "text-generation",
+      "tags": [
+        "mlx",
+        "safetensors",
+        "qwen3_5",
+        "apple-silicon",
+        "macos",
+        "mtplx",
+        "speculative-decoding",
+        "multi-token-prediction"
+      ],
+      "pop": 0.6703,
+      "rec": 0.8571,
+      "combo": 0.7357
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-08-28T05:34:48Z"
+  "updated": "2026-08-28T06:04:48Z"
 }
