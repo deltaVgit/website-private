@@ -39,13 +39,12 @@ function sliceRange(series: ChartPoint[], range: VolRange): ChartPoint[] {
 /* Single daily-bar card: volume bars + optional market-cap curve overlay
    (dual axis: left = bars, right = curve). Owns its range toggle + hover. */
 function DailyBarsCard({
-  title, chip, pts, accent, sourceNote, overlayPts, overlayAccent, overlayLabel,
+  title, chip, pts, accent, overlayPts, overlayAccent, overlayLabel,
 }: {
   title: string;
   chip: React.ReactNode;
   pts: ChartPoint[];
   accent: string;
-  sourceNote: string;
   overlayPts?: ChartPoint[];
   overlayAccent?: string;
   overlayLabel?: string;
@@ -86,13 +85,7 @@ function DailyBarsCard({
               <span className="text-[var(--text-secondary)] font-medium normal-case tracking-normal ml-2">{chip}</span>
             )}
           </div>
-          <div className="text-[10px] text-[var(--text-muted)] mt-0.5">
-            {windowed.length} pts · {sourceNote}
-            <span className="ml-2 inline-flex items-center gap-1"><span className="w-2 h-2 inline-block rounded-[2px]" style={{ background: accent }} />vol</span>
-            {overlayWindow.length > 0 && overlayAccent && (
-              <span className="ml-2 inline-flex items-center gap-1"><span className="w-3 inline-block border-t-2" style={{ borderColor: overlayAccent }} />{overlayLabel ?? 'cap'}</span>
-            )}
-          </div>
+
         </div>
         <div className="flex gap-0.5 bg-[var(--bg-deep)] rounded-lg p-0.5 border border-[var(--border-default)] shrink-0">
           {(['1M', '3M', '6M', '1Y'] as const).map((k) => (
@@ -659,7 +652,6 @@ export default function Web3Dashboard({
           }
           pts={volHistory}
           accent="#eab308"
-          sourceNote={exVol.vol_source === 'lcw' ? 'LCW all-market' : 'BTC proxy'}
           overlayPts={capHistory}
           overlayAccent="var(--accent-purple)"
           overlayLabel="cap"
