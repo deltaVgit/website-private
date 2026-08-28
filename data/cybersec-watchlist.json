@@ -1,11 +1,27 @@
 [
   {
+    "title": "Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL",
+    "url": "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html",
+    "source": "The Hacker News",
+    "summary": "ServiceNow has released patches for four security flaws impacting the ServiceNow AI Platform, three of them rated 10.0 on the CVSS scoring system and exploitable, in certain circumstances, by an unauthenticated attacker.",
+    "added": "2026-08-28T11:20:32+00:00",
+    "expires": "2026-09-11T11:35:13Z"
+  },
+  {
+    "title": "China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access",
+    "url": "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
+    "source": "The Hacker News",
+    "summary": "VulnCheck has disclosed two previously undocumented factory implants in firmware for routers built by Shenzhen Zhibotong Electronics (ZBT), each of which gives an unauthenticated remote attacker the ability to run comman",
+    "added": "2026-08-28T10:58:29+00:00",
+    "expires": "2026-09-11T11:35:13Z"
+  },
+  {
     "title": "ServiceNow warns of three max severity security vulnerabilities",
     "url": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
     "source": "BleepingComputer",
     "summary": "ServiceNow released security patches for three new maximum-severity AI Platform vulnerabilities that can be exploited in code injection, SQL injection, and privilege escalation attacks. [...]",
     "added": "2026-08-28T10:29:42+00:00",
-    "expires": "2026-09-11T11:05:11Z"
+    "expires": "2026-09-11T11:35:13Z"
   },
   {
     "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
@@ -13,7 +29,7 @@
     "source": "The Hacker News",
     "summary": "cPanel has released patches for a security flaw affecting domain parking and addon domain functionality in cPanel and WebHost Manager (WHM), which could allow code execution as the root user. The vulnerability, assigned ",
     "added": "2026-08-28T09:45:15+00:00",
-    "expires": "2026-09-11T11:05:12Z"
+    "expires": "2026-09-11T11:35:13Z"
   },
   {
     "title": "Windows 11 KB5120998 update released with 35 changes and fixes",
@@ -21,7 +37,7 @@
     "source": "BleepingComputer",
     "summary": "Microsoft released the KB5120998 preview cumulative update for Windows 11 versions 25H2 and 24H2, which comes with 35 changes, including improvements to the Start menu, taskbar, and Windows search. [...]",
     "added": "2026-08-28T09:10:13+00:00",
-    "expires": "2026-09-11T11:05:11Z"
+    "expires": "2026-09-11T11:35:13Z"
   },
   {
     "title": "PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions",
@@ -29,7 +45,7 @@
     "source": "The Hacker News",
     "summary": "PaperCut has alerted customers that bad actors are actively exploiting a vulnerability impacting all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. The company has released an ",
     "added": "2026-08-28T08:25:36+00:00",
-    "expires": "2026-09-11T11:05:12Z"
+    "expires": "2026-09-11T11:35:13Z"
   },
   {
     "title": "APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations",
@@ -37,7 +53,7 @@
     "source": "The Hacker News",
     "summary": "Cybersecurity researchers have flagged a fresh set of campaigns targeting government and diplomatic organizations in Romania, Spain, and Türkiye between late September 2025 and early April 2026. These campaigns, per Reco",
     "added": "2026-08-28T08:20:59+00:00",
-    "expires": "2026-09-11T11:05:12Z"
+    "expires": "2026-09-11T11:35:13Z"
   },
   {
     "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
@@ -45,7 +61,7 @@
     "source": "BleepingComputer",
     "summary": "New details about the July attack on Hugging Face reveal that hundreds of AI agents driven by OpenAI's internal IM1 model coordinated the compromise through an unauthorized message board. [...]",
     "added": "2026-08-27T21:38:53+00:00",
-    "expires": "2026-09-11T11:05:11Z"
+    "expires": "2026-09-11T11:35:13Z"
   },
   {
     "title": "Chinese Routers Sold Worldwide Contain Backdoors",
@@ -53,15 +69,7 @@
     "source": "Dark Reading",
     "summary": "An untold number of ZBT routers sold around the world as white-label products come with several implants built by the manufacturer.",
     "added": "2026-08-27T19:31:45+00:00",
-    "expires": "2026-09-11T11:05:11Z"
-  },
-  {
-    "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
-    "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
-    "source": "The Hacker News",
-    "summary": "OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last month, adding that it found evidence of misaligned behavior as early as late May",
-    "added": "2026-08-27T18:36:19+00:00",
-    "expires": "2026-09-11T11:05:12Z"
+    "expires": "2026-09-11T11:35:13Z"
   },
   {
     "title": "Agentic AI Risks, CVE Program Concerns Permeate Black Hat USA 2026",
@@ -69,7 +77,7 @@
     "source": "Dark Reading",
     "summary": "This installment of the Reporters' Notebook video series discusses the topics that dominated the cybersecurity conference, such as AI's effects on vulnerability reporting and security research.",
     "added": "2026-08-27T17:25:09+00:00",
-    "expires": "2026-09-11T11:05:11Z"
+    "expires": "2026-09-11T11:35:13Z"
   },
   {
     "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
@@ -77,7 +85,7 @@
     "source": "BleepingComputer",
     "summary": "PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]",
     "added": "2026-08-27T16:31:53+00:00",
-    "expires": "2026-09-11T11:05:11Z"
+    "expires": "2026-09-11T11:35:13Z"
   },
   {
     "title": "Manchester Airports Group says hackers stole travelers' data",
@@ -85,15 +93,7 @@
     "source": "BleepingComputer",
     "summary": "The Manchester Airports Group (MAG) disclosed that hackers breached its systems and stole customer data, including Wi-Fi sign-ups from Manchester, Stansted, and East Midlands airports. [...]",
     "added": "2026-08-27T16:12:26+00:00",
-    "expires": "2026-09-11T11:05:11Z"
-  },
-  {
-    "title": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
-    "url": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
-    "source": "The Hacker News",
-    "summary": "Credit: Hacktron Vercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one exploitable via specially craft",
-    "added": "2026-08-27T15:13:00+00:00",
-    "expires": "2026-09-11T11:05:12Z"
+    "expires": "2026-09-11T11:35:13Z"
   },
   {
     "title": "Rockwell Automation OTTO Fleet Manager",
@@ -101,7 +101,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of this vulnerability could reduce the computational cost required for an attacker to perform offline brute-force attacks against stored password hashes. The following versions o",
     "added": "2026-08-27T12:00:00+00:00",
-    "expires": "2026-09-11T11:05:12Z"
+    "expires": "2026-09-11T11:35:13Z"
   },
   {
     "title": "Xiiaozet LK100W",
@@ -109,7 +109,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to take control over the device. The following versions of Xiiaozet LK100W are affected: LK100W CVSS Vendor Equipment Vulnerabili",
     "added": "2026-08-27T12:00:00+00:00",
-    "expires": "2026-09-11T11:05:12Z"
+    "expires": "2026-09-11T11:35:13Z"
   },
   {
     "title": "Mitsubishi Electric CNC Series (Update A)",
@@ -117,7 +117,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause an out-of-bounds read, resulting in a denial-of-service condition in the affected products. The following versions of",
     "added": "2026-08-27T12:00:00+00:00",
-    "expires": "2026-09-11T11:05:12Z"
+    "expires": "2026-09-11T11:35:13Z"
   },
   {
     "title": "Mitsubishi Electric Multiple FA Products (Update D)",
@@ -125,6 +125,6 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial-of-service (DoS) condition, a timeout error, or a communication delay by sending a specially crafted UDP pac",
     "added": "2026-08-27T12:00:00+00:00",
-    "expires": "2026-09-11T11:05:12Z"
+    "expires": "2026-09-11T11:35:13Z"
   }
 ]
