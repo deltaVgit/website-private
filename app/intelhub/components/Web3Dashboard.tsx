@@ -347,9 +347,9 @@ export default function Web3Dashboard({
   const exVol = dd?.exchangeVol || {};
   // Prefer global crypto 24h volume (CoinGecko global), not CEX/BTC-only
   const volAnchor =
-    cmc.total_volume ||
-    exVol.total_vol_usd_24h ||
-    null;
+    exVol.vol_source === 'lcw'
+      ? (exVol.total_vol_usd_24h || cmc.total_volume || null)
+      : (cmc.total_volume || exVol.total_vol_usd_24h || null);
   const volHistory = useMemo(
     () => sanitizeUsdVolumeHistory(exVol.vol_history || [], volAnchor),
     [exVol.vol_history, volAnchor],
@@ -514,13 +514,13 @@ export default function Web3Dashboard({
               <div>
                 <div className="text-[10px] text-[var(--text-muted)] uppercase tracking-[1px]">
                   Total crypto volume (USD · {volRange})
-                  {cmc.total_volume != null && (
+                  {volAnchor != null && (
                     <span className="text-[var(--text-secondary)] font-medium normal-case tracking-normal ml-2">
-                      24h {fmtBig(cmc.total_volume)}
+                      24h {fmtBig(volAnchor)}
                     </span>
                   )}
                 </div>
-                <div className="text-[10px] text-[var(--text-muted)] mt-0.5">{volWindow.length} pts · CoinGecko global</div>
+                <div className="text-[10px] text-[var(--text-muted)] mt-0.5">{volWindow.length} pts · {exVol.vol_source === 'lcw' ? 'LCW all-market' : 'BTC proxy'}</div>
               </div>
               <div className="flex gap-0.5 bg-[var(--bg-deep)] rounded-lg p-0.5 border border-[var(--border-default)] shrink-0">
                 {(['1W', '1M', '3M', '6M', '1Y'] as const).map((k) => (

@@ -405,7 +405,34 @@ try:
     # Volume history from BTC total_volumes.
     # CoinGecko market_chart total_volumes are already in vs_currency (USD) — do NOT multiply by price.
     vol_history = []
-    if btc_data and btc_data.get('total_volumes'):
+    vol_source = 'coingecko-btc'
+    # Preferred: LiveCoinWatch all-market volume history (free-tier key).
+    # Official API: livecoinwatch.com/tools/api - POST /overview/history.
+    # Key lives in env only (DASHBOARD_LCW_KEY or LCW_API_KEY), never in this repo.
+    lcw_key = os.environ.get('DASHBOARD_LCW_KEY') or os.environ.get('LCW_API_KEY')
+    if lcw_key:
+        try:
+            _end = int(time.time() * 1000)
+            _req = urllib.request.Request(
+                'https://api.livecoinwatch.com/overview/history',
+                data=json.dumps({'currency': 'USD', 'start': _end - 365 * 86400000, 'end': _end, 'granularity': '1d'}).encode(),
+                method='POST',
+                headers={'content-type': 'application/json', 'x-api-key': lcw_key},
+            )
+            with urllib.request.urlopen(_req, timeout=30) as _r:
+                _lcw = json.loads(_r.read().decode())
+            vol_history = [
+                {'t': int(h['date']), 'v': float(h['volume'])}
+                for h in (_lcw.get('history') or [])
+                if h.get('date') is not None and h.get('volume') is not None
+            ]
+            if vol_history:
+                vol_source = 'lcw'
+                print(f'[OK] LCW volume history: {len(vol_history)} pts')
+        except Exception as e:
+            vol_history = []
+            print(f'[WARN] LCW history failed, falling back to CoinGecko BTC: {e}')
+    if not vol_history and btc_data and btc_data.get('total_volumes'):
         vols = btc_data['total_volumes']
         # Keep every daily point (days=365): the dashboard needs daily
         # granularity for its 1W/1M/3M/6M/1Y timeframe toggles.
@@ -422,6 +449,7 @@ try:
             with open(previous_path, 'r', encoding='utf-8') as f:
                 previous = json.load(f)
             vol_history = previous.get('vol_history', []) or []
+            vol_source = previous.get('vol_source', 'coingecko-btc')
             if vol_history:
                 print(f'⚠ Using cached volume history: {len(vol_history)} points')
         except (OSError, ValueError, TypeError):
@@ -432,6 +460,7 @@ try:
         'total_vol_btc_24h': total_vol_btc,
         'total_vol_usd_24h': last_v,
         'vol_history': vol_history,
+        'vol_source': vol_source,
         'vol_unit': 'usd',
     }
     with open(os.path.join(PUBLIC_DIR, 'exchange-vol.json'), 'w') as f:
