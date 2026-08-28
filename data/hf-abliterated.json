@@ -75,7 +75,7 @@
         "downloads": 482087,
         "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
         "lastModified": "2026-08-03T14:05:07.000Z",
-        "daysAgo": 24,
+        "daysAgo": 25,
         "pipeline": "text-generation",
         "tags": [
           "gguf",
@@ -88,8 +88,8 @@
           "deepseek-v4"
         ],
         "pop": 0.9268,
-        "rec": 0.5556,
-        "combo": 0.7969
+        "rec": 0.5455,
+        "combo": 0.7933
       },
       {
         "id": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
@@ -288,7 +288,7 @@
         "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
         "author": "huihui-ai",
-        "likes": 412,
+        "likes": 414,
         "downloads": 1355482,
         "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "lastModified": "2026-08-27T06:05:52.000Z",
@@ -315,7 +315,7 @@
         "likes": 564,
         "downloads": 1061057,
         "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V11-GGUF",
-        "lastModified": "2026-08-28T13:31:53.000Z",
+        "lastModified": "2026-08-28T14:08:08.000Z",
         "daysAgo": 0,
         "pipeline": "image-text-to-text",
         "tags": [
@@ -336,7 +336,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
       "author": "huihui-ai",
-      "likes": 412,
+      "likes": 414,
       "downloads": 1355482,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "lastModified": "2026-08-27T06:05:52.000Z",
@@ -405,30 +405,6 @@
       "combo": 0.8751
     },
     {
-      "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
-      "name": "Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
-      "author": "huihui-ai",
-      "likes": 175,
-      "downloads": 482087,
-      "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
-      "lastModified": "2026-08-03T14:05:07.000Z",
-      "daysAgo": 24,
-      "pipeline": "text-generation",
-      "tags": [
-        "gguf",
-        "abliterated",
-        "uncensored",
-        "GGUF",
-        "huihui",
-        "quantized",
-        "deepseek",
-        "deepseek-v4"
-      ],
-      "pop": 0.9268,
-      "rec": 0.5556,
-      "combo": 0.7969
-    },
-    {
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "name": "Huihui-Qwen3.8-27B-abliterated",
       "author": "huihui-ai",
@@ -475,6 +451,30 @@
       "pop": 0.7722,
       "rec": 0.8333,
       "combo": 0.7936
+    },
+    {
+      "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
+      "name": "Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
+      "author": "huihui-ai",
+      "likes": 175,
+      "downloads": 482087,
+      "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
+      "lastModified": "2026-08-03T14:05:07.000Z",
+      "daysAgo": 25,
+      "pipeline": "text-generation",
+      "tags": [
+        "gguf",
+        "abliterated",
+        "uncensored",
+        "GGUF",
+        "huihui",
+        "quantized",
+        "deepseek",
+        "deepseek-v4"
+      ],
+      "pop": 0.9268,
+      "rec": 0.5455,
+      "combo": 0.7933
     },
     {
       "id": "sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
@@ -622,5 +622,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-08-28T14:05:05Z"
+  "updated": "2026-08-28T14:35:06Z"
 }
