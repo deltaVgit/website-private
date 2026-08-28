@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T20:30:13Z",
+  "updated_at": "2026-08-28T20:45:13Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -8,6 +8,13 @@
         "name": "Elastic N.V.",
         "price": 99.91,
         "change_24h": 19.31,
+        "asset": "equity"
+      },
+      {
+        "symbol": "GAP",
+        "name": "Gap, Inc. (The)",
+        "price": 23.48,
+        "change_24h": 12.94,
         "asset": "equity"
       },
       {
@@ -29,13 +36,6 @@
         "name": "Trulieve Cannabis Corp. Subordi",
         "price": 11.82,
         "change_24h": 7.16,
-        "asset": "equity"
-      },
-      {
-        "symbol": "FLUT",
-        "name": "Flutter Entertainment plc",
-        "price": 101.78,
-        "change_24h": 7.13,
         "asset": "equity"
       }
     ],
@@ -82,36 +82,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.428871,
-        "change_24h": 7.57,
+        "price": 0.423197,
+        "change_24h": 6.17,
         "asset": "crypto"
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
-        "price": 1.037,
-        "change_24h": 3.49,
+        "price": 1.036,
+        "change_24h": 2.88,
         "asset": "crypto"
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
-        "price": 2.61,
+        "price": 2.62,
         "change_24h": 1.97,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.017629,
-        "change_24h": 1.83,
+        "price": 0.017635,
+        "change_24h": 1.85,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 465.72,
-        "change_24h": 1.54,
+        "price": 465.52,
+        "change_24h": 0.91,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 16.51,
-        "change_24h": -10.14,
+        "price": 16.38,
+        "change_24h": -10.97,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
         "price": 3.38,
-        "change_24h": -8.88,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BCH",
-        "name": "Bitcoin Cash",
-        "price": 248.1,
-        "change_24h": -8.14,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CRO",
-        "name": "Cronos",
-        "price": 0.056825,
-        "change_24h": -8.1,
+        "change_24h": -9.78,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.380374,
-        "change_24h": -7.87,
+        "price": 0.379635,
+        "change_24h": -8.34,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price": 247.9,
+        "change_24h": -8.2,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CRO",
+        "name": "Cronos",
+        "price": 0.056832,
+        "change_24h": -8.05,
         "asset": "crypto"
       }
     ]
