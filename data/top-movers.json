@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T01:00:32Z",
+  "updated_at": "2026-08-29T01:15:25Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,24 +80,10 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "TRUMP",
-        "name": "Official Trump",
-        "price": 2.78,
-        "change_24h": 3.13,
-        "asset": "crypto"
-      },
-      {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 470.26,
-        "change_24h": 2.24,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.017675,
-        "change_24h": 2.15,
+        "price": 470.79,
+        "change_24h": 2.13,
         "asset": "crypto"
       },
       {
@@ -108,10 +94,24 @@
         "asset": "crypto"
       },
       {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.017666,
+        "change_24h": 1.94,
+        "asset": "crypto"
+      },
+      {
         "symbol": "LEO",
         "name": "LEO Token",
-        "price": 9.44,
-        "change_24h": 0.89,
+        "price": 9.52,
+        "change_24h": 1.65,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "TRUMP",
+        "name": "Official Trump",
+        "price": 2.77,
+        "change_24h": 0.97,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 16.04,
-        "change_24h": -10.72,
+        "price": 16.01,
+        "change_24h": -10.84,
         "asset": "crypto"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 246.1,
-        "change_24h": -8.68,
+        "price": 245.83,
+        "change_24h": -8.94,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.379888,
-        "change_24h": -8.11,
+        "price": 0.378084,
+        "change_24h": -8.87,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.220286,
+        "change_24h": -8.41,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
         "price": 3.44,
-        "change_24h": -7.75,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.221719,
-        "change_24h": -7.55,
+        "change_24h": -7.56,
         "asset": "crypto"
       }
     ]
