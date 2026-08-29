@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T21:31:09Z",
+  "updated_at": "2026-08-29T21:45:12Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 40.89,
-        "change_24h": 7.72,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.004944,
+        "change_24h": 9.48,
         "asset": "crypto"
       },
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.453795,
-        "change_24h": 7.61,
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 40.83,
+        "change_24h": 7.81,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.118591,
-        "change_24h": 7.24,
+        "price": 0.118306,
+        "change_24h": 7.19,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004904,
-        "change_24h": 6.93,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.455772,
+        "change_24h": 6.22,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
         "price": 4.66,
-        "change_24h": 5.89,
+        "change_24h": 5.95,
         "asset": "crypto"
       }
     ],
@@ -119,8 +119,8 @@
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.101197,
-        "change_24h": -5.93,
+        "price": 0.101375,
+        "change_24h": -5.15,
         "asset": "crypto"
       },
       {
@@ -133,22 +133,22 @@
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.155818,
-        "change_24h": -2.89,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.027604,
-        "change_24h": -1.72,
+        "price": 0.156739,
+        "change_24h": -1.82,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.217203,
-        "change_24h": -1.48,
+        "price": 0.217282,
+        "change_24h": -1.24,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "HBAR",
+        "name": "Hedera",
+        "price": 0.0754,
+        "change_24h": -1.03,
         "asset": "crypto"
       }
     ]
