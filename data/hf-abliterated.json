@@ -5,7 +5,7 @@
         "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Uncensored-GGUF",
         "author": "JonathanColetti",
-        "likes": 806,
+        "likes": 808,
         "downloads": 1666948,
         "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "lastModified": "2026-08-29T04:18:18.000Z",
@@ -139,7 +139,7 @@
         "id": "ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "name": "flux2-klein-9b-uncensored-text-encoder",
         "author": "ponpoke",
-        "likes": 464,
+        "likes": 465,
         "downloads": 32490,
         "url": "https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "lastModified": "2026-05-02T11:34:41.000Z",
@@ -573,30 +573,6 @@
       "combo": 0.7542
     },
     {
-      "id": "drowzeys/keys-DeepSeekV4-Flash-GA-0731-Dspark-Abliterated-Anchored-Tensors",
-      "name": "keys-DeepSeekV4-Flash-GA-0731-Dspark-Abliterated-Anchored-Tensors",
-      "author": "drowzeys",
-      "likes": 114,
-      "downloads": 12672,
-      "url": "https://huggingface.co/drowzeys/keys-DeepSeekV4-Flash-GA-0731-Dspark-Abliterated-Anchored-Tensors",
-      "lastModified": "2026-08-23T05:52:15.000Z",
-      "daysAgo": 5,
-      "pipeline": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "deepseek_v4",
-        "text-generation",
-        "deepseek",
-        "deepseek-v4",
-        "deepseek-v4-flash",
-        "0731"
-      ],
-      "pop": 0.6691,
-      "rec": 0.8571,
-      "combo": 0.7349
-    },
-    {
       "id": "hotdogs/Qwen3.8-27B-abliterated-MTP-GGUF",
       "name": "Qwen3.8-27B-abliterated-MTP-GGUF",
       "author": "hotdogs",
@@ -619,8 +595,32 @@
       "pop": 0.7253,
       "rec": 0.75,
       "combo": 0.7339
+    },
+    {
+      "id": "drowzeys/keys-DeepSeekV4-Flash-GA-0731-Dspark-Abliterated-Anchored-Tensors",
+      "name": "keys-DeepSeekV4-Flash-GA-0731-Dspark-Abliterated-Anchored-Tensors",
+      "author": "drowzeys",
+      "likes": 114,
+      "downloads": 12672,
+      "url": "https://huggingface.co/drowzeys/keys-DeepSeekV4-Flash-GA-0731-Dspark-Abliterated-Anchored-Tensors",
+      "lastModified": "2026-08-23T05:52:15.000Z",
+      "daysAgo": 6,
+      "pipeline": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v4",
+        "text-generation",
+        "deepseek",
+        "deepseek-v4",
+        "deepseek-v4-flash",
+        "0731"
+      ],
+      "pop": 0.6691,
+      "rec": 0.8333,
+      "combo": 0.7266
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-08-29T05:34:41Z"
+  "updated": "2026-08-29T06:04:42Z"
 }
