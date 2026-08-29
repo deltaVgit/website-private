@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T22:30:13Z",
+  "updated_at": "2026-08-29T22:45:14Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.467669,
+        "change_24h": 10.83,
+        "asset": "crypto"
+      },
+      {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004988,
-        "change_24h": 9.9,
+        "price": 0.004993,
+        "change_24h": 9.55,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 41.05,
-        "change_24h": 8.45,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.451589,
-        "change_24h": 7.03,
+        "price": 41.26,
+        "change_24h": 8.94,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.118036,
-        "change_24h": 6.63,
+        "price": 0.118137,
+        "change_24h": 6.62,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 4.64,
-        "change_24h": 5.57,
+        "price": 4.66,
+        "change_24h": 5.83,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.101412,
-        "change_24h": -5.56,
+        "price": 0.101673,
+        "change_24h": -5.46,
         "asset": "crypto"
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
         "price": 1.0,
-        "change_24h": -4.06,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.217216,
-        "change_24h": -1.32,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.157773,
-        "change_24h": -1.27,
+        "change_24h": -4.1,
         "asset": "crypto"
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.027574,
-        "change_24h": -1.12,
+        "price": 0.027603,
+        "change_24h": -1.09,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price": 4e-06,
+        "change_24h": -0.91,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.4,
+        "change_24h": -0.88,
         "asset": "crypto"
       }
     ]
