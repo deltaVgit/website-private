@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T03:34:43Z",
+  "updated": "2026-08-29T04:04:44Z",
   "items": [
     {
       "title": "Just a rumour of a bug is enough to find a security exploit these days",
@@ -23,86 +23,6 @@
       "source": "OpenAI",
       "published_at": "2026-08-28T06:00:00+00:00",
       "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
-      "tag": "ai"
-    },
-    {
-      "title": "EduRiskX: A Neuro-Symbolic Framework with F-Logic Reasoning for Early Academic Risk Prediction",
-      "url": "https://arxiv.org/abs/2608.26107",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-08-28T04:00:00+00:00",
-      "summary": "arXiv:2608.26107v1 Announce Type: new Abstract: Predicting students' academic risk in online education is crucial for enabling timely interventions that can improve retention and learning outcomes. However, existing models often suffer from limited early detection capability and ",
-      "tag": "ai"
-    },
-    {
-      "title": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
-      "url": "https://arxiv.org/abs/2608.26109",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-08-28T04:00:00+00:00",
-      "summary": "arXiv:2608.26109v1 Announce Type: new Abstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical narrative needed for bedside use. Large language models (LLMs) may bridge this gap, and multi-step agent",
-      "tag": "ai"
-    },
-    {
-      "title": "Large Models for Battery Prognostics and Health Management: A Review and Future Roadmap",
-      "url": "https://arxiv.org/abs/2608.26111",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-08-28T04:00:00+00:00",
-      "summary": "arXiv:2608.26111v1 Announce Type: new Abstract: Battery Prognostics and Health Management (BPHM) is critical for ensuring the safe, reliable, and cost-effective operation of batteries across electric vehicles, grid storage, and consumer electronics. Conventional BPHM approaches, ",
-      "tag": "ai"
-    },
-    {
-      "title": "PICasso: An AI-Enabled Design Framework for Autonomous Optimization of Silicon Photonic Devices",
-      "url": "https://arxiv.org/abs/2608.26113",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-08-28T04:00:00+00:00",
-      "summary": "arXiv:2608.26113v1 Announce Type: new Abstract: We present PICasso, an AI-assisted framework for automated synthesis, verification, and optimization of photonic integrated circuits (PICs) from natural-language specifications. PICasso couples a structured NL -> YAML -> GDS generat",
-      "tag": "ai"
-    },
-    {
-      "title": "SLM-Conditioned Hierarchical Relation Routing for Labeled Property Graph Learning",
-      "url": "https://arxiv.org/abs/2608.26132",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-08-28T04:00:00+00:00",
-      "summary": "arXiv:2608.26132v1 Announce Type: new Abstract: Labeled property graphs combine relational structure with heterogeneous textual and categorical properties attached to both nodes and relationships. Conventional graph neural networks typically represent these properties as static f",
-      "tag": "ai"
-    },
-    {
-      "title": "NeuronFuzz: Safety Neuron Guided Fuzzing for LLM Safety Evaluation",
-      "url": "https://arxiv.org/abs/2608.26222",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-08-28T04:00:00+00:00",
-      "summary": "arXiv:2608.26222v1 Announce Type: new Abstract: Safety evaluation is critical for assessing whether aligned Large Language Models (LLMs) remain robust against jailbreak attacks. Existing automated testing methods, however, largely rely on response-level feedback: each candidate p",
-      "tag": "ai"
-    },
-    {
-      "title": "Pruning Binarized Neural Networks: A Dedicated Framework and Globally Weighted Algorithms",
-      "url": "https://arxiv.org/abs/2608.26233",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-08-28T04:00:00+00:00",
-      "summary": "arXiv:2608.26233v1 Announce Type: new Abstract: Extreme compression of deep neural networks, up to full binarization, dramatically reduces memory footprint and arithmetic complexity, facilitating deployment on constrained edge hardware with field-programmable gate arrays (FPGAs) ",
-      "tag": "ai"
-    },
-    {
-      "title": "TreeGraft: Adaptive Multi-Drafter Grafting for Tree-Based Speculative Decoding",
-      "url": "https://arxiv.org/abs/2608.26112",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-08-28T04:00:00+00:00",
-      "summary": "arXiv:2608.26112v1 Announce Type: new Abstract: Speculative decoding accelerates large language model inference through a draft-then-verify paradigm. Building on this, tree-structured methods improve inference by organizing proposals into multiple candidate paths, increasing the ",
-      "tag": "ai"
-    },
-    {
-      "title": "ElementCheck: Complexity-Aware Long-Form Text Factuality Evaluation via Sentence Elements",
-      "url": "https://arxiv.org/abs/2608.26118",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-08-28T04:00:00+00:00",
-      "summary": "arXiv:2608.26118v1 Announce Type: new Abstract: Existing long-form factuality evaluation relies on the decompose-retrieve-verify pipeline. However, the pipeline suffers from noise from claim decomposition and fixed verification granularity, resulting in unreliable results. We pro",
-      "tag": "ai"
-    },
-    {
-      "title": "DeflectBench: A Benchmark for Evaluating Rhetorical Fallacy Generation in LLMs",
-      "url": "https://arxiv.org/abs/2608.26119",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-08-28T04:00:00+00:00",
-      "summary": "arXiv:2608.26119v1 Announce Type: new Abstract: Whether large language models can be prompted to generate rhetorical fallacies on demand, and whether current safety post-training constrains this behavior, has received less attention than the related question of detecting fallacie",
       "tag": "ai"
     },
     {
@@ -319,6 +239,86 @@
       "source": "LessWrong",
       "published_at": "2026-08-14T22:31:55+00:00",
       "summary": "It seems to me that, for every loss function that we use to train LLMs, we get a very distinct flavor of LLM misalignment. Here’s the summary table, and then we’ll go through the rows separately. Training stage Loss function Flavor of misalignment [1] Famous examples Pretraining ",
+      "tag": "ai"
+    },
+    {
+      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
+      "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
+      "source": "Interconnects",
+      "published_at": "2026-08-14T21:23:35+00:00",
+      "summary": "Hint: It’s really not a distillation story.",
+      "tag": "ai"
+    },
+    {
+      "title": "I wrote an AI textbook — how long until AI can do it better?",
+      "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
+      "source": "Interconnects",
+      "published_at": "2026-08-12T13:01:16+00:00",
+      "summary": "Reflections on AI's writing ability and how AI models get more capable.",
+      "tag": "ai"
+    },
+    {
+      "title": "How We’re Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees",
+      "url": "https://engineering.fb.com/2026/08/12/security/how-were-building-scam-alert-whatsapp/",
+      "source": "Meta Engineering",
+      "published_at": "2026-08-12T13:00:28+00:00",
+      "summary": "WhatsApp is committed to helping people stay safe while protecting the privacy of their messages. As scam tactics evolve — from impersonation to social engineering to AI-generated lures — we’re always evolving as well, so that our protections stay ahead of scammers while protecti",
+      "tag": "ai"
+    },
+    {
+      "title": "A Dynamical Model of AI Governability",
+      "url": "https://blog.eleuther.ai/dynamical-models-of-ai-governability/",
+      "source": "EleutherAI",
+      "published_at": "2026-07-13T00:00:00+00:00",
+      "summary": "A toy dynamical model of whether the AI workforce that builds future AI ends up cooperative or uncooperative: where the basin boundary lies, what current evidence says about which side we are on, and what would tell us we are on the good path.",
+      "tag": "ai"
+    },
+    {
+      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
+      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+      "source": "NVIDIA AI",
+      "published_at": "2026-07-08T15:00:27+00:00",
+      "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open mo",
+      "tag": "ai"
+    },
+    {
+      "title": "Early Indicators of Reward Hacking via Reasoning Interpolation",
+      "url": "https://blog.eleuther.ai/reward-hacking-indicators/",
+      "source": "EleutherAI",
+      "published_at": "2026-04-15T00:00:00+00:00",
+      "summary": "Using importance sampling with fine-tuned donor prefills to predict reward hacking emergence during training",
+      "tag": "ai"
+    },
+    {
+      "title": "NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES",
+      "url": "https://blogs.nvidia.com/blog/2026-ces-special-presentation/",
+      "source": "NVIDIA AI",
+      "published_at": "2026-01-05T23:30:18+00:00",
+      "summary": "NVIDIA founder and CEO Jensen Huang took the stage at the Fontainebleau Las Vegas to open CES 2026, declaring that AI is scaling into every domain and every device. “Computing has been fundamentally reshaped as a result of accelerated computing, as a result of artificial intellig",
+      "tag": "ai"
+    },
+    {
+      "title": "As AI Grows More Complex, Model Builders Rely on NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/leading-models-nvidia/",
+      "source": "NVIDIA AI",
+      "published_at": "2025-12-11T19:19:57+00:00",
+      "summary": "Unveiling what it describes as the most capable model series yet for professional knowledge work, OpenAI launched GPT-5.2 in December. The model was trained and deployed on NVIDIA infrastructure, including NVIDIA Hopper and GB200 NVL72 systems. GPT-5.3 Codex — the first OpenAI ag",
+      "tag": "ai"
+    },
+    {
+      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
+      "url": "https://qwenlm.github.io/blog/qwen3guard/",
+      "source": "Qwen (Alibaba)",
+      "published_at": "2025-09-22T20:00:00+00:00",
+      "summary": "Tech Report GitHub Hugging Face ModelScope DISCORD Introduction We are excited to introduce Qwen3Guard, the first safety guardrail model in the Qwen family. Built upon the powerful Qwen3 foundation models and fine-tuned specifically for safety classificatoin, Qwen3Guard ensures r",
+      "tag": "ai"
+    },
+    {
+      "title": "Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency",
+      "url": "https://qwenlm.github.io/blog/qwen-image-edit/",
+      "source": "Qwen (Alibaba)",
+      "published_at": "2025-08-18T17:30:00+00:00",
+      "summary": "QWEN CHAT GITHUB HUGGING FACE MODELSCOPE DISCORD We are excited to introduce Qwen-Image-Edit, the image editing version of Qwen-Image. Built upon our 20B Qwen-Image model, Qwen-Image-Edit successfully extends Qwen-Image’s unique text rendering capabilities to image editing tasks,",
       "tag": "ai"
     }
   ],
