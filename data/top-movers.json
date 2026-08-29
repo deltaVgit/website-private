@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T11:00:47Z",
+  "updated_at": "2026-08-29T11:15:47Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,15 +82,15 @@
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 2.5,
-        "change_24h": 3.49,
+        "price": 2.48,
+        "change_24h": 2.77,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.099711,
-        "change_24h": 2.32,
+        "price": 0.10008,
+        "change_24h": 2.7,
         "asset": "crypto"
       },
       {
@@ -103,52 +103,52 @@
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 807.3,
-        "change_24h": 1.11,
+        "price": 807.77,
+        "change_24h": 0.52,
         "asset": "crypto"
       },
       {
-        "symbol": "ATOM",
-        "name": "Cosmos Hub",
-        "price": 1.5,
-        "change_24h": 0.71,
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.04,
+        "change_24h": 0.31,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "price": 2.43,
-        "change_24h": -8.24,
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price": 243.6,
+        "change_24h": -8.03,
         "asset": "crypto"
       },
       {
-        "symbol": "BCH",
-        "name": "Bitcoin Cash",
-        "price": 244.11,
-        "change_24h": -7.65,
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.45,
+        "change_24h": -7.76,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.2168,
-        "change_24h": -7.48,
+        "price": 0.217456,
+        "change_24h": -7.71,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.155662,
-        "change_24h": -7.0,
+        "price": 0.155327,
+        "change_24h": -7.42,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 16.0,
-        "change_24h": -6.78,
+        "price": 15.98,
+        "change_24h": -6.74,
         "asset": "crypto"
       }
     ]
