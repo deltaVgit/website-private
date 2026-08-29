@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T14:30:55Z",
+  "updated_at": "2026-08-29T14:45:56Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -83,72 +83,72 @@
         "symbol": "DASH",
         "name": "Dash",
         "price": 41.84,
-        "change_24h": 9.16,
+        "change_24h": 7.24,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
         "price": 2.49,
-        "change_24h": 4.15,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 816.13,
-        "change_24h": 3.27,
+        "change_24h": 2.85,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.115576,
-        "change_24h": 3.2,
+        "price": 0.115899,
+        "change_24h": 2.32,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.099555,
-        "change_24h": 2.27,
+        "price": 0.099464,
+        "change_24h": 2.18,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LEO",
+        "name": "LEO Token",
+        "price": 9.65,
+        "change_24h": 2.13,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.218777,
-        "change_24h": -4.64,
-        "asset": "crypto"
-      },
-      {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 16.2,
-        "change_24h": -4.54,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEXO",
-        "name": "NEXO",
-        "price": 0.823619,
-        "change_24h": -4.07,
+        "price": 16.25,
+        "change_24h": -6.44,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.155691,
-        "change_24h": -3.99,
+        "price": 0.15675,
+        "change_24h": -6.3,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.220481,
+        "change_24h": -5.85,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.377119,
-        "change_24h": -3.57,
+        "price": 0.378492,
+        "change_24h": -5.34,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEXO",
+        "name": "NEXO",
+        "price": 0.828605,
+        "change_24h": -4.66,
         "asset": "crypto"
       }
     ]
