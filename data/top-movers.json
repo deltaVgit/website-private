@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T05:15:34Z",
+  "updated_at": "2026-08-29T05:30:35Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,22 +82,15 @@
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
-        "price": 3.03,
-        "change_24h": 11.05,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.165802,
-        "change_24h": 3.28,
+        "price": 3.01,
+        "change_24h": 10.26,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.017663,
-        "change_24h": 2.68,
+        "price": 0.01766,
+        "change_24h": 2.56,
         "asset": "crypto"
       },
       {
@@ -113,42 +106,49 @@
         "price": 1.04,
         "change_24h": 2.08,
         "asset": "crypto"
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 468.17,
+        "change_24h": 2.04,
+        "asset": "crypto"
       }
     ],
     "losers": [
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 16.02,
-        "change_24h": -8.45,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.025,
-        "change_24h": -6.96,
+        "price": 15.96,
+        "change_24h": -8.61,
         "asset": "crypto"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 246.99,
-        "change_24h": -6.46,
+        "price": 246.73,
+        "change_24h": -6.55,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.034,
+        "change_24h": -6.32,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.377223,
-        "change_24h": -5.59,
+        "price": 0.377895,
+        "change_24h": -5.46,
         "asset": "crypto"
       },
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 4.41,
-        "change_24h": -4.89,
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "price": 0.351266,
+        "change_24h": -4.75,
         "asset": "crypto"
       }
     ]
