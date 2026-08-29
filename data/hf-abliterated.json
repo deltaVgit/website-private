@@ -26,7 +26,7 @@
         "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "author": "0bserverx",
-        "likes": 309,
+        "likes": 308,
         "downloads": 990213,
         "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "lastModified": "2026-08-20T19:51:25.000Z",
@@ -75,7 +75,7 @@
         "downloads": 501609,
         "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
         "lastModified": "2026-08-03T14:05:07.000Z",
-        "daysAgo": 25,
+        "daysAgo": 26,
         "pipeline": "text-generation",
         "tags": [
           "gguf",
@@ -88,8 +88,8 @@
           "deepseek-v4"
         ],
         "pop": 0.9236,
-        "rec": 0.5455,
-        "combo": 0.7912
+        "rec": 0.5357,
+        "combo": 0.7878
       },
       {
         "id": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
@@ -118,7 +118,7 @@
         "id": "ChrisColeTech/LTX-2.3-uncensored-v1.4-FP8",
         "name": "LTX-2.3-uncensored-v1.4-FP8",
         "author": "ChrisColeTech",
-        "likes": 76,
+        "likes": 77,
         "downloads": 47605,
         "url": "https://huggingface.co/ChrisColeTech/LTX-2.3-uncensored-v1.4-FP8",
         "lastModified": "2026-08-23T15:13:33.000Z",
@@ -139,7 +139,7 @@
         "id": "ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "name": "flux2-klein-9b-uncensored-text-encoder",
         "author": "ponpoke",
-        "likes": 467,
+        "likes": 470,
         "downloads": 33976,
         "url": "https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "lastModified": "2026-05-02T11:34:41.000Z",
@@ -360,7 +360,7 @@
       "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "author": "0bserverx",
-      "likes": 309,
+      "likes": 308,
       "downloads": 990213,
       "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "lastModified": "2026-08-20T19:51:25.000Z",
@@ -405,34 +405,10 @@
       "combo": 0.8643
     },
     {
-      "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
-      "name": "Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
-      "author": "huihui-ai",
-      "likes": 175,
-      "downloads": 501609,
-      "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
-      "lastModified": "2026-08-03T14:05:07.000Z",
-      "daysAgo": 25,
-      "pipeline": "text-generation",
-      "tags": [
-        "gguf",
-        "abliterated",
-        "uncensored",
-        "GGUF",
-        "huihui",
-        "quantized",
-        "deepseek",
-        "deepseek-v4"
-      ],
-      "pop": 0.9236,
-      "rec": 0.5455,
-      "combo": 0.7912
-    },
-    {
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "name": "Huihui-Qwen3.8-27B-abliterated",
       "author": "huihui-ai",
-      "likes": 309,
+      "likes": 310,
       "downloads": 44516,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "lastModified": "2026-08-24T03:47:39.000Z",
@@ -475,6 +451,30 @@
       "pop": 0.7529,
       "rec": 0.8571,
       "combo": 0.7894
+    },
+    {
+      "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
+      "name": "Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
+      "author": "huihui-ai",
+      "likes": 175,
+      "downloads": 501609,
+      "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
+      "lastModified": "2026-08-03T14:05:07.000Z",
+      "daysAgo": 26,
+      "pipeline": "text-generation",
+      "tags": [
+        "gguf",
+        "abliterated",
+        "uncensored",
+        "GGUF",
+        "huihui",
+        "quantized",
+        "deepseek",
+        "deepseek-v4"
+      ],
+      "pop": 0.9236,
+      "rec": 0.5357,
+      "combo": 0.7878
     },
     {
       "id": "twolven/Qwen3.8-27B-abliterated-AWQ-MTP",
@@ -622,5 +622,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-08-29T14:05:00Z"
+  "updated": "2026-08-29T14:35:01Z"
 }
