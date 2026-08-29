@@ -312,7 +312,7 @@
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 744,
+        "likes": 745,
         "downloads": 1061687,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
@@ -477,30 +477,6 @@
       "combo": 0.7878
     },
     {
-      "id": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
-      "name": "Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
-      "author": "gbuzhf",
-      "likes": 13,
-      "downloads": 18686,
-      "url": "https://huggingface.co/gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
-      "lastModified": "2026-08-26T22:18:44.000Z",
-      "daysAgo": 2,
-      "pipeline": "image-text-to-text",
-      "tags": [
-        "gguf",
-        "ICE",
-        "ICE-Tiers",
-        "ice-quant",
-        "9-Tier-Standard",
-        "mtp",
-        "speculative-decoding",
-        "apex"
-      ],
-      "pop": 0.6921,
-      "rec": 0.9375,
-      "combo": 0.778
-    },
-    {
       "id": "twolven/Qwen3.8-27B-abliterated-AWQ-MTP",
       "name": "Qwen3.8-27B-abliterated-AWQ-MTP",
       "author": "twolven",
@@ -523,6 +499,30 @@
       "pop": 0.7701,
       "rec": 0.7895,
       "combo": 0.7769
+    },
+    {
+      "id": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
+      "name": "Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
+      "author": "gbuzhf",
+      "likes": 13,
+      "downloads": 18686,
+      "url": "https://huggingface.co/gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
+      "lastModified": "2026-08-26T22:18:44.000Z",
+      "daysAgo": 3,
+      "pipeline": "image-text-to-text",
+      "tags": [
+        "gguf",
+        "ICE",
+        "ICE-Tiers",
+        "ice-quant",
+        "9-Tier-Standard",
+        "mtp",
+        "speculative-decoding",
+        "apex"
+      ],
+      "pop": 0.6921,
+      "rec": 0.9091,
+      "combo": 0.768
     },
     {
       "id": "Blackfrost-AI/Muse-Glimmer-30B-Abliterated-GGUF",
@@ -622,5 +622,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-08-29T22:04:15Z"
+  "updated": "2026-08-29T22:34:19Z"
 }
