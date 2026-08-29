@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T23:34:40Z",
+  "updatedAt": "2026-08-29T00:04:43Z",
   "kev": [
     {
       "cve": "CVE-2023-49105",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-75627",
+      "id": "CVE-2026-76008",
       "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "Bastillion fails to properly validate request URI paths in its controller dispatcher, allowing unauthenticated attackers to bypass authentication filters by prefixing requests with arbitrary path segments. Attackers can ",
-      "published": "2026-08-18T11:16:52.060"
+      "score": 10.0,
+      "description": "A flaw has been found in Comfast CF-N1-S 2.6.0.1. This affects the function get_para_from_uri of the file /cgi-bin/mbox-config of the component URI Parameter Parsing. This manipulation of the argument width/height causes",
+      "published": "2026-08-19T03:16:53.077"
     },
     {
-      "id": "CVE-2026-34884",
+      "id": "CVE-2026-76004",
       "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "SSRF via set_skywalking_url Tool and GraphQL expression injection vulnerability in Apache SkyWalking MCP. This issue affects Apache SkyWalking MCP: 0.1.0. Users are recommended to upgrade to version 0.2.0, which fixes th",
-      "published": "2026-08-18T08:16:42.470"
+      "score": 9.9,
+      "description": "A security vulnerability has been detected in UTT HiPER 1250GW up to 3.2.7-210907-180535. Affected by this vulnerability is the function strcpy of the file /goform/aspApBasicConfigUrcp of the component HTTP Handler. The ",
+      "published": "2026-08-19T03:16:52.900"
     },
     {
-      "id": "CVE-2026-15748",
+      "id": "CVE-2026-76003",
       "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The Forminator Forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.56.1 via the handle_file_upload function. This is due to insufficient file type validation in handl",
-      "published": "2026-08-18T06:16:40.670"
+      "score": 9.9,
+      "description": "A weakness has been identified in UTT HiPER 1200GW up to 2.5.3-170306. Affected is the function strcpy of the file /goform/formGroupConfig. Executing a manipulation of the argument timestart can lead to stack-based buffe",
+      "published": "2026-08-19T03:16:52.727"
     },
     {
-      "id": "CVE-2026-75626",
+      "id": "CVE-2026-75976",
       "severity": "CRITICAL",
-      "score": 9.3,
-      "description": "SpiderFoot fails to HTML-escape correlation titles built from external scan data sources including server banners and metadata. Attackers can inject malicious HTML elements with event handlers into correlation results th",
-      "published": "2026-08-18T11:16:51.920"
+      "score": 9.9,
+      "description": "A weakness has been identified in TRENDnet TEW-823DRU 1.1.02b01. Impacted is the function strcpy of the file /cgi-bin/wan.cgi of the component NVRAM. This manipulation of the argument wan_l2tp_password causes stack-based",
+      "published": "2026-08-19T00:16:28.510"
     },
     {
-      "id": "CVE-2026-75094",
+      "id": "CVE-2026-11751",
       "severity": "CRITICAL",
       "score": 9.1,
-      "description": "A flaw has been found in COMFAST CF-N1-S 2.6.0.1. This impacts the function sub_44B438 of the file /cgi-bin/mbox-config?method=SET§ion=ptest_ssid of the component CGI Interface. This manipulation of the argument ssid cau",
-      "published": "2026-08-18T02:17:30.757"
+      "description": "A vulnerability has been identified in armeria-xds versions prior to 1.41.0, where xDS upstream TLS peer verification may be silently disabled, allowing man-in-the-middle attacks against xDS-managed upstream connections.",
+      "published": "2026-08-19T02:16:12.530"
     },
     {
-      "id": "CVE-2026-75827",
+      "id": "CVE-2026-16617",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "Grav before 2.0.15 contains an arbitrary file write vulnerability in the Blueprint dynamic-data bare-function validation that uses an incomplete denylist instead of a positive allowlist. Attackers with page-edit or bluep",
-      "published": "2026-08-18T12:19:32.553"
+      "description": "The Simple File List WordPress plugin through 6.3.11 does not properly sanitise and escape a file's description before outputting it on the public file list, allowing unauthenticated users (when front-end file management",
+      "published": "2026-08-19T06:17:35.500"
     },
     {
-      "id": "CVE-2026-75828",
+      "id": "CVE-2026-14334",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "The Booking calendar, Appointment Booking System WordPress plugin through 3.2.36 does not properly sanitize uploaded SVG files, allowing unauthenticated attackers to upload a file that bypasses the Booking calendar, Appo",
+      "published": "2026-08-19T06:17:33.263"
+    },
+    {
+      "id": "CVE-2026-49419",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "When the JAIL_AT_DESC flag is specified, kern_jail_set() and kern_jail_get() released the reference to the caller's current prison before looking up the jail descriptor. If the descriptor lookup failed, error-handling pa",
+      "published": "2026-08-19T05:17:04.053"
+    },
+    {
+      "id": "CVE-2026-49418",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "When msync(MS_INVALIDATE) is called on a mapping of an unmanaged device object, the physical pages in the mapping range are marked invalid but remain in the pager's page list. A subsequent page fault will cause the fault",
+      "published": "2026-08-19T05:17:03.943"
+    },
+    {
+      "id": "CVE-2026-49415",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "During execve(2) of a SUID binary, the new virtual address space is installed before the process credentials are updated. During this window, a process running as the same user can access the target process's memory via ",
+      "published": "2026-08-19T05:17:03.830"
+    },
+    {
+      "id": "CVE-2026-70408",
       "severity": "HIGH",
       "score": 8.7,
-      "description": "Grav before 2.0.15 contains a stored cross-site scripting vulnerability in the detectXss() function where unpaired quotes in unquoted attribute values bypass event-handler detection. Authenticated editors can inject even",
-      "published": "2026-08-18T12:19:32.690"
+      "description": "An incorrect authorization vulnerability exists in acmailer, which may allow a user to create a sub-account that has administrative privileges.",
+      "published": "2026-08-19T05:17:05.820"
     },
     {
-      "id": "CVE-2026-74902",
+      "id": "CVE-2026-16616",
       "severity": "HIGH",
       "score": 8.6,
-      "description": "SiYuan before v3.7.4 contains a cross-site scripting vulnerability in the file upload validation flow that fails to escape filenames before inserting them into HTML via insertAdjacentHTML. Attackers can craft a malicious",
-      "published": "2026-08-18T12:19:30.370"
-    },
-    {
-      "id": "CVE-2026-75829",
-      "severity": "HIGH",
-      "score": 8.1,
-      "description": "grav-plugin-api versions before 1.0.15 fail to validate Twig content in the translate() endpoint, allowing attackers with api.pages.write permission to persist pages with process.twig enabled. Attackers can submit crafte",
-      "published": "2026-08-18T12:19:32.827"
-    },
-    {
-      "id": "CVE-2026-15371",
-      "severity": "HIGH",
-      "score": 8.1,
-      "description": "Velociraptor's web GUI allows specifying a custom type for columns in tables. The URL type takes the cell value and forms a URL which can be clicked in the GUI.The code does not limit the schemes allowed in this URL , al",
-      "published": "2026-08-18T07:16:48.927"
-    },
-    {
-      "id": "CVE-2026-74906",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "SiYuan before v3.7.4 contains an incorrect authorization vulnerability in eight publish-mode reader-facing endpoints that filter results using the visibility list instead of the disabled list. Anonymous visitors can disc",
-      "published": "2026-08-18T12:19:30.913"
-    },
-    {
-      "id": "CVE-2026-74904",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "SiYuan before v3.7.4 is missing authorization checks in 17 block metadata/content endpoints in kernel/api/block.go (including getRefText, checkBlockExist, and getBlockBreadcrumb). These handlers are gated only by basic a",
-      "published": "2026-08-18T12:19:30.643"
+      "description": "The Simple File List WordPress plugin through 6.3.11 does not validate the source path of a file-move operation reachable by unauthenticated users, allowing them to read arbitrary files on the server and to relocate crit",
+      "published": "2026-08-19T06:17:35.210"
     }
   ],
   "breaches": [
