@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-29T17:35:16Z",
+  "updated": "2026-08-29T18:05:16Z",
   "items": [
+    {
+      "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
+      "url": "https://www.lesswrong.com/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "source": "LessWrong",
+      "published_at": "2026-08-29T17:35:50+00:00",
+      "summary": "We recently published the report from our brief independent investigation into this incident. You can read the full report here . Here is our tweet thread summarizing what we found: METR & Redwood Research investigated agent behavior in the Hugging Face incident. We found agents ",
+      "tag": "ai"
+    },
     {
       "title": "Just a rumour of a bug is enough to find a security exploit these days",
       "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
@@ -95,14 +103,6 @@
       "source": "Simon Willison",
       "published_at": "2026-08-26T23:52:58+00:00",
       "summary": "Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\". It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost. I've been tr",
-      "tag": "ai"
-    },
-    {
-      "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
-      "url": "https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
-      "source": "Alignment Forum",
-      "published_at": "2026-08-26T19:40:21+00:00",
-      "summary": "We recently published the report from our brief independent investigation into this incident. You can read the full report here . Here is our tweet thread summarizing what we found: METR & Redwood Research investigated agent behavior in the Hugging Face incident. We found agents ",
       "tag": "ai"
     },
     {
@@ -234,14 +234,6 @@
       "tag": "ai"
     },
     {
-      "title": "Four LLM loss functions → four flavors of LLM misalignment",
-      "url": "https://www.lesswrong.com/posts/GRmvZsHXH4vaijPMv/four-llm-loss-functions-four-flavors-of-llm-misalignment",
-      "source": "LessWrong",
-      "published_at": "2026-08-14T22:31:55+00:00",
-      "summary": "It seems to me that, for every loss function that we use to train LLMs, we get a very distinct flavor of LLM misalignment. Here’s the summary table, and then we’ll go through the rows separately. Training stage Loss function Flavor of misalignment [1] Famous examples Pretraining ",
-      "tag": "ai"
-    },
-    {
       "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
       "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
       "source": "Interconnects",
@@ -319,6 +311,14 @@
       "source": "Qwen (Alibaba)",
       "published_at": "2025-08-18T17:30:00+00:00",
       "summary": "QWEN CHAT GITHUB HUGGING FACE MODELSCOPE DISCORD We are excited to introduce Qwen-Image-Edit, the image editing version of Qwen-Image. Built upon our 20B Qwen-Image model, Qwen-Image-Edit successfully extends Qwen-Image’s unique text rendering capabilities to image editing tasks,",
+      "tag": "ai"
+    },
+    {
+      "title": "Qwen-Image: Crafting with Native Text Rendering",
+      "url": "https://qwenlm.github.io/blog/qwen-image/",
+      "source": "Qwen (Alibaba)",
+      "published_at": "2025-08-04T14:08:30+00:00",
+      "summary": "GITHUB HUGGING FACE MODELSCOPE DEMO DISCORD We are thrilled to release Qwen-Image, a 20B MMDiT image foundation model that achieves significant advances in complex text rendering and precise image editing. To try the latest model, feel free to visit Qwen Chat and choose “Image Ge",
       "tag": "ai"
     }
   ],
