@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T01:30:25Z",
+  "updated_at": "2026-08-29T01:45:26Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,10 +80,17 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 471.03,
-        "change_24h": 2.17,
+        "symbol": "LEO",
+        "name": "LEO Token",
+        "price": 9.64,
+        "change_24h": 2.39,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.017677,
+        "change_24h": 2.15,
         "asset": "crypto"
       },
       {
@@ -94,24 +101,17 @@
         "asset": "crypto"
       },
       {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.017675,
-        "change_24h": 1.91,
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 470.92,
+        "change_24h": 2.04,
         "asset": "crypto"
       },
       {
-        "symbol": "LEO",
-        "name": "LEO Token",
-        "price": 9.52,
-        "change_24h": 1.69,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.402112,
-        "change_24h": 0.98,
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.098406,
+        "change_24h": 0.74,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.161432,
-        "change_24h": -13.09,
+        "price": 0.161146,
+        "change_24h": -14.7,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 16.03,
-        "change_24h": -11.27,
+        "price": 15.99,
+        "change_24h": -10.9,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.379331,
-        "change_24h": -9.92,
+        "price": 0.379459,
+        "change_24h": -10.55,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.22052,
-        "change_24h": -9.72,
+        "price": 0.220299,
+        "change_24h": -9.21,
         "asset": "crypto"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 246.25,
-        "change_24h": -9.3,
+        "price": 247.02,
+        "change_24h": -8.42,
         "asset": "crypto"
       }
     ]
