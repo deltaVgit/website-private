@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T09:15:44Z",
+  "updated_at": "2026-08-29T09:30:44Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,8 +82,8 @@
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 2.46,
-        "change_24h": 2.76,
+        "price": 2.47,
+        "change_24h": 3.2,
         "asset": "crypto"
       },
       {
@@ -96,59 +96,59 @@
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.099018,
-        "change_24h": 1.67,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.112918,
-        "change_24h": 1.2,
+        "price": 0.099279,
+        "change_24h": 2.05,
         "asset": "crypto"
       },
       {
         "symbol": "PI",
         "name": "Pi Network",
-        "price": 0.092233,
-        "change_24h": 0.69,
+        "price": 0.092151,
+        "change_24h": 0.76,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.112519,
+        "change_24h": 0.73,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.155489,
-        "change_24h": -8.55,
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.216891,
+        "change_24h": -7.59,
         "asset": "crypto"
       },
       {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.217061,
-        "change_24h": -7.49,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.155936,
+        "change_24h": -7.52,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 15.93,
-        "change_24h": -7.21,
+        "price": 15.92,
+        "change_24h": -7.31,
         "asset": "crypto"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 243.93,
-        "change_24h": -7.16,
+        "price": 244.0,
+        "change_24h": -7.28,
         "asset": "crypto"
       },
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.373697,
-        "change_24h": -6.32,
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.41,
+        "change_24h": -6.75,
         "asset": "crypto"
       }
     ]
