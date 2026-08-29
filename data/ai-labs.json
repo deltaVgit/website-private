@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T11:35:01Z",
+  "updated": "2026-08-29T12:05:21Z",
   "items": [
     {
       "title": "Just a rumour of a bug is enough to find a security exploit these days",
@@ -127,14 +127,6 @@
       "source": "Hugging Face Blog",
       "published_at": "2026-08-26T00:00:00+00:00",
       "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "What We Learned Trying to Catch AI Liars: An Aletheia's Quest Retrospective",
-      "url": "https://blog.eleuther.ai/aletheia-retrospective/",
-      "source": "EleutherAI",
-      "published_at": "2026-08-25T16:35:00+00:00",
-      "summary": "What we learned while building black-box and white-box detectors for AI deception during Aletheia's Quest.",
       "tag": "ai"
     },
     {
@@ -266,27 +258,11 @@
       "tag": "ai"
     },
     {
-      "title": "A Dynamical Model of AI Governability",
-      "url": "https://blog.eleuther.ai/dynamical-models-of-ai-governability/",
-      "source": "EleutherAI",
-      "published_at": "2026-07-13T00:00:00+00:00",
-      "summary": "A toy dynamical model of whether the AI workforce that builds future AI ends up cooperative or uncooperative: where the basin boundary lies, what current evidence says about which side we are on, and what would tell us we are on the good path.",
-      "tag": "ai"
-    },
-    {
       "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
       "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
       "source": "NVIDIA AI",
       "published_at": "2026-07-08T15:00:27+00:00",
       "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open mo",
-      "tag": "ai"
-    },
-    {
-      "title": "Early Indicators of Reward Hacking via Reasoning Interpolation",
-      "url": "https://blog.eleuther.ai/reward-hacking-indicators/",
-      "source": "EleutherAI",
-      "published_at": "2026-04-15T00:00:00+00:00",
-      "summary": "Using importance sampling with fine-tuned donor prefills to predict reward hacking emergence during training",
       "tag": "ai"
     },
     {
@@ -319,6 +295,22 @@
       "source": "Qwen (Alibaba)",
       "published_at": "2025-08-18T17:30:00+00:00",
       "summary": "QWEN CHAT GITHUB HUGGING FACE MODELSCOPE DISCORD We are excited to introduce Qwen-Image-Edit, the image editing version of Qwen-Image. Built upon our 20B Qwen-Image model, Qwen-Image-Edit successfully extends Qwen-Image’s unique text rendering capabilities to image editing tasks,",
+      "tag": "ai"
+    },
+    {
+      "title": "Qwen-Image: Crafting with Native Text Rendering",
+      "url": "https://qwenlm.github.io/blog/qwen-image/",
+      "source": "Qwen (Alibaba)",
+      "published_at": "2025-08-04T14:08:30+00:00",
+      "summary": "GITHUB HUGGING FACE MODELSCOPE DEMO DISCORD We are thrilled to release Qwen-Image, a 20B MMDiT image foundation model that achieves significant advances in complex text rendering and precise image editing. To try the latest model, feel free to visit Qwen Chat and choose “Image Ge",
+      "tag": "ai"
+    },
+    {
+      "title": "GSPO: Towards Scalable Reinforcement Learning for Language Models",
+      "url": "https://qwenlm.github.io/blog/gspo/",
+      "source": "Qwen (Alibaba)",
+      "published_at": "2025-07-27T07:00:00+00:00",
+      "summary": "PAPER DISCORD Introduction Reinforcement Learning (RL) has emerged as a pivotal paradigm for scaling language models and enhancing their deep reasoning and problem-solving capabilities. To scale RL, the foremost prerequisite is maintaining stable and robust training dynamics. How",
       "tag": "ai"
     }
   ],
