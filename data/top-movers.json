@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T12:45:52Z",
+  "updated_at": "2026-08-29T13:00:53Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,6 +80,13 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.09964,
+        "change_24h": 2.24,
+        "asset": "crypto"
+      },
+      {
         "symbol": "LEO",
         "name": "LEO Token",
         "price": 9.66,
@@ -87,31 +94,24 @@
         "asset": "crypto"
       },
       {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.099608,
-        "change_24h": 2.16,
+        "symbol": "ICP",
+        "name": "Internet Computer",
+        "price": 2.46,
+        "change_24h": 2.07,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.114647,
-        "change_24h": 2.04,
+        "price": 0.11421,
+        "change_24h": 1.45,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 810.18,
-        "change_24h": 2.01,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 2.45,
-        "change_24h": 2.0,
+        "price": 808.23,
+        "change_24h": 1.37,
         "asset": "crypto"
       }
     ],
@@ -119,35 +119,35 @@
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 244.14,
-        "change_24h": -7.48,
+        "price": 244.02,
+        "change_24h": -7.46,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.217646,
-        "change_24h": -7.24,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.15495,
-        "change_24h": -5.61,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.37463,
-        "change_24h": -5.49,
+        "price": 0.217285,
+        "change_24h": -7.27,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.533118,
+        "price": 0.530895,
+        "change_24h": -5.66,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.375056,
+        "change_24h": -5.5,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEXO",
+        "name": "NEXO",
+        "price": 0.8213,
         "change_24h": -5.25,
         "asset": "crypto"
       }
