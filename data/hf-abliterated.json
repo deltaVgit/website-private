@@ -50,11 +50,11 @@
         "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "name": "Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1967,
+        "likes": 1968,
         "downloads": 796474,
         "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-06-05T17:55:41.000Z",
-        "daysAgo": 84,
+        "daysAgo": 85,
         "pipeline": "",
         "tags": [
           "gguf",
@@ -139,7 +139,7 @@
         "id": "ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "name": "flux2-klein-9b-uncensored-text-encoder",
         "author": "ponpoke",
-        "likes": 472,
+        "likes": 473,
         "downloads": 33976,
         "url": "https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "lastModified": "2026-05-02T11:34:41.000Z",
@@ -388,7 +388,7 @@
       "downloads": 273748,
       "url": "https://huggingface.co/Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
       "lastModified": "2026-08-22T17:50:05.000Z",
-      "daysAgo": 6,
+      "daysAgo": 7,
       "pipeline": "image-text-to-text",
       "tags": [
         "gguf",
@@ -401,8 +401,8 @@
         "multimodal"
       ],
       "pop": 0.881,
-      "rec": 0.8333,
-      "combo": 0.8643
+      "rec": 0.8108,
+      "combo": 0.8564
     },
     {
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
@@ -477,30 +477,6 @@
       "combo": 0.7878
     },
     {
-      "id": "twolven/Qwen3.8-27B-abliterated-AWQ-MTP",
-      "name": "Qwen3.8-27B-abliterated-AWQ-MTP",
-      "author": "twolven",
-      "likes": 9,
-      "downloads": 56626,
-      "url": "https://huggingface.co/twolven/Qwen3.8-27B-abliterated-AWQ-MTP",
-      "lastModified": "2026-08-21T17:53:49.000Z",
-      "daysAgo": 7,
-      "pipeline": "image-text-to-text",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5",
-        "image-text-to-text",
-        "qwen3.8",
-        "awq",
-        "w4a16",
-        "compressed-tensors"
-      ],
-      "pop": 0.7701,
-      "rec": 0.8108,
-      "combo": 0.7843
-    },
-    {
       "id": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
       "name": "Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
       "author": "gbuzhf",
@@ -523,6 +499,30 @@
       "pop": 0.6921,
       "rec": 0.9375,
       "combo": 0.778
+    },
+    {
+      "id": "twolven/Qwen3.8-27B-abliterated-AWQ-MTP",
+      "name": "Qwen3.8-27B-abliterated-AWQ-MTP",
+      "author": "twolven",
+      "likes": 9,
+      "downloads": 56626,
+      "url": "https://huggingface.co/twolven/Qwen3.8-27B-abliterated-AWQ-MTP",
+      "lastModified": "2026-08-21T17:53:49.000Z",
+      "daysAgo": 8,
+      "pipeline": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "qwen3.8",
+        "awq",
+        "w4a16",
+        "compressed-tensors"
+      ],
+      "pop": 0.7701,
+      "rec": 0.7895,
+      "combo": 0.7769
     },
     {
       "id": "Blackfrost-AI/Muse-Glimmer-30B-Abliterated-GGUF",
@@ -622,5 +622,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-08-29T17:35:10Z"
+  "updated": "2026-08-29T18:05:10Z"
 }
