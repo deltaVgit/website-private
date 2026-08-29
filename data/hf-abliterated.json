@@ -50,7 +50,7 @@
         "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "name": "Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1968,
+        "likes": 1967,
         "downloads": 796474,
         "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-06-05T17:55:41.000Z",
@@ -139,7 +139,7 @@
         "id": "ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "name": "flux2-klein-9b-uncensored-text-encoder",
         "author": "ponpoke",
-        "likes": 470,
+        "likes": 471,
         "downloads": 33976,
         "url": "https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "lastModified": "2026-05-02T11:34:41.000Z",
@@ -246,7 +246,7 @@
         "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "name": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 2271,
+        "likes": 2273,
         "downloads": 2422859,
         "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "lastModified": "2026-08-23T08:59:27.000Z",
@@ -288,7 +288,7 @@
         "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
         "author": "huihui-ai",
-        "likes": 434,
+        "likes": 435,
         "downloads": 1485837,
         "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "lastModified": "2026-08-27T06:05:52.000Z",
@@ -336,7 +336,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
       "author": "huihui-ai",
-      "likes": 434,
+      "likes": 435,
       "downloads": 1485837,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "lastModified": "2026-08-27T06:05:52.000Z",
@@ -573,6 +573,30 @@
       "combo": 0.7519
     },
     {
+      "id": "wangzhang/Qwen3.8-27B-abliterated",
+      "name": "Qwen3.8-27B-abliterated",
+      "author": "wangzhang",
+      "likes": 11,
+      "downloads": 5748,
+      "url": "https://huggingface.co/wangzhang/Qwen3.8-27B-abliterated",
+      "lastModified": "2026-08-29T15:52:51.000Z",
+      "daysAgo": 0,
+      "pipeline": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5_text",
+        "text-generation",
+        "qwen",
+        "abliteration",
+        "abliterix",
+        "lora-self-distillation"
+      ],
+      "pop": 0.6091,
+      "rec": 1.0,
+      "combo": 0.7459
+    },
+    {
       "id": "hotdogs/Qwen3.8-27B-abliterated-MTP-GGUF",
       "name": "Qwen3.8-27B-abliterated-MTP-GGUF",
       "author": "hotdogs",
@@ -595,32 +619,8 @@
       "pop": 0.7309,
       "rec": 0.7317,
       "combo": 0.7312
-    },
-    {
-      "id": "drowzeys/keys-DeepSeekV4-Flash-GA-0731-Dspark-Abliterated-Anchored-Tensors",
-      "name": "keys-DeepSeekV4-Flash-GA-0731-Dspark-Abliterated-Anchored-Tensors",
-      "author": "drowzeys",
-      "likes": 114,
-      "downloads": 13558,
-      "url": "https://huggingface.co/drowzeys/keys-DeepSeekV4-Flash-GA-0731-Dspark-Abliterated-Anchored-Tensors",
-      "lastModified": "2026-08-23T05:52:15.000Z",
-      "daysAgo": 6,
-      "pipeline": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "deepseek_v4",
-        "text-generation",
-        "deepseek",
-        "deepseek-v4",
-        "deepseek-v4-flash",
-        "0731"
-      ],
-      "pop": 0.6695,
-      "rec": 0.8333,
-      "combo": 0.7269
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-08-29T15:35:03Z"
+  "updated": "2026-08-29T16:05:03Z"
 }
