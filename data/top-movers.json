@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T18:01:03Z",
+  "updated_at": "2026-08-29T18:16:04Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 41.96,
-        "change_24h": 10.99,
+        "price": 42.14,
+        "change_24h": 11.87,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.116988,
+        "change_24h": 6.34,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
         "price": 2.5,
-        "change_24h": 6.22,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.116377,
-        "change_24h": 5.58,
+        "change_24h": 6.18,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 837.07,
-        "change_24h": 5.51,
+        "price": 834.42,
+        "change_24h": 5.75,
         "asset": "crypto"
       },
       {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.048,
-        "change_24h": 5.37,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 4.63,
+        "change_24h": 5.08,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.103783,
+        "price": 0.103554,
         "change_24h": -4.17,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 16.43,
-        "change_24h": -3.85,
+        "price": 16.41,
+        "change_24h": -3.17,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.374481,
-        "change_24h": -3.7,
+        "price": 0.37497,
+        "change_24h": -2.9,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.156655,
-        "change_24h": -3.34,
+        "price": 0.155968,
+        "change_24h": -2.63,
         "asset": "crypto"
       },
       {
-        "symbol": "TRUMP",
-        "name": "Official Trump",
-        "price": 2.65,
-        "change_24h": -2.16,
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.4,
+        "change_24h": -1.57,
         "asset": "crypto"
       }
     ]
