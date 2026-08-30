@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T11:45:41Z",
+  "updated_at": "2026-08-30T12:00:42Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 5.02,
-        "change_24h": 14.54,
+        "price": 5.1,
+        "change_24h": 16.31,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 41.4,
+        "change_24h": 5.79,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.082,
+        "change_24h": 5.66,
         "asset": "crypto"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
         "price": 0.00702,
-        "change_24h": 5.65,
+        "change_24h": 5.63,
         "asset": "crypto"
       },
       {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 41.2,
-        "change_24h": 5.57,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.083,
-        "change_24h": 5.47,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.118514,
-        "change_24h": 5.26,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 1.88,
+        "change_24h": 4.64,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
-        "price": 2.54,
-        "change_24h": -7.0,
+        "price": 2.53,
+        "change_24h": -7.47,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.0,
+        "change_24h": -3.82,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.09607,
-        "change_24h": -3.56,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LEO",
-        "name": "LEO Token",
-        "price": 9.49,
-        "change_24h": -1.77,
+        "price": 0.09609,
+        "change_24h": -3.67,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
         "price": 2.44,
-        "change_24h": -1.66,
+        "change_24h": -1.84,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.213312,
-        "change_24h": -1.59,
+        "price": 0.213885,
+        "change_24h": -1.81,
         "asset": "crypto"
       }
     ]
