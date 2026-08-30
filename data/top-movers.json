@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T16:00:52Z",
+  "updated_at": "2026-08-30T16:15:52Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 5.15,
-        "change_24h": 14.83,
+        "price": 5.24,
+        "change_24h": 15.15,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "price": 0.579569,
+        "change_24h": 10.6,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
-        "price": 1.88,
-        "change_24h": 9.11,
+        "price": 1.9,
+        "change_24h": 9.84,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 506.01,
-        "change_24h": 8.64,
+        "price": 501.68,
+        "change_24h": 7.84,
         "asset": "crypto"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.007004,
-        "change_24h": 5.01,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CRO",
-        "name": "Cronos",
-        "price": 0.06011,
-        "change_24h": 4.29,
+        "price": 0.007049,
+        "change_24h": 5.22,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
-        "price": 2.52,
-        "change_24h": -5.33,
+        "price": 2.55,
+        "change_24h": -4.78,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.094968,
-        "change_24h": -4.23,
+        "price": 0.095209,
+        "change_24h": -3.94,
         "asset": "crypto"
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
         "price": 1.0,
-        "change_24h": -3.79,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 2.45,
-        "change_24h": -3.11,
+        "change_24h": -3.91,
         "asset": "crypto"
       },
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.102135,
-        "change_24h": -2.64,
+        "price": 0.102208,
+        "change_24h": -2.54,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ICP",
+        "name": "Internet Computer",
+        "price": 2.46,
+        "change_24h": -2.51,
         "asset": "crypto"
       }
     ]
