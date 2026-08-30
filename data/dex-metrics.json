@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T12:05:40Z",
+  "updated_at": "2026-08-30T13:05:44Z",
   "source": "https://api.llama.fi/overview/dexs",
   "weekly": [
     {
@@ -1258,9 +1258,9 @@
     },
     {
       "week": "2026-W35",
-      "curated": 63612769840.700005,
-      "filtered": 63612769840.700005,
-      "raw": 63612769840.700005
+      "curated": 63659685681.670006,
+      "filtered": 63659685681.670006,
+      "raw": 63659685681.670006
     }
   ],
   "chains": [
@@ -1271,8 +1271,8 @@
     },
     {
       "chain": "Raydium AMM",
-      "volume_24h": 98676820.0,
-      "delta_pct": -43.43
+      "volume_24h": 97665269.0,
+      "delta_pct": -44.01
     },
     {
       "chain": "PancakeSwap AMM",
@@ -1281,8 +1281,8 @@
     },
     {
       "chain": "Curve DEX",
-      "volume_24h": 23647066.0,
-      "delta_pct": -83.17
+      "volume_24h": 28799003.0,
+      "delta_pct": -79.51
     },
     {
       "chain": "Quickswap Dex",
@@ -1296,23 +1296,18 @@
     },
     {
       "chain": "SushiSwap",
-      "volume_24h": 400161.0,
-      "delta_pct": -42.6
-    },
-    {
-      "chain": "Defi Swap",
-      "volume_24h": 256242.0,
-      "delta_pct": -13.54
+      "volume_24h": 423164.0,
+      "delta_pct": -39.3
     },
     {
       "chain": "Balancer V1",
-      "volume_24h": 178450.0,
-      "delta_pct": -65.42
+      "volume_24h": 149938.0,
+      "delta_pct": -70.95
     },
     {
       "chain": "Bancor V2.1",
-      "volume_24h": 118001.0,
-      "delta_pct": -52.16
+      "volume_24h": 115267.0,
+      "delta_pct": -53.27
     },
     {
       "chain": "Nerve",
@@ -1320,9 +1315,14 @@
       "delta_pct": -48.78
     },
     {
+      "chain": "Defi Swap",
+      "volume_24h": 10912.0,
+      "delta_pct": -96.32
+    },
+    {
       "chain": "Ellipsis Finance",
-      "volume_24h": 10796.0,
-      "delta_pct": -28.74
+      "volume_24h": 10713.0,
+      "delta_pct": -29.29
     }
   ]
 }
