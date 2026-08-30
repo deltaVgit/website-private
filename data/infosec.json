@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T23:34:33Z",
+  "updatedAt": "2026-08-30T00:04:33Z",
   "kev": [
     {
       "cve": "CVE-2023-49105",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-76008",
+      "id": "CVE-2026-14950",
       "severity": "CRITICAL",
-      "score": 10.0,
-      "description": "A flaw has been found in Comfast CF-N1-S 2.6.0.1. This affects the function get_para_from_uri of the file /cgi-bin/mbox-config of the component URI Parameter Parsing. This manipulation of the argument width/height causes",
-      "published": "2026-08-19T03:16:53.077"
+      "score": 9.8,
+      "description": "An unauthenticated remote attacker in possession of a valid session identifier is able to continue using the session after it should have expired. This increases the risk associated with stolen, leaked, shared, or unatte",
+      "published": "2026-08-20T09:16:47.450"
     },
     {
-      "id": "CVE-2026-76004",
+      "id": "CVE-2026-75860",
       "severity": "CRITICAL",
-      "score": 9.9,
-      "description": "A security vulnerability has been detected in UTT HiPER 1250GW up to 3.2.7-210907-180535. Affected by this vulnerability is the function strcpy of the file /goform/aspApBasicConfigUrcp of the component HTTP Handler. The ",
-      "published": "2026-08-19T03:16:52.900"
+      "score": 9.8,
+      "description": "The JSON Options WordPress plugin through 0.0.4 does not have any capability check or nonce verification on one of its actions, which runs on every request and is available to unauthenticated users, allowing them to upda",
+      "published": "2026-08-20T06:17:32.207"
     },
     {
-      "id": "CVE-2026-76003",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "description": "A weakness has been identified in UTT HiPER 1200GW up to 2.5.3-170306. Affected is the function strcpy of the file /goform/formGroupConfig. Executing a manipulation of the argument timestart can lead to stack-based buffe",
-      "published": "2026-08-19T03:16:52.727"
-    },
-    {
-      "id": "CVE-2026-75976",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "description": "A weakness has been identified in TRENDnet TEW-823DRU 1.1.02b01. Impacted is the function strcpy of the file /cgi-bin/wan.cgi of the component NVRAM. This manipulation of the argument wan_l2tp_password causes stack-based",
-      "published": "2026-08-19T00:16:28.510"
-    },
-    {
-      "id": "CVE-2026-11751",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "description": "A vulnerability has been identified in armeria-xds versions prior to 1.41.0, where xDS upstream TLS peer verification may be silently disabled, allowing man-in-the-middle attacks against xDS-managed upstream connections.",
-      "published": "2026-08-19T02:16:12.530"
-    },
-    {
-      "id": "CVE-2026-16617",
+      "id": "CVE-2026-14948",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "The Simple File List WordPress plugin through 6.3.11 does not properly sanitise and escape a file's description before outputting it on the public file list, allowing unauthenticated users (when front-end file management",
-      "published": "2026-08-19T06:17:35.500"
+      "description": "A low privileged remote attacker can hijack an active administrative session without needing to know the administrator password by extracting live plaintext session identifiers for authenticated users from downloadable e",
+      "published": "2026-08-20T09:16:47.137"
     },
     {
-      "id": "CVE-2026-14334",
-      "severity": "HIGH",
-      "score": 8.8,
-      "description": "The Booking calendar, Appointment Booking System WordPress plugin through 3.2.36 does not properly sanitize uploaded SVG files, allowing unauthenticated attackers to upload a file that bypasses the Booking calendar, Appo",
-      "published": "2026-08-19T06:17:33.263"
-    },
-    {
-      "id": "CVE-2026-49419",
-      "severity": "HIGH",
-      "score": 8.8,
-      "description": "When the JAIL_AT_DESC flag is specified, kern_jail_set() and kern_jail_get() released the reference to the caller's current prison before looking up the jail descriptor. If the descriptor lookup failed, error-handling pa",
-      "published": "2026-08-19T05:17:04.053"
-    },
-    {
-      "id": "CVE-2026-49418",
-      "severity": "HIGH",
-      "score": 8.8,
-      "description": "When msync(MS_INVALIDATE) is called on a mapping of an unmanaged device object, the physical pages in the mapping range are marked invalid but remain in the pager's page list. A subsequent page fault will cause the fault",
-      "published": "2026-08-19T05:17:03.943"
-    },
-    {
-      "id": "CVE-2026-49415",
-      "severity": "HIGH",
-      "score": 8.8,
-      "description": "During execve(2) of a SUID binary, the new virtual address space is installed before the process credentials are updated. During this window, a process running as the same user can access the target process's memory via ",
-      "published": "2026-08-19T05:17:03.830"
-    },
-    {
-      "id": "CVE-2026-70408",
-      "severity": "HIGH",
-      "score": 8.7,
-      "description": "An incorrect authorization vulnerability exists in acmailer, which may allow a user to create a sub-account that has administrative privileges.",
-      "published": "2026-08-19T05:17:05.820"
-    },
-    {
-      "id": "CVE-2026-16616",
+      "id": "CVE-2026-76564",
       "severity": "HIGH",
       "score": 8.6,
-      "description": "The Simple File List WordPress plugin through 6.3.11 does not validate the source path of a file-move operation reachable by unauthenticated users, allowing them to read arbitrary files on the server and to relocate crit",
-      "published": "2026-08-19T06:17:35.210"
+      "description": "Joomla Extension - phoca.cz - Stored XSS via User-Agent header in Admin Order View in Phoca Cart 5.0.0-6.1.7",
+      "published": "2026-08-20T08:16:47.770"
+    },
+    {
+      "id": "CVE-2026-75948",
+      "severity": "HIGH",
+      "score": 8.6,
+      "description": "Joomla Extension - icagenda.com - Authenticated Stored XSS in iCagenda 4.0.8 to 4.0.12 - The frontend \"Submit an Event\" form stores the `image` and `file` fields as raw strings with no output-side HTML-attribute escaping",
+      "published": "2026-08-20T08:16:47.640"
+    },
+    {
+      "id": "CVE-2025-14601",
+      "severity": "HIGH",
+      "score": 8.6,
+      "description": "An OS command injection vulnerability in vsDesk allows an authenticated attacker with administrative privileges to execute arbitrary operating system commands due to insufficient input filtering. An attacker can exploit ",
+      "published": "2026-08-20T08:16:46.273"
+    },
+    {
+      "id": "CVE-2026-14951",
+      "severity": "HIGH",
+      "score": 8.0,
+      "description": "An low privileged remote attacker can cause authenticated users to perform unintended actions in the FDS Web interface using malicious web pages.",
+      "published": "2026-08-20T09:16:47.597"
+    },
+    {
+      "id": "CVE-2026-14952",
+      "severity": "HIGH",
+      "score": 7.5,
+      "description": "An unauthenticated remote attacker can retrieve sensible files from the FDS Web server, such as the backup archive at /FdsBackup.zip and additional files under /downloads/*, directly over HTTP without a valid session. Th",
+      "published": "2026-08-20T09:16:47.740"
+    },
+    {
+      "id": "CVE-2026-75963",
+      "severity": "HIGH",
+      "score": 7.5,
+      "description": "The Events Made Easy plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 3.2.5 via the eme_single_event_page_template function. This makes it possible for authenticated attack",
+      "published": "2026-08-20T06:17:32.360"
+    },
+    {
+      "id": "CVE-2026-76795",
+      "severity": "HIGH",
+      "score": 7.3,
+      "description": "A vulnerability has been found in AeternaLabsHQ PullMD 3.2.0. This impacts an unknown function of the file /api of the component REST API Endpoint. The manipulation of the argument url leads to server-side request forger",
+      "published": "2026-08-20T01:16:54.277"
+    },
+    {
+      "id": "CVE-2026-76783",
+      "severity": "HIGH",
+      "score": 7.3,
+      "description": "A security vulnerability has been detected in DeDeCMS 53_1_UTF8. This vulnerability affects unknown code of the file /plus/advancedsearch.php. Such manipulation of the argument sql leads to sql injection. The attack can ",
+      "published": "2026-08-20T01:16:53.923"
+    },
+    {
+      "id": "CVE-2026-76764",
+      "severity": "HIGH",
+      "score": 7.3,
+      "description": "A flaw has been found in code-projects Employee Management System 1.0. The impacted element is an unknown function of the file /process/aprocess.php of the component Admin Login Endpoint. This manipulation of the argumen",
+      "published": "2026-08-20T00:16:52.983"
     }
   ],
   "breaches": [
