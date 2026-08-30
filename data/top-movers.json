@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T13:00:43Z",
+  "updated_at": "2026-08-30T13:15:45Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,52 +82,45 @@
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 5.22,
-        "change_24h": 18.76,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CRO",
-        "name": "Cronos",
-        "price": 0.061595,
-        "change_24h": 6.75,
+        "price": 5.26,
+        "change_24h": 19.87,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
-        "price": 1.81,
-        "change_24h": 6.03,
+        "price": 1.83,
+        "change_24h": 7.32,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEXO",
+        "name": "NEXO",
+        "price": 0.867466,
+        "change_24h": 5.7,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.084,
-        "change_24h": 5.19,
+        "price": 1.083,
+        "change_24h": 5.12,
         "asset": "crypto"
       },
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 848.95,
-        "change_24h": 5.14,
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 487.37,
+        "change_24h": 5.02,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.095782,
-        "change_24h": -3.87,
-        "asset": "crypto"
-      },
-      {
         "symbol": "TRUMP",
         "name": "Official Trump",
-        "price": 2.57,
-        "change_24h": -3.84,
+        "price": 2.56,
+        "change_24h": -4.54,
         "asset": "crypto"
       },
       {
@@ -138,17 +131,24 @@
         "asset": "crypto"
       },
       {
-        "symbol": "LEO",
-        "name": "LEO Token",
-        "price": 9.53,
-        "change_24h": -1.4,
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.095752,
+        "change_24h": -3.78,
         "asset": "crypto"
       },
       {
-        "symbol": "POL",
-        "name": "POL (ex-MATIC)",
-        "price": 0.104059,
-        "change_24h": -0.95,
+        "symbol": "LEO",
+        "name": "LEO Token",
+        "price": 9.53,
+        "change_24h": -1.35,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "EUTBL",
+        "name": "Spiko EU T-Bills Money Market Fund",
+        "price": 1.21,
+        "change_24h": -0.89,
         "asset": "crypto"
       }
     ]
