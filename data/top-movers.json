@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T19:30:33Z",
+  "updated_at": "2026-08-30T19:45:35Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 5.39,
-        "change_24h": 15.54,
+        "price": 5.35,
+        "change_24h": 15.08,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.581555,
-        "change_24h": 11.96,
+        "price": 0.574396,
+        "change_24h": 10.64,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.84,
-        "change_24h": 9.29,
+        "price": 3.85,
+        "change_24h": 9.9,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
-        "price": 1.87,
-        "change_24h": 8.41,
+        "price": 1.86,
+        "change_24h": 7.92,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 43.92,
-        "change_24h": 5.25,
+        "price": 43.73,
+        "change_24h": 4.96,
         "asset": "crypto"
       }
     ],
@@ -119,8 +119,15 @@
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
-        "price": 2.54,
-        "change_24h": -5.19,
+        "price": 2.52,
+        "change_24h": -5.53,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.095123,
+        "change_24h": -4.23,
         "asset": "crypto"
       },
       {
@@ -131,24 +138,17 @@
         "asset": "crypto"
       },
       {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.09521,
-        "change_24h": -4.12,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.004661,
+        "change_24h": -4.06,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.403401,
+        "price": 0.403543,
         "change_24h": -3.35,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "POL",
-        "name": "POL (ex-MATIC)",
-        "price": 0.099836,
-        "change_24h": -2.66,
         "asset": "crypto"
       }
     ]
