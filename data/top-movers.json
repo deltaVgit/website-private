@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T18:15:55Z",
+  "updated_at": "2026-08-30T18:30:59Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,52 +82,45 @@
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 5.44,
-        "change_24h": 17.49,
+        "price": 5.43,
+        "change_24h": 16.1,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.567705,
-        "change_24h": 9.0,
+        "price": 0.587456,
+        "change_24h": 12.9,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
-        "price": 1.86,
-        "change_24h": 8.34,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 492.84,
-        "change_24h": 6.3,
+        "price": 1.87,
+        "change_24h": 8.7,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
         "price": 3.69,
-        "change_24h": 6.01,
+        "change_24h": 6.47,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VET",
+        "name": "VeChain",
+        "price": 0.007056,
+        "change_24h": 5.47,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "POL",
-        "name": "POL (ex-MATIC)",
-        "price": 0.098669,
-        "change_24h": -4.75,
-        "asset": "crypto"
-      },
-      {
         "symbol": "TRUMP",
         "name": "Official Trump",
         "price": 2.54,
-        "change_24h": -3.98,
+        "change_24h": -4.35,
         "asset": "crypto"
       },
       {
@@ -140,15 +133,22 @@
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.095504,
-        "change_24h": -3.62,
+        "price": 0.095454,
+        "change_24h": -3.63,
         "asset": "crypto"
       },
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.40007,
-        "change_24h": -2.17,
+        "symbol": "POL",
+        "name": "POL (ex-MATIC)",
+        "price": 0.099912,
+        "change_24h": -3.52,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ICP",
+        "name": "Internet Computer",
+        "price": 2.45,
+        "change_24h": -1.92,
         "asset": "crypto"
       }
     ]
