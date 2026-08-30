@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T12:35:26Z",
+  "updatedAt": "2026-08-30T13:05:02Z",
   "kev": [
     {
       "cve": "CVE-2023-49105",
@@ -128,7 +128,92 @@
       "knownRansomware": "Unknown"
     }
   ],
-  "cves": [],
+  "cves": [
+    {
+      "id": "CVE-2026-14950",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "An unauthenticated remote attacker in possession of a valid session identifier is able to continue using the session after it should have expired. This increases the risk associated with stolen, leaked, shared, or unatte",
+      "published": "2026-08-20T09:16:47.450"
+    },
+    {
+      "id": "CVE-2026-75860",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "The JSON Options WordPress plugin through 0.0.4 does not have any capability check or nonce verification on one of its actions, which runs on every request and is available to unauthenticated users, allowing them to upda",
+      "published": "2026-08-20T06:17:32.207"
+    },
+    {
+      "id": "CVE-2026-14948",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "A low privileged remote attacker can hijack an active administrative session without needing to know the administrator password by extracting live plaintext session identifiers for authenticated users from downloadable e",
+      "published": "2026-08-20T09:16:47.137"
+    },
+    {
+      "id": "CVE-2026-76564",
+      "severity": "HIGH",
+      "score": 8.6,
+      "description": "Joomla Extension - phoca.cz - Stored XSS via User-Agent header in Admin Order View in Phoca Cart 5.0.0-6.1.7",
+      "published": "2026-08-20T08:16:47.770"
+    },
+    {
+      "id": "CVE-2026-75948",
+      "severity": "HIGH",
+      "score": 8.6,
+      "description": "Joomla Extension - icagenda.com - Authenticated Stored XSS in iCagenda 4.0.8 to 4.0.12 - The frontend \"Submit an Event\" form stores the `image` and `file` fields as raw strings with no output-side HTML-attribute escaping",
+      "published": "2026-08-20T08:16:47.640"
+    },
+    {
+      "id": "CVE-2025-14601",
+      "severity": "HIGH",
+      "score": 8.6,
+      "description": "An OS command injection vulnerability in vsDesk allows an authenticated attacker with administrative privileges to execute arbitrary operating system commands due to insufficient input filtering. An attacker can exploit ",
+      "published": "2026-08-20T08:16:46.273"
+    },
+    {
+      "id": "CVE-2026-14951",
+      "severity": "HIGH",
+      "score": 8.0,
+      "description": "An low privileged remote attacker can cause authenticated users to perform unintended actions in the FDS Web interface using malicious web pages.",
+      "published": "2026-08-20T09:16:47.597"
+    },
+    {
+      "id": "CVE-2026-14952",
+      "severity": "HIGH",
+      "score": 7.5,
+      "description": "An unauthenticated remote attacker can retrieve sensible files from the FDS Web server, such as the backup archive at /FdsBackup.zip and additional files under /downloads/*, directly over HTTP without a valid session. Th",
+      "published": "2026-08-20T09:16:47.740"
+    },
+    {
+      "id": "CVE-2026-75963",
+      "severity": "HIGH",
+      "score": 7.5,
+      "description": "The Events Made Easy plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 3.2.5 via the eme_single_event_page_template function. This makes it possible for authenticated attack",
+      "published": "2026-08-20T06:17:32.360"
+    },
+    {
+      "id": "CVE-2026-76795",
+      "severity": "HIGH",
+      "score": 7.3,
+      "description": "A vulnerability has been found in AeternaLabsHQ PullMD 3.2.0. This impacts an unknown function of the file /api of the component REST API Endpoint. The manipulation of the argument url leads to server-side request forger",
+      "published": "2026-08-20T01:16:54.277"
+    },
+    {
+      "id": "CVE-2026-76783",
+      "severity": "HIGH",
+      "score": 7.3,
+      "description": "A security vulnerability has been detected in DeDeCMS 53_1_UTF8. This vulnerability affects unknown code of the file /plus/advancedsearch.php. Such manipulation of the argument sql leads to sql injection. The attack can ",
+      "published": "2026-08-20T01:16:53.923"
+    },
+    {
+      "id": "CVE-2026-76764",
+      "severity": "HIGH",
+      "score": 7.3,
+      "description": "A flaw has been found in code-projects Employee Management System 1.0. The impacted element is an unknown function of the file /process/aprocess.php of the component Admin Login Endpoint. This manipulation of the argumen",
+      "published": "2026-08-20T00:16:52.983"
+    }
+  ],
   "breaches": [
     {
       "name": "OzHairAndBeauty",
