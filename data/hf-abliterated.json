@@ -5,7 +5,7 @@
         "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Uncensored-GGUF",
         "author": "JonathanColetti",
-        "likes": 820,
+        "likes": 821,
         "downloads": 1843237,
         "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "lastModified": "2026-08-29T04:18:18.000Z",
@@ -26,7 +26,7 @@
         "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "author": "0bserverx",
-        "likes": 312,
+        "likes": 313,
         "downloads": 990213,
         "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "lastModified": "2026-08-20T19:51:25.000Z",
@@ -199,24 +199,24 @@
         ]
       },
       {
-        "id": "Cordux/flux2-klein-4B-uncensored-text-encoder",
-        "name": "flux2-klein-4B-uncensored-text-encoder",
-        "author": "Cordux",
-        "likes": 114,
-        "downloads": 2321,
-        "url": "https://huggingface.co/Cordux/flux2-klein-4B-uncensored-text-encoder",
-        "lastModified": "2026-01-27T22:00:36.000Z",
-        "daysAgo": 214,
+        "id": "DeepNeuralNerd/Gemma-4-12B-it-uncensored-heretic-DeepNeuralNerd-LTX_2.5_ComfyUI",
+        "name": "Gemma-4-12B-it-uncensored-heretic-DeepNeuralNerd-LTX_2.5_ComfyUI",
+        "author": "DeepNeuralNerd",
+        "likes": 27,
+        "downloads": 0,
+        "url": "https://huggingface.co/DeepNeuralNerd/Gemma-4-12B-it-uncensored-heretic-DeepNeuralNerd-LTX_2.5_ComfyUI",
+        "lastModified": "2026-08-12T17:10:46.000Z",
+        "daysAgo": 17,
         "pipeline": "",
         "tags": [
-          "gguf",
-          "qwen3",
-          "abliterated",
-          "uncensored",
-          "text-generation-inference",
-          "flux2",
-          "klein",
-          "base_model:huihui-ai/Qwen3-4B-abliterated"
+          "transformers",
+          "gemma4_unified",
+          "gemma-4",
+          "ltx-2.5",
+          "comfyui",
+          "text-encoder",
+          "safetensors",
+          "bf16"
         ]
       }
     ],
@@ -360,7 +360,7 @@
       "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "author": "0bserverx",
-      "likes": 312,
+      "likes": 313,
       "downloads": 990213,
       "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "lastModified": "2026-08-20T19:51:25.000Z",
@@ -622,5 +622,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-08-30T01:04:23Z"
+  "updated": "2026-08-30T01:34:24Z"
 }
