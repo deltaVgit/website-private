@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T04:00:26Z",
+  "updated_at": "2026-08-30T04:15:27Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.459523,
-        "change_24h": 14.75,
-        "asset": "crypto"
-      },
-      {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 4.89,
-        "change_24h": 11.52,
+        "price": 4.9,
+        "change_24h": 11.47,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.120401,
-        "change_24h": 9.15,
+        "price": 0.120384,
+        "change_24h": 8.81,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004955,
-        "change_24h": 7.87,
+        "price": 0.004928,
+        "change_24h": 7.18,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.097,
-        "change_24h": 7.27,
+        "price": 1.091,
+        "change_24h": 6.56,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 41.19,
+        "change_24h": 5.78,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
-        "price": 2.6,
-        "change_24h": -8.97,
+        "price": 2.57,
+        "change_24h": -12.5,
         "asset": "crypto"
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
         "price": 1.0,
-        "change_24h": -3.83,
+        "change_24h": -3.82,
         "asset": "crypto"
       },
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.104108,
-        "change_24h": -1.98,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.096658,
-        "change_24h": -1.86,
+        "price": 0.103487,
+        "change_24h": -2.47,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.214916,
-        "change_24h": -1.75,
+        "price": 0.214035,
+        "change_24h": -2.12,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.158388,
+        "change_24h": -2.05,
         "asset": "crypto"
       }
     ]
