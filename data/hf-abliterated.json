@@ -68,6 +68,30 @@
         ]
       },
       {
+        "id": "wangzhang/gemma-4-31B-it-abliterated",
+        "name": "gemma-4-31B-it-abliterated",
+        "author": "wangzhang",
+        "likes": 30,
+        "downloads": 725645,
+        "url": "https://huggingface.co/wangzhang/gemma-4-31B-it-abliterated",
+        "lastModified": "2026-08-29T17:03:21.000Z",
+        "daysAgo": 1,
+        "pipeline": "",
+        "tags": [
+          "safetensors",
+          "gemma4",
+          "abliterated",
+          "uncensored",
+          "direct-weight-editing",
+          "abliterix",
+          "vllm",
+          "llm-judge"
+        ],
+        "pop": 0.9437,
+        "rec": 0.9677,
+        "combo": 0.9521
+      },
+      {
         "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
         "name": "Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
         "author": "huihui-ai",
@@ -90,27 +114,6 @@
         "pop": 0.9232,
         "rec": 0.5263,
         "combo": 0.7843
-      },
-      {
-        "id": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
-        "name": "supergemma4-26b-uncensored-gguf-v2",
-        "author": "Jiunsong",
-        "likes": 979,
-        "downloads": 332496,
-        "url": "https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2",
-        "lastModified": "2026-04-12T13:42:43.000Z",
-        "daysAgo": 140,
-        "pipeline": "text-generation",
-        "tags": [
-          "gguf",
-          "gemma4",
-          "uncensored",
-          "fast",
-          "llama.cpp",
-          "apple-silicon",
-          "conversational",
-          "korean"
-        ]
       }
     ],
     "image_video": [
@@ -246,7 +249,7 @@
         "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "name": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 2283,
+        "likes": 2284,
         "downloads": 2320909,
         "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "lastModified": "2026-08-23T08:59:27.000Z",
@@ -355,6 +358,30 @@
       "pop": 1.0,
       "rec": 0.9091,
       "combo": 0.9682
+    },
+    {
+      "id": "wangzhang/gemma-4-31B-it-abliterated",
+      "name": "gemma-4-31B-it-abliterated",
+      "author": "wangzhang",
+      "likes": 30,
+      "downloads": 725645,
+      "url": "https://huggingface.co/wangzhang/gemma-4-31B-it-abliterated",
+      "lastModified": "2026-08-29T17:03:21.000Z",
+      "daysAgo": 1,
+      "pipeline": "",
+      "tags": [
+        "safetensors",
+        "gemma4",
+        "abliterated",
+        "uncensored",
+        "direct-weight-editing",
+        "abliterix",
+        "vllm",
+        "llm-judge"
+      ],
+      "pop": 0.9437,
+      "rec": 0.9677,
+      "combo": 0.9521
     },
     {
       "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
@@ -595,32 +622,8 @@
       "pop": 0.7295,
       "rec": 0.7895,
       "combo": 0.7505
-    },
-    {
-      "id": "wangzhang/Qwen3.8-27B-abliterated",
-      "name": "Qwen3.8-27B-abliterated",
-      "author": "wangzhang",
-      "likes": 11,
-      "downloads": 6285,
-      "url": "https://huggingface.co/wangzhang/Qwen3.8-27B-abliterated",
-      "lastModified": "2026-08-29T17:03:19.000Z",
-      "daysAgo": 1,
-      "pipeline": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5_text",
-        "text-generation",
-        "qwen",
-        "abliteration",
-        "abliterix",
-        "lora-self-distillation"
-      ],
-      "pop": 0.6116,
-      "rec": 0.9677,
-      "combo": 0.7363
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-08-31T00:34:49Z"
+  "updated": "2026-08-31T01:04:50Z"
 }
