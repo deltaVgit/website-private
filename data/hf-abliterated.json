@@ -51,7 +51,7 @@
         "name": "Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
         "likes": 1974,
-        "downloads": 821713,
+        "downloads": 825187,
         "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-06-05T17:55:41.000Z",
         "daysAgo": 86,
@@ -142,7 +142,7 @@
         "id": "ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "name": "flux2-klein-9b-uncensored-text-encoder",
         "author": "ponpoke",
-        "likes": 483,
+        "likes": 485,
         "downloads": 35241,
         "url": "https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "lastModified": "2026-05-02T11:34:41.000Z",
@@ -163,7 +163,7 @@
         "id": "ponpoke/flux2-klein-4b-uncensored-text-encoder",
         "name": "flux2-klein-4b-uncensored-text-encoder",
         "author": "ponpoke",
-        "likes": 147,
+        "likes": 148,
         "downloads": 11377,
         "url": "https://huggingface.co/ponpoke/flux2-klein-4b-uncensored-text-encoder",
         "lastModified": "2026-05-02T11:35:01.000Z",
@@ -185,7 +185,7 @@
         "name": "FHDR_Uncensored",
         "author": "kpsss34",
         "likes": 624,
-        "downloads": 4098,
+        "downloads": 4082,
         "url": "https://huggingface.co/kpsss34/FHDR_Uncensored",
         "lastModified": "2026-02-27T02:17:36.000Z",
         "daysAgo": 185,
@@ -253,7 +253,7 @@
         "downloads": 2320909,
         "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "lastModified": "2026-08-23T08:59:27.000Z",
-        "daysAgo": 7,
+        "daysAgo": 8,
         "pipeline": "image-text-to-text",
         "tags": [
           "gguf",
@@ -294,8 +294,8 @@
         "likes": 463,
         "downloads": 1622056,
         "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
-        "lastModified": "2026-08-27T06:05:52.000Z",
-        "daysAgo": 4,
+        "lastModified": "2026-08-31T09:03:38.000Z",
+        "daysAgo": 0,
         "pipeline": "image-text-to-text",
         "tags": [
           "transformers",
@@ -308,8 +308,8 @@
           "image-text-to-text"
         ],
         "pop": 1.0,
-        "rec": 0.8824,
-        "combo": 0.9588
+        "rec": 1.0,
+        "combo": 1.0
       },
       {
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
@@ -342,8 +342,8 @@
       "likes": 463,
       "downloads": 1622056,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
-      "lastModified": "2026-08-27T06:05:52.000Z",
-      "daysAgo": 4,
+      "lastModified": "2026-08-31T09:03:38.000Z",
+      "daysAgo": 0,
       "pipeline": "image-text-to-text",
       "tags": [
         "transformers",
@@ -356,8 +356,8 @@
         "image-text-to-text"
       ],
       "pop": 1.0,
-      "rec": 0.8824,
-      "combo": 0.9588
+      "rec": 1.0,
+      "combo": 1.0
     },
     {
       "id": "wangzhang/gemma-4-31B-it-abliterated",
@@ -625,5 +625,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-08-31T08:34:18Z"
+  "updated": "2026-08-31T09:04:19Z"
 }
