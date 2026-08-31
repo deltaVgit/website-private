@@ -1,6 +1,86 @@
 {
-  "updated": "2026-08-31T03:35:08Z",
+  "updated": "2026-08-31T04:05:09Z",
   "items": [
+    {
+      "title": "Time Capsule of Testable Human Knowledge: 41 Years of Jeopardy! in a Single Free Local Model",
+      "url": "https://arxiv.org/abs/2608.27459",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-08-31T04:00:00+00:00",
+      "summary": "arXiv:2608.27459v1 Announce Type: new Abstract: In 2011, IBM's Watson was something like a sealed capsule of its era's queryable knowledge. Its DeepQA system defeated the strongest human Jeopardy! champions, but the knowledge that let it do so lived in a curated billion-document ",
+      "tag": "ai"
+    },
+    {
+      "title": "Rating the Raters: Rasch Measurement Theory for LLM Evaluation",
+      "url": "https://arxiv.org/abs/2608.27463",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-08-31T04:00:00+00:00",
+      "summary": "arXiv:2608.27463v1 Announce Type: new Abstract: LLMs now sit on every side of evaluation: as examinees scored on benchmarks, judges of other models' outputs, and raters of human-generated content. Each paradigm can be viewed as a measurement problem, where a latent property of an",
+      "tag": "ai"
+    },
+    {
+      "title": "Not All Explanations Are Sought: Information-Seeking Psychology for Human-Centered XAI",
+      "url": "https://arxiv.org/abs/2608.27464",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-08-31T04:00:00+00:00",
+      "summary": "arXiv:2608.27464v1 Announce Type: new Abstract: This position paper argues that human-centered explainable AI (HCXAI) should incorporate insights from the psychology of information seeking. Drawing on Sharot and Sunstein's framework of information-seeking motives, we propose that",
+      "tag": "ai"
+    },
+    {
+      "title": "Retrieving Relations, Detecting Fallacies: A RAG Approach to Political Debate Analysis",
+      "url": "https://arxiv.org/abs/2608.27471",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-08-31T04:00:00+00:00",
+      "summary": "arXiv:2608.27471v1 Announce Type: new Abstract: Fallacies are arguments that employ invalid reasoning, making their automatic detection critical in sensitive contexts such as high-stakes political debates, where public opinion is shaped. Spotting a fallacious argument requires co",
+      "tag": "ai"
+    },
+    {
+      "title": "Marginal Coverage Credit Reduces Redundant Exploration in Parallel State-Entropy Optimization",
+      "url": "https://arxiv.org/abs/2608.27507",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-08-31T04:00:00+00:00",
+      "summary": "arXiv:2608.27507v1 Announce Type: new Abstract: Policy Gradient for Parallel State Entropy maximization (PGPSE) expands state-space coverage by training independently parameterized policies in replicated copies of the same environment. However, its pooled team-entropy score measu",
+      "tag": "ai"
+    },
+    {
+      "title": "Quantization-Triggered Backdoors in Language Models: Cross-Quantizer Transferability and the Validation--Deployment Gap",
+      "url": "https://arxiv.org/abs/2608.27512",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-08-31T04:00:00+00:00",
+      "summary": "arXiv:2608.27512v1 Announce Type: new Abstract: Post-training quantization is often treated as a semantically neutral optimization for edge deployment of Large Language Models. When a full-precision source checkpoint is evaluated and quantization is applied downstream without equ",
+      "tag": "ai"
+    },
+    {
+      "title": "DAMP: Decay-Aware Mixed-Precision Recurrent-State Quantization",
+      "url": "https://arxiv.org/abs/2608.27513",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-08-31T04:00:00+00:00",
+      "summary": "arXiv:2608.27513v1 Announce Type: new Abstract: Softmax attention stores key and value vectors for every preceding token, causing inference memory to grow with sequence length. Recent language models incorporating Gated DeltaNet (GDN) or Kimi Delta Attention (KDA) reduce this cos",
+      "tag": "ai"
+    },
+    {
+      "title": "Accelerating LLM Inference via Vector Index Based Output Embeddings",
+      "url": "https://arxiv.org/abs/2608.27460",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-08-31T04:00:00+00:00",
+      "summary": "arXiv:2608.27460v1 Announce Type: new Abstract: Large output embedding matrices create a significant memory bandwidth bottleneck during autoregressive decoding, especially for compact LLMs with large multilingual vocabularies. We reformulate the output projection followed by top-",
+      "tag": "ai"
+    },
+    {
+      "title": "SciReC: Diagnostic Evaluation of Multimodal, Multi-Turn Relational Reasoning with Adaptive Interaction",
+      "url": "https://arxiv.org/abs/2608.27461",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-08-31T04:00:00+00:00",
+      "summary": "arXiv:2608.27461v1 Announce Type: new Abstract: Relational reasoning requires the process of perceptual understanding, comparing, and integrating the underlying relationships between concepts. This ability consists of multiple categories, such as analogical, structural, and cause",
+      "tag": "ai"
+    },
+    {
+      "title": "Sledgehammer or Scalpel? A Fine-grained Adaptive Framework for Implicit Hate Speech",
+      "url": "https://arxiv.org/abs/2608.27462",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-08-31T04:00:00+00:00",
+      "summary": "arXiv:2608.27462v1 Announce Type: new Abstract: Unlike explicit attacks with obvious profanity, implicit hate speech hides malice within seemingly compliant expressions through metaphors and contextual hints, making its detection in online content review challenging. While existi",
+      "tag": "ai"
+    },
     {
       "title": "Understanding ChatGPT Work",
       "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
@@ -239,86 +319,6 @@
       "source": "Interconnects",
       "published_at": "2026-08-14T21:23:35+00:00",
       "summary": "Hint: It’s really not a distillation story.",
-      "tag": "ai"
-    },
-    {
-      "title": "I wrote an AI textbook — how long until AI can do it better?",
-      "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
-      "source": "Interconnects",
-      "published_at": "2026-08-12T13:01:16+00:00",
-      "summary": "Reflections on AI's writing ability and how AI models get more capable.",
-      "tag": "ai"
-    },
-    {
-      "title": "How We’re Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees",
-      "url": "https://engineering.fb.com/2026/08/12/security/how-were-building-scam-alert-whatsapp/",
-      "source": "Meta Engineering",
-      "published_at": "2026-08-12T13:00:28+00:00",
-      "summary": "WhatsApp is committed to helping people stay safe while protecting the privacy of their messages. As scam tactics evolve — from impersonation to social engineering to AI-generated lures — we’re always evolving as well, so that our protections stay ahead of scammers while protecti",
-      "tag": "ai"
-    },
-    {
-      "title": "A Dynamical Model of AI Governability",
-      "url": "https://blog.eleuther.ai/dynamical-models-of-ai-governability/",
-      "source": "EleutherAI",
-      "published_at": "2026-07-13T00:00:00+00:00",
-      "summary": "A toy dynamical model of whether the AI workforce that builds future AI ends up cooperative or uncooperative: where the basin boundary lies, what current evidence says about which side we are on, and what would tell us we are on the good path.",
-      "tag": "ai"
-    },
-    {
-      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
-      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
-      "source": "NVIDIA AI",
-      "published_at": "2026-07-08T15:00:27+00:00",
-      "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open mo",
-      "tag": "ai"
-    },
-    {
-      "title": "Early Indicators of Reward Hacking via Reasoning Interpolation",
-      "url": "https://blog.eleuther.ai/reward-hacking-indicators/",
-      "source": "EleutherAI",
-      "published_at": "2026-04-15T00:00:00+00:00",
-      "summary": "Using importance sampling with fine-tuned donor prefills to predict reward hacking emergence during training",
-      "tag": "ai"
-    },
-    {
-      "title": "NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES",
-      "url": "https://blogs.nvidia.com/blog/2026-ces-special-presentation/",
-      "source": "NVIDIA AI",
-      "published_at": "2026-01-05T23:30:18+00:00",
-      "summary": "NVIDIA founder and CEO Jensen Huang took the stage at the Fontainebleau Las Vegas to open CES 2026, declaring that AI is scaling into every domain and every device. “Computing has been fundamentally reshaped as a result of accelerated computing, as a result of artificial intellig",
-      "tag": "ai"
-    },
-    {
-      "title": "As AI Grows More Complex, Model Builders Rely on NVIDIA",
-      "url": "https://blogs.nvidia.com/blog/leading-models-nvidia/",
-      "source": "NVIDIA AI",
-      "published_at": "2025-12-11T19:19:57+00:00",
-      "summary": "Unveiling what it describes as the most capable model series yet for professional knowledge work, OpenAI launched GPT-5.2 in December. The model was trained and deployed on NVIDIA infrastructure, including NVIDIA Hopper and GB200 NVL72 systems. GPT-5.3 Codex — the first OpenAI ag",
-      "tag": "ai"
-    },
-    {
-      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
-      "url": "https://qwenlm.github.io/blog/qwen3guard/",
-      "source": "Qwen (Alibaba)",
-      "published_at": "2025-09-22T20:00:00+00:00",
-      "summary": "Tech Report GitHub Hugging Face ModelScope DISCORD Introduction We are excited to introduce Qwen3Guard, the first safety guardrail model in the Qwen family. Built upon the powerful Qwen3 foundation models and fine-tuned specifically for safety classificatoin, Qwen3Guard ensures r",
-      "tag": "ai"
-    },
-    {
-      "title": "Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency",
-      "url": "https://qwenlm.github.io/blog/qwen-image-edit/",
-      "source": "Qwen (Alibaba)",
-      "published_at": "2025-08-18T17:30:00+00:00",
-      "summary": "QWEN CHAT GITHUB HUGGING FACE MODELSCOPE DISCORD We are excited to introduce Qwen-Image-Edit, the image editing version of Qwen-Image. Built upon our 20B Qwen-Image model, Qwen-Image-Edit successfully extends Qwen-Image’s unique text rendering capabilities to image editing tasks,",
-      "tag": "ai"
-    },
-    {
-      "title": "Qwen-Image: Crafting with Native Text Rendering",
-      "url": "https://qwenlm.github.io/blog/qwen-image/",
-      "source": "Qwen (Alibaba)",
-      "published_at": "2025-08-04T14:08:30+00:00",
-      "summary": "GITHUB HUGGING FACE MODELSCOPE DEMO DISCORD We are thrilled to release Qwen-Image, a 20B MMDiT image foundation model that achieves significant advances in complex text rendering and precise image editing. To try the latest model, feel free to visit Qwen Chat and choose “Image Ge",
       "tag": "ai"
     }
   ],
