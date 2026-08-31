@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-08-31T18:30:11Z",
+  "updated_at": "2026-08-31T18:45:12Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "price": 23.82,
-        "change_24h": 9.57,
-        "asset": "equity"
-      },
-      {
-        "symbol": "CRCL",
-        "name": "Circle Internet Group, Inc.",
-        "price": 94.06,
-        "change_24h": 7.95,
-        "asset": "equity"
-      },
-      {
-        "symbol": "XE",
-        "name": "X-Energy, Inc.",
-        "price": 18.4,
-        "change_24h": 6.85,
+        "price": 24.09,
+        "change_24h": 10.81,
         "asset": "equity"
       },
       {
         "symbol": "STDN",
         "name": "Standard Nuclear, Inc.",
-        "price": 15.08,
-        "change_24h": 6.95,
+        "price": 15.26,
+        "change_24h": 8.21,
         "asset": "equity"
       },
       {
-        "symbol": "ASND",
-        "name": "Ascendis Pharma A/S",
-        "price": 264.5,
-        "change_24h": 6.69,
+        "symbol": "CRCL",
+        "name": "Circle Internet Group, Inc.",
+        "price": 94.15,
+        "change_24h": 8.04,
+        "asset": "equity"
+      },
+      {
+        "symbol": "CHA",
+        "name": "Chagee Holdings Limited",
+        "price": 11.58,
+        "change_24h": 7.22,
+        "asset": "equity"
+      },
+      {
+        "symbol": "XE",
+        "name": "X-Energy, Inc.",
+        "price": 18.43,
+        "change_24h": 7.03,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "EIX",
         "name": "Edison International",
-        "price": 53.62,
-        "change_24h": -23.58,
+        "price": 53.85,
+        "change_24h": -23.26,
         "asset": "equity"
       },
       {
         "symbol": "PCG",
         "name": "Pacific Gas & Electric Co.",
-        "price": 13.54,
-        "change_24h": -18.46,
+        "price": 13.56,
+        "change_24h": -18.28,
         "asset": "equity"
       },
       {
         "symbol": "MNSO",
         "name": "MINISO Group Holding Limited",
-        "price": 9.295,
-        "change_24h": -10.02,
+        "price": 9.305,
+        "change_24h": -9.93,
         "asset": "equity"
       },
       {
         "symbol": "AON",
         "name": "Aon plc",
-        "price": 323.87,
-        "change_24h": -8.87,
+        "price": 322.95,
+        "change_24h": -9.13,
         "asset": "equity"
       },
       {
         "symbol": "KRMN",
         "name": "Karman Holdings Inc.",
-        "price": 41.74,
-        "change_24h": -8.39,
+        "price": 42.05,
+        "change_24h": -7.72,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 47.58,
-        "change_24h": 10.53,
+        "price": 47.49,
+        "change_24h": 9.15,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 523.22,
-        "change_24h": 7.26,
+        "price": 528.15,
+        "change_24h": 7.61,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.095776,
-        "change_24h": 6.21,
+        "price": 0.096367,
+        "change_24h": 6.93,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.65,
-        "change_24h": 5.65,
+        "change_24h": 4.91,
         "asset": "crypto"
       },
       {
         "symbol": "FLR",
         "name": "Flare",
-        "price": 0.006871,
-        "change_24h": 5.53,
+        "price": 0.006844,
+        "change_24h": 4.87,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.091357,
-        "change_24h": -8.72,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.150281,
-        "change_24h": -7.53,
+        "price": 0.091322,
+        "change_24h": -8.76,
         "asset": "crypto"
       },
       {
         "symbol": "CRO",
         "name": "Cronos",
-        "price": 0.056189,
-        "change_24h": -6.8,
+        "price": 0.056172,
+        "change_24h": -7.55,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.151203,
+        "change_24h": -7.38,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.360352,
-        "change_24h": -6.67,
+        "price": 0.363783,
+        "change_24h": -6.31,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.00443,
-        "change_24h": -6.51,
+        "price": 0.004477,
+        "change_24h": -6.15,
         "asset": "crypto"
       }
     ]
