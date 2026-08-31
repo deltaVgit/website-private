@@ -270,7 +270,7 @@
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 3553,
+        "likes": 3554,
         "downloads": 2144244,
         "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-04-17T02:59:21.000Z",
@@ -315,7 +315,7 @@
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 793,
+        "likes": 794,
         "downloads": 1158065,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
@@ -483,7 +483,7 @@
       "id": "sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
       "name": "Huihui-Qwen3.8-27B-abliterated-NVFP4",
       "author": "sakamakismile",
-      "likes": 44,
+      "likes": 45,
       "downloads": 50906,
       "url": "https://huggingface.co/sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
       "lastModified": "2026-08-24T11:01:03.000Z",
@@ -576,30 +576,6 @@
       "combo": 0.7695
     },
     {
-      "id": "Blackfrost-AI/Muse-Glimmer-30B-Abliterated-GGUF",
-      "name": "Muse-Glimmer-30B-Abliterated-GGUF",
-      "author": "Blackfrost-AI",
-      "likes": 42,
-      "downloads": 87575,
-      "url": "https://huggingface.co/Blackfrost-AI/Muse-Glimmer-30B-Abliterated-GGUF",
-      "lastModified": "2026-08-15T06:43:12.000Z",
-      "daysAgo": 15,
-      "pipeline": "image-text-to-text",
-      "tags": [
-        "gguf",
-        "muse-glimmer",
-        "abliterated",
-        "quantized",
-        "agentic",
-        "multimodal",
-        "llama.cpp",
-        "dflash"
-      ],
-      "pop": 0.7959,
-      "rec": 0.6667,
-      "combo": 0.7506
-    },
-    {
       "id": "PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
       "name": "Ornith-1.5-35B-A3B-Abliterated-GGUF",
       "author": "PocketAiHub",
@@ -622,8 +598,32 @@
       "pop": 0.7295,
       "rec": 0.7895,
       "combo": 0.7505
+    },
+    {
+      "id": "Blackfrost-AI/Muse-Glimmer-30B-Abliterated-GGUF",
+      "name": "Muse-Glimmer-30B-Abliterated-GGUF",
+      "author": "Blackfrost-AI",
+      "likes": 42,
+      "downloads": 87575,
+      "url": "https://huggingface.co/Blackfrost-AI/Muse-Glimmer-30B-Abliterated-GGUF",
+      "lastModified": "2026-08-15T06:43:12.000Z",
+      "daysAgo": 16,
+      "pipeline": "image-text-to-text",
+      "tags": [
+        "gguf",
+        "muse-glimmer",
+        "abliterated",
+        "quantized",
+        "agentic",
+        "multimodal",
+        "llama.cpp",
+        "dflash"
+      ],
+      "pop": 0.7959,
+      "rec": 0.6522,
+      "combo": 0.7456
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-08-31T06:35:08Z"
+  "updated": "2026-08-31T07:05:07Z"
 }
