@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-08-31T15:30:55Z",
+  "updated_at": "2026-08-31T15:45:56Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "ASST",
-        "name": "Strive, Inc.",
-        "price": 23.3,
-        "change_24h": 7.17,
+        "symbol": "PSQL",
+        "name": "Pasqal Holding SA",
+        "price": 23.77,
+        "change_24h": 24.36,
         "asset": "equity"
       },
       {
         "symbol": "STDN",
         "name": "Standard Nuclear, Inc.",
-        "price": 14.88,
-        "change_24h": 5.53,
+        "price": 15.09,
+        "change_24h": 7.02,
+        "asset": "equity"
+      },
+      {
+        "symbol": "ASST",
+        "name": "Strive, Inc.",
+        "price": 23.3,
+        "change_24h": 7.18,
         "asset": "equity"
       },
       {
         "symbol": "CHA",
         "name": "Chagee Holdings Limited",
-        "price": 11.4,
-        "change_24h": 5.6,
+        "price": 11.42,
+        "change_24h": 5.74,
         "asset": "equity"
       },
       {
-        "symbol": "RBLX",
-        "name": "Roblox Corporation",
-        "price": 40.48,
-        "change_24h": 5.07,
-        "asset": "equity"
-      },
-      {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "price": 61.84,
-        "change_24h": 5.48,
+        "symbol": "BBAR",
+        "name": "Banco BBVA Argentina S.A.",
+        "price": 15.28,
+        "change_24h": 5.56,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "EIX",
         "name": "Edison International",
-        "price": 53.95,
-        "change_24h": -23.11,
+        "price": 53.67,
+        "change_24h": -23.51,
         "asset": "equity"
       },
       {
         "symbol": "PCG",
         "name": "Pacific Gas & Electric Co.",
-        "price": 13.38,
-        "change_24h": -19.4,
+        "price": 13.31,
+        "change_24h": -19.79,
         "asset": "equity"
       },
       {
         "symbol": "DPC",
         "name": "DPC Holdings PLC",
-        "price": 39.02,
-        "change_24h": -11.48,
+        "price": 39.59,
+        "change_24h": -10.17,
         "asset": "equity"
       },
       {
         "symbol": "MNSO",
         "name": "MINISO Group Holding Limited",
-        "price": 9.375,
-        "change_24h": -9.24,
+        "price": 9.36,
+        "change_24h": -9.39,
         "asset": "equity"
       },
       {
         "symbol": "HWM",
         "name": "Howmet Aerospace Inc.",
-        "price": 244.05,
-        "change_24h": -7.85,
+        "price": 244.41,
+        "change_24h": -7.72,
         "asset": "equity"
       }
     ]
@@ -83,35 +83,35 @@
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.66,
-        "change_24h": 6.47,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 43.99,
-        "change_24h": 6.29,
+        "change_24h": 6.94,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.56589,
-        "change_24h": 6.24,
+        "price": 0.568058,
+        "change_24h": 6.6,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 43.96,
+        "change_24h": 5.48,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.7,
-        "change_24h": 3.73,
+        "price": 3.67,
+        "change_24h": 2.92,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.407404,
-        "change_24h": 1.93,
+        "price": 0.408867,
+        "change_24h": 2.37,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.088393,
-        "change_24h": -13.95,
+        "price": 0.090011,
+        "change_24h": -12.58,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004331,
-        "change_24h": -10.3,
+        "price": 0.004348,
+        "change_24h": -10.32,
         "asset": "crypto"
       },
       {
         "symbol": "CRO",
         "name": "Cronos",
-        "price": 0.055473,
-        "change_24h": -7.68,
+        "price": 0.055532,
+        "change_24h": -7.38,
         "asset": "crypto"
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
-        "price": 0.008689,
-        "change_24h": -5.68,
+        "price": 0.008693,
+        "change_24h": -5.38,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.357878,
-        "change_24h": -5.26,
+        "price": 0.358468,
+        "change_24h": -5.25,
         "asset": "crypto"
       }
     ]
