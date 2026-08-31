@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T23:45:42Z",
+  "updated_at": "2026-08-31T00:00:45Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 5.1,
-        "change_24h": 9.63,
+        "price": 5.15,
+        "change_24h": 9.99,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.548806,
-        "change_24h": 5.62,
+        "price": 0.54685,
+        "change_24h": 5.38,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
         "price": 1.81,
-        "change_24h": 5.14,
+        "change_24h": 5.13,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 486.69,
-        "change_24h": 3.5,
+        "price": 486.46,
+        "change_24h": 3.39,
         "asset": "crypto"
       },
       {
         "symbol": "NEXO",
         "name": "NEXO",
-        "price": 0.855383,
-        "change_24h": 1.78,
+        "price": 0.855867,
+        "change_24h": 1.81,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.400186,
+        "change_24h": -12.46,
+        "asset": "crypto"
+      },
+      {
         "symbol": "TRUMP",
         "name": "Official Trump",
-        "price": 2.33,
-        "change_24h": -12.88,
+        "price": 2.35,
+        "change_24h": -12.35,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004428,
-        "change_24h": -12.17,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.400311,
-        "change_24h": -11.04,
+        "price": 0.004445,
+        "change_24h": -12.15,
         "asset": "crypto"
       },
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.097138,
-        "change_24h": -8.8,
+        "price": 0.09725,
+        "change_24h": -9.08,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.148131,
-        "change_24h": -6.84,
+        "price": 0.148036,
+        "change_24h": -7.0,
         "asset": "crypto"
       }
     ]
