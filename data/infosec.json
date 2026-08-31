@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-08-31T14:05:14Z",
+  "updatedAt": "2026-08-31T14:35:15Z",
   "kev": [
+    {
+      "cve": "CVE-2026-82078",
+      "product": "NG/MF",
+      "vendor": "PaperCut",
+      "name": "PaperCut NG/MF Unsafe Reflection Vulnerability",
+      "dateAdded": "2026-08-28",
+      "dueDate": "2026-09-11",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-81578",
+      "product": "NG/MF",
+      "vendor": "PaperCut",
+      "name": "PaperCut NG/MF Missing Authentication for Critical Function Vulnerability",
+      "dateAdded": "2026-08-28",
+      "dueDate": "2026-09-11",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2023-49105",
       "product": "ownCloud",
@@ -107,24 +125,6 @@
       "name": "Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability",
       "dateAdded": "2026-08-21",
       "dueDate": "2026-08-24",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-72530",
-      "product": "Server",
-      "vendor": "TrueConf",
-      "name": "TrueConf Server Code Injection Vulnerability",
-      "dateAdded": "2026-08-20",
-      "dueDate": "2026-09-03",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-72529",
-      "product": "Server",
-      "vendor": "TrueConf",
-      "name": "TrueConf Server Missing Authentication for Critical Function Vulnerability",
-      "dateAdded": "2026-08-20",
-      "dueDate": "2026-08-23",
       "knownRansomware": "Unknown"
     }
   ],
