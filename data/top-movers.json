@@ -1,15 +1,8 @@
 {
-  "updated_at": "2026-08-31T20:15:15Z",
+  "updated_at": "2026-08-31T20:30:14Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
-      {
-        "symbol": "EGIEY",
-        "name": "Engie Brasil Energia S A",
-        "price": 6.33,
-        "change_24h": 16.15,
-        "asset": "equity"
-      },
       {
         "symbol": "STDN",
         "name": "Standard Nuclear, Inc.",
@@ -29,6 +22,13 @@
         "name": "Circle Internet Group, Inc.",
         "price": 95.55,
         "change_24h": 9.65,
+        "asset": "equity"
+      },
+      {
+        "symbol": "EGIEY",
+        "name": "Engie Brasil Energia S A",
+        "price": 5.9,
+        "change_24h": 8.26,
         "asset": "equity"
       },
       {
@@ -82,36 +82,36 @@
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.098318,
-        "change_24h": 9.47,
+        "price": 0.099135,
+        "change_24h": 10.58,
         "asset": "crypto"
       },
       {
         "symbol": "FLR",
         "name": "Flare",
-        "price": 0.006974,
-        "change_24h": 7.56,
+        "price": 0.007054,
+        "change_24h": 8.65,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.67,
-        "change_24h": 7.01,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.124396,
-        "change_24h": 5.19,
+        "price": 2.71,
+        "change_24h": 8.38,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 519.27,
-        "change_24h": 4.98,
+        "price": 522.28,
+        "change_24h": 5.89,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.124741,
+        "change_24h": 5.49,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.090317,
-        "change_24h": -9.62,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 3.57,
-        "change_24h": -7.44,
+        "price": 0.090574,
+        "change_24h": -9.53,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.149254,
-        "change_24h": -7.07,
+        "price": 0.149554,
+        "change_24h": -6.47,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 3.6,
+        "change_24h": -6.37,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004415,
-        "change_24h": -6.62,
+        "price": 0.004414,
+        "change_24h": -5.93,
         "asset": "crypto"
       },
       {
         "symbol": "CRO",
         "name": "Cronos",
-        "price": 0.056086,
-        "change_24h": -5.76,
+        "price": 0.056194,
+        "change_24h": -5.5,
         "asset": "crypto"
       }
     ]
