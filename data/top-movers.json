@@ -1,52 +1,45 @@
 {
-  "updated_at": "2026-09-01T19:31:06Z",
+  "updated_at": "2026-09-01T19:46:10Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "price": 19.82,
-        "change_24h": 28.84,
-        "asset": "equity"
-      },
-      {
-        "symbol": "MMED",
-        "name": "MiniMed Group, Inc.",
-        "price": 22.57,
-        "change_24h": 11.38,
+        "price": 19.69,
+        "change_24h": 28.02,
         "asset": "equity"
       },
       {
         "symbol": "CRK",
         "name": "Comstock Resources, Inc.",
-        "price": 15.94,
-        "change_24h": 10.46,
+        "price": 15.96,
+        "change_24h": 10.61,
         "asset": "equity"
       },
       {
-        "symbol": "KLRA",
-        "name": "Kailera Therapeutics, Inc.",
-        "price": 16.98,
-        "change_24h": 10.23,
+        "symbol": "MMED",
+        "name": "MiniMed Group, Inc.",
+        "price": 22.32,
+        "change_24h": 10.16,
         "asset": "equity"
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "price": 152.27,
-        "change_24h": 8.5,
+        "price": 153.56,
+        "change_24h": 9.42,
+        "asset": "equity"
+      },
+      {
+        "symbol": "EIX",
+        "name": "Edison International",
+        "price": 58.52,
+        "change_24h": 8.4,
         "asset": "equity"
       }
     ],
     "losers": [
-      {
-        "symbol": "OSW",
-        "name": "OneSpaWorld Holdings Limited",
-        "price": 22.4,
-        "change_24h": -9.79,
-        "asset": "equity"
-      },
       {
         "symbol": "PS",
         "name": "Pershing Square Inc.",
@@ -55,24 +48,31 @@
         "asset": "equity"
       },
       {
-        "symbol": "PURR",
-        "name": "Hyperliquid Strategies Inc",
-        "price": 11.13,
-        "change_24h": -9.1,
+        "symbol": "OSW",
+        "name": "OneSpaWorld Holdings Limited",
+        "price": 22.56,
+        "change_24h": -9.14,
         "asset": "equity"
       },
       {
         "symbol": "SN",
         "name": "SharkNinja, Inc.",
-        "price": 175.38,
-        "change_24h": -8.89,
+        "price": 175.3,
+        "change_24h": -8.93,
         "asset": "equity"
       },
       {
-        "symbol": "FROG",
-        "name": "JFrog Ltd.",
-        "price": 91.58,
-        "change_24h": -8.48,
+        "symbol": "AXON",
+        "name": "Axon Enterprise, Inc.",
+        "price": 518.4,
+        "change_24h": -8.5,
+        "asset": "equity"
+      },
+      {
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "price": 20.82,
+        "change_24h": -8.62,
         "asset": "equity"
       }
     ]
@@ -80,74 +80,74 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "CRV",
-        "name": "Curve DAO",
-        "price": 0.371789,
-        "change_24h": 14.71,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.107743,
-        "change_24h": 13.26,
+        "price": 0.107957,
+        "change_24h": 13.27,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 5.66,
-        "change_24h": 8.27,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.159123,
-        "change_24h": 6.15,
+        "price": 5.65,
+        "change_24h": 8.54,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.072635,
-        "change_24h": 5.87,
+        "price": 0.072809,
+        "change_24h": 6.3,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.580503,
+        "change_24h": 5.82,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.157839,
+        "change_24h": 5.81,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 16.11,
-        "change_24h": -6.73,
-        "asset": "crypto"
-      },
-      {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.114589,
-        "change_24h": -6.43,
+        "price": 0.114363,
+        "change_24h": -8.13,
         "asset": "crypto"
       },
       {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 495.87,
-        "change_24h": -5.68,
+        "symbol": "FLR",
+        "name": "Flare",
+        "price": 0.006677,
+        "change_24h": -7.91,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 16.05,
+        "change_24h": -6.9,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.533905,
-        "change_24h": -5.45,
+        "price": 0.533364,
+        "change_24h": -5.37,
         "asset": "crypto"
       },
       {
-        "symbol": "GRAM",
-        "name": "Gram (prev. Toncoin)",
-        "price": 1.32,
+        "symbol": "TRUMP",
+        "name": "Official Trump",
+        "price": 2.3,
         "change_24h": -5.36,
         "asset": "crypto"
       }
