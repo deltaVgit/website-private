@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T08:05:45Z",
+  "updated_at": "2026-09-01T09:05:46Z",
   "source": "https://api.llama.fi/overview/dexs",
   "weekly": [
     {
@@ -1258,9 +1258,9 @@
     },
     {
       "week": "2026-W36",
-      "curated": 18924289687.5,
-      "filtered": 18924289687.5,
-      "raw": 18924289687.5
+      "curated": 18947490711.620003,
+      "filtered": 18947490711.620003,
+      "raw": 18947490711.620003
     }
   ],
   "chains": [
@@ -1271,8 +1271,8 @@
     },
     {
       "chain": "Raydium AMM",
-      "volume_24h": 127161172.0,
-      "delta_pct": 24.5
+      "volume_24h": 125901340.0,
+      "delta_pct": 23.27
     },
     {
       "chain": "PancakeSwap AMM",
@@ -1281,8 +1281,8 @@
     },
     {
       "chain": "Curve DEX",
-      "volume_24h": 21665344.0,
-      "delta_pct": -71.81
+      "volume_24h": 23758382.0,
+      "delta_pct": -69.08
     },
     {
       "chain": "Quickswap Dex",
@@ -1296,13 +1296,18 @@
     },
     {
       "chain": "SushiSwap",
-      "volume_24h": 1236125.0,
-      "delta_pct": 77.98
+      "volume_24h": 1247363.0,
+      "delta_pct": 79.6
+    },
+    {
+      "chain": "Defi Swap",
+      "volume_24h": 272309.0,
+      "delta_pct": -19.44
     },
     {
       "chain": "Bancor V2.1",
-      "volume_24h": 147702.0,
-      "delta_pct": 2.57
+      "volume_24h": 156385.0,
+      "delta_pct": 8.6
     },
     {
       "chain": "Balancer V1",
@@ -1311,18 +1316,13 @@
     },
     {
       "chain": "Nerve",
-      "volume_24h": 42220.0,
-      "delta_pct": 95.63
-    },
-    {
-      "chain": "Defi Swap",
-      "volume_24h": 26961.0,
-      "delta_pct": -92.02
+      "volume_24h": 42573.0,
+      "delta_pct": 97.26
     },
     {
       "chain": "Pangolin V2",
-      "volume_24h": 17285.0,
-      "delta_pct": -20.67
+      "volume_24h": 16352.0,
+      "delta_pct": -24.96
     }
   ]
 }
