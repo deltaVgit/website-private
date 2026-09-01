@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-09-01T13:45:57Z",
+  "updated_at": "2026-09-01T14:00:58Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "EGIEY",
-        "name": "Engie Brasil Energia S A",
-        "price": 5.74,
-        "change_24h": -0.77,
-        "asset": "equity"
-      },
-      {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "price": 17.33,
-        "change_24h": 12.68,
+        "price": 17.91,
+        "change_24h": 16.45,
         "asset": "equity"
       },
       {
         "symbol": "CRK",
         "name": "Comstock Resources, Inc.",
-        "price": 15.81,
-        "change_24h": 9.6,
+        "price": 15.33,
+        "change_24h": 6.24,
+        "asset": "equity"
+      },
+      {
+        "symbol": "DUOL",
+        "name": "Duolingo, Inc.",
+        "price": 156.47,
+        "change_24h": 5.47,
         "asset": "equity"
       },
       {
         "symbol": "NVS",
         "name": "Novartis AG",
-        "price": 161.97,
-        "change_24h": 6.52,
+        "price": 160.97,
+        "change_24h": 5.86,
         "asset": "equity"
       },
       {
-        "symbol": "MMED",
-        "name": "MiniMed Group, Inc.",
-        "price": 21.5,
-        "change_24h": 6.12,
+        "symbol": "STDN",
+        "name": "Standard Nuclear, Inc.",
+        "price": 17.0,
+        "change_24h": 5.52,
         "asset": "equity"
       }
     ],
     "losers": [
       {
+        "symbol": "PSQL",
+        "name": "Pasqal Holding SA",
+        "price": 14.87,
+        "change_24h": -14.05,
+        "asset": "equity"
+      },
+      {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "price": 55.25,
-        "change_24h": -8.84,
+        "price": 55.12,
+        "change_24h": -9.06,
         "asset": "equity"
       },
       {
-        "symbol": "HYMC",
-        "name": "Hycroft Mining Holding Corporat",
-        "price": 21.91,
-        "change_24h": -6.47,
+        "symbol": "CRCL",
+        "name": "Circle Internet Group, Inc.",
+        "price": 89.78,
+        "change_24h": -6.03,
         "asset": "equity"
       },
       {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "price": 14.6,
-        "change_24h": -5.81,
-        "asset": "equity"
-      },
-      {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "price": 74.89,
-        "change_24h": -5.52,
+        "symbol": "RIOT",
+        "name": "Riot Platforms, Inc.",
+        "price": 17.84,
+        "change_24h": -6.11,
         "asset": "equity"
       },
       {
         "symbol": "SIMO",
         "name": "Silicon Motion Technology Corpo",
-        "price": 233.86,
-        "change_24h": -5.26,
+        "price": 231.18,
+        "change_24h": -6.34,
         "asset": "equity"
       }
     ]
@@ -83,35 +83,35 @@
         "symbol": "UNI",
         "name": "Uniswap",
         "price": 5.7,
-        "change_24h": 11.8,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "FLR",
-        "name": "Flare",
-        "price": 0.006826,
-        "change_24h": 7.29,
+        "change_24h": 12.57,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 1.98,
-        "change_24h": 7.13,
+        "price": 2.01,
+        "change_24h": 9.39,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FLR",
+        "name": "Flare",
+        "price": 0.006865,
+        "change_24h": 8.22,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.15913,
-        "change_24h": 7.13,
+        "price": 0.159994,
+        "change_24h": 7.97,
         "asset": "crypto"
       },
       {
-        "symbol": "ALGO",
-        "name": "Algorand",
-        "price": 0.088383,
-        "change_24h": 4.64,
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 45.66,
+        "change_24h": 6.01,
         "asset": "crypto"
       }
     ],
@@ -119,22 +119,8 @@
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.539743,
-        "change_24h": -5.64,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.391209,
-        "change_24h": -4.5,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 16.31,
-        "change_24h": -3.64,
+        "price": 0.541061,
+        "change_24h": -5.1,
         "asset": "crypto"
       },
       {
@@ -145,10 +131,24 @@
         "asset": "crypto"
       },
       {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.398271,
+        "change_24h": -2.77,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 16.35,
+        "change_24h": -2.6,
+        "asset": "crypto"
+      },
+      {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.016557,
-        "change_24h": -2.81,
+        "price": 0.016585,
+        "change_24h": -2.5,
         "asset": "crypto"
       }
     ]
