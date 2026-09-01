@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T11:30:53Z",
+  "updated_at": "2026-09-01T11:45:54Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 5.72,
-        "change_24h": 11.69,
+        "price": 5.85,
+        "change_24h": 14.65,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "price": 0.59879,
+        "change_24h": 11.5,
         "asset": "crypto"
       },
       {
         "symbol": "FLR",
         "name": "Flare",
-        "price": 0.006863,
-        "change_24h": 7.1,
+        "price": 0.006913,
+        "change_24h": 7.83,
         "asset": "crypto"
       },
       {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.101618,
-        "change_24h": 5.95,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.161335,
+        "change_24h": 7.66,
         "asset": "crypto"
       },
       {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.570636,
-        "change_24h": 5.34,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ALGO",
-        "name": "Algorand",
-        "price": 0.089382,
-        "change_24h": 5.19,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 1.98,
+        "change_24h": 6.47,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.54048,
-        "change_24h": -5.55,
+        "price": 0.541423,
+        "change_24h": -5.19,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.388008,
-        "change_24h": -4.77,
+        "price": 0.389211,
+        "change_24h": -4.3,
         "asset": "crypto"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.006668,
-        "change_24h": -3.24,
+        "price": 0.00668,
+        "change_24h": -2.83,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 525.46,
+        "change_24h": -2.62,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
-        "price": 3e-06,
-        "change_24h": -2.75,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 16.77,
-        "change_24h": -2.74,
+        "price": 4e-06,
+        "change_24h": -2.14,
         "asset": "crypto"
       }
     ]
