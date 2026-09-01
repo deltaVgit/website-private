@@ -5,7 +5,7 @@
         "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Uncensored-GGUF",
         "author": "JonathanColetti",
-        "likes": 885,
+        "likes": 886,
         "downloads": 2143289,
         "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "lastModified": "2026-08-29T04:18:18.000Z",
@@ -75,7 +75,7 @@
         "downloads": 681721,
         "url": "https://huggingface.co/wangzhang/gemma-4-31B-it-abliterated",
         "lastModified": "2026-08-29T17:03:21.000Z",
-        "daysAgo": 2,
+        "daysAgo": 3,
         "pipeline": "",
         "tags": [
           "safetensors",
@@ -88,8 +88,8 @@
           "llm-judge"
         ],
         "pop": 0.9302,
-        "rec": 0.9375,
-        "combo": 0.9327
+        "rec": 0.9091,
+        "combo": 0.9228
       },
       {
         "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
@@ -121,7 +121,7 @@
         "id": "ChrisColeTech/LTX-2.3-uncensored-v1.4-FP8",
         "name": "LTX-2.3-uncensored-v1.4-FP8",
         "author": "ChrisColeTech",
-        "likes": 87,
+        "likes": 88,
         "downloads": 58191,
         "url": "https://huggingface.co/ChrisColeTech/LTX-2.3-uncensored-v1.4-FP8",
         "lastModified": "2026-08-23T15:13:33.000Z",
@@ -142,7 +142,7 @@
         "id": "ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "name": "flux2-klein-9b-uncensored-text-encoder",
         "author": "ponpoke",
-        "likes": 498,
+        "likes": 499,
         "downloads": 35776,
         "url": "https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "lastModified": "2026-05-02T11:34:41.000Z",
@@ -184,7 +184,7 @@
         "id": "kpsss34/FHDR_Uncensored",
         "name": "FHDR_Uncensored",
         "author": "kpsss34",
-        "likes": 622,
+        "likes": 623,
         "downloads": 4078,
         "url": "https://huggingface.co/kpsss34/FHDR_Uncensored",
         "lastModified": "2026-02-27T02:17:36.000Z",
@@ -291,7 +291,7 @@
         "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
         "author": "huihui-ai",
-        "likes": 486,
+        "likes": 487,
         "downloads": 1869259,
         "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "lastModified": "2026-08-31T09:03:38.000Z",
@@ -339,7 +339,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
       "author": "huihui-ai",
-      "likes": 486,
+      "likes": 487,
       "downloads": 1869259,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "lastModified": "2026-08-31T09:03:38.000Z",
@@ -367,7 +367,7 @@
       "downloads": 681721,
       "url": "https://huggingface.co/wangzhang/gemma-4-31B-it-abliterated",
       "lastModified": "2026-08-29T17:03:21.000Z",
-      "daysAgo": 2,
+      "daysAgo": 3,
       "pipeline": "",
       "tags": [
         "safetensors",
@@ -380,8 +380,8 @@
         "llm-judge"
       ],
       "pop": 0.9302,
-      "rec": 0.9375,
-      "combo": 0.9327
+      "rec": 0.9091,
+      "combo": 0.9228
     },
     {
       "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
@@ -600,30 +600,30 @@
       "combo": 0.7487
     },
     {
-      "id": "Blackfrost-AI/Muse-Glimmer-30B-Abliterated-GGUF",
-      "name": "Muse-Glimmer-30B-Abliterated-GGUF",
-      "author": "Blackfrost-AI",
-      "likes": 42,
-      "downloads": 90000,
-      "url": "https://huggingface.co/Blackfrost-AI/Muse-Glimmer-30B-Abliterated-GGUF",
-      "lastModified": "2026-08-15T06:43:12.000Z",
-      "daysAgo": 17,
-      "pipeline": "image-text-to-text",
+      "id": "Ryn1998/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
+      "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
+      "author": "Ryn1998",
+      "likes": 3,
+      "downloads": 8756,
+      "url": "https://huggingface.co/Ryn1998/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
+      "lastModified": "2026-08-31T12:04:41.000Z",
+      "daysAgo": 1,
+      "pipeline": "text-generation",
       "tags": [
+        "transformers",
         "gguf",
-        "muse-glimmer",
+        "qwen3.8",
+        "qwen3.5",
+        "heretic",
         "abliterated",
-        "quantized",
-        "agentic",
-        "multimodal",
-        "llama.cpp",
-        "dflash"
+        "uncensored",
+        "roleplay"
       ],
-      "pop": 0.7899,
-      "rec": 0.6383,
-      "combo": 0.7369
+      "pop": 0.6286,
+      "rec": 0.9677,
+      "combo": 0.7473
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-01T16:35:14Z"
+  "updated": "2026-09-01T17:05:14Z"
 }
