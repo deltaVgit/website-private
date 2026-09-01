@@ -1,8 +1,15 @@
 {
-  "updated_at": "2026-09-01T03:15:32Z",
+  "updated_at": "2026-09-01T03:30:32Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
+      {
+        "symbol": "EGIEY",
+        "name": "Engie Brasil Energia S A",
+        "price": 6.42,
+        "change_24h": 17.8,
+        "asset": "equity"
+      },
       {
         "symbol": "STDN",
         "name": "Standard Nuclear, Inc.",
@@ -29,13 +36,6 @@
         "name": "Chagee Holdings Limited",
         "price": 11.63,
         "change_24h": 7.69,
-        "asset": "equity"
-      },
-      {
-        "symbol": "RBLX",
-        "name": "Roblox Corporation",
-        "price": 41.29,
-        "change_24h": 7.16,
         "asset": "equity"
       }
     ],
@@ -82,73 +82,73 @@
       {
         "symbol": "FLR",
         "name": "Flare",
-        "price": 0.00725,
-        "change_24h": 13.88,
+        "price": 0.007155,
+        "change_24h": 12.37,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 45.28,
-        "change_24h": 10.54,
+        "price": 45.26,
+        "change_24h": 10.4,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.435975,
-        "change_24h": 8.69,
+        "price": 0.438607,
+        "change_24h": 9.78,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 1.96,
-        "change_24h": 7.8,
+        "price": 1.95,
+        "change_24h": 7.47,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.220426,
-        "change_24h": 7.47,
+        "price": 0.219767,
+        "change_24h": 7.3,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "MNT",
+        "name": "Mantle",
+        "price": 0.550679,
+        "change_24h": -3.78,
+        "asset": "crypto"
+      },
+      {
         "symbol": "LEO",
         "name": "LEO Token",
-        "price": 9.34,
-        "change_24h": -3.3,
+        "price": 9.33,
+        "change_24h": -3.33,
         "asset": "crypto"
       },
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.092327,
-        "change_24h": -2.98,
+        "price": 0.09233,
+        "change_24h": -2.73,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.067552,
-        "change_24h": -1.95,
+        "price": 0.0673,
+        "change_24h": -2.4,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.016734,
-        "change_24h": -1.79,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MNT",
-        "name": "Mantle",
-        "price": 0.553518,
-        "change_24h": -1.73,
+        "price": 0.016721,
+        "change_24h": -1.88,
         "asset": "crypto"
       }
     ]
