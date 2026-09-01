@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T06:30:46Z",
+  "updated_at": "2026-09-01T06:45:46Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 5.73,
-        "change_24h": 12.09,
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 47.04,
+        "change_24h": 13.17,
         "asset": "crypto"
       },
       {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 46.59,
-        "change_24h": 11.52,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 5.74,
+        "change_24h": 12.18,
         "asset": "crypto"
       },
       {
         "symbol": "FLR",
         "name": "Flare",
-        "price": 0.006953,
-        "change_24h": 8.41,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.100848,
-        "change_24h": 7.65,
+        "price": 0.006931,
+        "change_24h": 8.23,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.22033,
-        "change_24h": 7.4,
+        "price": 0.221485,
+        "change_24h": 7.65,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.101085,
+        "change_24h": 7.37,
         "asset": "crypto"
       }
     ],
@@ -119,29 +119,22 @@
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.065834,
-        "change_24h": -4.91,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MNT",
-        "name": "Mantle",
-        "price": 0.547273,
-        "change_24h": -3.63,
+        "price": 0.066363,
+        "change_24h": -4.24,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.39726,
-        "change_24h": -3.27,
+        "price": 0.395601,
+        "change_24h": -3.46,
         "asset": "crypto"
       },
       {
-        "symbol": "POL",
-        "name": "POL (ex-MATIC)",
-        "price": 0.09235,
-        "change_24h": -3.21,
+        "symbol": "MNT",
+        "name": "Mantle",
+        "price": 0.547055,
+        "change_24h": -3.39,
         "asset": "crypto"
       },
       {
@@ -149,6 +142,13 @@
         "name": "LEO Token",
         "price": 9.37,
         "change_24h": -2.94,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "POL",
+        "name": "POL (ex-MATIC)",
+        "price": 0.092423,
+        "change_24h": -2.79,
         "asset": "crypto"
       }
     ]
