@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T20:01:08Z",
+  "updated_at": "2026-09-01T20:15:08Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -13,8 +13,8 @@
       {
         "symbol": "CRK",
         "name": "Comstock Resources, Inc.",
-        "price": 16.04,
-        "change_24h": 11.12,
+        "price": 16.02,
+        "change_24h": 11.02,
         "asset": "equity"
       },
       {
@@ -34,8 +34,8 @@
       {
         "symbol": "EIX",
         "name": "Edison International",
-        "price": 58.79,
-        "change_24h": 8.91,
+        "price": 58.8,
+        "change_24h": 8.93,
         "asset": "equity"
       }
     ],
@@ -50,8 +50,8 @@
       {
         "symbol": "PS",
         "name": "Pershing Square Inc.",
-        "price": 38.55,
-        "change_24h": -10.17,
+        "price": 38.52,
+        "change_24h": -10.25,
         "asset": "equity"
       },
       {
@@ -64,7 +64,7 @@
       {
         "symbol": "SN",
         "name": "SharkNinja, Inc.",
-        "price": 174.93,
+        "price": 174.92,
         "change_24h": -9.13,
         "asset": "equity"
       },
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.108067,
-        "change_24h": 11.9,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 5.68,
+        "change_24h": 8.87,
         "asset": "crypto"
       },
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 5.65,
-        "change_24h": 8.3,
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.107122,
+        "change_24h": 8.31,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.072737,
-        "change_24h": 5.98,
+        "price": 0.072447,
+        "change_24h": 5.65,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.156872,
-        "change_24h": 5.02,
+        "price": 0.156954,
+        "change_24h": 4.82,
         "asset": "crypto"
       },
       {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.579943,
-        "change_24h": 4.81,
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.103072,
+        "change_24h": 4.09,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.114009,
-        "change_24h": -8.04,
+        "price": 0.113687,
+        "change_24h": -8.87,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 16.07,
-        "change_24h": -7.24,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "FLR",
-        "name": "Flare",
-        "price": 0.006664,
-        "change_24h": -6.66,
+        "price": 16.01,
+        "change_24h": -7.32,
         "asset": "crypto"
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
         "price": 2.28,
-        "change_24h": -6.16,
+        "change_24h": -6.49,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.532667,
-        "change_24h": -5.58,
+        "price": 0.532867,
+        "change_24h": -5.62,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.54,
+        "change_24h": -4.93,
         "asset": "crypto"
       }
     ]
