@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T09:00:49Z",
+  "updated_at": "2026-09-01T09:16:02Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 5.7,
-        "change_24h": 10.56,
+        "symbol": "CRV",
+        "name": "Curve DAO",
+        "price": 0.350362,
+        "change_24h": 13.56,
         "asset": "crypto"
       },
       {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.101737,
-        "change_24h": 7.06,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 5.69,
+        "change_24h": 10.57,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 44.99,
-        "change_24h": 6.7,
+        "price": 45.05,
+        "change_24h": 7.02,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.101805,
+        "change_24h": 6.89,
         "asset": "crypto"
       },
       {
         "symbol": "FLR",
         "name": "Flare",
-        "price": 0.006779,
-        "change_24h": 5.6,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 1.93,
-        "change_24h": 4.69,
+        "price": 0.006769,
+        "change_24h": 5.5,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "MNT",
-        "name": "Mantle",
-        "price": 0.538233,
-        "change_24h": -5.47,
-        "asset": "crypto"
-      },
-      {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.386829,
-        "change_24h": -5.29,
+        "price": 0.384326,
+        "change_24h": -5.93,
         "asset": "crypto"
       },
       {
-        "symbol": "VET",
-        "name": "VeChain",
-        "price": 0.006664,
-        "change_24h": -3.61,
+        "symbol": "MNT",
+        "name": "Mantle",
+        "price": 0.537228,
+        "change_24h": -5.67,
         "asset": "crypto"
       },
       {
-        "symbol": "LEO",
-        "name": "LEO Token",
-        "price": 9.29,
-        "change_24h": -3.34,
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 3.59,
+        "change_24h": -4.08,
         "asset": "crypto"
       },
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.091185,
-        "change_24h": -2.95,
+        "price": 0.090724,
+        "change_24h": -3.81,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VET",
+        "name": "VeChain",
+        "price": 0.006669,
+        "change_24h": -3.72,
         "asset": "crypto"
       }
     ]
