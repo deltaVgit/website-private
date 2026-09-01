@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T03:30:32Z",
+  "updated_at": "2026-09-01T03:45:32Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "FLR",
         "name": "Flare",
-        "price": 0.007155,
-        "change_24h": 12.37,
+        "price": 0.007142,
+        "change_24h": 11.98,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 45.26,
-        "change_24h": 10.4,
+        "price": 45.8,
+        "change_24h": 11.08,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.438607,
-        "change_24h": 9.78,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 1.95,
-        "change_24h": 7.47,
+        "price": 0.435129,
+        "change_24h": 9.04,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.219767,
-        "change_24h": 7.3,
+        "price": 0.221762,
+        "change_24h": 8.17,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 1.96,
+        "change_24h": 7.66,
         "asset": "crypto"
       }
     ],
@@ -119,8 +119,15 @@
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.550679,
-        "change_24h": -3.78,
+        "price": 0.549229,
+        "change_24h": -4.71,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "POL",
+        "name": "POL (ex-MATIC)",
+        "price": 0.092522,
+        "change_24h": -3.54,
         "asset": "crypto"
       },
       {
@@ -131,24 +138,17 @@
         "asset": "crypto"
       },
       {
-        "symbol": "POL",
-        "name": "POL (ex-MATIC)",
-        "price": 0.09233,
-        "change_24h": -2.73,
-        "asset": "crypto"
-      },
-      {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.0673,
-        "change_24h": -2.4,
+        "price": 0.067617,
+        "change_24h": -2.25,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.016721,
-        "change_24h": -1.88,
+        "price": 0.016766,
+        "change_24h": -1.7,
         "asset": "crypto"
       }
     ]
