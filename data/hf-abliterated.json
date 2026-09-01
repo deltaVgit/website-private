@@ -54,7 +54,7 @@
         "downloads": 840639,
         "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-06-05T17:55:41.000Z",
-        "daysAgo": 87,
+        "daysAgo": 88,
         "pipeline": "",
         "tags": [
           "gguf",
@@ -205,7 +205,7 @@
         "id": "DeepNeuralNerd/Gemma-4-12B-it-uncensored-heretic-DeepNeuralNerd-LTX_2.5_ComfyUI",
         "name": "Gemma-4-12B-it-uncensored-heretic-DeepNeuralNerd-LTX_2.5_ComfyUI",
         "author": "DeepNeuralNerd",
-        "likes": 29,
+        "likes": 31,
         "downloads": 0,
         "url": "https://huggingface.co/DeepNeuralNerd/Gemma-4-12B-it-uncensored-heretic-DeepNeuralNerd-LTX_2.5_ComfyUI",
         "lastModified": "2026-08-12T17:10:46.000Z",
@@ -415,7 +415,7 @@
       "downloads": 318029,
       "url": "https://huggingface.co/Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
       "lastModified": "2026-08-22T17:50:05.000Z",
-      "daysAgo": 9,
+      "daysAgo": 10,
       "pipeline": "image-text-to-text",
       "tags": [
         "gguf",
@@ -428,8 +428,8 @@
         "multimodal"
       ],
       "pop": 0.8774,
-      "rec": 0.7692,
-      "combo": 0.8395
+      "rec": 0.75,
+      "combo": 0.8328
     },
     {
       "id": "windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF",
@@ -559,7 +559,7 @@
       "downloads": 63552,
       "url": "https://huggingface.co/twolven/Qwen3.8-27B-abliterated-AWQ-MTP",
       "lastModified": "2026-08-21T17:53:49.000Z",
-      "daysAgo": 10,
+      "daysAgo": 11,
       "pipeline": "image-text-to-text",
       "tags": [
         "transformers",
@@ -572,8 +572,8 @@
         "compressed-tensors"
       ],
       "pop": 0.7658,
-      "rec": 0.75,
-      "combo": 0.7603
+      "rec": 0.7317,
+      "combo": 0.7539
     },
     {
       "id": "PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
@@ -625,5 +625,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-01T17:35:15Z"
+  "updated": "2026-09-01T18:05:16Z"
 }
