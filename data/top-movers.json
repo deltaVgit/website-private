@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T09:30:49Z",
+  "updated_at": "2026-09-01T09:45:50Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "CRV",
         "name": "Curve DAO",
-        "price": 0.352839,
-        "change_24h": 14.14,
+        "price": 0.354075,
+        "change_24h": 14.52,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 5.71,
-        "change_24h": 10.69,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 45.16,
-        "change_24h": 7.37,
+        "price": 5.68,
+        "change_24h": 9.97,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.10177,
-        "change_24h": 6.76,
+        "price": 0.101843,
+        "change_24h": 6.81,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 44.98,
+        "change_24h": 6.77,
         "asset": "crypto"
       },
       {
         "symbol": "FLR",
         "name": "Flare",
-        "price": 0.00677,
-        "change_24h": 5.49,
+        "price": 0.006759,
+        "change_24h": 5.51,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.385313,
-        "change_24h": -5.42,
-        "asset": "crypto"
-      },
-      {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.537953,
-        "change_24h": -5.3,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 3.63,
-        "change_24h": -4.24,
+        "price": 0.538339,
+        "change_24h": -5.35,
         "asset": "crypto"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.006667,
-        "change_24h": -3.53,
+        "price": 0.006664,
+        "change_24h": -3.54,
         "asset": "crypto"
       },
       {
         "symbol": "LEO",
         "name": "LEO Token",
         "price": 9.29,
-        "change_24h": -3.34,
+        "change_24h": -3.35,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "POL",
+        "name": "POL (ex-MATIC)",
+        "price": 0.091862,
+        "change_24h": -3.05,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 16.73,
+        "change_24h": -2.89,
         "asset": "crypto"
       }
     ]
