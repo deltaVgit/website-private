@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-01T19:05:23Z",
+  "updated": "2026-09-01T19:35:27Z",
   "items": [
+    {
+      "title": "Codex bundles LibreOffice",
+      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "source": "Simon Willison",
+      "published_at": "2026-09-01T19:03:01+00:00",
+      "summary": "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a folder called codex-primary-runtime , including a full Python installation, a ful",
+      "tag": "ai"
+    },
     {
       "title": "Introducing agentic video understanding with Gemini",
       "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
@@ -95,14 +103,6 @@
       "source": "Hugging Face Blog",
       "published_at": "2026-09-01T00:00:00+00:00",
       "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "Introducing wrapture",
-      "url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
-      "source": "Simon Willison",
-      "published_at": "2026-08-31T23:59:36+00:00",
-      "summary": "Introducing wrapture New from Graham Dumpleton (of wrapt , mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tracing at the same time. Wrapture ( full documentation here ) ",
       "tag": "ai"
     },
     {
