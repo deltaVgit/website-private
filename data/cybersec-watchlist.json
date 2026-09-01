@@ -1,11 +1,43 @@
 [
   {
+    "title": "Stronger Security Drives Ransomware Groups to Recruit From Within",
+    "url": "https://www.darkreading.com/cyber-risk/stronger-security-drives-ransomware-groups-to-recruit-from-within",
+    "source": "Dark Reading",
+    "summary": "Some security researchers have observed an uptick in insider-assisted ransomware attacks, but malicious insiders pose other threats that cost companies millions.",
+    "added": "2026-09-01T21:03:19+00:00",
+    "expires": "2026-09-15T21:04:33Z"
+  },
+  {
+    "title": "Hackers abuse Faronics Deploy admin tool to install ScreenConnect",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/",
+    "source": "BleepingComputer",
+    "summary": "Phishing actors are abusing the legitimate Faronics Deploy endpoint-management platform to gain remote administrative control over victim computers and install the ScreenConnect remote support software. [...]",
+    "added": "2026-09-01T20:53:23+00:00",
+    "expires": "2026-09-15T21:04:33Z"
+  },
+  {
+    "title": "Critical Langflow Flaw Exploited as Attacks on AI Platform Rise",
+    "url": "https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise",
+    "source": "Dark Reading",
+    "summary": "The attacks targeting CVE-2026-0768 are the latest threat against the low-code AI development platform, which is receiving more attention from adversaries this year.",
+    "added": "2026-09-01T20:48:52+00:00",
+    "expires": "2026-09-15T21:04:33Z"
+  },
+  {
+    "title": "AI Model Evaluator METR Hit by Credential Theft, Probing",
+    "url": "https://www.darkreading.com/identity-access-management-security/ai-model-evaluator-metr-credential-theft-probing",
+    "source": "Dark Reading",
+    "summary": "In one attack, threat actors stole an API key that ultimately led to the consumption of $600,000 in public AI model credits for the security nonprofit.",
+    "added": "2026-09-01T20:13:09+00:00",
+    "expires": "2026-09-15T21:04:33Z"
+  },
+  {
     "title": "Aesto Health says data breach affects over 9.5 million patients",
     "url": "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/",
     "source": "BleepingComputer",
     "summary": "Aesto LLC, operating as Aesto Health, disclosed that a data breach discovered recently affects more than 9.5 million individuals. [...]",
     "added": "2026-09-01T19:28:17+00:00",
-    "expires": "2026-09-15T20:34:30Z"
+    "expires": "2026-09-15T21:04:33Z"
   },
   {
     "title": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
@@ -13,7 +45,7 @@
     "source": "BleepingComputer",
     "summary": "Threat actors are exploiting an unauthenticated remote code execution vulnerability (CVE-2026-0768) in Langflow, an open-source framework for building AI applications, to steal credentials, tokens, and keys. [...]",
     "added": "2026-09-01T17:54:22+00:00",
-    "expires": "2026-09-15T20:34:30Z"
+    "expires": "2026-09-15T21:04:33Z"
   },
   {
     "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
@@ -21,7 +53,7 @@
     "source": "The Hacker News",
     "summary": "Threat actors are exploiting a newly patched critical security flaw impacting JFrog Artifactory merely days after public disclosure, according to watchTowr. The vulnerability in question is CVE-2026-82329 (CVSS score: 9.",
     "added": "2026-09-01T17:53:11+00:00",
-    "expires": "2026-09-15T20:34:31Z"
+    "expires": "2026-09-15T21:04:33Z"
   },
   {
     "title": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
@@ -29,7 +61,7 @@
     "source": "The Hacker News",
     "summary": "Brazilian financial services, retail, and e-commerce organizations have become the target of a financially motivated threat actor dubbed Breeze Comet (formerly UNC5669) since 2024. Google Threat Intelligence Group (GTIG)",
     "added": "2026-09-01T17:19:24+00:00",
-    "expires": "2026-09-15T20:34:31Z"
+    "expires": "2026-09-15T21:04:33Z"
   },
   {
     "title": "Hackers push malicious Virtualizor update in BGP hijacking attack",
@@ -37,7 +69,7 @@
     "source": "BleepingComputer",
     "summary": "Hackers delivered malicious updates to the Virtualizor VPS management software after hijacking BGP routing for its update infrastructure and redirecting update requests to malicious servers. [...]",
     "added": "2026-09-01T14:45:06+00:00",
-    "expires": "2026-09-15T20:34:30Z"
+    "expires": "2026-09-15T21:04:33Z"
   },
   {
     "title": "Novocure data breach affects more than 1,400 cancer patients",
@@ -45,7 +77,7 @@
     "source": "BleepingComputer",
     "summary": "Healthtech company Novocure says the data of an undisclosed number of employees and more than 1,400 U.S. cancer patients has been exposed in a mid-August cyberattack. [...]",
     "added": "2026-09-01T14:28:40+00:00",
-    "expires": "2026-09-15T20:34:30Z"
+    "expires": "2026-09-15T21:04:33Z"
   },
   {
     "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
@@ -53,15 +85,7 @@
     "source": "The Hacker News",
     "summary": "Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install those libraries and",
     "added": "2026-09-01T14:07:20+00:00",
-    "expires": "2026-09-15T20:34:31Z"
-  },
-  {
-    "title": "Why Even the Best Edge Security Still Misses High-Risk Sessions",
-    "url": "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions/",
-    "source": "BleepingComputer",
-    "summary": "Attackers can hide behind residential proxies, VPNs, and other infrastructure that makes malicious sessions appear legitimate to existing edge security controls. Spur explains how session enrichment adds data points that",
-    "added": "2026-09-01T14:01:11+00:00",
-    "expires": "2026-09-15T20:34:30Z"
+    "expires": "2026-09-15T21:04:33Z"
   },
   {
     "title": "ClickFix Campaign Compromises 31 Orgs, Abuses Polygon Blockchain",
@@ -69,7 +93,7 @@
     "source": "Dark Reading",
     "summary": "The campaign uses EtherHiding to dynamically update its command-and-control server, abusing the blockchain as an attacker-controlled address book.",
     "added": "2026-09-01T13:56:42+00:00",
-    "expires": "2026-09-15T20:34:31Z"
+    "expires": "2026-09-15T21:04:33Z"
   },
   {
     "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
@@ -77,7 +101,7 @@
     "source": "The Hacker News",
     "summary": "The Iranian Nimbus Manticore hacking group has been attributed to two previously undocumented malware families that highlight the continued evolution of its toolset and likely expand its targeting footprint to infect Lin",
     "added": "2026-09-01T13:08:58+00:00",
-    "expires": "2026-09-15T20:34:31Z"
+    "expires": "2026-09-15T21:04:33Z"
   },
   {
     "title": "Rockwell Automation RSLinx Classic",
@@ -85,7 +109,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition on the affected product. The following versions of Rockwell Automation RSLinx Classic are ",
     "added": "2026-09-01T12:00:00+00:00",
-    "expires": "2026-09-15T20:34:31Z"
+    "expires": "2026-09-15T21:04:33Z"
   },
   {
     "title": "Rockwell Automation Historian ME",
@@ -93,7 +117,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could crash the device being accessed; an out-of-bounds write condition may allow remote code execution. The following versions of Rockwell Automation Hi",
     "added": "2026-09-01T12:00:00+00:00",
-    "expires": "2026-09-15T20:34:31Z"
+    "expires": "2026-09-15T21:04:33Z"
   },
   {
     "title": "Rockwell Automation ControlLogix, CompactLogix, CompactLogix 5480, GuardLogix, Compact GuardLogix",
@@ -101,30 +125,6 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary The following versions of Rockwell Automation ControlLogix, CompactLogix, CompactLogix 5480, GuardLogix, Compact GuardLogix are affected: ControlLogix 5580 GuardLogix 5580 CompactLogix 5380 Compact Guar",
     "added": "2026-09-01T12:00:00+00:00",
-    "expires": "2026-09-15T20:34:31Z"
-  },
-  {
-    "title": "Rockwell Automation Logix Platform",
-    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-03",
-    "source": "CISA Advisories",
-    "summary": "View CSAF Summary The following versions of Rockwell Automation Logix Platform are affected: ControlLogix 5580 CompactLogix 5380 GuardLogix 5580 Compact GuardLogix 5380 CVSS Vendor Equipment Vulnerabilities v3 7.5 Rockwe",
-    "added": "2026-09-01T12:00:00+00:00",
-    "expires": "2026-09-15T20:34:31Z"
-  },
-  {
-    "title": "Rockwell Automation Redundancy Module Configuration Tool",
-    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-02",
-    "source": "CISA Advisories",
-    "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow for an attacker to escalate and execute processes with administrator privileges. The following versions of Rockwell Automation Redundancy Mod",
-    "added": "2026-09-01T12:00:00+00:00",
-    "expires": "2026-09-15T20:34:31Z"
-  },
-  {
-    "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
-    "url": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
-    "source": "The Hacker News",
-    "summary": "The most common way into a company last year was to ask. A web page tells the visitor to prove they are not a robot. While they read the instructions, it quietly places a command on their clipboard. Then it talks them th",
-    "added": "2026-09-01T11:30:00+00:00",
-    "expires": "2026-09-15T20:34:31Z"
+    "expires": "2026-09-15T21:04:33Z"
   }
 ]
