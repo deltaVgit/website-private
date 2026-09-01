@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T20:45:13Z",
+  "updated_at": "2026-09-01T21:00:20Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 0.773388,
+        "change_24h": 13.89,
+        "asset": "crypto"
+      },
+      {
         "symbol": "CRV",
         "name": "Curve DAO",
-        "price": 0.372051,
-        "change_24h": 11.89,
+        "price": 0.372949,
+        "change_24h": 11.42,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 5.67,
-        "change_24h": 8.9,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.106579,
-        "change_24h": 6.54,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.072391,
-        "change_24h": 5.64,
+        "price": 5.71,
+        "change_24h": 9.62,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.157449,
-        "change_24h": 5.56,
+        "price": 0.158956,
+        "change_24h": 6.75,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.106553,
+        "change_24h": 6.49,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.113539,
-        "change_24h": -9.27,
+        "price": 0.113607,
+        "change_24h": -8.5,
         "asset": "crypto"
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
-        "price": 2.27,
-        "change_24h": -7.7,
+        "price": 2.28,
+        "change_24h": -7.13,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 16.0,
-        "change_24h": -6.94,
+        "price": 16.01,
+        "change_24h": -6.64,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.531924,
-        "change_24h": -5.81,
+        "price": 0.532672,
+        "change_24h": -5.56,
         "asset": "crypto"
       },
       {
         "symbol": "FLR",
         "name": "Flare",
-        "price": 0.006658,
-        "change_24h": -5.23,
+        "price": 0.006646,
+        "change_24h": -5.13,
         "asset": "crypto"
       }
     ]
