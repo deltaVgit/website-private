@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T02:30:18Z",
+  "updated_at": "2026-09-02T02:45:18Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 5.95,
-        "change_24h": 14.26,
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 0.782378,
+        "change_24h": 14.49,
         "asset": "crypto"
       },
       {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 0.770525,
-        "change_24h": 13.48,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 5.93,
+        "change_24h": 13.42,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.072695,
-        "change_24h": 7.85,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.442979,
-        "change_24h": 7.07,
+        "price": 0.072018,
+        "change_24h": 6.79,
         "asset": "crypto"
       },
       {
         "symbol": "CRV",
         "name": "Curve DAO",
-        "price": 0.372863,
-        "change_24h": 6.4,
+        "price": 0.374083,
+        "change_24h": 6.56,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.441048,
+        "change_24h": 5.44,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "FLR",
         "name": "Flare",
-        "price": 0.006557,
-        "change_24h": -9.14,
+        "price": 0.006566,
+        "change_24h": -8.3,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.113905,
-        "change_24h": -7.25,
+        "price": 0.113645,
+        "change_24h": -7.3,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004199,
-        "change_24h": -6.06,
+        "symbol": "TRUMP",
+        "name": "Official Trump",
+        "price": 2.24,
+        "change_24h": -6.38,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 42.44,
-        "change_24h": -6.01,
+        "price": 42.38,
+        "change_24h": -5.95,
         "asset": "crypto"
       },
       {
         "symbol": "GRAM",
         "name": "Gram (prev. Toncoin)",
         "price": 1.3,
-        "change_24h": -5.73,
+        "change_24h": -5.66,
         "asset": "crypto"
       }
     ]
