@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T23:34:35Z",
+  "updatedAt": "2026-09-02T00:04:40Z",
   "kev": [
     {
       "cve": "CVE-2026-82078",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-77946",
+      "id": "CVE-2026-78155",
       "severity": "CRITICAL",
-      "score": 10.0,
-      "description": "A vulnerability was determined in TRENDnet TEW-821DAP 2.2.01b05. Affected by this vulnerability is the function uci_safe_get of the file /cgi-bin/apply_time.cgi of the component NTP Timezone Configuration Handler. Execut",
-      "published": "2026-08-22T11:16:54.447"
+      "score": 9.9,
+      "description": "privilege escalation in StackGres operator allows a low-privilege tenant who owns a database to gain administrator privileges",
+      "published": "2026-08-23T10:16:28.757"
     },
     {
-      "id": "CVE-2026-78003",
+      "id": "CVE-2026-78050",
       "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The Mailgun for WordPress plugin for WordPress is vulnerable to Server-Side Request Forgery (SSRF) via path traversal in versions up to and including 2.2.0. This is due to insufficient input validation in the add_list() ",
-      "published": "2026-08-22T09:16:53.543"
+      "score": 9.9,
+      "description": "A vulnerability was found in Comfast CF-N1-S 2.6.0.1. The affected element is the function sub_41AD7C of the file /cgi-bin/mbox-config?method=SET§ion=ntp_timezone of the component Web Management. The manipulation of the ",
+      "published": "2026-08-23T00:16:50.590"
     },
     {
-      "id": "CVE-2026-77002",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The SmilePass Selfie Login WordPress plugin through 1.0.2 does not perform any server-side verification of the identity it is asked to authenticate, allowing unauthenticated users to log in as any registered account, inc",
-      "published": "2026-08-22T06:16:17.510"
-    },
-    {
-      "id": "CVE-2026-77001",
+      "id": "CVE-2026-78183",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "The Social Login & Sharing buttons with Analytics By SoClever WordPress plugin through 1.2.0 does not perform any authentication, authorisation or nonce checks in one of its publicly accessible login handlers, allowing u",
-      "published": "2026-08-22T06:16:17.323"
+      "description": "DBD::Pg version 3.21.0 for Perl has a heap out-of-bounds write in quote_float. quote_float() allocates the length of the string + 1, which is the size of the bare numeric symbol plus NULL. But for special literals NaN, I",
+      "published": "2026-08-23T20:16:50.550"
     },
     {
-      "id": "CVE-2026-77000",
+      "id": "CVE-2026-8445",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "The WP Social Media Login WordPress plugin through 1.0.6 does not verify that a social login was actually completed with the identity provider before authenticating a visitor, allowing unauthenticated attackers to log in",
-      "published": "2026-08-22T06:16:17.150"
+      "description": "justhtml versions are preserved, so untrusted input that is safe in to_html() — including entity-decoded text (e.g. ) or text from RCDATA/RAWTEXT-parsed elements like , , , and — can be emitted as raw HTML in the Markdow",
+      "published": "2026-08-23T14:16:54.957"
     },
     {
-      "id": "CVE-2026-12710",
+      "id": "CVE-2026-7808",
       "severity": "CRITICAL",
-      "score": 9.3,
-      "description": "A Missing Authorization vulnerability in the QueryEngineTask of Google Cloud Application Integration (versions from 2025-04-28 to 2026-04-04) allows an external attacker to access sensitive internal data. The issue was p",
-      "published": "2026-08-22T09:16:53.340"
+      "score": 9.8,
+      "description": "justhtml before 1.16.0 contains multiple HTML sanitization bypass issues that can allow active/dangerous content (e.g., script or style) to survive sanitization, potentially leading to cross-site scripting. The issues pr",
+      "published": "2026-08-23T14:16:54.810"
     },
     {
-      "id": "CVE-2026-59808",
+      "id": "CVE-2026-5388",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "justhtml before 1.15.0 contains multiple security issues in URL sanitization helpers (clean_url_value/clean_url_in_js_string), HTML serialization, Markdown passthrough (html_passthrough=True), and several custom sanitiza",
+      "published": "2026-08-23T14:16:53.470"
+    },
+    {
+      "id": "CVE-2026-13598",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "The RestrictMate WordPress plugin before 1.3.0 does not restrict the user role supplied during account registration, allowing unauthenticated attackers to create a new administrator account and gain a logged-in administr",
+      "published": "2026-08-23T06:16:19.850"
+    },
+    {
+      "id": "CVE-2026-16149",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "AVideo through commit 9c39d8c8 contains an authentication bypass vulnerability where deduplicateByEncoderQueueId() returns video_id_hash credentials for any video by encoder_queue_id without ownership verification, and u",
-      "published": "2026-08-22T13:16:38.977"
+      "description": "The Security Hardener plugin for WordPress is vulnerable to Missing Authorization in all versions up to, and including, 2.4.4. The vulnerability exists because the plugin's user-enumeration protection, which is enabled b",
+      "published": "2026-08-23T00:16:50.233"
     },
     {
-      "id": "CVE-2026-76789",
+      "id": "CVE-2026-0551",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "The Slider Hero with Video Background, Animation WordPress plugin before 9.1.3 does not have authorisation and nonce checks on two of its request handlers, and does not escape a stored setting before outputting it, allow",
-      "published": "2026-08-22T06:16:16.643"
+      "description": "The PPWP – Password Protect Pages plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 1.9.18 via deserialization of untrusted input from the 'post_protection_roles' vulnerable",
+      "published": "2026-08-23T00:16:49.777"
     },
     {
-      "id": "CVE-2026-19883",
+      "id": "CVE-2026-10053",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "The WPeMatico RSS Feed Fetcher plugin for WordPress is vulnerable to unauthorized modification of data that can lead to privilege escalation due to a missing capability check on the wpematico_import_settings function in ",
-      "published": "2026-08-22T03:16:20.833"
+      "score": 8.5,
+      "description": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.8 before 19.0.6, 19.1 before 19.1.4, and 19.2 before 19.2.2 that under certain conditions could have allowed an authenticated user to achieve ",
+      "published": "2026-08-23T10:16:27.140"
     },
     {
-      "id": "CVE-2026-66917",
+      "id": "CVE-2026-78136",
       "severity": "HIGH",
-      "score": 8.6,
-      "description": "Joomla Extension - joomgalleryfriends.net - Stored XSS in JoomGallery < 4.4.0 - An authenticated, privileged can store an XSS payload in any image causing JS execution in every visitor's browser.",
-      "published": "2026-08-22T12:16:25.680"
+      "score": 7.8,
+      "description": "chirpmyradio CHIRP before 39178db allows eval injection via crafted CSV data. This occurs in _clean_tmode in drivers/kenwood_itm.py.",
+      "published": "2026-08-23T01:17:20.143"
     },
     {
-      "id": "CVE-2026-76793",
+      "id": "CVE-2026-9769",
       "severity": "HIGH",
-      "score": 8.1,
-      "description": "The Firebase Authentication WordPress plugin before 1.7.1 does not require the email address in an authentication token to be verified before matching it to a WordPress account and issuing a session, allowing unauthentic",
-      "published": "2026-08-22T06:16:16.900"
-    },
-    {
-      "id": "CVE-2026-18052",
-      "severity": "HIGH",
-      "score": 8.1,
-      "description": "The ManageWP Worker WordPress plugin before 4.9.37 does not bind the account being logged in to the signature which authorises the login, nor prevent an already used login link from being replayed, allowing attackers who",
-      "published": "2026-08-22T06:16:15.647"
+      "score": 7.5,
+      "description": "justhtml through 1.9.1 (fixed in 1.10.0) is vulnerable to uncontrolled recursion leading to denial of service. During JustHTML() construction, TreeBuilder.finish() unconditionally calls _populate_selectedcontent(), which",
+      "published": "2026-08-23T14:16:55.277"
     }
   ],
   "breaches": [
