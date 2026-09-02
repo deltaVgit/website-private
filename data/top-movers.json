@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-02T17:45:57Z",
+  "updated_at": "2026-09-02T18:00:45Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "price": 17.84,
-        "change_24h": -9.7,
+        "price": 17.86,
+        "change_24h": -9.54,
         "asset": "equity"
       },
       {
         "symbol": "CRK",
         "name": "Comstock Resources, Inc.",
-        "price": 15.43,
-        "change_24h": -3.68,
+        "price": 15.46,
+        "change_24h": -3.5,
         "asset": "equity"
       },
       {
         "symbol": "MMED",
         "name": "MiniMed Group, Inc.",
-        "price": 24.11,
-        "change_24h": 7.54,
+        "price": 24.18,
+        "change_24h": 7.83,
         "asset": "equity"
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "price": 148.5,
-        "change_24h": -3.74,
+        "price": 149.67,
+        "change_24h": -2.98,
         "asset": "equity"
       },
       {
         "symbol": "EIX",
         "name": "Edison International",
-        "price": 55.34,
-        "change_24h": -5.88,
+        "price": 55.28,
+        "change_24h": -5.98,
         "asset": "equity"
       }
     ],
@@ -50,8 +50,8 @@
       {
         "symbol": "OSW",
         "name": "OneSpaWorld Holdings Limited",
-        "price": 22.44,
-        "change_24h": 0.9,
+        "price": 22.45,
+        "change_24h": 0.97,
         "asset": "equity"
       },
       {
@@ -64,15 +64,15 @@
       {
         "symbol": "PSQL",
         "name": "Pasqal Holding SA",
-        "price": 13.75,
-        "change_24h": -11.63,
+        "price": 13.47,
+        "change_24h": -13.4,
         "asset": "equity"
       },
       {
         "symbol": "SN",
         "name": "SharkNinja, Inc.",
-        "price": 174.67,
-        "change_24h": -0.14,
+        "price": 174.97,
+        "change_24h": 0.03,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.122745,
-        "change_24h": 13.28,
+        "price": 0.122031,
+        "change_24h": 13.7,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.46798,
-        "change_24h": 11.82,
+        "price": 0.469079,
+        "change_24h": 12.11,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.106636,
-        "change_24h": 5.7,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MNT",
-        "name": "Mantle",
-        "price": 0.560879,
-        "change_24h": 5.0,
+        "price": 0.106648,
+        "change_24h": 5.64,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.091936,
-        "change_24h": 4.39,
+        "price": 0.092626,
+        "change_24h": 5.46,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 522.15,
+        "change_24h": 5.29,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.148127,
-        "change_24h": -8.9,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "TRUMP",
-        "name": "Official Trump",
-        "price": 2.16,
-        "change_24h": -6.29,
+        "price": 0.149485,
+        "change_24h": -7.12,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 1.85,
-        "change_24h": -5.82,
+        "price": 1.86,
+        "change_24h": -4.83,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.10962,
-        "change_24h": -4.83,
+        "price": 0.109629,
+        "change_24h": -4.73,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "TRUMP",
+        "name": "Official Trump",
+        "price": 2.18,
+        "change_24h": -4.65,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004087,
-        "change_24h": -4.82,
+        "price": 0.00409,
+        "change_24h": -4.47,
         "asset": "crypto"
       }
     ]
