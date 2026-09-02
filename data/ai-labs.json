@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-02T05:34:40Z",
+  "updated": "2026-09-02T06:04:40Z",
   "items": [
+    {
+      "title": "Quoting Rick Brewster",
+      "url": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+      "source": "Simon Willison",
+      "published_at": "2026-09-02T05:50:57+00:00",
+      "summary": "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, Paint.NET now has an internal, from-scratch, clean-room reverse-engineered re",
+      "tag": "ai"
+    },
     {
       "title": "Task-Specific Prompt with Global Context for Multi-Task Graph Pre-Training",
       "url": "https://arxiv.org/abs/2609.00047",
@@ -79,14 +87,6 @@
       "source": "Simon Willison",
       "published_at": "2026-09-01T19:03:01+00:00",
       "summary": "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a folder called codex-primary-runtime , including a full Python installation, a ful",
-      "tag": "ai"
-    },
-    {
-      "title": "GeoJSON Map Viewer",
-      "url": "https://simonwillison.net/2026/Sep/1/geojson/",
-      "source": "Simon Willison",
-      "published_at": "2026-09-01T18:05:45+00:00",
-      "summary": "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for ",
       "tag": "ai"
     },
     {
