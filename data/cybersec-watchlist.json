@@ -1,11 +1,27 @@
 [
   {
+    "title": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
+    "url": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html",
+    "source": "The Hacker News",
+    "summary": "Virtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted update traffic to deliver a malicious Virtualizor package to some installations. A ho",
+    "added": "2026-09-02T13:12:45+00:00",
+    "expires": "2026-09-16T14:05:05Z"
+  },
+  {
     "title": "Dropbox accounts breached through Lenovo email verification flaw",
     "url": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
     "source": "BleepingComputer",
     "summary": "Dropbox is warning some users that an unauthorized party accessed their accounts by exploiting a flaw in Lenovo's email verification process to register fraudulent Lenovo IDs. [...]",
     "added": "2026-09-02T12:30:22+00:00",
-    "expires": "2026-09-16T13:35:03Z"
+    "expires": "2026-09-16T14:05:04Z"
+  },
+  {
+    "title": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
+    "url": "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html",
+    "source": "The Hacker News",
+    "summary": "Cybersecurity researchers have disclosed details of a new Android banking trojan called StreamRat that was promoted to Spanish-speaking users through a fake television-streaming campaign on Meta and can give operators ne",
+    "added": "2026-09-02T12:22:02+00:00",
+    "expires": "2026-09-16T14:05:05Z"
   },
   {
     "title": "Communicating Under Pressure: Best Practices for Service Providers",
@@ -13,7 +29,7 @@
     "source": "CISA Advisories",
     "summary": "Developed by CISA, the Federal Bureau of Investigation, and international partners, this guidance describes how organizations can plan and execute clear, timely, accurate, and audience-appropriate communications during I",
     "added": "2026-09-02T12:00:00+00:00",
-    "expires": "2026-09-16T13:35:04Z"
+    "expires": "2026-09-16T14:05:05Z"
   },
   {
     "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
@@ -21,7 +37,7 @@
     "source": "The Hacker News",
     "summary": "The debate about whether AI delivers business value is over. The challenge now is implementing it at scale and securely across every function while meeting board-level pressure to move fast. Organizations must focus on a",
     "added": "2026-09-02T11:30:00+00:00",
-    "expires": "2026-09-16T13:35:03Z"
+    "expires": "2026-09-16T14:05:05Z"
   },
   {
     "title": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
@@ -29,7 +45,7 @@
     "source": "The Hacker News",
     "summary": "SonicWall has released security updates to address two security flaws impacting its Secure Mobile Access (SMA) 1000 series VPN appliances that have been exploited in zero-day attacks. The vulnerabilities, discovered inte",
     "added": "2026-09-02T10:53:49+00:00",
-    "expires": "2026-09-16T13:35:03Z"
+    "expires": "2026-09-16T14:05:05Z"
   },
   {
     "title": "Microsoft Defender flags legitimate Google search links as malicious",
@@ -37,7 +53,7 @@
     "source": "BleepingComputer",
     "summary": "Microsoft is investigating an issue causing the Defender for Office 365 security software to mistakenly block access to legitimate Google search links. [...]",
     "added": "2026-09-02T10:29:39+00:00",
-    "expires": "2026-09-16T13:35:03Z"
+    "expires": "2026-09-16T14:05:04Z"
   },
   {
     "title": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
@@ -45,15 +61,7 @@
     "source": "The Hacker News",
     "summary": "Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metadata catalog, which sits behind many government and agency geoportals. The project",
     "added": "2026-09-02T09:18:02+00:00",
-    "expires": "2026-09-16T13:35:03Z"
-  },
-  {
-    "title": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
-    "url": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
-    "source": "The Hacker News",
-    "summary": "The U.S. Department of Justice (DoJ) has charged a Russian national, extradited from Cyprus on August 28, with using roughly 255 fake accounts on a freelance platform to send malware-laced Excel attachments to about 80,0",
-    "added": "2026-09-02T09:10:23+00:00",
-    "expires": "2026-09-16T13:35:03Z"
+    "expires": "2026-09-16T14:05:05Z"
   },
   {
     "title": "US charges Russian for infecting 80,000 freelancers with malware",
@@ -61,7 +69,7 @@
     "source": "BleepingComputer",
     "summary": "A California federal grand jury has indicted a Russian national for his role in a phishing campaign that infected thousands of freelancers with TVRAT and DarkVNC malware. [...]",
     "added": "2026-09-02T09:06:48+00:00",
-    "expires": "2026-09-16T13:35:03Z"
+    "expires": "2026-09-16T14:05:04Z"
   },
   {
     "title": "Sality botnet infrastructure dismantled in joint global takedown",
@@ -69,15 +77,7 @@
     "source": "BleepingComputer",
     "summary": "International law enforcement agencies and private partners have seized Sality malware infrastructure in a joint action aiming to disrupt and take down the peer-to-peer (P2P) botnet. [...]",
     "added": "2026-09-02T08:00:43+00:00",
-    "expires": "2026-09-16T13:35:03Z"
-  },
-  {
-    "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
-    "url": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
-    "source": "The Hacker News",
-    "summary": "Forescout Research - Vedere Labs said it used Anthropic's Claude to port a working pre-authentication remote code execution (RCE) exploit from one WAGO programmable logic controller (PLC) to another, executing attacker-s",
-    "added": "2026-09-02T07:47:13+00:00",
-    "expires": "2026-09-16T13:35:03Z"
+    "expires": "2026-09-16T14:05:04Z"
   },
   {
     "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
@@ -85,7 +85,7 @@
     "source": "BleepingComputer",
     "summary": "SonicWall warned customers that threat actors are chaining two new SMA1000 zero-day vulnerabilities in remote code execution attacks. [...]",
     "added": "2026-09-02T06:39:29+00:00",
-    "expires": "2026-09-16T13:35:03Z"
+    "expires": "2026-09-16T14:05:04Z"
   },
   {
     "title": "Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency",
@@ -93,7 +93,7 @@
     "source": "Dark Reading",
     "summary": "Threat actors exploited commodity vulnerabilities in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.",
     "added": "2026-09-02T01:00:00+00:00",
-    "expires": "2026-09-16T13:35:03Z"
+    "expires": "2026-09-16T14:05:05Z"
   },
   {
     "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
@@ -101,7 +101,7 @@
     "source": "Krebs on Security",
     "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose l",
     "added": "2026-09-01T22:40:28+00:00",
-    "expires": "2026-09-16T13:35:03Z"
+    "expires": "2026-09-16T14:05:04Z"
   },
   {
     "title": "Attackers Pounce on Critical Artifactory Bug Following Disclosure",
@@ -109,7 +109,7 @@
     "source": "Dark Reading",
     "summary": "CVE-2026-82329 is an authentication bypass flaw in JFrog's repository manager that enables bad actors to gain admin-level access on affected systems.",
     "added": "2026-09-01T21:05:53+00:00",
-    "expires": "2026-09-16T13:35:03Z"
+    "expires": "2026-09-16T14:05:05Z"
   },
   {
     "title": "Stronger Security Drives Ransomware Groups to Recruit From Within",
@@ -117,7 +117,7 @@
     "source": "Dark Reading",
     "summary": "Some security researchers have observed an uptick in insider-assisted ransomware attacks, but malicious insiders pose other threats that cost companies millions.",
     "added": "2026-09-01T21:03:19+00:00",
-    "expires": "2026-09-16T13:35:03Z"
+    "expires": "2026-09-16T14:05:05Z"
   },
   {
     "title": "Critical Langflow Vulnerability Exploited as Attacks on AI Platform Rise",
@@ -125,6 +125,6 @@
     "source": "Dark Reading",
     "summary": "The attacks targeting CVE-2026-0768 are the latest threat against the low-code AI development platform, which is receiving more attention from adversaries this year.",
     "added": "2026-09-01T20:48:52+00:00",
-    "expires": "2026-09-16T13:35:03Z"
+    "expires": "2026-09-16T14:05:05Z"
   }
 ]
