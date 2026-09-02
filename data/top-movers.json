@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T21:00:49Z",
+  "updated_at": "2026-09-02T21:15:50Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.122847,
-        "change_24h": 14.66,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ASTER",
         "name": "Aster",
-        "price": 0.738545,
-        "change_24h": 6.75,
+        "price": 0.738677,
+        "change_24h": 7.09,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.559144,
-        "change_24h": 4.95,
+        "price": 0.559611,
+        "change_24h": 5.14,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ALGO",
+        "name": "Algorand",
+        "price": 0.091924,
+        "change_24h": 4.88,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.107562,
-        "change_24h": 4.62,
+        "price": 0.107538,
+        "change_24h": 4.86,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 0.806569,
-        "change_24h": 4.2,
+        "price": 0.803746,
+        "change_24h": 4.3,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.149537,
-        "change_24h": -6.05,
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.068193,
+        "change_24h": -5.87,
         "asset": "crypto"
       },
       {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.068337,
-        "change_24h": -5.97,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.148652,
+        "change_24h": -5.54,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004102,
-        "change_24h": -5.89,
+        "price": 0.004085,
+        "change_24h": -4.9,
         "asset": "crypto"
       },
       {
-        "symbol": "CRV",
-        "name": "Curve DAO",
-        "price": 0.353575,
-        "change_24h": -4.86,
+        "symbol": "OKB",
+        "name": "OKB",
+        "price": 105.64,
+        "change_24h": -4.3,
         "asset": "crypto"
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
         "price": 2.18,
-        "change_24h": -4.2,
+        "change_24h": -3.73,
         "asset": "crypto"
       }
     ]
