@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T03:30:19Z",
+  "updated_at": "2026-09-02T03:45:20Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 0.788648,
-        "change_24h": 14.84,
-        "asset": "crypto"
-      },
-      {
         "symbol": "UNI",
         "name": "Uniswap",
         "price": 5.99,
-        "change_24h": 13.85,
+        "change_24h": 10.68,
         "asset": "crypto"
       },
       {
         "symbol": "CRV",
         "name": "Curve DAO",
-        "price": 0.386044,
-        "change_24h": 8.9,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.161595,
-        "change_24h": 7.89,
+        "price": 0.392325,
+        "change_24h": 9.59,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.07229,
-        "change_24h": 7.4,
+        "price": 0.072232,
+        "change_24h": 6.83,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.161683,
+        "change_24h": 6.51,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.66,
+        "change_24h": 5.05,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "FLR",
         "name": "Flare",
-        "price": 0.006579,
-        "change_24h": -8.05,
+        "price": 0.00656,
+        "change_24h": -8.2,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.115514,
+        "change_24h": -6.47,
         "asset": "crypto"
       },
       {
         "symbol": "GRAM",
         "name": "Gram (prev. Toncoin)",
         "price": 1.31,
-        "change_24h": -5.78,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.115923,
-        "change_24h": -5.73,
+        "change_24h": -6.01,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.5,
-        "change_24h": -5.38,
+        "price": 3.49,
+        "change_24h": -5.79,
         "asset": "crypto"
       },
       {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 42.95,
-        "change_24h": -5.24,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.00429,
+        "change_24h": -5.71,
         "asset": "crypto"
       }
     ]
