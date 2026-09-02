@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-02T14:04:58Z",
+  "updated": "2026-09-02T14:35:11Z",
   "items": [
+    {
+      "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+      "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+      "source": "Simon Willison",
+      "published_at": "2026-09-02T14:16:42+00:00",
+      "summary": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as we",
+      "tag": "ai"
+    },
     {
       "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
       "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
@@ -87,14 +95,6 @@
       "source": "Google AI Blog",
       "published_at": "2026-09-01T20:45:00+00:00",
       "summary": "Here are Google’s latest AI updates from August 2026",
-      "tag": "ai"
-    },
-    {
-      "title": "Codex bundles LibreOffice",
-      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
-      "source": "Simon Willison",
-      "published_at": "2026-09-01T19:03:01+00:00",
-      "summary": "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a folder called codex-primary-runtime , including a full Python installation, a ful",
       "tag": "ai"
     },
     {
