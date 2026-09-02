@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T20:30:49Z",
+  "updated_at": "2026-09-02T20:45:49Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.121955,
+        "change_24h": 14.6,
+        "asset": "crypto"
+      },
+      {
         "symbol": "ASTER",
         "name": "Aster",
-        "price": 0.740119,
-        "change_24h": 7.3,
+        "price": 0.743111,
+        "change_24h": 7.81,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.557115,
-        "change_24h": 4.66,
+        "price": 0.557829,
+        "change_24h": 4.88,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.107402,
-        "change_24h": 4.63,
+        "price": 0.107503,
+        "change_24h": 4.56,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.091965,
-        "change_24h": 4.01,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SUI",
-        "name": "Sui",
-        "price": 0.74314,
-        "change_24h": 2.95,
+        "price": 0.091987,
+        "change_24h": 4.3,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.00408,
-        "change_24h": -5.91,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CRV",
-        "name": "Curve DAO",
-        "price": 0.354028,
-        "change_24h": -5.67,
+        "price": 0.004076,
+        "change_24h": -5.86,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.068582,
-        "change_24h": -5.18,
+        "price": 0.068335,
+        "change_24h": -5.63,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.149897,
-        "change_24h": -4.44,
+        "price": 0.149498,
+        "change_24h": -5.35,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CRV",
+        "name": "Curve DAO",
+        "price": 0.352907,
+        "change_24h": -5.06,
         "asset": "crypto"
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
         "price": 2.18,
-        "change_24h": -4.31,
+        "change_24h": -4.07,
         "asset": "crypto"
       }
     ]
