@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-02T19:30:51Z",
+  "updated_at": "2026-09-02T19:45:48Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "price": 18.2,
-        "change_24h": -7.85,
+        "price": 17.98,
+        "change_24h": -8.96,
         "asset": "equity"
       },
       {
         "symbol": "CRK",
         "name": "Comstock Resources, Inc.",
-        "price": 15.52,
-        "change_24h": -3.15,
+        "price": 15.51,
+        "change_24h": -3.21,
         "asset": "equity"
       },
       {
         "symbol": "MMED",
         "name": "MiniMed Group, Inc.",
-        "price": 23.61,
-        "change_24h": 5.33,
+        "price": 23.87,
+        "change_24h": 6.47,
         "asset": "equity"
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "price": 150.05,
-        "change_24h": -2.74,
+        "price": 153.45,
+        "change_24h": -0.53,
         "asset": "equity"
       },
       {
         "symbol": "EIX",
         "name": "Edison International",
-        "price": 54.59,
-        "change_24h": -7.16,
+        "price": 55.03,
+        "change_24h": -6.41,
         "asset": "equity"
       }
     ],
@@ -50,29 +50,29 @@
       {
         "symbol": "OSW",
         "name": "OneSpaWorld Holdings Limited",
-        "price": 22.01,
-        "change_24h": -1.03,
+        "price": 22.02,
+        "change_24h": -0.99,
         "asset": "equity"
       },
       {
         "symbol": "PS",
         "name": "Pershing Square Inc.",
-        "price": 35.78,
-        "change_24h": -7.11,
+        "price": 35.85,
+        "change_24h": -6.93,
         "asset": "equity"
       },
       {
         "symbol": "PSQL",
         "name": "Pasqal Holding SA",
-        "price": 13.36,
-        "change_24h": -14.17,
+        "price": 13.12,
+        "change_24h": -15.65,
         "asset": "equity"
       },
       {
         "symbol": "SN",
         "name": "SharkNinja, Inc.",
-        "price": 174.75,
-        "change_24h": -0.1,
+        "price": 175.06,
+        "change_24h": 0.08,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 532.05,
-        "change_24h": 7.31,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.107849,
-        "change_24h": 5.84,
+        "price": 540.73,
+        "change_24h": 7.03,
         "asset": "crypto"
       },
       {
         "symbol": "ASTER",
         "name": "Aster",
-        "price": 0.731371,
-        "change_24h": 5.45,
+        "price": 0.732504,
+        "change_24h": 5.67,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.107915,
+        "change_24h": 5.13,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.560481,
-        "change_24h": 5.03,
+        "price": 0.558447,
+        "change_24h": 4.81,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.091953,
-        "change_24h": 3.82,
+        "price": 0.091991,
+        "change_24h": 3.7,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004058,
-        "change_24h": -6.64,
+        "price": 0.004054,
+        "change_24h": -6.48,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CRV",
+        "name": "Curve DAO",
+        "price": 0.353866,
+        "change_24h": -6.12,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.068373,
+        "change_24h": -6.03,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.148815,
-        "change_24h": -6.24,
+        "price": 0.148539,
+        "change_24h": -5.71,
         "asset": "crypto"
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
         "price": 2.16,
-        "change_24h": -6.07,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.068606,
-        "change_24h": -5.41,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CRV",
-        "name": "Curve DAO",
-        "price": 0.353239,
-        "change_24h": -5.32,
+        "change_24h": -5.7,
         "asset": "crypto"
       }
     ]
