@@ -314,7 +314,7 @@
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 851,
+        "likes": 855,
         "downloads": 1276092,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
@@ -438,7 +438,7 @@
       "downloads": 88968,
       "url": "https://huggingface.co/windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF",
       "lastModified": "2026-08-27T10:50:05.000Z",
-      "daysAgo": 5,
+      "daysAgo": 6,
       "pipeline": "text-generation",
       "tags": [
         "gguf",
@@ -451,8 +451,8 @@
         "moe"
       ],
       "pop": 0.7891,
-      "rec": 0.8571,
-      "combo": 0.8129
+      "rec": 0.8333,
+      "combo": 0.8046
     },
     {
       "id": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
@@ -510,7 +510,7 @@
       "downloads": 55346,
       "url": "https://huggingface.co/sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
       "lastModified": "2026-08-24T11:01:03.000Z",
-      "daysAgo": 8,
+      "daysAgo": 9,
       "pipeline": "text-generation",
       "tags": [
         "vllm",
@@ -523,8 +523,8 @@
         "blackwell"
       ],
       "pop": 0.7563,
-      "rec": 0.7895,
-      "combo": 0.7679
+      "rec": 0.7692,
+      "combo": 0.7608
     },
     {
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
@@ -575,34 +575,10 @@
       "combo": 0.7539
     },
     {
-      "id": "PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
-      "name": "Ornith-1.5-35B-A3B-Abliterated-GGUF",
-      "author": "PocketAiHub",
-      "likes": 38,
-      "downloads": 49086,
-      "url": "https://huggingface.co/PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
-      "lastModified": "2026-08-22T11:00:34.000Z",
-      "daysAgo": 10,
-      "pipeline": "image-text-to-text",
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "ornith",
-        "qwen3.5-moe",
-        "multimodal",
-        "abliterated",
-        "image-text-to-text",
-        "en"
-      ],
-      "pop": 0.748,
-      "rec": 0.75,
-      "combo": 0.7487
-    },
-    {
       "id": "Ryn1998/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "author": "Ryn1998",
-      "likes": 12,
+      "likes": 13,
       "downloads": 8756,
       "url": "https://huggingface.co/Ryn1998/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "lastModified": "2026-08-31T12:04:41.000Z",
@@ -621,8 +597,32 @@
       "pop": 0.6286,
       "rec": 0.9677,
       "combo": 0.7473
+    },
+    {
+      "id": "PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
+      "name": "Ornith-1.5-35B-A3B-Abliterated-GGUF",
+      "author": "PocketAiHub",
+      "likes": 38,
+      "downloads": 49086,
+      "url": "https://huggingface.co/PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
+      "lastModified": "2026-08-22T11:00:34.000Z",
+      "daysAgo": 11,
+      "pipeline": "image-text-to-text",
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "ornith",
+        "qwen3.5-moe",
+        "multimodal",
+        "abliterated",
+        "image-text-to-text",
+        "en"
+      ],
+      "pop": 0.748,
+      "rec": 0.7317,
+      "combo": 0.7423
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-02T10:04:39Z"
+  "updated": "2026-09-02T11:04:40Z"
 }
