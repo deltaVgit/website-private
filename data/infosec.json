@@ -1,6 +1,69 @@
 {
-  "updatedAt": "2026-09-02T16:35:04Z",
+  "updatedAt": "2026-09-02T17:05:04Z",
   "kev": [
+    {
+      "cve": "CVE-2026-59822",
+      "product": "LiteLLM",
+      "vendor": "BerriAI",
+      "name": "BerriAI LiteLLM Improper Authentication Vulnerability",
+      "dateAdded": "2026-09-02",
+      "dueDate": "2026-09-16",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-48710",
+      "product": "Starlette",
+      "vendor": "Kludex",
+      "name": "Kludex Starlette HTTP Request/Response Smuggling Vulnerability",
+      "dateAdded": "2026-09-02",
+      "dueDate": "2026-09-16",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-49869",
+      "product": "Kestra OSS",
+      "vendor": "Kestra",
+      "name": "Kestra OSS OS Command Injection Vulnerability",
+      "dateAdded": "2026-09-02",
+      "dueDate": "2026-09-05",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-82329",
+      "product": "Artifactory",
+      "vendor": "JFrog",
+      "name": "JFrog Artifactory Improper Authentication Vulnerability",
+      "dateAdded": "2026-09-02",
+      "dueDate": "2026-09-05",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-9586",
+      "product": "Switchvox",
+      "vendor": "Sangoma",
+      "name": "Sangoma Switchvox SQL Injection Vulnerability",
+      "dateAdded": "2026-09-02",
+      "dueDate": "2026-09-05",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-83548",
+      "product": "SMA1000 Appliances",
+      "vendor": "SonicWall",
+      "name": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
+      "dateAdded": "2026-09-02",
+      "dueDate": "2026-09-05",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-83549",
+      "product": "SMA1000 Appliances",
+      "vendor": "SonicWall",
+      "name": "SonicWall SMA1000 Appliances OS Command Injection Vulnerability",
+      "dateAdded": "2026-09-02",
+      "dueDate": "2026-09-05",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2026-82078",
       "product": "NG/MF",
@@ -62,69 +125,6 @@
       "name": "Red Hat Libuser Race Condition Vulnerability",
       "dateAdded": "2026-08-26",
       "dueDate": "2026-09-09",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2015-5287",
-      "product": "Automatic Bug Reporting Tool",
-      "vendor": "Red Hat",
-      "name": "Red Hat Automatic Bug Reporting Tool Privilege Escalation Vulnerability",
-      "dateAdded": "2026-08-26",
-      "dueDate": "2026-09-09",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2022-0995",
-      "product": "Kernel",
-      "vendor": "Linux",
-      "name": "Linux Kernel Out-of-Bounds Write Vulnerability",
-      "dateAdded": "2026-08-26",
-      "dueDate": "2026-09-09",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-8452",
-      "product": "NetScaler ADC and NetScaler Gateway",
-      "vendor": "Citrix",
-      "name": "Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
-      "dateAdded": "2026-08-26",
-      "dueDate": "2026-08-29",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2019-1068",
-      "product": "SQL Server",
-      "vendor": "Microsoft",
-      "name": "Microsoft SQL Server Remote Code Execution Vulnerability",
-      "dateAdded": "2026-08-26",
-      "dueDate": "2026-08-29",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-60004",
-      "product": "Gitea",
-      "vendor": "Gitea",
-      "name": "Gitea Code Injection Vulnerability",
-      "dateAdded": "2026-08-25",
-      "dueDate": "2026-08-28",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-21962",
-      "product": "HTTP Server and Oracle Weblogic Server Proxy Plug-in",
-      "vendor": "Oracle",
-      "name": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability",
-      "dateAdded": "2026-08-24",
-      "dueDate": "2026-08-27",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-73570",
-      "product": "Zimbra Collaboration Suite (ZCS)",
-      "vendor": "Synacor",
-      "name": "Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability",
-      "dateAdded": "2026-08-21",
-      "dueDate": "2026-08-24",
       "knownRansomware": "Unknown"
     }
   ],
