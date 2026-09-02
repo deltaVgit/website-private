@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T21:15:50Z",
+  "updated_at": "2026-09-02T21:30:50Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.12183,
+        "change_24h": 13.79,
+        "asset": "crypto"
+      },
+      {
         "symbol": "ASTER",
         "name": "Aster",
-        "price": 0.738677,
-        "change_24h": 7.09,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MNT",
-        "name": "Mantle",
-        "price": 0.559611,
-        "change_24h": 5.14,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ALGO",
-        "name": "Algorand",
-        "price": 0.091924,
-        "change_24h": 4.88,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.107538,
-        "change_24h": 4.86,
+        "price": 0.734612,
+        "change_24h": 6.58,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 0.803746,
-        "change_24h": 4.3,
+        "price": 0.803055,
+        "change_24h": 4.91,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ALGO",
+        "name": "Algorand",
+        "price": 0.09194,
+        "change_24h": 4.77,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "MNT",
+        "name": "Mantle",
+        "price": 0.558365,
+        "change_24h": 4.69,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.068193,
-        "change_24h": -5.87,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.147929,
+        "change_24h": -6.63,
         "asset": "crypto"
       },
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.148652,
-        "change_24h": -5.54,
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.068071,
+        "change_24h": -6.23,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004085,
-        "change_24h": -4.9,
+        "price": 0.004091,
+        "change_24h": -5.59,
         "asset": "crypto"
       },
       {
         "symbol": "OKB",
         "name": "OKB",
-        "price": 105.64,
-        "change_24h": -4.3,
+        "price": 104.69,
+        "change_24h": -5.14,
         "asset": "crypto"
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
-        "price": 2.18,
-        "change_24h": -3.73,
+        "price": 2.17,
+        "change_24h": -4.29,
         "asset": "crypto"
       }
     ]
