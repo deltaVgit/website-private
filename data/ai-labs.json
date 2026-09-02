@@ -1,6 +1,54 @@
 {
-  "updated": "2026-09-02T03:34:37Z",
+  "updated": "2026-09-02T04:04:38Z",
   "items": [
+    {
+      "title": "Task-Specific Prompt with Global Context for Multi-Task Graph Pre-Training",
+      "url": "https://arxiv.org/abs/2609.00047",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-02T04:00:00+00:00",
+      "summary": "arXiv:2609.00047v1 Announce Type: new Abstract: Graph prompt learning is an effective paradigm to adapt pre-trained graph models to downstream tasks in low-resource scenarios. However, existing multi-task graph pre-training frameworks generally use randomly initialized prompts, l",
+      "tag": "ai"
+    },
+    {
+      "title": "REAL-Q: E2E LLM Quantization via Dynamic Gradient Descent",
+      "url": "https://arxiv.org/abs/2609.00049",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-02T04:00:00+00:00",
+      "summary": "arXiv:2609.00049v1 Announce Type: new Abstract: Post-training quantization (PTQ) is essential for deploying large language models (LLMs) under strict resource constraints. State-of-the-art PTQ methods quantize each layer with a single closed-form second-order solver: to remain an",
+      "tag": "ai"
+    },
+    {
+      "title": "Convergence issues in Relational Concept Analysis based on AOC-posets",
+      "url": "https://arxiv.org/abs/2609.00054",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-02T04:00:00+00:00",
+      "summary": "arXiv:2609.00054v1 Announce Type: new Abstract: Formal Concept Analysis (FCA) is an approach for conceptual classification building and rule discovery from a binary table describing a set of objects by a set of attributes. Extensions have been proposed to deal with non-binary and",
+      "tag": "ai"
+    },
+    {
+      "title": "Behaviorally Grounded User Profiles from the Wild for Personalized Alignment and Multi-Perspective Reasoning",
+      "url": "https://arxiv.org/abs/2609.00014",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-02T04:00:00+00:00",
+      "summary": "arXiv:2609.00014v1 Announce Type: new Abstract: Persona-driven techniques increasingly adapt large language models (LLMs) to diverse contexts. However, existing methods predominantly rely on rigid, synthetic personas that flatten individual variation, rely on stereotypes, and mis",
+      "tag": "ai"
+    },
+    {
+      "title": "trajectory-judge: What Outcome-Only LLM Judges Miss on Agent Trajectories",
+      "url": "https://arxiv.org/abs/2609.00038",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-02T04:00:00+00:00",
+      "summary": "arXiv:2609.00038v1 Announce Type: new Abstract: Outcome-only evaluation is the production default for LLM agents: show a judge the request and the final reply and ask whether it was handled well. The metric is structurally blind to an agent that reaches the right answer the wrong",
+      "tag": "ai"
+    },
+    {
+      "title": "GUI-CC: Benchmarking Contextual Consistency of GUI World Models as Agent Environments",
+      "url": "https://arxiv.org/abs/2609.00048",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-02T04:00:00+00:00",
+      "summary": "arXiv:2609.00048v1 Announce Type: new Abstract: GUI world models are increasingly evaluated as one-step next-screen predictors, yet their intended use is often as multi-step environments for GUI agents. This mismatch leaves a key requirement under-tested: generated states must re",
+      "tag": "ai"
+    },
     {
       "title": "Claude Fable 5.1 made me a really nice animated pelican",
       "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
@@ -271,54 +319,6 @@
       "source": "EleutherAI",
       "published_at": "2026-07-13T00:00:00+00:00",
       "summary": "A toy dynamical model of whether the AI workforce that builds future AI ends up cooperative or uncooperative: where the basin boundary lies, what current evidence says about which side we are on, and what would tell us we are on the good path.",
-      "tag": "ai"
-    },
-    {
-      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
-      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
-      "source": "NVIDIA AI",
-      "published_at": "2026-07-08T15:00:27+00:00",
-      "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open mo",
-      "tag": "ai"
-    },
-    {
-      "title": "Early Indicators of Reward Hacking via Reasoning Interpolation",
-      "url": "https://blog.eleuther.ai/reward-hacking-indicators/",
-      "source": "EleutherAI",
-      "published_at": "2026-04-15T00:00:00+00:00",
-      "summary": "Using importance sampling with fine-tuned donor prefills to predict reward hacking emergence during training",
-      "tag": "ai"
-    },
-    {
-      "title": "NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES",
-      "url": "https://blogs.nvidia.com/blog/2026-ces-special-presentation/",
-      "source": "NVIDIA AI",
-      "published_at": "2026-01-05T23:30:18+00:00",
-      "summary": "NVIDIA founder and CEO Jensen Huang took the stage at the Fontainebleau Las Vegas to open CES 2026, declaring that AI is scaling into every domain and every device. “Computing has been fundamentally reshaped as a result of accelerated computing, as a result of artificial intellig",
-      "tag": "ai"
-    },
-    {
-      "title": "As AI Grows More Complex, Model Builders Rely on NVIDIA",
-      "url": "https://blogs.nvidia.com/blog/leading-models-nvidia/",
-      "source": "NVIDIA AI",
-      "published_at": "2025-12-11T19:19:57+00:00",
-      "summary": "Unveiling what it describes as the most capable model series yet for professional knowledge work, OpenAI launched GPT-5.2 in December. The model was trained and deployed on NVIDIA infrastructure, including NVIDIA Hopper and GB200 NVL72 systems. GPT-5.3 Codex — the first OpenAI ag",
-      "tag": "ai"
-    },
-    {
-      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
-      "url": "https://qwenlm.github.io/blog/qwen3guard/",
-      "source": "Qwen (Alibaba)",
-      "published_at": "2025-09-22T20:00:00+00:00",
-      "summary": "Tech Report GitHub Hugging Face ModelScope DISCORD Introduction We are excited to introduce Qwen3Guard, the first safety guardrail model in the Qwen family. Built upon the powerful Qwen3 foundation models and fine-tuned specifically for safety classificatoin, Qwen3Guard ensures r",
-      "tag": "ai"
-    },
-    {
-      "title": "Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency",
-      "url": "https://qwenlm.github.io/blog/qwen-image-edit/",
-      "source": "Qwen (Alibaba)",
-      "published_at": "2025-08-18T17:30:00+00:00",
-      "summary": "QWEN CHAT GITHUB HUGGING FACE MODELSCOPE DISCORD We are excited to introduce Qwen-Image-Edit, the image editing version of Qwen-Image. Built upon our 20B Qwen-Image model, Qwen-Image-Edit successfully extends Qwen-Image’s unique text rendering capabilities to image editing tasks,",
       "tag": "ai"
     }
   ],
