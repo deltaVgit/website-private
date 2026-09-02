@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T07:34:50Z",
+  "updatedAt": "2026-09-02T08:04:50Z",
   "kev": [
     {
       "cve": "CVE-2026-82078",
@@ -216,6 +216,13 @@
   ],
   "breaches": [
     {
+      "name": "ManchesterAirportsGroup",
+      "domain": "magairports.com",
+      "date": "2026-08-27",
+      "count": 8728451,
+      "data": "Browser user agent details, Email addresses, Geographic locations, IP addresses, Names"
+    },
+    {
       "name": "OzHairAndBeauty",
       "domain": "ozhairandbeauty.com",
       "date": "2026-08-15",
@@ -291,13 +298,6 @@
       "date": "2026-06-18",
       "count": 276114,
       "data": "Email addresses, Employers, Job titles, Names, Phone numbers"
-    },
-    {
-      "name": "OperationEndgame4",
-      "domain": "",
-      "date": "2026-06-18",
-      "count": 4348526,
-      "data": "Email addresses, Passwords"
     }
   ]
 }
