@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T10:45:29Z",
+  "updated_at": "2026-09-02T11:00:30Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.442738,
+        "change_24h": 13.92,
+        "asset": "crypto"
+      },
+      {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 0.780005,
-        "change_24h": 10.33,
+        "price": 0.776659,
+        "change_24h": 10.1,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 5.96,
-        "change_24h": 3.76,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 63.79,
-        "change_24h": 3.3,
+        "price": 6.0,
+        "change_24h": 4.55,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.070167,
-        "change_24h": 3.26,
+        "price": 0.070134,
+        "change_24h": 3.2,
         "asset": "crypto"
       },
       {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 2.49,
-        "change_24h": 3.05,
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.104707,
+        "change_24h": 2.94,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.112296,
-        "change_24h": -7.06,
+        "symbol": "TRUMP",
+        "name": "Official Trump",
+        "price": 2.2,
+        "change_24h": -7.51,
         "asset": "crypto"
       },
       {
-        "symbol": "TRUMP",
-        "name": "Official Trump",
-        "price": 2.22,
-        "change_24h": -6.78,
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.111707,
+        "change_24h": -6.85,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 797.94,
+        "change_24h": -5.48,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 15.84,
-        "change_24h": -5.58,
+        "price": 15.86,
+        "change_24h": -5.17,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 216.34,
-        "change_24h": -5.06,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 1.84,
-        "change_24h": -4.98,
+        "price": 216.05,
+        "change_24h": -5.0,
         "asset": "crypto"
       }
     ]
