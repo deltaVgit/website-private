@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T07:30:38Z",
+  "updated_at": "2026-09-02T07:45:26Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 0.793896,
-        "change_24h": 13.79,
-        "asset": "crypto"
-      },
-      {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.441817,
-        "change_24h": 12.99,
+        "price": 0.441458,
+        "change_24h": 12.73,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 6.28,
-        "change_24h": 8.36,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.072026,
-        "change_24h": 7.97,
+        "price": 6.3,
+        "change_24h": 9.03,
         "asset": "crypto"
       },
       {
         "symbol": "CRV",
         "name": "Curve DAO",
-        "price": 0.376782,
-        "change_24h": 7.41,
+        "price": 0.377416,
+        "change_24h": 7.36,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price": 65.69,
+        "change_24h": 7.28,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.071722,
+        "change_24h": 6.44,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.113271,
-        "change_24h": -7.16,
+        "price": 0.113375,
+        "change_24h": -6.2,
         "asset": "crypto"
       },
       {
         "symbol": "GRAM",
         "name": "Gram (prev. Toncoin)",
         "price": 1.32,
-        "change_24h": -5.4,
+        "change_24h": -4.9,
         "asset": "crypto"
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
         "price": 2.25,
-        "change_24h": -5.36,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 1.86,
-        "change_24h": -4.53,
+        "change_24h": -4.86,
         "asset": "crypto"
       },
       {
         "symbol": "FLR",
         "name": "Flare",
-        "price": 0.006579,
-        "change_24h": -4.28,
+        "price": 0.006584,
+        "change_24h": -4.03,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 1.87,
+        "change_24h": -3.95,
         "asset": "crypto"
       }
     ]
