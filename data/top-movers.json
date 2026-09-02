@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-02T18:15:45Z",
+  "updated_at": "2026-09-02T18:30:46Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "price": 18.08,
-        "change_24h": -8.46,
+        "price": 18.1,
+        "change_24h": -8.35,
         "asset": "equity"
       },
       {
         "symbol": "CRK",
         "name": "Comstock Resources, Inc.",
-        "price": 15.47,
-        "change_24h": -3.4,
+        "price": 15.53,
+        "change_24h": -3.06,
         "asset": "equity"
       },
       {
         "symbol": "MMED",
         "name": "MiniMed Group, Inc.",
-        "price": 24.02,
-        "change_24h": 7.14,
+        "price": 23.98,
+        "change_24h": 6.96,
         "asset": "equity"
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "price": 150.3,
-        "change_24h": -2.57,
+        "price": 150.2,
+        "change_24h": -2.64,
         "asset": "equity"
       },
       {
         "symbol": "EIX",
         "name": "Edison International",
-        "price": 55.69,
-        "change_24h": -5.29,
+        "price": 55.14,
+        "change_24h": -6.22,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "EGIEY",
         "name": "Engie Brasil Energia S A",
-        "price": 5.98,
-        "change_24h": 3.82,
+        "price": 5.99,
+        "change_24h": 3.99,
         "asset": "equity"
       },
       {
         "symbol": "OSW",
         "name": "OneSpaWorld Holdings Limited",
-        "price": 22.46,
-        "change_24h": 1.01,
+        "price": 22.35,
+        "change_24h": 0.49,
         "asset": "equity"
       },
       {
         "symbol": "PS",
         "name": "Pershing Square Inc.",
-        "price": 36.18,
-        "change_24h": -6.06,
+        "price": 36.17,
+        "change_24h": -6.08,
         "asset": "equity"
       },
       {
         "symbol": "PSQL",
         "name": "Pasqal Holding SA",
-        "price": 13.42,
-        "change_24h": -13.75,
+        "price": 13.44,
+        "change_24h": -13.62,
         "asset": "equity"
       },
       {
         "symbol": "SN",
         "name": "SharkNinja, Inc.",
-        "price": 174.35,
-        "change_24h": -0.33,
+        "price": 174.51,
+        "change_24h": -0.23,
         "asset": "equity"
       }
     ]
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.471124,
-        "change_24h": 10.88,
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 523.94,
+        "change_24h": 7.88,
         "asset": "crypto"
       },
       {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 524.06,
-        "change_24h": 5.86,
+        "symbol": "ASTER",
+        "name": "Aster",
+        "price": 0.734223,
+        "change_24h": 6.11,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.106707,
+        "price": 0.106804,
         "change_24h": 5.65,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.091928,
-        "change_24h": 4.9,
+        "price": 0.091941,
+        "change_24h": 5.36,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 0.803974,
-        "change_24h": 4.86,
+        "price": 0.803829,
+        "change_24h": 5.27,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.150147,
-        "change_24h": -6.01,
+        "symbol": "TRUMP",
+        "name": "Official Trump",
+        "price": 2.18,
+        "change_24h": -5.03,
         "asset": "crypto"
       },
       {
-        "symbol": "TRUMP",
-        "name": "Official Trump",
-        "price": 2.17,
-        "change_24h": -5.17,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.150194,
+        "change_24h": -5.02,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.069045,
-        "change_24h": -4.25,
+        "price": 0.069175,
+        "change_24h": -4.1,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.109918,
-        "change_24h": -4.24,
+        "price": 0.11003,
+        "change_24h": -3.87,
         "asset": "crypto"
       },
       {
-        "symbol": "OKB",
-        "name": "OKB",
-        "price": 105.85,
-        "change_24h": -3.89,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.004122,
+        "change_24h": -3.7,
         "asset": "crypto"
       }
     ]
