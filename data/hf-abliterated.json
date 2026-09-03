@@ -54,7 +54,7 @@
         "downloads": 825792,
         "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-06-05T17:55:41.000Z",
-        "daysAgo": 89,
+        "daysAgo": 90,
         "pipeline": "",
         "tags": [
           "gguf",
@@ -139,6 +139,27 @@
         ]
       },
       {
+        "id": "darknight9121/FLUX.2-klein-base-9B-bucket-uncensored",
+        "name": "FLUX.2-klein-base-9B-bucket-uncensored",
+        "author": "darknight9121",
+        "likes": 24,
+        "downloads": 18341,
+        "url": "https://huggingface.co/darknight9121/FLUX.2-klein-base-9B-bucket-uncensored",
+        "lastModified": "2026-06-26T02:57:27.000Z",
+        "daysAgo": 69,
+        "pipeline": "image-to-image",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "image-generation",
+          "image-editing",
+          "flux",
+          "diffusion-single-file",
+          "image-to-image",
+          "en"
+        ]
+      },
+      {
         "id": "ponpoke/flux2-klein-4b-uncensored-text-encoder",
         "name": "flux2-klein-4b-uncensored-text-encoder",
         "author": "ponpoke",
@@ -200,26 +221,6 @@
           "safetensors",
           "bf16"
         ]
-      },
-      {
-        "id": "Heartsync/Flux-NSFW-uncensored",
-        "name": "Flux-NSFW-uncensored",
-        "author": "Heartsync",
-        "likes": 488,
-        "downloads": 0,
-        "url": "https://huggingface.co/Heartsync/Flux-NSFW-uncensored",
-        "lastModified": "2025-05-05T14:21:20.000Z",
-        "daysAgo": 486,
-        "pipeline": "text-to-image",
-        "tags": [
-          "text-to-image",
-          "en",
-          "base_model:black-forest-labs/FLUX.1-dev",
-          "base_model:finetune:black-forest-labs/FLUX.1-dev",
-          "license:creativeml-openrail-m",
-          "region:us",
-          "not-for-all-audiences"
-        ]
       }
     ],
     "multimodal": [
@@ -227,7 +228,7 @@
         "id": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "name": "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1090,
+        "likes": 1091,
         "downloads": 2510343,
         "url": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-04-06T03:50:35.000Z",
@@ -314,7 +315,7 @@
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 882,
+        "likes": 883,
         "downloads": 1336061,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
@@ -414,7 +415,7 @@
       "downloads": 321681,
       "url": "https://huggingface.co/Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
       "lastModified": "2026-08-22T17:50:05.000Z",
-      "daysAgo": 11,
+      "daysAgo": 12,
       "pipeline": "image-text-to-text",
       "tags": [
         "gguf",
@@ -427,8 +428,8 @@
         "multimodal"
       ],
       "pop": 0.8761,
-      "rec": 0.7317,
-      "combo": 0.8256
+      "rec": 0.7143,
+      "combo": 0.8195
     },
     {
       "id": "windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF",
@@ -506,7 +507,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "name": "Huihui-Qwen3.8-27B-abliterated",
       "author": "huihui-ai",
-      "likes": 344,
+      "likes": 345,
       "downloads": 57431,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "lastModified": "2026-08-24T03:47:39.000Z",
@@ -558,7 +559,7 @@
       "downloads": 64469,
       "url": "https://huggingface.co/twolven/Qwen3.8-27B-abliterated-AWQ-MTP",
       "lastModified": "2026-08-21T17:53:49.000Z",
-      "daysAgo": 12,
+      "daysAgo": 13,
       "pipeline": "image-text-to-text",
       "tags": [
         "transformers",
@@ -571,8 +572,8 @@
         "compressed-tensors"
       ],
       "pop": 0.7651,
-      "rec": 0.7143,
-      "combo": 0.7473
+      "rec": 0.6977,
+      "combo": 0.7415
     },
     {
       "id": "PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
@@ -624,5 +625,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-03T17:34:45Z"
+  "updated": "2026-09-03T18:04:46Z"
 }
