@@ -1,11 +1,19 @@
 [
   {
+    "title": "Microsoft says KB5120998 Windows update resets desktop settings",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-kb5120998-windows-update-resets-desktop-settings/",
+    "source": "BleepingComputer",
+    "summary": "Microsoft has confirmed that desktop settings are lost or reset on some Windows devices after installing the KB5120998 August 2026 preview update. [...]",
+    "added": "2026-09-03T12:16:32+00:00",
+    "expires": "2026-09-17T12:34:49Z"
+  },
+  {
     "title": "'Breeze Comet' Tears Into Brazilian & Global Financial Systems",
     "url": "https://www.darkreading.com/threat-intelligence/breeze-comet-brazilian-global-financial-systems",
     "source": "Dark Reading",
     "summary": "Brazil's most sophisticated threat group is making light work of the country's financial systems, putting money directly into its own pocket.",
     "added": "2026-09-03T12:00:00+00:00",
-    "expires": "2026-09-17T12:04:48Z"
+    "expires": "2026-09-17T12:34:50Z"
   },
   {
     "title": "Plex warns users to patch security vulnerabilities immediately",
@@ -13,7 +21,7 @@
     "source": "BleepingComputer",
     "summary": "Plex urged users this week to update their desktop clients and media servers immediately to patch multiple security vulnerabilities. [...]",
     "added": "2026-09-03T11:02:22+00:00",
-    "expires": "2026-09-17T12:04:47Z"
+    "expires": "2026-09-17T12:34:49Z"
   },
   {
     "title": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
@@ -21,7 +29,7 @@
     "source": "The Hacker News",
     "summary": "Threat actors are leveraging the trusted Node.js JavaScript runtime in multiple cyber attacks as a way to deploy malicious payloads. According to a new report published by the Symantec Threat Hunter Team today, the attac",
     "added": "2026-09-03T10:43:01+00:00",
-    "expires": "2026-09-17T12:04:48Z"
+    "expires": "2026-09-17T12:34:50Z"
   },
   {
     "title": "Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means",
@@ -29,7 +37,7 @@
     "source": "The Hacker News",
     "summary": "In early August, GitGuardian researchers found that a recent Shai-Hulud infostealer worm variant had evolved to scan for credentials across 469 locations across developer environments, Continuous Integration/Continuous D",
     "added": "2026-09-03T10:36:39+00:00",
-    "expires": "2026-09-17T12:04:48Z"
+    "expires": "2026-09-17T12:34:50Z"
   },
   {
     "title": "Microsoft Teams, Outlook fail to launch on ARM-based Windows PCs",
@@ -37,7 +45,7 @@
     "source": "BleepingComputer",
     "summary": "Microsoft is working to fix a known issue that causes crashes and launch failures for Microsoft Teams and New Outlook users after installing updates released since the August 2026 Patch Tuesday. [...]",
     "added": "2026-09-03T08:55:25+00:00",
-    "expires": "2026-09-17T12:04:47Z"
+    "expires": "2026-09-17T12:34:49Z"
   },
   {
     "title": "Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone",
@@ -45,7 +53,7 @@
     "source": "The Hacker News",
     "summary": "The iPhone belonging to a member of Serbia's student protest movement was infected with NSO Group's Pegasus spyware, according to new findings from the Citizen Lab in collaboration with the SHARE Foundation. \"Our analysi",
     "added": "2026-09-03T08:43:17+00:00",
-    "expires": "2026-09-17T12:04:48Z"
+    "expires": "2026-09-17T12:34:50Z"
   },
   {
     "title": "Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon",
@@ -53,7 +61,7 @@
     "source": "The Hacker News",
     "summary": "The security researcher known as Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has dropped a new zero-day dubbed FalconFlank, a privilege escalation flaw impacting Crowdstrike Falcon. \"Falc",
     "added": "2026-09-03T06:26:59+00:00",
-    "expires": "2026-09-17T12:04:48Z"
+    "expires": "2026-09-17T12:34:50Z"
   },
   {
     "title": "CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners",
@@ -61,7 +69,7 @@
     "source": "The Hacker News",
     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added seven security flaws to its Known Exploited Vulnerabilities (KEV) catalog after they landed in attackers' crosshairs. The vulnerabilitie",
     "added": "2026-09-03T05:19:04+00:00",
-    "expires": "2026-09-17T12:04:48Z"
+    "expires": "2026-09-17T12:34:50Z"
   },
   {
     "title": "AI’s Vulnerability Surge May Be More Manageable Than First Feared",
@@ -69,7 +77,7 @@
     "source": "Dark Reading",
     "summary": "New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams — if they have the right strategies.",
     "added": "2026-09-02T21:14:06+00:00",
-    "expires": "2026-09-17T12:04:48Z"
+    "expires": "2026-09-17T12:34:50Z"
   },
   {
     "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
@@ -77,7 +85,7 @@
     "source": "BleepingComputer",
     "summary": "Attackers are actively exploiting CVE-2026-9586, an unauthenticated SQL injection vulnerability in the Sangoma Switchvox VoIP platform that can lead to remote code execution. [...]",
     "added": "2026-09-02T21:00:13+00:00",
-    "expires": "2026-09-17T12:04:47Z"
+    "expires": "2026-09-17T12:34:49Z"
   },
   {
     "title": "SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE",
@@ -85,7 +93,7 @@
     "source": "Dark Reading",
     "summary": "The exploitation activity follows attacks earlier this summer on two other zero-day vulnerabilities in the vendor's edge devices.",
     "added": "2026-09-02T20:43:59+00:00",
-    "expires": "2026-09-17T12:04:48Z"
+    "expires": "2026-09-17T12:34:50Z"
   },
   {
     "title": "AI Gives Cybercriminals a Dangerous Time Advantage",
@@ -93,7 +101,7 @@
     "source": "Dark Reading",
     "summary": "Former cybercriminal Brett Johnson provides a look inside the mind of a threat actor and discusses where AI provides the most value for attackers.",
     "added": "2026-09-02T19:46:31+00:00",
-    "expires": "2026-09-17T12:04:48Z"
+    "expires": "2026-09-17T12:34:50Z"
   },
   {
     "title": "WordPress backup plugin flaw exposes millions of sites to takeover attacks",
@@ -101,7 +109,7 @@
     "source": "BleepingComputer",
     "summary": "An SQL injection vulnerability in the All-in-One WP Migration and Backup plugin for WordPress could allow unauthenticated attackers to execute remote code and take control of affected websites. [...]",
     "added": "2026-09-02T19:28:46+00:00",
-    "expires": "2026-09-17T12:04:47Z"
+    "expires": "2026-09-17T12:34:49Z"
   },
   {
     "title": "Threat Gang 'Springs' Vishing Attacks on Microsoft Teams Users",
@@ -109,15 +117,7 @@
     "source": "Dark Reading",
     "summary": "The \"Spring Ring\" operation aims to compromise users of the collaboration suite to remotely access their sessions, spread malware, and even take over infrastructure.",
     "added": "2026-09-02T16:51:21+00:00",
-    "expires": "2026-09-17T12:04:48Z"
-  },
-  {
-    "title": "Hackers exploit critical JFrog Artifactory flaw to forge admin tokens",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/",
-    "source": "BleepingComputer",
-    "summary": "A critical authentication bypass vulnerability (CVE-2026-82329) in JFrog Artifactory is being exploited in attacks to create tokens that provide administrative access. [...]",
-    "added": "2026-09-02T15:47:08+00:00",
-    "expires": "2026-09-17T12:04:47Z"
+    "expires": "2026-09-17T12:34:50Z"
   },
   {
     "title": "Communicating Under Pressure: Best Practices for Service Providers",
@@ -125,6 +125,6 @@
     "source": "CISA Advisories",
     "summary": "Developed by CISA, the Federal Bureau of Investigation, and international partners, this guidance describes how organizations can plan and execute clear, timely, accurate, and audience-appropriate communications during I",
     "added": "2026-09-02T12:00:00+00:00",
-    "expires": "2026-09-17T12:04:48Z"
+    "expires": "2026-09-17T12:34:50Z"
   }
 ]
