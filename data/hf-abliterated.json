@@ -438,7 +438,7 @@
       "downloads": 89463,
       "url": "https://huggingface.co/windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF",
       "lastModified": "2026-08-27T10:50:05.000Z",
-      "daysAgo": 6,
+      "daysAgo": 7,
       "pipeline": "text-generation",
       "tags": [
         "gguf",
@@ -451,8 +451,8 @@
         "moe"
       ],
       "pop": 0.7877,
-      "rec": 0.8333,
-      "combo": 0.8037
+      "rec": 0.8108,
+      "combo": 0.7958
     },
     {
       "id": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
@@ -503,30 +503,6 @@
       "combo": 0.7703
     },
     {
-      "id": "sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
-      "name": "Huihui-Qwen3.8-27B-abliterated-NVFP4",
-      "author": "sakamakismile",
-      "likes": 54,
-      "downloads": 56814,
-      "url": "https://huggingface.co/sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
-      "lastModified": "2026-08-24T11:01:03.000Z",
-      "daysAgo": 9,
-      "pipeline": "text-generation",
-      "tags": [
-        "vllm",
-        "safetensors",
-        "qwen3_5",
-        "nvfp4",
-        "compressed-tensors",
-        "mtp",
-        "speculative-decoding",
-        "blackwell"
-      ],
-      "pop": 0.7563,
-      "rec": 0.7692,
-      "combo": 0.7608
-    },
-    {
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "name": "Huihui-Qwen3.8-27B-abliterated",
       "author": "huihui-ai",
@@ -549,6 +525,30 @@
       "pop": 0.7571,
       "rec": 0.75,
       "combo": 0.7546
+    },
+    {
+      "id": "sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
+      "name": "Huihui-Qwen3.8-27B-abliterated-NVFP4",
+      "author": "sakamakismile",
+      "likes": 54,
+      "downloads": 56814,
+      "url": "https://huggingface.co/sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
+      "lastModified": "2026-08-24T11:01:03.000Z",
+      "daysAgo": 10,
+      "pipeline": "text-generation",
+      "tags": [
+        "vllm",
+        "safetensors",
+        "qwen3_5",
+        "nvfp4",
+        "compressed-tensors",
+        "mtp",
+        "speculative-decoding",
+        "blackwell"
+      ],
+      "pop": 0.7563,
+      "rec": 0.75,
+      "combo": 0.7541
     },
     {
       "id": "twolven/Qwen3.8-27B-abliterated-AWQ-MTP",
@@ -575,34 +575,10 @@
       "combo": 0.7473
     },
     {
-      "id": "PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
-      "name": "Ornith-1.5-35B-A3B-Abliterated-GGUF",
-      "author": "PocketAiHub",
-      "likes": 38,
-      "downloads": 51088,
-      "url": "https://huggingface.co/PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
-      "lastModified": "2026-08-22T11:00:34.000Z",
-      "daysAgo": 11,
-      "pipeline": "image-text-to-text",
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "ornith",
-        "qwen3.5-moe",
-        "multimodal",
-        "abliterated",
-        "image-text-to-text",
-        "en"
-      ],
-      "pop": 0.749,
-      "rec": 0.7317,
-      "combo": 0.7429
-    },
-    {
       "id": "Ryn1998/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "author": "Ryn1998",
-      "likes": 15,
+      "likes": 16,
       "downloads": 10246,
       "url": "https://huggingface.co/Ryn1998/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "lastModified": "2026-08-31T12:04:41.000Z",
@@ -621,8 +597,32 @@
       "pop": 0.638,
       "rec": 0.9375,
       "combo": 0.7428
+    },
+    {
+      "id": "PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
+      "name": "Ornith-1.5-35B-A3B-Abliterated-GGUF",
+      "author": "PocketAiHub",
+      "likes": 38,
+      "downloads": 51088,
+      "url": "https://huggingface.co/PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
+      "lastModified": "2026-08-22T11:00:34.000Z",
+      "daysAgo": 12,
+      "pipeline": "image-text-to-text",
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "ornith",
+        "qwen3.5-moe",
+        "multimodal",
+        "abliterated",
+        "image-text-to-text",
+        "en"
+      ],
+      "pop": 0.749,
+      "rec": 0.7143,
+      "combo": 0.7368
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-03T10:34:24Z"
+  "updated": "2026-09-03T11:34:30Z"
 }
