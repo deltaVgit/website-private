@@ -1,6 +1,86 @@
 {
-  "updated": "2026-09-03T03:35:20Z",
+  "updated": "2026-09-03T04:05:20Z",
   "items": [
+    {
+      "title": "EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models",
+      "url": "https://arxiv.org/abs/2609.01611",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-03T04:00:00+00:00",
+      "summary": "arXiv:2609.01611v1 Announce Type: new Abstract: Frontier large language models can often recognize when they are being evaluated, a capability known as evaluation awareness. If models behave differently in evaluations than in deployment, this undermines the validity of evaluation",
+      "tag": "ai"
+    },
+    {
+      "title": "Meta-ethics and AI: exploring the novel meta-ethical questions in the era of AI",
+      "url": "https://arxiv.org/abs/2609.01685",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-03T04:00:00+00:00",
+      "summary": "arXiv:2609.01685v1 Announce Type: new Abstract: With the development of artificial intelligence (AI), the landscape of meta-ethics, which has largely centred on human ethics, faces pressures that may significantly reconfigure it. In particular, if future AI systems were to exhibi",
+      "tag": "ai"
+    },
+    {
+      "title": "When Can a Machine Trust a Statute? A Survival Certificate for Machine-Extracted Legal Logic",
+      "url": "https://arxiv.org/abs/2609.01741",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-03T04:00:00+00:00",
+      "summary": "arXiv:2609.01741v1 Announce Type: new Abstract: Statutes are increasingly parsed by machines before people read them, and the parsers disagree: on Missouri's statutes, two independently written extractors diverge on numeric-threshold presence at a false-negative rate of 0.43. We ",
+      "tag": "ai"
+    },
+    {
+      "title": "When Does Information Sharing Improve Decentralized Discovery? Aggregation, Independent Rescue, and Equilibrium Selection",
+      "url": "https://arxiv.org/abs/2609.01814",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-03T04:00:00+00:00",
+      "summary": "arXiv:2609.01814v1 Announce Type: new Abstract: Information sharing can improve a pooled estimate while eliminating independent rescue actions. This paper separates those effects in exact finite discovery models. A centralized action-budget profile shows that equal one-person acc",
+      "tag": "ai"
+    },
+    {
+      "title": "WMLLM: Self-Evolving Optimization Agents via Predict-Then-Act World Modeling",
+      "url": "https://arxiv.org/abs/2609.01608",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-03T04:00:00+00:00",
+      "summary": "arXiv:2609.01608v1 Announce Type: new Abstract: Black-box optimization problems remain challenging because of large, weakly structured, and high-dimensional search spaces. Existing methods often suffer from poor sample efficiency because they rely on direct candidate generation o",
+      "tag": "ai"
+    },
+    {
+      "title": "DiDrive: A Risk-Aware Hierarchical Diffusion Framework for Safe Offline Reinforcement Learning in Autonomous Driving",
+      "url": "https://arxiv.org/abs/2609.01609",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-03T04:00:00+00:00",
+      "summary": "arXiv:2609.01609v1 Announce Type: new Abstract: While diffusion models effectively capture multimodal behavioral priors for autonomous driving, offline reinforcement learning (RL) policies remain susceptible to distribution shift, heavy-tailed risk signals, out-of-distribution (O",
+      "tag": "ai"
+    },
+    {
+      "title": "Prompt-Space Meta-Learning Does Not Transfer Across Users: A Frozen-LLM Negative Result",
+      "url": "https://arxiv.org/abs/2609.01615",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-03T04:00:00+00:00",
+      "summary": "arXiv:2609.01615v1 Announce Type: new Abstract: Personalizing a frozen large language model (LLM) to individual users is often framed as a meta-learning problem in prompt space: each user is a task, and one seeks a shared natural-language adaptation policy that, given a handful o",
+      "tag": "ai"
+    },
+    {
+      "title": "PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/abs/2609.01658",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-03T04:00:00+00:00",
+      "summary": "arXiv:2609.01658v1 Announce Type: new Abstract: Retrieval-Augmented Generation enhances Large Language Models by grounding responses in external knowledge, but multi-hop reasoning remains vulnerable to error propagation, where early retrieval failures confound subsequent steps. S",
+      "tag": "ai"
+    },
+    {
+      "title": "Learning Evidence Sufficiency Boundaries for Selective Answering in Grounded Multi-Hop QA",
+      "url": "https://arxiv.org/abs/2609.01687",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-03T04:00:00+00:00",
+      "summary": "arXiv:2609.01687v1 Announce Type: new Abstract: Grounded question answering systems should answer only when the supplied evidence supports the answer. In multi-hop QA, this requirement is difficult because partial evidence can make an unsupported answer appear plausible. We study",
+      "tag": "ai"
+    },
+    {
+      "title": "SpeakPay: Domain-Adaptive LoRA Fine-Tuning of Whisper for Low-Resource Nepali Financial Speech Recognition",
+      "url": "https://arxiv.org/abs/2609.01737",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-03T04:00:00+00:00",
+      "summary": "arXiv:2609.01737v1 Announce Type: new Abstract: Mobile payment applications in Nepal are graphically mediated and largely inaccessible to visually impaired users. This paper presents SpeakPay, a voice-first digital wallet, and documents the central technical contribution: a contr",
+      "tag": "ai"
+    },
     {
       "title": "llm-gemini 0.34",
       "url": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
@@ -71,54 +151,6 @@
       "source": "Simon Willison",
       "published_at": "2026-09-02T05:50:57+00:00",
       "summary": "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, Paint.NET now has an internal, from-scratch, clean-room reverse-engineered re",
-      "tag": "ai"
-    },
-    {
-      "title": "Task-Specific Prompt with Global Context for Multi-Task Graph Pre-Training",
-      "url": "https://arxiv.org/abs/2609.00047",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-02T04:00:00+00:00",
-      "summary": "arXiv:2609.00047v1 Announce Type: new Abstract: Graph prompt learning is an effective paradigm to adapt pre-trained graph models to downstream tasks in low-resource scenarios. However, existing multi-task graph pre-training frameworks generally use randomly initialized prompts, l",
-      "tag": "ai"
-    },
-    {
-      "title": "REAL-Q: E2E LLM Quantization via Dynamic Gradient Descent",
-      "url": "https://arxiv.org/abs/2609.00049",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-02T04:00:00+00:00",
-      "summary": "arXiv:2609.00049v1 Announce Type: new Abstract: Post-training quantization (PTQ) is essential for deploying large language models (LLMs) under strict resource constraints. State-of-the-art PTQ methods quantize each layer with a single closed-form second-order solver: to remain an",
-      "tag": "ai"
-    },
-    {
-      "title": "Convergence issues in Relational Concept Analysis based on AOC-posets",
-      "url": "https://arxiv.org/abs/2609.00054",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-02T04:00:00+00:00",
-      "summary": "arXiv:2609.00054v1 Announce Type: new Abstract: Formal Concept Analysis (FCA) is an approach for conceptual classification building and rule discovery from a binary table describing a set of objects by a set of attributes. Extensions have been proposed to deal with non-binary and",
-      "tag": "ai"
-    },
-    {
-      "title": "Behaviorally Grounded User Profiles from the Wild for Personalized Alignment and Multi-Perspective Reasoning",
-      "url": "https://arxiv.org/abs/2609.00014",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-02T04:00:00+00:00",
-      "summary": "arXiv:2609.00014v1 Announce Type: new Abstract: Persona-driven techniques increasingly adapt large language models (LLMs) to diverse contexts. However, existing methods predominantly rely on rigid, synthetic personas that flatten individual variation, rely on stereotypes, and mis",
-      "tag": "ai"
-    },
-    {
-      "title": "trajectory-judge: What Outcome-Only LLM Judges Miss on Agent Trajectories",
-      "url": "https://arxiv.org/abs/2609.00038",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-02T04:00:00+00:00",
-      "summary": "arXiv:2609.00038v1 Announce Type: new Abstract: Outcome-only evaluation is the production default for LLM agents: show a judge the request and the final reply and ask whether it was handled well. The metric is structurally blind to an agent that reaches the right answer the wrong",
-      "tag": "ai"
-    },
-    {
-      "title": "GUI-CC: Benchmarking Contextual Consistency of GUI World Models as Agent Environments",
-      "url": "https://arxiv.org/abs/2609.00048",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-02T04:00:00+00:00",
-      "summary": "arXiv:2609.00048v1 Announce Type: new Abstract: GUI world models are increasingly evaluated as one-step next-screen predictors, yet their intended use is often as multi-step environments for GUI agents. This mismatch leaves a key requirement under-tested: generated states must re",
       "tag": "ai"
     },
     {
@@ -287,38 +319,6 @@
       "source": "Interconnects",
       "published_at": "2026-08-17T15:07:49+00:00",
       "summary": "Nvidia wants you building your own model, not buying from Anthropic/OpenAI.",
-      "tag": "ai"
-    },
-    {
-      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
-      "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
-      "source": "Interconnects",
-      "published_at": "2026-08-14T21:23:35+00:00",
-      "summary": "Hint: It’s really not a distillation story.",
-      "tag": "ai"
-    },
-    {
-      "title": "I wrote an AI textbook — how long until AI can do it better?",
-      "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
-      "source": "Interconnects",
-      "published_at": "2026-08-12T13:01:16+00:00",
-      "summary": "Reflections on AI's writing ability and how AI models get more capable.",
-      "tag": "ai"
-    },
-    {
-      "title": "A Dynamical Model of AI Governability",
-      "url": "https://blog.eleuther.ai/dynamical-models-of-ai-governability/",
-      "source": "EleutherAI",
-      "published_at": "2026-07-13T00:00:00+00:00",
-      "summary": "A toy dynamical model of whether the AI workforce that builds future AI ends up cooperative or uncooperative: where the basin boundary lies, what current evidence says about which side we are on, and what would tell us we are on the good path.",
-      "tag": "ai"
-    },
-    {
-      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
-      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
-      "source": "NVIDIA AI",
-      "published_at": "2026-07-08T15:00:27+00:00",
-      "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open mo",
       "tag": "ai"
     }
   ],
