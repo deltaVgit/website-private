@@ -5,7 +5,7 @@
         "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Uncensored-GGUF",
         "author": "JonathanColetti",
-        "likes": 939,
+        "likes": 940,
         "downloads": 2244539,
         "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "lastModified": "2026-08-29T04:18:18.000Z",
@@ -26,7 +26,7 @@
         "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "author": "0bserverx",
-        "likes": 363,
+        "likes": 364,
         "downloads": 1279204,
         "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "lastModified": "2026-08-20T19:51:25.000Z",
@@ -139,27 +139,6 @@
         ]
       },
       {
-        "id": "darknight9121/FLUX.2-klein-base-9B-bucket-uncensored",
-        "name": "FLUX.2-klein-base-9B-bucket-uncensored",
-        "author": "darknight9121",
-        "likes": 24,
-        "downloads": 18341,
-        "url": "https://huggingface.co/darknight9121/FLUX.2-klein-base-9B-bucket-uncensored",
-        "lastModified": "2026-06-26T02:57:27.000Z",
-        "daysAgo": 69,
-        "pipeline": "image-to-image",
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "image-generation",
-          "image-editing",
-          "flux",
-          "diffusion-single-file",
-          "image-to-image",
-          "en"
-        ]
-      },
-      {
         "id": "ponpoke/flux2-klein-4b-uncensored-text-encoder",
         "name": "flux2-klein-4b-uncensored-text-encoder",
         "author": "ponpoke",
@@ -220,6 +199,26 @@
           "text-encoder",
           "safetensors",
           "bf16"
+        ]
+      },
+      {
+        "id": "Heartsync/Flux-NSFW-uncensored",
+        "name": "Flux-NSFW-uncensored",
+        "author": "Heartsync",
+        "likes": 488,
+        "downloads": 0,
+        "url": "https://huggingface.co/Heartsync/Flux-NSFW-uncensored",
+        "lastModified": "2025-05-05T14:21:20.000Z",
+        "daysAgo": 486,
+        "pipeline": "text-to-image",
+        "tags": [
+          "text-to-image",
+          "en",
+          "base_model:black-forest-labs/FLUX.1-dev",
+          "base_model:finetune:black-forest-labs/FLUX.1-dev",
+          "license:creativeml-openrail-m",
+          "region:us",
+          "not-for-all-audiences"
         ]
       }
     ],
@@ -294,7 +293,7 @@
         "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "name": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 2303,
+        "likes": 2304,
         "downloads": 1665904,
         "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "lastModified": "2026-08-23T08:59:27.000Z",
@@ -315,7 +314,7 @@
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 884,
+        "likes": 885,
         "downloads": 1336061,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
@@ -387,7 +386,7 @@
       "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "author": "0bserverx",
-      "likes": 363,
+      "likes": 364,
       "downloads": 1279204,
       "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "lastModified": "2026-08-20T19:51:25.000Z",
@@ -625,5 +624,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-03T19:04:46Z"
+  "updated": "2026-09-03T19:34:47Z"
 }
