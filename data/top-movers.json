@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-03T14:30:58Z",
+  "updated_at": "2026-09-03T14:45:28Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "SNOW",
         "name": "Snowflake Inc.",
-        "price": 370.55,
-        "change_24h": 21.16,
+        "price": 368.57,
+        "change_24h": 20.51,
         "asset": "equity"
       },
       {
         "symbol": "HOOD",
         "name": "Robinhood Markets, Inc.",
-        "price": 123.13,
-        "change_24h": 15.09,
+        "price": 122.96,
+        "change_24h": 14.93,
         "asset": "equity"
       },
       {
         "symbol": "HCM",
         "name": "HUTCHMED (China) Limited",
-        "price": 13.7,
-        "change_24h": 13.75,
+        "price": 13.71,
+        "change_24h": 13.91,
         "asset": "equity"
       },
       {
         "symbol": "CRCL",
         "name": "Circle Internet Group, Inc.",
-        "price": 100.9,
-        "change_24h": 13.83,
+        "price": 100.34,
+        "change_24h": 13.21,
         "asset": "equity"
       },
       {
         "symbol": "HSAI",
         "name": "Hesai Group",
-        "price": 18.5,
-        "change_24h": 11.48,
+        "price": 18.64,
+        "change_24h": 12.33,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "PSQL",
         "name": "Pasqal Holding SA",
-        "price": 10.28,
-        "change_24h": -15.77,
+        "price": 10.36,
+        "change_24h": -15.01,
         "asset": "equity"
       },
       {
         "symbol": "VSXY",
         "name": "Victorias Secret & Co.",
-        "price": 73.72,
-        "change_24h": -13.07,
+        "price": 74.38,
+        "change_24h": -12.3,
         "asset": "equity"
       },
       {
         "symbol": "CIEN",
         "name": "Ciena Corporation",
-        "price": 315.01,
-        "change_24h": -11.05,
+        "price": 314.63,
+        "change_24h": -11.16,
         "asset": "equity"
       },
       {
         "symbol": "CPB",
         "name": "The Campbell's Company",
-        "price": 21.66,
-        "change_24h": -8.89,
+        "price": 21.45,
+        "change_24h": -9.78,
         "asset": "equity"
       },
       {
-        "symbol": "TSN",
-        "name": "Tyson Foods, Inc.",
-        "price": 51.85,
-        "change_24h": -7.1,
+        "symbol": "PL",
+        "name": "Planet Labs PBC",
+        "price": 18.48,
+        "change_24h": -7.53,
         "asset": "equity"
       }
     ]
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.133739,
+        "change_24h": 14.2,
+        "asset": "crypto"
+      },
+      {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.0,
-        "change_24h": 9.85,
+        "price": 4.01,
+        "change_24h": 10.93,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
-        "price": 1.97,
-        "change_24h": 9.02,
+        "price": 1.98,
+        "change_24h": 9.21,
         "asset": "crypto"
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.213559,
-        "change_24h": 8.92,
+        "price": 0.214074,
+        "change_24h": 9.02,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.230867,
-        "change_24h": 8.89,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SUI",
-        "name": "Sui",
-        "price": 0.774383,
-        "change_24h": 7.14,
+        "price": 0.229812,
+        "change_24h": 8.34,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.068157,
-        "change_24h": -2.83,
-        "asset": "crypto"
-      },
-      {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
         "price": 1.013,
-        "change_24h": -1.88,
+        "change_24h": -2.2,
         "asset": "crypto"
       },
       {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.01665,
-        "change_24h": -0.93,
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.068531,
+        "change_24h": -2.07,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.44,
-        "change_24h": -0.78,
+        "price": 2.43,
+        "change_24h": -1.55,
         "asset": "crypto"
       },
       {
-        "symbol": "WLFI",
-        "name": "World Liberty Financial",
-        "price": 0.056527,
-        "change_24h": -0.51,
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.016657,
+        "change_24h": -0.91,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ASTER",
+        "name": "Aster",
+        "price": 0.731694,
+        "change_24h": -0.47,
         "asset": "crypto"
       }
     ]
