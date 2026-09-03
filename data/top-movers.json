@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T21:30:40Z",
+  "updated_at": "2026-09-03T21:45:43Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -25,17 +25,17 @@
         "asset": "equity"
       },
       {
-        "symbol": "SNOW",
-        "name": "Snowflake Inc.",
-        "price": 356.47,
-        "change_24h": 16.55,
-        "asset": "equity"
-      },
-      {
         "symbol": "HOOD",
         "name": "Robinhood Markets, Inc.",
         "price": 124.72,
         "change_24h": 16.57,
+        "asset": "equity"
+      },
+      {
+        "symbol": "SNOW",
+        "name": "Snowflake Inc.",
+        "price": 356.47,
+        "change_24h": 16.55,
         "asset": "equity"
       }
     ],
@@ -82,36 +82,36 @@
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 958.82,
-        "change_24h": 18.12,
+        "price": 956.13,
+        "change_24h": 17.27,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.168603,
-        "change_24h": 13.97,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.223576,
-        "change_24h": 12.8,
+        "price": 0.169389,
+        "change_24h": 13.72,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.23,
-        "change_24h": 11.84,
+        "price": 4.25,
+        "change_24h": 12.95,
         "asset": "crypto"
       },
       {
-        "symbol": "CAKE",
-        "name": "PancakeSwap",
-        "price": 2.01,
-        "change_24h": 10.84,
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price": 0.223648,
+        "change_24h": 12.32,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price": 4e-06,
+        "change_24h": 10.43,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.506792,
-        "change_24h": -4.0,
+        "price": 0.514399,
+        "change_24h": -5.87,
         "asset": "crypto"
       },
       {
         "symbol": "ASTER",
         "name": "Aster",
-        "price": 0.725646,
-        "change_24h": -1.16,
+        "price": 0.722636,
+        "change_24h": -1.83,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.106546,
+        "change_24h": -0.83,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.054,
-        "change_24h": -0.96,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.106453,
-        "change_24h": -0.76,
+        "change_24h": -0.71,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 0.801414,
-        "change_24h": -0.2,
+        "price": 0.798964,
+        "change_24h": -0.29,
         "asset": "crypto"
       }
     ]
