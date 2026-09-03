@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T20:45:39Z",
+  "updated_at": "2026-09-03T21:00:39Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 959.82,
-        "change_24h": 18.11,
+        "price": 956.13,
+        "change_24h": 17.5,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.140037,
+        "change_24h": 14.32,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.25,
-        "change_24h": 14.41,
+        "price": 4.22,
+        "change_24h": 13.49,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.169682,
-        "change_24h": 13.62,
+        "price": 0.169634,
+        "change_24h": 13.48,
         "asset": "crypto"
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.222988,
-        "change_24h": 12.62,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.399022,
-        "change_24h": 11.06,
+        "price": 0.223831,
+        "change_24h": 12.75,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.49968,
-        "change_24h": -5.12,
+        "price": 0.490515,
+        "change_24h": -8.06,
         "asset": "crypto"
       },
       {
         "symbol": "ASTER",
         "name": "Aster",
-        "price": 0.726209,
-        "change_24h": -2.26,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.106465,
-        "change_24h": -0.97,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.059,
-        "change_24h": -0.79,
+        "price": 0.726916,
+        "change_24h": -1.54,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 0.79844,
-        "change_24h": -0.6,
+        "price": 0.799569,
+        "change_24h": -1.13,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.058,
+        "change_24h": -1.12,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.106406,
+        "change_24h": -1.08,
         "asset": "crypto"
       }
     ]
