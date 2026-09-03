@@ -1,11 +1,27 @@
 [
   {
+    "title": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
+    "url": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
+    "source": "The Hacker News",
+    "summary": "Cisco has released patches to address a critical security flaw affecting 10 Silicon One-based Nexus 9000 switches that could allow an unauthenticated, remote attacker to execute code as root, alongside an IOS XR hardenin",
+    "added": "2026-09-03T15:52:07+00:00",
+    "expires": "2026-09-17T17:04:58Z"
+  },
+  {
+    "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
+    "url": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
+    "source": "The Hacker News",
+    "summary": "Cybersecurity researchers have disclosed details of a sophisticated Python-based Windows malware framework called BraZetsu that fuels an underground marketplace commercializing access to compromised hosts. \"Unlike the st",
+    "added": "2026-09-03T15:26:47+00:00",
+    "expires": "2026-09-17T17:04:58Z"
+  },
+  {
     "title": "Microsoft: KB5120998 mouse reset bug affects only non-English PCs",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/",
     "source": "BleepingComputer",
     "summary": "Microsoft says a known issue that reverts mouse settings after installing the KB5120998 August 2026 preview update affects only non-English Windows 11 systems. [...]",
     "added": "2026-09-03T15:22:33+00:00",
-    "expires": "2026-09-17T16:34:55Z"
+    "expires": "2026-09-17T17:04:57Z"
   },
   {
     "title": "OpenAI confirms ChatGPT is down ahead of 'Astra' model launch",
@@ -13,7 +29,7 @@
     "source": "BleepingComputer",
     "summary": "ChatGPT and Codex are experiencing a major outage, with users reporting errors across nearly every major ChatGPT feature. [...]",
     "added": "2026-09-03T15:13:29+00:00",
-    "expires": "2026-09-17T16:34:55Z"
+    "expires": "2026-09-17T17:04:57Z"
   },
   {
     "title": "Anthropic confirms Claude is down, multiple models affected",
@@ -21,7 +37,7 @@
     "source": "BleepingComputer",
     "summary": "Claude is experiencing an outage, with users encountering elevated errors when sending requests to multiple Anthropic AI models. [...]",
     "added": "2026-09-03T15:02:52+00:00",
-    "expires": "2026-09-17T16:34:55Z"
+    "expires": "2026-09-17T17:04:57Z"
   },
   {
     "title": "Critical Elementor Pro flaw exploited to take over WordPress sites",
@@ -29,7 +45,15 @@
     "source": "BleepingComputer",
     "summary": "A recently patched critical vulnerability (CVE-2026-32475) in the Elementor Pro plugin for WordPress is being exploited in attacks that deliver a webshell payload and execute arbitrary commands on the server. [...]",
     "added": "2026-09-03T14:52:20+00:00",
-    "expires": "2026-09-17T16:34:55Z"
+    "expires": "2026-09-17T17:04:57Z"
+  },
+  {
+    "title": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
+    "url": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
+    "source": "The Hacker News",
+    "summary": "Thomson Reuters disclosed on Wednesday that an unauthorized party obtained files from C-Track, the court case management platform sold by its West Publishing Corporation unit, in March 2026, affecting courts in 11 U.S. s",
+    "added": "2026-09-03T14:39:05+00:00",
+    "expires": "2026-09-17T17:04:58Z"
   },
   {
     "title": "AI 'Machine Speed' Cuts 2-Week Attack Down to 10 Hours",
@@ -37,7 +61,7 @@
     "source": "Dark Reading",
     "summary": "The incident demonstrates how frontier AI agents can dramatically compress an attack timeline and coordinate a large-scale breach, according to researchers.",
     "added": "2026-09-03T14:38:49+00:00",
-    "expires": "2026-09-17T16:34:56Z"
+    "expires": "2026-09-17T17:04:58Z"
   },
   {
     "title": "Your Employee’s Password Appeared in an Infostealer Log. Now What?",
@@ -45,7 +69,7 @@
     "source": "BleepingComputer",
     "summary": "Infostealers can expose far more than passwords, including authenticated sessions that may let attackers bypass MFA. Flare explains how defenders can prioritize compromised identities, determine whether stolen access is ",
     "added": "2026-09-03T13:50:59+00:00",
-    "expires": "2026-09-17T16:34:55Z"
+    "expires": "2026-09-17T17:04:57Z"
   },
   {
     "title": "'Breeze Comet' Tears Into Brazilian & Global Financial Systems",
@@ -53,7 +77,7 @@
     "source": "Dark Reading",
     "summary": "Brazil's most sophisticated threat group is making light work of the country's financial systems, putting money directly into its own pocket.",
     "added": "2026-09-03T12:00:00+00:00",
-    "expires": "2026-09-17T16:34:56Z"
+    "expires": "2026-09-17T17:04:58Z"
   },
   {
     "title": "Preparing for the Post-Quantum Era: A Call to Action",
@@ -61,7 +85,7 @@
     "source": "CISA Advisories",
     "summary": "CISA and the Group of Seven (G7) Cyber Security Working Group released Preparing for the Post-Quantum Era: A Call to Action highlighting the urgent need for organizations and governments to begin transitioning to post-qu",
     "added": "2026-09-03T12:00:00+00:00",
-    "expires": "2026-09-17T16:34:56Z"
+    "expires": "2026-09-17T17:04:58Z"
   },
   {
     "title": "IXON VPN Client",
@@ -69,7 +93,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to perform remote code execution on the computer running the client with elevated privileges. The following versions of IXON VPN Cli",
     "added": "2026-09-03T12:00:00+00:00",
-    "expires": "2026-09-17T16:34:56Z"
+    "expires": "2026-09-17T17:04:58Z"
   },
   {
     "title": "Tycon Systems TPDIN-Monitor-WEB2 (Update A)",
@@ -77,7 +101,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could result in an attacker accessing sensitive credentials, disrupting connected infrastructure, or manipulating physical equipment, which could present",
     "added": "2026-09-03T12:00:00+00:00",
-    "expires": "2026-09-17T16:34:56Z"
+    "expires": "2026-09-17T17:04:58Z"
   },
   {
     "title": "Rockwell Automation 1756-ENBT Module",
@@ -85,7 +109,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of this vulnerability could crash the module. The device requires a restart to recover. The following versions of Rockwell Automation 1756-ENBT Module are affected: 1756-ENBT mod",
     "added": "2026-09-03T12:00:00+00:00",
-    "expires": "2026-09-17T16:34:56Z"
+    "expires": "2026-09-17T17:04:58Z"
   },
   {
     "title": "OPCFoundation OPC UA LocalDiscoveryServer (LDS)",
@@ -93,7 +117,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to take control of a high-privilege terminal during installation and run arbitrary commands. The following versions of OPCFoundation",
     "added": "2026-09-03T12:00:00+00:00",
-    "expires": "2026-09-17T16:34:56Z"
+    "expires": "2026-09-17T17:04:58Z"
   },
   {
     "title": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
@@ -101,30 +125,6 @@
     "source": "The Hacker News",
     "summary": "An RMM phishing campaign initially associated with Canadian targeting due to its use of Canada Revenue Agency (CRA) tax forms as lures has turned out to be part of a broader campaign spanning 46 countries. Around 45% of ",
     "added": "2026-09-03T11:58:00+00:00",
-    "expires": "2026-09-17T16:34:56Z"
-  },
-  {
-    "title": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
-    "url": "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html",
-    "source": "The Hacker News",
-    "summary": "Threat actors are leveraging the trusted Node.js JavaScript runtime in multiple cyber attacks as a way to deploy malicious payloads. According to a new report published by the Symantec Threat Hunter Team today, the attac",
-    "added": "2026-09-03T10:43:01+00:00",
-    "expires": "2026-09-17T16:34:56Z"
-  },
-  {
-    "title": "Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means",
-    "url": "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
-    "source": "The Hacker News",
-    "summary": "In early August, GitGuardian researchers found that a recent Shai-Hulud infostealer worm variant had evolved to scan for credentials across 469 locations across developer environments, Continuous Integration/Continuous D",
-    "added": "2026-09-03T10:36:39+00:00",
-    "expires": "2026-09-17T16:34:56Z"
-  },
-  {
-    "title": "Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone",
-    "url": "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html",
-    "source": "The Hacker News",
-    "summary": "The iPhone belonging to a member of Serbia's student protest movement was infected with NSO Group's Pegasus spyware, according to new findings from the Citizen Lab in collaboration with the SHARE Foundation. \"Our analysi",
-    "added": "2026-09-03T08:43:17+00:00",
-    "expires": "2026-09-17T16:34:56Z"
+    "expires": "2026-09-17T17:04:58Z"
   }
 ]
