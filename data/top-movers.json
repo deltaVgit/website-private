@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T10:00:28Z",
+  "updated_at": "2026-09-03T10:15:13Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 3.84,
-        "change_24h": 8.98,
+        "symbol": "CAKE",
+        "name": "PancakeSwap",
+        "price": 1.95,
+        "change_24h": 8.59,
         "asset": "crypto"
       },
       {
-        "symbol": "CAKE",
-        "name": "PancakeSwap",
-        "price": 1.96,
-        "change_24h": 8.67,
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 3.81,
+        "change_24h": 8.46,
         "asset": "crypto"
       },
       {
         "symbol": "SUI",
         "name": "Sui",
-        "price": 0.763303,
-        "change_24h": 6.59,
+        "price": 0.761643,
+        "change_24h": 6.9,
         "asset": "crypto"
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.206577,
-        "change_24h": 6.41,
+        "price": 0.206568,
+        "change_24h": 6.8,
         "asset": "crypto"
       },
       {
-        "symbol": "HBAR",
-        "name": "Hedera",
-        "price": 0.076741,
-        "change_24h": 4.55,
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.0289,
+        "change_24h": 5.31,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.417416,
+        "change_24h": -5.71,
+        "asset": "crypto"
+      },
+      {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.067185,
-        "change_24h": -5.16,
+        "price": 0.066588,
+        "change_24h": -5.64,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.45,
-        "change_24h": -4.26,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.428482,
-        "change_24h": -3.33,
+        "price": 2.44,
+        "change_24h": -3.58,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.109575,
-        "change_24h": -2.83,
+        "price": 0.109515,
+        "change_24h": -2.86,
         "asset": "crypto"
       },
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.15109,
-        "change_24h": -2.16,
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.013,
+        "change_24h": -2.0,
         "asset": "crypto"
       }
     ]
