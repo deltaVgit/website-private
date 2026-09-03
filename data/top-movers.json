@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T03:31:02Z",
+  "updated_at": "2026-09-03T03:46:03Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.47916,
-        "change_24h": 11.56,
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.127976,
+        "change_24h": 13.49,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.85,
-        "change_24h": 10.05,
+        "price": 3.87,
+        "change_24h": 10.71,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.478202,
+        "change_24h": 9.59,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.107984,
-        "change_24h": 6.52,
+        "price": 0.107843,
+        "change_24h": 6.21,
         "asset": "crypto"
       },
       {
         "symbol": "SUI",
         "name": "Sui",
-        "price": 0.767283,
-        "change_24h": 5.69,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.028668,
-        "change_24h": 3.76,
+        "price": 0.765473,
+        "change_24h": 5.81,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "CRV",
         "name": "Curve DAO",
-        "price": 0.361172,
-        "change_24h": -6.44,
+        "price": 0.360318,
+        "change_24h": -8.1,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.151567,
-        "change_24h": -6.23,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.068023,
-        "change_24h": -5.9,
+        "price": 0.150547,
+        "change_24h": -6.88,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.52,
-        "change_24h": -4.69,
+        "change_24h": -5.9,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.06807,
+        "change_24h": -5.58,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 5.73,
-        "change_24h": -4.5,
+        "price": 5.71,
+        "change_24h": -4.52,
         "asset": "crypto"
       }
     ]
