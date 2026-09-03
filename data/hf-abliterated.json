@@ -139,6 +139,27 @@
         ]
       },
       {
+        "id": "darknight9121/FLUX.2-klein-base-9B-bucket-uncensored",
+        "name": "FLUX.2-klein-base-9B-bucket-uncensored",
+        "author": "darknight9121",
+        "likes": 24,
+        "downloads": 18341,
+        "url": "https://huggingface.co/darknight9121/FLUX.2-klein-base-9B-bucket-uncensored",
+        "lastModified": "2026-06-26T02:57:27.000Z",
+        "daysAgo": 69,
+        "pipeline": "image-to-image",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "image-generation",
+          "image-editing",
+          "flux",
+          "diffusion-single-file",
+          "image-to-image",
+          "en"
+        ]
+      },
+      {
         "id": "ponpoke/flux2-klein-4b-uncensored-text-encoder",
         "name": "flux2-klein-4b-uncensored-text-encoder",
         "author": "ponpoke",
@@ -200,26 +221,6 @@
           "safetensors",
           "bf16"
         ]
-      },
-      {
-        "id": "Heartsync/Flux-NSFW-uncensored",
-        "name": "Flux-NSFW-uncensored",
-        "author": "Heartsync",
-        "likes": 488,
-        "downloads": 0,
-        "url": "https://huggingface.co/Heartsync/Flux-NSFW-uncensored",
-        "lastModified": "2025-05-05T14:21:20.000Z",
-        "daysAgo": 485,
-        "pipeline": "text-to-image",
-        "tags": [
-          "text-to-image",
-          "en",
-          "base_model:black-forest-labs/FLUX.1-dev",
-          "base_model:finetune:black-forest-labs/FLUX.1-dev",
-          "license:creativeml-openrail-m",
-          "region:us",
-          "not-for-all-audiences"
-        ]
       }
     ],
     "multimodal": [
@@ -248,7 +249,7 @@
         "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
         "author": "huihui-ai",
-        "likes": 505,
+        "likes": 506,
         "downloads": 1933019,
         "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "lastModified": "2026-08-31T09:03:38.000Z",
@@ -338,7 +339,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
       "author": "huihui-ai",
-      "likes": 505,
+      "likes": 506,
       "downloads": 1933019,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "lastModified": "2026-08-31T09:03:38.000Z",
@@ -624,5 +625,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-03T12:34:36Z"
+  "updated": "2026-09-03T13:04:37Z"
 }
