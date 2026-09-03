@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T09:30:14Z",
+  "updated_at": "2026-09-03T09:45:13Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "CAKE",
-        "name": "PancakeSwap",
-        "price": 1.98,
-        "change_24h": 9.28,
-        "asset": "crypto"
-      },
-      {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.82,
-        "change_24h": 7.46,
+        "price": 3.86,
+        "change_24h": 10.36,
         "asset": "crypto"
       },
       {
-        "symbol": "SUI",
-        "name": "Sui",
-        "price": 0.766338,
-        "change_24h": 6.47,
+        "symbol": "CAKE",
+        "name": "PancakeSwap",
+        "price": 1.95,
+        "change_24h": 8.54,
         "asset": "crypto"
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.207597,
-        "change_24h": 6.39,
+        "price": 0.206545,
+        "change_24h": 6.7,
         "asset": "crypto"
       },
       {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.108063,
-        "change_24h": 4.9,
+        "symbol": "SUI",
+        "name": "Sui",
+        "price": 0.762374,
+        "change_24h": 6.69,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.223163,
+        "change_24h": 4.68,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.408243,
-        "change_24h": -8.46,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 5.9,
-        "change_24h": -5.7,
+        "price": 0.414315,
+        "change_24h": -6.1,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.06728,
-        "change_24h": -5.36,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.151098,
-        "change_24h": -3.8,
+        "price": 0.067216,
+        "change_24h": -5.05,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.49,
-        "change_24h": -3.31,
+        "price": 2.47,
+        "change_24h": -3.55,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.109501,
+        "change_24h": -2.9,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.150935,
+        "change_24h": -2.32,
         "asset": "crypto"
       }
     ]
