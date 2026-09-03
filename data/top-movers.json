@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T23:45:54Z",
+  "updated_at": "2026-09-03T00:00:55Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.478755,
-        "change_24h": 14.05,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.122527,
-        "change_24h": 11.33,
+        "price": 0.12429,
+        "change_24h": 12.61,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
         "price": 3.79,
-        "change_24h": 7.52,
+        "change_24h": 7.69,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.092495,
-        "change_24h": 4.95,
+        "price": 0.093115,
+        "change_24h": 5.7,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.223667,
+        "change_24h": 5.04,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.107382,
-        "change_24h": 4.75,
+        "price": 0.107599,
+        "change_24h": 4.86,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004021,
-        "change_24h": -8.64,
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.067683,
+        "change_24h": -7.4,
         "asset": "crypto"
       },
       {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.067216,
-        "change_24h": -7.96,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.004075,
+        "change_24h": -6.85,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.148117,
-        "change_24h": -7.31,
+        "price": 0.149095,
+        "change_24h": -6.53,
         "asset": "crypto"
       },
       {
         "symbol": "OKB",
         "name": "OKB",
-        "price": 104.04,
-        "change_24h": -5.81,
+        "price": 105.21,
+        "change_24h": -4.81,
         "asset": "crypto"
       },
       {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.109067,
-        "change_24h": -4.12,
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.51,
+        "change_24h": -3.59,
         "asset": "crypto"
       }
     ]
