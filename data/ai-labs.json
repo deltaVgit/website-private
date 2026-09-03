@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-03T20:04:56Z",
+  "updated": "2026-09-03T20:34:56Z",
   "items": [
+    {
+      "title": "GPT‑6 Astra",
+      "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
+      "source": "Simon Willison",
+      "published_at": "2026-09-03T20:18:41+00:00",
+      "summary": "GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not tried it yet myself, so I don't have a gr",
+      "tag": "ai"
+    },
     {
       "title": "ZGateway: Learnings from Putting a Proxy in Front of ZippyDB",
       "url": "https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta/",
@@ -183,14 +191,6 @@
       "source": "Meta Engineering",
       "published_at": "2026-09-02T09:00:29+00:00",
       "summary": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved for anyone in an organization to access, share, and build upon. This is not a typical domain-specific agent. Its novelty comes from integra",
-      "tag": "ai"
-    },
-    {
-      "title": "Quoting Rick Brewster",
-      "url": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
-      "source": "Simon Willison",
-      "published_at": "2026-09-02T05:50:57+00:00",
-      "summary": "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, Paint.NET now has an internal, from-scratch, clean-room reverse-engineered re",
       "tag": "ai"
     },
     {
