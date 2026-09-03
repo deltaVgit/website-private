@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-03T16:00:46Z",
+  "updated_at": "2026-09-03T16:15:30Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "SNOW",
         "name": "Snowflake Inc.",
-        "price": 369.7,
-        "change_24h": 20.88,
-        "asset": "equity"
-      },
-      {
-        "symbol": "CRCL",
-        "name": "Circle Internet Group, Inc.",
-        "price": 102.43,
-        "change_24h": 15.56,
+        "price": 369.38,
+        "change_24h": 20.77,
         "asset": "equity"
       },
       {
         "symbol": "HCM",
         "name": "HUTCHMED (China) Limited",
-        "price": 14.03,
-        "change_24h": 16.49,
+        "price": 14.14,
+        "change_24h": 17.44,
         "asset": "equity"
       },
       {
         "symbol": "HOOD",
         "name": "Robinhood Markets, Inc.",
-        "price": 123.23,
-        "change_24h": 15.18,
+        "price": 123.56,
+        "change_24h": 15.48,
         "asset": "equity"
       },
       {
-        "symbol": "BMNR",
-        "name": "BitMine Immersion Technologies,",
-        "price": 26.23,
-        "change_24h": 13.73,
+        "symbol": "CRCL",
+        "name": "Circle Internet Group, Inc.",
+        "price": 101.73,
+        "change_24h": 14.77,
+        "asset": "equity"
+      },
+      {
+        "symbol": "SMMT",
+        "name": "Summit Therapeutics Inc.",
+        "price": 16.54,
+        "change_24h": 13.32,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "PSQL",
         "name": "Pasqal Holding SA",
-        "price": 9.9925,
-        "change_24h": -18.02,
+        "price": 9.99,
+        "change_24h": -18.05,
         "asset": "equity"
       },
       {
         "symbol": "VSXY",
         "name": "Victorias Secret & Co.",
-        "price": 73.05,
-        "change_24h": -13.87,
-        "asset": "equity"
-      },
-      {
-        "symbol": "CPB",
-        "name": "The Campbell's Company",
-        "price": 21.39,
-        "change_24h": -10.03,
+        "price": 72.31,
+        "change_24h": -14.74,
         "asset": "equity"
       },
       {
         "symbol": "CIEN",
         "name": "Ciena Corporation",
-        "price": 320.05,
-        "change_24h": -9.63,
+        "price": 318.3,
+        "change_24h": -10.13,
+        "asset": "equity"
+      },
+      {
+        "symbol": "CPB",
+        "name": "The Campbell's Company",
+        "price": 21.32,
+        "change_24h": -10.32,
         "asset": "equity"
       },
       {
         "symbol": "PL",
         "name": "Planet Labs PBC",
-        "price": 18.36,
-        "change_24h": -8.18,
+        "price": 18.2,
+        "change_24h": -8.98,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 954.88,
-        "change_24h": 17.21,
+        "price": 946.91,
+        "change_24h": 15.91,
         "asset": "crypto"
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.18,
-        "change_24h": 13.71,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.132115,
-        "change_24h": 13.42,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PEPE",
-        "name": "Pepe",
-        "price": 4e-06,
-        "change_24h": 12.97,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.170856,
+        "change_24h": 13.01,
         "asset": "crypto"
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.22002,
-        "change_24h": 12.16,
+        "price": 0.222102,
+        "change_24h": 12.87,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.16,
+        "change_24h": 12.79,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.130827,
+        "change_24h": 12.65,
         "asset": "crypto"
       }
     ],
@@ -120,35 +120,35 @@
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
         "price": 1.011,
-        "change_24h": -3.27,
+        "change_24h": -2.53,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.069325,
-        "change_24h": -0.54,
+        "price": 0.068898,
+        "change_24h": -1.0,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.47,
+        "change_24h": -0.68,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ASTER",
+        "name": "Aster",
+        "price": 0.732311,
+        "change_24h": -0.33,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.106466,
-        "change_24h": -0.45,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BDX",
-        "name": "Beldex",
-        "price": 0.078837,
-        "change_24h": -0.27,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "USDGO",
-        "name": "USDGO",
-        "price": 1.0,
-        "change_24h": -0.03,
+        "price": 0.106315,
+        "change_24h": -0.25,
         "asset": "crypto"
       }
     ]
