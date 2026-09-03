@@ -5,7 +5,7 @@
     "source": "BleepingComputer",
     "summary": "Microsoft says a known issue that reverts mouse settings after installing the KB5120998 August 2026 preview update affects only non-English Windows 11 systems. [...]",
     "added": "2026-09-03T15:22:33+00:00",
-    "expires": "2026-09-17T16:04:55Z"
+    "expires": "2026-09-17T16:34:55Z"
   },
   {
     "title": "OpenAI confirms ChatGPT is down ahead of 'Astra' model launch",
@@ -13,7 +13,7 @@
     "source": "BleepingComputer",
     "summary": "ChatGPT and Codex are experiencing a major outage, with users reporting errors across nearly every major ChatGPT feature. [...]",
     "added": "2026-09-03T15:13:29+00:00",
-    "expires": "2026-09-17T16:04:55Z"
+    "expires": "2026-09-17T16:34:55Z"
   },
   {
     "title": "Anthropic confirms Claude is down, multiple models affected",
@@ -21,7 +21,7 @@
     "source": "BleepingComputer",
     "summary": "Claude is experiencing an outage, with users encountering elevated errors when sending requests to multiple Anthropic AI models. [...]",
     "added": "2026-09-03T15:02:52+00:00",
-    "expires": "2026-09-17T16:04:55Z"
+    "expires": "2026-09-17T16:34:55Z"
   },
   {
     "title": "Critical Elementor Pro flaw exploited to take over WordPress sites",
@@ -29,7 +29,7 @@
     "source": "BleepingComputer",
     "summary": "A recently patched critical vulnerability (CVE-2026-32475) in the Elementor Pro plugin for WordPress is being exploited in attacks that deliver a webshell payload and execute arbitrary commands on the server. [...]",
     "added": "2026-09-03T14:52:20+00:00",
-    "expires": "2026-09-17T16:04:55Z"
+    "expires": "2026-09-17T16:34:55Z"
   },
   {
     "title": "AI 'Machine Speed' Cuts 2-Week Attack Down to 10 Hours",
@@ -37,7 +37,7 @@
     "source": "Dark Reading",
     "summary": "The incident demonstrates how frontier AI agents can dramatically compress an attack timeline and coordinate a large-scale breach, according to researchers.",
     "added": "2026-09-03T14:38:49+00:00",
-    "expires": "2026-09-17T16:04:55Z"
+    "expires": "2026-09-17T16:34:56Z"
   },
   {
     "title": "Your Employee’s Password Appeared in an Infostealer Log. Now What?",
@@ -45,7 +45,7 @@
     "source": "BleepingComputer",
     "summary": "Infostealers can expose far more than passwords, including authenticated sessions that may let attackers bypass MFA. Flare explains how defenders can prioritize compromised identities, determine whether stolen access is ",
     "added": "2026-09-03T13:50:59+00:00",
-    "expires": "2026-09-17T16:04:55Z"
+    "expires": "2026-09-17T16:34:55Z"
   },
   {
     "title": "'Breeze Comet' Tears Into Brazilian & Global Financial Systems",
@@ -53,7 +53,7 @@
     "source": "Dark Reading",
     "summary": "Brazil's most sophisticated threat group is making light work of the country's financial systems, putting money directly into its own pocket.",
     "added": "2026-09-03T12:00:00+00:00",
-    "expires": "2026-09-17T16:04:55Z"
+    "expires": "2026-09-17T16:34:56Z"
   },
   {
     "title": "Preparing for the Post-Quantum Era: A Call to Action",
@@ -61,7 +61,39 @@
     "source": "CISA Advisories",
     "summary": "CISA and the Group of Seven (G7) Cyber Security Working Group released Preparing for the Post-Quantum Era: A Call to Action highlighting the urgent need for organizations and governments to begin transitioning to post-qu",
     "added": "2026-09-03T12:00:00+00:00",
-    "expires": "2026-09-17T16:04:55Z"
+    "expires": "2026-09-17T16:34:56Z"
+  },
+  {
+    "title": "IXON VPN Client",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-02",
+    "source": "CISA Advisories",
+    "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to perform remote code execution on the computer running the client with elevated privileges. The following versions of IXON VPN Cli",
+    "added": "2026-09-03T12:00:00+00:00",
+    "expires": "2026-09-17T16:34:56Z"
+  },
+  {
+    "title": "Tycon Systems TPDIN-Monitor-WEB2 (Update A)",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01",
+    "source": "CISA Advisories",
+    "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could result in an attacker accessing sensitive credentials, disrupting connected infrastructure, or manipulating physical equipment, which could present",
+    "added": "2026-09-03T12:00:00+00:00",
+    "expires": "2026-09-17T16:34:56Z"
+  },
+  {
+    "title": "Rockwell Automation 1756-ENBT Module",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-05",
+    "source": "CISA Advisories",
+    "summary": "View CSAF Summary Successful exploitation of this vulnerability could crash the module. The device requires a restart to recover. The following versions of Rockwell Automation 1756-ENBT Module are affected: 1756-ENBT mod",
+    "added": "2026-09-03T12:00:00+00:00",
+    "expires": "2026-09-17T16:34:56Z"
+  },
+  {
+    "title": "OPCFoundation OPC UA LocalDiscoveryServer (LDS)",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-01",
+    "source": "CISA Advisories",
+    "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to take control of a high-privilege terminal during installation and run arbitrary commands. The following versions of OPCFoundation",
+    "added": "2026-09-03T12:00:00+00:00",
+    "expires": "2026-09-17T16:34:56Z"
   },
   {
     "title": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
@@ -69,7 +101,7 @@
     "source": "The Hacker News",
     "summary": "An RMM phishing campaign initially associated with Canadian targeting due to its use of Canada Revenue Agency (CRA) tax forms as lures has turned out to be part of a broader campaign spanning 46 countries. Around 45% of ",
     "added": "2026-09-03T11:58:00+00:00",
-    "expires": "2026-09-17T16:04:55Z"
+    "expires": "2026-09-17T16:34:56Z"
   },
   {
     "title": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
@@ -77,7 +109,7 @@
     "source": "The Hacker News",
     "summary": "Threat actors are leveraging the trusted Node.js JavaScript runtime in multiple cyber attacks as a way to deploy malicious payloads. According to a new report published by the Symantec Threat Hunter Team today, the attac",
     "added": "2026-09-03T10:43:01+00:00",
-    "expires": "2026-09-17T16:04:55Z"
+    "expires": "2026-09-17T16:34:56Z"
   },
   {
     "title": "Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means",
@@ -85,7 +117,7 @@
     "source": "The Hacker News",
     "summary": "In early August, GitGuardian researchers found that a recent Shai-Hulud infostealer worm variant had evolved to scan for credentials across 469 locations across developer environments, Continuous Integration/Continuous D",
     "added": "2026-09-03T10:36:39+00:00",
-    "expires": "2026-09-17T16:04:55Z"
+    "expires": "2026-09-17T16:34:56Z"
   },
   {
     "title": "Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone",
@@ -93,38 +125,6 @@
     "source": "The Hacker News",
     "summary": "The iPhone belonging to a member of Serbia's student protest movement was infected with NSO Group's Pegasus spyware, according to new findings from the Citizen Lab in collaboration with the SHARE Foundation. \"Our analysi",
     "added": "2026-09-03T08:43:17+00:00",
-    "expires": "2026-09-17T16:04:55Z"
-  },
-  {
-    "title": "Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon",
-    "url": "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html",
-    "source": "The Hacker News",
-    "summary": "The security researcher known as Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has dropped a new zero-day dubbed FalconFlank, a privilege escalation flaw impacting Crowdstrike Falcon. \"Falc",
-    "added": "2026-09-03T06:26:59+00:00",
-    "expires": "2026-09-17T16:04:55Z"
-  },
-  {
-    "title": "AI’s Vulnerability Surge May Be More Manageable Than First Feared",
-    "url": "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared",
-    "source": "Dark Reading",
-    "summary": "New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams — if they have the right strategies.",
-    "added": "2026-09-02T21:14:06+00:00",
-    "expires": "2026-09-17T16:04:55Z"
-  },
-  {
-    "title": "SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE",
-    "url": "https://www.darkreading.com/vulnerabilities-threats/sonicwall-sma-1000-zero-days-unauthenticated-rce",
-    "source": "Dark Reading",
-    "summary": "The exploitation activity follows attacks earlier this summer on two other zero-day vulnerabilities in the vendor's edge devices.",
-    "added": "2026-09-02T20:43:59+00:00",
-    "expires": "2026-09-17T16:04:55Z"
-  },
-  {
-    "title": "AI Gives Cybercriminals a Dangerous Time Advantage",
-    "url": "https://www.darkreading.com/threat-intelligence/ai-gives-cybercriminals-dangerous-time-advantage",
-    "source": "Dark Reading",
-    "summary": "Former cybercriminal Brett Johnson provides a look inside the mind of a threat actor and discusses where AI provides the most value for attackers.",
-    "added": "2026-09-02T19:46:31+00:00",
-    "expires": "2026-09-17T16:04:55Z"
+    "expires": "2026-09-17T16:34:56Z"
   }
 ]
