@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-03T15:34:50Z",
+  "updated": "2026-09-03T16:04:48Z",
   "items": [
+    {
+      "title": "ZGateway: Learnings from Putting a Proxy in Front of ZippyDB",
+      "url": "https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta/",
+      "source": "Meta Engineering",
+      "published_at": "2026-09-03T16:00:20+00:00",
+      "summary": "We’re introducing ZGateway, the proxy we are using to unify traffic through ZippyDB, Meta’s most widely-used key value store. As a bonus, it also enables admission control, load balancing, cross-region resilience, and richer operations. ZippyDB is the most widely used key value s",
+      "tag": "ai"
+    },
     {
       "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
       "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
@@ -295,14 +303,6 @@
       "source": "Meta Engineering",
       "published_at": "2026-08-24T18:02:29+00:00",
       "summary": "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles. To meet this challenge at scale, Meta designed MetaRoCE – a clean-sheet RDMA transport protocol purpose-built for AI workloads on commodity Ether",
-      "tag": "ai"
-    },
-    {
-      "title": "MTIA 300: Meta’s First Training Chip with Built-in NICs and Communication-Offloading Engines",
-      "url": "https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/",
-      "source": "Meta Engineering",
-      "published_at": "2026-08-24T17:45:52+00:00",
-      "summary": "MTIA 300 is the first of Meta’s family of in-house training and inference accelerators optimized for training ranking and recommendation models. We’re sharing how MTIA 300’s built-in NIC chiplets allow it to meet the communication needs associated with training recommendation mod",
       "tag": "ai"
     },
     {
