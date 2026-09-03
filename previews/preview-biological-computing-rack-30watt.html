@@ -37,7 +37,14 @@ figcaption{font-size:12px;color:var(--muted);padding:10px 2px 0;font-family:ui-m
 .close-block{text-align:center;margin:40px 0 0;padding:26px;background:var(--surface);border:1px solid var(--border);border-radius:16px;}
 .badge{display:inline-block;background:rgba(69,214,160,.12);color:var(--emerald);border:1px solid rgba(69,214,160,.4);font-family:ui-monospace,Consolas,monospace;font-size:13px;font-weight:700;padding:8px 16px;border-radius:999px;}
 .badge-sub{font-size:12px;color:var(--muted);margin-top:10px;}
-svg text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;}</style>
+svg text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;}</style><style>
+.hero{margin:26px 0 6px;border-radius:14px;overflow:hidden;border:1px solid var(--border);}
+.hero img{display:block;width:100%;height:auto;}
+.hero-cap{font-size:11px;color:var(--muted);padding:8px 4px 0;}
+figcaption{font-size:12px;color:var(--muted);padding:10px 4px 0;line-height:1.5;}
+.fig-title{font-family:ui-monospace,Consolas,monospace;font-size:11px;color:var(--muted);letter-spacing:.08em;margin-bottom:8px;}
+.fig-title b{color:var(--sky);}
+</style>
 </head>
 <body>
 <article class="page">
@@ -50,6 +57,8 @@ svg text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;}</sty
       <span class="pill emerald">checker: PASS</span>
     </div>
   </header>
+<div class="hero"><img src="assets/hero-bio-computing.png" alt="Article illustration"></div>
+<div class="hero-cap">Illustration: Delta V (AI-generated) &middot; the rack that needs feeding, not cooling</div>
   <div class="article">
 <h2>The tweet that made me check the numbers</h2>
 <p>A tweet crossed my timeline this week: Singapore switched on the world&#x27;s first biological server rack — 20 CL1 units, roughly 16 million living human neurons grown from stem cells, mounted on microelectrode chips and running as an integrated rack at the National University of Singapore&#x27;s Life Sciences Institute, with data-centre operator DayOne and Melbourne-based Cortical Labs.</p>
@@ -61,6 +70,25 @@ svg text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;}</sty
 <p>Cortical Labs grows neurons from human stem cells and places them on a silicon platform containing microelectrode arrays. Electrodes send electrical signals into the network and record what the cells do. Its biOS operating system lets software interact with the neural network in real time — information goes in as electrical stimulation, the neurons&#x27; activity comes out as a usable response. The CL1 keeps the cultures alive with an internal life-support system for up to six months.</p>
 <p>This is the commercial evolution of the DishBrain experiments, where ~800,000 human and mouse neurons learned to play Pong on a CMOS chip. The Singapore rack chains twenty CL1 units into something that looks like infrastructure — the world&#x27;s first independently operated biologically integrated server rack, demonstrated to 80+ guests on August 6.</p>
 <p>The claim of ~16 million neurons is an estimate: ~800,000 per unit × 20 units. Other reporting puts each unit at &quot;at least 200,000&quot; neurons (Straits Times), which would make the rack total as low as ~4 million — so treat 16 million as the optimistic ceiling. NUS confirms the 20-unit configuration but does not independently publish a rack-level neuron count.</p>
+<p>&lt;figure&gt;</p>
+<p>&lt;div class=&quot;fig-title&quot;&gt;FIG 3 &amp;middot; &lt;b&gt;the watts and the scale, honestly&lt;/b&gt;&lt;/div&gt;</p>
+<p>&lt;svg viewBox=&quot;0 0 920 330&quot; role=&quot;img&quot; aria-label=&quot;CL1 30 watts versus H100 700 watts; neuron scale versus human brain&quot;&gt;</p>
+<p>&lt;text x=&quot;40&quot; y=&quot;34&quot; font-size=&quot;13&quot; fill=&quot;#e6ebf2&quot; font-weight=&quot;700&quot;&gt;Power per unit&lt;/text&gt;</p>
+<p>&lt;rect x=&quot;40&quot; y=&quot;56&quot; width=&quot;14&quot; height=&quot;30&quot; rx=&quot;6&quot; fill=&quot;#45d6a0&quot;/&gt;</p>
+<p>&lt;text x=&quot;66&quot; y=&quot;77&quot; font-size=&quot;14&quot; fill=&quot;#e6ebf2&quot;&gt;CL1 &amp;middot; 30 W&lt;/text&gt;</p>
+<p>&lt;rect x=&quot;40&quot; y=&quot;104&quot; width=&quot;340&quot; height=&quot;30&quot; rx=&quot;6&quot; fill=&quot;#93a1b5&quot; opacity=&quot;0.55&quot;/&gt;</p>
+<p>&lt;text x=&quot;60&quot; y=&quot;125&quot; font-size=&quot;14&quot; fill=&quot;#e6ebf2&quot;&gt;NVIDIA H100 &amp;middot; ~700 W&lt;/text&gt;</p>
+<p>&lt;text x=&quot;40&quot; y=&quot;160&quot; font-size=&quot;11&quot; fill=&quot;#93a1b5&quot;&gt;incl. full life support vs. GPU TDP &amp;mdash; not yet a workload benchmark&lt;/text&gt;</p>
+<p>&lt;line x1=&quot;470&quot; y1=&quot;30&quot; x2=&quot;470&quot; y2=&quot;230&quot; stroke=&quot;#223046&quot; stroke-width=&quot;1&quot;/&gt;</p>
+<p>&lt;text x=&quot;500&quot; y=&quot;34&quot; font-size=&quot;13&quot; fill=&quot;#e6ebf2&quot; font-weight=&quot;700&quot;&gt;Neurons in play&lt;/text&gt;</p>
+<p>&lt;circle cx=&quot;560&quot; cy=&quot;112&quot; r=&quot;10&quot; fill=&quot;#45d6a0&quot;/&gt;&lt;text x=&quot;580&quot; y=&quot;108&quot; font-size=&quot;12&quot; fill=&quot;#e6ebf2&quot;&gt;1 CL1 unit&lt;/text&gt;&lt;text x=&quot;580&quot; y=&quot;124&quot; font-size=&quot;11&quot; fill=&quot;#93a1b5&quot;&gt;~200k&amp;ndash;800k&lt;/text&gt;</p>
+<p>&lt;circle cx=&quot;560&quot; cy=&quot;158&quot; r=&quot;17&quot; fill=&quot;#5cc8ff&quot;/&gt;&lt;text x=&quot;588&quot; y=&quot;154&quot; font-size=&quot;12&quot; fill=&quot;#e6ebf2&quot;&gt;the rack (20 units)&lt;/text&gt;&lt;text x=&quot;588&quot; y=&quot;170&quot; font-size=&quot;11&quot; fill=&quot;#93a1b5&quot;&gt;~4M&amp;ndash;16M&lt;/text&gt;</p>
+<p>&lt;circle cx=&quot;560&quot; cy=&quot;200&quot; r=&quot;118&quot; fill=&quot;none&quot; stroke=&quot;#f5b642&quot; stroke-width=&quot;1.5&quot; stroke-dasharray=&quot;4 4&quot;/&gt;</p>
+<p>&lt;text x=&quot;700&quot; y=&quot;204&quot; font-size=&quot;12&quot; fill=&quot;#e6ebf2&quot;&gt;human brain &amp;middot; ~86B&lt;/text&gt;&lt;text x=&quot;700&quot; y=&quot;220&quot; font-size=&quot;11&quot; fill=&quot;#f5b642&quot;&gt;rack &amp;asymp; 1/5,000 of a brain&lt;/text&gt;</p>
+<p>&lt;text x=&quot;40&quot; y=&quot;300&quot; font-size=&quot;11&quot; fill=&quot;#93a1b5&quot;&gt;Circle not to scale; dashed circle cropped. Sources: Straits Times (at least 200,000 neurons/unit; 30 W incl. life support) &amp;middot; Cortical Labs CL1 specs &amp;middot; NUS Medicine (20-unit rack, Aug 6, 2026).&lt;/text&gt;</p>
+<p>&lt;/svg&gt;</p>
+<p>&lt;figcaption&gt;The honest read: 30 W is real and verified; 16 M neurons is the optimistic ceiling (~4 M on the lower figure); GPU parity is unproven. The signal is direction, not replacement.&lt;/figcaption&gt;</p>
+<p>&lt;/figure&gt;</p>
 <h2>Do the honest math before you get excited</h2>
 <p>The 16-million figure sounds vast. It is not. A human brain runs roughly 86 billion neurons. Sixteen million is about <strong>1/5,000 of a brain</strong> — distributed across twenty racks-worth of hardware, each with its own life support.</p>
 <p>And the honest caveats:</p>
@@ -86,7 +114,7 @@ svg text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;}</sty
 <p><strong>Sources:</strong> TechRepublic — &quot;Singapore Switches On Biological Computing Rack With Living Human Neurons&quot; (2026) · Times of India — &quot;Singapore unveils world-first biological data centre&quot; (2026-08) · Interesting Engineering — &quot;World-first biological data center&quot; (2026) · Cortical Labs CL1 disclosures · tweet @SmartScience (2026-08-27)</p>
   </div>
   <hr>
-  <div class="sec-label">checker review render - <b>not</b> the public page</div>
+  <div class="sec-label">checker review render &middot; figures v1 &middot; <b>not</b> the public page</div>
 </article>
 </body>
 </html>
