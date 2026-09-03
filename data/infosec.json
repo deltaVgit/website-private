@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T23:35:18Z",
+  "updatedAt": "2026-09-03T00:05:14Z",
   "kev": [
     {
       "cve": "CVE-2026-59822",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-78155",
+      "id": "CVE-2026-78167",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "description": "A weakness has been identified in EFM ipTIME T16000M 14.20.2. The impacted element is the function httpcon_check_session_url of the component Session Validation Handler. This manipulation causes improper authentication. ",
+      "published": "2026-08-24T02:17:04.300"
+    },
+    {
+      "id": "CVE-2026-78169",
       "severity": "CRITICAL",
       "score": 9.9,
-      "description": "privilege escalation in StackGres operator allows a low-privilege tenant who owns a database to gain administrator privileges",
-      "published": "2026-08-23T10:16:28.757"
+      "description": "A vulnerability was detected in UTT HiPER 1250GW up to 3.2.7-210907-180535. This impacts the function strcpy of the file /goform/aspRemoteApConfTempSend of the component HTTP Request Handler. Performing a manipulation of",
+      "published": "2026-08-24T02:17:04.650"
     },
     {
-      "id": "CVE-2026-78050",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "description": "A vulnerability was found in Comfast CF-N1-S 2.6.0.1. The affected element is the function sub_41AD7C of the file /cgi-bin/mbox-config?method=SET§ion=ntp_timezone of the component Web Management. The manipulation of the ",
-      "published": "2026-08-23T00:16:50.590"
-    },
-    {
-      "id": "CVE-2026-78183",
+      "id": "CVE-2026-78211",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "DBD::Pg version 3.21.0 for Perl has a heap out-of-bounds write in quote_float. quote_float() allocates the length of the string + 1, which is the size of the bare numeric symbol plus NULL. But for special literals NaN, I",
-      "published": "2026-08-23T20:16:50.550"
+      "description": "4MOSAn GCB Doctor developed by 4MOSAn Security Technology has a OS Command Injection vulnerability. Unauthenticated remote attackers can inject malicious commands through an unremoved ADOdb test page parameter, thereby e",
+      "published": "2026-08-24T04:16:59.493"
     },
     {
-      "id": "CVE-2026-8445",
+      "id": "CVE-2026-78168",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "justhtml versions are preserved, so untrusted input that is safe in to_html() — including entity-decoded text (e.g. ) or text from RCDATA/RAWTEXT-parsed elements like , , , and — can be emitted as raw HTML in the Markdow",
-      "published": "2026-08-23T14:16:54.957"
+      "description": "A security vulnerability has been detected in EFM ipTIME T24000M up to 14.20.0. This affects the function httpcon_check_session_url of the component Session Validation Handler. Such manipulation leads to improper authent",
+      "published": "2026-08-24T02:17:04.480"
     },
     {
-      "id": "CVE-2026-7808",
+      "id": "CVE-2026-78207",
       "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "justhtml before 1.16.0 contains multiple HTML sanitization bypass issues that can allow active/dangerous content (e.g., script or style) to survive sanitization, potentially leading to cross-site scripting. The issues pr",
-      "published": "2026-08-23T14:16:54.810"
+      "score": 9.4,
+      "description": "exceljs through 4.4.0 contains a prototype pollution vulnerability in the deepMerge helper that fails to reject __proto__, constructor, or prototype keys when merging note objects. Attackers can assign parsed JSON with a",
+      "published": "2026-08-24T01:16:58.137"
     },
     {
-      "id": "CVE-2026-5388",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "justhtml before 1.15.0 contains multiple security issues in URL sanitization helpers (clean_url_value/clean_url_in_js_string), HTML serialization, Markdown passthrough (html_passthrough=True), and several custom sanitiza",
-      "published": "2026-08-23T14:16:53.470"
+      "id": "CVE-2026-19200",
+      "severity": "HIGH",
+      "score": 8.9,
+      "description": "The Velociraptor verify() VQL function allows a user to verify an artifact for syntatic and other issues. Due to an implementation fault in this VQL function, the global artifact repository is used which allows callers t",
+      "published": "2026-08-24T04:16:46.557"
     },
     {
-      "id": "CVE-2026-13598",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The RestrictMate WordPress plugin before 1.3.0 does not restrict the user role supplied during account registration, allowing unauthenticated attackers to create a new administrator account and gain a logged-in administr",
-      "published": "2026-08-23T06:16:19.850"
-    },
-    {
-      "id": "CVE-2026-16149",
+      "id": "CVE-2026-78170",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "The Security Hardener plugin for WordPress is vulnerable to Missing Authorization in all versions up to, and including, 2.4.4. The vulnerability exists because the plugin's user-enumeration protection, which is enabled b",
-      "published": "2026-08-23T00:16:50.233"
+      "description": "A flaw has been found in UTT HiPER 1200GW up to 2.5.3-170306. Affected is the function strcpy of the file /goform/formConfigFastDirectionW. Executing a manipulation of the argument ssid can lead to buffer overflow. The a",
+      "published": "2026-08-24T02:17:04.817"
     },
     {
-      "id": "CVE-2026-0551",
+      "id": "CVE-2026-78213",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "The PPWP – Password Protect Pages plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 1.9.18 via deserialization of untrusted input from the 'post_protection_roles' vulnerable",
-      "published": "2026-08-23T00:16:49.777"
+      "score": 8.7,
+      "description": "Heptabase developed by Hepta Platforms, Inc. has a Stored Cross-Site Scripting vulnerability. Authenticated remote attackers can inject persistent malicious content into specific pages, causing arbitrary JavaScript code ",
+      "published": "2026-08-24T04:16:59.817"
     },
     {
-      "id": "CVE-2026-10053",
+      "id": "CVE-2026-59561",
       "severity": "HIGH",
-      "score": 8.5,
-      "description": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.8 before 19.0.6, 19.1 before 19.1.4, and 19.2 before 19.2.2 that under certain conditions could have allowed an authenticated user to achieve ",
-      "published": "2026-08-23T10:16:27.140"
+      "score": 8.4,
+      "description": "Sakura Editor provided by Sakura Editor Development Community contains an OS command injection vulnerability. If a victim user is directed to edit a file in a crafted directory, arbitrary OS command may be executed on th",
+      "published": "2026-08-24T05:16:55.090"
     },
     {
-      "id": "CVE-2026-78136",
+      "id": "CVE-2026-78209",
       "severity": "HIGH",
-      "score": 7.8,
-      "description": "chirpmyradio CHIRP before 39178db allows eval injection via crafted CSV data. This occurs in _clean_tmode in drivers/kenwood_itm.py.",
-      "published": "2026-08-23T01:17:20.143"
+      "score": 8.2,
+      "description": "exceljs through 4.4.0 fails to neutralize leading equals, plus, minus, or at signs in cell values written to CSV output. Attackers who can influence exported cell values can inject formulas that execute when the CSV file",
+      "published": "2026-08-24T01:16:58.423"
     },
     {
-      "id": "CVE-2026-9769",
+      "id": "CVE-2026-78212",
       "severity": "HIGH",
       "score": 7.5,
-      "description": "justhtml through 1.9.1 (fixed in 1.10.0) is vulnerable to uncontrolled recursion leading to denial of service. During JustHTML() construction, TreeBuilder.finish() unconditionally calls _populate_selectedcontent(), which",
-      "published": "2026-08-23T14:16:55.277"
+      "description": "4MOSAn developed by 4MOSAn Security Technology Co., Ltd. has an Arbitrary File Read vulnerability. Unauthenticated remote attackers can exploit a Relative Path Traversal flaw to download arbitrary system files.",
+      "published": "2026-08-24T04:16:59.660"
+    },
+    {
+      "id": "CVE-2026-78208",
+      "severity": "HIGH",
+      "score": 7.5,
+      "description": "exceljs through 4.4.0 contains a path traversal vulnerability in the Workbook.addImage() function that fails to validate file paths. Attackers can supply arbitrary file paths to read any file accessible to the Node.js pr",
+      "published": "2026-08-24T01:16:58.280"
     }
   ],
   "breaches": [
