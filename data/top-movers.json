@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-04T19:15:23Z",
+  "updated_at": "2026-09-04T19:30:24Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "price": 84.56,
-        "change_24h": 10.86,
-        "asset": "equity"
-      },
-      {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "price": 210.74,
-        "change_24h": 10.66,
+        "price": 212.0,
+        "change_24h": 11.32,
         "asset": "equity"
       },
       {
-        "symbol": "SNDK",
-        "name": "Sandisk Corporation",
-        "price": 1710.45,
-        "change_24h": 10.0,
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "price": 85.12,
+        "change_24h": 11.6,
         "asset": "equity"
       },
       {
         "symbol": "ALAB",
         "name": "Astera Labs, Inc.",
-        "price": 312.36,
-        "change_24h": 10.44,
+        "price": 312.38,
+        "change_24h": 10.45,
         "asset": "equity"
       },
       {
-        "symbol": "COHU",
-        "name": "Cohu, Inc.",
-        "price": 50.08,
-        "change_24h": 8.91,
+        "symbol": "BLTE",
+        "name": "Belite Bio, Inc",
+        "price": 188.98,
+        "change_24h": 10.46,
+        "asset": "equity"
+      },
+      {
+        "symbol": "SNDK",
+        "name": "Sandisk Corporation",
+        "price": 1714.47,
+        "change_24h": 10.26,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "GWRE",
         "name": "Guidewire Software, Inc.",
-        "price": 160.61,
-        "change_24h": -20.83,
+        "price": 161.51,
+        "change_24h": -20.38,
         "asset": "equity"
       },
       {
         "symbol": "LULU",
         "name": "lululemon athletica inc.",
-        "price": 100.14,
-        "change_24h": -17.76,
+        "price": 100.35,
+        "change_24h": -17.59,
         "asset": "equity"
       },
       {
         "symbol": "FICO",
         "name": "Fair Isaac Corporation",
-        "price": 936.31,
-        "change_24h": -16.32,
+        "price": 934.6,
+        "change_24h": -16.47,
         "asset": "equity"
       },
       {
         "symbol": "PATH",
         "name": "UiPath, Inc.",
-        "price": 15.39,
-        "change_24h": -15.54,
+        "price": 15.31,
+        "change_24h": -15.94,
         "asset": "equity"
       },
       {
         "symbol": "ASAN",
         "name": "Asana, Inc.",
-        "price": 8.755,
-        "change_24h": -13.23,
+        "price": 8.715,
+        "change_24h": -13.63,
         "asset": "equity"
       }
     ]
@@ -82,73 +82,73 @@
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.87,
-        "change_24h": 13.45,
+        "price": 4.83,
+        "change_24h": 11.82,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1023.88,
-        "change_24h": 6.53,
+        "price": 1035.9,
+        "change_24h": 6.98,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 2.1,
+        "change_24h": 5.11,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.11,
-        "change_24h": 3.62,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SPX",
-        "name": "SPX6900",
-        "price": 0.604881,
-        "change_24h": 2.29,
+        "change_24h": 4.15,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 17.52,
-        "change_24h": 2.28,
+        "price": 17.65,
+        "change_24h": 3.55,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.446669,
-        "change_24h": -9.05,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.132045,
-        "change_24h": -8.28,
-        "asset": "crypto"
-      },
-      {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.218758,
-        "change_24h": -7.74,
+        "price": 0.219724,
+        "change_24h": -7.64,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.448248,
+        "change_24h": -7.54,
         "asset": "crypto"
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
-        "price": 2.26,
-        "change_24h": -7.12,
+        "price": 2.27,
+        "change_24h": -6.73,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.132447,
+        "change_24h": -6.52,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -6.61,
+        "change_24h": -6.41,
         "asset": "crypto"
       }
     ]
