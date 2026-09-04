@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T01:15:46Z",
+  "updated_at": "2026-09-04T01:30:46Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 940.91,
-        "change_24h": 15.22,
+        "price": 940.78,
+        "change_24h": 14.96,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.139595,
+        "change_24h": 13.94,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
         "price": 4.4,
-        "change_24h": 12.88,
+        "change_24h": 11.82,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.168353,
-        "change_24h": 11.09,
+        "price": 0.1672,
+        "change_24h": 10.43,
         "asset": "crypto"
       },
       {
-        "symbol": "CAKE",
-        "name": "PancakeSwap",
-        "price": 2.02,
-        "change_24h": 10.57,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 46.53,
-        "change_24h": 9.41,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 6.38,
+        "change_24h": 9.89,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.448498,
-        "change_24h": -4.21,
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 0.77996,
+        "change_24h": -5.34,
         "asset": "crypto"
       },
       {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 0.781563,
-        "change_24h": -3.2,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.452251,
+        "change_24h": -4.36,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.038,
-        "change_24h": -3.09,
+        "price": 1.039,
+        "change_24h": -2.91,
         "asset": "crypto"
       },
       {
-        "symbol": "ALGO",
-        "name": "Algorand",
-        "price": 0.092164,
-        "change_24h": -1.46,
+        "symbol": "ASTER",
+        "name": "Aster",
+        "price": 0.710968,
+        "change_24h": -2.04,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.47,
-        "change_24h": -1.42,
+        "price": 2.46,
+        "change_24h": -1.89,
         "asset": "crypto"
       }
     ]
