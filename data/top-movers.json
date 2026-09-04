@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T22:00:27Z",
+  "updated_at": "2026-09-04T22:15:28Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.64,
-        "change_24h": 7.19,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 2.11,
+        "change_24h": 7.54,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1016.97,
-        "change_24h": 6.92,
+        "price": 1014.38,
+        "change_24h": 7.02,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.63,
+        "change_24h": 6.26,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.12,
-        "change_24h": 6.09,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 2.09,
-        "change_24h": 5.91,
+        "change_24h": 6.23,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 17.74,
-        "change_24h": 3.84,
+        "price": 17.81,
+        "change_24h": 4.72,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.449548,
-        "change_24h": -12.68,
+        "price": 0.449817,
+        "change_24h": -10.29,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.216169,
-        "change_24h": -7.85,
+        "price": 0.216123,
+        "change_24h": -6.9,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.130539,
+        "change_24h": -5.88,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 0.750996,
+        "change_24h": -5.87,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -6.53,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.105781,
-        "change_24h": -6.22,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 0.750301,
-        "change_24h": -6.04,
+        "change_24h": -5.7,
         "asset": "crypto"
       }
     ]
