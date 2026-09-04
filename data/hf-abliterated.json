@@ -26,7 +26,7 @@
         "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "author": "0bserverx",
-        "likes": 367,
+        "likes": 368,
         "downloads": 1279204,
         "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "lastModified": "2026-08-20T19:51:25.000Z",
@@ -227,11 +227,11 @@
         "id": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "name": "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1093,
+        "likes": 1094,
         "downloads": 2510343,
         "url": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-04-06T03:50:35.000Z",
-        "daysAgo": 150,
+        "daysAgo": 151,
         "pipeline": "image-text-to-text",
         "tags": [
           "gguf",
@@ -248,7 +248,7 @@
         "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
         "author": "huihui-ai",
-        "likes": 514,
+        "likes": 515,
         "downloads": 1933019,
         "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "lastModified": "2026-09-04T03:11:26.000Z",
@@ -338,7 +338,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
       "author": "huihui-ai",
-      "likes": 514,
+      "likes": 515,
       "downloads": 1933019,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "lastModified": "2026-09-04T03:11:26.000Z",
@@ -386,7 +386,7 @@
       "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "author": "0bserverx",
-      "likes": 367,
+      "likes": 368,
       "downloads": 1279204,
       "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "lastModified": "2026-08-20T19:51:25.000Z",
@@ -503,30 +503,6 @@
       "combo": 0.7674
     },
     {
-      "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
-      "name": "Huihui-Qwen3.8-27B-abliterated",
-      "author": "huihui-ai",
-      "likes": 347,
-      "downloads": 57431,
-      "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated",
-      "lastModified": "2026-08-24T03:47:39.000Z",
-      "daysAgo": 10,
-      "pipeline": "image-text-to-text",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5",
-        "image-text-to-text",
-        "abliterated",
-        "uncensored",
-        "huihui",
-        "qwen3"
-      ],
-      "pop": 0.7571,
-      "rec": 0.75,
-      "combo": 0.7546
-    },
-    {
       "id": "sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
       "name": "Huihui-Qwen3.8-27B-abliterated-NVFP4",
       "author": "sakamakismile",
@@ -549,6 +525,30 @@
       "pop": 0.7563,
       "rec": 0.75,
       "combo": 0.7541
+    },
+    {
+      "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
+      "name": "Huihui-Qwen3.8-27B-abliterated",
+      "author": "huihui-ai",
+      "likes": 347,
+      "downloads": 57431,
+      "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated",
+      "lastModified": "2026-08-24T03:47:39.000Z",
+      "daysAgo": 11,
+      "pipeline": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "abliterated",
+        "uncensored",
+        "huihui",
+        "qwen3"
+      ],
+      "pop": 0.7571,
+      "rec": 0.7317,
+      "combo": 0.7482
     },
     {
       "id": "twolven/Qwen3.8-27B-abliterated-AWQ-MTP",
@@ -624,5 +624,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-04T03:35:02Z"
+  "updated": "2026-09-04T04:05:02Z"
 }
