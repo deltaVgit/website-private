@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-09-04T17:34:44Z",
+  "updatedAt": "2026-09-04T18:04:47Z",
   "kev": [
+    {
+      "cve": "CVE-2026-85046",
+      "product": "Chromium V8",
+      "vendor": "Google",
+      "name": "Google Chromium V8 Type Confusion Vulnerability",
+      "dateAdded": "2026-09-04",
+      "dueDate": "2026-09-18",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2026-59822",
       "product": "LiteLLM",
@@ -114,15 +123,6 @@
       "product": "Ajax.NET Professional",
       "vendor": "Ajax.NET Professional",
       "name": "Ajax.NET Professional Deserialization of Untrusted Data Vulnerability",
-      "dateAdded": "2026-08-26",
-      "dueDate": "2026-09-09",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2015-3246",
-      "product": "Libuser",
-      "vendor": "Red Hat",
-      "name": "Red Hat Libuser Race Condition Vulnerability",
       "dateAdded": "2026-08-26",
       "dueDate": "2026-09-09",
       "knownRansomware": "Unknown"
