@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T23:35:08Z",
+  "updatedAt": "2026-09-04T00:05:11Z",
   "kev": [
     {
       "cve": "CVE-2026-59822",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-78167",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "description": "A weakness has been identified in EFM ipTIME T16000M 14.20.2. The impacted element is the function httpcon_check_session_url of the component Session Validation Handler. This manipulation causes improper authentication. ",
-      "published": "2026-08-24T02:17:04.300"
-    },
-    {
-      "id": "CVE-2026-78169",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "description": "A vulnerability was detected in UTT HiPER 1250GW up to 3.2.7-210907-180535. This impacts the function strcpy of the file /goform/aspRemoteApConfTempSend of the component HTTP Request Handler. Performing a manipulation of",
-      "published": "2026-08-24T02:17:04.650"
-    },
-    {
-      "id": "CVE-2026-78211",
+      "id": "CVE-2026-78676",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "4MOSAn GCB Doctor developed by 4MOSAn Security Technology has a OS Command Injection vulnerability. Unauthenticated remote attackers can inject malicious commands through an unremoved ADOdb test page parameter, thereby e",
-      "published": "2026-08-24T04:16:59.493"
+      "description": "GitPython before 3.1.59 fails to safely re-serialize multi-line git-config values during write operations, corrupting dormant quoted values into injected directives like core.hooksPath. Attackers can craft config files w",
+      "published": "2026-08-25T02:16:52.030"
     },
     {
-      "id": "CVE-2026-78168",
+      "id": "CVE-2026-56710",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "A security vulnerability has been detected in EFM ipTIME T24000M up to 14.20.0. This affects the function httpcon_check_session_url of the component Session Validation Handler. Such manipulation leads to improper authent",
-      "published": "2026-08-24T02:17:04.480"
+      "description": "Grav Login plugin versions before 1.0.16 fail to validate the target account's privilege level in the onApiUserListRowAction unlock handler. An attacker with api.users.write permission can clear login lockout counters on",
+      "published": "2026-08-25T02:16:43.073"
     },
     {
-      "id": "CVE-2026-78207",
+      "id": "CVE-2026-56705",
       "severity": "CRITICAL",
-      "score": 9.4,
-      "description": "exceljs through 4.4.0 contains a prototype pollution vulnerability in the deepMerge helper that fails to reject __proto__, constructor, or prototype keys when merging note objects. Attackers can assign parsed JSON with a",
-      "published": "2026-08-24T01:16:58.137"
+      "score": 9.8,
+      "description": "Adminer before 5.4.3 fails to sanitize the server field before constructing a PDO DSN string, allowing unauthenticated attackers to inject ODBC parameters via semicolons. Attackers can inject TraceFile and TraceOn parame",
+      "published": "2026-08-25T02:16:42.330"
     },
     {
-      "id": "CVE-2026-19200",
-      "severity": "HIGH",
-      "score": 8.9,
-      "description": "The Velociraptor verify() VQL function allows a user to verify an artifact for syntatic and other issues. Due to an implementation fault in this VQL function, the global artifact repository is used which allows callers t",
-      "published": "2026-08-24T04:16:46.557"
-    },
-    {
-      "id": "CVE-2026-78170",
+      "id": "CVE-2026-75574",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "A flaw has been found in UTT HiPER 1200GW up to 2.5.3-170306. Affected is the function strcpy of the file /goform/formConfigFastDirectionW. Executing a manipulation of the argument ssid can lead to buffer overflow. The a",
-      "published": "2026-08-24T02:17:04.817"
+      "description": "The Grav Email plugin (getgrav/grav-plugin-email) before 4.2.2 renders page-editor-controlled Email action parameters as unsandboxed Twig templates. An authenticated remote user with only api.access and api.pages.write p",
+      "published": "2026-08-25T02:16:51.303"
     },
     {
-      "id": "CVE-2026-78213",
+      "id": "CVE-2026-56702",
       "severity": "HIGH",
-      "score": 8.7,
-      "description": "Heptabase developed by Hepta Platforms, Inc. has a Stored Cross-Site Scripting vulnerability. Authenticated remote attackers can inject persistent malicious content into specific pages, causing arbitrary JavaScript code ",
-      "published": "2026-08-24T04:16:59.817"
+      "score": 8.8,
+      "description": "Adminer versions before 5.4.3 contain an unrestricted file upload vulnerability in the AdminerFileUpload plugin that allows authenticated users to upload PHP files by exploiting a permissive default extension allowlist. ",
+      "published": "2026-08-25T02:16:41.900"
     },
     {
-      "id": "CVE-2026-59561",
+      "id": "CVE-2026-78675",
       "severity": "HIGH",
       "score": 8.4,
-      "description": "Sakura Editor provided by Sakura Editor Development Community contains an OS command injection vulnerability. If a victim user is directed to edit a file in a crafted directory, arbitrary OS command may be executed on th",
-      "published": "2026-08-24T05:16:55.090"
+      "description": "GitPython before 3.1.59 fails to disable merge_includes when parsing .gitmodules, allowing attackers to disclose local file content by including arbitrary file paths via [include] directives. Attackers can craft a malici",
+      "published": "2026-08-25T02:16:51.887"
     },
     {
-      "id": "CVE-2026-78209",
+      "id": "CVE-2026-72696",
       "severity": "HIGH",
-      "score": 8.2,
-      "description": "exceljs through 4.4.0 fails to neutralize leading equals, plus, minus, or at signs in cell values written to CSV output. Attackers who can influence exported cell values can inject formulas that execute when the CSV file",
-      "published": "2026-08-24T01:16:58.423"
+      "score": 8.4,
+      "description": "Grav CMS before 2.0.16 contains a symlink following vulnerability in Scheduler Job::createLockFile() that allows local attackers to overwrite arbitrary files by pre-creating symlinks at predictable lock file paths in the",
+      "published": "2026-08-25T02:16:45.253"
     },
     {
-      "id": "CVE-2026-78212",
+      "id": "CVE-2026-72695",
+      "severity": "HIGH",
+      "score": 8.1,
+      "description": "Grav before 2.0.16 contains a path traversal vulnerability in MediaUploadTrait::deleteFile() that allows authenticated users with media management permissions to delete arbitrary files by supplying filenames with directo",
+      "published": "2026-08-25T02:16:45.097"
+    },
+    {
+      "id": "CVE-2026-34968",
+      "severity": "HIGH",
+      "score": 8.1,
+      "description": "Adminer before 5.4.3 contains an arbitrary file deletion vulnerability in SQLite mode where the database-list drop action fails to validate file extensions before deletion. An authenticated attacker can submit arbitrary ",
+      "published": "2026-08-25T02:16:40.843"
+    },
+    {
+      "id": "CVE-2026-56707",
+      "severity": "HIGH",
+      "score": 7.7,
+      "description": "Grav Flex Objects plugin versions 1.4.0 through 1.4.7 contain an authorization bypass vulnerability in the flex-objects shortcode that allows users with page-edit access to render any registered Flex collection without p",
+      "published": "2026-08-25T02:16:42.637"
+    },
+    {
+      "id": "CVE-2026-78677",
       "severity": "HIGH",
       "score": 7.5,
-      "description": "4MOSAn developed by 4MOSAn Security Technology Co., Ltd. has an Arbitrary File Read vulnerability. Unauthenticated remote attackers can exploit a Relative Path Traversal flaw to download arbitrary system files.",
-      "published": "2026-08-24T04:16:59.660"
+      "description": "GitPython before 3.1.59 omits --separate-git-dir from unsafe_git_clone_options, allowing attackers to create arbitrary git directories outside the intended clone destination. Attackers can pass a separate_git_dir paramet",
+      "published": "2026-08-25T02:16:52.173"
     },
     {
-      "id": "CVE-2026-78208",
+      "id": "CVE-2026-76846",
       "severity": "HIGH",
       "score": 7.5,
-      "description": "exceljs through 4.4.0 contains a path traversal vulnerability in the Workbook.addImage() function that fails to validate file paths. Attackers can supply arbitrary file paths to read any file accessible to the Node.js pr",
-      "published": "2026-08-24T01:16:58.280"
+      "description": "Grav before 2.0.16 contains an incomplete default denylist in the Twig sandbox configuration that fails to block access to system configuration secrets. Attackers with page-edit permission can use config.get() or config.",
+      "published": "2026-08-25T02:16:51.743"
     }
   ],
   "breaches": [
