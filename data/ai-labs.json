@@ -1,6 +1,86 @@
 {
-  "updated": "2026-09-04T03:35:09Z",
+  "updated": "2026-09-04T04:05:08Z",
   "items": [
+    {
+      "title": "Structure and Implementation of New Practical English Textbooks Driven by Artificial Intelligence",
+      "url": "https://arxiv.org/abs/2609.02981",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-04T04:00:00+00:00",
+      "summary": "arXiv:2609.02981v1 Announce Type: new Abstract: Artificial intelligence is changing the form of applied English materials from fixed paper sequences to adaptive learning systems that can diagnose learners, recommend tasks, and provide formative feedback. This paper studies the st",
+      "tag": "ai"
+    },
+    {
+      "title": "MasterControl Seventeen Every Time",
+      "url": "https://arxiv.org/abs/2609.03209",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-04T04:00:00+00:00",
+      "summary": "arXiv:2609.03209v1 Announce Type: new Abstract: We study a governed approach to enterprise analytics: a language model interprets the question, while deterministic policy selects and runs a pre-approved analytical program that returns both results and evidence. We show that this ",
+      "tag": "ai"
+    },
+    {
+      "title": "Speculative Macro Commit for Faster Tool-Using Agents",
+      "url": "https://arxiv.org/abs/2609.03236",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-04T04:00:00+00:00",
+      "summary": "arXiv:2609.03236v1 Announce Type: new Abstract: Tool-using LLM agents spend wall-clock time not only on model inference but also in serial action--observation turns, where each tool call, environment transition, and observation can delay subsequent decisions. We introduce \\textbf",
+      "tag": "ai"
+    },
+    {
+      "title": "Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory",
+      "url": "https://arxiv.org/abs/2609.03340",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-04T04:00:00+00:00",
+      "summary": "arXiv:2609.03340v1 Announce Type: new Abstract: Distributed LLM-agent teams can read the latest shared facts and still act on an obsolete plan. A planner may derive an action from requirement $r_3$, another agent may commit $r_4$, and an executor may receive $r_4$ without replaci",
+      "tag": "ai"
+    },
+    {
+      "title": "The Geometry of Ignorance: LLMs Know When to Temper Bayesian Priors",
+      "url": "https://arxiv.org/abs/2609.02959",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-04T04:00:00+00:00",
+      "summary": "arXiv:2609.02959v1 Announce Type: new Abstract: What does a language model predict when it has few clues? The answer lurks in its unembedding geometry: a single direction of the unembedding matrix encodes the unigram distribution of the training corpus, which serves as the Bayesi",
+      "tag": "ai"
+    },
+    {
+      "title": "Equation Recast for Canonical Operator Learning Across Parametric PDEs",
+      "url": "https://arxiv.org/abs/2609.02982",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-04T04:00:00+00:00",
+      "summary": "arXiv:2609.02982v1 Announce Type: new Abstract: Learning solution operators across broad parameter ranges can require substantial coverage of both input functions and physical parameters, particularly for purely data-driven parametric models. In addition, the resulting models may",
+      "tag": "ai"
+    },
+    {
+      "title": "From Euclidean to Graph-Structured Data: A Survey of Collaborative Learning",
+      "url": "https://arxiv.org/abs/2609.02984",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-04T04:00:00+00:00",
+      "summary": "arXiv:2609.02984v1 Announce Type: new Abstract: The conventional approach to machine learning, that is, collecting data, training models, and performing inference in a single location, faces fundamental limitations, including scalability and privacy, that restrict its applicabili",
+      "tag": "ai"
+    },
+    {
+      "title": "Where Does Harness-Optimization Value Live? Localized Gains and the Budget-Splitting Trap in Self-Evolving LLM Agents",
+      "url": "https://arxiv.org/abs/2609.02889",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-04T04:00:00+00:00",
+      "summary": "arXiv:2609.02889v1 Announce Type: new Abstract: A growing body of work improves frozen large language models (LLMs) as agents by evolving their harness: the textual scaffolding around the model, including persona, strategy, format rules, and control heuristics. Existing reflectiv",
+      "tag": "ai"
+    },
+    {
+      "title": "Bounded Personas Match Retrieval on Classification but Not Regression for a Frozen Agent",
+      "url": "https://arxiv.org/abs/2609.02890",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-04T04:00:00+00:00",
+      "summary": "arXiv:2609.02890v1 Announce Type: new Abstract: A personalized language agent must convert a user's interaction history into behavior on each new request at inference time. Two strategies dominate. Retrieval pulls a few of the user's most relevant past items into the prompt, whic",
+      "tag": "ai"
+    },
+    {
+      "title": "Counterexamples as Feedback for Agent Self-Correction",
+      "url": "https://arxiv.org/abs/2609.02892",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-04T04:00:00+00:00",
+      "summary": "arXiv:2609.02892v1 Announce Type: new Abstract: Single-turn code-generation metrics understate a central property of deployed agents: whether they can repair a wrong artifact after receiving concrete feedback. This paper presents A-CEGIS, a lightweight framework that uses counter",
+      "tag": "ai"
+    },
     {
       "title": "GPT‑6 Astra",
       "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
@@ -55,86 +135,6 @@
       "source": "OpenAI",
       "published_at": "2026-09-03T12:00:00+00:00",
       "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-      "tag": "ai"
-    },
-    {
-      "title": "EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models",
-      "url": "https://arxiv.org/abs/2609.01611",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-03T04:00:00+00:00",
-      "summary": "arXiv:2609.01611v1 Announce Type: new Abstract: Frontier large language models can often recognize when they are being evaluated, a capability known as evaluation awareness. If models behave differently in evaluations than in deployment, this undermines the validity of evaluation",
-      "tag": "ai"
-    },
-    {
-      "title": "Meta-ethics and AI: exploring the novel meta-ethical questions in the era of AI",
-      "url": "https://arxiv.org/abs/2609.01685",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-03T04:00:00+00:00",
-      "summary": "arXiv:2609.01685v1 Announce Type: new Abstract: With the development of artificial intelligence (AI), the landscape of meta-ethics, which has largely centred on human ethics, faces pressures that may significantly reconfigure it. In particular, if future AI systems were to exhibi",
-      "tag": "ai"
-    },
-    {
-      "title": "When Can a Machine Trust a Statute? A Survival Certificate for Machine-Extracted Legal Logic",
-      "url": "https://arxiv.org/abs/2609.01741",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-03T04:00:00+00:00",
-      "summary": "arXiv:2609.01741v1 Announce Type: new Abstract: Statutes are increasingly parsed by machines before people read them, and the parsers disagree: on Missouri's statutes, two independently written extractors diverge on numeric-threshold presence at a false-negative rate of 0.43. We ",
-      "tag": "ai"
-    },
-    {
-      "title": "When Does Information Sharing Improve Decentralized Discovery? Aggregation, Independent Rescue, and Equilibrium Selection",
-      "url": "https://arxiv.org/abs/2609.01814",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-03T04:00:00+00:00",
-      "summary": "arXiv:2609.01814v1 Announce Type: new Abstract: Information sharing can improve a pooled estimate while eliminating independent rescue actions. This paper separates those effects in exact finite discovery models. A centralized action-budget profile shows that equal one-person acc",
-      "tag": "ai"
-    },
-    {
-      "title": "WMLLM: Self-Evolving Optimization Agents via Predict-Then-Act World Modeling",
-      "url": "https://arxiv.org/abs/2609.01608",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-03T04:00:00+00:00",
-      "summary": "arXiv:2609.01608v1 Announce Type: new Abstract: Black-box optimization problems remain challenging because of large, weakly structured, and high-dimensional search spaces. Existing methods often suffer from poor sample efficiency because they rely on direct candidate generation o",
-      "tag": "ai"
-    },
-    {
-      "title": "DiDrive: A Risk-Aware Hierarchical Diffusion Framework for Safe Offline Reinforcement Learning in Autonomous Driving",
-      "url": "https://arxiv.org/abs/2609.01609",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-03T04:00:00+00:00",
-      "summary": "arXiv:2609.01609v1 Announce Type: new Abstract: While diffusion models effectively capture multimodal behavioral priors for autonomous driving, offline reinforcement learning (RL) policies remain susceptible to distribution shift, heavy-tailed risk signals, out-of-distribution (O",
-      "tag": "ai"
-    },
-    {
-      "title": "Prompt-Space Meta-Learning Does Not Transfer Across Users: A Frozen-LLM Negative Result",
-      "url": "https://arxiv.org/abs/2609.01615",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-03T04:00:00+00:00",
-      "summary": "arXiv:2609.01615v1 Announce Type: new Abstract: Personalizing a frozen large language model (LLM) to individual users is often framed as a meta-learning problem in prompt space: each user is a task, and one seeks a shared natural-language adaptation policy that, given a handful o",
-      "tag": "ai"
-    },
-    {
-      "title": "PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation",
-      "url": "https://arxiv.org/abs/2609.01658",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-03T04:00:00+00:00",
-      "summary": "arXiv:2609.01658v1 Announce Type: new Abstract: Retrieval-Augmented Generation enhances Large Language Models by grounding responses in external knowledge, but multi-hop reasoning remains vulnerable to error propagation, where early retrieval failures confound subsequent steps. S",
-      "tag": "ai"
-    },
-    {
-      "title": "Learning Evidence Sufficiency Boundaries for Selective Answering in Grounded Multi-Hop QA",
-      "url": "https://arxiv.org/abs/2609.01687",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-03T04:00:00+00:00",
-      "summary": "arXiv:2609.01687v1 Announce Type: new Abstract: Grounded question answering systems should answer only when the supplied evidence supports the answer. In multi-hop QA, this requirement is difficult because partial evidence can make an unsupported answer appear plausible. We study",
-      "tag": "ai"
-    },
-    {
-      "title": "SpeakPay: Domain-Adaptive LoRA Fine-Tuning of Whisper for Low-Resource Nepali Financial Speech Recognition",
-      "url": "https://arxiv.org/abs/2609.01737",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-03T04:00:00+00:00",
-      "summary": "arXiv:2609.01737v1 Announce Type: new Abstract: Mobile payment applications in Nepal are graphically mediated and largely inaccessible to visually impaired users. This paper presents SpeakPay, a voice-first digital wallet, and documents the central technical contribution: a contr",
       "tag": "ai"
     },
     {
