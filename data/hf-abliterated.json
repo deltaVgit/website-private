@@ -54,7 +54,7 @@
         "downloads": 857062,
         "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-06-05T17:55:41.000Z",
-        "daysAgo": 91,
+        "daysAgo": 92,
         "pipeline": "",
         "tags": [
           "gguf",
@@ -248,7 +248,7 @@
         "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
         "author": "huihui-ai",
-        "likes": 539,
+        "likes": 540,
         "downloads": 2149139,
         "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "lastModified": "2026-09-05T07:18:10.000Z",
@@ -293,7 +293,7 @@
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 958,
+        "likes": 959,
         "downloads": 1527627,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
@@ -338,7 +338,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
       "author": "huihui-ai",
-      "likes": 539,
+      "likes": 540,
       "downloads": 2149139,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "lastModified": "2026-09-05T07:18:10.000Z",
@@ -414,7 +414,7 @@
       "downloads": 326786,
       "url": "https://huggingface.co/Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
       "lastModified": "2026-08-22T17:50:05.000Z",
-      "daysAgo": 13,
+      "daysAgo": 14,
       "pipeline": "image-text-to-text",
       "tags": [
         "gguf",
@@ -427,8 +427,8 @@
         "multimodal"
       ],
       "pop": 0.8708,
-      "rec": 0.6977,
-      "combo": 0.8102
+      "rec": 0.6818,
+      "combo": 0.8047
     },
     {
       "id": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
@@ -534,7 +534,7 @@
       "downloads": 67560,
       "url": "https://huggingface.co/twolven/Qwen3.8-27B-abliterated-AWQ-MTP",
       "lastModified": "2026-08-21T17:53:49.000Z",
-      "daysAgo": 14,
+      "daysAgo": 15,
       "pipeline": "image-text-to-text",
       "tags": [
         "transformers",
@@ -547,8 +547,8 @@
         "compressed-tensors"
       ],
       "pop": 0.7627,
-      "rec": 0.6818,
-      "combo": 0.7344
+      "rec": 0.6667,
+      "combo": 0.7291
     },
     {
       "id": "PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
@@ -624,5 +624,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-05T17:34:21Z"
+  "updated": "2026-09-05T18:04:22Z"
 }
