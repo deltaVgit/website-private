@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T08:30:49Z",
+  "updated_at": "2026-09-05T08:45:50Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -83,72 +83,72 @@
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 2.22,
-        "change_24h": 12.65,
+        "change_24h": 13.0,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.12,
-        "change_24h": 8.51,
+        "change_24h": 8.64,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
-        "price": 2.07,
-        "change_24h": 4.34,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1007.62,
-        "change_24h": 4.22,
+        "price": 2.09,
+        "change_24h": 5.43,
         "asset": "crypto"
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price": 747.78,
-        "change_24h": 4.17,
+        "price": 748.93,
+        "change_24h": 4.48,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LTC",
+        "name": "Litecoin",
+        "price": 53.14,
+        "change_24h": 4.03,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "price": 0.597441,
+        "change_24h": -5.86,
+        "asset": "crypto"
+      },
+      {
         "symbol": "CRV",
         "name": "Curve DAO",
-        "price": 0.357141,
-        "change_24h": -4.92,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004193,
-        "change_24h": -3.83,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.132412,
-        "change_24h": -3.81,
+        "price": 0.357213,
+        "change_24h": -4.51,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -3.71,
+        "change_24h": -3.85,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.132455,
+        "change_24h": -3.83,
         "asset": "crypto"
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 129.96,
-        "change_24h": -3.67,
+        "price": 129.51,
+        "change_24h": -3.73,
         "asset": "crypto"
       }
     ]
