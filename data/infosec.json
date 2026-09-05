@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T23:04:56Z",
+  "updatedAt": "2026-09-05T00:04:56Z",
   "kev": [
     {
       "cve": "CVE-2026-85046",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-78676",
+      "id": "CVE-2026-19632",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "GitPython before 3.1.59 fails to safely re-serialize multi-line git-config values during write operations, corrupting dormant quoted values into injected directives like core.hooksPath. Attackers can craft config files w",
-      "published": "2026-08-25T02:16:52.030"
+      "description": "The TranslatePress – Translate Multilingual sites with AI Translation plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 3.3.1 via the 'trp_get_translations_regular",
+      "published": "2026-08-26T05:18:06.810"
     },
     {
-      "id": "CVE-2026-56710",
+      "id": "CVE-2026-15203",
       "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "Grav Login plugin versions before 1.0.16 fail to validate the target account's privilege level in the onApiUserListRowAction unlock handler. An attacker with api.users.write permission can clear login lockout counters on",
-      "published": "2026-08-25T02:16:43.073"
+      "score": 9.3,
+      "description": "Improper access control in debug and engineering interfaces in Danfoss iC7-Automation SP, iC7-Marine, and iC7-Hybrid GR3 allows attackers to gain read/write access to internal values, upload and execute unsigned applicat",
+      "published": "2026-08-26T06:16:25.130"
     },
     {
-      "id": "CVE-2026-56705",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "Adminer before 5.4.3 fails to sanitize the server field before constructing a PDO DSN string, allowing unauthenticated attackers to inject ODBC parameters via semicolons. Attackers can inject TraceFile and TraceOn parame",
-      "published": "2026-08-25T02:16:42.330"
-    },
-    {
-      "id": "CVE-2026-75574",
+      "id": "CVE-2026-80202",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "The Grav Email plugin (getgrav/grav-plugin-email) before 4.2.2 renders page-editor-controlled Email action parameters as unsandboxed Twig templates. An authenticated remote user with only api.access and api.pages.write p",
-      "published": "2026-08-25T02:16:51.303"
+      "description": "Kimai before 2.56.0 does not enforce team-membership checks in TimesheetVoter::voteOnAttribute(), which maps permissions only to own_timesheet or other_timesheet. As a result, any authenticated user with ROLE_TEAMLEAD (o",
+      "published": "2026-08-26T05:18:27.980"
     },
     {
-      "id": "CVE-2026-56702",
+      "id": "CVE-2026-80193",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "Adminer versions before 5.4.3 contain an unrestricted file upload vulnerability in the AdminerFileUpload plugin that allows authenticated users to upload PHP files by exploiting a permissive default extension allowlist. ",
-      "published": "2026-08-25T02:16:41.900"
+      "description": "Kimai before 2.62.0 fails to validate create_other_timesheet permission in the QuickEntry controller when creating new timesheets. Authenticated users with view_other_timesheet and edit_other_timesheet permissions can cr",
+      "published": "2026-08-26T05:18:26.617"
     },
     {
-      "id": "CVE-2026-78675",
+      "id": "CVE-2026-80214",
+      "severity": "HIGH",
+      "score": 8.6,
+      "description": "LibreNMS’s Virtualization Discovery module is vulnerable to command line injection. An authenticated admin user can execute arbitrary code on the host server.",
+      "published": "2026-08-26T05:18:28.127"
+    },
+    {
+      "id": "CVE-2026-52776",
+      "severity": "HIGH",
+      "score": 8.6,
+      "description": "Compliance-trestle (Trestle) is a tooling platform for managing compliance as code. In versions before 3.12.4 and versions 4.0.0 through 4.0.3, the URLSecurityValidator that guards trestle's remote-fetch paths against se",
+      "published": "2026-08-26T05:18:10.880"
+    },
+    {
+      "id": "CVE-2026-76148",
       "severity": "HIGH",
       "score": 8.4,
-      "description": "GitPython before 3.1.59 fails to disable merge_includes when parsing .gitmodules, allowing attackers to disclose local file content by including arbitrary file paths via [include] directives. Attackers can craft a malici",
-      "published": "2026-08-25T02:16:51.887"
+      "description": "CorvusSKK contains a code injection vulnerability, which may lead to arbitrary code execution on the affected product.",
+      "published": "2026-08-26T05:18:18.953"
     },
     {
-      "id": "CVE-2026-72696",
-      "severity": "HIGH",
-      "score": 8.4,
-      "description": "Grav CMS before 2.0.16 contains a symlink following vulnerability in Scheduler Job::createLockFile() that allows local attackers to overwrite arbitrary files by pre-creating symlinks at predictable lock file paths in the",
-      "published": "2026-08-25T02:16:45.253"
-    },
-    {
-      "id": "CVE-2026-72695",
+      "id": "CVE-2026-80192",
       "severity": "HIGH",
       "score": 8.1,
-      "description": "Grav before 2.0.16 contains a path traversal vulnerability in MediaUploadTrait::deleteFile() that allows authenticated users with media management permissions to delete arbitrary files by supplying filenames with directo",
-      "published": "2026-08-25T02:16:45.097"
+      "description": "@better-auth/sso before 1.6.27 (and before 1.4.8 in the 1.4.x line and before 1.7.0-rc.5 in the 1.7 prerelease line) contains two domain-ownership flaws. When domain verification is disabled, automatic organization assig",
+      "published": "2026-08-26T05:18:26.460"
     },
     {
-      "id": "CVE-2026-34968",
+      "id": "CVE-2026-58092",
       "severity": "HIGH",
       "score": 8.1,
-      "description": "Adminer before 5.4.3 contains an arbitrary file deletion vulnerability in SQLite mode where the database-list drop action fails to validate file extensions before deletion. An authenticated attacker can submit arbitrary ",
-      "published": "2026-08-25T02:16:40.843"
+      "description": "In FreeBSD 15.0, the kernel structure used to represent user credentials changed: previously the primary group ID was stored in the first element of the array containing the list of supplementary group IDs, whereas now t",
+      "published": "2026-08-26T05:18:12.453"
     },
     {
-      "id": "CVE-2026-56707",
+      "id": "CVE-2026-58091",
       "severity": "HIGH",
-      "score": 7.7,
-      "description": "Grav Flex Objects plugin versions 1.4.0 through 1.4.7 contain an authorization bypass vulnerability in the flex-objects shortcode that allows users with page-edit access to render any registered Flex collection without p",
-      "published": "2026-08-25T02:16:42.637"
+      "score": 7.8,
+      "description": "The implementation of this ioctl attempts to acquire locks on all channels in a sync group. If locking a channel would block, it releases the sync group list lock and sleeps. Upon reawakening, it is possible that the syn",
+      "published": "2026-08-26T05:18:12.337"
     },
     {
-      "id": "CVE-2026-78677",
+      "id": "CVE-2026-58090",
       "severity": "HIGH",
-      "score": 7.5,
-      "description": "GitPython before 3.1.59 omits --separate-git-dir from unsafe_git_clone_options, allowing attackers to create arbitrary git directories outside the intended clone destination. Attackers can pass a separate_git_dir paramet",
-      "published": "2026-08-25T02:16:52.173"
+      "score": 7.8,
+      "description": "The SOCK_STREAM receive path in the unix socket implementation failed to fully detach control messages from the socket buffer before processing them. Some error paths would free those messages, leaving freed data mbufs i",
+      "published": "2026-08-26T05:18:12.217"
     },
     {
-      "id": "CVE-2026-76846",
+      "id": "CVE-2026-58089",
       "severity": "HIGH",
-      "score": 7.5,
-      "description": "Grav before 2.0.16 contains an incomplete default denylist in the Twig sandbox configuration that fails to block access to system configuration secrets. Attackers with page-edit permission can use config.get() or config.",
-      "published": "2026-08-25T02:16:51.743"
+      "score": 7.8,
+      "description": "When a process calls execve(2) to execute a setuid or setgid image, hwpmc(4) is supposed to detach PMCs owned by unprivileged processes. An inverted check meant that this scenario was not handled properly. An unprivilege",
+      "published": "2026-08-26T05:18:12.080"
     }
   ],
   "breaches": [
