@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T11:00:56Z",
+  "updated_at": "2026-09-05T11:15:57Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -83,72 +83,72 @@
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 2.26,
-        "change_24h": 12.99,
+        "change_24h": 12.21,
         "asset": "crypto"
       },
       {
         "symbol": "GT",
         "name": "Gate",
-        "price": 8.91,
-        "change_24h": 5.37,
+        "price": 9.08,
+        "change_24h": 7.38,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
-        "price": 2.13,
-        "change_24h": 4.39,
+        "price": 2.14,
+        "change_24h": 5.67,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.12,
-        "change_24h": 4.22,
+        "change_24h": 4.98,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 17.93,
-        "change_24h": 4.06,
+        "price": 17.87,
+        "change_24h": 4.31,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 63.9,
-        "change_24h": -3.95,
-        "asset": "crypto"
-      },
-      {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -3.6,
+        "change_24h": -3.67,
         "asset": "crypto"
       },
       {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.213092,
-        "change_24h": -3.57,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BCH",
-        "name": "Bitcoin Cash",
-        "price": 251.94,
-        "change_24h": -3.14,
+        "symbol": "QNT",
+        "name": "Quant",
+        "price": 64.11,
+        "change_24h": -3.64,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.163799,
-        "change_24h": -3.04,
+        "price": 0.163932,
+        "change_24h": -3.52,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price": 0.21322,
+        "change_24h": -3.47,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price": 251.9,
+        "change_24h": -3.18,
         "asset": "crypto"
       }
     ]
