@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T19:15:16Z",
+  "updated_at": "2026-09-05T19:30:16Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "CAKE",
-        "name": "PancakeSwap",
-        "price": 2.25,
-        "change_24h": 13.87,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 7.21,
+        "change_24h": 15.64,
         "asset": "crypto"
       },
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 7.0,
-        "change_24h": 13.02,
+        "symbol": "CAKE",
+        "name": "PancakeSwap",
+        "price": 2.26,
+        "change_24h": 13.89,
         "asset": "crypto"
       },
       {
         "symbol": "GT",
         "name": "Gate",
-        "price": 9.36,
-        "change_24h": 11.89,
+        "price": 9.37,
+        "change_24h": 11.98,
         "asset": "crypto"
       },
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 2.23,
-        "change_24h": 10.2,
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.144227,
+        "change_24h": 8.71,
         "asset": "crypto"
       },
       {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.091634,
-        "change_24h": 8.18,
+        "symbol": "BNB",
+        "name": "BNB",
+        "price": 777.4,
+        "change_24h": 7.76,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.003958,
-        "change_24h": -8.28,
+        "price": 0.003971,
+        "change_24h": -8.25,
         "asset": "crypto"
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
         "price": 1.005,
-        "change_24h": -2.68,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.76,
-        "change_24h": -2.22,
+        "change_24h": -2.69,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 17.26,
-        "change_24h": -1.63,
+        "price": 17.28,
+        "change_24h": -2.1,
         "asset": "crypto"
       },
       {
-        "symbol": "FLR",
-        "name": "Flare",
-        "price": 0.006676,
-        "change_24h": -0.88,
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1021.78,
+        "change_24h": -1.39,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.77,
+        "change_24h": -1.14,
         "asset": "crypto"
       }
     ]
