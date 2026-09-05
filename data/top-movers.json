@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T14:31:05Z",
+  "updated_at": "2026-09-05T14:46:06Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 2.2,
-        "change_24h": 13.32,
-        "asset": "crypto"
-      },
-      {
         "symbol": "CAKE",
         "name": "PancakeSwap",
-        "price": 2.21,
-        "change_24h": 13.3,
+        "price": 2.22,
+        "change_24h": 14.61,
         "asset": "crypto"
       },
       {
-        "symbol": "ASTER",
-        "name": "Aster",
-        "price": 0.824367,
-        "change_24h": 13.28,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 2.21,
+        "change_24h": 14.53,
         "asset": "crypto"
       },
       {
         "symbol": "GT",
         "name": "Gate",
-        "price": 9.06,
-        "change_24h": 8.96,
+        "price": 9.03,
+        "change_24h": 8.66,
         "asset": "crypto"
       },
       {
-        "symbol": "LTC",
-        "name": "Litecoin",
-        "price": 53.97,
-        "change_24h": 7.35,
+        "symbol": "DOT",
+        "name": "Polkadot",
+        "price": 0.916873,
+        "change_24h": 8.24,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SUI",
+        "name": "Sui",
+        "price": 0.804845,
+        "change_24h": 8.1,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004085,
-        "change_24h": -4.55,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 63.87,
-        "change_24h": -1.66,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 17.44,
-        "change_24h": -1.38,
+        "price": 0.004074,
+        "change_24h": -2.98,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.01641,
-        "change_24h": -1.15,
+        "price": 0.016413,
+        "change_24h": -0.92,
         "asset": "crypto"
       },
       {
-        "symbol": "BCH",
-        "name": "Bitcoin Cash",
-        "price": 249.55,
-        "change_24h": -0.83,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.449217,
+        "change_24h": -0.89,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price": 63.93,
+        "change_24h": -0.74,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LEO",
+        "name": "LEO Token",
+        "price": 9.25,
+        "change_24h": -0.54,
         "asset": "crypto"
       }
     ]
