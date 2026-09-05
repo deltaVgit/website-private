@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T06:15:46Z",
+  "updated_at": "2026-09-05T06:30:47Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 2.21,
-        "change_24h": 14.95,
-        "asset": "crypto"
-      },
-      {
         "symbol": "LIT",
         "name": "Lighter",
         "price": 4.68,
-        "change_24h": 8.13,
+        "change_24h": 9.18,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.13,
-        "change_24h": 8.0,
+        "change_24h": 8.84,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1017.17,
-        "change_24h": 6.3,
+        "price": 1013.91,
+        "change_24h": 6.7,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ICP",
+        "name": "Internet Computer",
+        "price": 2.68,
+        "change_24h": 5.67,
         "asset": "crypto"
       },
       {
         "symbol": "LTC",
         "name": "Litecoin",
-        "price": 53.51,
-        "change_24h": 5.02,
+        "price": 53.49,
+        "change_24h": 5.22,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "CRV",
         "name": "Curve DAO",
-        "price": 0.356496,
-        "change_24h": -4.55,
+        "price": 0.356503,
+        "change_24h": -4.25,
         "asset": "crypto"
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.212183,
-        "change_24h": -4.35,
+        "price": 0.212536,
+        "change_24h": -3.73,
         "asset": "crypto"
       },
       {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.129964,
-        "change_24h": -4.22,
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.016431,
+        "change_24h": -3.65,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 3e-06,
-        "change_24h": -4.17,
+        "change_24h": -3.41,
         "asset": "crypto"
       },
       {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.01643,
-        "change_24h": -3.78,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.004181,
+        "change_24h": -3.19,
         "asset": "crypto"
       }
     ]
