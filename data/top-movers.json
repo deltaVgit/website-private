@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T13:46:01Z",
+  "updated_at": "2026-09-05T14:01:03Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "ASTER",
+        "name": "Aster",
+        "price": 0.820159,
+        "change_24h": 12.47,
+        "asset": "crypto"
+      },
+      {
         "symbol": "CAKE",
         "name": "PancakeSwap",
-        "price": 2.22,
-        "change_24h": 12.57,
+        "price": 2.2,
+        "change_24h": 12.04,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 2.2,
-        "change_24h": 12.01,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ASTER",
-        "name": "Aster",
-        "price": 0.800138,
-        "change_24h": 9.25,
+        "change_24h": 11.32,
         "asset": "crypto"
       },
       {
         "symbol": "GT",
         "name": "Gate",
-        "price": 9.02,
-        "change_24h": 8.3,
+        "price": 9.03,
+        "change_24h": 8.62,
         "asset": "crypto"
       },
       {
-        "symbol": "BNB",
-        "name": "BNB",
-        "price": 763.35,
-        "change_24h": 6.79,
+        "symbol": "LTC",
+        "name": "Litecoin",
+        "price": 53.89,
+        "change_24h": 6.8,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004104,
-        "change_24h": -3.33,
+        "price": 0.004093,
+        "change_24h": -4.46,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 63.92,
-        "change_24h": -1.91,
+        "price": 63.84,
+        "change_24h": -2.07,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.132944,
+        "change_24h": -1.46,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.163135,
-        "change_24h": -1.81,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.65,
-        "change_24h": -1.19,
+        "price": 0.163797,
+        "change_24h": -1.31,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
         "price": 0.016411,
-        "change_24h": -1.17,
+        "change_24h": -1.14,
         "asset": "crypto"
       }
     ]
