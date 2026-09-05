@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T10:45:56Z",
+  "updated_at": "2026-09-05T11:00:56Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -83,51 +83,44 @@
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 2.26,
-        "change_24h": 12.47,
+        "change_24h": 12.99,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "GT",
+        "name": "Gate",
+        "price": 8.91,
+        "change_24h": 5.37,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
         "price": 2.13,
-        "change_24h": 5.52,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "GT",
-        "name": "Gate",
-        "price": 8.9,
-        "change_24h": 5.26,
+        "change_24h": 4.39,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.12,
-        "change_24h": 4.65,
+        "change_24h": 4.22,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 17.98,
-        "change_24h": 4.32,
+        "price": 17.93,
+        "change_24h": 4.06,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 527.3,
-        "change_24h": -4.34,
-        "asset": "crypto"
-      },
-      {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 63.93,
-        "change_24h": -3.81,
+        "price": 63.9,
+        "change_24h": -3.95,
         "asset": "crypto"
       },
       {
@@ -140,15 +133,22 @@
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.213362,
-        "change_24h": -3.31,
+        "price": 0.213092,
+        "change_24h": -3.57,
         "asset": "crypto"
       },
       {
-        "symbol": "CRO",
-        "name": "Cronos",
-        "price": 0.055913,
-        "change_24h": -3.16,
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price": 251.94,
+        "change_24h": -3.14,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.163799,
+        "change_24h": -3.04,
         "asset": "crypto"
       }
     ]
