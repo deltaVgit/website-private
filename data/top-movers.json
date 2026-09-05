@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T10:30:56Z",
+  "updated_at": "2026-09-05T10:45:56Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,72 +82,72 @@
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 2.25,
-        "change_24h": 12.08,
+        "price": 2.26,
+        "change_24h": 12.47,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
-        "price": 2.14,
-        "change_24h": 6.74,
+        "price": 2.13,
+        "change_24h": 5.52,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "GT",
+        "name": "Gate",
+        "price": 8.9,
+        "change_24h": 5.26,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.12,
-        "change_24h": 5.45,
+        "change_24h": 4.65,
         "asset": "crypto"
       },
       {
-        "symbol": "BNB",
-        "name": "BNB",
-        "price": 749.35,
-        "change_24h": 4.22,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DOT",
-        "name": "Polkadot",
-        "price": 0.911474,
-        "change_24h": 4.17,
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 17.98,
+        "change_24h": 4.32,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "SPX",
-        "name": "SPX6900",
-        "price": 0.59424,
-        "change_24h": -8.6,
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 527.3,
+        "change_24h": -4.34,
         "asset": "crypto"
       },
       {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 524.53,
-        "change_24h": -5.75,
+        "symbol": "QNT",
+        "name": "Quant",
+        "price": 63.93,
+        "change_24h": -3.81,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -3.47,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.108428,
-        "change_24h": -3.35,
+        "change_24h": -3.6,
         "asset": "crypto"
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.213026,
+        "price": 0.213362,
+        "change_24h": -3.31,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CRO",
+        "name": "Cronos",
+        "price": 0.055913,
         "change_24h": -3.16,
         "asset": "crypto"
       }
