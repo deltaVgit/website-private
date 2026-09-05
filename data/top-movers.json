@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T23:30:22Z",
+  "updated_at": "2026-09-05T23:45:22Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 7.09,
-        "change_24h": 14.8,
-        "asset": "crypto"
-      },
-      {
         "symbol": "CAKE",
         "name": "PancakeSwap",
         "price": 2.26,
-        "change_24h": 14.51,
+        "change_24h": 14.12,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "\u5e01\u5b89\u4eba\u751f",
+        "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+        "price": 0.559617,
+        "change_24h": 14.06,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 7.04,
+        "change_24h": 14.04,
         "asset": "crypto"
       },
       {
         "symbol": "GT",
         "name": "Gate",
         "price": 9.27,
-        "change_24h": 10.49,
+        "change_24h": 10.38,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 2.68,
-        "change_24h": 8.96,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LTC",
-        "name": "Litecoin",
-        "price": 54.88,
-        "change_24h": 8.25,
+        "price": 2.67,
+        "change_24h": 8.13,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.003895,
-        "change_24h": -8.33,
+        "price": 0.003865,
+        "change_24h": -8.78,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 17.23,
-        "change_24h": -4.6,
+        "price": 17.3,
+        "change_24h": -4.57,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.49,
-        "change_24h": -2.31,
+        "change_24h": -2.41,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.76,
+        "change_24h": -0.67,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1020.84,
-        "change_24h": -1.03,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BDX",
-        "name": "Beldex",
-        "price": 0.078899,
-        "change_24h": -0.28,
+        "price": 1022.12,
+        "change_24h": -0.58,
         "asset": "crypto"
       }
     ]
