@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T11:45:58Z",
+  "updated_at": "2026-09-05T12:00:58Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 2.25,
-        "change_24h": 11.03,
+        "price": 2.28,
+        "change_24h": 12.77,
         "asset": "crypto"
       },
       {
         "symbol": "GT",
         "name": "Gate",
-        "price": 8.96,
-        "change_24h": 6.03,
+        "price": 8.99,
+        "change_24h": 5.91,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
-        "price": 2.12,
-        "change_24h": 4.99,
+        "price": 2.13,
+        "change_24h": 5.23,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ASTER",
+        "name": "Aster",
+        "price": 0.792047,
+        "change_24h": 4.61,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.12,
-        "change_24h": 4.5,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "TAO",
-        "name": "Bittensor",
-        "price": 239.01,
-        "change_24h": 3.94,
+        "change_24h": 4.49,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 63.83,
-        "change_24h": -4.94,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.163225,
-        "change_24h": -4.57,
-        "asset": "crypto"
-      },
-      {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -4.5,
+        "change_24h": -4.28,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price": 63.78,
+        "change_24h": -3.93,
         "asset": "crypto"
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.212766,
-        "change_24h": -4.12,
+        "price": 0.213477,
+        "change_24h": -3.63,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.16368,
+        "change_24h": -3.52,
         "asset": "crypto"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price": 1.4,
-        "change_24h": -3.39,
+        "change_24h": -3.13,
         "asset": "crypto"
       }
     ]
