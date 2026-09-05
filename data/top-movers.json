@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T22:45:21Z",
+  "updated_at": "2026-09-05T23:00:22Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,22 +82,15 @@
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 7.1,
-        "change_24h": 15.98,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CAKE",
-        "name": "PancakeSwap",
-        "price": 2.26,
-        "change_24h": 14.59,
+        "price": 7.09,
+        "change_24h": 16.01,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 66.92,
-        "change_24h": 12.59,
+        "price": 67.22,
+        "change_24h": 11.34,
         "asset": "crypto"
       },
       {
@@ -110,8 +103,15 @@
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 2.69,
-        "change_24h": 9.19,
+        "price": 2.68,
+        "change_24h": 9.1,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CRV",
+        "name": "Curve DAO",
+        "price": 0.381747,
+        "change_24h": 8.73,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.003941,
-        "change_24h": -6.44,
+        "price": 0.003952,
+        "change_24h": -5.97,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 17.25,
-        "change_24h": -2.9,
+        "price": 17.24,
+        "change_24h": -3.17,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.51,
-        "change_24h": -2.17,
+        "change_24h": -1.68,
         "asset": "crypto"
       },
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.449544,
-        "change_24h": -0.75,
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1019.42,
+        "change_24h": -0.48,
         "asset": "crypto"
       },
       {
         "symbol": "BDX",
         "name": "Beldex",
-        "price": 0.078852,
-        "change_24h": -0.4,
+        "price": 0.078883,
+        "change_24h": -0.39,
         "asset": "crypto"
       }
     ]
