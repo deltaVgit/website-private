@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T06:45:47Z",
+  "updated_at": "2026-09-05T07:00:47Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -83,72 +83,72 @@
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.13,
-        "change_24h": 9.15,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.67,
-        "change_24h": 8.02,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1017.07,
-        "change_24h": 6.57,
+        "change_24h": 9.13,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 2.68,
-        "change_24h": 5.54,
+        "price": 2.71,
+        "change_24h": 6.72,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1017.18,
+        "change_24h": 6.24,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.63,
+        "change_24h": 5.91,
         "asset": "crypto"
       },
       {
         "symbol": "LTC",
         "name": "Litecoin",
-        "price": 53.76,
-        "change_24h": 5.48,
+        "price": 53.69,
+        "change_24h": 5.27,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.00418,
+        "change_24h": -4.82,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CRV",
+        "name": "Curve DAO",
+        "price": 0.358564,
+        "change_24h": -3.66,
+        "asset": "crypto"
+      },
+      {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.213077,
-        "change_24h": -3.76,
+        "price": 0.213274,
+        "change_24h": -3.53,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.016437,
+        "change_24h": -3.53,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -3.57,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CRV",
-        "name": "Curve DAO",
-        "price": 0.357641,
-        "change_24h": -3.57,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.016438,
-        "change_24h": -3.48,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004188,
-        "change_24h": -3.35,
+        "change_24h": -3.37,
         "asset": "crypto"
       }
     ]
