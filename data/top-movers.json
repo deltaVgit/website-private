@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T03:15:38Z",
+  "updated_at": "2026-09-05T03:30:38Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 2.23,
-        "change_24h": 14.2,
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1031.77,
+        "change_24h": 9.26,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.13,
-        "change_24h": 9.26,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1025.63,
-        "change_24h": 8.29,
+        "change_24h": 9.18,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.75,
-        "change_24h": 8.26,
+        "price": 4.77,
+        "change_24h": 8.33,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 17.94,
+        "change_24h": 5.16,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 529.04,
-        "change_24h": 4.79,
+        "price": 529.33,
+        "change_24h": 4.43,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price": 0.210915,
+        "change_24h": -6.13,
+        "asset": "crypto"
+      },
+      {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 3e-06,
-        "change_24h": -6.06,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.210619,
-        "change_24h": -6.02,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.131376,
-        "change_24h": -4.71,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.216081,
-        "change_24h": -4.7,
+        "change_24h": -5.48,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.016446,
-        "change_24h": -3.97,
+        "price": 0.016447,
+        "change_24h": -3.9,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CRV",
+        "name": "Curve DAO",
+        "price": 0.353767,
+        "change_24h": -3.86,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.217015,
+        "change_24h": -3.84,
         "asset": "crypto"
       }
     ]
