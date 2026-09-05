@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-04T23:04:49Z",
+  "updated": "2026-09-05T00:04:48Z",
   "items": [
+    {
+      "title": "The Pelican comparison grid for Astra is pretty interesting",
+      "url": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+      "source": "Simon Willison",
+      "published_at": "2026-09-04T23:59:05+00:00",
+      "summary": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in a comparison grid with GPT-5.6 Sol, Ter",
+      "tag": "ai"
+    },
     {
       "title": "OpenAI's rogue agents were caught communicating via public wikis",
       "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
@@ -95,14 +103,6 @@
       "source": "arXiv cs.CL",
       "published_at": "2026-09-04T04:00:00+00:00",
       "summary": "arXiv:2609.02892v1 Announce Type: new Abstract: Single-turn code-generation metrics understate a central property of deployed agents: whether they can repair a wrong artifact after receiving concrete feedback. This paper presents A-CEGIS, a lightweight framework that uses counter",
-      "tag": "ai"
-    },
-    {
-      "title": "GPT‑6 Astra",
-      "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
-      "source": "Simon Willison",
-      "published_at": "2026-09-03T20:18:41+00:00",
-      "summary": "GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not tried it yet myself, so I don't have a gr",
       "tag": "ai"
     },
     {
