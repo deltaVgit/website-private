@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T00:30:33Z",
+  "updated_at": "2026-09-05T00:45:34Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 2.25,
+        "change_24h": 14.99,
+        "asset": "crypto"
+      },
+      {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.13,
-        "change_24h": 8.8,
+        "change_24h": 8.61,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1019.3,
-        "change_24h": 8.21,
+        "price": 1024.23,
+        "change_24h": 8.3,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.74,
-        "change_24h": 5.84,
+        "price": 4.78,
+        "change_24h": 7.86,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 18.06,
-        "change_24h": 4.85,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ASTER",
-        "name": "Aster",
-        "price": 0.741165,
-        "change_24h": 2.63,
+        "price": 18.1,
+        "change_24h": 5.28,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.131861,
-        "change_24h": -8.52,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.216568,
-        "change_24h": -5.67,
+        "price": 0.13113,
+        "change_24h": -8.06,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.434233,
-        "change_24h": -5.31,
+        "price": 0.429476,
+        "change_24h": -5.82,
         "asset": "crypto"
       },
       {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.107188,
-        "change_24h": -4.98,
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.216691,
+        "change_24h": -5.79,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
-        "price": 4e-06,
-        "change_24h": -4.75,
+        "price": 3e-06,
+        "change_24h": -5.32,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.107323,
+        "change_24h": -4.7,
         "asset": "crypto"
       }
     ]
