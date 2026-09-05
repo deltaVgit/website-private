@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T08:00:49Z",
+  "updated_at": "2026-09-05T08:15:49Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -83,72 +83,72 @@
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 2.23,
-        "change_24h": 13.91,
+        "change_24h": 13.92,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.12,
-        "change_24h": 8.44,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.62,
-        "change_24h": 5.07,
+        "price": 1.13,
+        "change_24h": 8.7,
         "asset": "crypto"
       },
       {
         "symbol": "LTC",
         "name": "Litecoin",
-        "price": 53.75,
-        "change_24h": 4.96,
+        "price": 53.5,
+        "change_24h": 4.62,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
         "price": 2.64,
-        "change_24h": 4.64,
+        "change_24h": 4.05,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "GRAM",
+        "name": "Gram (prev. Toncoin)",
+        "price": 1.43,
+        "change_24h": 4.02,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.132954,
-        "change_24h": -3.49,
+        "symbol": "CRV",
+        "name": "Curve DAO",
+        "price": 0.357552,
+        "change_24h": -4.03,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price": 0.213018,
+        "change_24h": -3.69,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004207,
-        "change_24h": -3.32,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CRV",
-        "name": "Curve DAO",
-        "price": 0.357406,
-        "change_24h": -3.25,
+        "price": 0.004203,
+        "change_24h": -3.3,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -3.21,
+        "change_24h": -3.14,
         "asset": "crypto"
       },
       {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.213487,
-        "change_24h": -2.98,
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.108304,
+        "change_24h": -3.12,
         "asset": "crypto"
       }
     ]
