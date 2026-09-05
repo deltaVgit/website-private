@@ -26,7 +26,7 @@
         "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "author": "0bserverx",
-        "likes": 377,
+        "likes": 378,
         "downloads": 1399307,
         "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "lastModified": "2026-08-20T19:51:25.000Z",
@@ -68,6 +68,30 @@
         ]
       },
       {
+        "id": "mradermacher/Qwen3-VL-8B-Instruct-abliterated-GGUF",
+        "name": "Qwen3-VL-8B-Instruct-abliterated-GGUF",
+        "author": "mradermacher",
+        "likes": 12,
+        "downloads": 651073,
+        "url": "https://huggingface.co/mradermacher/Qwen3-VL-8B-Instruct-abliterated-GGUF",
+        "lastModified": "2025-11-15T11:01:32.000Z",
+        "daysAgo": 293,
+        "pipeline": "",
+        "tags": [
+          "transformers",
+          "gguf",
+          "text-generation-inference",
+          "abliterated",
+          "v1.0",
+          "en",
+          "base_model:prithivMLmods/Qwen3-VL-8B-Instruct-abliterated-v1",
+          "base_model:quantized:prithivMLmods/Qwen3-VL-8B-Instruct-abliterated-v1"
+        ],
+        "pop": 0.9205,
+        "rec": 0.0929,
+        "combo": 0.6308
+      },
+      {
         "id": "wangzhang/gemma-4-31B-it-abliterated",
         "name": "gemma-4-31B-it-abliterated",
         "author": "wangzhang",
@@ -90,30 +114,6 @@
         "pop": 0.9185,
         "rec": 0.8333,
         "combo": 0.8887
-      },
-      {
-        "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
-        "name": "Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
-        "author": "huihui-ai",
-        "likes": 185,
-        "downloads": 585872,
-        "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
-        "lastModified": "2026-08-03T14:05:07.000Z",
-        "daysAgo": 32,
-        "pipeline": "text-generation",
-        "tags": [
-          "gguf",
-          "abliterated",
-          "uncensored",
-          "GGUF",
-          "huihui",
-          "quantized",
-          "deepseek",
-          "deepseek-v4"
-        ],
-        "pop": 0.9132,
-        "rec": 0.4839,
-        "combo": 0.763
       }
     ],
     "image_video": [
@@ -386,7 +386,7 @@
       "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "author": "0bserverx",
-      "likes": 377,
+      "likes": 378,
       "downloads": 1399307,
       "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "lastModified": "2026-08-20T19:51:25.000Z",
@@ -624,5 +624,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-05T00:34:43Z"
+  "updated": "2026-09-05T01:04:43Z"
 }
