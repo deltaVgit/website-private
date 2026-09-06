@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T08:05:04Z",
+  "updatedAt": "2026-09-06T08:35:29Z",
   "kev": [
     {
       "cve": "CVE-2026-85046",
@@ -128,50 +128,7 @@
       "knownRansomware": "Unknown"
     }
   ],
-  "cves": [
-    {
-      "id": "CVE-2026-47852",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "A local attacker on a multi-user host can pre-create the deterministic cache path and plant a malicious ONNX model file. Spring AI 2.0.0 Spring AI 1.1.0 - 1.1.8 Spring AI 1.0.0 - 1.0.9",
-      "published": "2026-08-27T01:17:32.320"
-    },
-    {
-      "id": "CVE-2026-47851",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "Analyzing a PDF with a deeply nested or cyclic table of contents can cause a StackOverflowError in the ingestion thread. Spring AI 2.0.0 Spring AI 1.1.0 - 1.1.8 Spring AI 1.0.0 - 1.0.9",
-      "published": "2026-08-27T01:17:32.150"
-    },
-    {
-      "id": "CVE-2026-81491",
-      "severity": "HIGH",
-      "score": 7.3,
-      "description": "A flaw has been found in boxpositron with-context-mcp up to 3.0.7. This affects the function ingest_notes/teleport_notes/sync_notes/project_folder of the file src/index.ts. Executing a manipulation can lead to path trave",
-      "published": "2026-08-27T04:17:59.853"
-    },
-    {
-      "id": "CVE-2026-81421",
-      "severity": "HIGH",
-      "score": 7.3,
-      "description": "A security flaw has been discovered in ddfourtwo sentry-selfhosted-mcp 0.4.0. The affected element is an unknown function of the component raw_sentry_api. The manipulation of the argument endpoint results in server-side ",
-      "published": "2026-08-27T01:18:16.227"
-    },
-    {
-      "id": "CVE-2026-13415",
-      "severity": "HIGH",
-      "score": 7.2,
-      "description": "The CMP WordPress plugin before 4.1.18 does not enforce an option-name allow-list when importing settings via one of its AJAX actions, allowing users with the Editor role (when the administrator has granted the Editor ro",
-      "published": "2026-08-27T06:16:55.537"
-    },
-    {
-      "id": "CVE-2026-80183",
-      "severity": "HIGH",
-      "score": 7.1,
-      "description": "In OpenStack Keystone before 29.0.3, any authenticated user holding role:reader on any project can list every project-scoped role assignment under any domain by passing a domain ID as scope.project.id with include_subtre",
-      "published": "2026-08-27T01:18:16.050"
-    }
-  ],
+  "cves": [],
   "breaches": [
     {
       "name": "ManchesterAirportsGroup",
