@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T17:15:31Z",
+  "updated_at": "2026-09-06T17:30:32Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1185.12,
-        "change_24h": 14.38,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 2.4,
-        "change_24h": 8.26,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 7.2,
-        "change_24h": 7.8,
+        "price": 1192.66,
+        "change_24h": 16.04,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 250.81,
-        "change_24h": 6.13,
+        "price": 252.89,
+        "change_24h": 7.32,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 2.39,
+        "change_24h": 7.24,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 7.17,
+        "change_24h": 7.12,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
-        "price": 0.965725,
-        "change_24h": 6.07,
+        "price": 0.963663,
+        "change_24h": 6.04,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price": 0.830081,
+        "change_24h": -13.63,
+        "asset": "crypto"
+      },
+      {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.00382,
-        "change_24h": -7.03,
+        "price": 0.003804,
+        "change_24h": -6.23,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "GT",
+        "name": "Gate",
+        "price": 9.13,
+        "change_24h": -4.01,
         "asset": "crypto"
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
         "price": 2.31,
-        "change_24h": -4.18,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "GT",
-        "name": "Gate",
-        "price": 9.08,
-        "change_24h": -3.86,
+        "change_24h": -3.84,
         "asset": "crypto"
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price": 747.55,
-        "change_24h": -3.82,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CAKE",
-        "name": "PancakeSwap",
-        "price": 2.18,
-        "change_24h": -3.12,
+        "price": 747.46,
+        "change_24h": -3.79,
         "asset": "crypto"
       }
     ]
