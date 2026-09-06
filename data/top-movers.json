@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T14:00:26Z",
+  "updated_at": "2026-09-06T14:15:27Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1182.33,
-        "change_24h": 16.36,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 7.0,
-        "change_24h": 12.06,
+        "price": 1177.99,
+        "change_24h": 16.31,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 2.47,
-        "change_24h": 12.02,
+        "price": 2.45,
+        "change_24h": 11.98,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 6.95,
+        "change_24h": 9.81,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
-        "price": 0.977115,
-        "change_24h": 6.51,
+        "price": 0.97057,
+        "change_24h": 6.24,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 2.78,
-        "change_24h": 6.41,
+        "price": 2.76,
+        "change_24h": 6.15,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price": 0.873136,
+        "change_24h": -6.91,
+        "asset": "crypto"
+      },
+      {
         "symbol": "ASTER",
         "name": "Aster",
-        "price": 0.775486,
-        "change_24h": -5.35,
+        "price": 0.771434,
+        "change_24h": -6.1,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 17.01,
-        "change_24h": -2.6,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.449452,
-        "change_24h": -2.57,
+        "price": 16.98,
+        "change_24h": -2.75,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 529.96,
-        "change_24h": -1.86,
+        "price": 527.87,
+        "change_24h": -2.61,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.58,
-        "change_24h": -1.83,
+        "price": 4.56,
+        "change_24h": -2.61,
         "asset": "crypto"
       }
     ]
