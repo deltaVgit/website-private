@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T23:34:46Z",
+  "updatedAt": "2026-09-06T00:34:51Z",
   "kev": [
     {
       "cve": "CVE-2026-85046",
@@ -130,88 +130,46 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-19632",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The TranslatePress – Translate Multilingual sites with AI Translation plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 3.3.1 via the 'trp_get_translations_regular",
-      "published": "2026-08-26T05:18:06.810"
-    },
-    {
-      "id": "CVE-2026-15203",
-      "severity": "CRITICAL",
-      "score": 9.3,
-      "description": "Improper access control in debug and engineering interfaces in Danfoss iC7-Automation SP, iC7-Marine, and iC7-Hybrid GR3 allows attackers to gain read/write access to internal values, upload and execute unsigned applicat",
-      "published": "2026-08-26T06:16:25.130"
-    },
-    {
-      "id": "CVE-2026-80202",
+      "id": "CVE-2026-47852",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "Kimai before 2.56.0 does not enforce team-membership checks in TimesheetVoter::voteOnAttribute(), which maps permissions only to own_timesheet or other_timesheet. As a result, any authenticated user with ROLE_TEAMLEAD (o",
-      "published": "2026-08-26T05:18:27.980"
+      "score": 7.5,
+      "description": "A local attacker on a multi-user host can pre-create the deterministic cache path and plant a malicious ONNX model file. Spring AI 2.0.0 Spring AI 1.1.0 - 1.1.8 Spring AI 1.0.0 - 1.0.9",
+      "published": "2026-08-27T01:17:32.320"
     },
     {
-      "id": "CVE-2026-80193",
+      "id": "CVE-2026-47851",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "Kimai before 2.62.0 fails to validate create_other_timesheet permission in the QuickEntry controller when creating new timesheets. Authenticated users with view_other_timesheet and edit_other_timesheet permissions can cr",
-      "published": "2026-08-26T05:18:26.617"
+      "score": 7.5,
+      "description": "Analyzing a PDF with a deeply nested or cyclic table of contents can cause a StackOverflowError in the ingestion thread. Spring AI 2.0.0 Spring AI 1.1.0 - 1.1.8 Spring AI 1.0.0 - 1.0.9",
+      "published": "2026-08-27T01:17:32.150"
     },
     {
-      "id": "CVE-2026-80214",
+      "id": "CVE-2026-81491",
       "severity": "HIGH",
-      "score": 8.6,
-      "description": "LibreNMS’s Virtualization Discovery module is vulnerable to command line injection. An authenticated admin user can execute arbitrary code on the host server.",
-      "published": "2026-08-26T05:18:28.127"
+      "score": 7.3,
+      "description": "A flaw has been found in boxpositron with-context-mcp up to 3.0.7. This affects the function ingest_notes/teleport_notes/sync_notes/project_folder of the file src/index.ts. Executing a manipulation can lead to path trave",
+      "published": "2026-08-27T04:17:59.853"
     },
     {
-      "id": "CVE-2026-52776",
+      "id": "CVE-2026-81421",
       "severity": "HIGH",
-      "score": 8.6,
-      "description": "Compliance-trestle (Trestle) is a tooling platform for managing compliance as code. In versions before 3.12.4 and versions 4.0.0 through 4.0.3, the URLSecurityValidator that guards trestle's remote-fetch paths against se",
-      "published": "2026-08-26T05:18:10.880"
+      "score": 7.3,
+      "description": "A security flaw has been discovered in ddfourtwo sentry-selfhosted-mcp 0.4.0. The affected element is an unknown function of the component raw_sentry_api. The manipulation of the argument endpoint results in server-side ",
+      "published": "2026-08-27T01:18:16.227"
     },
     {
-      "id": "CVE-2026-76148",
+      "id": "CVE-2026-13415",
       "severity": "HIGH",
-      "score": 8.4,
-      "description": "CorvusSKK contains a code injection vulnerability, which may lead to arbitrary code execution on the affected product.",
-      "published": "2026-08-26T05:18:18.953"
+      "score": 7.2,
+      "description": "The CMP WordPress plugin before 4.1.18 does not enforce an option-name allow-list when importing settings via one of its AJAX actions, allowing users with the Editor role (when the administrator has granted the Editor ro",
+      "published": "2026-08-27T06:16:55.537"
     },
     {
-      "id": "CVE-2026-80192",
+      "id": "CVE-2026-80183",
       "severity": "HIGH",
-      "score": 8.1,
-      "description": "@better-auth/sso before 1.6.27 (and before 1.4.8 in the 1.4.x line and before 1.7.0-rc.5 in the 1.7 prerelease line) contains two domain-ownership flaws. When domain verification is disabled, automatic organization assig",
-      "published": "2026-08-26T05:18:26.460"
-    },
-    {
-      "id": "CVE-2026-58092",
-      "severity": "HIGH",
-      "score": 8.1,
-      "description": "In FreeBSD 15.0, the kernel structure used to represent user credentials changed: previously the primary group ID was stored in the first element of the array containing the list of supplementary group IDs, whereas now t",
-      "published": "2026-08-26T05:18:12.453"
-    },
-    {
-      "id": "CVE-2026-58091",
-      "severity": "HIGH",
-      "score": 7.8,
-      "description": "The implementation of this ioctl attempts to acquire locks on all channels in a sync group. If locking a channel would block, it releases the sync group list lock and sleeps. Upon reawakening, it is possible that the syn",
-      "published": "2026-08-26T05:18:12.337"
-    },
-    {
-      "id": "CVE-2026-58090",
-      "severity": "HIGH",
-      "score": 7.8,
-      "description": "The SOCK_STREAM receive path in the unix socket implementation failed to fully detach control messages from the socket buffer before processing them. Some error paths would free those messages, leaving freed data mbufs i",
-      "published": "2026-08-26T05:18:12.217"
-    },
-    {
-      "id": "CVE-2026-58089",
-      "severity": "HIGH",
-      "score": 7.8,
-      "description": "When a process calls execve(2) to execute a setuid or setgid image, hwpmc(4) is supposed to detach PMCs owned by unprivileged processes. An inverted check meant that this scenario was not handled properly. An unprivilege",
-      "published": "2026-08-26T05:18:12.080"
+      "score": 7.1,
+      "description": "In OpenStack Keystone before 29.0.3, any authenticated user holding role:reader on any project can list every project-scoped role assignment under any domain by passing a domain ID as scope.project.id with include_subtre",
+      "published": "2026-08-27T01:18:16.050"
     }
   ],
   "breaches": [
