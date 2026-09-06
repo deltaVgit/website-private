@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T05:30:35Z",
+  "updated_at": "2026-09-06T05:45:36Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,37 +80,37 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1180.47,
+        "change_24h": 15.59,
+        "asset": "crypto"
+      },
+      {
         "symbol": "CAKE",
         "name": "PancakeSwap",
-        "price": 2.25,
-        "change_24h": 13.93,
+        "price": 2.26,
+        "change_24h": 13.81,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 7.1,
-        "change_24h": 12.76,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1151.91,
-        "change_24h": 12.69,
+        "price": 7.09,
+        "change_24h": 12.72,
         "asset": "crypto"
       },
       {
         "symbol": "ASTER",
         "name": "Aster",
-        "price": 0.804545,
-        "change_24h": 10.12,
+        "price": 0.7981,
+        "change_24h": 9.34,
         "asset": "crypto"
       },
       {
-        "symbol": "CRV",
-        "name": "Curve DAO",
-        "price": 0.384564,
+        "symbol": "GT",
+        "name": "Gate",
+        "price": 9.26,
         "change_24h": 8.85,
         "asset": "crypto"
       }
@@ -119,36 +119,36 @@
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.003971,
-        "change_24h": -5.71,
+        "price": 0.003989,
+        "change_24h": -4.93,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 17.19,
-        "change_24h": -3.64,
+        "price": 17.23,
+        "change_24h": -3.28,
         "asset": "crypto"
       },
       {
         "symbol": "NEXO",
         "name": "NEXO",
-        "price": 0.832794,
-        "change_24h": -1.19,
+        "price": 0.832236,
+        "change_24h": -1.29,
         "asset": "crypto"
       },
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.449673,
-        "change_24h": -1.14,
+        "symbol": "USDF",
+        "name": "Falcon USD",
+        "price": 0.99698,
+        "change_24h": -0.11,
         "asset": "crypto"
       },
       {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.13,
-        "change_24h": -0.27,
+        "symbol": "XAUT",
+        "name": "Tether Gold",
+        "price": 4426.07,
+        "change_24h": -0.04,
         "asset": "crypto"
       }
     ]
