@@ -252,7 +252,7 @@
         "downloads": 2149139,
         "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "lastModified": "2026-09-05T07:18:10.000Z",
-        "daysAgo": 0,
+        "daysAgo": 1,
         "pipeline": "image-text-to-text",
         "tags": [
           "transformers",
@@ -265,14 +265,14 @@
           "image-text-to-text"
         ],
         "pop": 1.0,
-        "rec": 1.0,
-        "combo": 1.0
+        "rec": 0.9677,
+        "combo": 0.9887
       },
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 3595,
+        "likes": 3596,
         "downloads": 1663149,
         "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-04-17T02:59:21.000Z",
@@ -342,7 +342,7 @@
       "downloads": 2149139,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "lastModified": "2026-09-05T07:18:10.000Z",
-      "daysAgo": 0,
+      "daysAgo": 1,
       "pipeline": "image-text-to-text",
       "tags": [
         "transformers",
@@ -355,8 +355,8 @@
         "image-text-to-text"
       ],
       "pop": 1.0,
-      "rec": 1.0,
-      "combo": 1.0
+      "rec": 0.9677,
+      "combo": 0.9887
     },
     {
       "id": "wangzhang/gemma-4-31B-it-abliterated",
@@ -438,7 +438,7 @@
       "downloads": 42659,
       "url": "https://huggingface.co/gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
       "lastModified": "2026-08-30T07:30:56.000Z",
-      "daysAgo": 6,
+      "daysAgo": 7,
       "pipeline": "image-text-to-text",
       "tags": [
         "gguf",
@@ -451,8 +451,8 @@
         "speculative-decoding"
       ],
       "pop": 0.7312,
-      "rec": 0.8333,
-      "combo": 0.7669
+      "rec": 0.8108,
+      "combo": 0.7591
     },
     {
       "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
@@ -624,5 +624,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-06T07:04:50Z"
+  "updated": "2026-09-06T07:34:50Z"
 }
