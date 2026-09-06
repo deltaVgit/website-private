@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T09:15:41Z",
+  "updated_at": "2026-09-06T09:30:42Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1189.3,
-        "change_24h": 17.73,
+        "price": 1196.25,
+        "change_24h": 18.62,
         "asset": "crypto"
       },
       {
-        "symbol": "PONS",
-        "name": "Pons",
-        "price": 0.934879,
-        "change_24h": 12.89,
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.251256,
+        "change_24h": 14.54,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
         "price": 6.97,
-        "change_24h": 11.04,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.243525,
-        "change_24h": 10.73,
+        "change_24h": 10.78,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.177096,
-        "change_24h": 7.88,
+        "price": 0.177074,
+        "change_24h": 8.45,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price": 0.918704,
+        "change_24h": 7.43,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.003993,
-        "change_24h": -4.76,
-        "asset": "crypto"
-      },
-      {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 17.04,
-        "change_24h": -4.71,
+        "price": 17.13,
+        "change_24h": -4.79,
         "asset": "crypto"
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.54,
-        "change_24h": -2.25,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "TRUMP",
-        "name": "Official Trump",
-        "price": 2.35,
-        "change_24h": -1.7,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.003988,
+        "change_24h": -4.65,
         "asset": "crypto"
       },
       {
         "symbol": "BDX",
         "name": "Beldex",
-        "price": 0.07887,
-        "change_24h": -1.44,
+        "price": 0.078887,
+        "change_24h": -1.52,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FLR",
+        "name": "Flare",
+        "price": 0.00664,
+        "change_24h": -1.1,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "TRUMP",
+        "name": "Official Trump",
+        "price": 2.36,
+        "change_24h": -0.94,
         "asset": "crypto"
       }
     ]
