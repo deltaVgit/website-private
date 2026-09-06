@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T20:45:47Z",
+  "updated_at": "2026-09-06T21:00:47Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1218.72,
-        "change_24h": 20.52,
+        "price": 1220.9,
+        "change_24h": 21.0,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "price": 267.04,
+        "change_24h": 14.38,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.185443,
-        "change_24h": 13.83,
+        "price": 0.184729,
+        "change_24h": 13.82,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 2.41,
-        "change_24h": 10.57,
+        "price": 2.4,
+        "change_24h": 10.58,
         "asset": "crypto"
       },
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.175383,
-        "change_24h": 5.96,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DOT",
-        "name": "Polkadot",
-        "price": 0.96668,
-        "change_24h": 5.82,
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 13.09,
+        "change_24h": 8.89,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "PONS",
         "name": "Pons",
-        "price": 0.842181,
-        "change_24h": -4.54,
+        "price": 0.860772,
+        "change_24h": -3.98,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
         "price": 4.55,
-        "change_24h": -3.64,
+        "change_24h": -3.94,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 529.38,
-        "change_24h": -2.83,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BNB",
-        "name": "BNB",
-        "price": 750.64,
-        "change_24h": -2.7,
+        "price": 531.53,
+        "change_24h": -2.84,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.437667,
+        "price": 0.437222,
         "change_24h": -2.7,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price": 751.21,
+        "change_24h": -2.51,
         "asset": "crypto"
       }
     ]
