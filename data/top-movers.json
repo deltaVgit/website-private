@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T18:15:33Z",
+  "updated_at": "2026-09-06T18:30:34Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1215.73,
-        "change_24h": 17.97,
+        "price": 1222.58,
+        "change_24h": 19.06,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 259.07,
-        "change_24h": 10.14,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.174427,
-        "change_24h": 5.84,
+        "price": 258.87,
+        "change_24h": 10.47,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 2.38,
-        "change_24h": 5.7,
+        "change_24h": 6.6,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
-        "price": 0.960156,
-        "change_24h": 5.56,
+        "price": 0.960683,
+        "change_24h": 5.59,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 71.05,
+        "change_24h": 5.01,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "PONS",
-        "name": "Pons",
-        "price": 0.82586,
-        "change_24h": -12.68,
+        "symbol": "CAKE",
+        "name": "PancakeSwap",
+        "price": 2.18,
+        "change_24h": -4.35,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.003846,
-        "change_24h": -4.57,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.089252,
-        "change_24h": -4.21,
+        "price": 0.00385,
+        "change_24h": -4.33,
         "asset": "crypto"
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price": 748.23,
-        "change_24h": -3.57,
+        "price": 748.65,
+        "change_24h": -3.71,
         "asset": "crypto"
       },
       {
-        "symbol": "CAKE",
-        "name": "PancakeSwap",
-        "price": 2.19,
-        "change_24h": -3.43,
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price": 0.089249,
+        "change_24h": -3.26,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ASTER",
+        "name": "Aster",
+        "price": 0.765318,
+        "change_24h": -3.19,
         "asset": "crypto"
       }
     ]
