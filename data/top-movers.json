@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T11:15:23Z",
+  "updated_at": "2026-09-07T11:30:24Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "TAO",
-        "name": "Bittensor",
-        "price": 265.15,
-        "change_24h": 12.36,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.004484,
+        "change_24h": 11.28,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004457,
-        "change_24h": 10.81,
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "price": 264.81,
+        "change_24h": 11.23,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 2.94,
-        "change_24h": 9.8,
+        "price": 2.92,
+        "change_24h": 9.28,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.450183,
-        "change_24h": 8.41,
+        "price": 0.452635,
+        "change_24h": 8.79,
         "asset": "crypto"
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price": 13.26,
-        "change_24h": 7.93,
+        "price": 13.22,
+        "change_24h": 7.63,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.165195,
+        "change_24h": -14.84,
+        "asset": "crypto"
+      },
+      {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.256322,
-        "change_24h": -6.47,
+        "price": 0.255625,
+        "change_24h": -9.4,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.068396,
-        "change_24h": -4.8,
+        "price": 0.068511,
+        "change_24h": -4.7,
         "asset": "crypto"
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
         "price": 2.27,
-        "change_24h": -3.9,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.49,
-        "change_24h": -3.44,
+        "change_24h": -3.82,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.108395,
-        "change_24h": -3.28,
+        "price": 0.108347,
+        "change_24h": -3.56,
         "asset": "crypto"
       }
     ]
