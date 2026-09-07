@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T18:00:43Z",
+  "updated_at": "2026-09-07T18:15:43Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004387,
-        "change_24h": 14.62,
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 5.89,
+        "change_24h": 14.66,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.096,
-        "change_24h": 14.26,
+        "change_24h": 14.25,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.465812,
-        "change_24h": 13.42,
+        "price": 0.463583,
+        "change_24h": 12.6,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.004317,
+        "change_24h": 12.25,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 3.03,
-        "change_24h": 12.99,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "INJ",
-        "name": "Injective",
-        "price": 5.79,
-        "change_24h": 12.68,
+        "price": 2.99,
+        "change_24h": 11.55,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.166037,
-        "change_24h": -9.22,
+        "price": 0.166227,
+        "change_24h": -9.65,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.250124,
-        "change_24h": -5.64,
+        "price": 0.24849,
+        "change_24h": -6.52,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 65.43,
+        "change_24h": -6.34,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.47,
-        "change_24h": -5.38,
+        "change_24h": -5.85,
         "asset": "crypto"
       },
       {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 65.51,
-        "change_24h": -4.83,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 6.9,
-        "change_24h": -3.68,
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1160.17,
+        "change_24h": -4.69,
         "asset": "crypto"
       }
     ]
