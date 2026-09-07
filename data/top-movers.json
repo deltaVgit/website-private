@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T03:15:57Z",
+  "updated_at": "2026-09-07T03:30:58Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "price": 270.18,
+        "change_24h": 14.16,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.26467,
+        "change_24h": 12.66,
+        "asset": "crypto"
+      },
+      {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1192.11,
-        "change_24h": 11.89,
+        "price": 1187.68,
+        "change_24h": 11.5,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 2.41,
-        "change_24h": 8.99,
+        "price": 2.4,
+        "change_24h": 8.64,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.62744,
-        "change_24h": 6.99,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price": 13.07,
-        "change_24h": 6.76,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DOT",
-        "name": "Polkadot",
-        "price": 0.979336,
-        "change_24h": 5.93,
+        "price": 0.626262,
+        "change_24h": 6.83,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.430362,
-        "change_24h": -5.87,
+        "symbol": "TRUMP",
+        "name": "Official Trump",
+        "price": 2.26,
+        "change_24h": -5.03,
         "asset": "crypto"
       },
       {
-        "symbol": "TRUMP",
-        "name": "Official Trump",
-        "price": 2.27,
-        "change_24h": -4.92,
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.182065,
+        "change_24h": -4.82,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.46,
+        "change_24h": -3.71,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 533.87,
-        "change_24h": -4.1,
+        "price": 536.8,
+        "change_24h": -3.41,
         "asset": "crypto"
       },
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.173839,
-        "change_24h": -3.98,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "GT",
-        "name": "Gate",
-        "price": 9.15,
-        "change_24h": -3.7,
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.573803,
+        "change_24h": -3.35,
         "asset": "crypto"
       }
     ]
