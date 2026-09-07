@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-07T21:05:15Z",
+  "updated": "2026-09-07T21:35:09Z",
   "items": [
+    {
+      "title": "Video compressor",
+      "url": "https://simonwillison.net/2026/Sep/7/video-compressor/",
+      "source": "Simon Willison",
+      "published_at": "2026-09-07T18:29:07+00:00",
+      "summary": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMP",
+      "tag": "ai"
+    },
+    {
+      "title": "Mercator ↔ Equal Earth",
+      "url": "https://simonwillison.net/2026/Sep/7/equal-earth/",
+      "source": "Simon Willison",
+      "published_at": "2026-09-07T16:24:16+00:00",
+      "summary": "Tool: Mercator ↔ Equal Earth I got curious about the Equal Earth map projection that was recently voted on at the UN so I had GPT-6 Astra (medium) in ChatGPT Work build me this animated transition between Mercator and Equal Earth using D3. Tags: geospatial , d3 , vibe-coding , gp",
+      "tag": "ai"
+    },
     {
       "title": "Import AI 472: DeepMind’s cheating math agents; populist AI policies; and Forethought theorizes a nightwatchman",
       "url": "https://jack-clark.net/2026/09/07/import-ai-472-deepminds-cheating-math-agents-populist-ai-policies-and-forethought-theorizes-a-nightwatchman/",
@@ -103,22 +119,6 @@
       "source": "LessWrong",
       "published_at": "2026-09-06T21:28:00+00:00",
       "summary": "This is a piece originally written for a national security audience at Frontiers . Although I think the ceiling of war is much, much higher than autopilot quadcopters, it's also important to understand how much AI is already lifting the floor, and just how vulnerable the world is",
-      "tag": "ai"
-    },
-    {
-      "title": "The purpose of DNS is to spread scams",
-      "url": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
-      "source": "Simon Willison",
-      "published_at": "2026-09-06T14:40:07+00:00",
-      "summary": "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate\". On this Interisle report ( via Andrew Campling ",
-      "tag": "ai"
-    },
-    {
-      "title": "There's No Limit to How Bad Code Can Get",
-      "url": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
-      "source": "Simon Willison",
-      "published_at": "2026-09-06T09:08:06+00:00",
-      "summary": "My comment on There's No Limit to How Bad Code Can Get — Lobste.rs. [In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming] In my experience it's so rare for that to work. You announce the old thing is irrecoverably drowning in",
       "tag": "ai"
     },
     {
