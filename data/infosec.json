@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T23:35:16Z",
+  "updatedAt": "2026-09-07T00:35:19Z",
   "kev": [
     {
       "cve": "CVE-2026-85046",
@@ -130,46 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-47852",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "A local attacker on a multi-user host can pre-create the deterministic cache path and plant a malicious ONNX model file. Spring AI 2.0.0 Spring AI 1.1.0 - 1.1.8 Spring AI 1.0.0 - 1.0.9",
-      "published": "2026-08-27T01:17:32.320"
+      "id": "CVE-2026-76179",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "An improper protection of authentication tokens vulnerability exists in certain Ebyte gateway products. Authentication tokens used by the web management interface are insufficiently protected during client-side session h",
+      "published": "2026-08-28T00:18:14.430"
     },
     {
-      "id": "CVE-2026-47851",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "Analyzing a PDF with a deeply nested or cyclic table of contents can cause a StackOverflowError in the ingestion thread. Spring AI 2.0.0 Spring AI 1.1.0 - 1.1.8 Spring AI 1.0.0 - 1.0.9",
-      "published": "2026-08-27T01:17:32.150"
+      "id": "CVE-2026-75337",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "The static resource interface /api/static/{deployKey}/ of Yu AI Code Mother v4.3 is vulnerable to path traversal. The user-controlled path is concatenated to the preview root directory without any normalization, allowing",
+      "published": "2026-08-28T00:18:12.150"
     },
     {
-      "id": "CVE-2026-81491",
-      "severity": "HIGH",
-      "score": 7.3,
-      "description": "A flaw has been found in boxpositron with-context-mcp up to 3.0.7. This affects the function ingest_notes/teleport_notes/sync_notes/project_folder of the file src/index.ts. Executing a manipulation can lead to path trave",
-      "published": "2026-08-27T04:17:59.853"
+      "id": "CVE-2026-73125",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "Ebyte device web management interface does not consistently enforce authentication before granting access to administrative functionality. An unauthenticated remote attacker could access sensitive configuration informati",
+      "published": "2026-08-28T00:18:11.273"
     },
     {
-      "id": "CVE-2026-81421",
-      "severity": "HIGH",
-      "score": 7.3,
-      "description": "A security flaw has been discovered in ddfourtwo sentry-selfhosted-mcp 0.4.0. The affected element is an unknown function of the component raw_sentry_api. The manipulation of the argument endpoint results in server-side ",
-      "published": "2026-08-27T01:18:16.227"
+      "id": "CVE-2026-71187",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "The Ebyte device relies on client side authentication logic that can be reproduced by unauthenticated users. An attacker may generate valid authentication requests and bypass authentication to obtain administrative acces",
+      "published": "2026-08-28T00:18:09.150"
     },
     {
-      "id": "CVE-2026-13415",
-      "severity": "HIGH",
-      "score": 7.2,
-      "description": "The CMP WordPress plugin before 4.1.18 does not enforce an option-name allow-list when importing settings via one of its AJAX actions, allowing users with the Editor role (when the administrator has granted the Editor ro",
-      "published": "2026-08-27T06:16:55.537"
+      "id": "CVE-2026-69658",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "MQTT credentials and control traffic are transmitted in cleartext, exposing sensitive information to network-level attackers. This may enable unauthorized device impersonation and disruption of messaging functions.",
+      "published": "2026-08-28T00:18:08.650"
     },
     {
-      "id": "CVE-2026-80183",
+      "id": "CVE-2026-68929",
+      "severity": "CRITICAL",
+      "score": 9.3,
+      "description": "FastGPT is an open-source LLM platform for building AI applications on a knowledge base. In versions prior to 4.15.2, the WeChat (iLink) share-channel endpoints authorize requests using only the public shareId, with no a",
+      "published": "2026-08-28T00:18:08.337"
+    },
+    {
+      "id": "CVE-2026-50152",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "description": "Ceph is an open-source distributed storage platform providing object, block, and file storage. In versions prior to 20.2.4 and 19.2.6, the Monitor subscription handler fails to properly authorize access to the configurat",
+      "published": "2026-08-28T00:18:07.073"
+    },
+    {
+      "id": "CVE-2026-5706",
       "severity": "HIGH",
-      "score": 7.1,
-      "description": "In OpenStack Keystone before 29.0.3, any authenticated user holding role:reader on any project can list every project-scoped role assignment under any domain by passing a domain ID as scope.project.id with include_subtre",
-      "published": "2026-08-27T01:18:16.050"
+      "score": 8.9,
+      "description": "In Bluetooth Mesh SDK 6.1.4 and earlier, malformed extended advertisements can trigger out-of-bounds writes leading to stack corruption and remote code execution. These messages must come from a device that has already j",
+      "published": "2026-08-28T00:18:07.853"
+    },
+    {
+      "id": "CVE-2026-76060",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "An authenticated OS command injection vulnerability exists in ZoneMinder's event export functionality. The exportFile HTTP request parameter is passed unsanitized into a shell command executed via PHP's exec(), allowing ",
+      "published": "2026-08-28T00:18:14.273"
+    },
+    {
+      "id": "CVE-2026-75814",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "The Ebyte device does not adequately verify the origin or authenticity of requests submitted to the web management interface. An unauthenticated remote attacker could persuade an authenticated administrator to visit a cr",
+      "published": "2026-08-28T00:18:14.147"
+    },
+    {
+      "id": "CVE-2026-75419",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "go-wind-cms (GoWind) before 1.0.0 has a missing authorization vulnerability. The NewAuthorizer() function in app/admin/service/internal/data/data.go and app/app/service/internal/data/data.go returns a no-op authorization",
+      "published": "2026-08-28T00:18:12.677"
+    },
+    {
+      "id": "CVE-2026-75339",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "The storage endpoint /storage/upload of cjbi admin3 v3.0.0 are missing permission checks. /Any logged-in user can upload arbitrary files, and any anonymous attacker can download them.",
+      "published": "2026-08-28T00:18:12.277"
     }
   ],
   "breaches": [
