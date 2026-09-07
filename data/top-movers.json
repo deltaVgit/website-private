@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T15:15:34Z",
+  "updated_at": "2026-09-07T15:30:35Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.462089,
-        "change_24h": 13.11,
-        "asset": "crypto"
-      },
-      {
         "symbol": "DOT",
         "name": "Polkadot",
-        "price": 1.07,
-        "change_24h": 12.97,
+        "price": 1.087,
+        "change_24h": 14.27,
         "asset": "crypto"
       },
       {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 0.859537,
-        "change_24h": 9.61,
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.461063,
+        "change_24h": 13.26,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 5.71,
+        "change_24h": 12.27,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 2.95,
-        "change_24h": 8.84,
+        "price": 2.94,
+        "change_24h": 10.57,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004303,
-        "change_24h": 8.54,
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 0.863376,
+        "change_24h": 9.91,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.166349,
-        "change_24h": -10.23,
+        "price": 0.164552,
+        "change_24h": -11.06,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.10563,
-        "change_24h": -5.88,
+        "price": 0.104432,
+        "change_24h": -7.07,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.251713,
-        "change_24h": -5.49,
+        "price": 0.253255,
+        "change_24h": -4.84,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.068017,
+        "change_24h": -3.69,
         "asset": "crypto"
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "price": 86.32,
-        "change_24h": -3.12,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.016352,
-        "change_24h": -2.73,
+        "price": 85.61,
+        "change_24h": -3.31,
         "asset": "crypto"
       }
     ]
