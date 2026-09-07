@@ -5,8 +5,8 @@
         "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Uncensored-GGUF",
         "author": "JonathanColetti",
-        "likes": 1005,
-        "downloads": 2499368,
+        "likes": 1006,
+        "downloads": 2584884,
         "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "lastModified": "2026-08-29T04:18:18.000Z",
         "daysAgo": 9,
@@ -27,7 +27,7 @@
         "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "author": "0bserverx",
         "likes": 403,
-        "downloads": 1510556,
+        "downloads": 1555452,
         "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "lastModified": "2026-08-20T19:51:25.000Z",
         "daysAgo": 17,
@@ -42,15 +42,15 @@
           "uncensored",
           "roleplay"
         ],
-        "pop": 0.9744,
+        "pop": 0.9748,
         "rec": 0.6383,
-        "combo": 0.8568
+        "combo": 0.857
       },
       {
         "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "name": "Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 2006,
+        "likes": 2007,
         "downloads": 854002,
         "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-06-05T17:55:41.000Z",
@@ -87,33 +87,33 @@
           "base_model:prithivMLmods/Qwen3-VL-8B-Instruct-abliterated-v1",
           "base_model:quantized:prithivMLmods/Qwen3-VL-8B-Instruct-abliterated-v1"
         ],
-        "pop": 0.9161,
+        "pop": 0.9145,
         "rec": 0.0923,
-        "combo": 0.6277
+        "combo": 0.6268
       },
       {
-        "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
-        "name": "Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
-        "author": "huihui-ai",
-        "likes": 190,
-        "downloads": 592870,
-        "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
-        "lastModified": "2026-08-03T14:05:07.000Z",
-        "daysAgo": 34,
-        "pipeline": "text-generation",
+        "id": "wangzhang/gemma-4-31B-it-abliterated",
+        "name": "gemma-4-31B-it-abliterated",
+        "author": "wangzhang",
+        "likes": 31,
+        "downloads": 585843,
+        "url": "https://huggingface.co/wangzhang/gemma-4-31B-it-abliterated",
+        "lastModified": "2026-08-29T17:03:21.000Z",
+        "daysAgo": 8,
+        "pipeline": "",
         "tags": [
-          "gguf",
+          "safetensors",
+          "gemma4",
           "abliterated",
           "uncensored",
-          "GGUF",
-          "huihui",
-          "quantized",
-          "deepseek",
-          "deepseek-v4"
+          "direct-weight-editing",
+          "abliterix",
+          "vllm",
+          "llm-judge"
         ],
-        "pop": 0.9104,
-        "rec": 0.4688,
-        "combo": 0.7558
+        "pop": 0.908,
+        "rec": 0.7895,
+        "combo": 0.8665
       }
     ],
     "image_video": [
@@ -228,7 +228,7 @@
         "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
         "author": "huihui-ai",
         "likes": 574,
-        "downloads": 2194861,
+        "downloads": 2249174,
         "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "lastModified": "2026-09-05T07:18:10.000Z",
         "daysAgo": 2,
@@ -252,7 +252,7 @@
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
         "likes": 986,
-        "downloads": 1568315,
+        "downloads": 1629754,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
         "daysAgo": 20,
@@ -294,7 +294,7 @@
         "name": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "author": "DavidAU",
         "likes": 2314,
-        "downloads": 1251992,
+        "downloads": 1210266,
         "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "lastModified": "2026-08-23T08:59:27.000Z",
         "daysAgo": 15,
@@ -318,7 +318,7 @@
       "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
       "author": "huihui-ai",
       "likes": 574,
-      "downloads": 2194861,
+      "downloads": 2249174,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "lastModified": "2026-09-05T07:18:10.000Z",
       "daysAgo": 2,
@@ -357,16 +357,16 @@
         "vllm",
         "llm-judge"
       ],
-      "pop": 0.9095,
+      "pop": 0.908,
       "rec": 0.7895,
-      "combo": 0.8675
+      "combo": 0.8665
     },
     {
       "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "author": "0bserverx",
       "likes": 403,
-      "downloads": 1510556,
+      "downloads": 1555452,
       "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "lastModified": "2026-08-20T19:51:25.000Z",
       "daysAgo": 17,
@@ -381,16 +381,16 @@
         "uncensored",
         "roleplay"
       ],
-      "pop": 0.9744,
+      "pop": 0.9748,
       "rec": 0.6383,
-      "combo": 0.8568
+      "combo": 0.857
     },
     {
       "id": "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
       "name": "Qwen3.8-27B-ABLITERATED-GGUF",
       "author": "Blackfrost-AI",
       "likes": 229,
-      "downloads": 329336,
+      "downloads": 332252,
       "url": "https://huggingface.co/Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
       "lastModified": "2026-08-22T17:50:05.000Z",
       "daysAgo": 15,
@@ -405,16 +405,16 @@
         "quantized",
         "multimodal"
       ],
-      "pop": 0.8701,
+      "pop": 0.8692,
       "rec": 0.6667,
-      "combo": 0.7989
+      "combo": 0.7983
     },
     {
       "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
       "name": "Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
       "author": "huihui-ai",
       "likes": 190,
-      "downloads": 592870,
+      "downloads": 569524,
       "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
       "lastModified": "2026-08-03T14:05:07.000Z",
       "daysAgo": 34,
@@ -429,16 +429,16 @@
         "deepseek",
         "deepseek-v4"
       ],
-      "pop": 0.9104,
+      "pop": 0.9061,
       "rec": 0.4688,
-      "combo": 0.7558
+      "combo": 0.753
     },
     {
       "id": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
       "name": "Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
       "author": "gbuzhf",
       "likes": 23,
-      "downloads": 43704,
+      "downloads": 44983,
       "url": "https://huggingface.co/gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
       "lastModified": "2026-08-30T07:30:56.000Z",
       "daysAgo": 8,
@@ -453,16 +453,16 @@
         "mtp",
         "speculative-decoding"
       ],
-      "pop": 0.7318,
+      "pop": 0.7325,
       "rec": 0.7895,
-      "combo": 0.752
+      "combo": 0.7525
     },
     {
       "id": "sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
       "name": "Huihui-Qwen3.8-27B-abliterated-NVFP4",
       "author": "sakamakismile",
       "likes": 55,
-      "downloads": 62680,
+      "downloads": 63589,
       "url": "https://huggingface.co/sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
       "lastModified": "2026-08-24T11:01:03.000Z",
       "daysAgo": 13,
@@ -477,16 +477,16 @@
         "speculative-decoding",
         "blackwell"
       ],
-      "pop": 0.7565,
+      "pop": 0.7562,
       "rec": 0.6977,
-      "combo": 0.7359
+      "combo": 0.7357
     },
     {
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "name": "Huihui-Qwen3.8-27B-abliterated",
       "author": "huihui-ai",
       "likes": 372,
-      "downloads": 68082,
+      "downloads": 69366,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "lastModified": "2026-08-24T03:47:39.000Z",
       "daysAgo": 14,
@@ -510,7 +510,7 @@
       "name": "Qwen3.8-27B-abliterated-AWQ-MTP",
       "author": "twolven",
       "likes": 14,
-      "downloads": 69066,
+      "downloads": 71015,
       "url": "https://huggingface.co/twolven/Qwen3.8-27B-abliterated-AWQ-MTP",
       "lastModified": "2026-08-21T17:53:49.000Z",
       "daysAgo": 16,
@@ -525,16 +525,16 @@
         "w4a16",
         "compressed-tensors"
       ],
-      "pop": 0.7631,
+      "pop": 0.7637,
       "rec": 0.6522,
-      "combo": 0.7243
+      "combo": 0.7247
     },
     {
       "id": "Ryn1998/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "author": "Ryn1998",
       "likes": 17,
-      "downloads": 13915,
+      "downloads": 14741,
       "url": "https://huggingface.co/Ryn1998/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "lastModified": "2026-08-31T12:04:41.000Z",
       "daysAgo": 6,
@@ -549,16 +549,16 @@
         "uncensored",
         "roleplay"
       ],
-      "pop": 0.6534,
+      "pop": 0.6563,
       "rec": 0.8333,
-      "combo": 0.7164
+      "combo": 0.7182
     },
     {
       "id": "Blackfrost-AI/Muse-Glimmer-30B-Abliterated-GGUF",
       "name": "Muse-Glimmer-30B-Abliterated-GGUF",
       "author": "Blackfrost-AI",
       "likes": 45,
-      "downloads": 93654,
+      "downloads": 94180,
       "url": "https://huggingface.co/Blackfrost-AI/Muse-Glimmer-30B-Abliterated-GGUF",
       "lastModified": "2026-08-15T06:43:12.000Z",
       "daysAgo": 23,
@@ -573,23 +573,23 @@
         "llama.cpp",
         "dflash"
       ],
-      "pop": 0.784,
+      "pop": 0.7831,
       "rec": 0.566,
-      "combo": 0.7077
+      "combo": 0.7071
     },
     {
-      "id": "jakeroxs/KAT-Coder-V2.5-Dev-35B-A3B-MTP-ABLITERATED-GGUF",
-      "name": "KAT-Coder-V2.5-Dev-35B-A3B-MTP-ABLITERATED-GGUF",
-      "author": "jakeroxs",
-      "likes": 7,
-      "downloads": 4135,
-      "url": "https://huggingface.co/jakeroxs/KAT-Coder-V2.5-Dev-35B-A3B-MTP-ABLITERATED-GGUF",
-      "lastModified": "2026-09-03T16:55:22.000Z",
-      "daysAgo": 3,
-      "pipeline": "text-generation",
+      "id": "mradermacher/KAT-Coder-V2.5-Dev-35B-A3B-MTP-ABLITERATED-i1-GGUF",
+      "name": "KAT-Coder-V2.5-Dev-35B-A3B-MTP-ABLITERATED-i1-GGUF",
+      "author": "mradermacher",
+      "likes": 2,
+      "downloads": 2654,
+      "url": "https://huggingface.co/mradermacher/KAT-Coder-V2.5-Dev-35B-A3B-MTP-ABLITERATED-i1-GGUF",
+      "lastModified": "2026-09-06T03:59:31.000Z",
+      "daysAgo": 1,
+      "pipeline": "",
       "tags": [
+        "transformers",
         "gguf",
-        "llama.cpp",
         "qwen3_5_moe",
         "kat-coder",
         "kat-coder-v2.5",
@@ -597,11 +597,11 @@
         "mixture-of-experts",
         "coding"
       ],
-      "pop": 0.5703,
-      "rec": 0.9091,
-      "combo": 0.6889
+      "pop": 0.5391,
+      "rec": 0.9677,
+      "combo": 0.6891
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-07T09:04:32Z"
+  "updated": "2026-09-07T09:34:33Z"
 }
