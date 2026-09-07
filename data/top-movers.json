@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T02:15:56Z",
+  "updated_at": "2026-09-07T02:30:56Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 264.6,
-        "change_24h": 11.37,
+        "price": 271.36,
+        "change_24h": 14.71,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1185.9,
-        "change_24h": 11.26,
+        "price": 1185.72,
+        "change_24h": 11.38,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 2.38,
-        "change_24h": 7.13,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DOT",
-        "name": "Polkadot",
-        "price": 0.984101,
-        "change_24h": 5.87,
+        "price": 2.37,
+        "change_24h": 7.15,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.619892,
-        "change_24h": 5.39,
+        "price": 0.623626,
+        "change_24h": 6.53,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 13.0,
+        "change_24h": 5.85,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "TRUMP",
-        "name": "Official Trump",
-        "price": 2.25,
-        "change_24h": -6.33,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.172216,
-        "change_24h": -5.91,
-        "asset": "crypto"
-      },
-      {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.45,
-        "change_24h": -5.27,
+        "price": 4.44,
+        "change_24h": -5.39,
         "asset": "crypto"
       },
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 7.04,
-        "change_24h": -4.51,
+        "symbol": "TRUMP",
+        "name": "Official Trump",
+        "price": 2.26,
+        "change_24h": -5.17,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 0.800848,
+        "change_24h": -3.75,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.18653,
-        "change_24h": -4.13,
+        "price": 0.186821,
+        "change_24h": -3.54,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.174213,
+        "change_24h": -3.35,
         "asset": "crypto"
       }
     ]
