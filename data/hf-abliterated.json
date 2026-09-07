@@ -251,7 +251,7 @@
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 992,
+        "likes": 994,
         "downloads": 1629754,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
@@ -554,6 +554,30 @@
       "combo": 0.7198
     },
     {
+      "id": "PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
+      "name": "Ornith-1.5-35B-A3B-Abliterated-GGUF",
+      "author": "PocketAiHub",
+      "likes": 40,
+      "downloads": 53735,
+      "url": "https://huggingface.co/PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
+      "lastModified": "2026-08-22T11:00:34.000Z",
+      "daysAgo": 16,
+      "pipeline": "image-text-to-text",
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "ornith",
+        "qwen3.5-moe",
+        "multimodal",
+        "abliterated",
+        "image-text-to-text",
+        "en"
+      ],
+      "pop": 0.7447,
+      "rec": 0.6522,
+      "combo": 0.7123
+    },
+    {
       "id": "Ryn1998/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "author": "Ryn1998",
@@ -576,32 +600,8 @@
       "pop": 0.6563,
       "rec": 0.8108,
       "combo": 0.7104
-    },
-    {
-      "id": "Blackfrost-AI/Muse-Glimmer-30B-Abliterated-GGUF",
-      "name": "Muse-Glimmer-30B-Abliterated-GGUF",
-      "author": "Blackfrost-AI",
-      "likes": 45,
-      "downloads": 94180,
-      "url": "https://huggingface.co/Blackfrost-AI/Muse-Glimmer-30B-Abliterated-GGUF",
-      "lastModified": "2026-08-15T06:43:12.000Z",
-      "daysAgo": 23,
-      "pipeline": "image-text-to-text",
-      "tags": [
-        "gguf",
-        "muse-glimmer",
-        "abliterated",
-        "quantized",
-        "agentic",
-        "multimodal",
-        "llama.cpp",
-        "dflash"
-      ],
-      "pop": 0.7831,
-      "rec": 0.566,
-      "combo": 0.7071
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-07T20:04:58Z"
+  "updated": "2026-09-07T20:34:59Z"
 }
