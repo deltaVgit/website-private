@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T08:45:20Z",
+  "updated_at": "2026-09-07T09:00:20Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.034562,
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.456131,
         "change_24h": 14.36,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 266.71,
-        "change_24h": 13.86,
+        "price": 267.87,
+        "change_24h": 14.27,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 3.03,
-        "change_24h": 13.68,
+        "price": 3.0,
+        "change_24h": 12.13,
         "asset": "crypto"
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price": 13.33,
-        "change_24h": 9.42,
+        "price": 13.34,
+        "change_24h": 9.4,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.64367,
-        "change_24h": 6.43,
+        "price": 0.64181,
+        "change_24h": 6.38,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.45,
-        "change_24h": -3.44,
+        "symbol": "PONS",
+        "name": "Pons",
+        "price": 0.809214,
+        "change_24h": -13.25,
         "asset": "crypto"
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
         "price": 2.27,
-        "change_24h": -3.23,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.01657,
-        "change_24h": -2.7,
+        "change_24h": -3.37,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.068386,
-        "change_24h": -2.57,
+        "price": 0.068293,
+        "change_24h": -2.91,
         "asset": "crypto"
       },
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.440312,
-        "change_24h": -2.15,
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.016547,
+        "change_24h": -2.91,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.48,
+        "change_24h": -2.63,
         "asset": "crypto"
       }
     ]
