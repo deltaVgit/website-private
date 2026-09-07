@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T18:15:43Z",
+  "updated_at": "2026-09-07T18:30:43Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "INJ",
-        "name": "Injective",
-        "price": 5.89,
-        "change_24h": 14.66,
-        "asset": "crypto"
-      },
-      {
         "symbol": "DOT",
         "name": "Polkadot",
-        "price": 1.096,
-        "change_24h": 14.25,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.463583,
-        "change_24h": 12.6,
+        "price": 1.094,
+        "change_24h": 13.89,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004317,
-        "change_24h": 12.25,
+        "price": 0.00435,
+        "change_24h": 13.17,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.461106,
+        "change_24h": 12.08,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
         "price": 2.99,
-        "change_24h": 11.55,
+        "change_24h": 11.47,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.585581,
+        "change_24h": 7.21,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.166227,
-        "change_24h": -9.65,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.24849,
-        "change_24h": -6.52,
+        "price": 0.16607,
+        "change_24h": -10.31,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 65.43,
-        "change_24h": -6.34,
+        "price": 65.05,
+        "change_24h": -8.33,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.247926,
+        "change_24h": -7.68,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.47,
-        "change_24h": -5.85,
+        "price": 2.46,
+        "change_24h": -5.15,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1160.17,
-        "change_24h": -4.69,
+        "price": 1159.38,
+        "change_24h": -4.96,
         "asset": "crypto"
       }
     ]
