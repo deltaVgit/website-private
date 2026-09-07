@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T23:15:55Z",
+  "updated_at": "2026-09-07T23:30:55Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 6.14,
+        "change_24h": 14.39,
+        "asset": "crypto"
+      },
+      {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.475564,
-        "change_24h": 13.38,
+        "price": 0.475671,
+        "change_24h": 13.37,
         "asset": "crypto"
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.036354,
-        "change_24h": 13.19,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004444,
-        "change_24h": 12.08,
+        "price": 0.036172,
+        "change_24h": 12.53,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.614624,
-        "change_24h": 9.9,
+        "price": 0.618464,
+        "change_24h": 11.51,
         "asset": "crypto"
       },
       {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 2.98,
-        "change_24h": 9.55,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.004377,
+        "change_24h": 9.14,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 63.74,
-        "change_24h": -10.83,
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.169461,
+        "change_24h": -10.76,
         "asset": "crypto"
       },
       {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.169621,
-        "change_24h": -10.48,
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 63.43,
+        "change_24h": -10.6,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1139.12,
-        "change_24h": -8.25,
+        "price": 1135.4,
+        "change_24h": -7.49,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.252752,
+        "change_24h": -7.16,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.164076,
-        "change_24h": -6.41,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 2.31,
-        "change_24h": -6.04,
+        "price": 0.163373,
+        "change_24h": -6.98,
         "asset": "crypto"
       }
     ]
