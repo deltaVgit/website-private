@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T13:30:32Z",
+  "updated_at": "2026-09-07T13:45:32Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.460813,
+        "change_24h": 10.63,
+        "asset": "crypto"
+      },
+      {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 3.0,
-        "change_24h": 10.72,
+        "price": 2.96,
+        "change_24h": 8.76,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 0.874569,
-        "change_24h": 10.46,
+        "price": 0.86033,
+        "change_24h": 8.46,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004403,
-        "change_24h": 9.84,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.4559,
-        "change_24h": 9.72,
+        "price": 0.004359,
+        "change_24h": 8.05,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 265.41,
-        "change_24h": 8.41,
+        "price": 263.42,
+        "change_24h": 7.8,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.167118,
-        "change_24h": -12.11,
+        "price": 0.166869,
+        "change_24h": -13.14,
         "asset": "crypto"
       },
       {
         "symbol": "PONS",
         "name": "Pons",
-        "price": 0.811661,
-        "change_24h": -11.18,
+        "price": 0.812962,
+        "change_24h": -10.18,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.107588,
-        "change_24h": -4.65,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.068904,
-        "change_24h": -3.76,
+        "price": 0.107456,
+        "change_24h": -4.38,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.25956,
-        "change_24h": -2.93,
+        "price": 0.257851,
+        "change_24h": -4.18,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.068605,
+        "change_24h": -4.07,
         "asset": "crypto"
       }
     ]
