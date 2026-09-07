@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T03:30:58Z",
+  "updated_at": "2026-09-07T03:45:59Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 270.18,
-        "change_24h": 14.16,
+        "price": 268.61,
+        "change_24h": 12.75,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.26467,
-        "change_24h": 12.66,
+        "price": 0.26283,
+        "change_24h": 12.39,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1187.68,
-        "change_24h": 11.5,
+        "price": 1190.23,
+        "change_24h": 11.3,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 2.4,
-        "change_24h": 8.64,
+        "change_24h": 7.94,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.626262,
-        "change_24h": 6.83,
+        "price": 0.624237,
+        "change_24h": 6.32,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "TRUMP",
-        "name": "Official Trump",
-        "price": 2.26,
-        "change_24h": -5.03,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.182065,
-        "change_24h": -4.82,
+        "price": 0.176746,
+        "change_24h": -9.0,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.46,
-        "change_24h": -3.71,
+        "price": 4.41,
+        "change_24h": -5.92,
         "asset": "crypto"
       },
       {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 536.8,
-        "change_24h": -3.41,
+        "symbol": "TRUMP",
+        "name": "Official Trump",
+        "price": 2.26,
+        "change_24h": -5.8,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.573803,
-        "change_24h": -3.35,
+        "price": 0.569501,
+        "change_24h": -4.44,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 532.78,
+        "change_24h": -4.25,
         "asset": "crypto"
       }
     ]
