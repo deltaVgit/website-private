@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T05:16:00Z",
+  "updated_at": "2026-09-07T05:31:01Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "price": 273.67,
+        "change_24h": 14.7,
+        "asset": "crypto"
+      },
+      {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.658169,
-        "change_24h": 12.24,
+        "price": 0.661884,
+        "change_24h": 12.82,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 5.65,
+        "change_24h": 9.9,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 2.43,
-        "change_24h": 10.6,
+        "change_24h": 9.02,
         "asset": "crypto"
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price": 13.15,
-        "change_24h": 8.32,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.032855,
-        "change_24h": 7.25,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 2.83,
-        "change_24h": 6.82,
+        "price": 13.26,
+        "change_24h": 8.81,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.33,
-        "change_24h": -9.33,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.173383,
-        "change_24h": -9.18,
+        "price": 0.172131,
+        "change_24h": -10.23,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 70.97,
-        "change_24h": -6.58,
+        "price": 69.65,
+        "change_24h": -9.89,
         "asset": "crypto"
       },
       {
-        "symbol": "TRUMP",
-        "name": "Official Trump",
-        "price": 2.25,
-        "change_24h": -4.83,
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.35,
+        "change_24h": -8.62,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.42839,
-        "change_24h": -4.82,
+        "price": 0.427887,
+        "change_24h": -4.78,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "TRUMP",
+        "name": "Official Trump",
+        "price": 2.26,
+        "change_24h": -4.74,
         "asset": "crypto"
       }
     ]
