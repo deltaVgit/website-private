@@ -50,7 +50,7 @@
         "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "name": "Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 2009,
+        "likes": 2010,
         "downloads": 854002,
         "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-06-05T17:55:41.000Z",
@@ -188,7 +188,7 @@
         "downloads": 0,
         "url": "https://huggingface.co/DeepNeuralNerd/Gemma-4-12B-it-uncensored-heretic-DeepNeuralNerd-LTX_2.5_ComfyUI",
         "lastModified": "2026-08-12T17:10:46.000Z",
-        "daysAgo": 25,
+        "daysAgo": 26,
         "pipeline": "",
         "tags": [
           "transformers",
@@ -293,7 +293,7 @@
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 3603,
+        "likes": 3604,
         "downloads": 1560147,
         "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-04-17T02:59:21.000Z",
@@ -479,6 +479,30 @@
       "combo": 0.7505
     },
     {
+      "id": "mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF",
+      "name": "Huihui-Ornith-1.5-9B-abliterated-i1-GGUF",
+      "author": "mradermacher",
+      "likes": 3,
+      "downloads": 114762,
+      "url": "https://huggingface.co/mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF",
+      "lastModified": "2026-08-22T07:00:09.000Z",
+      "daysAgo": 16,
+      "pipeline": "",
+      "tags": [
+        "transformers",
+        "gguf",
+        "abliterated",
+        "uncensored",
+        "huihui",
+        "qwen3",
+        "en",
+        "base_model:huihui-ai/Huihui-Ornith-1.5-9B-abliterated"
+      ],
+      "pop": 0.7966,
+      "rec": 0.6522,
+      "combo": 0.746
+    },
+    {
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "name": "Huihui-Qwen3.8-27B-abliterated",
       "author": "huihui-ai",
@@ -597,32 +621,8 @@
       "pop": 0.7831,
       "rec": 0.566,
       "combo": 0.7071
-    },
-    {
-      "id": "mradermacher/KAT-Coder-V2.5-Dev-35B-A3B-MTP-ABLITERATED-i1-GGUF",
-      "name": "KAT-Coder-V2.5-Dev-35B-A3B-MTP-ABLITERATED-i1-GGUF",
-      "author": "mradermacher",
-      "likes": 2,
-      "downloads": 2654,
-      "url": "https://huggingface.co/mradermacher/KAT-Coder-V2.5-Dev-35B-A3B-MTP-ABLITERATED-i1-GGUF",
-      "lastModified": "2026-09-06T03:59:31.000Z",
-      "daysAgo": 1,
-      "pipeline": "",
-      "tags": [
-        "transformers",
-        "gguf",
-        "qwen3_5_moe",
-        "kat-coder",
-        "kat-coder-v2.5",
-        "qwen3.5",
-        "mixture-of-experts",
-        "coding"
-      ],
-      "pop": 0.5391,
-      "rec": 0.9677,
-      "combo": 0.6891
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-07T17:04:52Z"
+  "updated": "2026-09-07T17:34:57Z"
 }
