@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T00:15:52Z",
+  "updated_at": "2026-09-07T00:30:52Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1222.15,
-        "change_24h": 19.02,
+        "price": 1217.22,
+        "change_24h": 17.84,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 266.51,
-        "change_24h": 12.83,
+        "price": 266.23,
+        "change_24h": 11.71,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 2.43,
-        "change_24h": 11.17,
+        "change_24h": 10.4,
         "asset": "crypto"
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price": 13.29,
-        "change_24h": 10.18,
+        "price": 13.28,
+        "change_24h": 9.89,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
-        "price": 0.992505,
-        "change_24h": 8.16,
+        "price": 1.005,
+        "change_24h": 8.86,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "PONS",
-        "name": "Pons",
-        "price": 0.842509,
-        "change_24h": -4.99,
-        "asset": "crypto"
-      },
-      {
         "symbol": "LIT",
         "name": "Lighter",
         "price": 4.49,
-        "change_24h": -4.81,
+        "change_24h": -3.82,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price": 0.838989,
+        "change_24h": -3.27,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 539.4,
-        "change_24h": -2.75,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BNB",
-        "name": "BNB",
-        "price": 755.46,
-        "change_24h": -1.72,
+        "price": 539.93,
+        "change_24h": -2.83,
         "asset": "crypto"
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
-        "price": 2.34,
-        "change_24h": -1.7,
+        "price": 2.32,
+        "change_24h": -2.31,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price": 752.29,
+        "change_24h": -2.04,
         "asset": "crypto"
       }
     ]
