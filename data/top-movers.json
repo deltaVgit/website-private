@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T00:45:57Z",
+  "updated_at": "2026-09-08T01:00:57Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.478943,
-        "change_24h": 13.89,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 3.02,
-        "change_24h": 9.79,
+        "price": 3.03,
+        "change_24h": 10.86,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004345,
-        "change_24h": 9.65,
+        "price": 0.004375,
+        "change_24h": 10.26,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 18.51,
-        "change_24h": 8.94,
+        "price": 18.46,
+        "change_24h": 8.7,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.73,
-        "change_24h": 6.13,
+        "price": 4.74,
+        "change_24h": 6.07,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DOT",
+        "name": "Polkadot",
+        "price": 1.069,
+        "change_24h": 4.72,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.168533,
-        "change_24h": -11.38,
+        "price": 0.16899,
+        "change_24h": -10.98,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 63.05,
-        "change_24h": -9.47,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.253831,
-        "change_24h": -6.48,
+        "price": 63.66,
+        "change_24h": -8.92,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.164664,
-        "change_24h": -6.19,
+        "price": 0.165934,
+        "change_24h": -5.56,
         "asset": "crypto"
       },
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1136.45,
-        "change_24h": -5.19,
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.255544,
+        "change_24h": -4.7,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.105837,
+        "change_24h": -4.59,
         "asset": "crypto"
       }
     ]
