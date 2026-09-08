@@ -30,7 +30,7 @@
         "downloads": 1605890,
         "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "lastModified": "2026-08-20T19:51:25.000Z",
-        "daysAgo": 18,
+        "daysAgo": 19,
         "pipeline": "text-generation",
         "tags": [
           "transformers",
@@ -43,8 +43,8 @@
           "roleplay"
         ],
         "pop": 0.9753,
-        "rec": 0.625,
-        "combo": 0.8527
+        "rec": 0.6122,
+        "combo": 0.8482
       },
       {
         "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
@@ -139,27 +139,6 @@
         ]
       },
       {
-        "id": "darknight9121/FLUX.2-klein-base-9B-bucket-uncensored",
-        "name": "FLUX.2-klein-base-9B-bucket-uncensored",
-        "author": "darknight9121",
-        "likes": 26,
-        "downloads": 23945,
-        "url": "https://huggingface.co/darknight9121/FLUX.2-klein-base-9B-bucket-uncensored",
-        "lastModified": "2026-06-26T02:57:27.000Z",
-        "daysAgo": 74,
-        "pipeline": "image-to-image",
-        "tags": [
-          "diffusers",
-          "safetensors",
-          "image-generation",
-          "image-editing",
-          "flux",
-          "diffusion-single-file",
-          "image-to-image",
-          "en"
-        ]
-      },
-      {
         "id": "ponpoke/flux2-klein-4b-uncensored-text-encoder",
         "name": "flux2-klein-4b-uncensored-text-encoder",
         "author": "ponpoke",
@@ -220,6 +199,26 @@
           "text-encoder",
           "safetensors",
           "bf16"
+        ]
+      },
+      {
+        "id": "Heartsync/Flux-NSFW-uncensored",
+        "name": "Flux-NSFW-uncensored",
+        "author": "Heartsync",
+        "likes": 502,
+        "downloads": 0,
+        "url": "https://huggingface.co/Heartsync/Flux-NSFW-uncensored",
+        "lastModified": "2025-05-05T14:21:20.000Z",
+        "daysAgo": 491,
+        "pipeline": "text-to-image",
+        "tags": [
+          "text-to-image",
+          "en",
+          "base_model:black-forest-labs/FLUX.1-dev",
+          "base_model:finetune:black-forest-labs/FLUX.1-dev",
+          "license:creativeml-openrail-m",
+          "region:us",
+          "not-for-all-audiences"
         ]
       }
     ],
@@ -294,7 +293,7 @@
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 3612,
+        "likes": 3613,
         "downloads": 1502413,
         "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-04-17T02:59:21.000Z",
@@ -367,7 +366,7 @@
       "downloads": 1605890,
       "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "lastModified": "2026-08-20T19:51:25.000Z",
-      "daysAgo": 18,
+      "daysAgo": 19,
       "pipeline": "text-generation",
       "tags": [
         "transformers",
@@ -380,8 +379,8 @@
         "roleplay"
       ],
       "pop": 0.9753,
-      "rec": 0.625,
-      "combo": 0.8527
+      "rec": 0.6122,
+      "combo": 0.8482
     },
     {
       "id": "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
@@ -483,7 +482,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "name": "Huihui-Qwen3.8-27B-abliterated",
       "author": "huihui-ai",
-      "likes": 380,
+      "likes": 381,
       "downloads": 71734,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "lastModified": "2026-08-24T03:47:39.000Z",
@@ -625,5 +624,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-08T19:34:55Z"
+  "updated": "2026-09-08T20:04:55Z"
 }
