@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-09-08T13:30:28Z",
+  "updated_at": "2026-09-08T13:45:29Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "BLTE",
-        "name": "Belite Bio, Inc",
-        "price": 193.61,
-        "change_24h": 13.16,
+        "symbol": "PHVS",
+        "name": "Pharvaris N.V.",
+        "price": 40.78,
+        "change_24h": 15.69,
         "asset": "equity"
       },
       {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "price": 90.8,
-        "change_24h": 5.26,
+        "symbol": "SEI",
+        "name": "Solaris Energy Infrastructure, ",
+        "price": 63.9,
+        "change_24h": 16.14,
         "asset": "equity"
       },
       {
-        "symbol": "SNDK",
-        "name": "Sandisk Corporation",
-        "price": 1767.11,
-        "change_24h": 1.56,
+        "symbol": "ROIV",
+        "name": "Roivant Sciences Ltd.",
+        "price": 40.8,
+        "change_24h": 16.81,
         "asset": "equity"
       },
       {
-        "symbol": "COHU",
-        "name": "Cohu, Inc.",
-        "price": 50.96,
-        "change_24h": 0.47,
+        "symbol": "RGTI",
+        "name": "Rigetti Computing, Inc.",
+        "price": 16.64,
+        "change_24h": 9.47,
         "asset": "equity"
       },
       {
-        "symbol": "CBRS",
-        "name": "Cerebras Systems Inc.",
-        "price": 217.1,
-        "change_24h": 3.36,
+        "symbol": "IONQ",
+        "name": "IonQ, Inc.",
+        "price": 43.57,
+        "change_24h": 10.27,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "GWRE",
-        "name": "Guidewire Software, Inc.",
-        "price": 159.77,
-        "change_24h": -1.6,
+        "symbol": "DYN",
+        "name": "Dyne Therapeutics, Inc.",
+        "price": 18.87,
+        "change_24h": -22.28,
         "asset": "equity"
       },
       {
-        "symbol": "FICO",
-        "name": "Fair Isaac Corporation",
-        "price": 916.21,
-        "change_24h": -1.68,
+        "symbol": "BEAM",
+        "name": "Beam Therapeutics Inc.",
+        "price": 25.36,
+        "change_24h": -14.48,
+        "asset": "equity"
+      },
+      {
+        "symbol": "NVS",
+        "name": "Novartis AG",
+        "price": 140.03,
+        "change_24h": -12.48,
         "asset": "equity"
       },
       {
         "symbol": "SRPT",
         "name": "Sarepta Therapeutics, Inc.",
-        "price": 19.64,
-        "change_24h": -12.71,
+        "price": 19.84,
+        "change_24h": -11.84,
         "asset": "equity"
       },
       {
-        "symbol": "ASAN",
-        "name": "Asana, Inc.",
-        "price": 8.94,
-        "change_24h": 1.57,
-        "asset": "equity"
-      },
-      {
-        "symbol": "ADSK",
-        "name": "Autodesk, Inc.",
-        "price": 214.0,
-        "change_24h": -1.79,
+        "symbol": "PATH",
+        "name": "UiPath, Inc.",
+        "price": 13.95,
+        "change_24h": -8.25,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "VET",
-        "name": "VeChain",
-        "price": 0.007815,
-        "change_24h": 9.04,
-        "asset": "crypto"
-      },
-      {
         "symbol": "WBT",
         "name": "WhiteBIT Coin",
-        "price": 79.68,
-        "change_24h": 8.62,
+        "price": 78.98,
+        "change_24h": 7.87,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 6.27,
-        "change_24h": 8.27,
+        "price": 6.2,
+        "change_24h": 7.85,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VET",
+        "name": "VeChain",
+        "price": 0.007663,
+        "change_24h": 7.61,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 19.16,
-        "change_24h": 8.13,
+        "price": 18.85,
+        "change_24h": 6.97,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.82,
-        "change_24h": 5.92,
+        "price": 4.75,
+        "change_24h": 4.52,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.240244,
-        "change_24h": -7.43,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.159111,
-        "change_24h": -7.1,
+        "price": 0.235836,
+        "change_24h": -8.5,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 63.25,
-        "change_24h": -7.06,
+        "price": 62.5,
+        "change_24h": -8.03,
         "asset": "crypto"
       },
       {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 501.51,
-        "change_24h": -6.58,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.157204,
+        "change_24h": -7.4,
         "asset": "crypto"
       },
       {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price": 12.47,
-        "change_24h": -5.88,
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price": 81.7,
+        "change_24h": -6.97,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ASTER",
+        "name": "Aster",
+        "price": 0.74279,
+        "change_24h": -6.87,
         "asset": "crypto"
       }
     ]
