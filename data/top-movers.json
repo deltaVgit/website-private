@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T20:45:43Z",
+  "updated_at": "2026-09-08T21:00:44Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.008004,
-        "change_24h": 11.33,
+        "price": 0.008008,
+        "change_24h": 10.86,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ETC",
+        "name": "Ethereum Classic",
+        "price": 8.62,
+        "change_24h": 9.98,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
         "price": 1.81,
-        "change_24h": 9.17,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ETC",
-        "name": "Ethereum Classic",
-        "price": 8.51,
-        "change_24h": 8.45,
+        "change_24h": 9.32,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.22,
-        "change_24h": 6.43,
+        "change_24h": 6.64,
         "asset": "crypto"
       },
       {
         "symbol": "WBT",
         "name": "WhiteBIT Coin",
-        "price": 81.31,
-        "change_24h": 6.16,
+        "price": 81.34,
+        "change_24h": 6.12,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 2.92,
-        "change_24h": -5.77,
+        "price": 2.94,
+        "change_24h": -4.68,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.239375,
-        "change_24h": -5.22,
+        "price": 0.240503,
+        "change_24h": -4.64,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.10435,
-        "change_24h": -3.95,
+        "price": 0.104304,
+        "change_24h": -4.01,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 61.64,
+        "change_24h": -3.87,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 500.41,
-        "change_24h": -3.79,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "HBAR",
-        "name": "Hedera",
-        "price": 0.07945,
-        "change_24h": -3.76,
+        "price": 498.58,
+        "change_24h": -3.81,
         "asset": "crypto"
       }
     ]
