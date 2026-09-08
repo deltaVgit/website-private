@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T20:05:02Z",
+  "updated": "2026-09-08T20:35:04Z",
   "items": [
     {
       "title": "Training on probes: Research ideas",
@@ -15,6 +15,14 @@
       "source": "Alignment Forum",
       "published_at": "2026-09-08T17:06:18+00:00",
       "summary": "TL;DR If you train a probe for some property (like \"honesty\") and do gradient descent against this probe while continuing training that incentivizes dishonesty, the model will change its internal representation to evade the probe. Duh. If you train against the probe after all oth",
+      "tag": "ai"
+    },
+    {
+      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "url": "https://openai.com/index/codex-quantum-computing-experiments",
+      "source": "OpenAI",
+      "published_at": "2026-09-08T17:00:00+00:00",
+      "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
       "tag": "ai"
     },
     {
@@ -63,14 +71,6 @@
       "source": "OpenAI",
       "published_at": "2026-09-08T10:00:00+00:00",
       "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
-      "tag": "ai"
-    },
-    {
-      "title": "Funding grants for new research into AI and teen development",
-      "url": "https://openai.com/index/teen-development-research-grants",
-      "source": "OpenAI",
-      "published_at": "2026-09-08T09:00:00+00:00",
-      "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
       "tag": "ai"
     },
     {
