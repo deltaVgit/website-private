@@ -1,11 +1,27 @@
 [
   {
+    "title": "The EU CRA's Real Question: What Shipped, and When Did You Know?",
+    "url": "https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/",
+    "source": "BleepingComputer",
+    "summary": "The EU Cyber Resilience Act's vulnerability reporting requirements take effect September 11, giving software vendors as little as 24 hours to report actively exploited flaws. ActiveState explains why knowing exactly what",
+    "added": "2026-09-08T20:24:16+00:00",
+    "expires": "2026-09-22T20:35:10Z"
+  },
+  {
+    "title": "Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/",
+    "source": "BleepingComputer",
+    "summary": "A Linux rootkit targeting devices in F5 BIG-IP APM environments can intercept PHP file loading and inject a fileless web shell directly into memory, avoiding the need to write malicious code to disk. [...]",
+    "added": "2026-09-08T20:08:55+00:00",
+    "expires": "2026-09-22T20:35:10Z"
+  },
+  {
     "title": "Microsoft releases Windows 10 KB5122878 extended security update",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5122878-extended-security-update/",
     "source": "BleepingComputer",
     "summary": "Microsoft has released the Windows 10 KB5122878 extended security update, which includes this month's record-breaking September 2026 Patch Tuesday fixes, along with a few bug fixes. [...]",
     "added": "2026-09-08T18:49:19+00:00",
-    "expires": "2026-09-22T20:05:07Z"
+    "expires": "2026-09-22T20:35:10Z"
   },
   {
     "title": "Microsoft September 2026 Patch Tuesday fixes 966 flaws, 2 zero-days",
@@ -13,7 +29,7 @@
     "source": "BleepingComputer",
     "summary": "Today is Microsoft's September 2026 Patch Tuesday, with security updates released for a record-breaking 966 flaws, including two actively exploited zero-day vulnerabilities. [...]",
     "added": "2026-09-08T18:18:05+00:00",
-    "expires": "2026-09-22T20:05:07Z"
+    "expires": "2026-09-22T20:35:10Z"
   },
   {
     "title": "Windows 11 cumulative updates KB5124008 & KB5122880 released",
@@ -21,7 +37,7 @@
     "source": "BleepingComputer",
     "summary": "Microsoft has released Windows 11 KB5124008 and KB5122880 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
     "added": "2026-09-08T17:57:03+00:00",
-    "expires": "2026-09-22T20:05:07Z"
+    "expires": "2026-09-22T20:35:10Z"
   },
   {
     "title": "ClickFix Campaigns Abuse Legitimate Services for Persistent Access",
@@ -29,23 +45,7 @@
     "source": "Dark Reading",
     "summary": "Two separate attacks demonstrate how threat actors are finding new ways to compromise organizations by using the popular social engineering tactic.",
     "added": "2026-09-08T17:25:37+00:00",
-    "expires": "2026-09-22T20:05:08Z"
-  },
-  {
-    "title": "ShinyHunters hackers claim breach of Florida \"DAVID\" DMV database",
-    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/",
-    "source": "BleepingComputer",
-    "summary": "The ShinyHunters extortion gang claims it breached an online platform for the Florida Department of Motor Vehicles database known as \"DAVID\" and stole over 200,000 records about drivers in the state. [...]",
-    "added": "2026-09-08T16:35:47+00:00",
-    "expires": "2026-09-22T20:05:07Z"
-  },
-  {
-    "title": "OpenAI says ChatGPT outage causes image generation errors",
-    "url": "https://www.bleepingcomputer.com/news/technology/openai-says-chatgpt-outage-causes-image-generation-errors/",
-    "source": "BleepingComputer",
-    "summary": "OpenAI is investigating an ongoing incident causing ChatGPT image generation failures and delays when uploading files. [...]",
-    "added": "2026-09-08T16:28:42+00:00",
-    "expires": "2026-09-22T20:05:07Z"
+    "expires": "2026-09-22T20:35:10Z"
   },
   {
     "title": "Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution",
@@ -53,7 +53,7 @@
     "source": "The Hacker News",
     "summary": "A previously undocumented financially motivated threat actor has been linked to attacks targeting Brazilian financial institutions since at least March 2026. Cybersecurity company CrowdStrike is tracking the Brazil-based",
     "added": "2026-09-08T16:20:23+00:00",
-    "expires": "2026-09-22T20:05:08Z"
+    "expires": "2026-09-22T20:35:11Z"
   },
   {
     "title": "Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC",
@@ -61,7 +61,7 @@
     "source": "The Hacker News",
     "summary": "Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6, returned 3,400 of it the next day, Bitcoin's public record shows. About 598.5 bitcoin has not come back. Liquid is a Bitcoin sidechain tha",
     "added": "2026-09-08T14:54:30+00:00",
-    "expires": "2026-09-22T20:05:08Z"
+    "expires": "2026-09-22T20:35:11Z"
   },
   {
     "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
@@ -69,7 +69,7 @@
     "source": "The Hacker News",
     "summary": "Check Point Research said in a report published today that a single instruction planted in a ChatGPT conversation could cause ChatGPT to quietly work for an attacker while answering the user's question as usual. In the c",
     "added": "2026-09-08T14:19:17+00:00",
-    "expires": "2026-09-22T20:05:08Z"
+    "expires": "2026-09-22T20:35:11Z"
   },
   {
     "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
@@ -77,7 +77,7 @@
     "source": "The Hacker News",
     "summary": "Threat actors are continuing to leverage artificial intelligence (AI) to streamline their operations, with one financially motivated hacking group employing an autonomous, multi-agent attack framework to carry out a larg",
     "added": "2026-09-08T13:48:16+00:00",
-    "expires": "2026-09-22T20:05:08Z"
+    "expires": "2026-09-22T20:35:11Z"
   },
   {
     "title": "CareCam Pro IP Cameras",
@@ -85,7 +85,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to take full control of the device. The following versions of CareCam Pro IP Cameras are affected: ANJIA AJL33PC0801 Firmware linux_",
     "added": "2026-09-08T12:00:00+00:00",
-    "expires": "2026-09-22T20:05:08Z"
+    "expires": "2026-09-22T20:35:11Z"
   },
   {
     "title": "China-Based Artificial Intelligence Companies Conducting Industrial-Scale Distillation Campaigns Against U.S. AI Companies",
@@ -93,7 +93,7 @@
     "source": "CISA Advisories",
     "summary": "Executive summary China-based artificial intelligence (AI) companies are conducting systematic extraction of proprietary functionalities and capabilities of U.S. AI companies’ models through industrial-scale knowledge di",
     "added": "2026-09-08T12:00:00+00:00",
-    "expires": "2026-09-22T20:05:08Z"
+    "expires": "2026-09-22T20:35:11Z"
   },
   {
     "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
@@ -101,7 +101,7 @@
     "source": "CISA Advisories",
     "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-75650 Adobe Commerce and Magento Improper Neutralization of Special Elemen",
     "added": "2026-09-08T12:00:00+00:00",
-    "expires": "2026-09-22T20:05:08Z"
+    "expires": "2026-09-22T20:35:11Z"
   },
   {
     "title": "WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls",
@@ -109,7 +109,7 @@
     "source": "The Hacker News",
     "summary": "Researchers at the security firm Calif have built a worm that takes over a WeChat account via an incoming call and demonstrated it spreading among three test phones. The person being called does not have to answer or tou",
     "added": "2026-09-08T11:54:29+00:00",
-    "expires": "2026-09-22T20:05:08Z"
+    "expires": "2026-09-22T20:35:11Z"
   },
   {
     "title": "Companies Have 6 Months to Prepare for Automated Attacks",
@@ -117,7 +117,7 @@
     "source": "Dark Reading",
     "summary": "Frontier AI models have already demonstrated they can autonomously — and in some cases, inadvertently — conduct end-to-end compromises, but the situation will become more urgent very soon.",
     "added": "2026-09-04T15:57:31+00:00",
-    "expires": "2026-09-22T20:05:08Z"
+    "expires": "2026-09-22T20:35:10Z"
   },
   {
     "title": "AI Is Ending the Era of Hidden Vulnerabilities — Are Vendors Ready?",
@@ -125,6 +125,6 @@
     "source": "Dark Reading",
     "summary": "A tidal wave of bug reports is overwhelming software vendors, exposing secure-by-design failures and creating disclosure bottlenecks.",
     "added": "2026-09-04T13:00:00+00:00",
-    "expires": "2026-09-22T20:05:08Z"
+    "expires": "2026-09-22T20:35:10Z"
   }
 ]
