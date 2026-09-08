@@ -5,7 +5,7 @@
         "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Uncensored-GGUF",
         "author": "JonathanColetti",
-        "likes": 1013,
+        "likes": 1014,
         "downloads": 2584884,
         "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "lastModified": "2026-08-29T04:18:18.000Z",
@@ -211,7 +211,7 @@
         "downloads": 2539984,
         "url": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-04-06T03:50:35.000Z",
-        "daysAgo": 154,
+        "daysAgo": 155,
         "pipeline": "image-text-to-text",
         "tags": [
           "gguf",
@@ -483,30 +483,6 @@
       "combo": 0.746
     },
     {
-      "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
-      "name": "Huihui-Qwen3.8-27B-abliterated",
-      "author": "huihui-ai",
-      "likes": 375,
-      "downloads": 69366,
-      "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated",
-      "lastModified": "2026-08-24T03:47:39.000Z",
-      "daysAgo": 14,
-      "pipeline": "image-text-to-text",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5",
-        "image-text-to-text",
-        "abliterated",
-        "uncensored",
-        "huihui",
-        "qwen3"
-      ],
-      "pop": 0.7621,
-      "rec": 0.6818,
-      "combo": 0.734
-    },
-    {
       "id": "sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
       "name": "Huihui-Qwen3.8-27B-abliterated-NVFP4",
       "author": "sakamakismile",
@@ -529,6 +505,30 @@
       "pop": 0.7562,
       "rec": 0.6818,
       "combo": 0.7302
+    },
+    {
+      "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
+      "name": "Huihui-Qwen3.8-27B-abliterated",
+      "author": "huihui-ai",
+      "likes": 375,
+      "downloads": 69366,
+      "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated",
+      "lastModified": "2026-08-24T03:47:39.000Z",
+      "daysAgo": 15,
+      "pipeline": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "abliterated",
+        "uncensored",
+        "huihui",
+        "qwen3"
+      ],
+      "pop": 0.7621,
+      "rec": 0.6667,
+      "combo": 0.7287
     },
     {
       "id": "twolven/Qwen3.8-27B-abliterated-AWQ-MTP",
@@ -604,5 +604,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-08T03:35:15Z"
+  "updated": "2026-09-08T04:05:16Z"
 }
