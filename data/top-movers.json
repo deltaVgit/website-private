@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T21:00:44Z",
+  "updated_at": "2026-09-08T21:15:45Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "ATOM",
+        "name": "Cosmos Hub",
+        "price": 1.83,
+        "change_24h": 10.95,
+        "asset": "crypto"
+      },
+      {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.008008,
-        "change_24h": 10.86,
+        "price": 0.007998,
+        "change_24h": 10.55,
         "asset": "crypto"
       },
       {
         "symbol": "ETC",
         "name": "Ethereum Classic",
-        "price": 8.62,
-        "change_24h": 9.98,
+        "price": 8.63,
+        "change_24h": 9.16,
         "asset": "crypto"
       },
       {
-        "symbol": "ATOM",
-        "name": "Cosmos Hub",
-        "price": 1.81,
-        "change_24h": 9.32,
+        "symbol": "WBT",
+        "name": "WhiteBIT Coin",
+        "price": 81.37,
+        "change_24h": 6.13,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.22,
-        "change_24h": 6.64,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WBT",
-        "name": "WhiteBIT Coin",
-        "price": 81.34,
-        "change_24h": 6.12,
+        "change_24h": 6.13,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 2.94,
-        "change_24h": -4.68,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.240503,
-        "change_24h": -4.64,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.104304,
-        "change_24h": -4.01,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 61.64,
-        "change_24h": -3.87,
+        "symbol": "HBAR",
+        "name": "Hedera",
+        "price": 0.079049,
+        "change_24h": -4.5,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 498.58,
-        "change_24h": -3.81,
+        "price": 497.0,
+        "change_24h": -4.48,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ICP",
+        "name": "Internet Computer",
+        "price": 2.94,
+        "change_24h": -4.25,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.241401,
+        "change_24h": -4.12,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 61.71,
+        "change_24h": -4.11,
         "asset": "crypto"
       }
     ]
