@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T04:16:04Z",
+  "updated_at": "2026-09-08T04:31:05Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.473508,
-        "change_24h": 13.87,
+        "price": 0.469943,
+        "change_24h": 13.14,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DOT",
+        "name": "Polkadot",
+        "price": 1.071,
+        "change_24h": 9.3,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
         "price": 3.04,
-        "change_24h": 10.42,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DOT",
-        "name": "Polkadot",
-        "price": 1.076,
-        "change_24h": 9.82,
+        "change_24h": 8.79,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004342,
-        "change_24h": 8.94,
+        "price": 0.00433,
+        "change_24h": 8.79,
         "asset": "crypto"
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.035667,
-        "change_24h": 8.89,
+        "price": 0.035607,
+        "change_24h": 8.1,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 62.44,
-        "change_24h": -11.29,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 2.27,
-        "change_24h": -5.9,
+        "price": 62.51,
+        "change_24h": -10.71,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.44,
-        "change_24h": -5.58,
+        "change_24h": -5.89,
         "asset": "crypto"
       },
       {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.105583,
-        "change_24h": -5.31,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.163797,
+        "change_24h": -5.74,
         "asset": "crypto"
       },
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1125.94,
-        "change_24h": -5.29,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 2.26,
+        "change_24h": -5.7,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "price": 255.93,
+        "change_24h": -5.48,
         "asset": "crypto"
       }
     ]
