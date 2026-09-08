@@ -163,7 +163,7 @@
         "id": "DeepNeuralNerd/Gemma-4-12B-it-uncensored-heretic-DeepNeuralNerd-LTX_2.5_ComfyUI",
         "name": "Gemma-4-12B-it-uncensored-heretic-DeepNeuralNerd-LTX_2.5_ComfyUI",
         "author": "DeepNeuralNerd",
-        "likes": 37,
+        "likes": 38,
         "downloads": 0,
         "url": "https://huggingface.co/DeepNeuralNerd/Gemma-4-12B-it-uncensored-heretic-DeepNeuralNerd-LTX_2.5_ComfyUI",
         "lastModified": "2026-08-12T17:10:46.000Z",
@@ -178,6 +178,26 @@
           "text-encoder",
           "safetensors",
           "bf16"
+        ]
+      },
+      {
+        "id": "Heartsync/Flux-NSFW-uncensored",
+        "name": "Flux-NSFW-uncensored",
+        "author": "Heartsync",
+        "likes": 500,
+        "downloads": 0,
+        "url": "https://huggingface.co/Heartsync/Flux-NSFW-uncensored",
+        "lastModified": "2025-05-05T14:21:20.000Z",
+        "daysAgo": 490,
+        "pipeline": "text-to-image",
+        "tags": [
+          "text-to-image",
+          "en",
+          "base_model:black-forest-labs/FLUX.1-dev",
+          "base_model:finetune:black-forest-labs/FLUX.1-dev",
+          "license:creativeml-openrail-m",
+          "region:us",
+          "not-for-all-audiences"
         ]
       }
     ],
@@ -231,7 +251,7 @@
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 1006,
+        "likes": 1007,
         "downloads": 1715824,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
@@ -583,5 +603,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-08T11:04:31Z"
+  "updated": "2026-09-08T11:34:30Z"
 }
