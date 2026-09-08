@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-08T15:00:30Z",
+  "updated_at": "2026-09-08T15:15:31Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "ROIV",
         "name": "Roivant Sciences Ltd.",
-        "price": 40.98,
-        "change_24h": 17.32,
+        "price": 41.54,
+        "change_24h": 18.92,
         "asset": "equity"
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, ",
-        "price": 63.51,
-        "change_24h": 15.47,
-        "asset": "equity"
-      },
-      {
-        "symbol": "PHVS",
-        "name": "Pharvaris N.V.",
-        "price": 39.84,
-        "change_24h": 13.04,
+        "price": 63.53,
+        "change_24h": 15.51,
         "asset": "equity"
       },
       {
         "symbol": "SMR",
         "name": "NuScale Power Corporation",
-        "price": 10.89,
-        "change_24h": 12.27,
+        "price": 10.93,
+        "change_24h": 12.63,
         "asset": "equity"
       },
       {
         "symbol": "ERO",
         "name": "Ero Copper Corp.",
-        "price": 39.19,
-        "change_24h": 12.27,
+        "price": 39.24,
+        "change_24h": 12.44,
+        "asset": "equity"
+      },
+      {
+        "symbol": "PHVS",
+        "name": "Pharvaris N.V.",
+        "price": 39.52,
+        "change_24h": 12.1,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "DYN",
         "name": "Dyne Therapeutics, Inc.",
-        "price": 19.19,
-        "change_24h": -20.97,
+        "price": 19.56,
+        "change_24h": -19.44,
         "asset": "equity"
       },
       {
         "symbol": "NVS",
         "name": "Novartis AG",
-        "price": 138.65,
-        "change_24h": -13.34,
+        "price": 138.79,
+        "change_24h": -13.25,
         "asset": "equity"
       },
       {
         "symbol": "BEAM",
         "name": "Beam Therapeutics Inc.",
-        "price": 26.02,
-        "change_24h": -12.29,
+        "price": 26.27,
+        "change_24h": -11.43,
         "asset": "equity"
       },
       {
         "symbol": "SRPT",
         "name": "Sarepta Therapeutics, Inc.",
-        "price": 20.32,
-        "change_24h": -9.69,
+        "price": 20.36,
+        "change_24h": -9.51,
         "asset": "equity"
       },
       {
         "symbol": "AMGN",
         "name": "Amgen Inc.",
-        "price": 397.11,
-        "change_24h": -9.18,
+        "price": 396.07,
+        "change_24h": -9.41,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 6.53,
-        "change_24h": 14.11,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.635469,
-        "change_24h": 13.53,
+        "price": 6.52,
+        "change_24h": 13.95,
         "asset": "crypto"
       },
       {
         "symbol": "WBT",
         "name": "WhiteBIT Coin",
-        "price": 79.91,
-        "change_24h": 9.43,
+        "price": 79.93,
+        "change_24h": 9.64,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.638671,
+        "change_24h": 9.37,
         "asset": "crypto"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.007707,
-        "change_24h": 8.14,
+        "price": 0.007749,
+        "change_24h": 9.32,
         "asset": "crypto"
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.8,
-        "change_24h": 7.36,
+        "symbol": "ETC",
+        "name": "Ethereum Classic",
+        "price": 8.54,
+        "change_24h": 8.21,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 501.71,
-        "change_24h": -6.4,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 62.96,
-        "change_24h": -5.14,
+        "price": 496.97,
+        "change_24h": -6.99,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.241357,
-        "change_24h": -4.77,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LTC",
-        "name": "Litecoin",
-        "price": 54.56,
-        "change_24h": -4.39,
+        "price": 0.24181,
+        "change_24h": -3.93,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.161366,
-        "change_24h": -4.35,
+        "price": 0.161784,
+        "change_24h": -3.38,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 63.81,
+        "change_24h": -3.29,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.44,
+        "change_24h": -3.25,
         "asset": "crypto"
       }
     ]
