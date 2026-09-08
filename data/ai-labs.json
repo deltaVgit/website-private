@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-08T17:04:55Z",
+  "updated": "2026-09-08T17:34:53Z",
   "items": [
+    {
+      "title": "Training on probes: Research ideas",
+      "url": "https://www.alignmentforum.org/posts/HGfMBEFnsXYkKvbRo/training-on-probes-research-ideas",
+      "source": "Alignment Forum",
+      "published_at": "2026-09-08T17:06:23+00:00",
+      "summary": "Recap Sequel to Previous Post . This post might not make sense without it. Training on probes might let our judgments on easy domains generalize to harder domains by leveraging an AI's model of the world. Taking the gradient of the probe teaches the model to fool the probe, but d",
+      "tag": "ai"
+    },
+    {
+      "title": "Training on probes: What's going on",
+      "url": "https://www.alignmentforum.org/posts/gHFCgrvfxQtaEnJye/training-on-probes-what-s-going-on",
+      "source": "Alignment Forum",
+      "published_at": "2026-09-08T17:06:18+00:00",
+      "summary": "TL;DR If you train a probe for some property (like \"honesty\") and do gradient descent against this probe while continuing training that incentivizes dishonesty, the model will change its internal representation to evade the probe. Duh. If you train against the probe after all oth",
+      "tag": "ai"
+    },
     {
       "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
@@ -31,6 +47,14 @@
       "source": "OpenAI",
       "published_at": "2026-09-08T13:00:00+00:00",
       "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+      "tag": "ai"
+    },
+    {
+      "title": "Funding grants for new research into AI and teen development",
+      "url": "https://openai.com/index/teen-development-research-grants",
+      "source": "OpenAI",
+      "published_at": "2026-09-08T09:00:00+00:00",
+      "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
       "tag": "ai"
     },
     {
@@ -87,14 +111,6 @@
       "source": "LessWrong",
       "published_at": "2026-09-06T21:28:00+00:00",
       "summary": "This is a piece originally written for a national security audience at Frontiers . Although I think the ceiling of war is much, much higher than autopilot quadcopters, it's also important to understand how much AI is already lifting the floor, and just how vulnerable the world is",
-      "tag": "ai"
-    },
-    {
-      "title": "An Alien Mind",
-      "url": "https://openai.com/index/an-alien-mind",
-      "source": "OpenAI",
-      "published_at": "2026-09-06T09:00:00+00:00",
-      "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
       "tag": "ai"
     },
     {
@@ -194,27 +210,11 @@
       "tag": "ai"
     },
     {
-      "title": "Training a Misaligned Reward Seeker",
-      "url": "https://www.alignmentforum.org/posts/J76LZCC55RdHeqEhz/training-a-misaligned-reward-seeker",
-      "source": "Alignment Forum",
-      "published_at": "2026-09-01T01:41:44+00:00",
-      "summary": "Authors: Richard Qi, Benjamin Wright, Monte MacDiarmid, Evan Hubinger Abstract During reinforcement learning (RL), AI models complete tasks and are rewarded based on their results. They sometimes learn to “cheat” rather than completing these tasks as intended, a phenomenon known ",
-      "tag": "ai"
-    },
-    {
       "title": "Import AI 471: Why Hugging Face worries me; space mining; FIve Eyes on AI",
       "url": "https://jack-clark.net/2026/08/31/import-ai-471-why-hugging-face-worries-me-space-mining-five-eyes-on-ai/",
       "source": "Import AI",
       "published_at": "2026-08-31T13:31:06+00:00",
       "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Import AI reader giveaway! Upcoming event: Fiction and the Future with Robin SloanI’ll be chatting",
-      "tag": "ai"
-    },
-    {
-      "title": "Value generalisation Theory of Change: putting it into practice",
-      "url": "https://www.alignmentforum.org/posts/kjPEH4KGEHd8iQ4Hn/value-generalisation-theory-of-change-putting-it-into",
-      "source": "Alignment Forum",
-      "published_at": "2026-08-31T10:51:46+00:00",
-      "summary": "In the previous post , I presented my theory of change for why value generalisation is vital for AI alignment. Here I'll add the practical part of the argument: given those facts, why explicitly try to do value generalisation, what are the dangers of the approach, how should it b",
       "tag": "ai"
     },
     {
