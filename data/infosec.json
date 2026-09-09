@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T03:35:23Z",
+  "updatedAt": "2026-09-09T04:05:47Z",
   "kev": [
     {
       "cve": "CVE-2026-75650",
@@ -128,85 +128,7 @@
       "knownRansomware": "Unknown"
     }
   ],
-  "cves": [
-    {
-      "id": "CVE-2026-82542",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "description": "A weakness has been identified in Tenda HG10 300001138. Affected by this issue is the function formIPv6Routing of the file /boaform/admin/formIPv6Routing of the component Boa Web Server. This manipulation of the argument",
-      "published": "2026-08-30T13:16:56.267"
-    },
-    {
-      "id": "CVE-2026-15980",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The MyHome Core plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 4.4.5. This is due to missing authorization in the send_link() AJAX handler and improper token validation ",
-      "published": "2026-08-30T05:16:58.407"
-    },
-    {
-      "id": "CVE-2026-82539",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "description": "A vulnerability was determined in TOTOLINK A720R 4.1.5cu.630_B20250509. This impacts the function setMacFilterRules of the file cstecgi.cgi of the component MAC Filtering. Executing a manipulation of the argument desc ca",
-      "published": "2026-08-30T11:17:35.067"
-    },
-    {
-      "id": "CVE-2026-82635",
-      "severity": "HIGH",
-      "score": 8.8,
-      "description": "Pake before 3.13.1 joins the JavaScript-supplied filename for the download_file Tauri command onto the user's Downloads directory with no sanitization. A filename containing path traversal sequences (for example ../Libra",
-      "published": "2026-08-30T13:16:56.923"
-    },
-    {
-      "id": "CVE-2026-81660",
-      "severity": "HIGH",
-      "score": 8.8,
-      "description": "The Groundhogg — CRM, Newsletters, and Marketing Automation WordPress plugin before 4.5.13 does not validate or escape values submitted to some optional web form fields before storing them and outputting them back in an ",
-      "published": "2026-08-30T07:17:21.790"
-    },
-    {
-      "id": "CVE-2026-76585",
-      "severity": "HIGH",
-      "score": 8.8,
-      "description": "The Customer Reviews for WooCommerce WordPress plugin before 5.118.0 does not sanitise and escape the content of customer reviews received via one of its endpoints, which could allow unauthenticated users to perform Stor",
-      "published": "2026-08-30T07:17:20.997"
-    },
-    {
-      "id": "CVE-2026-75759",
-      "severity": "HIGH",
-      "score": 7.6,
-      "description": "Improper Verification of Cryptographic Signature vulnerability in erlef oidcc allows an unauthenticated attacker to impersonate an arbitrary user via an encrypted ID token or JARM response carrying no nested signature. O",
-      "published": "2026-08-30T02:18:30.110"
-    },
-    {
-      "id": "CVE-2026-82480",
-      "severity": "HIGH",
-      "score": 7.4,
-      "description": "A security flaw has been discovered in NASA cFS up to 7.0.1. The affected element is the function CFE_SB_GetUserDataLength of the file src/cFS/cfe/modules/sb/fsw/src/cfe_sb_util.c of the component cFE Software Bus. Perfo",
-      "published": "2026-08-30T06:16:56.730"
-    },
-    {
-      "id": "CVE-2026-82543",
-      "severity": "HIGH",
-      "score": 7.3,
-      "description": "A vulnerability was detected in vastsa FileCodeBox up to 2.3. This vulnerability affects the function update_file_usage of the file apps/base/views.py of the component Pickup Limit Handler. Performing a manipulation resu",
-      "published": "2026-08-30T13:16:56.447"
-    },
-    {
-      "id": "CVE-2026-82478",
-      "severity": "HIGH",
-      "score": 7.3,
-      "description": "A vulnerability was determined in NASA Trick 19.6.0. This issue affects the function JSONVariableServerThread::parse_request of the file trick_source/sim_services/JSONVariableServer/JSONVariableServerThread.cpp of the co",
-      "published": "2026-08-30T05:16:59.380"
-    },
-    {
-      "id": "CVE-2026-14307",
-      "severity": "HIGH",
-      "score": 7.1,
-      "description": "The geotargetingwp WordPress plugin before 3.5.6.2 does not sanitise or escape several parameters before reflecting them back in AJAX responses that are served with an HTML content type, allowing unauthenticated attacker",
-      "published": "2026-08-30T07:17:20.000"
-    }
-  ],
+  "cves": [],
   "breaches": [
     {
       "name": "ManchesterAirportsGroup",
