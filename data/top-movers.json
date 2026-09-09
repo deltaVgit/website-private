@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T11:15:17Z",
+  "updated_at": "2026-09-09T11:30:25Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "ATOM",
+        "name": "Cosmos Hub",
+        "price": 1.92,
+        "change_24h": 14.0,
+        "asset": "crypto"
+      },
+      {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 2.52,
-        "change_24h": 10.29,
+        "price": 2.54,
+        "change_24h": 10.37,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1248.55,
-        "change_24h": 8.66,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DOT",
-        "name": "Polkadot",
-        "price": 1.16,
-        "change_24h": 8.37,
+        "price": 1269.46,
+        "change_24h": 10.03,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 5.12,
-        "change_24h": 8.09,
+        "price": 5.13,
+        "change_24h": 8.86,
         "asset": "crypto"
       },
       {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.618351,
-        "change_24h": 5.71,
+        "symbol": "DOT",
+        "name": "Polkadot",
+        "price": 1.17,
+        "change_24h": 7.96,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.591884,
-        "change_24h": -7.79,
+        "price": 0.594448,
+        "change_24h": -8.45,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.445033,
-        "change_24h": -5.52,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.015953,
-        "change_24h": -5.45,
+        "price": 0.446447,
+        "change_24h": -6.33,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.165029,
-        "change_24h": -5.2,
+        "price": 0.165124,
+        "change_24h": -5.55,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.015968,
+        "change_24h": -5.35,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 6.62,
-        "change_24h": -4.79,
+        "price": 6.66,
+        "change_24h": -4.51,
         "asset": "crypto"
       }
     ]
