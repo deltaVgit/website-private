@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T05:31:02Z",
+  "updated_at": "2026-09-09T05:46:02Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 5.2,
-        "change_24h": 12.63,
+        "symbol": "ATOM",
+        "name": "Cosmos Hub",
+        "price": 1.84,
+        "change_24h": 11.57,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
-        "price": 1.2,
-        "change_24h": 12.44,
+        "price": 1.19,
+        "change_24h": 11.37,
         "asset": "crypto"
       },
       {
-        "symbol": "ATOM",
-        "name": "Cosmos Hub",
-        "price": 1.85,
-        "change_24h": 12.16,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1242.01,
-        "change_24h": 9.31,
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 5.16,
+        "change_24h": 11.05,
         "asset": "crypto"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.008012,
-        "change_24h": 8.87,
+        "price": 0.00801,
+        "change_24h": 9.28,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1215.76,
+        "change_24h": 7.52,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 2.88,
-        "change_24h": -5.22,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.16777,
-        "change_24h": -3.52,
+        "price": 0.166572,
+        "change_24h": -5.69,
         "asset": "crypto"
       },
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.455967,
-        "change_24h": -3.25,
+        "symbol": "ICP",
+        "name": "Internet Computer",
+        "price": 2.87,
+        "change_24h": -5.67,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.617829,
-        "change_24h": -2.92,
+        "price": 0.615423,
+        "change_24h": -3.86,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.45274,
+        "change_24h": -3.75,
         "asset": "crypto"
       },
       {
         "symbol": "HBAR",
         "name": "Hedera",
-        "price": 0.079352,
-        "change_24h": -2.66,
+        "price": 0.079011,
+        "change_24h": -2.85,
         "asset": "crypto"
       }
     ]
