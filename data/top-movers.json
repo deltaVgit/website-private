@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T06:46:04Z",
+  "updated_at": "2026-09-09T07:01:12Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 5.24,
-        "change_24h": 13.79,
+        "price": 5.27,
+        "change_24h": 14.5,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price": 0.812265,
+        "change_24h": 13.53,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
-        "price": 1.84,
-        "change_24h": 12.62,
+        "price": 1.85,
+        "change_24h": 12.93,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.18,
-        "change_24h": 11.21,
+        "change_24h": 11.0,
         "asset": "crypto"
       },
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1230.03,
-        "change_24h": 8.95,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.630122,
-        "change_24h": 8.92,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.004569,
+        "change_24h": 8.9,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 500.94,
-        "change_24h": -3.21,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 2.91,
-        "change_24h": -2.96,
+        "price": 2.9,
+        "change_24h": -3.76,
         "asset": "crypto"
       },
       {
         "symbol": "BDX",
         "name": "Beldex",
-        "price": 0.075672,
-        "change_24h": -2.74,
+        "price": 0.075547,
+        "change_24h": -2.73,
         "asset": "crypto"
       },
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 6.94,
-        "change_24h": -1.76,
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.614788,
+        "change_24h": -2.65,
         "asset": "crypto"
       },
       {
-        "symbol": "HBAR",
-        "name": "Hedera",
-        "price": 0.079363,
-        "change_24h": -1.61,
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 502.51,
+        "change_24h": -2.41,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.35,
+        "change_24h": -2.07,
         "asset": "crypto"
       }
     ]
