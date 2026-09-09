@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-09T19:30:54Z",
+  "updated_at": "2026-09-09T19:45:39Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "ASO",
         "name": "Academy Sports and Outdoors, In",
-        "price": 50.31,
-        "change_24h": 12.53,
-        "asset": "equity"
-      },
-      {
-        "symbol": "PLSE",
-        "name": "Pulse Biosciences, Inc",
-        "price": 54.18,
-        "change_24h": 11.05,
+        "price": 50.8,
+        "change_24h": 13.61,
         "asset": "equity"
       },
       {
         "symbol": "NET",
         "name": "Cloudflare, Inc.",
-        "price": 315.07,
-        "change_24h": 10.82,
+        "price": 313.16,
+        "change_24h": 10.15,
         "asset": "equity"
       },
       {
         "symbol": "SSL",
         "name": "Sasol Ltd.",
-        "price": 14.57,
-        "change_24h": 9.55,
+        "price": 14.54,
+        "change_24h": 9.29,
+        "asset": "equity"
+      },
+      {
+        "symbol": "PLSE",
+        "name": "Pulse Biosciences, Inc",
+        "price": 53.0,
+        "change_24h": 8.63,
         "asset": "equity"
       },
       {
         "symbol": "MKC-V",
         "name": "McCormick & Company, Incorporat",
-        "price": 57.37,
-        "change_24h": 9.09,
+        "price": 57.39,
+        "change_24h": 9.13,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "TTAN",
         "name": "ServiceTitan, Inc.",
-        "price": 57.46,
-        "change_24h": -29.57,
+        "price": 57.31,
+        "change_24h": -29.75,
         "asset": "equity"
       },
       {
         "symbol": "TBBK",
         "name": "The Bancorp, Inc.",
-        "price": 50.46,
-        "change_24h": -21.65,
+        "price": 50.25,
+        "change_24h": -21.99,
         "asset": "equity"
       },
       {
         "symbol": "BRZE",
         "name": "Braze, Inc.",
-        "price": 24.0,
-        "change_24h": -20.8,
+        "price": 23.86,
+        "change_24h": -21.3,
         "asset": "equity"
       },
       {
         "symbol": "RML",
         "name": "Resolution Minerals Ltd American Depositary Shar",
-        "price": 11.54,
-        "change_24h": -18.78,
+        "price": 11.86,
+        "change_24h": -16.24,
         "asset": "equity"
       },
       {
         "symbol": "CASY",
         "name": "Caseys General Stores, Inc.",
-        "price": 631.21,
-        "change_24h": -13.95,
+        "price": 623.55,
+        "change_24h": -14.99,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1265.32,
-        "change_24h": 9.72,
+        "price": 1254.48,
+        "change_24h": 8.74,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 2.58,
-        "change_24h": 9.32,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 24.65,
-        "change_24h": 7.1,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ATOM",
-        "name": "Cosmos Hub",
-        "price": 1.88,
-        "change_24h": 5.0,
+        "price": 2.52,
+        "change_24h": 7.2,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004634,
-        "change_24h": 4.8,
+        "price": 0.00464,
+        "change_24h": 6.02,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ATOM",
+        "name": "Cosmos Hub",
+        "price": 1.87,
+        "change_24h": 4.35,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.245768,
+        "change_24h": 2.63,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.153652,
-        "change_24h": -8.73,
+        "price": 0.151653,
+        "change_24h": -10.2,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
-        "price": 1.13,
-        "change_24h": -8.72,
+        "price": 1.12,
+        "change_24h": -9.55,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.433171,
-        "change_24h": -8.31,
+        "price": 0.428647,
+        "change_24h": -8.33,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.063767,
-        "change_24h": -5.78,
+        "price": 0.063318,
+        "change_24h": -6.34,
         "asset": "crypto"
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price": 11.96,
-        "change_24h": -5.06,
+        "price": 11.93,
+        "change_24h": -5.19,
         "asset": "crypto"
       }
     ]
