@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T05:46:02Z",
+  "updated_at": "2026-09-09T06:01:06Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -83,72 +83,72 @@
         "symbol": "ATOM",
         "name": "Cosmos Hub",
         "price": 1.84,
-        "change_24h": 11.57,
+        "change_24h": 12.05,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 5.2,
+        "change_24h": 12.0,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.19,
-        "change_24h": 11.37,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 5.16,
-        "change_24h": 11.05,
+        "change_24h": 11.15,
         "asset": "crypto"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
         "price": 0.00801,
-        "change_24h": 9.28,
+        "change_24h": 9.22,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1215.76,
-        "change_24h": 7.52,
+        "price": 1212.16,
+        "change_24h": 7.51,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.166572,
-        "change_24h": -5.69,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ICP",
         "name": "Internet Computer",
         "price": 2.87,
-        "change_24h": -5.67,
+        "change_24h": -5.27,
         "asset": "crypto"
       },
       {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.615423,
-        "change_24h": -3.86,
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.166455,
+        "change_24h": -4.64,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.45274,
-        "change_24h": -3.75,
+        "price": 0.451651,
+        "change_24h": -3.89,
         "asset": "crypto"
       },
       {
-        "symbol": "HBAR",
-        "name": "Hedera",
-        "price": 0.079011,
-        "change_24h": -2.85,
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.617415,
+        "change_24h": -3.44,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 6.25,
+        "change_24h": -2.64,
         "asset": "crypto"
       }
     ]
