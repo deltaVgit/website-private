@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T02:00:55Z",
+  "updated_at": "2026-09-09T02:15:55Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -83,72 +83,72 @@
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.2,
-        "change_24h": 13.06,
+        "change_24h": 12.63,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
-        "price": 1.84,
-        "change_24h": 11.98,
+        "price": 1.83,
+        "change_24h": 11.64,
         "asset": "crypto"
       },
       {
         "symbol": "ETC",
         "name": "Ethereum Classic",
-        "price": 8.94,
-        "change_24h": 11.85,
+        "price": 8.96,
+        "change_24h": 10.18,
         "asset": "crypto"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.008085,
-        "change_24h": 10.05,
+        "price": 0.007944,
+        "change_24h": 8.56,
         "asset": "crypto"
       },
       {
         "symbol": "CRO",
         "name": "Cronos",
-        "price": 0.061928,
-        "change_24h": 7.46,
+        "price": 0.061508,
+        "change_24h": 7.1,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "price": 2.31,
-        "change_24h": -7.16,
-        "asset": "crypto"
-      },
-      {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.458426,
-        "change_24h": -6.69,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.620614,
-        "change_24h": -5.48,
+        "price": 0.456261,
+        "change_24h": -6.2,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
         "price": 1.5,
-        "change_24h": -5.42,
+        "change_24h": -6.17,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.34,
+        "change_24h": -5.99,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.242018,
-        "change_24h": -5.08,
+        "price": 0.241716,
+        "change_24h": -4.89,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.61882,
+        "change_24h": -4.83,
         "asset": "crypto"
       }
     ]
