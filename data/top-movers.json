@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T08:01:06Z",
+  "updated_at": "2026-09-09T08:16:08Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 5.28,
-        "change_24h": 14.79,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PONS",
-        "name": "Pons",
-        "price": 0.809057,
-        "change_24h": 14.62,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ATOM",
-        "name": "Cosmos Hub",
-        "price": 1.89,
-        "change_24h": 14.3,
+        "price": 5.29,
+        "change_24h": 14.58,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.17,
-        "change_24h": 10.71,
+        "change_24h": 10.93,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1238.59,
-        "change_24h": 10.21,
+        "price": 1236.93,
+        "change_24h": 9.8,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.623751,
+        "change_24h": 7.34,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.004536,
+        "change_24h": 7.07,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 2.87,
-        "change_24h": -5.38,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.456532,
-        "change_24h": -4.66,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 6.8,
-        "change_24h": -3.55,
+        "price": 2.89,
+        "change_24h": -5.06,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
-        "price": 2.29,
-        "change_24h": -3.32,
+        "price": 2.3,
+        "change_24h": -4.79,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 503.66,
-        "change_24h": -3.15,
+        "price": 500.1,
+        "change_24h": -4.0,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BDX",
+        "name": "Beldex",
+        "price": 0.075315,
+        "change_24h": -3.33,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.614797,
+        "change_24h": -2.87,
         "asset": "crypto"
       }
     ]
