@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T23:35:17Z",
+  "updatedAt": "2026-09-09T00:05:20Z",
   "kev": [
     {
       "cve": "CVE-2026-75650",
@@ -130,88 +130,81 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-82456",
+      "id": "CVE-2026-82542",
       "severity": "CRITICAL",
       "score": 10.0,
-      "description": "argocd-mcp 0.8.0 binds its HTTP transport to every network interface and accepts MCP sessions without requiring caller credentials when ARGOCD_API_TOKEN is configured. Attackers who can reach the listener can invoke the ",
-      "published": "2026-08-29T14:16:38.767"
+      "description": "A weakness has been identified in Tenda HG10 300001138. Affected by this issue is the function formIPv6Routing of the file /boaform/admin/formIPv6Routing of the component Boa Web Server. This manipulation of the argument",
+      "published": "2026-08-30T13:16:56.267"
     },
     {
-      "id": "CVE-2026-82452",
+      "id": "CVE-2026-15980",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "rust-iot-platform through commit 5df942ab contains an authentication bypass vulnerability where most REST API routes lack authentication guards in their handler signatures. Unauthenticated attackers can create, update, l",
-      "published": "2026-08-29T14:16:38.210"
+      "description": "The MyHome Core plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 4.4.5. This is due to missing authorization in the send_link() AJAX handler and improper token validation ",
+      "published": "2026-08-30T05:16:58.407"
     },
     {
-      "id": "CVE-2026-82448",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "Shinobi before commit 5a76c74f contains a hardcoded connection key in the child node service that allows unauthenticated attackers to execute arbitrary database queries. Attackers reaching the child node port can present",
-      "published": "2026-08-29T13:16:38.877"
-    },
-    {
-      "id": "CVE-2026-14494",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The Sigma Forms Pro plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.4.5 via the handle_form_submission function. This is due to the plugin dynamically granting the unfi",
-      "published": "2026-08-29T12:16:41.163"
-    },
-    {
-      "id": "CVE-2026-80725",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "In the Linux kernel, the following vulnerability has been resolved: net: gro: properly validate BIG TCP aggregation criteria When GRO attempts to aggregate packets beyond GRO_LEGACY_MAX_SIZE (64KB), BIG TCP should only b",
-      "published": "2026-08-29T07:16:54.573"
-    },
-    {
-      "id": "CVE-2026-16259",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The Uix UserCenter WordPress plugin through 1.0.3 does not verify that the account being modified through an unauthenticated profile-update action belongs to the requester, and it authenticates that action with a token w",
-      "published": "2026-08-29T06:17:00.360"
-    },
-    {
-      "id": "CVE-2026-10522",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The MemberHero WordPress plugin through 6.9 does not restrict which account fields can be supplied during its frontend registration process, allowing unauthenticated attackers to register a new user with an arbitrary rol",
-      "published": "2026-08-29T06:16:57.717"
-    },
-    {
-      "id": "CVE-2026-77012",
-      "severity": "CRITICAL",
-      "score": 9.3,
-      "description": "The 爱采集数据采集和发布插件 WordPress plugin through 1.0.0 does not require a per-install secret for one of its unauthenticated endpoints, relying on a hardcoded default, and does not validate the URLs or destination paths it is gi",
-      "published": "2026-08-29T06:17:44.040"
-    },
-    {
-      "id": "CVE-2026-82454",
+      "id": "CVE-2026-82539",
       "severity": "CRITICAL",
       "score": 9.1,
-      "description": "The Omnivore API (packages/api) before the fix in commit abf53d6 contains an authentication bypass in Apple sign-in token verification. The decodeAppleToken function extracted the 'alg' field from the attacker-supplied J",
-      "published": "2026-08-29T14:16:38.480"
+      "description": "A vulnerability was determined in TOTOLINK A720R 4.1.5cu.630_B20250509. This impacts the function setMacFilterRules of the file cstecgi.cgi of the component MAC Filtering. Executing a manipulation of the argument desc ca",
+      "published": "2026-08-30T11:17:35.067"
     },
     {
-      "id": "CVE-2026-16947",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "description": "The Total processing card payments for WooCommerce WordPress plugin through 7.3 does not validate a user-supplied path before using it to build a server-side verification request, and does not verify the authenticity of ",
-      "published": "2026-08-29T06:17:05.583"
-    },
-    {
-      "id": "CVE-2026-82450",
+      "id": "CVE-2026-82635",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "BookStack before 26.05.4 contains a remote code execution vulnerability in the portable ZIP import functionality that allows users with Import Content and Create Books permissions to upload a PHP polyglot file as a book ",
-      "published": "2026-08-29T14:16:37.930"
+      "description": "Pake before 3.13.1 joins the JavaScript-supplied filename for the download_file Tauri command onto the user's Downloads directory with no sanitization. A filename containing path traversal sequences (for example ../Libra",
+      "published": "2026-08-30T13:16:56.923"
     },
     {
-      "id": "CVE-2026-82447",
+      "id": "CVE-2026-81660",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "Skyvern before 1.0.45 contains a sandbox escape vulnerability in TextPromptBlock that renders prompts twice, first through a sandboxed Jinja environment and then through an unsandboxed environment. Attackers can inject m",
-      "published": "2026-08-29T13:16:38.643"
+      "description": "The Groundhogg — CRM, Newsletters, and Marketing Automation WordPress plugin before 4.5.13 does not validate or escape values submitted to some optional web form fields before storing them and outputting them back in an ",
+      "published": "2026-08-30T07:17:21.790"
+    },
+    {
+      "id": "CVE-2026-76585",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "The Customer Reviews for WooCommerce WordPress plugin before 5.118.0 does not sanitise and escape the content of customer reviews received via one of its endpoints, which could allow unauthenticated users to perform Stor",
+      "published": "2026-08-30T07:17:20.997"
+    },
+    {
+      "id": "CVE-2026-75759",
+      "severity": "HIGH",
+      "score": 7.6,
+      "description": "Improper Verification of Cryptographic Signature vulnerability in erlef oidcc allows an unauthenticated attacker to impersonate an arbitrary user via an encrypted ID token or JARM response carrying no nested signature. O",
+      "published": "2026-08-30T02:18:30.110"
+    },
+    {
+      "id": "CVE-2026-82480",
+      "severity": "HIGH",
+      "score": 7.4,
+      "description": "A security flaw has been discovered in NASA cFS up to 7.0.1. The affected element is the function CFE_SB_GetUserDataLength of the file src/cFS/cfe/modules/sb/fsw/src/cfe_sb_util.c of the component cFE Software Bus. Perfo",
+      "published": "2026-08-30T06:16:56.730"
+    },
+    {
+      "id": "CVE-2026-82543",
+      "severity": "HIGH",
+      "score": 7.3,
+      "description": "A vulnerability was detected in vastsa FileCodeBox up to 2.3. This vulnerability affects the function update_file_usage of the file apps/base/views.py of the component Pickup Limit Handler. Performing a manipulation resu",
+      "published": "2026-08-30T13:16:56.447"
+    },
+    {
+      "id": "CVE-2026-82478",
+      "severity": "HIGH",
+      "score": 7.3,
+      "description": "A vulnerability was determined in NASA Trick 19.6.0. This issue affects the function JSONVariableServerThread::parse_request of the file trick_source/sim_services/JSONVariableServer/JSONVariableServerThread.cpp of the co",
+      "published": "2026-08-30T05:16:59.380"
+    },
+    {
+      "id": "CVE-2026-14307",
+      "severity": "HIGH",
+      "score": 7.1,
+      "description": "The geotargetingwp WordPress plugin before 3.5.6.2 does not sanitise or escape several parameters before reflecting them back in AJAX responses that are served with an HTML content type, allowing unauthenticated attacker",
+      "published": "2026-08-30T07:17:20.000"
     }
   ],
   "breaches": [
