@@ -1,11 +1,19 @@
 [
   {
+    "title": "US says Chinese firms extracted billions of tokens from frontier AI models",
+    "url": "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/",
+    "source": "BleepingComputer",
+    "summary": "U.S. cybersecurity and intelligence agencies say that six Chinese AI companies conducted industrial-scale distillation attacks on American frontier AI models since at least late 2024. [...]",
+    "added": "2026-09-09T16:48:33+00:00",
+    "expires": "2026-09-23T17:05:01Z"
+  },
+  {
     "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
     "url": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
     "source": "BleepingComputer",
     "summary": "Healthcare technology company Veradigm disclosed a data breach after a cybersecurity incident at one of its third-party vendors exposed patients' personal data. [...]",
     "added": "2026-09-09T15:31:23+00:00",
-    "expires": "2026-09-23T16:35:00Z"
+    "expires": "2026-09-23T17:05:01Z"
   },
   {
     "title": "Identity-Based AI Attack Threatens Security of Enterprise Data",
@@ -13,7 +21,7 @@
     "source": "Dark Reading",
     "summary": "\"Workflow identity hijacking\" can bypass standard security controls and hijack an organization's data by sending a basic request through an unauthenticated entry point.",
     "added": "2026-09-09T14:39:44+00:00",
-    "expires": "2026-09-23T16:35:01Z"
+    "expires": "2026-09-23T17:05:02Z"
   },
   {
     "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
@@ -21,7 +29,7 @@
     "source": "The Hacker News",
     "summary": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google, Anthropic, and others. Inf",
     "added": "2026-09-09T14:23:55+00:00",
-    "expires": "2026-09-23T16:35:01Z"
+    "expires": "2026-09-23T17:05:02Z"
   },
   {
     "title": "MFA's Weakest Link: Account Recovery Is the New Attack Path",
@@ -29,7 +37,7 @@
     "source": "BleepingComputer",
     "summary": "MFA makes account takeover harder, but attackers are increasingly targeting the recovery processes used to reset passwords and authentication methods. Specops explains why stronger identity verification at the service de",
     "added": "2026-09-09T14:01:11+00:00",
-    "expires": "2026-09-23T16:35:00Z"
+    "expires": "2026-09-23T17:05:01Z"
   },
   {
     "title": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE",
@@ -37,7 +45,7 @@
     "source": "The Hacker News",
     "summary": "A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed? For many security teams, answering that means jumping between vulnerability scanners, endpoint too",
     "added": "2026-09-09T11:57:36+00:00",
-    "expires": "2026-09-23T16:35:01Z"
+    "expires": "2026-09-23T17:05:02Z"
   },
   {
     "title": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval",
@@ -45,7 +53,7 @@
     "source": "The Hacker News",
     "summary": "A flaw in DeepSeek Harness, DeepSeek's open-source tool for running AI coding agents on a developer's machine, let a sandboxed agent turn off its own sandbox with a single command. The tool runs an agent's commands insid",
     "added": "2026-09-09T11:17:07+00:00",
-    "expires": "2026-09-23T16:35:01Z"
+    "expires": "2026-09-23T17:05:02Z"
   },
   {
     "title": "Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets",
@@ -53,7 +61,7 @@
     "source": "The Hacker News",
     "summary": "Bitcoin wallet company Alby has warned of a critical flaw in Alby Hub that could have let an attacker take over a wallet and send its funds, but only where the owner had made the Hub reachable from the internet. Alby Hub",
     "added": "2026-09-09T10:43:04+00:00",
-    "expires": "2026-09-23T16:35:01Z"
+    "expires": "2026-09-23T17:05:02Z"
   },
   {
     "title": "Over 36,000 exposed Plex servers vulnerable to recent flaws",
@@ -61,7 +69,7 @@
     "source": "BleepingComputer",
     "summary": "Over 36,000 Plex Media servers exposed online remain unpatched against multiple security vulnerabilities and are vulnerable to attacks. [...]",
     "added": "2026-09-09T10:11:29+00:00",
-    "expires": "2026-09-23T16:35:00Z"
+    "expires": "2026-09-23T17:05:01Z"
   },
   {
     "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
@@ -69,7 +77,7 @@
     "source": "The Hacker News",
     "summary": "U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting \"systematic extraction\" of proprietary functionalities and capabilities of American frontier mode",
     "added": "2026-09-09T09:32:26+00:00",
-    "expires": "2026-09-23T16:35:01Z"
+    "expires": "2026-09-23T17:05:02Z"
   },
   {
     "title": "Man gets 15 years for extorting women with AI-generated porn videos",
@@ -77,15 +85,7 @@
     "source": "BleepingComputer",
     "summary": "An Ohio man was sentenced to 15 years in prison for multiple cybercrimes, including sextortion and cyberstalking of numerous victims using AI-generated sexually explicit content. [...]",
     "added": "2026-09-09T08:44:22+00:00",
-    "expires": "2026-09-23T16:35:00Z"
-  },
-  {
-    "title": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
-    "url": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
-    "source": "BleepingComputer",
-    "summary": "An anonymous security researcher known as Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldCrash\" right after Microsoft rolled out its September 2026 Patch Tuesday security updates. [",
-    "added": "2026-09-09T07:30:15+00:00",
-    "expires": "2026-09-23T16:35:00Z"
+    "expires": "2026-09-23T17:05:01Z"
   },
   {
     "title": "Microsoft Plugs Nearly 1,000 Security Holes",
@@ -93,7 +93,7 @@
     "source": "Krebs on Security",
     "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping ",
     "added": "2026-09-08T21:44:22+00:00",
-    "expires": "2026-09-23T16:35:00Z"
+    "expires": "2026-09-23T17:05:01Z"
   },
   {
     "title": "Patch Tuesday Sets Another Record With 974 CVEs",
@@ -101,7 +101,7 @@
     "source": "Dark Reading",
     "summary": "Attackers are actively exploiting two of the vulnerabilities and another 58 are more likely to be exploited, according to Microsoft.",
     "added": "2026-09-08T21:26:02+00:00",
-    "expires": "2026-09-23T16:35:01Z"
+    "expires": "2026-09-23T17:05:02Z"
   },
   {
     "title": "Attackers Use Multi-Hop Google Redirects for Phishing Campaign",
@@ -109,7 +109,7 @@
     "source": "Dark Reading",
     "summary": "Threat actors are abusing multiple Google services to evade detection, ultimately harvesting credentials or installing ScreenConnect remote access.",
     "added": "2026-09-08T21:03:46+00:00",
-    "expires": "2026-09-23T16:35:01Z"
+    "expires": "2026-09-23T17:05:02Z"
   },
   {
     "title": "OpenAI Agents Took Over Wiki Site Before Hugging Face Attack",
@@ -117,7 +117,7 @@
     "source": "Dark Reading",
     "summary": "Researchers and OpenAI disagree on whether the earlier incident involving DseWiki, which the company did not disclose, was a “hack.\"",
     "added": "2026-09-08T20:36:15+00:00",
-    "expires": "2026-09-23T16:35:01Z"
+    "expires": "2026-09-23T17:05:02Z"
   },
   {
     "title": "ClickFix Campaigns Abuse Legitimate Services for Persistent Access",
@@ -125,6 +125,6 @@
     "source": "Dark Reading",
     "summary": "Two separate attacks demonstrate how threat actors are finding new ways to compromise organizations by using the popular social engineering tactic.",
     "added": "2026-09-08T17:25:37+00:00",
-    "expires": "2026-09-23T16:35:01Z"
+    "expires": "2026-09-23T17:05:02Z"
   }
 ]
