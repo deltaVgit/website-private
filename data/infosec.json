@@ -1,6 +1,42 @@
 {
-  "updatedAt": "2026-09-09T19:05:09Z",
+  "updatedAt": "2026-09-09T19:35:06Z",
   "kev": [
+    {
+      "cve": "CVE-2026-19490",
+      "product": "NetScaler",
+      "vendor": "Citrix",
+      "name": "Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "dateAdded": "2026-09-09",
+      "dueDate": "2026-09-12",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2025-25249",
+      "product": "Multiple Products",
+      "vendor": "Fortinet",
+      "name": "Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability",
+      "dateAdded": "2026-09-09",
+      "dueDate": "2026-09-12",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-87491",
+      "product": "Chromium V8",
+      "vendor": "Google",
+      "name": "Google Chromium V8 Out of Bounds Write Vulnerability",
+      "dateAdded": "2026-09-09",
+      "dueDate": "2026-09-23",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-20079",
+      "product": "Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management",
+      "vendor": "Cisco",
+      "name": "Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "dateAdded": "2026-09-09",
+      "dueDate": "2026-09-12",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2026-75650",
       "product": "Commerce and Magento",
@@ -89,42 +125,6 @@
       "name": "Sangoma Switchvox SQL Injection Vulnerability",
       "dateAdded": "2026-09-02",
       "dueDate": "2026-09-05",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-83548",
-      "product": "SMA1000 Appliances",
-      "vendor": "SonicWall",
-      "name": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
-      "dateAdded": "2026-09-02",
-      "dueDate": "2026-09-05",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-83549",
-      "product": "SMA1000 Appliances",
-      "vendor": "SonicWall",
-      "name": "SonicWall SMA1000 Appliances OS Command Injection Vulnerability",
-      "dateAdded": "2026-09-02",
-      "dueDate": "2026-09-05",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-82078",
-      "product": "NG/MF",
-      "vendor": "PaperCut",
-      "name": "PaperCut NG/MF Unsafe Reflection Vulnerability",
-      "dateAdded": "2026-08-31",
-      "dueDate": "2026-09-14",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-81578",
-      "product": "NG/MF",
-      "vendor": "PaperCut",
-      "name": "PaperCut NG/MF Missing Authentication for Critical Function Vulnerability",
-      "dateAdded": "2026-08-31",
-      "dueDate": "2026-09-14",
       "knownRansomware": "Unknown"
     }
   ],
