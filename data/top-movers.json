@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T07:46:06Z",
+  "updated_at": "2026-09-09T08:01:06Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 5.28,
+        "change_24h": 14.79,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price": 0.809057,
+        "change_24h": 14.62,
+        "asset": "crypto"
+      },
+      {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
         "price": 1.89,
-        "change_24h": 14.69,
+        "change_24h": 14.3,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
-        "price": 1.18,
-        "change_24h": 10.9,
+        "price": 1.17,
+        "change_24h": 10.71,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1241.32,
-        "change_24h": 10.59,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.00454,
-        "change_24h": 7.38,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WBT",
-        "name": "WhiteBIT Coin",
-        "price": 82.07,
-        "change_24h": 7.16,
+        "price": 1238.59,
+        "change_24h": 10.21,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 2.88,
-        "change_24h": -4.97,
+        "price": 2.87,
+        "change_24h": -5.38,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.456532,
+        "change_24h": -4.66,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 6.79,
-        "change_24h": -4.38,
+        "price": 6.8,
+        "change_24h": -3.55,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
         "price": 2.29,
-        "change_24h": -4.14,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.456689,
-        "change_24h": -3.8,
+        "change_24h": -3.32,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 502.59,
-        "change_24h": -3.25,
+        "price": 503.66,
+        "change_24h": -3.15,
         "asset": "crypto"
       }
     ]
