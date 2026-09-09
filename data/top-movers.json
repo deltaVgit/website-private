@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T08:45:15Z",
+  "updated_at": "2026-09-09T09:00:23Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "PONS",
-        "name": "Pons",
-        "price": 0.817342,
-        "change_24h": 14.14,
+        "symbol": "DOT",
+        "name": "Polkadot",
+        "price": 1.18,
+        "change_24h": 10.82,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 5.24,
-        "change_24h": 10.28,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DOT",
-        "name": "Polkadot",
-        "price": 1.18,
-        "change_24h": 9.81,
+        "price": 5.23,
+        "change_24h": 10.77,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1242.67,
-        "change_24h": 9.47,
+        "price": 1243.11,
+        "change_24h": 9.91,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.634609,
-        "change_24h": 8.21,
+        "price": 0.637296,
+        "change_24h": 8.9,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 2.47,
+        "change_24h": 7.24,
         "asset": "crypto"
       }
     ],
@@ -120,35 +120,35 @@
         "symbol": "ICP",
         "name": "Internet Computer",
         "price": 2.88,
-        "change_24h": -6.37,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 502.15,
-        "change_24h": -4.27,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CAKE",
-        "name": "PancakeSwap",
-        "price": 2.3,
-        "change_24h": -4.1,
+        "change_24h": -6.33,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
         "price": 0.016114,
-        "change_24h": -4.08,
+        "change_24h": -4.68,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 503.64,
+        "change_24h": -3.91,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.457137,
-        "change_24h": -3.74,
+        "price": 0.456877,
+        "change_24h": -3.35,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BDX",
+        "name": "Beldex",
+        "price": 0.075501,
+        "change_24h": -3.19,
         "asset": "crypto"
       }
     ]
