@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T20:15:49Z",
+  "updated_at": "2026-09-09T20:30:40Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -13,8 +13,8 @@
       {
         "symbol": "NET",
         "name": "Cloudflare, Inc.",
-        "price": 314.28,
-        "change_24h": 10.55,
+        "price": 314.18,
+        "change_24h": 10.51,
         "asset": "equity"
       },
       {
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1250.17,
-        "change_24h": 8.67,
-        "asset": "crypto"
-      },
-      {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 2.5,
-        "change_24h": 6.87,
+        "change_24h": 7.89,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1241.96,
+        "change_24h": 7.86,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
-        "price": 1.87,
-        "change_24h": 2.95,
+        "price": 1.86,
+        "change_24h": 3.26,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.449487,
-        "change_24h": 1.97,
+        "price": 0.449149,
+        "change_24h": 1.71,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 510.38,
-        "change_24h": 1.92,
+        "price": 508.78,
+        "change_24h": 1.48,
         "asset": "crypto"
       }
     ],
@@ -120,35 +120,35 @@
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.12,
-        "change_24h": -12.53,
+        "change_24h": -11.41,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.150629,
-        "change_24h": -10.74,
+        "price": 0.149945,
+        "change_24h": -11.3,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.425935,
-        "change_24h": -8.73,
+        "price": 0.425057,
+        "change_24h": -8.44,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.062482,
-        "change_24h": -7.66,
+        "price": 0.062472,
+        "change_24h": -7.44,
         "asset": "crypto"
       },
       {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price": 11.84,
-        "change_24h": -6.1,
+        "symbol": "ETC",
+        "name": "Ethereum Classic",
+        "price": 8.05,
+        "change_24h": -6.34,
         "asset": "crypto"
       }
     ]
