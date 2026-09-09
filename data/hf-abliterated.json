@@ -99,7 +99,7 @@
         "downloads": 572411,
         "url": "https://huggingface.co/wangzhang/gemma-4-31B-it-abliterated",
         "lastModified": "2026-08-29T17:03:21.000Z",
-        "daysAgo": 10,
+        "daysAgo": 11,
         "pipeline": "",
         "tags": [
           "safetensors",
@@ -112,8 +112,8 @@
           "llm-judge"
         ],
         "pop": 0.9049,
-        "rec": 0.75,
-        "combo": 0.8507
+        "rec": 0.7317,
+        "combo": 0.8443
       }
     ],
     "image_video": [
@@ -121,7 +121,7 @@
         "id": "ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "name": "flux2-klein-9b-uncensored-text-encoder",
         "author": "ponpoke",
-        "likes": 551,
+        "likes": 554,
         "downloads": 35950,
         "url": "https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "lastModified": "2026-05-02T11:34:41.000Z",
@@ -360,30 +360,6 @@
       "combo": 0.9887
     },
     {
-      "id": "wangzhang/gemma-4-31B-it-abliterated",
-      "name": "gemma-4-31B-it-abliterated",
-      "author": "wangzhang",
-      "likes": 32,
-      "downloads": 572411,
-      "url": "https://huggingface.co/wangzhang/gemma-4-31B-it-abliterated",
-      "lastModified": "2026-08-29T17:03:21.000Z",
-      "daysAgo": 10,
-      "pipeline": "",
-      "tags": [
-        "safetensors",
-        "gemma4",
-        "abliterated",
-        "uncensored",
-        "direct-weight-editing",
-        "abliterix",
-        "vllm",
-        "llm-judge"
-      ],
-      "pop": 0.9049,
-      "rec": 0.75,
-      "combo": 0.8507
-    },
-    {
       "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "author": "0bserverx",
@@ -406,6 +382,30 @@
       "pop": 0.9753,
       "rec": 0.6122,
       "combo": 0.8482
+    },
+    {
+      "id": "wangzhang/gemma-4-31B-it-abliterated",
+      "name": "gemma-4-31B-it-abliterated",
+      "author": "wangzhang",
+      "likes": 32,
+      "downloads": 572411,
+      "url": "https://huggingface.co/wangzhang/gemma-4-31B-it-abliterated",
+      "lastModified": "2026-08-29T17:03:21.000Z",
+      "daysAgo": 11,
+      "pipeline": "",
+      "tags": [
+        "safetensors",
+        "gemma4",
+        "abliterated",
+        "uncensored",
+        "direct-weight-editing",
+        "abliterix",
+        "vllm",
+        "llm-judge"
+      ],
+      "pop": 0.9049,
+      "rec": 0.7317,
+      "combo": 0.8443
     },
     {
       "id": "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
@@ -507,7 +507,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "name": "Huihui-Qwen3.8-27B-abliterated",
       "author": "huihui-ai",
-      "likes": 384,
+      "likes": 385,
       "downloads": 71734,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "lastModified": "2026-08-24T03:47:39.000Z",
@@ -625,5 +625,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-09T16:34:47Z"
+  "updated": "2026-09-09T17:04:47Z"
 }
