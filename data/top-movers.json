@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T20:00:39Z",
+  "updated_at": "2026-09-09T20:15:49Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -13,22 +13,22 @@
       {
         "symbol": "NET",
         "name": "Cloudflare, Inc.",
-        "price": 314.12,
-        "change_24h": 10.49,
+        "price": 314.28,
+        "change_24h": 10.55,
         "asset": "equity"
       },
       {
         "symbol": "SSL",
         "name": "Sasol Ltd.",
-        "price": 14.57,
-        "change_24h": 9.55,
+        "price": 14.58,
+        "change_24h": 9.62,
         "asset": "equity"
       },
       {
-        "symbol": "MKC-V",
-        "name": "McCormick & Company, Incorporat",
-        "price": 56.15,
-        "change_24h": 6.77,
+        "symbol": "PLSE",
+        "name": "Pulse Biosciences, Inc",
+        "price": 52.97,
+        "change_24h": 8.57,
         "asset": "equity"
       },
       {
@@ -82,73 +82,73 @@
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1250.2,
-        "change_24h": 9.02,
+        "price": 1250.17,
+        "change_24h": 8.67,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 2.51,
-        "change_24h": 8.16,
+        "price": 2.5,
+        "change_24h": 6.87,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
-        "price": 1.85,
-        "change_24h": 3.44,
+        "price": 1.87,
+        "change_24h": 2.95,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004448,
-        "change_24h": 2.38,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.449487,
+        "change_24h": 1.97,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 508.82,
-        "change_24h": 2.02,
+        "price": 510.38,
+        "change_24h": 1.92,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.151134,
-        "change_24h": -9.87,
-        "asset": "crypto"
-      },
-      {
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.12,
-        "change_24h": -9.56,
+        "change_24h": -12.53,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.150629,
+        "change_24h": -10.74,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.426677,
-        "change_24h": -7.85,
+        "price": 0.425935,
+        "change_24h": -8.73,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.062631,
-        "change_24h": -7.23,
+        "price": 0.062482,
+        "change_24h": -7.66,
         "asset": "crypto"
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price": 11.86,
-        "change_24h": -5.5,
+        "price": 11.84,
+        "change_24h": -6.1,
         "asset": "crypto"
       }
     ]
