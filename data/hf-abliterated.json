@@ -253,7 +253,7 @@
         "downloads": 2305654,
         "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "lastModified": "2026-09-08T15:49:51.000Z",
-        "daysAgo": 0,
+        "daysAgo": 1,
         "pipeline": "image-text-to-text",
         "tags": [
           "transformers",
@@ -266,8 +266,8 @@
           "image-text-to-text"
         ],
         "pop": 1.0,
-        "rec": 1.0,
-        "combo": 1.0
+        "rec": 0.9677,
+        "combo": 0.9887
       },
       {
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
@@ -294,7 +294,7 @@
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 3619,
+        "likes": 3620,
         "downloads": 1502413,
         "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-04-17T02:59:21.000Z",
@@ -343,7 +343,7 @@
       "downloads": 2305654,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "lastModified": "2026-09-08T15:49:51.000Z",
-      "daysAgo": 0,
+      "daysAgo": 1,
       "pipeline": "image-text-to-text",
       "tags": [
         "transformers",
@@ -356,8 +356,8 @@
         "image-text-to-text"
       ],
       "pop": 1.0,
-      "rec": 1.0,
-      "combo": 1.0
+      "rec": 0.9677,
+      "combo": 0.9887
     },
     {
       "id": "wangzhang/gemma-4-31B-it-abliterated",
@@ -625,5 +625,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-09T15:34:45Z"
+  "updated": "2026-09-09T16:04:46Z"
 }
