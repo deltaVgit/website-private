@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-09-09T15:30:52Z",
+  "updated_at": "2026-09-09T15:45:25Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "PLSE",
         "name": "Pulse Biosciences, Inc",
-        "price": 54.84,
-        "change_24h": 12.39,
+        "price": 56.91,
+        "change_24h": 16.65,
         "asset": "equity"
       },
       {
         "symbol": "SUNB",
         "name": "Sunbelt Rentals Holdings, Inc.",
-        "price": 77.46,
-        "change_24h": 11.74,
+        "price": 76.7,
+        "change_24h": 10.65,
         "asset": "equity"
       },
       {
@@ -25,17 +25,17 @@
         "asset": "equity"
       },
       {
-        "symbol": "SRPT",
-        "name": "Sarepta Therapeutics, Inc.",
-        "price": 22.82,
-        "change_24h": 8.98,
+        "symbol": "NET",
+        "name": "Cloudflare, Inc.",
+        "price": 312.91,
+        "change_24h": 10.06,
         "asset": "equity"
       },
       {
-        "symbol": "NET",
-        "name": "Cloudflare, Inc.",
-        "price": 310.06,
-        "change_24h": 9.06,
+        "symbol": "SRPT",
+        "name": "Sarepta Therapeutics, Inc.",
+        "price": 22.9,
+        "change_24h": 9.36,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "TTAN",
         "name": "ServiceTitan, Inc.",
-        "price": 56.98,
-        "change_24h": -30.15,
+        "price": 57.62,
+        "change_24h": -29.39,
         "asset": "equity"
       },
       {
         "symbol": "TBBK",
         "name": "The Bancorp, Inc.",
-        "price": 49.81,
-        "change_24h": -22.7,
-        "asset": "equity"
-      },
-      {
-        "symbol": "BRZE",
-        "name": "Braze, Inc.",
-        "price": 24.53,
-        "change_24h": -19.07,
+        "price": 49.5,
+        "change_24h": -23.15,
         "asset": "equity"
       },
       {
         "symbol": "RML",
         "name": "Resolution Minerals Ltd American Depositary Shar",
-        "price": 11.66,
-        "change_24h": -17.66,
+        "price": 11.4,
+        "change_24h": -19.49,
+        "asset": "equity"
+      },
+      {
+        "symbol": "BRZE",
+        "name": "Braze, Inc.",
+        "price": 24.84,
+        "change_24h": -18.05,
         "asset": "equity"
       },
       {
         "symbol": "CASY",
         "name": "Caseys General Stores, Inc.",
-        "price": 622.52,
-        "change_24h": -15.13,
+        "price": 623.62,
+        "change_24h": -14.98,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 25.31,
-        "change_24h": 7.31,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1257.61,
-        "change_24h": 6.82,
+        "price": 1272.13,
+        "change_24h": 7.44,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004569,
-        "change_24h": 5.27,
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 25.2,
+        "change_24h": 6.7,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 2.54,
-        "change_24h": 5.13,
+        "price": 2.56,
+        "change_24h": 6.22,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.89,
-        "change_24h": 4.49,
+        "price": 4.93,
+        "change_24h": 4.74,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ATOM",
+        "name": "Cosmos Hub",
+        "price": 1.87,
+        "change_24h": 4.12,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.434454,
-        "change_24h": -11.21,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 2.84,
-        "change_24h": -6.25,
+        "price": 0.439575,
+        "change_24h": -9.7,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.156596,
-        "change_24h": -6.2,
+        "price": 0.155637,
+        "change_24h": -7.5,
         "asset": "crypto"
       },
       {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.214449,
-        "change_24h": -6.12,
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.102329,
+        "change_24h": -6.23,
         "asset": "crypto"
       },
       {
         "symbol": "ETC",
         "name": "Ethereum Classic",
-        "price": 8.15,
-        "change_24h": -6.12,
+        "price": 8.18,
+        "change_24h": -6.19,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price": 0.216037,
+        "change_24h": -5.92,
         "asset": "crypto"
       }
     ]
