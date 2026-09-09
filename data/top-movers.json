@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-09-09T13:16:19Z",
+  "updated_at": "2026-09-09T13:30:59Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "ROIV",
         "name": "Roivant Sciences Ltd.",
-        "price": 41.48,
-        "change_24h": 18.75,
+        "price": 41.76,
+        "change_24h": 0.66,
         "asset": "equity"
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, ",
-        "price": 63.96,
-        "change_24h": 16.29,
-        "asset": "equity"
-      },
-      {
-        "symbol": "SMR",
-        "name": "NuScale Power Corporation",
-        "price": 11.18,
-        "change_24h": 15.26,
-        "asset": "equity"
-      },
-      {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "price": 69.56,
-        "change_24h": 12.85,
+        "price": 66.0,
+        "change_24h": 3.17,
         "asset": "equity"
       },
       {
         "symbol": "DOCN",
         "name": "DigitalOcean Holdings, Inc.",
-        "price": 126.69,
-        "change_24h": 12.64,
+        "price": 126.01,
+        "change_24h": -0.47,
+        "asset": "equity"
+      },
+      {
+        "symbol": "CRWV",
+        "name": "CoreWeave, Inc.",
+        "price": 100.5,
+        "change_24h": 0.68,
+        "asset": "equity"
+      },
+      {
+        "symbol": "FRMI",
+        "name": "Fermi Inc.",
+        "price": 5.7323,
+        "change_24h": 0.39,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "DYN",
-        "name": "Dyne Therapeutics, Inc.",
-        "price": 20.31,
-        "change_24h": -16.35,
+        "symbol": "TTAN",
+        "name": "ServiceTitan, Inc.",
+        "price": 68.25,
+        "change_24h": -16.34,
         "asset": "equity"
       },
       {
-        "symbol": "GPCR",
-        "name": "Structure Therapeutics Inc.",
-        "price": 40.38,
-        "change_24h": -14.7,
+        "symbol": "DYN",
+        "name": "Dyne Therapeutics, Inc.",
+        "price": 19.43,
+        "change_24h": -4.32,
         "asset": "equity"
       },
       {
         "symbol": "NVS",
         "name": "Novartis AG",
-        "price": 137.7,
-        "change_24h": -13.93,
+        "price": 138.43,
+        "change_24h": 0.51,
         "asset": "equity"
       },
       {
         "symbol": "HWM",
         "name": "Howmet Aerospace Inc.",
-        "price": 231.53,
-        "change_24h": -10.7,
+        "price": 229.83,
+        "change_24h": -0.73,
         "asset": "equity"
       },
       {
         "symbol": "STDN",
         "name": "Standard Nuclear, Inc.",
-        "price": 13.21,
-        "change_24h": -10.14,
+        "price": 13.38,
+        "change_24h": 1.33,
         "asset": "equity"
       }
     ]
@@ -82,73 +82,73 @@
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 2.61,
-        "change_24h": 13.43,
+        "price": 2.59,
+        "change_24h": 13.29,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
         "price": 1.95,
-        "change_24h": 11.5,
+        "change_24h": 13.24,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1263.81,
-        "change_24h": 9.19,
+        "price": 1263.1,
+        "change_24h": 9.27,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.004642,
+        "change_24h": 8.75,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.17,
-        "change_24h": 8.62,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004645,
-        "change_24h": 7.97,
+        "change_24h": 8.69,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.592383,
-        "change_24h": -7.0,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ICP",
         "name": "Internet Computer",
         "price": 2.89,
-        "change_24h": -5.21,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 6.68,
-        "change_24h": -4.47,
+        "change_24h": -4.65,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.064531,
-        "change_24h": -4.18,
+        "price": 0.064553,
+        "change_24h": -3.95,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.453652,
-        "change_24h": -3.82,
+        "price": 0.453721,
+        "change_24h": -3.88,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.102645,
+        "change_24h": -3.84,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 6.7,
+        "change_24h": -3.47,
         "asset": "crypto"
       }
     ]
