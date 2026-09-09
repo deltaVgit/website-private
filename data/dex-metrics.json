@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T00:05:51Z",
+  "updated_at": "2026-09-09T01:05:53Z",
   "source": "https://api.llama.fi/overview/dexs",
   "weekly": [
     {
@@ -1258,31 +1258,31 @@
     },
     {
       "week": "2026-W37",
-      "curated": 21189833707.059998,
-      "filtered": 21189833707.059998,
-      "raw": 21189833707.059998
+      "curated": 31261940749.790005,
+      "filtered": 31261940749.790005,
+      "raw": 31261940749.790005
     }
   ],
   "chains": [
     {
+      "chain": "PancakeSwap AMM",
+      "volume_24h": 390984900.0,
+      "delta_pct": 241.71
+    },
+    {
       "chain": "Raydium AMM",
-      "volume_24h": 350633415.0,
-      "delta_pct": -10.59
+      "volume_24h": 350984425.0,
+      "delta_pct": 14.02
     },
     {
       "chain": "Orca DEX",
-      "volume_24h": 159470978.0,
-      "delta_pct": -51.19
+      "volume_24h": 153621206.0,
+      "delta_pct": -35.15
     },
     {
       "chain": "Curve DEX",
-      "volume_24h": 123776252.0,
-      "delta_pct": 90.77
-    },
-    {
-      "chain": "PancakeSwap AMM",
-      "volume_24h": 114419076.0,
-      "delta_pct": -13.18
+      "volume_24h": 125085246.0,
+      "delta_pct": 19.44
     },
     {
       "chain": "DODO AMM",
@@ -1291,38 +1291,38 @@
     },
     {
       "chain": "Quickswap Dex",
-      "volume_24h": 12001758.0,
-      "delta_pct": 27.34
+      "volume_24h": 9245406.0,
+      "delta_pct": -22.97
     },
     {
       "chain": "SushiSwap",
-      "volume_24h": 487410.0,
-      "delta_pct": -51.87
+      "volume_24h": 480414.0,
+      "delta_pct": -60.3
     },
     {
       "chain": "Defi Swap",
       "volume_24h": 209582.0,
-      "delta_pct": 898.58
+      "delta_pct": 564.9
     },
     {
       "chain": "Pangolin V2",
-      "volume_24h": 178141.0,
-      "delta_pct": 389.18
+      "volume_24h": 176010.0,
+      "delta_pct": 4.0
     },
     {
       "chain": "Bancor V2.1",
-      "volume_24h": 81486.0,
-      "delta_pct": -57.76
+      "volume_24h": 81603.0,
+      "delta_pct": -50.57
     },
     {
       "chain": "Nerve",
-      "volume_24h": 61162.0,
-      "delta_pct": 130.52
+      "volume_24h": 61360.0,
+      "delta_pct": 73.18
     },
     {
       "chain": "Honeyswap",
-      "volume_24h": 7187.0,
-      "delta_pct": -90.53
+      "volume_24h": 7158.0,
+      "delta_pct": -90.3
     }
   ]
 }
