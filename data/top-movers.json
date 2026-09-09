@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-09T21:30:47Z",
+  "updated_at": "2026-09-09T21:45:48Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
+        "symbol": "PLSE",
+        "name": "Pulse Biosciences, Inc",
+        "price": 56.04,
+        "change_24h": 14.86,
+        "asset": "equity"
+      },
+      {
         "symbol": "ASO",
         "name": "Academy Sports and Outdoors, In",
-        "price": 51.15,
-        "change_24h": 14.4,
+        "price": 49.8,
+        "change_24h": 11.38,
         "asset": "equity"
       },
       {
         "symbol": "NET",
         "name": "Cloudflare, Inc.",
-        "price": 314.18,
-        "change_24h": 10.51,
+        "price": 316.72,
+        "change_24h": 11.4,
         "asset": "equity"
       },
       {
         "symbol": "SSL",
         "name": "Sasol Ltd.",
-        "price": 14.58,
-        "change_24h": 9.62,
+        "price": 14.55,
+        "change_24h": 9.44,
         "asset": "equity"
       },
       {
-        "symbol": "PLSE",
-        "name": "Pulse Biosciences, Inc",
-        "price": 52.97,
-        "change_24h": 8.57,
-        "asset": "equity"
-      },
-      {
-        "symbol": "AMBA",
-        "name": "Ambarella, Inc.",
-        "price": 68.8,
-        "change_24h": 8.38,
+        "symbol": "CMPS",
+        "name": "COMPASS Pathways Plc - American",
+        "price": 15.27,
+        "change_24h": 8.77,
         "asset": "equity"
       }
     ],
@@ -82,36 +82,36 @@
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 2.49,
-        "change_24h": 7.74,
+        "price": 2.46,
+        "change_24h": 6.85,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1244.61,
-        "change_24h": 6.49,
+        "price": 1243.23,
+        "change_24h": 6.4,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.449399,
-        "change_24h": 4.23,
+        "price": 0.448188,
+        "change_24h": 4.28,
         "asset": "crypto"
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.036884,
-        "change_24h": 3.12,
+        "price": 0.036423,
+        "change_24h": 2.63,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 510.63,
-        "change_24h": 2.57,
+        "price": 507.09,
+        "change_24h": 2.01,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "DOT",
         "name": "Polkadot",
-        "price": 1.12,
-        "change_24h": -10.17,
+        "price": 1.11,
+        "change_24h": -10.33,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.152239,
-        "change_24h": -9.39,
+        "price": 0.151775,
+        "change_24h": -9.36,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.062225,
-        "change_24h": -7.73,
+        "price": 0.062089,
+        "change_24h": -7.92,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.427045,
-        "change_24h": -6.54,
+        "price": 0.425322,
+        "change_24h": -7.17,
         "asset": "crypto"
       },
       {
         "symbol": "ETC",
         "name": "Ethereum Classic",
-        "price": 8.1,
-        "change_24h": -6.31,
+        "price": 8.08,
+        "change_24h": -6.72,
         "asset": "crypto"
       }
     ]
