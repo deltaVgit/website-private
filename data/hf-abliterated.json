@@ -50,7 +50,7 @@
         "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "name": "Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 2018,
+        "likes": 2019,
         "downloads": 852317,
         "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-06-05T17:55:41.000Z",
@@ -75,7 +75,7 @@
         "downloads": 645949,
         "url": "https://huggingface.co/mradermacher/Qwen3-VL-8B-Instruct-abliterated-GGUF",
         "lastModified": "2025-11-15T11:01:32.000Z",
-        "daysAgo": 297,
+        "daysAgo": 298,
         "pipeline": "",
         "tags": [
           "transformers",
@@ -88,8 +88,8 @@
           "base_model:quantized:prithivMLmods/Qwen3-VL-8B-Instruct-abliterated-v1"
         ],
         "pop": 0.9132,
-        "rec": 0.0917,
-        "combo": 0.6257
+        "rec": 0.0915,
+        "combo": 0.6256
       },
       {
         "id": "wangzhang/gemma-4-31B-it-abliterated",
@@ -228,7 +228,7 @@
         "id": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "name": "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1124,
+        "likes": 1125,
         "downloads": 2541225,
         "url": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-04-06T03:50:35.000Z",
@@ -504,30 +504,6 @@
       "combo": 0.7361
     },
     {
-      "id": "sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
-      "name": "Huihui-Qwen3.8-27B-abliterated-NVFP4",
-      "author": "sakamakismile",
-      "likes": 56,
-      "downloads": 64668,
-      "url": "https://huggingface.co/sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
-      "lastModified": "2026-08-24T11:01:03.000Z",
-      "daysAgo": 15,
-      "pipeline": "text-generation",
-      "tags": [
-        "vllm",
-        "safetensors",
-        "qwen3_5",
-        "nvfp4",
-        "compressed-tensors",
-        "mtp",
-        "speculative-decoding",
-        "blackwell"
-      ],
-      "pop": 0.7561,
-      "rec": 0.6667,
-      "combo": 0.7248
-    },
-    {
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "name": "Huihui-Qwen3.8-27B-abliterated",
       "author": "huihui-ai",
@@ -550,6 +526,30 @@
       "pop": 0.7631,
       "rec": 0.6522,
       "combo": 0.7243
+    },
+    {
+      "id": "sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
+      "name": "Huihui-Qwen3.8-27B-abliterated-NVFP4",
+      "author": "sakamakismile",
+      "likes": 56,
+      "downloads": 64668,
+      "url": "https://huggingface.co/sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
+      "lastModified": "2026-08-24T11:01:03.000Z",
+      "daysAgo": 16,
+      "pipeline": "text-generation",
+      "tags": [
+        "vllm",
+        "safetensors",
+        "qwen3_5",
+        "nvfp4",
+        "compressed-tensors",
+        "mtp",
+        "speculative-decoding",
+        "blackwell"
+      ],
+      "pop": 0.7561,
+      "rec": 0.6522,
+      "combo": 0.7197
     },
     {
       "id": "SC117/Spark-X2.5-4B-abliterated-FIT-GGUF",
@@ -600,30 +600,30 @@
       "combo": 0.7154
     },
     {
-      "id": "PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
-      "name": "Ornith-1.5-35B-A3B-Abliterated-GGUF",
-      "author": "PocketAiHub",
-      "likes": 40,
-      "downloads": 54158,
-      "url": "https://huggingface.co/PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
-      "lastModified": "2026-08-22T11:00:34.000Z",
-      "daysAgo": 17,
-      "pipeline": "image-text-to-text",
+      "id": "Ryn1998/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
+      "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
+      "author": "Ryn1998",
+      "likes": 17,
+      "downloads": 15631,
+      "url": "https://huggingface.co/Ryn1998/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
+      "lastModified": "2026-08-31T12:04:41.000Z",
+      "daysAgo": 8,
+      "pipeline": "text-generation",
       "tags": [
+        "transformers",
         "gguf",
-        "llama.cpp",
-        "ornith",
-        "qwen3.5-moe",
-        "multimodal",
+        "qwen3.8",
+        "qwen3.5",
+        "heretic",
         "abliterated",
-        "image-text-to-text",
-        "en"
+        "uncensored",
+        "roleplay"
       ],
-      "pop": 0.744,
-      "rec": 0.6383,
-      "combo": 0.707
+      "pop": 0.6591,
+      "rec": 0.7895,
+      "combo": 0.7048
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-09T10:34:28Z"
+  "updated": "2026-09-09T11:04:27Z"
 }
