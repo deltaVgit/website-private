@@ -1,14 +1,7 @@
 {
-  "updated": "2026-09-08T23:45:51.829470Z",
-  "period": "2026-09-08 \u2192 2026-10-23",
+  "updated": "2026-09-09T00:00:52.370492Z",
+  "period": "2026-09-09 \u2192 2026-10-24",
   "events": [
-    {
-      "date": "2026-09-08",
-      "label": "EU ZEW Economic Sentiment",
-      "currency": "EUR",
-      "impact": "medium",
-      "country": "EU"
-    },
     {
       "date": "2026-09-09",
       "label": "US CPI (MoM)",
@@ -281,6 +274,13 @@
       "currency": "USD",
       "impact": "low",
       "country": "US"
+    },
+    {
+      "date": "2026-10-07",
+      "label": "Swiss CPI (YoY)",
+      "currency": "CHF",
+      "impact": "medium",
+      "country": "CH"
     }
   ]
 }
