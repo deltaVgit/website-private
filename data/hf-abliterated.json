@@ -125,7 +125,7 @@
         "downloads": 35950,
         "url": "https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "lastModified": "2026-05-02T11:34:41.000Z",
-        "daysAgo": 129,
+        "daysAgo": 130,
         "pipeline": "text-to-image",
         "tags": [
           "safetensors",
@@ -167,7 +167,7 @@
         "downloads": 13245,
         "url": "https://huggingface.co/ponpoke/flux2-klein-4b-uncensored-text-encoder",
         "lastModified": "2026-05-02T11:35:01.000Z",
-        "daysAgo": 129,
+        "daysAgo": 130,
         "pipeline": "text-to-image",
         "tags": [
           "safetensors",
@@ -249,7 +249,7 @@
         "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
         "author": "huihui-ai",
-        "likes": 619,
+        "likes": 622,
         "downloads": 2305654,
         "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "lastModified": "2026-09-08T15:49:51.000Z",
@@ -294,7 +294,7 @@
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 3616,
+        "likes": 3617,
         "downloads": 1502413,
         "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-04-17T02:59:21.000Z",
@@ -339,7 +339,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
       "author": "huihui-ai",
-      "likes": 619,
+      "likes": 622,
       "downloads": 2305654,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "lastModified": "2026-09-08T15:49:51.000Z",
@@ -600,30 +600,30 @@
       "combo": 0.7154
     },
     {
-      "id": "Ryn1998/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
-      "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
-      "author": "Ryn1998",
-      "likes": 17,
-      "downloads": 15631,
-      "url": "https://huggingface.co/Ryn1998/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
-      "lastModified": "2026-08-31T12:04:41.000Z",
-      "daysAgo": 8,
-      "pipeline": "text-generation",
+      "id": "PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
+      "name": "Ornith-1.5-35B-A3B-Abliterated-GGUF",
+      "author": "PocketAiHub",
+      "likes": 40,
+      "downloads": 54158,
+      "url": "https://huggingface.co/PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
+      "lastModified": "2026-08-22T11:00:34.000Z",
+      "daysAgo": 18,
+      "pipeline": "image-text-to-text",
       "tags": [
-        "transformers",
         "gguf",
-        "qwen3.8",
-        "qwen3.5",
-        "heretic",
+        "llama.cpp",
+        "ornith",
+        "qwen3.5-moe",
+        "multimodal",
         "abliterated",
-        "uncensored",
-        "roleplay"
+        "image-text-to-text",
+        "en"
       ],
-      "pop": 0.6591,
-      "rec": 0.7895,
-      "combo": 0.7048
+      "pop": 0.744,
+      "rec": 0.625,
+      "combo": 0.7023
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-09T11:34:30Z"
+  "updated": "2026-09-09T12:04:48Z"
 }
