@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T23:35:16Z",
+  "updatedAt": "2026-09-10T00:05:21Z",
   "kev": [
     {
       "cve": "CVE-2026-19490",
@@ -130,81 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-82542",
+      "id": "CVE-2026-82616",
       "severity": "CRITICAL",
-      "score": 10.0,
-      "description": "A weakness has been identified in Tenda HG10 300001138. Affected by this issue is the function formIPv6Routing of the file /boaform/admin/formIPv6Routing of the component Boa Web Server. This manipulation of the argument",
-      "published": "2026-08-30T13:16:56.267"
+      "score": 9.9,
+      "description": "A vulnerability was found in TOTOLINK NR1800X 9.1.0u.6681_B20230703. Impacted is the function setUploadSetting of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument FileName results in stack-based buffer ove",
+      "published": "2026-08-31T05:17:06.393"
     },
     {
-      "id": "CVE-2026-15980",
+      "id": "CVE-2026-82593",
       "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The MyHome Core plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 4.4.5. This is due to missing authorization in the send_link() AJAX handler and improper token validation ",
-      "published": "2026-08-30T05:16:58.407"
+      "score": 9.9,
+      "description": "A flaw has been found in D-Link DIR-825M 1.1.8. This impacts the function sub_41802C of the file /boafrm/formLtefotaUpgradeFibocom of the component LTE Module Firmware Upgrade. This manipulation of the argument fota_url ",
+      "published": "2026-08-31T00:16:41.630"
     },
     {
-      "id": "CVE-2026-82539",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "description": "A vulnerability was determined in TOTOLINK A720R 4.1.5cu.630_B20250509. This impacts the function setMacFilterRules of the file cstecgi.cgi of the component MAC Filtering. Executing a manipulation of the argument desc ca",
-      "published": "2026-08-30T11:17:35.067"
-    },
-    {
-      "id": "CVE-2026-82635",
+      "id": "CVE-2026-77956",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "Pake before 3.13.1 joins the JavaScript-supplied filename for the download_file Tauri command onto the user's Downloads directory with no sanitization. A filename containing path traversal sequences (for example ../Libra",
-      "published": "2026-08-30T13:16:56.923"
+      "score": 8.9,
+      "description": "Improper Control of Generation of Code (Code Injection) vulnerability in ash-project ash_ai allows a remote, unauthenticated client to execute arbitrary Elixir code. AshAi.Actions.Prompt evaluates prompt content through ",
+      "published": "2026-08-31T01:16:49.563"
     },
     {
-      "id": "CVE-2026-81660",
+      "id": "CVE-2026-77850",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "The Groundhogg — CRM, Newsletters, and Marketing Automation WordPress plugin before 4.5.13 does not validate or escape values submitted to some optional web form fields before storing them and outputting them back in an ",
-      "published": "2026-08-30T07:17:21.790"
+      "score": 8.4,
+      "description": "Stored Cross-site Scripting vulnerability in ash-project ash_admin executes attacker-supplied record content as script in an administrator's browser. The relationship typeahead components AshAdmin.Components.Resource.Rel",
+      "published": "2026-08-31T03:16:42.307"
     },
     {
-      "id": "CVE-2026-76585",
+      "id": "CVE-2026-82722",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "The Customer Reviews for WooCommerce WordPress plugin before 5.118.0 does not sanitise and escape the content of customer reviews received via one of its endpoints, which could allow unauthenticated users to perform Stor",
-      "published": "2026-08-30T07:17:20.997"
+      "score": 8.3,
+      "description": "Allocation of Resources Without Limits or Throttling vulnerability in ash-project ash_admin lets any client that can reach the admin LiveView exhaust the BEAM atom table and crash the entire node. Two LiveView event hand",
+      "published": "2026-08-31T03:16:43.817"
     },
     {
-      "id": "CVE-2026-75759",
+      "id": "CVE-2026-82673",
+      "severity": "HIGH",
+      "score": 8.3,
+      "description": "Improper Limitation of a Pathname to a Restricted Directory (Path Traversal) vulnerability in ash-project ash_admin allows writing attacker-controlled bytes to arbitrary paths on the server. AshAdmin.Components.Resource.",
+      "published": "2026-08-31T03:16:43.473"
+    },
+    {
+      "id": "CVE-2026-75757",
+      "severity": "HIGH",
+      "score": 8.3,
+      "description": "Reliance on Cookies without Validation and Integrity Checking vulnerability in ash-project ash_admin lets an attacker who controls a sibling subdomain rebind an admin's session to a different actor, tenant, or authorizat",
+      "published": "2026-08-31T03:16:42.133"
+    },
+    {
+      "id": "CVE-2026-82724",
       "severity": "HIGH",
       "score": 7.6,
-      "description": "Improper Verification of Cryptographic Signature vulnerability in erlef oidcc allows an unauthenticated attacker to impersonate an arbitrary user via an encrypted ID token or JARM response carrying no nested signature. O",
-      "published": "2026-08-30T02:18:30.110"
+      "description": "Incorrect Authorization vulnerability in ash-project ash_phoenix invokes the SubdomainHook authorization callback with a nil tenant, so tenant-scoped access checks never see the tenant they are meant to enforce. AshPhoen",
+      "published": "2026-08-31T04:17:28.980"
     },
     {
-      "id": "CVE-2026-82480",
+      "id": "CVE-2026-82608",
       "severity": "HIGH",
       "score": 7.4,
-      "description": "A security flaw has been discovered in NASA cFS up to 7.0.1. The affected element is the function CFE_SB_GetUserDataLength of the file src/cFS/cfe/modules/sb/fsw/src/cfe_sb_util.c of the component cFE Software Bus. Perfo",
-      "published": "2026-08-30T06:16:56.730"
+      "description": "A vulnerability was determined in Kamailio up to 5.5.0/6.0.7. This affects the function get_4bytes of the file src/modules/ims_registrar_scscf/cxdx_avp.c of the component AVP Handler. Executing a manipulation can lead to",
+      "published": "2026-08-31T03:16:43.293"
     },
     {
-      "id": "CVE-2026-82543",
+      "id": "CVE-2026-82597",
       "severity": "HIGH",
-      "score": 7.3,
-      "description": "A vulnerability was detected in vastsa FileCodeBox up to 2.3. This vulnerability affects the function update_file_usage of the file apps/base/views.py of the component Pickup Limit Handler. Performing a manipulation resu",
-      "published": "2026-08-30T13:16:56.447"
+      "score": 7.4,
+      "description": "A vulnerability was identified in TOTOLINK NR1800X 9.1.0u.6681_B20230703. This affects the function setUssd of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument ussd leads to command injection. The attack c",
+      "published": "2026-08-31T01:16:50.190"
     },
     {
-      "id": "CVE-2026-82478",
+      "id": "CVE-2026-81315",
       "severity": "HIGH",
-      "score": 7.3,
-      "description": "A vulnerability was determined in NASA Trick 19.6.0. This issue affects the function JSONVariableServerThread::parse_request of the file trick_source/sim_services/JSONVariableServer/JSONVariableServerThread.cpp of the co",
-      "published": "2026-08-30T05:16:59.380"
+      "score": 7.4,
+      "description": "Origin Validation Error vulnerability in ash-project ash_ai allows a malicious web page to bypass the MCP server's DNS-rebinding protection and issue cross-site requests to a user's local MCP server with that user's acto",
+      "published": "2026-08-31T01:16:49.977"
     },
     {
-      "id": "CVE-2026-14307",
+      "id": "CVE-2026-82595",
       "severity": "HIGH",
-      "score": 7.1,
-      "description": "The geotargetingwp WordPress plugin before 3.5.6.2 does not sanitise or escape several parameters before reflecting them back in AJAX responses that are served with an HTML content type, allowing unauthenticated attacker",
-      "published": "2026-08-30T07:17:20.000"
+      "score": 7.4,
+      "description": "A vulnerability was found in D-Link DIR-825M 1.1.8. Affected by this vulnerability is the function sub_456CF4 of the file /boafrm/formSysCmd of the component System Command Execution. Performing a manipulation of the arg",
+      "published": "2026-08-31T00:16:41.980"
     }
   ],
   "breaches": [
