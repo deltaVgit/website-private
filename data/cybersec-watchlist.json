@@ -1,11 +1,19 @@
 [
   {
+    "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
+    "url": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html",
+    "source": "The Hacker News",
+    "summary": "A lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?” An extension asks for access and takes too much. A trusted service becomes part of a phishing chain. An old ",
+    "added": "2026-09-10T17:47:38+00:00",
+    "expires": "2026-09-24T19:04:52Z"
+  },
+  {
     "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations",
     "url": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
     "source": "BleepingComputer",
     "summary": "A threat actor, likely Russian-speaking, used hundreds of AI agents to develop and launch a global exploitation campaign targeting vulnerable PaperCut NG/MF servers. [...]",
     "added": "2026-09-10T15:55:56+00:00",
-    "expires": "2026-09-24T18:34:53Z"
+    "expires": "2026-09-24T19:04:51Z"
   },
   {
     "title": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers",
@@ -13,7 +21,7 @@
     "source": "BleepingComputer",
     "summary": "Cisco Talos says two recently patched Secure Firewall Management Center (FMC) vulnerabilities have been exploited by three separate threat clusters linked to ransomware and state-sponsored attacks. [...]",
     "added": "2026-09-10T15:43:58+00:00",
-    "expires": "2026-09-24T18:34:53Z"
+    "expires": "2026-09-24T19:04:51Z"
   },
   {
     "title": "Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit",
@@ -21,7 +29,7 @@
     "source": "Dark Reading",
     "summary": "The disgruntled researcher continued their vendetta against Microsoft by publishing yet another zero-day exploit for Windows Defender.",
     "added": "2026-09-10T15:29:12+00:00",
-    "expires": "2026-09-24T18:34:54Z"
+    "expires": "2026-09-24T19:04:52Z"
   },
   {
     "title": "IDScan confirms breach tied to 153 million stolen driver’s licenses",
@@ -29,7 +37,7 @@
     "source": "BleepingComputer",
     "summary": "Identity verification company IDScan has confirmed that hackers accessed customer data stored in its cloud platform, days after reports linked the company to a massive database containing more than 153 million driver's l",
     "added": "2026-09-10T14:55:33+00:00",
-    "expires": "2026-09-24T18:34:53Z"
+    "expires": "2026-09-24T19:04:51Z"
   },
   {
     "title": "Google Play Early Access Abused to Push Thousands of Deceptive Android Apps",
@@ -37,7 +45,7 @@
     "source": "The Hacker News",
     "summary": "Bad actors are misusing Google Play's Early Access program to push deceptive apps that claim to offer money, rewards, casino winnings, and premium content. Early Access apps are apps that haven't been released on the off",
     "added": "2026-09-10T14:36:47+00:00",
-    "expires": "2026-09-24T18:34:54Z"
+    "expires": "2026-09-24T19:04:52Z"
   },
   {
     "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
@@ -45,7 +53,7 @@
     "source": "BleepingComputer",
     "summary": "Multiple cyber-espionage groups deployed an exploit kit dubbed \"BlueMoon\" that leveraged zero-day vulnerabilities in Microsoft Windows and Google Chrome. [...]",
     "added": "2026-09-10T14:11:34+00:00",
-    "expires": "2026-09-24T18:34:53Z"
+    "expires": "2026-09-24T19:04:51Z"
   },
   {
     "title": "The Top 4 Threats We Found by Investigating Every Alert for a Quarter",
@@ -53,7 +61,7 @@
     "source": "BleepingComputer",
     "summary": "Identity was the target in roughly half of all confirmed malicious activity. Prophet Security breaks down the four main attack patterns seen across customer environments between May and July 2026, and explains why some a",
     "added": "2026-09-10T14:00:10+00:00",
-    "expires": "2026-09-24T18:34:53Z"
+    "expires": "2026-09-24T19:04:51Z"
   },
   {
     "title": "Orthanc DICOM Server",
@@ -61,7 +69,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated remote attacker to write past the end of a heap allocation when Orthanc decodes an attacker-supplied PNG or JPEG image, resulti",
     "added": "2026-09-10T12:00:00+00:00",
-    "expires": "2026-09-24T18:34:54Z"
+    "expires": "2026-09-24T19:04:52Z"
   },
   {
     "title": "NextGen Healthcare Mirth Connect",
@@ -69,7 +77,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to exfiltrate date or cause a denial-of-service condition. The following versions of NextGen Healthcare Mirth Connect are affecte",
     "added": "2026-09-10T12:00:00+00:00",
-    "expires": "2026-09-24T18:34:54Z"
+    "expires": "2026-09-24T19:04:52Z"
   },
   {
     "title": "ST Engineering iDirect iQ-Series Terminals (Update A)",
@@ -77,7 +85,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to device information or cause a denial-of-service condition. The following versions of ST Engineerin",
     "added": "2026-09-10T12:00:00+00:00",
-    "expires": "2026-09-24T18:34:54Z"
+    "expires": "2026-09-24T19:04:52Z"
   },
   {
     "title": "AVEVA Pipeline Integrity Monitor",
@@ -85,7 +93,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose information, brute-force hashes, or run arbitrary code in a browser session. The following versions of AVEVA Pipeline",
     "added": "2026-09-10T12:00:00+00:00",
-    "expires": "2026-09-24T18:34:54Z"
+    "expires": "2026-09-24T19:04:52Z"
   },
   {
     "title": "Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE",
@@ -93,7 +101,7 @@
     "source": "The Hacker News",
     "summary": "Check Point has patched two critical vulnerabilities in the way its firewall and management products handle VPN certificates. The company says both could allow an unauthenticated remote attacker to run code, but only \"un",
     "added": "2026-09-10T11:45:05+00:00",
-    "expires": "2026-09-24T18:34:54Z"
+    "expires": "2026-09-24T19:04:52Z"
   },
   {
     "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
@@ -101,7 +109,7 @@
     "source": "The Hacker News",
     "summary": "A suspected Russian-speaking cyber actor has been attributed to the use of artificial intelligence (AI) to devise exploits targeting a recently disclosed pair of security flaws in PaperCut NG/MF and break into hundreds o",
     "added": "2026-09-10T11:41:53+00:00",
-    "expires": "2026-09-24T18:34:54Z"
+    "expires": "2026-09-24T19:04:52Z"
   },
   {
     "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
@@ -109,15 +117,7 @@
     "source": "The Hacker News",
     "summary": "The Gigabud banking trojan now installs a second Android app that creates a work profile on an infected phone and drops a tampered banking app inside it, security firm Group-IB said in a report published on September 9. ",
     "added": "2026-09-10T11:33:43+00:00",
-    "expires": "2026-09-24T18:34:54Z"
-  },
-  {
-    "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
-    "url": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
-    "source": "The Hacker News",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added three flaws, each impacting Cisco, Citrix, and Fortinet, to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilia",
-    "added": "2026-09-10T10:36:46+00:00",
-    "expires": "2026-09-24T18:34:54Z"
+    "expires": "2026-09-24T19:04:52Z"
   },
   {
     "title": "EU Cyber Resilience Act to Enforce New Reporting Requirements",
@@ -125,6 +125,6 @@
     "source": "Dark Reading",
     "summary": "Starting Friday, European organizations will have just 24 hours to notify the EU government any time they discover serious product security incidents.",
     "added": "2026-09-10T07:00:00+00:00",
-    "expires": "2026-09-24T18:34:54Z"
+    "expires": "2026-09-24T19:04:52Z"
   }
 ]
