@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-10T16:30:13Z",
+  "updated_at": "2026-09-10T16:45:14Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "AVAV",
-        "name": "AeroVironment, Inc.",
-        "price": 154.89,
-        "change_24h": 10.01,
-        "asset": "equity"
-      },
-      {
         "symbol": "SWKS",
         "name": "Skyworks Solutions, Inc.",
-        "price": 83.8,
-        "change_24h": 9.49,
+        "price": 84.08,
+        "change_24h": 9.85,
         "asset": "equity"
       },
       {
-        "symbol": "BSP",
-        "name": "Bending Spoons S.p.A.",
-        "price": 41.1,
-        "change_24h": 8.87,
+        "symbol": "AVAV",
+        "name": "AeroVironment, Inc.",
+        "price": 155.16,
+        "change_24h": 10.2,
         "asset": "equity"
       },
       {
         "symbol": "PLSE",
         "name": "Pulse Biosciences, Inc",
-        "price": 56.33,
-        "change_24h": 6.34,
+        "price": 57.49,
+        "change_24h": 8.53,
         "asset": "equity"
       },
       {
-        "symbol": "RDDT",
-        "name": "Reddit, Inc.",
-        "price": 155.95,
-        "change_24h": 6.49,
+        "symbol": "BSP",
+        "name": "Bending Spoons S.p.A.",
+        "price": 40.66,
+        "change_24h": 7.72,
+        "asset": "equity"
+      },
+      {
+        "symbol": "QRVO",
+        "name": "Qorvo, Inc.",
+        "price": 112.5,
+        "change_24h": 6.9,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "RML",
         "name": "Resolution Minerals Ltd American Depositary Shar",
-        "price": 8.8734,
-        "change_24h": -23.53,
+        "price": 8.77,
+        "change_24h": -24.4,
         "asset": "equity"
       },
       {
         "symbol": "NAVN",
         "name": "Navan, Inc.",
-        "price": 20.56,
-        "change_24h": -20.58,
+        "price": 20.55,
+        "change_24h": -20.61,
         "asset": "equity"
       },
       {
         "symbol": "AEO",
         "name": "American Eagle Outfitters, Inc.",
-        "price": 14.37,
-        "change_24h": -14.95,
+        "price": 14.29,
+        "change_24h": -15.39,
         "asset": "equity"
       },
       {
         "symbol": "COO",
         "name": "The Cooper Companies, Inc.",
-        "price": 54.69,
-        "change_24h": -13.85,
+        "price": 54.5,
+        "change_24h": -14.15,
         "asset": "equity"
       },
       {
         "symbol": "AXGN",
         "name": "AxoGen, Inc.",
-        "price": 42.39,
-        "change_24h": -10.32,
+        "price": 42.56,
+        "change_24h": -9.95,
         "asset": "equity"
       }
     ]
@@ -82,73 +82,73 @@
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.690427,
-        "change_24h": 12.52,
+        "price": 0.679914,
+        "change_24h": 11.5,
         "asset": "crypto"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.007986,
-        "change_24h": 5.63,
+        "price": 0.007907,
+        "change_24h": 4.15,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.462138,
-        "change_24h": 2.78,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.036352,
-        "change_24h": 2.43,
+        "price": 0.4631,
+        "change_24h": 2.25,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.103832,
-        "change_24h": 1.29,
+        "price": 0.103758,
+        "change_24h": 1.21,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.036173,
+        "change_24h": 1.1,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "BCH",
-        "name": "Bitcoin Cash",
-        "price": 224.66,
-        "change_24h": -12.53,
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 55.33,
+        "change_24h": -13.89,
         "asset": "crypto"
       },
       {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 55.45,
-        "change_24h": -12.37,
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price": 225.09,
+        "change_24h": -12.98,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1132.58,
-        "change_24h": -11.22,
+        "price": 1119.77,
+        "change_24h": -12.75,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.221499,
-        "change_24h": -10.81,
+        "price": 0.220914,
+        "change_24h": -12.02,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 3e-06,
-        "change_24h": -9.91,
+        "change_24h": -10.52,
         "asset": "crypto"
       }
     ]
