@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-10T15:30:12Z",
+  "updated_at": "2026-09-10T15:45:12Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "AVAV",
         "name": "AeroVironment, Inc.",
-        "price": 155.25,
-        "change_24h": 10.26,
+        "price": 156.46,
+        "change_24h": 11.12,
         "asset": "equity"
       },
       {
         "symbol": "BSP",
         "name": "Bending Spoons S.p.A.",
-        "price": 41.23,
-        "change_24h": 9.21,
+        "price": 40.78,
+        "change_24h": 8.04,
         "asset": "equity"
       },
       {
         "symbol": "PAYP",
         "name": "PayPay Corporation - American D",
-        "price": 18.61,
-        "change_24h": 5.83,
+        "price": 18.96,
+        "change_24h": 7.85,
         "asset": "equity"
       },
       {
         "symbol": "RDDT",
         "name": "Reddit, Inc.",
-        "price": 154.38,
-        "change_24h": 5.42,
+        "price": 156.66,
+        "change_24h": 6.98,
         "asset": "equity"
       },
       {
-        "symbol": "DPC",
-        "name": "DPC Holdings PLC",
-        "price": 42.81,
-        "change_24h": 5.47,
+        "symbol": "PLSE",
+        "name": "Pulse Biosciences, Inc",
+        "price": 56.54,
+        "change_24h": 6.74,
         "asset": "equity"
       }
     ],
@@ -50,29 +50,29 @@
       {
         "symbol": "NAVN",
         "name": "Navan, Inc.",
-        "price": 20.46,
-        "change_24h": -20.95,
-        "asset": "equity"
-      },
-      {
-        "symbol": "AEO",
-        "name": "American Eagle Outfitters, Inc.",
-        "price": 14.53,
-        "change_24h": -14.0,
+        "price": 20.45,
+        "change_24h": -20.99,
         "asset": "equity"
       },
       {
         "symbol": "COO",
         "name": "The Cooper Companies, Inc.",
-        "price": 54.88,
-        "change_24h": -13.55,
+        "price": 54.68,
+        "change_24h": -13.86,
+        "asset": "equity"
+      },
+      {
+        "symbol": "AEO",
+        "name": "American Eagle Outfitters, Inc.",
+        "price": 14.56,
+        "change_24h": -13.77,
         "asset": "equity"
       },
       {
         "symbol": "AXGN",
         "name": "AxoGen, Inc.",
-        "price": 42.83,
-        "change_24h": -9.39,
+        "price": 42.73,
+        "change_24h": -9.59,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.686312,
+        "change_24h": 11.47,
+        "asset": "crypto"
+      },
+      {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.008238,
-        "change_24h": 9.31,
+        "price": 0.008217,
+        "change_24h": 9.28,
         "asset": "crypto"
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.037105,
-        "change_24h": 6.08,
+        "price": 0.036945,
+        "change_24h": 5.04,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.460698,
-        "change_24h": 2.52,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.104089,
-        "change_24h": 1.82,
+        "price": 0.462583,
+        "change_24h": 2.71,
         "asset": "crypto"
       },
       {
         "symbol": "WLFI",
         "name": "World Liberty Financial",
-        "price": 0.056142,
-        "change_24h": 1.79,
+        "price": 0.05673,
+        "change_24h": 2.44,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 223.8,
-        "change_24h": -12.2,
+        "price": 224.24,
+        "change_24h": -12.79,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 56.04,
-        "change_24h": -10.9,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 5.91,
-        "change_24h": -9.45,
+        "price": 55.99,
+        "change_24h": -10.63,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.225362,
-        "change_24h": -8.32,
+        "price": 0.225891,
+        "change_24h": -9.01,
         "asset": "crypto"
       },
       {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.058867,
-        "change_24h": -8.29,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 5.94,
+        "change_24h": -9.0,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price": 3e-06,
+        "change_24h": -8.67,
         "asset": "crypto"
       }
     ]
