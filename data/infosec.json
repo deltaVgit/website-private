@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-09-10T19:04:52Z",
+  "updatedAt": "2026-09-10T19:34:57Z",
   "kev": [
+    {
+      "cve": "CVE-2026-86060",
+      "product": "RouterOS",
+      "vendor": "MikroTik",
+      "name": "MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerability",
+      "dateAdded": "2026-09-10",
+      "dueDate": "2026-09-13",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-67277",
+      "product": "RouterOS",
+      "vendor": "MikroTik",
+      "name": "MikroTik RouterOS Missing Authentication for Critical Function Vulnerability",
+      "dateAdded": "2026-09-10",
+      "dueDate": "2026-09-13",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2026-19490",
       "product": "NetScaler",
@@ -105,24 +123,6 @@
       "product": "Kestra OSS",
       "vendor": "Kestra",
       "name": "Kestra OSS OS Command Injection Vulnerability",
-      "dateAdded": "2026-09-02",
-      "dueDate": "2026-09-05",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-82329",
-      "product": "Artifactory",
-      "vendor": "JFrog",
-      "name": "JFrog Artifactory Improper Authentication Vulnerability",
-      "dateAdded": "2026-09-02",
-      "dueDate": "2026-09-05",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-9586",
-      "product": "Switchvox",
-      "vendor": "Sangoma",
-      "name": "Sangoma Switchvox SQL Injection Vulnerability",
       "dateAdded": "2026-09-02",
       "dueDate": "2026-09-05",
       "knownRansomware": "Unknown"
