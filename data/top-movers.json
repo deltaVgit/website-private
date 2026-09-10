@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-10T13:15:22Z",
+  "updated_at": "2026-09-10T13:30:14Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "ASO",
         "name": "Academy Sports and Outdoors, In",
-        "price": 51.15,
-        "change_24h": 14.4,
+        "price": 50.16,
+        "change_24h": -1.95,
         "asset": "equity"
       },
       {
         "symbol": "NET",
         "name": "Cloudflare, Inc.",
-        "price": 314.18,
-        "change_24h": 10.51,
+        "price": 313.35,
+        "change_24h": -0.25,
         "asset": "equity"
       },
       {
         "symbol": "SSL",
         "name": "Sasol Ltd.",
-        "price": 14.58,
-        "change_24h": 9.62,
+        "price": 14.62,
+        "change_24h": 0.34,
         "asset": "equity"
       },
       {
         "symbol": "PLSE",
         "name": "Pulse Biosciences, Inc",
-        "price": 52.97,
-        "change_24h": 8.57,
+        "price": 52.18,
+        "change_24h": -1.49,
         "asset": "equity"
       },
       {
         "symbol": "AMBA",
         "name": "Ambarella, Inc.",
-        "price": 68.8,
-        "change_24h": 8.38,
+        "price": 67.7,
+        "change_24h": -1.6,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "TTAN",
         "name": "ServiceTitan, Inc.",
-        "price": 57.12,
-        "change_24h": -29.98,
+        "price": 56.12,
+        "change_24h": -1.75,
         "asset": "equity"
       },
       {
         "symbol": "TBBK",
         "name": "The Bancorp, Inc.",
-        "price": 50.03,
-        "change_24h": -22.33,
+        "price": 49.97,
+        "change_24h": -0.12,
         "asset": "equity"
       },
       {
         "symbol": "BRZE",
         "name": "Braze, Inc.",
-        "price": 23.73,
-        "change_24h": -21.73,
+        "price": 23.51,
+        "change_24h": -0.91,
         "asset": "equity"
       },
       {
         "symbol": "RML",
         "name": "Resolution Minerals Ltd American Depositary Shar",
-        "price": 11.6,
-        "change_24h": -18.08,
+        "price": 8.61,
+        "change_24h": -25.78,
         "asset": "equity"
       },
       {
         "symbol": "CASY",
         "name": "Caseys General Stores, Inc.",
-        "price": 629.03,
-        "change_24h": -14.24,
+        "price": 632.58,
+        "change_24h": 0.57,
         "asset": "equity"
       }
     ]
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.03772,
-        "change_24h": 4.77,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.468503,
+        "change_24h": 4.29,
         "asset": "crypto"
       },
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.470195,
-        "change_24h": 4.56,
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.03771,
+        "change_24h": 4.2,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.626554,
-        "change_24h": 1.32,
+        "price": 0.62739,
+        "change_24h": 1.38,
         "asset": "crypto"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.007884,
-        "change_24h": 1.2,
+        "price": 0.00787,
+        "change_24h": 1.27,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.103632,
-        "change_24h": 0.79,
+        "price": 0.103766,
+        "change_24h": 1.09,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 56.56,
-        "change_24h": -12.56,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 5.87,
+        "change_24h": -12.41,
         "asset": "crypto"
       },
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 5.89,
-        "change_24h": -11.94,
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 56.41,
+        "change_24h": -12.39,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price": 230.08,
+        "change_24h": -11.5,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.14794,
-        "change_24h": -11.55,
+        "price": 0.148208,
+        "change_24h": -10.99,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.49,
-        "change_24h": -11.51,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.404144,
-        "change_24h": -11.2,
+        "price": 4.54,
+        "change_24h": -10.83,
         "asset": "crypto"
       }
     ]
