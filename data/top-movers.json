@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-09-10T13:30:14Z",
+  "updated_at": "2026-09-10T13:45:12Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "ASO",
-        "name": "Academy Sports and Outdoors, In",
-        "price": 50.16,
-        "change_24h": -1.95,
+        "symbol": "CNC",
+        "name": "Centene Corporation",
+        "price": 67.97,
+        "change_24h": 6.07,
         "asset": "equity"
       },
       {
-        "symbol": "NET",
-        "name": "Cloudflare, Inc.",
-        "price": 313.35,
-        "change_24h": -0.25,
+        "symbol": "AVAV",
+        "name": "AeroVironment, Inc.",
+        "price": 150.41,
+        "change_24h": 6.83,
         "asset": "equity"
       },
       {
-        "symbol": "SSL",
-        "name": "Sasol Ltd.",
-        "price": 14.62,
-        "change_24h": 0.34,
+        "symbol": "ELV",
+        "name": "Elevance Health, Inc.",
+        "price": 420.52,
+        "change_24h": 6.32,
         "asset": "equity"
       },
       {
-        "symbol": "PLSE",
-        "name": "Pulse Biosciences, Inc",
-        "price": 52.18,
-        "change_24h": -1.49,
+        "symbol": "MOH",
+        "name": "Molina Healthcare Inc",
+        "price": 206.0,
+        "change_24h": 6.18,
         "asset": "equity"
       },
       {
-        "symbol": "AMBA",
-        "name": "Ambarella, Inc.",
-        "price": 67.7,
-        "change_24h": -1.6,
+        "symbol": "ACHC",
+        "name": "Acadia Healthcare Company, Inc.",
+        "price": 29.66,
+        "change_24h": 5.21,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "TTAN",
-        "name": "ServiceTitan, Inc.",
-        "price": 56.12,
-        "change_24h": -1.75,
-        "asset": "equity"
-      },
-      {
-        "symbol": "TBBK",
-        "name": "The Bancorp, Inc.",
-        "price": 49.97,
-        "change_24h": -0.12,
-        "asset": "equity"
-      },
-      {
-        "symbol": "BRZE",
-        "name": "Braze, Inc.",
-        "price": 23.51,
-        "change_24h": -0.91,
-        "asset": "equity"
-      },
-      {
         "symbol": "RML",
         "name": "Resolution Minerals Ltd American Depositary Shar",
-        "price": 8.61,
-        "change_24h": -25.78,
+        "price": 9.125,
+        "change_24h": -21.34,
         "asset": "equity"
       },
       {
-        "symbol": "CASY",
-        "name": "Caseys General Stores, Inc.",
-        "price": 632.58,
-        "change_24h": 0.57,
+        "symbol": "NAVN",
+        "name": "Navan, Inc.",
+        "price": 20.7,
+        "change_24h": -20.05,
+        "asset": "equity"
+      },
+      {
+        "symbol": "COO",
+        "name": "The Cooper Companies, Inc.",
+        "price": 53.88,
+        "change_24h": -15.13,
+        "asset": "equity"
+      },
+      {
+        "symbol": "AEO",
+        "name": "American Eagle Outfitters, Inc.",
+        "price": 14.71,
+        "change_24h": -13.02,
+        "asset": "equity"
+      },
+      {
+        "symbol": "ERO",
+        "name": "Ero Copper Corp.",
+        "price": 35.04,
+        "change_24h": -8.37,
         "asset": "equity"
       }
     ]
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.468503,
-        "change_24h": 4.29,
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.03797,
+        "change_24h": 6.68,
         "asset": "crypto"
       },
       {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.03771,
-        "change_24h": 4.2,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.471955,
+        "change_24h": 5.06,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.62739,
-        "change_24h": 1.38,
+        "price": 0.634623,
+        "change_24h": 3.42,
         "asset": "crypto"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.00787,
-        "change_24h": 1.27,
+        "price": 0.007903,
+        "change_24h": 2.46,
         "asset": "crypto"
       },
       {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.103766,
-        "change_24h": 1.09,
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 503.43,
+        "change_24h": 1.68,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 5.87,
-        "change_24h": -12.41,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.003908,
+        "change_24h": -14.68,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 56.41,
-        "change_24h": -12.39,
+        "price": 56.64,
+        "change_24h": -11.5,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 5.91,
+        "change_24h": -11.23,
         "asset": "crypto"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 230.08,
-        "change_24h": -11.5,
+        "price": 228.7,
+        "change_24h": -11.19,
         "asset": "crypto"
       },
       {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.148208,
-        "change_24h": -10.99,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.54,
-        "change_24h": -10.83,
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.405077,
+        "change_24h": -9.8,
         "asset": "crypto"
       }
     ]
