@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T01:35:21Z",
+  "updatedAt": "2026-09-10T09:05:30Z",
   "kev": [
     {
       "cve": "CVE-2026-19490",
@@ -223,6 +223,13 @@
       "data": "Browser user agent details, Email addresses, Geographic locations, IP addresses, Names"
     },
     {
+      "name": "McKesson",
+      "domain": "mckesson.com",
+      "date": "2026-08-21",
+      "count": 6404340,
+      "data": "Dates of birth, Email addresses, Employers, Genders, Names"
+    },
+    {
       "name": "OzHairAndBeauty",
       "domain": "ozhairandbeauty.com",
       "date": "2026-08-15",
@@ -291,13 +298,6 @@
       "date": "2026-07-01",
       "count": 821100,
       "data": "Email addresses, Employers, Job titles, Names, Physical addresses"
-    },
-    {
-      "name": "InterConSecurity",
-      "domain": "icsecurity.com",
-      "date": "2026-06-18",
-      "count": 276114,
-      "data": "Email addresses, Employers, Job titles, Names, Phone numbers"
     }
   ]
 }
