@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T12:16:07Z",
+  "updated_at": "2026-09-10T12:31:07Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.038377,
-        "change_24h": 6.48,
+        "price": 0.038754,
+        "change_24h": 7.45,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.469287,
-        "change_24h": 4.49,
+        "price": 0.465597,
+        "change_24h": 3.55,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.63327,
-        "change_24h": 3.06,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 509.48,
-        "change_24h": 2.75,
+        "price": 0.628773,
+        "change_24h": 2.78,
         "asset": "crypto"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.007862,
-        "change_24h": 1.69,
+        "price": 0.007919,
+        "change_24h": 2.5,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 506.7,
+        "change_24h": 1.97,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.003984,
-        "change_24h": -13.53,
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.46,
+        "change_24h": -14.86,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 23.48,
-        "change_24h": -13.05,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.48,
-        "change_24h": -13.0,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 57.26,
-        "change_24h": -12.29,
+        "price": 23.23,
+        "change_24h": -14.53,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.147851,
-        "change_24h": -11.67,
+        "price": 0.147559,
+        "change_24h": -11.9,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 57.23,
+        "change_24h": -11.43,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 5.98,
+        "change_24h": -11.1,
         "asset": "crypto"
       }
     ]
