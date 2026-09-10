@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T00:15:52Z",
+  "updated_at": "2026-09-10T00:30:52Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -83,72 +83,72 @@
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 2.47,
-        "change_24h": 5.42,
+        "change_24h": 5.39,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1243.62,
-        "change_24h": 5.28,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.451964,
-        "change_24h": 3.29,
+        "price": 1237.33,
+        "change_24h": 4.36,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 510.76,
-        "change_24h": 2.4,
+        "price": 510.06,
+        "change_24h": 2.96,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.44964,
+        "change_24h": 2.77,
         "asset": "crypto"
       },
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.098161,
-        "change_24h": 2.11,
+        "price": 0.098054,
+        "change_24h": 2.61,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 23.01,
-        "change_24h": -10.82,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DOT",
-        "name": "Polkadot",
-        "price": 1.12,
-        "change_24h": -10.35,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 6.09,
+        "change_24h": -9.91,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.14945,
-        "change_24h": -10.01,
+        "price": 0.148574,
+        "change_24h": -9.71,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.4103,
+        "change_24h": -9.64,
         "asset": "crypto"
       },
       {
         "symbol": "ETC",
         "name": "Ethereum Classic",
-        "price": 8.02,
-        "change_24h": -9.54,
+        "price": 7.97,
+        "change_24h": -9.05,
         "asset": "crypto"
       },
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 6.14,
-        "change_24h": -9.44,
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.061763,
+        "change_24h": -8.43,
         "asset": "crypto"
       }
     ]
