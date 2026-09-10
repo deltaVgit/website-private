@@ -1,6 +1,94 @@
 {
-  "updated": "2026-09-10T01:35:14Z",
+  "updated": "2026-09-10T09:05:24Z",
   "items": [
+    {
+      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+      "url": "https://arxiv.org/abs/2609.09203",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-10T04:00:00+00:00",
+      "summary": "arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it impossible to audit scienti",
+      "tag": "ai"
+    },
+    {
+      "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
+      "url": "https://arxiv.org/abs/2609.09226",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-10T04:00:00+00:00",
+      "summary": "arXiv:2609.09226v1 Announce Type: new Abstract: We introduce a probability-wave framework for modeling the collective behavior of interacting adaptive agents, deriving testable eigenmodes through a generalized behavioral intelligence (GBI) nonlocal probability-wave equation. This",
+      "tag": "ai"
+    },
+    {
+      "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
+      "url": "https://arxiv.org/abs/2609.09233",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-10T04:00:00+00:00",
+      "summary": "arXiv:2609.09233v1 Announce Type: new Abstract: How can language model agents effectively leverage libraries of reusable knowledge to solve long-horizon tasks? Recent work has increasingly focused on agent skills: reusable capabilities represented as skill packages, i.e., multi-f",
+      "tag": "ai"
+    },
+    {
+      "title": "Gradland: On Phenomenal Experience, Differentiated Across Many Dimensions",
+      "url": "https://arxiv.org/abs/2609.09306",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-10T04:00:00+00:00",
+      "summary": "arXiv:2609.09306v1 Announce Type: new Abstract: This paper investigates the hypothesis that the first-order structure of physical interactions, i.e. gradients or Jacobians, characterizes the structure of phenomenal experience. It does so in an idealized world inhabited by neural ",
+      "tag": "ai"
+    },
+    {
+      "title": "Spectral origin of the topological gap exponent d + {\\eta}: mechanism, kernel, decomposition, and scope",
+      "url": "https://arxiv.org/abs/2609.09159",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-10T04:00:00+00:00",
+      "summary": "arXiv:2609.09159v1 Announce Type: new Abstract: The topological gap $\\Delta$ -- the excess $H_1$ total persistence of a critical point cloud over a density-matched null -- scales as $\\Delta \\sim L^{d+\\eta}$. We derive this analytically: the spectral integral $I(\\alpha) = \\sum_{k\\",
+      "tag": "ai"
+    },
+    {
+      "title": "Physics-informed neural networks by Gradient-Guided Gaussian Adaptive Sampling (3GAS-PINNs)",
+      "url": "https://arxiv.org/abs/2609.09162",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-10T04:00:00+00:00",
+      "summary": "arXiv:2609.09162v1 Announce Type: new Abstract: Physics-informed neural networks (PINNs) provide a mesh-free framework for solving partial differential equations, yet their performance in nonlinear problems is often limited by slow convergence, gradient imbalance, and insufficien",
+      "tag": "ai"
+    },
+    {
+      "title": "World-Time Compute with Verified Code World Models",
+      "url": "https://arxiv.org/abs/2609.09163",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-10T04:00:00+00:00",
+      "summary": "arXiv:2609.09163v1 Announce Type: new Abstract: LLMs generalize across a domain only after seeing many real, labeled examples, which most domains lack. We study a way to manufacture it cheaply. When a domain's dynamics can be written as code, one template instantiates into many w",
+      "tag": "ai"
+    },
+    {
+      "title": "X-CoSD: Communication-Efficient Cross-Vocabulary Collaborative Speculative Decoding",
+      "url": "https://arxiv.org/abs/2609.09166",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-10T04:00:00+00:00",
+      "summary": "arXiv:2609.09166v1 Announce Type: new Abstract: This paper investigates collaborative speculative decoding (CoSD), a distributed large language model (LLM) inference framework in which an on-device small language model (SLM) drafts candidate tokens and a server LLM verifies them.",
+      "tag": "ai"
+    },
+    {
+      "title": "StochBench: A Domain-Specific Benchmark for Stochastic Processes in Lean",
+      "url": "https://arxiv.org/abs/2609.09264",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-10T04:00:00+00:00",
+      "summary": "arXiv:2609.09264v1 Announce Type: new Abstract: Leading benchmarks for formal theorem proving with large language models are small collections drawn from competition math, such as the IMO and Putnam, that poorly represent field-specific applications. We introduce StochBench, a Le",
+      "tag": "ai"
+    },
+    {
+      "title": "Osprey: Target-agnostic Pre-training Makes Stronger Drafters in Speculative Decoding",
+      "url": "https://arxiv.org/abs/2609.09338",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-10T04:00:00+00:00",
+      "summary": "arXiv:2609.09338v1 Announce Type: new Abstract: Speculative decoding is critical for accelerating LLM inference. However, the speedup is fragile: drafters are typically trained against a narrow distribution for a single target model, and their acceptance rate collapses under work",
+      "tag": "ai"
+    },
+    {
+      "title": "Astra can do a concerning amount with no chain of thought",
+      "url": "https://www.alignmentforum.org/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought",
+      "source": "Alignment Forum",
+      "published_at": "2026-09-10T02:31:26+00:00",
+      "summary": "TLDR : Astra has 8.6x better odds of doing a reasoning task without CoT than the next best model (Fable 5.1), and can do 7.2 serial arithmetic steps in a forward pass vs 4.1 for the next best model (Gemini 3.8 Flash/Fable 5.1) Epistemic status: Heavily LLM-dependent research, and",
+      "tag": "ai"
+    },
     {
       "title": "Quoting Calif Research",
       "url": "https://simonwillison.net/2026/Sep/10/calif-research/",
@@ -82,19 +170,19 @@
       "tag": "ai"
     },
     {
+      "title": "How good are slop-vestigators?",
+      "url": "https://www.alignmentforum.org/posts/wt4kk6vFPEhkXvF8Q/how-good-are-slop-vestigators",
+      "source": "Alignment Forum",
+      "published_at": "2026-09-08T22:13:19+00:00",
+      "summary": "TLDR: We release MessageBoardAuditBench : a benchmark to measure how well agents can replicate the recent investigation into a swarm of OpenAI agents colluding via a message board on an online wiki. We open-source the benchmark as an Inspect eval. We find that top models cover up",
+      "tag": "ai"
+    },
+    {
       "title": "Training on probes: Research ideas",
       "url": "https://www.alignmentforum.org/posts/HGfMBEFnsXYkKvbRo/training-on-probes-research-ideas",
       "source": "Alignment Forum",
       "published_at": "2026-09-08T17:06:23+00:00",
       "summary": "Recap Sequel to Previous Post . This post might not make sense without it. Last post, I told some stories about how training on probes might let our judgments on easy domains generalize to harder domains by leveraging an AI's model of the world. Training using the gradient of the",
-      "tag": "ai"
-    },
-    {
-      "title": "Training on probes: What's going on",
-      "url": "https://www.alignmentforum.org/posts/gHFCgrvfxQtaEnJye/training-on-probes-what-s-going-on",
-      "source": "Alignment Forum",
-      "published_at": "2026-09-08T17:06:18+00:00",
-      "summary": "TL;DR If you train a probe for some property (like \"honesty\") and do gradient descent against this probe while continuing training that incentivizes dishonesty, the model will change its internal representation to evade the probe. Duh. If you train against the probe after all oth",
       "tag": "ai"
     },
     {
@@ -210,14 +298,6 @@
       "tag": "ai"
     },
     {
-      "title": "The Alignment Journal: Organization, Personnel, and Scope",
-      "url": "https://www.alignmentforum.org/posts/9vm2wtAtb34pEkjje/the-alignment-journal-organization-personnel-and-scope",
-      "source": "Alignment Forum",
-      "published_at": "2026-09-01T20:49:18+00:00",
-      "summary": "[Cross-posted from the Alignment Journal's blog ] The Alignment Journal is beginning to invite the authors of select papers to submit their work for review. If you are interested in participating as an action editor or a reviewer, make an account on our website ; if you have a ma",
-      "tag": "ai"
-    },
-    {
       "title": "Import AI 471: Why Hugging Face worries me; space mining; FIve Eyes on AI",
       "url": "https://jack-clark.net/2026/08/31/import-ai-471-why-hugging-face-worries-me-space-mining-five-eyes-on-ai/",
       "source": "Import AI",
@@ -239,86 +319,6 @@
       "source": "EleutherAI",
       "published_at": "2026-08-25T16:35:00+00:00",
       "summary": "What we learned while building black-box and white-box detectors for AI deception during Aletheia's Quest.",
-      "tag": "ai"
-    },
-    {
-      "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
-      "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/",
-      "source": "Meta Engineering",
-      "published_at": "2026-08-24T18:02:29+00:00",
-      "summary": "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles. To meet this challenge at scale, Meta designed MetaRoCE – a clean-sheet RDMA transport protocol purpose-built for AI workloads on commodity Ether",
-      "tag": "ai"
-    },
-    {
-      "title": "Teaching Everyone to Fish for Tokens",
-      "url": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
-      "source": "Interconnects",
-      "published_at": "2026-08-17T15:07:49+00:00",
-      "summary": "Nvidia wants you building your own model, not buying from Anthropic/OpenAI.",
-      "tag": "ai"
-    },
-    {
-      "title": "A Dynamical Model of AI Governability",
-      "url": "https://blog.eleuther.ai/dynamical-models-of-ai-governability/",
-      "source": "EleutherAI",
-      "published_at": "2026-07-13T00:00:00+00:00",
-      "summary": "A toy dynamical model of whether the AI workforce that builds future AI ends up cooperative or uncooperative: where the basin boundary lies, what current evidence says about which side we are on, and what would tell us we are on the good path.",
-      "tag": "ai"
-    },
-    {
-      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
-      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
-      "source": "NVIDIA AI",
-      "published_at": "2026-07-08T15:00:27+00:00",
-      "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open mo",
-      "tag": "ai"
-    },
-    {
-      "title": "Early Indicators of Reward Hacking via Reasoning Interpolation",
-      "url": "https://blog.eleuther.ai/reward-hacking-indicators/",
-      "source": "EleutherAI",
-      "published_at": "2026-04-15T00:00:00+00:00",
-      "summary": "Using importance sampling with fine-tuned donor prefills to predict reward hacking emergence during training",
-      "tag": "ai"
-    },
-    {
-      "title": "NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES",
-      "url": "https://blogs.nvidia.com/blog/2026-ces-special-presentation/",
-      "source": "NVIDIA AI",
-      "published_at": "2026-01-05T23:30:18+00:00",
-      "summary": "NVIDIA founder and CEO Jensen Huang took the stage at the Fontainebleau Las Vegas to open CES 2026, declaring that AI is scaling into every domain and every device. “Computing has been fundamentally reshaped as a result of accelerated computing, as a result of artificial intellig",
-      "tag": "ai"
-    },
-    {
-      "title": "As AI Grows More Complex, Model Builders Rely on NVIDIA",
-      "url": "https://blogs.nvidia.com/blog/leading-models-nvidia/",
-      "source": "NVIDIA AI",
-      "published_at": "2025-12-11T19:19:57+00:00",
-      "summary": "Unveiling what it describes as the most capable model series yet for professional knowledge work, OpenAI launched GPT-5.2 in December. The model was trained and deployed on NVIDIA infrastructure, including NVIDIA Hopper and GB200 NVL72 systems. GPT-5.3 Codex — the first OpenAI ag",
-      "tag": "ai"
-    },
-    {
-      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
-      "url": "https://qwenlm.github.io/blog/qwen3guard/",
-      "source": "Qwen (Alibaba)",
-      "published_at": "2025-09-22T20:00:00+00:00",
-      "summary": "Tech Report GitHub Hugging Face ModelScope DISCORD Introduction We are excited to introduce Qwen3Guard, the first safety guardrail model in the Qwen family. Built upon the powerful Qwen3 foundation models and fine-tuned specifically for safety classificatoin, Qwen3Guard ensures r",
-      "tag": "ai"
-    },
-    {
-      "title": "Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency",
-      "url": "https://qwenlm.github.io/blog/qwen-image-edit/",
-      "source": "Qwen (Alibaba)",
-      "published_at": "2025-08-18T17:30:00+00:00",
-      "summary": "QWEN CHAT GITHUB HUGGING FACE MODELSCOPE DISCORD We are excited to introduce Qwen-Image-Edit, the image editing version of Qwen-Image. Built upon our 20B Qwen-Image model, Qwen-Image-Edit successfully extends Qwen-Image’s unique text rendering capabilities to image editing tasks,",
-      "tag": "ai"
-    },
-    {
-      "title": "Qwen-Image: Crafting with Native Text Rendering",
-      "url": "https://qwenlm.github.io/blog/qwen-image/",
-      "source": "Qwen (Alibaba)",
-      "published_at": "2025-08-04T14:08:30+00:00",
-      "summary": "GITHUB HUGGING FACE MODELSCOPE DEMO DISCORD We are thrilled to release Qwen-Image, a 20B MMDiT image foundation model that achieves significant advances in complex text rendering and precise image editing. To try the latest model, feel free to visit Qwen Chat and choose “Image Ge",
       "tag": "ai"
     }
   ],
