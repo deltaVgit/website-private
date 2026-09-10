@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-10T17:04:47Z",
+  "updated": "2026-09-10T17:34:55Z",
   "items": [
+    {
+      "title": "An operationalization of opaque serial depth",
+      "url": "https://www.alignmentforum.org/posts/x8BvtWxtoajBGHS3g/an-operationalization-of-opaque-serial-depth",
+      "source": "Alignment Forum",
+      "published_at": "2026-09-10T17:26:39+00:00",
+      "summary": "Currently, chain-of-thought (CoT) is a valuable tool for overseeing AI models. However, some architectural shifts could significantly reduce CoT monitorability . We have recently proposed that AI companies should transparently share ​​information about the degree to which their a",
+      "tag": "ai"
+    },
+    {
+      "title": "Proposal for tracking the effects of architecture on monitorability",
+      "url": "https://www.alignmentforum.org/posts/hLPGv8QjPcNLtDp3A/proposal-for-tracking-the-effects-of-architecture-on",
+      "source": "Alignment Forum",
+      "published_at": "2026-09-10T17:18:38+00:00",
+      "summary": "Architectures that incorporate opaque recurrence or allow for agents to communicate with each other using latents could rapidly make it much harder to monitor chains of thought or communication (we’ll refer to this property as “monitorability” going forward). [1] As companies beg",
+      "tag": "ai"
+    },
     {
       "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
       "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
@@ -146,6 +162,14 @@
       "tag": "ai"
     },
     {
+      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "source": "OpenAI",
+      "published_at": "2026-09-10T00:00:00+00:00",
+      "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+      "tag": "ai"
+    },
+    {
       "title": ".blend URL Viewer",
       "url": "https://simonwillison.net/2026/Sep/9/blender-viewer/",
       "source": "Simon Willison",
@@ -178,14 +202,6 @@
       "tag": "ai"
     },
     {
-      "title": "The AI policy window is open. We need to act.",
-      "url": "https://openai.com/index/ai-policy-window",
-      "source": "OpenAI",
-      "published_at": "2026-09-09T13:00:00+00:00",
-      "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
-      "tag": "ai"
-    },
-    {
       "title": "When will average people feel AI’s impact?",
       "url": "https://www.interconnects.ai/p/when-will-average-people-feel-ais",
       "source": "Interconnects",
@@ -199,22 +215,6 @@
       "source": "Simon Willison",
       "published_at": "2026-09-09T00:20:17+00:00",
       "summary": "I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...] We have now seen that even the rumor of someone working on a problem can trigger a m",
-      "tag": "ai"
-    },
-    {
-      "title": "How good are slop-vestigators?",
-      "url": "https://www.alignmentforum.org/posts/wt4kk6vFPEhkXvF8Q/how-good-are-slop-vestigators",
-      "source": "Alignment Forum",
-      "published_at": "2026-09-08T22:13:19+00:00",
-      "summary": "TLDR: We release MessageBoardAuditBench : a benchmark to measure how well agents can replicate the recent investigation into a swarm of OpenAI agents colluding via a message board on an online wiki. We open-source the benchmark as an Inspect eval. We find that top models cover up",
-      "tag": "ai"
-    },
-    {
-      "title": "Training on probes: Research ideas",
-      "url": "https://www.alignmentforum.org/posts/HGfMBEFnsXYkKvbRo/training-on-probes-research-ideas",
-      "source": "Alignment Forum",
-      "published_at": "2026-09-08T17:06:23+00:00",
-      "summary": "Recap Sequel to Previous Post . This post might not make sense without it. Last post, I told some stories about how training on probes might let our judgments on easy domains generalize to harder domains by leveraging an AI's model of the world. Training using the gradient of the",
       "tag": "ai"
     },
     {
