@@ -75,7 +75,7 @@
         "downloads": 656888,
         "url": "https://huggingface.co/mradermacher/Qwen3-VL-8B-Instruct-abliterated-GGUF",
         "lastModified": "2025-11-15T11:01:32.000Z",
-        "daysAgo": 299,
+        "daysAgo": 300,
         "pipeline": "",
         "tags": [
           "transformers",
@@ -88,8 +88,8 @@
           "base_model:quantized:prithivMLmods/Qwen3-VL-8B-Instruct-abliterated-v1"
         ],
         "pop": 0.9108,
-        "rec": 0.0912,
-        "combo": 0.6239
+        "rec": 0.0909,
+        "combo": 0.6238
       },
       {
         "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
@@ -122,7 +122,7 @@
         "name": "flux2-klein-9b-uncensored-text-encoder",
         "author": "ponpoke",
         "likes": 568,
-        "downloads": 32087,
+        "downloads": 31882,
         "url": "https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "lastModified": "2026-05-02T11:34:41.000Z",
         "daysAgo": 131,
@@ -143,7 +143,7 @@
         "name": "FLUX.2-klein-base-9B-bucket-uncensored",
         "author": "darknight9121",
         "likes": 28,
-        "downloads": 24000,
+        "downloads": 25783,
         "url": "https://huggingface.co/darknight9121/FLUX.2-klein-base-9B-bucket-uncensored",
         "lastModified": "2026-06-26T02:57:27.000Z",
         "daysAgo": 77,
@@ -164,7 +164,7 @@
         "name": "flux2-klein-4b-uncensored-text-encoder",
         "author": "ponpoke",
         "likes": 194,
-        "downloads": 13654,
+        "downloads": 13715,
         "url": "https://huggingface.co/ponpoke/flux2-klein-4b-uncensored-text-encoder",
         "lastModified": "2026-05-02T11:35:01.000Z",
         "daysAgo": 131,
@@ -248,7 +248,7 @@
         "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
         "author": "huihui-ai",
-        "likes": 657,
+        "likes": 658,
         "downloads": 2441040,
         "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "lastModified": "2026-09-08T15:49:51.000Z",
@@ -272,7 +272,7 @@
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 1087,
+        "likes": 1089,
         "downloads": 1908917,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
@@ -294,7 +294,7 @@
         "name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
         "likes": 3630,
-        "downloads": 1338017,
+        "downloads": 1259944,
         "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-04-17T02:59:21.000Z",
         "daysAgo": 147,
@@ -311,24 +311,24 @@
         ]
       },
       {
-        "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-        "name": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+        "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+        "name": "Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 2332,
-        "downloads": 1073976,
-        "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-        "lastModified": "2026-08-23T08:59:27.000Z",
-        "daysAgo": 19,
+        "likes": 610,
+        "downloads": 1070269,
+        "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+        "lastModified": "2026-08-24T04:11:28.000Z",
+        "daysAgo": 18,
         "pipeline": "image-text-to-text",
         "tags": [
           "gguf",
-          "unsloth",
+          "MTP GGUFS",
+          "Regular GGUFS",
+          "NEO Imatrix",
           "fine tune",
+          "unsloth",
           "heretic",
-          "uncensored",
-          "abliterated",
-          "ara",
-          "MTP GGUF Quants"
+          "uncensored"
         ]
       }
     ]
@@ -338,7 +338,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
       "author": "huihui-ai",
-      "likes": 657,
+      "likes": 658,
       "downloads": 2441040,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "lastModified": "2026-09-08T15:49:51.000Z",
@@ -482,7 +482,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "name": "Huihui-Qwen3.8-27B-abliterated",
       "author": "huihui-ai",
-      "likes": 389,
+      "likes": 390,
       "downloads": 79972,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "lastModified": "2026-08-24T03:47:39.000Z",
@@ -501,30 +501,6 @@
       "pop": 0.7676,
       "rec": 0.625,
       "combo": 0.7177
-    },
-    {
-      "id": "sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
-      "name": "Huihui-Qwen3.8-27B-abliterated-NVFP4",
-      "author": "sakamakismile",
-      "likes": 56,
-      "downloads": 69924,
-      "url": "https://huggingface.co/sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
-      "lastModified": "2026-08-24T11:01:03.000Z",
-      "daysAgo": 17,
-      "pipeline": "text-generation",
-      "tags": [
-        "vllm",
-        "safetensors",
-        "qwen3_5",
-        "nvfp4",
-        "compressed-tensors",
-        "mtp",
-        "speculative-decoding",
-        "blackwell"
-      ],
-      "pop": 0.7584,
-      "rec": 0.6383,
-      "combo": 0.7164
     },
     {
       "id": "SC117/Spark-X2.5-4B-abliterated-FIT-GGUF",
@@ -549,6 +525,30 @@
       "pop": 0.6361,
       "rec": 0.8571,
       "combo": 0.7135
+    },
+    {
+      "id": "sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
+      "name": "Huihui-Qwen3.8-27B-abliterated-NVFP4",
+      "author": "sakamakismile",
+      "likes": 56,
+      "downloads": 69924,
+      "url": "https://huggingface.co/sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
+      "lastModified": "2026-08-24T11:01:03.000Z",
+      "daysAgo": 18,
+      "pipeline": "text-generation",
+      "tags": [
+        "vllm",
+        "safetensors",
+        "qwen3_5",
+        "nvfp4",
+        "compressed-tensors",
+        "mtp",
+        "speculative-decoding",
+        "blackwell"
+      ],
+      "pop": 0.7584,
+      "rec": 0.625,
+      "combo": 0.7117
     },
     {
       "id": "twolven/Qwen3.8-27B-abliterated-AWQ-MTP",
@@ -582,7 +582,7 @@
       "downloads": 55708,
       "url": "https://huggingface.co/PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
       "lastModified": "2026-08-22T11:00:34.000Z",
-      "daysAgo": 19,
+      "daysAgo": 20,
       "pipeline": "image-text-to-text",
       "tags": [
         "gguf",
@@ -595,8 +595,8 @@
         "en"
       ],
       "pop": 0.743,
-      "rec": 0.6122,
-      "combo": 0.6972
+      "rec": 0.6,
+      "combo": 0.6929
     },
     {
       "id": "Blackfrost-AI/Muse-Glimmer-30B-Abliterated-GGUF",
@@ -624,5 +624,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-11T10:34:48Z"
+  "updated": "2026-09-11T11:04:57Z"
 }
