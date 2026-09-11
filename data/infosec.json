@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-09-11T18:05:30Z",
+  "updatedAt": "2026-09-11T18:34:33Z",
   "kev": [
+    {
+      "cve": "CVE-2026-84869",
+      "product": "ScreenConnect",
+      "vendor": "ConnectWise",
+      "name": "ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability",
+      "dateAdded": "2026-09-11",
+      "dueDate": "2026-09-14",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-42016",
+      "product": "Artifactory",
+      "vendor": "JFrog",
+      "name": "JFrog Artifactory Incorrect Authorization Vulnerability",
+      "dateAdded": "2026-09-11",
+      "dueDate": "2026-09-25",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-42018",
+      "product": "Artifactory",
+      "vendor": "JFrog",
+      "name": "JFrog Artifactory Improper Authentication Vulnerability",
+      "dateAdded": "2026-09-11",
+      "dueDate": "2026-09-25",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2026-86060",
       "product": "RouterOS",
@@ -98,33 +125,6 @@
       "name": "Google Chromium V8 Type Confusion Vulnerability",
       "dateAdded": "2026-09-04",
       "dueDate": "2026-09-18",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-59822",
-      "product": "LiteLLM",
-      "vendor": "BerriAI",
-      "name": "BerriAI LiteLLM Improper Authentication Vulnerability",
-      "dateAdded": "2026-09-02",
-      "dueDate": "2026-09-16",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-48710",
-      "product": "Starlette",
-      "vendor": "Kludex",
-      "name": "Kludex Starlette HTTP Request/Response Smuggling Vulnerability",
-      "dateAdded": "2026-09-02",
-      "dueDate": "2026-09-16",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-49869",
-      "product": "Kestra OSS",
-      "vendor": "Kestra",
-      "name": "Kestra OSS OS Command Injection Vulnerability",
-      "dateAdded": "2026-09-02",
-      "dueDate": "2026-09-05",
       "knownRansomware": "Unknown"
     }
   ],
