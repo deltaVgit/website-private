@@ -1,6 +1,86 @@
 {
-  "updated": "2026-09-11T03:35:23Z",
+  "updated": "2026-09-11T04:04:34Z",
   "items": [
+    {
+      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+      "url": "https://arxiv.org/abs/2609.09203",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-11T04:00:00+00:00",
+      "summary": "arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it impossible to audit scienti",
+      "tag": "ai"
+    },
+    {
+      "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
+      "url": "https://arxiv.org/abs/2609.09226",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-11T04:00:00+00:00",
+      "summary": "arXiv:2609.09226v1 Announce Type: new Abstract: We introduce a probability-wave framework for modeling the collective behavior of interacting adaptive agents, deriving testable eigenmodes through a generalized behavioral intelligence (GBI) nonlocal probability-wave equation. This",
+      "tag": "ai"
+    },
+    {
+      "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
+      "url": "https://arxiv.org/abs/2609.09233",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-11T04:00:00+00:00",
+      "summary": "arXiv:2609.09233v1 Announce Type: new Abstract: How can language model agents effectively leverage libraries of reusable knowledge to solve long-horizon tasks? Recent work has increasingly focused on agent skills: reusable capabilities represented as skill packages, i.e., multi-f",
+      "tag": "ai"
+    },
+    {
+      "title": "Gradland: On Phenomenal Experience, Differentiated Across Many Dimensions",
+      "url": "https://arxiv.org/abs/2609.09306",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-11T04:00:00+00:00",
+      "summary": "arXiv:2609.09306v1 Announce Type: new Abstract: This paper investigates the hypothesis that the first-order structure of physical interactions, i.e. gradients or Jacobians, characterizes the structure of phenomenal experience. It does so in an idealized world inhabited by neural ",
+      "tag": "ai"
+    },
+    {
+      "title": "M3-Former: Multimodal Transformer with Mixture-of-Experts for Long-Term Vessel Trajectory Prediction",
+      "url": "https://arxiv.org/abs/2609.10559",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-11T04:00:00+00:00",
+      "summary": "arXiv:2609.10559v1 Announce Type: new Abstract: To address the challenges of behavioral multimodality, limited semantic utilization, and long-term error accumulation in vessel trajectory prediction, this paper proposes M3-Former, a multimodal trajectory prediction framework enhan",
+      "tag": "ai"
+    },
+    {
+      "title": "Halo: Improving forecast accuracy through heteroscedastic estimation",
+      "url": "https://arxiv.org/abs/2609.10589",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-11T04:00:00+00:00",
+      "summary": "arXiv:2609.10589v1 Announce Type: new Abstract: Heteroscedastic forecasting, where a network estimates a scale parameter alongside a location parameter, is normally motivated by uncertainty quantification. This paper shows it also improves the point estimate, in contrast to repor",
+      "tag": "ai"
+    },
+    {
+      "title": "Zero-shot rib design: merging training-free generative prior with topology optimization",
+      "url": "https://arxiv.org/abs/2609.10643",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-11T04:00:00+00:00",
+      "summary": "arXiv:2609.10643v1 Announce Type: new Abstract: Natural load-bearing patterns such as leaf venation, trabecular bone, and spider webs achieve high stiffness per unit mass, yet classical topology optimizers rarely reach such geometries, and few let engineers express structural des",
+      "tag": "ai"
+    },
+    {
+      "title": "Data-Efficient Language Modeling: From Frontier Advancement to Principle-Guided Model Improvement",
+      "url": "https://arxiv.org/abs/2609.10702",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-11T04:00:00+00:00",
+      "summary": "arXiv:2609.10702v1 Announce Type: new Abstract: Learning from limited text requires models to use context, generalize to new inputs, and retain useful capabilities. Qiushi Engine conducted a long-horizon, end-to-end autonomous research program on BabyLM 2026 Strict-Small, within ",
+      "tag": "ai"
+    },
+    {
+      "title": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
+      "url": "https://arxiv.org/abs/2609.10715",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-11T04:00:00+00:00",
+      "summary": "arXiv:2609.10715v1 Announce Type: new Abstract: We introduce NCP-ArchPreview, a latent-space language model that pushes autoregressive pretraining beyond standard next-token prediction (NTP). Alongside NTP, the model learns through Next Concept Prediction (NCP) to predict discret",
+      "tag": "ai"
+    },
+    {
+      "title": "CMNIE: An Information Extraction Benchmark for Chinese Military News",
+      "url": "https://arxiv.org/abs/2609.10722",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-11T04:00:00+00:00",
+      "summary": "arXiv:2609.10722v1 Announce Type: new Abstract: Structured extraction from Chinese military news supports intelligence analysis, decision-making, and knowledge base construction. However, existing resources provide limited support for joint informa?tion extraction in this domain,",
+      "tag": "ai"
+    },
     {
       "title": "Datasette 1.0a39 and 0.65.4 security releases",
       "url": "https://simonwillison.net/2026/Sep/11/datasette-security/",
@@ -87,86 +167,6 @@
       "source": "OpenAI",
       "published_at": "2026-09-10T07:00:00+00:00",
       "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
-      "tag": "ai"
-    },
-    {
-      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
-      "url": "https://arxiv.org/abs/2609.09203",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-10T04:00:00+00:00",
-      "summary": "arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it impossible to audit scienti",
-      "tag": "ai"
-    },
-    {
-      "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
-      "url": "https://arxiv.org/abs/2609.09226",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-10T04:00:00+00:00",
-      "summary": "arXiv:2609.09226v1 Announce Type: new Abstract: We introduce a probability-wave framework for modeling the collective behavior of interacting adaptive agents, deriving testable eigenmodes through a generalized behavioral intelligence (GBI) nonlocal probability-wave equation. This",
-      "tag": "ai"
-    },
-    {
-      "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
-      "url": "https://arxiv.org/abs/2609.09233",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-10T04:00:00+00:00",
-      "summary": "arXiv:2609.09233v1 Announce Type: new Abstract: How can language model agents effectively leverage libraries of reusable knowledge to solve long-horizon tasks? Recent work has increasingly focused on agent skills: reusable capabilities represented as skill packages, i.e., multi-f",
-      "tag": "ai"
-    },
-    {
-      "title": "Gradland: On Phenomenal Experience, Differentiated Across Many Dimensions",
-      "url": "https://arxiv.org/abs/2609.09306",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-10T04:00:00+00:00",
-      "summary": "arXiv:2609.09306v1 Announce Type: new Abstract: This paper investigates the hypothesis that the first-order structure of physical interactions, i.e. gradients or Jacobians, characterizes the structure of phenomenal experience. It does so in an idealized world inhabited by neural ",
-      "tag": "ai"
-    },
-    {
-      "title": "Spectral origin of the topological gap exponent d + {\\eta}: mechanism, kernel, decomposition, and scope",
-      "url": "https://arxiv.org/abs/2609.09159",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-10T04:00:00+00:00",
-      "summary": "arXiv:2609.09159v1 Announce Type: new Abstract: The topological gap $\\Delta$ -- the excess $H_1$ total persistence of a critical point cloud over a density-matched null -- scales as $\\Delta \\sim L^{d+\\eta}$. We derive this analytically: the spectral integral $I(\\alpha) = \\sum_{k\\",
-      "tag": "ai"
-    },
-    {
-      "title": "Physics-informed neural networks by Gradient-Guided Gaussian Adaptive Sampling (3GAS-PINNs)",
-      "url": "https://arxiv.org/abs/2609.09162",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-10T04:00:00+00:00",
-      "summary": "arXiv:2609.09162v1 Announce Type: new Abstract: Physics-informed neural networks (PINNs) provide a mesh-free framework for solving partial differential equations, yet their performance in nonlinear problems is often limited by slow convergence, gradient imbalance, and insufficien",
-      "tag": "ai"
-    },
-    {
-      "title": "World-Time Compute with Verified Code World Models",
-      "url": "https://arxiv.org/abs/2609.09163",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-10T04:00:00+00:00",
-      "summary": "arXiv:2609.09163v1 Announce Type: new Abstract: LLMs generalize across a domain only after seeing many real, labeled examples, which most domains lack. We study a way to manufacture it cheaply. When a domain's dynamics can be written as code, one template instantiates into many w",
-      "tag": "ai"
-    },
-    {
-      "title": "X-CoSD: Communication-Efficient Cross-Vocabulary Collaborative Speculative Decoding",
-      "url": "https://arxiv.org/abs/2609.09166",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-10T04:00:00+00:00",
-      "summary": "arXiv:2609.09166v1 Announce Type: new Abstract: This paper investigates collaborative speculative decoding (CoSD), a distributed large language model (LLM) inference framework in which an on-device small language model (SLM) drafts candidate tokens and a server LLM verifies them.",
-      "tag": "ai"
-    },
-    {
-      "title": "StochBench: A Domain-Specific Benchmark for Stochastic Processes in Lean",
-      "url": "https://arxiv.org/abs/2609.09264",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-10T04:00:00+00:00",
-      "summary": "arXiv:2609.09264v1 Announce Type: new Abstract: Leading benchmarks for formal theorem proving with large language models are small collections drawn from competition math, such as the IMO and Putnam, that poorly represent field-specific applications. We introduce StochBench, a Le",
-      "tag": "ai"
-    },
-    {
-      "title": "Osprey: Target-agnostic Pre-training Makes Stronger Drafters in Speculative Decoding",
-      "url": "https://arxiv.org/abs/2609.09338",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-10T04:00:00+00:00",
-      "summary": "arXiv:2609.09338v1 Announce Type: new Abstract: Speculative decoding is critical for accelerating LLM inference. However, the speedup is fragile: drafters are typically trained against a narrow distribution for a single target model, and their acceptance rate collapses under work",
       "tag": "ai"
     },
     {
