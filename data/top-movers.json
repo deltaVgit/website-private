@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T11:45:52Z",
+  "updated_at": "2026-09-11T12:00:56Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.500217,
-        "change_24h": 6.83,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "price": 2.31,
-        "change_24h": 1.72,
+        "price": 0.501385,
+        "change_24h": 7.05,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 24.46,
-        "change_24h": 1.15,
+        "price": 24.7,
+        "change_24h": 2.9,
         "asset": "crypto"
       },
       {
-        "symbol": "GT",
-        "name": "Gate",
-        "price": 9.23,
-        "change_24h": 1.0,
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.32,
+        "change_24h": 2.77,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 2.46,
+        "change_24h": 1.94,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.55,
-        "change_24h": 0.98,
+        "price": 4.54,
+        "change_24h": 1.61,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1095.84,
-        "change_24h": -11.17,
-        "asset": "crypto"
-      },
-      {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.034256,
-        "change_24h": -11.17,
+        "price": 0.034194,
+        "change_24h": -11.49,
         "asset": "crypto"
       },
       {
-        "symbol": "VET",
-        "name": "VeChain",
-        "price": 0.007236,
-        "change_24h": -8.91,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.003663,
-        "change_24h": -8.5,
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1100.31,
+        "change_24h": -9.99,
         "asset": "crypto"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 224.96,
-        "change_24h": -8.44,
+        "price": 225.08,
+        "change_24h": -8.29,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.003657,
+        "change_24h": -8.24,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VET",
+        "name": "VeChain",
+        "price": 0.007253,
+        "change_24h": -8.02,
         "asset": "crypto"
       }
     ]
