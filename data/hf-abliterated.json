@@ -272,7 +272,7 @@
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 1085,
+        "likes": 1086,
         "downloads": 1908917,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
@@ -479,30 +479,6 @@
       "combo": 0.7257
     },
     {
-      "id": "SC117/Spark-X2.5-4B-abliterated-FIT-GGUF",
-      "name": "Spark-X2.5-4B-abliterated-FIT-GGUF",
-      "author": "SC117",
-      "likes": 11,
-      "downloads": 11563,
-      "url": "https://huggingface.co/SC117/Spark-X2.5-4B-abliterated-FIT-GGUF",
-      "lastModified": "2026-09-06T09:09:41.000Z",
-      "daysAgo": 4,
-      "pipeline": "text-generation",
-      "tags": [
-        "gguf",
-        "llama-cpp",
-        "quantization",
-        "sparkx2_5",
-        "fit-gguf",
-        "uncensored",
-        "abliterated",
-        "text-generation"
-      ],
-      "pop": 0.6361,
-      "rec": 0.8824,
-      "combo": 0.7223
-    },
-    {
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "name": "Huihui-Qwen3.8-27B-abliterated",
       "author": "huihui-ai",
@@ -549,6 +525,30 @@
       "pop": 0.7584,
       "rec": 0.6383,
       "combo": 0.7164
+    },
+    {
+      "id": "SC117/Spark-X2.5-4B-abliterated-FIT-GGUF",
+      "name": "Spark-X2.5-4B-abliterated-FIT-GGUF",
+      "author": "SC117",
+      "likes": 11,
+      "downloads": 11563,
+      "url": "https://huggingface.co/SC117/Spark-X2.5-4B-abliterated-FIT-GGUF",
+      "lastModified": "2026-09-06T09:09:41.000Z",
+      "daysAgo": 5,
+      "pipeline": "text-generation",
+      "tags": [
+        "gguf",
+        "llama-cpp",
+        "quantization",
+        "sparkx2_5",
+        "fit-gguf",
+        "uncensored",
+        "abliterated",
+        "text-generation"
+      ],
+      "pop": 0.6361,
+      "rec": 0.8571,
+      "combo": 0.7135
     },
     {
       "id": "twolven/Qwen3.8-27B-abliterated-AWQ-MTP",
@@ -624,5 +624,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-11T09:04:28Z"
+  "updated": "2026-09-11T09:34:43Z"
 }
