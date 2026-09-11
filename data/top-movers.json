@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T01:15:37Z",
+  "updated_at": "2026-09-11T01:30:40Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.678536,
-        "change_24h": 11.16,
-        "asset": "crypto"
-      },
-      {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.499562,
-        "change_24h": 10.89,
+        "price": 0.501462,
+        "change_24h": 11.53,
         "asset": "crypto"
       },
       {
-        "symbol": "APT",
-        "name": "Aptos",
-        "price": 0.654574,
-        "change_24h": 4.87,
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.680211,
+        "change_24h": 11.49,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 24.3,
-        "change_24h": 4.39,
+        "price": 24.29,
+        "change_24h": 5.88,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "APT",
+        "name": "Aptos",
+        "price": 0.656268,
+        "change_24h": 5.61,
         "asset": "crypto"
       },
       {
         "symbol": "GT",
         "name": "Gate",
-        "price": 9.28,
-        "change_24h": 2.38,
+        "price": 9.31,
+        "change_24h": 3.01,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1095.49,
-        "change_24h": -11.43,
+        "price": 1081.82,
+        "change_24h": -12.04,
         "asset": "crypto"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 226.32,
-        "change_24h": -10.02,
+        "price": 225.31,
+        "change_24h": -10.14,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.003714,
-        "change_24h": -8.4,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ALGO",
-        "name": "Algorand",
-        "price": 0.091669,
-        "change_24h": -7.07,
+        "price": 0.003684,
+        "change_24h": -8.66,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 236.8,
-        "change_24h": -6.4,
+        "price": 234.98,
+        "change_24h": -6.88,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ALGO",
+        "name": "Algorand",
+        "price": 0.091252,
+        "change_24h": -6.79,
         "asset": "crypto"
       }
     ]
