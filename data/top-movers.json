@@ -1,20 +1,34 @@
 {
-  "updated_at": "2026-09-11T14:15:26Z",
+  "updated_at": "2026-09-11T14:30:29Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "HPE",
         "name": "Hewlett Packard Enterprise Comp",
-        "price": 61.17,
-        "change_24h": 10.78,
+        "price": 61.32,
+        "change_24h": 11.05,
         "asset": "equity"
       },
       {
         "symbol": "DELL",
         "name": "Dell Technologies Inc.",
-        "price": 558.94,
-        "change_24h": 10.32,
+        "price": 564.2,
+        "change_24h": 11.37,
+        "asset": "equity"
+      },
+      {
+        "symbol": "SBET",
+        "name": "SharpLink, Inc.",
+        "price": 9.285,
+        "change_24h": 10.14,
+        "asset": "equity"
+      },
+      {
+        "symbol": "HPQ",
+        "name": "HP Inc.",
+        "price": 35.88,
+        "change_24h": 9.61,
         "asset": "equity"
       },
       {
@@ -23,56 +37,42 @@
         "price": 12.1,
         "change_24h": 9.91,
         "asset": "equity"
-      },
-      {
-        "symbol": "SBET",
-        "name": "SharpLink, Inc.",
-        "price": 9.28,
-        "change_24h": 10.08,
-        "asset": "equity"
-      },
-      {
-        "symbol": "BMNR",
-        "name": "BitMine Immersion Technologies,",
-        "price": 26.41,
-        "change_24h": 9.15,
-        "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "RML",
-        "name": "Resolution Minerals Ltd American Depositary Shar",
-        "price": 7.72,
-        "change_24h": -9.5,
+        "symbol": "SMR",
+        "name": "NuScale Power Corporation",
+        "price": 9.255,
+        "change_24h": -9.35,
         "asset": "equity"
       },
       {
-        "symbol": "SMR",
-        "name": "NuScale Power Corporation",
-        "price": 9.405,
-        "change_24h": -7.88,
+        "symbol": "RML",
+        "name": "Resolution Minerals Ltd American Depositary Shar",
+        "price": 7.7594,
+        "change_24h": -9.03,
+        "asset": "equity"
+      },
+      {
+        "symbol": "GOSS",
+        "name": "Gossamer Bio, Inc.",
+        "price": 10.78,
+        "change_24h": -5.38,
         "asset": "equity"
       },
       {
         "symbol": "CHWY",
         "name": "Chewy, Inc.",
-        "price": 19.8,
-        "change_24h": -6.05,
+        "price": 19.91,
+        "change_24h": -5.55,
         "asset": "equity"
       },
       {
         "symbol": "OKLO",
         "name": "Oklo Inc.",
-        "price": 37.83,
-        "change_24h": -5.14,
-        "asset": "equity"
-      },
-      {
-        "symbol": "TLX",
-        "name": "Telix Pharmaceuticals Limited",
-        "price": 11.28,
-        "change_24h": -5.21,
+        "price": 37.67,
+        "change_24h": -5.54,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 26.15,
-        "change_24h": 12.8,
+        "price": 26.07,
+        "change_24h": 10.93,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.246838,
-        "change_24h": 8.79,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.590383,
-        "change_24h": 8.21,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 6.39,
-        "change_24h": 8.05,
+        "price": 0.250709,
+        "change_24h": 9.75,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 2.63,
-        "change_24h": 7.75,
+        "price": 2.67,
+        "change_24h": 9.22,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.50579,
+        "change_24h": 8.65,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.590694,
+        "change_24h": 7.88,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.007514,
-        "change_24h": -6.27,
+        "price": 0.007518,
+        "change_24h": -6.67,
         "asset": "crypto"
       },
       {
         "symbol": "WLFI",
         "name": "World Liberty Financial",
-        "price": 0.05318,
-        "change_24h": -5.28,
+        "price": 0.052775,
+        "change_24h": -6.12,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.093602,
-        "change_24h": -3.71,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.036156,
-        "change_24h": -3.21,
+        "price": 0.093293,
+        "change_24h": -4.29,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
         "price": 1.74,
-        "change_24h": -2.97,
+        "change_24h": -2.87,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.036295,
+        "change_24h": -2.67,
         "asset": "crypto"
       }
     ]
