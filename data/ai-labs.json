@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-11T17:35:27Z",
+  "updated": "2026-09-11T18:05:24Z",
   "items": [
+    {
+      "title": "Quoting Boris Cherny",
+      "url": "https://simonwillison.net/2026/Sep/11/boris-cherny/",
+      "source": "Simon Willison",
+      "published_at": "2026-09-11T17:47:11+00:00",
+      "summary": "Production code written by Claude should have a higher bar than if it was written by a human. At Anthropic, we have many guardrails in place to make sure this is happening: lots of lint rules, lots of tests, Claude-driven end to end tests, Claude-powered fuzzers running daily, au",
+      "tag": "ai"
+    },
     {
       "title": "CoT controllability evals seem very under-elicited",
       "url": "https://www.alignmentforum.org/posts/BbP2wCyDGdPWJ7PwP/cot-controllability-evals-seem-very-under-elicited",
@@ -23,14 +31,6 @@
       "source": "Simon Willison",
       "published_at": "2026-09-11T14:47:57+00:00",
       "summary": "Soft-deprecating re.match() Python has a concept of soft deprecation , where APIs are marked as \"should no longer be used to write new code\" without any promise/threat to remove them in the future. Python 3.15 release manager Hugo van Kemenade describes how in the upcoming 3.15 r",
-      "tag": "ai"
-    },
-    {
-      "title": "Don't sleep on wrapture",
-      "url": "https://simonwillison.net/2026/Sep/11/wrapture/",
-      "source": "Simon Willison",
-      "published_at": "2026-09-11T13:51:32+00:00",
-      "summary": "Graham Dumpleton's new monkey patching package wrapture is shaping up to be an indispensable tool for Python developers. I'm not sure why I've seen so little buzz about it! Graham has been posting new tutorials for it almost daily since the initial release on August 31st. Here's ",
       "tag": "ai"
     },
     {
