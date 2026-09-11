@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T23:34:40Z",
+  "updatedAt": "2026-09-11T00:04:50Z",
   "kev": [
     {
       "cve": "CVE-2026-86060",
@@ -130,88 +130,74 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-82616",
+      "id": "CVE-2026-75865",
       "severity": "CRITICAL",
-      "score": 9.9,
-      "description": "A vulnerability was found in TOTOLINK NR1800X 9.1.0u.6681_B20230703. Impacted is the function setUploadSetting of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument FileName results in stack-based buffer ove",
-      "published": "2026-08-31T05:17:06.393"
+      "score": 9.8,
+      "description": "The WPLP Cookie Consent – Cookie Banner & Consent Management for GDPR, CCPA & Google Consent Mode plugin for WordPress is vulnerable to arbitrary file upload due to missing file type validation in the saas_upload_logo() ",
+      "published": "2026-09-01T03:16:51.370"
     },
     {
-      "id": "CVE-2026-82593",
+      "id": "CVE-2026-67394",
       "severity": "CRITICAL",
-      "score": 9.9,
-      "description": "A flaw has been found in D-Link DIR-825M 1.1.8. This impacts the function sub_41802C of the file /boafrm/formLtefotaUpgradeFibocom of the component LTE Module Firmware Upgrade. This manipulation of the argument fota_url ",
-      "published": "2026-08-31T00:16:41.630"
+      "score": 9.0,
+      "description": "A critical local privilege escalation via OS command injection vulnerability has been discovered in Plesk for Linux, affecting all versions from 18.0.34 before 18.0.79.9 and 18.0.80.5. The vulnerability allows a customer",
+      "published": "2026-09-01T03:16:50.937"
     },
     {
-      "id": "CVE-2026-77956",
+      "id": "CVE-2026-19806",
       "severity": "HIGH",
-      "score": 8.9,
-      "description": "Improper Control of Generation of Code (Code Injection) vulnerability in ash-project ash_ai allows a remote, unauthenticated client to execute arbitrary Elixir code. AshAi.Actions.Prompt evaluates prompt content through ",
-      "published": "2026-08-31T01:16:49.563"
+      "score": 8.8,
+      "description": "The Support Genix – Helpdesk, AI Chatbot, Knowledge Base & Customer Support Ticketing System plugin for WordPress is vulnerable to Authentication Bypass leading to Administrator Account Takeover in all versions up to, an",
+      "published": "2026-09-01T05:17:09.487"
     },
     {
-      "id": "CVE-2026-77850",
+      "id": "CVE-2026-65643",
       "severity": "HIGH",
-      "score": 8.4,
-      "description": "Stored Cross-site Scripting vulnerability in ash-project ash_admin executes attacker-supplied record content as script in an administrator's browser. The relationship typeahead components AshAdmin.Components.Resource.Rel",
-      "published": "2026-08-31T03:16:42.307"
+      "score": 8.8,
+      "description": "Eval injection in cPanel 11.138.0.0 and earlier allows remote authenticated users to execute arbitrary code as root.",
+      "published": "2026-09-01T03:16:50.807"
     },
     {
-      "id": "CVE-2026-82722",
+      "id": "CVE-2026-74837",
       "severity": "HIGH",
-      "score": 8.3,
-      "description": "Allocation of Resources Without Limits or Throttling vulnerability in ash-project ash_admin lets any client that can reach the admin LiveView exhaust the BEAM atom table and crash the entire node. Two LiveView event hand",
-      "published": "2026-08-31T03:16:43.817"
+      "score": 8.7,
+      "description": "Allocation of Resources Without Limits or Throttling vulnerability in ash-project ash_typescript allows an unauthenticated attacker to exhaust the BEAM atom table and abort the node via client-supplied RPC field names. A",
+      "published": "2026-09-01T03:16:51.187"
     },
     {
-      "id": "CVE-2026-82673",
+      "id": "CVE-2026-82730",
       "severity": "HIGH",
-      "score": 8.3,
-      "description": "Improper Limitation of a Pathname to a Restricted Directory (Path Traversal) vulnerability in ash-project ash_admin allows writing attacker-controlled bytes to arbitrary paths on the server. AshAdmin.Components.Resource.",
-      "published": "2026-08-31T03:16:43.473"
+      "score": 8.2,
+      "description": "Incorrect Authorization vulnerability in ash-project ash_typescript allows an unauthorized RPC caller to read attribute values that Ash field policies denied. When a field policy denies an attribute, Ash substitutes %Ash",
+      "published": "2026-09-01T03:16:52.787"
     },
     {
-      "id": "CVE-2026-75757",
+      "id": "CVE-2026-19820",
       "severity": "HIGH",
-      "score": 8.3,
-      "description": "Reliance on Cookies without Validation and Integrity Checking vulnerability in ash-project ash_admin lets an attacker who controls a sibling subdomain rebind an admin's session to a different actor, tenant, or authorizat",
-      "published": "2026-08-31T03:16:42.133"
+      "score": 7.8,
+      "description": "A vulnerability in the Backblaze Client allows a local user to make the system not bootable by creating a link from Backblaze's folder to Windows OS system files during a backup. Successful exploitation requires an admin",
+      "published": "2026-09-01T01:16:33.137"
     },
     {
-      "id": "CVE-2026-82724",
+      "id": "CVE-2026-19952",
       "severity": "HIGH",
-      "score": 7.6,
-      "description": "Incorrect Authorization vulnerability in ash-project ash_phoenix invokes the SubdomainHook authorization callback with a nil tenant, so tenant-scoped access checks never see the tenant they are meant to enforce. AshPhoen",
-      "published": "2026-08-31T04:17:28.980"
+      "score": 7.5,
+      "description": "The Frontend Admin by DynamiApps plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the move_folders function in all versions up to, and including, 3.29.12. This mak",
+      "published": "2026-09-01T05:17:09.747"
     },
     {
-      "id": "CVE-2026-82608",
+      "id": "CVE-2026-19796",
       "severity": "HIGH",
-      "score": 7.4,
-      "description": "A vulnerability was determined in Kamailio up to 5.5.0/6.0.7. This affects the function get_4bytes of the file src/modules/ims_registrar_scscf/cxdx_avp.c of the component AVP Handler. Executing a manipulation can lead to",
-      "published": "2026-08-31T03:16:43.293"
+      "score": 7.2,
+      "description": "The Listdom: AI-powered Business Directory with Classifieds Ads Listings plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'lsd[displ][style]' Parameter in all versions up to, and including, 5.8.1 due",
+      "published": "2026-09-01T05:17:09.360"
     },
     {
-      "id": "CVE-2026-82597",
+      "id": "CVE-2026-19573",
       "severity": "HIGH",
-      "score": 7.4,
-      "description": "A vulnerability was identified in TOTOLINK NR1800X 9.1.0u.6681_B20230703. This affects the function setUssd of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument ussd leads to command injection. The attack c",
-      "published": "2026-08-31T01:16:50.190"
-    },
-    {
-      "id": "CVE-2026-81315",
-      "severity": "HIGH",
-      "score": 7.4,
-      "description": "Origin Validation Error vulnerability in ash-project ash_ai allows a malicious web page to bypass the MCP server's DNS-rebinding protection and issue cross-site requests to a user's local MCP server with that user's acto",
-      "published": "2026-08-31T01:16:49.977"
-    },
-    {
-      "id": "CVE-2026-82595",
-      "severity": "HIGH",
-      "score": 7.4,
-      "description": "A vulnerability was found in D-Link DIR-825M 1.1.8. Affected by this vulnerability is the function sub_456CF4 of the file /boafrm/formSysCmd of the component System Command Execution. Performing a manipulation of the arg",
-      "published": "2026-08-31T00:16:41.980"
+      "score": 7.2,
+      "description": "The Affiliate Super Assistent plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘doCommentShortcode’ function in all versions up to, and including, 1.10.2 due to insufficient input sanitization an",
+      "published": "2026-09-01T05:17:09.233"
     }
   ],
   "breaches": [
