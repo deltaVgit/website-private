@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-11T17:31:05Z",
+  "updated_at": "2026-09-11T17:46:12Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "price": 198.88,
-        "change_24h": 11.7,
-        "asset": "equity"
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "price": 99.87,
-        "change_24h": 10.23,
+        "price": 197.5,
+        "change_24h": 10.92,
         "asset": "equity"
       },
       {
         "symbol": "DELL",
         "name": "Dell Technologies Inc.",
-        "price": 557.95,
-        "change_24h": 10.13,
+        "price": 558.62,
+        "change_24h": 10.26,
         "asset": "equity"
       },
       {
         "symbol": "HPE",
         "name": "Hewlett Packard Enterprise Comp",
-        "price": 60.81,
-        "change_24h": 10.12,
+        "price": 60.8,
+        "change_24h": 10.11,
         "asset": "equity"
       },
       {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "price": 17.34,
-        "change_24h": 8.78,
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "price": 99.89,
+        "change_24h": 10.25,
+        "asset": "equity"
+      },
+      {
+        "symbol": "SIMO",
+        "name": "Silicon Motion Technology Corpo",
+        "price": 289.77,
+        "change_24h": 9.24,
         "asset": "equity"
       }
     ],
@@ -43,8 +43,8 @@
       {
         "symbol": "SMR",
         "name": "NuScale Power Corporation",
-        "price": 8.835,
-        "change_24h": -13.47,
+        "price": 8.8786,
+        "change_24h": -13.04,
         "asset": "equity"
       },
       {
@@ -57,22 +57,22 @@
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc",
-        "price": 12.28,
-        "change_24h": -8.97,
+        "price": 12.21,
+        "change_24h": -9.48,
         "asset": "equity"
       },
       {
         "symbol": "ALM",
         "name": "Almonty Industries Inc.",
-        "price": 15.17,
-        "change_24h": -8.45,
+        "price": 15.28,
+        "change_24h": -7.82,
         "asset": "equity"
       },
       {
         "symbol": "OKLO",
         "name": "Oklo Inc.",
-        "price": 37.18,
-        "change_24h": -6.77,
+        "price": 37.0,
+        "change_24h": -7.22,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.612338,
-        "change_24h": 10.12,
+        "price": 0.60311,
+        "change_24h": 8.62,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.244786,
-        "change_24h": 9.07,
+        "price": 0.243478,
+        "change_24h": 8.55,
         "asset": "crypto"
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price": 2576.6,
-        "change_24h": 4.74,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 2.6,
-        "change_24h": 4.7,
+        "price": 2568.46,
+        "change_24h": 4.24,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
-        "price": 2.2,
-        "change_24h": 4.44,
+        "price": 2.19,
+        "change_24h": 3.92,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.062426,
+        "change_24h": 3.8,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.007372,
-        "change_24h": -7.46,
+        "price": 0.007344,
+        "change_24h": -8.19,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
-        "price": 1.67,
-        "change_24h": -7.31,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLFI",
-        "name": "World Liberty Financial",
-        "price": 0.053099,
-        "change_24h": -4.68,
+        "price": 1.66,
+        "change_24h": -7.56,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.003717,
-        "change_24h": -3.62,
+        "price": 0.003705,
+        "change_24h": -4.36,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLFI",
+        "name": "World Liberty Financial",
+        "price": 0.053534,
+        "change_24h": -4.02,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.093236,
-        "change_24h": -3.44,
+        "price": 0.092603,
+        "change_24h": -4.0,
         "asset": "crypto"
       }
     ]
