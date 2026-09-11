@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-11T03:05:17Z",
+  "updated": "2026-09-11T03:35:23Z",
   "items": [
+    {
+      "title": "Datasette 1.0a39 and 0.65.4 security releases",
+      "url": "https://simonwillison.net/2026/Sep/11/datasette-security/",
+      "source": "Simon Willison",
+      "published_at": "2026-09-11T03:27:16+00:00",
+      "summary": "Datasette 1.0a39 and 0.65.4 security releases Today we're releasing two new security patch versions of Datasette: 1.0a39 and 0.65.4 - one for the current alpha series and one for the stable 0.65.x family. These are security fixes which you should apply if you are running a Datase",
+      "tag": "ai"
+    },
     {
       "title": "Any Nix package, live in your browser",
       "url": "https://simonwillison.net/2026/Sep/10/trynix/",
@@ -167,14 +175,6 @@
       "source": "Alignment Forum",
       "published_at": "2026-09-10T02:31:26+00:00",
       "summary": "Work done in a personal capacity TLDR : Astra has 8.6x better odds of doing a reasoning task without CoT than the next best model (Fable 5.1), and can do 7.2 serial arithmetic steps in a forward pass vs 4.1 for the next best model (Gemini 3.8 Flash/Fable 5.1) Epistemic status: He",
-      "tag": "ai"
-    },
-    {
-      "title": "Quoting Calif Research",
-      "url": "https://simonwillison.net/2026/Sep/10/calif-research/",
-      "source": "Simon Willison",
-      "published_at": "2026-09-10T00:56:41+00:00",
-      "summary": "Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succe",
       "tag": "ai"
     },
     {
