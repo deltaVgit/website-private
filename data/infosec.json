@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T19:34:49Z",
+  "updatedAt": "2026-09-11T20:04:37Z",
   "kev": [
     {
       "cve": "CVE-2026-84869",
@@ -26,6 +26,15 @@
       "name": "JFrog Artifactory Improper Authentication Vulnerability",
       "dateAdded": "2026-09-11",
       "dueDate": "2026-09-25",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-85706",
+      "product": "Community Edition and Enterprise Edition",
+      "vendor": "GitLab",
+      "name": "GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability",
+      "dateAdded": "2026-09-11",
+      "dueDate": "2026-09-14",
       "knownRansomware": "Unknown"
     },
     {
@@ -116,15 +125,6 @@
       "name": "Microsoft Windows Heap-Based Buffer Overflow Vulnerability",
       "dateAdded": "2026-09-08",
       "dueDate": "2026-09-22",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-85046",
-      "product": "Chromium V8",
-      "vendor": "Google",
-      "name": "Google Chromium V8 Type Confusion Vulnerability",
-      "dateAdded": "2026-09-04",
-      "dueDate": "2026-09-18",
       "knownRansomware": "Unknown"
     }
   ],
