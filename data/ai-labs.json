@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-11T14:34:47Z",
+  "updated": "2026-09-11T15:35:01Z",
   "items": [
+    {
+      "title": "Soft-deprecating re.match()",
+      "url": "https://simonwillison.net/2026/Sep/11/soft-deprecating-re-match/",
+      "source": "Simon Willison",
+      "published_at": "2026-09-11T14:47:57+00:00",
+      "summary": "Soft-deprecating re.match() Python has a concept of soft deprecation , where APIs are marked as \"should no longer be used to write new code\" without any promise/threat to remove them in the future. Python 3.15 release manager Hugo van Kemenade describes how in the upcoming 3.15 r",
+      "tag": "ai"
+    },
     {
       "title": "Don't sleep on wrapture",
       "url": "https://simonwillison.net/2026/Sep/11/wrapture/",
@@ -111,14 +119,6 @@
       "source": "Simon Willison",
       "published_at": "2026-09-11T03:27:16+00:00",
       "summary": "Datasette 1.0a39 and 0.65.4 security releases Today we're releasing two new security patch versions of Datasette: 1.0a39 and 0.65.4 - one for the current alpha series and one for the stable 0.65.x family. These are security fixes which you should apply if you are running a Datase",
-      "tag": "ai"
-    },
-    {
-      "title": "Any Nix package, live in your browser",
-      "url": "https://simonwillison.net/2026/Sep/10/trynix/",
-      "source": "Simon Willison",
-      "published_at": "2026-09-10T23:44:15+00:00",
-      "summary": "Any Nix package, live in your browser Farid Zakaria calls this his \" magnum opus of Nix work\", and I can see why. trynix.dev provides a qemu-wasm powered x86_64 Linux virtual machine running entirely in your browser through WebAssembly. That VM can then be booted with any Nix pac",
       "tag": "ai"
     },
     {
