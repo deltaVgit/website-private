@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-11T15:30:42Z",
+  "updated_at": "2026-09-11T15:45:45Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
+        "symbol": "DELL",
+        "name": "Dell Technologies Inc.",
+        "price": 564.98,
+        "change_24h": 11.52,
+        "asset": "equity"
+      },
+      {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "price": 199.15,
-        "change_24h": 11.85,
-        "asset": "equity"
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "price": 100.89,
-        "change_24h": 11.36,
-        "asset": "equity"
-      },
-      {
-        "symbol": "SPSC",
-        "name": "SPS Commerce, Inc.",
-        "price": 85.0,
-        "change_24h": 10.06,
+        "price": 196.57,
+        "change_24h": 10.4,
         "asset": "equity"
       },
       {
         "symbol": "SBET",
         "name": "SharpLink, Inc.",
-        "price": 9.335,
-        "change_24h": 10.74,
+        "price": 9.295,
+        "change_24h": 10.26,
         "asset": "equity"
       },
       {
-        "symbol": "DELL",
-        "name": "Dell Technologies Inc.",
-        "price": 561.9,
-        "change_24h": 10.91,
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "price": 100.04,
+        "change_24h": 10.42,
+        "asset": "equity"
+      },
+      {
+        "symbol": "PURR",
+        "name": "Hyperliquid Strategies Inc",
+        "price": 12.09,
+        "change_24h": 9.81,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "SMR",
         "name": "NuScale Power Corporation",
-        "price": 8.865,
-        "change_24h": -13.17,
-        "asset": "equity"
-      },
-      {
-        "symbol": "OKLO",
-        "name": "Oklo Inc.",
-        "price": 36.92,
-        "change_24h": -7.42,
-        "asset": "equity"
-      },
-      {
-        "symbol": "RML",
-        "name": "Resolution Minerals Ltd American Depositary Shar",
-        "price": 7.9438,
-        "change_24h": -6.87,
+        "price": 8.905,
+        "change_24h": -12.78,
         "asset": "equity"
       },
       {
         "symbol": "QLYS",
         "name": "Qualys, Inc.",
-        "price": 150.47,
-        "change_24h": -6.87,
+        "price": 150.54,
+        "change_24h": -6.82,
         "asset": "equity"
       },
       {
-        "symbol": "TMDX",
-        "name": "TransMedics Group, Inc.",
-        "price": 80.38,
-        "change_24h": -5.48,
+        "symbol": "OKLO",
+        "name": "Oklo Inc.",
+        "price": 37.17,
+        "change_24h": -6.8,
+        "asset": "equity"
+      },
+      {
+        "symbol": "RML",
+        "name": "Resolution Minerals Ltd American Depositary Shar",
+        "price": 7.95,
+        "change_24h": -6.8,
+        "asset": "equity"
+      },
+      {
+        "symbol": "RCUS",
+        "name": "Arcus Biosciences, Inc.",
+        "price": 24.64,
+        "change_24h": -5.79,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.253003,
-        "change_24h": 12.35,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 2.72,
-        "change_24h": 12.28,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.608114,
-        "change_24h": 9.8,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 25.69,
-        "change_24h": 8.92,
+        "price": 0.253989,
+        "change_24h": 12.32,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.502048,
-        "change_24h": 8.74,
+        "price": 0.505326,
+        "change_24h": 9.84,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.608889,
+        "change_24h": 9.65,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 2.7,
+        "change_24h": 9.58,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "price": 2611.13,
+        "change_24h": 7.1,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.007491,
-        "change_24h": -9.03,
+        "price": 0.007461,
+        "change_24h": -9.6,
         "asset": "crypto"
       },
       {
         "symbol": "WLFI",
         "name": "World Liberty Financial",
-        "price": 0.053245,
-        "change_24h": -5.19,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.680779,
-        "change_24h": -3.13,
+        "price": 0.053047,
+        "change_24h": -6.44,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.094281,
-        "change_24h": -2.69,
+        "price": 0.094254,
+        "change_24h": -3.47,
         "asset": "crypto"
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.03606,
-        "change_24h": -2.64,
+        "price": 0.036125,
+        "change_24h": -2.52,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.00377,
+        "change_24h": -1.7,
         "asset": "crypto"
       }
     ]
