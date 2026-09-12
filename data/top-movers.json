@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T03:30:17Z",
+  "updated_at": "2026-09-12T03:45:20Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.717702,
+        "change_24h": 7.53,
+        "asset": "crypto"
+      },
+      {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.244598,
-        "change_24h": 6.46,
+        "price": 0.244648,
+        "change_24h": 5.97,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1129.71,
-        "change_24h": 6.3,
+        "price": 1130.49,
+        "change_24h": 5.69,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.062816,
-        "change_24h": 5.23,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.707233,
-        "change_24h": 5.07,
+        "price": 0.062948,
+        "change_24h": 5.55,
         "asset": "crypto"
       },
       {
         "symbol": "OKB",
         "name": "OKB",
-        "price": 114.61,
-        "change_24h": 5.02,
+        "price": 114.45,
+        "change_24h": 5.15,
         "asset": "crypto"
       }
     ],
@@ -120,35 +120,35 @@
         "symbol": "ATOM",
         "name": "Cosmos Hub",
         "price": 1.63,
-        "change_24h": -7.82,
+        "change_24h": -7.7,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
-        "price": 1.046,
-        "change_24h": -6.49,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.14058,
-        "change_24h": -3.23,
+        "price": 1.048,
+        "change_24h": -6.67,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.140777,
-        "change_24h": -3.03,
+        "price": 0.140743,
+        "change_24h": -3.67,
         "asset": "crypto"
       },
       {
-        "symbol": "WLFI",
-        "name": "World Liberty Financial",
-        "price": 0.054484,
-        "change_24h": -2.73,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.141093,
+        "change_24h": -2.88,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ASTER",
+        "name": "Aster",
+        "price": 0.685946,
+        "change_24h": -2.84,
         "asset": "crypto"
       }
     ]
