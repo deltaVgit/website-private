@@ -1,11 +1,19 @@
 [
   {
+    "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
+    "url": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
+    "source": "BleepingComputer",
+    "summary": "The Dutch Nationaal Cyber Security Centrum (NCSC) is warning of imminent exploitation of two critical flaws in Check Point VPN tracked as CVE-2026-85102 and CVE-2026-85103. [...]",
+    "added": "2026-09-12T14:14:32+00:00",
+    "expires": "2026-09-26T14:35:07Z"
+  },
+  {
     "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
     "url": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
     "source": "The Hacker News",
     "summary": "Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in the stream: alerts that were triggered by AI tools and agents. Not attacks agains",
     "added": "2026-09-12T10:24:44+00:00",
-    "expires": "2026-09-26T14:04:57Z"
+    "expires": "2026-09-26T14:35:08Z"
   },
   {
     "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
@@ -13,7 +21,7 @@
     "source": "The Hacker News",
     "summary": "The \"major malicious attack\" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report published by researchers Spencer Kitts, Thomas Larsen, and Sydney Von Arx. On May 12, Ma",
     "added": "2026-09-12T09:07:56+00:00",
-    "expires": "2026-09-26T14:04:57Z"
+    "expires": "2026-09-26T14:35:08Z"
   },
   {
     "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
@@ -21,7 +29,7 @@
     "source": "BleepingComputer",
     "summary": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to abuse its Claude AI model for malicious purposes. [...]",
     "added": "2026-09-11T20:19:09+00:00",
-    "expires": "2026-09-26T14:04:57Z"
+    "expires": "2026-09-26T14:35:07Z"
   },
   {
     "title": "Threat Actor Generates 1M Personalized Fraud Emails in 3 Days",
@@ -29,7 +37,7 @@
     "source": "Dark Reading",
     "summary": "Cybercriminals behind malicious email campaigns no longer have to compromise volume for credibility, or vice versa, thanks to AI.",
     "added": "2026-09-11T19:21:08+00:00",
-    "expires": "2026-09-26T14:04:57Z"
+    "expires": "2026-09-26T14:35:07Z"
   },
   {
     "title": "Florida confirms DMV database breached via stolen police account",
@@ -37,7 +45,7 @@
     "source": "BleepingComputer",
     "summary": "The Florida Department of Highway Safety and Motor Vehicles (FLHSMV) has confirmed that its DAVID driver database suffered a data breach, saying the attackers gained access using credentials belonging to a police departm",
     "added": "2026-09-11T19:00:29+00:00",
-    "expires": "2026-09-26T14:04:57Z"
+    "expires": "2026-09-26T14:35:07Z"
   },
   {
     "title": "CISA Calls for More Guidance, Less Spin, as Cyber Outages Escalate",
@@ -45,7 +53,7 @@
     "source": "Dark Reading",
     "summary": "A new joint government advisory signals a regulatory shift, pressing organizations to adopt more transparent breach notification and incident response protocols.",
     "added": "2026-09-11T18:44:03+00:00",
-    "expires": "2026-09-26T14:04:57Z"
+    "expires": "2026-09-26T14:35:07Z"
   },
   {
     "title": "Why AI Is So Good at Scamming Humans",
@@ -53,7 +61,7 @@
     "source": "Dark Reading",
     "summary": "Fred Heiding of Menlo Park Intelligence talks with the Dark Reading News Desk about his research on frontier models, and their ability to influence human behavior and create emotional dependency.",
     "added": "2026-09-11T18:14:06+00:00",
-    "expires": "2026-09-26T14:04:57Z"
+    "expires": "2026-09-26T14:35:07Z"
   },
   {
     "title": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
@@ -61,7 +69,7 @@
     "source": "BleepingComputer",
     "summary": "Microsoft says threat actors linked to ShinyHunters, Helix, and other extortion gangs are using passkey and single sign-on-themed social engineering attacks to compromise corporate Microsoft accounts and steal data from ",
     "added": "2026-09-11T17:26:50+00:00",
-    "expires": "2026-09-26T14:04:57Z"
+    "expires": "2026-09-26T14:35:07Z"
   },
   {
     "title": "AI Governance Can't Wait",
@@ -69,7 +77,7 @@
     "source": "Dark Reading",
     "summary": "Adversaries can manipulate AI defensive reasoning to silently compromise target networks.",
     "added": "2026-09-11T17:10:56+00:00",
-    "expires": "2026-09-26T14:04:57Z"
+    "expires": "2026-09-26T14:35:07Z"
   },
   {
     "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
@@ -77,7 +85,7 @@
     "source": "The Hacker News",
     "summary": "GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild probes within hours of public disclosure. The vulnerability in question is CVE-202",
     "added": "2026-09-11T16:30:18+00:00",
-    "expires": "2026-09-26T14:04:57Z"
+    "expires": "2026-09-26T14:35:08Z"
   },
   {
     "title": "Artifactory flaws chained in attacks deploying backdoor malware",
@@ -85,7 +93,7 @@
     "source": "BleepingComputer",
     "summary": "Threat actors are exploiting critical and high-severity vulnerabilities in JFrog Artifactory to bypass authentication, gain administrative privileges, and deploy a Rust backdoor on vulnerable self-hosted servers. [...]",
     "added": "2026-09-11T16:29:44+00:00",
-    "expires": "2026-09-26T14:04:57Z"
+    "expires": "2026-09-26T14:35:07Z"
   },
   {
     "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
@@ -93,7 +101,7 @@
     "source": "The Hacker News",
     "summary": "Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in China, including Alibaba, Moonshot, DeepSeek, Z.ai (aka Zhipu), and MiniMax. Kn",
     "added": "2026-09-11T16:15:29+00:00",
-    "expires": "2026-09-26T14:04:57Z"
+    "expires": "2026-09-26T14:35:08Z"
   },
   {
     "title": "Papercut AI Swarm Attack Heralds Changes for Cyber Kill Chain",
@@ -101,7 +109,7 @@
     "source": "Dark Reading",
     "summary": "From creating lab environments for staging and testing agentic attacks to reconnaissance to lateral movement and exfiltration, the most innovative attackers are widely incorporating AI.",
     "added": "2026-09-11T15:48:27+00:00",
-    "expires": "2026-09-26T14:04:57Z"
+    "expires": "2026-09-26T14:35:07Z"
   },
   {
     "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
@@ -109,15 +117,7 @@
     "source": "The Hacker News",
     "summary": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December 2025 and August 2026. The threa",
     "added": "2026-09-11T14:29:47+00:00",
-    "expires": "2026-09-26T14:04:57Z"
-  },
-  {
-    "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
-    "url": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
-    "source": "BleepingComputer",
-    "summary": "Threat actors are abusing trusted AI platforms to host malicious content, poison search results, and trick users into installing malware. Huntress examines campaigns targeting AI users through weaponized Claude Artifacts",
-    "added": "2026-09-11T14:01:11+00:00",
-    "expires": "2026-09-26T14:04:57Z"
+    "expires": "2026-09-26T14:35:08Z"
   },
   {
     "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
@@ -125,6 +125,6 @@
     "source": "CISA Advisories",
     "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-42016 JFrog Artifactory Incorrect Authorization Vulnerability CVE-2026-42",
     "added": "2026-09-11T12:00:00+00:00",
-    "expires": "2026-09-26T14:04:57Z"
+    "expires": "2026-09-26T14:35:08Z"
   }
 ]
