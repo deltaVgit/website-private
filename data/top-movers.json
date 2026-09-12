@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T16:16:01Z",
+  "updated_at": "2026-09-12T16:31:04Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "WLFI",
         "name": "World Liberty Financial",
-        "price": 0.058241,
-        "change_24h": 11.13,
+        "price": 0.058623,
+        "change_24h": 12.46,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.553647,
-        "change_24h": 10.15,
+        "price": 0.557626,
+        "change_24h": 11.81,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.744605,
-        "change_24h": 7.06,
+        "price": 0.738931,
+        "change_24h": 8.22,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 6.5,
+        "change_24h": 6.06,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.063582,
-        "change_24h": 5.64,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.108824,
-        "change_24h": 5.47,
+        "price": 0.063497,
+        "change_24h": 6.05,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 2.39,
-        "change_24h": -9.03,
-        "asset": "crypto"
-      },
-      {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.33,
-        "change_24h": -8.28,
+        "price": 4.31,
+        "change_24h": -6.89,
         "asset": "crypto"
       },
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 23.28,
-        "change_24h": -6.53,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 2.4,
+        "change_24h": -6.74,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.570821,
+        "change_24h": -4.96,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.571232,
-        "change_24h": -4.75,
+        "price": 0.57146,
+        "change_24h": -4.9,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.015047,
-        "change_24h": -4.73,
+        "price": 0.015048,
+        "change_24h": -4.72,
         "asset": "crypto"
       }
     ]
