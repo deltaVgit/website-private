@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T23:34:54Z",
+  "updatedAt": "2026-09-12T00:04:54Z",
   "kev": [
     {
       "cve": "CVE-2026-84869",
@@ -130,74 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-75865",
+      "id": "CVE-2026-84325",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "The WPLP Cookie Consent – Cookie Banner & Consent Management for GDPR, CCPA & Google Consent Mode plugin for WordPress is vulnerable to arbitrary file upload due to missing file type validation in the saas_upload_logo() ",
-      "published": "2026-09-01T03:16:51.370"
+      "description": "Improper input validation in DataTransfer in Google Chrome prior to 152.0.7977.75 allowed a remote attacker leveraging social engineering to bypass system access restrictions via a co-installed app. (Chromium security se",
+      "published": "2026-09-02T00:18:27.340"
     },
     {
-      "id": "CVE-2026-67394",
+      "id": "CVE-2026-84354",
+      "severity": "CRITICAL",
+      "score": 9.6,
+      "description": "Incorrect authorization in FileSystem in Google Chrome prior to 152.0.7977.75 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium secur",
+      "published": "2026-09-02T00:18:29.310"
+    },
+    {
+      "id": "CVE-2026-84353",
+      "severity": "CRITICAL",
+      "score": 9.6,
+      "description": "Use after free in Shared Tab Groups in Google Chrome on on Android prior to 152.0.7977.75 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Ch",
+      "published": "2026-09-02T00:18:29.203"
+    },
+    {
+      "id": "CVE-2026-84352",
+      "severity": "CRITICAL",
+      "score": 9.6,
+      "description": "Use after free in WebGL in Google Chrome on on Android prior to 152.0.7977.75 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)",
+      "published": "2026-09-02T00:18:29.097"
+    },
+    {
+      "id": "CVE-2026-84333",
+      "severity": "CRITICAL",
+      "score": 9.6,
+      "description": "Use after free in Dawn in Google Chrome on on Android prior to 152.0.7977.75 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "published": "2026-09-02T00:18:28.217"
+    },
+    {
+      "id": "CVE-2026-84699",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "description": "Team Password Manager before 14.184.308 fails to enforce authentication requirements in the local account password reset flow. Unauthenticated attackers can reset local account passwords and authenticate as those users t",
+      "published": "2026-09-02T01:17:24.990"
+    },
+    {
+      "id": "CVE-2026-84324",
       "severity": "CRITICAL",
       "score": 9.0,
-      "description": "A critical local privilege escalation via OS command injection vulnerability has been discovered in Plesk for Linux, affecting all versions from 18.0.34 before 18.0.79.9 and 18.0.80.5. The vulnerability allows a customer",
-      "published": "2026-09-01T03:16:50.937"
+      "description": "Use after free in Proxy in Google Chrome prior to 152.0.7977.75 allowed a remote attacker to execute arbitrary code outside the sandbox via crafted network traffic. (Chromium security severity: High)",
+      "published": "2026-09-02T00:18:27.230"
     },
     {
-      "id": "CVE-2026-19806",
+      "id": "CVE-2026-84694",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "The Support Genix – Helpdesk, AI Chatbot, Knowledge Base & Customer Support Ticketing System plugin for WordPress is vulnerable to Authentication Bypass leading to Administrator Account Takeover in all versions up to, an",
-      "published": "2026-09-01T05:17:09.487"
+      "description": "Coolify before 4.2.0 fails to properly escape environment variable key names in Docker commands executed over SSH on managed servers. Authenticated attackers can inject shell metacharacters into environment variable keys",
+      "published": "2026-09-02T01:17:24.243"
     },
     {
-      "id": "CVE-2026-65643",
+      "id": "CVE-2026-84350",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "Eval injection in cPanel 11.138.0.0 and earlier allows remote authenticated users to execute arbitrary code as root.",
-      "published": "2026-09-01T03:16:50.807"
+      "description": "Use after free in TabStrip in Google Chrome prior to 152.0.7977.75 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via UI Interaction. (Chromium security severity: Lo",
+      "published": "2026-09-02T00:18:28.873"
     },
     {
-      "id": "CVE-2026-74837",
+      "id": "CVE-2026-84347",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "Use after free in WebRTC in Google Chrome prior to 152.0.7977.75 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+      "published": "2026-09-02T00:18:28.550"
+    },
+    {
+      "id": "CVE-2026-84326",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "Uninitialized resource in V8 in Google Chrome prior to 152.0.7977.75 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "published": "2026-09-02T00:18:27.447"
+    },
+    {
+      "id": "CVE-2026-84695",
       "severity": "HIGH",
       "score": 8.7,
-      "description": "Allocation of Resources Without Limits or Throttling vulnerability in ash-project ash_typescript allows an unauthenticated attacker to exhaust the BEAM atom table and abort the node via client-supplied RPC field names. A",
-      "published": "2026-09-01T03:16:51.187"
-    },
-    {
-      "id": "CVE-2026-82730",
-      "severity": "HIGH",
-      "score": 8.2,
-      "description": "Incorrect Authorization vulnerability in ash-project ash_typescript allows an unauthorized RPC caller to read attribute values that Ash field policies denied. When a field policy denies an attribute, Ash substitutes %Ash",
-      "published": "2026-09-01T03:16:52.787"
-    },
-    {
-      "id": "CVE-2026-19820",
-      "severity": "HIGH",
-      "score": 7.8,
-      "description": "A vulnerability in the Backblaze Client allows a local user to make the system not bootable by creating a link from Backblaze's folder to Windows OS system files during a backup. Successful exploitation requires an admin",
-      "published": "2026-09-01T01:16:33.137"
-    },
-    {
-      "id": "CVE-2026-19952",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "The Frontend Admin by DynamiApps plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the move_folders function in all versions up to, and including, 3.29.12. This mak",
-      "published": "2026-09-01T05:17:09.747"
-    },
-    {
-      "id": "CVE-2026-19796",
-      "severity": "HIGH",
-      "score": 7.2,
-      "description": "The Listdom: AI-powered Business Directory with Classifieds Ads Listings plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'lsd[displ][style]' Parameter in all versions up to, and including, 5.8.1 due",
-      "published": "2026-09-01T05:17:09.360"
-    },
-    {
-      "id": "CVE-2026-19573",
-      "severity": "HIGH",
-      "score": 7.2,
-      "description": "The Affiliate Super Assistent plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘doCommentShortcode’ function in all versions up to, and including, 1.10.2 due to insufficient input sanitization an",
-      "published": "2026-09-01T05:17:09.233"
+      "description": "BookStack before 26.05.4 contains a stored cross-site scripting vulnerability in the drawing upload endpoint that accepts unvalidated base64 content and stores it without content inspection. Attackers with editor permiss",
+      "published": "2026-09-02T01:17:24.400"
     }
   ],
   "breaches": [
