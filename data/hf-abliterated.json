@@ -26,7 +26,7 @@
         "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "author": "0bserverx",
-        "likes": 449,
+        "likes": 451,
         "downloads": 1832559,
         "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "lastModified": "2026-08-20T19:51:25.000Z",
@@ -362,7 +362,7 @@
       "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "author": "0bserverx",
-      "likes": 449,
+      "likes": 451,
       "downloads": 1832559,
       "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "lastModified": "2026-08-20T19:51:25.000Z",
@@ -506,7 +506,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "name": "Huihui-Qwen3.8-27B-abliterated",
       "author": "huihui-ai",
-      "likes": 396,
+      "likes": 399,
       "downloads": 82226,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "lastModified": "2026-08-24T03:47:39.000Z",
@@ -575,30 +575,6 @@
       "combo": 0.7066
     },
     {
-      "id": "twolven/Qwen3.8-27B-abliterated-AWQ-MTP",
-      "name": "Qwen3.8-27B-abliterated-AWQ-MTP",
-      "author": "twolven",
-      "likes": 16,
-      "downloads": 76484,
-      "url": "https://huggingface.co/twolven/Qwen3.8-27B-abliterated-AWQ-MTP",
-      "lastModified": "2026-08-21T17:53:49.000Z",
-      "daysAgo": 21,
-      "pipeline": "image-text-to-text",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5",
-        "image-text-to-text",
-        "qwen3.8",
-        "awq",
-        "w4a16",
-        "compressed-tensors"
-      ],
-      "pop": 0.7631,
-      "rec": 0.5882,
-      "combo": 0.7019
-    },
-    {
       "id": "mondk/MiniCPM5-2B-Abliterated-Uncensored-GGUF",
       "name": "MiniCPM5-2B-Abliterated-Uncensored-GGUF",
       "author": "mondk",
@@ -621,8 +597,32 @@
       "pop": 0.5456,
       "rec": 0.9677,
       "combo": 0.6933
+    },
+    {
+      "id": "PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
+      "name": "Ornith-1.5-35B-A3B-Abliterated-GGUF",
+      "author": "PocketAiHub",
+      "likes": 40,
+      "downloads": 56774,
+      "url": "https://huggingface.co/PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
+      "lastModified": "2026-08-22T11:00:34.000Z",
+      "daysAgo": 20,
+      "pipeline": "image-text-to-text",
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "ornith",
+        "qwen3.5-moe",
+        "multimodal",
+        "abliterated",
+        "image-text-to-text",
+        "en"
+      ],
+      "pop": 0.7429,
+      "rec": 0.6,
+      "combo": 0.6929
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-12T06:35:10Z"
+  "updated": "2026-09-12T07:05:15Z"
 }
