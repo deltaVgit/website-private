@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T17:34:32Z",
+  "updated": "2026-09-12T18:04:34Z",
   "items": [
     {
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
@@ -7,6 +7,14 @@
       "source": "OpenAI",
       "published_at": "2026-09-14T00:00:00+00:00",
       "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "tag": "ai"
+    },
+    {
+      "title": "Quoting Paul Ford",
+      "url": "https://simonwillison.net/2026/Sep/12/paul-ford/",
+      "source": "Simon Willison",
+      "published_at": "2026-09-12T18:00:21+00:00",
+      "summary": "For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still requires humans to think and work together, to maximize thei",
       "tag": "ai"
     },
     {
@@ -55,14 +63,6 @@
       "source": "Simon Willison",
       "published_at": "2026-09-11T22:49:18+00:00",
       "summary": "So you want to use OpenRouter? One of OpenRouter's selling points is that it \"handles fallbacks automatically and picks the most cost-effective option for each request\", so you can call a single API endpoint for a model and get routed to the best available backend provider. Moham",
-      "tag": "ai"
-    },
-    {
-      "title": "Quoting Boris Cherny",
-      "url": "https://simonwillison.net/2026/Sep/11/boris-cherny/",
-      "source": "Simon Willison",
-      "published_at": "2026-09-11T17:47:11+00:00",
-      "summary": "Production code written by Claude should have a higher bar than if it was written by a human. At Anthropic, we have many guardrails in place to make sure this is happening: lots of lint rules, lots of tests, Claude-driven end to end tests, Claude-powered fuzzers running daily, au",
       "tag": "ai"
     },
     {
