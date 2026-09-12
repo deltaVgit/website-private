@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T03:04:27Z",
+  "updated": "2026-09-12T04:04:42Z",
   "items": [
     {
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
@@ -7,6 +7,38 @@
       "source": "OpenAI",
       "published_at": "2026-09-14T00:00:00+00:00",
       "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "tag": "ai"
+    },
+    {
+      "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
+      "url": "https://arxiv.org/abs/2609.10584",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-12T04:00:00+00:00",
+      "summary": "arXiv:2609.10584v1 Announce Type: new Abstract: Bounded-suboptimal search seeks a solution within a factor $w$ of optimal while reducing search effort. Focal Search (FS) uses heuristic guidance within FOCAL, the frontier nodes eligible under the threshold $w f_{\\min}$, but its de",
+      "tag": "ai"
+    },
+    {
+      "title": "Automating Quadratic Unconstrained Binary Optimization (QUBO) Formulation Generation from Natural Language",
+      "url": "https://arxiv.org/abs/2609.10629",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-12T04:00:00+00:00",
+      "summary": "arXiv:2609.10629v1 Announce Type: new Abstract: Quadratic Unconstrained Binary Optimization (QUBO) is a central formulation for combinatorial optimization and has gained increasing attention due to its compatibility with quantum, hybrid quantum-classical, and quantum-inspired sol",
+      "tag": "ai"
+    },
+    {
+      "title": "A Multi-Stage Rule-Chaining Framework for Compositional and Interpretable Cognitive Reasoning",
+      "url": "https://arxiv.org/abs/2609.10654",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-12T04:00:00+00:00",
+      "summary": "arXiv:2609.10654v1 Announce Type: new Abstract: The Abstraction and Reasoning Corpus (ARC) benchmarks cognitive generalization, the ability to infer and apply abstract rules from limited examples. This paper presents a multi-stage rule-chaining framework that performs composition",
+      "tag": "ai"
+    },
+    {
+      "title": "Understanding LoRA Rank Trade-offs in Diffusion Model Fine-Tuning",
+      "url": "https://arxiv.org/abs/2609.10656",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-12T04:00:00+00:00",
+      "summary": "arXiv:2609.10656v1 Announce Type: new Abstract: Selecting LoRA rank for diffusion fine-tuning requires balancing quality and compute cost. We present a controlled study on CIFAR-10 using a DDPM U-Net with ranks {2,4,8,16,32}, fixed optimization settings, and a reproducible local-",
       "tag": "ai"
     },
     {
@@ -71,86 +103,6 @@
       "source": "LessWrong",
       "published_at": "2026-09-11T06:41:18+00:00",
       "summary": "I’ve tried several times to summarize the core question my research is trying to tackle (and, indeed, I often think of research progress as a process of asking increasingly good core questions). [1] This post gives the deepest version of that question I’ve found thus far: how sho",
-      "tag": "ai"
-    },
-    {
-      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
-      "url": "https://arxiv.org/abs/2609.09203",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-11T04:00:00+00:00",
-      "summary": "arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it impossible to audit scienti",
-      "tag": "ai"
-    },
-    {
-      "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
-      "url": "https://arxiv.org/abs/2609.09226",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-11T04:00:00+00:00",
-      "summary": "arXiv:2609.09226v1 Announce Type: new Abstract: We introduce a probability-wave framework for modeling the collective behavior of interacting adaptive agents, deriving testable eigenmodes through a generalized behavioral intelligence (GBI) nonlocal probability-wave equation. This",
-      "tag": "ai"
-    },
-    {
-      "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
-      "url": "https://arxiv.org/abs/2609.09233",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-11T04:00:00+00:00",
-      "summary": "arXiv:2609.09233v1 Announce Type: new Abstract: How can language model agents effectively leverage libraries of reusable knowledge to solve long-horizon tasks? Recent work has increasingly focused on agent skills: reusable capabilities represented as skill packages, i.e., multi-f",
-      "tag": "ai"
-    },
-    {
-      "title": "Gradland: On Phenomenal Experience, Differentiated Across Many Dimensions",
-      "url": "https://arxiv.org/abs/2609.09306",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-11T04:00:00+00:00",
-      "summary": "arXiv:2609.09306v1 Announce Type: new Abstract: This paper investigates the hypothesis that the first-order structure of physical interactions, i.e. gradients or Jacobians, characterizes the structure of phenomenal experience. It does so in an idealized world inhabited by neural ",
-      "tag": "ai"
-    },
-    {
-      "title": "M3-Former: Multimodal Transformer with Mixture-of-Experts for Long-Term Vessel Trajectory Prediction",
-      "url": "https://arxiv.org/abs/2609.10559",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-11T04:00:00+00:00",
-      "summary": "arXiv:2609.10559v1 Announce Type: new Abstract: To address the challenges of behavioral multimodality, limited semantic utilization, and long-term error accumulation in vessel trajectory prediction, this paper proposes M3-Former, a multimodal trajectory prediction framework enhan",
-      "tag": "ai"
-    },
-    {
-      "title": "Halo: Improving forecast accuracy through heteroscedastic estimation",
-      "url": "https://arxiv.org/abs/2609.10589",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-11T04:00:00+00:00",
-      "summary": "arXiv:2609.10589v1 Announce Type: new Abstract: Heteroscedastic forecasting, where a network estimates a scale parameter alongside a location parameter, is normally motivated by uncertainty quantification. This paper shows it also improves the point estimate, in contrast to repor",
-      "tag": "ai"
-    },
-    {
-      "title": "Zero-shot rib design: merging training-free generative prior with topology optimization",
-      "url": "https://arxiv.org/abs/2609.10643",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-11T04:00:00+00:00",
-      "summary": "arXiv:2609.10643v1 Announce Type: new Abstract: Natural load-bearing patterns such as leaf venation, trabecular bone, and spider webs achieve high stiffness per unit mass, yet classical topology optimizers rarely reach such geometries, and few let engineers express structural des",
-      "tag": "ai"
-    },
-    {
-      "title": "Data-Efficient Language Modeling: From Frontier Advancement to Principle-Guided Model Improvement",
-      "url": "https://arxiv.org/abs/2609.10702",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-11T04:00:00+00:00",
-      "summary": "arXiv:2609.10702v1 Announce Type: new Abstract: Learning from limited text requires models to use context, generalize to new inputs, and retain useful capabilities. Qiushi Engine conducted a long-horizon, end-to-end autonomous research program on BabyLM 2026 Strict-Small, within ",
-      "tag": "ai"
-    },
-    {
-      "title": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
-      "url": "https://arxiv.org/abs/2609.10715",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-11T04:00:00+00:00",
-      "summary": "arXiv:2609.10715v1 Announce Type: new Abstract: We introduce NCP-ArchPreview, a latent-space language model that pushes autoregressive pretraining beyond standard next-token prediction (NTP). Alongside NTP, the model learns through Next Concept Prediction (NCP) to predict discret",
-      "tag": "ai"
-    },
-    {
-      "title": "CMNIE: An Information Extraction Benchmark for Chinese Military News",
-      "url": "https://arxiv.org/abs/2609.10722",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-11T04:00:00+00:00",
-      "summary": "arXiv:2609.10722v1 Announce Type: new Abstract: Structured extraction from Chinese military news supports intelligence analysis, decision-making, and knowledge base construction. However, existing resources provide limited support for joint informa?tion extraction in this domain,",
       "tag": "ai"
     },
     {
@@ -319,6 +271,54 @@
       "source": "Meta Engineering",
       "published_at": "2026-09-02T09:00:29+00:00",
       "summary": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved for anyone in an organization to access, share, and build upon. This is not a typical domain-specific agent. Its novelty comes from integra",
+      "tag": "ai"
+    },
+    {
+      "title": "Import AI 471: Why Hugging Face worries me; space mining; FIve Eyes on AI",
+      "url": "https://jack-clark.net/2026/08/31/import-ai-471-why-hugging-face-worries-me-space-mining-five-eyes-on-ai/",
+      "source": "Import AI",
+      "published_at": "2026-08-31T13:31:06+00:00",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Import AI reader giveaway! Upcoming event: Fiction and the Future with Robin SloanI’ll be chatting",
+      "tag": "ai"
+    },
+    {
+      "title": "What We Learned Trying to Catch AI Liars: An Aletheia's Quest Retrospective",
+      "url": "https://blog.eleuther.ai/aletheia-retrospective/",
+      "source": "EleutherAI",
+      "published_at": "2026-08-25T16:35:00+00:00",
+      "summary": "What we learned while building black-box and white-box detectors for AI deception during Aletheia's Quest.",
+      "tag": "ai"
+    },
+    {
+      "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
+      "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/",
+      "source": "Meta Engineering",
+      "published_at": "2026-08-24T18:02:29+00:00",
+      "summary": "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles. To meet this challenge at scale, Meta designed MetaRoCE – a clean-sheet RDMA transport protocol purpose-built for AI workloads on commodity Ether",
+      "tag": "ai"
+    },
+    {
+      "title": "A Dynamical Model of AI Governability",
+      "url": "https://blog.eleuther.ai/dynamical-models-of-ai-governability/",
+      "source": "EleutherAI",
+      "published_at": "2026-07-13T00:00:00+00:00",
+      "summary": "A toy dynamical model of whether the AI workforce that builds future AI ends up cooperative or uncooperative: where the basin boundary lies, what current evidence says about which side we are on, and what would tell us we are on the good path.",
+      "tag": "ai"
+    },
+    {
+      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
+      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+      "source": "NVIDIA AI",
+      "published_at": "2026-07-08T15:00:27+00:00",
+      "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open mo",
+      "tag": "ai"
+    },
+    {
+      "title": "Early Indicators of Reward Hacking via Reasoning Interpolation",
+      "url": "https://blog.eleuther.ai/reward-hacking-indicators/",
+      "source": "EleutherAI",
+      "published_at": "2026-04-15T00:00:00+00:00",
+      "summary": "Using importance sampling with fine-tuned donor prefills to predict reward hacking emergence during training",
       "tag": "ai"
     }
   ],
