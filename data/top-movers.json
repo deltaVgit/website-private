@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T08:45:31Z",
+  "updated_at": "2026-09-12T09:00:28Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.744307,
-        "change_24h": 9.98,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 545.43,
-        "change_24h": 6.97,
+        "price": 0.740208,
+        "change_24h": 9.27,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.247899,
-        "change_24h": 6.82,
+        "price": 0.246977,
+        "change_24h": 6.52,
         "asset": "crypto"
       },
       {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.063501,
-        "change_24h": 5.13,
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 542.16,
+        "change_24h": 6.02,
         "asset": "crypto"
       },
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 6.38,
-        "change_24h": 4.75,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.527211,
+        "change_24h": 5.44,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.108011,
+        "change_24h": 4.51,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "DOT",
+        "name": "Polkadot",
+        "price": 1.047,
+        "change_24h": -7.09,
+        "asset": "crypto"
+      },
+      {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
         "price": 1.64,
-        "change_24h": -6.81,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DOT",
-        "name": "Polkadot",
-        "price": 1.048,
-        "change_24h": -6.24,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 23.16,
-        "change_24h": -4.83,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.35,
-        "change_24h": -4.14,
+        "change_24h": -6.7,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 2.38,
-        "change_24h": -3.99,
+        "price": 2.37,
+        "change_24h": -3.84,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 23.18,
+        "change_24h": -3.81,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.015145,
+        "change_24h": -3.7,
         "asset": "crypto"
       }
     ]
