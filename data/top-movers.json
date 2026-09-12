@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T22:15:29Z",
+  "updated_at": "2026-09-12T22:30:30Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,66 +82,52 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.549467,
-        "change_24h": 9.83,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLFI",
-        "name": "World Liberty Financial",
-        "price": 0.057841,
-        "change_24h": 6.47,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CRO",
-        "name": "Cronos",
-        "price": 0.059646,
-        "change_24h": 6.19,
+        "price": 0.549725,
+        "change_24h": 10.05,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.003769,
-        "change_24h": 6.13,
+        "price": 0.003788,
+        "change_24h": 6.77,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CRO",
+        "name": "Cronos",
+        "price": 0.05986,
+        "change_24h": 6.74,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLFI",
+        "name": "World Liberty Financial",
+        "price": 0.057694,
+        "change_24h": 6.12,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
         "price": 6.36,
-        "change_24h": 5.7,
+        "change_24h": 5.77,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1121.55,
-        "change_24h": -3.82,
-        "asset": "crypto"
-      },
-      {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.22,
-        "change_24h": -3.6,
+        "change_24h": -3.46,
         "asset": "crypto"
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.22,
-        "change_24h": -3.41,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 2.35,
-        "change_24h": -3.28,
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1123.21,
+        "change_24h": -3.3,
         "asset": "crypto"
       },
       {
@@ -149,6 +135,20 @@
         "name": "Figure Heloc",
         "price": 1.0,
         "change_24h": -3.13,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.22,
+        "change_24h": -2.75,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 2.35,
+        "change_24h": -2.48,
         "asset": "crypto"
       }
     ]
