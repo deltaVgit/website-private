@@ -272,11 +272,11 @@
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 1124,
+        "likes": 1127,
         "downloads": 2078044,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
-        "daysAgo": 25,
+        "daysAgo": 26,
         "pipeline": "image-text-to-text",
         "tags": [
           "gguf",
@@ -390,7 +390,7 @@
       "downloads": 34417,
       "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF",
       "lastModified": "2026-09-10T21:52:16.000Z",
-      "daysAgo": 1,
+      "daysAgo": 2,
       "pipeline": "image-text-to-text",
       "tags": [
         "transformers",
@@ -403,8 +403,8 @@
         "base_model:quantized:deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
       ],
       "pop": 0.7069,
-      "rec": 0.9677,
-      "combo": 0.7982
+      "rec": 0.9375,
+      "combo": 0.7876
     },
     {
       "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
@@ -624,5 +624,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-12T21:34:42Z"
+  "updated": "2026-09-12T22:04:43Z"
 }
