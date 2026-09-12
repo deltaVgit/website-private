@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T04:45:33Z",
+  "updated_at": "2026-09-12T05:00:36Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.063307,
+        "change_24h": 5.96,
+        "asset": "crypto"
+      },
+      {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1138.42,
-        "change_24h": 5.26,
+        "price": 1137.4,
+        "change_24h": 4.53,
         "asset": "crypto"
       },
       {
         "symbol": "OKB",
         "name": "OKB",
-        "price": 114.66,
-        "change_24h": 5.02,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.062573,
-        "change_24h": 4.89,
+        "price": 114.17,
+        "change_24h": 4.51,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.107846,
-        "change_24h": 4.15,
+        "price": 0.107921,
+        "change_24h": 4.25,
         "asset": "crypto"
       },
       {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.571238,
-        "change_24h": 3.74,
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.703272,
+        "change_24h": 3.99,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ATOM",
-        "name": "Cosmos Hub",
-        "price": 1.64,
-        "change_24h": -7.04,
+        "symbol": "DOT",
+        "name": "Polkadot",
+        "price": 1.05,
+        "change_24h": -7.63,
         "asset": "crypto"
       },
       {
-        "symbol": "DOT",
-        "name": "Polkadot",
-        "price": 1.051,
-        "change_24h": -7.01,
+        "symbol": "ATOM",
+        "name": "Cosmos Hub",
+        "price": 1.64,
+        "change_24h": -7.31,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.003531,
-        "change_24h": -5.34,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.141551,
-        "change_24h": -4.91,
+        "price": 0.003539,
+        "change_24h": -5.28,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 2.36,
-        "change_24h": -4.26,
+        "price": 2.34,
+        "change_24h": -4.67,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.140941,
+        "change_24h": -4.61,
         "asset": "crypto"
       }
     ]
