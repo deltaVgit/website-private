@@ -5,7 +5,7 @@
         "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Uncensored-GGUF",
         "author": "JonathanColetti",
-        "likes": 1068,
+        "likes": 1069,
         "downloads": 2883270,
         "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "lastModified": "2026-08-29T04:18:18.000Z",
@@ -227,7 +227,7 @@
         "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
         "author": "huihui-ai",
-        "likes": 675,
+        "likes": 676,
         "downloads": 2508629,
         "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "lastModified": "2026-09-08T15:49:51.000Z",
@@ -272,7 +272,7 @@
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 1111,
+        "likes": 1112,
         "downloads": 1999181,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
@@ -338,7 +338,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
       "author": "huihui-ai",
-      "likes": 675,
+      "likes": 676,
       "downloads": 2508629,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "lastModified": "2026-09-08T15:49:51.000Z",
@@ -482,7 +482,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "name": "Huihui-Qwen3.8-27B-abliterated",
       "author": "huihui-ai",
-      "likes": 399,
+      "likes": 400,
       "downloads": 82226,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "lastModified": "2026-08-24T03:47:39.000Z",
@@ -530,7 +530,7 @@
       "id": "Abiray/MiniCPM5-2B-heretic-abliterated-GGUF",
       "name": "MiniCPM5-2B-heretic-abliterated-GGUF",
       "author": "Abiray",
-      "likes": 11,
+      "likes": 12,
       "downloads": 6662,
       "url": "https://huggingface.co/Abiray/MiniCPM5-2B-heretic-abliterated-GGUF",
       "lastModified": "2026-09-08T07:35:36.000Z",
@@ -549,30 +549,6 @@
       "pop": 0.5975,
       "rec": 0.8824,
       "combo": 0.6972
-    },
-    {
-      "id": "mondk/MiniCPM5-2B-Abliterated-Uncensored-GGUF",
-      "name": "MiniCPM5-2B-Abliterated-Uncensored-GGUF",
-      "author": "mondk",
-      "likes": 5,
-      "downloads": 3099,
-      "url": "https://huggingface.co/mondk/MiniCPM5-2B-Abliterated-Uncensored-GGUF",
-      "lastModified": "2026-09-10T08:52:15.000Z",
-      "daysAgo": 1,
-      "pipeline": "text-generation",
-      "tags": [
-        "gguf",
-        "minicpm",
-        "minicpm5",
-        "llama",
-        "text-generation",
-        "tool-calling",
-        "on-device",
-        "edge-ai"
-      ],
-      "pop": 0.5456,
-      "rec": 0.9677,
-      "combo": 0.6933
     },
     {
       "id": "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
@@ -597,6 +573,30 @@
       "pop": 0.5922,
       "rec": 0.8571,
       "combo": 0.6849
+    },
+    {
+      "id": "mondk/MiniCPM5-2B-Abliterated-Uncensored-GGUF",
+      "name": "MiniCPM5-2B-Abliterated-Uncensored-GGUF",
+      "author": "mondk",
+      "likes": 5,
+      "downloads": 3099,
+      "url": "https://huggingface.co/mondk/MiniCPM5-2B-Abliterated-Uncensored-GGUF",
+      "lastModified": "2026-09-10T08:52:15.000Z",
+      "daysAgo": 2,
+      "pipeline": "text-generation",
+      "tags": [
+        "gguf",
+        "minicpm",
+        "minicpm5",
+        "llama",
+        "text-generation",
+        "tool-calling",
+        "on-device",
+        "edge-ai"
+      ],
+      "pop": 0.5456,
+      "rec": 0.9375,
+      "combo": 0.6827
     },
     {
       "id": "mradermacher/Gemma-4-E4B-Abliterated-Uncensored-i1-GGUF",
@@ -624,5 +624,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-12T08:34:33Z"
+  "updated": "2026-09-12T09:04:39Z"
 }
