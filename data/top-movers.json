@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T09:15:39Z",
+  "updated_at": "2026-09-13T09:30:44Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.563414,
+        "change_24h": 5.97,
+        "asset": "crypto"
+      },
+      {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.111622,
+        "price": 0.111901,
         "change_24h": 3.29,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.003679,
-        "change_24h": 3.08,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.557619,
-        "change_24h": 2.78,
+        "price": 0.003664,
+        "change_24h": 2.26,
         "asset": "crypto"
       },
       {
         "symbol": "PI",
         "name": "Pi Network",
-        "price": 0.096765,
-        "change_24h": 2.21,
+        "price": 0.096535,
+        "change_24h": 2.02,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.015379,
-        "change_24h": 1.56,
+        "price": 0.015364,
+        "change_24h": 1.49,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.675007,
-        "change_24h": -9.25,
+        "price": 0.676833,
+        "change_24h": -7.7,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.234255,
+        "change_24h": -5.5,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.17,
-        "change_24h": -5.4,
+        "change_24h": -5.47,
         "asset": "crypto"
       },
       {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.234749,
-        "change_24h": -5.12,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 2.65,
-        "change_24h": -4.82,
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1093.25,
+        "change_24h": -5.24,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.13,
-        "change_24h": -4.7,
+        "price": 4.12,
+        "change_24h": -5.02,
         "asset": "crypto"
       }
     ]
