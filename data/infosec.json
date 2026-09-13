@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T23:34:57Z",
+  "updatedAt": "2026-09-13T00:05:10Z",
   "kev": [
     {
       "cve": "CVE-2026-84869",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-84325",
+      "id": "CVE-2026-78069",
       "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "Improper input validation in DataTransfer in Google Chrome prior to 152.0.7977.75 allowed a remote attacker leveraging social engineering to bypass system access restrictions via a co-installed app. (Chromium security se",
-      "published": "2026-09-02T00:18:27.340"
+      "score": 9.5,
+      "description": "Joomla Extension - j2commerce.com - Missing authorization on Apps controller delegation chain in J2Store 1.0.0-3.3.21, 4.0.0-4.0.21, 4.1.0-4.1.6 - `J2StoreControllerApps`'s `appTask` delegation path instantiates app-plug",
+      "published": "2026-09-03T13:06:09.327"
     },
     {
-      "id": "CVE-2026-84354",
+      "id": "CVE-2026-76174",
       "severity": "CRITICAL",
-      "score": 9.6,
-      "description": "Incorrect authorization in FileSystem in Google Chrome prior to 152.0.7977.75 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium secur",
-      "published": "2026-09-02T00:18:29.310"
+      "score": 9.4,
+      "description": "Unrestricted file upload vulnerability in the CSV file upload functionality of the Ocsreports admin_info endpoint. The application validates files solely based on the name provided by the client, without properly checkin",
+      "published": "2026-09-03T13:06:07.723"
     },
     {
-      "id": "CVE-2026-84353",
+      "id": "CVE-2026-78080",
       "severity": "CRITICAL",
-      "score": 9.6,
-      "description": "Use after free in Shared Tab Groups in Google Chrome on on Android prior to 152.0.7977.75 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Ch",
-      "published": "2026-09-02T00:18:29.203"
+      "score": 9.3,
+      "description": "Joomla Extension - feenders.de - Unauthenticated SQL injection in JooDatabase Lite < 5.1.0 - The cid parameter is used in queries without validation, allowing SQLi vectors.",
+      "published": "2026-09-03T13:06:09.463"
     },
     {
-      "id": "CVE-2026-84352",
+      "id": "CVE-2026-76178",
       "severity": "CRITICAL",
-      "score": 9.6,
-      "description": "Use after free in WebGL in Google Chrome on on Android prior to 152.0.7977.75 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)",
-      "published": "2026-09-02T00:18:29.097"
+      "score": 9.2,
+      "description": "A stored Cross-Site Scripting (XSS) vulnerability in the notification template functionality of the endpoint /ocsreports/?function=notification. A user with administrator privileges can input malicious HTML content which",
+      "published": "2026-09-03T13:06:08.293"
     },
     {
-      "id": "CVE-2026-84333",
-      "severity": "CRITICAL",
-      "score": 9.6,
-      "description": "Use after free in Dawn in Google Chrome on on Android prior to 152.0.7977.75 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
-      "published": "2026-09-02T00:18:28.217"
-    },
-    {
-      "id": "CVE-2026-84699",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "description": "Team Password Manager before 14.184.308 fails to enforce authentication requirements in the local account password reset flow. Unauthenticated attackers can reset local account passwords and authenticate as those users t",
-      "published": "2026-09-02T01:17:24.990"
-    },
-    {
-      "id": "CVE-2026-84324",
-      "severity": "CRITICAL",
-      "score": 9.0,
-      "description": "Use after free in Proxy in Google Chrome prior to 152.0.7977.75 allowed a remote attacker to execute arbitrary code outside the sandbox via crafted network traffic. (Chromium security severity: High)",
-      "published": "2026-09-02T00:18:27.230"
-    },
-    {
-      "id": "CVE-2026-84694",
+      "id": "CVE-2026-78064",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "Coolify before 4.2.0 fails to properly escape environment variable key names in Docker commands executed over SSH on managed servers. Authenticated attackers can inject shell metacharacters into environment variable keys",
-      "published": "2026-09-02T01:17:24.243"
+      "description": "Joomla Extension - j2commerce.com - Anonymous cart-record tampering via inherited FOF `save` task in J2Store 1.0.0-3.3.21, 4.0.0-4.0.21, 4.1.0-4.1.6 - `fof.xml` grants the `carts` view's tasks a wildcard `true` ACL, and ",
+      "published": "2026-09-03T13:06:09.060"
     },
     {
-      "id": "CVE-2026-84350",
-      "severity": "HIGH",
-      "score": 8.8,
-      "description": "Use after free in TabStrip in Google Chrome prior to 152.0.7977.75 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via UI Interaction. (Chromium security severity: Lo",
-      "published": "2026-09-02T00:18:28.873"
-    },
-    {
-      "id": "CVE-2026-84347",
-      "severity": "HIGH",
-      "score": 8.8,
-      "description": "Use after free in WebRTC in Google Chrome prior to 152.0.7977.75 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
-      "published": "2026-09-02T00:18:28.550"
-    },
-    {
-      "id": "CVE-2026-84326",
-      "severity": "HIGH",
-      "score": 8.8,
-      "description": "Uninitialized resource in V8 in Google Chrome prior to 152.0.7977.75 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
-      "published": "2026-09-02T00:18:27.447"
-    },
-    {
-      "id": "CVE-2026-84695",
+      "id": "CVE-2026-79679",
       "severity": "HIGH",
       "score": 8.7,
-      "description": "BookStack before 26.05.4 contains a stored cross-site scripting vulnerability in the drawing upload endpoint that accepts unvalidated base64 content and stores it without content inspection. Attackers with editor permiss",
-      "published": "2026-09-02T01:17:24.400"
+      "description": "Use of Weak Credentials vulnerability in B&R Industrial Automation GmbH mapp Audit used in mapp Services. This issue affects mapp Audit used in mapp Services: before 6.8.0.",
+      "published": "2026-09-03T13:06:10.430"
+    },
+    {
+      "id": "CVE-2026-77999",
+      "severity": "HIGH",
+      "score": 8.7,
+      "description": "Joomla Extension - j2commerce.com - Unauthenticated PayPal callback forgery leading to order confirmation fraud in J2Store 1.0.0-3.3.21, 4.0.0-4.0.21, 4.1.0-4.1.6 - The PayPal IPN listener's signature check (`_validateIP",
+      "published": "2026-09-03T13:06:08.760"
+    },
+    {
+      "id": "CVE-2026-76176",
+      "severity": "HIGH",
+      "score": 8.6,
+      "description": "SQL injection vulnerability in the endpoint /ocsreports/index.php?function=admin_double due to improper processing of the values in the ID field included in the selected_grp_dupli[] parameter. An authenticated user with ",
+      "published": "2026-09-03T13:06:08.007"
+    },
+    {
+      "id": "CVE-2026-76175",
+      "severity": "HIGH",
+      "score": 8.6,
+      "description": "SQL injection vulnerability in the del_check parameter of the /ocsreports/?function=save_query_list endpoint. Input provided by an authenticated user with operator privileges is incorporated into an SQL query without pro",
+      "published": "2026-09-03T13:06:07.867"
+    },
+    {
+      "id": "CVE-2021-38489",
+      "severity": "HIGH",
+      "score": 8.2,
+      "description": "HDD password plaintext is stored in a UEFI variable.",
+      "published": "2026-09-03T13:04:10.943"
+    },
+    {
+      "id": "CVE-2026-76642",
+      "severity": "HIGH",
+      "score": 7.8,
+      "description": "util-linux versions through 2.41.5 and 2.42.2 fail to check mount helper exit status before running post-mount hooks, allowing unprivileged users to execute privileged operations on pre-existing filesystems. Attackers ca",
+      "published": "2026-09-03T13:06:08.440"
+    },
+    {
+      "id": "CVE-2026-73600",
+      "severity": "HIGH",
+      "score": 7.8,
+      "description": "Dell PowerProtect Data Manager, versions 20.2.0.0 and below, contain a stack buffer overflow vulnerability in file-level restore agent. A high privileged remote attacker could potentially exploit this vulnerability, lead",
+      "published": "2026-09-03T13:06:03.427"
     }
   ],
   "breaches": [
