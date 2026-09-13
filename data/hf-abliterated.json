@@ -68,30 +68,6 @@
         ]
       },
       {
-        "id": "mradermacher/Qwen3-VL-8B-Instruct-abliterated-GGUF",
-        "name": "Qwen3-VL-8B-Instruct-abliterated-GGUF",
-        "author": "mradermacher",
-        "likes": 15,
-        "downloads": 659773,
-        "url": "https://huggingface.co/mradermacher/Qwen3-VL-8B-Instruct-abliterated-GGUF",
-        "lastModified": "2025-11-15T11:01:32.000Z",
-        "daysAgo": 302,
-        "pipeline": "",
-        "tags": [
-          "transformers",
-          "gguf",
-          "text-generation-inference",
-          "abliterated",
-          "v1.0",
-          "en",
-          "base_model:prithivMLmods/Qwen3-VL-8B-Instruct-abliterated-v1",
-          "base_model:quantized:prithivMLmods/Qwen3-VL-8B-Instruct-abliterated-v1"
-        ],
-        "pop": 0.9053,
-        "rec": 0.0904,
-        "combo": 0.62
-      },
-      {
         "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
         "name": "Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
         "author": "huihui-ai",
@@ -114,6 +90,27 @@
         "pop": 0.8959,
         "rec": 0.4225,
         "combo": 0.7302
+      },
+      {
+        "id": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
+        "name": "supergemma4-26b-uncensored-gguf-v2",
+        "author": "Jiunsong",
+        "likes": 987,
+        "downloads": 368144,
+        "url": "https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2",
+        "lastModified": "2026-04-12T13:42:43.000Z",
+        "daysAgo": 154,
+        "pipeline": "text-generation",
+        "tags": [
+          "gguf",
+          "gemma4",
+          "uncensored",
+          "fast",
+          "llama.cpp",
+          "apple-silicon",
+          "conversational",
+          "korean"
+        ]
       }
     ],
     "image_video": [
@@ -231,7 +228,7 @@
         "downloads": 2682158,
         "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "lastModified": "2026-09-08T15:49:51.000Z",
-        "daysAgo": 4,
+        "daysAgo": 5,
         "pipeline": "image-text-to-text",
         "tags": [
           "transformers",
@@ -244,8 +241,8 @@
           "image-text-to-text"
         ],
         "pop": 1.0,
-        "rec": 0.8824,
-        "combo": 0.9588
+        "rec": 0.8571,
+        "combo": 0.95
       },
       {
         "id": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
@@ -272,7 +269,7 @@
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 1142,
+        "likes": 1144,
         "downloads": 2157412,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
@@ -342,7 +339,7 @@
       "downloads": 2682158,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "lastModified": "2026-09-08T15:49:51.000Z",
-      "daysAgo": 4,
+      "daysAgo": 5,
       "pipeline": "image-text-to-text",
       "tags": [
         "transformers",
@@ -355,8 +352,8 @@
         "image-text-to-text"
       ],
       "pop": 1.0,
-      "rec": 0.8824,
-      "combo": 0.9588
+      "rec": 0.8571,
+      "combo": 0.95
     },
     {
       "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
@@ -624,5 +621,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-13T15:34:25Z"
+  "updated": "2026-09-13T16:04:31Z"
 }
