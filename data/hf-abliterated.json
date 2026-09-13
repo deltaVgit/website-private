@@ -92,24 +92,24 @@
         "combo": 0.7302
       },
       {
-        "id": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
-        "name": "supergemma4-26b-uncensored-gguf-v2",
-        "author": "Jiunsong",
-        "likes": 987,
-        "downloads": 368144,
-        "url": "https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2",
-        "lastModified": "2026-04-12T13:42:43.000Z",
-        "daysAgo": 154,
-        "pipeline": "text-generation",
+        "id": "HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive",
+        "name": "Qwen3.5-4B-Uncensored-HauhauCS-Aggressive",
+        "author": "HauhauCS",
+        "likes": 518,
+        "downloads": 205658,
+        "url": "https://huggingface.co/HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive",
+        "lastModified": "2026-04-05T19:01:02.000Z",
+        "daysAgo": 161,
+        "pipeline": "",
         "tags": [
           "gguf",
-          "gemma4",
           "uncensored",
-          "fast",
-          "llama.cpp",
-          "apple-silicon",
-          "conversational",
-          "korean"
+          "qwen3.5",
+          "qwen",
+          "en",
+          "zh",
+          "multilingual",
+          "license:apache-2.0"
         ]
       }
     ],
@@ -290,7 +290,7 @@
         "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "name": "Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 636,
+        "likes": 637,
         "downloads": 1120315,
         "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "lastModified": "2026-08-24T04:11:28.000Z",
@@ -621,5 +621,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-13T18:34:55Z"
+  "updated": "2026-09-13T19:05:11Z"
 }
