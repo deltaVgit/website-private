@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T13:00:29Z",
+  "updated_at": "2026-09-13T13:15:33Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.63207,
-        "change_24h": 13.83,
-        "asset": "crypto"
-      },
-      {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 0.83765,
-        "change_24h": 3.16,
+        "price": 0.838663,
+        "change_24h": 3.52,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.003707,
-        "change_24h": 3.13,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PI",
-        "name": "Pi Network",
-        "price": 0.09786,
-        "change_24h": 2.78,
+        "price": 0.003701,
+        "change_24h": 3.14,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.111472,
-        "change_24h": 2.39,
+        "price": 0.111438,
+        "change_24h": 2.46,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PI",
+        "name": "Pi Network",
+        "price": 0.097474,
+        "change_24h": 2.42,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "HBAR",
+        "name": "Hedera",
+        "price": 0.075597,
+        "change_24h": 1.48,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.652481,
-        "change_24h": -11.5,
+        "price": 0.652005,
+        "change_24h": -12.39,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.07,
-        "change_24h": -6.54,
+        "price": 4.08,
+        "change_24h": -6.15,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1091.15,
-        "change_24h": -6.0,
+        "price": 1091.61,
+        "change_24h": -5.46,
         "asset": "crypto"
       },
       {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.137183,
-        "change_24h": -5.11,
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.18,
+        "change_24h": -4.59,
         "asset": "crypto"
       },
       {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.234488,
-        "change_24h": -4.87,
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 53.82,
+        "change_24h": -4.45,
         "asset": "crypto"
       }
     ]
