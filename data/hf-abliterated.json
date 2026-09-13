@@ -50,7 +50,7 @@
         "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "name": "Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 2056,
+        "likes": 2058,
         "downloads": 865631,
         "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-06-05T17:55:41.000Z",
@@ -407,6 +407,30 @@
       "combo": 0.7882
     },
     {
+      "id": "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
+      "name": "Qwen3.8-27B-ABLITERATED-GGUF",
+      "author": "Blackfrost-AI",
+      "likes": 231,
+      "downloads": 338899,
+      "url": "https://huggingface.co/Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
+      "lastModified": "2026-08-22T17:50:05.000Z",
+      "daysAgo": 21,
+      "pipeline": "image-text-to-text",
+      "tags": [
+        "gguf",
+        "qwen3.8",
+        "qwen",
+        "27b",
+        "dense",
+        "abliterated",
+        "quantized",
+        "multimodal"
+      ],
+      "pop": 0.8602,
+      "rec": 0.5882,
+      "combo": 0.765
+    },
+    {
       "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
       "name": "Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
       "author": "huihui-ai",
@@ -597,32 +621,8 @@
       "pop": 0.7585,
       "rec": 0.6,
       "combo": 0.7031
-    },
-    {
-      "id": "mondk/MiniCPM5-2B-Abliterated-Uncensored-GGUF",
-      "name": "MiniCPM5-2B-Abliterated-Uncensored-GGUF",
-      "author": "mondk",
-      "likes": 5,
-      "downloads": 4355,
-      "url": "https://huggingface.co/mondk/MiniCPM5-2B-Abliterated-Uncensored-GGUF",
-      "lastModified": "2026-09-10T08:52:15.000Z",
-      "daysAgo": 3,
-      "pipeline": "text-generation",
-      "tags": [
-        "gguf",
-        "minicpm",
-        "minicpm5",
-        "llama",
-        "text-generation",
-        "tool-calling",
-        "on-device",
-        "edge-ai"
-      ],
-      "pop": 0.5661,
-      "rec": 0.9091,
-      "combo": 0.6861
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-13T13:34:51Z"
+  "updated": "2026-09-13T14:05:06Z"
 }
