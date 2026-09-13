@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T17:30:40Z",
+  "updated_at": "2026-09-13T17:45:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "INJ",
-        "name": "Injective",
-        "price": 6.15,
-        "change_24h": 3.09,
-        "asset": "crypto"
-      },
-      {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.112732,
-        "change_24h": 2.82,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 2.8,
-        "change_24h": 2.45,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "HBAR",
-        "name": "Hedera",
-        "price": 0.076404,
-        "change_24h": 2.35,
+        "price": 0.112793,
+        "change_24h": 2.77,
         "asset": "crypto"
       },
       {
         "symbol": "PI",
         "name": "Pi Network",
-        "price": 0.097772,
-        "change_24h": 2.25,
+        "price": 0.097775,
+        "change_24h": 2.22,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "HBAR",
+        "name": "Hedera",
+        "price": 0.076237,
+        "change_24h": 2.07,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VET",
+        "name": "VeChain",
+        "price": 0.007743,
+        "change_24h": 2.05,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 6.16,
+        "change_24h": 1.99,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.641651,
-        "change_24h": -13.24,
+        "price": 0.646705,
+        "change_24h": -12.94,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.003634,
-        "change_24h": -5.24,
+        "price": 0.003614,
+        "change_24h": -6.87,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.235961,
-        "change_24h": -4.61,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "price": 2.2,
-        "change_24h": -3.6,
+        "price": 0.23546,
+        "change_24h": -4.89,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 22.43,
-        "change_24h": -3.26,
+        "price": 22.21,
+        "change_24h": -4.13,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.14,
+        "change_24h": -3.31,
         "asset": "crypto"
       }
     ]
