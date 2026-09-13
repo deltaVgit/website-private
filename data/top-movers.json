@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T05:15:48Z",
+  "updated_at": "2026-09-13T05:30:51Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.548683,
-        "change_24h": 9.81,
+        "price": 0.548938,
+        "change_24h": 9.87,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.003798,
-        "change_24h": 7.11,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLFI",
-        "name": "World Liberty Financial",
-        "price": 0.057663,
-        "change_24h": 5.06,
+        "price": 0.003802,
+        "change_24h": 7.63,
         "asset": "crypto"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.007829,
-        "change_24h": 4.95,
+        "price": 0.007946,
+        "change_24h": 4.84,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLFI",
+        "name": "World Liberty Financial",
+        "price": 0.057643,
+        "change_24h": 4.76,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 3e-06,
-        "change_24h": 4.01,
+        "change_24h": 4.3,
         "asset": "crypto"
       }
     ],
@@ -119,15 +119,22 @@
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.553411,
+        "price": 0.553032,
         "change_24h": -4.79,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.19,
+        "change_24h": -3.55,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
-        "price": 1.008,
-        "change_24h": -3.64,
+        "price": 1.01,
+        "change_24h": -3.09,
         "asset": "crypto"
       },
       {
@@ -138,17 +145,10 @@
         "asset": "crypto"
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.21,
-        "change_24h": -2.69,
-        "asset": "crypto"
-      },
-      {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.21,
-        "change_24h": -2.57,
+        "change_24h": -2.64,
         "asset": "crypto"
       }
     ]
