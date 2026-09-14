@@ -5,7 +5,7 @@
         "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Uncensored-GGUF",
         "author": "JonathanColetti",
-        "likes": 1099,
+        "likes": 1100,
         "downloads": 2994589,
         "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "lastModified": "2026-08-29T04:18:18.000Z",
@@ -92,28 +92,25 @@
         "combo": 0.7302
       },
       {
-        "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-abliterated-ds4-GGUF",
-        "name": "Huihui-DeepSeek-V4-Flash-abliterated-ds4-GGUF",
-        "author": "huihui-ai",
-        "likes": 139,
-        "downloads": 224824,
-        "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-abliterated-ds4-GGUF",
-        "lastModified": "2026-06-06T23:43:01.000Z",
-        "daysAgo": 99,
-        "pipeline": "",
+        "id": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
+        "name": "supergemma4-26b-uncensored-gguf-v2",
+        "author": "Jiunsong",
+        "likes": 988,
+        "downloads": 368144,
+        "url": "https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2",
+        "lastModified": "2026-04-12T13:42:43.000Z",
+        "daysAgo": 154,
+        "pipeline": "text-generation",
         "tags": [
-          "transformers",
           "gguf",
-          "abliterated",
+          "gemma4",
           "uncensored",
-          "GGUF",
-          "quantized",
-          "deepseek",
-          "deepseek-v4"
-        ],
-        "pop": 0.8325,
-        "rec": 0.2326,
-        "combo": 0.6225
+          "fast",
+          "llama.cpp",
+          "apple-silicon",
+          "conversational",
+          "korean"
+        ]
       }
     ],
     "image_video": [
@@ -314,7 +311,7 @@
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 3649,
+        "likes": 3650,
         "downloads": 1096339,
         "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-04-17T02:59:21.000Z",
@@ -624,5 +621,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-14T02:05:19Z"
+  "updated": "2026-09-14T02:34:28Z"
 }
