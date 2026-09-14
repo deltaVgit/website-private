@@ -1,13 +1,7 @@
 {
-  "updated_at": "2026-09-14T01:05:57Z",
+  "updated_at": "2026-09-14T02:06:05Z",
   "source": "https://api.llama.fi/overview/dexs",
   "weekly": [
-    {
-      "week": "2022-W36",
-      "curated": 17852501719.0,
-      "filtered": 17852501719.0,
-      "raw": 17852501719.0
-    },
     {
       "week": "2022-W37",
       "curated": 18564415100.0,
@@ -1258,31 +1252,37 @@
     },
     {
       "week": "2026-W37",
-      "curated": 68396016738.380005,
-      "filtered": 68396016738.380005,
-      "raw": 68396016738.380005
+      "curated": 70505989523.98001,
+      "filtered": 70505989523.98001,
+      "raw": 70505989523.98001
+    },
+    {
+      "week": "2026-W38",
+      "curated": 6012832787.950004,
+      "filtered": 6012832787.950004,
+      "raw": 6012832787.950004
     }
   ],
   "chains": [
     {
       "chain": "Raydium AMM",
-      "volume_24h": 258521627.0,
-      "delta_pct": -20.73
+      "volume_24h": 264959702.0,
+      "delta_pct": -18.76
     },
     {
       "chain": "Orca DEX",
-      "volume_24h": 104681571.0,
-      "delta_pct": 17.68
+      "volume_24h": 105153195.0,
+      "delta_pct": 18.21
     },
     {
       "chain": "Quickswap Dex",
-      "volume_24h": 7134310.0,
-      "delta_pct": 0.0
+      "volume_24h": 7357531.0,
+      "delta_pct": 3.13
     },
     {
       "chain": "DODO AMM",
-      "volume_24h": 5017442.0,
-      "delta_pct": 0.0
+      "volume_24h": 4419784.0,
+      "delta_pct": -11.91
     },
     {
       "chain": "SushiSwap",
@@ -1291,38 +1291,38 @@
     },
     {
       "chain": "Bancor V2.1",
-      "volume_24h": 116308.0,
-      "delta_pct": -36.24
+      "volume_24h": 138606.0,
+      "delta_pct": -24.01
     },
     {
       "chain": "Defi Swap",
-      "volume_24h": 36078.0,
-      "delta_pct": -39.97
+      "volume_24h": 34311.0,
+      "delta_pct": -42.91
     },
     {
       "chain": "Pangolin V2",
-      "volume_24h": 15703.0,
-      "delta_pct": -11.51
-    },
-    {
-      "chain": "SpookySwap V2",
-      "volume_24h": 8360.0,
-      "delta_pct": 23.45
-    },
-    {
-      "chain": "Honeyswap",
-      "volume_24h": 4452.0,
-      "delta_pct": 158.24
+      "volume_24h": 18717.0,
+      "delta_pct": 5.48
     },
     {
       "chain": "Nerve",
-      "volume_24h": 4351.0,
-      "delta_pct": -37.74
+      "volume_24h": 9571.0,
+      "delta_pct": 36.96
     },
     {
-      "chain": "SpiritSwap AMM",
-      "volume_24h": 3283.0,
-      "delta_pct": 31.58
+      "chain": "Honeyswap",
+      "volume_24h": 4875.0,
+      "delta_pct": 182.77
+    },
+    {
+      "chain": "SpookySwap V2",
+      "volume_24h": 3381.0,
+      "delta_pct": -50.07
+    },
+    {
+      "chain": "Swapr V2",
+      "volume_24h": 2566.0,
+      "delta_pct": 40.6
     }
   ]
 }
