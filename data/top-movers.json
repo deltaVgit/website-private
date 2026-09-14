@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T22:30:52Z",
+  "updated_at": "2026-09-14T22:45:52Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.193555,
-        "change_24h": 9.52,
+        "price": 0.193805,
+        "change_24h": 9.74,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1176.55,
-        "change_24h": 9.41,
+        "price": 1173.23,
+        "change_24h": 9.1,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 2.5,
-        "change_24h": 9.06,
+        "change_24h": 8.6,
         "asset": "crypto"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price": 1.44,
-        "change_24h": 7.84,
+        "change_24h": 7.66,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
         "price": 6.33,
-        "change_24h": 7.11,
+        "change_24h": 7.24,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.615524,
+        "change_24h": -14.39,
+        "asset": "crypto"
+      },
+      {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.014328,
-        "change_24h": -5.58,
+        "price": 0.014343,
+        "change_24h": -5.37,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.096,
-        "change_24h": -4.35,
+        "change_24h": -4.01,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 513.78,
-        "change_24h": -1.75,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 0.938689,
-        "change_24h": -1.47,
+        "price": 513.67,
+        "change_24h": -1.54,
         "asset": "crypto"
       },
       {
         "symbol": "BDX",
         "name": "Beldex",
-        "price": 0.075426,
-        "change_24h": -0.88,
+        "price": 0.075441,
+        "change_24h": -0.86,
         "asset": "crypto"
       }
     ]
