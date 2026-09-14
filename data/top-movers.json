@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T05:46:07Z",
+  "updated_at": "2026-09-14T06:00:23Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -83,72 +83,72 @@
         "symbol": "LIT",
         "name": "Lighter",
         "price": 4.56,
-        "change_24h": 8.9,
+        "change_24h": 8.28,
         "asset": "crypto"
       },
       {
         "symbol": "CRV",
         "name": "Curve DAO",
-        "price": 0.356464,
-        "change_24h": 5.39,
+        "price": 0.357079,
+        "change_24h": 5.05,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
         "price": 2.32,
-        "change_24h": 4.69,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ALGO",
-        "name": "Algorand",
-        "price": 0.096615,
-        "change_24h": 3.9,
+        "change_24h": 4.67,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.113818,
-        "change_24h": 3.43,
+        "price": 0.114031,
+        "change_24h": 3.71,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ALGO",
+        "name": "Algorand",
+        "price": 0.096641,
+        "change_24h": 3.44,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 22.72,
-        "change_24h": -5.68,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.003623,
+        "change_24h": -5.82,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.003627,
-        "change_24h": -4.82,
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 22.67,
+        "change_24h": -5.35,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.13681,
+        "change_24h": -4.32,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.015111,
-        "change_24h": -4.2,
+        "price": 0.015119,
+        "change_24h": -4.12,
         "asset": "crypto"
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.033882,
-        "change_24h": -4.2,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.662452,
-        "change_24h": -4.11,
+        "price": 0.03386,
+        "change_24h": -4.07,
         "asset": "crypto"
       }
     ]
