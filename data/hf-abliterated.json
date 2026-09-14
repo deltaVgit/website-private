@@ -248,7 +248,7 @@
         "id": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "name": "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1156,
+        "likes": 1155,
         "downloads": 2307888,
         "url": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-04-06T03:50:35.000Z",
@@ -269,7 +269,7 @@
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 1155,
+        "likes": 1157,
         "downloads": 2157412,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
@@ -551,7 +551,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "name": "Huihui-Qwen3.8-27B-abliterated",
       "author": "huihui-ai",
-      "likes": 413,
+      "likes": 414,
       "downloads": 85701,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "lastModified": "2026-08-24T03:47:39.000Z",
@@ -570,30 +570,6 @@
       "pop": 0.7674,
       "rec": 0.5882,
       "combo": 0.7047
-    },
-    {
-      "id": "Abiray/MiniCPM5-2B-heretic-abliterated-GGUF",
-      "name": "MiniCPM5-2B-heretic-abliterated-GGUF",
-      "author": "Abiray",
-      "likes": 15,
-      "downloads": 9868,
-      "url": "https://huggingface.co/Abiray/MiniCPM5-2B-heretic-abliterated-GGUF",
-      "lastModified": "2026-09-08T07:35:36.000Z",
-      "daysAgo": 5,
-      "pipeline": "text-generation",
-      "tags": [
-        "gguf",
-        "minicpm",
-        "minicpm5",
-        "llama.cpp",
-        "text-generation",
-        "abliterated",
-        "uncensored",
-        "on-device"
-      ],
-      "pop": 0.6213,
-      "rec": 0.8571,
-      "combo": 0.7039
     },
     {
       "id": "sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
@@ -618,8 +594,32 @@
       "pop": 0.7585,
       "rec": 0.6,
       "combo": 0.7031
+    },
+    {
+      "id": "Abiray/MiniCPM5-2B-heretic-abliterated-GGUF",
+      "name": "MiniCPM5-2B-heretic-abliterated-GGUF",
+      "author": "Abiray",
+      "likes": 15,
+      "downloads": 9868,
+      "url": "https://huggingface.co/Abiray/MiniCPM5-2B-heretic-abliterated-GGUF",
+      "lastModified": "2026-09-08T07:35:36.000Z",
+      "daysAgo": 6,
+      "pipeline": "text-generation",
+      "tags": [
+        "gguf",
+        "minicpm",
+        "minicpm5",
+        "llama.cpp",
+        "text-generation",
+        "abliterated",
+        "uncensored",
+        "on-device"
+      ],
+      "pop": 0.6213,
+      "rec": 0.8333,
+      "combo": 0.6955
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-14T07:34:49Z"
+  "updated": "2026-09-14T08:05:08Z"
 }
