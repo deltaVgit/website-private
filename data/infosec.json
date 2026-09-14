@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-09-14T19:35:01Z",
+  "updatedAt": "2026-09-14T20:05:04Z",
   "kev": [
+    {
+      "cve": "CVE-2026-76461",
+      "product": "Secure Email Gateway",
+      "vendor": "Cisco",
+      "name": "Cisco Secure Email Gateway SQL Injection Vulnerability",
+      "dateAdded": "2026-09-14",
+      "dueDate": "2026-09-17",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2026-84869",
       "product": "ScreenConnect",
@@ -116,15 +125,6 @@
       "name": "N-able N-central Static Code Injection Vulnerability",
       "dateAdded": "2026-09-08",
       "dueDate": "2026-09-11",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-85880",
-      "product": "Windows",
-      "vendor": "Microsoft",
-      "name": "Microsoft Windows Heap-Based Buffer Overflow Vulnerability",
-      "dateAdded": "2026-09-08",
-      "dueDate": "2026-09-22",
       "knownRansomware": "Unknown"
     }
   ],
