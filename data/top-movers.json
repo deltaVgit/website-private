@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T03:30:30Z",
+  "updated_at": "2026-09-14T03:45:34Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.59,
-        "change_24h": 8.85,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ALGO",
-        "name": "Algorand",
-        "price": 0.096977,
-        "change_24h": 5.25,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CAKE",
-        "name": "PancakeSwap",
-        "price": 2.32,
-        "change_24h": 4.56,
+        "price": 4.63,
+        "change_24h": 10.05,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 6.15,
-        "change_24h": 4.42,
+        "price": 6.17,
+        "change_24h": 4.71,
         "asset": "crypto"
       },
       {
-        "symbol": "VET",
-        "name": "VeChain",
-        "price": 0.007934,
-        "change_24h": 4.29,
+        "symbol": "ALGO",
+        "name": "Algorand",
+        "price": 0.096606,
+        "change_24h": 4.46,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CAKE",
+        "name": "PancakeSwap",
+        "price": 2.31,
+        "change_24h": 4.41,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.114002,
+        "change_24h": 4.16,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 22.82,
-        "change_24h": -5.7,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.650639,
-        "change_24h": -5.46,
+        "price": 0.647114,
+        "change_24h": -5.55,
         "asset": "crypto"
       },
       {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.14,
-        "change_24h": -5.07,
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 22.72,
+        "change_24h": -4.61,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.003636,
-        "change_24h": -4.65,
+        "price": 0.003623,
+        "change_24h": -4.46,
         "asset": "crypto"
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.033983,
-        "change_24h": -3.63,
+        "price": 0.033831,
+        "change_24h": -3.85,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.015187,
+        "change_24h": -3.55,
         "asset": "crypto"
       }
     ]
