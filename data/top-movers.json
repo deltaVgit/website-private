@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-14T16:45:20Z",
+  "updated_at": "2026-09-14T17:00:26Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "SAIL",
-        "name": "SailPoint, Inc.",
-        "price": 20.03,
-        "change_24h": 16.18,
+        "symbol": "RUM",
+        "name": "RUM Group Inc.",
+        "price": 8.4595,
+        "change_24h": 17.98,
         "asset": "equity"
       },
       {
-        "symbol": "RUM",
-        "name": "RUM Group Inc.",
-        "price": 8.305,
-        "change_24h": 15.82,
+        "symbol": "SAIL",
+        "name": "SailPoint, Inc.",
+        "price": 20.09,
+        "change_24h": 16.5,
         "asset": "equity"
       },
       {
         "symbol": "S",
         "name": "SentinelOne, Inc.",
-        "price": 22.88,
-        "change_24h": 15.82,
+        "price": 22.86,
+        "change_24h": 15.78,
         "asset": "equity"
       },
       {
-        "symbol": "QLYS",
-        "name": "Qualys, Inc.",
-        "price": 172.85,
-        "change_24h": 15.02,
+        "symbol": "ZS",
+        "name": "Zscaler, Inc.",
+        "price": 190.46,
+        "change_24h": 15.75,
         "asset": "equity"
       },
       {
         "symbol": "CRWD",
         "name": "CrowdStrike Holdings, Inc.",
-        "price": 237.91,
-        "change_24h": 15.08,
+        "price": 238.57,
+        "change_24h": 15.39,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "NFE",
         "name": "New Fortress Energy Inc.",
-        "price": 13.24,
-        "change_24h": -19.66,
+        "price": 12.96,
+        "change_24h": -21.36,
         "asset": "equity"
       },
       {
         "symbol": "GLW",
         "name": "Corning Incorporated",
-        "price": 145.21,
-        "change_24h": -12.74,
+        "price": 145.72,
+        "change_24h": -12.43,
         "asset": "equity"
       },
       {
         "symbol": "SIMO",
         "name": "Silicon Motion Technology Corpo",
-        "price": 249.94,
-        "change_24h": -12.14,
-        "asset": "equity"
-      },
-      {
-        "symbol": "MTSI",
-        "name": "MACOM Technology Solutions Hold",
-        "price": 243.28,
-        "change_24h": -11.5,
+        "price": 250.0,
+        "change_24h": -12.12,
         "asset": "equity"
       },
       {
         "symbol": "TER",
         "name": "Teradyne, Inc.",
-        "price": 336.1,
-        "change_24h": -11.49,
+        "price": 334.56,
+        "change_24h": -11.89,
+        "asset": "equity"
+      },
+      {
+        "symbol": "NOK",
+        "name": "Nokia Corporation Sponsored",
+        "price": 9.825,
+        "change_24h": -11.73,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.193803,
-        "change_24h": 8.57,
+        "price": 0.195098,
+        "change_24h": 9.14,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
         "price": 2.37,
-        "change_24h": 7.54,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.46,
-        "change_24h": 7.23,
+        "change_24h": 7.45,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 2.44,
-        "change_24h": 6.26,
+        "price": 2.47,
+        "change_24h": 6.86,
         "asset": "crypto"
       },
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.719127,
-        "change_24h": 4.56,
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.45,
+        "change_24h": 5.73,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XRP",
+        "name": "XRP",
+        "price": 1.42,
+        "change_24h": 5.11,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.014337,
-        "change_24h": -6.4,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.089,
-        "change_24h": -4.0,
+        "price": 0.014333,
+        "change_24h": -6.14,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 516.36,
-        "change_24h": -3.64,
+        "price": 517.89,
+        "change_24h": -3.38,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.095,
+        "change_24h": -3.37,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
-        "price": 1.55,
-        "change_24h": -3.46,
+        "price": 1.56,
+        "change_24h": -2.96,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.135694,
-        "change_24h": -2.78,
+        "price": 0.13695,
+        "change_24h": -2.83,
         "asset": "crypto"
       }
     ]
