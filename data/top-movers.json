@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T00:30:40Z",
+  "updated_at": "2026-09-14T00:45:45Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.095602,
-        "change_24h": 2.73,
+        "price": 0.096738,
+        "change_24h": 4.3,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.112657,
-        "change_24h": 2.5,
+        "price": 0.112934,
+        "change_24h": 2.79,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 2.77,
-        "change_24h": 1.36,
+        "price": 2.78,
+        "change_24h": 1.92,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CAKE",
+        "name": "PancakeSwap",
+        "price": 2.26,
+        "change_24h": 1.74,
         "asset": "crypto"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.007659,
-        "change_24h": 1.09,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MNT",
-        "name": "Mantle",
-        "price": 0.557593,
-        "change_24h": 0.76,
+        "price": 0.007709,
+        "change_24h": 1.6,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.624255,
-        "change_24h": -11.84,
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 21.46,
+        "change_24h": -11.18,
         "asset": "crypto"
       },
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 21.39,
-        "change_24h": -10.97,
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.633185,
+        "change_24h": -10.29,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.003481,
-        "change_24h": -8.45,
+        "price": 0.003508,
+        "change_24h": -7.08,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1049.98,
-        "change_24h": -6.33,
+        "price": 1059.91,
+        "change_24h": -5.36,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.376912,
-        "change_24h": -5.8,
+        "price": 0.379036,
+        "change_24h": -5.15,
         "asset": "crypto"
       }
     ]
