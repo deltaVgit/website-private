@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T09:16:06Z",
+  "updated_at": "2026-09-14T09:30:25Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.56,
-        "change_24h": 10.31,
+        "price": 4.54,
+        "change_24h": 10.27,
         "asset": "crypto"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.007946,
-        "change_24h": 5.15,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 2.78,
-        "change_24h": 4.84,
+        "price": 0.007936,
+        "change_24h": 5.14,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
         "price": 2.29,
-        "change_24h": 4.79,
+        "change_24h": 4.91,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 6.07,
-        "change_24h": 4.75,
+        "price": 6.05,
+        "change_24h": 4.19,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 2.39,
+        "change_24h": 4.11,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 509.84,
-        "change_24h": -5.34,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.646301,
-        "change_24h": -4.28,
+        "price": 0.641444,
+        "change_24h": -5.08,
         "asset": "crypto"
       },
       {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.033361,
-        "change_24h": -3.36,
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 517.11,
+        "change_24h": -3.73,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.12,
-        "change_24h": -3.33,
+        "change_24h": -3.37,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.033345,
+        "change_24h": -2.86,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.015088,
-        "change_24h": -1.9,
+        "price": 0.015044,
+        "change_24h": -2.09,
         "asset": "crypto"
       }
     ]
