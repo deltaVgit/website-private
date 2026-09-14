@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T21:00:46Z",
+  "updated_at": "2026-09-14T21:15:47Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1201.76,
-        "change_24h": 8.87,
-        "asset": "crypto"
-      },
-      {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.195352,
-        "change_24h": 8.23,
+        "price": 0.193552,
+        "change_24h": 7.1,
         "asset": "crypto"
       },
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 2.54,
-        "change_24h": 7.98,
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1181.46,
+        "change_24h": 7.05,
         "asset": "crypto"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "price": 1.47,
-        "change_24h": 7.8,
+        "price": 1.45,
+        "change_24h": 6.83,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 2.5,
+        "change_24h": 6.4,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 6.72,
-        "change_24h": 6.85,
+        "price": 6.62,
+        "change_24h": 5.35,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.631874,
-        "change_24h": -10.49,
+        "price": 0.627954,
+        "change_24h": -10.75,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.014333,
-        "change_24h": -6.17,
+        "price": 0.014253,
+        "change_24h": -6.88,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 0.945194,
-        "change_24h": -4.35,
+        "price": 0.937284,
+        "change_24h": -4.44,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.099,
-        "change_24h": -4.12,
+        "price": 1.097,
+        "change_24h": -4.32,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 513.84,
-        "change_24h": -3.72,
+        "price": 512.49,
+        "change_24h": -4.08,
         "asset": "crypto"
       }
     ]
