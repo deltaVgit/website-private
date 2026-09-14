@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-14T20:04:57Z",
+  "updated": "2026-09-14T20:34:59Z",
   "items": [
+    {
+      "title": "What blog posts influenced your thinking the most?",
+      "url": "https://simonwillison.net/2026/Sep/14/influences/",
+      "source": "Simon Willison",
+      "published_at": "2026-09-14T20:21:48+00:00",
+      "summary": "My comment on What blog posts influenced your thinking the most? — Lobste.rs. An early Joel Spolsky one for me was The Law of Leaky Abstractions . I read that near the start of my career and it's encouraged me to always be looking for improved understanding of the layers under wh",
+      "tag": "ai"
+    },
     {
       "title": "DevFest is back",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
@@ -127,14 +135,6 @@
       "source": "OpenAI",
       "published_at": "2026-09-14T00:00:00+00:00",
       "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
-      "tag": "ai"
-    },
-    {
-      "title": "shot-scraper 1.12",
-      "url": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
-      "source": "Simon Willison",
-      "published_at": "2026-09-13T23:58:14+00:00",
-      "summary": "Release: shot-scraper 1.12 I've added WebP support to my shot-scraper screenshot automation tool. You can now take a WebP screenshot of a web page like this: shot-scraper https://simonwillison.net -o screenshot.webp --quality 80 The --quality option sets the quality - without tha",
       "tag": "ai"
     },
     {
