@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-14T13:15:16Z",
+  "updated_at": "2026-09-14T13:30:24Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "HPE",
         "name": "Hewlett Packard Enterprise Comp",
-        "price": 62.09,
-        "change_24h": 12.44,
+        "price": 55.63,
+        "change_24h": -10.39,
         "asset": "equity"
       },
       {
         "symbol": "DELL",
         "name": "Dell Technologies Inc.",
-        "price": 567.29,
-        "change_24h": 11.98,
+        "price": 545.0,
+        "change_24h": -3.9,
         "asset": "equity"
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "price": 197.91,
-        "change_24h": 11.15,
+        "price": 182.24,
+        "change_24h": -7.92,
         "asset": "equity"
       },
       {
         "symbol": "BGSI",
         "name": "Boyd Group Services Inc.",
-        "price": 90.4,
-        "change_24h": 10.85,
+        "price": 91.38,
+        "change_24h": 1.53,
         "asset": "equity"
       },
       {
         "symbol": "HTFL",
         "name": "Heartflow, Inc.",
-        "price": 49.88,
-        "change_24h": 9.65,
+        "price": 49.69,
+        "change_24h": -0.39,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "SMR",
         "name": "NuScale Power Corporation",
-        "price": 8.61,
-        "change_24h": -15.67,
+        "price": 8.31,
+        "change_24h": -3.43,
         "asset": "equity"
       },
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc",
-        "price": 11.54,
-        "change_24h": -14.42,
+        "price": 11.11,
+        "change_24h": -3.78,
         "asset": "equity"
       },
       {
         "symbol": "OKLO",
         "name": "Oklo Inc.",
-        "price": 36.22,
-        "change_24h": -9.18,
+        "price": 34.72,
+        "change_24h": -4.23,
         "asset": "equity"
       },
       {
         "symbol": "RML",
         "name": "Resolution Minerals Ltd American Depositary Shar",
-        "price": 7.76,
-        "change_24h": -9.03,
+        "price": 7.36,
+        "change_24h": -5.28,
         "asset": "equity"
       },
       {
         "symbol": "LEU",
         "name": "Centrus Energy Corp.",
-        "price": 152.31,
-        "change_24h": -8.18,
+        "price": 149.66,
+        "change_24h": -1.7,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "XLM",
-        "name": "Stellar",
-        "price": 0.192147,
-        "change_24h": 7.63,
+        "symbol": "CAKE",
+        "name": "PancakeSwap",
+        "price": 2.34,
+        "change_24h": 8.18,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.39,
-        "change_24h": 7.52,
+        "price": 4.35,
+        "change_24h": 7.17,
         "asset": "crypto"
       },
       {
-        "symbol": "CAKE",
-        "name": "PancakeSwap",
-        "price": 2.33,
-        "change_24h": 7.18,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.703398,
-        "change_24h": 4.58,
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price": 0.190233,
+        "change_24h": 7.02,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 2.41,
-        "change_24h": 4.57,
+        "change_24h": 5.46,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.697424,
+        "change_24h": 4.99,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 512.37,
-        "change_24h": -3.45,
+        "price": 512.83,
+        "change_24h": -3.3,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
         "price": 1.54,
-        "change_24h": -3.33,
+        "change_24h": -3.23,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.003586,
-        "change_24h": -3.25,
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.033403,
+        "change_24h": -2.26,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.12,
-        "change_24h": -2.86,
+        "change_24h": -1.9,
         "asset": "crypto"
       },
       {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.033392,
-        "change_24h": -2.74,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.003598,
+        "change_24h": -1.73,
         "asset": "crypto"
       }
     ]
