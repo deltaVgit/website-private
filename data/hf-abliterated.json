@@ -270,7 +270,7 @@
         "downloads": 2224663,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
-        "daysAgo": 27,
+        "daysAgo": 28,
         "pipeline": "image-text-to-text",
         "tags": [
           "gguf",
@@ -384,7 +384,7 @@
       "downloads": 35986,
       "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF",
       "lastModified": "2026-09-10T21:52:16.000Z",
-      "daysAgo": 3,
+      "daysAgo": 4,
       "pipeline": "image-text-to-text",
       "tags": [
         "transformers",
@@ -397,8 +397,8 @@
         "base_model:quantized:deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
       ],
       "pop": 0.7076,
-      "rec": 0.9091,
-      "combo": 0.7781
+      "rec": 0.8824,
+      "combo": 0.7688
     },
     {
       "id": "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
@@ -618,5 +618,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-14T21:34:55Z"
+  "updated": "2026-09-14T22:04:57Z"
 }
