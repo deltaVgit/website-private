@@ -181,6 +181,26 @@
         ]
       },
       {
+        "id": "Heartsync/Flux-NSFW-uncensored",
+        "name": "Flux-NSFW-uncensored",
+        "author": "Heartsync",
+        "likes": 522,
+        "downloads": 0,
+        "url": "https://huggingface.co/Heartsync/Flux-NSFW-uncensored",
+        "lastModified": "2025-05-05T14:21:20.000Z",
+        "daysAgo": 496,
+        "pipeline": "text-to-image",
+        "tags": [
+          "text-to-image",
+          "en",
+          "base_model:black-forest-labs/FLUX.1-dev",
+          "base_model:finetune:black-forest-labs/FLUX.1-dev",
+          "license:creativeml-openrail-m",
+          "region:us",
+          "not-for-all-audiences"
+        ]
+      },
+      {
         "id": "DeepNeuralNerd/Gemma-4-12B-it-uncensored-heretic-DeepNeuralNerd-LTX_2.5_ComfyUI",
         "name": "Gemma-4-12B-it-uncensored-heretic-DeepNeuralNerd-LTX_2.5_ComfyUI",
         "author": "DeepNeuralNerd",
@@ -199,26 +219,6 @@
           "text-encoder",
           "safetensors",
           "bf16"
-        ]
-      },
-      {
-        "id": "Heartsync/Flux-NSFW-uncensored",
-        "name": "Flux-NSFW-uncensored",
-        "author": "Heartsync",
-        "likes": 521,
-        "downloads": 0,
-        "url": "https://huggingface.co/Heartsync/Flux-NSFW-uncensored",
-        "lastModified": "2025-05-05T14:21:20.000Z",
-        "daysAgo": 496,
-        "pipeline": "text-to-image",
-        "tags": [
-          "text-to-image",
-          "en",
-          "base_model:black-forest-labs/FLUX.1-dev",
-          "base_model:finetune:black-forest-labs/FLUX.1-dev",
-          "license:creativeml-openrail-m",
-          "region:us",
-          "not-for-all-audiences"
         ]
       }
     ],
@@ -624,5 +624,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-14T00:04:47Z"
+  "updated": "2026-09-14T00:34:53Z"
 }
