@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T23:34:47Z",
+  "updatedAt": "2026-09-14T00:04:59Z",
   "kev": [
     {
       "cve": "CVE-2026-84869",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-78069",
+      "id": "CVE-2026-75754",
       "severity": "CRITICAL",
-      "score": 9.5,
-      "description": "Joomla Extension - j2commerce.com - Missing authorization on Apps controller delegation chain in J2Store 1.0.0-3.3.21, 4.0.0-4.0.21, 4.1.0-4.1.6 - `J2StoreControllerApps`'s `appTask` delegation path instantiates app-plug",
-      "published": "2026-09-03T13:06:09.327"
+      "score": 10.0,
+      "description": "Missing Authentication for Critical Function, Server-Side Request Forgery (SSRF), and Use of Hard-coded Credentials in ASUS Control Center allow an unauthorized user to obtain the encryption key via an HTTP request, caus",
+      "published": "2026-09-04T03:17:41.927"
     },
     {
-      "id": "CVE-2026-76174",
+      "id": "CVE-2026-15354",
       "severity": "CRITICAL",
-      "score": 9.4,
-      "description": "Unrestricted file upload vulnerability in the CSV file upload functionality of the Ocsreports admin_info endpoint. The application validates files solely based on the name provided by the client, without properly checkin",
-      "published": "2026-09-03T13:06:07.723"
+      "score": 9.8,
+      "description": "The ACPT (Premium) plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 2.0.66. This is due to missing authorization in the `submit()` function, which allows unauthenticated fo",
+      "published": "2026-09-04T07:17:08.487"
     },
     {
-      "id": "CVE-2026-78080",
+      "id": "CVE-2026-85509",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "FreeIPMI before 1.6.19 has a stack-based buffer overflow in _read_fru_data in libfreeipmi/fru/ipmi-fru.c when a BMC returns more bytes than requested.",
+      "published": "2026-09-04T05:17:16.723"
+    },
+    {
+      "id": "CVE-2026-85508",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _output_dell_system_info_cmc_ipv6_info in ipmi-oem/ipmi-oem-dell.c (cmc-ipv6-info subcommand to dell get-system-info).",
+      "published": "2026-09-04T05:17:16.570"
+    },
+    {
+      "id": "CVE-2026-85506",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _get_dell_system_info_idrac_info in ipmi-oem/ipmi-oem-dell.c (idrac-info subcommand to dell get-system-info).",
+      "published": "2026-09-04T05:17:16.290"
+    },
+    {
+      "id": "CVE-2026-85504",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "FreeIPMI before 1.6.19 has a stack-based buffer overflow in _ipmi_sel_oem_fujitsu_get_sel_entry_long_text in libfreeipmi/sel/ipmi-sel-string-fujitsu-irmc-common.c via malformed Fujitsu SEL long-text responses.",
+      "published": "2026-09-04T05:17:16.047"
+    },
+    {
+      "id": "CVE-2026-11613",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "The Divi Ajax Filter plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 5.1.2 via the 'custom_loop_template' parameter parameter. This makes it possible for unauthenticated a",
+      "published": "2026-09-04T05:17:13.013"
+    },
+    {
+      "id": "CVE-2026-85148",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "SmartIT Desktop Manager developed by Lightstar has a Use of Hard-coded Credentials vulnerability. Unauthenticated remote attackers can exploit a fixed password to remotely access user hosts.",
+      "published": "2026-09-04T03:17:46.050"
+    },
+    {
+      "id": "CVE-2026-62928",
       "severity": "CRITICAL",
       "score": 9.3,
-      "description": "Joomla Extension - feenders.de - Unauthenticated SQL injection in JooDatabase Lite < 5.1.0 - The cid parameter is used in queries without validation, allowing SQLi vectors.",
-      "published": "2026-09-03T13:06:09.463"
+      "description": "XING CPTrans-ME-X contains an OS Command Injection (CWE-78). Unauthenticated OS command may be injected.",
+      "published": "2026-09-04T07:17:09.057"
     },
     {
-      "id": "CVE-2026-76178",
+      "id": "CVE-2026-67402",
       "severity": "CRITICAL",
       "score": 9.2,
-      "description": "A stored Cross-Site Scripting (XSS) vulnerability in the notification template functionality of the endpoint /ocsreports/?function=notification. A user with administrator privileges can input malicious HTML content which",
-      "published": "2026-09-03T13:06:08.293"
+      "description": "An insecure Apache configuration in ConfigServer Security & Firewall maps /usr/bin as CGI programs through the Messenger v3 HTTPS virtual host. A remote unauthenticated attacker whose address is blocked can request a map",
+      "published": "2026-09-04T00:17:13.690"
     },
     {
-      "id": "CVE-2026-78064",
+      "id": "CVE-2026-67397",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "Joomla Extension - j2commerce.com - Anonymous cart-record tampering via inherited FOF `save` task in J2Store 1.0.0-3.3.21, 4.0.0-4.0.21, 4.1.0-4.1.6 - `fof.xml` grants the `carts` view's tasks a wildcard `true` ACL, and ",
-      "published": "2026-09-03T13:06:09.060"
+      "score": 8.5,
+      "description": "Path traversal in Plesk 18.0.79.9 and earlier and 18.0.80 through 18.0.80.5 allows local users to execute arbitrary code as root.",
+      "published": "2026-09-04T00:17:13.437"
     },
     {
-      "id": "CVE-2026-79679",
-      "severity": "HIGH",
-      "score": 8.7,
-      "description": "Use of Weak Credentials vulnerability in B&R Industrial Automation GmbH mapp Audit used in mapp Services. This issue affects mapp Audit used in mapp Services: before 6.8.0.",
-      "published": "2026-09-03T13:06:10.430"
-    },
-    {
-      "id": "CVE-2026-77999",
-      "severity": "HIGH",
-      "score": 8.7,
-      "description": "Joomla Extension - j2commerce.com - Unauthenticated PayPal callback forgery leading to order confirmation fraud in J2Store 1.0.0-3.3.21, 4.0.0-4.0.21, 4.1.0-4.1.6 - The PayPal IPN listener's signature check (`_validateIP",
-      "published": "2026-09-03T13:06:08.760"
-    },
-    {
-      "id": "CVE-2026-76176",
-      "severity": "HIGH",
-      "score": 8.6,
-      "description": "SQL injection vulnerability in the endpoint /ocsreports/index.php?function=admin_double due to improper processing of the values in the ID field included in the selected_grp_dupli[] parameter. An authenticated user with ",
-      "published": "2026-09-03T13:06:08.007"
-    },
-    {
-      "id": "CVE-2026-76175",
-      "severity": "HIGH",
-      "score": 8.6,
-      "description": "SQL injection vulnerability in the del_check parameter of the /ocsreports/?function=save_query_list endpoint. Input provided by an authenticated user with operator privileges is incorporated into an SQL query without pro",
-      "published": "2026-09-03T13:06:07.867"
-    },
-    {
-      "id": "CVE-2021-38489",
+      "id": "CVE-2026-67398",
       "severity": "HIGH",
       "score": 8.2,
-      "description": "HDD password plaintext is stored in a UEFI variable.",
-      "published": "2026-09-03T13:04:10.943"
-    },
-    {
-      "id": "CVE-2026-76642",
-      "severity": "HIGH",
-      "score": 7.8,
-      "description": "util-linux versions through 2.41.5 and 2.42.2 fail to check mount helper exit status before running post-mount hooks, allowing unprivileged users to execute privileged operations on pre-existing filesystems. Attackers ca",
-      "published": "2026-09-03T13:06:08.440"
-    },
-    {
-      "id": "CVE-2026-73600",
-      "severity": "HIGH",
-      "score": 7.8,
-      "description": "Dell PowerProtect Data Manager, versions 20.2.0.0 and below, contain a stack buffer overflow vulnerability in file-level restore agent. A high privileged remote attacker could potentially exploit this vulnerability, lead",
-      "published": "2026-09-03T13:06:03.427"
+      "description": "Missing authorization vulnerability has been discovered in 2Checkout payment gateway of WHMCS from 8.13.0 before 8.13.8, from 9.0.0 before 9.0.8, all other EOL versions from 4.5.0. The vulnerability allows an unauthentic",
+      "published": "2026-09-04T00:17:13.563"
     }
   ],
   "breaches": [
