@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T22:00:49Z",
+  "updated_at": "2026-09-14T22:15:50Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1178.12,
-        "change_24h": 7.51,
+        "price": 1184.67,
+        "change_24h": 10.21,
         "asset": "crypto"
       },
       {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.193606,
-        "change_24h": 7.34,
+        "price": 0.194491,
+        "change_24h": 9.4,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 2.5,
-        "change_24h": 6.83,
+        "price": 2.52,
+        "change_24h": 9.29,
         "asset": "crypto"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "price": 1.44,
-        "change_24h": 6.39,
+        "price": 1.45,
+        "change_24h": 7.98,
         "asset": "crypto"
       },
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 6.56,
-        "change_24h": 4.9,
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.48,
+        "change_24h": 7.24,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.014331,
-        "change_24h": -6.18,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 0.939866,
-        "change_24h": -4.81,
-        "asset": "crypto"
-      },
-      {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.097,
-        "change_24h": -4.55,
+        "change_24h": -5.75,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.014363,
+        "change_24h": -5.54,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 514.45,
-        "change_24h": -3.18,
+        "price": 515.37,
+        "change_24h": -1.98,
         "asset": "crypto"
       },
       {
-        "symbol": "LTC",
-        "name": "Litecoin",
-        "price": 53.37,
-        "change_24h": -2.34,
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 0.942649,
+        "change_24h": -1.14,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VET",
+        "name": "VeChain",
+        "price": 0.007714,
+        "change_24h": -0.87,
         "asset": "crypto"
       }
     ]
