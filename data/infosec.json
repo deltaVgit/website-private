@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T23:35:15Z",
+  "updatedAt": "2026-09-15T00:05:20Z",
   "kev": [
     {
       "cve": "CVE-2026-76461",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-75754",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "description": "Missing Authentication for Critical Function, Server-Side Request Forgery (SSRF), and Use of Hard-coded Credentials in ASUS Control Center allow an unauthorized user to obtain the encryption key via an HTTP request, caus",
-      "published": "2026-09-04T03:17:41.927"
-    },
-    {
-      "id": "CVE-2026-15354",
+      "id": "CVE-2026-83627",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "The ACPT (Premium) plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 2.0.66. This is due to missing authorization in the `submit()` function, which allows unauthenticated fo",
-      "published": "2026-09-04T07:17:08.487"
+      "description": "The Hummingbird – Speed Optimization, Caching, Minify, Compress & CDN plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 3.21.0 via the log_msg() function in core/modules/cl",
+      "published": "2026-09-05T06:17:10.080"
     },
     {
-      "id": "CVE-2026-85509",
+      "id": "CVE-2026-13447",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "FreeIPMI before 1.6.19 has a stack-based buffer overflow in _read_fru_data in libfreeipmi/fru/ipmi-fru.c when a BMC returns more bytes than requested.",
-      "published": "2026-09-04T05:17:16.723"
+      "description": "The Mstore Api plugin for WordPress is vulnerable to Authentication Bypass via JWT Forgery in versions up to, and including, 4.20.0 This is due to missing cryptographic signature verification in the FirebasePhoneAuthHelp",
+      "published": "2026-09-05T06:17:09.403"
     },
     {
-      "id": "CVE-2026-85508",
+      "id": "CVE-2026-52777",
       "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _output_dell_system_info_cmc_ipv6_info in ipmi-oem/ipmi-oem-dell.c (cmc-ipv6-info subcommand to dell get-system-info).",
-      "published": "2026-09-04T05:17:16.570"
+      "score": 9.4,
+      "description": "YesWiki is a wiki system written in PHP. Prior to version 4.6.6, there is an authenticated PHP object injection vulnerability in BazarImportAction via unserialize. This issue has been patched in version 4.6.6.",
+      "published": "2026-09-05T00:17:20.663"
     },
     {
-      "id": "CVE-2026-85506",
+      "id": "CVE-2026-52766",
       "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _get_dell_system_info_idrac_info in ipmi-oem/ipmi-oem-dell.c (idrac-info subcommand to dell get-system-info).",
-      "published": "2026-09-04T05:17:16.290"
+      "score": 9.1,
+      "description": "YesWiki is a wiki system written in PHP. Prior to version 4.6.6, the {{erasespamedcomments}} wiki action (actions/EraseSpamedCommentsAction.php) accepts a suppr[] array from POST and deletes every wiki page whose tag app",
+      "published": "2026-09-05T00:17:19.393"
     },
     {
-      "id": "CVE-2026-85504",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "FreeIPMI before 1.6.19 has a stack-based buffer overflow in _ipmi_sel_oem_fujitsu_get_sel_entry_long_text in libfreeipmi/sel/ipmi-sel-string-fujitsu-irmc-common.c via malformed Fujitsu SEL long-text responses.",
-      "published": "2026-09-04T05:17:16.047"
-    },
-    {
-      "id": "CVE-2026-11613",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The Divi Ajax Filter plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 5.1.2 via the 'custom_loop_template' parameter parameter. This makes it possible for unauthenticated a",
-      "published": "2026-09-04T05:17:13.013"
-    },
-    {
-      "id": "CVE-2026-85148",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "SmartIT Desktop Manager developed by Lightstar has a Use of Hard-coded Credentials vulnerability. Unauthenticated remote attackers can exploit a fixed password to remotely access user hosts.",
-      "published": "2026-09-04T03:17:46.050"
-    },
-    {
-      "id": "CVE-2026-62928",
-      "severity": "CRITICAL",
-      "score": 9.3,
-      "description": "XING CPTrans-ME-X contains an OS Command Injection (CWE-78). Unauthenticated OS command may be injected.",
-      "published": "2026-09-04T07:17:09.057"
-    },
-    {
-      "id": "CVE-2026-67402",
-      "severity": "CRITICAL",
-      "score": 9.2,
-      "description": "An insecure Apache configuration in ConfigServer Security & Firewall maps /usr/bin as CGI programs through the Messenger v3 HTTPS virtual host. A remote unauthenticated attacker whose address is blocked can request a map",
-      "published": "2026-09-04T00:17:13.690"
-    },
-    {
-      "id": "CVE-2026-67397",
+      "id": "CVE-2026-52775",
       "severity": "HIGH",
-      "score": 8.5,
-      "description": "Path traversal in Plesk 18.0.79.9 and earlier and 18.0.80 through 18.0.80.5 allows local users to execute arbitrary code as root.",
-      "published": "2026-09-04T00:17:13.437"
+      "score": 8.8,
+      "description": "YesWiki is a wiki system written in PHP. Prior to version 4.6.6, YesWiki through the latest development branch contains a SQL injection vulnerability in ReactionManager::deleteUserReaction() that allows any authenticated",
+      "published": "2026-09-05T00:17:20.520"
     },
     {
-      "id": "CVE-2026-67398",
+      "id": "CVE-2026-52771",
+      "severity": "HIGH",
+      "score": 8.3,
+      "description": "YesWiki is a wiki system written in PHP. From version 4.2.0 to before version 4.6.6, ApiController::deletePage() interpolates a page tag retrieved from the database into a DELETE FROM …_links WHERE to_tag = '$tag' query ",
+      "published": "2026-09-05T00:17:19.963"
+    },
+    {
+      "id": "CVE-2026-52769",
+      "severity": "HIGH",
+      "score": 8.3,
+      "description": "YesWiki is a wiki system written in PHP. From version 4.6.2 to before version 4.6.6, the POST /api/forms/{formId}/actor/inbox route - exposed publicly with acl:\"public\" - accepts an HTTP Signature header whose keyId para",
+      "published": "2026-09-05T00:17:19.683"
+    },
+    {
+      "id": "CVE-2026-86145",
       "severity": "HIGH",
       "score": 8.2,
-      "description": "Missing authorization vulnerability has been discovered in 2Checkout payment gateway of WHMCS from 8.13.0 before 8.13.7, from 9.0.0 before 9.0.8, all other EOL versions from 4.5.0. The vulnerability allows an unauthentic",
-      "published": "2026-09-04T00:17:13.563"
+      "description": "PCRE2 before 10.48 allows a pcre2_dfa_match out-of-bounds write because reuse of a cached workspace block, in a recursive DFA matching workspace, lacks a size check (even though a newly allocated block, for the same purp",
+      "published": "2026-09-05T06:17:10.370"
+    },
+    {
+      "id": "CVE-2026-86140",
+      "severity": "HIGH",
+      "score": 8.0,
+      "description": "In libxml2 before 2.15.4, xmlSnprintfElements in valid.c has a strcat stack-based buffer overflow.",
+      "published": "2026-09-05T05:17:12.877"
+    },
+    {
+      "id": "CVE-2026-52770",
+      "severity": "HIGH",
+      "score": 7.5,
+      "description": "YesWiki is a wiki system written in PHP. Prior to version 4.6.6, YesWiki’s public Bazar entry-listing APIs are vulnerable to unauthenticated SQL injection in numeric query / queries filters. For Bazar fields whose value ",
+      "published": "2026-09-05T00:17:19.827"
+    },
+    {
+      "id": "CVE-2026-19769",
+      "severity": "HIGH",
+      "score": 7.2,
+      "description": "The Ninja Forms – The Contact Form Builder That Grows With You plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Repeater Child 'type' Confusion via Unmatched Array Key in all versions up to, and incl",
+      "published": "2026-09-05T07:17:11.333"
+    },
+    {
+      "id": "CVE-2026-18406",
+      "severity": "HIGH",
+      "score": 7.2,
+      "description": "The SureForms – Contact Form Builder, AI Forms, Payment Form, Survey & Quiz plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Text Field Entity-Encoded Payload in all versions up to, and including, 2.",
+      "published": "2026-09-05T07:17:11.040"
     }
   ],
   "breaches": [
