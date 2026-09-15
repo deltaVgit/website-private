@@ -1,11 +1,14 @@
 'use client';
 
-import { Suspense } from 'react';
+import { Suspense, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { withBasePath } from '@/lib/site';
 import type { Locale } from '@/lib/i18n';
 import { CONTACT_COPY } from '@/app/content/contact';
 import BookingCalendar from './BookingCalendar';
+
+const CONTACT_COPY_EMAIL = 'engage@deltav.cc';
+const CONTACT_FALLBACK_HREF = 'mailto:engage@deltav.cc';
 
 /** Which "I need" bucket a ?topic= belongs to. Locale-independent. */
 const TOPIC_NEED: Record<string, 'web3' | 'ai' | 'upskilling'> = {
@@ -35,6 +38,38 @@ function ContactContent({ lang }: { lang: Locale }) {
       encodeURIComponent(prompt || '')
     : 'mailto:engage@deltav.cc';
 
+  const [copied, setCopied] = useState(false);
+  const copyEmail = async () => {
+    try {
+      await navigator.clipboard.writeText(CONTACT_COPY_EMAIL);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      window.location.href = CONTACT_FALLBACK_HREF;
+    }
+  };
+
+  // Native compose: build subject + body client-side and open the visitor's
+  // mail app via a mailto: GET tap. Form POST to mailto: silently fails on
+  // most mobile browsers (iOS Safari opens an empty compose); a real link
+  // tap works everywhere and needs no backend.
+  const compose = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const data = new FormData(e.currentTarget);
+    const name = String(data.get('name') || '').trim();
+    const need = String(data.get('need') || '').trim();
+    const description = String(data.get('description') || '').trim();
+    const subject = need
+      ? `[${need}] ${name || copy.title} - ${topicKey || 'enquiry'}`
+      : `Delta V enquiry - ${name || topicKey || 'website'}`;
+    const bodyText = [name && `Name: ${name}`, need && `Need: ${need}`, description]
+      .filter(Boolean)
+      .join('\n\n');
+    window.location.href =
+      'mailto:engage@deltav.cc?subject=' + encodeURIComponent(subject) +
+      '&body=' + encodeURIComponent(bodyText);
+  };
+
   return (
     <div className="min-h-screen relative z-10">
       <div className="max-w-[1200px] mx-auto px-6 md:px-8 pt-16 pb-24 flex flex-col">
@@ -46,7 +81,7 @@ function ContactContent({ lang }: { lang: Locale }) {
           <p className="text-[var(--text-secondary)] text-lg leading-relaxed">{copy.intro}</p>
         </div>
 
-        <div className="order-2 w-full max-w-5xl mx-auto grid md:grid-cols-2 gap-5 mb-16">
+        <div className="order-1 w-full max-w-5xl mx-auto grid md:grid-cols-2 gap-5 mb-16">
           <div className="rounded-2xl border border-[var(--border-default)] bg-[var(--bg-surface)] p-6 md:p-8 flex flex-col">
             <div className="mb-6 pb-6 border-b border-[var(--border-default)]">
               <div className="text-[var(--accent-orange)] text-[10px] font-semibold tracking-[2px] uppercase mb-2">
@@ -93,9 +128,7 @@ function ContactContent({ lang }: { lang: Locale }) {
             <p className="text-sm text-[var(--text-tertiary)] mb-6">{copy.formBlurb}</p>
             <form
               key={topicKey || 'default'}
-              action="mailto:engage@deltav.cc"
-              method="post"
-              encType="text/plain"
+              onSubmit={compose}
               className="space-y-3"
             >
               <input
@@ -138,11 +171,18 @@ function ContactContent({ lang }: { lang: Locale }) {
               >
                 {copy.send}
               </button>
+              <button
+                type="button"
+                onClick={copyEmail}
+                className="w-full py-2.5 rounded-xl text-xs font-medium border border-[var(--border-default)] bg-transparent text-[var(--text-tertiary)] hover:text-[var(--text-secondary)] hover:border-[var(--border-hover)] transition-colors"
+              >
+                {copied ? 'Copied engage@deltav.cc ✓' : 'Or copy engage@deltav.cc to paste anywhere'}
+              </button>
             </form>
           </div>
         </div>
 
-        <section className="contact-booking order-1 relative w-full mb-16 rounded-3xl border border-[var(--border-default)] bg-gradient-to-br from-[var(--bg-surface)] via-[var(--bg-surface)] to-[var(--accent-cyan)]/[0.03] overflow-hidden">
+        <section className="contact-booking order-2 relative w-full mb-16 rounded-3xl border border-[var(--border-default)] bg-gradient-to-br from-[var(--bg-surface)] via-[var(--bg-surface)] to-[var(--accent-cyan)]/[0.03] overflow-hidden">
           <div
             className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--accent-cyan)]/40 to-transparent"
             aria-hidden="true"
@@ -179,7 +219,24 @@ function ContactContent({ lang }: { lang: Locale }) {
               </div>
             </div>
             <div className="border-t lg:border-t-0 lg:border-l border-[var(--border-default)] bg-[var(--bg-deep)]/30 min-w-0 p-4 md:p-6">
-              <BookingCalendar />
+              {/* Mobile: the iframe-in-scroll is hostile on phones — open Cal.com
+                  full-screen instead. Desktop keeps the inline embed. */}
+              <div className="lg:hidden flex flex-col items-stretch gap-3">
+                <a
+                  href="https://cal.com/delta-v/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button-primary text-center py-3.5"
+                >
+                  Book a 30-minute call <span aria-hidden="true">↗</span>
+                </a>
+                <p className="text-[11px] text-[var(--text-muted)] text-center">
+                  Opens the full calendar in a new tab — easiest on a phone.
+                </p>
+              </div>
+              <div className="hidden lg:block">
+                <BookingCalendar />
+              </div>
             </div>
           </div>
         </section>
