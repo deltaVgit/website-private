@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-15T16:45:57Z",
+  "updated_at": "2026-09-15T17:01:01Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "FPS",
-        "name": "Forgent Power Solutions, Inc.",
-        "price": 32.14,
-        "change_24h": 12.22,
+        "symbol": "SWKS",
+        "name": "Skyworks Solutions, Inc.",
+        "price": 89.22,
+        "change_24h": 12.57,
         "asset": "equity"
       },
       {
-        "symbol": "SWKS",
-        "name": "Skyworks Solutions, Inc.",
-        "price": 88.83,
-        "change_24h": 12.08,
+        "symbol": "FPS",
+        "name": "Forgent Power Solutions, Inc.",
+        "price": 31.92,
+        "change_24h": 11.45,
         "asset": "equity"
       },
       {
         "symbol": "TLX",
         "name": "Telix Pharmaceuticals Limited",
-        "price": 12.99,
-        "change_24h": 10.27,
-        "asset": "equity"
-      },
-      {
-        "symbol": "RIG",
-        "name": "Transocean Ltd (Switzerland)",
-        "price": 5.93,
-        "change_24h": 8.81,
+        "price": 12.92,
+        "change_24h": 9.71,
         "asset": "equity"
       },
       {
         "symbol": "TENB",
         "name": "Tenable Holdings, Inc.",
-        "price": 37.94,
-        "change_24h": 8.15,
+        "price": 38.31,
+        "change_24h": 9.21,
+        "asset": "equity"
+      },
+      {
+        "symbol": "QRVO",
+        "name": "Qorvo, Inc.",
+        "price": 117.48,
+        "change_24h": 8.8,
         "asset": "equity"
       }
     ],
@@ -43,15 +43,22 @@
       {
         "symbol": "ENVA",
         "name": "Enova International, Inc.",
-        "price": 170.27,
-        "change_24h": -24.9,
+        "price": 170.6,
+        "change_24h": -24.75,
         "asset": "equity"
       },
       {
         "symbol": "ALHC",
         "name": "Alignment Healthcare, Inc.",
-        "price": 10.24,
-        "change_24h": -20.87,
+        "price": 10.29,
+        "change_24h": -20.52,
+        "asset": "equity"
+      },
+      {
+        "symbol": "ASND",
+        "name": "Ascendis Pharma A/S",
+        "price": 231.9,
+        "change_24h": -12.46,
         "asset": "equity"
       },
       {
@@ -62,17 +69,10 @@
         "asset": "equity"
       },
       {
-        "symbol": "ASND",
-        "name": "Ascendis Pharma A/S",
-        "price": 233.24,
-        "change_24h": -11.96,
-        "asset": "equity"
-      },
-      {
         "symbol": "WING",
         "name": "Wingstop Inc.",
-        "price": 101.86,
-        "change_24h": -11.2,
+        "price": 102.39,
+        "change_24h": -10.74,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.154983,
-        "change_24h": 14.16,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.115632,
-        "change_24h": 2.53,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XDC",
-        "name": "XDC Network",
-        "price": 0.028614,
-        "change_24h": 2.48,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.12,
-        "change_24h": 2.28,
+        "price": 0.151853,
+        "change_24h": 10.69,
         "asset": "crypto"
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
-        "price": 1.043,
-        "change_24h": 2.22,
+        "price": 1.046,
+        "change_24h": 3.57,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price": 0.028657,
+        "change_24h": 2.43,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.115667,
+        "change_24h": 2.37,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.11,
+        "change_24h": 1.4,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 5.57,
-        "change_24h": -11.05,
+        "price": 5.56,
+        "change_24h": -11.15,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 0.863134,
-        "change_24h": -10.41,
+        "price": 0.861756,
+        "change_24h": -11.13,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 2.52,
+        "price": 2.53,
         "change_24h": -8.37,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.12,
-        "change_24h": -7.37,
+        "price": 4.09,
+        "change_24h": -8.01,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.596717,
-        "change_24h": -6.75,
+        "price": 0.59714,
+        "change_24h": -7.46,
         "asset": "crypto"
       }
     ]
