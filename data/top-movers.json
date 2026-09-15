@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-09-15T13:31:00Z",
+  "updated_at": "2026-09-15T13:46:12Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "TENB",
-        "name": "Tenable Holdings, Inc.",
-        "price": 34.23,
-        "change_24h": -2.42,
+        "symbol": "WAY",
+        "name": "Waystar Holding Corp.",
+        "price": 26.91,
+        "change_24h": 8.05,
         "asset": "equity"
       },
       {
-        "symbol": "PANW",
-        "name": "Palo Alto Networks, Inc.",
-        "price": 372.98,
-        "change_24h": -0.26,
+        "symbol": "FPS",
+        "name": "Forgent Power Solutions, Inc.",
+        "price": 31.25,
+        "change_24h": 9.11,
         "asset": "equity"
       },
       {
-        "symbol": "RBLX",
-        "name": "Roblox Corporation",
-        "price": 50.83,
-        "change_24h": -0.84,
+        "symbol": "SWKS",
+        "name": "Skyworks Solutions, Inc.",
+        "price": 86.18,
+        "change_24h": 8.73,
         "asset": "equity"
       },
       {
-        "symbol": "OKTA",
-        "name": "Okta, Inc.",
-        "price": 185.71,
-        "change_24h": -0.4,
+        "symbol": "TLX",
+        "name": "Telix Pharmaceuticals Limited",
+        "price": 12.74,
+        "change_24h": 8.13,
         "asset": "equity"
       },
       {
-        "symbol": "APPN",
-        "name": "Appian Corporation",
-        "price": 37.72,
-        "change_24h": -1.54,
+        "symbol": "QRVO",
+        "name": "Qorvo, Inc.",
+        "price": 114.7,
+        "change_24h": 6.22,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "TER",
-        "name": "Teradyne, Inc.",
-        "price": 335.66,
-        "change_24h": 1.96,
+        "symbol": "ENVA",
+        "name": "Enova International, Inc.",
+        "price": 171.89,
+        "change_24h": -24.18,
         "asset": "equity"
       },
       {
-        "symbol": "NOK",
-        "name": "Nokia Corporation Sponsored",
-        "price": 9.849,
-        "change_24h": 2.01,
+        "symbol": "ALHC",
+        "name": "Alignment Healthcare, Inc.",
+        "price": 10.57,
+        "change_24h": -18.27,
         "asset": "equity"
       },
       {
-        "symbol": "VIAV",
-        "name": "Viavi Solutions Inc.",
-        "price": 34.32,
-        "change_24h": 1.48,
+        "symbol": "ASND",
+        "name": "Ascendis Pharma A/S",
+        "price": 237.71,
+        "change_24h": -10.27,
         "asset": "equity"
       },
       {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "price": 58.7,
-        "change_24h": 2.87,
+        "symbol": "SRRK",
+        "name": "Scholar Rock Holding Corporatio",
+        "price": 47.03,
+        "change_24h": -9.29,
         "asset": "equity"
       },
       {
-        "symbol": "KGS",
-        "name": "Kodiak Gas Services, Inc.",
-        "price": 57.34,
-        "change_24h": 1.26,
+        "symbol": "RML",
+        "name": "Resolution Minerals Ltd American Depositary Shar",
+        "price": 6.8046,
+        "change_24h": -8.79,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 6.69,
-        "change_24h": 6.11,
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price": 0.029116,
+        "change_24h": 5.08,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.142476,
-        "change_24h": 5.99,
+        "price": 0.14003,
+        "change_24h": 3.99,
         "asset": "crypto"
       },
       {
-        "symbol": "XDC",
-        "name": "XDC Network",
-        "price": 0.029175,
-        "change_24h": 5.54,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 6.63,
+        "change_24h": 3.55,
         "asset": "crypto"
       },
       {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.197021,
-        "change_24h": 3.57,
+        "price": 0.194222,
+        "change_24h": 2.25,
         "asset": "crypto"
       },
       {
         "symbol": "FLR",
         "name": "Flare",
-        "price": 0.006757,
-        "change_24h": 3.53,
+        "price": 0.006663,
+        "change_24h": 2.12,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.013171,
-        "change_24h": -12.21,
+        "price": 0.013066,
+        "change_24h": -12.95,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 0.885321,
-        "change_24h": -10.23,
+        "price": 0.878903,
+        "change_24h": -11.0,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 2.58,
-        "change_24h": -5.51,
+        "price": 2.56,
+        "change_24h": -6.33,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.615222,
-        "change_24h": -4.31,
+        "price": 0.60975,
+        "change_24h": -4.92,
         "asset": "crypto"
       },
       {
-        "symbol": "TAO",
-        "name": "Bittensor",
-        "price": 225.94,
-        "change_24h": -2.87,
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 5.85,
+        "change_24h": -4.73,
         "asset": "crypto"
       }
     ]
