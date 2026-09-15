@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-09-15T13:16:21Z",
+  "updated_at": "2026-09-15T13:31:00Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "ZS",
-        "name": "Zscaler, Inc.",
-        "price": 191.73,
-        "change_24h": 16.52,
-        "asset": "equity"
-      },
-      {
         "symbol": "TENB",
         "name": "Tenable Holdings, Inc.",
-        "price": 35.08,
-        "change_24h": 16.51,
+        "price": 34.23,
+        "change_24h": -2.42,
         "asset": "equity"
       },
       {
-        "symbol": "NTSK",
-        "name": "Netskope, Inc.",
-        "price": 17.0,
-        "change_24h": 15.65,
+        "symbol": "PANW",
+        "name": "Palo Alto Networks, Inc.",
+        "price": 372.98,
+        "change_24h": -0.26,
         "asset": "equity"
       },
       {
-        "symbol": "RBRK",
-        "name": "Rubrik, Inc.",
-        "price": 100.2,
-        "change_24h": 15.64,
+        "symbol": "RBLX",
+        "name": "Roblox Corporation",
+        "price": 50.83,
+        "change_24h": -0.84,
         "asset": "equity"
       },
       {
-        "symbol": "SAIL",
-        "name": "SailPoint, Inc.",
-        "price": 19.88,
-        "change_24h": 15.31,
+        "symbol": "OKTA",
+        "name": "Okta, Inc.",
+        "price": 185.71,
+        "change_24h": -0.4,
+        "asset": "equity"
+      },
+      {
+        "symbol": "APPN",
+        "name": "Appian Corporation",
+        "price": 37.72,
+        "change_24h": -1.54,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "SIMO",
-        "name": "Silicon Motion Technology Corpo",
-        "price": 236.81,
-        "change_24h": -16.76,
-        "asset": "equity"
-      },
-      {
-        "symbol": "NFE",
-        "name": "New Fortress Energy Inc.",
-        "price": 13.88,
-        "change_24h": -15.78,
-        "asset": "equity"
-      },
-      {
-        "symbol": "INIO",
-        "name": "INNIO N.V.",
-        "price": 17.45,
-        "change_24h": -14.25,
-        "asset": "equity"
-      },
-      {
-        "symbol": "GLW",
-        "name": "Corning Incorporated",
-        "price": 143.6,
-        "change_24h": -13.7,
-        "asset": "equity"
-      },
-      {
         "symbol": "TER",
         "name": "Teradyne, Inc.",
-        "price": 329.2,
-        "change_24h": -13.3,
+        "price": 335.66,
+        "change_24h": 1.96,
+        "asset": "equity"
+      },
+      {
+        "symbol": "NOK",
+        "name": "Nokia Corporation Sponsored",
+        "price": 9.849,
+        "change_24h": 2.01,
+        "asset": "equity"
+      },
+      {
+        "symbol": "VIAV",
+        "name": "Viavi Solutions Inc.",
+        "price": 34.32,
+        "change_24h": 1.48,
+        "asset": "equity"
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "price": 58.7,
+        "change_24h": 2.87,
+        "asset": "equity"
+      },
+      {
+        "symbol": "KGS",
+        "name": "Kodiak Gas Services, Inc.",
+        "price": 57.34,
+        "change_24h": 1.26,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.143699,
-        "change_24h": 6.78,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 6.69,
+        "change_24h": 6.11,
         "asset": "crypto"
       },
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 6.72,
-        "change_24h": 6.72,
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.142476,
+        "change_24h": 5.99,
         "asset": "crypto"
       },
       {
         "symbol": "XDC",
         "name": "XDC Network",
-        "price": 0.029157,
-        "change_24h": 4.89,
+        "price": 0.029175,
+        "change_24h": 5.54,
         "asset": "crypto"
       },
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.14356,
-        "change_24h": 3.4,
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price": 0.197021,
+        "change_24h": 3.57,
         "asset": "crypto"
       },
       {
         "symbol": "FLR",
         "name": "Flare",
-        "price": 0.006746,
-        "change_24h": 3.38,
+        "price": 0.006757,
+        "change_24h": 3.53,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.013193,
-        "change_24h": -12.15,
+        "price": 0.013171,
+        "change_24h": -12.21,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 0.881797,
-        "change_24h": -10.3,
+        "price": 0.885321,
+        "change_24h": -10.23,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
         "price": 2.58,
-        "change_24h": -5.13,
+        "change_24h": -5.51,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.616275,
-        "change_24h": -4.35,
+        "price": 0.615222,
+        "change_24h": -4.31,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 225.82,
-        "change_24h": -2.47,
+        "price": 225.94,
+        "change_24h": -2.87,
         "asset": "crypto"
       }
     ]
