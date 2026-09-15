@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T22:30:40Z",
+  "updated_at": "2026-09-15T22:45:45Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.688286,
-        "change_24h": 15.0,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.148884,
-        "change_24h": 10.35,
+        "price": 0.150403,
+        "change_24h": 11.83,
         "asset": "crypto"
       },
       {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.115178,
-        "change_24h": 1.87,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.685935,
+        "change_24h": 11.44,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.12,
-        "change_24h": 1.44,
+        "price": 1.13,
+        "change_24h": 2.97,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.115338,
+        "change_24h": 1.91,
         "asset": "crypto"
       },
       {
         "symbol": "BDX",
         "name": "Beldex",
-        "price": 0.075574,
-        "change_24h": 0.18,
+        "price": 0.075667,
+        "change_24h": 0.3,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 0.813277,
-        "change_24h": -13.33,
+        "price": 0.812924,
+        "change_24h": -13.31,
         "asset": "crypto"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price": 1.28,
-        "change_24h": -11.16,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 2.46,
-        "change_24h": -10.53,
+        "change_24h": -11.05,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.216501,
-        "change_24h": -10.25,
+        "price": 0.216396,
+        "change_24h": -10.48,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ICP",
+        "name": "Internet Computer",
+        "price": 2.47,
+        "change_24h": -10.15,
         "asset": "crypto"
       },
       {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.1757,
-        "change_24h": -9.26,
+        "price": 0.176501,
+        "change_24h": -8.94,
         "asset": "crypto"
       }
     ]
