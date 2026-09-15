@@ -1,11 +1,27 @@
 [
   {
+    "title": "VectraRAT Can Hack Windows Enterprises for $250 per Month",
+    "url": "https://www.darkreading.com/endpoint-security/vectrarat-hack-windows-enterprises",
+    "source": "Dark Reading",
+    "summary": "The full-service malware-as-a-service (MaaS) platform offers a Windows implant, command-and-control (C2) infrastructure, and an operator panel for comprehensive remote access.",
+    "added": "2026-09-15T16:45:37+00:00",
+    "expires": "2026-09-29T17:34:33Z"
+  },
+  {
+    "title": "CenterPoint Energy confirms customer data stolen in cyberattack",
+    "url": "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/",
+    "source": "BleepingComputer",
+    "summary": "CenterPoint Energy disclosed a breach compromising some customers' personal information after an attacker leaked data allegedly stolen from the utility company. [...]",
+    "added": "2026-09-15T16:40:14+00:00",
+    "expires": "2026-09-29T17:34:32Z"
+  },
+  {
     "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
     "url": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
     "source": "The Hacker News",
     "summary": "Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to control Windows and Linux systems. The emergi",
     "added": "2026-09-15T15:23:19+00:00",
-    "expires": "2026-09-29T16:35:15Z"
+    "expires": "2026-09-29T17:34:33Z"
   },
   {
     "title": "BambooToken malware controls Windows and Linux systems via MQTT",
@@ -13,7 +29,7 @@
     "source": "BleepingComputer",
     "summary": "A previously unknown malware framework called BambooToken, active since at least 2023, is now using the Message Queuing Telemetry Transport (MQTT) protocol to communicate with Windows and Linux systems. [...]",
     "added": "2026-09-15T15:00:00+00:00",
-    "expires": "2026-09-29T16:35:14Z"
+    "expires": "2026-09-29T17:34:32Z"
   },
   {
     "title": "Hackers target WordPress sites via third-party WooCommerce plugin",
@@ -21,7 +37,7 @@
     "source": "BleepingComputer",
     "summary": "Hackers are actively exploiting a critical vulnerability in the WooCommerce Wholesale Lead Capture premium plugin for WordPress to upload a PHP backdoor. [...]",
     "added": "2026-09-15T14:45:10+00:00",
-    "expires": "2026-09-29T16:35:14Z"
+    "expires": "2026-09-29T17:34:32Z"
   },
   {
     "title": "What Zero-Day Response Should Be in the Post-Mythos Era",
@@ -29,7 +45,7 @@
     "source": "BleepingComputer",
     "summary": "AI is shrinking the time between vulnerability disclosure and exploitation, leaving defenders less time to wait for patches or public exploits. Picus Security explains how exploitability validation, security control test",
     "added": "2026-09-15T13:45:54+00:00",
-    "expires": "2026-09-29T16:35:14Z"
+    "expires": "2026-09-29T17:34:32Z"
   },
   {
     "title": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
@@ -37,7 +53,7 @@
     "source": "BleepingComputer",
     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploiting a critical VMware vCenter vulnerability patched in July. [...]",
     "added": "2026-09-15T12:16:32+00:00",
-    "expires": "2026-09-29T16:35:14Z"
+    "expires": "2026-09-29T17:34:32Z"
   },
   {
     "title": "Protecting Tokens and Assertions from Forgery, Theft, and Misuse: Implementation Recommendations for Agencies and Cloud Service Providers",
@@ -45,7 +61,7 @@
     "source": "CISA Advisories",
     "summary": "Developed by the National Institute of Standards and Technology (NIST) and CISA, this interagency report provides federal agencies and cloud service providers with guidelines to protect the identity assertions, access to",
     "added": "2026-09-15T12:00:00+00:00",
-    "expires": "2026-09-29T16:35:15Z"
+    "expires": "2026-09-29T17:34:33Z"
   },
   {
     "title": "Digital Watchdog VMAX DVR and NVR Product Lineups",
@@ -53,7 +69,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could grant full administrative control of the device, allowing an attacker to view live and recorded surveillance, alter device configurations, and use ",
     "added": "2026-09-15T12:00:00+00:00",
-    "expires": "2026-09-29T16:35:15Z"
+    "expires": "2026-09-29T17:34:33Z"
   },
   {
     "title": "mySCADA myPRO Manager",
@@ -61,7 +77,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access privileged management functions or send arbitrary SMS messages through the connected GSM modem. The following versions ",
     "added": "2026-09-15T12:00:00+00:00",
-    "expires": "2026-09-29T16:35:15Z"
+    "expires": "2026-09-29T17:34:33Z"
   },
   {
     "title": "Schneider Electric SCADAPack x70 Products",
@@ -69,7 +85,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Schneider Electric is aware of a vulnerability in its SCADAPack x70 products. The SCADAPack 47x, SCADAPack 47xi, SCADAPack 47xd, SCADAPack 470R and SCADAPack 57x products are Remote Terminal Units that ",
     "added": "2026-09-15T12:00:00+00:00",
-    "expires": "2026-09-29T16:35:15Z"
+    "expires": "2026-09-29T17:34:33Z"
   },
   {
     "title": "Siemens Teamcenter",
@@ -77,7 +93,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary A reflected cross site scripting vulnerability in the authentication redirect flow (/auth/) of Teamcenter allows an unauthenticated remote attacker to inject JavaScript into an authenticated user's sess",
     "added": "2026-09-15T12:00:00+00:00",
-    "expires": "2026-09-29T16:35:15Z"
+    "expires": "2026-09-29T17:34:33Z"
   },
   {
     "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
@@ -85,7 +101,7 @@
     "source": "The Hacker News",
     "summary": "With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled human operators can mov",
     "added": "2026-09-15T11:52:28+00:00",
-    "expires": "2026-09-29T16:35:15Z"
+    "expires": "2026-09-29T17:34:33Z"
   },
   {
     "title": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
@@ -93,7 +109,7 @@
     "source": "The Hacker News",
     "summary": "Introduction Security teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM rule fire on this partic",
     "added": "2026-09-15T11:26:36+00:00",
-    "expires": "2026-09-29T16:35:15Z"
+    "expires": "2026-09-29T17:34:33Z"
   },
   {
     "title": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
@@ -101,15 +117,7 @@
     "source": "The Hacker News",
     "summary": "Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data. The first is an automated effort aimed at internet-exposed Vite development servers t",
     "added": "2026-09-15T11:12:32+00:00",
-    "expires": "2026-09-29T16:35:15Z"
-  },
-  {
-    "title": "Suspected Black Axe gang leaders face cybercrime charges in the US",
-    "url": "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/",
-    "source": "BleepingComputer",
-    "summary": "Five alleged leaders of the Black Axe cybercrime syndicate, known for its involvement in global-scale cyber-enabled financial fraud, have been extradited to the United States to face wire fraud and money laundering charg",
-    "added": "2026-09-15T09:50:25+00:00",
-    "expires": "2026-09-29T16:35:14Z"
+    "expires": "2026-09-29T17:34:33Z"
   },
   {
     "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
@@ -117,14 +125,6 @@
     "source": "The Hacker News",
     "summary": "A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an advisory published on September 14. On such servers, man",
     "added": "2026-09-15T06:52:16+00:00",
-    "expires": "2026-09-29T16:35:15Z"
-  },
-  {
-    "title": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink",
-    "source": "Dark Reading",
-    "summary": "The notorious Russian threat group is spreading an upgraded version of the botnet malware, which the FBI disrupted in 2022.",
-    "added": "2026-09-14T21:37:28+00:00",
-    "expires": "2026-09-29T16:35:15Z"
+    "expires": "2026-09-29T17:34:33Z"
   }
 ]
