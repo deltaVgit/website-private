@@ -288,7 +288,7 @@
         "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "name": "Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 656,
+        "likes": 657,
         "downloads": 1265244,
         "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "lastModified": "2026-09-15T08:59:42.000Z",
@@ -402,30 +402,6 @@
       "combo": 0.7898
     },
     {
-      "id": "audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF",
-      "name": "DeepSeek-V4.1-Flash-Abliterated-GGUF",
-      "author": "audreyt",
-      "likes": 4,
-      "downloads": 11275,
-      "url": "https://huggingface.co/audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF",
-      "lastModified": "2026-09-13T13:03:58.000Z",
-      "daysAgo": 1,
-      "pipeline": "",
-      "tags": [
-        "gguf",
-        "deepseek",
-        "deepseek_v41",
-        "abliterated",
-        "uncensored",
-        "iq2_xxs",
-        "q2_k",
-        "moe"
-      ],
-      "pop": 0.6284,
-      "rec": 0.9677,
-      "combo": 0.7472
-    },
-    {
       "id": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-CyberTiel-Calibrated-MTPv2-ICE-GGUF",
       "name": "Ornith-1.5-35B-A3B-Abliterated-CyberTiel-Calibrated-MTPv2-ICE-GGUF",
       "author": "gbuzhf",
@@ -472,6 +448,30 @@
       "pop": 0.8391,
       "rec": 0.566,
       "combo": 0.7435
+    },
+    {
+      "id": "audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF",
+      "name": "DeepSeek-V4.1-Flash-Abliterated-GGUF",
+      "author": "audreyt",
+      "likes": 4,
+      "downloads": 11275,
+      "url": "https://huggingface.co/audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF",
+      "lastModified": "2026-09-13T13:03:58.000Z",
+      "daysAgo": 2,
+      "pipeline": "",
+      "tags": [
+        "gguf",
+        "deepseek",
+        "deepseek_v41",
+        "abliterated",
+        "uncensored",
+        "iq2_xxs",
+        "q2_k",
+        "moe"
+      ],
+      "pop": 0.6284,
+      "rec": 0.9375,
+      "combo": 0.7366
     },
     {
       "id": "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
@@ -619,5 +619,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-15T12:34:52Z"
+  "updated": "2026-09-15T13:05:03Z"
 }
