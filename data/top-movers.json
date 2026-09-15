@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T20:30:30Z",
+  "updated_at": "2026-09-15T20:45:31Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.691058,
-        "change_24h": 8.94,
+        "price": 0.691214,
+        "change_24h": 9.31,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.146555,
-        "change_24h": 3.48,
+        "price": 0.146701,
+        "change_24h": 3.95,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.113656,
-        "change_24h": 0.89,
+        "price": 0.113894,
+        "change_24h": 1.15,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.11,
-        "change_24h": 0.57,
+        "change_24h": 0.93,
         "asset": "crypto"
       },
       {
-        "symbol": "USDY",
-        "name": "Ondo US Dollar Yield",
-        "price": 1.15,
-        "change_24h": 0.26,
+        "symbol": "BDX",
+        "name": "Beldex",
+        "price": 0.075713,
+        "change_24h": 0.13,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 0.811239,
+        "change_24h": -14.61,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 5.45,
+        "change_24h": -14.52,
+        "asset": "crypto"
+      },
+      {
         "symbol": "XRP",
         "name": "XRP",
-        "price": 1.27,
-        "change_24h": -14.55,
+        "price": 1.28,
+        "change_24h": -13.64,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 2.46,
-        "change_24h": -12.35,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.216214,
-        "change_24h": -11.83,
+        "price": 2.47,
+        "change_24h": -12.05,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.08,
-        "change_24h": -11.57,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.585413,
-        "change_24h": -10.65,
+        "price": 4.04,
+        "change_24h": -11.8,
         "asset": "crypto"
       }
     ]
