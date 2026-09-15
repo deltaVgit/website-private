@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T04:15:51Z",
+  "updated_at": "2026-09-15T04:30:54Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.192723,
-        "change_24h": 5.98,
+        "price": 0.192144,
+        "change_24h": 5.71,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 6.61,
+        "change_24h": 3.73,
         "asset": "crypto"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price": 1.41,
-        "change_24h": 3.05,
+        "change_24h": 2.82,
         "asset": "crypto"
       },
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 6.59,
-        "change_24h": 2.85,
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1148.15,
+        "change_24h": 2.7,
         "asset": "crypto"
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.034663,
-        "change_24h": 2.82,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XDC",
-        "name": "XDC Network",
-        "price": 0.028453,
-        "change_24h": 2.33,
+        "price": 0.034706,
+        "change_24h": 2.52,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.01417,
-        "change_24h": -6.82,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.668635,
+        "change_24h": -7.45,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 0.893934,
-        "change_24h": -6.19,
+        "price": 0.894789,
+        "change_24h": -7.26,
         "asset": "crypto"
       },
       {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 2.63,
-        "change_24h": -5.73,
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.01415,
+        "change_24h": -6.76,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.38,
-        "change_24h": -5.72,
+        "price": 4.36,
+        "change_24h": -6.51,
         "asset": "crypto"
       },
       {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.096,
-        "change_24h": -5.25,
+        "symbol": "ICP",
+        "name": "Internet Computer",
+        "price": 2.61,
+        "change_24h": -6.29,
         "asset": "crypto"
       }
     ]
