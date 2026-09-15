@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T07:45:50Z",
+  "updated_at": "2026-09-15T08:00:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "XLM",
-        "name": "Stellar",
-        "price": 0.192211,
-        "change_24h": 4.07,
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price": 0.028869,
+        "change_24h": 3.75,
         "asset": "crypto"
       },
       {
-        "symbol": "XDC",
-        "name": "XDC Network",
-        "price": 0.028913,
-        "change_24h": 3.89,
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price": 0.191019,
+        "change_24h": 3.42,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 6.59,
-        "change_24h": 3.72,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 516.01,
-        "change_24h": 1.4,
+        "price": 6.55,
+        "change_24h": 3.12,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.11518,
-        "change_24h": 1.29,
+        "price": 0.115002,
+        "change_24h": 1.04,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 516.05,
+        "change_24h": 0.96,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.013402,
-        "change_24h": -11.48,
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 0.885462,
+        "change_24h": -11.78,
         "asset": "crypto"
       },
       {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 0.892471,
-        "change_24h": -11.0,
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.013382,
+        "change_24h": -11.32,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.691666,
-        "change_24h": -9.17,
+        "price": 0.700332,
+        "change_24h": -7.61,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.608202,
+        "change_24h": -7.42,
         "asset": "crypto"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.007419,
-        "change_24h": -7.41,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 2.58,
-        "change_24h": -7.18,
+        "price": 0.007391,
+        "change_24h": -7.34,
         "asset": "crypto"
       }
     ]
