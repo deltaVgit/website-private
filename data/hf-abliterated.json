@@ -50,11 +50,11 @@
         "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "name": "Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 2075,
+        "likes": 2076,
         "downloads": 863410,
         "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-06-05T17:55:41.000Z",
-        "daysAgo": 101,
+        "daysAgo": 102,
         "pipeline": "",
         "tags": [
           "gguf",
@@ -181,7 +181,7 @@
         "id": "ApolloQT/Flux-Uncensored-V2",
         "name": "Flux-Uncensored-V2",
         "author": "ApolloQT",
-        "likes": 97,
+        "likes": 98,
         "downloads": 192,
         "url": "https://huggingface.co/ApolloQT/Flux-Uncensored-V2",
         "lastModified": "2026-03-27T02:48:02.000Z",
@@ -248,7 +248,7 @@
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 1195,
+        "likes": 1197,
         "downloads": 2298657,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
@@ -311,7 +311,7 @@
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 3682,
+        "likes": 3683,
         "downloads": 1067685,
         "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-04-17T02:59:21.000Z",
@@ -404,30 +404,6 @@
       "combo": 0.7898
     },
     {
-      "id": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-CyberTiel-Calibrated-MTPv2-ICE-GGUF",
-      "name": "Ornith-1.5-35B-A3B-Abliterated-CyberTiel-Calibrated-MTPv2-ICE-GGUF",
-      "author": "gbuzhf",
-      "likes": 4,
-      "downloads": 11035,
-      "url": "https://huggingface.co/gbuzhf/Ornith-1.5-35B-A3B-Abliterated-CyberTiel-Calibrated-MTPv2-ICE-GGUF",
-      "lastModified": "2026-09-13T17:39:15.000Z",
-      "daysAgo": 1,
-      "pipeline": "text-generation",
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "qwen35moe",
-        "moe",
-        "imatrix",
-        "ICE",
-        "mtp",
-        "abliterated"
-      ],
-      "pop": 0.627,
-      "rec": 0.9677,
-      "combo": 0.7463
-    },
-    {
       "id": "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
       "name": "Qwen3.8-27B-ABLITERATED-GGUF",
       "author": "Blackfrost-AI",
@@ -435,7 +411,7 @@
       "downloads": 257184,
       "url": "https://huggingface.co/Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
       "lastModified": "2026-08-22T17:50:05.000Z",
-      "daysAgo": 23,
+      "daysAgo": 24,
       "pipeline": "image-text-to-text",
       "tags": [
         "gguf",
@@ -448,8 +424,8 @@
         "multimodal"
       ],
       "pop": 0.8391,
-      "rec": 0.566,
-      "combo": 0.7435
+      "rec": 0.5556,
+      "combo": 0.7398
     },
     {
       "id": "audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF",
@@ -474,6 +450,30 @@
       "pop": 0.6284,
       "rec": 0.9375,
       "combo": 0.7366
+    },
+    {
+      "id": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-CyberTiel-Calibrated-MTPv2-ICE-GGUF",
+      "name": "Ornith-1.5-35B-A3B-Abliterated-CyberTiel-Calibrated-MTPv2-ICE-GGUF",
+      "author": "gbuzhf",
+      "likes": 4,
+      "downloads": 11035,
+      "url": "https://huggingface.co/gbuzhf/Ornith-1.5-35B-A3B-Abliterated-CyberTiel-Calibrated-MTPv2-ICE-GGUF",
+      "lastModified": "2026-09-13T17:39:15.000Z",
+      "daysAgo": 2,
+      "pipeline": "text-generation",
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "qwen35moe",
+        "moe",
+        "imatrix",
+        "ICE",
+        "mtp",
+        "abliterated"
+      ],
+      "pop": 0.627,
+      "rec": 0.9375,
+      "combo": 0.7357
     },
     {
       "id": "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
@@ -621,5 +621,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-15T17:34:19Z"
+  "updated": "2026-09-15T18:04:28Z"
 }
