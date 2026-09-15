@@ -181,7 +181,7 @@
         "id": "ApolloQT/Flux-Uncensored-V2",
         "name": "Flux-Uncensored-V2",
         "author": "ApolloQT",
-        "likes": 74,
+        "likes": 77,
         "downloads": 192,
         "url": "https://huggingface.co/ApolloQT/Flux-Uncensored-V2",
         "lastModified": "2026-03-27T02:48:02.000Z",
@@ -246,7 +246,7 @@
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 1186,
+        "likes": 1187,
         "downloads": 2298657,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
@@ -309,7 +309,7 @@
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 3679,
+        "likes": 3680,
         "downloads": 1067685,
         "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-04-17T02:59:21.000Z",
@@ -594,30 +594,30 @@
       "combo": 0.6999
     },
     {
-      "id": "sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
-      "name": "Huihui-Qwen3.8-27B-abliterated-NVFP4",
-      "author": "sakamakismile",
-      "likes": 58,
-      "downloads": 76282,
-      "url": "https://huggingface.co/sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
-      "lastModified": "2026-08-24T11:01:03.000Z",
-      "daysAgo": 21,
+      "id": "Abiray/MiniCPM5-2B-heretic-abliterated-GGUF",
+      "name": "MiniCPM5-2B-heretic-abliterated-GGUF",
+      "author": "Abiray",
+      "likes": 18,
+      "downloads": 12397,
+      "url": "https://huggingface.co/Abiray/MiniCPM5-2B-heretic-abliterated-GGUF",
+      "lastModified": "2026-09-08T07:35:36.000Z",
+      "daysAgo": 7,
       "pipeline": "text-generation",
       "tags": [
-        "vllm",
-        "safetensors",
-        "qwen3_5",
-        "nvfp4",
-        "compressed-tensors",
-        "mtp",
-        "speculative-decoding",
-        "blackwell"
+        "gguf",
+        "minicpm",
+        "minicpm5",
+        "llama.cpp",
+        "text-generation",
+        "abliterated",
+        "uncensored",
+        "on-device"
       ],
-      "pop": 0.7572,
-      "rec": 0.5882,
-      "combo": 0.6981
+      "pop": 0.6348,
+      "rec": 0.8108,
+      "combo": 0.6964
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-15T10:34:23Z"
+  "updated": "2026-09-15T11:04:31Z"
 }
