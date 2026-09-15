@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T00:15:59Z",
+  "updated_at": "2026-09-15T00:31:02Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1165.71,
-        "change_24h": 9.7,
+        "price": 1162.21,
+        "change_24h": 10.46,
         "asset": "crypto"
       },
       {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.192111,
-        "change_24h": 8.02,
+        "price": 0.191668,
+        "change_24h": 8.34,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 2.48,
-        "change_24h": 7.71,
+        "price": 2.47,
+        "change_24h": 8.32,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 6.59,
+        "change_24h": 7.99,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 23.14,
-        "change_24h": 7.41,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.41,
-        "change_24h": 7.03,
+        "price": 22.97,
+        "change_24h": 7.51,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.014276,
-        "change_24h": -5.94,
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 0.914457,
+        "change_24h": -5.75,
         "asset": "crypto"
       },
       {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 0.928338,
-        "change_24h": -4.12,
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.014257,
+        "change_24h": -5.65,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.095,
-        "change_24h": -3.17,
+        "price": 1.094,
+        "change_24h": -3.4,
         "asset": "crypto"
       },
       {
         "symbol": "LTC",
         "name": "Litecoin",
-        "price": 52.96,
-        "change_24h": -1.78,
+        "price": 52.79,
+        "change_24h": -1.59,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
         "price": 2.74,
-        "change_24h": -1.59,
+        "change_24h": -1.29,
         "asset": "crypto"
       }
     ]
