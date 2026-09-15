@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T18:04:41Z",
+  "updatedAt": "2026-09-15T18:35:08Z",
   "kev": [
     {
       "cve": "CVE-2026-76461",
@@ -128,92 +128,7 @@
       "knownRansomware": "Unknown"
     }
   ],
-  "cves": [
-    {
-      "id": "CVE-2026-83627",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The Hummingbird – Speed Optimization, Caching, Minify, Compress & CDN plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 3.21.0 via the log_msg() function in core/modules/cl",
-      "published": "2026-09-05T06:17:10.080"
-    },
-    {
-      "id": "CVE-2026-13447",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The Mstore Api plugin for WordPress is vulnerable to Authentication Bypass via JWT Forgery in versions up to, and including, 4.20.0 This is due to missing cryptographic signature verification in the FirebasePhoneAuthHelp",
-      "published": "2026-09-05T06:17:09.403"
-    },
-    {
-      "id": "CVE-2026-52777",
-      "severity": "CRITICAL",
-      "score": 9.4,
-      "description": "YesWiki is a wiki system written in PHP. Prior to version 4.6.6, there is an authenticated PHP object injection vulnerability in BazarImportAction via unserialize. This issue has been patched in version 4.6.6.",
-      "published": "2026-09-05T00:17:20.663"
-    },
-    {
-      "id": "CVE-2026-52766",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "description": "YesWiki is a wiki system written in PHP. Prior to version 4.6.6, the {{erasespamedcomments}} wiki action (actions/EraseSpamedCommentsAction.php) accepts a suppr[] array from POST and deletes every wiki page whose tag app",
-      "published": "2026-09-05T00:17:19.393"
-    },
-    {
-      "id": "CVE-2026-52775",
-      "severity": "HIGH",
-      "score": 8.8,
-      "description": "YesWiki is a wiki system written in PHP. Prior to version 4.6.6, YesWiki through the latest development branch contains a SQL injection vulnerability in ReactionManager::deleteUserReaction() that allows any authenticated",
-      "published": "2026-09-05T00:17:20.520"
-    },
-    {
-      "id": "CVE-2026-52771",
-      "severity": "HIGH",
-      "score": 8.3,
-      "description": "YesWiki is a wiki system written in PHP. From version 4.2.0 to before version 4.6.6, ApiController::deletePage() interpolates a page tag retrieved from the database into a DELETE FROM …_links WHERE to_tag = '$tag' query ",
-      "published": "2026-09-05T00:17:19.963"
-    },
-    {
-      "id": "CVE-2026-52769",
-      "severity": "HIGH",
-      "score": 8.3,
-      "description": "YesWiki is a wiki system written in PHP. From version 4.6.2 to before version 4.6.6, the POST /api/forms/{formId}/actor/inbox route - exposed publicly with acl:\"public\" - accepts an HTTP Signature header whose keyId para",
-      "published": "2026-09-05T00:17:19.683"
-    },
-    {
-      "id": "CVE-2026-86145",
-      "severity": "HIGH",
-      "score": 8.2,
-      "description": "PCRE2 before 10.48 allows a pcre2_dfa_match out-of-bounds write because reuse of a cached workspace block, in a recursive DFA matching workspace, lacks a size check (even though a newly allocated block, for the same purp",
-      "published": "2026-09-05T06:17:10.370"
-    },
-    {
-      "id": "CVE-2026-86140",
-      "severity": "HIGH",
-      "score": 8.0,
-      "description": "In libxml2 before 2.15.4, xmlSnprintfElements in valid.c has a strcat stack-based buffer overflow.",
-      "published": "2026-09-05T05:17:12.877"
-    },
-    {
-      "id": "CVE-2026-52770",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "YesWiki is a wiki system written in PHP. Prior to version 4.6.6, YesWiki’s public Bazar entry-listing APIs are vulnerable to unauthenticated SQL injection in numeric query / queries filters. For Bazar fields whose value ",
-      "published": "2026-09-05T00:17:19.827"
-    },
-    {
-      "id": "CVE-2026-19769",
-      "severity": "HIGH",
-      "score": 7.2,
-      "description": "The Ninja Forms – The Contact Form Builder That Grows With You plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Repeater Child 'type' Confusion via Unmatched Array Key in all versions up to, and incl",
-      "published": "2026-09-05T07:17:11.333"
-    },
-    {
-      "id": "CVE-2026-18406",
-      "severity": "HIGH",
-      "score": 7.2,
-      "description": "The SureForms – Contact Form Builder, AI Forms, Payment Form, Survey & Quiz plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Text Field Entity-Encoded Payload in all versions up to, and including, 2.",
-      "published": "2026-09-05T07:17:11.040"
-    }
-  ],
+  "cves": [],
   "breaches": [
     {
       "name": "ManchesterAirportsGroup",
