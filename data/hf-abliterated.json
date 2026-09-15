@@ -178,27 +178,6 @@
         ]
       },
       {
-        "id": "ApolloQT/Flux-Uncensored-V2",
-        "name": "Flux-Uncensored-V2",
-        "author": "ApolloQT",
-        "likes": 62,
-        "downloads": 168,
-        "url": "https://huggingface.co/ApolloQT/Flux-Uncensored-V2",
-        "lastModified": "2026-03-27T02:48:02.000Z",
-        "daysAgo": 172,
-        "pipeline": "image-to-image",
-        "tags": [
-          "diffusers",
-          "text-to-image",
-          "stable-diffusion",
-          "lora",
-          "fluxpipeline",
-          "flux",
-          "not-for-all-audiences",
-          "image-to-image"
-        ]
-      },
-      {
         "id": "Georgiy1108/flux2-dev-te-abliterated",
         "name": "flux2-dev-te-abliterated",
         "author": "Georgiy1108",
@@ -215,6 +194,26 @@
         "pop": 0.0,
         "rec": 0.2326,
         "combo": 0.0814
+      },
+      {
+        "id": "Heartsync/Flux-NSFW-uncensored",
+        "name": "Flux-NSFW-uncensored",
+        "author": "Heartsync",
+        "likes": 529,
+        "downloads": 0,
+        "url": "https://huggingface.co/Heartsync/Flux-NSFW-uncensored",
+        "lastModified": "2025-05-05T14:21:20.000Z",
+        "daysAgo": 497,
+        "pipeline": "text-to-image",
+        "tags": [
+          "text-to-image",
+          "en",
+          "base_model:black-forest-labs/FLUX.1-dev",
+          "base_model:finetune:black-forest-labs/FLUX.1-dev",
+          "license:creativeml-openrail-m",
+          "region:us",
+          "not-for-all-audiences"
+        ]
       }
     ],
     "multimodal": [
@@ -222,7 +221,7 @@
         "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
         "author": "huihui-ai",
-        "likes": 732,
+        "likes": 733,
         "downloads": 2744995,
         "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "lastModified": "2026-09-08T15:49:51.000Z",
@@ -267,7 +266,7 @@
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 1184,
+        "likes": 1185,
         "downloads": 2224663,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
@@ -288,11 +287,11 @@
         "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "name": "Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 654,
+        "likes": 655,
         "downloads": 1215484,
         "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
-        "lastModified": "2026-08-24T04:11:28.000Z",
-        "daysAgo": 22,
+        "lastModified": "2026-09-15T08:59:42.000Z",
+        "daysAgo": 0,
         "pipeline": "image-text-to-text",
         "tags": [
           "gguf",
@@ -333,7 +332,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
       "author": "huihui-ai",
-      "likes": 732,
+      "likes": 733,
       "downloads": 2744995,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "lastModified": "2026-09-08T15:49:51.000Z",
@@ -619,5 +618,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-15T08:34:56Z"
+  "updated": "2026-09-15T09:05:03Z"
 }
