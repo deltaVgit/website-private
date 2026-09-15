@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T20:15:30Z",
+  "updated_at": "2026-09-15T20:30:30Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -18,6 +18,13 @@
         "asset": "equity"
       },
       {
+        "symbol": "FPS",
+        "name": "Forgent Power Solutions, Inc.",
+        "price": 31.36,
+        "change_24h": 9.5,
+        "asset": "equity"
+      },
+      {
         "symbol": "CAI",
         "name": "Caris Life Sciences, Inc.",
         "price": 28.5,
@@ -29,13 +36,6 @@
         "name": "Qorvo, Inc.",
         "price": 118.06,
         "change_24h": 9.34,
-        "asset": "equity"
-      },
-      {
-        "symbol": "FPS",
-        "name": "Forgent Power Solutions, Inc.",
-        "price": 31.36,
-        "change_24h": 9.5,
         "asset": "equity"
       }
     ],
@@ -82,36 +82,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.695666,
-        "change_24h": 8.21,
+        "price": 0.691058,
+        "change_24h": 8.94,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.147489,
-        "change_24h": 4.85,
+        "price": 0.146555,
+        "change_24h": 3.48,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.113656,
+        "change_24h": 0.89,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.11,
-        "change_24h": 1.29,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.113373,
-        "change_24h": 0.59,
+        "change_24h": 0.57,
         "asset": "crypto"
       },
       {
         "symbol": "USDY",
         "name": "Ondo US Dollar Yield",
-        "price": 1.14,
-        "change_24h": 0.15,
+        "price": 1.15,
+        "change_24h": 0.26,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "XRP",
         "name": "XRP",
-        "price": 1.29,
-        "change_24h": -12.73,
+        "price": 1.27,
+        "change_24h": -14.55,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 2.47,
-        "change_24h": -11.56,
+        "price": 2.46,
+        "change_24h": -12.35,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.217699,
-        "change_24h": -11.3,
+        "price": 0.216214,
+        "change_24h": -11.83,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.12,
-        "change_24h": -10.01,
+        "price": 4.08,
+        "change_24h": -11.57,
         "asset": "crypto"
       },
       {
-        "symbol": "XLM",
-        "name": "Stellar",
-        "price": 0.177355,
-        "change_24h": -9.1,
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.585413,
+        "change_24h": -10.65,
         "asset": "crypto"
       }
     ]
