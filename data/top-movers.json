@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T05:15:40Z",
+  "updated_at": "2026-09-16T05:30:45Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.152265,
+        "change_24h": 14.43,
+        "asset": "crypto"
+      },
+      {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.762105,
-        "change_24h": 11.62,
+        "price": 0.763891,
+        "change_24h": 10.3,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.12,
-        "change_24h": 2.26,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.115618,
-        "change_24h": 0.79,
+        "price": 1.11,
+        "change_24h": 2.25,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1152.15,
-        "change_24h": 0.75,
+        "price": 1162.41,
+        "change_24h": 1.8,
         "asset": "crypto"
       },
       {
         "symbol": "PAXG",
         "name": "PAX Gold",
-        "price": 4323.62,
-        "change_24h": 0.48,
+        "price": 4327.27,
+        "change_24h": 0.65,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "PI",
         "name": "Pi Network",
-        "price": 0.087076,
-        "change_24h": -11.0,
+        "price": 0.08695,
+        "change_24h": -11.02,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.215077,
-        "change_24h": -8.56,
+        "price": 0.215124,
+        "change_24h": -8.62,
         "asset": "crypto"
       },
       {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.176592,
-        "change_24h": -7.8,
+        "price": 0.176466,
+        "change_24h": -7.98,
         "asset": "crypto"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price": 1.3,
-        "change_24h": -7.63,
+        "change_24h": -7.67,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 0.821723,
-        "change_24h": -7.27,
+        "price": 0.819894,
+        "change_24h": -7.58,
         "asset": "crypto"
       }
     ]
