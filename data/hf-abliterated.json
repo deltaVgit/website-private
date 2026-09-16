@@ -30,7 +30,7 @@
         "downloads": 1972780,
         "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "lastModified": "2026-08-20T19:51:25.000Z",
-        "daysAgo": 26,
+        "daysAgo": 27,
         "pipeline": "text-generation",
         "tags": [
           "transformers",
@@ -43,8 +43,8 @@
           "roleplay"
         ],
         "pop": 0.9757,
-        "rec": 0.5357,
-        "combo": 0.8217
+        "rec": 0.5263,
+        "combo": 0.8184
       },
       {
         "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
@@ -139,7 +139,7 @@
         "id": "ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "name": "flux2-klein-9b-uncensored-text-encoder",
         "author": "ponpoke",
-        "likes": 609,
+        "likes": 610,
         "downloads": 36146,
         "url": "https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "lastModified": "2026-05-02T11:34:41.000Z",
@@ -224,7 +224,7 @@
         "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
         "author": "huihui-ai",
-        "likes": 756,
+        "likes": 757,
         "downloads": 2828411,
         "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "lastModified": "2026-09-08T15:49:51.000Z",
@@ -335,7 +335,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
       "author": "huihui-ai",
-      "likes": 756,
+      "likes": 757,
       "downloads": 2828411,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "lastModified": "2026-09-08T15:49:51.000Z",
@@ -354,30 +354,6 @@
       "pop": 1.0,
       "rec": 0.7895,
       "combo": 0.9263
-    },
-    {
-      "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
-      "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
-      "author": "0bserverx",
-      "likes": 480,
-      "downloads": 1972780,
-      "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
-      "lastModified": "2026-08-20T19:51:25.000Z",
-      "daysAgo": 26,
-      "pipeline": "text-generation",
-      "tags": [
-        "transformers",
-        "gguf",
-        "qwen3.8",
-        "qwen3.5",
-        "heretic",
-        "abliterated",
-        "uncensored",
-        "roleplay"
-      ],
-      "pop": 0.9757,
-      "rec": 0.5357,
-      "combo": 0.8217
     },
     {
       "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF",
@@ -402,6 +378,30 @@
       "pop": 0.7985,
       "rec": 0.8571,
       "combo": 0.819
+    },
+    {
+      "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
+      "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
+      "author": "0bserverx",
+      "likes": 480,
+      "downloads": 1972780,
+      "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
+      "lastModified": "2026-08-20T19:51:25.000Z",
+      "daysAgo": 27,
+      "pipeline": "text-generation",
+      "tags": [
+        "transformers",
+        "gguf",
+        "qwen3.8",
+        "qwen3.5",
+        "heretic",
+        "abliterated",
+        "uncensored",
+        "roleplay"
+      ],
+      "pop": 0.9757,
+      "rec": 0.5263,
+      "combo": 0.8184
     },
     {
       "id": "audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF",
@@ -575,7 +575,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "name": "Huihui-Qwen3.8-27B-abliterated",
       "author": "huihui-ai",
-      "likes": 429,
+      "likes": 431,
       "downloads": 85942,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "lastModified": "2026-08-24T03:47:39.000Z",
@@ -621,5 +621,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-16T19:34:52Z"
+  "updated": "2026-09-16T20:04:54Z"
 }
