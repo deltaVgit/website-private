@@ -252,7 +252,7 @@
         "downloads": 2387042,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
-        "daysAgo": 29,
+        "daysAgo": 30,
         "pipeline": "image-text-to-text",
         "tags": [
           "gguf",
@@ -290,7 +290,7 @@
         "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "name": "Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 676,
+        "likes": 678,
         "downloads": 1331900,
         "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "lastModified": "2026-09-16T03:26:07.000Z",
@@ -356,30 +356,6 @@
       "combo": 0.9263
     },
     {
-      "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF",
-      "name": "Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF",
-      "author": "huihui-ai",
-      "likes": 24,
-      "downloads": 141765,
-      "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF",
-      "lastModified": "2026-09-10T21:52:16.000Z",
-      "daysAgo": 5,
-      "pipeline": "image-text-to-text",
-      "tags": [
-        "transformers",
-        "gguf",
-        "abliterated",
-        "uncensored",
-        "huihui",
-        "image-text-to-text",
-        "base_model:deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
-        "base_model:quantized:deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
-      ],
-      "pop": 0.7985,
-      "rec": 0.8571,
-      "combo": 0.819
-    },
-    {
       "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "author": "0bserverx",
@@ -402,6 +378,30 @@
       "pop": 0.9757,
       "rec": 0.5263,
       "combo": 0.8184
+    },
+    {
+      "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF",
+      "name": "Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF",
+      "author": "huihui-ai",
+      "likes": 24,
+      "downloads": 141765,
+      "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF",
+      "lastModified": "2026-09-10T21:52:16.000Z",
+      "daysAgo": 6,
+      "pipeline": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "gguf",
+        "abliterated",
+        "uncensored",
+        "huihui",
+        "image-text-to-text",
+        "base_model:deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+        "base_model:quantized:deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
+      ],
+      "pop": 0.7985,
+      "rec": 0.8333,
+      "combo": 0.8107
     },
     {
       "id": "audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF",
@@ -621,5 +621,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-16T21:35:00Z"
+  "updated": "2026-09-16T22:05:01Z"
 }
