@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-16T14:00:23Z",
+  "updated_at": "2026-09-16T14:15:32Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "price": 17.16,
-        "change_24h": 13.75,
+        "symbol": "SWKS",
+        "name": "Skyworks Solutions, Inc.",
+        "price": 90.0,
+        "change_24h": 13.55,
         "asset": "equity"
       },
       {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "price": 62.06,
-        "change_24h": 7.56,
+        "symbol": "TEM",
+        "name": "Tempus AI, Inc.",
+        "price": 68.85,
+        "change_24h": 10.67,
         "asset": "equity"
       },
       {
         "symbol": "FPS",
         "name": "Forgent Power Solutions, Inc.",
-        "price": 34.0,
-        "change_24h": 8.43,
+        "price": 31.36,
+        "change_24h": 9.5,
         "asset": "equity"
       },
       {
-        "symbol": "WOR",
-        "name": "Worthington Enterprises, Inc.",
-        "price": 58.27,
-        "change_24h": 7.18,
+        "symbol": "CAI",
+        "name": "Caris Life Sciences, Inc.",
+        "price": 28.5,
+        "change_24h": 9.4,
         "asset": "equity"
       },
       {
-        "symbol": "NOK",
-        "name": "Nokia Corporation Sponsored",
-        "price": 10.29,
-        "change_24h": 4.56,
+        "symbol": "QRVO",
+        "name": "Qorvo, Inc.",
+        "price": 118.06,
+        "change_24h": 9.34,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "JBHT",
         "name": "J.B. Hunt Transport Services, I",
-        "price": 238.64,
-        "change_24h": -12.6,
+        "price": 238.97,
+        "change_24h": -12.48,
         "asset": "equity"
       },
       {
         "symbol": "FANG",
         "name": "Diamondback Energy, Inc.",
-        "price": 195.22,
-        "change_24h": -7.71,
+        "price": 195.2,
+        "change_24h": -7.72,
         "asset": "equity"
       },
       {
         "symbol": "TLX",
         "name": "Telix Pharmaceuticals Limited",
-        "price": 11.75,
-        "change_24h": -8.41,
+        "price": 11.74,
+        "change_24h": -8.5,
         "asset": "equity"
       },
       {
         "symbol": "KNX",
         "name": "Knight-Swift Transportation Hol",
-        "price": 66.35,
-        "change_24h": -3.12,
+        "price": 66.41,
+        "change_24h": -3.04,
         "asset": "equity"
       },
       {
         "symbol": "WERN",
         "name": "Werner Enterprises, Inc.",
-        "price": 36.26,
-        "change_24h": -3.46,
+        "price": 36.27,
+        "change_24h": -3.43,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1249.64,
-        "change_24h": 10.33,
+        "price": 1246.4,
+        "change_24h": 10.22,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.763435,
-        "change_24h": 8.22,
+        "price": 0.764492,
+        "change_24h": 8.41,
         "asset": "crypto"
       },
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.027084,
-        "change_24h": 5.83,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 54.98,
-        "change_24h": 4.61,
+        "price": 0.027177,
+        "change_24h": 5.2,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 2.47,
-        "change_24h": 3.84,
+        "price": 2.45,
+        "change_24h": 3.69,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 54.0,
+        "change_24h": 2.94,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "PI",
         "name": "Pi Network",
-        "price": 0.082277,
-        "change_24h": -14.09,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 0.785604,
-        "change_24h": -10.76,
+        "price": 0.082084,
+        "change_24h": -14.17,
         "asset": "crypto"
       },
       {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.174444,
-        "change_24h": -10.61,
+        "price": 0.173611,
+        "change_24h": -11.48,
         "asset": "crypto"
       },
       {
-        "symbol": "XRP",
-        "name": "XRP",
-        "price": 1.28,
-        "change_24h": -9.62,
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 0.777373,
+        "change_24h": -11.26,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.086696,
-        "change_24h": -9.31,
+        "price": 0.08593,
+        "change_24h": -10.28,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XRP",
+        "name": "XRP",
+        "price": 1.27,
+        "change_24h": -10.1,
         "asset": "crypto"
       }
     ]
