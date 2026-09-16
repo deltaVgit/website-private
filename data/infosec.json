@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T19:05:03Z",
+  "updatedAt": "2026-09-16T19:35:04Z",
   "kev": [
     {
       "cve": "CVE-2026-58704",
@@ -15,6 +15,15 @@
       "product": "Identity Services Engine",
       "vendor": "Cisco",
       "name": "Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability",
+      "dateAdded": "2026-09-16",
+      "dueDate": "2026-09-19",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-87886",
+      "product": "Backup",
+      "vendor": "Acronis",
+      "name": "Acronis Backup Incorrect Default Permissions Vulnerability",
       "dateAdded": "2026-09-16",
       "dueDate": "2026-09-19",
       "knownRansomware": "Unknown"
@@ -116,15 +125,6 @@
       "name": "Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability",
       "dateAdded": "2026-09-09",
       "dueDate": "2026-09-12",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-75650",
-      "product": "Commerce and Magento",
-      "vendor": "Adobe",
-      "name": "Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability",
-      "dateAdded": "2026-09-08",
-      "dueDate": "2026-09-11",
       "knownRansomware": "Unknown"
     }
   ],
