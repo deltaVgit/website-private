@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-09-16T14:04:46Z",
+  "updatedAt": "2026-09-16T14:34:52Z",
   "kev": [
+    {
+      "cve": "CVE-2026-58704",
+      "product": "Pixel",
+      "vendor": "Google",
+      "name": "Google Pixel Improper Authorization Vulnerability",
+      "dateAdded": "2026-09-16",
+      "dueDate": "2026-09-19",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2026-76461",
       "product": "Secure Email Gateway",
@@ -116,15 +125,6 @@
       "name": "Microsoft Windows Link Following Vulnerability",
       "dateAdded": "2026-09-08",
       "dueDate": "2026-09-22",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-86218",
-      "product": "N-central",
-      "vendor": "N-able",
-      "name": "N-able N-central Static Code Injection Vulnerability",
-      "dateAdded": "2026-09-08",
-      "dueDate": "2026-09-11",
       "knownRansomware": "Unknown"
     }
   ],
