@@ -1,11 +1,19 @@
 [
   {
+    "title": "Google fixes actively exploited Android zero-day on Pixel devices",
+    "url": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
+    "source": "BleepingComputer",
+    "summary": "Google has released the September 2026 security patches to address 110 vulnerabilities affecting its Pixel devices, including one zero-day flaw actively exploited in targeted attacks. [...]",
+    "added": "2026-09-16T07:00:19+00:00",
+    "expires": "2026-09-30T07:04:31Z"
+  },
+  {
     "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
     "url": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
     "source": "The Hacker News",
     "summary": "Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs. \"This vulnerability can be leveraged by unauthenticated at",
     "added": "2026-09-16T05:48:28+00:00",
-    "expires": "2026-09-30T06:35:24Z"
+    "expires": "2026-09-30T07:04:32Z"
   },
   {
     "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
@@ -13,7 +21,7 @@
     "source": "The Hacker News",
     "summary": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr. The vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0), is a case of improper",
     "added": "2026-09-16T05:18:06+00:00",
-    "expires": "2026-09-30T06:35:24Z"
+    "expires": "2026-09-30T07:04:32Z"
   },
   {
     "title": "Cyber Op Targets South Korean Media & Automotive Sectors",
@@ -21,7 +29,7 @@
     "source": "Dark Reading",
     "summary": "A likely North Korean advanced persistent threat (APT) group used a previously undocumented Linux espionage toolkit to compromise load balancers, gain access to communications, and further exploit networks.",
     "added": "2026-09-16T01:00:00+00:00",
-    "expires": "2026-09-30T06:35:24Z"
+    "expires": "2026-09-30T07:04:32Z"
   },
   {
     "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
@@ -29,7 +37,7 @@
     "source": "BleepingComputer",
     "summary": "Acronis disclosed a high-severity Linux local privilege escalation vulnerability in its backup plugin for cPanel, WebHost Manager (WHM), and Plesk that may be exploited in the wild. [...]",
     "added": "2026-09-15T21:37:35+00:00",
-    "expires": "2026-09-30T06:35:23Z"
+    "expires": "2026-09-30T07:04:31Z"
   },
   {
     "title": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
@@ -37,7 +45,7 @@
     "source": "BleepingComputer",
     "summary": "Malicious versions of the Admin Menu Editor Pro plugin for WordPress have been distributed to more than 200 customers after a threat actor compromised the maintainer's website and pushed updates that created a hidden use",
     "added": "2026-09-15T20:34:15+00:00",
-    "expires": "2026-09-30T06:35:23Z"
+    "expires": "2026-09-30T07:04:31Z"
   },
   {
     "title": "Microsoft Issues Emergency Fixes After Massive Patch Tuesday",
@@ -45,7 +53,7 @@
     "source": "Dark Reading",
     "summary": "You can't make an omelet without breaking a few eggs, and you can't patch nearly 1,000 CVEs without a few glitches.",
     "added": "2026-09-15T20:16:00+00:00",
-    "expires": "2026-09-30T06:35:24Z"
+    "expires": "2026-09-30T07:04:32Z"
   },
   {
     "title": "Black Hat USA 2026 | The 'Breaking' News: The OpenAI–Hugging Face Incident",
@@ -53,7 +61,7 @@
     "source": "Dark Reading",
     "summary": "The 'Breaking' News: The OpenAI–Hugging Face Incident - A Technical Reconstruction and Its Implications for AI At this Black Hat USA 2026 talk, OpenAI security engineers and researchers will reconstruct the OpenAI-Huggin",
     "added": "2026-09-15T19:27:19+00:00",
-    "expires": "2026-09-30T06:35:24Z"
+    "expires": "2026-09-30T07:04:32Z"
   },
   {
     "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
@@ -61,7 +69,7 @@
     "source": "The Hacker News",
     "summary": "Cybersecurity researchers have shed light on a previously undocumented Brazilian banking malware operation that delivers a toolkit called KREMLIN. Elastic Security Labs is tracking the activity under the moniker REF9334.",
     "added": "2026-09-15T18:54:14+00:00",
-    "expires": "2026-09-30T06:35:24Z"
+    "expires": "2026-09-30T07:04:32Z"
   },
   {
     "title": "VectraRAT Can Hack Windows Enterprises for $250 per Month",
@@ -69,7 +77,7 @@
     "source": "Dark Reading",
     "summary": "The full-service malware-as-a-service (MaaS) platform offers a Windows implant, command-and-control (C2) infrastructure, and an operator panel for comprehensive remote access.",
     "added": "2026-09-15T16:45:37+00:00",
-    "expires": "2026-09-30T06:35:24Z"
+    "expires": "2026-09-30T07:04:32Z"
   },
   {
     "title": "CenterPoint Energy confirms customer data stolen in cyberattack",
@@ -77,7 +85,7 @@
     "source": "BleepingComputer",
     "summary": "CenterPoint Energy disclosed a breach compromising some customers' personal information after an attacker leaked data allegedly stolen from the utility company. [...]",
     "added": "2026-09-15T16:40:14+00:00",
-    "expires": "2026-09-30T06:35:23Z"
+    "expires": "2026-09-30T07:04:31Z"
   },
   {
     "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
@@ -85,7 +93,7 @@
     "source": "The Hacker News",
     "summary": "Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's intelligence service uses to spy on dissidents, journalists, and activists around ",
     "added": "2026-09-15T16:29:51+00:00",
-    "expires": "2026-09-30T06:35:24Z"
+    "expires": "2026-09-30T07:04:32Z"
   },
   {
     "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
@@ -93,7 +101,7 @@
     "source": "The Hacker News",
     "summary": "Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to control Windows and Linux systems. The emergi",
     "added": "2026-09-15T15:23:19+00:00",
-    "expires": "2026-09-30T06:35:24Z"
+    "expires": "2026-09-30T07:04:32Z"
   },
   {
     "title": "BambooToken malware controls Windows and Linux systems via MQTT",
@@ -101,15 +109,7 @@
     "source": "BleepingComputer",
     "summary": "A previously unknown malware framework called BambooToken, active since at least 2023, is now using the Message Queuing Telemetry Transport (MQTT) protocol to communicate with Windows and Linux systems. [...]",
     "added": "2026-09-15T15:00:00+00:00",
-    "expires": "2026-09-30T06:35:23Z"
-  },
-  {
-    "title": "Hackers target WordPress sites via third-party WooCommerce plugin",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/",
-    "source": "BleepingComputer",
-    "summary": "Hackers are actively exploiting a critical vulnerability in the WooCommerce Wholesale Lead Capture premium plugin for WordPress to upload a PHP backdoor. [...]",
-    "added": "2026-09-15T14:45:10+00:00",
-    "expires": "2026-09-30T06:35:23Z"
+    "expires": "2026-09-30T07:04:31Z"
   },
   {
     "title": "Protecting Tokens and Assertions from Forgery, Theft, and Misuse: Implementation Recommendations for Agencies and Cloud Service Providers",
@@ -117,7 +117,7 @@
     "source": "CISA Advisories",
     "summary": "Developed by the National Institute of Standards and Technology (NIST) and CISA, this interagency report provides federal agencies and cloud service providers with guidelines to protect the identity assertions, access to",
     "added": "2026-09-15T12:00:00+00:00",
-    "expires": "2026-09-30T06:35:24Z"
+    "expires": "2026-09-30T07:04:32Z"
   },
   {
     "title": "Digital Watchdog VMAX DVR and NVR Product Lineups",
@@ -125,6 +125,6 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could grant full administrative control of the device, allowing an attacker to view live and recorded surveillance, alter device configurations, and use ",
     "added": "2026-09-15T12:00:00+00:00",
-    "expires": "2026-09-30T06:35:24Z"
+    "expires": "2026-09-30T07:04:32Z"
   }
 ]
