@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-16T18:15:41Z",
+  "updated_at": "2026-09-16T18:30:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "FPS",
         "name": "Forgent Power Solutions, Inc.",
-        "price": 35.92,
-        "change_24h": 14.54,
-        "asset": "equity"
-      },
-      {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "price": 65.45,
-        "change_24h": 13.45,
-        "asset": "equity"
-      },
-      {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "price": 17.08,
-        "change_24h": 13.19,
+        "price": 35.8,
+        "change_24h": 14.16,
         "asset": "equity"
       },
       {
         "symbol": "SMTC",
         "name": "Semtech Corporation",
-        "price": 169.15,
-        "change_24h": 12.09,
+        "price": 169.22,
+        "change_24h": 12.13,
         "asset": "equity"
       },
       {
-        "symbol": "LITE",
-        "name": "Lumentum Holdings Inc.",
-        "price": 920.77,
-        "change_24h": 9.75,
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "price": 64.97,
+        "change_24h": 12.59,
+        "asset": "equity"
+      },
+      {
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "price": 16.93,
+        "change_24h": 12.22,
+        "asset": "equity"
+      },
+      {
+        "symbol": "BRKR",
+        "name": "Bruker Corporation",
+        "price": 61.2,
+        "change_24h": 9.78,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "JBHT",
         "name": "J.B. Hunt Transport Services, I",
-        "price": 239.51,
-        "change_24h": -12.28,
-        "asset": "equity"
-      },
-      {
-        "symbol": "BULL",
-        "name": "Webull Corporation",
-        "price": 7.855,
-        "change_24h": -9.3,
+        "price": 238.72,
+        "change_24h": -12.57,
         "asset": "equity"
       },
       {
         "symbol": "BLSH",
         "name": "Bullish",
-        "price": 32.4,
-        "change_24h": -8.63,
+        "price": 32.01,
+        "change_24h": -9.73,
+        "asset": "equity"
+      },
+      {
+        "symbol": "BULL",
+        "name": "Webull Corporation",
+        "price": 7.84,
+        "change_24h": -9.46,
         "asset": "equity"
       },
       {
         "symbol": "PLSE",
         "name": "Pulse Biosciences, Inc",
-        "price": 50.61,
-        "change_24h": -8.31,
+        "price": 50.52,
+        "change_24h": -8.49,
         "asset": "equity"
       },
       {
-        "symbol": "ELVN",
-        "name": "Enliven Therapeutics, Inc.",
-        "price": 49.27,
-        "change_24h": -7.66,
+        "symbol": "TLX",
+        "name": "Telix Pharmaceuticals Limited",
+        "price": 11.93,
+        "change_24h": -7.05,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1335.5,
-        "change_24h": 17.89,
+        "price": 1337.54,
+        "change_24h": 17.68,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.160775,
-        "change_24h": 9.0,
+        "price": 0.1588,
+        "change_24h": 9.84,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.48,
-        "change_24h": 8.94,
+        "price": 4.46,
+        "change_24h": 8.39,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.745359,
-        "change_24h": 7.06,
+        "price": 0.755588,
+        "change_24h": 8.11,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 55.94,
-        "change_24h": 7.03,
+        "price": 55.99,
+        "change_24h": 6.67,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "PI",
         "name": "Pi Network",
-        "price": 0.082591,
-        "change_24h": -12.32,
+        "price": 0.082595,
+        "change_24h": -11.92,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.012845,
-        "change_24h": -11.15,
+        "price": 0.012798,
+        "change_24h": -11.46,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.056965,
+        "change_24h": -9.5,
         "asset": "crypto"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price": 1.28,
-        "change_24h": -8.32,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.057562,
-        "change_24h": -8.25,
+        "change_24h": -8.72,
         "asset": "crypto"
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 116.25,
-        "change_24h": -8.01,
+        "price": 116.14,
+        "change_24h": -8.24,
         "asset": "crypto"
       }
     ]
