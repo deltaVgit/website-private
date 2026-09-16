@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T03:01:01Z",
+  "updated_at": "2026-09-16T03:16:06Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.150968,
-        "change_24h": 12.57,
-        "asset": "crypto"
-      },
-      {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.13,
-        "change_24h": 2.53,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLFI",
-        "name": "World Liberty Financial",
-        "price": 0.057146,
-        "change_24h": 0.17,
+        "change_24h": 3.07,
         "asset": "crypto"
       },
       {
         "symbol": "PAXG",
         "name": "PAX Gold",
-        "price": 4321.44,
-        "change_24h": 0.14,
+        "price": 4335.89,
+        "change_24h": 0.56,
         "asset": "crypto"
       },
       {
         "symbol": "XAUT",
         "name": "Tether Gold",
-        "price": 4317.13,
-        "change_24h": 0.1,
+        "price": 4330.21,
+        "change_24h": 0.51,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.115271,
+        "change_24h": 0.22,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLFI",
+        "name": "World Liberty Financial",
+        "price": 0.057209,
+        "change_24h": 0.16,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "PI",
         "name": "Pi Network",
-        "price": 0.086833,
-        "change_24h": -11.45,
+        "price": 0.086607,
+        "change_24h": -11.4,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 5.45,
-        "change_24h": -11.22,
+        "price": 5.44,
+        "change_24h": -10.75,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 0.81258,
+        "change_24h": -9.52,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.213527,
-        "change_24h": -10.96,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XLM",
-        "name": "Stellar",
-        "price": 0.176006,
-        "change_24h": -10.15,
+        "price": 0.213477,
+        "change_24h": -9.17,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 2.46,
-        "change_24h": -10.02,
+        "price": 2.47,
+        "change_24h": -9.14,
         "asset": "crypto"
       }
     ]
