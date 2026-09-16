@@ -5,7 +5,7 @@
         "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Uncensored-GGUF",
         "author": "JonathanColetti",
-        "likes": 1123,
+        "likes": 1125,
         "downloads": 2688909,
         "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "lastModified": "2026-08-29T04:18:18.000Z",
@@ -290,7 +290,7 @@
         "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "name": "Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 674,
+        "likes": 675,
         "downloads": 1331900,
         "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "lastModified": "2026-09-16T03:26:07.000Z",
@@ -404,30 +404,6 @@
       "combo": 0.819
     },
     {
-      "id": "audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF",
-      "name": "DeepSeek-V4.1-Flash-Abliterated-GGUF",
-      "author": "audreyt",
-      "likes": 4,
-      "downloads": 12878,
-      "url": "https://huggingface.co/audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF",
-      "lastModified": "2026-09-13T13:03:58.000Z",
-      "daysAgo": 2,
-      "pipeline": "",
-      "tags": [
-        "gguf",
-        "deepseek",
-        "deepseek_v41",
-        "abliterated",
-        "uncensored",
-        "iq2_xxs",
-        "q2_k",
-        "moe"
-      ],
-      "pop": 0.637,
-      "rec": 0.9375,
-      "combo": 0.7422
-    },
-    {
       "id": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-CyberTiel-Calibrated-MTPv2-ICE-GGUF",
       "name": "Ornith-1.5-35B-A3B-Abliterated-CyberTiel-Calibrated-MTPv2-ICE-GGUF",
       "author": "gbuzhf",
@@ -474,6 +450,30 @@
       "pop": 0.8319,
       "rec": 0.5556,
       "combo": 0.7352
+    },
+    {
+      "id": "audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF",
+      "name": "DeepSeek-V4.1-Flash-Abliterated-GGUF",
+      "author": "audreyt",
+      "likes": 4,
+      "downloads": 12878,
+      "url": "https://huggingface.co/audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF",
+      "lastModified": "2026-09-13T13:03:58.000Z",
+      "daysAgo": 3,
+      "pipeline": "",
+      "tags": [
+        "gguf",
+        "deepseek",
+        "deepseek_v41",
+        "abliterated",
+        "uncensored",
+        "iq2_xxs",
+        "q2_k",
+        "moe"
+      ],
+      "pop": 0.637,
+      "rec": 0.9091,
+      "combo": 0.7323
     },
     {
       "id": "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
@@ -621,5 +621,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-16T12:35:03Z"
+  "updated": "2026-09-16T13:05:14Z"
 }
