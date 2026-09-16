@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-16T13:15:09Z",
+  "updated_at": "2026-09-16T13:30:20Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "SWKS",
         "name": "Skyworks Solutions, Inc.",
-        "price": 90.0,
-        "change_24h": 13.55,
+        "price": 88.72,
+        "change_24h": -1.43,
         "asset": "equity"
       },
       {
         "symbol": "TEM",
         "name": "Tempus AI, Inc.",
-        "price": 68.85,
-        "change_24h": 10.67,
+        "price": 68.7,
+        "change_24h": -0.22,
         "asset": "equity"
       },
       {
         "symbol": "FPS",
         "name": "Forgent Power Solutions, Inc.",
-        "price": 31.36,
-        "change_24h": 9.5,
+        "price": 33.3,
+        "change_24h": 6.19,
         "asset": "equity"
       },
       {
         "symbol": "CAI",
         "name": "Caris Life Sciences, Inc.",
-        "price": 28.5,
-        "change_24h": 9.4,
+        "price": 28.2,
+        "change_24h": -1.07,
         "asset": "equity"
       },
       {
         "symbol": "QRVO",
         "name": "Qorvo, Inc.",
-        "price": 118.06,
-        "change_24h": 9.34,
+        "price": 117.02,
+        "change_24h": -0.88,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "ENVA",
         "name": "Enova International, Inc.",
-        "price": 173.61,
-        "change_24h": -23.43,
+        "price": 172.6,
+        "change_24h": -0.69,
         "asset": "equity"
       },
       {
         "symbol": "ALHC",
         "name": "Alignment Healthcare, Inc.",
-        "price": 10.37,
-        "change_24h": -19.86,
+        "price": 10.27,
+        "change_24h": -0.96,
         "asset": "equity"
       },
       {
         "symbol": "ARWR",
         "name": "Arrowhead Pharmaceuticals, Inc.",
-        "price": 70.67,
-        "change_24h": -12.4,
+        "price": 70.41,
+        "change_24h": -0.37,
         "asset": "equity"
       },
       {
         "symbol": "WING",
         "name": "Wingstop Inc.",
-        "price": 100.84,
-        "change_24h": -12.09,
+        "price": 102.22,
+        "change_24h": 1.37,
         "asset": "equity"
       },
       {
         "symbol": "CRCL",
         "name": "Circle Internet Group, Inc.",
-        "price": 86.3,
-        "change_24h": -11.41,
+        "price": 85.5,
+        "change_24h": -0.89,
         "asset": "equity"
       }
     ]
@@ -82,73 +82,73 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.766927,
-        "change_24h": 8.04,
+        "price": 0.763374,
+        "change_24h": 8.55,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1209.42,
-        "change_24h": 6.29,
+        "price": 1233.04,
+        "change_24h": 8.44,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.027177,
+        "change_24h": 6.27,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 2.46,
-        "change_24h": 2.48,
+        "change_24h": 2.74,
         "asset": "crypto"
       },
       {
-        "symbol": "PAXG",
-        "name": "PAX Gold",
-        "price": 4350.8,
-        "change_24h": 1.43,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.027445,
-        "change_24h": 1.37,
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 22.93,
+        "change_24h": 1.6,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "PI",
-        "name": "Pi Network",
-        "price": 0.081706,
-        "change_24h": -14.89,
-        "asset": "crypto"
-      },
-      {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.173875,
-        "change_24h": -11.52,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 0.781795,
-        "change_24h": -11.35,
+        "price": 0.174587,
+        "change_24h": -11.61,
         "asset": "crypto"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "price": 1.27,
-        "change_24h": -11.25,
+        "price": 1.28,
+        "change_24h": -10.9,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.085723,
-        "change_24h": -10.28,
+        "price": 0.086496,
+        "change_24h": -10.71,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 0.791003,
+        "change_24h": -10.62,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.212433,
+        "change_24h": -8.6,
         "asset": "crypto"
       }
     ]
