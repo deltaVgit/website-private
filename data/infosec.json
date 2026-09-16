@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T23:35:17Z",
+  "updatedAt": "2026-09-16T00:04:27Z",
   "kev": [
     {
       "cve": "CVE-2026-76461",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-83627",
+      "id": "CVE-2026-86152",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "description": "A flaw has been found in Tenda CP3 27.5.57.101. The impacted element is the function CAutoAddWifi::ThreadProc of the file Functions/AutoAddWifi.cpp of the component Kylin. Executing a manipulation can lead to os command ",
+      "published": "2026-09-06T02:17:19.370"
+    },
+    {
+      "id": "CVE-2026-86167",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "description": "A vulnerability was identified in Tenda HG10 300001138. Impacted is the function formgponConf of the file /boaform/admin/formgponConf of the component Boa. The manipulation of the argument fmgpon_loid leads to os command",
+      "published": "2026-09-06T05:16:50.477"
+    },
+    {
+      "id": "CVE-2026-86165",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "The Hummingbird – Speed Optimization, Caching, Minify, Compress & CDN plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 3.21.0 via the log_msg() function in core/modules/cl",
-      "published": "2026-09-05T06:17:10.080"
+      "description": "A vulnerability was found in Tenda HG10 300001138. This vulnerability affects the function formURL of the file /boaform/admin/formURL. Performing a manipulation of the argument Keywd/urlFQDN results in buffer overflow. T",
+      "published": "2026-09-06T04:18:32.523"
     },
     {
-      "id": "CVE-2026-13447",
+      "id": "CVE-2026-86218",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "The Mstore Api plugin for WordPress is vulnerable to Authentication Bypass via JWT Forgery in versions up to, and including, 4.20.0 This is due to missing cryptographic signature verification in the FirebasePhoneAuthHelp",
-      "published": "2026-09-05T06:17:09.403"
+      "description": "N-central is vulnerable to a pre-auth remote code execution This issue affects N-central: before 2026.3.1.14.",
+      "published": "2026-09-06T03:17:17.373"
     },
     {
-      "id": "CVE-2026-52777",
+      "id": "CVE-2026-75816",
       "severity": "CRITICAL",
-      "score": 9.4,
-      "description": "YesWiki is a wiki system written in PHP. Prior to version 4.6.6, there is an authenticated PHP object injection vulnerability in BazarImportAction via unserialize. This issue has been patched in version 4.6.6.",
-      "published": "2026-09-05T00:17:20.663"
+      "score": 9.8,
+      "description": "The Frontend Admin by DynamiApps plugin for WordPress is vulnerable to Authentication Bypass to Account Takeover in all versions up to, and including, 3.29.12. This is due to the pre_update_value function lacking any cap",
+      "published": "2026-09-06T03:17:16.607"
     },
     {
-      "id": "CVE-2026-52766",
+      "id": "CVE-2026-16310",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "The MemberDash plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 1.8.5 via the 'id' parameter due to missing validation on a user controlled key. This makes it p",
+      "published": "2026-09-06T03:17:15.540"
+    },
+    {
+      "id": "CVE-2026-86153",
       "severity": "CRITICAL",
       "score": 9.1,
-      "description": "YesWiki is a wiki system written in PHP. Prior to version 4.6.6, the {{erasespamedcomments}} wiki action (actions/EraseSpamedCommentsAction.php) accepts a suppr[] array from POST and deletes every wiki page whose tag app",
-      "published": "2026-09-05T00:17:19.393"
+      "description": "A vulnerability has been found in Tenda CP3 27.5.57.101. This affects the function CRedirServer::SetRedirectEnable of the file Functions/Redirect.cpp. The manipulation leads to improper privilege management. Remote explo",
+      "published": "2026-09-06T02:17:19.770"
     },
     {
-      "id": "CVE-2026-52775",
+      "id": "CVE-2026-86151",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "description": "A vulnerability was detected in Tenda CP3 27.5.57.101. The affected element is the function sub_2F77E8 of the file Apis/system.c of the component Network Configuration Management. Performing a manipulation results in os ",
+      "published": "2026-09-06T00:16:55.773"
+    },
+    {
+      "id": "CVE-2026-18480",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "YesWiki is a wiki system written in PHP. Prior to version 4.6.6, YesWiki through the latest development branch contains a SQL injection vulnerability in ReactionManager::deleteUserReaction() that allows any authenticated",
-      "published": "2026-09-05T00:17:20.520"
+      "description": "The SureCart WordPress plugin before 4.6.3 does not ensure that the account affected by a customer update is the same account its permission check authorised, allowing users with a subscriber-level account to change anot",
+      "published": "2026-09-06T07:16:43.097"
     },
     {
-      "id": "CVE-2026-52771",
+      "id": "CVE-2026-86166",
       "severity": "HIGH",
-      "score": 8.3,
-      "description": "YesWiki is a wiki system written in PHP. From version 4.2.0 to before version 4.6.6, ApiController::deletePage() interpolates a page tag retrieved from the database into a DELETE FROM …_links WHERE to_tag = '$tag' query ",
-      "published": "2026-09-05T00:17:19.963"
+      "score": 8.8,
+      "description": "A vulnerability was determined in Tenda HG10 300001138. This issue affects the function formWanRedirect of the file /boaform/formWanRedirect of the component Boa Web Server. Executing a manipulation of the argument if ca",
+      "published": "2026-09-06T04:18:32.783"
     },
     {
-      "id": "CVE-2026-52769",
-      "severity": "HIGH",
-      "score": 8.3,
-      "description": "YesWiki is a wiki system written in PHP. From version 4.6.2 to before version 4.6.6, the POST /api/forms/{formId}/actor/inbox route - exposed publicly with acl:\"public\" - accepts an HTTP Signature header whose keyId para",
-      "published": "2026-09-05T00:17:19.683"
-    },
-    {
-      "id": "CVE-2026-86145",
-      "severity": "HIGH",
-      "score": 8.2,
-      "description": "PCRE2 before 10.48 allows a pcre2_dfa_match out-of-bounds write because reuse of a cached workspace block, in a recursive DFA matching workspace, lacks a size check (even though a newly allocated block, for the same purp",
-      "published": "2026-09-05T06:17:10.370"
-    },
-    {
-      "id": "CVE-2026-86140",
-      "severity": "HIGH",
-      "score": 8.0,
-      "description": "In libxml2 before 2.15.4, xmlSnprintfElements in valid.c has a strcat stack-based buffer overflow.",
-      "published": "2026-09-05T05:17:12.877"
-    },
-    {
-      "id": "CVE-2026-52770",
+      "id": "CVE-2026-84219",
       "severity": "HIGH",
       "score": 7.5,
-      "description": "YesWiki is a wiki system written in PHP. Prior to version 4.6.6, YesWiki’s public Bazar entry-listing APIs are vulnerable to unauthenticated SQL injection in numeric query / queries filters. For Bazar fields whose value ",
-      "published": "2026-09-05T00:17:19.827"
+      "description": "The Kirki WordPress plugin before 6.3.0 does not hold back every spelling of the HTML entities it decodes when rendering, allowing unauthenticated users to store JavaScript in a comment which then runs in the session of ",
+      "published": "2026-09-06T07:16:43.427"
     },
     {
-      "id": "CVE-2026-19769",
+      "id": "CVE-2026-18056",
       "severity": "HIGH",
-      "score": 7.2,
-      "description": "The Ninja Forms – The Contact Form Builder That Grows With You plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Repeater Child 'type' Confusion via Unmatched Array Key in all versions up to, and incl",
-      "published": "2026-09-05T07:17:11.333"
-    },
-    {
-      "id": "CVE-2026-18406",
-      "severity": "HIGH",
-      "score": 7.2,
-      "description": "The SureForms – Contact Form Builder, AI Forms, Payment Form, Survey & Quiz plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Text Field Entity-Encoded Payload in all versions up to, and including, 2.",
-      "published": "2026-09-05T07:17:11.040"
+      "score": 7.5,
+      "description": "The HivePress Authentication plugin for WordPress is vulnerable to Authentication Bypass via the access_token parameter in all versions up to, and including, 1.1.4. This is due to the authenticate_user function's Faceboo",
+      "published": "2026-09-06T03:17:16.467"
     }
   ],
   "breaches": [
