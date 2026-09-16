@@ -1,11 +1,20 @@
 {
-  "updatedAt": "2026-09-16T17:34:47Z",
+  "updatedAt": "2026-09-16T18:35:02Z",
   "kev": [
     {
       "cve": "CVE-2026-58704",
       "product": "Pixel",
       "vendor": "Google",
       "name": "Google Pixel Improper Authorization Vulnerability",
+      "dateAdded": "2026-09-16",
+      "dueDate": "2026-09-19",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-76460",
+      "product": "Identity Services Engine",
+      "vendor": "Cisco",
+      "name": "Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability",
       "dateAdded": "2026-09-16",
       "dueDate": "2026-09-19",
       "knownRansomware": "Unknown"
@@ -116,15 +125,6 @@
       "name": "Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability",
       "dateAdded": "2026-09-08",
       "dueDate": "2026-09-11",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-81963",
-      "product": "Windows",
-      "vendor": "Microsoft",
-      "name": "Microsoft Windows Link Following Vulnerability",
-      "dateAdded": "2026-09-08",
-      "dueDate": "2026-09-22",
       "knownRansomware": "Unknown"
     }
   ],
