@@ -71,7 +71,7 @@
         "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
         "name": "Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
         "author": "huihui-ai",
-        "likes": 202,
+        "likes": 203,
         "downloads": 563375,
         "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
         "lastModified": "2026-08-03T14:05:07.000Z",
@@ -248,7 +248,7 @@
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 1244,
+        "likes": 1245,
         "downloads": 2387042,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
@@ -290,7 +290,7 @@
         "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "name": "Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 682,
+        "likes": 683,
         "downloads": 1331900,
         "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "lastModified": "2026-09-16T23:59:50.000Z",
@@ -503,7 +503,7 @@
       "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
       "name": "Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
       "author": "huihui-ai",
-      "likes": 202,
+      "likes": 203,
       "downloads": 563375,
       "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
       "lastModified": "2026-08-03T14:05:07.000Z",
@@ -572,30 +572,6 @@
       "combo": 0.7028
     },
     {
-      "id": "Abiray/MiniCPM5-2B-heretic-abliterated-GGUF",
-      "name": "MiniCPM5-2B-heretic-abliterated-GGUF",
-      "author": "Abiray",
-      "likes": 20,
-      "downloads": 13778,
-      "url": "https://huggingface.co/Abiray/MiniCPM5-2B-heretic-abliterated-GGUF",
-      "lastModified": "2026-09-08T07:35:36.000Z",
-      "daysAgo": 8,
-      "pipeline": "text-generation",
-      "tags": [
-        "gguf",
-        "minicpm",
-        "minicpm5",
-        "llama.cpp",
-        "text-generation",
-        "abliterated",
-        "uncensored",
-        "on-device"
-      ],
-      "pop": 0.6416,
-      "rec": 0.7895,
-      "combo": 0.6933
-    },
-    {
       "id": "mondk/MiniCPM5-2B-Abliterated-Uncensored-GGUF",
       "name": "MiniCPM5-2B-Abliterated-Uncensored-GGUF",
       "author": "mondk",
@@ -618,8 +594,32 @@
       "pop": 0.6162,
       "rec": 0.8333,
       "combo": 0.6922
+    },
+    {
+      "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
+      "name": "Huihui-Qwen3.8-27B-abliterated",
+      "author": "huihui-ai",
+      "likes": 433,
+      "downloads": 85942,
+      "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated",
+      "lastModified": "2026-08-24T03:47:39.000Z",
+      "daysAgo": 24,
+      "pipeline": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "abliterated",
+        "uncensored",
+        "huihui",
+        "qwen3"
+      ],
+      "pop": 0.7648,
+      "rec": 0.5556,
+      "combo": 0.6916
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-17T07:34:47Z"
+  "updated": "2026-09-17T08:04:56Z"
 }
