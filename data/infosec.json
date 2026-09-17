@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T23:34:35Z",
+  "updatedAt": "2026-09-17T00:04:45Z",
   "kev": [
     {
       "cve": "CVE-2026-58704",
@@ -130,88 +130,60 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-86152",
+      "id": "CVE-2026-16876",
       "severity": "CRITICAL",
-      "score": 10.0,
-      "description": "A flaw has been found in Tenda CP3 27.5.57.101. The impacted element is the function CAutoAddWifi::ThreadProc of the file Functions/AutoAddWifi.cpp of the component Kylin. Executing a manipulation can lead to os command ",
-      "published": "2026-09-06T02:17:19.370"
+      "score": 9.3,
+      "description": "An authentication bypass vulnerability exists in the WebGUI of Series UNIVERGE IX-R/IX-V. A user could bypass authentication and execute arbitrary CLI commands by tampering with WebGUI messages and sending them to the de",
+      "published": "2026-09-07T02:17:17.630"
     },
     {
-      "id": "CVE-2026-86167",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "description": "A vulnerability was identified in Tenda HG10 300001138. Impacted is the function formgponConf of the file /boaform/admin/formgponConf of the component Boa. The manipulation of the argument fmgpon_loid leads to os command",
-      "published": "2026-09-06T05:16:50.477"
-    },
-    {
-      "id": "CVE-2026-86165",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "A vulnerability was found in Tenda HG10 300001138. This vulnerability affects the function formURL of the file /boaform/admin/formURL. Performing a manipulation of the argument Keywd/urlFQDN results in buffer overflow. T",
-      "published": "2026-09-06T04:18:32.523"
-    },
-    {
-      "id": "CVE-2026-86218",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "N-central is vulnerable to a pre-auth remote code execution This issue affects N-central: before 2026.3.1.14.",
-      "published": "2026-09-06T03:17:17.373"
-    },
-    {
-      "id": "CVE-2026-75816",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The Frontend Admin by DynamiApps plugin for WordPress is vulnerable to Authentication Bypass to Account Takeover in all versions up to, and including, 3.29.12. This is due to the pre_update_value function lacking any cap",
-      "published": "2026-09-06T03:17:16.607"
-    },
-    {
-      "id": "CVE-2026-16310",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The MemberDash plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 1.8.5 via the 'id' parameter due to missing validation on a user controlled key. This makes it p",
-      "published": "2026-09-06T03:17:15.540"
-    },
-    {
-      "id": "CVE-2026-86153",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "description": "A vulnerability has been found in Tenda CP3 27.5.57.101. This affects the function CRedirServer::SetRedirectEnable of the file Functions/Redirect.cpp. The manipulation leads to improper privilege management. Remote explo",
-      "published": "2026-09-06T02:17:19.770"
-    },
-    {
-      "id": "CVE-2026-86151",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "description": "A vulnerability was detected in Tenda CP3 27.5.57.101. The affected element is the function sub_2F77E8 of the file Apis/system.c of the component Network Configuration Management. Performing a manipulation results in os ",
-      "published": "2026-09-06T00:16:55.773"
-    },
-    {
-      "id": "CVE-2026-18480",
+      "id": "CVE-2026-20502",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "The SureCart WordPress plugin before 4.6.3 does not ensure that the account affected by a customer update is the same account its permission check authorised, allowing users with a subscriber-level account to change anot",
-      "published": "2026-09-06T07:16:43.097"
+      "score": 8.4,
+      "description": "In vdec, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploita",
+      "published": "2026-09-07T02:17:18.917"
     },
     {
-      "id": "CVE-2026-86166",
+      "id": "CVE-2026-20501",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "A vulnerability was determined in Tenda HG10 300001138. This issue affects the function formWanRedirect of the file /boaform/formWanRedirect of the component Boa Web Server. Executing a manipulation of the argument if ca",
-      "published": "2026-09-06T04:18:32.783"
+      "score": 8.4,
+      "description": "In vdec, there is a possible out of bounds write due to a heap buffer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploita",
+      "published": "2026-09-07T02:17:18.800"
     },
     {
-      "id": "CVE-2026-84219",
+      "id": "CVE-2026-86313",
       "severity": "HIGH",
-      "score": 7.5,
-      "description": "The Kirki WordPress plugin before 6.3.0 does not hold back every spelling of the HTML entities it decodes when rendering, allowing unauthenticated users to store JavaScript in a comment which then runs in the session of ",
-      "published": "2026-09-06T07:16:43.427"
+      "score": 7.8,
+      "description": "Out-of-bounds write vulnerability in Samsung Opensource Walrus allows Overflow Buffers. This issue affects Walrus: af80e665ea49d9003695a66502f841ed1d8397e7.",
+      "published": "2026-09-07T03:17:19.407"
     },
     {
-      "id": "CVE-2026-18056",
+      "id": "CVE-2026-86268",
       "severity": "HIGH",
-      "score": 7.5,
-      "description": "The HivePress Authentication plugin for WordPress is vulnerable to Authentication Bypass via the access_token parameter in all versions up to, and including, 1.1.4. This is due to the authenticate_user function's Faceboo",
-      "published": "2026-09-06T03:17:16.467"
+      "score": 7.3,
+      "description": "A vulnerability was detected in itsourcecode School Management System 1.0. Impacted is an unknown function of the file User_Login.php. The manipulation of the argument email results in sql injection. The attack can be ex",
+      "published": "2026-09-07T04:17:55.277"
+    },
+    {
+      "id": "CVE-2026-86263",
+      "severity": "HIGH",
+      "score": 7.3,
+      "description": "A vulnerability was detected in sfturing hosp_order up to 627f426331da8086ce8fff2017d65b1ddef384f8. This impacts the function orderRecordsService.cancelOrder of the file ssm_pro/src/main/java/cn/sfturing/web/OrderControl",
+      "published": "2026-09-07T03:17:19.070"
+    },
+    {
+      "id": "CVE-2026-86262",
+      "severity": "HIGH",
+      "score": 7.3,
+      "description": "A security vulnerability has been detected in sfturing hosp_order up to 627f426331da8086ce8fff2017d65b1ddef384f8. This affects the function updateOrderSta1/updateOrderdiseaseInfo of the file ssm_pro/src/main/java/cn/sftu",
+      "published": "2026-09-07T03:17:18.893"
+    },
+    {
+      "id": "CVE-2026-86261",
+      "severity": "HIGH",
+      "score": 7.3,
+      "description": "A weakness has been identified in sfturing hosp_order up to 627f426331da8086ce8fff2017d65b1ddef384f8. The impacted element is an unknown function of the file ssm_pro/src/main/java/cn/sfturing/web/OrderController.java of ",
+      "published": "2026-09-07T03:17:18.723"
     }
   ],
   "breaches": [
