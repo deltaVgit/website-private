@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-09-17T13:45:49Z",
+  "updated_at": "2026-09-17T14:00:40Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "GNRC",
         "name": "Generac Holdlings Inc.",
-        "price": 213.52,
-        "change_24h": 21.95,
+        "price": 211.35,
+        "change_24h": 20.73,
         "asset": "equity"
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "price": 213.08,
-        "change_24h": 15.86,
-        "asset": "equity"
-      },
-      {
-        "symbol": "INIO",
-        "name": "INNIO N.V.",
-        "price": 20.51,
-        "change_24h": 9.62,
-        "asset": "equity"
-      },
-      {
-        "symbol": "XE",
-        "name": "X-Energy, Inc.",
-        "price": 16.32,
-        "change_24h": 11.96,
+        "price": 209.92,
+        "change_24h": 14.14,
         "asset": "equity"
       },
       {
         "symbol": "TEM",
         "name": "Tempus AI, Inc.",
-        "price": 76.64,
-        "change_24h": 9.54,
+        "price": 77.42,
+        "change_24h": 10.65,
+        "asset": "equity"
+      },
+      {
+        "symbol": "XE",
+        "name": "X-Energy, Inc.",
+        "price": 16.25,
+        "change_24h": 11.53,
+        "asset": "equity"
+      },
+      {
+        "symbol": "TWST",
+        "name": "Twist Bioscience Corporation",
+        "price": 158.0,
+        "change_24h": 10.43,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "ARQT",
-        "name": "Arcutis Biotherapeutics, Inc.",
-        "price": 25.08,
-        "change_24h": -4.06,
-        "asset": "equity"
-      },
-      {
         "symbol": "PEGA",
         "name": "Pegasystems Inc.",
-        "price": 35.24,
-        "change_24h": -4.34,
+        "price": 35.28,
+        "change_24h": -4.23,
         "asset": "equity"
       },
       {
-        "symbol": "RDDT",
-        "name": "Reddit, Inc.",
-        "price": 151.4,
-        "change_24h": -3.93,
-        "asset": "equity"
-      },
-      {
-        "symbol": "CART",
-        "name": "Maplebear Inc.",
-        "price": 45.2,
-        "change_24h": -3.53,
+        "symbol": "CRWV",
+        "name": "CoreWeave, Inc.",
+        "price": 79.57,
+        "change_24h": -4.53,
         "asset": "equity"
       },
       {
         "symbol": "PSKY",
         "name": "Paramount Skydance Corporation",
-        "price": 10.79,
-        "change_24h": -3.05,
+        "price": 10.74,
+        "change_24h": -3.55,
+        "asset": "equity"
+      },
+      {
+        "symbol": "RDDT",
+        "name": "Reddit, Inc.",
+        "price": 151.56,
+        "change_24h": -3.83,
+        "asset": "equity"
+      },
+      {
+        "symbol": "ARQT",
+        "name": "Arcutis Biotherapeutics, Inc.",
+        "price": 25.04,
+        "change_24h": -4.21,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 2.85,
-        "change_24h": 15.57,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ONDO",
-        "name": "Ondo",
-        "price": 0.367945,
-        "change_24h": 12.14,
+        "price": 2.88,
+        "change_24h": 16.65,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 7.01,
-        "change_24h": 11.54,
+        "price": 7.18,
+        "change_24h": 15.33,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.88,
+        "change_24h": 14.79,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.580153,
-        "change_24h": 11.2,
+        "price": 0.589147,
+        "change_24h": 13.14,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.003959,
-        "change_24h": 9.52,
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "price": 0.368849,
+        "change_24h": 11.91,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.677501,
-        "change_24h": -11.48,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.162299,
-        "change_24h": -4.22,
+        "price": 0.670362,
+        "change_24h": -12.33,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.013002,
-        "change_24h": -2.14,
+        "price": 0.013029,
+        "change_24h": -1.73,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.1636,
+        "change_24h": -1.28,
         "asset": "crypto"
       },
       {
         "symbol": "EUTBL",
         "name": "Spiko EU T-Bills Money Market Fund",
         "price": 1.22,
-        "change_24h": -0.42,
+        "change_24h": -0.38,
         "asset": "crypto"
       },
       {
         "symbol": "EURSAFO",
         "name": "Spiko Amundi Overnight Swap Fund (EUR)",
         "price": 1.16,
-        "change_24h": -0.41,
+        "change_24h": -0.38,
         "asset": "crypto"
       }
     ]
