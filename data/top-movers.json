@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-17T17:46:06Z",
+  "updated_at": "2026-09-17T18:00:54Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "GNRC",
-        "name": "Generac Holdlings Inc.",
-        "price": 208.26,
-        "change_24h": 18.93,
+        "symbol": "SDGR",
+        "name": "Schrodinger, Inc.",
+        "price": 28.81,
+        "change_24h": 20.39,
         "asset": "equity"
       },
       {
-        "symbol": "SDGR",
-        "name": "Schrodinger, Inc.",
-        "price": 28.32,
-        "change_24h": 18.37,
+        "symbol": "GNRC",
+        "name": "Generac Holdlings Inc.",
+        "price": 205.93,
+        "change_24h": 17.6,
         "asset": "equity"
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "price": 216.04,
-        "change_24h": 17.47,
+        "price": 216.18,
+        "change_24h": 17.54,
         "asset": "equity"
       },
       {
         "symbol": "TEM",
         "name": "Tempus AI, Inc.",
-        "price": 79.96,
-        "change_24h": 14.28,
+        "price": 80.14,
+        "change_24h": 14.53,
         "asset": "equity"
       },
       {
-        "symbol": "OKLO",
-        "name": "Oklo Inc.",
-        "price": 40.01,
-        "change_24h": 12.31,
+        "symbol": "XE",
+        "name": "X-Energy, Inc.",
+        "price": 16.46,
+        "change_24h": 12.97,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "AN",
         "name": "AutoNation, Inc.",
-        "price": 177.23,
-        "change_24h": -9.28,
+        "price": 178.09,
+        "change_24h": -8.85,
         "asset": "equity"
       },
       {
         "symbol": "SAH",
         "name": "Sonic Automotive, Inc.",
-        "price": 67.24,
-        "change_24h": -7.51,
-        "asset": "equity"
-      },
-      {
-        "symbol": "TTAN",
-        "name": "ServiceTitan, Inc.",
-        "price": 54.71,
-        "change_24h": -6.76,
-        "asset": "equity"
-      },
-      {
-        "symbol": "DKNG",
-        "name": "DraftKings Inc.",
-        "price": 22.7,
-        "change_24h": -6.7,
+        "price": 67.63,
+        "change_24h": -6.96,
         "asset": "equity"
       },
       {
         "symbol": "RML",
         "name": "Resolution Minerals Ltd American Depositary Shar",
-        "price": 6.0,
-        "change_24h": -6.54,
+        "price": 5.98,
+        "change_24h": -6.85,
+        "asset": "equity"
+      },
+      {
+        "symbol": "TTAN",
+        "name": "ServiceTitan, Inc.",
+        "price": 54.98,
+        "change_24h": -6.3,
+        "asset": "equity"
+      },
+      {
+        "symbol": "DKNG",
+        "name": "DraftKings Inc.",
+        "price": 22.81,
+        "change_24h": -6.25,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 7.68,
-        "change_24h": 25.67,
+        "price": 7.65,
+        "change_24h": 24.12,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 3.0,
-        "change_24h": 23.03,
+        "price": 3.06,
+        "change_24h": 23.9,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1482.67,
-        "change_24h": 19.94,
+        "price": 1479.17,
+        "change_24h": 18.34,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "price": 0.376647,
+        "change_24h": 14.06,
         "asset": "crypto"
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 128.52,
-        "change_24h": 13.01,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.234729,
-        "change_24h": 12.71,
+        "price": 128.65,
+        "change_24h": 12.79,
         "asset": "crypto"
       }
     ],
@@ -119,22 +119,8 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.704174,
-        "change_24h": -6.77,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.012883,
-        "change_24h": -1.33,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "EUTBL",
-        "name": "Spiko EU T-Bills Money Market Fund",
-        "price": 1.22,
-        "change_24h": -0.49,
+        "price": 0.706746,
+        "change_24h": -5.52,
         "asset": "crypto"
       },
       {
@@ -145,10 +131,24 @@
         "asset": "crypto"
       },
       {
+        "symbol": "EUTBL",
+        "name": "Spiko EU T-Bills Money Market Fund",
+        "price": 1.22,
+        "change_24h": -0.49,
+        "asset": "crypto"
+      },
+      {
         "symbol": "TRX",
         "name": "TRON",
-        "price": 0.333908,
+        "price": 0.333695,
         "change_24h": -0.42,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.115781,
+        "change_24h": -0.21,
         "asset": "crypto"
       }
     ]
