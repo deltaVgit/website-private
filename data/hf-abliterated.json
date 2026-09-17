@@ -26,7 +26,7 @@
         "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "author": "0bserverx",
-        "likes": 484,
+        "likes": 485,
         "downloads": 1972780,
         "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "lastModified": "2026-08-20T19:51:25.000Z",
@@ -269,11 +269,11 @@
         "id": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "name": "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1175,
+        "likes": 1176,
         "downloads": 2133271,
         "url": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-04-06T03:50:35.000Z",
-        "daysAgo": 163,
+        "daysAgo": 164,
         "pipeline": "image-text-to-text",
         "tags": [
           "gguf",
@@ -359,7 +359,7 @@
       "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "author": "0bserverx",
-      "likes": 484,
+      "likes": 485,
       "downloads": 1972780,
       "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "lastModified": "2026-08-20T19:51:25.000Z",
@@ -572,30 +572,6 @@
       "combo": 0.7074
     },
     {
-      "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
-      "name": "Huihui-Qwen3.8-27B-abliterated",
-      "author": "huihui-ai",
-      "likes": 432,
-      "downloads": 85942,
-      "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated",
-      "lastModified": "2026-08-24T03:47:39.000Z",
-      "daysAgo": 23,
-      "pipeline": "image-text-to-text",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5",
-        "image-text-to-text",
-        "abliterated",
-        "uncensored",
-        "huihui",
-        "qwen3"
-      ],
-      "pop": 0.7648,
-      "rec": 0.566,
-      "combo": 0.6952
-    },
-    {
       "id": "Abiray/MiniCPM5-2B-heretic-abliterated-GGUF",
       "name": "MiniCPM5-2B-heretic-abliterated-GGUF",
       "author": "Abiray",
@@ -618,8 +594,32 @@
       "pop": 0.6416,
       "rec": 0.7895,
       "combo": 0.6933
+    },
+    {
+      "id": "mondk/MiniCPM5-2B-Abliterated-Uncensored-GGUF",
+      "name": "MiniCPM5-2B-Abliterated-Uncensored-GGUF",
+      "author": "mondk",
+      "likes": 11,
+      "downloads": 9451,
+      "url": "https://huggingface.co/mondk/MiniCPM5-2B-Abliterated-Uncensored-GGUF",
+      "lastModified": "2026-09-10T08:52:15.000Z",
+      "daysAgo": 6,
+      "pipeline": "text-generation",
+      "tags": [
+        "gguf",
+        "minicpm",
+        "minicpm5",
+        "llama",
+        "text-generation",
+        "tool-calling",
+        "on-device",
+        "edge-ai"
+      ],
+      "pop": 0.6162,
+      "rec": 0.8333,
+      "combo": 0.6922
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-17T03:34:35Z"
+  "updated": "2026-09-17T04:04:44Z"
 }
