@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T20:01:06Z",
+  "updated_at": "2026-09-17T20:16:07Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -13,8 +13,8 @@
       {
         "symbol": "GNRC",
         "name": "Generac Holdlings Inc.",
-        "price": 207.2,
-        "change_24h": 18.33,
+        "price": 207.23,
+        "change_24h": 18.34,
         "asset": "equity"
       },
       {
@@ -43,15 +43,15 @@
       {
         "symbol": "AN",
         "name": "AutoNation, Inc.",
-        "price": 174.98,
-        "change_24h": -10.43,
+        "price": 174.88,
+        "change_24h": -10.49,
         "asset": "equity"
       },
       {
         "symbol": "SAH",
         "name": "Sonic Automotive, Inc.",
-        "price": 65.92,
-        "change_24h": -9.31,
+        "price": 65.91,
+        "change_24h": -9.33,
         "asset": "equity"
       },
       {
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 7.64,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 3.03,
         "change_24h": 20.14,
         "asset": "crypto"
       },
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 3.04,
-        "change_24h": 19.47,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 7.64,
+        "change_24h": 19.79,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1489.74,
-        "change_24h": 15.54,
+        "price": 1502.61,
+        "change_24h": 16.7,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 61.41,
-        "change_24h": 11.76,
+        "price": 61.8,
+        "change_24h": 12.04,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 25.16,
-        "change_24h": 10.76,
+        "price": 25.24,
+        "change_24h": 11.31,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.70599,
-        "change_24h": -3.92,
+        "price": 0.705489,
+        "change_24h": -3.49,
         "asset": "crypto"
       },
       {
         "symbol": "PI",
         "name": "Pi Network",
-        "price": 0.081718,
-        "change_24h": -3.24,
+        "price": 0.081546,
+        "change_24h": -3.48,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.012833,
+        "change_24h": -1.86,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.115035,
-        "change_24h": -1.27,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "HTX",
-        "name": "HTX DAO",
-        "price": 2e-06,
-        "change_24h": -0.58,
+        "price": 0.114843,
+        "change_24h": -1.37,
         "asset": "crypto"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price": 1.3,
-        "change_24h": -0.43,
+        "change_24h": -0.71,
         "asset": "crypto"
       }
     ]
