@@ -1,6 +1,86 @@
 {
-  "updated": "2026-09-17T03:34:41Z",
+  "updated": "2026-09-17T04:04:50Z",
   "items": [
+    {
+      "title": "Making AI-Assisted Claims Independently Challengeable: Publication Authority and a Protocol for Falsifiable Publication Records",
+      "url": "https://arxiv.org/abs/2609.17631",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-17T04:00:00+00:00",
+      "summary": "arXiv:2609.17631v1 Announce Type: new Abstract: AI-assisted claims can appear authoritative when evidence, analysis, human authorization, presentation, and correction history refer to different states. Provenance, attestation, and transparency expose history but alone do not spec",
+      "tag": "ai"
+    },
+    {
+      "title": "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
+      "url": "https://arxiv.org/abs/2609.17632",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-17T04:00:00+00:00",
+      "summary": "arXiv:2609.17632v1 Announce Type: new Abstract: Large language model (LLM) trading agents can combine market data, news, and executable analysis, but their behavior is often controlled by static hand-written tool-use policies that are fixed before deployment. This limits their ab",
+      "tag": "ai"
+    },
+    {
+      "title": "One Color Preprocessing Improves DSATUR",
+      "url": "https://arxiv.org/abs/2609.17633",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-17T04:00:00+00:00",
+      "summary": "arXiv:2609.17633v1 Announce Type: new Abstract: The Graph Coloring Problem (GCP) is NP-hard and DSATUR stands as one of the fastest heuristics for it despite producing colorings that typically use more colors than state-of-the-art coloring algorithms. We propose SSLD (Semidefinit",
+      "tag": "ai"
+    },
+    {
+      "title": "Physics-Constrained Digital Twins for Sensor Integrity in Urban Pedestrian Flow: Detecting Stealthy False Data Injection with Conformal Guarantees",
+      "url": "https://arxiv.org/abs/2609.17635",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-17T04:00:00+00:00",
+      "summary": "arXiv:2609.17635v1 Announce Type: new Abstract: City pedestrian counting systems now feed economic indicators, planning decisions and safety operations, yet the twins built on top of them treat the incoming stream as ground truth. We study what happens when it is not. We formalis",
+      "tag": "ai"
+    },
+    {
+      "title": "Pay Only for Disagreement: Certified No-Regression Verdicts for Model Updates with Matching Label-Complexity Bounds",
+      "url": "https://arxiv.org/abs/2609.17560",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-17T04:00:00+00:00",
+      "summary": "arXiv:2609.17560v1 Announce Type: new Abstract: Every production model is updated, by retraining, fine-tuning, quantization, or a silent vendor swap, and each update risks being worse than what it replaced. We formalize update promotion as certified paired risk-difference auditin",
+      "tag": "ai"
+    },
+    {
+      "title": "Beyond Static RAG: An Adaptive, Tri-Metric Routing Framework for Efficient Long-Context Inference on Commodity GPUs",
+      "url": "https://arxiv.org/abs/2609.17564",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-17T04:00:00+00:00",
+      "summary": "arXiv:2609.17564v1 Announce Type: new Abstract: Deploying retrieval-augmented generation (RAG) on commodity GPUs such as the NVIDIA T4 (16 GB VRAM) exposes a practical failure mode we call the Compression Paradox: neural prompt compression can add key-value (KV) cache contention ",
+      "tag": "ai"
+    },
+    {
+      "title": "Where Grokking Happens: Distributed Utility and Fourier Recoding Without a Module Switch",
+      "url": "https://arxiv.org/abs/2609.17571",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-17T04:00:00+00:00",
+      "summary": "arXiv:2609.17571v1 Announce Type: new Abstract: Where in a Transformer is the change from memorization to generalization functionally expressed? We introduce Transition Games--behavior-aligned exact activation games with paired non-generalizing controls--and find distributed util",
+      "tag": "ai"
+    },
+    {
+      "title": "Enhancing Extubation Failure Prediction with LLM-Derived Features from Respiratory Therapy Clinical Notes",
+      "url": "https://arxiv.org/abs/2609.17532",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-17T04:00:00+00:00",
+      "summary": "arXiv:2609.17532v1 Announce Type: new Abstract: Invasive mechanical ventilation is a lifesaving therapy, but timely, safe discontinuation is essential to preventing extubation failure (EF) and related risks to health. We present a novel approach to EF prediction that leverages fe",
+      "tag": "ai"
+    },
+    {
+      "title": "Faking Good and Faking Bad in LLMs: Response Distortion Across Dark Triad Personality Traits",
+      "url": "https://arxiv.org/abs/2609.17534",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-17T04:00:00+00:00",
+      "summary": "arXiv:2609.17534v1 Announce Type: new Abstract: Social desirability and impression management are pervasive sources of response distortion in human personality assessment, yet their effects on Large Language Models (LLMs) remain underexplored. This study investigates whether cont",
+      "tag": "ai"
+    },
+    {
+      "title": "DANTINOX: A Unified Framework for Multi-Paradigm Language Modeling",
+      "url": "https://arxiv.org/abs/2609.17535",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-17T04:00:00+00:00",
+      "summary": "arXiv:2609.17535v1 Announce Type: new Abstract: Language generation research increasingly spans three paradigms: autoregressive decoding, discrete masked diffusion, and continuous flow-matching. Comparing them is difficult because each lives in a separate codebase, so measured di",
+      "tag": "ai"
+    },
     {
       "title": "The Talker Does Not Control The Doer (in Current AIs)",
       "url": "https://www.lesswrong.com/posts/cJX2ssssGoYqnijwi/the-talker-does-not-control-the-doer-in-current-ais",
@@ -63,86 +143,6 @@
       "source": "OpenAI",
       "published_at": "2026-09-16T12:00:00+00:00",
       "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
-      "tag": "ai"
-    },
-    {
-      "title": "Optimal Pruning for Neural Architectures using Fisher Information Distances",
-      "url": "https://arxiv.org/abs/2609.16129",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-16T04:00:00+00:00",
-      "summary": "arXiv:2609.16129v1 Announce Type: new Abstract: A new scheme for parameter pruning is introduced, derived from the differential-geometric distance in model space. Pruning a parameter sets its value to zero, representing a displacement of the model to the hypersurface on which tha",
-      "tag": "ai"
-    },
-    {
-      "title": "Safe Error Correction for Language Models: Frozen-Base Adjustment with Capability Preservation",
-      "url": "https://arxiv.org/abs/2609.16145",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-16T04:00:00+00:00",
-      "summary": "arXiv:2609.16145v1 Announce Type: new Abstract: We study a practical question: can a small correction module fix errors in a frozen language model's outputs without degrading its base capabilities? We propose CRN v2, a lightweight logit-level correction module (~34M trainable par",
-      "tag": "ai"
-    },
-    {
-      "title": "GPEvac: GNN-Based PPO for Adaptive Evacuation Routing During Shooting Events",
-      "url": "https://arxiv.org/abs/2609.16163",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-16T04:00:00+00:00",
-      "summary": "arXiv:2609.16163v1 Announce Type: new Abstract: The sharp increase in mass shootings underscores an urgent need for systems that guide victims to safety in real time. An effective evacuation system must minimize threat exposure while also accounting for adversarial uncertainty an",
-      "tag": "ai"
-    },
-    {
-      "title": "Position: AI Is Not Ready for Strategic Conflicts",
-      "url": "https://arxiv.org/abs/2609.16189",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-16T04:00:00+00:00",
-      "summary": "arXiv:2609.16189v1 Announce Type: new Abstract: Open-ended strategic wargames are high-stakes LM-based social simulations: they model adversaries, institutions, escalation, plan brittleness, doctrine, and crisis response. Language models (LMs) are attractive because they can play",
-      "tag": "ai"
-    },
-    {
-      "title": "Causal neural set filtering for online multi-target tracking",
-      "url": "https://arxiv.org/abs/2609.16054",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-16T04:00:00+00:00",
-      "summary": "arXiv:2609.16054v1 Announce Type: new Abstract: Transformer-based multi-target tracking (MTT) jointly learns data association and state estimation, but MT3/Track-MT3-style trackers repeatedly re-encode measurement windows, incurring redundant computation. We propose Causal Neural",
-      "tag": "ai"
-    },
-    {
-      "title": "Managing Action Preconditions in Neuro-Symbolic RL: Three Placement Strategies for Embodied Agents",
-      "url": "https://arxiv.org/abs/2609.16056",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-16T04:00:00+00:00",
-      "summary": "arXiv:2609.16056v1 Announce Type: new Abstract: Humans carry behaviour knowledge of how to act in familiar situations into every new task rather than relearning it from scratch. There is no reason a Reinforcement Learning (RL) agent shouldn't do the same: known behaviour patterns",
-      "tag": "ai"
-    },
-    {
-      "title": "OmniHarness: Harnessing Generalizable Visual Generation via Symbolic Policy Learning",
-      "url": "https://arxiv.org/abs/2609.16057",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-16T04:00:00+00:00",
-      "summary": "arXiv:2609.16057v1 Announce Type: new Abstract: Unified multimodal large language models (MLLMs) and multi-agent systems have advanced visual generation. However, three limitations remain. (1) Existing methods often distill task-specific experience with limited generalizability. ",
-      "tag": "ai"
-    },
-    {
-      "title": "Few-Shot Degradation Is Not What It Seems: Behavioral Evidence, Representation Analysis, and a Random-Text Control Across 12 Models, 2 Tasks, and 2 Architectures",
-      "url": "https://arxiv.org/abs/2609.15990",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-16T04:00:00+00:00",
-      "summary": "arXiv:2609.15990v1 Announce Type: new Abstract: Few-shot prompting sometimes degrades language models instead of helping them, but why this happens is unknown. We evaluate 12 open-weight models on two Ukrainian tasks news classification and legal case outcome prediction and find ",
-      "tag": "ai"
-    },
-    {
-      "title": "The Functionalizer: Lossless Functional Decomposition for Subword Tokenization",
-      "url": "https://arxiv.org/abs/2609.15991",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-16T04:00:00+00:00",
-      "summary": "arXiv:2609.15991v1 Announce Type: new Abstract: Standard subword tokenizers either treat every orthographic variation of a word (such as hello, Hello, HELLO, and H\\'ello) as unrelated vocabulary entries, which fragments the embedding space, or discard this variation through lossy",
-      "tag": "ai"
-    },
-    {
-      "title": "Optimal Model Activation Policies for Inference Networks of Large Language Models",
-      "url": "https://arxiv.org/abs/2609.15992",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-16T04:00:00+00:00",
-      "summary": "arXiv:2609.15992v1 Announce Type: new Abstract: Recent advances in large language models (LLMs) have rendered them necessary for Natural Language Processing (NLP) tasks, and their high inference cost motivates the study of cost-performance trade-offs. In practice, several expert ",
       "tag": "ai"
     },
     {
