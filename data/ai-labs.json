@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T01:35:06Z",
+  "updated": "2026-09-17T02:05:15Z",
   "items": [
     {
       "title": "datasette 1.0a40",
@@ -55,6 +55,38 @@
       "source": "OpenAI",
       "published_at": "2026-09-16T12:00:00+00:00",
       "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+      "tag": "ai"
+    },
+    {
+      "title": "Optimal Pruning for Neural Architectures using Fisher Information Distances",
+      "url": "https://arxiv.org/abs/2609.16129",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-16T04:00:00+00:00",
+      "summary": "arXiv:2609.16129v1 Announce Type: new Abstract: A new scheme for parameter pruning is introduced, derived from the differential-geometric distance in model space. Pruning a parameter sets its value to zero, representing a displacement of the model to the hypersurface on which tha",
+      "tag": "ai"
+    },
+    {
+      "title": "Safe Error Correction for Language Models: Frozen-Base Adjustment with Capability Preservation",
+      "url": "https://arxiv.org/abs/2609.16145",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-16T04:00:00+00:00",
+      "summary": "arXiv:2609.16145v1 Announce Type: new Abstract: We study a practical question: can a small correction module fix errors in a frozen language model's outputs without degrading its base capabilities? We propose CRN v2, a lightweight logit-level correction module (~34M trainable par",
+      "tag": "ai"
+    },
+    {
+      "title": "GPEvac: GNN-Based PPO for Adaptive Evacuation Routing During Shooting Events",
+      "url": "https://arxiv.org/abs/2609.16163",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-16T04:00:00+00:00",
+      "summary": "arXiv:2609.16163v1 Announce Type: new Abstract: The sharp increase in mass shootings underscores an urgent need for systems that guide victims to safety in real time. An effective evacuation system must minimize threat exposure while also accounting for adversarial uncertainty an",
+      "tag": "ai"
+    },
+    {
+      "title": "Position: AI Is Not Ready for Strategic Conflicts",
+      "url": "https://arxiv.org/abs/2609.16189",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-16T04:00:00+00:00",
+      "summary": "arXiv:2609.16189v1 Announce Type: new Abstract: Open-ended strategic wargames are high-stakes LM-based social simulations: they model adversaries, institutions, escalation, plan brittleness, doctrine, and crisis response. Language models (LMs) are attractive because they can play",
       "tag": "ai"
     },
     {
@@ -287,38 +319,6 @@
       "source": "Meta Engineering",
       "published_at": "2026-09-02T09:00:29+00:00",
       "summary": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved for anyone in an organization to access, share, and build upon. This is not a typical domain-specific agent. Its novelty comes from integra",
-      "tag": "ai"
-    },
-    {
-      "title": "Import AI 471: Why Hugging Face worries me; space mining; FIve Eyes on AI",
-      "url": "https://jack-clark.net/2026/08/31/import-ai-471-why-hugging-face-worries-me-space-mining-five-eyes-on-ai/",
-      "source": "Import AI",
-      "published_at": "2026-08-31T13:31:06+00:00",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Import AI reader giveaway! Upcoming event: Fiction and the Future with Robin SloanI’ll be chatting",
-      "tag": "ai"
-    },
-    {
-      "title": "What We Learned Trying to Catch AI Liars: An Aletheia's Quest Retrospective",
-      "url": "https://blog.eleuther.ai/aletheia-retrospective/",
-      "source": "EleutherAI",
-      "published_at": "2026-08-25T16:35:00+00:00",
-      "summary": "What we learned while building black-box and white-box detectors for AI deception during Aletheia's Quest.",
-      "tag": "ai"
-    },
-    {
-      "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
-      "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/",
-      "source": "Meta Engineering",
-      "published_at": "2026-08-24T18:02:29+00:00",
-      "summary": "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles. To meet this challenge at scale, Meta designed MetaRoCE – a clean-sheet RDMA transport protocol purpose-built for AI workloads on commodity Ether",
-      "tag": "ai"
-    },
-    {
-      "title": "A Dynamical Model of AI Governability",
-      "url": "https://blog.eleuther.ai/dynamical-models-of-ai-governability/",
-      "source": "EleutherAI",
-      "published_at": "2026-07-13T00:00:00+00:00",
-      "summary": "A toy dynamical model of whether the AI workforce that builds future AI ends up cooperative or uncooperative: where the basin boundary lies, what current evidence says about which side we are on, and what would tell us we are on the good path.",
       "tag": "ai"
     }
   ],
