@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T08:15:52Z",
+  "updated_at": "2026-09-17T08:30:57Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 2.72,
-        "change_24h": 16.86,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1367.41,
-        "change_24h": 16.46,
+        "price": 1384.11,
+        "change_24h": 17.78,
         "asset": "crypto"
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.87,
-        "change_24h": 14.24,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 2.73,
+        "change_24h": 17.29,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 24.98,
-        "change_24h": 13.15,
+        "price": 25.0,
+        "change_24h": 12.88,
         "asset": "crypto"
       },
       {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 58.2,
-        "change_24h": 13.11,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.003882,
+        "change_24h": 11.27,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ASTER",
+        "name": "Aster",
+        "price": 0.743083,
+        "change_24h": 11.19,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.71134,
-        "change_24h": -7.7,
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.012781,
+        "change_24h": -7.22,
         "asset": "crypto"
       },
       {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.012798,
-        "change_24h": -7.18,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.711395,
+        "change_24h": -7.1,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 493.52,
-        "change_24h": -3.03,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 0.796373,
-        "change_24h": -1.48,
+        "price": 492.72,
+        "change_24h": -2.92,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.057857,
-        "change_24h": -1.43,
+        "price": 0.05743,
+        "change_24h": -2.05,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 0.796719,
+        "change_24h": -1.39,
         "asset": "crypto"
       }
     ]
