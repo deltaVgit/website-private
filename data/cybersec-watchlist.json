@@ -1,11 +1,27 @@
 [
   {
+    "title": "[Virtual Event] Cybersecurity Outlook 2027",
+    "url": "https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027",
+    "source": "Dark Reading",
+    "summary": "",
+    "added": "2026-09-17T17:35:06Z",
+    "expires": "2026-10-01T17:35:06Z"
+  },
+  {
+    "title": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
+    "url": "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/",
+    "source": "BleepingComputer",
+    "summary": "Brevo confirmed that attackers stole a Cloudflare API key and used it to inject malicious ClickFix scripts into its websites and JavaScript files embedded on customer sites to distribute malware. [...]",
+    "added": "2026-09-17T17:11:34+00:00",
+    "expires": "2026-10-01T17:35:05Z"
+  },
+  {
     "title": "What Recent AI-Powered Attacks Mean for Your Identity Security",
     "url": "https://www.bleepingcomputer.com/news/security/what-recent-ai-powered-attacks-mean-for-your-identity-security/",
     "source": "BleepingComputer",
     "summary": "AI is making credential theft faster and easier to scale, giving attackers more opportunities to abuse valid identities. Specops explains why identity security must go beyond successful authentication by verifying that b",
     "added": "2026-09-17T14:01:11+00:00",
-    "expires": "2026-10-01T17:04:55Z"
+    "expires": "2026-10-01T17:35:05Z"
   },
   {
     "title": "Windows 11 24H2 Home and Pro reach end of support in October",
@@ -13,7 +29,7 @@
     "source": "BleepingComputer",
     "summary": "Microsoft reminded customers this week that devices running Windows 11 24H2 Home and Pro editions will stop receiving updates next month. [...]",
     "added": "2026-09-17T13:09:09+00:00",
-    "expires": "2026-10-01T17:04:55Z"
+    "expires": "2026-10-01T17:35:05Z"
   },
   {
     "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
@@ -21,7 +37,7 @@
     "source": "The Hacker News",
     "summary": "Every release of the Unbound DNS resolver before 1.26.1 has a critical heap overflow in its DNSSEC validator, maintainer NLnet Labs said in an advisory on Wednesday. An attacker who controls a malicious zone and queries ",
     "added": "2026-09-17T12:30:00+00:00",
-    "expires": "2026-10-01T17:04:56Z"
+    "expires": "2026-10-01T17:35:06Z"
   },
   {
     "title": "Mitsubishi Electric CC-Link IE TSN Communication Protocol (Update A)",
@@ -29,7 +45,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker with access to the same network segment to tamper with communication data in the affected product by sending specially crafted packe",
     "added": "2026-09-17T12:00:00+00:00",
-    "expires": "2026-10-01T17:04:56Z"
+    "expires": "2026-10-01T17:35:06Z"
   },
   {
     "title": "Mitsubishi Electric GX Works3 and Motion Control Settings",
@@ -37,7 +53,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow a local attacker to successfully authenticate even with an invalid block password by executing the affected product and modify part of the execu",
     "added": "2026-09-17T12:00:00+00:00",
-    "expires": "2026-10-01T17:04:56Z"
+    "expires": "2026-10-01T17:35:06Z"
   },
   {
     "title": "Hitachi Energy FACTS Control Platform (FCP)",
@@ -45,7 +61,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect the FACTS Control systems with GWS component listed in this document. An attacker exploiting these vulnerabilities can cause impact on confidential",
     "added": "2026-09-17T12:00:00+00:00",
-    "expires": "2026-10-01T17:04:56Z"
+    "expires": "2026-10-01T17:35:06Z"
   },
   {
     "title": "Bransys ELD",
@@ -53,7 +69,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow unauthorized access to telemetry data and firmware. The following versions of Bransys ELD are affected: Android iOS CVSS Vendor Equipment Vul",
     "added": "2026-09-17T12:00:00+00:00",
-    "expires": "2026-10-01T17:04:56Z"
+    "expires": "2026-10-01T17:35:06Z"
   },
   {
     "title": "Schneider Electric NetBotz 5 750/755",
@@ -61,7 +77,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Schneider Electric is aware of multiple vulnerabilities in its NetBotz 5 – 750/755 products.The NetBotz 5 – 750/755 products are security and environmental monitors providing temperature, humidity, leak",
     "added": "2026-09-17T12:00:00+00:00",
-    "expires": "2026-10-01T17:04:56Z"
+    "expires": "2026-10-01T17:35:06Z"
   },
   {
     "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
@@ -69,7 +85,7 @@
     "source": "The Hacker News",
     "summary": "A new CVE drops. Your scanner finds it. The severity score looks ugly. But that still does not answer the question that matters: Can it actually be exploited in your environment? Mythos-class AI is compressing the time b",
     "added": "2026-09-17T11:50:00+00:00",
-    "expires": "2026-10-01T17:04:56Z"
+    "expires": "2026-10-01T17:35:06Z"
   },
   {
     "title": "US takes down NightmareStresser DDoS-for-hire platform",
@@ -77,7 +93,7 @@
     "source": "BleepingComputer",
     "summary": "The U.S. Federal Bureau of Investigation (FBI) seized the domains used by NightmareStresser, one of the world's longest-running distributed denial-of-service (DDoS) platforms. [...]",
     "added": "2026-09-17T11:33:35+00:00",
-    "expires": "2026-10-01T17:04:55Z"
+    "expires": "2026-10-01T17:35:05Z"
   },
   {
     "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
@@ -85,7 +101,7 @@
     "source": "The Hacker News",
     "summary": "Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to patch one (Verizon DBIR 2026). A new free guide explains how autonomous AI agents ",
     "added": "2026-09-17T10:50:53+00:00",
-    "expires": "2026-10-01T17:04:56Z"
+    "expires": "2026-10-01T17:35:06Z"
   },
   {
     "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
@@ -93,7 +109,7 @@
     "source": "The Hacker News",
     "summary": "The China-aligned state-sponsored threat actor known as FamousSparrow has been observed deploying a previously unreported backdoor called SparroWocky in attacks targeting multiple countries in Latin America since at leas",
     "added": "2026-09-17T10:05:45+00:00",
-    "expires": "2026-10-01T17:04:56Z"
+    "expires": "2026-10-01T17:35:06Z"
   },
   {
     "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
@@ -101,7 +117,7 @@
     "source": "The Hacker News",
     "summary": "OpenAI on Wednesday disclosed six new instances of \"unexpected or concerning model behavior\" that took place over the past six months, while sharing a new framework for reporting, tracking, investigating, and disclosing ",
     "added": "2026-09-17T09:53:38+00:00",
-    "expires": "2026-10-01T17:04:56Z"
+    "expires": "2026-10-01T17:35:06Z"
   },
   {
     "title": "Chinese hackers use SparroWocky malware in govt espionage attacks",
@@ -109,22 +125,6 @@
     "source": "BleepingComputer",
     "summary": "The China-linked espionage group FamousSparrow has been using a new backdoor named SparroWocky in attacks on government organizations in Latin America. [...]",
     "added": "2026-09-17T09:00:00+00:00",
-    "expires": "2026-10-01T17:04:55Z"
-  },
-  {
-    "title": "Microsoft shares workaround for Windows domain login issues",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-workaround-for-windows-domain-login-authentication-issues/",
-    "source": "BleepingComputer",
-    "summary": "Microsoft shared a temporary fix on Wednesday for a known issue that prevents Windows 11 users from logging in with valid domain credentials after installing the September 2026 security updates. [...]",
-    "added": "2026-09-17T08:24:48+00:00",
-    "expires": "2026-10-01T17:04:55Z"
-  },
-  {
-    "title": "AI Security Spending Jumps as Fear Outpaces Proof of Value",
-    "url": "https://www.darkreading.com/cybersecurity-operations/ai-security-spending-jumps-fear-outpaces-proof-value",
-    "source": "Dark Reading",
-    "summary": "CISOs are not waiting for AI to prove its cybersecurity value before investing in the technology. Is it the right move?",
-    "added": "2026-09-16T21:26:55+00:00",
-    "expires": "2026-10-01T17:04:56Z"
+    "expires": "2026-10-01T17:35:05Z"
   }
 ]
