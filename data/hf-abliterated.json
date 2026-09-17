@@ -54,7 +54,7 @@
         "downloads": 837288,
         "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-06-05T17:55:41.000Z",
-        "daysAgo": 103,
+        "daysAgo": 104,
         "pipeline": "",
         "tags": [
           "gguf",
@@ -181,7 +181,7 @@
         "id": "frtertaer/LTX-2.5-uncensored-v1.1-FP8",
         "name": "LTX-2.5-uncensored-v1.1-FP8",
         "author": "frtertaer",
-        "likes": 49,
+        "likes": 51,
         "downloads": 919,
         "url": "https://huggingface.co/frtertaer/LTX-2.5-uncensored-v1.1-FP8",
         "lastModified": "2026-09-15T03:58:03.000Z",
@@ -248,7 +248,7 @@
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 1250,
+        "likes": 1251,
         "downloads": 2351839,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
@@ -290,7 +290,7 @@
         "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "name": "Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 690,
+        "likes": 691,
         "downloads": 1392373,
         "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "lastModified": "2026-09-16T23:59:50.000Z",
@@ -311,7 +311,7 @@
         "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 834,
+        "likes": 835,
         "downloads": 1116038,
         "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "lastModified": "2026-09-16T23:56:33.000Z",
@@ -452,30 +452,6 @@
       "combo": 0.7314
     },
     {
-      "id": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-CyberTiel-Calibrated-MTPv2-ICE-GGUF",
-      "name": "Ornith-1.5-35B-A3B-Abliterated-CyberTiel-Calibrated-MTPv2-ICE-GGUF",
-      "author": "gbuzhf",
-      "likes": 6,
-      "downloads": 12146,
-      "url": "https://huggingface.co/gbuzhf/Ornith-1.5-35B-A3B-Abliterated-CyberTiel-Calibrated-MTPv2-ICE-GGUF",
-      "lastModified": "2026-09-13T17:39:15.000Z",
-      "daysAgo": 3,
-      "pipeline": "text-generation",
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "qwen35moe",
-        "moe",
-        "imatrix",
-        "ICE",
-        "mtp",
-        "abliterated"
-      ],
-      "pop": 0.6326,
-      "rec": 0.9091,
-      "combo": 0.7294
-    },
-    {
       "id": "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
       "name": "Qwen3.8-27B-ABLITERATED-GGUF",
       "author": "Blackfrost-AI",
@@ -483,7 +459,7 @@
       "downloads": 203820,
       "url": "https://huggingface.co/Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
       "lastModified": "2026-08-22T17:50:05.000Z",
-      "daysAgo": 25,
+      "daysAgo": 26,
       "pipeline": "image-text-to-text",
       "tags": [
         "gguf",
@@ -496,8 +472,32 @@
         "multimodal"
       ],
       "pop": 0.8223,
-      "rec": 0.5455,
-      "combo": 0.7254
+      "rec": 0.5357,
+      "combo": 0.722
+    },
+    {
+      "id": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-CyberTiel-Calibrated-MTPv2-ICE-GGUF",
+      "name": "Ornith-1.5-35B-A3B-Abliterated-CyberTiel-Calibrated-MTPv2-ICE-GGUF",
+      "author": "gbuzhf",
+      "likes": 6,
+      "downloads": 12146,
+      "url": "https://huggingface.co/gbuzhf/Ornith-1.5-35B-A3B-Abliterated-CyberTiel-Calibrated-MTPv2-ICE-GGUF",
+      "lastModified": "2026-09-13T17:39:15.000Z",
+      "daysAgo": 4,
+      "pipeline": "text-generation",
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "qwen35moe",
+        "moe",
+        "imatrix",
+        "ICE",
+        "mtp",
+        "abliterated"
+      ],
+      "pop": 0.6326,
+      "rec": 0.8824,
+      "combo": 0.72
     },
     {
       "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
@@ -621,5 +621,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-17T17:34:54Z"
+  "updated": "2026-09-17T18:05:02Z"
 }
