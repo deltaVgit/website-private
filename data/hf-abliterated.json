@@ -5,7 +5,7 @@
         "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Uncensored-GGUF",
         "author": "JonathanColetti",
-        "likes": 1133,
+        "likes": 1134,
         "downloads": 2545055,
         "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "lastModified": "2026-08-29T04:18:18.000Z",
@@ -143,7 +143,7 @@
         "downloads": 35892,
         "url": "https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "lastModified": "2026-05-02T11:34:41.000Z",
-        "daysAgo": 137,
+        "daysAgo": 138,
         "pipeline": "text-to-image",
         "tags": [
           "safetensors",
@@ -164,7 +164,7 @@
         "downloads": 15860,
         "url": "https://huggingface.co/ponpoke/flux2-klein-4b-uncensored-text-encoder",
         "lastModified": "2026-05-02T11:35:01.000Z",
-        "daysAgo": 137,
+        "daysAgo": 138,
         "pipeline": "text-to-image",
         "tags": [
           "safetensors",
@@ -175,6 +175,27 @@
           "GGUF",
           "text-generation-inference",
           "uncensored"
+        ]
+      },
+      {
+        "id": "frtertaer/LTX-2.5-uncensored-v1.1-FP8",
+        "name": "LTX-2.5-uncensored-v1.1-FP8",
+        "author": "frtertaer",
+        "likes": 43,
+        "downloads": 919,
+        "url": "https://huggingface.co/frtertaer/LTX-2.5-uncensored-v1.1-FP8",
+        "lastModified": "2026-09-15T03:58:03.000Z",
+        "daysAgo": 2,
+        "pipeline": "text-to-video",
+        "tags": [
+          "gguf",
+          "not-for-all-audiences",
+          "text-to-video",
+          "image-to-video",
+          "video-to-video",
+          "audio-to-video",
+          "quantized",
+          "ltx-video"
         ]
       },
       {
@@ -227,7 +248,7 @@
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 1246,
+        "likes": 1247,
         "downloads": 2351839,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
@@ -600,5 +621,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-17T11:04:53Z"
+  "updated": "2026-09-17T11:35:03Z"
 }
