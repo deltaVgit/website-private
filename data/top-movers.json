@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-18T19:15:50Z",
+  "updated_at": "2026-09-18T19:30:51Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "MSTR",
         "name": "Strategy Inc",
-        "price": 153.12,
-        "change_24h": 15.78,
-        "asset": "equity"
-      },
-      {
-        "symbol": "MARA",
-        "name": "MARA Holdings, Inc.",
-        "price": 13.22,
-        "change_24h": 13.57,
+        "price": 152.84,
+        "change_24h": 15.57,
         "asset": "equity"
       },
       {
         "symbol": "BTDR",
         "name": "Bitdeer Technologies Group",
-        "price": 12.73,
-        "change_24h": 13.3,
+        "price": 12.86,
+        "change_24h": 14.37,
+        "asset": "equity"
+      },
+      {
+        "symbol": "MARA",
+        "name": "MARA Holdings, Inc.",
+        "price": 13.28,
+        "change_24h": 14.05,
         "asset": "equity"
       },
       {
         "symbol": "PS",
         "name": "Pershing Square Inc.",
-        "price": 49.67,
-        "change_24h": 13.33,
+        "price": 49.47,
+        "change_24h": 12.87,
         "asset": "equity"
       },
       {
         "symbol": "SBET",
         "name": "SharpLink, Inc.",
-        "price": 9.305,
-        "change_24h": 12.65,
+        "price": 9.29,
+        "change_24h": 12.47,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "XENE",
         "name": "Xenon Pharmaceuticals Inc.",
-        "price": 39.78,
-        "change_24h": -30.65,
-        "asset": "equity"
-      },
-      {
-        "symbol": "SMR",
-        "name": "NuScale Power Corporation",
-        "price": 8.35,
-        "change_24h": -7.64,
+        "price": 39.81,
+        "change_24h": -30.58,
         "asset": "equity"
       },
       {
         "symbol": "BTU",
         "name": "Peabody Energy Corporation",
-        "price": 25.2,
-        "change_24h": -7.49,
+        "price": 25.21,
+        "change_24h": -7.46,
+        "asset": "equity"
+      },
+      {
+        "symbol": "KD",
+        "name": "Kyndryl Holdings, Inc.",
+        "price": 12.08,
+        "change_24h": -6.71,
         "asset": "equity"
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "price": 58.49,
-        "change_24h": -6.73,
+        "price": 58.48,
+        "change_24h": -6.75,
         "asset": "equity"
       },
       {
-        "symbol": "FIVN",
-        "name": "Five9, Inc.",
-        "price": 32.19,
-        "change_24h": -6.7,
+        "symbol": "RDW",
+        "name": "Redwire Corporation",
+        "price": 10.78,
+        "change_24h": -6.67,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 3.79,
-        "change_24h": 26.97,
+        "price": 3.74,
+        "change_24h": 25.18,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 8.9,
-        "change_24h": 17.04,
+        "price": 8.94,
+        "change_24h": 16.94,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.26562,
-        "change_24h": 14.6,
+        "price": 0.266699,
+        "change_24h": 14.77,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SOL",
+        "name": "Solana",
+        "price": 113.65,
+        "change_24h": 12.66,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004401,
-        "change_24h": 12.32,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.32,
-        "change_24h": 12.16,
+        "price": 0.004404,
+        "change_24h": 12.17,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.659129,
-        "change_24h": -7.38,
+        "price": 0.658309,
+        "change_24h": -6.72,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1476.31,
+        "change_24h": -0.99,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 60.69,
+        "change_24h": -0.58,
         "asset": "crypto"
       },
       {
         "symbol": "BDX",
         "name": "Beldex",
-        "price": 0.075567,
-        "change_24h": -0.48,
+        "price": 0.07553,
+        "change_24h": -0.5,
         "asset": "crypto"
       },
       {
         "symbol": "LEO",
         "name": "LEO Token",
         "price": 8.89,
-        "change_24h": -0.34,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.11497,
-        "change_24h": -0.21,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 60.35,
-        "change_24h": -0.16,
+        "change_24h": -0.37,
         "asset": "crypto"
       }
     ]
