@@ -311,7 +311,7 @@
         "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 844,
+        "likes": 845,
         "downloads": 1116038,
         "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "lastModified": "2026-09-16T23:56:33.000Z",
@@ -378,6 +378,30 @@
       "pop": 0.9733,
       "rec": 0.5172,
       "combo": 0.8136
+    },
+    {
+      "id": "soyaakinohara/qwen3.8-27b-abliterated-3.69bpw-12GB-MTP.gguf",
+      "name": "qwen3.8-27b-abliterated-3.69bpw-12GB-MTP.gguf",
+      "author": "soyaakinohara",
+      "likes": 106,
+      "downloads": 37250,
+      "url": "https://huggingface.co/soyaakinohara/qwen3.8-27b-abliterated-3.69bpw-12GB-MTP.gguf",
+      "lastModified": "2026-09-18T00:51:23.000Z",
+      "daysAgo": 0,
+      "pipeline": "text-generation",
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "qwen3.8",
+        "qwen3_5",
+        "gated-deltanet",
+        "hybrid-attention",
+        "mtp",
+        "abliterated"
+      ],
+      "pop": 0.708,
+      "rec": 1.0,
+      "combo": 0.8102
     },
     {
       "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF",
@@ -594,32 +618,8 @@
       "pop": 0.6313,
       "rec": 0.8108,
       "combo": 0.6941
-    },
-    {
-      "id": "Abiray/MiniCPM5-2B-heretic-abliterated-GGUF",
-      "name": "MiniCPM5-2B-heretic-abliterated-GGUF",
-      "author": "Abiray",
-      "likes": 23,
-      "downloads": 15319,
-      "url": "https://huggingface.co/Abiray/MiniCPM5-2B-heretic-abliterated-GGUF",
-      "lastModified": "2026-09-08T07:35:36.000Z",
-      "daysAgo": 9,
-      "pipeline": "text-generation",
-      "tags": [
-        "gguf",
-        "minicpm",
-        "minicpm5",
-        "llama.cpp",
-        "text-generation",
-        "abliterated",
-        "uncensored",
-        "on-device"
-      ],
-      "pop": 0.6482,
-      "rec": 0.7692,
-      "combo": 0.6906
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-18T00:35:00Z"
+  "updated": "2026-09-18T01:05:09Z"
 }
