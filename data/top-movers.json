@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T20:00:53Z",
+  "updated_at": "2026-09-18T20:15:53Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -25,17 +25,17 @@
         "asset": "equity"
       },
       {
+        "symbol": "PS",
+        "name": "Pershing Square Inc.",
+        "price": 49.83,
+        "change_24h": 13.69,
+        "asset": "equity"
+      },
+      {
         "symbol": "SBET",
         "name": "SharpLink, Inc.",
         "price": 9.35,
         "change_24h": 13.2,
-        "asset": "equity"
-      },
-      {
-        "symbol": "PS",
-        "name": "Pershing Square Inc.",
-        "price": 49.76,
-        "change_24h": 13.52,
         "asset": "equity"
       }
     ],
@@ -55,17 +55,17 @@
         "asset": "equity"
       },
       {
+        "symbol": "RSI",
+        "name": "Rush Street Interactive, Inc.",
+        "price": 23.3,
+        "change_24h": -7.72,
+        "asset": "equity"
+      },
+      {
         "symbol": "BTU",
         "name": "Peabody Energy Corporation",
         "price": 25.22,
         "change_24h": -7.42,
-        "asset": "equity"
-      },
-      {
-        "symbol": "RSI",
-        "name": "Rush Street Interactive, Inc.",
-        "price": 23.3,
-        "change_24h": -7.74,
         "asset": "equity"
       },
       {
@@ -82,36 +82,36 @@
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 3.68,
-        "change_24h": 20.78,
+        "price": 3.63,
+        "change_24h": 19.78,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 9.02,
-        "change_24h": 18.18,
+        "price": 9.0,
+        "change_24h": 18.03,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.670602,
+        "change_24h": 14.78,
         "asset": "crypto"
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price": 114.05,
-        "change_24h": 13.09,
+        "price": 113.8,
+        "change_24h": 12.48,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004401,
-        "change_24h": 12.56,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 0.917089,
-        "change_24h": 12.28,
+        "price": 0.004397,
+        "change_24h": 11.78,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.626771,
-        "change_24h": -11.22,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1473.75,
-        "change_24h": -1.18,
+        "price": 0.628983,
+        "change_24h": -10.82,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 61.08,
-        "change_24h": -0.54,
+        "price": 60.91,
+        "change_24h": -1.49,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1478.77,
+        "change_24h": -1.35,
         "asset": "crypto"
       },
       {
         "symbol": "BDX",
         "name": "Beldex",
-        "price": 0.075564,
-        "change_24h": -0.5,
+        "price": 0.075522,
+        "change_24h": -0.56,
         "asset": "crypto"
       },
       {
-        "symbol": "LEO",
-        "name": "LEO Token",
-        "price": 8.88,
-        "change_24h": -0.41,
+        "symbol": "CAKE",
+        "name": "PancakeSwap",
+        "price": 2.45,
+        "change_24h": -0.55,
         "asset": "crypto"
       }
     ]
