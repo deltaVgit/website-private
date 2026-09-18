@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-18T15:15:28Z",
+  "updated_at": "2026-09-18T15:30:34Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "MSTR",
-        "name": "Strategy Inc",
-        "price": 148.06,
-        "change_24h": 11.95,
+        "symbol": "ALMR",
+        "name": "Alamar Biosciences, Inc.",
+        "price": 36.0,
+        "change_24h": 12.47,
         "asset": "equity"
       },
       {
-        "symbol": "ALMR",
-        "name": "Alamar Biosciences, Inc.",
-        "price": 35.73,
-        "change_24h": 11.64,
+        "symbol": "MSTR",
+        "name": "Strategy Inc",
+        "price": 148.51,
+        "change_24h": 12.29,
         "asset": "equity"
       },
       {
         "symbol": "COIN",
         "name": "Coinbase Global, Inc.",
-        "price": 192.54,
-        "change_24h": 10.67,
-        "asset": "equity"
-      },
-      {
-        "symbol": "IMOS",
-        "name": "ChipMOS TECHNOLOGIES INC.",
-        "price": 59.68,
-        "change_24h": 8.33,
+        "price": 192.56,
+        "change_24h": 10.69,
         "asset": "equity"
       },
       {
         "symbol": "MARA",
         "name": "MARA Holdings, Inc.",
-        "price": 12.64,
-        "change_24h": 8.59,
+        "price": 12.72,
+        "change_24h": 9.27,
+        "asset": "equity"
+      },
+      {
+        "symbol": "IMOS",
+        "name": "ChipMOS TECHNOLOGIES INC.",
+        "price": 60.03,
+        "change_24h": 8.97,
         "asset": "equity"
       }
     ],
@@ -43,29 +43,29 @@
       {
         "symbol": "XENE",
         "name": "Xenon Pharmaceuticals Inc.",
-        "price": 40.18,
-        "change_24h": -29.93,
+        "price": 40.52,
+        "change_24h": -29.34,
         "asset": "equity"
       },
       {
         "symbol": "INFQ",
         "name": "Infleqtion, Inc.",
-        "price": 12.68,
-        "change_24h": -8.51,
+        "price": 12.73,
+        "change_24h": -8.15,
         "asset": "equity"
       },
       {
         "symbol": "SMR",
         "name": "NuScale Power Corporation",
-        "price": 8.41,
-        "change_24h": -6.97,
+        "price": 8.3499,
+        "change_24h": -7.64,
         "asset": "equity"
       },
       {
         "symbol": "NN",
         "name": "NextNav Inc.",
-        "price": 13.85,
-        "change_24h": -7.17,
+        "price": 13.84,
+        "change_24h": -7.24,
         "asset": "equity"
       },
       {
@@ -82,36 +82,36 @@
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 3.67,
-        "change_24h": 29.74,
+        "price": 3.73,
+        "change_24h": 31.4,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 8.6,
-        "change_24h": 20.87,
+        "price": 8.69,
+        "change_24h": 20.74,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.426054,
-        "change_24h": 14.23,
+        "price": 0.426966,
+        "change_24h": 14.54,
         "asset": "crypto"
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "price": 91.67,
-        "change_24h": 12.44,
+        "price": 91.87,
+        "change_24h": 12.29,
         "asset": "crypto"
       },
       {
-        "symbol": "RENDER",
-        "name": "Render",
-        "price": 1.55,
-        "change_24h": 11.42,
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.42,
+        "change_24h": 11.54,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.670016,
-        "change_24h": -6.86,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.012792,
-        "change_24h": -1.36,
+        "price": 0.669082,
+        "change_24h": -5.79,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.115825,
-        "change_24h": -0.74,
+        "price": 0.115737,
+        "change_24h": -1.01,
         "asset": "crypto"
       },
       {
         "symbol": "LEO",
         "name": "LEO Token",
         "price": 8.88,
-        "change_24h": -0.57,
+        "change_24h": -0.52,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "USDY",
+        "name": "Ondo US Dollar Yield",
+        "price": 1.14,
+        "change_24h": -0.23,
         "asset": "crypto"
       },
       {
         "symbol": "EUTBL",
         "name": "Spiko EU T-Bills Money Market Fund",
         "price": 1.21,
-        "change_24h": -0.23,
+        "change_24h": -0.15,
         "asset": "crypto"
       }
     ]
