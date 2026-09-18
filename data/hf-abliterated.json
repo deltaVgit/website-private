@@ -51,7 +51,7 @@
         "name": "Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
         "likes": 2090,
-        "downloads": 837288,
+        "downloads": 807796,
         "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-06-05T17:55:41.000Z",
         "daysAgo": 104,
@@ -96,7 +96,7 @@
         "name": "supergemma4-26b-uncensored-gguf-v2",
         "author": "Jiunsong",
         "likes": 992,
-        "downloads": 335245,
+        "downloads": 324610,
         "url": "https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2",
         "lastModified": "2026-04-12T13:42:43.000Z",
         "daysAgo": 158,
@@ -160,7 +160,7 @@
         "id": "ponpoke/flux2-klein-4b-uncensored-text-encoder",
         "name": "flux2-klein-4b-uncensored-text-encoder",
         "author": "ponpoke",
-        "likes": 215,
+        "likes": 216,
         "downloads": 15860,
         "url": "https://huggingface.co/ponpoke/flux2-klein-4b-uncensored-text-encoder",
         "lastModified": "2026-05-02T11:35:01.000Z",
@@ -270,7 +270,7 @@
         "name": "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
         "likes": 1186,
-        "downloads": 2071465,
+        "downloads": 1995670,
         "url": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-04-06T03:50:35.000Z",
         "daysAgo": 165,
@@ -483,7 +483,7 @@
       "downloads": 52585,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
       "lastModified": "2026-09-06T09:25:03.000Z",
-      "daysAgo": 11,
+      "daysAgo": 12,
       "pipeline": "image-text-to-text",
       "tags": [
         "transformers",
@@ -496,8 +496,8 @@
         "image-text-to-text"
       ],
       "pop": 0.7312,
-      "rec": 0.7317,
-      "combo": 0.7314
+      "rec": 0.7143,
+      "combo": 0.7253
     },
     {
       "id": "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
@@ -579,7 +579,7 @@
       "downloads": 29128,
       "url": "https://huggingface.co/SC117/Spark-X2.5-4B-abliterated-FIT-GGUF",
       "lastModified": "2026-09-06T09:09:41.000Z",
-      "daysAgo": 11,
+      "daysAgo": 12,
       "pipeline": "text-generation",
       "tags": [
         "gguf",
@@ -592,8 +592,8 @@
         "text-generation"
       ],
       "pop": 0.6915,
-      "rec": 0.7317,
-      "combo": 0.7055
+      "rec": 0.7143,
+      "combo": 0.6995
     },
     {
       "id": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
@@ -621,5 +621,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-18T09:04:34Z"
+  "updated": "2026-09-18T09:34:43Z"
 }
