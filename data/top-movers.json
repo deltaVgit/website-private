@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T00:15:47Z",
+  "updated_at": "2026-09-18T00:30:52Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 3.16,
-        "change_24h": 19.41,
+        "price": 3.09,
+        "change_24h": 15.37,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 7.84,
-        "change_24h": 17.51,
+        "price": 7.66,
+        "change_24h": 14.27,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004064,
-        "change_24h": 11.65,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1463.32,
-        "change_24h": 9.25,
+        "price": 0.004023,
+        "change_24h": 10.07,
         "asset": "crypto"
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "price": 85.4,
-        "change_24h": 9.06,
+        "price": 85.33,
+        "change_24h": 9.18,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1446.85,
+        "change_24h": 7.87,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "PI",
-        "name": "Pi Network",
-        "price": 0.08117,
-        "change_24h": -4.75,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.709669,
+        "change_24h": -4.37,
         "asset": "crypto"
       },
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.719481,
-        "change_24h": -3.13,
+        "symbol": "PI",
+        "name": "Pi Network",
+        "price": 0.082489,
+        "change_24h": -3.77,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.113899,
-        "change_24h": -2.51,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.012729,
-        "change_24h": -1.27,
+        "price": 0.114151,
+        "change_24h": -2.32,
         "asset": "crypto"
       },
       {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.183301,
-        "change_24h": -0.98,
+        "price": 0.182647,
+        "change_24h": -1.56,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.012724,
+        "change_24h": -1.37,
         "asset": "crypto"
       }
     ]
