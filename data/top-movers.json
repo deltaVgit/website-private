@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-18T16:46:00Z",
+  "updated_at": "2026-09-18T17:01:06Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "MSTR",
         "name": "Strategy Inc",
-        "price": 149.78,
-        "change_24h": 13.26,
+        "price": 150.25,
+        "change_24h": 13.61,
         "asset": "equity"
       },
       {
-        "symbol": "ALMR",
-        "name": "Alamar Biosciences, Inc.",
-        "price": 36.16,
-        "change_24h": 12.96,
-        "asset": "equity"
-      },
-      {
-        "symbol": "COIN",
-        "name": "Coinbase Global, Inc.",
-        "price": 193.81,
-        "change_24h": 11.4,
+        "symbol": "BTDR",
+        "name": "Bitdeer Technologies Group",
+        "price": 12.53,
+        "change_24h": 11.43,
         "asset": "equity"
       },
       {
         "symbol": "ALVO",
         "name": "Alvotech",
-        "price": 5.9268,
-        "change_24h": 10.99,
+        "price": 5.965,
+        "change_24h": 11.7,
+        "asset": "equity"
+      },
+      {
+        "symbol": "COIN",
+        "name": "Coinbase Global, Inc.",
+        "price": 194.51,
+        "change_24h": 11.81,
         "asset": "equity"
       },
       {
         "symbol": "MARA",
         "name": "MARA Holdings, Inc.",
         "price": 12.91,
-        "change_24h": 10.95,
+        "change_24h": 10.96,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "XENE",
         "name": "Xenon Pharmaceuticals Inc.",
-        "price": 40.18,
-        "change_24h": -29.94,
+        "price": 40.1,
+        "change_24h": -30.08,
         "asset": "equity"
       },
       {
         "symbol": "SMR",
         "name": "NuScale Power Corporation",
-        "price": 8.275,
-        "change_24h": -8.46,
+        "price": 8.285,
+        "change_24h": -8.35,
         "asset": "equity"
       },
       {
         "symbol": "INFQ",
         "name": "Infleqtion, Inc.",
-        "price": 12.8,
-        "change_24h": -7.61,
+        "price": 12.87,
+        "change_24h": -7.14,
         "asset": "equity"
       },
       {
         "symbol": "RDW",
         "name": "Redwire Corporation",
-        "price": 10.72,
-        "change_24h": -7.14,
+        "price": 10.75,
+        "change_24h": -6.89,
         "asset": "equity"
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "price": 58.39,
-        "change_24h": -6.89,
+        "price": 58.42,
+        "change_24h": -6.83,
         "asset": "equity"
       }
     ]
@@ -82,73 +82,73 @@
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 3.69,
-        "change_24h": 25.43,
+        "price": 3.76,
+        "change_24h": 26.44,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 8.88,
-        "change_24h": 20.41,
+        "price": 8.92,
+        "change_24h": 16.74,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.261759,
-        "change_24h": 14.97,
+        "price": 0.259773,
+        "change_24h": 13.67,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 584.19,
-        "change_24h": 14.73,
+        "price": 566.9,
+        "change_24h": 11.22,
         "asset": "crypto"
       },
       {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "price": 91.62,
-        "change_24h": 11.95,
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 27.07,
+        "change_24h": 11.12,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 58.13,
-        "change_24h": -6.13,
-        "asset": "crypto"
-      },
-      {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.666219,
-        "change_24h": -5.0,
+        "price": 0.655474,
+        "change_24h": -6.62,
         "asset": "crypto"
       },
       {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.115708,
-        "change_24h": -1.01,
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 57.8,
+        "change_24h": -5.88,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1463.5,
-        "change_24h": -0.54,
+        "price": 1447.5,
+        "change_24h": -1.44,
         "asset": "crypto"
       },
       {
-        "symbol": "LEO",
-        "name": "LEO Token",
-        "price": 8.88,
-        "change_24h": -0.52,
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.115862,
+        "change_24h": -0.65,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BDX",
+        "name": "Beldex",
+        "price": 0.075688,
+        "change_24h": -0.45,
         "asset": "crypto"
       }
     ]
