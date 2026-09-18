@@ -1,6 +1,86 @@
 {
-  "updated": "2026-09-18T03:35:00Z",
+  "updated": "2026-09-18T04:05:09Z",
   "items": [
+    {
+      "title": "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes",
+      "url": "https://arxiv.org/abs/2609.19170",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-18T04:00:00+00:00",
+      "summary": "arXiv:2609.19170v1 Announce Type: new Abstract: Emphatic temporal-difference learning (ETD) stabilizes the expected off-policy TD update and changes its projection geometry, but neither property determines constant-stepsize sampled dynamics. We construct an ergodic two-state coun",
+      "tag": "ai"
+    },
+    {
+      "title": "BioPhys-Bridge: A Benchmark for Interdisciplinary Scientific Reasoning in Physics-Grounded Biological Research",
+      "url": "https://arxiv.org/abs/2609.19180",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-18T04:00:00+00:00",
+      "summary": "arXiv:2609.19180v1 Announce Type: new Abstract: Language models face unique challenges in analyzing interdisciplinary scientific research literature. In biophysics research, faithful answers require grounding observed data in source evidence, interpreting it through a quantitativ",
+      "tag": "ai"
+    },
+    {
+      "title": "What Do We Expect from LLMs? Mapping the Design of LLM Benchmarks",
+      "url": "https://arxiv.org/abs/2609.19182",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-18T04:00:00+00:00",
+      "summary": "arXiv:2609.19182v1 Announce Type: new Abstract: Benchmarks are central to how progress in large language models (LLMs) is assessed and communicated. Yet model rankings alone reveal little about how evaluation requirements themselves are changing. The expanding variety of benchmar",
+      "tag": "ai"
+    },
+    {
+      "title": "Position: It is Time to Virtualize Foundation Models with a Self-evolving Operating System Layer",
+      "url": "https://arxiv.org/abs/2609.19203",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-18T04:00:00+00:00",
+      "summary": "arXiv:2609.19203v1 Announce Type: new Abstract: AI applications have shifted from single, monolithic foundation models (FM) to compound agentic systems. Yet today's stacks remain fragmented: even as protocols (e.g., MCP, A2A) ease tool/agent connectivity, each framework embeds an",
+      "tag": "ai"
+    },
+    {
+      "title": "Generative Query Suggestion via Intent Coverage and Query-Level Credit Assignment",
+      "url": "https://arxiv.org/abs/2609.19209",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-18T04:00:00+00:00",
+      "summary": "arXiv:2609.19209v1 Announce Type: new Abstract: Generative query suggestion aims to enhance user engagement by anticipating user intents and recommending relevant follow-up queries. A central challenge is to generate slates whose individual queries are useful while the slate cove",
+      "tag": "ai"
+    },
+    {
+      "title": "Layer-wise Curriculum Learning for Efficient LLM Compression",
+      "url": "https://arxiv.org/abs/2609.19213",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-18T04:00:00+00:00",
+      "summary": "arXiv:2609.19213v1 Announce Type: new Abstract: In this paper, we introduce layer-wise curriculum learning for efficient LLM compression. The proposed method facilitates the knowledge transfer from the teacher model to the student model, utilizing a curriculum learning approach t",
+      "tag": "ai"
+    },
+    {
+      "title": "Block Parallelism For Efficient Distributed Long-Context Diffusion Language Model Training",
+      "url": "https://arxiv.org/abs/2609.19242",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-18T04:00:00+00:00",
+      "summary": "arXiv:2609.19242v1 Announce Type: new Abstract: Block diffusion language models (BDLMs) combine autoregressive dependencies across blocks with parallel denoising within blocks, but long-context training is constrained by distributed attention communication and activation memory. ",
+      "tag": "ai"
+    },
+    {
+      "title": "Modality Discrepancy Transformer for Ambivalence and Hesitancy Recognition",
+      "url": "https://arxiv.org/abs/2609.19148",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-18T04:00:00+00:00",
+      "summary": "arXiv:2609.19148v1 Announce Type: new Abstract: Ambivalence and hesitancy (A/H) are affective states in which individuals express contradictory signals across facial, vocal, and linguistic channels. Automatically recognising A/H in clinical videos requires detecting cross-modal d",
+      "tag": "ai"
+    },
+    {
+      "title": "Subliminal Prompting Beyond Static Geometry: Causal Depth and Multi-Token Confounds",
+      "url": "https://arxiv.org/abs/2609.19149",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-18T04:00:00+00:00",
+      "summary": "arXiv:2609.19149v1 Announce Type: new Abstract: Subliminal learning shows that language models can transmit a hidden trait through outputs that appear unrelated to it. One proposed explanation, token entanglement, links animal and number tokens through the model's output vocabula",
+      "tag": "ai"
+    },
+    {
+      "title": "Sampling Reveals Style: Unsupervised, Training-Free Discovery of Prompt-Conditional Stylistic Axes in LLM Activations",
+      "url": "https://arxiv.org/abs/2609.19150",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-18T04:00:00+00:00",
+      "summary": "arXiv:2609.19150v1 Announce Type: new Abstract: Large language models (LLMs) encode rich stylistic structure in their hidden activations, but discovering which stylistic dimensions are salient for a given prompt typically requires supervised contrastive data. We present a trainin",
+      "tag": "ai"
+    },
     {
       "title": "Be alert: targeted attacks on prominent Rustaceans",
       "url": "https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/",
@@ -47,86 +127,6 @@
       "source": "OpenAI",
       "published_at": "2026-09-17T12:00:00+00:00",
       "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-      "tag": "ai"
-    },
-    {
-      "title": "Making AI-Assisted Claims Independently Challengeable: Publication Authority and a Protocol for Falsifiable Publication Records",
-      "url": "https://arxiv.org/abs/2609.17631",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-17T04:00:00+00:00",
-      "summary": "arXiv:2609.17631v1 Announce Type: new Abstract: AI-assisted claims can appear authoritative when evidence, analysis, human authorization, presentation, and correction history refer to different states. Provenance, attestation, and transparency expose history but alone do not spec",
-      "tag": "ai"
-    },
-    {
-      "title": "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
-      "url": "https://arxiv.org/abs/2609.17632",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-17T04:00:00+00:00",
-      "summary": "arXiv:2609.17632v1 Announce Type: new Abstract: Large language model (LLM) trading agents can combine market data, news, and executable analysis, but their behavior is often controlled by static hand-written tool-use policies that are fixed before deployment. This limits their ab",
-      "tag": "ai"
-    },
-    {
-      "title": "One Color Preprocessing Improves DSATUR",
-      "url": "https://arxiv.org/abs/2609.17633",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-17T04:00:00+00:00",
-      "summary": "arXiv:2609.17633v1 Announce Type: new Abstract: The Graph Coloring Problem (GCP) is NP-hard and DSATUR stands as one of the fastest heuristics for it despite producing colorings that typically use more colors than state-of-the-art coloring algorithms. We propose SSLD (Semidefinit",
-      "tag": "ai"
-    },
-    {
-      "title": "Physics-Constrained Digital Twins for Sensor Integrity in Urban Pedestrian Flow: Detecting Stealthy False Data Injection with Conformal Guarantees",
-      "url": "https://arxiv.org/abs/2609.17635",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-17T04:00:00+00:00",
-      "summary": "arXiv:2609.17635v1 Announce Type: new Abstract: City pedestrian counting systems now feed economic indicators, planning decisions and safety operations, yet the twins built on top of them treat the incoming stream as ground truth. We study what happens when it is not. We formalis",
-      "tag": "ai"
-    },
-    {
-      "title": "Pay Only for Disagreement: Certified No-Regression Verdicts for Model Updates with Matching Label-Complexity Bounds",
-      "url": "https://arxiv.org/abs/2609.17560",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-17T04:00:00+00:00",
-      "summary": "arXiv:2609.17560v1 Announce Type: new Abstract: Every production model is updated, by retraining, fine-tuning, quantization, or a silent vendor swap, and each update risks being worse than what it replaced. We formalize update promotion as certified paired risk-difference auditin",
-      "tag": "ai"
-    },
-    {
-      "title": "Beyond Static RAG: An Adaptive, Tri-Metric Routing Framework for Efficient Long-Context Inference on Commodity GPUs",
-      "url": "https://arxiv.org/abs/2609.17564",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-17T04:00:00+00:00",
-      "summary": "arXiv:2609.17564v1 Announce Type: new Abstract: Deploying retrieval-augmented generation (RAG) on commodity GPUs such as the NVIDIA T4 (16 GB VRAM) exposes a practical failure mode we call the Compression Paradox: neural prompt compression can add key-value (KV) cache contention ",
-      "tag": "ai"
-    },
-    {
-      "title": "Where Grokking Happens: Distributed Utility and Fourier Recoding Without a Module Switch",
-      "url": "https://arxiv.org/abs/2609.17571",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-17T04:00:00+00:00",
-      "summary": "arXiv:2609.17571v1 Announce Type: new Abstract: Where in a Transformer is the change from memorization to generalization functionally expressed? We introduce Transition Games--behavior-aligned exact activation games with paired non-generalizing controls--and find distributed util",
-      "tag": "ai"
-    },
-    {
-      "title": "Enhancing Extubation Failure Prediction with LLM-Derived Features from Respiratory Therapy Clinical Notes",
-      "url": "https://arxiv.org/abs/2609.17532",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-17T04:00:00+00:00",
-      "summary": "arXiv:2609.17532v1 Announce Type: new Abstract: Invasive mechanical ventilation is a lifesaving therapy, but timely, safe discontinuation is essential to preventing extubation failure (EF) and related risks to health. We present a novel approach to EF prediction that leverages fe",
-      "tag": "ai"
-    },
-    {
-      "title": "Faking Good and Faking Bad in LLMs: Response Distortion Across Dark Triad Personality Traits",
-      "url": "https://arxiv.org/abs/2609.17534",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-17T04:00:00+00:00",
-      "summary": "arXiv:2609.17534v1 Announce Type: new Abstract: Social desirability and impression management are pervasive sources of response distortion in human personality assessment, yet their effects on Large Language Models (LLMs) remain underexplored. This study investigates whether cont",
-      "tag": "ai"
-    },
-    {
-      "title": "DANTINOX: A Unified Framework for Multi-Paradigm Language Modeling",
-      "url": "https://arxiv.org/abs/2609.17535",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-17T04:00:00+00:00",
-      "summary": "arXiv:2609.17535v1 Announce Type: new Abstract: Language generation research increasingly spans three paradigms: autoregressive decoding, discrete masked diffusion, and continuous flow-matching. Comparing them is difficult because each lives in a separate codebase, so measured di",
       "tag": "ai"
     },
     {
