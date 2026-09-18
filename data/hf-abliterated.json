@@ -290,7 +290,7 @@
         "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "name": "Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 702,
+        "likes": 703,
         "downloads": 1392373,
         "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "lastModified": "2026-09-16T23:59:50.000Z",
@@ -311,7 +311,7 @@
         "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 846,
+        "likes": 848,
         "downloads": 1116038,
         "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "lastModified": "2026-09-16T23:56:33.000Z",
@@ -354,6 +354,30 @@
       "pop": 1.0,
       "rec": 0.7692,
       "combo": 0.9192
+    },
+    {
+      "id": "windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF",
+      "name": "Qwen3.8-Flash-Next-Abliterated-GGUF",
+      "author": "windowsxp811203",
+      "likes": 6,
+      "downloads": 142241,
+      "url": "https://huggingface.co/windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF",
+      "lastModified": "2026-09-17T07:43:08.000Z",
+      "daysAgo": 0,
+      "pipeline": "text-generation",
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "abliterated",
+        "uncensored",
+        "qwen4_exp",
+        "qwen3.8",
+        "flash-next",
+        "moe"
+      ],
+      "pop": 0.7981,
+      "rec": 1.0,
+      "combo": 0.8688
     },
     {
       "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
@@ -594,32 +618,8 @@
       "pop": 0.7451,
       "rec": 0.625,
       "combo": 0.7031
-    },
-    {
-      "id": "mondk/MiniCPM5-2B-Abliterated-Uncensored-GGUF",
-      "name": "MiniCPM5-2B-Abliterated-Uncensored-GGUF",
-      "author": "mondk",
-      "likes": 11,
-      "downloads": 11914,
-      "url": "https://huggingface.co/mondk/MiniCPM5-2B-Abliterated-Uncensored-GGUF",
-      "lastModified": "2026-09-10T08:52:15.000Z",
-      "daysAgo": 7,
-      "pipeline": "text-generation",
-      "tags": [
-        "gguf",
-        "minicpm",
-        "minicpm5",
-        "llama",
-        "text-generation",
-        "tool-calling",
-        "on-device",
-        "edge-ai"
-      ],
-      "pop": 0.6313,
-      "rec": 0.8108,
-      "combo": 0.6941
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-18T02:04:27Z"
+  "updated": "2026-09-18T02:34:37Z"
 }
