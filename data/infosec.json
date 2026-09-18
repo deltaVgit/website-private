@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T19:05:08Z",
+  "updatedAt": "2026-09-18T20:05:13Z",
   "kev": [
     {
       "cve": "CVE-2025-39964",
@@ -15,6 +15,15 @@
       "product": "Kernel",
       "vendor": "Linux",
       "name": "Linux Kernel Out-of-Bounds Write Vulnerability",
+      "dateAdded": "2026-09-18",
+      "dueDate": "2026-09-21",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2025-39682",
+      "product": "Kernel",
+      "vendor": "Linux",
+      "name": "Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability",
       "dateAdded": "2026-09-18",
       "dueDate": "2026-09-21",
       "knownRansomware": "Unknown"
@@ -114,15 +123,6 @@
       "product": "NetScaler",
       "vendor": "Citrix",
       "name": "Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "dateAdded": "2026-09-09",
-      "dueDate": "2026-09-12",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2025-25249",
-      "product": "Multiple Products",
-      "vendor": "Fortinet",
-      "name": "Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability",
       "dateAdded": "2026-09-09",
       "dueDate": "2026-09-12",
       "knownRansomware": "Unknown"
