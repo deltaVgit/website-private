@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T08:15:18Z",
+  "updated_at": "2026-09-18T08:30:17Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 8.75,
-        "change_24h": 28.45,
+        "price": 8.79,
+        "change_24h": 27.21,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 3.47,
-        "change_24h": 28.1,
+        "price": 3.45,
+        "change_24h": 26.49,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.429457,
+        "change_24h": 14.44,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.29,
-        "change_24h": 14.66,
+        "price": 1.28,
+        "change_24h": 14.0,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.15,
-        "change_24h": 14.36,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.251393,
-        "change_24h": 12.58,
+        "change_24h": 13.78,
         "asset": "crypto"
       }
     ],
@@ -119,15 +119,15 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.673207,
-        "change_24h": -5.54,
+        "price": 0.673788,
+        "change_24h": -5.28,
         "asset": "crypto"
       },
       {
         "symbol": "WLFI",
         "name": "World Liberty Financial",
-        "price": 0.057998,
-        "change_24h": -1.48,
+        "price": 0.058093,
+        "change_24h": -1.43,
         "asset": "crypto"
       },
       {
@@ -138,17 +138,17 @@
         "asset": "crypto"
       },
       {
+        "symbol": "USDY",
+        "name": "Ondo US Dollar Yield",
+        "price": 1.14,
+        "change_24h": -0.25,
+        "asset": "crypto"
+      },
+      {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
         "price": 1.028,
         "change_24h": -0.15,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "USDD",
-        "name": "USDD",
-        "price": 0.998301,
-        "change_24h": -0.03,
         "asset": "crypto"
       }
     ]
