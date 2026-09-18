@@ -4,8 +4,24 @@
     "url": "https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027",
     "source": "Dark Reading",
     "summary": "",
-    "added": "2026-09-18T13:35:17Z",
-    "expires": "2026-10-02T13:35:17Z"
+    "added": "2026-09-18T14:34:32Z",
+    "expires": "2026-10-02T14:34:32Z"
+  },
+  {
+    "title": "Secure enterprise sharing with access reviews for Microsoft 365",
+    "url": "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
+    "source": "BleepingComputer",
+    "summary": "Microsoft 365 makes sharing files easy, but access can remain long after its original purpose has ended, leaving organizations with little visibility into who can still reach sensitive data. tenfold Software explains how",
+    "added": "2026-09-18T14:00:10+00:00",
+    "expires": "2026-10-02T14:34:32Z"
+  },
+  {
+    "title": "Microsoft Teams will let admins block custom file extensions",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
+    "source": "BleepingComputer",
+    "summary": "Microsoft Teams will soon let administrators tweak the list of file extensions commonly associated with security threats to meet their company's security requirements. [...]",
+    "added": "2026-09-18T13:58:40+00:00",
+    "expires": "2026-10-02T14:34:32Z"
   },
   {
     "title": "Webinar: Which Google Workspace security controls actually matter?",
@@ -13,7 +29,15 @@
     "source": "BleepingComputer",
     "summary": "Fast-growing companies face countless recommendations for securing Google Workspace, but not every control provides the same value. This webinar examines real-world breaches to explore which security controls matter most",
     "added": "2026-09-18T13:10:19+00:00",
-    "expires": "2026-10-02T13:35:16Z"
+    "expires": "2026-10-02T14:34:32Z"
+  },
+  {
+    "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
+    "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
+    "source": "The Hacker News",
+    "summary": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required. The vulnerability, tracked as CVE-2026-85889,",
+    "added": "2026-09-18T12:47:04+00:00",
+    "expires": "2026-10-02T14:34:32Z"
   },
   {
     "title": "Microsoft fixes bug behind ‘Defender Antivirus is turned off’ alerts",
@@ -21,7 +45,23 @@
     "source": "BleepingComputer",
     "summary": "Microsoft has resolved a known issue that causes incorrect alerts warning that Defender Antivirus was turned off after installing recent updates. [...]",
     "added": "2026-09-18T12:16:32+00:00",
-    "expires": "2026-10-02T13:35:16Z"
+    "expires": "2026-10-02T14:34:32Z"
+  },
+  {
+    "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
+    "url": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
+    "source": "The Hacker News",
+    "summary": "In July 2025, someone registered a domain that used to belong to a content delivery network. The CDN had been wound down years earlier, and the domain it served assets from was allowed to expire. What it had not lost wer",
+    "added": "2026-09-18T11:01:16+00:00",
+    "expires": "2026-10-02T14:34:32Z"
+  },
+  {
+    "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
+    "url": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
+    "source": "The Hacker News",
+    "summary": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a specific reviewed versio",
+    "added": "2026-09-18T11:01:01+00:00",
+    "expires": "2026-10-02T14:34:32Z"
   },
   {
     "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
@@ -29,7 +69,7 @@
     "source": "The Hacker News",
     "summary": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit. The new malware family, per OpenSourceMalware, ",
     "added": "2026-09-18T10:40:06+00:00",
-    "expires": "2026-10-02T13:35:17Z"
+    "expires": "2026-10-02T14:34:32Z"
   },
   {
     "title": "New Check Point flaw lets hackers execute code with root privileges",
@@ -37,7 +77,7 @@
     "source": "BleepingComputer",
     "summary": "Check Point Software has released security updates to address a critical vulnerability that can let attackers execute code with root privileges on management systems. [...]",
     "added": "2026-09-18T09:34:33+00:00",
-    "expires": "2026-10-02T13:35:16Z"
+    "expires": "2026-10-02T14:34:32Z"
   },
   {
     "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
@@ -45,15 +85,7 @@
     "source": "The Hacker News",
     "summary": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry. \"The developer likely wrote the ",
     "added": "2026-09-18T09:18:03+00:00",
-    "expires": "2026-10-02T13:35:17Z"
-  },
-  {
-    "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users/",
-    "source": "BleepingComputer",
-    "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for some Excel users after installing the September 2026 KB5002914 security update. [...]",
-    "added": "2026-09-18T07:35:31+00:00",
-    "expires": "2026-10-02T13:35:16Z"
+    "expires": "2026-10-02T14:34:32Z"
   },
   {
     "title": "AI Agent Breaches Spanish Organization, Modifies Personal Data",
@@ -61,23 +93,7 @@
     "source": "Dark Reading",
     "summary": "AI-driven cyberattacks used to be exotic. Soon, it'll be odd if threat actors aren't using agents to do all of their bidding.",
     "added": "2026-09-18T07:00:00+00:00",
-    "expires": "2026-10-02T13:35:17Z"
-  },
-  {
-    "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
-    "url": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
-    "source": "The Hacker News",
-    "summary": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control c",
-    "added": "2026-09-18T06:17:25+00:00",
-    "expires": "2026-10-02T13:35:17Z"
-  },
-  {
-    "title": "New RatHat Android malware uses AI to automate device control",
-    "url": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
-    "source": "BleepingComputer",
-    "summary": "A new Android malware called RatHat has been discovered, targeting users with an AI-powered subsystem that helps operators remotely navigate compromised devices. [...]",
-    "added": "2026-09-17T21:50:26+00:00",
-    "expires": "2026-10-02T13:35:16Z"
+    "expires": "2026-10-02T14:34:32Z"
   },
   {
     "title": "CISA Ditches Weekly Vulnerability Roundups for Risk-Based Focus",
@@ -85,7 +101,7 @@
     "source": "Dark Reading",
     "summary": "The move is consistent with the agency's advice on the need for organizations to prioritize the vulnerabilities that actually matter.",
     "added": "2026-09-17T21:23:50+00:00",
-    "expires": "2026-10-02T13:35:17Z"
+    "expires": "2026-10-02T14:34:32Z"
   },
   {
     "title": "China's FamousSparrow APT Spies on US Politics in Latin America",
@@ -93,23 +109,7 @@
     "source": "Dark Reading",
     "summary": "Amid the US and China's fight for eco-colonial influence in Latin America, a stealthy backdoor has taken flight.",
     "added": "2026-09-17T19:15:38+00:00",
-    "expires": "2026-10-02T13:35:17Z"
-  },
-  {
-    "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
-    "url": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
-    "source": "The Hacker News",
-    "summary": "A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the network. The Security Management Server is the",
-    "added": "2026-09-17T18:08:28+00:00",
-    "expires": "2026-10-02T13:35:17Z"
-  },
-  {
-    "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
-    "url": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
-    "source": "The Hacker News",
-    "summary": "Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them. This week, those keys sit in AI tools, exposed services, old bugs, weak logins, and software sold like a monthly subsc",
-    "added": "2026-09-17T17:32:22+00:00",
-    "expires": "2026-10-02T13:35:17Z"
+    "expires": "2026-10-02T14:34:32Z"
   },
   {
     "title": "Mitsubishi Electric CC-Link IE TSN Communication Protocol (Update A)",
@@ -117,7 +117,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker with access to the same network segment to tamper with communication data in the affected product by sending specially crafted packe",
     "added": "2026-09-17T12:00:00+00:00",
-    "expires": "2026-10-02T13:35:17Z"
+    "expires": "2026-10-02T14:34:33Z"
   },
   {
     "title": "Mitsubishi Electric GX Works3 and Motion Control Settings",
@@ -125,6 +125,6 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow a local attacker to successfully authenticate even with an invalid block password by executing the affected product and modify part of the execu",
     "added": "2026-09-17T12:00:00+00:00",
-    "expires": "2026-10-02T13:35:17Z"
+    "expires": "2026-10-02T14:34:33Z"
   }
 ]

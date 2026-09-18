@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-09-18T13:35:17Z",
+  "updatedAt": "2026-09-18T14:34:33Z",
   "kev": [
+    {
+      "cve": "CVE-2025-39964",
+      "product": "Kernel",
+      "vendor": "Linux",
+      "name": "Linux Kernel Race Condition Vulnerability",
+      "dateAdded": "2026-09-18",
+      "dueDate": "2026-09-21",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-53266",
+      "product": "Kernel",
+      "vendor": "Linux",
+      "name": "Linux Kernel Out-of-Bounds Write Vulnerability",
+      "dateAdded": "2026-09-18",
+      "dueDate": "2026-09-21",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2026-58704",
       "product": "Pixel",
@@ -105,24 +123,6 @@
       "product": "Multiple Products",
       "vendor": "Fortinet",
       "name": "Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability",
-      "dateAdded": "2026-09-09",
-      "dueDate": "2026-09-12",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-87491",
-      "product": "Chromium V8",
-      "vendor": "Google",
-      "name": "Google Chromium V8 Out of Bounds Write Vulnerability",
-      "dateAdded": "2026-09-09",
-      "dueDate": "2026-09-23",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-20079",
-      "product": "Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management",
-      "vendor": "Cisco",
-      "name": "Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability",
       "dateAdded": "2026-09-09",
       "dueDate": "2026-09-12",
       "knownRansomware": "Unknown"
