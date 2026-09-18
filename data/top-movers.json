@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T12:30:31Z",
+  "updated_at": "2026-09-18T12:45:36Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 8.72,
-        "change_24h": 26.13,
+        "price": 8.66,
+        "change_24h": 26.64,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 3.5,
-        "change_24h": 21.69,
+        "price": 3.56,
+        "change_24h": 23.39,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.29,
-        "change_24h": 14.39,
+        "change_24h": 14.08,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price": 91.37,
+        "change_24h": 13.94,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.254466,
-        "change_24h": 12.74,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.065992,
-        "change_24h": 12.26,
+        "price": 0.256331,
+        "change_24h": 13.4,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.012793,
+        "change_24h": -2.41,
+        "asset": "crypto"
+      },
+      {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.666382,
-        "change_24h": -3.06,
+        "price": 0.676019,
+        "change_24h": -1.75,
         "asset": "crypto"
       },
       {
         "symbol": "WLFI",
         "name": "World Liberty Financial",
-        "price": 0.057578,
-        "change_24h": -2.46,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.01282,
-        "change_24h": -2.43,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.85,
-        "change_24h": -0.99,
+        "price": 0.057754,
+        "change_24h": -1.54,
         "asset": "crypto"
       },
       {
         "symbol": "BDX",
         "name": "Beldex",
-        "price": 0.075895,
-        "change_24h": -0.71,
+        "price": 0.075875,
+        "change_24h": -0.66,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "USDY",
+        "name": "Ondo US Dollar Yield",
+        "price": 1.14,
+        "change_24h": -0.32,
         "asset": "crypto"
       }
     ]
