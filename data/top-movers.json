@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T08:30:17Z",
+  "updated_at": "2026-09-18T08:45:21Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 8.79,
-        "change_24h": 27.21,
-        "asset": "crypto"
-      },
-      {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 3.45,
-        "change_24h": 26.49,
+        "price": 3.46,
+        "change_24h": 26.39,
         "asset": "crypto"
       },
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.429457,
-        "change_24h": 14.44,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 8.83,
+        "change_24h": 26.14,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.28,
-        "change_24h": 14.0,
+        "price": 1.29,
+        "change_24h": 14.39,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.15,
-        "change_24h": 13.78,
+        "change_24h": 14.05,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.628105,
+        "change_24h": 13.75,
         "asset": "crypto"
       }
     ],
@@ -119,15 +119,22 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.673788,
-        "change_24h": -5.28,
+        "price": 0.671271,
+        "change_24h": -5.4,
         "asset": "crypto"
       },
       {
         "symbol": "WLFI",
         "name": "World Liberty Financial",
-        "price": 0.058093,
-        "change_24h": -1.43,
+        "price": 0.058054,
+        "change_24h": -1.25,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.95,
+        "change_24h": -0.76,
         "asset": "crypto"
       },
       {
@@ -135,13 +142,6 @@
         "name": "LEO Token",
         "price": 8.9,
         "change_24h": -0.26,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "USDY",
-        "name": "Ondo US Dollar Yield",
-        "price": 1.14,
-        "change_24h": -0.25,
         "asset": "crypto"
       },
       {
