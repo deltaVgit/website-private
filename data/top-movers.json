@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T12:45:36Z",
+  "updated_at": "2026-09-18T13:00:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -18,13 +18,6 @@
         "asset": "equity"
       },
       {
-        "symbol": "VICR",
-        "name": "Vicor Corporation",
-        "price": 216.39,
-        "change_24h": 17.66,
-        "asset": "equity"
-      },
-      {
         "symbol": "BHVN",
         "name": "Biohaven Ltd.",
         "price": 13.89,
@@ -36,6 +29,13 @@
         "name": "Tempus AI, Inc.",
         "price": 80.36,
         "change_24h": 14.85,
+        "asset": "equity"
+      },
+      {
+        "symbol": "PURR",
+        "name": "Hyperliquid Strategies Inc",
+        "price": 12.83,
+        "change_24h": 12.15,
         "asset": "equity"
       }
     ],
@@ -69,10 +69,10 @@
         "asset": "equity"
       },
       {
-        "symbol": "TTAN",
-        "name": "ServiceTitan, Inc.",
-        "price": 54.25,
-        "change_24h": -7.53,
+        "symbol": "JXN",
+        "name": "Jackson Financial Inc.",
+        "price": 129.38,
+        "change_24h": -5.63,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 8.66,
-        "change_24h": 26.64,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 3.59,
+        "change_24h": 24.97,
         "asset": "crypto"
       },
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 3.56,
-        "change_24h": 23.39,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 8.6,
+        "change_24h": 24.52,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.29,
-        "change_24h": 14.08,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "price": 91.37,
-        "change_24h": 13.94,
+        "change_24h": 13.89,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.256331,
-        "change_24h": 13.4,
+        "price": 0.256845,
+        "change_24h": 13.79,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.43,
+        "change_24h": 13.03,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.012793,
-        "change_24h": -2.41,
+        "price": 0.012791,
+        "change_24h": -2.6,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.676019,
-        "change_24h": -1.75,
+        "price": 0.673772,
+        "change_24h": -1.48,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.9,
+        "change_24h": -1.29,
         "asset": "crypto"
       },
       {
         "symbol": "WLFI",
         "name": "World Liberty Financial",
-        "price": 0.057754,
-        "change_24h": -1.54,
+        "price": 0.05785,
+        "change_24h": -1.05,
         "asset": "crypto"
       },
       {
         "symbol": "BDX",
         "name": "Beldex",
-        "price": 0.075875,
-        "change_24h": -0.66,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "USDY",
-        "name": "Ondo US Dollar Yield",
-        "price": 1.14,
-        "change_24h": -0.32,
+        "price": 0.075883,
+        "change_24h": -0.59,
         "asset": "crypto"
       }
     ]
