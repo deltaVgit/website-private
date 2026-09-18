@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T06:45:44Z",
+  "updated_at": "2026-09-18T07:00:49Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -83,35 +83,35 @@
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 3.47,
-        "change_24h": 28.81,
+        "change_24h": 29.03,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 8.5,
-        "change_24h": 26.86,
+        "price": 8.62,
+        "change_24h": 27.52,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.42597,
+        "change_24h": 14.82,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.28,
-        "change_24h": 14.3,
+        "change_24h": 14.04,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.14,
-        "change_24h": 13.31,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.419693,
-        "change_24h": 12.9,
+        "change_24h": 12.85,
         "asset": "crypto"
       }
     ],
@@ -119,22 +119,15 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.677116,
-        "change_24h": -5.42,
+        "price": 0.68586,
+        "change_24h": -4.29,
         "asset": "crypto"
       },
       {
         "symbol": "WLFI",
         "name": "World Liberty Financial",
-        "price": 0.058453,
-        "change_24h": -0.75,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PI",
-        "name": "Pi Network",
-        "price": 0.082997,
-        "change_24h": -0.45,
+        "price": 0.058482,
+        "change_24h": -0.53,
         "asset": "crypto"
       },
       {
@@ -145,10 +138,17 @@
         "asset": "crypto"
       },
       {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1.028,
-        "change_24h": -0.15,
+        "symbol": "HTX",
+        "name": "HTX DAO",
+        "price": 2e-06,
+        "change_24h": -0.32,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PI",
+        "name": "Pi Network",
+        "price": 0.082924,
+        "change_24h": -0.18,
         "asset": "crypto"
       }
     ]
