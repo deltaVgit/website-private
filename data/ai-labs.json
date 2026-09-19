@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T03:34:57Z",
+  "updated": "2026-09-19T04:05:07Z",
   "items": [
     {
       "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
@@ -47,86 +47,6 @@
       "source": "Google AI Blog",
       "published_at": "2026-09-18T13:00:00+00:00",
       "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
-      "tag": "ai"
-    },
-    {
-      "title": "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes",
-      "url": "https://arxiv.org/abs/2609.19170",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-18T04:00:00+00:00",
-      "summary": "arXiv:2609.19170v1 Announce Type: new Abstract: Emphatic temporal-difference learning (ETD) stabilizes the expected off-policy TD update and changes its projection geometry, but neither property determines constant-stepsize sampled dynamics. We construct an ergodic two-state coun",
-      "tag": "ai"
-    },
-    {
-      "title": "BioPhys-Bridge: A Benchmark for Interdisciplinary Scientific Reasoning in Physics-Grounded Biological Research",
-      "url": "https://arxiv.org/abs/2609.19180",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-18T04:00:00+00:00",
-      "summary": "arXiv:2609.19180v1 Announce Type: new Abstract: Language models face unique challenges in analyzing interdisciplinary scientific research literature. In biophysics research, faithful answers require grounding observed data in source evidence, interpreting it through a quantitativ",
-      "tag": "ai"
-    },
-    {
-      "title": "What Do We Expect from LLMs? Mapping the Design of LLM Benchmarks",
-      "url": "https://arxiv.org/abs/2609.19182",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-18T04:00:00+00:00",
-      "summary": "arXiv:2609.19182v1 Announce Type: new Abstract: Benchmarks are central to how progress in large language models (LLMs) is assessed and communicated. Yet model rankings alone reveal little about how evaluation requirements themselves are changing. The expanding variety of benchmar",
-      "tag": "ai"
-    },
-    {
-      "title": "Position: It is Time to Virtualize Foundation Models with a Self-evolving Operating System Layer",
-      "url": "https://arxiv.org/abs/2609.19203",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-18T04:00:00+00:00",
-      "summary": "arXiv:2609.19203v1 Announce Type: new Abstract: AI applications have shifted from single, monolithic foundation models (FM) to compound agentic systems. Yet today's stacks remain fragmented: even as protocols (e.g., MCP, A2A) ease tool/agent connectivity, each framework embeds an",
-      "tag": "ai"
-    },
-    {
-      "title": "Generative Query Suggestion via Intent Coverage and Query-Level Credit Assignment",
-      "url": "https://arxiv.org/abs/2609.19209",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-18T04:00:00+00:00",
-      "summary": "arXiv:2609.19209v1 Announce Type: new Abstract: Generative query suggestion aims to enhance user engagement by anticipating user intents and recommending relevant follow-up queries. A central challenge is to generate slates whose individual queries are useful while the slate cove",
-      "tag": "ai"
-    },
-    {
-      "title": "Layer-wise Curriculum Learning for Efficient LLM Compression",
-      "url": "https://arxiv.org/abs/2609.19213",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-18T04:00:00+00:00",
-      "summary": "arXiv:2609.19213v1 Announce Type: new Abstract: In this paper, we introduce layer-wise curriculum learning for efficient LLM compression. The proposed method facilitates the knowledge transfer from the teacher model to the student model, utilizing a curriculum learning approach t",
-      "tag": "ai"
-    },
-    {
-      "title": "Block Parallelism For Efficient Distributed Long-Context Diffusion Language Model Training",
-      "url": "https://arxiv.org/abs/2609.19242",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-18T04:00:00+00:00",
-      "summary": "arXiv:2609.19242v1 Announce Type: new Abstract: Block diffusion language models (BDLMs) combine autoregressive dependencies across blocks with parallel denoising within blocks, but long-context training is constrained by distributed attention communication and activation memory. ",
-      "tag": "ai"
-    },
-    {
-      "title": "Modality Discrepancy Transformer for Ambivalence and Hesitancy Recognition",
-      "url": "https://arxiv.org/abs/2609.19148",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-18T04:00:00+00:00",
-      "summary": "arXiv:2609.19148v1 Announce Type: new Abstract: Ambivalence and hesitancy (A/H) are affective states in which individuals express contradictory signals across facial, vocal, and linguistic channels. Automatically recognising A/H in clinical videos requires detecting cross-modal d",
-      "tag": "ai"
-    },
-    {
-      "title": "Subliminal Prompting Beyond Static Geometry: Causal Depth and Multi-Token Confounds",
-      "url": "https://arxiv.org/abs/2609.19149",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-18T04:00:00+00:00",
-      "summary": "arXiv:2609.19149v1 Announce Type: new Abstract: Subliminal learning shows that language models can transmit a hidden trait through outputs that appear unrelated to it. One proposed explanation, token entanglement, links animal and number tokens through the model's output vocabula",
-      "tag": "ai"
-    },
-    {
-      "title": "Sampling Reveals Style: Unsupervised, Training-Free Discovery of Prompt-Conditional Stylistic Axes in LLM Activations",
-      "url": "https://arxiv.org/abs/2609.19150",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-18T04:00:00+00:00",
-      "summary": "arXiv:2609.19150v1 Announce Type: new Abstract: Large language models (LLMs) encode rich stylistic structure in their hidden activations, but discovering which stylistic dimensions are salient for a given prompt typically requires supervised contrastive data. We present a trainin",
       "tag": "ai"
     },
     {
@@ -319,6 +239,86 @@
       "source": "Meta Engineering",
       "published_at": "2026-09-02T09:00:29+00:00",
       "summary": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved for anyone in an organization to access, share, and build upon. This is not a typical domain-specific agent. Its novelty comes from integra",
+      "tag": "ai"
+    },
+    {
+      "title": "Import AI 471: Why Hugging Face worries me; space mining; FIve Eyes on AI",
+      "url": "https://jack-clark.net/2026/08/31/import-ai-471-why-hugging-face-worries-me-space-mining-five-eyes-on-ai/",
+      "source": "Import AI",
+      "published_at": "2026-08-31T13:31:06+00:00",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Import AI reader giveaway! Upcoming event: Fiction and the Future with Robin SloanI’ll be chatting",
+      "tag": "ai"
+    },
+    {
+      "title": "What We Learned Trying to Catch AI Liars: An Aletheia's Quest Retrospective",
+      "url": "https://blog.eleuther.ai/aletheia-retrospective/",
+      "source": "EleutherAI",
+      "published_at": "2026-08-25T16:35:00+00:00",
+      "summary": "What we learned while building black-box and white-box detectors for AI deception during Aletheia's Quest.",
+      "tag": "ai"
+    },
+    {
+      "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
+      "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/",
+      "source": "Meta Engineering",
+      "published_at": "2026-08-24T18:02:29+00:00",
+      "summary": "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles. To meet this challenge at scale, Meta designed MetaRoCE – a clean-sheet RDMA transport protocol purpose-built for AI workloads on commodity Ether",
+      "tag": "ai"
+    },
+    {
+      "title": "A Dynamical Model of AI Governability",
+      "url": "https://blog.eleuther.ai/dynamical-models-of-ai-governability/",
+      "source": "EleutherAI",
+      "published_at": "2026-07-13T00:00:00+00:00",
+      "summary": "A toy dynamical model of whether the AI workforce that builds future AI ends up cooperative or uncooperative: where the basin boundary lies, what current evidence says about which side we are on, and what would tell us we are on the good path.",
+      "tag": "ai"
+    },
+    {
+      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
+      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+      "source": "NVIDIA AI",
+      "published_at": "2026-07-08T15:00:27+00:00",
+      "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open mo",
+      "tag": "ai"
+    },
+    {
+      "title": "Early Indicators of Reward Hacking via Reasoning Interpolation",
+      "url": "https://blog.eleuther.ai/reward-hacking-indicators/",
+      "source": "EleutherAI",
+      "published_at": "2026-04-15T00:00:00+00:00",
+      "summary": "Using importance sampling with fine-tuned donor prefills to predict reward hacking emergence during training",
+      "tag": "ai"
+    },
+    {
+      "title": "NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES",
+      "url": "https://blogs.nvidia.com/blog/2026-ces-special-presentation/",
+      "source": "NVIDIA AI",
+      "published_at": "2026-01-05T23:30:18+00:00",
+      "summary": "Editor’s note: The name of NVIDIA DRIVE Hyperion was changed to NVIDIA Hyperion in September 2026. All references to the name have been updated in this blog. NVIDIA founder and CEO Jensen Huang took the stage at the Fontainebleau Las Vegas to open CES 2026, declaring that AI is s",
+      "tag": "ai"
+    },
+    {
+      "title": "As AI Grows More Complex, Model Builders Rely on NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/leading-models-nvidia/",
+      "source": "NVIDIA AI",
+      "published_at": "2025-12-11T19:19:57+00:00",
+      "summary": "Unveiling what it describes as the most capable model series yet for professional knowledge work, OpenAI launched GPT-5.2 in December. The model was trained and deployed on NVIDIA infrastructure, including NVIDIA Hopper and GB200 NVL72 systems. GPT-5.3 Codex — the first OpenAI ag",
+      "tag": "ai"
+    },
+    {
+      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
+      "url": "https://qwenlm.github.io/blog/qwen3guard/",
+      "source": "Qwen (Alibaba)",
+      "published_at": "2025-09-22T20:00:00+00:00",
+      "summary": "Tech Report GitHub Hugging Face ModelScope DISCORD Introduction We are excited to introduce Qwen3Guard, the first safety guardrail model in the Qwen family. Built upon the powerful Qwen3 foundation models and fine-tuned specifically for safety classificatoin, Qwen3Guard ensures r",
+      "tag": "ai"
+    },
+    {
+      "title": "Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency",
+      "url": "https://qwenlm.github.io/blog/qwen-image-edit/",
+      "source": "Qwen (Alibaba)",
+      "published_at": "2025-08-18T17:30:00+00:00",
+      "summary": "QWEN CHAT GITHUB HUGGING FACE MODELSCOPE DISCORD We are excited to introduce Qwen-Image-Edit, the image editing version of Qwen-Image. Built upon our 20B Qwen-Image model, Qwen-Image-Edit successfully extends Qwen-Image’s unique text rendering capabilities to image editing tasks,",
       "tag": "ai"
     }
   ],
