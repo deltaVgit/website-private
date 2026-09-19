@@ -255,7 +255,7 @@
         "downloads": 2254086,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
-        "daysAgo": 32,
+        "daysAgo": 33,
         "pipeline": "image-text-to-text",
         "tags": [
           "gguf",
@@ -272,7 +272,7 @@
         "id": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "name": "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1206,
+        "likes": 1207,
         "downloads": 1923128,
         "url": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-04-06T03:50:35.000Z",
@@ -438,7 +438,7 @@
       "downloads": 171234,
       "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF",
       "lastModified": "2026-09-10T21:52:16.000Z",
-      "daysAgo": 8,
+      "daysAgo": 9,
       "pipeline": "image-text-to-text",
       "tags": [
         "transformers",
@@ -451,8 +451,8 @@
         "base_model:quantized:deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
       ],
       "pop": 0.8111,
-      "rec": 0.7895,
-      "combo": 0.8036
+      "rec": 0.7692,
+      "combo": 0.7965
     },
     {
       "id": "audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF",
@@ -624,5 +624,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-19T21:34:28Z"
+  "updated": "2026-09-19T22:04:30Z"
 }
