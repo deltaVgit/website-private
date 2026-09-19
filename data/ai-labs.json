@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-19T21:34:34Z",
+  "updated": "2026-09-19T22:04:36Z",
   "items": [
+    {
+      "title": "datasette-auth-github 1.0",
+      "url": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+      "source": "Simon Willison",
+      "published_at": "2026-09-19T19:52:02+00:00",
+      "summary": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting cookies without a Max-Age parameter, so they were expiring at th",
+      "tag": "ai"
+    },
     {
       "title": "California Sea Lion, Brandt's Cormorant",
       "url": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
@@ -23,14 +31,6 @@
       "source": "Simon Willison",
       "published_at": "2026-09-18T23:57:57+00:00",
       "summary": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench ! The hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company Irregular, which was also involved in similar incidents disclosed",
-      "tag": "ai"
-    },
-    {
-      "title": "Note on 18th September 2026",
-      "url": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
-      "source": "Simon Willison",
-      "published_at": "2026-09-18T19:21:32+00:00",
-      "summary": "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park. Skeptical geneticist: \"pfft, it's just frog DNA. And they deliberately let t",
       "tag": "ai"
     },
     {
