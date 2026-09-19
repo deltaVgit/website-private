@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T12:00:40Z",
+  "updated_at": "2026-09-19T12:15:45Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price": 9.35,
-        "change_24h": 17.77,
+        "price": 9.24,
+        "change_24h": 15.94,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VET",
+        "name": "VeChain",
+        "price": 0.008557,
+        "change_24h": 14.26,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.71,
-        "change_24h": 14.64,
+        "change_24h": 13.68,
         "asset": "crypto"
       },
       {
         "symbol": "APT",
         "name": "Aptos",
-        "price": 0.750108,
-        "change_24h": 10.2,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 589.07,
-        "change_24h": 9.6,
+        "price": 0.744378,
+        "change_24h": 9.75,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 268.83,
-        "change_24h": 9.43,
+        "price": 268.41,
+        "change_24h": 9.72,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.606429,
-        "change_24h": -9.31,
+        "price": 0.586118,
+        "change_24h": -12.19,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.428309,
-        "change_24h": -3.28,
+        "price": 0.431556,
+        "change_24h": -2.39,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
-        "price": 2.45,
-        "change_24h": -1.14,
+        "price": 2.43,
+        "change_24h": -1.39,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.117199,
-        "change_24h": -0.51,
+        "price": 0.116996,
+        "change_24h": -0.7,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004158,
-        "change_24h": -0.47,
+        "price": 0.004151,
+        "change_24h": -0.33,
         "asset": "crypto"
       }
     ]
