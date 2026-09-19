@@ -205,7 +205,7 @@
         "id": "Heartsync/Flux-NSFW-uncensored",
         "name": "Flux-NSFW-uncensored",
         "author": "Heartsync",
-        "likes": 545,
+        "likes": 546,
         "downloads": 0,
         "url": "https://huggingface.co/Heartsync/Flux-NSFW-uncensored",
         "lastModified": "2025-05-05T14:21:20.000Z",
@@ -314,7 +314,7 @@
         "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 931,
+        "likes": 933,
         "downloads": 1256962,
         "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "lastModified": "2026-09-16T23:56:33.000Z",
@@ -599,30 +599,30 @@
       "combo": 0.7116
     },
     {
-      "id": "Hikari07jp/Ternary-Bonsai-2-27B-Abliterated-GGUF",
-      "name": "Ternary-Bonsai-2-27B-Abliterated-GGUF",
-      "author": "Hikari07jp",
-      "likes": 16,
-      "downloads": 3084,
-      "url": "https://huggingface.co/Hikari07jp/Ternary-Bonsai-2-27B-Abliterated-GGUF",
-      "lastModified": "2026-09-18T10:58:23.000Z",
-      "daysAgo": 0,
-      "pipeline": "text-generation",
+      "id": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
+      "name": "Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
+      "author": "gbuzhf",
+      "likes": 30,
+      "downloads": 68308,
+      "url": "https://huggingface.co/gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
+      "lastModified": "2026-08-30T07:30:56.000Z",
+      "daysAgo": 20,
+      "pipeline": "image-text-to-text",
       "tags": [
-        "llama.cpp",
         "gguf",
-        "ternary",
-        "2-bit",
-        "llama-cpp",
-        "abliterated",
-        "uncensored",
-        "prismml"
+        "ICE",
+        "ICE-Tiers",
+        "ice-quant",
+        "9-Tier-Standard",
+        "Tiel-Calibrated",
+        "mtp",
+        "speculative-decoding"
       ],
-      "pop": 0.5408,
-      "rec": 1.0,
-      "combo": 0.7015
+      "pop": 0.7493,
+      "rec": 0.6,
+      "combo": 0.697
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-19T10:34:17Z"
+  "updated": "2026-09-19T11:04:28Z"
 }
