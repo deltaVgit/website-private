@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T02:45:26Z",
+  "updated_at": "2026-09-19T03:00:31Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 3.83,
-        "change_24h": 16.68,
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 0.978624,
+        "change_24h": 14.66,
         "asset": "crypto"
       },
       {
-        "symbol": "APT",
-        "name": "Aptos",
-        "price": 0.750659,
-        "change_24h": 14.28,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 3.83,
+        "change_24h": 14.42,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 29.1,
+        "change_24h": 14.39,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.27543,
+        "change_24h": 14.12,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 9.03,
-        "change_24h": 14.16,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.038405,
-        "change_24h": 12.96,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.72678,
-        "change_24h": 12.83,
+        "price": 9.02,
+        "change_24h": 14.07,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.621843,
-        "change_24h": -11.42,
+        "price": 0.625626,
+        "change_24h": -10.9,
         "asset": "crypto"
       },
       {
         "symbol": "BDX",
         "name": "Beldex",
-        "price": 0.075498,
-        "change_24h": -1.2,
+        "price": 0.07549,
+        "change_24h": -1.17,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
         "price": 2.45,
-        "change_24h": -1.04,
+        "change_24h": -0.98,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "USDY",
+        "name": "Ondo US Dollar Yield",
+        "price": 1.14,
+        "change_24h": -0.2,
         "asset": "crypto"
       },
       {
         "symbol": "USDGO",
         "name": "USDGO",
-        "price": 0.999669,
+        "price": 0.999754,
         "change_24h": -0.07,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "USDG",
-        "name": "Global Dollar",
-        "price": 0.999891,
-        "change_24h": -0.0,
         "asset": "crypto"
       }
     ]
