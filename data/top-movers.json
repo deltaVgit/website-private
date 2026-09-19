@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T07:31:05Z",
+  "updated_at": "2026-09-19T07:45:19Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.070997,
-        "change_24h": 14.75,
-        "asset": "crypto"
-      },
-      {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.72,
-        "change_24h": 14.39,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "VET",
-        "name": "VeChain",
-        "price": 0.008617,
-        "change_24h": 14.38,
+        "price": 2.67,
+        "change_24h": 12.28,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.736207,
-        "change_24h": 11.51,
+        "price": 0.736656,
+        "change_24h": 9.45,
         "asset": "crypto"
       },
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 28.37,
-        "change_24h": 9.91,
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 0.94427,
+        "change_24h": 8.9,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price": 8.55,
+        "change_24h": 8.2,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.037895,
+        "change_24h": 7.13,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.609474,
-        "change_24h": -9.97,
+        "price": 0.606168,
+        "change_24h": -9.82,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004113,
-        "change_24h": -4.27,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CAKE",
-        "name": "PancakeSwap",
-        "price": 2.4,
-        "change_24h": -3.19,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.418697,
-        "change_24h": -3.12,
+        "price": 0.004092,
+        "change_24h": -5.16,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
-        "price": 1.11,
-        "change_24h": -2.94,
+        "price": 1.1,
+        "change_24h": -3.66,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CAKE",
+        "name": "PancakeSwap",
+        "price": 2.39,
+        "change_24h": -3.65,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.416664,
+        "change_24h": -3.53,
         "asset": "crypto"
       }
     ]
