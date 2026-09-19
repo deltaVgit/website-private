@@ -5,7 +5,7 @@
         "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Uncensored-GGUF",
         "author": "JonathanColetti",
-        "likes": 1157,
+        "likes": 1158,
         "downloads": 2301104,
         "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "lastModified": "2026-08-29T04:18:18.000Z",
@@ -118,7 +118,7 @@
         "id": "ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "name": "flux2-klein-9b-uncensored-text-encoder",
         "author": "ponpoke",
-        "likes": 620,
+        "likes": 621,
         "downloads": 37835,
         "url": "https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "lastModified": "2026-05-02T11:34:41.000Z",
@@ -227,7 +227,7 @@
         "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
         "author": "huihui-ai",
-        "likes": 796,
+        "likes": 798,
         "downloads": 2832383,
         "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "lastModified": "2026-09-18T03:12:46.000Z",
@@ -251,7 +251,7 @@
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 1301,
+        "likes": 1300,
         "downloads": 2254086,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
@@ -338,7 +338,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
       "author": "huihui-ai",
-      "likes": 796,
+      "likes": 798,
       "downloads": 2832383,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "lastModified": "2026-09-18T03:12:46.000Z",
@@ -357,30 +357,6 @@
       "pop": 1.0,
       "rec": 0.9677,
       "combo": 0.9887
-    },
-    {
-      "id": "windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF",
-      "name": "Qwen3.8-Flash-Next-Abliterated-GGUF",
-      "author": "windowsxp811203",
-      "likes": 6,
-      "downloads": 143234,
-      "url": "https://huggingface.co/windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF",
-      "lastModified": "2026-09-17T07:43:08.000Z",
-      "daysAgo": 2,
-      "pipeline": "text-generation",
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "abliterated",
-        "uncensored",
-        "qwen4_exp",
-        "qwen3.8",
-        "flash-next",
-        "moe"
-      ],
-      "pop": 0.7991,
-      "rec": 0.9375,
-      "combo": 0.8476
     },
     {
       "id": "soyaakinohara/qwen3.8-27b-abliterated-3.69bpw-12GB-MTP.gguf",
@@ -482,7 +458,7 @@
       "id": "BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF",
       "name": "Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF",
       "author": "BoldingBuilds",
-      "likes": 28,
+      "likes": 30,
       "downloads": 11556,
       "url": "https://huggingface.co/BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF",
       "lastModified": "2026-09-18T16:47:37.000Z",
@@ -621,8 +597,32 @@
       "pop": 0.5465,
       "rec": 1.0,
       "combo": 0.7052
+    },
+    {
+      "id": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
+      "name": "Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
+      "author": "gbuzhf",
+      "likes": 30,
+      "downloads": 68308,
+      "url": "https://huggingface.co/gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
+      "lastModified": "2026-08-30T07:30:56.000Z",
+      "daysAgo": 20,
+      "pipeline": "image-text-to-text",
+      "tags": [
+        "gguf",
+        "ICE",
+        "ICE-Tiers",
+        "ice-quant",
+        "9-Tier-Standard",
+        "Tiel-Calibrated",
+        "mtp",
+        "speculative-decoding"
+      ],
+      "pop": 0.7493,
+      "rec": 0.6,
+      "combo": 0.697
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-19T15:35:02Z"
+  "updated": "2026-09-19T16:05:13Z"
 }
