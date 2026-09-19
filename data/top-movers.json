@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T18:00:47Z",
+  "updated_at": "2026-09-19T18:15:53Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price": 9.68,
-        "change_24h": 18.71,
+        "price": 9.74,
+        "change_24h": 19.27,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 7.66,
+        "change_24h": 13.81,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price": 4e-06,
+        "change_24h": 10.3,
         "asset": "crypto"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.008664,
-        "change_24h": 10.72,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.45,
-        "change_24h": 10.08,
+        "price": 0.008585,
+        "change_24h": 9.58,
         "asset": "crypto"
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.039985,
-        "change_24h": 9.57,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ONDO",
-        "name": "Ondo",
-        "price": 0.436429,
-        "change_24h": 9.16,
+        "price": 0.039822,
+        "change_24h": 8.83,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.569989,
-        "change_24h": -13.16,
+        "price": 0.574287,
+        "change_24h": -11.89,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.207477,
-        "change_24h": -6.15,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004158,
-        "change_24h": -3.91,
+        "price": 0.206425,
+        "change_24h": -7.23,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 3.65,
-        "change_24h": -3.8,
+        "price": 3.64,
+        "change_24h": -4.2,
         "asset": "crypto"
       },
       {
-        "symbol": "CAKE",
-        "name": "PancakeSwap",
-        "price": 2.39,
-        "change_24h": -2.67,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.004154,
+        "change_24h": -3.92,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.002,
+        "change_24h": -2.79,
         "asset": "crypto"
       }
     ]
