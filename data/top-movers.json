@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T03:15:36Z",
+  "updated_at": "2026-09-19T03:30:42Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.277496,
-        "change_24h": 13.52,
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 28.27,
+        "change_24h": 12.81,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.038773,
+        "change_24h": 12.81,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 0.972172,
-        "change_24h": 13.01,
+        "price": 0.973864,
+        "change_24h": 12.15,
         "asset": "crypto"
       },
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 28.45,
-        "change_24h": 12.91,
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.275948,
+        "change_24h": 12.08,
         "asset": "crypto"
       },
       {
-        "symbol": "APT",
-        "name": "Aptos",
-        "price": 0.760225,
-        "change_24h": 12.89,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.731388,
-        "change_24h": 12.84,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 3.81,
+        "change_24h": 11.62,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.622499,
-        "change_24h": -11.83,
+        "price": 0.622883,
+        "change_24h": -11.15,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
-        "price": 2.43,
-        "change_24h": -1.99,
+        "price": 2.41,
+        "change_24h": -2.8,
         "asset": "crypto"
       },
       {
         "symbol": "BDX",
         "name": "Beldex",
-        "price": 0.075505,
-        "change_24h": -1.26,
+        "price": 0.075518,
+        "change_24h": -1.24,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.218018,
-        "change_24h": -0.57,
+        "price": 0.214871,
+        "change_24h": -1.15,
         "asset": "crypto"
       },
       {
-        "symbol": "USDGO",
-        "name": "USDGO",
-        "price": 0.999851,
-        "change_24h": -0.08,
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.91,
+        "change_24h": -1.0,
         "asset": "crypto"
       }
     ]
