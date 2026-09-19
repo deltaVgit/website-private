@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T03:45:47Z",
+  "updated_at": "2026-09-19T04:00:52Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.070003,
-        "change_24h": 14.13,
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 0.985949,
+        "change_24h": 14.07,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "APT",
+        "name": "Aptos",
+        "price": 0.768004,
+        "change_24h": 13.63,
         "asset": "crypto"
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.038953,
-        "change_24h": 13.21,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 0.978855,
+        "price": 0.038908,
         "change_24h": 12.85,
         "asset": "crypto"
       },
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 28.22,
-        "change_24h": 12.29,
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.070158,
+        "change_24h": 12.57,
         "asset": "crypto"
       },
       {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.734072,
-        "change_24h": 11.82,
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.278821,
+        "change_24h": 12.12,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.61177,
-        "change_24h": -12.23,
+        "price": 0.61049,
+        "change_24h": -11.6,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.21126,
-        "change_24h": -5.16,
+        "price": 0.212692,
+        "change_24h": -5.79,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
         "price": 2.41,
-        "change_24h": -3.11,
+        "change_24h": -3.01,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.93,
-        "change_24h": -2.3,
+        "price": 4.9,
+        "change_24h": -2.48,
         "asset": "crypto"
       },
       {
-        "symbol": "BDX",
-        "name": "Beldex",
-        "price": 0.075586,
-        "change_24h": -1.21,
+        "symbol": "WLFI",
+        "name": "World Liberty Financial",
+        "price": 0.058627,
+        "change_24h": -0.31,
         "asset": "crypto"
       }
     ]
