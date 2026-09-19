@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T23:34:38Z",
+  "updatedAt": "2026-09-19T00:04:52Z",
   "kev": [
     {
       "cve": "CVE-2025-39964",
@@ -130,74 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-44756",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "description": "A memory safety vulnerability exists in the Extended Passport Protocol (EPP) processing library. Under specific conditions, an unauthenticated attacker could exploit a crafted network request containing a malformed EPP h",
-      "published": "2026-09-08T01:17:30.840"
-    },
-    {
-      "id": "CVE-2026-86510",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "description": "A vulnerability has been found in D-Link DIR-822A A_101. Affected is the function tunnel_set_params of the component L2TP Control Message Parser. Such manipulation leads to out-of-bounds write. The attack can be launched",
-      "published": "2026-09-08T02:17:28.357"
-    },
-    {
-      "id": "CVE-2026-58240",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "SAP NetWeaver Message Server does not sufficiently validate the authenticity of internal application server components during registration. An unauthenticated attacker with network access to the affected service could ex",
-      "published": "2026-09-08T01:17:51.080"
-    },
-    {
-      "id": "CVE-2026-86509",
+      "id": "CVE-2026-87464",
       "severity": "CRITICAL",
       "score": 9.6,
-      "description": "A flaw has been found in D-Link DIR-895L A1_102b07. This impacts the function sendOffer/sendACK of the file udhcpcd/serverpacket.c of the component udhcpcd. This manipulation causes stack-based buffer overflow. The attac",
-      "published": "2026-09-08T01:17:55.947"
+      "description": "Use after free in WebGL in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)",
+      "published": "2026-09-09T01:17:02.907"
     },
     {
-      "id": "CVE-2026-76969",
+      "id": "CVE-2026-87455",
       "severity": "CRITICAL",
-      "score": 9.4,
-      "description": "@sap/cds-mtxs NPM library does not perform sufficient checks on certain functionality used in multitenant CAP applications with extensibility enabled. An unauthenticated attacker could send specially crafted requests to ",
-      "published": "2026-09-08T01:17:55.407"
+      "score": 9.6,
+      "description": "Use after free in Aura in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+      "published": "2026-09-09T01:17:01.883"
     },
     {
-      "id": "CVE-2026-66768",
+      "id": "CVE-2026-87448",
       "severity": "CRITICAL",
-      "score": 9.0,
-      "description": "SAP GUI for Java does not correctly enforce the trust level policy for certain functions invoked from a connected backend system. A low-privileged attacker could exploit this weakness by manipulating a connected backend ",
-      "published": "2026-09-08T01:17:52.113"
+      "score": 9.6,
+      "description": "Use after free in DevTools in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Low)",
+      "published": "2026-09-09T01:17:01.113"
     },
     {
-      "id": "CVE-2026-76958",
-      "severity": "HIGH",
-      "score": 8.5,
-      "description": "SAP Integration Suite does not sufficiently validate XML documents accepted from untrusted sources in certain internal components. An attacker with low privileges could submit specially crafted XML payloads containing ma",
-      "published": "2026-09-08T01:17:54.430"
+      "id": "CVE-2026-87438",
+      "severity": "CRITICAL",
+      "score": 9.6,
+      "description": "Out of bounds write in WebGL in Google Chrome on on Android prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)",
+      "published": "2026-09-09T01:17:00.027"
     },
     {
-      "id": "CVE-2026-76967",
-      "severity": "HIGH",
-      "score": 7.8,
-      "description": "SAP NetWeaver Business Client does not perform sufficient validation when processing certain locally stored data during application startup. An attacker with low privileges on the local system could replace this data wit",
-      "published": "2026-09-08T01:17:55.170"
+      "id": "CVE-2026-53939",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "description": "OpenIDC/cjose is a C library implementing the Javascript Object Signing and Encryption (JOSE). In versions 0.6.1 through 0.6.2.5, when cjose encrypts a JWE using an AES-CBC-HMAC content-encryption algorithm (`A128CBC-HS2",
+      "published": "2026-09-09T00:17:31.700"
     },
     {
-      "id": "CVE-2026-19397",
+      "id": "CVE-2026-87460",
       "severity": "HIGH",
-      "score": 7.7,
-      "description": "Missing authentication for a critical function in ASUS Control Center Express Agent allows an unauthenticated nearby user to control the host via a direct connection to the agent when the host has an active login session",
-      "published": "2026-09-08T03:17:18.507"
+      "score": 8.8,
+      "description": "Use after free in Platform in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "published": "2026-09-09T01:17:02.460"
     },
     {
-      "id": "CVE-2026-66767",
+      "id": "CVE-2026-87444",
       "severity": "HIGH",
-      "score": 7.7,
-      "description": "SAP NetWeaver Application Server for ABAP and ABAP Platform allows an unauthenticated user to send a specially crafted packet that triggers reprocessing of a previously buffered user request, potentially hijacking anothe",
-      "published": "2026-09-08T01:17:51.987"
+      "score": 8.8,
+      "description": "Memory corruption in Codecs in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "published": "2026-09-09T01:17:00.677"
+    },
+    {
+      "id": "CVE-2026-87440",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "Out of bounds read in Media in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "published": "2026-09-09T01:17:00.240"
+    },
+    {
+      "id": "CVE-2026-87433",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "Race condition in FileAPI in Google Chrome prior to 153.0.8010.36 allowed a remote attacker who had compromised the renderer process to bypass site isolation via a crafted HTML page. (Chromium security severity: Medium)",
+      "published": "2026-09-09T01:16:59.450"
+    },
+    {
+      "id": "CVE-2026-87430",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "Buffer overflow in WebRTC in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to potentially execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Low)",
+      "published": "2026-09-09T01:16:59.130"
+    },
+    {
+      "id": "CVE-2026-87457",
+      "severity": "HIGH",
+      "score": 8.1,
+      "description": "Race condition in Updater in Google Chrome on on Windows prior to 153.0.8010.36 allowed a local attacker to execute arbitrary code outside the sandbox via a local program. (Chromium security severity: Medium)",
+      "published": "2026-09-09T01:17:02.107"
+    },
+    {
+      "id": "CVE-2026-87450",
+      "severity": "HIGH",
+      "score": 7.5,
+      "description": "Incorrect authorization in Permissions in Google Chrome prior to 153.0.8010.36 allowed a remote attacker leveraging social engineering to obtain sensitive information via a crafted Chrome extension. (Chromium security se",
+      "published": "2026-09-09T01:17:01.340"
     }
   ],
   "breaches": [
