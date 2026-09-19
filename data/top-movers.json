@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T12:45:55Z",
+  "updated_at": "2026-09-19T13:01:01Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "VET",
-        "name": "VeChain",
-        "price": 0.008668,
-        "change_24h": 14.92,
-        "asset": "crypto"
-      },
-      {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price": 9.18,
-        "change_24h": 14.56,
+        "price": 9.31,
+        "change_24h": 16.39,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.31309,
-        "change_24h": 14.26,
+        "price": 0.31314,
+        "change_24h": 14.97,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VET",
+        "name": "VeChain",
+        "price": 0.008644,
+        "change_24h": 14.51,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 0.986049,
+        "change_24h": 14.29,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.73,
-        "change_24h": 13.04,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 583.53,
-        "change_24h": 9.31,
+        "change_24h": 11.98,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.595278,
-        "change_24h": -11.75,
+        "price": 0.578938,
+        "change_24h": -14.04,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.431029,
-        "change_24h": -3.06,
+        "price": 0.431505,
+        "change_24h": -1.88,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004171,
-        "change_24h": -1.55,
+        "price": 0.00415,
+        "change_24h": -1.65,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.11647,
-        "change_24h": -1.29,
+        "price": 0.116213,
+        "change_24h": -1.59,
         "asset": "crypto"
       },
       {
-        "symbol": "CAKE",
-        "name": "PancakeSwap",
-        "price": 2.44,
-        "change_24h": -1.1,
+        "symbol": "DOT",
+        "name": "Polkadot",
+        "price": 1.13,
+        "change_24h": -0.79,
         "asset": "crypto"
       }
     ]
