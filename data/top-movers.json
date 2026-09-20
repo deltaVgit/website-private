@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T04:45:28Z",
+  "updated_at": "2026-09-20T05:00:33Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.7,
-        "change_24h": 32.02,
-        "asset": "crypto"
-      },
-      {
         "symbol": "AVAX",
         "name": "Avalanche",
         "price": 9.62,
-        "change_24h": 14.65,
+        "change_24h": 14.48,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "price": 0.321282,
+        "change_24h": 13.92,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.197282,
-        "change_24h": 12.37,
+        "price": 0.19776,
+        "change_24h": 13.42,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 7.62,
-        "change_24h": 12.22,
+        "price": 7.58,
+        "change_24h": 9.9,
         "asset": "crypto"
       },
       {
-        "symbol": "ALGO",
-        "name": "Algorand",
-        "price": 0.102496,
-        "change_24h": 5.86,
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price": 4e-06,
+        "change_24h": 6.16,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 527.16,
-        "change_24h": -7.38,
-        "asset": "crypto"
-      },
-      {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.57,
-        "change_24h": -6.47,
+        "change_24h": -7.56,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 526.36,
+        "change_24h": -6.61,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "APT",
+        "name": "Aptos",
+        "price": 0.725302,
+        "change_24h": -6.2,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 57.08,
-        "change_24h": -6.21,
+        "price": 57.21,
+        "change_24h": -5.91,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.105537,
-        "change_24h": -5.46,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 3.49,
-        "change_24h": -5.09,
+        "price": 0.105522,
+        "change_24h": -5.48,
         "asset": "crypto"
       }
     ]
