@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T23:34:59Z",
+  "updatedAt": "2026-09-20T00:05:13Z",
   "kev": [
     {
       "cve": "CVE-2025-39964",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-87464",
+      "id": "CVE-2026-19583",
       "severity": "CRITICAL",
-      "score": 9.6,
-      "description": "Use after free in WebGL in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)",
-      "published": "2026-09-09T01:17:02.907"
+      "score": 9.9,
+      "description": "Velociraptor allows some sensitive artifacts to be gated by additional permissions. For example, the Linux.Sys.BashShell artifact allows arbitrary command execution on endpoints, and so it requires the EXECVE permission ",
+      "published": "2026-09-10T03:16:59.010"
     },
     {
-      "id": "CVE-2026-87455",
+      "id": "CVE-2026-57967",
       "severity": "CRITICAL",
-      "score": 9.6,
-      "description": "Use after free in Aura in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
-      "published": "2026-09-09T01:17:01.883"
+      "score": 9.8,
+      "description": "An unauthenticated remote attacker can craft a CORE protocol SESSION_REATTACH packet to steal an existing session and assume ongoing execution of the previously authenticated session. This issue affects Apache Artemis: f",
+      "published": "2026-09-10T05:17:01.443"
     },
     {
-      "id": "CVE-2026-87448",
+      "id": "CVE-2026-18351",
       "severity": "CRITICAL",
-      "score": 9.6,
-      "description": "Use after free in DevTools in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Low)",
-      "published": "2026-09-09T01:17:01.113"
+      "score": 9.8,
+      "description": "The Drag and Drop File Upload for Elementor Forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.6.0 via the elementor_file_upload function. This is due to insufficien",
+      "published": "2026-09-10T02:16:34.180"
     },
     {
-      "id": "CVE-2026-87438",
+      "id": "CVE-2026-87931",
       "severity": "CRITICAL",
       "score": 9.6,
-      "description": "Out of bounds write in WebGL in Google Chrome on on Android prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)",
-      "published": "2026-09-09T01:17:00.027"
+      "description": "A vulnerability has been found in Behavioral Technology Group Pavlok Behavioral Conditioning Wearable up to 20260707. Impacted is an unknown function of the component Apple Notification Center Service Event Handler. The ",
+      "published": "2026-09-10T00:17:24.737"
     },
     {
-      "id": "CVE-2026-53939",
+      "id": "CVE-2026-84939",
       "severity": "CRITICAL",
       "score": 9.1,
-      "description": "OpenIDC/cjose is a C library implementing the Javascript Object Signing and Encryption (JOSE). In versions 0.6.1 through 0.6.2.5, when cjose encrypts a JWE using an AES-CBC-HMAC content-encryption algorithm (`A128CBC-HS2",
-      "published": "2026-09-09T00:17:31.700"
+      "description": "Path traversal vulnerability in Apache FreeMarker template loading mechanism, if the attacker can specify an arbitrary malformed locale identifier to FreeMarker, and the localized lookup configuration setting is enabled ",
+      "published": "2026-09-10T06:17:06.460"
     },
     {
-      "id": "CVE-2026-87460",
+      "id": "CVE-2026-67593",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "description": "A remote attacker can craft an Openwire RemoveSubscriptionInfo command to cause the deletion of a queue on the Artemis broker before the connection authentication and authorization stage or at any time thereafter. This i",
+      "published": "2026-09-10T05:17:01.560"
+    },
+    {
+      "id": "CVE-2026-49364",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "description": "An unauthenticated network-adjacent attacker can leverage discovery to capture cluster administrative credentials during the initial cluster connection handshake. This issue affects Apache Artemis: from 2.50.0 through 2.",
+      "published": "2026-09-10T05:17:01.230"
+    },
+    {
+      "id": "CVE-2026-84063",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "Use after free in Platform in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
-      "published": "2026-09-09T01:17:02.460"
+      "score": 8.5,
+      "description": "BurgerEditor 3.2.0 through 3.4.0 contains an issue with unrestricted upload of file with dangerous type. If this vulnerability is exploited, an arbitrary file may be uploaded by an attacker who can log in to the product,",
+      "published": "2026-09-10T03:17:00.370"
     },
     {
-      "id": "CVE-2026-87444",
+      "id": "CVE-2026-82079",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "Memory corruption in Codecs in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
-      "published": "2026-09-09T01:17:00.677"
+      "score": 8.4,
+      "description": "A stack-based buffer overflow vulnerability in the Nintendo Switch local wireless networking functionality may allow an attacker within wireless range to execute arbitrary code using return-oriented programming (ROP) thr",
+      "published": "2026-09-10T06:17:06.330"
     },
     {
-      "id": "CVE-2026-87440",
+      "id": "CVE-2026-14873",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "Out of bounds read in Media in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
-      "published": "2026-09-09T01:17:00.240"
+      "score": 8.0,
+      "description": "The Bulk Password Reset plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 1.3.3. This is due to the plugin not properly validating a user's identity pri",
+      "published": "2026-09-10T04:17:45.480"
     },
     {
-      "id": "CVE-2026-87433",
+      "id": "CVE-2026-19584",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "Race condition in FileAPI in Google Chrome prior to 153.0.8010.36 allowed a remote attacker who had compromised the renderer process to bypass site isolation via a crafted HTML page. (Chromium security severity: Medium)",
-      "published": "2026-09-09T01:16:59.450"
+      "score": 7.7,
+      "description": "Velociraptor allows for the creation of notebook backups in its default enabled daily backup feature. When Velociraptor restores the backup, the notebook cell content is interpolated into a template with no ACL checks. T",
+      "published": "2026-09-10T03:17:00.063"
     },
     {
-      "id": "CVE-2026-87430",
-      "severity": "HIGH",
-      "score": 8.8,
-      "description": "Buffer overflow in WebRTC in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to potentially execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Low)",
-      "published": "2026-09-09T01:16:59.130"
-    },
-    {
-      "id": "CVE-2026-87457",
-      "severity": "HIGH",
-      "score": 8.1,
-      "description": "Race condition in Updater in Google Chrome on on Windows prior to 153.0.8010.36 allowed a local attacker to execute arbitrary code outside the sandbox via a local program. (Chromium security severity: Medium)",
-      "published": "2026-09-09T01:17:02.107"
-    },
-    {
-      "id": "CVE-2026-87450",
+      "id": "CVE-2026-19439",
       "severity": "HIGH",
       "score": 7.5,
-      "description": "Incorrect authorization in Permissions in Google Chrome prior to 153.0.8010.36 allowed a remote attacker leveraging social engineering to obtain sensitive information via a crafted Chrome extension. (Chromium security se",
-      "published": "2026-09-09T01:17:01.340"
+      "description": "The Ultimate Gift Cards for WooCommerce WordPress plugin before 3.2.10 does not have any authorisation check when displaying gift card details, allowing unauthenticated users to retrieve the gift cards attached to arbitr",
+      "published": "2026-09-10T07:17:02.730"
     }
   ],
   "breaches": [
