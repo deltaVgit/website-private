@@ -787,7 +787,7 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
             [
               L('**Plugin**'),
               L('Extra UI inside Hermes Desktop'),
-              L('You enable Desktop extras'),
+              L('You enable plugins under Capabilities'),
             ],
             [
               L('**MCP**'),
@@ -813,7 +813,7 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
           },
           {
             term: L('Plugin'),
-            body: L('Optional Desktop add-on (extra UI or product feature). Not required to finish Part I.'),
+            body: L('Optional Desktop add-on (extra UI or product feature). Current Desktop lists them under **Capabilities**, with a catalog for one-click installs. Not required to finish Part I.'),
             remember: L('Plugin = Desktop extra (later).'),
           },
           {
@@ -1173,8 +1173,8 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
             'With the key in place, pick the model. Type `free` in the model search and Hermes filters to the routes that cost nothing — OpenCode Zen and OpenRouter both publish several. Take one and get a reply. OpenRouter and OpenCode are **not exclusive**: add both if you like, and the free models from each show up side by side in this list. More routes means more to fall back on when one is busy.',
           ) },
           { k: 'image', src: '/courses/open-harness/screenshots/hermes-free-models.jpg', width: 1280, height: 692,
-            alt: L('The Hermes model picker filtered by the word “free”, listing free models grouped under OpenCode Zen (Deepseek V4 Flash, Mimo V2.5, Hy3, Ling 3.0 Tiny, Nemotron 3 Ultra, Nemotron 3.5 Lightning, Laguna S 2.1, North Mini Code) and under OpenRouter (Nemotron 3 Super 120b, Nemotron 3 Ultra 550b).'),
-            caption: L('Search **free** to filter the list. Free models rotate and rate-limit — if one is busy, take another from this list rather than abandoning the setup.'),
+            alt: L('The Hermes model picker filtered by the word “free”, listing free models grouped under OpenCode Zen (Deepseek V4 Flash, Mimo V2.5, Hy3, Ling 3.0 Tiny, Nemotron 3 Ultra, Nemotron 3.5 Lightning, Laguna S 2.1, North Mini Code) and under OpenRouter (Nemotron 3 Super 120b, Nemotron 3 Ultra 550b). Screenshot from August 2026 — the free lineup rotates constantly, so yours will differ.'),
+            caption: L('Search **free** to filter the list. Free models rotate and rate-limit — this screenshot shows an older lineup; pick whatever is free on the day, and if one is busy, take another rather than abandoning the setup.'),
           },
           { k: 'links', items: [
           { label: L('Hermes providers docs'), href: HERMES_PROVIDERS_DOCS },
@@ -1613,6 +1613,10 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
             'One habit that quietly multiplies your bill: switching models mid-session. Every switch invalidates the prompt cache on the model you switch to, and you repay the full input-token price for everything already loaded — tools, skills, memory, history. Not a Hermes quirk; a fundamental of inference. Pick a model per session and stay on it; route side tasks to auxiliary models instead.',
             'Une habitude qui multiplie discrètement la facture : changer de modèle en pleine session. Chaque bascule invalide le cache de prompt du modèle d’arrivée, et vous repayez plein tarif les tokens d’entrée pour tout ce qui est déjà chargé — outils, skills, mémoire, historique. Ce n’est pas une bizarrerie d’Hermes ; c’est un fondamental de l’inférence. Choisissez un modèle par session et gardez-le ; confiez plutôt les tâches annexes aux modèles auxiliaires.',
           ) },
+          { k: 'callout', variant: 'note', text: L(
+            'Isolation is cost control: every message resends the whole conversation, so long threads get expensive and degrade. New task → new session. Stuck in a long thread anyway? The **timeline rail** — slim markers along the transcript edge, one per prompt — jumps back to any prompt without endless scrolling.',
+            'L’isolement maîtrise le coût : chaque message renvoie toute la conversation, donc les longs fils deviennent chers et se dégradent. Nouvelle tâche → nouvelle session. Pris dans un long fil ? Le **rail temporel** — une série de marqueurs le long du fil, un par prompt — remonte à n’importe quel prompt sans défilement interminable.',
+          ) },
           { k: 'tweet', id: '2081381590488568218', author: '@witcheer',
             href: 'https://x.com/witcheer/status/2081381590488568218',
             caption: L('`hermes prompt-size` prints the fixed budget of a fresh session — note that tool schemas are the bigger half, and that it runs offline with no API call.'),
@@ -1641,6 +1645,10 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
           ] },
           { k: 'p', text: L(
             'Read the approval prompt once. Approve official opt-out forms and writes inside the folder you named. Deny deletes, anything that wanders off, and any attempt to attach an identity document.',
+          ) },
+          { k: 'p', text: L(
+            'While the agent works, you can still steer it: typing and pressing **Enter** mid-turn sends guidance it folds in without stopping, and **Ctrl+Enter** queues a message to run after the current turn. Fewer interrupts mean fewer wasted tokens and fewer rate-limit restarts — exactly what free models reward.',
+            'Pendant que l’agent travaille, vous pouvez toujours le guider : taper puis valider avec **Entrée** en plein tour envoie une consigne qu’il intègre sans s’arrêter, et **Ctrl+Entrée** met un message en file pour après le tour en cours. Moins d’interruptions, c’est moins de tokens gaspillés et moins de redémarrages liés aux limites de débit — exactement ce que les modèles gratuits récompensent.',
           ) },
           { k: 'callout', variant: 'warning', text: L(
             'You only run this on **yourself**. The engine refuses to plan without recorded consent. Not legal advice. This course does **not** connect an email account: the agent submits **web forms** in the browser; anything that is a letter is a `.txt` draft **you** send from your own mailbox. Credit bureaus that demand an ID (CRIF, SCHUFA, Experian…) stay in the digest.',
@@ -1896,7 +1904,7 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
           { k: 'callout', variant: 'warning', text: L(
             'The one way to fool yourself here: if you do not **fully close** the chat, the fact is still on screen and the agent will repeat it back without ever reading the file. A half-closed session always passes. Close it properly.',
           ) },
-          { k: 'steps', id: '5-steps', items: [{ title: L('Tell the agent: “Remember that project codename is HARNESS-01 and I prefer short answers.”') }, { title: L('Ask it to write that to durable memory.') }, { title: L('Open `MEMORY.md` / `USER.md` on disk and check the lines are really there.') }, { title: L('Fully close the chat. Open a new one. Ask: “What is my project codename and answer length preference?”') }] },
+          { k: 'steps', id: '5-steps', items: [{ title: L('Tell the agent: “Remember that project codename is HARNESS-01 and I prefer short answers.”') }, { title: L('Ask it to write that to durable memory.') }, { title: L('Open `MEMORY.md` / `USER.md` on disk and check the lines are really there.') }, { title: L('Fully close the chat. Open a new one. Ask: “What is my project codename and answer length preference?”') }, { title: L('Desktop: press **Ctrl+K**, open **Memory Graph**, and find the fact you just wrote. The graph shows exactly what a brand-new chat will load — if it is not in there, it does not exist.') }] },
           { k: 'links', items: [
           { label: L('Memory system'), href: 'https://hermes-agent.nousresearch.com/docs/user-guide/features/memory' },
         ] },
@@ -2114,6 +2122,10 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
           ] },
           { k: 'callout', variant: 'warning', text: L(
             'A skill is instructions your agent will follow with your tools on your machine. Treat one from a stranger the way you would treat a shell script from a stranger — read it, or do not install it.',
+          ) },
+          { k: 'callout', variant: 'note', text: L(
+            'Skills teach the **agent**; plugins extend the **app**. Both have catalogs now — skills via the hub, Desktop plugins under **Capabilities** with one-click installs from the [plugin catalog](https://hermes-agent.nousresearch.com/docs/user-guide/features/plugin-catalog). Same trust rule for both: read before you install.',
+            'Les skills enseignent à l’**agent** ; les plugins étendent l’**application**. Les deux ont désormais un catalogue — les skills via le hub, les plugins Desktop sous **Capabilities** avec installation en un clic depuis le [catalogue de plugins](https://hermes-agent.nousresearch.com/docs/user-guide/features/plugin-catalog). Même règle de confiance pour les deux : lisez avant d’installer.',
           ) },
         ],
       },
@@ -2500,6 +2512,7 @@ export const OPEN_HARNESS_MODULES: CourseModule[] = [
           { k: 'links', items: [
           { label: L('Hermes docs home'), href: 'https://hermes-agent.nousresearch.com/docs/' },
           { label: L('Docs index (llms.txt)'), href: 'https://hermes-agent.nousresearch.com/docs/llms.txt' },
+          { label: L('Hermes Desktop Masterclass (video)'), href: 'https://www.youtube.com/playlist?list=PLJyLffobY7XU' },
           { label: L('Harness Labs (after mastery)'), href: '/forge/course/my-first-ai-agent/labs/' },
           { label: L('Open Design'), href: '/forge/course/open-design/' },
           { label: L('Sample gallery'), href: '/courses/open-harness/samples/README.md' },
