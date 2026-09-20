@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T11:00:39Z",
+  "updated_at": "2026-09-20T11:15:44Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -89,66 +89,66 @@
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.203943,
-        "change_24h": 6.91,
+        "price": 0.20299,
+        "change_24h": 6.36,
         "asset": "crypto"
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price": 9.77,
-        "change_24h": 6.85,
+        "price": 9.8,
+        "change_24h": 6.23,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.314166,
-        "change_24h": 4.8,
+        "price": 0.316541,
+        "change_24h": 4.55,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 7.77,
-        "change_24h": 3.93,
+        "price": 7.78,
+        "change_24h": 4.29,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.68,
+        "change_24h": -10.93,
+        "asset": "crypto"
+      },
+      {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 521.77,
-        "change_24h": -10.98,
+        "price": 520.73,
+        "change_24h": -10.84,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.49,
-        "change_24h": -10.55,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.69,
-        "change_24h": -10.5,
+        "change_24h": -9.73,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 55.73,
-        "change_24h": -7.33,
+        "price": 55.81,
+        "change_24h": -7.79,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 249.15,
-        "change_24h": -6.8,
+        "price": 249.92,
+        "change_24h": -7.6,
         "asset": "crypto"
       }
     ]
