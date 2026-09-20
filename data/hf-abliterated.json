@@ -227,7 +227,7 @@
         "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
         "author": "huihui-ai",
-        "likes": 803,
+        "likes": 804,
         "downloads": 2832383,
         "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "lastModified": "2026-09-18T03:12:46.000Z",
@@ -297,7 +297,7 @@
         "downloads": 1483343,
         "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "lastModified": "2026-09-16T23:59:50.000Z",
-        "daysAgo": 2,
+        "daysAgo": 3,
         "pipeline": "image-text-to-text",
         "tags": [
           "gguf",
@@ -314,11 +314,11 @@
         "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 957,
+        "likes": 958,
         "downloads": 1256962,
         "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "lastModified": "2026-09-16T23:56:33.000Z",
-        "daysAgo": 2,
+        "daysAgo": 3,
         "pipeline": "image-text-to-text",
         "tags": [
           "gguf",
@@ -338,7 +338,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
       "author": "huihui-ai",
-      "likes": 803,
+      "likes": 804,
       "downloads": 2832383,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "lastModified": "2026-09-18T03:12:46.000Z",
@@ -357,6 +357,30 @@
       "pop": 1.0,
       "rec": 0.9677,
       "combo": 0.9887
+    },
+    {
+      "id": "windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF",
+      "name": "Qwen3.8-Flash-Next-Abliterated-GGUF",
+      "author": "windowsxp811203",
+      "likes": 6,
+      "downloads": 143234,
+      "url": "https://huggingface.co/windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF",
+      "lastModified": "2026-09-17T07:43:08.000Z",
+      "daysAgo": 2,
+      "pipeline": "text-generation",
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "abliterated",
+        "uncensored",
+        "qwen4_exp",
+        "qwen3.8",
+        "flash-next",
+        "moe"
+      ],
+      "pop": 0.7991,
+      "rec": 0.9375,
+      "combo": 0.8476
     },
     {
       "id": "soyaakinohara/qwen3.8-27b-abliterated-3.69bpw-12GB-MTP.gguf",
@@ -429,30 +453,6 @@
       "pop": 0.8111,
       "rec": 0.7692,
       "combo": 0.7965
-    },
-    {
-      "id": "audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF",
-      "name": "DeepSeek-V4.1-Flash-Abliterated-GGUF",
-      "author": "audreyt",
-      "likes": 4,
-      "downloads": 63201,
-      "url": "https://huggingface.co/audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF",
-      "lastModified": "2026-09-13T13:03:58.000Z",
-      "daysAgo": 6,
-      "pipeline": "",
-      "tags": [
-        "gguf",
-        "deepseek",
-        "deepseek_v41",
-        "abliterated",
-        "uncensored",
-        "iq2_xxs",
-        "q2_k",
-        "moe"
-      ],
-      "pop": 0.7441,
-      "rec": 0.8333,
-      "combo": 0.7753
     },
     {
       "id": "BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF",
@@ -530,7 +530,7 @@
       "id": "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
       "name": "Qwen3.8-27B-ABLITERATED-GGUF",
       "author": "Blackfrost-AI",
-      "likes": 238,
+      "likes": 239,
       "downloads": 171929,
       "url": "https://huggingface.co/Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
       "lastModified": "2026-08-22T17:50:05.000Z",
@@ -624,5 +624,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-19T23:34:48Z"
+  "updated": "2026-09-20T00:04:59Z"
 }
