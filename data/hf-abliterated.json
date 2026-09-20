@@ -181,7 +181,7 @@
         "id": "ponpoke/ERNIE-Image-Abliterated-GGUF",
         "name": "ERNIE-Image-Abliterated-GGUF",
         "author": "ponpoke",
-        "likes": 26,
+        "likes": 27,
         "downloads": 1347,
         "url": "https://huggingface.co/ponpoke/ERNIE-Image-Abliterated-GGUF",
         "lastModified": "2026-05-02T19:22:15.000Z",
@@ -205,10 +205,10 @@
         "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
         "name": "Qwen-Image-2.1-Uncensored-GGUF",
         "author": "abenzerps",
-        "likes": 28,
+        "likes": 44,
         "downloads": 0,
         "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-        "lastModified": "2026-09-20T17:58:13.000Z",
+        "lastModified": "2026-09-20T20:13:39.000Z",
         "daysAgo": 0,
         "pipeline": "text-to-image",
         "tags": [
@@ -228,7 +228,7 @@
         "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
         "author": "huihui-ai",
-        "likes": 818,
+        "likes": 819,
         "downloads": 2623928,
         "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "lastModified": "2026-09-20T16:46:47.000Z",
@@ -315,7 +315,7 @@
         "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 997,
+        "likes": 998,
         "downloads": 1301417,
         "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "lastModified": "2026-09-16T23:56:33.000Z",
@@ -339,7 +339,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
       "author": "huihui-ai",
-      "likes": 818,
+      "likes": 819,
       "downloads": 2623928,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "lastModified": "2026-09-20T16:46:47.000Z",
@@ -382,6 +382,30 @@
       "pop": 0.9736,
       "rec": 1.0,
       "combo": 0.9829
+    },
+    {
+      "id": "windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF",
+      "name": "Qwen3.8-Flash-Next-Abliterated-GGUF",
+      "author": "windowsxp811203",
+      "likes": 6,
+      "downloads": 146542,
+      "url": "https://huggingface.co/windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF",
+      "lastModified": "2026-09-17T07:43:08.000Z",
+      "daysAgo": 3,
+      "pipeline": "text-generation",
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "abliterated",
+        "uncensored",
+        "qwen4_exp",
+        "qwen3.8",
+        "flash-next",
+        "moe"
+      ],
+      "pop": 0.8048,
+      "rec": 0.9091,
+      "combo": 0.8413
     },
     {
       "id": "soyaakinohara/qwen3.8-27b-abliterated-3.69bpw-12GB-MTP.gguf",
@@ -459,7 +483,7 @@
       "id": "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
       "name": "Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
       "author": "huihui-ai",
-      "likes": 79,
+      "likes": 80,
       "downloads": 76672,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
       "lastModified": "2026-09-06T09:25:03.000Z",
@@ -598,32 +622,8 @@
       "pop": 0.5556,
       "rec": 0.9677,
       "combo": 0.6998
-    },
-    {
-      "id": "Hikari07jp/Ternary-Bonsai-2-27B-Abliterated-GGUF",
-      "name": "Ternary-Bonsai-2-27B-Abliterated-GGUF",
-      "author": "Hikari07jp",
-      "likes": 19,
-      "downloads": 4603,
-      "url": "https://huggingface.co/Hikari07jp/Ternary-Bonsai-2-27B-Abliterated-GGUF",
-      "lastModified": "2026-09-18T10:58:23.000Z",
-      "daysAgo": 2,
-      "pipeline": "text-generation",
-      "tags": [
-        "llama.cpp",
-        "gguf",
-        "ternary",
-        "2-bit",
-        "llama-cpp",
-        "abliterated",
-        "uncensored",
-        "prismml"
-      ],
-      "pop": 0.5707,
-      "rec": 0.9375,
-      "combo": 0.6991
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-20T20:04:43Z"
+  "updated": "2026-09-20T21:04:47Z"
 }
