@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T01:15:16Z",
+  "updated_at": "2026-09-20T01:30:20Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price": 9.94,
-        "change_24h": 19.32,
+        "price": 9.95,
+        "change_24h": 19.49,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.319147,
-        "change_24h": 12.71,
+        "price": 0.320609,
+        "change_24h": 13.35,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.10937,
-        "change_24h": 11.35,
+        "price": 0.109904,
+        "change_24h": 11.74,
         "asset": "crypto"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.00862,
-        "change_24h": 9.89,
+        "price": 0.008677,
+        "change_24h": 11.1,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": 6.95,
+        "change_24h": 8.06,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.201791,
-        "change_24h": -7.34,
-        "asset": "crypto"
-      },
-      {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 58.25,
-        "change_24h": -7.2,
+        "price": 58.32,
+        "change_24h": -7.49,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1470.98,
-        "change_24h": -6.65,
+        "price": 1467.28,
+        "change_24h": -7.21,
         "asset": "crypto"
       },
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 26.03,
-        "change_24h": -6.08,
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 542.03,
+        "change_24h": -6.61,
         "asset": "crypto"
       },
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.595303,
-        "change_24h": -5.91,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 3.56,
+        "change_24h": -6.01,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.205339,
+        "change_24h": -5.74,
         "asset": "crypto"
       }
     ]
