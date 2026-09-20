@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T10:00:27Z",
+  "updated_at": "2026-09-20T10:15:23Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price": 9.83,
-        "change_24h": 9.25,
+        "price": 9.75,
+        "change_24h": 8.23,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.316503,
-        "change_24h": 8.62,
+        "price": 0.313048,
+        "change_24h": 6.97,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ALGO",
+        "name": "Algorand",
+        "price": 0.102082,
+        "change_24h": 4.64,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price": 4e-06,
+        "change_24h": 4.16,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.204833,
-        "change_24h": 7.62,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.36,
-        "change_24h": 5.65,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "INJ",
-        "name": "Injective",
-        "price": 7.88,
-        "change_24h": 5.09,
+        "price": 0.201273,
+        "change_24h": 3.82,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.51,
-        "change_24h": -10.53,
+        "price": 2.5,
+        "change_24h": -10.73,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 524.79,
-        "change_24h": -8.92,
+        "price": 522.44,
+        "change_24h": -9.86,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.66,
-        "change_24h": -8.28,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1441.16,
-        "change_24h": -8.17,
+        "price": 4.64,
+        "change_24h": -8.99,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 56.14,
-        "change_24h": -7.58,
+        "price": 55.66,
+        "change_24h": -8.65,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1438.49,
+        "change_24h": -8.52,
         "asset": "crypto"
       }
     ]
