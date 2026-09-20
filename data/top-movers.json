@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T02:00:30Z",
+  "updated_at": "2026-09-20T02:15:35Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price": 9.77,
-        "change_24h": 12.44,
+        "price": 9.73,
+        "change_24h": 12.75,
         "asset": "crypto"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.008628,
-        "change_24h": 9.9,
+        "price": 0.008732,
+        "change_24h": 10.0,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ALGO",
+        "name": "Algorand",
+        "price": 0.107693,
+        "change_24h": 9.51,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": 8.57,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ALGO",
-        "name": "Algorand",
-        "price": 0.106908,
-        "change_24h": 7.65,
+        "change_24h": 7.7,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.28552,
-        "change_24h": 5.48,
+        "price": 0.284815,
+        "change_24h": 5.29,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 537.35,
-        "change_24h": -7.61,
-        "asset": "crypto"
-      },
-      {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 3.55,
-        "change_24h": -6.8,
+        "price": 3.58,
+        "change_24h": -7.36,
         "asset": "crypto"
       },
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.596933,
-        "change_24h": -6.55,
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 540.0,
+        "change_24h": -7.12,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 58.23,
-        "change_24h": -6.5,
+        "price": 58.38,
+        "change_24h": -7.0,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 26.76,
+        "change_24h": -6.4,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1469.63,
-        "change_24h": -5.38,
+        "price": 1468.5,
+        "change_24h": -5.84,
         "asset": "crypto"
       }
     ]
