@@ -205,10 +205,10 @@
         "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
         "name": "Qwen-Image-2.1-Uncensored-GGUF",
         "author": "abenzerps",
-        "likes": 73,
+        "likes": 74,
         "downloads": 0,
         "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-        "lastModified": "2026-09-20T20:13:39.000Z",
+        "lastModified": "2026-09-20T23:09:01.000Z",
         "daysAgo": 0,
         "pipeline": "text-to-image",
         "tags": [
@@ -273,7 +273,7 @@
         "id": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "name": "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1210,
+        "likes": 1211,
         "downloads": 1842501,
         "url": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-04-06T03:50:35.000Z",
@@ -294,7 +294,7 @@
         "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "name": "Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 745,
+        "likes": 746,
         "downloads": 1516725,
         "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "lastModified": "2026-09-16T23:59:50.000Z",
@@ -504,30 +504,6 @@
       "combo": 0.7333
     },
     {
-      "id": "BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PQ2_0-MTP-GGUF",
-      "name": "Ternary-Bonsai-2-27B-Abliterated-PQ2_0-MTP-GGUF",
-      "author": "BoldingBuilds",
-      "likes": 14,
-      "downloads": 5443,
-      "url": "https://huggingface.co/BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PQ2_0-MTP-GGUF",
-      "lastModified": "2026-09-18T23:06:57.000Z",
-      "daysAgo": 1,
-      "pipeline": "text-generation",
-      "tags": [
-        "gguf",
-        "qwen3_5",
-        "ternary",
-        "2-bit",
-        "abliterated",
-        "uncensored",
-        "mtp",
-        "speculative-decoding"
-      ],
-      "pop": 0.582,
-      "rec": 0.9677,
-      "combo": 0.717
-    },
-    {
       "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
       "name": "Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
       "author": "huihui-ai",
@@ -574,6 +550,30 @@
       "pop": 0.8142,
       "rec": 0.5085,
       "combo": 0.7072
+    },
+    {
+      "id": "BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PQ2_0-MTP-GGUF",
+      "name": "Ternary-Bonsai-2-27B-Abliterated-PQ2_0-MTP-GGUF",
+      "author": "BoldingBuilds",
+      "likes": 14,
+      "downloads": 5443,
+      "url": "https://huggingface.co/BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PQ2_0-MTP-GGUF",
+      "lastModified": "2026-09-18T23:06:57.000Z",
+      "daysAgo": 2,
+      "pipeline": "text-generation",
+      "tags": [
+        "gguf",
+        "qwen3_5",
+        "ternary",
+        "2-bit",
+        "abliterated",
+        "uncensored",
+        "mtp",
+        "speculative-decoding"
+      ],
+      "pop": 0.582,
+      "rec": 0.9375,
+      "combo": 0.7064
     },
     {
       "id": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-CyberTiel-Calibrated-MTPv2-ICE-GGUF",
@@ -625,5 +625,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-20T23:04:56Z"
+  "updated": "2026-09-20T23:35:07Z"
 }
