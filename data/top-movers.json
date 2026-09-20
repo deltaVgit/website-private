@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T15:30:20Z",
+  "updated_at": "2026-09-20T15:45:18Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price": 11.09,
-        "change_24h": 17.75,
+        "price": 11.23,
+        "change_24h": 19.48,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.111212,
-        "change_24h": 10.7,
+        "price": 0.112659,
+        "change_24h": 11.89,
         "asset": "crypto"
       },
       {
         "symbol": "HBAR",
         "name": "Hedera",
-        "price": 0.087349,
-        "change_24h": 7.77,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "INJ",
-        "name": "Injective",
-        "price": 7.82,
-        "change_24h": 5.97,
+        "price": 0.086645,
+        "change_24h": 6.61,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 3.74,
-        "change_24h": 4.96,
+        "price": 3.77,
+        "change_24h": 5.47,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 7.85,
+        "change_24h": 5.07,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.053706,
+        "change_24h": -13.07,
+        "asset": "crypto"
+      },
+      {
         "symbol": "LIT",
         "name": "Lighter",
         "price": 4.65,
-        "change_24h": -10.12,
+        "change_24h": -9.59,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 54.66,
-        "change_24h": -8.34,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "TAO",
-        "name": "Bittensor",
-        "price": 253.14,
-        "change_24h": -6.97,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.012987,
-        "change_24h": -6.79,
+        "price": 54.76,
+        "change_24h": -8.21,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.51,
-        "change_24h": -6.59,
+        "price": 2.52,
+        "change_24h": -7.04,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "price": 253.05,
+        "change_24h": -6.51,
         "asset": "crypto"
       }
     ]
