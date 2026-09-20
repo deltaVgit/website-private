@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T17:00:46Z",
+  "updated_at": "2026-09-20T17:15:51Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 4.27,
-        "change_24h": 18.71,
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price": 11.17,
+        "change_24h": 13.81,
         "asset": "crypto"
       },
       {
-        "symbol": "AVAX",
-        "name": "Avalanche",
-        "price": 11.29,
-        "change_24h": 16.52,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 4.13,
+        "change_24h": 13.49,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.112974,
-        "change_24h": 11.34,
+        "price": 0.112112,
+        "change_24h": 10.25,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.224619,
-        "change_24h": 9.59,
+        "price": 0.223633,
+        "change_24h": 9.38,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
-        "price": 1.72,
-        "change_24h": 8.63,
+        "price": 1.69,
+        "change_24h": 6.33,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 0.956934,
-        "change_24h": -10.45,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.056325,
-        "change_24h": -9.33,
+        "price": 0.949886,
+        "change_24h": -11.77,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
         "price": 4.78,
-        "change_24h": -6.82,
+        "change_24h": -6.95,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 56.65,
-        "change_24h": -5.17,
+        "price": 56.57,
+        "change_24h": -5.36,
         "asset": "crypto"
       },
       {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 542.48,
-        "change_24h": -4.77,
+        "symbol": "AAVE",
+        "name": "Aave",
+        "price": 136.54,
+        "change_24h": -4.96,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "MNT",
+        "name": "Mantle",
+        "price": 0.604288,
+        "change_24h": -4.75,
         "asset": "crypto"
       }
     ]
