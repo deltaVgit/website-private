@@ -317,7 +317,7 @@
         "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 985,
+        "likes": 986,
         "downloads": 1301417,
         "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "lastModified": "2026-09-16T23:56:33.000Z",
@@ -578,30 +578,6 @@
       "combo": 0.7103
     },
     {
-      "id": "Hikari07jp/Ternary-Bonsai-2-27B-Abliterated-GGUF",
-      "name": "Ternary-Bonsai-2-27B-Abliterated-GGUF",
-      "author": "Hikari07jp",
-      "likes": 19,
-      "downloads": 4603,
-      "url": "https://huggingface.co/Hikari07jp/Ternary-Bonsai-2-27B-Abliterated-GGUF",
-      "lastModified": "2026-09-18T10:58:23.000Z",
-      "daysAgo": 1,
-      "pipeline": "text-generation",
-      "tags": [
-        "llama.cpp",
-        "gguf",
-        "ternary",
-        "2-bit",
-        "llama-cpp",
-        "abliterated",
-        "uncensored",
-        "prismml"
-      ],
-      "pop": 0.5707,
-      "rec": 0.9677,
-      "combo": 0.7096
-    },
-    {
       "id": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-CyberTiel-Calibrated-MTPv2-ICE-GGUF",
       "name": "Ornith-1.5-35B-A3B-Abliterated-CyberTiel-Calibrated-MTPv2-ICE-GGUF",
       "author": "gbuzhf",
@@ -624,8 +600,32 @@
       "pop": 0.6429,
       "rec": 0.8333,
       "combo": 0.7096
+    },
+    {
+      "id": "Hikari07jp/Ternary-Bonsai-2-27B-Abliterated-GGUF",
+      "name": "Ternary-Bonsai-2-27B-Abliterated-GGUF",
+      "author": "Hikari07jp",
+      "likes": 19,
+      "downloads": 4603,
+      "url": "https://huggingface.co/Hikari07jp/Ternary-Bonsai-2-27B-Abliterated-GGUF",
+      "lastModified": "2026-09-18T10:58:23.000Z",
+      "daysAgo": 2,
+      "pipeline": "text-generation",
+      "tags": [
+        "llama.cpp",
+        "gguf",
+        "ternary",
+        "2-bit",
+        "llama-cpp",
+        "abliterated",
+        "uncensored",
+        "prismml"
+      ],
+      "pop": 0.5707,
+      "rec": 0.9375,
+      "combo": 0.6991
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-20T10:34:37Z"
+  "updated": "2026-09-20T11:04:47Z"
 }
