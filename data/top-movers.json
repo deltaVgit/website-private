@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T05:15:38Z",
+  "updated_at": "2026-09-20T05:30:43Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.72,
-        "change_24h": 33.2,
+        "price": 1.76,
+        "change_24h": 35.67,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.321404,
-        "change_24h": 14.09,
+        "price": 0.317997,
+        "change_24h": 13.36,
         "asset": "crypto"
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price": 9.66,
-        "change_24h": 14.01,
+        "price": 9.59,
+        "change_24h": 12.72,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.196778,
-        "change_24h": 11.94,
+        "price": 0.195333,
+        "change_24h": 11.19,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 7.55,
-        "change_24h": 9.13,
+        "price": 7.53,
+        "change_24h": 8.94,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "price": 2.56,
-        "change_24h": -7.82,
-        "asset": "crypto"
-      },
-      {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 524.88,
-        "change_24h": -7.35,
+        "price": 520.95,
+        "change_24h": -8.4,
         "asset": "crypto"
       },
       {
         "symbol": "APT",
         "name": "Aptos",
-        "price": 0.721383,
-        "change_24h": -7.3,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 3.49,
-        "change_24h": -6.22,
+        "price": 0.717563,
+        "change_24h": -7.4,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 57.36,
-        "change_24h": -5.93,
+        "price": 56.93,
+        "change_24h": -7.15,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 3.46,
+        "change_24h": -6.78,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1445.19,
+        "change_24h": -6.28,
         "asset": "crypto"
       }
     ]
