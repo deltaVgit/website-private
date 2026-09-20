@@ -5,7 +5,7 @@
         "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Uncensored-GGUF",
         "author": "JonathanColetti",
-        "likes": 1180,
+        "likes": 1181,
         "downloads": 2287182,
         "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "lastModified": "2026-08-29T04:18:18.000Z",
@@ -26,25 +26,25 @@
         "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "author": "0bserverx",
-        "likes": 512,
+        "likes": 513,
         "downloads": 1777126,
         "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
-        "lastModified": "2026-08-20T19:51:25.000Z",
-        "daysAgo": 30,
+        "lastModified": "2026-09-20T11:28:32.000Z",
+        "daysAgo": 0,
         "pipeline": "text-generation",
         "tags": [
           "transformers",
+          "safetensors",
           "gguf",
           "qwen3.8",
           "qwen3.5",
           "heretic",
           "abliterated",
-          "uncensored",
-          "roleplay"
+          "uncensored"
         ],
         "pop": 0.9736,
-        "rec": 0.5,
-        "combo": 0.8079
+        "rec": 1.0,
+        "combo": 0.9829
       },
       {
         "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
@@ -125,7 +125,7 @@
         "downloads": 37682,
         "url": "https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder",
         "lastModified": "2026-05-02T11:34:41.000Z",
-        "daysAgo": 140,
+        "daysAgo": 141,
         "pipeline": "text-to-image",
         "tags": [
           "safetensors",
@@ -230,7 +230,7 @@
         "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
         "author": "huihui-ai",
-        "likes": 811,
+        "likes": 812,
         "downloads": 2623928,
         "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "lastModified": "2026-09-18T03:12:46.000Z",
@@ -317,7 +317,7 @@
         "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 986,
+        "likes": 989,
         "downloads": 1301417,
         "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "lastModified": "2026-09-16T23:56:33.000Z",
@@ -338,10 +338,34 @@
   },
   "models": [
     {
+      "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
+      "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
+      "author": "0bserverx",
+      "likes": 513,
+      "downloads": 1777126,
+      "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
+      "lastModified": "2026-09-20T11:28:32.000Z",
+      "daysAgo": 0,
+      "pipeline": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gguf",
+        "qwen3.8",
+        "qwen3.5",
+        "heretic",
+        "abliterated",
+        "uncensored"
+      ],
+      "pop": 0.9736,
+      "rec": 1.0,
+      "combo": 0.9829
+    },
+    {
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
       "author": "huihui-ai",
-      "likes": 811,
+      "likes": 812,
       "downloads": 2623928,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "lastModified": "2026-09-18T03:12:46.000Z",
@@ -360,30 +384,6 @@
       "pop": 1.0,
       "rec": 0.9375,
       "combo": 0.9781
-    },
-    {
-      "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
-      "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
-      "author": "0bserverx",
-      "likes": 512,
-      "downloads": 1777126,
-      "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
-      "lastModified": "2026-08-20T19:51:25.000Z",
-      "daysAgo": 30,
-      "pipeline": "text-generation",
-      "tags": [
-        "transformers",
-        "gguf",
-        "qwen3.8",
-        "qwen3.5",
-        "heretic",
-        "abliterated",
-        "uncensored",
-        "roleplay"
-      ],
-      "pop": 0.9736,
-      "rec": 0.5,
-      "combo": 0.8079
     },
     {
       "id": "soyaakinohara/qwen3.8-27b-abliterated-3.69bpw-12GB-MTP.gguf",
@@ -627,5 +627,5 @@
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-20T11:04:47Z"
+  "updated": "2026-09-20T11:34:57Z"
 }
