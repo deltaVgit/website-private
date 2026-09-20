@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T22:34:59Z",
+  "updated": "2026-09-20T23:05:02Z",
   "items": [
     {
       "title": "Quoting voxium",
@@ -18,11 +18,11 @@
       "tag": "ai"
     },
     {
-      "title": "datasette-auth-github 1.0",
-      "url": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+      "title": "datasette-explain 0.2.2",
+      "url": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
       "source": "Simon Willison",
-      "published_at": "2026-09-19T19:52:02+00:00",
-      "summary": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting cookies without a Max-Age parameter, so they were expiring at th",
+      "published_at": "2026-09-20T00:22:04+00:00",
+      "summary": "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwillison.net to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin. Tags: sqlite , datasette",
       "tag": "ai"
     },
     {
