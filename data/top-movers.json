@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T18:01:08Z",
+  "updated_at": "2026-09-20T18:15:21Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price": 10.97,
-        "change_24h": 14.01,
+        "price": 11.2,
+        "change_24h": 15.63,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.225075,
-        "change_24h": 11.86,
+        "price": 0.227198,
+        "change_24h": 13.67,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.112148,
-        "change_24h": 11.15,
+        "price": 0.112137,
+        "change_24h": 11.28,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.05,
-        "change_24h": 10.78,
+        "price": 4.03,
+        "change_24h": 10.59,
         "asset": "crypto"
       },
       {
-        "symbol": "HBAR",
-        "name": "Hedera",
-        "price": 0.086558,
-        "change_24h": 6.23,
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.5,
+        "change_24h": 7.07,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price": 4e-06,
+        "change_24h": -5.77,
+        "asset": "crypto"
+      },
+      {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 135.44,
-        "change_24h": -4.98,
+        "price": 135.53,
+        "change_24h": -4.77,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 56.43,
-        "change_24h": -4.5,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PEPE",
-        "name": "Pepe",
-        "price": 4e-06,
-        "change_24h": -4.47,
+        "price": 56.5,
+        "change_24h": -4.16,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.107503,
-        "change_24h": -3.92,
+        "price": 0.107089,
+        "change_24h": -3.87,
         "asset": "crypto"
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.78,
-        "change_24h": -3.38,
+        "symbol": "MNT",
+        "name": "Mantle",
+        "price": 0.604555,
+        "change_24h": -3.49,
         "asset": "crypto"
       }
     ]
