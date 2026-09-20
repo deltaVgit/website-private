@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T18:30:29Z",
+  "updated_at": "2026-09-20T18:45:23Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -83,35 +83,35 @@
         "symbol": "AVAX",
         "name": "Avalanche",
         "price": 11.16,
-        "change_24h": 15.17,
+        "change_24h": 14.76,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.22277,
+        "change_24h": 11.45,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.07,
-        "change_24h": 11.89,
+        "price": 4.01,
+        "change_24h": 11.29,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.112021,
-        "change_24h": 11.44,
+        "price": 0.111371,
+        "change_24h": 10.6,
         "asset": "crypto"
       },
       {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.48,
-        "change_24h": 6.44,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "HBAR",
-        "name": "Hedera",
-        "price": 0.086778,
-        "change_24h": 6.42,
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.069147,
+        "change_24h": 6.29,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 0.948297,
-        "change_24h": -14.61,
+        "price": 0.945456,
+        "change_24h": -12.43,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -5.11,
+        "change_24h": -6.43,
         "asset": "crypto"
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 136.14,
-        "change_24h": -4.24,
+        "price": 135.58,
+        "change_24h": -4.76,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.75,
-        "change_24h": -3.68,
+        "price": 4.71,
+        "change_24h": -4.64,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.107342,
-        "change_24h": -3.3,
+        "price": 0.107238,
+        "change_24h": -3.54,
         "asset": "crypto"
       }
     ]
