@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T20:15:38Z",
+  "updated_at": "2026-09-20T20:30:39Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "AVAX",
-        "name": "Avalanche",
-        "price": 11.31,
-        "change_24h": 17.93,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 4.2,
+        "change_24h": 18.49,
         "asset": "crypto"
       },
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 4.13,
-        "change_24h": 16.28,
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price": 11.34,
+        "change_24h": 16.76,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 28.36,
-        "change_24h": 7.79,
+        "price": 28.26,
+        "change_24h": 8.59,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.110133,
-        "change_24h": 7.72,
+        "price": 0.1104,
+        "change_24h": 8.57,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
-        "price": 1.69,
-        "change_24h": 7.38,
+        "price": 1.7,
+        "change_24h": 8.08,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 0.949947,
-        "change_24h": -7.2,
+        "price": 0.952868,
+        "change_24h": -6.33,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -5.14,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.72,
-        "change_24h": -4.02,
+        "change_24h": -4.85,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.113882,
-        "change_24h": -3.84,
+        "price": 0.113717,
+        "change_24h": -3.71,
         "asset": "crypto"
       },
       {
-        "symbol": "AAVE",
-        "name": "Aave",
-        "price": 137.09,
-        "change_24h": -3.75,
+        "symbol": "ASTER",
+        "name": "Aster",
+        "price": 0.742169,
+        "change_24h": -3.39,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VET",
+        "name": "VeChain",
+        "price": 0.008451,
+        "change_24h": -3.34,
         "asset": "crypto"
       }
     ]
