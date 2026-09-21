@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-21T13:30:40Z",
+  "updated_at": "2026-09-21T13:45:44Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "MSTR",
         "name": "Strategy Inc",
-        "price": 165.87,
-        "change_24h": 7.76,
+        "price": 166.51,
+        "change_24h": 8.18,
         "asset": "equity"
       },
       {
         "symbol": "BTDR",
         "name": "Bitdeer Technologies Group",
-        "price": 13.26,
-        "change_24h": 2.24,
+        "price": 13.21,
+        "change_24h": 1.89,
         "asset": "equity"
       },
       {
         "symbol": "MARA",
         "name": "MARA Holdings, Inc.",
-        "price": 13.81,
-        "change_24h": 4.29,
+        "price": 13.69,
+        "change_24h": 3.36,
         "asset": "equity"
       },
       {
         "symbol": "PS",
         "name": "Pershing Square Inc.",
-        "price": 49.83,
-        "change_24h": 13.69,
+        "price": 48.63,
+        "change_24h": -2.26,
         "asset": "equity"
       },
       {
         "symbol": "SBET",
         "name": "SharpLink, Inc.",
-        "price": 10.07,
-        "change_24h": 7.71,
+        "price": 9.82,
+        "change_24h": 5.03,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "XENE",
         "name": "Xenon Pharmaceuticals Inc.",
-        "price": 39.6,
-        "change_24h": -0.38,
+        "price": 39.33,
+        "change_24h": -1.06,
         "asset": "equity"
       },
       {
         "symbol": "SMR",
         "name": "NuScale Power Corporation",
-        "price": 8.55,
-        "change_24h": 3.39,
+        "price": 8.67,
+        "change_24h": 4.84,
         "asset": "equity"
       },
       {
         "symbol": "RSI",
         "name": "Rush Street Interactive, Inc.",
-        "price": 23.14,
-        "change_24h": -0.67,
+        "price": 23.0,
+        "change_24h": -1.27,
         "asset": "equity"
       },
       {
         "symbol": "BTU",
         "name": "Peabody Energy Corporation",
-        "price": 25.94,
-        "change_24h": 2.85,
+        "price": 25.64,
+        "change_24h": 1.65,
         "asset": "equity"
       },
       {
         "symbol": "TNGX",
         "name": "Tango Therapeutics, Inc.",
-        "price": 21.98,
-        "change_24h": 1.04,
+        "price": 21.85,
+        "change_24h": 0.46,
         "asset": "equity"
       }
     ]
@@ -82,73 +82,73 @@
       {
         "symbol": "SUI",
         "name": "Sui",
-        "price": 1.04,
-        "change_24h": 27.22,
+        "price": 1.042,
+        "change_24h": 27.67,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 32.56,
+        "change_24h": 13.76,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.238622,
-        "change_24h": 14.5,
+        "price": 0.237499,
+        "change_24h": 13.1,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 285.26,
-        "change_24h": 13.49,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.30423,
-        "change_24h": 12.94,
+        "price": 283.62,
+        "change_24h": 12.97,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 4.15,
-        "change_24h": 12.68,
+        "change_24h": 12.78,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.112389,
-        "change_24h": -1.64,
-        "asset": "crypto"
-      },
-      {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.49,
-        "change_24h": -1.61,
+        "price": 1.48,
+        "change_24h": -4.09,
         "asset": "crypto"
       },
       {
-        "symbol": "USDY",
-        "name": "Ondo US Dollar Yield",
-        "price": 1.15,
-        "change_24h": -0.64,
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.112818,
+        "change_24h": -1.33,
         "asset": "crypto"
       },
       {
         "symbol": "WLFI",
         "name": "World Liberty Financial",
-        "price": 0.057929,
-        "change_24h": -0.38,
+        "price": 0.057643,
+        "change_24h": -0.77,
         "asset": "crypto"
       },
       {
-        "symbol": "LEO",
-        "name": "LEO Token",
-        "price": 8.92,
-        "change_24h": -0.19,
+        "symbol": "XAUT",
+        "name": "Tether Gold",
+        "price": 4351.55,
+        "change_24h": -0.4,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PAXG",
+        "name": "PAX Gold",
+        "price": 4348.79,
+        "change_24h": -0.26,
         "asset": "crypto"
       }
     ]
