@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-21T16:45:34Z",
+  "updated_at": "2026-09-21T17:00:38Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "GRAL",
         "name": "GRAIL, Inc.",
-        "price": 107.83,
-        "change_24h": 33.5,
-        "asset": "equity"
-      },
-      {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "price": 27.83,
-        "change_24h": 16.64,
+        "price": 106.97,
+        "change_24h": 32.43,
         "asset": "equity"
       },
       {
         "symbol": "ARM",
         "name": "Arm Holdings plc",
-        "price": 319.41,
-        "change_24h": 15.89,
+        "price": 319.36,
+        "change_24h": 15.87,
+        "asset": "equity"
+      },
+      {
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "price": 27.47,
+        "change_24h": 15.13,
         "asset": "equity"
       },
       {
         "symbol": "INTC",
         "name": "Intel Corporation",
-        "price": 122.65,
-        "change_24h": 12.94,
+        "price": 122.61,
+        "change_24h": 12.9,
         "asset": "equity"
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "price": 78.86,
-        "change_24h": 12.61,
+        "price": 78.83,
+        "change_24h": 12.57,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "BRVE",
         "name": "Braveheart Bio, Inc.",
-        "price": 25.09,
-        "change_24h": -14.04,
+        "price": 25.2,
+        "change_24h": -13.7,
         "asset": "equity"
       },
       {
         "symbol": "PBLS",
         "name": "Parabilis Medicines, Inc.",
-        "price": 36.3,
-        "change_24h": -13.01,
+        "price": 36.25,
+        "change_24h": -13.13,
         "asset": "equity"
       },
       {
         "symbol": "TLX",
         "name": "Telix Pharmaceuticals Limited",
-        "price": 11.34,
-        "change_24h": -9.97,
+        "price": 11.35,
+        "change_24h": -9.89,
         "asset": "equity"
       },
       {
         "symbol": "ZTO",
         "name": "ZTO Express (Cayman) Inc.",
-        "price": 19.09,
-        "change_24h": -8.92,
+        "price": 19.14,
+        "change_24h": -8.66,
         "asset": "equity"
       },
       {
         "symbol": "NVO",
         "name": "Novo Nordisk A/S",
-        "price": 39.59,
-        "change_24h": -8.43,
+        "price": 39.73,
+        "change_24h": -8.13,
         "asset": "equity"
       }
     ]
@@ -82,73 +82,73 @@
       {
         "symbol": "SUI",
         "name": "Sui",
-        "price": 1.02,
-        "change_24h": 12.49,
+        "price": 1.016,
+        "change_24h": 11.46,
         "asset": "crypto"
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price": 0.096102,
-        "change_24h": 9.92,
+        "price": 0.096894,
+        "change_24h": 10.82,
         "asset": "crypto"
       },
       {
-        "symbol": "TAO",
-        "name": "Bittensor",
-        "price": 286.97,
-        "change_24h": 9.35,
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.042911,
+        "change_24h": 9.07,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.30161,
-        "change_24h": 8.99,
+        "price": 0.301393,
+        "change_24h": 8.74,
         "asset": "crypto"
       },
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 30.6,
-        "change_24h": 8.52,
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "price": 285.72,
+        "change_24h": 8.13,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 4.1,
-        "change_24h": -4.23,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.210908,
+        "change_24h": -6.21,
         "asset": "crypto"
       },
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.212358,
-        "change_24h": -3.09,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 4.06,
+        "change_24h": -4.19,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.113018,
-        "change_24h": -2.97,
+        "price": 0.112573,
+        "change_24h": -2.95,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.48,
-        "change_24h": -2.86,
+        "change_24h": -2.74,
         "asset": "crypto"
       },
       {
         "symbol": "WLFI",
         "name": "World Liberty Financial",
-        "price": 0.05693,
-        "change_24h": -2.71,
+        "price": 0.056888,
+        "change_24h": -2.61,
         "asset": "crypto"
       }
     ]
