@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T23:30:40Z",
+  "updated_at": "2026-09-21T23:45:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "SUI",
         "name": "Sui",
-        "price": 1.035,
-        "change_24h": 16.33,
+        "price": 1.039,
+        "change_24h": 15.97,
         "asset": "crypto"
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price": 0.100114,
-        "change_24h": 14.72,
+        "price": 0.099536,
+        "change_24h": 13.83,
         "asset": "crypto"
       },
       {
         "symbol": "CRO",
         "name": "Cronos",
-        "price": 0.066061,
-        "change_24h": 10.9,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 32.11,
-        "change_24h": 10.78,
+        "price": 0.065904,
+        "change_24h": 10.38,
         "asset": "crypto"
       },
       {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.00928,
-        "change_24h": 10.18,
+        "price": 0.009298,
+        "change_24h": 10.21,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SHIB",
+        "name": "Shiba Inu",
+        "price": 6e-06,
+        "change_24h": 9.19,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.211943,
-        "change_24h": -2.59,
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1471.96,
+        "change_24h": -2.92,
         "asset": "crypto"
       },
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1470.36,
-        "change_24h": -2.29,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.21285,
+        "change_24h": -2.34,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.45,
+        "change_24h": -1.93,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.65,
-        "change_24h": -2.06,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLFI",
-        "name": "World Liberty Financial",
-        "price": 0.057451,
-        "change_24h": -1.36,
+        "change_24h": -1.83,
         "asset": "crypto"
       },
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.057079,
-        "change_24h": -1.23,
+        "price": 0.057797,
+        "change_24h": -1.82,
         "asset": "crypto"
       }
     ]
