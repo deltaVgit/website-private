@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-21T15:05:21Z",
+  "updated": "2026-09-21T21:34:49Z",
   "items": [
+    {
+      "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems",
+      "url": "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/",
+      "source": "Meta Engineering",
+      "published_at": "2026-09-21T16:00:37+00:00",
+      "summary": "We’re open-sourcing Rebalancer, the assignment-problem solver that has been used to solve resource allocation problems throughout Meta for over nine years. Rebalancer separates several related concerns: how to specify an assignment problem, how to store it efficiently in memory, ",
+      "tag": "ai"
+    },
     {
       "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
@@ -18,6 +26,22 @@
       "tag": "ai"
     },
     {
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "source": "OpenAI",
+      "published_at": "2026-09-21T12:00:00+00:00",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "tag": "ai"
+    },
+    {
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "source": "OpenAI",
+      "published_at": "2026-09-21T12:00:00+00:00",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "tag": "ai"
+    },
+    {
       "title": "Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable",
       "url": "https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable/",
       "source": "Meta Engineering",
@@ -31,6 +55,22 @@
       "source": "Interconnects",
       "published_at": "2026-09-21T11:56:56+00:00",
       "summary": "The expanded form of a testimony I prepared for Congress.",
+      "tag": "ai"
+    },
+    {
+      "title": "Building standards for the next phase of AI",
+      "url": "https://openai.com/index/building-standards-next-phase-ai",
+      "source": "OpenAI",
+      "published_at": "2026-09-21T10:00:00+00:00",
+      "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+      "tag": "ai"
+    },
+    {
+      "title": "Expanding OpenAI Academy with new learning paths",
+      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "source": "OpenAI",
+      "published_at": "2026-09-21T07:00:00+00:00",
+      "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
       "tag": "ai"
     },
     {
@@ -122,14 +162,6 @@
       "tag": "ai"
     },
     {
-      "title": "How V7 gives AI agents institutional memory",
-      "url": "https://openai.com/index/v7",
-      "source": "OpenAI",
-      "published_at": "2026-09-21T00:00:00+00:00",
-      "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
-      "tag": "ai"
-    },
-    {
       "title": "Quoting voxium",
       "url": "https://simonwillison.net/2026/Sep/20/voxium/",
       "source": "Simon Willison",
@@ -138,19 +170,19 @@
       "tag": "ai"
     },
     {
+      "title": "MCP was always a bad idea?",
+      "url": "https://simonwillison.net/2026/Sep/20/hn-49779718/",
+      "source": "Simon Willison",
+      "published_at": "2026-09-20T20:24:41+00:00",
+      "summary": "My comment on MCP was always a bad idea? — Hacker News. This article entirely misses the value that MCP brings today. Sure, there's almost no reason to use MCPs if you are running a full-blown terminal agent (Claude Code, Codex, Meta Muse, OpenClaw etc) with unfettered internet a",
+      "tag": "ai"
+    },
+    {
       "title": "llm-keys-ui 0.1",
       "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
       "source": "Simon Willison",
       "published_at": "2026-09-20T19:22:19+00:00",
       "summary": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to config",
-      "tag": "ai"
-    },
-    {
-      "title": "datasette-explain 0.2.2",
-      "url": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
-      "source": "Simon Willison",
-      "published_at": "2026-09-20T00:22:04+00:00",
-      "summary": "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwillison.net to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin. Tags: sqlite , datasette",
       "tag": "ai"
     },
     {
@@ -186,14 +218,6 @@
       "tag": "ai"
     },
     {
-      "title": "Introducing the Australian Youth Safety Blueprint",
-      "url": "https://openai.com/index/australian-youth-safety-blueprint",
-      "source": "OpenAI",
-      "published_at": "2026-09-18T12:00:00+00:00",
-      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
-      "tag": "ai"
-    },
-    {
       "title": "A Defense of Gradual Disempowerment",
       "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
       "source": "Alignment Forum",
@@ -210,27 +234,11 @@
       "tag": "ai"
     },
     {
-      "title": "How Cooley is accelerating IPO work with ChatGPT",
-      "url": "https://openai.com/index/cooley-gopublic",
-      "source": "OpenAI",
-      "published_at": "2026-09-17T12:00:00+00:00",
-      "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-      "tag": "ai"
-    },
-    {
       "title": "The Talker Does Not Control The Doer (in Current AIs)",
       "url": "https://www.lesswrong.com/posts/cJX2ssssGoYqnijwi/the-talker-does-not-control-the-doer-in-current-ais",
       "source": "LessWrong",
       "published_at": "2026-09-17T02:05:40+00:00",
       "summary": "The Huggingface Incident appears to me to match up with an understanding I'd already formed from personal observation of Fable 5 and Sol 5.6, the August 2026 generation of frontier publicly purchasable AI models. [1] This already-formed understanding was: the part of the AI that ",
-      "tag": "ai"
-    },
-    {
-      "title": "Introducing Astra for Law",
-      "url": "https://openai.com/index/astra-for-law",
-      "source": "OpenAI",
-      "published_at": "2026-09-17T00:00:00+00:00",
-      "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
       "tag": "ai"
     },
     {
@@ -311,14 +319,6 @@
       "source": "Meta Engineering",
       "published_at": "2026-09-03T16:00:20+00:00",
       "summary": "We’re introducing ZGateway, the proxy we are using to unify traffic through ZippyDB, Meta’s most widely-used key value store. As a bonus, it also enables admission control, load balancing, cross-region resilience, and richer operations. ZippyDB is the most widely used key value s",
-      "tag": "ai"
-    },
-    {
-      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-      "source": "Google DeepMind",
-      "published_at": "2026-09-03T15:02:08+00:00",
-      "summary": "",
       "tag": "ai"
     }
   ],
