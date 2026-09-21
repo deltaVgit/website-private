@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T21:00:32Z",
+  "updated_at": "2026-09-21T21:15:33Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.100171,
-        "change_24h": 14.93,
-        "asset": "crypto"
-      },
-      {
         "symbol": "SUI",
         "name": "Sui",
-        "price": 1.022,
-        "change_24h": 14.92,
+        "price": 1.014,
+        "change_24h": 15.95,
         "asset": "crypto"
       },
       {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.044057,
-        "change_24h": 12.21,
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price": 0.09897,
+        "change_24h": 14.48,
         "asset": "crypto"
       },
       {
         "symbol": "CRO",
         "name": "Cronos",
-        "price": 0.06521,
-        "change_24h": 10.37,
+        "price": 0.065606,
+        "change_24h": 12.06,
         "asset": "crypto"
       },
       {
-        "symbol": "XLM",
-        "name": "Stellar",
-        "price": 0.214545,
-        "change_24h": 10.05,
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.043644,
+        "change_24h": 11.87,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RENDER",
+        "name": "Render",
+        "price": 1.86,
+        "change_24h": 11.35,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.055817,
-        "change_24h": -5.75,
+        "price": 0.056482,
+        "change_24h": -5.46,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.210939,
-        "change_24h": -2.56,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1454.25,
-        "change_24h": -2.33,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 4.07,
-        "change_24h": -2.19,
+        "price": 0.209521,
+        "change_24h": -2.09,
         "asset": "crypto"
       },
       {
         "symbol": "WLFI",
         "name": "World Liberty Financial",
-        "price": 0.057192,
-        "change_24h": -2.08,
+        "price": 0.057191,
+        "change_24h": -1.71,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1452.17,
+        "change_24h": -1.55,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.112379,
+        "change_24h": -0.82,
         "asset": "crypto"
       }
     ]
