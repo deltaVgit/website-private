@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T13:00:32Z",
+  "updated_at": "2026-09-21T13:15:38Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "SUI",
         "name": "Sui",
-        "price": 1.035,
-        "change_24h": 26.11,
+        "price": 1.048,
+        "change_24h": 27.77,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.808455,
+        "change_24h": 14.24,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 287.67,
-        "change_24h": 14.02,
+        "price": 287.07,
+        "change_24h": 13.24,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.305287,
-        "change_24h": 13.1,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "HBAR",
-        "name": "Hedera",
-        "price": 0.091798,
-        "change_24h": 12.33,
+        "price": 0.304874,
+        "change_24h": 12.75,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.16,
-        "change_24h": 12.07,
+        "price": 4.15,
+        "change_24h": 11.58,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.052592,
-        "change_24h": -5.05,
-        "asset": "crypto"
-      },
-      {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.5,
-        "change_24h": -2.49,
+        "change_24h": -2.31,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.112515,
-        "change_24h": -1.49,
+        "price": 0.112512,
+        "change_24h": -1.42,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 7.83,
+        "change_24h": -0.12,
         "asset": "crypto"
       },
       {
         "symbol": "XAUT",
         "name": "Tether Gold",
-        "price": 4356.8,
-        "change_24h": -0.26,
+        "price": 4363.34,
+        "change_24h": -0.1,
         "asset": "crypto"
       },
       {
-        "symbol": "PAXG",
-        "name": "PAX Gold",
-        "price": 4353.74,
-        "change_24h": -0.13,
+        "symbol": "USDD",
+        "name": "USDD",
+        "price": 0.998167,
+        "change_24h": -0.04,
         "asset": "crypto"
       }
     ]
