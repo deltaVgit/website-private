@@ -18,7 +18,7 @@ PUBLIC_DIR = "public"
 DATA_DIR = os.path.join(PUBLIC_DIR, "data")
 FEED_DIR = os.path.join(PUBLIC_DIR, "intelhub", "feed")
 
-SITE_URL = site_url() or "https://deltav-cc.github.io/website-private"
+SITE_URL = site_url() or "https://deltavgit.github.io/website-private"
 
 # Source-based category hints — if the source matches, boost that category
 SOURCE_HINTS = {

@@ -17,7 +17,7 @@ import urllib.request
 from datetime import datetime, timezone, date
 from typing import Any
 
-BASE = "https://deltav-cc.github.io/website-private/data"
+BASE = "https://deltavgit.github.io/website-private/data"
 UA = "DeltaV-DashboardAudit/1.0"
 ctx = ssl.create_default_context()
 
