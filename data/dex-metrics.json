@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T12:05:14Z",
+  "updated_at": "2026-09-21T13:05:32Z",
   "source": "https://api.llama.fi/overview/dexs",
   "weekly": [
     {
@@ -1252,27 +1252,32 @@
     },
     {
       "week": "2026-W38",
-      "curated": 73437268366.37999,
-      "filtered": 73437268366.37999,
-      "raw": 73437268366.37999
+      "curated": 73819795677.38,
+      "filtered": 73819795677.38,
+      "raw": 73819795677.38
     },
     {
       "week": "2026-W39",
-      "curated": 10335912609.889997,
-      "filtered": 10335912609.889997,
-      "raw": 10335912609.889997
+      "curated": 10508932602.779999,
+      "filtered": 10508932602.779999,
+      "raw": 10508932602.779999
     }
   ],
   "chains": [
     {
       "chain": "Raydium AMM",
-      "volume_24h": 337370099.0,
-      "delta_pct": 4.41
+      "volume_24h": 340395028.0,
+      "delta_pct": 5.35
     },
     {
       "chain": "Orca DEX",
       "volume_24h": 301582397.0,
       "delta_pct": 46.21
+    },
+    {
+      "chain": "Curve DEX",
+      "volume_24h": 72023218.0,
+      "delta_pct": 45.85
     },
     {
       "chain": "PancakeSwap AMM",
@@ -1296,33 +1301,28 @@
     },
     {
       "chain": "Pangolin V2",
-      "volume_24h": 459517.0,
-      "delta_pct": 107.14
+      "volume_24h": 473339.0,
+      "delta_pct": 113.37
     },
     {
       "chain": "Bancor V2.1",
-      "volume_24h": 129204.0,
-      "delta_pct": -1.44
+      "volume_24h": 134038.0,
+      "delta_pct": 2.24
     },
     {
       "chain": "Balancer V1",
-      "volume_24h": 108728.0,
-      "delta_pct": 37.93
+      "volume_24h": 110829.0,
+      "delta_pct": 40.6
     },
     {
       "chain": "Defi Swap",
-      "volume_24h": 45228.0,
-      "delta_pct": 24.25
+      "volume_24h": 48699.0,
+      "delta_pct": 33.79
     },
     {
       "chain": "Nerve",
-      "volume_24h": 36960.0,
-      "delta_pct": 363.97
-    },
-    {
-      "chain": "Honeyswap",
-      "volume_24h": 17155.0,
-      "delta_pct": 143.2
+      "volume_24h": 38023.0,
+      "delta_pct": 377.32
     }
   ]
 }
