@@ -1,6 +1,38 @@
 {
-  "updated": "2026-09-21T08:38:43Z",
+  "updated": "2026-09-21T15:05:21Z",
   "items": [
+    {
+      "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "source": "Hugging Face Blog",
+      "published_at": "2026-09-21T13:44:34+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
+      "title": "Import AI 473: The US’s superintelligence strategy; human brain in a mouse skull; and machine hermeneutics",
+      "url": "https://jack-clark.net/2026/09/21/import-ai-473-the-uss-superintelligence-strategy-human-brain-in-a-mouse-skull-and-machine-hermeneutics/",
+      "source": "Import AI",
+      "published_at": "2026-09-21T12:31:04+00:00",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now RAND thinks the best AI strategy for the US is to keep all options open:…It’s not clear exactly wh",
+      "tag": "ai"
+    },
+    {
+      "title": "Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable",
+      "url": "https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable/",
+      "source": "Meta Engineering",
+      "published_at": "2026-09-21T12:00:00+00:00",
+      "summary": "Petal, the next step in Meta’s subsea innovation, will be the first subsea cable to deliver petabit capacity at transoceanic distances, connecting France and the United States over approximately 7,000 km (4,300 mi). Expected to enter service in 2029, it will be the first subsea c",
+      "tag": "ai"
+    },
+    {
+      "title": "The current balance of power in open models",
+      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "source": "Interconnects",
+      "published_at": "2026-09-21T11:56:56+00:00",
+      "summary": "The expanded form of a testimony I prepared for Congress.",
+      "tag": "ai"
+    },
     {
       "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
       "url": "https://arxiv.org/abs/2609.20971",
@@ -79,6 +111,22 @@
       "source": "arXiv cs.CL",
       "published_at": "2026-09-21T04:00:00+00:00",
       "summary": "arXiv:2609.20826v1 Announce Type: new Abstract: Current radiology report generation (RRG) models usually produce descriptive reports based on a single examination or only the most recent prior examination, limiting their ability to perform accurate and meaningful longitudinal com",
+      "tag": "ai"
+    },
+    {
+      "title": "tokenizers v1: encode, decode and scaling, measured",
+      "url": "https://huggingface.co/blog/tokenizers-v1",
+      "source": "Hugging Face Blog",
+      "published_at": "2026-09-21T00:00:00+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
+      "title": "How V7 gives AI agents institutional memory",
+      "url": "https://openai.com/index/v7",
+      "source": "OpenAI",
+      "published_at": "2026-09-21T00:00:00+00:00",
+      "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
       "tag": "ai"
     },
     {
@@ -186,14 +234,6 @@
       "tag": "ai"
     },
     {
-      "title": "Helping older adults use AI in everyday life",
-      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "source": "OpenAI",
-      "published_at": "2026-09-16T16:00:00+00:00",
-      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-      "tag": "ai"
-    },
-    {
       "title": "Shallow Beliefs: Midtraining does not inoculate against EM from reward hacking",
       "url": "https://www.alignmentforum.org/posts/khxvR2fgAeDvG5N2F/shallow-beliefs-midtraining-does-not-inoculate-against-em",
       "source": "Alignment Forum",
@@ -234,34 +274,10 @@
       "tag": "ai"
     },
     {
-      "title": "One resignation turned the embers of AI fear into a wildfire",
-      "url": "https://www.interconnects.ai/p/one-resignation-turned-the-embers",
-      "source": "Interconnects",
-      "published_at": "2026-09-10T15:28:52+00:00",
-      "summary": "Some quick notes on a truly weird week.",
-      "tag": "ai"
-    },
-    {
       "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
       "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
       "source": "Hugging Face Blog",
       "published_at": "2026-09-10T00:00:00+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
-      "url": "https://huggingface.co/blog/gradio-workflow-1111",
-      "source": "Hugging Face Blog",
-      "published_at": "2026-09-10T00:00:00+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
-      "source": "Hugging Face Blog",
-      "published_at": "2026-09-08T14:23:07+00:00",
       "summary": "",
       "tag": "ai"
     },
@@ -303,22 +319,6 @@
       "source": "Google DeepMind",
       "published_at": "2026-09-03T15:02:08+00:00",
       "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "Proactive cyber defense for governments and enterprises",
-      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-      "source": "Google DeepMind",
-      "published_at": "2026-09-02T16:24:24+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "An Organizational Second Brain: Building an AI That Learns From Experts",
-      "url": "https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/",
-      "source": "Meta Engineering",
-      "published_at": "2026-09-02T09:00:29+00:00",
-      "summary": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved for anyone in an organization to access, share, and build upon. This is not a typical domain-specific agent. Its novelty comes from integra",
       "tag": "ai"
     }
   ],
