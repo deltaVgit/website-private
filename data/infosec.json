@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T23:35:18Z",
+  "updatedAt": "2026-09-21T00:04:30Z",
   "kev": [
     {
       "cve": "CVE-2025-39964",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-19583",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "description": "Velociraptor allows some sensitive artifacts to be gated by additional permissions. For example, the Linux.Sys.BashShell artifact allows arbitrary command execution on endpoints, and so it requires the EXECVE permission ",
-      "published": "2026-09-10T03:16:59.010"
-    },
-    {
-      "id": "CVE-2026-57967",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "An unauthenticated remote attacker can craft a CORE protocol SESSION_REATTACH packet to steal an existing session and assume ongoing execution of the previously authenticated session. This issue affects Apache Artemis: f",
-      "published": "2026-09-10T05:17:01.443"
-    },
-    {
-      "id": "CVE-2026-18351",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The Drag and Drop File Upload for Elementor Forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.6.0 via the elementor_file_upload function. This is due to insufficien",
-      "published": "2026-09-10T02:16:34.180"
-    },
-    {
-      "id": "CVE-2026-87931",
-      "severity": "CRITICAL",
-      "score": 9.6,
-      "description": "A vulnerability has been found in Behavioral Technology Group Pavlok Behavioral Conditioning Wearable up to 20260707. Impacted is an unknown function of the component Apple Notification Center Service Event Handler. The ",
-      "published": "2026-09-10T00:17:24.737"
-    },
-    {
-      "id": "CVE-2026-84939",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "description": "Path traversal vulnerability in Apache FreeMarker template loading mechanism, if the attacker can specify an arbitrary malformed locale identifier to FreeMarker, and the localized lookup configuration setting is enabled ",
-      "published": "2026-09-10T06:17:06.460"
-    },
-    {
-      "id": "CVE-2026-67593",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "description": "A remote attacker can craft an Openwire RemoveSubscriptionInfo command to cause the deletion of a queue on the Artemis broker before the connection authentication and authorization stage or at any time thereafter. This i",
-      "published": "2026-09-10T05:17:01.560"
-    },
-    {
-      "id": "CVE-2026-49364",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "description": "An unauthenticated network-adjacent attacker can leverage discovery to capture cluster administrative credentials during the initial cluster connection handshake. This issue affects Apache Artemis: from 2.50.0 through 2.",
-      "published": "2026-09-10T05:17:01.230"
-    },
-    {
-      "id": "CVE-2026-84063",
+      "id": "CVE-2026-88260",
       "severity": "HIGH",
-      "score": 8.5,
-      "description": "BurgerEditor 3.2.0 through 3.4.0 contains an issue with unrestricted upload of file with dangerous type. If this vulnerability is exploited, an arbitrary file may be uploaded by an attacker who can log in to the product,",
-      "published": "2026-09-10T03:17:00.370"
+      "score": 8.7,
+      "description": "Authentication bypass using an alternate path or channel and Improper validation of syntactic correctness of input vulnerability in Brainzcompany Zenius EMS 8.0 allows Remote Code Inclusion. This issue affects Zenius EMS",
+      "published": "2026-09-11T03:16:24.303"
     },
     {
-      "id": "CVE-2026-82079",
+      "id": "CVE-2026-19991",
       "severity": "HIGH",
-      "score": 8.4,
-      "description": "A stack-based buffer overflow vulnerability in the Nintendo Switch local wireless networking functionality may allow an attacker within wireless range to execute arbitrary code using return-oriented programming (ROP) thr",
-      "published": "2026-09-10T06:17:06.330"
+      "score": 8.1,
+      "description": "The UsersWP plugin for WordPress is vulnerable to Arbitrary File Deletion in versions up to, and including, 1.2.70 via the upload_file_remove() AJAX handler. The plugin stores the value of an account 'file' form field ta",
+      "published": "2026-09-11T04:17:34.990"
     },
     {
-      "id": "CVE-2026-14873",
-      "severity": "HIGH",
-      "score": 8.0,
-      "description": "The Bulk Password Reset plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 1.3.3. This is due to the plugin not properly validating a user's identity pri",
-      "published": "2026-09-10T04:17:45.480"
-    },
-    {
-      "id": "CVE-2026-19584",
+      "id": "CVE-2026-17176",
       "severity": "HIGH",
       "score": 7.7,
-      "description": "Velociraptor allows for the creation of notebook backups in its default enabled daily backup feature. When Velociraptor restores the backup, the notebook cell content is interpolated into a template with no ACL checks. T",
-      "published": "2026-09-10T03:17:00.063"
+      "description": "An OS command injection vulnerability in the TDDP module of Deco BE11000 allows an adjacent network attacker to execute arbitrary commands with root privileges by sending a crafted UDP packet. Successful exploitation may",
+      "published": "2026-09-11T00:17:26.707"
     },
     {
-      "id": "CVE-2026-19439",
+      "id": "CVE-2026-18561",
       "severity": "HIGH",
       "score": 7.5,
-      "description": "The Ultimate Gift Cards for WooCommerce WordPress plugin before 3.2.10 does not have any authorisation check when displaying gift card details, allowing unauthenticated users to retrieve the gift cards attached to arbitr",
-      "published": "2026-09-10T07:17:02.730"
+      "description": "The Unlimited Elements For Elementor plugin for WordPress is vulnerable to SQL Injection via the 'addontype' parameter in versions up to, and including, 2.0.16. This is due to insufficient escaping on the user-supplied p",
+      "published": "2026-09-11T04:17:20.480"
+    },
+    {
+      "id": "CVE-2026-15462",
+      "severity": "HIGH",
+      "score": 7.5,
+      "description": "The Sticky Chat Widget plugin for WordPress is vulnerable to SQL Injection via the 'scw_form_fields' parameter array keys of the 'scw_save_form_data' AJAX action in versions up to, and including, 1.4.2. This is due to th",
+      "published": "2026-09-11T04:17:20.173"
+    },
+    {
+      "id": "CVE-2026-78133",
+      "severity": "HIGH",
+      "score": 7.5,
+      "description": "libcharon in strongSwan 6.0.0 through 6.0.7 has a use-after-free in IKEv2 rekeying collision handling.",
+      "published": "2026-09-11T02:18:34.757"
+    },
+    {
+      "id": "CVE-2026-78132",
+      "severity": "HIGH",
+      "score": 7.5,
+      "description": "strongSwan 5.1.3 through 6.0.7 has an infinite loop in the x509 plugin's attribute certificate parser for ietfAttrSyntax.",
+      "published": "2026-09-11T02:18:34.613"
+    },
+    {
+      "id": "CVE-2026-78130",
+      "severity": "HIGH",
+      "score": 7.5,
+      "description": "strongSwan 4.2.0 through 6.0.7 has a NULL pointer dereference in the x509 plugin's attribute certificate parser.",
+      "published": "2026-09-11T02:18:34.353"
+    },
+    {
+      "id": "CVE-2026-77807",
+      "severity": "HIGH",
+      "score": 7.5,
+      "description": "The AcyMailing – An Ultimate Newsletter Plugin and Marketing Automation Solution for WordPress plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 11.0.4 via the `user[name]` P",
+      "published": "2026-09-11T00:19:23.037"
+    },
+    {
+      "id": "CVE-2026-81825",
+      "severity": "HIGH",
+      "score": 7.2,
+      "description": "The Simple Ajax Chat – Add a Fast, Secure Chat Box plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Chat Message in all versions up to, and including, <= 20260811 due to insufficient input sanitizati",
+      "published": "2026-09-11T04:17:58.947"
+    },
+    {
+      "id": "CVE-2026-81754",
+      "severity": "HIGH",
+      "score": 7.2,
+      "description": "The Vigilant – 100% Free Security Suite: Firewall, 2FA, Login, Headers, Scanner… plugin for WordPress is vulnerable to Stored Cross-Site Scripting via User-Agent Header in all versions up to, and including, 2.10.2 due to",
+      "published": "2026-09-11T04:17:58.190"
+    },
+    {
+      "id": "CVE-2026-18579",
+      "severity": "HIGH",
+      "score": 7.2,
+      "description": "The WP Photo Album Plus plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'HTTP_X_FORWARDED_FOR' parameter in all versions up to, and including, 9.2.08.003 due to insufficient input sanitization a",
+      "published": "2026-09-11T04:17:24.600"
     }
   ],
   "breaches": [
