@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-09-21T15:05:28Z",
+  "updatedAt": "2026-09-21T21:34:55Z",
   "kev": [
+    {
+      "cve": "CVE-2026-7273",
+      "product": "GS1900 Series Switches",
+      "vendor": "Zyxel",
+      "name": "Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability",
+      "dateAdded": "2026-09-21",
+      "dueDate": "2026-09-24",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2025-39964",
       "product": "Kernel",
@@ -116,15 +125,6 @@
       "name": "MikroTik RouterOS Missing Authentication for Critical Function Vulnerability",
       "dateAdded": "2026-09-10",
       "dueDate": "2026-09-13",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-19490",
-      "product": "NetScaler",
-      "vendor": "Citrix",
-      "name": "Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "dateAdded": "2026-09-09",
-      "dueDate": "2026-09-12",
       "knownRansomware": "Unknown"
     }
   ],

@@ -1,19 +1,91 @@
 [
   {
+    "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
+    "url": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
+    "source": "BleepingComputer",
+    "summary": "Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores. [...",
+    "added": "2026-09-21T21:18:49+00:00",
+    "expires": "2026-10-05T21:34:54Z"
+  },
+  {
+    "title": "CISA alerts of active exploitation of three Linux kernel flaws",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
+    "source": "BleepingComputer",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting three Linux kernel vulnerabilities, one of them rated critical. [...]",
+    "added": "2026-09-21T20:12:17+00:00",
+    "expires": "2026-10-05T21:34:54Z"
+  },
+  {
+    "title": "ShinyHunters Hacked Clop. Now What About Clop's Victims?",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-hacked-clop-what-about-clops-victims",
+    "source": "Dark Reading",
+    "summary": "ShinyHunters defaced Clop's Dark Web site and claims to have stolen victim data, potentially exposing organizations that paid ransoms to renewed extortion attempts.",
+    "added": "2026-09-21T20:07:56+00:00",
+    "expires": "2026-10-05T21:34:55Z"
+  },
+  {
+    "title": "Cybercriminals Are Hiding New Malware in Torrents for Popular Films",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/cybercriminals-hiding-new-malware-torrents-popular-films",
+    "source": "Dark Reading",
+    "summary": "Victims have been identified in Africa, including in Kenya and Uganda.",
+    "added": "2026-09-21T19:11:26+00:00",
+    "expires": "2026-10-05T21:34:55Z"
+  },
+  {
+    "title": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
+    "url": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
+    "source": "BleepingComputer",
+    "summary": "Technical details and a proof-of-concept exploit have been published for a new WordPress cross-site request forgery (CSRF) vulnerability dubbed 'Click2Shell' that affects the platform's Core component. [...]",
+    "added": "2026-09-21T18:23:11+00:00",
+    "expires": "2026-10-05T21:34:54Z"
+  },
+  {
+    "title": "Microsoft to retire Microsoft 365 Companion apps in December",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/",
+    "source": "BleepingComputer",
+    "summary": "Microsoft will retire the Calendar, People, and Files Microsoft 365 companion apps on December 16 and has asked admins to remove them from managed devices. [...]",
+    "added": "2026-09-21T17:54:49+00:00",
+    "expires": "2026-10-05T21:34:54Z"
+  },
+  {
+    "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
+    "url": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
+    "source": "The Hacker News",
+    "summary": "A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it, researcher",
+    "added": "2026-09-21T17:31:01+00:00",
+    "expires": "2026-10-05T21:34:55Z"
+  },
+  {
+    "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
+    "url": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
+    "source": "The Hacker News",
+    "summary": "The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account credentials from over 7,000 cryptocurrency",
+    "added": "2026-09-21T17:19:00+00:00",
+    "expires": "2026-10-05T21:34:55Z"
+  },
+  {
+    "title": "Google Fined €403 Million Over GDPR Violations Tied to Location Data",
+    "url": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
+    "source": "The Hacker News",
+    "summary": "Google has been fined €403 million for breaking the EU's data protection law, the GDPR, in the way three of its features handled people's location data from May 2018 to February 2020. Ireland's Data Protection Commission",
+    "added": "2026-09-21T16:57:31+00:00",
+    "expires": "2026-10-05T21:34:55Z"
+  },
+  {
+    "title": "Google fined €403 million over location data privacy violations",
+    "url": "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/",
+    "source": "BleepingComputer",
+    "summary": "Ireland's Data Protection Commission (DPC) has fined Google €403 million ($463M) for multiple GDPR violations related to processing users' location data. [...]",
+    "added": "2026-09-21T15:41:22+00:00",
+    "expires": "2026-10-05T21:34:54Z"
+  },
+  {
     "title": "Rogue Behavior: OpenAI Reveals More Model Misalignment Incidents",
     "url": "https://www.darkreading.com/cyber-risk/rogue-behavior-openai-more-model-misalignment-incidents",
     "source": "Dark Reading",
     "summary": "The AI giant disclosed six examples of concerning model activity and published a new framework for investigating and disclosing such incidents.",
     "added": "2026-09-21T14:47:19+00:00",
-    "expires": "2026-10-05T15:05:27Z"
-  },
-  {
-    "title": "Microsoft fixes broken Excel copy and paste for all Office users",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-excel-copy-and-paste-for-all-office-users/",
-    "source": "BleepingComputer",
-    "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for Excel users after installing the September 2026 security updates. [...]",
-    "added": "2026-09-21T14:42:37+00:00",
-    "expires": "2026-10-05T15:05:27Z"
+    "expires": "2026-10-05T21:34:55Z"
   },
   {
     "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
@@ -21,7 +93,7 @@
     "source": "The Hacker News",
     "summary": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week. The trouble keeps showing up inside things people already trust: code that takes a bad turn, old payloads coming back",
     "added": "2026-09-21T14:24:13+00:00",
-    "expires": "2026-10-05T15:05:27Z"
+    "expires": "2026-10-05T21:34:55Z"
   },
   {
     "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
@@ -29,63 +101,15 @@
     "source": "The Hacker News",
     "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts. The backdoor \"automatically harvests and",
     "added": "2026-09-21T14:15:40+00:00",
-    "expires": "2026-10-05T15:05:27Z"
+    "expires": "2026-10-05T21:34:55Z"
   },
   {
-    "title": "FBI's CJIS v6.1: What Security Teams Need to Know.",
-    "url": "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/",
-    "source": "BleepingComputer",
-    "summary": "The FBI's CJIS Security Policy v6.1 strengthens requirements around encryption and vulnerability scanning while continuing the shift toward more continuous security assessment. Specops explains what changed and how agenc",
-    "added": "2026-09-21T14:02:12+00:00",
-    "expires": "2026-10-05T15:05:27Z"
-  },
-  {
-    "title": "Microsoft reminds admins to migrate Entra ID users to passkeys",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/",
-    "source": "BleepingComputer",
-    "summary": "Microsoft has reminded admins to migrate Entra ID users to phishing-resistant authentication methods to avoid sign-in disruptions after it retires SMS first-factor sign-in starting in February 2027. [...]",
-    "added": "2026-09-21T13:16:20+00:00",
-    "expires": "2026-10-05T15:05:27Z"
-  },
-  {
-    "title": "Microsoft: September updates break File History backup feature",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
-    "source": "BleepingComputer",
-    "summary": "Microsoft warned that the built-in File History backup feature in Windows may stop working on some systems after installing the September 2026 security updates. [...]",
-    "added": "2026-09-21T11:45:54+00:00",
-    "expires": "2026-10-05T15:05:27Z"
-  },
-  {
-    "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
-    "url": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
-    "source": "The Hacker News",
-    "summary": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript. \"ChainScript has appeared under multiple build names, including ComponentTask33, Update",
-    "added": "2026-09-21T08:39:38+00:00",
-    "expires": "2026-10-05T15:05:27Z"
-  },
-  {
-    "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
-    "url": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
-    "source": "The Hacker News",
-    "summary": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again highlighting how the ",
-    "added": "2026-09-21T06:06:44+00:00",
-    "expires": "2026-10-05T15:05:27Z"
-  },
-  {
-    "title": "Malicious npm packages evade install-script defenses at runtime",
-    "url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
-    "source": "BleepingComputer",
-    "summary": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in a package's normal runtime behavior rather than in installation scrip",
-    "added": "2026-09-20T14:11:21+00:00",
-    "expires": "2026-10-05T15:05:27Z"
-  },
-  {
-    "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-    "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-    "source": "The Hacker News",
-    "summary": "Three researchers at the security firm Hacktron used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository. T",
-    "added": "2026-09-19T18:36:53+00:00",
-    "expires": "2026-10-05T15:05:27Z"
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/09/21/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA Advisories",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-7273 Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability T",
+    "added": "2026-09-21T12:00:00+00:00",
+    "expires": "2026-10-05T21:34:55Z"
   },
   {
     "title": "Vectra AI Launches Ascent to Help Address New Era of AI-Driven Attacks",
@@ -93,7 +117,7 @@
     "source": "Dark Reading",
     "summary": "The new program expands Vectra AI's partner strategy as increasingly complex security environments and the growing use of AI create demand for broader AI expertise, services, and security outcomes.",
     "added": "2026-09-18T20:24:51+00:00",
-    "expires": "2026-10-05T15:05:27Z"
+    "expires": "2026-10-05T21:34:55Z"
   },
   {
     "title": "Cisco Zero-Day Highlights API Endpoint Authentication Issues",
@@ -101,30 +125,6 @@
     "source": "Dark Reading",
     "summary": "The authentication bypass flaw CVE-2026-76460 impacts Cisco's Identity Services Engine (ISE) and received a maximum 10 out of 10 CVSS score.",
     "added": "2026-09-18T19:26:47+00:00",
-    "expires": "2026-10-05T15:05:27Z"
-  },
-  {
-    "title": "EY Survey Finds Autonomous AI Implementation Outpaces Oversight",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/ey-survey-autonomous-ai-implementation-outpaces-oversight",
-    "source": "Dark Reading",
-    "summary": "A new survey of senior AI execs shows that while organizations are rapidly deploying AI and autonomous systems, their process and controls are not keeping pace.",
-    "added": "2026-09-18T19:23:48+00:00",
-    "expires": "2026-10-05T15:05:27Z"
-  },
-  {
-    "title": "MFA Won't Save You From OAuth Consent Abuse",
-    "url": "https://www.darkreading.com/vulnerabilities-threats/mfa-oauth-consent-abuse",
-    "source": "Dark Reading",
-    "summary": "MFA is essential, but it cannot replace OAuth governance, least-privilege scopes, consent monitoring, and rapid revocation.",
-    "added": "2026-09-18T18:15:20+00:00",
-    "expires": "2026-10-05T15:05:27Z"
-  },
-  {
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/09/18/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": "CISA Advisories",
-    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-39964 Linux Kernel Race Condition Vulnerability CVE-2026-53266 Linux Kernel",
-    "added": "2026-09-18T12:00:00+00:00",
-    "expires": "2026-10-05T15:05:28Z"
+    "expires": "2026-10-05T21:34:55Z"
   }
 ]
