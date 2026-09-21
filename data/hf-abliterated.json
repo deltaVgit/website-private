@@ -5,7 +5,7 @@
         "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Uncensored-GGUF",
         "author": "JonathanColetti",
-        "likes": 1188,
+        "likes": 1189,
         "downloads": 2287182,
         "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "lastModified": "2026-08-29T04:18:18.000Z",
@@ -208,7 +208,7 @@
         "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
         "name": "Qwen-Image-2.1-Uncensored-GGUF",
         "author": "abenzerps",
-        "likes": 112,
+        "likes": 113,
         "downloads": 0,
         "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
         "lastModified": "2026-09-20T23:09:01.000Z",
@@ -385,30 +385,6 @@
       "pop": 0.9736,
       "rec": 1.0,
       "combo": 0.9829
-    },
-    {
-      "id": "windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF",
-      "name": "Qwen3.8-Flash-Next-Abliterated-GGUF",
-      "author": "windowsxp811203",
-      "likes": 6,
-      "downloads": 146542,
-      "url": "https://huggingface.co/windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF",
-      "lastModified": "2026-09-17T07:43:08.000Z",
-      "daysAgo": 3,
-      "pipeline": "text-generation",
-      "tags": [
-        "gguf",
-        "llama.cpp",
-        "abliterated",
-        "uncensored",
-        "qwen4_exp",
-        "qwen3.8",
-        "flash-next",
-        "moe"
-      ],
-      "pop": 0.8048,
-      "rec": 0.9091,
-      "combo": 0.8413
     },
     {
       "id": "soyaakinohara/qwen3.8-27b-abliterated-3.69bpw-12GB-MTP.gguf",
@@ -625,8 +601,32 @@
       "pop": 0.5556,
       "rec": 0.9677,
       "combo": 0.6998
+    },
+    {
+      "id": "Hikari07jp/Ternary-Bonsai-2-27B-Abliterated-GGUF",
+      "name": "Ternary-Bonsai-2-27B-Abliterated-GGUF",
+      "author": "Hikari07jp",
+      "likes": 20,
+      "downloads": 4603,
+      "url": "https://huggingface.co/Hikari07jp/Ternary-Bonsai-2-27B-Abliterated-GGUF",
+      "lastModified": "2026-09-18T10:58:23.000Z",
+      "daysAgo": 2,
+      "pipeline": "text-generation",
+      "tags": [
+        "llama.cpp",
+        "gguf",
+        "ternary",
+        "2-bit",
+        "llama-cpp",
+        "abliterated",
+        "uncensored",
+        "prismml"
+      ],
+      "pop": 0.5707,
+      "rec": 0.9375,
+      "combo": 0.6991
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-09-21T03:04:20Z"
+  "updated": "2026-09-21T03:34:30Z"
 }
