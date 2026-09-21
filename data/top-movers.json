@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-21T15:30:14Z",
+  "updated_at": "2026-09-21T15:45:18Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "GRAL",
         "name": "GRAIL, Inc.",
-        "price": 107.08,
-        "change_24h": 32.57,
+        "price": 108.86,
+        "change_24h": 34.99,
         "asset": "equity"
       },
       {
         "symbol": "ARM",
         "name": "Arm Holdings plc",
-        "price": 315.14,
-        "change_24h": 14.34,
+        "price": 317.1,
+        "change_24h": 15.05,
         "asset": "equity"
       },
       {
         "symbol": "INTC",
         "name": "Intel Corporation",
-        "price": 123.71,
-        "change_24h": 13.91,
+        "price": 124.64,
+        "change_24h": 14.77,
         "asset": "equity"
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "price": 79.36,
-        "change_24h": 13.32,
+        "price": 79.2,
+        "change_24h": 13.09,
         "asset": "equity"
       },
       {
-        "symbol": "DOCN",
-        "name": "DigitalOcean Holdings, Inc.",
-        "price": 145.99,
-        "change_24h": 12.18,
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "price": 26.68,
+        "change_24h": 11.8,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "BRVE",
         "name": "Braveheart Bio, Inc.",
-        "price": 25.69,
-        "change_24h": -12.01,
+        "price": 25.02,
+        "change_24h": -14.3,
         "asset": "equity"
       },
       {
         "symbol": "PBLS",
         "name": "Parabilis Medicines, Inc.",
-        "price": 37.4,
-        "change_24h": -10.38,
+        "price": 36.79,
+        "change_24h": -11.84,
         "asset": "equity"
       },
       {
         "symbol": "TLX",
         "name": "Telix Pharmaceuticals Limited",
         "price": 11.32,
-        "change_24h": -10.05,
+        "change_24h": -10.09,
         "asset": "equity"
       },
       {
         "symbol": "ZTO",
         "name": "ZTO Express (Cayman) Inc.",
-        "price": 19.23,
-        "change_24h": -8.28,
+        "price": 19.17,
+        "change_24h": -8.54,
         "asset": "equity"
       },
       {
         "symbol": "NVO",
         "name": "Novo Nordisk A/S",
-        "price": 39.76,
-        "change_24h": -8.06,
+        "price": 39.98,
+        "change_24h": -7.53,
         "asset": "equity"
       }
     ]
@@ -82,73 +82,73 @@
       {
         "symbol": "SUI",
         "name": "Sui",
-        "price": 1.011,
-        "change_24h": 21.94,
+        "price": 1.019,
+        "change_24h": 21.28,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.228638,
+        "change_24h": 14.01,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
-        "price": 1.76,
-        "change_24h": 13.73,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.095701,
-        "change_24h": 12.08,
+        "price": 1.77,
+        "change_24h": 13.51,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 282.79,
-        "change_24h": 11.9,
+        "price": 287.38,
+        "change_24h": 13.4,
         "asset": "crypto"
       },
       {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.300507,
-        "change_24h": 11.44,
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price": 0.096922,
+        "change_24h": 13.33,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.5,
-        "change_24h": -2.74,
-        "asset": "crypto"
-      },
-      {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 7.64,
-        "change_24h": -2.43,
+        "price": 7.68,
+        "change_24h": -2.54,
         "asset": "crypto"
       },
       {
-        "symbol": "WLFI",
-        "name": "World Liberty Financial",
-        "price": 0.057044,
-        "change_24h": -1.99,
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.49,
+        "change_24h": -2.26,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.113457,
-        "change_24h": -1.87,
+        "price": 0.113445,
+        "change_24h": -2.17,
         "asset": "crypto"
       },
       {
-        "symbol": "XAUT",
-        "name": "Tether Gold",
-        "price": 4352.24,
-        "change_24h": -0.41,
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.052574,
+        "change_24h": -2.13,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLFI",
+        "name": "World Liberty Financial",
+        "price": 0.057331,
+        "change_24h": -1.54,
         "asset": "crypto"
       }
     ]
