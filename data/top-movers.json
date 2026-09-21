@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-21T14:15:53Z",
+  "updated_at": "2026-09-21T14:30:57Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "MSTR",
         "name": "Strategy Inc",
-        "price": 164.99,
-        "change_24h": 7.19,
+        "price": 165.61,
+        "change_24h": 7.59,
         "asset": "equity"
       },
       {
         "symbol": "BTDR",
         "name": "Bitdeer Technologies Group",
-        "price": 13.2,
-        "change_24h": 1.73,
+        "price": 13.23,
+        "change_24h": 2.0,
         "asset": "equity"
       },
       {
         "symbol": "MARA",
         "name": "MARA Holdings, Inc.",
-        "price": 13.39,
-        "change_24h": 1.13,
+        "price": 13.3,
+        "change_24h": 0.42,
         "asset": "equity"
       },
       {
         "symbol": "PS",
         "name": "Pershing Square Inc.",
-        "price": 48.26,
-        "change_24h": -3.15,
+        "price": 46.99,
+        "change_24h": -5.7,
         "asset": "equity"
       },
       {
         "symbol": "SBET",
         "name": "SharpLink, Inc.",
-        "price": 9.769,
-        "change_24h": 4.48,
+        "price": 9.705,
+        "change_24h": 3.8,
         "asset": "equity"
       }
     ],
@@ -43,15 +43,15 @@
       {
         "symbol": "XENE",
         "name": "Xenon Pharmaceuticals Inc.",
-        "price": 39.76,
-        "change_24h": 0.03,
+        "price": 39.97,
+        "change_24h": 0.54,
         "asset": "equity"
       },
       {
         "symbol": "SMR",
         "name": "NuScale Power Corporation",
-        "price": 8.675,
-        "change_24h": 4.89,
+        "price": 8.715,
+        "change_24h": 5.38,
         "asset": "equity"
       },
       {
@@ -64,15 +64,15 @@
       {
         "symbol": "BTU",
         "name": "Peabody Energy Corporation",
-        "price": 25.56,
-        "change_24h": 1.35,
+        "price": 25.6,
+        "change_24h": 1.51,
         "asset": "equity"
       },
       {
         "symbol": "TNGX",
         "name": "Tango Therapeutics, Inc.",
-        "price": 22.15,
-        "change_24h": 1.84,
+        "price": 22.0,
+        "change_24h": 1.15,
         "asset": "equity"
       }
     ]
@@ -82,73 +82,73 @@
       {
         "symbol": "SUI",
         "name": "Sui",
-        "price": 1.028,
-        "change_24h": 24.93,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 32.13,
-        "change_24h": 14.16,
+        "price": 1.046,
+        "change_24h": 27.82,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.302711,
-        "change_24h": 12.97,
+        "price": 0.304023,
+        "change_24h": 14.31,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price": 4e-06,
+        "change_24h": 13.92,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 32.0,
+        "change_24h": 13.66,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 283.22,
-        "change_24h": 12.77,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 4.09,
-        "change_24h": 10.61,
+        "price": 285.4,
+        "change_24h": 13.65,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.053307,
+        "change_24h": -11.8,
+        "asset": "crypto"
+      },
+      {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.49,
-        "change_24h": -1.94,
+        "change_24h": -1.74,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.112689,
-        "change_24h": -1.64,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLFI",
-        "name": "World Liberty Financial",
-        "price": 0.057662,
-        "change_24h": -0.98,
+        "price": 0.113025,
+        "change_24h": -1.66,
         "asset": "crypto"
       },
       {
         "symbol": "XAUT",
         "name": "Tether Gold",
-        "price": 4339.94,
-        "change_24h": -0.67,
+        "price": 4341.05,
+        "change_24h": -0.64,
         "asset": "crypto"
       },
       {
         "symbol": "PAXG",
         "name": "PAX Gold",
-        "price": 4336.22,
-        "change_24h": -0.54,
+        "price": 4337.68,
+        "change_24h": -0.49,
         "asset": "crypto"
       }
     ]
