@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T19:00:22Z",
+  "updated_at": "2026-09-21T19:15:16Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -7,72 +7,72 @@
         "symbol": "GRAL",
         "name": "GRAIL, Inc.",
         "price": 108.81,
-        "change_24h": 34.88,
-        "asset": "equity"
-      },
-      {
-        "symbol": "ARM",
-        "name": "Arm Holdings plc",
-        "price": 321.3,
-        "change_24h": 16.58,
+        "change_24h": 34.71,
         "asset": "equity"
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "price": 12.49,
-        "change_24h": 15.0,
+        "price": 12.64,
+        "change_24h": 16.39,
+        "asset": "equity"
+      },
+      {
+        "symbol": "ARM",
+        "name": "Arm Holdings plc",
+        "price": 321.88,
+        "change_24h": 16.79,
         "asset": "equity"
       },
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "price": 27.1,
-        "change_24h": 13.58,
+        "price": 27.08,
+        "change_24h": 13.5,
         "asset": "equity"
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "price": 79.56,
-        "change_24h": 13.61,
+        "price": 79.86,
+        "change_24h": 14.03,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "BRVE",
-        "name": "Braveheart Bio, Inc.",
-        "price": 25.27,
-        "change_24h": -13.48,
+        "symbol": "PBLS",
+        "name": "Parabilis Medicines, Inc.",
+        "price": 36.02,
+        "change_24h": -13.68,
         "asset": "equity"
       },
       {
-        "symbol": "PBLS",
-        "name": "Parabilis Medicines, Inc.",
-        "price": 36.46,
-        "change_24h": -12.65,
+        "symbol": "BRVE",
+        "name": "Braveheart Bio, Inc.",
+        "price": 25.29,
+        "change_24h": -13.39,
         "asset": "equity"
       },
       {
         "symbol": "TLX",
         "name": "Telix Pharmaceuticals Limited",
-        "price": 11.28,
-        "change_24h": -10.42,
+        "price": 11.27,
+        "change_24h": -10.52,
         "asset": "equity"
       },
       {
         "symbol": "ZTO",
         "name": "ZTO Express (Cayman) Inc.",
-        "price": 19.18,
-        "change_24h": -8.47,
+        "price": 19.23,
+        "change_24h": -8.25,
         "asset": "equity"
       },
       {
         "symbol": "NVO",
         "name": "Novo Nordisk A/S",
-        "price": 39.81,
-        "change_24h": -7.92,
+        "price": 39.71,
+        "change_24h": -8.17,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.099764,
-        "change_24h": 15.03,
-        "asset": "crypto"
-      },
-      {
         "symbol": "SUI",
         "name": "Sui",
         "price": 1.011,
-        "change_24h": 14.78,
+        "change_24h": 14.42,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price": 0.098407,
+        "change_24h": 13.52,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 31.93,
-        "change_24h": 13.63,
+        "price": 31.84,
+        "change_24h": 12.07,
         "asset": "crypto"
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.042727,
-        "change_24h": 10.34,
+        "price": 0.042985,
+        "change_24h": 10.98,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 286.21,
-        "change_24h": 9.23,
+        "price": 288.51,
+        "change_24h": 9.75,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.211337,
-        "change_24h": -4.63,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.11187,
-        "change_24h": -2.08,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AVAX",
-        "name": "Avalanche",
-        "price": 10.91,
-        "change_24h": -2.01,
+        "price": 0.210858,
+        "change_24h": -6.22,
         "asset": "crypto"
       },
       {
         "symbol": "WLFI",
         "name": "World Liberty Financial",
-        "price": 0.057008,
-        "change_24h": -1.93,
+        "price": 0.056927,
+        "change_24h": -2.18,
         "asset": "crypto"
       },
       {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.014042,
-        "change_24h": -1.36,
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.11241,
+        "change_24h": -1.48,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price": 10.96,
+        "change_24h": -1.12,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.69,
+        "change_24h": -1.08,
         "asset": "crypto"
       }
     ]
