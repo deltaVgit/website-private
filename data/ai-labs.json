@@ -1,6 +1,86 @@
 {
-  "updated": "2026-09-21T03:34:37Z",
+  "updated": "2026-09-21T04:04:47Z",
   "items": [
+    {
+      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+      "url": "https://arxiv.org/abs/2609.20971",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.20971v1 Announce Type: new Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block centroid may h",
+      "tag": "ai"
+    },
+    {
+      "title": "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
+      "url": "https://arxiv.org/abs/2609.20974",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.20974v1 Announce Type: new Abstract: In Mixture-of-Experts language models, the router typically selects and weights experts based on the token's hidden state, utilizing limited contextual information. We propose Attention-Aware Routing (AAR), which augments the router",
+      "tag": "ai"
+    },
+    {
+      "title": "CaLR: Causal Latent Revision for Robust Diffusion Reasoning",
+      "url": "https://arxiv.org/abs/2609.20981",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.20981v1 Announce Type: new Abstract: Autoregressive (AR) models suffer from local greediness, while diffusion language models (DLMs) often lack the strict causal structure required for reasoning. To combine the advantages and overcome the drawbacks of the dual, we prop",
+      "tag": "ai"
+    },
+    {
+      "title": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
+      "url": "https://arxiv.org/abs/2609.21061",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.21061v1 Announce Type: new Abstract: Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop assessment. We adapt D",
+      "tag": "ai"
+    },
+    {
+      "title": "Sparse Priors for Efficient Distribution Learning",
+      "url": "https://arxiv.org/abs/2609.20883",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.20883v1 Announce Type: new Abstract: Despite the widespread use and success of generative AI techniques today, theoretical guarantees on learning a distribution supported in $d$ dimensions from $n$ samples degrade as $O(n^{-1/\\Theta(d)})$, though shown to be minimax op",
+      "tag": "ai"
+    },
+    {
+      "title": "BI-Agent and BI-Bench: Towards Automating End-to-End Business Intelligence",
+      "url": "https://arxiv.org/abs/2609.20886",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.20886v1 Announce Type: new Abstract: Business intelligence (BI) is a cornerstone of enterprise decision-making and is widely used by enterprise users in software such as Power BI and Tableau. In traditional BI workflows, users need to prepare data by (1) identifying re",
+      "tag": "ai"
+    },
+    {
+      "title": "Elastic Threshold Attention: Learned Contextual Sparsity for Long-Context Decoding",
+      "url": "https://arxiv.org/abs/2609.20888",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.20888v1 Announce Type: new Abstract: Massive KV caches can cause severe memory-bandwidth bottlenecks during long-context decoding. Sparse attention methods mitigate this via selective loading, but that comes at a cost: rigid heuristics drop necessary context, leading t",
+      "tag": "ai"
+    },
+    {
+      "title": "Do small language models know what they don't know?",
+      "url": "https://arxiv.org/abs/2609.20824",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.20824v1 Announce Type: new Abstract: We explore whether entropy-based confidence signals can be leveraged to improve the accuracy of Small Language Models (SLMs) with fewer than 3 billion parameters, running entirely on consumer hardware. We evaluate seven distinct app",
+      "tag": "ai"
+    },
+    {
+      "title": "HERMES: Contrast-Aware Knowledge Graph Reasoning from Clinical Notes for Patient Outcome Prediction",
+      "url": "https://arxiv.org/abs/2609.20825",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.20825v1 Announce Type: new Abstract: Clinical predictive models often rely on structured Electronic Health Record data, such as time-series and procedure codes. While recent approaches have begun leveraging unstructured clinical notes, they typically encode them as fla",
+      "tag": "ai"
+    },
+    {
+      "title": "TALON: A Temporally Aware Longitudinal Framework for Radiology Report Generation",
+      "url": "https://arxiv.org/abs/2609.20826",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.20826v1 Announce Type: new Abstract: Current radiology report generation (RRG) models usually produce descriptive reports based on a single examination or only the most recent prior examination, limiting their ability to perform accurate and meaningful longitudinal com",
+      "tag": "ai"
+    },
     {
       "title": "Quoting voxium",
       "url": "https://simonwillison.net/2026/Sep/20/voxium/",
@@ -239,86 +319,6 @@
       "source": "Meta Engineering",
       "published_at": "2026-09-02T09:00:29+00:00",
       "summary": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved for anyone in an organization to access, share, and build upon. This is not a typical domain-specific agent. Its novelty comes from integra",
-      "tag": "ai"
-    },
-    {
-      "title": "Import AI 471: Why Hugging Face worries me; space mining; FIve Eyes on AI",
-      "url": "https://jack-clark.net/2026/08/31/import-ai-471-why-hugging-face-worries-me-space-mining-five-eyes-on-ai/",
-      "source": "Import AI",
-      "published_at": "2026-08-31T13:31:06+00:00",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Import AI reader giveaway! Upcoming event: Fiction and the Future with Robin SloanI’ll be chatting",
-      "tag": "ai"
-    },
-    {
-      "title": "What We Learned Trying to Catch AI Liars: An Aletheia's Quest Retrospective",
-      "url": "https://blog.eleuther.ai/aletheia-retrospective/",
-      "source": "EleutherAI",
-      "published_at": "2026-08-25T16:35:00+00:00",
-      "summary": "What we learned while building black-box and white-box detectors for AI deception during Aletheia's Quest.",
-      "tag": "ai"
-    },
-    {
-      "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
-      "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/",
-      "source": "Meta Engineering",
-      "published_at": "2026-08-24T18:02:29+00:00",
-      "summary": "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles. To meet this challenge at scale, Meta designed MetaRoCE – a clean-sheet RDMA transport protocol purpose-built for AI workloads on commodity Ether",
-      "tag": "ai"
-    },
-    {
-      "title": "A Dynamical Model of AI Governability",
-      "url": "https://blog.eleuther.ai/dynamical-models-of-ai-governability/",
-      "source": "EleutherAI",
-      "published_at": "2026-07-13T00:00:00+00:00",
-      "summary": "A toy dynamical model of whether the AI workforce that builds future AI ends up cooperative or uncooperative: where the basin boundary lies, what current evidence says about which side we are on, and what would tell us we are on the good path.",
-      "tag": "ai"
-    },
-    {
-      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
-      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
-      "source": "NVIDIA AI",
-      "published_at": "2026-07-08T15:00:27+00:00",
-      "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open mo",
-      "tag": "ai"
-    },
-    {
-      "title": "Early Indicators of Reward Hacking via Reasoning Interpolation",
-      "url": "https://blog.eleuther.ai/reward-hacking-indicators/",
-      "source": "EleutherAI",
-      "published_at": "2026-04-15T00:00:00+00:00",
-      "summary": "Using importance sampling with fine-tuned donor prefills to predict reward hacking emergence during training",
-      "tag": "ai"
-    },
-    {
-      "title": "NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES",
-      "url": "https://blogs.nvidia.com/blog/2026-ces-special-presentation/",
-      "source": "NVIDIA AI",
-      "published_at": "2026-01-05T23:30:18+00:00",
-      "summary": "Editor’s note: The name of NVIDIA DRIVE Hyperion was changed to NVIDIA Hyperion in September 2026. All references to the name have been updated in this blog. NVIDIA founder and CEO Jensen Huang took the stage at the Fontainebleau Las Vegas to open CES 2026, declaring that AI is s",
-      "tag": "ai"
-    },
-    {
-      "title": "As AI Grows More Complex, Model Builders Rely on NVIDIA",
-      "url": "https://blogs.nvidia.com/blog/leading-models-nvidia/",
-      "source": "NVIDIA AI",
-      "published_at": "2025-12-11T19:19:57+00:00",
-      "summary": "Unveiling what it describes as the most capable model series yet for professional knowledge work, OpenAI launched GPT-5.2 in December. The model was trained and deployed on NVIDIA infrastructure, including NVIDIA Hopper and GB200 NVL72 systems. GPT-5.3 Codex — the first OpenAI ag",
-      "tag": "ai"
-    },
-    {
-      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
-      "url": "https://qwenlm.github.io/blog/qwen3guard/",
-      "source": "Qwen (Alibaba)",
-      "published_at": "2025-09-22T20:00:00+00:00",
-      "summary": "Tech Report GitHub Hugging Face ModelScope DISCORD Introduction We are excited to introduce Qwen3Guard, the first safety guardrail model in the Qwen family. Built upon the powerful Qwen3 foundation models and fine-tuned specifically for safety classificatoin, Qwen3Guard ensures r",
-      "tag": "ai"
-    },
-    {
-      "title": "Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency",
-      "url": "https://qwenlm.github.io/blog/qwen-image-edit/",
-      "source": "Qwen (Alibaba)",
-      "published_at": "2025-08-18T17:30:00+00:00",
-      "summary": "QWEN CHAT GITHUB HUGGING FACE MODELSCOPE DISCORD We are excited to introduce Qwen-Image-Edit, the image editing version of Qwen-Image. Built upon our 20B Qwen-Image model, Qwen-Image-Edit successfully extends Qwen-Image’s unique text rendering capabilities to image editing tasks,",
       "tag": "ai"
     }
   ],
