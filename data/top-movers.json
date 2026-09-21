@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T09:30:35Z",
+  "updated_at": "2026-09-21T09:45:39Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 4.34,
-        "change_24h": 22.67,
+        "symbol": "SUI",
+        "name": "Sui",
+        "price": 1.008,
+        "change_24h": 21.59,
         "asset": "crypto"
       },
       {
-        "symbol": "SUI",
-        "name": "Sui",
-        "price": 1.006,
-        "change_24h": 22.26,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 4.29,
+        "change_24h": 19.82,
         "asset": "crypto"
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price": 11.24,
-        "change_24h": 15.32,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.54,
-        "change_24h": 13.46,
+        "price": 11.23,
+        "change_24h": 14.08,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.306455,
-        "change_24h": 12.98,
+        "price": 0.307116,
+        "change_24h": 12.54,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.116969,
+        "change_24h": 12.36,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.112521,
-        "change_24h": -1.75,
+        "price": 0.112252,
+        "change_24h": -1.84,
         "asset": "crypto"
       },
       {
         "symbol": "XAUT",
         "name": "Tether Gold",
-        "price": 4350.97,
-        "change_24h": -0.48,
+        "price": 4347.04,
+        "change_24h": -0.59,
         "asset": "crypto"
       },
       {
         "symbol": "PAXG",
         "name": "PAX Gold",
-        "price": 4346.95,
-        "change_24h": -0.33,
+        "price": 4341.69,
+        "change_24h": -0.46,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "USDY",
+        "name": "Ondo US Dollar Yield",
+        "price": 1.14,
+        "change_24h": -0.07,
         "asset": "crypto"
       },
       {
         "symbol": "USDGO",
         "name": "USDGO",
-        "price": 0.999753,
-        "change_24h": -0.07,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "EUTBL",
-        "name": "Spiko EU T-Bills Money Market Fund",
-        "price": 1.22,
-        "change_24h": -0.01,
+        "price": 0.999736,
+        "change_24h": -0.03,
         "asset": "crypto"
       }
     ]
