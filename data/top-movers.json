@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T11:45:11Z",
+  "updated_at": "2026-09-21T12:00:16Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "SUI",
         "name": "Sui",
-        "price": 1.032,
-        "change_24h": 26.02,
+        "price": 1.017,
+        "change_24h": 23.63,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.16,
-        "change_24h": 15.86,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AVAX",
-        "name": "Avalanche",
-        "price": 11.47,
-        "change_24h": 14.14,
+        "price": 4.18,
+        "change_24h": 15.65,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 284.91,
-        "change_24h": 13.78,
+        "price": 283.22,
+        "change_24h": 12.75,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.304618,
-        "change_24h": 12.71,
+        "price": 0.302776,
+        "change_24h": 11.49,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price": 0.211237,
+        "change_24h": 10.94,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.050928,
+        "change_24h": -1.39,
+        "asset": "crypto"
+      },
+      {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.112557,
-        "change_24h": -1.0,
+        "price": 0.112458,
+        "change_24h": -1.07,
         "asset": "crypto"
       },
       {
         "symbol": "USDY",
         "name": "Ondo US Dollar Yield",
         "price": 1.14,
-        "change_24h": -0.17,
+        "change_24h": -0.29,
         "asset": "crypto"
       },
       {
-        "symbol": "LEO",
-        "name": "LEO Token",
-        "price": 8.94,
-        "change_24h": -0.14,
+        "symbol": "WLFI",
+        "name": "World Liberty Financial",
+        "price": 0.058057,
+        "change_24h": -0.18,
         "asset": "crypto"
       },
       {
-        "symbol": "XAUT",
-        "name": "Tether Gold",
-        "price": 4362.69,
-        "change_24h": -0.13,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PAXG",
-        "name": "PAX Gold",
-        "price": 4357.3,
-        "change_24h": -0.04,
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.5,
+        "change_24h": -0.12,
         "asset": "crypto"
       }
     ]
