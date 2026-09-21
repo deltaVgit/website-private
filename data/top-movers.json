@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T00:15:18Z",
+  "updated_at": "2026-09-21T00:30:19Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.2,
-        "change_24h": 17.55,
+        "price": 4.26,
+        "change_24h": 19.09,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 29.61,
+        "change_24h": 14.29,
         "asset": "crypto"
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price": 11.52,
-        "change_24h": 11.35,
+        "price": 11.77,
+        "change_24h": 12.35,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
-        "price": 1.74,
-        "change_24h": 10.66,
+        "price": 1.75,
+        "change_24h": 11.0,
         "asset": "crypto"
       },
       {
-        "symbol": "STX",
-        "name": "Stacks",
-        "price": 0.338491,
-        "change_24h": 7.85,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.21763,
-        "change_24h": 7.65,
+        "symbol": "SUI",
+        "name": "Sui",
+        "price": 0.94081,
+        "change_24h": 9.06,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.057946,
-        "change_24h": -9.51,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "INJ",
-        "name": "Injective",
-        "price": 7.71,
-        "change_24h": -3.07,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.727512,
-        "change_24h": -2.94,
+        "price": 0.055965,
+        "change_24h": -12.99,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.113259,
-        "change_24h": -2.88,
+        "price": 0.113221,
+        "change_24h": -2.64,
         "asset": "crypto"
       },
       {
-        "symbol": "ASTER",
-        "name": "Aster",
-        "price": 0.743206,
-        "change_24h": -2.25,
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 7.76,
+        "change_24h": -2.31,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VET",
+        "name": "VeChain",
+        "price": 0.008529,
+        "change_24h": -2.07,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.49,
+        "change_24h": -1.95,
         "asset": "crypto"
       }
     ]
