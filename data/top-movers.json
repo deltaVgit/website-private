@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T20:15:31Z",
+  "updated_at": "2026-09-21T20:30:31Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -62,17 +62,17 @@
         "asset": "equity"
       },
       {
-        "symbol": "NVO",
-        "name": "Novo Nordisk A/S",
-        "price": 39.82,
-        "change_24h": -7.91,
-        "asset": "equity"
-      },
-      {
         "symbol": "CXW",
         "name": "CoreCivic, Inc.",
         "price": 32.41,
         "change_24h": -8.0,
+        "asset": "equity"
+      },
+      {
+        "symbol": "NVO",
+        "name": "Novo Nordisk A/S",
+        "price": 39.8,
+        "change_24h": -7.96,
         "asset": "equity"
       }
     ]
@@ -82,73 +82,73 @@
       {
         "symbol": "SUI",
         "name": "Sui",
-        "price": 1.026,
-        "change_24h": 16.4,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.045031,
-        "change_24h": 14.22,
+        "price": 1.027,
+        "change_24h": 15.88,
         "asset": "crypto"
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price": 0.098773,
-        "change_24h": 13.13,
+        "price": 0.100172,
+        "change_24h": 14.42,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.044614,
+        "change_24h": 13.63,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 31.81,
-        "change_24h": 12.32,
+        "price": 31.71,
+        "change_24h": 12.2,
         "asset": "crypto"
       },
       {
         "symbol": "CRO",
         "name": "Cronos",
-        "price": 0.065561,
-        "change_24h": 11.04,
+        "price": 0.065632,
+        "change_24h": 11.09,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.055477,
+        "change_24h": -10.83,
+        "asset": "crypto"
+      },
+      {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1467.59,
-        "change_24h": -3.88,
+        "price": 1479.89,
+        "change_24h": -2.89,
         "asset": "crypto"
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price": 10.99,
-        "change_24h": -3.2,
+        "price": 11.05,
+        "change_24h": -2.47,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.212208,
-        "change_24h": -2.73,
+        "price": 0.213771,
+        "change_24h": -2.21,
         "asset": "crypto"
       },
       {
         "symbol": "WLFI",
         "name": "World Liberty Financial",
-        "price": 0.057207,
-        "change_24h": -2.01,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.112021,
-        "change_24h": -1.43,
+        "price": 0.057226,
+        "change_24h": -2.19,
         "asset": "crypto"
       }
     ]
