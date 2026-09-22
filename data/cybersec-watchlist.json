@@ -1,130 +1,130 @@
 [
   {
+    "title": "Check Point warns of Management Server zero-day exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "summary": "Check Point Software released emergency hotfixes to address a critical Security Management Server vulnerability that could let attackers run arbitrary scripts. [...]",
+    "added": "2026-09-22T16:32:47+00:00",
+    "expires": "2026-10-06T16:35:02Z"
+  },
+  {
+    "title": "EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts",
+    "url": "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/",
+    "source": "BleepingComputer",
+    "summary": "The EvilTokens platform that compromised more than 12,000 Microsoft accounts at over 10,000 organizations has been disrupted in an effort led by Microsoft's Digital Crimes Unit (DCU). [...]",
+    "added": "2026-09-22T15:00:00+00:00",
+    "expires": "2026-10-06T16:35:02Z"
+  },
+  {
+    "title": "Webinar tomorrow: Inside real-world Google Workspace breaches",
+    "url": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/",
+    "source": "BleepingComputer",
+    "summary": "Tomorrow's webinar examines real Google Workspace breaches involving social engineering and malicious OAuth applications, from initial access through the critical first hours of incident response. Learn which security co",
+    "added": "2026-09-22T12:57:07+00:00",
+    "expires": "2026-10-06T16:35:02Z"
+  },
+  {
+    "title": "D-Link warns of max severity zero-day bug in DIR-822A routers",
+    "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
+    "source": "BleepingComputer",
+    "summary": "D-Link warned customers of a maximum-severity vulnerability (CVE-2026-86296) with public proof-of-concept (PoC) exploit code and no patch, affecting legacy DIR-822A dual-band Wi-Fi routers. [...]",
+    "added": "2026-09-22T12:48:06+00:00",
+    "expires": "2026-10-06T16:35:02Z"
+  },
+  {
+    "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
+    "url": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
+    "source": "The Hacker News",
+    "summary": "Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the access it already has? A ",
+    "added": "2026-09-22T12:30:00+00:00",
+    "expires": "2026-10-06T16:35:03Z"
+  },
+  {
+    "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
+    "url": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
+    "source": "The Hacker News",
+    "summary": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22. The flaw, tracked as CVE-2026-93952, may allow",
+    "added": "2026-09-22T12:29:00+00:00",
+    "expires": "2026-10-06T16:35:03Z"
+  },
+  {
+    "title": "More Than a Third of Industrial Orgs See Cybersecurity Risk as a Top Obstacle to Growth, Study Finds",
+    "url": "https://www.darkreading.com/cyber-risk/third-industrial-orgs-see-cybersecurity-risk-top-obstacle",
+    "source": "Dark Reading",
+    "summary": "Industrial companies are increasing cybersecurity investment as connected operations, AI adoption, and IT/OT convergence expand operational risk.",
+    "added": "2026-09-22T12:00:00+00:00",
+    "expires": "2026-10-06T16:35:03Z"
+  },
+  {
+    "title": "Siemens Industrial Edge Management",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-06",
+    "source": "CISA Advisories",
+    "summary": "View CSAF Summary Industrial Edge Management contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to perform full account takeover by resetting user credentials without comp",
+    "added": "2026-09-22T12:00:00+00:00",
+    "expires": "2026-10-06T16:35:03Z"
+  },
+  {
+    "title": "OpenPLC Runtime v3",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-09",
+    "source": "CISA Advisories",
+    "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to hijack session cookies and issue state-changing requests as an operator which would allow the attacker to control the programmabl",
+    "added": "2026-09-22T12:00:00+00:00",
+    "expires": "2026-10-06T16:35:03Z"
+  },
+  {
+    "title": "lwIP (Lightweight IP)",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-02",
+    "source": "CISA Advisories",
+    "summary": "View CSAF Summary Successful exploitation of this vulnerability could result in a system crash, a DoS, or memory corruption, which could lead to code execution on the victim system. The following versions of lwIP (Lightw",
+    "added": "2026-09-22T12:00:00+00:00",
+    "expires": "2026-10-06T16:35:03Z"
+  },
+  {
+    "title": "Siemens WTV676 and WTV776",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-08",
+    "source": "CISA Advisories",
+    "summary": "View CSAF Summary The products listed below contain a denial of service vulnerability that could allow an attacker to force the devices into protection mode under certain conditions. This disables remote connectivity fun",
+    "added": "2026-09-22T12:00:00+00:00",
+    "expires": "2026-10-06T16:35:03Z"
+  },
+  {
+    "title": "Siemens SIPLUS and SIMATIC Products",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-04",
+    "source": "CISA Advisories",
+    "summary": "View CSAF Summary Multiple Siemens products are vulnerable to the \"Copy Fail\" vulnerability. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is pre",
+    "added": "2026-09-22T12:00:00+00:00",
+    "expires": "2026-10-06T16:35:03Z"
+  },
+  {
+    "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
+    "url": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
+    "source": "The Hacker News",
+    "summary": "When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent the first year establishing risk governance",
+    "added": "2026-09-22T11:45:00+00:00",
+    "expires": "2026-10-06T16:35:03Z"
+  },
+  {
+    "title": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
+    "url": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
+    "source": "The Hacker News",
+    "summary": "A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtualization enabled. The bug, tracked as CVE",
+    "added": "2026-09-22T11:38:40+00:00",
+    "expires": "2026-10-06T16:35:03Z"
+  },
+  {
+    "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
+    "url": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
+    "source": "The Hacker News",
+    "summary": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to full technical details published today ",
+    "added": "2026-09-22T11:17:41+00:00",
+    "expires": "2026-10-06T16:35:03Z"
+  },
+  {
     "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
     "url": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
     "source": "BleepingComputer",
     "summary": "Over the weekend, security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) released another Microsoft Defender zero-day exploit that blocks antivirus updates. [...]",
     "added": "2026-09-22T09:55:11+00:00",
-    "expires": "2026-10-06T10:34:33Z"
-  },
-  {
-    "title": "CISA orders feds to patch Zyxel flaw exploited for data theft",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
-    "source": "BleepingComputer",
-    "summary": "​Attackers are now actively exploiting a high-severity vulnerability in Zyxel GS1900 series switches, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
-    "added": "2026-09-22T08:53:09+00:00",
-    "expires": "2026-10-06T10:34:33Z"
-  },
-  {
-    "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
-    "url": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
-    "source": "The Hacker News",
-    "summary": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities. \"SideCopy campaign operations typicall",
-    "added": "2026-09-22T07:52:03+00:00",
-    "expires": "2026-10-06T10:34:34Z"
-  },
-  {
-    "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
-    "url": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
-    "source": "The Hacker News",
-    "summary": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a proof-of-concept released on September 21",
-    "added": "2026-09-22T06:33:57+00:00",
-    "expires": "2026-10-06T10:34:34Z"
-  },
-  {
-    "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
-    "url": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
-    "source": "The Hacker News",
-    "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server. WordPre",
-    "added": "2026-09-22T06:03:14+00:00",
-    "expires": "2026-10-06T10:34:34Z"
-  },
-  {
-    "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
-    "url": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
-    "source": "The Hacker News",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of",
-    "added": "2026-09-22T05:31:59+00:00",
-    "expires": "2026-10-06T10:34:34Z"
-  },
-  {
-    "title": "How AI Agents Can Trigger Runaway Costs for Enterprises",
-    "url": "https://www.darkreading.com/application-security/how-ai-agents-can-trigger-runaway-costs",
-    "source": "Dark Reading",
-    "summary": "Unbounded consumption is an issue that OWASP currently ranks sixth in its Top 10 for LLM Applications, and it could be an extremely costly one.",
-    "added": "2026-09-21T21:39:59+00:00",
-    "expires": "2026-10-06T10:34:33Z"
-  },
-  {
-    "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
-    "url": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
-    "source": "BleepingComputer",
-    "summary": "Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores. [...",
-    "added": "2026-09-21T21:18:49+00:00",
-    "expires": "2026-10-06T10:34:33Z"
-  },
-  {
-    "title": "CISA alerts of active exploitation of three Linux kernel flaws",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
-    "source": "BleepingComputer",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting three Linux kernel vulnerabilities, one of them rated critical. [...]",
-    "added": "2026-09-21T20:12:17+00:00",
-    "expires": "2026-10-06T10:34:33Z"
-  },
-  {
-    "title": "ShinyHunters Hacked Clop. Now What About Clop's Victims?",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-hacked-clop-what-about-clops-victims",
-    "source": "Dark Reading",
-    "summary": "ShinyHunters defaced Clop's Dark Web site and claims to have stolen victim data, potentially exposing organizations that paid ransoms to renewed extortion attempts.",
-    "added": "2026-09-21T20:07:56+00:00",
-    "expires": "2026-10-06T10:34:33Z"
-  },
-  {
-    "title": "Cybercriminals Are Hiding New Malware in Torrents for Popular Films",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/cybercriminals-hiding-new-malware-torrents-popular-films",
-    "source": "Dark Reading",
-    "summary": "Victims have been identified in Africa, including in Kenya and Uganda.",
-    "added": "2026-09-21T19:11:26+00:00",
-    "expires": "2026-10-06T10:34:33Z"
-  },
-  {
-    "title": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
-    "url": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
-    "source": "BleepingComputer",
-    "summary": "Technical details and a proof-of-concept exploit have been published for a new WordPress cross-site request forgery (CSRF) vulnerability dubbed 'Click2Shell' that affects the platform's Core component. [...]",
-    "added": "2026-09-21T18:23:11+00:00",
-    "expires": "2026-10-06T10:34:33Z"
-  },
-  {
-    "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
-    "url": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
-    "source": "The Hacker News",
-    "summary": "A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it, researcher",
-    "added": "2026-09-21T17:31:01+00:00",
-    "expires": "2026-10-06T10:34:34Z"
-  },
-  {
-    "title": "Rogue Behavior: OpenAI Reveals More Model Misalignment Incidents",
-    "url": "https://www.darkreading.com/cyber-risk/rogue-behavior-openai-more-model-misalignment-incidents",
-    "source": "Dark Reading",
-    "summary": "The AI giant disclosed six examples of concerning model activity and published a new framework for investigating and disclosing such incidents.",
-    "added": "2026-09-21T14:47:19+00:00",
-    "expires": "2026-10-06T10:34:33Z"
-  },
-  {
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/09/21/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA Advisories",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-7273 Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability T",
-    "added": "2026-09-21T12:00:00+00:00",
-    "expires": "2026-10-06T10:34:34Z"
-  },
-  {
-    "title": "Vectra AI Launches Ascent to Help Address New Era of AI-Driven Attacks",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/vectra-ai-launches-ascent-new-era-ai-driven-attacks",
-    "source": "Dark Reading",
-    "summary": "The new program expands Vectra AI's partner strategy as increasingly complex security environments and the growing use of AI create demand for broader AI expertise, services, and security outcomes.",
-    "added": "2026-09-18T20:24:51+00:00",
-    "expires": "2026-10-06T10:34:33Z"
+    "expires": "2026-10-06T16:35:02Z"
   }
 ]
