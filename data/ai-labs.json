@@ -1,6 +1,86 @@
 {
-  "updated": "2026-09-21T21:34:49Z",
+  "updated": "2026-09-22T04:05:12Z",
   "items": [
+    {
+      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+      "url": "https://arxiv.org/abs/2609.20971",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-22T04:00:00+00:00",
+      "summary": "arXiv:2609.20971v1 Announce Type: new Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block centroid may h",
+      "tag": "ai"
+    },
+    {
+      "title": "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
+      "url": "https://arxiv.org/abs/2609.20974",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-22T04:00:00+00:00",
+      "summary": "arXiv:2609.20974v1 Announce Type: new Abstract: In Mixture-of-Experts language models, the router typically selects and weights experts based on the token's hidden state, utilizing limited contextual information. We propose Attention-Aware Routing (AAR), which augments the router",
+      "tag": "ai"
+    },
+    {
+      "title": "CaLR: Causal Latent Revision for Robust Diffusion Reasoning",
+      "url": "https://arxiv.org/abs/2609.20981",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-22T04:00:00+00:00",
+      "summary": "arXiv:2609.20981v1 Announce Type: new Abstract: Autoregressive (AR) models suffer from local greediness, while diffusion language models (DLMs) often lack the strict causal structure required for reasoning. To combine the advantages and overcome the drawbacks of the dual, we prop",
+      "tag": "ai"
+    },
+    {
+      "title": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
+      "url": "https://arxiv.org/abs/2609.21061",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-22T04:00:00+00:00",
+      "summary": "arXiv:2609.21061v1 Announce Type: new Abstract: Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop assessment. We adapt D",
+      "tag": "ai"
+    },
+    {
+      "title": "Recognition, Simulation, and Refusal: A Contamination-Aware Study of Classic Psychological Effects in LLM Agents",
+      "url": "https://arxiv.org/abs/2609.22090",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-22T04:00:00+00:00",
+      "summary": "arXiv:2609.22090v1 Announce Type: new Abstract: An LLM producing the response pattern associated with a human psychological effect is not the same claim as the LLM possessing that bias. We present PsyAgentBench, a benchmark that re-runs classic psychology experiments on LLM agent",
+      "tag": "ai"
+    },
+    {
+      "title": "Memory That Looks Forward: A Zero-Inference Prospective Term for Personal Memory Retrieval",
+      "url": "https://arxiv.org/abs/2609.22091",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-22T04:00:00+00:00",
+      "summary": "arXiv:2609.22091v1 Announce Type: new Abstract: Retrieval over a personal memory store is retrospective: it surfaces what resembles the query, and it is blind to what the user has committed to do. We describe a prospective term for memory retrieval that costs no inference at quer",
+      "tag": "ai"
+    },
+    {
+      "title": "Summarize, Judge, Refine: Decoupled Content Understanding and Policy Learning for Multimodal Content Moderation",
+      "url": "https://arxiv.org/abs/2609.22094",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-22T04:00:00+00:00",
+      "summary": "arXiv:2609.22094v1 Announce Type: new Abstract: Content moderation systems traditionally entangle multimodal understanding with policy-specific classification, requiring full pipeline retraining for every policy change and suffering from label scarcity since multimedia cannot be ",
+      "tag": "ai"
+    },
+    {
+      "title": "We've saved the world before: what the ozone hole teaches us about AI",
+      "url": "https://www.lesswrong.com/posts/zxXPEtSSSEdwpjopb/we-ve-saved-the-world-before-what-the-ozone-hole-teaches-us",
+      "source": "LessWrong",
+      "published_at": "2026-09-22T01:13:30+00:00",
+      "summary": "It might destroy the world, despite passing every known safety test. If we wait for a “warning shot” before we act, it might be too late. And action requires global coordination, because if anyone makes it, everyone dies. Sound familiar? It should, because it already happened hal",
+      "tag": "ai"
+    },
+    {
+      "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
+      "url": "https://simonwillison.net/2026/Sep/21/jev/",
+      "source": "Simon Willison",
+      "published_at": "2026-09-21T23:09:20+00:00",
+      "summary": "Last week TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is a better name for these). Jev is an interesting variant on the usual LLM format: it still accepts ",
+      "tag": "ai"
+    },
+    {
+      "title": "Cloudflare Python Workers are now generally available",
+      "url": "https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/",
+      "source": "Simon Willison",
+      "published_at": "2026-09-21T22:25:44+00:00",
+      "summary": "Cloudflare Python Workers are now generally available After a two year preview, Cloudflare's support for running Python code in their server-side Workers platform is now stable: \"Python is now a first-class, fully supported language on the Cloudflare Developer Platform\". A neat t",
+      "tag": "ai"
+    },
     {
       "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems",
       "url": "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/",
@@ -74,86 +154,6 @@
       "tag": "ai"
     },
     {
-      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
-      "url": "https://arxiv.org/abs/2609.20971",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-21T04:00:00+00:00",
-      "summary": "arXiv:2609.20971v1 Announce Type: new Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block centroid may h",
-      "tag": "ai"
-    },
-    {
-      "title": "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
-      "url": "https://arxiv.org/abs/2609.20974",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-21T04:00:00+00:00",
-      "summary": "arXiv:2609.20974v1 Announce Type: new Abstract: In Mixture-of-Experts language models, the router typically selects and weights experts based on the token's hidden state, utilizing limited contextual information. We propose Attention-Aware Routing (AAR), which augments the router",
-      "tag": "ai"
-    },
-    {
-      "title": "CaLR: Causal Latent Revision for Robust Diffusion Reasoning",
-      "url": "https://arxiv.org/abs/2609.20981",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-21T04:00:00+00:00",
-      "summary": "arXiv:2609.20981v1 Announce Type: new Abstract: Autoregressive (AR) models suffer from local greediness, while diffusion language models (DLMs) often lack the strict causal structure required for reasoning. To combine the advantages and overcome the drawbacks of the dual, we prop",
-      "tag": "ai"
-    },
-    {
-      "title": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
-      "url": "https://arxiv.org/abs/2609.21061",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-21T04:00:00+00:00",
-      "summary": "arXiv:2609.21061v1 Announce Type: new Abstract: Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop assessment. We adapt D",
-      "tag": "ai"
-    },
-    {
-      "title": "Sparse Priors for Efficient Distribution Learning",
-      "url": "https://arxiv.org/abs/2609.20883",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-21T04:00:00+00:00",
-      "summary": "arXiv:2609.20883v1 Announce Type: new Abstract: Despite the widespread use and success of generative AI techniques today, theoretical guarantees on learning a distribution supported in $d$ dimensions from $n$ samples degrade as $O(n^{-1/\\Theta(d)})$, though shown to be minimax op",
-      "tag": "ai"
-    },
-    {
-      "title": "BI-Agent and BI-Bench: Towards Automating End-to-End Business Intelligence",
-      "url": "https://arxiv.org/abs/2609.20886",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-21T04:00:00+00:00",
-      "summary": "arXiv:2609.20886v1 Announce Type: new Abstract: Business intelligence (BI) is a cornerstone of enterprise decision-making and is widely used by enterprise users in software such as Power BI and Tableau. In traditional BI workflows, users need to prepare data by (1) identifying re",
-      "tag": "ai"
-    },
-    {
-      "title": "Elastic Threshold Attention: Learned Contextual Sparsity for Long-Context Decoding",
-      "url": "https://arxiv.org/abs/2609.20888",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-21T04:00:00+00:00",
-      "summary": "arXiv:2609.20888v1 Announce Type: new Abstract: Massive KV caches can cause severe memory-bandwidth bottlenecks during long-context decoding. Sparse attention methods mitigate this via selective loading, but that comes at a cost: rigid heuristics drop necessary context, leading t",
-      "tag": "ai"
-    },
-    {
-      "title": "Do small language models know what they don't know?",
-      "url": "https://arxiv.org/abs/2609.20824",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-21T04:00:00+00:00",
-      "summary": "arXiv:2609.20824v1 Announce Type: new Abstract: We explore whether entropy-based confidence signals can be leveraged to improve the accuracy of Small Language Models (SLMs) with fewer than 3 billion parameters, running entirely on consumer hardware. We evaluate seven distinct app",
-      "tag": "ai"
-    },
-    {
-      "title": "HERMES: Contrast-Aware Knowledge Graph Reasoning from Clinical Notes for Patient Outcome Prediction",
-      "url": "https://arxiv.org/abs/2609.20825",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-21T04:00:00+00:00",
-      "summary": "arXiv:2609.20825v1 Announce Type: new Abstract: Clinical predictive models often rely on structured Electronic Health Record data, such as time-series and procedure codes. While recent approaches have begun leveraging unstructured clinical notes, they typically encode them as fla",
-      "tag": "ai"
-    },
-    {
-      "title": "TALON: A Temporally Aware Longitudinal Framework for Radiology Report Generation",
-      "url": "https://arxiv.org/abs/2609.20826",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-21T04:00:00+00:00",
-      "summary": "arXiv:2609.20826v1 Announce Type: new Abstract: Current radiology report generation (RRG) models usually produce descriptive reports based on a single examination or only the most recent prior examination, limiting their ability to perform accurate and meaningful longitudinal com",
-      "tag": "ai"
-    },
-    {
       "title": "tokenizers v1: encode, decode and scaling, measured",
       "url": "https://huggingface.co/blog/tokenizers-v1",
       "source": "Hugging Face Blog",
@@ -167,22 +167,6 @@
       "source": "Simon Willison",
       "published_at": "2026-09-20T21:06:43+00:00",
       "summary": "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as m",
-      "tag": "ai"
-    },
-    {
-      "title": "MCP was always a bad idea?",
-      "url": "https://simonwillison.net/2026/Sep/20/hn-49779718/",
-      "source": "Simon Willison",
-      "published_at": "2026-09-20T20:24:41+00:00",
-      "summary": "My comment on MCP was always a bad idea? — Hacker News. This article entirely misses the value that MCP brings today. Sure, there's almost no reason to use MCPs if you are running a full-blown terminal agent (Claude Code, Codex, Meta Muse, OpenClaw etc) with unfettered internet a",
-      "tag": "ai"
-    },
-    {
-      "title": "llm-keys-ui 0.1",
-      "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
-      "source": "Simon Willison",
-      "published_at": "2026-09-20T19:22:19+00:00",
-      "summary": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to config",
       "tag": "ai"
     },
     {
@@ -306,19 +290,35 @@
       "tag": "ai"
     },
     {
-      "title": "Drone WMDs Don’t Need Any New Technology",
-      "url": "https://www.lesswrong.com/posts/bGoo3NWzMAzsLQceJ/drone-wmds-don-t-need-any-new-technology",
-      "source": "LessWrong",
-      "published_at": "2026-09-06T21:28:00+00:00",
-      "summary": "This is a piece originally written for a national security audience at Frontiers . Although I think the ceiling of war is much, much higher than autopilot quadcopters, it's also important to understand how much AI is already lifting the floor, and just how vulnerable the world is",
-      "tag": "ai"
-    },
-    {
       "title": "ZGateway: Learnings from Putting a Proxy in Front of ZippyDB",
       "url": "https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta/",
       "source": "Meta Engineering",
       "published_at": "2026-09-03T16:00:20+00:00",
       "summary": "We’re introducing ZGateway, the proxy we are using to unify traffic through ZippyDB, Meta’s most widely-used key value store. As a bonus, it also enables admission control, load balancing, cross-region resilience, and richer operations. ZippyDB is the most widely used key value s",
+      "tag": "ai"
+    },
+    {
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "source": "Google DeepMind",
+      "published_at": "2026-09-03T15:02:08+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
+      "title": "Proactive cyber defense for governments and enterprises",
+      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "source": "Google DeepMind",
+      "published_at": "2026-09-02T16:24:24+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
+      "title": "What We Learned Trying to Catch AI Liars: An Aletheia's Quest Retrospective",
+      "url": "https://blog.eleuther.ai/aletheia-retrospective/",
+      "source": "EleutherAI",
+      "published_at": "2026-08-25T16:35:00+00:00",
+      "summary": "What we learned while building black-box and white-box detectors for AI deception during Aletheia's Quest.",
       "tag": "ai"
     }
   ],
