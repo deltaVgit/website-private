@@ -191,6 +191,12 @@ export const AI_ECOSYSTEM: EcosystemItem[] = [
   { name: 'Mercury', x: 'mercury__agent', href: 'https://x.com/mercury__agent' },
   { name: 'Pi', x: 'pidotdev', href: 'https://x.com/pidotdev' },
   { name: 'herdr', x: 'herdrdev', href: 'https://x.com/herdrdev' },
+  // Compute / training & serving platforms (service #2 — Inference & Model Engineering)
+  { name: 'Together AI', x: 'togethercompute', href: 'https://x.com/togethercompute' },
+  { name: 'RunPod', x: 'runpod', href: 'https://x.com/runpod' },
+  { name: 'Modal', x: 'modal', href: 'https://x.com/modal' },
+  { name: 'vLLM', x: 'vllm_project', href: 'https://x.com/vllm_project' },
+  { name: 'Unsloth', x: 'UnslothAI', href: 'https://x.com/UnslothAI' },
   // Hardware / silicon
   { name: 'NVIDIA', x: 'nvidia', href: 'https://x.com/nvidia' },
   { name: 'Raspberry Pi', x: 'Raspberry_Pi', href: 'https://x.com/Raspberry_Pi' },
