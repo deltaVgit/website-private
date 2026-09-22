@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T21:34:55Z",
+  "updatedAt": "2026-09-22T04:05:19Z",
   "kev": [
     {
       "cve": "CVE-2026-7273",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-88260",
-      "severity": "HIGH",
-      "score": 8.7,
-      "description": "Authentication bypass using an alternate path or channel and Improper validation of syntactic correctness of input vulnerability in Brainzcompany Zenius EMS 8.0 allows Remote Code Inclusion. This issue affects Zenius EMS",
-      "published": "2026-09-11T03:16:24.303"
+      "id": "CVE-2026-85706",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "description": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.7 before 19.1.8, 19.2 before 19.2.6, and 19.3 before 19.3.2 that, under certain conditions, an unauthenticated user could have read arbitrary ",
+      "published": "2026-09-12T03:16:30.473"
     },
     {
-      "id": "CVE-2026-19991",
-      "severity": "HIGH",
-      "score": 8.1,
-      "description": "The UsersWP plugin for WordPress is vulnerable to Arbitrary File Deletion in versions up to, and including, 1.2.70 via the upload_file_remove() AJAX handler. The plugin stores the value of an account 'file' form field ta",
-      "published": "2026-09-11T04:17:34.990"
+      "id": "CVE-2026-82845",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "description": "The Masteriyo LMS WordPress plugin before 3.4.1 does not prevent user-supplied values held as metadata from being deserialized when they are read back, allowing users with a minimal account to inject arbitrary PHP object",
+      "published": "2026-09-12T06:16:26.043"
     },
     {
-      "id": "CVE-2026-17176",
-      "severity": "HIGH",
-      "score": 7.7,
-      "description": "An OS command injection vulnerability in the TDDP module of Deco BE11000 allows an adjacent network attacker to execute arbitrary commands with root privileges by sending a crafted UDP packet. Successful exploitation may",
-      "published": "2026-09-11T00:17:26.707"
+      "id": "CVE-2026-87719",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "description": "GitLab has remediated an issue in GitLab EE affecting all versions from 18.3 before 19.1.8, 19.2 before 19.2.6, and 19.3 before 19.3.2 that under certain conditions could allow an authenticated user with Duo Chat access ",
+      "published": "2026-09-12T03:16:31.477"
     },
     {
-      "id": "CVE-2026-18561",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "The Unlimited Elements For Elementor plugin for WordPress is vulnerable to SQL Injection via the 'addontype' parameter in versions up to, and including, 2.0.16. This is due to insufficient escaping on the user-supplied p",
-      "published": "2026-09-11T04:17:20.480"
+      "id": "CVE-2026-85681",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "The WP Component WordPress plugin through 2.2.4 does not have any capability or nonce checks on one of the actions it makes available to unauthenticated users, and it takes both the option name and the option value from ",
+      "published": "2026-09-12T06:16:27.250"
     },
     {
-      "id": "CVE-2026-15462",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "The Sticky Chat Widget plugin for WordPress is vulnerable to SQL Injection via the 'scw_form_fields' parameter array keys of the 'scw_save_form_data' AJAX action in versions up to, and including, 1.4.2. This is due to th",
-      "published": "2026-09-11T04:17:20.173"
+      "id": "CVE-2026-84171",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "The WP images upload on piclect WordPress plugin through 1.0 does not validate the name or type of uploaded files before writing them to a publicly accessible directory, allowing unauthenticated attackers to upload arbit",
+      "published": "2026-09-12T06:16:27.137"
     },
     {
-      "id": "CVE-2026-78133",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "libcharon in strongSwan 6.0.0 through 6.0.7 has a use-after-free in IKEv2 rekeying collision handling.",
-      "published": "2026-09-11T02:18:34.757"
+      "id": "CVE-2026-81402",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "The DS Ad Rotator WordPress plugin through 0.8 does not perform any capability check, nonce verification, or file-type validation on its image upload handler, allowing unauthenticated attackers to upload arbitrary files,",
+      "published": "2026-09-12T06:16:25.730"
     },
     {
-      "id": "CVE-2026-78132",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "strongSwan 5.1.3 through 6.0.7 has an infinite loop in the x509 plugin's attribute certificate parser for ietfAttrSyntax.",
-      "published": "2026-09-11T02:18:34.613"
+      "id": "CVE-2026-75800",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "The Frontegg SAML SSO WordPress plugin through 1.0.1 does not verify the signature or issuer of SAML authentication responses before establishing a session, allowing unauthenticated attackers to log in as any user, inclu",
+      "published": "2026-09-12T06:16:23.340"
     },
     {
-      "id": "CVE-2026-78130",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "strongSwan 4.2.0 through 6.0.7 has a NULL pointer dereference in the x509 plugin's attribute certificate parser.",
-      "published": "2026-09-11T02:18:34.353"
+      "id": "CVE-2026-77006",
+      "severity": "CRITICAL",
+      "score": 9.6,
+      "description": "The WebTotem Backups WordPress plugin through 1.0.1 does not validate a user-supplied file path, does not check the capability of the user making the request, and discards the result of its own CSRF check, allowing any a",
+      "published": "2026-09-12T06:16:24.733"
     },
     {
-      "id": "CVE-2026-77807",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "The AcyMailing – An Ultimate Newsletter Plugin and Marketing Automation Solution for WordPress plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 11.0.4 via the `user[name]` P",
-      "published": "2026-09-11T00:19:23.037"
+      "id": "CVE-2026-77005",
+      "severity": "CRITICAL",
+      "score": 9.6,
+      "description": "The CODE MONKEYS PROPOSALS WordPress plugin through 1.0.1 does not validate a user-supplied file path before deleting a file, and does not check the capability of the user making the request, allowing any authenticated u",
+      "published": "2026-09-12T06:16:24.623"
     },
     {
-      "id": "CVE-2026-81825",
+      "id": "CVE-2026-87759",
       "severity": "HIGH",
-      "score": 7.2,
-      "description": "The Simple Ajax Chat – Add a Fast, Secure Chat Box plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Chat Message in all versions up to, and including, <= 20260811 due to insufficient input sanitizati",
-      "published": "2026-09-11T04:17:58.947"
+      "score": 8.8,
+      "description": "The Add User Autocomplete WordPress plugin before 1.2 does not perform any capability or nonce check before creating a pending site-membership invitation carrying a caller-supplied role, allowing any authenticated user, ",
+      "published": "2026-09-12T06:16:27.547"
     },
     {
-      "id": "CVE-2026-81754",
+      "id": "CVE-2026-81742",
       "severity": "HIGH",
-      "score": 7.2,
-      "description": "The Vigilant – 100% Free Security Suite: Firewall, 2FA, Login, Headers, Scanner… plugin for WordPress is vulnerable to Stored Cross-Site Scripting via User-Agent Header in all versions up to, and including, 2.10.2 due to",
-      "published": "2026-09-11T04:17:58.190"
+      "score": 8.8,
+      "description": "The BE REST Endpoints WordPress plugin through 1.0.0 does not perform any authorization check before allowing widgets to be read, created, updated and deleted, and does not sanitize the values it stores in them, allowing",
+      "published": "2026-09-12T06:16:25.937"
     },
     {
-      "id": "CVE-2026-18579",
+      "id": "CVE-2026-84047",
       "severity": "HIGH",
-      "score": 7.2,
-      "description": "The WP Photo Album Plus plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'HTTP_X_FORWARDED_FOR' parameter in all versions up to, and including, 9.2.08.003 due to insufficient input sanitization a",
-      "published": "2026-09-11T04:17:24.600"
+      "score": 8.6,
+      "description": "The Album Cover Finder WordPress plugin through 0.7.0 does not properly sanitize and escape a parameter before using it in a SQL query, allowing unauthenticated users to perform SQL injection attacks.",
+      "published": "2026-09-12T06:16:26.910"
     }
   ],
   "breaches": [
