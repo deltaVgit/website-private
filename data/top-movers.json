@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-22T13:15:40Z",
+  "updated_at": "2026-09-22T13:30:39Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "GRAL",
         "name": "GRAIL, Inc.",
-        "price": 107.97,
-        "change_24h": 33.68,
+        "price": 105.8,
+        "change_24h": -2.01,
         "asset": "equity"
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "price": 13.5,
-        "change_24h": 24.31,
+        "price": 13.08,
+        "change_24h": -2.86,
         "asset": "equity"
       },
       {
         "symbol": "ARM",
         "name": "Arm Holdings plc",
-        "price": 322.9,
-        "change_24h": 17.16,
+        "price": 321.04,
+        "change_24h": -0.58,
         "asset": "equity"
       },
       {
         "symbol": "PLBL",
         "name": "Polibeli Group Ltd",
-        "price": 6.37,
-        "change_24h": 15.4,
+        "price": 6.17,
+        "change_24h": -3.14,
         "asset": "equity"
       },
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "price": 27.42,
-        "change_24h": 14.92,
+        "price": 27.43,
+        "change_24h": 0.02,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "BRVE",
         "name": "Braveheart Bio, Inc.",
-        "price": 25.02,
-        "change_24h": -14.32,
+        "price": 25.1,
+        "change_24h": 0.32,
         "asset": "equity"
       },
       {
         "symbol": "PBLS",
         "name": "Parabilis Medicines, Inc.",
-        "price": 36.93,
-        "change_24h": -11.5,
+        "price": 37.03,
+        "change_24h": 0.28,
         "asset": "equity"
       },
       {
         "symbol": "TLX",
         "name": "Telix Pharmaceuticals Limited",
-        "price": 11.31,
-        "change_24h": -10.17,
+        "price": 11.99,
+        "change_24h": 6.01,
         "asset": "equity"
       },
       {
         "symbol": "CXW",
         "name": "CoreCivic, Inc.",
-        "price": 32.41,
-        "change_24h": -8.0,
+        "price": 32.72,
+        "change_24h": 0.93,
         "asset": "equity"
       },
       {
         "symbol": "NVO",
         "name": "Novo Nordisk A/S",
-        "price": 39.8,
-        "change_24h": -7.96,
+        "price": 39.84,
+        "change_24h": 0.05,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 316.1,
-        "change_24h": 17.16,
+        "price": 309.8,
+        "change_24h": 15.64,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price": 5e-06,
+        "change_24h": 14.72,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 324.47,
-        "change_24h": 13.51,
+        "price": 317.74,
+        "change_24h": 11.59,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.57,
-        "change_24h": 9.99,
+        "price": 4.54,
+        "change_24h": 9.67,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 74.01,
-        "change_24h": 9.04,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.100236,
-        "change_24h": 6.54,
+        "price": 72.65,
+        "change_24h": 7.42,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.32,
-        "change_24h": -11.41,
+        "price": 1.33,
+        "change_24h": -11.17,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.220602,
-        "change_24h": -10.04,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.2131,
-        "change_24h": -6.0,
+        "price": 0.218227,
+        "change_24h": -8.65,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.068543,
-        "change_24h": -5.99,
+        "price": 0.067861,
+        "change_24h": -6.45,
         "asset": "crypto"
       },
       {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.712032,
-        "change_24h": -5.2,
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.61,
+        "change_24h": -6.32,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.210126,
+        "change_24h": -5.79,
         "asset": "crypto"
       }
     ]
