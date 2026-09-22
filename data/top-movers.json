@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-22T15:00:39Z",
+  "updated_at": "2026-09-22T15:15:39Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "VKTX",
         "name": "Viking Therapeutics, Inc.",
-        "price": 37.83,
-        "change_24h": 25.64,
+        "price": 37.43,
+        "change_24h": 24.31,
         "asset": "equity"
       },
       {
         "symbol": "BFLY",
         "name": "Butterfly Network, Inc.",
-        "price": 9.455,
-        "change_24h": 16.15,
+        "price": 9.655,
+        "change_24h": 18.61,
         "asset": "equity"
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "price": 252.31,
-        "change_24h": 12.69,
+        "price": 253.98,
+        "change_24h": 13.43,
         "asset": "equity"
       },
       {
         "symbol": "ONON",
         "name": "On Holding AG",
-        "price": 30.77,
-        "change_24h": 12.63,
+        "price": 30.31,
+        "change_24h": 10.94,
         "asset": "equity"
       },
       {
         "symbol": "CE",
         "name": "Celanese Corporation",
-        "price": 48.62,
-        "change_24h": 9.54,
+        "price": 48.13,
+        "change_24h": 8.45,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "CLDX",
         "name": "Celldex Therapeutics, Inc.",
-        "price": 33.26,
-        "change_24h": -12.23,
-        "asset": "equity"
-      },
-      {
-        "symbol": "WGS",
-        "name": "GeneDx Holdings Corp.",
-        "price": 88.42,
-        "change_24h": -9.62,
+        "price": 32.79,
+        "change_24h": -13.46,
         "asset": "equity"
       },
       {
         "symbol": "LPLA",
         "name": "LPL Financial Holdings Inc.",
-        "price": 304.7,
-        "change_24h": -8.29,
+        "price": 302.66,
+        "change_24h": -8.91,
+        "asset": "equity"
+      },
+      {
+        "symbol": "WGS",
+        "name": "GeneDx Holdings Corp.",
+        "price": 89.17,
+        "change_24h": -8.85,
+        "asset": "equity"
+      },
+      {
+        "symbol": "NYT",
+        "name": "New York Times Company (The)",
+        "price": 65.15,
+        "change_24h": -7.63,
         "asset": "equity"
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "price": 12.44,
-        "change_24h": -7.85,
-        "asset": "equity"
-      },
-      {
-        "symbol": "PLNT",
-        "name": "Planet Fitness, Inc.",
-        "price": 44.23,
-        "change_24h": -6.0,
+        "price": 12.52,
+        "change_24h": -7.26,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 317.0,
-        "change_24h": 19.92,
+        "price": 324.43,
+        "change_24h": 22.25,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 315.77,
-        "change_24h": 10.77,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 71.9,
-        "change_24h": 6.58,
+        "price": 316.25,
+        "change_24h": 10.6,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.36,
-        "change_24h": 5.66,
+        "price": 4.41,
+        "change_24h": 8.53,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price": 72.32,
+        "change_24h": 7.15,
         "asset": "crypto"
       },
       {
         "symbol": "HBAR",
         "name": "Hedera",
-        "price": 0.096262,
-        "change_24h": 5.3,
+        "price": 0.097634,
+        "change_24h": 6.95,
         "asset": "crypto"
       }
     ],
@@ -120,35 +120,35 @@
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.31,
-        "change_24h": -12.82,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.214146,
-        "change_24h": -9.23,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.067356,
-        "change_24h": -7.1,
+        "change_24h": -12.76,
         "asset": "crypto"
       },
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.051644,
-        "change_24h": -6.86,
+        "price": 0.050025,
+        "change_24h": -9.05,
         "asset": "crypto"
       },
       {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.689505,
-        "change_24h": -6.8,
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.214253,
+        "change_24h": -8.03,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.067571,
+        "change_24h": -6.95,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.68,
+        "change_24h": -6.65,
         "asset": "crypto"
       }
     ]
