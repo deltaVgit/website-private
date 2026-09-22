@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-09-22T18:15:40Z",
+  "updated_at": "2026-09-22T18:30:39Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "VKTX",
         "name": "Viking Therapeutics, Inc.",
-        "price": 38.64,
-        "change_24h": 28.33,
+        "price": 39.21,
+        "change_24h": 30.22,
         "asset": "equity"
       },
       {
         "symbol": "BFLY",
         "name": "Butterfly Network, Inc.",
-        "price": 9.785,
-        "change_24h": 20.21,
+        "price": 9.805,
+        "change_24h": 20.45,
         "asset": "equity"
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "price": 265.45,
-        "change_24h": 18.56,
+        "price": 264.62,
+        "change_24h": 18.19,
+        "asset": "equity"
+      },
+      {
+        "symbol": "INOD",
+        "name": "Innodata Inc.",
+        "price": 71.4,
+        "change_24h": 16.98,
         "asset": "equity"
       },
       {
         "symbol": "SGRY",
         "name": "Surgery Partners, Inc.",
-        "price": 15.52,
-        "change_24h": 13.62,
-        "asset": "equity"
-      },
-      {
-        "symbol": "BLLN",
-        "name": "BillionToOne, Inc.",
-        "price": 116.08,
-        "change_24h": 11.76,
+        "price": 15.59,
+        "change_24h": 14.13,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "WGS",
-        "name": "GeneDx Holdings Corp.",
-        "price": 88.24,
-        "change_24h": -9.8,
+        "symbol": "PLNT",
+        "name": "Planet Fitness, Inc.",
+        "price": 42.45,
+        "change_24h": -9.79,
         "asset": "equity"
       },
       {
-        "symbol": "PLNT",
-        "name": "Planet Fitness, Inc.",
-        "price": 42.54,
-        "change_24h": -9.58,
+        "symbol": "WGS",
+        "name": "GeneDx Holdings Corp.",
+        "price": 89.71,
+        "change_24h": -8.3,
         "asset": "equity"
       },
       {
         "symbol": "NYT",
         "name": "New York Times Company (The)",
-        "price": 64.44,
-        "change_24h": -8.63,
+        "price": 64.88,
+        "change_24h": -8.01,
+        "asset": "equity"
+      },
+      {
+        "symbol": "GEN",
+        "name": "Gen Digital Inc.",
+        "price": 26.89,
+        "change_24h": -7.77,
         "asset": "equity"
       },
       {
         "symbol": "CLDX",
         "name": "Celldex Therapeutics, Inc.",
-        "price": 34.73,
-        "change_24h": -8.35,
-        "asset": "equity"
-      },
-      {
-        "symbol": "LFTO",
-        "name": "Liftoff Mobile, Inc.",
-        "price": 16.35,
-        "change_24h": -7.37,
+        "price": 35.24,
+        "change_24h": -6.99,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 333.39,
-        "change_24h": 26.03,
+        "price": 335.68,
+        "change_24h": 26.94,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 313.91,
-        "change_24h": 10.64,
+        "price": 310.78,
+        "change_24h": 9.94,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.39,
-        "change_24h": 9.84,
+        "price": 4.36,
+        "change_24h": 9.03,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 72.33,
-        "change_24h": 8.9,
+        "price": 72.14,
+        "change_24h": 8.71,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 64.04,
-        "change_24h": 8.17,
+        "price": 63.55,
+        "change_24h": 7.21,
         "asset": "crypto"
       }
     ],
@@ -120,35 +120,35 @@
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.31,
-        "change_24h": -12.02,
+        "change_24h": -12.22,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.862401,
-        "change_24h": -8.04,
+        "price": 0.855701,
+        "change_24h": -10.46,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.013222,
-        "change_24h": -5.78,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.068555,
-        "change_24h": -5.21,
+        "price": 0.013187,
+        "change_24h": -6.09,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.690217,
-        "change_24h": -4.5,
+        "price": 0.689326,
+        "change_24h": -4.74,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.068733,
+        "change_24h": -4.68,
         "asset": "crypto"
       }
     ]
