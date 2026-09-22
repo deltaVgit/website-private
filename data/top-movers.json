@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T03:00:34Z",
+  "updated_at": "2026-09-22T03:15:39Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "SUI",
-        "name": "Sui",
-        "price": 1.046,
-        "change_24h": 13.02,
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.058588,
+        "change_24h": 12.15,
         "asset": "crypto"
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price": 0.099012,
-        "change_24h": 12.48,
+        "price": 0.098605,
+        "change_24h": 11.86,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SUI",
+        "name": "Sui",
+        "price": 1.04,
+        "change_24h": 11.59,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.823594,
+        "change_24h": 10.17,
         "asset": "crypto"
       },
       {
         "symbol": "CRO",
         "name": "Cronos",
-        "price": 0.067397,
-        "change_24h": 9.3,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RENDER",
-        "name": "Render",
-        "price": 1.87,
-        "change_24h": 9.09,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.042749,
-        "change_24h": 8.35,
+        "price": 0.067006,
+        "change_24h": 8.82,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 31.01,
-        "change_24h": -5.49,
+        "price": 30.58,
+        "change_24h": -6.35,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.61,
-        "change_24h": -4.64,
+        "price": 2.6,
+        "change_24h": -4.9,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.707269,
-        "change_24h": -4.41,
+        "price": 0.702352,
+        "change_24h": -4.81,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.293281,
+        "change_24h": -4.78,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1450.8,
-        "change_24h": -4.33,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.68,
-        "change_24h": -4.23,
+        "price": 1447.37,
+        "change_24h": -4.37,
         "asset": "crypto"
       }
     ]
