@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T02:30:35Z",
+  "updated_at": "2026-09-22T02:45:29Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.099899,
-        "change_24h": 13.25,
+        "symbol": "SUI",
+        "name": "Sui",
+        "price": 1.061,
+        "change_24h": 13.9,
         "asset": "crypto"
       },
       {
-        "symbol": "SUI",
-        "name": "Sui",
-        "price": 1.053,
-        "change_24h": 12.56,
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price": 0.099565,
+        "change_24h": 13.16,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
         "price": 1.89,
-        "change_24h": 12.02,
+        "change_24h": 11.22,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CRO",
+        "name": "Cronos",
+        "price": 0.067723,
+        "change_24h": 9.94,
         "asset": "crypto"
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.043544,
-        "change_24h": 9.81,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SHIB",
-        "name": "Shiba Inu",
-        "price": 6e-06,
-        "change_24h": 8.85,
+        "price": 0.043452,
+        "change_24h": 9.93,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.42,
-        "change_24h": -4.67,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.719227,
-        "change_24h": -4.51,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "price": 2.62,
-        "change_24h": -4.03,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1453.7,
-        "change_24h": -3.76,
+        "price": 1.44,
+        "change_24h": -4.59,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 31.04,
-        "change_24h": -3.65,
+        "price": 31.73,
+        "change_24h": -3.27,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.63,
+        "change_24h": -3.16,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1460.98,
+        "change_24h": -3.08,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CAKE",
+        "name": "PancakeSwap",
+        "price": 2.52,
+        "change_24h": -2.56,
         "asset": "crypto"
       }
     ]
