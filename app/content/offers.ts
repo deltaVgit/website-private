@@ -64,14 +64,14 @@ const aiEn: PillarCopy = {
       id: 'inference',
       title: 'Inference & Model Engineering',
       pitch:
-        'Running AI reliably in production requires more than prompting. We **customize models on your own data and to your enterprise requirements** — fine-tuning, inference optimization, provider selection, Hugging Face organization, and MLOps infrastructure.',
+        'Running AI reliably in production requires more than prompting. We **customize models on your own data and to your enterprise requirements** — fine-tuning, inference optimization, provider selection, and MLOps — and we hand you the weights.',
       deliverables: [
-        'Models customized on your data — fine-tuned on your documents, tickets, code, or transcripts',
+        'Models customized on your data — fine-tuned on your documents, tickets, code, or transcripts — weights delivered to you',
         'Adaptation to enterprise requirements: tone, terminology, compliance boundaries, refusal rules',
         'Model selection & benchmarking across cost, latency, and quality',
         'Quantization and serving setup sized to your hardware',
-        'Fine-tuning pipelines with data engineering and evaluation built in',
-        'Inference cost audits and on-prem or hybrid deployment plans',
+        'Inference cost audit: token-level cost breakdown of your current stack vs. API, open-weight, and hybrid options',
+        'Post-training ops: eval regression checks and quarterly re-tunes as your data grows',
       ],
       process: [
         { step: 'Audit', desc: 'current stack, costs, latency, and quality baselines' },
@@ -142,14 +142,14 @@ const aiFr: PillarCopy = {
       id: 'inference',
       title: 'Inférence et ingénierie de modèles',
       pitch:
-        'Faire tourner l’IA de façon fiable en production demande plus que du prompting. Nous **adaptons les modèles à vos propres données et aux exigences de votre entreprise** — fine-tuning, optimisation de l’inférence, choix des fournisseurs, organisation Hugging Face et infrastructure MLOps.',
+        'Faire tourner l’IA de façon fiable en production demande plus que du prompting. Nous **adaptons les modèles à vos propres données et aux exigences de votre entreprise** — fine-tuning, optimisation de l’inférence, choix des fournisseurs et MLOps — et nous vous remettons les poids.',
       deliverables: [
-        'Des modèles adaptés à vos données — affinés sur vos documents, tickets, code ou transcriptions',
+        'Des modèles adaptés à vos données — affinés sur vos documents, tickets, code ou transcriptions — et vous recevez les poids',
         'Alignement sur vos exigences d’entreprise : ton, terminologie, limites de conformité, règles de refus',
         'Choix et évaluation des modèles selon le coût, la latence et la qualité',
         'Quantisation et service dimensionnés pour votre matériel',
-        'Chaînes de fine-tuning avec ingénierie des données et évaluation intégrées',
-        'Audit des coûts d’inférence et plans de déploiement sur site ou hybride',
+        'Audit des coûts d’inférence : décomposition token par token de votre stack actuelle face aux options API, poids ouverts et hybrides',
+        'Opérations post-training : contrôles de régression des évaluations et ré-entraînements trimestriels au rythme de vos données',
       ],
       process: [
         { step: 'Audit', desc: 'stack actuelle, coûts, latence et niveau de qualité de référence' },
