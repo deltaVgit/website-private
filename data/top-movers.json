@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-22T22:45:39Z",
+  "updated_at": "2026-09-22T23:00:39Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "BFLY",
         "name": "Butterfly Network, Inc.",
-        "price": 9.93,
-        "change_24h": 21.99,
+        "price": 9.935,
+        "change_24h": 22.05,
         "asset": "equity"
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "price": 268.34,
-        "change_24h": 19.85,
-        "asset": "equity"
-      },
-      {
-        "symbol": "SGRY",
-        "name": "Surgery Partners, Inc.",
-        "price": 15.8,
-        "change_24h": 15.67,
+        "price": 265.8,
+        "change_24h": 18.72,
         "asset": "equity"
       },
       {
         "symbol": "INOD",
         "name": "Innodata Inc.",
-        "price": 69.97,
-        "change_24h": 14.61,
+        "price": 72.08,
+        "change_24h": 18.07,
         "asset": "equity"
       },
       {
-        "symbol": "TNGX",
-        "name": "Tango Therapeutics, Inc.",
-        "price": 25.53,
-        "change_24h": 14.33,
+        "symbol": "SGRY",
+        "name": "Surgery Partners, Inc.",
+        "price": 15.7,
+        "change_24h": 14.9,
+        "asset": "equity"
+      },
+      {
+        "symbol": "BLLN",
+        "name": "BillionToOne, Inc.",
+        "price": 117.6,
+        "change_24h": 13.23,
         "asset": "equity"
       }
     ],
@@ -82,36 +82,36 @@
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 339.12,
-        "change_24h": 25.46,
+        "price": 338.45,
+        "change_24h": 24.98,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PENGU",
+        "name": "Pudgy Penguins",
+        "price": 0.010037,
+        "change_24h": 13.93,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 10.04,
-        "change_24h": 12.66,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 64.86,
-        "change_24h": 10.05,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 73.95,
-        "change_24h": 10.0,
+        "price": 10.21,
+        "change_24h": 13.57,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.906301,
-        "change_24h": 9.04,
+        "price": 0.912015,
+        "change_24h": 13.03,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price": 73.74,
+        "change_24h": 9.79,
         "asset": "crypto"
       }
     ],
@@ -120,35 +120,35 @@
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.31,
-        "change_24h": -9.62,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.01311,
-        "change_24h": -6.18,
+        "change_24h": -8.89,
         "asset": "crypto"
       },
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.051505,
-        "change_24h": -6.02,
+        "price": 0.051543,
+        "change_24h": -6.87,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.0131,
+        "change_24h": -6.42,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 565.47,
-        "change_24h": -5.06,
+        "price": 566.59,
+        "change_24h": -5.51,
         "asset": "crypto"
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.041497,
-        "change_24h": -5.06,
+        "price": 0.041534,
+        "change_24h": -4.95,
         "asset": "crypto"
       }
     ]
