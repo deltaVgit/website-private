@@ -1,6 +1,42 @@
 {
-  "updatedAt": "2026-09-22T16:35:03Z",
+  "updatedAt": "2026-09-22T23:05:03Z",
   "kev": [
+    {
+      "cve": "CVE-2026-93952",
+      "product": "VeloCloud Orchestrator",
+      "vendor": "Arista",
+      "name": "Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
+      "dateAdded": "2026-09-22",
+      "dueDate": "2026-09-25",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-94127",
+      "product": "BIG-IP APM",
+      "vendor": "F5",
+      "name": "F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability",
+      "dateAdded": "2026-09-22",
+      "dueDate": "2026-09-25",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-93616",
+      "product": "Multiple Products",
+      "vendor": "Check Point",
+      "name": "Check Point Multiple Products Path Traversal Vulnerability",
+      "dateAdded": "2026-09-22",
+      "dueDate": "2026-09-25",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-85102",
+      "product": "Multiple Products",
+      "vendor": "Check Point",
+      "name": "Check Point Multiple Products Improper Certificate Validation Vulnerability",
+      "dateAdded": "2026-09-22",
+      "dueDate": "2026-09-25",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2026-7273",
       "product": "GS1900 Series Switches",
@@ -89,42 +125,6 @@
       "name": "JFrog Artifactory Incorrect Authorization Vulnerability",
       "dateAdded": "2026-09-11",
       "dueDate": "2026-09-25",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-42018",
-      "product": "Artifactory",
-      "vendor": "JFrog",
-      "name": "JFrog Artifactory Improper Authentication Vulnerability",
-      "dateAdded": "2026-09-11",
-      "dueDate": "2026-09-25",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-85706",
-      "product": "Community Edition and Enterprise Edition",
-      "vendor": "GitLab",
-      "name": "GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability",
-      "dateAdded": "2026-09-11",
-      "dueDate": "2026-09-14",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-86060",
-      "product": "RouterOS",
-      "vendor": "MikroTik",
-      "name": "MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerability",
-      "dateAdded": "2026-09-10",
-      "dueDate": "2026-09-13",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-67277",
-      "product": "RouterOS",
-      "vendor": "MikroTik",
-      "name": "MikroTik RouterOS Missing Authentication for Critical Function Vulnerability",
-      "dateAdded": "2026-09-10",
-      "dueDate": "2026-09-13",
       "knownRansomware": "Unknown"
     }
   ],
