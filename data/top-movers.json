@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T00:45:48Z",
+  "updated_at": "2026-09-22T01:00:52Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "SUI",
         "name": "Sui",
-        "price": 1.07,
-        "change_24h": 14.16,
+        "price": 1.06,
+        "change_24h": 13.81,
         "asset": "crypto"
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price": 0.101068,
-        "change_24h": 14.15,
+        "price": 0.099665,
+        "change_24h": 12.33,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CRO",
+        "name": "Cronos",
+        "price": 0.066943,
+        "change_24h": 10.54,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.043931,
+        "change_24h": 9.86,
         "asset": "crypto"
       },
       {
         "symbol": "SHIB",
         "name": "Shiba Inu",
         "price": 6e-06,
-        "change_24h": 9.89,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.043894,
-        "change_24h": 9.89,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CRO",
-        "name": "Cronos",
-        "price": 0.065834,
-        "change_24h": 8.48,
+        "change_24h": 8.5,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.44,
-        "change_24h": -10.05,
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.66,
+        "change_24h": -4.64,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1465.55,
-        "change_24h": -4.39,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "price": 2.66,
-        "change_24h": -3.62,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AVAX",
-        "name": "Avalanche",
-        "price": 11.18,
-        "change_24h": -3.2,
+        "price": 1468.49,
+        "change_24h": -4.41,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.301179,
-        "change_24h": -2.68,
+        "price": 0.298451,
+        "change_24h": -4.35,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.47,
+        "change_24h": -4.12,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price": 11.14,
+        "change_24h": -3.85,
         "asset": "crypto"
       }
     ]
