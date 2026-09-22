@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-22T19:15:39Z",
+  "updated_at": "2026-09-22T19:30:39Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
+        "symbol": "INOD",
+        "name": "Innodata Inc.",
+        "price": 73.47,
+        "change_24h": 20.34,
+        "asset": "equity"
+      },
+      {
         "symbol": "BFLY",
         "name": "Butterfly Network, Inc.",
-        "price": 9.935,
-        "change_24h": 22.05,
+        "price": 9.735,
+        "change_24h": 19.59,
         "asset": "equity"
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "price": 265.8,
-        "change_24h": 18.72,
-        "asset": "equity"
-      },
-      {
-        "symbol": "INOD",
-        "name": "Innodata Inc.",
-        "price": 72.08,
-        "change_24h": 18.07,
+        "price": 266.63,
+        "change_24h": 19.09,
         "asset": "equity"
       },
       {
         "symbol": "SGRY",
         "name": "Surgery Partners, Inc.",
-        "price": 15.7,
-        "change_24h": 14.9,
+        "price": 15.73,
+        "change_24h": 15.15,
         "asset": "equity"
       },
       {
         "symbol": "BLLN",
         "name": "BillionToOne, Inc.",
-        "price": 117.6,
-        "change_24h": 13.23,
+        "price": 117.76,
+        "change_24h": 13.38,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "PLNT",
         "name": "Planet Fitness, Inc.",
-        "price": 41.91,
-        "change_24h": -10.93,
+        "price": 42.17,
+        "change_24h": -10.37,
         "asset": "equity"
       },
       {
         "symbol": "WGS",
         "name": "GeneDx Holdings Corp.",
-        "price": 87.97,
-        "change_24h": -10.07,
-        "asset": "equity"
-      },
-      {
-        "symbol": "CLDX",
-        "name": "Celldex Therapeutics, Inc.",
-        "price": 34.7,
-        "change_24h": -8.43,
-        "asset": "equity"
-      },
-      {
-        "symbol": "PLBL",
-        "name": "Polibeli Group Ltd",
-        "price": 5.84,
-        "change_24h": -8.32,
+        "price": 87.95,
+        "change_24h": -10.1,
         "asset": "equity"
       },
       {
         "symbol": "NKTR",
         "name": "Nektar Therapeutics",
-        "price": 61.09,
-        "change_24h": -8.6,
+        "price": 60.3,
+        "change_24h": -9.78,
+        "asset": "equity"
+      },
+      {
+        "symbol": "PLBL",
+        "name": "Polibeli Group Ltd",
+        "price": 5.845,
+        "change_24h": -8.24,
+        "asset": "equity"
+      },
+      {
+        "symbol": "CLDX",
+        "name": "Celldex Therapeutics, Inc.",
+        "price": 34.77,
+        "change_24h": -8.23,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 345.16,
-        "change_24h": 30.34,
+        "price": 343.14,
+        "change_24h": 29.68,
         "asset": "crypto"
       },
       {
         "symbol": "HBAR",
         "name": "Hedera",
-        "price": 0.098789,
-        "change_24h": 8.95,
+        "price": 0.099859,
+        "change_24h": 10.15,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 72.08,
-        "change_24h": 8.26,
+        "price": 72.27,
+        "change_24h": 8.63,
         "asset": "crypto"
       },
       {
-        "symbol": "TAO",
-        "name": "Bittensor",
-        "price": 309.86,
-        "change_24h": 7.25,
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 63.57,
+        "change_24h": 7.57,
         "asset": "crypto"
       },
       {
-        "symbol": "MNT",
-        "name": "Mantle",
-        "price": 0.671407,
-        "change_24h": 6.67,
+        "symbol": "XRP",
+        "name": "XRP",
+        "price": 1.6,
+        "change_24h": 6.82,
         "asset": "crypto"
       }
     ],
@@ -120,35 +120,35 @@
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.31,
-        "change_24h": -12.8,
+        "change_24h": -12.93,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.867376,
-        "change_24h": -9.53,
+        "price": 0.873572,
+        "change_24h": -9.73,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.013138,
-        "change_24h": -6.36,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.216927,
-        "change_24h": -4.89,
+        "price": 0.013157,
+        "change_24h": -6.29,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.068839,
-        "change_24h": -4.75,
+        "price": 0.068459,
+        "change_24h": -5.26,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.217422,
+        "change_24h": -5.07,
         "asset": "crypto"
       }
     ]
