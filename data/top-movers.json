@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-09-22T13:45:39Z",
+  "updated_at": "2026-09-22T14:00:39Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "VKTX",
         "name": "Viking Therapeutics, Inc.",
-        "price": 39.29,
-        "change_24h": 30.48,
-        "asset": "equity"
-      },
-      {
-        "symbol": "ONON",
-        "name": "On Holding AG",
-        "price": 30.95,
-        "change_24h": 13.24,
+        "price": 39.55,
+        "change_24h": 31.34,
         "asset": "equity"
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "price": 244.25,
-        "change_24h": 9.09,
+        "price": 253.92,
+        "change_24h": 13.41,
         "asset": "equity"
       },
       {
-        "symbol": "SHOP",
-        "name": "Shopify Inc.",
-        "price": 147.56,
-        "change_24h": 6.99,
+        "symbol": "ONON",
+        "name": "On Holding AG",
+        "price": 30.82,
+        "change_24h": 12.81,
+        "asset": "equity"
+      },
+      {
+        "symbol": "BFLY",
+        "name": "Butterfly Network, Inc.",
+        "price": 8.97,
+        "change_24h": 10.2,
         "asset": "equity"
       },
       {
         "symbol": "SNDK",
         "name": "Sandisk Corporation",
-        "price": 1882.72,
-        "change_24h": 6.57,
+        "price": 1898.77,
+        "change_24h": 7.48,
         "asset": "equity"
       }
     ],
     "losers": [
       {
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "price": 12.46,
+        "change_24h": -7.7,
+        "asset": "equity"
+      },
+      {
         "symbol": "ECO",
         "name": "Okeanis Eco Tankers Corp.",
-        "price": 77.26,
-        "change_24h": -6.55,
+        "price": 77.69,
+        "change_24h": -5.98,
         "asset": "equity"
       },
       {
         "symbol": "WGS",
         "name": "GeneDx Holdings Corp.",
-        "price": 90.81,
-        "change_24h": -7.18,
+        "price": 92.22,
+        "change_24h": -5.74,
         "asset": "equity"
       },
       {
-        "symbol": "TRMD",
-        "name": "TORM plc",
-        "price": 35.1,
-        "change_24h": -5.44,
+        "symbol": "CLDX",
+        "name": "Celldex Therapeutics, Inc.",
+        "price": 35.12,
+        "change_24h": -7.3,
         "asset": "equity"
       },
       {
-        "symbol": "ERIC",
-        "name": "Ericsson",
-        "price": 9.725,
-        "change_24h": -5.12,
-        "asset": "equity"
-      },
-      {
-        "symbol": "INSW",
-        "name": "International Seaways, Inc.",
-        "price": 104.38,
-        "change_24h": -4.29,
+        "symbol": "LFTO",
+        "name": "Liftoff Mobile, Inc.",
+        "price": 16.73,
+        "change_24h": -5.21,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 314.52,
-        "change_24h": 17.43,
+        "price": 326.42,
+        "change_24h": 21.31,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price": 5e-06,
+        "change_24h": 14.78,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 316.43,
-        "change_24h": 11.27,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 4.5,
-        "change_24h": 8.88,
+        "price": 320.37,
+        "change_24h": 11.87,
         "asset": "crypto"
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price": 0.09996,
-        "change_24h": 7.45,
+        "price": 0.100837,
+        "change_24h": 8.0,
         "asset": "crypto"
       },
       {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 72.36,
-        "change_24h": 6.98,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 4.45,
+        "change_24h": 7.72,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.33,
-        "change_24h": -9.97,
+        "price": 1.32,
+        "change_24h": -10.67,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.216798,
-        "change_24h": -8.68,
+        "price": 0.217815,
+        "change_24h": -8.76,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.067664,
-        "change_24h": -6.37,
+        "price": 0.068195,
+        "change_24h": -6.17,
         "asset": "crypto"
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.73,
-        "change_24h": -5.49,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.210783,
+        "change_24h": -6.06,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.61,
-        "change_24h": -5.44,
+        "change_24h": -5.64,
         "asset": "crypto"
       }
     ]
