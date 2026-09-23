@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T23:30:40Z",
+  "updated_at": "2026-09-23T23:45:55Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,28 +82,28 @@
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 5.34,
-        "change_24h": 5.91,
+        "price": 5.3,
+        "change_24h": 4.97,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.069489,
-        "change_24h": 0.26,
+        "price": 0.069713,
+        "change_24h": 0.48,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "USDY",
+        "name": "Ondo US Dollar Yield",
+        "price": 1.15,
+        "change_24h": 0.11,
         "asset": "crypto"
       },
       {
         "symbol": "USDF",
         "name": "Falcon USD",
-        "price": 0.995862,
-        "change_24h": 0.01,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RLUSD",
-        "name": "Ripple USD",
-        "price": 1.0,
+        "price": 0.995787,
         "change_24h": 0.01,
         "asset": "crypto"
       },
@@ -117,38 +117,38 @@
     ],
     "losers": [
       {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.043802,
-        "change_24h": -13.79,
-        "asset": "crypto"
-      },
-      {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.406324,
-        "change_24h": -13.77,
+        "price": 0.40488,
+        "change_24h": -14.11,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -13.44,
+        "change_24h": -13.25,
         "asset": "crypto"
       },
       {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 0.930451,
-        "change_24h": -11.28,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.003994,
+        "change_24h": -10.7,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 57.67,
-        "change_24h": -11.26,
+        "price": 57.42,
+        "change_24h": -10.69,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 0.932941,
+        "change_24h": -10.66,
         "asset": "crypto"
       }
     ]
