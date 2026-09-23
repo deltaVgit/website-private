@@ -44,27 +44,25 @@ export function RealPillarsFigure() {
 }
 
 export function TierMapFigure() {
-  const scale = (v: number) => (v / 100) * 780;
+  // Real scores: defillama.com/exchanges/rank, computed 2026-09-21 (61 venues scored).
+  // Twig plot: every venue in S/A/B (22) + the C-band leaders, CEX=circle, DEX=diamond.
   return (
-    <BlogFigure caption="Fig. 2 — September 2026 snapshot: one venue in S, one DEX in A. Source: defillama.com/exchanges/rank (Sep 16, 2026)">
-      <svg viewBox="0 0 780 178" role="img" aria-label="REAL score scale with tiers" style={{ width: '100%', height: 'auto' }}>
-        <rect x={scale(55)} y="24" width={scale(100) - scale(55)} height="66" rx="8" fill={C.cyan} opacity="0.06" />
-        <rect x={scale(70)} y="24" width={scale(100) - scale(70)} height="66" rx="8" fill={C.lilac} opacity="0.18" />
-        <rect x={scale(85)} y="24" width={scale(100) - scale(85)} height="66" rx="8" fill={C.cyan} opacity="0.2" />
-        <text x={scale(40)} y="44" fontSize="12" fontWeight="600" fill={C.muted}>B · 55–69 — most of the pack</text>
-        <text x={scale(71)} y="44" fontSize="12" fontWeight="600" fill={C.lilac}>A · 70+</text>
-        <text x={scale(85.5)} y="44" fontSize="12" fontWeight="600" fill={C.cyan}>S · 85+</text>
-        <text x={scale(80)} y="60" fontSize="10.5" fill={C.sub}>Binance (only S)</text>
-        <circle cx={scale(86)} cy="70" r="7" fill={C.cyan} />
-        <text x={scale(86)} y="74" fontSize="9" fontWeight="800" textAnchor="middle" fill={C.base}>B</text>
-        <circle cx={scale(72)} cy="70" r="7" fill={C.lilac} />
-        <text x={scale(74)} y="90" fontSize="10.5" fill={C.sub} textAnchor="middle">only DEX there</text>
-        <text x={scale(72)} y="74" fontSize="9" fontWeight="800" textAnchor="middle" fill={C.base}>H</text>
-        <line x1="0" y1="102" x2="780" y2="102" stroke={C.sub} strokeWidth="1.5" opacity="0.4" />
-        {[0, 25, 50, 70, 85, 100].map((v) => (
-          <text key={v} x={scale(v)} y="120" fontSize="10.5" fill={C.muted} textAnchor={v === 0 ? 'start' : v === 100 ? 'end' : 'middle'} fontFamily="var(--font-mono)">{v}</text>
-        ))}
-        <text x="0" y="152" fontSize="11" fill={C.muted}>one dot per venue · colored zones = tiers · the top two zones are nearly empty</text>
+    <BlogFigure caption="Fig. 2 — 61 exchanges scored, Sep 21 2026. Every venue in S/A/B shown as a dot; the remaining 35 score 53 or less. Source: defillama.com/exchanges/rank">
+      <svg viewBox="0 0 780 302" role="img" aria-label="REAL scores of the top 26 exchanges, September 2026" style={{ width: '100%', height: 'auto' }}>
+        <rect x="312.0" y="33.0" width="117.0" height="205" rx="0" fill={C.muted} opacity="0.05" />
+        <rect x="429.0" y="33.0" width="117.0" height="205" rx="0" fill={C.cyan} opacity="0.06" />
+        <rect x="546.0" y="33.0" width="117.0" height="205" rx="0" fill={C.lilac} opacity="0.14" />
+        <rect x="663.0" y="33.0" width="117.0" height="205" rx="0" fill={C.cyan} opacity="0.15" />
+        <text x="319.8" y="25.0" fontSize="10.5" fill={C.muted}>C · 40–55</text>
+        <text x="436.8" y="25.0" fontSize="10.5" fill={C.muted}>B · 55–69</text>
+        <text x="553.8" y="25.0" fontSize="10.5" fill={C.lilac}>A · 70–84</text>
+        <text x="670.8" y="25.0" fontSize="10.5" fontWeight="700" fill={C.cyan}>S · 85+</text>
+        <text x="312.0" y="286" fontSize="9.5" fill={C.muted} textAnchor="middle" fontFamily="var(--font-mono)">40</text>
+        <text x="429.0" y="286" fontSize="9.5" fill={C.muted} textAnchor="middle" fontFamily="var(--font-mono)">55</text>
+        <text x="546.0" y="286" fontSize="9.5" fill={C.muted} textAnchor="middle" fontFamily="var(--font-mono)">70</text>
+        <text x="663.0" y="286" fontSize="9.5" fill={C.muted} textAnchor="middle" fontFamily="var(--font-mono)">85</text>
+        <text x="776.0" y="286" fontSize="9.5" fill={C.muted} textAnchor="end" fontFamily="var(--font-mono)">100</text>
+        <text x="0" y="299" fontSize="9.5" fill={C.muted}>circle = CEX · diamond = DEX · left-to-right = rank order, height = REAL score</text>
       </svg>
     </BlogFigure>
   );
