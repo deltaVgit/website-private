@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-23T14:30:40Z",
+  "updated_at": "2026-09-23T14:45:40Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "LKFT",
-        "name": "Lakefront Biotherapeutics",
-        "price": 32.0,
-        "change_24h": 6.0,
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "price": 13.96,
+        "change_24h": 7.37,
         "asset": "equity"
       },
       {
         "symbol": "VG",
         "name": "Venture Global, Inc.",
-        "price": 13.64,
-        "change_24h": 5.66,
+        "price": 13.81,
+        "change_24h": 7.01,
         "asset": "equity"
       },
       {
         "symbol": "IONQ",
         "name": "IonQ, Inc.",
         "price": 42.72,
-        "change_24h": 4.86,
+        "change_24h": 4.85,
         "asset": "equity"
       },
       {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "price": 13.66,
-        "change_24h": 5.08,
+        "symbol": "LKFT",
+        "name": "Lakefront Biotherapeutics",
+        "price": 31.58,
+        "change_24h": 4.6,
         "asset": "equity"
       },
       {
-        "symbol": "IRTC",
-        "name": "iRhythm Holdings, Inc.",
-        "price": 115.2,
-        "change_24h": 4.23,
+        "symbol": "PLBL",
+        "name": "Polibeli Group Ltd",
+        "price": 6.05,
+        "change_24h": 4.31,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "EXK",
         "name": "Endeavour Silver Corporation",
-        "price": 9.245,
-        "change_24h": -12.04,
+        "price": 9.28,
+        "change_24h": -11.7,
         "asset": "equity"
       },
       {
         "symbol": "DAVE",
         "name": "Dave Inc.",
-        "price": 319.67,
-        "change_24h": -9.59,
+        "price": 319.72,
+        "change_24h": -9.57,
         "asset": "equity"
       },
       {
         "symbol": "SSMR",
         "name": "Sunshine Silver Mining & Refini",
-        "price": 15.54,
-        "change_24h": -8.53,
+        "price": 15.5,
+        "change_24h": -8.77,
         "asset": "equity"
       },
       {
         "symbol": "AUR",
         "name": "Aurora Innovation, Inc.",
-        "price": 5.93,
-        "change_24h": -8.2,
+        "price": 5.925,
+        "change_24h": -8.28,
         "asset": "equity"
       },
       {
-        "symbol": "PAYX",
-        "name": "Paychex, Inc.",
-        "price": 105.48,
-        "change_24h": -7.9,
+        "symbol": "NG",
+        "name": "Novagold Resources Inc.",
+        "price": 7.17,
+        "change_24h": -7.72,
         "asset": "equity"
       }
     ]
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 5.25,
+        "symbol": "PENGU",
+        "name": "Pudgy Penguins",
+        "price": 0.009841,
         "change_24h": 11.35,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.074455,
-        "change_24h": 9.91,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PENGU",
-        "name": "Pudgy Penguins",
-        "price": 0.00979,
-        "change_24h": 8.48,
+        "price": 0.074316,
+        "change_24h": 10.79,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.952381,
-        "change_24h": 8.29,
+        "price": 0.961953,
+        "change_24h": 9.3,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.225421,
-        "change_24h": 4.98,
+        "price": 0.227446,
+        "change_24h": 7.38,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 4.63,
+        "change_24h": 6.97,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.047101,
+        "change_24h": -10.41,
+        "asset": "crypto"
+      },
+      {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.2,
-        "change_24h": -9.7,
+        "change_24h": -8.29,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.012488,
+        "change_24h": -6.85,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004074,
-        "change_24h": -8.82,
+        "price": 0.004097,
+        "change_24h": -6.38,
         "asset": "crypto"
       },
       {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.048223,
-        "change_24h": -8.66,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CRO",
-        "name": "Cronos",
-        "price": 0.061623,
-        "change_24h": -7.78,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PEPE",
-        "name": "Pepe",
-        "price": 5e-06,
-        "change_24h": -7.49,
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.10824,
+        "change_24h": -6.25,
         "asset": "crypto"
       }
     ]
