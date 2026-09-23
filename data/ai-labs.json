@@ -1,6 +1,70 @@
 {
-  "updated": "2026-09-23T12:04:54Z",
+  "updated": "2026-09-23T18:34:54Z",
   "items": [
+    {
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "url": "https://openai.com/index/ringg",
+      "source": "OpenAI",
+      "published_at": "2026-09-24T12:00:00+00:00",
+      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "tag": "ai"
+    },
+    {
+      "title": "Google Beam expands with new regions, partners, and customers",
+      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+      "source": "Google AI Blog",
+      "published_at": "2026-09-23T18:00:00+00:00",
+      "summary": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
+      "tag": "ai"
+    },
+    {
+      "title": "Advancing Private AI Compute with secure, server-side memory",
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "source": "Google DeepMind",
+      "published_at": "2026-09-23T16:00:57+00:00",
+      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+      "tag": "ai"
+    },
+    {
+      "title": "Two years of OpenAI Academy",
+      "url": "https://openai.com/index/two-years-of-openai-academy",
+      "source": "OpenAI",
+      "published_at": "2026-09-23T16:00:00+00:00",
+      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "tag": "ai"
+    },
+    {
+      "title": "Gemini 3.8 text-to-speech says hello",
+      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+      "source": "Google DeepMind",
+      "published_at": "2026-09-23T15:25:14+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
+      "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+      "source": "Hugging Face Blog",
+      "published_at": "2026-09-23T13:17:01+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "source": "OpenAI",
+      "published_at": "2026-09-23T13:00:00+00:00",
+      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "tag": "ai"
+    },
+    {
+      "title": "Why I'm scared of RL",
+      "url": "https://www.alignmentforum.org/posts/LcQ9x72eNji2gpS9b/why-i-m-scared-of-rl",
+      "source": "Alignment Forum",
+      "published_at": "2026-09-23T12:07:33+00:00",
+      "summary": "Summary: First, I give several different angles on how I feel about reinforcement learning: Theoretical case: RL is a black-box source of agency — this should give us classic misalignment worries, especially compared to agency-via-scaffolding Recent incidents (huggingface etc) an",
+      "tag": "ai"
+    },
     {
       "title": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
       "url": "https://arxiv.org/abs/2609.25010",
@@ -106,14 +170,6 @@
       "tag": "ai"
     },
     {
-      "title": "Better prompt caching for GPT-6",
-      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-      "source": "OpenAI",
-      "published_at": "2026-09-22T21:00:00+00:00",
-      "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
-      "tag": "ai"
-    },
-    {
       "title": "llm 0.36",
       "url": "https://simonwillison.net/2026/Sep/22/llm/",
       "source": "Simon Willison",
@@ -122,27 +178,11 @@
       "tag": "ai"
     },
     {
-      "title": "Introducing GPT-6 Sol and Luna",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "source": "OpenAI",
-      "published_at": "2026-09-22T18:00:00+00:00",
-      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
-      "tag": "ai"
-    },
-    {
       "title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
       "url": "https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and",
       "source": "Interconnects",
       "published_at": "2026-09-22T13:37:45+00:00",
       "summary": "Podcast #19",
-      "tag": "ai"
-    },
-    {
-      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "source": "OpenAI",
-      "published_at": "2026-09-22T12:00:00+00:00",
-      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
       "tag": "ai"
     },
     {
@@ -183,14 +223,6 @@
       "source": "Meta Engineering",
       "published_at": "2026-09-21T16:00:37+00:00",
       "summary": "We’re open-sourcing Rebalancer, the assignment-problem solver that has been used to solve resource allocation problems throughout Meta for over nine years. Rebalancer separates several related concerns: how to specify an assignment problem, how to store it efficiently in memory, ",
-      "tag": "ai"
-    },
-    {
-      "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
-      "source": "Hugging Face Blog",
-      "published_at": "2026-09-21T13:44:34+00:00",
-      "summary": "",
       "tag": "ai"
     },
     {
@@ -258,27 +290,11 @@
       "tag": "ai"
     },
     {
-      "title": "Making global data easier to explore",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
-      "source": "Google AI Blog",
-      "published_at": "2026-09-17T20:00:00+00:00",
-      "summary": "Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.",
-      "tag": "ai"
-    },
-    {
       "title": "The Talker Does Not Control The Doer (in Current AIs)",
       "url": "https://www.lesswrong.com/posts/cJX2ssssGoYqnijwi/the-talker-does-not-control-the-doer-in-current-ais",
       "source": "LessWrong",
       "published_at": "2026-09-17T02:05:40+00:00",
       "summary": "The Huggingface Incident appears to me to match up with an understanding I'd already formed from personal observation of Fable 5 and Sol 5.6, the August 2026 generation of frontier publicly purchasable AI models. [1] This already-formed understanding was: the part of the AI that ",
-      "tag": "ai"
-    },
-    {
-      "title": "Shallow Beliefs: Midtraining does not inoculate against EM from reward hacking",
-      "url": "https://www.alignmentforum.org/posts/khxvR2fgAeDvG5N2F/shallow-beliefs-midtraining-does-not-inoculate-against-em",
-      "source": "Alignment Forum",
-      "published_at": "2026-09-15T21:50:08+00:00",
-      "summary": "It would be useful if we had the ability to modify a model’s beliefs. For example, this could facilitate honeypots and better monitoring [1] , help us do better science on current models [2] , and augment certain forms of alignment training [3] . Currently, the state-of-the-art m",
       "tag": "ai"
     },
     {
@@ -303,22 +319,6 @@
       "source": "Google DeepMind",
       "published_at": "2026-09-08T14:00:15+00:00",
       "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
-      "tag": "ai"
-    },
-    {
-      "title": "Import AI 472: DeepMind’s cheating math agents; populist AI policies; and Forethought theorizes a nightwatchman",
-      "url": "https://jack-clark.net/2026/09/07/import-ai-472-deepminds-cheating-math-agents-populist-ai-policies-and-forethought-theorizes-a-nightwatchman/",
-      "source": "Import AI",
-      "published_at": "2026-09-07T12:26:31+00:00",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Researchers discover another OpenAI agent emergent communication incident:…Less severe, but worryi",
-      "tag": "ai"
-    },
-    {
-      "title": "ZGateway: Learnings from Putting a Proxy in Front of ZippyDB",
-      "url": "https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta/",
-      "source": "Meta Engineering",
-      "published_at": "2026-09-03T16:00:20+00:00",
-      "summary": "We’re introducing ZGateway, the proxy we are using to unify traffic through ZippyDB, Meta’s most widely-used key value store. As a bonus, it also enables admission control, load balancing, cross-region resilience, and richer operations. ZippyDB is the most widely used key value s",
       "tag": "ai"
     }
   ],
