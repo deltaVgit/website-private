@@ -51,14 +51,14 @@ export function TierMapFigure() {
         <rect x={scale(55)} y="24" width={scale(100) - scale(55)} height="66" rx="8" fill={C.cyan} opacity="0.06" />
         <rect x={scale(70)} y="24" width={scale(100) - scale(70)} height="66" rx="8" fill={C.lilac} opacity="0.18" />
         <rect x={scale(85)} y="24" width={scale(100) - scale(85)} height="66" rx="8" fill={C.cyan} opacity="0.2" />
-        <text x={scale(56)} y="44" fontSize="12" fontWeight="600" fill={C.muted}>B · 55–69 — most of the pack</text>
+        <text x={scale(40)} y="44" fontSize="12" fontWeight="600" fill={C.muted}>B · 55–69 — most of the pack</text>
         <text x={scale(71)} y="44" fontSize="12" fontWeight="600" fill={C.lilac}>A · 70+</text>
-        <text x={scale(71)} y="60" fontSize="10.5" fill={C.sub}>Hyperliquid (only DEX)</text>
         <text x={scale(85.5)} y="44" fontSize="12" fontWeight="600" fill={C.cyan}>S · 85+</text>
-        <text x={scale(86)} y="60" fontSize="10.5" fill={C.sub}>Binance (only)</text>
+        <text x={scale(80)} y="60" fontSize="10.5" fill={C.sub}>Binance (only S)</text>
         <circle cx={scale(86)} cy="70" r="7" fill={C.cyan} />
         <text x={scale(86)} y="74" fontSize="9" fontWeight="800" textAnchor="middle" fill={C.base}>B</text>
         <circle cx={scale(72)} cy="70" r="7" fill={C.lilac} />
+        <text x={scale(74)} y="90" fontSize="10.5" fill={C.sub} textAnchor="middle">only DEX there</text>
         <text x={scale(72)} y="74" fontSize="9" fontWeight="800" textAnchor="middle" fill={C.base}>H</text>
         <line x1="0" y1="102" x2="780" y2="102" stroke={C.sub} strokeWidth="1.5" opacity="0.4" />
         {[0, 25, 50, 70, 85, 100].map((v) => (
@@ -88,7 +88,8 @@ export function UtrFigure() {
         <rect x="380" y="42" width="130" height="44" rx="10" fill={C.lilac} opacity="0.18" stroke={C.lilac} strokeOpacity="0.4" />
         <text x="445" y="60" fontSize="11" fill={C.sub} textAnchor="middle">UTR = D × P</text>
         <text x="445" y="78" fontSize="13" fontWeight="700" fill={C.cyan} textAnchor="middle">0 – 100 · AAA→CCC</text>
-        <text x="540" y="76" fontSize="11.5" fill={C.sub}>recalculates with the market — no human in the loop</text>
+        <text x="540" y="70" fontSize="11.5" fill={C.sub}>recalculates with the market</text>
+        <text x="540" y="88" fontSize="11.5" fill={C.sub}>— no human in the loop</text>
       </svg>
     </BlogFigure>
   );
