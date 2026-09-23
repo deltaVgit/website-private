@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T07:00:40Z",
+  "updated_at": "2026-09-23T07:15:39Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 345.98,
-        "change_24h": 30.54,
+        "price": 355.58,
+        "change_24h": 33.95,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 10.44,
-        "change_24h": 17.85,
+        "price": 10.42,
+        "change_24h": 16.94,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.246551,
-        "change_24h": 12.72,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "APT",
-        "name": "Aptos",
-        "price": 0.847926,
-        "change_24h": 10.96,
+        "price": 0.246856,
+        "change_24h": 12.77,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 74.7,
-        "change_24h": 10.34,
+        "price": 74.96,
+        "change_24h": 10.61,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FLR",
+        "name": "Flare",
+        "price": 0.007531,
+        "change_24h": 10.04,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.29,
-        "change_24h": -5.39,
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price": 5e-06,
+        "change_24h": -4.82,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.013111,
-        "change_24h": -4.1,
+        "price": 0.013084,
+        "change_24h": -4.24,
         "asset": "crypto"
       },
       {
-        "symbol": "PEPE",
-        "name": "Pepe",
-        "price": 5e-06,
-        "change_24h": -3.77,
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.3,
+        "change_24h": -4.04,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.11454,
-        "change_24h": -3.68,
+        "price": 0.114428,
+        "change_24h": -4.03,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.111997,
-        "change_24h": -3.35,
+        "price": 0.112047,
+        "change_24h": -3.6,
         "asset": "crypto"
       }
     ]
