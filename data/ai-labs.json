@@ -1,6 +1,102 @@
 {
-  "updated": "2026-09-22T23:04:57Z",
+  "updated": "2026-09-23T05:34:53Z",
   "items": [
+    {
+      "title": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
+      "url": "https://arxiv.org/abs/2609.25010",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-23T04:00:00+00:00",
+      "summary": "arXiv:2609.25010v1 Announce Type: new Abstract: Marketers increasingly use large language models (LLMs) as \"synthetic personas\" to predict how an audience will react to a piece of copy before it ships, encouraged by evidence that profile-conditioned LLMs mimic human samples. But ",
+      "tag": "ai"
+    },
+    {
+      "title": "Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization",
+      "url": "https://arxiv.org/abs/2609.25013",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-23T04:00:00+00:00",
+      "summary": "arXiv:2609.25013v1 Announce Type: new Abstract: Tabular foundation models have recently shown strong potential for structured biomedical data analysis. Among them, TabPFN has emerged as an effective approach for low-data tabular classification tasks. However, the impact of optimi",
+      "tag": "ai"
+    },
+    {
+      "title": "4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2609.25036",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-23T04:00:00+00:00",
+      "summary": "arXiv:2609.25036v1 Announce Type: new Abstract: Dynamic Gaussian Splatting provides an explicit representation of evolving 3D scenes, but existing approaches are primarily optimized for reconstruction, future-state generation, or rendering rather than for learning reusable predic",
+      "tag": "ai"
+    },
+    {
+      "title": "An Accurate and Interpretable Hyper Graph Neural Network for GBM Survival Prediction",
+      "url": "https://arxiv.org/abs/2609.25088",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-23T04:00:00+00:00",
+      "summary": "arXiv:2609.25088v1 Announce Type: new Abstract: Survival prediction for glioblastoma multiforme (GBM) demands models that are both accurate and interpretable, yet existing approaches treat these objectives as com- peting, where performant models sacrifice transparency, while inte",
+      "tag": "ai"
+    },
+    {
+      "title": "\"As a Language Model...\": Chat Template Switches LLM Self-Referential Voice and Activation Steering Reproduces It",
+      "url": "https://arxiv.org/abs/2609.25021",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-23T04:00:00+00:00",
+      "summary": "arXiv:2609.25021v1 Announce Type: new Abstract: Large Language Models (LLMs) tend to add disclaimers like \"I'm just an AI\" when asked about something related to themselves. The self-reports from such responses are used in debates about AI safety or self-knowledge of the models, y",
+      "tag": "ai"
+    },
+    {
+      "title": "Federating Quantum and Classical Computing: A Privacy-Preserving Hybrid Approach",
+      "url": "https://arxiv.org/abs/2609.25082",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-23T04:00:00+00:00",
+      "summary": "arXiv:2609.25082v1 Announce Type: new Abstract: Quantum machine learning (QML) is increasingly recognized as one of the most promising near-term applications of quantum computing, viewed as a next-frontier candidate beyond purely classical approaches. Hybrid quantum-classical mod",
+      "tag": "ai"
+    },
+    {
+      "title": "Entropy Can Flow, or It Can Guide. Be Entropy. LEDFlow: Introducing Entropy-guided Generation Order into Uniform Discrete Flow",
+      "url": "https://arxiv.org/abs/2609.25131",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-23T04:00:00+00:00",
+      "summary": "arXiv:2609.25131v1 Announce Type: new Abstract: Uniform discrete flow permits repeated updates at every generation position. While continued revision supports correction of wrong tokens, it also exposes correct intermediate predictions to later errors. An experiment on Sudoku puz",
+      "tag": "ai"
+    },
+    {
+      "title": "What Does 99% Accuracy Measure? A Reproducible Audit of Shortcut Learning in a Widely Used Fake News Corpus",
+      "url": "https://arxiv.org/abs/2609.25006",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-23T04:00:00+00:00",
+      "summary": "arXiv:2609.25006v1 Announce Type: new Abstract: Text classifiers trained on the ISOT/Kaggle \"Fake and Real News\" corpus routinely report accuracy and F1 above 0.98, a level of performance that sits uneasily beside the difficulty of assessing veracity. Using a transparent TF-IDF a",
+      "tag": "ai"
+    },
+    {
+      "title": "Training a Language Model End-to-End in Rust: An Experience Report",
+      "url": "https://arxiv.org/abs/2609.25008",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-23T04:00:00+00:00",
+      "summary": "arXiv:2609.25008v1 Announce Type: new Abstract: I pretrained a language model end-to-end in Rust - alone, with no team, no PyTorch, and no Python in the training path - for $164 in rented GPU time. I report that as an achievement, not a recommendation: the more useful contributio",
+      "tag": "ai"
+    },
+    {
+      "title": "Same Quantity, Different Answer: Numerical Representation Invariance in Language Models",
+      "url": "https://arxiv.org/abs/2609.25009",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-23T04:00:00+00:00",
+      "summary": "arXiv:2609.25009v1 Announce Type: new Abstract: Numerically equivalent word problems should yield the same canonical answer whether a quantity is written as a decimal, fraction, percentage, number word, scientific notation, or an exactly converted unit. We generate 3,600 exact-ra",
+      "tag": "ai"
+    },
+    {
+      "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
+      "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
+      "source": "Simon Willison",
+      "published_at": "2026-09-23T02:53:19+00:00",
+      "summary": "SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things with and on top of coding agents. Think of it as an agentic sho",
+      "tag": "ai"
+    },
+    {
+      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "source": "Simon Willison",
+      "published_at": "2026-09-22T23:46:41+00:00",
+      "summary": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my ",
+      "tag": "ai"
+    },
     {
       "title": "Better prompt caching for GPT-6",
       "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
@@ -10,11 +106,11 @@
       "tag": "ai"
     },
     {
-      "title": "Quoting @therealcornpop",
-      "url": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
+      "title": "llm 0.36",
+      "url": "https://simonwillison.net/2026/Sep/22/llm/",
       "source": "Simon Willison",
-      "published_at": "2026-09-22T18:03:21+00:00",
-      "summary": "Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of",
+      "published_at": "2026-09-22T18:48:37+00:00",
+      "summary": "Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises llm.ConversationNotSupported when these models receive assist",
       "tag": "ai"
     },
     {
@@ -23,14 +119,6 @@
       "source": "OpenAI",
       "published_at": "2026-09-22T18:00:00+00:00",
       "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
-      "tag": "ai"
-    },
-    {
-      "title": "llm-typesafe 0.1a0",
-      "url": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
-      "source": "Simon Willison",
-      "published_at": "2026-09-22T15:54:16+00:00",
-      "summary": "Release: llm-typesafe 0.1a0 I built this new plugin for LLM to add support for TypeSafe AI's new Jev model . Install it like this: llm install llm-typesafe Then set an API key ( get one here , the waitlist seems to move pretty fast): llm keys set typesafe # Paste key And now you ",
       "tag": "ai"
     },
     {
@@ -47,62 +135,6 @@
       "source": "OpenAI",
       "published_at": "2026-09-22T12:00:00+00:00",
       "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-      "tag": "ai"
-    },
-    {
-      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
-      "url": "https://arxiv.org/abs/2609.20971",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-22T04:00:00+00:00",
-      "summary": "arXiv:2609.20971v1 Announce Type: new Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block centroid may h",
-      "tag": "ai"
-    },
-    {
-      "title": "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
-      "url": "https://arxiv.org/abs/2609.20974",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-22T04:00:00+00:00",
-      "summary": "arXiv:2609.20974v1 Announce Type: new Abstract: In Mixture-of-Experts language models, the router typically selects and weights experts based on the token's hidden state, utilizing limited contextual information. We propose Attention-Aware Routing (AAR), which augments the router",
-      "tag": "ai"
-    },
-    {
-      "title": "CaLR: Causal Latent Revision for Robust Diffusion Reasoning",
-      "url": "https://arxiv.org/abs/2609.20981",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-22T04:00:00+00:00",
-      "summary": "arXiv:2609.20981v1 Announce Type: new Abstract: Autoregressive (AR) models suffer from local greediness, while diffusion language models (DLMs) often lack the strict causal structure required for reasoning. To combine the advantages and overcome the drawbacks of the dual, we prop",
-      "tag": "ai"
-    },
-    {
-      "title": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
-      "url": "https://arxiv.org/abs/2609.21061",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-22T04:00:00+00:00",
-      "summary": "arXiv:2609.21061v1 Announce Type: new Abstract: Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop assessment. We adapt D",
-      "tag": "ai"
-    },
-    {
-      "title": "Recognition, Simulation, and Refusal: A Contamination-Aware Study of Classic Psychological Effects in LLM Agents",
-      "url": "https://arxiv.org/abs/2609.22090",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-22T04:00:00+00:00",
-      "summary": "arXiv:2609.22090v1 Announce Type: new Abstract: An LLM producing the response pattern associated with a human psychological effect is not the same claim as the LLM possessing that bias. We present PsyAgentBench, a benchmark that re-runs classic psychology experiments on LLM agent",
-      "tag": "ai"
-    },
-    {
-      "title": "Memory That Looks Forward: A Zero-Inference Prospective Term for Personal Memory Retrieval",
-      "url": "https://arxiv.org/abs/2609.22091",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-22T04:00:00+00:00",
-      "summary": "arXiv:2609.22091v1 Announce Type: new Abstract: Retrieval over a personal memory store is retrospective: it surfaces what resembles the query, and it is blind to what the user has committed to do. We describe a prospective term for memory retrieval that costs no inference at quer",
-      "tag": "ai"
-    },
-    {
-      "title": "Summarize, Judge, Refine: Decoupled Content Understanding and Policy Learning for Multimodal Content Moderation",
-      "url": "https://arxiv.org/abs/2609.22094",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-22T04:00:00+00:00",
-      "summary": "arXiv:2609.22094v1 Announce Type: new Abstract: Content moderation systems traditionally entangle multimodal understanding with policy-specific classification, requiring full pipeline retraining for every policy change and suffering from label scarcity since multimedia cannot be ",
       "tag": "ai"
     },
     {
@@ -143,14 +175,6 @@
       "source": "OpenAI",
       "published_at": "2026-09-22T00:00:00+00:00",
       "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
-      "tag": "ai"
-    },
-    {
-      "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
-      "url": "https://simonwillison.net/2026/Sep/21/jev/",
-      "source": "Simon Willison",
-      "published_at": "2026-09-21T23:09:20+00:00",
-      "summary": "Last week TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is a better name for these). Jev is an interesting variant on the usual LLM format: it still accepts ",
       "tag": "ai"
     },
     {
@@ -295,30 +319,6 @@
       "source": "Meta Engineering",
       "published_at": "2026-09-03T16:00:20+00:00",
       "summary": "We’re introducing ZGateway, the proxy we are using to unify traffic through ZippyDB, Meta’s most widely-used key value store. As a bonus, it also enables admission control, load balancing, cross-region resilience, and richer operations. ZippyDB is the most widely used key value s",
-      "tag": "ai"
-    },
-    {
-      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-      "source": "Google DeepMind",
-      "published_at": "2026-09-03T15:02:08+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "Proactive cyber defense for governments and enterprises",
-      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-      "source": "Google DeepMind",
-      "published_at": "2026-09-02T16:24:24+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "What We Learned Trying to Catch AI Liars: An Aletheia's Quest Retrospective",
-      "url": "https://blog.eleuther.ai/aletheia-retrospective/",
-      "source": "EleutherAI",
-      "published_at": "2026-08-25T16:35:00+00:00",
-      "summary": "What we learned while building black-box and white-box detectors for AI deception during Aletheia's Quest.",
       "tag": "ai"
     }
   ],
