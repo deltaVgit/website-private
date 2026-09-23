@@ -32,7 +32,7 @@ export function RealPillarsFigure() {
     </g>
   );
   return (
-    <BlogFigure caption="Fig. 1 — The REAL ranking: longer bar = more weight. Reserves and Execution carry 60% between them; Activity and Liquidity share the rest. Unmeasurable pillars don't score zero — their weight shifts to what was measured. Sources: DefiLlama Research (Sep 22, 2026), defillama.com/exchanges/rank.">
+    <BlogFigure caption="Fig. 1 — The REAL ranking: longer bar = more weight in the score. Source: DefiLlama Research, Sep 22 2026 · defillama.com/exchanges/rank">
       <svg viewBox="0 0 780 268" role="img" aria-label="REAL ranking pillars and weights" style={{ width: '100%', height: 'auto' }}>
         {row(16, 'Reserves', 'proof of held assets, on-chain or filed', w30, C.cyan, '30%', true)}
         {row(88, 'Execution', 'tick-level fills, all-in cost of a $10k order', w30, C.cyan, '30%', true)}
@@ -46,7 +46,7 @@ export function RealPillarsFigure() {
 export function TierMapFigure() {
   const scale = (v: number) => (v / 100) * 780;
   return (
-    <BlogFigure caption="Fig. 2 — The 0–100 REAL score, September 2026 snapshot: one venue in S (Binance), one DEX in A (Hyperliquid). Everyone else clustered far left. Source: defillama.com/exchanges/rank (Sep 16, 2026 snapshot), via DefiLlama Research.">
+    <BlogFigure caption="Fig. 2 — September 2026 snapshot: one venue in S, one DEX in A. Source: defillama.com/exchanges/rank (Sep 16, 2026)">
       <svg viewBox="0 0 780 178" role="img" aria-label="REAL score scale with tiers" style={{ width: '100%', height: 'auto' }}>
         <rect x={scale(55)} y="24" width={scale(100) - scale(55)} height="66" rx="8" fill={C.cyan} opacity="0.06" />
         <rect x={scale(70)} y="24" width={scale(100) - scale(70)} height="66" rx="8" fill={C.lilac} opacity="0.18" />
@@ -64,8 +64,7 @@ export function TierMapFigure() {
         {[0, 25, 50, 70, 85, 100].map((v) => (
           <text key={v} x={scale(v)} y="120" fontSize="10.5" fill={C.muted} textAnchor={v === 0 ? 'start' : v === 100 ? 'end' : 'middle'} fontFamily="var(--font-mono)">{v}</text>
         ))}
-        <text x="0" y="152" fontSize="11" fill={C.muted}>Every venue gets one dot on the scale; the colored zones are the tiers.</text>
-        <text x="0" y="170" fontSize="11" fill={C.muted} opacity="0.7">87 vacancies in the top two tiers is the finding.</text>
+        <text x="0" y="152" fontSize="11" fill={C.muted}>one dot per venue · colored zones = tiers · the top two zones are nearly empty</text>
       </svg>
     </BlogFigure>
   );
@@ -73,7 +72,7 @@ export function TierMapFigure() {
 
 export function UtrFigure() {
   return (
-    <BlogFigure caption="Fig. 3 — UTR multiplies Disclosure × Performance (each 0–10): perfect paperwork with a broken market scores like deep liquidity with missing disclosures. Grades AAA–CCC recalculate as liquidity, unlocks and market-maker conduct change on-chain. Sources: defillama.com/universal-token-rating · DefiLlama Research × Forgd (Aug 26, 2026).">
+    <BlogFigure caption="Fig. 3 — UTR is the product of two axes; grades AAA→CCC recalculate as the market moves. Source: defillama.com/universal-token-rating">
       <svg viewBox="0 0 780 150" role="img" aria-label="UTR score is the product of Disclosure and Performance" style={{ width: '100%', height: 'auto' }}>
         <g fontSize="13" fontWeight="600" fill={C.text}>
           <text x="0" y="30">Disclosure (D)</text>
@@ -89,9 +88,7 @@ export function UtrFigure() {
         <rect x="380" y="42" width="130" height="44" rx="10" fill={C.lilac} opacity="0.18" stroke={C.lilac} strokeOpacity="0.4" />
         <text x="445" y="60" fontSize="11" fill={C.sub} textAnchor="middle">UTR = D × P</text>
         <text x="445" y="78" fontSize="13" fontWeight="700" fill={C.cyan} textAnchor="middle">0 – 100 · AAA→CCC</text>
-        <text x="540" y="58" fontSize="11.5" fill={C.sub}>recalculates continuously —</text>
-        <text x="540" y="76" fontSize="11.5" fill={C.sub}>unlocks, listings and market-maker</text>
-        <text x="540" y="94" fontSize="11.5" fill={C.sub}>conduct feed in with no human in the loop</text>
+        <text x="540" y="76" fontSize="11.5" fill={C.sub}>recalculates with the market — no human in the loop</text>
       </svg>
     </BlogFigure>
   );
@@ -106,7 +103,7 @@ export function PrivacyLadderFigure() {
     ['5 · Future adversary', 'someone who cracks the maths later', 'link at risk', C.amber],
   ];
   return (
-    <BlogFigure caption="Fig. 4 — L2BEAT grades every privacy protocol against five adversaries, one row each: green = the deposit–withdrawal link stays hidden from that observer, amber = at risk. Tornado Cash shows the classic shape — strong on-chain, weaker on network metadata. Sources: l2beat.com/privacy/summary · Onchain privacy best practice (May 25, 2026).">
+    <BlogFigure caption="Fig. 4 — Every privacy protocol is graded against five adversaries. Source: l2beat.com/privacy/summary">
       <svg viewBox="0 0 780 250" role="img" aria-label="Privacy ladder, Tornado Cash example" style={{ width: '100%', height: 'auto' }}>
         <text x="2" y="20" fontSize="15" fontWeight="600" fill={C.text}>Tornado Cash (mixer pools)</text>
         {rows.map(([n, d, v, c], i) => (
@@ -136,8 +133,8 @@ export function FeedMatrixFigure() {
   const cell = (v: number) => (v === 1 ? C.green : v === 0.5 ? C.amber : 'rgba(237,237,237,0.07)');
   const op = (v: number) => (v === 1 ? 0.3 : v === 0.5 ? 0.25 : 1);
   return (
-    <BlogFigure caption="Fig. 4 — Defi DNA, the tool the Ethereum Foundation commissioned cp0x to build: protocols down the side, risk feeds across the top, each cell showing that feed's own verdict — gaps shown as loudly as coverage. The app may render feeds verbatim but is forbidden from scoring them itself. Live feeds today: DeFiScan, Risklayer, Philidor. Sources: github.com/cp0x-org/defi-dna · defi-dna.xyz (Sep 21–22, 2026).">
-      <svg viewBox="0 0 780 252" role="img" aria-label="Protocol-by-feed coverage matrix" style={{ width: '100%', height: 'auto' }}>
+    <BlogFigure caption="Fig. 5 — Defi DNA: each cell shows what that feed says, untouched. Source: github.com/cp0x-org/defi-dna">
+      <svg viewBox="0 0 780 246" role="img" aria-label="Protocol-by-feed coverage matrix" style={{ width: '100%', height: 'auto' }}>
         <text x="2" y="16" fontSize="11.5" fontWeight="600" fill={C.sub}>20 top protocols × 8+ risk feeds — every cell shows the feed's verdict, verbatim (sample rows)</text>
         {feeds.map((f, i) => (
           <text key={f} x={178 + i * 88} y="40" fontSize="9.5" fontFamily="var(--font-mono)" fill={C.muted} textAnchor="middle">{f}</text>
@@ -151,12 +148,12 @@ export function FeedMatrixFigure() {
           </g>
         ))}
         <g fontSize="10.5">
-          <rect x="138" y="212" width="10" height="10" rx="3" fill={C.green} opacity="0.35" />
-          <text x="154" y="221" fill={C.sub}>covered</text>
-          <rect x="216" y="212" width="10" height="10" rx="3" fill={C.amber} opacity="0.3" />
-          <text x="232" y="221" fill={C.sub}>partial</text>
-          <rect x="286" y="212" width="10" height="10" rx="3" fill="rgba(237,237,237,0.12)" />
-          <text x="302" y="221" fill={C.sub}>not yet</text>
+          <rect x="138" y="226" width="9" height="9" rx="2.5" fill={C.green} opacity="0.35" />
+          <text x="152" y="234" fill={C.sub}>covered</text>
+          <rect x="216" y="226" width="9" height="9" rx="2.5" fill={C.amber} opacity="0.3" />
+          <text x="230" y="234" fill={C.sub}>partial</text>
+          <rect x="286" y="226" width="9" height="9" rx="2.5" fill="rgba(237,237,237,0.12)" />
+          <text x="300" y="234" fill={C.sub}>not yet</text>
         </g>
       </svg>
     </BlogFigure>
