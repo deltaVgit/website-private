@@ -121,40 +121,40 @@ export function PrivacyLadderFigure() {
 }
 
 export function FeedMatrixFigure() {
-  const feeds = ['DeFiScan', 'BlockAnalitica', 'Credora', 'Pharos', 'CuratorWatch', 'DeFiPunk\u2019d', 'LlamaRisk'];
+  const feeds = ['DeFiScan', 'Philidor', 'Risklayer'];
   const protos = ['Aave', 'Lido', 'Uniswap', 'Spark', 'Morpho'];
   // 1 = covered, 0.5 = partial, 0 = none (sample rows for illustration)
   const cov = [
-    [1, 1, 1, 0.5, 0.5, 1, 0.5],
-    [1, 0.5, 0.5, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0],
-    [1, 1, 0.5, 1, 0, 0, 0],
-    [0.5, 1, 1, 0.5, 1, 0.5, 0.5],
+    [1, 0, 1],
+    [1, 0, 1],
+    [0, 1, 1],
+    [1, 1, 0],
+    [0, 1, 1],
   ];
   const cell = (v: number) => (v === 1 ? C.green : v === 0.5 ? C.amber : 'rgba(237,237,237,0.07)');
   const op = (v: number) => (v === 1 ? 0.3 : v === 0.5 ? 0.25 : 1);
   return (
     <BlogFigure caption="Fig. 5 — Defi DNA: each cell shows what that feed says, untouched. Source: github.com/cp0x-org/defi-dna">
       <svg viewBox="0 0 780 246" role="img" aria-label="Protocol-by-feed coverage matrix" style={{ width: '100%', height: 'auto' }}>
-        <text x="2" y="16" fontSize="11.5" fontWeight="600" fill={C.sub}>20 top protocols × 8+ risk feeds — every cell shows the feed's verdict, verbatim (sample rows)</text>
+        <text x="2" y="16" fontSize="11.5" fontWeight="600" fill={C.sub}>26 protocol versions × 3 live feeds — each cell shows that feed's data, verbatim (sample rows)</text>
         {feeds.map((f, i) => (
-          <text key={f} x={178 + i * 88} y="40" fontSize="9.5" fontFamily="var(--font-mono)" fill={C.muted} textAnchor="middle">{f}</text>
+          <text key={f} x={268 + i * 160} y="40" fontSize="10" fontFamily="var(--font-mono)" fill={C.muted} textAnchor="middle">{f}</text>
         ))}
         {protos.map((p, r) => (
           <g key={p}>
             <text x="8" y={66 + r * 30} fontSize="12" fill={C.text}>{p}</text>
             {cov[r].map((v, i) => (
-              <rect key={i} x={138 + i * 80} y={52 + r * 30} width="80" height="22" rx="5" fill={cell(v)} opacity={op(v)} />
+              <rect key={i} x={208 + i * 160} y={52 + r * 30} width="120" height="22" rx="5" fill={cell(v)} opacity={op(v)} />
             ))}
           </g>
         ))}
         <g fontSize="10.5">
-          <rect x="138" y="226" width="9" height="9" rx="2.5" fill={C.green} opacity="0.35" />
-          <text x="152" y="234" fill={C.sub}>covered</text>
-          <rect x="216" y="226" width="9" height="9" rx="2.5" fill={C.amber} opacity="0.3" />
-          <text x="230" y="234" fill={C.sub}>partial</text>
-          <rect x="286" y="226" width="9" height="9" rx="2.5" fill="rgba(237,237,237,0.12)" />
-          <text x="300" y="234" fill={C.sub}>not yet</text>
+          <rect x="208" y="226" width="9" height="9" rx="2.5" fill={C.green} opacity="0.35" />
+          <text x="222" y="234" fill={C.sub}>covered</text>
+          <rect x="276" y="226" width="9" height="9" rx="2.5" fill={C.amber} opacity="0.3" />
+          <text x="290" y="234" fill={C.sub}>partial</text>
+          <rect x="346" y="226" width="9" height="9" rx="2.5" fill="rgba(237,237,237,0.12)" />
+          <text x="360" y="234" fill={C.sub}>not yet</text>
         </g>
       </svg>
     </BlogFigure>

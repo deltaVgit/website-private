@@ -195,9 +195,9 @@ export default function DefiRiskFrameworkTools() {
           github.com/cp0x-org/defi-dna
         </a>
         , <a href="https://defi-dna.xyz/" target="_blank" rel="noopener noreferrer">defi-dna.xyz</a>
-        ) — AGPL-3.0, daily scheduled data refresh, with risk feeds from{' '}
-        <strong>DeFiScan, Risklayer and Philidor</strong> live today and an adapter guide for adding
-        more. Independent measurements come from DefiLlama&rsquo;s Ethereum TVL and incident
+        ) — AGPL-3.0, daily scheduled data refresh, with exactly three risk feeds live today —{' '}
+        <strong>DeFiScan, Philidor Analytics and Risklayer</strong> — against 26 protocol versions
+        tracked (16 with data from at least one feed), plus an adapter guide for adding more. Independent measurements come from DefiLlama&rsquo;s Ethereum TVL and incident
         history.
       </p>
 
