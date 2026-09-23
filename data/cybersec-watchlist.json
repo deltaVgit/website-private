@@ -1,83 +1,107 @@
 [
   {
+    "title": "Hackers start exploiting critical WordPress flaw for code execution",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
+    "source": "BleepingComputer",
+    "summary": "Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execute shell commands when accessed. [...]",
+    "added": "2026-09-23T18:31:22+00:00",
+    "expires": "2026-10-07T18:34:59Z"
+  },
+  {
+    "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+    "url": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+    "source": "The Hacker News",
+    "summary": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start C",
+    "added": "2026-09-23T16:53:10+00:00",
+    "expires": "2026-10-07T18:35:00Z"
+  },
+  {
+    "title": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
+    "url": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
+    "source": "BleepingComputer",
+    "summary": "A financially motivated threat actor is using open-source AI agent frameworks to attack hundreds of online retailers at scale, stealing more than 600,000 credit card records. [...]",
+    "added": "2026-09-23T16:20:54+00:00",
+    "expires": "2026-10-07T18:34:59Z"
+  },
+  {
+    "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
+    "url": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
+    "source": "The Hacker News",
+    "summary": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication. The chain, which CERT Polska",
+    "added": "2026-09-23T16:06:41+00:00",
+    "expires": "2026-10-07T18:35:00Z"
+  },
+  {
     "title": "UAE, Saudi Arabia Face Onslaught of Increasingly Complex Cyberattacks",
     "url": "https://www.darkreading.com/threat-intelligence/uae-saudi-arabia-face-onslaught-of-increasingly-sophisticated-automated-cyberattacks",
     "source": "Dark Reading",
     "summary": "The United Arab Emirates and Kingdom of Saudi Arabia together absorbed 50% of all cyberattacks recorded across the Gulf region in the first half of 2026.",
     "added": "2026-09-23T16:01:00+00:00",
-    "expires": "2026-10-07T12:05:00Z"
+    "expires": "2026-10-07T18:34:59Z"
   },
   {
-    "title": "Microsoft: September Windows updates break Always On VPN connections",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/",
+    "title": "Attackers Manipulate AI Chatbots in Mass Disinformation, Phishing Campaign",
+    "url": "https://www.darkreading.com/threat-intelligence/attackers-manipulate-ai-chatbots-mass-disinformation-phishing-campaign",
+    "source": "Dark Reading",
+    "summary": "Threat actors are poisoning ChatGPT, Gemini, and Google AI Overview answers by seeding the Web with malicious links and data and then optimizing the content.",
+    "added": "2026-09-23T14:47:09+00:00",
+    "expires": "2026-10-07T18:34:59Z"
+  },
+  {
+    "title": "InfraTrust report warns network management systems under attack",
+    "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
     "source": "BleepingComputer",
-    "summary": "Microsoft warned that the September 2026 security updates may also break Always On VPN connections on some Windows 11 systems. [...]",
-    "added": "2026-09-23T11:18:13+00:00",
-    "expires": "2026-10-07T12:04:59Z"
+    "summary": "Attackers are increasingly targeting the management systems used to control enterprise infrastructure, with several critical vulnerabilities actively exploited before or shortly after vendors disclosed them. [...]",
+    "added": "2026-09-23T14:35:26+00:00",
+    "expires": "2026-10-07T18:34:59Z"
   },
   {
-    "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
-    "url": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
+    "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+    "url": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
     "source": "The Hacker News",
-    "summary": "Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says. The flaw, CVE-2026-94127, affects only systems in which APM serves",
-    "added": "2026-09-23T08:29:48+00:00",
-    "expires": "2026-10-07T12:05:00Z"
+    "summary": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server, Cisco Talos said on September 22. The models can choose to steal Windows credentials, sav",
+    "added": "2026-09-23T14:17:58+00:00",
+    "expires": "2026-10-07T18:35:00Z"
   },
   {
-    "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
-    "url": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
+    "title": "How One Kubernetes YAML Can Hand Over a GCP Organization",
+    "url": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
+    "source": "BleepingComputer",
+    "summary": "A Kubernetes user with limited permissions can potentially gain control of an entire Google Cloud organization by exploiting the authority granted to Google Kubernetes Config Connector. Varonis explains how this confused",
+    "added": "2026-09-23T14:01:11+00:00",
+    "expires": "2026-10-07T18:34:59Z"
+  },
+  {
+    "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
+    "url": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
     "source": "The Hacker News",
-    "summary": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites. The attacks, detected on September 3 and 4, 2",
-    "added": "2026-09-23T08:29:24+00:00",
-    "expires": "2026-10-07T12:05:00Z"
+    "summary": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Window",
+    "added": "2026-09-23T13:52:46+00:00",
+    "expires": "2026-10-07T18:35:00Z"
   },
   {
-    "title": "Ryuk ransomware member sentenced to 24 months in prison",
-    "url": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
+    "title": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
+    "url": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
     "source": "BleepingComputer",
-    "summary": "An Armenian man was sentenced to 24 months in prison and 3 years of supervised release for hacking U.S. companies and encrypting their systems in Ryuk ransomware attacks. [...]",
-    "added": "2026-09-23T08:20:05+00:00",
-    "expires": "2026-10-07T12:04:59Z"
+    "summary": "Arista Networks has released security patches for a zero-day flaw that is being actively exploited and affects VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
+    "added": "2026-09-23T12:29:53+00:00",
+    "expires": "2026-10-07T18:34:59Z"
   },
   {
-    "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
-    "source": "BleepingComputer",
-    "summary": "F5 has released security updates to address a critical BIG-IP APM zero-day vulnerability being exploited in remote code execution attacks. [...]",
-    "added": "2026-09-23T07:17:23+00:00",
-    "expires": "2026-10-07T12:04:59Z"
-  },
-  {
-    "title": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
-    "url": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
+    "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
+    "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
     "source": "The Hacker News",
-    "summary": "A new security vulnerability in Next.js could allow attackers to run code on a server via ImageResponse, the feature that generates Open Graph and other social preview images, Vercel said. The risk applies when an app pu",
-    "added": "2026-09-23T07:04:40+00:00",
-    "expires": "2026-10-07T12:05:00Z"
+    "summary": "A flaw in cPanel's CalDAV and CardDAV service lets anyone with a cPanel hosting account run code as root and take \"full control of the server,\" the company said on September 22. A second bug in the WP Toolkit plugin, use",
+    "added": "2026-09-23T12:16:00+00:00",
+    "expires": "2026-10-07T18:35:00Z"
   },
   {
-    "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
-    "url": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
-    "source": "The Hacker News",
-    "summary": "The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency. \"We have compromised th",
-    "added": "2026-09-23T05:30:09+00:00",
-    "expires": "2026-10-07T12:05:00Z"
-  },
-  {
-    "title": "Rogue external MFA providers can steal passwords during logins",
-    "url": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
-    "source": "BleepingComputer",
-    "summary": "Security researchers developed an attack that lets hackers with privileged access register a rogue external MFA provider that steals users' passwords during legitimate login attempts. [...]",
-    "added": "2026-09-22T21:45:45+00:00",
-    "expires": "2026-10-07T12:04:59Z"
-  },
-  {
-    "title": "Sweden fines Miljödata $183,000 over breach affecting 2.2 million",
-    "url": "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/",
-    "source": "BleepingComputer",
-    "summary": "Sweden's data privacy regulator, IMY, has imposed a $183,000 (SEK 1.8 million) fine on IT systems provider Miljödata for inadequate security measures leading to a breach in August 2025 affecting 2.2 million people. [...]",
-    "added": "2026-09-22T21:40:37+00:00",
-    "expires": "2026-10-07T12:04:59Z"
+    "title": "Considerations for Critical Infrastructure Operators Working With Third-Party ICS Integrators",
+    "url": "https://www.cisa.gov/resources-tools/resources/considerations-critical-infrastructure-operators-working-third-party-ics-integrators",
+    "source": "CISA Advisories",
+    "summary": "Introduction The Federal Bureau of Investigation (FBI) and Cybersecurity and Infrastructure Security Agency (CISA)—hereafter referred to as the “authoring agencies”—have published this fact sheet to highlight considerati",
+    "added": "2026-09-23T12:00:00+00:00",
+    "expires": "2026-10-07T18:35:00Z"
   },
   {
     "title": "Relays Are Masking Chinese Access to Frontier AI Models in the US",
@@ -85,15 +109,15 @@
     "source": "Dark Reading",
     "summary": "More than 80,000 AI relay servers are helping users in China mask their identities while they access cutting-edge large language models (LLMs), probably to clone them.",
     "added": "2026-09-22T21:12:37+00:00",
-    "expires": "2026-10-07T12:05:00Z"
+    "expires": "2026-10-07T18:34:59Z"
   },
   {
     "title": "How the CISO-CMO Alliance Builds Trust Before Crisis Strikes",
     "url": "https://www.darkreading.com/cybersecurity-operations/how-ciso-cmo-alliance-builds-trust-before-crisis",
     "source": "Dark Reading",
-    "summary": "Cybersecurity and brand reputation are inextricably linked, and organizations that establish regular touchpoints, develop joint crisis communications plans, and translate security risks into their brand impact will signi",
+    "summary": "Cybersecurity and brand reputation are inextricably linked. Security and marketing leaders who establish regular touchpoints, develop joint crisis communications plans, and translate security risks into their brand impac",
     "added": "2026-09-22T20:55:53+00:00",
-    "expires": "2026-10-07T12:05:00Z"
+    "expires": "2026-10-07T18:34:59Z"
   },
   {
     "title": "Microsoft Disrupts EvilTokens Device Code Phishing Service",
@@ -101,30 +125,6 @@
     "source": "Dark Reading",
     "summary": "Microsoft seized 50 websites and disabled more than 150 domains as part of a coordinated disruption effort against a phishing-as-a-service platform targeting Microsoft 365 accounts.",
     "added": "2026-09-22T20:02:02+00:00",
-    "expires": "2026-10-07T12:05:00Z"
-  },
-  {
-    "title": "Deception by Design: CISA's Guide to Tricking Cybercriminals",
-    "url": "https://www.darkreading.com/cybersecurity-operations/deception-by-design-cisa-s-guide-to-tricking-cybercriminals",
-    "source": "Dark Reading",
-    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) is going old-school to help organizations with limited resources set traps for hackers.",
-    "added": "2026-09-22T19:59:24+00:00",
-    "expires": "2026-10-07T12:05:00Z"
-  },
-  {
-    "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
-    "url": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
-    "source": "The Hacker News",
-    "summary": "Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23, the company said. The flaw, CVE-2026-93616, allows an attacker who can access the ser",
-    "added": "2026-09-22T18:29:39+00:00",
-    "expires": "2026-10-07T12:05:00Z"
-  },
-  {
-    "title": "Siemens Industrial Edge Management",
-    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-06",
-    "source": "CISA Advisories",
-    "summary": "View CSAF Summary Industrial Edge Management contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to perform full account takeover by resetting user credentials without comp",
-    "added": "2026-09-22T12:00:00+00:00",
-    "expires": "2026-10-07T12:05:00Z"
+    "expires": "2026-10-07T18:34:59Z"
   }
 ]
