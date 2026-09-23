@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-09-23T13:30:40Z",
+  "updated_at": "2026-09-23T13:45:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "VKTX",
-        "name": "Viking Therapeutics, Inc.",
-        "price": 42.0,
-        "change_24h": 2.82,
+        "symbol": "LKFT",
+        "name": "Lakefront Biotherapeutics",
+        "price": 32.19,
+        "change_24h": 6.63,
         "asset": "equity"
       },
       {
-        "symbol": "BFLY",
-        "name": "Butterfly Network, Inc.",
-        "price": 9.93,
-        "change_24h": 21.99,
+        "symbol": "QNT",
+        "name": "Quantinuum Inc.",
+        "price": 54.55,
+        "change_24h": 6.15,
         "asset": "equity"
       },
       {
-        "symbol": "VICR",
-        "name": "Vicor Corporation",
-        "price": 265.74,
-        "change_24h": -0.97,
+        "symbol": "PLSE",
+        "name": "Pulse Biosciences, Inc",
+        "price": 55.59,
+        "change_24h": 5.5,
         "asset": "equity"
       },
       {
-        "symbol": "SGRY",
-        "name": "Surgery Partners, Inc.",
-        "price": 15.62,
-        "change_24h": -1.11,
+        "symbol": "MAAS",
+        "name": "Maase Inc.",
+        "price": 15.66,
+        "change_24h": 5.1,
         "asset": "equity"
       },
       {
-        "symbol": "INOD",
-        "name": "Innodata Inc.",
-        "price": 71.45,
-        "change_24h": 2.12,
+        "symbol": "GPK",
+        "name": "Graphic Packaging Holding Compa",
+        "price": 10.06,
+        "change_24h": 5.24,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "CLDX",
-        "name": "Celldex Therapeutics, Inc.",
+        "symbol": "VOYG",
+        "name": "Voyager Technologies, Inc.",
         "price": 33.36,
-        "change_24h": -0.45,
+        "change_24h": -11.11,
         "asset": "equity"
       },
       {
-        "symbol": "PLNT",
-        "name": "Planet Fitness, Inc.",
-        "price": 42.61,
-        "change_24h": 0.01,
+        "symbol": "EXK",
+        "name": "Endeavour Silver Corporation",
+        "price": 9.4014,
+        "change_24h": -10.49,
         "asset": "equity"
       },
       {
-        "symbol": "PLBL",
-        "name": "Polibeli Group Ltd",
-        "price": 5.835,
-        "change_24h": 0.6,
+        "symbol": "SHAZ",
+        "name": "SharonAI Holdings, Inc.",
+        "price": 58.42,
+        "change_24h": -7.58,
         "asset": "equity"
       },
       {
-        "symbol": "NKTR",
-        "name": "Nektar Therapeutics",
-        "price": 60.54,
-        "change_24h": -0.71,
+        "symbol": "AYA",
+        "name": "Aya Gold & Silver Inc.",
+        "price": 28.4,
+        "change_24h": -6.52,
         "asset": "equity"
       },
       {
-        "symbol": "CAR",
-        "name": "Avis Budget Group, Inc.",
-        "price": 107.03,
-        "change_24h": -0.65,
+        "symbol": "BFLY",
+        "name": "Butterfly Network, Inc.",
+        "price": 9.349,
+        "change_24h": -5.93,
         "asset": "equity"
       }
     ]
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "BCH",
-        "name": "Bitcoin Cash",
-        "price": 356.07,
-        "change_24h": 14.01,
-        "asset": "crypto"
-      },
-      {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
-        "price": 0.010267,
-        "change_24h": 12.6,
+        "price": 0.010359,
+        "change_24h": 13.54,
         "asset": "crypto"
       },
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.957224,
-        "change_24h": 10.47,
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price": 354.98,
+        "change_24h": 12.74,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 5.19,
-        "change_24h": 9.33,
+        "price": 5.32,
+        "change_24h": 12.73,
         "asset": "crypto"
       },
       {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.073888,
-        "change_24h": 8.89,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.959273,
+        "change_24h": 10.33,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 65.48,
+        "change_24h": 10.26,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.047268,
+        "change_24h": -9.93,
+        "asset": "crypto"
+      },
+      {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004212,
-        "change_24h": -7.49,
+        "price": 0.004205,
+        "change_24h": -6.66,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.012682,
-        "change_24h": -5.73,
+        "price": 0.012709,
+        "change_24h": -5.6,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.26,
-        "change_24h": -4.92,
+        "change_24h": -4.78,
         "asset": "crypto"
       },
       {
-        "symbol": "RENDER",
-        "name": "Render",
-        "price": 1.78,
-        "change_24h": -4.48,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PEPE",
-        "name": "Pepe",
-        "price": 5e-06,
-        "change_24h": -3.61,
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.11221,
+        "change_24h": -3.88,
         "asset": "crypto"
       }
     ]
