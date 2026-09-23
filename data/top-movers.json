@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T02:45:39Z",
+  "updated_at": "2026-09-23T03:00:39Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 339.39,
-        "change_24h": 27.7,
+        "price": 341.05,
+        "change_24h": 28.9,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 10.61,
-        "change_24h": 15.5,
+        "price": 10.66,
+        "change_24h": 16.82,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.249387,
-        "change_24h": 11.93,
+        "price": 0.248572,
+        "change_24h": 12.69,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 74.47,
-        "change_24h": 11.19,
+        "price": 74.4,
+        "change_24h": 11.59,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1614.36,
-        "change_24h": 10.78,
+        "price": 1616.1,
+        "change_24h": 11.45,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.047684,
+        "change_24h": -12.73,
+        "asset": "crypto"
+      },
+      {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.3,
-        "change_24h": -9.67,
+        "change_24h": -10.69,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.01312,
-        "change_24h": -5.48,
+        "price": 0.013114,
+        "change_24h": -5.25,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 4.33,
-        "change_24h": -4.69,
+        "change_24h": -3.45,
         "asset": "crypto"
       },
       {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.041546,
-        "change_24h": -4.16,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.114154,
-        "change_24h": -3.29,
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price": 5e-06,
+        "change_24h": -2.92,
         "asset": "crypto"
       }
     ]
