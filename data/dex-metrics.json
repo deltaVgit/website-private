@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T15:05:38Z",
+  "updated_at": "2026-09-23T16:05:40Z",
   "source": "https://api.llama.fi/overview/dexs",
   "weekly": [
     {
@@ -1258,31 +1258,31 @@
     },
     {
       "week": "2026-W39",
-      "curated": 35633879508.240005,
-      "filtered": 35633879508.240005,
-      "raw": 35633879508.240005
+      "curated": 35728847410.840004,
+      "filtered": 35728847410.840004,
+      "raw": 35728847410.840004
     }
   ],
   "chains": [
     {
       "chain": "Raydium AMM",
-      "volume_24h": 371490432.0,
-      "delta_pct": -35.19
+      "volume_24h": 368896105.0,
+      "delta_pct": -35.64
     },
     {
       "chain": "Orca DEX",
-      "volume_24h": 332748281.0,
-      "delta_pct": -26.55
+      "volume_24h": 327860874.0,
+      "delta_pct": -27.63
+    },
+    {
+      "chain": "Curve DEX",
+      "volume_24h": 68926580.0,
+      "delta_pct": -68.41
     },
     {
       "chain": "PancakeSwap AMM",
       "volume_24h": 60924175.0,
       "delta_pct": 0.0
-    },
-    {
-      "chain": "Curve DEX",
-      "volume_24h": 45066554.0,
-      "delta_pct": -79.35
     },
     {
       "chain": "Quickswap Dex",
@@ -1291,13 +1291,18 @@
     },
     {
       "chain": "SushiSwap",
-      "volume_24h": 2257372.0,
-      "delta_pct": 34.04
+      "volume_24h": 2033910.0,
+      "delta_pct": 20.77
+    },
+    {
+      "chain": "Defi Swap",
+      "volume_24h": 304609.0,
+      "delta_pct": 312.32
     },
     {
       "chain": "Bancor V2.1",
-      "volume_24h": 182726.0,
-      "delta_pct": 11.78
+      "volume_24h": 177384.0,
+      "delta_pct": 8.51
     },
     {
       "chain": "Pangolin V2",
@@ -1306,23 +1311,18 @@
     },
     {
       "chain": "Balancer V1",
-      "volume_24h": 116907.0,
-      "delta_pct": -3.95
-    },
-    {
-      "chain": "Defi Swap",
-      "volume_24h": 59508.0,
-      "delta_pct": -19.45
+      "volume_24h": 118199.0,
+      "delta_pct": -2.89
     },
     {
       "chain": "Nerve",
-      "volume_24h": 17270.0,
-      "delta_pct": -71.04
+      "volume_24h": 17791.0,
+      "delta_pct": -70.16
     },
     {
       "chain": "WanSwap Dex",
-      "volume_24h": 15266.0,
-      "delta_pct": -25.72
+      "volume_24h": 15109.0,
+      "delta_pct": -26.48
     }
   ]
 }
