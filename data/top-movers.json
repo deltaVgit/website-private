@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T01:30:39Z",
+  "updated_at": "2026-09-23T01:45:39Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 342.79,
-        "change_24h": 29.14,
+        "price": 342.29,
+        "change_24h": 29.31,
         "asset": "crypto"
       },
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 10.66,
-        "change_24h": 17.65,
+        "symbol": "PENGU",
+        "name": "Pudgy Penguins",
+        "price": 0.010077,
+        "change_24h": 14.63,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 75.59,
-        "change_24h": 14.39,
+        "price": 75.64,
+        "change_24h": 14.38,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 10.42,
+        "change_24h": 14.36,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.243039,
-        "change_24h": 9.75,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ETC",
-        "name": "Ethereum Classic",
-        "price": 9.64,
-        "change_24h": 9.19,
+        "price": 0.241437,
+        "change_24h": 9.12,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.049933,
-        "change_24h": -14.81,
-        "asset": "crypto"
-      },
-      {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.3,
-        "change_24h": -7.62,
+        "change_24h": -8.88,
         "asset": "crypto"
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.041789,
-        "change_24h": -6.31,
+        "price": 0.041425,
+        "change_24h": -5.89,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.013132,
-        "change_24h": -5.48,
+        "price": 0.013087,
+        "change_24h": -5.7,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.113752,
+        "change_24h": -4.08,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 569.13,
-        "change_24h": -2.69,
+        "price": 566.82,
+        "change_24h": -3.29,
         "asset": "crypto"
       }
     ]
