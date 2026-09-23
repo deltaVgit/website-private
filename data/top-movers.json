@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-23T19:00:40Z",
+  "updated_at": "2026-09-23T19:15:40Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "price": 30.09,
-        "change_24h": 15.38,
+        "price": 30.49,
+        "change_24h": 16.91,
         "asset": "equity"
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "price": 14.12,
-        "change_24h": 8.62,
+        "price": 14.29,
+        "change_24h": 9.92,
         "asset": "equity"
       },
       {
         "symbol": "ACMR",
         "name": "ACM Research, Inc.",
-        "price": 82.36,
-        "change_24h": 8.65,
-        "asset": "equity"
-      },
-      {
-        "symbol": "MAAS",
-        "name": "Maase Inc.",
-        "price": 15.83,
-        "change_24h": 6.26,
+        "price": 80.82,
+        "change_24h": 6.62,
         "asset": "equity"
       },
       {
         "symbol": "KVYO",
         "name": "Klaviyo, Inc. Series A",
-        "price": 16.77,
-        "change_24h": 5.67,
+        "price": 16.75,
+        "change_24h": 5.58,
+        "asset": "equity"
+      },
+      {
+        "symbol": "VICR",
+        "name": "Vicor Corporation",
+        "price": 282.26,
+        "change_24h": 5.19,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "PBLS",
         "name": "Parabilis Medicines, Inc.",
-        "price": 33.83,
-        "change_24h": -11.37,
+        "price": 33.8,
+        "change_24h": -11.46,
         "asset": "equity"
       },
       {
         "symbol": "EXK",
         "name": "Endeavour Silver Corporation",
-        "price": 9.32,
-        "change_24h": -11.32,
-        "asset": "equity"
-      },
-      {
-        "symbol": "RLAY",
-        "name": "Relay Therapeutics, Inc.",
-        "price": 17.48,
-        "change_24h": -9.68,
-        "asset": "equity"
-      },
-      {
-        "symbol": "ERAS",
-        "name": "Erasca, Inc.",
-        "price": 14.1,
-        "change_24h": -9.36,
+        "price": 9.275,
+        "change_24h": -11.75,
         "asset": "equity"
       },
       {
         "symbol": "VERA",
         "name": "Vera Therapeutics, Inc.",
-        "price": 33.0,
-        "change_24h": -9.0,
+        "price": 32.95,
+        "change_24h": -9.12,
+        "asset": "equity"
+      },
+      {
+        "symbol": "ERAS",
+        "name": "Erasca, Inc.",
+        "price": 14.19,
+        "change_24h": -8.78,
+        "asset": "equity"
+      },
+      {
+        "symbol": "MLYS",
+        "name": "Mineralys Therapeutics, Inc.",
+        "price": 26.86,
+        "change_24h": -8.64,
         "asset": "equity"
       }
     ]
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.989639,
-        "change_24h": 14.61,
-        "asset": "crypto"
-      },
-      {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 5.41,
-        "change_24h": 11.66,
+        "price": 5.44,
+        "change_24h": 12.18,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.070697,
-        "change_24h": 3.28,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BCH",
-        "name": "Bitcoin Cash",
-        "price": 348.91,
-        "change_24h": 2.93,
+        "price": 0.070446,
+        "change_24h": 2.45,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.209529,
-        "change_24h": 2.69,
+        "price": 0.209691,
+        "change_24h": 2.12,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.219002,
+        "change_24h": 1.02,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price": 347.53,
+        "change_24h": 0.77,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.003974,
-        "change_24h": -10.89,
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.40536,
+        "change_24h": -11.67,
         "asset": "crypto"
       },
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.406554,
-        "change_24h": -10.8,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.003967,
+        "change_24h": -11.12,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -10.57,
+        "change_24h": -11.06,
         "asset": "crypto"
       },
       {
         "symbol": "CRO",
         "name": "Cronos",
-        "price": 0.061089,
-        "change_24h": -8.24,
+        "price": 0.061117,
+        "change_24h": -9.28,
         "asset": "crypto"
       },
       {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.092156,
-        "change_24h": -7.76,
+        "symbol": "HBAR",
+        "name": "Hedera",
+        "price": 0.090429,
+        "change_24h": -8.48,
         "asset": "crypto"
       }
     ]
