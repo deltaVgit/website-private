@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-09-24T14:15:41Z",
+  "updated_at": "2026-09-24T14:30:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "P",
         "name": "Everpure, Inc.",
-        "price": 127.61,
-        "change_24h": 16.38,
+        "price": 127.16,
+        "change_24h": 15.97,
         "asset": "equity"
       },
       {
         "symbol": "TWST",
         "name": "Twist Bioscience Corporation",
-        "price": 176.03,
-        "change_24h": 11.06,
+        "price": 178.26,
+        "change_24h": 12.46,
         "asset": "equity"
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "price": 15.65,
-        "change_24h": 9.02,
+        "price": 15.83,
+        "change_24h": 10.24,
         "asset": "equity"
       },
       {
         "symbol": "GRAL",
         "name": "GRAIL, Inc.",
-        "price": 117.62,
-        "change_24h": 8.39,
+        "price": 118.94,
+        "change_24h": 9.61,
         "asset": "equity"
       },
       {
         "symbol": "VCYT",
         "name": "Veracyte, Inc.",
-        "price": 47.13,
-        "change_24h": 7.57,
+        "price": 47.49,
+        "change_24h": 8.39,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "MAAS",
-        "name": "Maase Inc.",
-        "price": 12.68,
-        "change_24h": -15.8,
-        "asset": "equity"
-      },
-      {
         "symbol": "VKTX",
         "name": "Viking Therapeutics, Inc.",
-        "price": 35.62,
-        "change_24h": -14.48,
-        "asset": "equity"
-      },
-      {
-        "symbol": "ACAD",
-        "name": "ACADIA Pharmaceuticals Inc.",
-        "price": 22.94,
-        "change_24h": -9.79,
+        "price": 35.74,
+        "change_24h": -14.18,
         "asset": "equity"
       },
       {
         "symbol": "GIL",
         "name": "Gildan Activewear, Inc.",
-        "price": 41.42,
-        "change_24h": -10.33,
+        "price": 41.26,
+        "change_24h": -10.67,
+        "asset": "equity"
+      },
+      {
+        "symbol": "KGC",
+        "name": "Kinross Gold Corporation",
+        "price": 24.7,
+        "change_24h": -10.58,
+        "asset": "equity"
+      },
+      {
+        "symbol": "MAAS",
+        "name": "Maase Inc.",
+        "price": 13.48,
+        "change_24h": -10.49,
         "asset": "equity"
       },
       {
         "symbol": "MGM",
         "name": "MGM Resorts International",
-        "price": 34.12,
-        "change_24h": -9.84,
+        "price": 34.33,
+        "change_24h": -9.31,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "LTC",
         "name": "Litecoin",
-        "price": 71.97,
-        "change_24h": 18.64,
+        "price": 73.21,
+        "change_24h": 21.7,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.89,
-        "change_24h": 14.19,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.048,
-        "change_24h": 11.03,
+        "price": 2.91,
+        "change_24h": 14.92,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 79.41,
-        "change_24h": 10.82,
+        "price": 80.92,
+        "change_24h": 13.52,
         "asset": "crypto"
       },
       {
-        "symbol": "ETC",
-        "name": "Ethereum Classic",
-        "price": 9.9,
-        "change_24h": 10.22,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.222622,
+        "change_24h": 10.11,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.043,
+        "change_24h": 9.11,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.043999,
-        "change_24h": -9.72,
+        "price": 0.044682,
+        "change_24h": -7.32,
         "asset": "crypto"
       },
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 29.54,
-        "change_24h": -6.05,
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.012073,
+        "change_24h": -3.55,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.003847,
-        "change_24h": -5.44,
+        "price": 0.003923,
+        "change_24h": -3.42,
         "asset": "crypto"
       },
       {
-        "symbol": "TAO",
-        "name": "Bittensor",
-        "price": 288.71,
-        "change_24h": -4.92,
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 30.07,
+        "change_24h": -2.92,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1513.12,
-        "change_24h": -4.85,
+        "price": 1522.96,
+        "change_24h": -2.91,
         "asset": "crypto"
       }
     ]
