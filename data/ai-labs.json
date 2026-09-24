@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-24T14:04:56Z",
+  "updated": "2026-09-24T20:34:58Z",
   "items": [
+    {
+      "title": "Introducing Gemini 3.8 Live with Live Avatar",
+      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "source": "Google DeepMind",
+      "published_at": "2026-09-24T16:20:39+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
+      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "source": "Hugging Face Blog",
+      "published_at": "2026-09-24T14:08:57+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
     {
       "title": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
       "url": "https://arxiv.org/abs/2609.25010",
@@ -95,6 +111,14 @@
       "source": "Hugging Face Blog",
       "published_at": "2026-09-23T18:41:40+00:00",
       "summary": "",
+      "tag": "ai"
+    },
+    {
+      "title": "Latent reasoning architectures would undermine CoT, our strongest oversight tool",
+      "url": "https://www.alignmentforum.org/posts/6m29SfjbittooYojj/latent-reasoning-architectures-would-undermine-cot-our",
+      "source": "Alignment Forum",
+      "published_at": "2026-09-23T18:01:49+00:00",
+      "summary": "Summary: Currently, “chain of thought” (CoT) is our most valuable tool for understanding the reasoning and cognition of AI systems. However, some architectures would enable AI models to reason much more extensively in latent states rather than in text CoT. We think that a shift t",
       "tag": "ai"
     },
     {
@@ -226,14 +250,6 @@
       "tag": "ai"
     },
     {
-      "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
-      "url": "https://huggingface.co/blog/omlx",
-      "source": "Hugging Face Blog",
-      "published_at": "2026-09-22T00:00:00+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
       "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems",
       "url": "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/",
       "source": "Meta Engineering",
@@ -274,14 +290,6 @@
       "tag": "ai"
     },
     {
-      "title": "[Paper] Stringological sequence prediction III",
-      "url": "https://www.alignmentforum.org/posts/virawHQekJsozwotz/paper-stringological-sequence-prediction-iii",
-      "source": "Alignment Forum",
-      "published_at": "2026-09-18T16:52:53+00:00",
-      "summary": "Abstract: In previous papers (Kosoy 2026a,b), we began the study of sequence prediction algorithms adapted to stringological word complexity measures. In particular, we defined a complexity measure called Arithmetic Repetition Complexity (ARC) which admits a polynomial-time predi",
-      "tag": "ai"
-    },
-    {
       "title": "New experts join Google’s AI & Economy team",
       "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
       "source": "Google AI Blog",
@@ -311,14 +319,6 @@
       "source": "Google DeepMind",
       "published_at": "2026-09-15T17:05:57+00:00",
       "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "Explaining Knightianism on one foot",
-      "url": "https://www.lesswrong.com/posts/pYFBD2SnqiWkuNns5/explaining-knightianism-on-one-foot",
-      "source": "LessWrong",
-      "published_at": "2026-09-11T06:41:18+00:00",
-      "summary": "I’ve tried several times to summarize the core question my research is trying to tackle (and, indeed, I often think of research progress as a process of asking increasingly good core questions). [1] This post gives the deepest version of that question I’ve found thus far: how sho",
       "tag": "ai"
     }
   ],
