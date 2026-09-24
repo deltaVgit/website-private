@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T11:30:40Z",
+  "updated_at": "2026-09-24T11:45:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,59 +82,52 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.016,
-        "change_24h": 7.61,
+        "price": 1.025,
+        "change_24h": 9.11,
         "asset": "crypto"
       },
       {
         "symbol": "LTC",
         "name": "Litecoin",
-        "price": 66.5,
-        "change_24h": 6.66,
+        "price": 66.72,
+        "change_24h": 7.53,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.71,
-        "change_24h": 4.71,
+        "price": 2.7,
+        "change_24h": 5.11,
         "asset": "crypto"
       },
       {
         "symbol": "ETC",
         "name": "Ethereum Classic",
         "price": 9.56,
-        "change_24h": 2.24,
+        "change_24h": 3.23,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
-        "price": 2.66,
-        "change_24h": 2.22,
+        "price": 2.67,
+        "change_24h": 2.55,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.406755,
-        "change_24h": -9.93,
-        "asset": "crypto"
-      },
-      {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.003815,
-        "change_24h": -9.4,
+        "price": 0.003769,
+        "change_24h": -10.14,
         "asset": "crypto"
       },
       {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.213262,
-        "change_24h": -9.14,
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.406413,
+        "change_24h": -9.73,
         "asset": "crypto"
       },
       {
@@ -145,10 +138,17 @@
         "asset": "crypto"
       },
       {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.213776,
+        "change_24h": -8.77,
+        "asset": "crypto"
+      },
+      {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 28.82,
-        "change_24h": -8.8,
+        "price": 28.95,
+        "change_24h": -8.61,
         "asset": "crypto"
       }
     ]
