@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T01:00:40Z",
+  "updated_at": "2026-09-24T01:15:39Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,15 +82,8 @@
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 5.36,
-        "change_24h": 4.43,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.07027,
-        "change_24h": 0.58,
+        "price": 5.34,
+        "change_24h": 3.94,
         "asset": "crypto"
       },
       {
@@ -101,54 +94,61 @@
         "asset": "crypto"
       },
       {
-        "symbol": "CAKE",
-        "name": "PancakeSwap",
-        "price": 2.59,
-        "change_24h": 0.32,
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.070086,
+        "change_24h": 0.29,
         "asset": "crypto"
       },
       {
-        "symbol": "TRX",
-        "name": "TRON",
-        "price": 0.342953,
+        "symbol": "LEO",
+        "name": "LEO Token",
+        "price": 9.0,
         "change_24h": 0.16,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BDX",
+        "name": "Beldex",
+        "price": 0.075899,
+        "change_24h": 0.15,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.042586,
-        "change_24h": -14.68,
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.405756,
+        "change_24h": -13.96,
         "asset": "crypto"
       },
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.406678,
-        "change_24h": -13.55,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 9.25,
+        "change_24h": -13.46,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -11.96,
+        "change_24h": -12.57,
         "asset": "crypto"
       },
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 9.24,
-        "change_24h": -11.46,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.003943,
+        "change_24h": -11.69,
         "asset": "crypto"
       },
       {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 57.5,
-        "change_24h": -10.39,
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.216963,
+        "change_24h": -11.17,
         "asset": "crypto"
       }
     ]
