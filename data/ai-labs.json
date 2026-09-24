@@ -1,6 +1,86 @@
 {
-  "updated": "2026-09-24T01:04:53Z",
+  "updated": "2026-09-24T07:34:57Z",
   "items": [
+    {
+      "title": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
+      "url": "https://arxiv.org/abs/2609.25010",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-24T04:00:00+00:00",
+      "summary": "arXiv:2609.25010v1 Announce Type: new Abstract: Marketers increasingly use large language models (LLMs) as \"synthetic personas\" to predict how an audience will react to a piece of copy before it ships, encouraged by evidence that profile-conditioned LLMs mimic human samples. But ",
+      "tag": "ai"
+    },
+    {
+      "title": "Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization",
+      "url": "https://arxiv.org/abs/2609.25013",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-24T04:00:00+00:00",
+      "summary": "arXiv:2609.25013v1 Announce Type: new Abstract: Tabular foundation models have recently shown strong potential for structured biomedical data analysis. Among them, TabPFN has emerged as an effective approach for low-data tabular classification tasks. However, the impact of optimi",
+      "tag": "ai"
+    },
+    {
+      "title": "4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2609.25036",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-24T04:00:00+00:00",
+      "summary": "arXiv:2609.25036v1 Announce Type: new Abstract: Dynamic Gaussian Splatting provides an explicit representation of evolving 3D scenes, but existing approaches are primarily optimized for reconstruction, future-state generation, or rendering rather than for learning reusable predic",
+      "tag": "ai"
+    },
+    {
+      "title": "An Accurate and Interpretable Hyper Graph Neural Network for GBM Survival Prediction",
+      "url": "https://arxiv.org/abs/2609.25088",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-24T04:00:00+00:00",
+      "summary": "arXiv:2609.25088v1 Announce Type: new Abstract: Survival prediction for glioblastoma multiforme (GBM) demands models that are both accurate and interpretable, yet existing approaches treat these objectives as com- peting, where performant models sacrifice transparency, while inte",
+      "tag": "ai"
+    },
+    {
+      "title": "The Drift Contract: Spectral Updates for Depth-Robust Local Learning",
+      "url": "https://arxiv.org/abs/2609.26811",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-24T04:00:00+00:00",
+      "summary": "arXiv:2609.26811v1 Announce Type: new Abstract: Local learning trains each layer with its own auxiliary loss and no global backward pass, which makes layer updates structurally parallel. Two problems have kept it marginal: accuracy degrades as depth grows, and hyperparameters are",
+      "tag": "ai"
+    },
+    {
+      "title": "Signal2Symbol: Neuro-Symbolic Temporal Reasoning for Explainable Physiological Time-Series Anomaly Detection",
+      "url": "https://arxiv.org/abs/2609.26820",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-24T04:00:00+00:00",
+      "summary": "arXiv:2609.26820v1 Announce Type: new Abstract: Physiological time series such as electrocardiograms (ECG) and electroencephalograms (EEG) exhibit complex temporal structure, substantial acquisition variability, and a strong need for transparent decision-making. Although deep mod",
+      "tag": "ai"
+    },
+    {
+      "title": "HARN: Hierarchical Associative Resonance Network for Event-Driven Multi-Timeframe Forecasting",
+      "url": "https://arxiv.org/abs/2609.26822",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-24T04:00:00+00:00",
+      "summary": "arXiv:2609.26822v1 Announce Type: new Abstract: Financial time series evolve across multiple temporal resolutions, challenging forecasting systems to incorporate newly available information without repeatedly recomputing unchanged representations. We introduce HARN, a Hierarchica",
+      "tag": "ai"
+    },
+    {
+      "title": "COMED: The Missing Middle Between Routing and Collaboration in Multi-LLM Inference",
+      "url": "https://arxiv.org/abs/2609.26913",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-24T04:00:00+00:00",
+      "summary": "arXiv:2609.26913v1 Announce Type: new Abstract: No single Large Language Model (LLM) is uniformly reliable across queries, motivating multi-model inference systems that either route among models or combine their outputs. However, routing stops after selecting an initial model, wh",
+      "tag": "ai"
+    },
+    {
+      "title": "Experts Rise Where LLMs Disagree: Using Cross-Model Disagreement to Target Expert Effort in LLM Codebook Revision for Large-Scale Annotation",
+      "url": "https://arxiv.org/abs/2609.26926",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-24T04:00:00+00:00",
+      "summary": "arXiv:2609.26926v1 Announce Type: new Abstract: Large-scale text annotation brings expert insight to millions of documents, often through a codebook that AI annotators follow. Developing a robust codebook, however, takes months. Large language models (LLMs) could speed this proce",
+      "tag": "ai"
+    },
+    {
+      "title": "Recognized but Not Produced: A Generation Benchmark for Culturally Specific Kinship Terms",
+      "url": "https://arxiv.org/abs/2609.26942",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-24T04:00:00+00:00",
+      "summary": "arXiv:2609.26942v1 Announce Type: new Abstract: Current literature evaluates large language models (LLMs) on multilingual kinship understanding using multiple choice benchmarks, treating it as a recognition problem. We instead prompt five open weight LLMs to generate kinship term",
+      "tag": "ai"
+    },
     {
       "title": "Bringing Private Processing to Meta AI Glasses",
       "url": "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses/",
@@ -42,27 +122,11 @@
       "tag": "ai"
     },
     {
-      "title": "Advancing Private AI Compute with secure, server-side memory",
-      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-      "source": "Google DeepMind",
-      "published_at": "2026-09-23T16:00:57+00:00",
-      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-      "tag": "ai"
-    },
-    {
       "title": "Two years of OpenAI Academy",
       "url": "https://openai.com/index/two-years-of-openai-academy",
       "source": "OpenAI",
       "published_at": "2026-09-23T16:00:00+00:00",
       "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-      "tag": "ai"
-    },
-    {
-      "title": "Gemini 3.8 text-to-speech says hello",
-      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-      "source": "Google DeepMind",
-      "published_at": "2026-09-23T15:25:14+00:00",
-      "summary": "",
       "tag": "ai"
     },
     {
@@ -103,86 +167,6 @@
       "source": "Alignment Forum",
       "published_at": "2026-09-23T06:58:59+00:00",
       "summary": "TL;DR We introduce WorkspaceBench, a set of evaluations for how well an activation-to-text tool can read the contents of the “global workspace” of a model, i.e. the intermediate variables during a forward pass. The benchmark comprises 3,356 questions across 27 eval families, span",
-      "tag": "ai"
-    },
-    {
-      "title": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
-      "url": "https://arxiv.org/abs/2609.25010",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-23T04:00:00+00:00",
-      "summary": "arXiv:2609.25010v1 Announce Type: new Abstract: Marketers increasingly use large language models (LLMs) as \"synthetic personas\" to predict how an audience will react to a piece of copy before it ships, encouraged by evidence that profile-conditioned LLMs mimic human samples. But ",
-      "tag": "ai"
-    },
-    {
-      "title": "Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization",
-      "url": "https://arxiv.org/abs/2609.25013",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-23T04:00:00+00:00",
-      "summary": "arXiv:2609.25013v1 Announce Type: new Abstract: Tabular foundation models have recently shown strong potential for structured biomedical data analysis. Among them, TabPFN has emerged as an effective approach for low-data tabular classification tasks. However, the impact of optimi",
-      "tag": "ai"
-    },
-    {
-      "title": "4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting",
-      "url": "https://arxiv.org/abs/2609.25036",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-23T04:00:00+00:00",
-      "summary": "arXiv:2609.25036v1 Announce Type: new Abstract: Dynamic Gaussian Splatting provides an explicit representation of evolving 3D scenes, but existing approaches are primarily optimized for reconstruction, future-state generation, or rendering rather than for learning reusable predic",
-      "tag": "ai"
-    },
-    {
-      "title": "An Accurate and Interpretable Hyper Graph Neural Network for GBM Survival Prediction",
-      "url": "https://arxiv.org/abs/2609.25088",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-23T04:00:00+00:00",
-      "summary": "arXiv:2609.25088v1 Announce Type: new Abstract: Survival prediction for glioblastoma multiforme (GBM) demands models that are both accurate and interpretable, yet existing approaches treat these objectives as com- peting, where performant models sacrifice transparency, while inte",
-      "tag": "ai"
-    },
-    {
-      "title": "\"As a Language Model...\": Chat Template Switches LLM Self-Referential Voice and Activation Steering Reproduces It",
-      "url": "https://arxiv.org/abs/2609.25021",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-23T04:00:00+00:00",
-      "summary": "arXiv:2609.25021v1 Announce Type: new Abstract: Large Language Models (LLMs) tend to add disclaimers like \"I'm just an AI\" when asked about something related to themselves. The self-reports from such responses are used in debates about AI safety or self-knowledge of the models, y",
-      "tag": "ai"
-    },
-    {
-      "title": "Federating Quantum and Classical Computing: A Privacy-Preserving Hybrid Approach",
-      "url": "https://arxiv.org/abs/2609.25082",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-23T04:00:00+00:00",
-      "summary": "arXiv:2609.25082v1 Announce Type: new Abstract: Quantum machine learning (QML) is increasingly recognized as one of the most promising near-term applications of quantum computing, viewed as a next-frontier candidate beyond purely classical approaches. Hybrid quantum-classical mod",
-      "tag": "ai"
-    },
-    {
-      "title": "Entropy Can Flow, or It Can Guide. Be Entropy. LEDFlow: Introducing Entropy-guided Generation Order into Uniform Discrete Flow",
-      "url": "https://arxiv.org/abs/2609.25131",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-23T04:00:00+00:00",
-      "summary": "arXiv:2609.25131v1 Announce Type: new Abstract: Uniform discrete flow permits repeated updates at every generation position. While continued revision supports correction of wrong tokens, it also exposes correct intermediate predictions to later errors. An experiment on Sudoku puz",
-      "tag": "ai"
-    },
-    {
-      "title": "What Does 99% Accuracy Measure? A Reproducible Audit of Shortcut Learning in a Widely Used Fake News Corpus",
-      "url": "https://arxiv.org/abs/2609.25006",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-23T04:00:00+00:00",
-      "summary": "arXiv:2609.25006v1 Announce Type: new Abstract: Text classifiers trained on the ISOT/Kaggle \"Fake and Real News\" corpus routinely report accuracy and F1 above 0.98, a level of performance that sits uneasily beside the difficulty of assessing veracity. Using a transparent TF-IDF a",
-      "tag": "ai"
-    },
-    {
-      "title": "Training a Language Model End-to-End in Rust: An Experience Report",
-      "url": "https://arxiv.org/abs/2609.25008",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-23T04:00:00+00:00",
-      "summary": "arXiv:2609.25008v1 Announce Type: new Abstract: I pretrained a language model end-to-end in Rust - alone, with no team, no PyTorch, and no Python in the training path - for $164 in rented GPU time. I report that as an achievement, not a recommendation: the more useful contributio",
-      "tag": "ai"
-    },
-    {
-      "title": "Same Quantity, Different Answer: Numerical Representation Invariance in Language Models",
-      "url": "https://arxiv.org/abs/2609.25009",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-23T04:00:00+00:00",
-      "summary": "arXiv:2609.25009v1 Announce Type: new Abstract: Numerically equivalent word problems should yield the same canonical answer whether a quantity is written as a decimal, fraction, percentage, number word, scientific notation, or an exactly converted unit. We generate 3,600 exact-ra",
       "tag": "ai"
     },
     {
@@ -306,19 +290,35 @@
       "tag": "ai"
     },
     {
-      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-      "source": "Google DeepMind",
-      "published_at": "2026-09-15T17:05:57+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
       "title": "Explaining Knightianism on one foot",
       "url": "https://www.lesswrong.com/posts/pYFBD2SnqiWkuNns5/explaining-knightianism-on-one-foot",
       "source": "LessWrong",
       "published_at": "2026-09-11T06:41:18+00:00",
       "summary": "I’ve tried several times to summarize the core question my research is trying to tackle (and, indeed, I often think of research progress as a process of asking increasingly good core questions). [1] This post gives the deepest version of that question I’ve found thus far: how sho",
+      "tag": "ai"
+    },
+    {
+      "title": "Import AI 472: DeepMind’s cheating math agents; populist AI policies; and Forethought theorizes a nightwatchman",
+      "url": "https://jack-clark.net/2026/09/07/import-ai-472-deepminds-cheating-math-agents-populist-ai-policies-and-forethought-theorizes-a-nightwatchman/",
+      "source": "Import AI",
+      "published_at": "2026-09-07T12:26:31+00:00",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Researchers discover another OpenAI agent emergent communication incident:…Less severe, but worryi",
+      "tag": "ai"
+    },
+    {
+      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
+      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+      "source": "NVIDIA AI",
+      "published_at": "2026-07-08T15:00:27+00:00",
+      "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open mo",
+      "tag": "ai"
+    },
+    {
+      "title": "NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES",
+      "url": "https://blogs.nvidia.com/blog/2026-ces-special-presentation/",
+      "source": "NVIDIA AI",
+      "published_at": "2026-01-05T23:30:18+00:00",
+      "summary": "Editor’s note: The name of NVIDIA DRIVE Hyperion was changed to NVIDIA Hyperion in September 2026. All references to the name have been updated in this blog. NVIDIA founder and CEO Jensen Huang took the stage at the Fontainebleau Las Vegas to open CES 2026, declaring that AI is s",
       "tag": "ai"
     }
   ],
