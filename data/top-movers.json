@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T12:30:41Z",
+  "updated_at": "2026-09-24T12:45:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -39,116 +39,80 @@
         "asset": "equity"
       }
     ],
-    "losers": [
-      {
-        "symbol": "PBLS",
-        "name": "Parabilis Medicines, Inc.",
-        "price": 33.31,
-        "change_24h": -12.73,
-        "asset": "equity"
-      },
-      {
-        "symbol": "EXK",
-        "name": "Endeavour Silver Corporation",
-        "price": 9.26,
-        "change_24h": -11.89,
-        "asset": "equity"
-      },
-      {
-        "symbol": "ERAS",
-        "name": "Erasca, Inc.",
-        "price": 13.95,
-        "change_24h": -10.32,
-        "asset": "equity"
-      },
-      {
-        "symbol": "SRPT",
-        "name": "Sarepta Therapeutics, Inc.",
-        "price": 18.95,
-        "change_24h": -8.94,
-        "asset": "equity"
-      },
-      {
-        "symbol": "VERA",
-        "name": "Vera Therapeutics, Inc.",
-        "price": 33.05,
-        "change_24h": -8.85,
-        "asset": "equity"
-      }
-    ]
+    "losers": []
   },
   "crypto": {
     "gainers": [
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.027,
-        "change_24h": 8.6,
+        "price": 1.029,
+        "change_24h": 7.42,
         "asset": "crypto"
       },
       {
         "symbol": "LTC",
         "name": "Litecoin",
-        "price": 66.17,
-        "change_24h": 6.52,
+        "price": 66.14,
+        "change_24h": 6.53,
         "asset": "crypto"
       },
       {
         "symbol": "ONDO",
         "name": "Ondo",
-        "price": 0.45694,
-        "change_24h": 5.85,
+        "price": 0.455308,
+        "change_24h": 5.58,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.68,
-        "change_24h": 3.56,
+        "price": 2.69,
+        "change_24h": 3.85,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
         "price": 2.67,
-        "change_24h": 2.27,
+        "change_24h": 2.41,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "PEPE",
-        "name": "Pepe",
-        "price": 4e-06,
-        "change_24h": -9.91,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.212898,
-        "change_24h": -9.9,
-        "asset": "crypto"
-      },
-      {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 29.0,
-        "change_24h": -9.74,
+        "price": 28.99,
+        "change_24h": -10.34,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.411166,
-        "change_24h": -9.62,
+        "price": 0.409589,
+        "change_24h": -9.88,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price": 4e-06,
+        "change_24h": -9.86,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.003794,
-        "change_24h": -9.37,
+        "price": 0.003796,
+        "change_24h": -9.67,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.212039,
+        "change_24h": -9.56,
         "asset": "crypto"
       }
     ]
