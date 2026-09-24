@@ -1,12 +1,20 @@
 {
-  "updated": "2026-09-23T18:34:54Z",
+  "updated": "2026-09-24T01:04:53Z",
   "items": [
     {
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "url": "https://openai.com/index/ringg",
-      "source": "OpenAI",
-      "published_at": "2026-09-24T12:00:00+00:00",
-      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "title": "Bringing Private Processing to Meta AI Glasses",
+      "url": "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses/",
+      "source": "Meta Engineering",
+      "published_at": "2026-09-24T00:00:00+00:00",
+      "summary": "We believe glasses are the best form factor for having AI help throughout your day. They can understand your personal context better than other kinds of devices and keep you present without picking up a mobile phone. Most of the time, glasses are helping you see well, protecting ",
+      "tag": "ai"
+    },
+    {
+      "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+      "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "source": "Hugging Face Blog",
+      "published_at": "2026-09-23T18:41:40+00:00",
+      "summary": "",
       "tag": "ai"
     },
     {
@@ -15,6 +23,22 @@
       "source": "Google AI Blog",
       "published_at": "2026-09-23T18:00:00+00:00",
       "summary": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
+      "tag": "ai"
+    },
+    {
+      "title": "Gemini 3.8 TTS Playground",
+      "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+      "source": "Simon Willison",
+      "published_at": "2026-09-23T17:12:27+00:00",
+      "summary": "Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts . They come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second audio sample of your v",
+      "tag": "ai"
+    },
+    {
+      "title": "Shadow roots, explained with live examples",
+      "url": "https://simonwillison.net/2026/Sep/23/shadow-roots/",
+      "source": "Simon Willison",
+      "published_at": "2026-09-23T16:37:18+00:00",
+      "summary": "Tool: Shadow roots, explained with live examples Prompt to Fable 5.1 Medium: Build an artifact to explain shadow roots in CSS with interactive examples Tags: css",
       "tag": "ai"
     },
     {
@@ -42,14 +66,6 @@
       "tag": "ai"
     },
     {
-      "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
-      "source": "Hugging Face Blog",
-      "published_at": "2026-09-23T13:17:01+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
       "title": "OpenAI extends cyber access to Ukraine for civilian defense",
       "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
       "source": "OpenAI",
@@ -63,6 +79,30 @@
       "source": "Alignment Forum",
       "published_at": "2026-09-23T12:07:33+00:00",
       "summary": "Summary: First, I give several different angles on how I feel about reinforcement learning: Theoretical case: RL is a black-box source of agency — this should give us classic misalignment worries, especially compared to agency-via-scaffolding Recent incidents (huggingface etc) an",
+      "tag": "ai"
+    },
+    {
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "source": "OpenAI",
+      "published_at": "2026-09-23T12:00:00+00:00",
+      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "tag": "ai"
+    },
+    {
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "source": "OpenAI",
+      "published_at": "2026-09-23T12:00:00+00:00",
+      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "tag": "ai"
+    },
+    {
+      "title": "WorkspaceBench: Evaluating Interpretability Methods for the Global Workspace",
+      "url": "https://www.alignmentforum.org/posts/Zeg2JztbdhguL48uH/workspacebench-evaluating-interpretability-methods-for-the",
+      "source": "Alignment Forum",
+      "published_at": "2026-09-23T06:58:59+00:00",
+      "summary": "TL;DR We introduce WorkspaceBench, a set of evaluations for how well an activation-to-text tool can read the contents of the “global workspace” of a model, i.e. the intermediate variables during a forward pass. The benchmark comprises 3,356 questions across 27 eval families, span",
       "tag": "ai"
     },
     {
@@ -151,30 +191,6 @@
       "source": "Simon Willison",
       "published_at": "2026-09-23T02:53:19+00:00",
       "summary": "SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things with and on top of coding agents. Think of it as an agentic sho",
-      "tag": "ai"
-    },
-    {
-      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
-      "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-      "source": "OpenAI",
-      "published_at": "2026-09-23T00:00:00+00:00",
-      "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
-      "tag": "ai"
-    },
-    {
-      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
-      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
-      "source": "Simon Willison",
-      "published_at": "2026-09-22T23:46:41+00:00",
-      "summary": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my ",
-      "tag": "ai"
-    },
-    {
-      "title": "llm 0.36",
-      "url": "https://simonwillison.net/2026/Sep/22/llm/",
-      "source": "Simon Willison",
-      "published_at": "2026-09-22T18:48:37+00:00",
-      "summary": "Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises llm.ConversationNotSupported when these models receive assist",
       "tag": "ai"
     },
     {
@@ -282,14 +298,6 @@
       "tag": "ai"
     },
     {
-      "title": "A Defense of Gradual Disempowerment",
-      "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
-      "source": "Alignment Forum",
-      "published_at": "2026-09-17T21:04:05+00:00",
-      "summary": "(Or: Why Bentham's Bulldog and John Halstead are wrong in their critique of Kulveit et al. ) Gradual Disempowerment is a 2025 paper (with a nice, dedicated website ) proposing a form of existential risk from AI that goes beyond \"mundane\" risks like bioweapon uplift or mainline mi",
-      "tag": "ai"
-    },
-    {
       "title": "The Talker Does Not Control The Doer (in Current AIs)",
       "url": "https://www.lesswrong.com/posts/cJX2ssssGoYqnijwi/the-talker-does-not-control-the-doer-in-current-ais",
       "source": "LessWrong",
@@ -311,14 +319,6 @@
       "source": "LessWrong",
       "published_at": "2026-09-11T06:41:18+00:00",
       "summary": "I’ve tried several times to summarize the core question my research is trying to tackle (and, indeed, I often think of research progress as a process of asking increasingly good core questions). [1] This post gives the deepest version of that question I’ve found thus far: how sho",
-      "tag": "ai"
-    },
-    {
-      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-      "source": "Google DeepMind",
-      "published_at": "2026-09-08T14:00:15+00:00",
-      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
       "tag": "ai"
     }
   ],
