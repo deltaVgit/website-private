@@ -1,154 +1,118 @@
 {
-  "updated_at": "2026-09-24T13:45:41Z",
+  "updated_at": "2026-09-24T14:00:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "P",
         "name": "Everpure, Inc.",
-        "price": 126.21,
-        "change_24h": 15.02,
-        "asset": "equity"
-      },
-      {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "price": 15.84,
-        "change_24h": 10.37,
+        "price": 129.9,
+        "change_24h": 18.47,
         "asset": "equity"
       },
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "price": 18.01,
-        "change_24h": 10.16,
+        "price": 17.66,
+        "change_24h": 8.01,
         "asset": "equity"
       },
       {
-        "symbol": "NBIS",
-        "name": "Nebius Group N.V.",
-        "price": 238.57,
-        "change_24h": 5.28,
+        "symbol": "TWST",
+        "name": "Twist Bioscience Corporation",
+        "price": 167.01,
+        "change_24h": 5.37,
         "asset": "equity"
       },
       {
-        "symbol": "NWCL",
-        "name": "newcleo plc Ordinary Shares",
-        "price": 8.26,
-        "change_24h": 5.49,
+        "symbol": "GRAL",
+        "name": "GRAIL, Inc.",
+        "price": 115.47,
+        "change_24h": 6.4,
+        "asset": "equity"
+      },
+      {
+        "symbol": "PRGO",
+        "name": "Perrigo Company plc",
+        "price": 14.77,
+        "change_24h": 6.72,
         "asset": "equity"
       }
     ],
-    "losers": [
-      {
-        "symbol": "ACAD",
-        "name": "ACADIA Pharmaceuticals Inc.",
-        "price": 22.36,
-        "change_24h": -12.05,
-        "asset": "equity"
-      },
-      {
-        "symbol": "VKTX",
-        "name": "Viking Therapeutics, Inc.",
-        "price": 36.51,
-        "change_24h": -12.35,
-        "asset": "equity"
-      },
-      {
-        "symbol": "MGM",
-        "name": "MGM Resorts International",
-        "price": 33.99,
-        "change_24h": -10.19,
-        "asset": "equity"
-      },
-      {
-        "symbol": "KGC",
-        "name": "Kinross Gold Corporation",
-        "price": 24.87,
-        "change_24h": -9.94,
-        "asset": "equity"
-      },
-      {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "price": 26.87,
-        "change_24h": -9.38,
-        "asset": "equity"
-      }
-    ]
+    "losers": []
   },
   "crypto": {
     "gainers": [
       {
+        "symbol": "LTC",
+        "name": "Litecoin",
+        "price": 70.57,
+        "change_24h": 12.58,
+        "asset": "crypto"
+      },
+      {
         "symbol": "ONDO",
         "name": "Ondo",
-        "price": 0.478637,
-        "change_24h": 11.6,
+        "price": 0.4825,
+        "change_24h": 12.21,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.87,
-        "change_24h": 10.69,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LTC",
-        "name": "Litecoin",
-        "price": 68.54,
-        "change_24h": 9.66,
+        "price": 2.9,
+        "change_24h": 11.78,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.049,
-        "change_24h": 9.45,
+        "price": 1.048,
+        "change_24h": 9.49,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 76.61,
-        "change_24h": 3.66,
+        "price": 78.96,
+        "change_24h": 6.74,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.04248,
-        "change_24h": -10.29,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.003846,
+        "change_24h": -8.4,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.00385,
-        "change_24h": -8.51,
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "price": 287.6,
+        "change_24h": -7.51,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1514.21,
+        "change_24h": -7.1,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -7.97,
+        "change_24h": -7.02,
         "asset": "crypto"
       },
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1510.89,
-        "change_24h": -7.87,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "TAO",
-        "name": "Bittensor",
-        "price": 286.57,
-        "change_24h": -7.45,
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 29.67,
+        "change_24h": -6.21,
         "asset": "crypto"
       }
     ]
