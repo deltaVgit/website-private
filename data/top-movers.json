@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-24T19:30:41Z",
+  "updated_at": "2026-09-24T19:45:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "GRAL",
-        "name": "GRAIL, Inc.",
-        "price": 125.9,
-        "change_24h": 16.02,
-        "asset": "equity"
-      },
-      {
-        "symbol": "WRBY",
-        "name": "Warby Parker Inc.",
-        "price": 26.85,
-        "change_24h": 14.99,
-        "asset": "equity"
-      },
-      {
         "symbol": "TWST",
         "name": "Twist Bioscience Corporation",
-        "price": 181.5,
-        "change_24h": 14.51,
+        "price": 184.72,
+        "change_24h": 16.54,
+        "asset": "equity"
+      },
+      {
+        "symbol": "GRAL",
+        "name": "GRAIL, Inc.",
+        "price": 125.51,
+        "change_24h": 15.65,
         "asset": "equity"
       },
       {
         "symbol": "CDNA",
         "name": "CareDx, Inc.",
-        "price": 62.16,
-        "change_24h": 14.44,
+        "price": 61.82,
+        "change_24h": 13.83,
+        "asset": "equity"
+      },
+      {
+        "symbol": "P",
+        "name": "Everpure, Inc.",
+        "price": 123.55,
+        "change_24h": 12.68,
         "asset": "equity"
       },
       {
         "symbol": "TXG",
         "name": "10x Genomics, Inc.",
-        "price": 85.18,
-        "change_24h": 12.64,
+        "price": 84.97,
+        "change_24h": 12.36,
         "asset": "equity"
       }
     ],
@@ -43,22 +43,22 @@
       {
         "symbol": "ACAD",
         "name": "ACADIA Pharmaceuticals Inc.",
-        "price": 22.08,
-        "change_24h": -13.17,
-        "asset": "equity"
-      },
-      {
-        "symbol": "VKTX",
-        "name": "Viking Therapeutics, Inc.",
-        "price": 36.24,
-        "change_24h": -12.99,
+        "price": 22.18,
+        "change_24h": -12.76,
         "asset": "equity"
       },
       {
         "symbol": "KGC",
         "name": "Kinross Gold Corporation",
-        "price": 24.25,
-        "change_24h": -12.18,
+        "price": 24.34,
+        "change_24h": -11.86,
+        "asset": "equity"
+      },
+      {
+        "symbol": "VKTX",
+        "name": "Viking Therapeutics, Inc.",
+        "price": 36.62,
+        "change_24h": -12.09,
         "asset": "equity"
       },
       {
@@ -69,10 +69,10 @@
         "asset": "equity"
       },
       {
-        "symbol": "FSLR",
-        "name": "First Solar, Inc.",
-        "price": 171.12,
-        "change_24h": -10.86,
+        "symbol": "MGM",
+        "name": "MGM Resorts International",
+        "price": 33.87,
+        "change_24h": -10.53,
         "asset": "equity"
       }
     ]
@@ -82,73 +82,73 @@
       {
         "symbol": "LTC",
         "name": "Litecoin",
-        "price": 71.54,
-        "change_24h": 17.03,
+        "price": 71.1,
+        "change_24h": 16.25,
         "asset": "crypto"
       },
       {
         "symbol": "ETC",
         "name": "Ethereum Classic",
-        "price": 9.76,
-        "change_24h": 10.67,
+        "price": 9.77,
+        "change_24h": 11.11,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.077288,
+        "change_24h": 10.48,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.82,
-        "change_24h": 10.15,
+        "change_24h": 9.75,
         "asset": "crypto"
       },
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.444598,
-        "change_24h": 9.22,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.076694,
-        "change_24h": 8.72,
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 8.3,
+        "change_24h": 9.21,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "BCH",
-        "name": "Bitcoin Cash",
-        "price": 338.25,
-        "change_24h": -3.05,
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.011935,
+        "change_24h": -2.68,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.003937,
-        "change_24h": -1.85,
+        "price": 0.003907,
+        "change_24h": -2.61,
         "asset": "crypto"
       },
       {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.012071,
-        "change_24h": -1.56,
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price": 337.03,
+        "change_24h": -2.59,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 5.39,
+        "change_24h": -1.59,
         "asset": "crypto"
       },
       {
         "symbol": "PI",
         "name": "Pi Network",
-        "price": 0.086239,
-        "change_24h": -1.4,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LEO",
-        "name": "LEO Token",
-        "price": 8.91,
-        "change_24h": -1.11,
+        "price": 0.0861,
+        "change_24h": -1.54,
         "asset": "crypto"
       }
     ]
