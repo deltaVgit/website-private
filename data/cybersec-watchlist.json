@@ -1,11 +1,59 @@
 [
   {
+    "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
+    "source": "BleepingComputer",
+    "summary": "The \"third-party.com\" domain, commonly used as a placeholder in developer documentation and code examples, is serving a fake Cloudflare verification page that attempts to trick Windows users into executing PowerShell com",
+    "added": "2026-09-23T22:46:01+00:00",
+    "expires": "2026-10-08T01:04:58Z"
+  },
+  {
+    "title": "New RemControl Android banking malware targets users in Europe and Canada",
+    "url": "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
+    "source": "BleepingComputer",
+    "summary": "A new Android malware-as-a-service (MaaS) platform called RemControl is targeting users through malvertising campaigns that impersonate the TVTap IPTV application. [...]",
+    "added": "2026-09-23T21:25:13+00:00",
+    "expires": "2026-10-08T01:04:58Z"
+  },
+  {
+    "title": "EDR Evasion Stack Helps Process Injection Slip Past Defenses",
+    "url": "https://www.darkreading.com/endpoint-security/edr-evasion-stack-helps-process-injection-slip-past-defenses",
+    "source": "Dark Reading",
+    "summary": "A process parameter-poisoning technique evades EDR by injecting code into process initialization structures without using the Windows APIs that EDR tools typically watch out for.",
+    "added": "2026-09-23T21:03:01+00:00",
+    "expires": "2026-10-08T01:04:59Z"
+  },
+  {
+    "title": "GitLab Email Addresses Can Be Weaponized for Supply Chain Attacks",
+    "url": "https://www.darkreading.com/application-security/gitlab-email-addresses-supply-chain-attacks",
+    "source": "Dark Reading",
+    "summary": "Incoming email addresses automatically assigned to each user on the platform contain highly privileged access tokens that attackers can use.",
+    "added": "2026-09-23T20:53:38+00:00",
+    "expires": "2026-10-08T01:04:59Z"
+  },
+  {
+    "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
+    "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
+    "source": "BleepingComputer",
+    "summary": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handling functionality of its Security Gateway ",
+    "added": "2026-09-23T19:53:54+00:00",
+    "expires": "2026-10-08T01:04:58Z"
+  },
+  {
     "title": "Hackers start exploiting critical WordPress flaw for code execution",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
     "source": "BleepingComputer",
     "summary": "Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execute shell commands when accessed. [...]",
     "added": "2026-09-23T18:31:22+00:00",
-    "expires": "2026-10-07T18:34:59Z"
+    "expires": "2026-10-08T01:04:58Z"
+  },
+  {
+    "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+    "url": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+    "source": "The Hacker News",
+    "summary": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a dis",
+    "added": "2026-09-23T18:06:30+00:00",
+    "expires": "2026-10-08T01:04:59Z"
   },
   {
     "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
@@ -13,7 +61,7 @@
     "source": "The Hacker News",
     "summary": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start C",
     "added": "2026-09-23T16:53:10+00:00",
-    "expires": "2026-10-07T18:35:00Z"
+    "expires": "2026-10-08T01:04:59Z"
   },
   {
     "title": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
@@ -21,7 +69,7 @@
     "source": "BleepingComputer",
     "summary": "A financially motivated threat actor is using open-source AI agent frameworks to attack hundreds of online retailers at scale, stealing more than 600,000 credit card records. [...]",
     "added": "2026-09-23T16:20:54+00:00",
-    "expires": "2026-10-07T18:34:59Z"
+    "expires": "2026-10-08T01:04:58Z"
   },
   {
     "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
@@ -29,7 +77,7 @@
     "source": "The Hacker News",
     "summary": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication. The chain, which CERT Polska",
     "added": "2026-09-23T16:06:41+00:00",
-    "expires": "2026-10-07T18:35:00Z"
+    "expires": "2026-10-08T01:04:59Z"
   },
   {
     "title": "UAE, Saudi Arabia Face Onslaught of Increasingly Complex Cyberattacks",
@@ -37,7 +85,7 @@
     "source": "Dark Reading",
     "summary": "The United Arab Emirates and Kingdom of Saudi Arabia together absorbed 50% of all cyberattacks recorded across the Gulf region in the first half of 2026.",
     "added": "2026-09-23T16:01:00+00:00",
-    "expires": "2026-10-07T18:34:59Z"
+    "expires": "2026-10-08T01:04:59Z"
   },
   {
     "title": "Attackers Manipulate AI Chatbots in Mass Disinformation, Phishing Campaign",
@@ -45,15 +93,7 @@
     "source": "Dark Reading",
     "summary": "Threat actors are poisoning ChatGPT, Gemini, and Google AI Overview answers by seeding the Web with malicious links and data and then optimizing the content.",
     "added": "2026-09-23T14:47:09+00:00",
-    "expires": "2026-10-07T18:34:59Z"
-  },
-  {
-    "title": "InfraTrust report warns network management systems under attack",
-    "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
-    "source": "BleepingComputer",
-    "summary": "Attackers are increasingly targeting the management systems used to control enterprise infrastructure, with several critical vulnerabilities actively exploited before or shortly after vendors disclosed them. [...]",
-    "added": "2026-09-23T14:35:26+00:00",
-    "expires": "2026-10-07T18:34:59Z"
+    "expires": "2026-10-08T01:04:59Z"
   },
   {
     "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
@@ -61,15 +101,7 @@
     "source": "The Hacker News",
     "summary": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server, Cisco Talos said on September 22. The models can choose to steal Windows credentials, sav",
     "added": "2026-09-23T14:17:58+00:00",
-    "expires": "2026-10-07T18:35:00Z"
-  },
-  {
-    "title": "How One Kubernetes YAML Can Hand Over a GCP Organization",
-    "url": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
-    "source": "BleepingComputer",
-    "summary": "A Kubernetes user with limited permissions can potentially gain control of an entire Google Cloud organization by exploiting the authority granted to Google Kubernetes Config Connector. Varonis explains how this confused",
-    "added": "2026-09-23T14:01:11+00:00",
-    "expires": "2026-10-07T18:34:59Z"
+    "expires": "2026-10-08T01:04:59Z"
   },
   {
     "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
@@ -77,23 +109,7 @@
     "source": "The Hacker News",
     "summary": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Window",
     "added": "2026-09-23T13:52:46+00:00",
-    "expires": "2026-10-07T18:35:00Z"
-  },
-  {
-    "title": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
-    "url": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
-    "source": "BleepingComputer",
-    "summary": "Arista Networks has released security patches for a zero-day flaw that is being actively exploited and affects VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
-    "added": "2026-09-23T12:29:53+00:00",
-    "expires": "2026-10-07T18:34:59Z"
-  },
-  {
-    "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
-    "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
-    "source": "The Hacker News",
-    "summary": "A flaw in cPanel's CalDAV and CardDAV service lets anyone with a cPanel hosting account run code as root and take \"full control of the server,\" the company said on September 22. A second bug in the WP Toolkit plugin, use",
-    "added": "2026-09-23T12:16:00+00:00",
-    "expires": "2026-10-07T18:35:00Z"
+    "expires": "2026-10-08T01:04:59Z"
   },
   {
     "title": "Considerations for Critical Infrastructure Operators Working With Third-Party ICS Integrators",
@@ -101,7 +117,7 @@
     "source": "CISA Advisories",
     "summary": "Introduction The Federal Bureau of Investigation (FBI) and Cybersecurity and Infrastructure Security Agency (CISA)—hereafter referred to as the “authoring agencies”—have published this fact sheet to highlight considerati",
     "added": "2026-09-23T12:00:00+00:00",
-    "expires": "2026-10-07T18:35:00Z"
+    "expires": "2026-10-08T01:04:59Z"
   },
   {
     "title": "Relays Are Masking Chinese Access to Frontier AI Models in the US",
@@ -109,22 +125,6 @@
     "source": "Dark Reading",
     "summary": "More than 80,000 AI relay servers are helping users in China mask their identities while they access cutting-edge large language models (LLMs), probably to clone them.",
     "added": "2026-09-22T21:12:37+00:00",
-    "expires": "2026-10-07T18:34:59Z"
-  },
-  {
-    "title": "How the CISO-CMO Alliance Builds Trust Before Crisis Strikes",
-    "url": "https://www.darkreading.com/cybersecurity-operations/how-ciso-cmo-alliance-builds-trust-before-crisis",
-    "source": "Dark Reading",
-    "summary": "Cybersecurity and brand reputation are inextricably linked. Security and marketing leaders who establish regular touchpoints, develop joint crisis communications plans, and translate security risks into their brand impac",
-    "added": "2026-09-22T20:55:53+00:00",
-    "expires": "2026-10-07T18:34:59Z"
-  },
-  {
-    "title": "Microsoft Disrupts EvilTokens Device Code Phishing Service",
-    "url": "https://www.darkreading.com/identity-access-management-security/microsoft-disrupts-eviltokens-device-code-phishing-service",
-    "source": "Dark Reading",
-    "summary": "Microsoft seized 50 websites and disabled more than 150 domains as part of a coordinated disruption effort against a phishing-as-a-service platform targeting Microsoft 365 accounts.",
-    "added": "2026-09-22T20:02:02+00:00",
-    "expires": "2026-10-07T18:34:59Z"
+    "expires": "2026-10-08T01:04:59Z"
   }
 ]
