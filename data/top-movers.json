@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T07:15:41Z",
+  "updated_at": "2026-09-24T07:30:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,29 +82,29 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.064,
-        "change_24h": 14.71,
+        "price": 1.03,
+        "change_24h": 10.25,
         "asset": "crypto"
       },
       {
         "symbol": "LTC",
         "name": "Litecoin",
-        "price": 68.31,
-        "change_24h": 6.81,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "price": 2.69,
-        "change_24h": 2.75,
+        "price": 68.1,
+        "change_24h": 6.01,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 5.25,
-        "change_24h": 0.67,
+        "price": 5.35,
+        "change_24h": 3.63,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.7,
+        "change_24h": 3.03,
         "asset": "crypto"
       },
       {
@@ -117,38 +117,38 @@
     ],
     "losers": [
       {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.216224,
-        "change_24h": -11.94,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 9.21,
+        "change_24h": -12.19,
         "asset": "crypto"
       },
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.04006,
-        "change_24h": -11.87,
+        "price": 0.039842,
+        "change_24h": -11.95,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.216604,
+        "change_24h": -11.3,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -11.62,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 9.17,
-        "change_24h": -11.57,
+        "change_24h": -10.89,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.413198,
-        "change_24h": -9.48,
+        "price": 0.414226,
+        "change_24h": -9.32,
         "asset": "crypto"
       }
     ]
