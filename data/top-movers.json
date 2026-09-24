@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T03:30:40Z",
+  "updated_at": "2026-09-24T03:45:39Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,22 +82,15 @@
       {
         "symbol": "LTC",
         "name": "Litecoin",
-        "price": 66.22,
-        "change_24h": 4.33,
+        "price": 67.03,
+        "change_24h": 5.04,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 5.32,
-        "change_24h": 3.8,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "INJ",
-        "name": "Injective",
-        "price": 8.08,
-        "change_24h": 1.35,
+        "price": 5.26,
+        "change_24h": 2.97,
         "asset": "crypto"
       },
       {
@@ -108,10 +101,17 @@
         "asset": "crypto"
       },
       {
-        "symbol": "USDY",
-        "name": "Ondo US Dollar Yield",
-        "price": 1.15,
-        "change_24h": 0.3,
+        "symbol": "LEO",
+        "name": "LEO Token",
+        "price": 8.99,
+        "change_24h": 0.06,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "USDGO",
+        "name": "USDGO",
+        "price": 1.0,
+        "change_24h": 0.04,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.21614,
-        "change_24h": -13.81,
+        "price": 0.215364,
+        "change_24h": -13.98,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 9.31,
-        "change_24h": -13.11,
+        "price": 9.27,
+        "change_24h": -13.84,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.410448,
-        "change_24h": -12.34,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.041906,
-        "change_24h": -12.01,
+        "price": 0.408814,
+        "change_24h": -13.11,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -11.16,
+        "change_24h": -12.08,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.041529,
+        "change_24h": -11.18,
         "asset": "crypto"
       }
     ]
