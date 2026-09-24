@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T06:00:40Z",
+  "updated_at": "2026-09-24T06:15:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "LTC",
         "name": "Litecoin",
-        "price": 67.36,
-        "change_24h": 5.55,
+        "price": 67.49,
+        "change_24h": 5.67,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.69,
-        "change_24h": 3.7,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BDX",
-        "name": "Beldex",
-        "price": 0.075866,
-        "change_24h": 1.0,
+        "change_24h": 3.15,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 5.22,
-        "change_24h": 0.87,
+        "price": 5.29,
+        "change_24h": 2.16,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 7.94,
-        "change_24h": 0.68,
+        "price": 7.95,
+        "change_24h": 0.44,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.035,
+        "change_24h": 0.37,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.040766,
+        "change_24h": -14.65,
+        "asset": "crypto"
+      },
+      {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.217284,
-        "change_24h": -12.7,
+        "price": 0.218153,
+        "change_24h": -12.84,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -10.91,
+        "change_24h": -11.16,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 9.28,
-        "change_24h": -10.79,
+        "price": 9.31,
+        "change_24h": -10.8,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.003965,
-        "change_24h": -10.58,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.413914,
-        "change_24h": -9.54,
+        "price": 0.003977,
+        "change_24h": -10.39,
         "asset": "crypto"
       }
     ]
