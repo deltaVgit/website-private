@@ -1,28 +1,7 @@
 {
-  "updated": "2026-09-23T23:45:55.043614Z",
-  "period": "2026-09-23 \u2192 2026-11-07",
+  "updated": "2026-09-24T00:00:40.193095Z",
+  "period": "2026-09-24 \u2192 2026-11-08",
   "events": [
-    {
-      "date": "2026-09-23",
-      "label": "US Existing Home Sales",
-      "currency": "USD",
-      "impact": "low",
-      "country": "US"
-    },
-    {
-      "date": "2026-09-23",
-      "label": "US Treasury Auction",
-      "currency": "USD",
-      "impact": "low",
-      "country": "US"
-    },
-    {
-      "date": "2026-09-23",
-      "label": "EU Industrial Production",
-      "currency": "EUR",
-      "impact": "low",
-      "country": "EU"
-    },
     {
       "date": "2026-09-24",
       "label": "US New Home Sales",
@@ -281,6 +260,27 @@
       "currency": "CNY",
       "impact": "medium",
       "country": "CN"
+    },
+    {
+      "date": "2026-10-23",
+      "label": "German Ifo Business Climate",
+      "currency": "EUR",
+      "impact": "medium",
+      "country": "DE"
+    },
+    {
+      "date": "2026-10-27",
+      "label": "US GDP (QoQ advance)",
+      "currency": "USD",
+      "impact": "high",
+      "country": "US"
+    },
+    {
+      "date": "2026-10-27",
+      "label": "US ISM Manufacturing PMI",
+      "currency": "USD",
+      "impact": "medium",
+      "country": "US"
     }
   ]
 }
