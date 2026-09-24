@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-24T18:00:40Z",
+  "updated_at": "2026-09-24T18:16:40Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "P",
-        "name": "Everpure, Inc.",
-        "price": 125.06,
-        "change_24h": 14.06,
-        "asset": "equity"
-      },
-      {
         "symbol": "CDNA",
         "name": "CareDx, Inc.",
-        "price": 61.66,
-        "change_24h": 13.52,
+        "price": 62.1,
+        "change_24h": 14.34,
         "asset": "equity"
       },
       {
-        "symbol": "WRBY",
-        "name": "Warby Parker Inc.",
-        "price": 26.0,
-        "change_24h": 11.35,
+        "symbol": "P",
+        "name": "Everpure, Inc.",
+        "price": 124.0,
+        "change_24h": 13.09,
+        "asset": "equity"
+      },
+      {
+        "symbol": "GRAL",
+        "name": "GRAIL, Inc.",
+        "price": 122.49,
+        "change_24h": 12.87,
         "asset": "equity"
       },
       {
         "symbol": "LIFE",
         "name": "Ethos Technologies Inc.",
-        "price": 37.73,
-        "change_24h": 11.27,
+        "price": 37.95,
+        "change_24h": 11.93,
         "asset": "equity"
       },
       {
-        "symbol": "TWST",
-        "name": "Twist Bioscience Corporation",
-        "price": 174.91,
-        "change_24h": 10.36,
+        "symbol": "WRBY",
+        "name": "Warby Parker Inc.",
+        "price": 26.05,
+        "change_24h": 11.56,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "VKTX",
         "name": "Viking Therapeutics, Inc.",
-        "price": 35.94,
-        "change_24h": -13.71,
+        "price": 36.1,
+        "change_24h": -13.32,
         "asset": "equity"
       },
       {
         "symbol": "KGC",
         "name": "Kinross Gold Corporation",
         "price": 24.2,
-        "change_24h": -12.4,
+        "change_24h": -12.36,
         "asset": "equity"
       },
       {
         "symbol": "GIL",
         "name": "Gildan Activewear, Inc.",
-        "price": 40.97,
-        "change_24h": -11.3,
+        "price": 40.8,
+        "change_24h": -11.67,
         "asset": "equity"
       },
       {
         "symbol": "MGM",
         "name": "MGM Resorts International",
-        "price": 33.53,
-        "change_24h": -11.41,
+        "price": 33.55,
+        "change_24h": -11.37,
         "asset": "equity"
       },
       {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "price": 26.6,
-        "change_24h": -10.29,
+        "symbol": "ACAD",
+        "name": "ACADIA Pharmaceuticals Inc.",
+        "price": 22.71,
+        "change_24h": -10.68,
         "asset": "equity"
       }
     ]
@@ -82,73 +82,73 @@
       {
         "symbol": "LTC",
         "name": "Litecoin",
-        "price": 71.85,
-        "change_24h": 18.05,
+        "price": 71.86,
+        "change_24h": 18.67,
         "asset": "crypto"
       },
       {
         "symbol": "ETC",
         "name": "Ethereum Classic",
-        "price": 9.85,
-        "change_24h": 11.68,
+        "price": 9.84,
+        "change_24h": 11.9,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.8,
-        "change_24h": 9.3,
+        "price": 2.79,
+        "change_24h": 9.35,
         "asset": "crypto"
       },
       {
-        "symbol": "INJ",
-        "name": "Injective",
-        "price": 8.31,
-        "change_24h": 7.84,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 4.67,
+        "change_24h": 8.89,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
-        "price": 1.86,
-        "change_24h": 7.45,
+        "price": 1.87,
+        "change_24h": 8.1,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "BCH",
-        "name": "Bitcoin Cash",
-        "price": 335.38,
-        "change_24h": -3.83,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.943413,
+        "change_24h": -4.13,
         "asset": "crypto"
       },
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.93849,
-        "change_24h": -3.81,
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price": 336.33,
+        "change_24h": -3.05,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.21887,
-        "change_24h": -3.58,
+        "price": 0.218545,
+        "change_24h": -2.83,
         "asset": "crypto"
       },
       {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.011994,
-        "change_24h": -3.37,
+        "symbol": "PI",
+        "name": "Pi Network",
+        "price": 0.086196,
+        "change_24h": -2.36,
         "asset": "crypto"
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 5.28,
-        "change_24h": -2.86,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.003883,
+        "change_24h": -2.19,
         "asset": "crypto"
       }
     ]
