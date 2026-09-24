@@ -1,44 +1,8 @@
 {
-  "updated_at": "2026-09-24T12:00:41Z",
+  "updated_at": "2026-09-24T12:15:40Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
-    "gainers": [
-      {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "price": 29.65,
-        "change_24h": 13.69,
-        "asset": "equity"
-      },
-      {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "price": 14.36,
-        "change_24h": 10.46,
-        "asset": "equity"
-      },
-      {
-        "symbol": "ACMR",
-        "name": "ACM Research, Inc.",
-        "price": 80.67,
-        "change_24h": 6.42,
-        "asset": "equity"
-      },
-      {
-        "symbol": "KVYO",
-        "name": "Klaviyo, Inc. Series A",
-        "price": 16.78,
-        "change_24h": 5.73,
-        "asset": "equity"
-      },
-      {
-        "symbol": "VICR",
-        "name": "Vicor Corporation",
-        "price": 283.16,
-        "change_24h": 5.52,
-        "asset": "equity"
-      }
-    ],
+    "gainers": [],
     "losers": [
       {
         "symbol": "PBLS",
@@ -82,36 +46,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.019,
-        "change_24h": 8.19,
+        "price": 1.025,
+        "change_24h": 8.31,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "price": 0.466842,
+        "change_24h": 7.93,
         "asset": "crypto"
       },
       {
         "symbol": "LTC",
         "name": "Litecoin",
-        "price": 66.26,
-        "change_24h": 6.18,
+        "price": 65.92,
+        "change_24h": 6.58,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.68,
-        "change_24h": 3.22,
+        "price": 2.69,
+        "change_24h": 3.88,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
         "price": 2.68,
-        "change_24h": 2.49,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ETC",
-        "name": "Ethereum Classic",
-        "price": 9.5,
-        "change_24h": 2.11,
+        "change_24h": 2.77,
         "asset": "crypto"
       }
     ],
@@ -119,36 +83,36 @@
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.40546,
-        "change_24h": -10.72,
+        "price": 0.409145,
+        "change_24h": -9.89,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.213601,
+        "change_24h": -9.43,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 28.89,
+        "change_24h": -9.3,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.003775,
-        "change_24h": -10.2,
+        "price": 0.003799,
+        "change_24h": -9.23,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -9.72,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 28.74,
-        "change_24h": -9.66,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.21355,
-        "change_24h": -9.37,
+        "change_24h": -9.08,
         "asset": "crypto"
       }
     ]
