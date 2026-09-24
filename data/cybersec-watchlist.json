@@ -1,11 +1,83 @@
 [
   {
+    "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
+    "url": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
+    "source": "BleepingComputer",
+    "summary": "A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install the Hermes Agent AI framework and take control. [...]",
+    "added": "2026-09-24T20:10:48+00:00",
+    "expires": "2026-10-08T20:35:04Z"
+  },
+  {
+    "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
+    "url": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
+    "source": "The Hacker News",
+    "summary": "A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats, chained two flaws in OnePlus's own software to gain ro",
+    "added": "2026-09-24T18:10:18+00:00",
+    "expires": "2026-10-08T20:35:05Z"
+  },
+  {
+    "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
+    "url": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
+    "source": "The Hacker News",
+    "summary": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before. That is the thread running through the pi",
+    "added": "2026-09-24T17:52:43+00:00",
+    "expires": "2026-10-08T20:35:05Z"
+  },
+  {
+    "title": "Exposed GitLab project email addresses let attackers push code",
+    "url": "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/",
+    "source": "BleepingComputer",
+    "summary": "Private GitLab email addresses that allow developers to push issues or tasks to a project are being deliberately exposed in READMEs, contributing guides, and support pages used to collect bug reports. [...]",
+    "added": "2026-09-24T17:47:44+00:00",
+    "expires": "2026-10-08T20:35:04Z"
+  },
+  {
+    "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
+    "url": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
+    "source": "The Hacker News",
+    "summary": "The \"third-party[.]com\" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users. \"third-party[.]com has been a ",
+    "added": "2026-09-24T15:27:32+00:00",
+    "expires": "2026-10-08T20:35:05Z"
+  },
+  {
+    "title": "3 Cyber Threats That Defined the Summer of 2026",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/3-cyber-threats-defined-summer-2026",
+    "source": "Dark Reading",
+    "summary": "This installment of the Reporters' Notebook video series discusses the impact of AI agents breaching Hugging Face, Fairlife's ransomware attack, and Iranian-linked threat actors compromising a dozen US water systems. It ",
+    "added": "2026-09-24T14:44:12+00:00",
+    "expires": "2026-10-08T20:35:05Z"
+  },
+  {
+    "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
+    "url": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
+    "source": "The Hacker News",
+    "summary": "An active ClickFix campaign has been observed compromising legitimate Ukrainian business websites to inject bogus Cloudflare verification pages and trick victims into downloading a previously undocumented information ste",
+    "added": "2026-09-24T14:29:06+00:00",
+    "expires": "2026-10-08T20:35:05Z"
+  },
+  {
+    "title": "How to Build A SASE Framework for Modern Cybersecurity",
+    "url": "https://www.darkreading.com/cloud-security/how-to-build-sase-framework",
+    "source": "Dark Reading",
+    "summary": "Keeping edge computing safe requires organizations to fundamentally rethink security governance. Here is a path forward: a step-by-step guide to building a SASE framework.",
+    "added": "2026-09-24T14:02:43+00:00",
+    "expires": "2026-10-08T20:35:05Z"
+  },
+  {
+    "title": "FedRAMP VDR & VER: Daily Scans Are Only the Beginning",
+    "url": "https://www.bleepingcomputer.com/news/security/fedramp-vdr-and-ver-daily-scans-are-only-the-beginning/",
+    "source": "BleepingComputer",
+    "summary": "FedRAMP's new VDR and VER requirements make vulnerability management more continuous, with faster scanning, tighter remediation deadlines, and stronger evidence requirements. Anecdotes explains why the December 7 deadlin",
+    "added": "2026-09-24T14:02:12+00:00",
+    "expires": "2026-10-08T20:35:04Z"
+  },
+  {
     "title": "Ghost Service Accounts Enable M365 Data Theft in Chile",
     "url": "https://www.darkreading.com/cyberattacks-data-breaches/ghost-service-accounts-m365-data-theft-chile",
     "source": "Dark Reading",
     "summary": "Even if the organization locks down employee accounts, forgotten and lost service accounts can still undo the organization's entire M365 environment.",
     "added": "2026-09-24T13:30:00+00:00",
-    "expires": "2026-10-08T14:05:03Z"
+    "expires": "2026-10-08T20:35:05Z"
   },
   {
     "title": "Hackers now exploit critical Roundcube flaw in code injection attacks",
@@ -13,7 +85,7 @@
     "source": "BleepingComputer",
     "summary": "A high-severity Roundcube Webmail vulnerability patched in May is now being actively exploited in attacks, according to the Canadian Centre for Cyber Security. [...]",
     "added": "2026-09-24T13:27:57+00:00",
-    "expires": "2026-10-08T14:05:02Z"
+    "expires": "2026-10-08T20:35:04Z"
   },
   {
     "title": "Prompt-Injection Bug Hits $4B Agentic AI App 'Manus'",
@@ -21,7 +93,7 @@
     "source": "Dark Reading",
     "summary": "AI apps that interpret external data (read: most AI apps) need exceptionally rigorous security filters, or attackers can take advantage.",
     "added": "2026-09-24T13:00:00+00:00",
-    "expires": "2026-10-08T14:05:03Z"
+    "expires": "2026-10-08T20:35:05Z"
   },
   {
     "title": "Windows 11 KB5124010 update released with 46 changes and fixes",
@@ -29,7 +101,7 @@
     "source": "BleepingComputer",
     "summary": "Microsoft released the KB5124010 September 2026 non-security preview update for Windows 11 24H2 and 25H2, with 46 changes including Bluetooth improvements and the ability to remap the Copilot key. [...]",
     "added": "2026-09-24T12:16:32+00:00",
-    "expires": "2026-10-08T14:05:02Z"
+    "expires": "2026-10-08T20:35:04Z"
   },
   {
     "title": "Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls",
@@ -37,94 +109,22 @@
     "source": "The Hacker News",
     "summary": "The logistics sector has become the target of a new malicious cyber campaign that distributes an Android spyware codenamed Corp MDM. According to Have I Been Squatted, the campaign uses fake Google Play pages branded as ",
     "added": "2026-09-24T12:05:27+00:00",
-    "expires": "2026-10-08T14:05:03Z"
+    "expires": "2026-10-08T20:35:05Z"
   },
   {
-    "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
-    "url": "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html",
-    "source": "The Hacker News",
-    "summary": "AI coding agents are changing how quickly developers can build and ship software as well as how quickly credentials can become exposed. According to GitGuardian’s 2026 State of Secrets Sprawl Report, commits identified a",
-    "added": "2026-09-24T11:00:00+00:00",
-    "expires": "2026-10-08T14:05:03Z"
-  },
-  {
-    "title": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/",
-    "source": "BleepingComputer",
-    "summary": "​The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies on Wednesday that ransomware gangs are now also exploiting a critical JetBrains TeamCity vulnerability patched in July. [...]",
-    "added": "2026-09-24T10:42:37+00:00",
-    "expires": "2026-10-08T14:05:02Z"
-  },
-  {
-    "title": "OpenAI hacked Australian Medicare govt site, probed data providers",
-    "url": "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/",
-    "source": "BleepingComputer",
-    "summary": "OpenAI agents targeted public data providers in multiple countries, probing some for vulnerabilities and exploiting a security weakness in an Australian government portal while performing information-retrieval tasks as p",
-    "added": "2026-09-24T09:38:53+00:00",
-    "expires": "2026-10-08T14:05:02Z"
-  },
-  {
-    "title": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
-    "url": "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html",
-    "source": "The Hacker News",
-    "summary": "ClickFix has become the most common way attackers get into enterprise networks, and it does it without an exploit, an attachment, or a file on disk. Our new global threat report traces the technique from a novelty in lat",
-    "added": "2026-09-24T09:14:21+00:00",
-    "expires": "2026-10-08T14:05:03Z"
-  },
-  {
-    "title": "Microsoft fixes bug that broke Windows File History backup feature",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/",
-    "source": "BleepingComputer",
-    "summary": "Microsoft has fixed a known issue that breaks the built-in File History backup feature on some Windows systems after installing the September 2026 security updates. [...]",
-    "added": "2026-09-24T08:14:47+00:00",
-    "expires": "2026-10-08T14:05:02Z"
-  },
-  {
-    "title": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
-    "url": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html",
-    "source": "The Hacker News",
-    "summary": "An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister Anthony Albanese said. The portal publishes aggregate figures, such ",
-    "added": "2026-09-24T07:07:25+00:00",
-    "expires": "2026-10-08T14:05:03Z"
-  },
-  {
-    "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
-    "url": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
-    "source": "The Hacker News",
-    "summary": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants. According to Proofpoint, the act",
-    "added": "2026-09-24T06:32:03+00:00",
-    "expires": "2026-10-08T14:05:03Z"
-  },
-  {
-    "title": "SASE Converges Network & Security Into One Cloud Solution",
-    "url": "https://www.darkreading.com/cloud-security/sase-converges-network-security-one-cloud",
-    "source": "Dark Reading",
-    "summary": "Enterprise computing is moving to the edge. Keeping it secure requires tactics far beyond putting up firewalls.",
-    "added": "2026-09-23T22:29:10+00:00",
-    "expires": "2026-10-08T14:05:03Z"
-  },
-  {
-    "title": "EDR Evasion Stack Helps Process Injection Slip Past Defenses",
-    "url": "https://www.darkreading.com/endpoint-security/edr-evasion-stack-helps-process-injection-slip-past-defenses",
-    "source": "Dark Reading",
-    "summary": "A process parameter-poisoning technique evades EDR by injecting code into process initialization structures without using the Windows APIs that EDR tools typically watch out for.",
-    "added": "2026-09-23T21:03:01+00:00",
-    "expires": "2026-10-08T14:05:03Z"
-  },
-  {
-    "title": "GitLab Email Addresses Can Be Weaponized for Supply Chain Attacks",
-    "url": "https://www.darkreading.com/application-security/gitlab-email-addresses-supply-chain-attacks",
-    "source": "Dark Reading",
-    "summary": "Incoming email addresses automatically assigned to each user on the platform contain highly privileged access tokens that attackers can use.",
-    "added": "2026-09-23T20:53:38+00:00",
-    "expires": "2026-10-08T14:05:03Z"
-  },
-  {
-    "title": "Considerations for Critical Infrastructure Operators Working With Third-Party ICS Integrators",
-    "url": "https://www.cisa.gov/resources-tools/resources/considerations-critical-infrastructure-operators-working-third-party-ics-integrators",
+    "title": "Eufy Omni C20, Omni X10 Pro",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-267-02",
     "source": "CISA Advisories",
-    "summary": "Introduction The Federal Bureau of Investigation (FBI) and Cybersecurity and Infrastructure Security Agency (CISA)—hereafter referred to as the “authoring agencies”—have published this fact sheet to highlight considerati",
-    "added": "2026-09-23T12:00:00+00:00",
-    "expires": "2026-10-08T14:05:03Z"
+    "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to run system level commands or execute arbitrary code. The following versions of Eufy Omni C20, Omni X10 Pro are affected: Omni ",
+    "added": "2026-09-24T12:00:00+00:00",
+    "expires": "2026-10-08T20:35:05Z"
+  },
+  {
+    "title": "Botslab G980H Dashcams",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-267-01",
+    "source": "CISA Advisories",
+    "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to bypass authentication controls, gain unauthorized access to sensitive data and privileged device functionality, modify device ",
+    "added": "2026-09-24T12:00:00+00:00",
+    "expires": "2026-10-08T20:35:05Z"
   }
 ]

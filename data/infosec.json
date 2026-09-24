@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-09-24T14:05:03Z",
+  "updatedAt": "2026-09-24T20:35:05Z",
   "kev": [
+    {
+      "cve": "CVE-2026-5430",
+      "product": "Multiple Products",
+      "vendor": "WSO2",
+      "name": "WSO2 Multiple Products Path Traversal Vulnerability ",
+      "dateAdded": "2026-09-24",
+      "dueDate": "2026-09-27",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-71362",
+      "product": "Commerce and Magento",
+      "vendor": "Adobe",
+      "name": "Adobe Commerce and Magento Incorrect Authorization Vulnerability ",
+      "dateAdded": "2026-09-24",
+      "dueDate": "2026-09-27",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2026-93952",
       "product": "VeloCloud Orchestrator",
@@ -107,24 +125,6 @@
       "name": "Cisco Secure Email Gateway SQL Injection Vulnerability",
       "dateAdded": "2026-09-14",
       "dueDate": "2026-09-17",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-84869",
-      "product": "ScreenConnect",
-      "vendor": "ConnectWise",
-      "name": "ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability",
-      "dateAdded": "2026-09-11",
-      "dueDate": "2026-09-14",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-42016",
-      "product": "Artifactory",
-      "vendor": "JFrog",
-      "name": "JFrog Artifactory Incorrect Authorization Vulnerability",
-      "dateAdded": "2026-09-11",
-      "dueDate": "2026-09-25",
       "knownRansomware": "Unknown"
     }
   ],
