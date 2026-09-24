@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T09:45:41Z",
+  "updated_at": "2026-09-24T10:00:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "LTC",
-        "name": "Litecoin",
-        "price": 67.18,
-        "change_24h": 7.08,
-        "asset": "crypto"
-      },
-      {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.004,
-        "change_24h": 6.26,
+        "price": 1.007,
+        "change_24h": 6.66,
         "asset": "crypto"
       },
       {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.046085,
-        "change_24h": 5.66,
+        "symbol": "LTC",
+        "name": "Litecoin",
+        "price": 66.7,
+        "change_24h": 6.3,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.67,
-        "change_24h": 3.0,
+        "price": 2.69,
+        "change_24h": 3.55,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.044996,
+        "change_24h": 1.16,
         "asset": "crypto"
       },
       {
         "symbol": "BDX",
         "name": "Beldex",
-        "price": 0.076462,
-        "change_24h": 0.69,
+        "price": 0.07644,
+        "change_24h": 0.75,
         "asset": "crypto"
       }
     ],
@@ -126,29 +126,29 @@
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 8.91,
-        "change_24h": -12.23,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.212649,
-        "change_24h": -11.62,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PENGU",
-        "name": "Pudgy Penguins",
-        "price": 0.009715,
-        "change_24h": -11.55,
+        "price": 8.89,
+        "change_24h": -12.04,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.4037,
-        "change_24h": -11.47,
+        "price": 0.403473,
+        "change_24h": -11.66,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.210935,
+        "change_24h": -11.58,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PENGU",
+        "name": "Pudgy Penguins",
+        "price": 0.009688,
+        "change_24h": -11.53,
         "asset": "crypto"
       }
     ]
