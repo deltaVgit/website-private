@@ -1,117 +1,81 @@
 {
-  "updated_at": "2026-09-24T15:30:41Z",
+  "updated_at": "2026-09-24T15:45:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "P",
         "name": "Everpure, Inc.",
-        "price": 128.91,
-        "change_24h": 17.56,
-        "asset": "equity"
-      },
-      {
-        "symbol": "TWST",
-        "name": "Twist Bioscience Corporation",
-        "price": 172.64,
-        "change_24h": 8.92,
+        "price": 129.93,
+        "change_24h": 18.51,
         "asset": "equity"
       },
       {
         "symbol": "CDNA",
         "name": "CareDx, Inc.",
-        "price": 58.52,
-        "change_24h": 7.76,
+        "price": 59.24,
+        "change_24h": 9.09,
+        "asset": "equity"
+      },
+      {
+        "symbol": "TWST",
+        "name": "Twist Bioscience Corporation",
+        "price": 171.47,
+        "change_24h": 8.18,
         "asset": "equity"
       },
       {
         "symbol": "PRGO",
         "name": "Perrigo Company plc",
-        "price": 14.8,
-        "change_24h": 6.94,
+        "price": 14.85,
+        "change_24h": 7.29,
         "asset": "equity"
       },
       {
-        "symbol": "CHRN",
-        "name": "ChronoScale Holdings Corporatio",
-        "price": 21.62,
-        "change_24h": 5.37,
+        "symbol": "TXG",
+        "name": "10x Genomics, Inc.",
+        "price": 81.0,
+        "change_24h": 7.11,
         "asset": "equity"
       }
     ],
-    "losers": [
-      {
-        "symbol": "VKTX",
-        "name": "Viking Therapeutics, Inc.",
-        "price": 35.21,
-        "change_24h": -15.46,
-        "asset": "equity"
-      },
-      {
-        "symbol": "GIL",
-        "name": "Gildan Activewear, Inc.",
-        "price": 40.56,
-        "change_24h": -12.19,
-        "asset": "equity"
-      },
-      {
-        "symbol": "KGC",
-        "name": "Kinross Gold Corporation",
-        "price": 24.36,
-        "change_24h": -11.82,
-        "asset": "equity"
-      },
-      {
-        "symbol": "QURE",
-        "name": "uniQure N.V.",
-        "price": 38.11,
-        "change_24h": -10.87,
-        "asset": "equity"
-      },
-      {
-        "symbol": "MGM",
-        "name": "MGM Resorts International",
-        "price": 34.03,
-        "change_24h": -10.09,
-        "asset": "equity"
-      }
-    ]
+    "losers": []
   },
   "crypto": {
     "gainers": [
       {
         "symbol": "LTC",
         "name": "Litecoin",
-        "price": 72.96,
-        "change_24h": 20.83,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ETC",
-        "name": "Ethereum Classic",
-        "price": 10.21,
-        "change_24h": 14.35,
+        "price": 73.83,
+        "change_24h": 23.02,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 80.42,
-        "change_24h": 11.39,
+        "price": 81.74,
+        "change_24h": 12.33,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 8.54,
+        "change_24h": 11.04,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.86,
-        "change_24h": 11.12,
+        "change_24h": 9.93,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.04,
-        "change_24h": 8.76,
+        "price": 1.048,
+        "change_24h": 9.73,
         "asset": "crypto"
       }
     ],
@@ -119,36 +83,36 @@
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.003844,
-        "change_24h": -5.47,
+        "price": 0.003861,
+        "change_24h": -5.15,
         "asset": "crypto"
       },
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1514.62,
-        "change_24h": -4.61,
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.044817,
+        "change_24h": -3.74,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.012039,
-        "change_24h": -3.83,
+        "price": 0.01204,
+        "change_24h": -3.6,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1516.93,
+        "change_24h": -3.47,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.215735,
-        "change_24h": -3.63,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 29.91,
-        "change_24h": -3.35,
+        "price": 0.217538,
+        "change_24h": -1.96,
         "asset": "crypto"
       }
     ]
