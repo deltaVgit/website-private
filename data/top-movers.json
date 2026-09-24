@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T02:45:40Z",
+  "updated_at": "2026-09-24T03:00:40Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,31 +80,31 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.013,
+        "change_24h": 12.51,
+        "asset": "crypto"
+      },
+      {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 5.37,
-        "change_24h": 5.34,
+        "price": 5.45,
+        "change_24h": 6.82,
         "asset": "crypto"
       },
       {
         "symbol": "LTC",
         "name": "Litecoin",
-        "price": 64.39,
-        "change_24h": 2.72,
+        "price": 65.79,
+        "change_24h": 4.6,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 7.92,
-        "change_24h": 1.24,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 4.36,
-        "change_24h": 0.9,
+        "price": 8.03,
+        "change_24h": 1.79,
         "asset": "crypto"
       },
       {
@@ -117,38 +117,38 @@
     ],
     "losers": [
       {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.220169,
-        "change_24h": -11.54,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.042048,
-        "change_24h": -11.29,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 9.39,
+        "change_24h": -12.43,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.411187,
-        "change_24h": -11.29,
+        "price": 0.410506,
+        "change_24h": -12.04,
         "asset": "crypto"
       },
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 9.43,
-        "change_24h": -10.88,
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.042036,
+        "change_24h": -11.93,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.218656,
+        "change_24h": -11.89,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -10.49,
+        "change_24h": -10.91,
         "asset": "crypto"
       }
     ]
