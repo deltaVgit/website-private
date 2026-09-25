@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T02:45:40Z",
+  "updated_at": "2026-09-25T03:00:40Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "LTC",
-        "name": "Litecoin",
-        "price": 70.61,
-        "change_24h": 9.23,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.226521,
-        "change_24h": 8.56,
+        "price": 0.228819,
+        "change_24h": 10.12,
         "asset": "crypto"
       },
       {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.2194,
-        "change_24h": 8.39,
+        "price": 0.219191,
+        "change_24h": 8.41,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LTC",
+        "name": "Litecoin",
+        "price": 70.78,
+        "change_24h": 7.5,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.79,
+        "change_24h": 7.33,
         "asset": "crypto"
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price": 13.34,
-        "change_24h": 7.94,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ALGO",
-        "name": "Algorand",
-        "price": 0.112509,
-        "change_24h": 7.62,
+        "price": 13.24,
+        "change_24h": 7.23,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.941792,
-        "change_24h": -9.62,
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.93,
+        "change_24h": -9.49,
         "asset": "crypto"
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.95,
-        "change_24h": -8.77,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 0.935146,
+        "change_24h": -8.8,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.003857,
+        "change_24h": -3.83,
         "asset": "crypto"
       },
       {
         "symbol": "BGB",
         "name": "Bitget Token",
         "price": 1.98,
-        "change_24h": -3.31,
+        "change_24h": -3.41,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 9.14,
-        "change_24h": -3.16,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.003868,
-        "change_24h": -2.85,
+        "price": 9.08,
+        "change_24h": -3.36,
         "asset": "crypto"
       }
     ]
