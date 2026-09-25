@@ -1,11 +1,35 @@
 [
   {
+    "title": "'Salesbleed' Exploits Salesforce Agents to Enable Slack Phishing",
+    "url": "https://www.darkreading.com/application-security/salesbleed-exploits-salesforce-agents-slack-phishing",
+    "source": "Dark Reading",
+    "summary": "Agentic AI can smuggle arbitrary instructions from the Web, across multiple apps, into trusted internal communications channels.",
+    "added": "2026-09-24T21:04:03+00:00",
+    "expires": "2026-10-09T03:04:59Z"
+  },
+  {
+    "title": "MacSync malware uses public iCloud calendars to deliver new payloads",
+    "url": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
+    "source": "BleepingComputer",
+    "summary": "A new variant of the MacSync malware targeting macOS systems now uses public iCloud calendar events to deliver new native payloads. [...]",
+    "added": "2026-09-24T20:53:35+00:00",
+    "expires": "2026-10-09T03:04:59Z"
+  },
+  {
+    "title": "SectopRAT Returns, Hiding Inside a Legitimate Application",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/sectoprat-returns-hiding-inside-legitimate-application",
+    "source": "Dark Reading",
+    "summary": "The latest activity from the remote access Trojan (RAT) shows why organizations should monitor the behavior of applications rather than blindly trusting them, experts say.",
+    "added": "2026-09-24T20:32:50+00:00",
+    "expires": "2026-10-09T03:04:59Z"
+  },
+  {
     "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
     "url": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
     "source": "BleepingComputer",
     "summary": "A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install the Hermes Agent AI framework and take control. [...]",
     "added": "2026-09-24T20:10:48+00:00",
-    "expires": "2026-10-08T20:35:04Z"
+    "expires": "2026-10-09T03:04:59Z"
   },
   {
     "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
@@ -13,7 +37,7 @@
     "source": "The Hacker News",
     "summary": "A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats, chained two flaws in OnePlus's own software to gain ro",
     "added": "2026-09-24T18:10:18+00:00",
-    "expires": "2026-10-08T20:35:05Z"
+    "expires": "2026-10-09T03:05:00Z"
   },
   {
     "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
@@ -21,7 +45,7 @@
     "source": "The Hacker News",
     "summary": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before. That is the thread running through the pi",
     "added": "2026-09-24T17:52:43+00:00",
-    "expires": "2026-10-08T20:35:05Z"
+    "expires": "2026-10-09T03:05:00Z"
   },
   {
     "title": "Exposed GitLab project email addresses let attackers push code",
@@ -29,7 +53,7 @@
     "source": "BleepingComputer",
     "summary": "Private GitLab email addresses that allow developers to push issues or tasks to a project are being deliberately exposed in READMEs, contributing guides, and support pages used to collect bug reports. [...]",
     "added": "2026-09-24T17:47:44+00:00",
-    "expires": "2026-10-08T20:35:04Z"
+    "expires": "2026-10-09T03:04:59Z"
   },
   {
     "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
@@ -37,7 +61,7 @@
     "source": "The Hacker News",
     "summary": "The \"third-party[.]com\" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users. \"third-party[.]com has been a ",
     "added": "2026-09-24T15:27:32+00:00",
-    "expires": "2026-10-08T20:35:05Z"
+    "expires": "2026-10-09T03:05:00Z"
   },
   {
     "title": "3 Cyber Threats That Defined the Summer of 2026",
@@ -45,7 +69,7 @@
     "source": "Dark Reading",
     "summary": "This installment of the Reporters' Notebook video series discusses the impact of AI agents breaching Hugging Face, Fairlife's ransomware attack, and Iranian-linked threat actors compromising a dozen US water systems. It ",
     "added": "2026-09-24T14:44:12+00:00",
-    "expires": "2026-10-08T20:35:05Z"
+    "expires": "2026-10-09T03:04:59Z"
   },
   {
     "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
@@ -53,7 +77,7 @@
     "source": "The Hacker News",
     "summary": "An active ClickFix campaign has been observed compromising legitimate Ukrainian business websites to inject bogus Cloudflare verification pages and trick victims into downloading a previously undocumented information ste",
     "added": "2026-09-24T14:29:06+00:00",
-    "expires": "2026-10-08T20:35:05Z"
+    "expires": "2026-10-09T03:05:00Z"
   },
   {
     "title": "How to Build A SASE Framework for Modern Cybersecurity",
@@ -61,7 +85,7 @@
     "source": "Dark Reading",
     "summary": "Keeping edge computing safe requires organizations to fundamentally rethink security governance. Here is a path forward: a step-by-step guide to building a SASE framework.",
     "added": "2026-09-24T14:02:43+00:00",
-    "expires": "2026-10-08T20:35:05Z"
+    "expires": "2026-10-09T03:04:59Z"
   },
   {
     "title": "FedRAMP VDR & VER: Daily Scans Are Only the Beginning",
@@ -69,7 +93,7 @@
     "source": "BleepingComputer",
     "summary": "FedRAMP's new VDR and VER requirements make vulnerability management more continuous, with faster scanning, tighter remediation deadlines, and stronger evidence requirements. Anecdotes explains why the December 7 deadlin",
     "added": "2026-09-24T14:02:12+00:00",
-    "expires": "2026-10-08T20:35:04Z"
+    "expires": "2026-10-09T03:04:59Z"
   },
   {
     "title": "Ghost Service Accounts Enable M365 Data Theft in Chile",
@@ -77,7 +101,7 @@
     "source": "Dark Reading",
     "summary": "Even if the organization locks down employee accounts, forgotten and lost service accounts can still undo the organization's entire M365 environment.",
     "added": "2026-09-24T13:30:00+00:00",
-    "expires": "2026-10-08T20:35:05Z"
+    "expires": "2026-10-09T03:04:59Z"
   },
   {
     "title": "Hackers now exploit critical Roundcube flaw in code injection attacks",
@@ -85,23 +109,7 @@
     "source": "BleepingComputer",
     "summary": "A high-severity Roundcube Webmail vulnerability patched in May is now being actively exploited in attacks, according to the Canadian Centre for Cyber Security. [...]",
     "added": "2026-09-24T13:27:57+00:00",
-    "expires": "2026-10-08T20:35:04Z"
-  },
-  {
-    "title": "Prompt-Injection Bug Hits $4B Agentic AI App 'Manus'",
-    "url": "https://www.darkreading.com/application-security/prompt-injection-bug-agentic-ai-app-manus",
-    "source": "Dark Reading",
-    "summary": "AI apps that interpret external data (read: most AI apps) need exceptionally rigorous security filters, or attackers can take advantage.",
-    "added": "2026-09-24T13:00:00+00:00",
-    "expires": "2026-10-08T20:35:05Z"
-  },
-  {
-    "title": "Windows 11 KB5124010 update released with 46 changes and fixes",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124010-update-released-with-46-changes-and-fixes/",
-    "source": "BleepingComputer",
-    "summary": "Microsoft released the KB5124010 September 2026 non-security preview update for Windows 11 24H2 and 25H2, with 46 changes including Bluetooth improvements and the ability to remap the Copilot key. [...]",
-    "added": "2026-09-24T12:16:32+00:00",
-    "expires": "2026-10-08T20:35:04Z"
+    "expires": "2026-10-09T03:04:59Z"
   },
   {
     "title": "Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls",
@@ -109,7 +117,7 @@
     "source": "The Hacker News",
     "summary": "The logistics sector has become the target of a new malicious cyber campaign that distributes an Android spyware codenamed Corp MDM. According to Have I Been Squatted, the campaign uses fake Google Play pages branded as ",
     "added": "2026-09-24T12:05:27+00:00",
-    "expires": "2026-10-08T20:35:05Z"
+    "expires": "2026-10-09T03:05:00Z"
   },
   {
     "title": "Eufy Omni C20, Omni X10 Pro",
@@ -117,14 +125,6 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to run system level commands or execute arbitrary code. The following versions of Eufy Omni C20, Omni X10 Pro are affected: Omni ",
     "added": "2026-09-24T12:00:00+00:00",
-    "expires": "2026-10-08T20:35:05Z"
-  },
-  {
-    "title": "Botslab G980H Dashcams",
-    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-267-01",
-    "source": "CISA Advisories",
-    "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to bypass authentication controls, gain unauthorized access to sensitive data and privileged device functionality, modify device ",
-    "added": "2026-09-24T12:00:00+00:00",
-    "expires": "2026-10-08T20:35:05Z"
+    "expires": "2026-10-09T03:05:00Z"
   }
 ]
