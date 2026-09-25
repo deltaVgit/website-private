@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T09:15:40Z",
+  "updated_at": "2026-09-25T09:30:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.752496,
-        "change_24h": 13.3,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 4.89,
+        "change_24h": 17.3,
         "asset": "crypto"
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price": 13.88,
-        "change_24h": 13.19,
+        "price": 13.99,
+        "change_24h": 14.78,
         "asset": "crypto"
       },
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 4.71,
-        "change_24h": 12.9,
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.451931,
+        "change_24h": 11.75,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.315316,
+        "change_24h": 11.41,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.116829,
-        "change_24h": 11.49,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.119053,
-        "change_24h": 10.66,
+        "price": 0.116903,
+        "change_24h": 11.4,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.97,
-        "change_24h": -5.63,
-        "asset": "crypto"
-      },
-      {
         "symbol": "BGB",
         "name": "Bitget Token",
-        "price": 1.97,
-        "change_24h": -4.09,
+        "price": 1.96,
+        "change_24h": -4.42,
         "asset": "crypto"
       },
       {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.2,
-        "change_24h": -2.27,
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 5.01,
+        "change_24h": -3.54,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.011878,
+        "change_24h": -1.53,
         "asset": "crypto"
       },
       {
         "symbol": "LEO",
         "name": "LEO Token",
         "price": 8.79,
-        "change_24h": -1.39,
+        "change_24h": -1.48,
         "asset": "crypto"
       },
       {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.011912,
-        "change_24h": -1.36,
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.2,
+        "change_24h": -1.44,
         "asset": "crypto"
       }
     ]
