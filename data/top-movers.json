@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T04:00:40Z",
+  "updated_at": "2026-09-25T04:15:40Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price": 13.44,
-        "change_24h": 9.37,
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price": 0.22102,
+        "change_24h": 10.19,
         "asset": "crypto"
       },
       {
-        "symbol": "XLM",
-        "name": "Stellar",
-        "price": 0.218778,
-        "change_24h": 8.87,
+        "symbol": "ALGO",
+        "name": "Algorand",
+        "price": 0.112932,
+        "change_24h": 8.49,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 13.32,
+        "change_24h": 8.47,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.22278,
-        "change_24h": 8.43,
+        "price": 0.22191,
+        "change_24h": 8.46,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.82,
-        "change_24h": 8.35,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 62.89,
-        "change_24h": 8.24,
+        "price": 2.81,
+        "change_24h": 8.17,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 0.950892,
-        "change_24h": -11.54,
+        "price": 0.940954,
+        "change_24h": -13.26,
         "asset": "crypto"
       },
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.038958,
-        "change_24h": -5.82,
+        "price": 0.038928,
+        "change_24h": -6.68,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.96,
-        "change_24h": -4.67,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BGB",
-        "name": "Bitget Token",
-        "price": 1.96,
-        "change_24h": -2.99,
+        "price": 4.95,
+        "change_24h": -3.99,
         "asset": "crypto"
       },
       {
         "symbol": "PI",
         "name": "Pi Network",
-        "price": 0.085952,
-        "change_24h": -2.95,
+        "price": 0.085959,
+        "change_24h": -2.83,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.22,
+        "change_24h": -2.76,
         "asset": "crypto"
       }
     ]
