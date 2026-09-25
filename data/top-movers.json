@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T06:00:41Z",
+  "updated_at": "2026-09-25T06:15:40Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price": 13.47,
-        "change_24h": 8.8,
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price": 0.220005,
+        "change_24h": 8.23,
         "asset": "crypto"
       },
       {
-        "symbol": "XLM",
-        "name": "Stellar",
-        "price": 0.219578,
-        "change_24h": 8.07,
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 13.34,
+        "change_24h": 7.53,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.113366,
-        "change_24h": 7.41,
+        "price": 0.113262,
+        "change_24h": 7.24,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.116406,
+        "change_24h": 7.1,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.308442,
-        "change_24h": 7.28,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.22256,
-        "change_24h": 6.11,
+        "price": 0.307704,
+        "change_24h": 6.72,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.917808,
-        "change_24h": -14.63,
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.93,
+        "change_24h": -6.83,
         "asset": "crypto"
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.96,
-        "change_24h": -4.76,
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.038119,
+        "change_24h": -6.79,
         "asset": "crypto"
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
-        "price": 0.009541,
-        "change_24h": -4.47,
+        "price": 0.009499,
+        "change_24h": -5.96,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BGB",
+        "name": "Bitget Token",
+        "price": 1.96,
+        "change_24h": -3.31,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.22,
-        "change_24h": -3.61,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.039349,
-        "change_24h": -3.06,
+        "change_24h": -3.12,
         "asset": "crypto"
       }
     ]
