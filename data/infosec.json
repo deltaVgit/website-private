@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-09-25T10:05:04Z",
+  "updatedAt": "2026-09-25T16:35:03Z",
   "kev": [
+    {
+      "cve": "CVE-2026-67279",
+      "product": "RouterOS",
+      "vendor": "MikroTik",
+      "name": "Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability",
+      "dateAdded": "2026-09-25",
+      "dueDate": "2026-09-28",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-65660",
+      "product": "SharePoint",
+      "vendor": "Microsoft",
+      "name": "Microsoft SharePoint Code Injection Vulnerability",
+      "dateAdded": "2026-09-25",
+      "dueDate": "2026-09-28",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2026-5430",
       "product": "Multiple Products",
@@ -107,24 +125,6 @@
       "name": "Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability",
       "dateAdded": "2026-09-16",
       "dueDate": "2026-09-19",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-87886",
-      "product": "Backup",
-      "vendor": "Acronis",
-      "name": "Acronis Backup Incorrect Default Permissions Vulnerability",
-      "dateAdded": "2026-09-16",
-      "dueDate": "2026-09-19",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-76461",
-      "product": "Secure Email Gateway",
-      "vendor": "Cisco",
-      "name": "Cisco Secure Email Gateway SQL Injection Vulnerability",
-      "dateAdded": "2026-09-14",
-      "dueDate": "2026-09-17",
       "knownRansomware": "Unknown"
     }
   ],
