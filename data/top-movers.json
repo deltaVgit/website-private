@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-25T17:45:41Z",
+  "updated_at": "2026-09-25T18:00:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "ALM",
         "name": "Almonty Industries Inc.",
-        "price": 13.95,
-        "change_24h": 12.46,
+        "price": 13.93,
+        "change_24h": 12.34,
         "asset": "equity"
       },
       {
         "symbol": "MAAS",
         "name": "Maase Inc.",
-        "price": 15.63,
-        "change_24h": 11.4,
+        "price": 15.72,
+        "change_24h": 12.05,
         "asset": "equity"
       },
       {
         "symbol": "PPLI",
         "name": "People Incorporated",
-        "price": 39.84,
-        "change_24h": 10.88,
+        "price": 39.88,
+        "change_24h": 11.01,
         "asset": "equity"
       },
       {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "price": 94.31,
-        "change_24h": 10.56,
+        "price": 94.45,
+        "change_24h": 10.71,
         "asset": "equity"
       },
       {
         "symbol": "FLY",
         "name": "Firefly Aerospace Inc.",
-        "price": 25.27,
-        "change_24h": 9.47,
+        "price": 25.34,
+        "change_24h": 9.77,
         "asset": "equity"
       }
     ],
@@ -50,29 +50,29 @@
       {
         "symbol": "ZS",
         "name": "Zscaler, Inc.",
-        "price": 196.05,
-        "change_24h": -8.66,
-        "asset": "equity"
-      },
-      {
-        "symbol": "PBLS",
-        "name": "Parabilis Medicines, Inc.",
-        "price": 29.86,
-        "change_24h": -8.05,
+        "price": 196.68,
+        "change_24h": -8.37,
         "asset": "equity"
       },
       {
         "symbol": "BB",
         "name": "BlackBerry Limited",
-        "price": 8.0501,
-        "change_24h": -7.79,
+        "price": 8.055,
+        "change_24h": -7.73,
         "asset": "equity"
       },
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "price": 15.49,
-        "change_24h": -7.31,
+        "price": 15.43,
+        "change_24h": -7.68,
+        "asset": "equity"
+      },
+      {
+        "symbol": "TWLO",
+        "name": "Twilio Inc.",
+        "price": 277.79,
+        "change_24h": -7.3,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.125482,
-        "change_24h": 12.68,
+        "price": 0.126213,
+        "change_24h": 13.7,
         "asset": "crypto"
       },
       {
         "symbol": "SUI",
         "name": "Sui",
         "price": 1.12,
-        "change_24h": 11.78,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 5.0,
-        "change_24h": 8.7,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price": 13.82,
-        "change_24h": 7.56,
+        "change_24h": 11.33,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.323291,
-        "change_24h": 7.5,
+        "price": 0.325212,
+        "change_24h": 8.17,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 13.77,
+        "change_24h": 6.84,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 4.98,
+        "change_24h": 6.64,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.035249,
-        "change_24h": -12.49,
+        "price": 0.035116,
+        "change_24h": -9.88,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.81,
-        "change_24h": -7.59,
+        "price": 4.79,
+        "change_24h": -9.39,
         "asset": "crypto"
       },
       {
         "symbol": "ETC",
         "name": "Ethereum Classic",
-        "price": 9.36,
-        "change_24h": -5.47,
+        "price": 9.35,
+        "change_24h": -5.13,
         "asset": "crypto"
       },
       {
-        "symbol": "LTC",
-        "name": "Litecoin",
-        "price": 69.76,
-        "change_24h": -4.73,
+        "symbol": "BGB",
+        "name": "Bitget Token",
+        "price": 1.98,
+        "change_24h": -3.73,
         "asset": "crypto"
       },
       {
-        "symbol": "INJ",
-        "name": "Injective",
-        "price": 8.04,
-        "change_24h": -3.83,
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.71,
+        "change_24h": -3.3,
         "asset": "crypto"
       }
     ]
