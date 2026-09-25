@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T16:35:03Z",
+  "updatedAt": "2026-09-25T23:05:04Z",
   "kev": [
     {
       "cve": "CVE-2026-67279",
@@ -15,6 +15,15 @@
       "product": "SharePoint",
       "vendor": "Microsoft",
       "name": "Microsoft SharePoint Code Injection Vulnerability",
+      "dateAdded": "2026-09-25",
+      "dueDate": "2026-09-28",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-87902",
+      "product": "Core",
+      "vendor": "WordPress",
+      "name": "WordPress Core Remote File Inclusion Vulnerability",
       "dateAdded": "2026-09-25",
       "dueDate": "2026-09-28",
       "knownRansomware": "Unknown"
@@ -114,15 +123,6 @@
       "product": "Pixel",
       "vendor": "Google",
       "name": "Google Pixel Improper Authorization Vulnerability",
-      "dateAdded": "2026-09-16",
-      "dueDate": "2026-09-19",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-76460",
-      "product": "Identity Services Engine",
-      "vendor": "Cisco",
-      "name": "Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability",
       "dateAdded": "2026-09-16",
       "dueDate": "2026-09-19",
       "knownRansomware": "Unknown"
