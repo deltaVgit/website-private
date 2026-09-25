@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T17:30:41Z",
+  "updated_at": "2026-09-25T17:45:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -7,35 +7,35 @@
         "symbol": "ALM",
         "name": "Almonty Industries Inc.",
         "price": 13.95,
-        "change_24h": 12.49,
-        "asset": "equity"
-      },
-      {
-        "symbol": "PPLI",
-        "name": "People Incorporated",
-        "price": 39.83,
-        "change_24h": 10.84,
+        "change_24h": 12.46,
         "asset": "equity"
       },
       {
         "symbol": "MAAS",
         "name": "Maase Inc.",
-        "price": 15.5,
-        "change_24h": 10.48,
+        "price": 15.63,
+        "change_24h": 11.4,
+        "asset": "equity"
+      },
+      {
+        "symbol": "PPLI",
+        "name": "People Incorporated",
+        "price": 39.84,
+        "change_24h": 10.88,
         "asset": "equity"
       },
       {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "price": 93.92,
-        "change_24h": 10.09,
+        "price": 94.31,
+        "change_24h": 10.56,
         "asset": "equity"
       },
       {
-        "symbol": "BE",
-        "name": "Bloom Energy Corporation",
-        "price": 291.6,
-        "change_24h": 9.36,
+        "symbol": "FLY",
+        "name": "Firefly Aerospace Inc.",
+        "price": 25.27,
+        "change_24h": 9.47,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "PURR",
         "name": "Hyperliquid Strategies Inc",
-        "price": 12.84,
-        "change_24h": -8.91,
-        "asset": "equity"
-      },
-      {
-        "symbol": "PBLS",
-        "name": "Parabilis Medicines, Inc.",
-        "price": 29.7,
-        "change_24h": -8.55,
+        "price": 12.82,
+        "change_24h": -8.98,
         "asset": "equity"
       },
       {
         "symbol": "ZS",
         "name": "Zscaler, Inc.",
-        "price": 196.62,
-        "change_24h": -8.4,
+        "price": 196.05,
+        "change_24h": -8.66,
+        "asset": "equity"
+      },
+      {
+        "symbol": "PBLS",
+        "name": "Parabilis Medicines, Inc.",
+        "price": 29.86,
+        "change_24h": -8.05,
         "asset": "equity"
       },
       {
         "symbol": "BB",
         "name": "BlackBerry Limited",
-        "price": 8.065,
-        "change_24h": -7.62,
+        "price": 8.0501,
+        "change_24h": -7.79,
         "asset": "equity"
       },
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "price": 15.47,
-        "change_24h": -7.39,
+        "price": 15.49,
+        "change_24h": -7.31,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 97.76,
-        "change_24h": 13.99,
-        "asset": "crypto"
-      },
-      {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.12495,
-        "change_24h": 11.3,
+        "price": 0.125482,
+        "change_24h": 12.68,
         "asset": "crypto"
       },
       {
         "symbol": "SUI",
         "name": "Sui",
         "price": 1.12,
-        "change_24h": 9.79,
+        "change_24h": 11.78,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.0,
+        "change_24h": 8.7,
         "asset": "crypto"
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price": 13.81,
-        "change_24h": 6.95,
+        "price": 13.82,
+        "change_24h": 7.56,
         "asset": "crypto"
       },
       {
-        "symbol": "AAVE",
-        "name": "Aave",
-        "price": 153.23,
-        "change_24h": 6.42,
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.323291,
+        "change_24h": 7.5,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.035699,
-        "change_24h": -12.01,
+        "price": 0.035249,
+        "change_24h": -12.49,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.79,
-        "change_24h": -9.34,
+        "price": 4.81,
+        "change_24h": -7.59,
         "asset": "crypto"
       },
       {
         "symbol": "ETC",
         "name": "Ethereum Classic",
-        "price": 9.3,
-        "change_24h": -6.11,
+        "price": 9.36,
+        "change_24h": -5.47,
         "asset": "crypto"
       },
       {
         "symbol": "LTC",
         "name": "Litecoin",
-        "price": 69.62,
-        "change_24h": -5.74,
+        "price": 69.76,
+        "change_24h": -4.73,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
         "price": 8.04,
-        "change_24h": -5.21,
+        "change_24h": -3.83,
         "asset": "crypto"
       }
     ]
