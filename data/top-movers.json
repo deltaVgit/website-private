@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-25T15:30:41Z",
+  "updated_at": "2026-09-25T15:45:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "PPLI",
-        "name": "People Incorporated",
-        "price": 39.74,
-        "change_24h": 10.6,
+        "symbol": "ALM",
+        "name": "Almonty Industries Inc.",
+        "price": 13.71,
+        "change_24h": 10.52,
         "asset": "equity"
       },
       {
-        "symbol": "ALM",
-        "name": "Almonty Industries Inc.",
-        "price": 13.63,
-        "change_24h": 9.92,
+        "symbol": "PPLI",
+        "name": "People Incorporated",
+        "price": 39.6,
+        "change_24h": 10.21,
         "asset": "equity"
       },
       {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "price": 93.29,
-        "change_24h": 9.35,
+        "price": 93.87,
+        "change_24h": 10.03,
+        "asset": "equity"
+      },
+      {
+        "symbol": "HUM",
+        "name": "Humana Inc.",
+        "price": 411.22,
+        "change_24h": 8.12,
         "asset": "equity"
       },
       {
         "symbol": "MAAS",
         "name": "Maase Inc.",
-        "price": 15.34,
-        "change_24h": 9.42,
-        "asset": "equity"
-      },
-      {
-        "symbol": "TSEM",
-        "name": "Tower Semiconductor Ltd.",
-        "price": 235.3,
-        "change_24h": 8.29,
+        "price": 15.16,
+        "change_24h": 8.05,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "PURR",
         "name": "Hyperliquid Strategies Inc",
-        "price": 12.77,
-        "change_24h": -9.36,
+        "price": 12.73,
+        "change_24h": -9.62,
         "asset": "equity"
       },
       {
         "symbol": "ZS",
         "name": "Zscaler, Inc.",
-        "price": 195.74,
-        "change_24h": -8.81,
+        "price": 194.92,
+        "change_24h": -9.19,
         "asset": "equity"
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "price": 15.24,
-        "change_24h": -7.83,
+        "price": 15.11,
+        "change_24h": -8.59,
         "asset": "equity"
       },
       {
-        "symbol": "BTDR",
-        "name": "Bitdeer Technologies Group",
-        "price": 11.35,
-        "change_24h": -6.6,
+        "symbol": "TWLO",
+        "name": "Twilio Inc.",
+        "price": 278.26,
+        "change_24h": -7.14,
         "asset": "equity"
       },
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "price": 15.68,
-        "change_24h": -6.19,
+        "price": 15.53,
+        "change_24h": -7.06,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.250335,
+        "change_24h": 14.92,
+        "asset": "crypto"
+      },
+      {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.12598,
-        "change_24h": 14.28,
+        "price": 0.12412,
+        "change_24h": 11.46,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 5.09,
-        "change_24h": 13.26,
+        "change_24h": 11.43,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.794177,
-        "change_24h": 11.82,
+        "price": 0.786064,
+        "change_24h": 10.45,
         "asset": "crypto"
       },
       {
         "symbol": "SUI",
         "name": "Sui",
-        "price": 1.11,
-        "change_24h": 10.74,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price": 13.88,
-        "change_24h": 10.37,
+        "price": 1.099,
+        "change_24h": 8.86,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.76,
-        "change_24h": -9.93,
+        "price": 4.72,
+        "change_24h": -10.14,
         "asset": "crypto"
       },
       {
         "symbol": "ETC",
         "name": "Ethereum Classic",
-        "price": 9.36,
-        "change_24h": -7.48,
+        "price": 9.32,
+        "change_24h": -8.46,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LTC",
+        "name": "Litecoin",
+        "price": 69.92,
+        "change_24h": -5.56,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.17,
+        "change_24h": -4.96,
         "asset": "crypto"
       },
       {
         "symbol": "BGB",
         "name": "Bitget Token",
         "price": 1.97,
-        "change_24h": -4.03,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LTC",
-        "name": "Litecoin",
-        "price": 70.31,
-        "change_24h": -3.93,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "price": 2.76,
-        "change_24h": -3.72,
+        "change_24h": -4.68,
         "asset": "crypto"
       }
     ]
