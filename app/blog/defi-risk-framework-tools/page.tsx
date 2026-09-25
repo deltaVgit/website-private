@@ -211,6 +211,46 @@ export default function DefiRiskFrameworkTools() {
         answer is not a better rating; it&rsquo;s provenance.
       </p>
 
+      <h2>The practitioner&apos;s filter: where the crowd that deploys capital is looking</h2>
+      <p>
+        A useful cross-check on the tool stack comes from the people whose job is deploying across
+        100+ protocols. Paul Bramas — formerly growth lead at KYVE Network, ex-Binance Angel —
+        published a{' '}
+        <a
+          href="https://x.com/BramasPaul/status/2010721093191876909"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          2026 DeFi landscape blueprint
+        </a>{' '}
+        in January whose security frame aligns almost exactly with the boards above, and arrives at
+        the same place from the yield side instead of the measurement side.
+      </p>
+      <p>
+        His canonical losses match the record: the <strong>October 10, 2025 &ldquo;Red
+        Friday&rdquo; event</strong> liquidated over <strong>$19B in leveraged positions</strong> —
+        crypto&apos;s largest single-day liquidation event, kicked off by the surprise 100% tariff
+        announcement (CoinDesk Research, Coinglass, WSJ). And the privacy-of-strategy failure he
+        dissects is the Stream Finance / Elixir collapse: $93M in losses at Stream, opaque
+        delta-neutral marketing, recursive looping of Elixir&apos;s deUSD backing another
+        stable&apos;s collateral, then hidden off-chain &ldquo;seniority&rdquo; agreements that
+        decided who got redeemed and who held $0.60 tokens. Elixir wound down deUSD entirely in
+        November 2025. His closing question mirrors ours: if a vault&apos;s strategies, oracles and
+        cash flows aren&apos;t verifiable in real time, the risk isn&apos;t calculated — it&apos;s
+        hidden.
+      </p>
+      <p>
+        Two of his calls are worth taking seriously as market signals rather than verdicts. First,
+        his &ldquo;survival filter&rdquo; for 2026 capital: not &ldquo;what&apos;s the
+        yield&rdquo; but &ldquo;does the protocol sit behind an active transaction-verification
+        layer&rdquo; — policy engines that verify logic on-chain before execution, the wallet-level
+        direction Vitalik described as &ldquo;paranoid mode.&rdquo; That&apos;s an investment-scout
+        heuristic rather than a measured framework, and several of the in-article protocol picks
+        are adjacent products; treat the list as one informed trader&apos;s watchlist. But it
+        converges with where the tooling builders are headed, and the boards above are how you
+        verify a protocol before it enters that filter.
+      </p>
+
       <h2>What this means if you hold capital on-chain</h2>
       <p>The practical shift: due diligence is becoming a checklist you can actually run.</p>
       <ul>
