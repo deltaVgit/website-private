@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T02:05:39Z",
+  "updated_at": "2026-09-25T03:05:39Z",
   "source": "https://api.llama.fi/overview/dexs",
   "weekly": [
     {
@@ -1258,9 +1258,9 @@
     },
     {
       "week": "2026-W39",
-      "curated": 52924837242.100006,
-      "filtered": 52924837242.100006,
-      "raw": 52924837242.100006
+      "curated": 52930423169.18,
+      "filtered": 52930423169.18,
+      "raw": 52930423169.18
     }
   ],
   "chains": [
@@ -1295,14 +1295,14 @@
       "delta_pct": 0.0
     },
     {
-      "chain": "Bancor V2.1",
-      "volume_24h": 150458.0,
-      "delta_pct": -22.48
-    },
-    {
       "chain": "Pangolin V2",
       "volume_24h": 150325.0,
       "delta_pct": 0.0
+    },
+    {
+      "chain": "Bancor V2.1",
+      "volume_24h": 148466.0,
+      "delta_pct": -23.51
     },
     {
       "chain": "Balancer V1",
@@ -1321,8 +1321,8 @@
     },
     {
       "chain": "Swapr V2",
-      "volume_24h": 10035.0,
-      "delta_pct": 192.22
+      "volume_24h": 10042.0,
+      "delta_pct": 192.43
     }
   ]
 }
