@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-09-25T16:45:41Z",
+  "updated_at": "2026-09-25T17:00:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
+        "symbol": "PPLI",
+        "name": "People Incorporated",
+        "price": 39.89,
+        "change_24h": 11.02,
+        "asset": "equity"
+      },
+      {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "price": 94.54,
-        "change_24h": 10.82,
+        "price": 94.64,
+        "change_24h": 10.94,
         "asset": "equity"
       },
       {
         "symbol": "ALM",
         "name": "Almonty Industries Inc.",
-        "price": 13.76,
-        "change_24h": 10.97,
+        "price": 13.74,
+        "change_24h": 10.81,
         "asset": "equity"
       },
       {
-        "symbol": "PPLI",
-        "name": "People Incorporated",
-        "price": 39.74,
-        "change_24h": 10.62,
+        "symbol": "FLY",
+        "name": "Firefly Aerospace Inc.",
+        "price": 25.35,
+        "change_24h": 9.79,
         "asset": "equity"
       },
       {
         "symbol": "MAAS",
         "name": "Maase Inc.",
-        "price": 15.34,
-        "change_24h": 9.3,
-        "asset": "equity"
-      },
-      {
-        "symbol": "BE",
-        "name": "Bloom Energy Corporation",
-        "price": 291.1,
-        "change_24h": 9.17,
+        "price": 15.44,
+        "change_24h": 10.01,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "PURR",
-        "name": "Hyperliquid Strategies Inc",
-        "price": 12.83,
-        "change_24h": -8.96,
+        "symbol": "ZS",
+        "name": "Zscaler, Inc.",
+        "price": 195.14,
+        "change_24h": -9.08,
         "asset": "equity"
       },
       {
-        "symbol": "ZS",
-        "name": "Zscaler, Inc.",
-        "price": 195.65,
-        "change_24h": -8.85,
+        "symbol": "PURR",
+        "name": "Hyperliquid Strategies Inc",
+        "price": 12.81,
+        "change_24h": -9.05,
+        "asset": "equity"
+      },
+      {
+        "symbol": "TWLO",
+        "name": "Twilio Inc.",
+        "price": 277.94,
+        "change_24h": -7.25,
+        "asset": "equity"
+      },
+      {
+        "symbol": "PBLS",
+        "name": "Parabilis Medicines, Inc.",
+        "price": 30.08,
+        "change_24h": -7.36,
         "asset": "equity"
       },
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "price": 15.37,
-        "change_24h": -8.02,
-        "asset": "equity"
-      },
-      {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "price": 15.29,
-        "change_24h": -7.46,
-        "asset": "equity"
-      },
-      {
-        "symbol": "BB",
-        "name": "BlackBerry Limited",
-        "price": 8.135,
-        "change_24h": -6.82,
+        "price": 15.51,
+        "change_24h": -7.18,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.24,
-        "change_24h": 13.97,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SUI",
-        "name": "Sui",
-        "price": 1.12,
-        "change_24h": 10.3,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 5.12,
-        "change_24h": 10.03,
+        "symbol": "QNT",
+        "name": "Quant",
+        "price": 97.94,
+        "change_24h": 14.75,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.124214,
-        "change_24h": 9.98,
+        "price": 0.125045,
+        "change_24h": 10.76,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004182,
-        "change_24h": 7.36,
+        "symbol": "SUI",
+        "name": "Sui",
+        "price": 1.11,
+        "change_24h": 9.3,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.04,
+        "change_24h": 7.46,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price": 13.76,
+        "change_24h": 6.37,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.036694,
-        "change_24h": -14.66,
+        "price": 0.036226,
+        "change_24h": -13.72,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.8,
-        "change_24h": -9.39,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ETC",
-        "name": "Ethereum Classic",
-        "price": 9.38,
-        "change_24h": -6.7,
+        "price": 4.76,
+        "change_24h": -10.22,
         "asset": "crypto"
       },
       {
         "symbol": "LTC",
         "name": "Litecoin",
-        "price": 69.66,
-        "change_24h": -6.04,
+        "price": 69.32,
+        "change_24h": -6.49,
         "asset": "crypto"
       },
       {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.17,
-        "change_24h": -4.97,
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 8.1,
+        "change_24h": -5.9,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ETC",
+        "name": "Ethereum Classic",
+        "price": 9.31,
+        "change_24h": -5.63,
         "asset": "crypto"
       }
     ]
