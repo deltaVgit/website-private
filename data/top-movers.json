@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-25T13:45:41Z",
+  "updated_at": "2026-09-25T14:00:43Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "AKAM",
-        "name": "Akamai Technologies, Inc.",
-        "price": 121.34,
-        "change_24h": 9.9,
-        "asset": "equity"
-      },
-      {
         "symbol": "PPLI",
         "name": "People Incorporated",
-        "price": 39.41,
-        "change_24h": 9.69,
+        "price": 39.16,
+        "change_24h": 8.98,
         "asset": "equity"
       },
       {
-        "symbol": "ALM",
-        "name": "Almonty Industries Inc.",
-        "price": 13.34,
-        "change_24h": 7.55,
+        "symbol": "VIAV",
+        "name": "Viavi Solutions Inc.",
+        "price": 40.74,
+        "change_24h": 9.43,
         "asset": "equity"
       },
       {
         "symbol": "DDOG",
         "name": "Datadog, Inc.",
-        "price": 276.44,
-        "change_24h": 7.6,
+        "price": 275.6,
+        "change_24h": 7.27,
         "asset": "equity"
       },
       {
-        "symbol": "SNX",
-        "name": "TD SYNNEX Corporation",
-        "price": 279.5,
-        "change_24h": 7.73,
+        "symbol": "ALM",
+        "name": "Almonty Industries Inc.",
+        "price": 13.36,
+        "change_24h": 7.74,
+        "asset": "equity"
+      },
+      {
+        "symbol": "AKAM",
+        "name": "Akamai Technologies, Inc.",
+        "price": 119.28,
+        "change_24h": 8.03,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "PURR",
         "name": "Hyperliquid Strategies Inc",
-        "price": 13.11,
-        "change_24h": -6.95,
+        "price": 13.07,
+        "change_24h": -7.24,
         "asset": "equity"
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "price": 15.41,
-        "change_24h": -6.58,
+        "price": 15.43,
+        "change_24h": -6.65,
         "asset": "equity"
       },
       {
         "symbol": "ZS",
         "name": "Zscaler, Inc.",
-        "price": 205.21,
-        "change_24h": -4.4,
+        "price": 199.57,
+        "change_24h": -7.02,
         "asset": "equity"
       },
       {
         "symbol": "WIX",
         "name": "Wix.com Ltd.",
-        "price": 73.98,
-        "change_24h": -4.57,
+        "price": 73.59,
+        "change_24h": -5.09,
         "asset": "equity"
       },
       {
-        "symbol": "PBLS",
-        "name": "Parabilis Medicines, Inc.",
-        "price": 30.82,
-        "change_24h": -5.08,
+        "symbol": "TWLO",
+        "name": "Twilio Inc.",
+        "price": 283.13,
+        "change_24h": -5.52,
         "asset": "equity"
       }
     ]
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "SUI",
-        "name": "Sui",
-        "price": 1.13,
-        "change_24h": 15.33,
-        "asset": "crypto"
-      },
-      {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 5.14,
-        "change_24h": 14.27,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ONDO",
-        "name": "Ondo",
-        "price": 0.54828,
-        "change_24h": 14.01,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.245945,
-        "change_24h": 13.32,
+        "change_24h": 14.12,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.78647,
-        "change_24h": 13.09,
+        "price": 0.797373,
+        "change_24h": 13.73,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "price": 0.547431,
+        "change_24h": 13.23,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SUI",
+        "name": "Sui",
+        "price": 1.12,
+        "change_24h": 13.2,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.123218,
+        "change_24h": 12.77,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.036737,
+        "change_24h": -14.77,
+        "asset": "crypto"
+      },
+      {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.84,
-        "change_24h": -6.96,
+        "price": 4.87,
+        "change_24h": -6.34,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.78,
-        "change_24h": -3.37,
+        "price": 2.75,
+        "change_24h": -5.06,
         "asset": "crypto"
       },
       {
         "symbol": "BGB",
         "name": "Bitget Token",
-        "price": 1.99,
-        "change_24h": -2.58,
+        "price": 1.98,
+        "change_24h": -3.4,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.19,
-        "change_24h": -2.08,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MNT",
-        "name": "Mantle",
-        "price": 0.671967,
-        "change_24h": -1.84,
+        "change_24h": -2.54,
         "asset": "crypto"
       }
     ]
