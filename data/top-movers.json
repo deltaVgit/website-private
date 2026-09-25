@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T20:00:41Z",
+  "updated_at": "2026-09-25T20:15:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -18,17 +18,17 @@
         "asset": "equity"
       },
       {
-        "symbol": "MAAS",
-        "name": "Maase Inc.",
-        "price": 15.37,
-        "change_24h": 9.55,
-        "asset": "equity"
-      },
-      {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
         "price": 93.84,
         "change_24h": 10.0,
+        "asset": "equity"
+      },
+      {
+        "symbol": "MAAS",
+        "name": "Maase Inc.",
+        "price": 15.37,
+        "change_24h": 9.55,
         "asset": "equity"
       },
       {
@@ -48,13 +48,6 @@
         "asset": "equity"
       },
       {
-        "symbol": "PURR",
-        "name": "Hyperliquid Strategies Inc",
-        "price": 12.85,
-        "change_24h": -8.8,
-        "asset": "equity"
-      },
-      {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
         "price": 15.18,
@@ -69,10 +62,17 @@
         "asset": "equity"
       },
       {
+        "symbol": "PURR",
+        "name": "Hyperliquid Strategies Inc",
+        "price": 12.85,
+        "change_24h": -8.8,
+        "asset": "equity"
+      },
+      {
         "symbol": "TWLO",
         "name": "Twilio Inc.",
-        "price": 275.86,
-        "change_24h": -7.94,
+        "price": 275.8,
+        "change_24h": -7.96,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.130132,
-        "change_24h": 13.86,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 97.02,
-        "change_24h": 12.8,
+        "price": 0.128819,
+        "change_24h": 12.71,
         "asset": "crypto"
       },
       {
         "symbol": "SUI",
         "name": "Sui",
         "price": 1.15,
-        "change_24h": 12.33,
+        "change_24h": 12.64,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price": 97.49,
+        "change_24h": 12.42,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.339503,
-        "change_24h": 11.8,
+        "price": 0.337781,
+        "change_24h": 11.51,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004168,
-        "change_24h": 7.36,
+        "symbol": "APT",
+        "name": "Aptos",
+        "price": 0.871268,
+        "change_24h": 7.73,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.032254,
-        "change_24h": -14.8,
+        "price": 0.033476,
+        "change_24h": -10.1,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.77,
-        "change_24h": -10.99,
+        "price": 4.82,
+        "change_24h": -9.93,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 30.18,
-        "change_24h": -5.11,
+        "price": 30.14,
+        "change_24h": -5.09,
         "asset": "crypto"
       },
       {
         "symbol": "ETC",
         "name": "Ethereum Classic",
-        "price": 9.44,
-        "change_24h": -3.07,
+        "price": 9.43,
+        "change_24h": -3.43,
         "asset": "crypto"
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "price": 91.67,
-        "change_24h": -2.91,
+        "price": 91.36,
+        "change_24h": -3.19,
         "asset": "crypto"
       }
     ]
