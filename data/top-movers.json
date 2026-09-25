@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-09-25T18:30:41Z",
+  "updated_at": "2026-09-25T18:45:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "MAAS",
         "name": "Maase Inc.",
-        "price": 15.82,
-        "change_24h": 12.76,
+        "price": 15.88,
+        "change_24h": 13.19,
         "asset": "equity"
       },
       {
         "symbol": "ALM",
         "name": "Almonty Industries Inc.",
-        "price": 13.87,
-        "change_24h": 11.85,
+        "price": 14.03,
+        "change_24h": 13.1,
         "asset": "equity"
       },
       {
         "symbol": "PPLI",
         "name": "People Incorporated",
-        "price": 39.92,
-        "change_24h": 11.1,
+        "price": 40.19,
+        "change_24h": 11.86,
         "asset": "equity"
       },
       {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "price": 94.28,
-        "change_24h": 10.51,
+        "price": 94.22,
+        "change_24h": 10.45,
         "asset": "equity"
       },
       {
-        "symbol": "FLY",
-        "name": "Firefly Aerospace Inc.",
-        "price": 25.0,
-        "change_24h": 8.27,
+        "symbol": "SIM",
+        "name": "Grupo Simec, S.A.B. de C.V.",
+        "price": 29.8,
+        "change_24h": 8.56,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "PURR",
-        "name": "Hyperliquid Strategies Inc",
-        "price": 12.82,
-        "change_24h": -9.01,
+        "symbol": "FRVO",
+        "name": "Fervo Energy Company",
+        "price": 15.17,
+        "change_24h": -9.19,
         "asset": "equity"
       },
       {
         "symbol": "ZS",
         "name": "Zscaler, Inc.",
-        "price": 195.31,
-        "change_24h": -9.01,
+        "price": 195.56,
+        "change_24h": -8.89,
         "asset": "equity"
       },
       {
-        "symbol": "FRVO",
-        "name": "Fervo Energy Company",
-        "price": 15.31,
-        "change_24h": -8.35,
+        "symbol": "PURR",
+        "name": "Hyperliquid Strategies Inc",
+        "price": 12.86,
+        "change_24h": -8.77,
         "asset": "equity"
       },
       {
         "symbol": "CHRN",
         "name": "ChronoScale Holdings Corporatio",
-        "price": 20.07,
-        "change_24h": -8.15,
+        "price": 20.05,
+        "change_24h": -8.24,
         "asset": "equity"
       },
       {
         "symbol": "TWLO",
         "name": "Twilio Inc.",
-        "price": 277.21,
-        "change_24h": -7.49,
+        "price": 277.38,
+        "change_24h": -7.44,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.129022,
-        "change_24h": 15.8,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 97.48,
-        "change_24h": 13.47,
+        "price": 0.129947,
+        "change_24h": 16.26,
         "asset": "crypto"
       },
       {
         "symbol": "SUI",
         "name": "Sui",
-        "price": 1.12,
-        "change_24h": 11.6,
+        "price": 1.13,
+        "change_24h": 13.48,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.327619,
-        "change_24h": 8.59,
+        "price": 0.32921,
+        "change_24h": 9.65,
         "asset": "crypto"
       },
       {
-        "symbol": "ONDO",
-        "name": "Ondo",
-        "price": 0.540062,
-        "change_24h": 7.88,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 4.99,
+        "change_24h": 8.4,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AAVE",
+        "name": "Aave",
+        "price": 155.04,
+        "change_24h": 7.62,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.79,
-        "change_24h": -9.3,
+        "price": 4.78,
+        "change_24h": -10.72,
         "asset": "crypto"
       },
       {
         "symbol": "ETC",
         "name": "Ethereum Classic",
-        "price": 9.38,
-        "change_24h": -5.12,
+        "price": 9.4,
+        "change_24h": -4.46,
         "asset": "crypto"
       },
       {
         "symbol": "BGB",
         "name": "Bitget Token",
         "price": 1.99,
-        "change_24h": -3.49,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "price": 2.75,
-        "change_24h": -2.62,
+        "change_24h": -3.68,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.661871,
-        "change_24h": -2.61,
+        "price": 0.662615,
+        "change_24h": -2.46,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price": 91.69,
+        "change_24h": -2.21,
         "asset": "crypto"
       }
     ]
