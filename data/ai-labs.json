@@ -1,6 +1,86 @@
 {
-  "updated": "2026-09-25T03:04:53Z",
+  "updated": "2026-09-25T10:04:57Z",
   "items": [
+    {
+      "title": "When Should Forecasting Agents Reason? Behavioral Stress Tests for Reliability Routing",
+      "url": "https://arxiv.org/abs/2609.28475",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-25T04:00:00+00:00",
+      "summary": "arXiv:2609.28475v1 Announce Type: new Abstract: Forecasting agents increasingly combine language-model reasoning, retrieval, ensembling, and calibration, but it remains unclear when each behavior should be trusted. We study this question on ForecastBench-style binary forecasting ",
+      "tag": "ai"
+    },
+    {
+      "title": "TW3Cast: A Frozen Router of Lightly Fine-Tuned Foundation Models for Time-Series Forecasting on GIFT-Eval, Selected Entirely on the Training Split",
+      "url": "https://arxiv.org/abs/2609.28506",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-25T04:00:00+00:00",
+      "summary": "arXiv:2609.28506v1 Announce Type: new Abstract: TW3Cast is a time-series forecasting system that reaches position 3 of 130 entries on the GIFT-Eval benchmark by mean MASE rank, as of 2026-09-14. The two entries above it belong to the leaderboard's agentic category, multi-step sys",
+      "tag": "ai"
+    },
+    {
+      "title": "PAWS: Policy-driven Agentic World Simulation",
+      "url": "https://arxiv.org/abs/2609.28547",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-25T04:00:00+00:00",
+      "summary": "arXiv:2609.28547v1 Announce Type: new Abstract: Policy interventions propagate through public communication, institutional decisions, and stakeholder responses, yet datasets for financial multi-agent simulation rarely connect these processes to temporally aligned historical evide",
+      "tag": "ai"
+    },
+    {
+      "title": "Pistis Technical Report",
+      "url": "https://arxiv.org/abs/2609.28554",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-09-25T04:00:00+00:00",
+      "summary": "arXiv:2609.28554v1 Announce Type: new Abstract: We introduce the Pistis model family, comprising 27B- and 9B-parameter multimodal large language models built on Qwen3.6 and Qwen3.5, respectively, and developed through a general and scalable post-training framework. The framework ",
+      "tag": "ai"
+    },
+    {
+      "title": "Stable and Faithful Explanations for Knowledge Tracing",
+      "url": "https://arxiv.org/abs/2609.28502",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-25T04:00:00+00:00",
+      "summary": "arXiv:2609.28502v1 Announce Type: new Abstract: Knowledge tracing (KT) models predict student performance opaquely, limiting pedagogical action. This study contributes a validation protocol testing predictive competitiveness (RQ1), explanation stability (RQ2) and retraining-based",
+      "tag": "ai"
+    },
+    {
+      "title": "SMILESGNN: Interpretable Clinical Toxicity Prediction via SMILES-Graph Cross-Attention Fusion",
+      "url": "https://arxiv.org/abs/2609.28553",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-25T04:00:00+00:00",
+      "summary": "arXiv:2609.28553v1 Announce Type: new Abstract: Drug toxicity prediction is critical for reducing late-stage attrition in drug discovery, yet remains challenging due to severe class imbalance, scaffold-based generalization, and the clinical need for interpretable predictions. Sin",
+      "tag": "ai"
+    },
+    {
+      "title": "CFD Correction of Open Tip Clearance Flow in a Compressor Cascade Using VAE Latent Space Adaptation",
+      "url": "https://arxiv.org/abs/2609.28558",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-25T04:00:00+00:00",
+      "summary": "arXiv:2609.28558v1 Announce Type: new Abstract: CFD predictions of open tip clearance flow in compressor cascades are subject to discrepancies relative to experiments, while experimental observations are sparse and high-resolution experimental ground truth is unavailable. This st",
+      "tag": "ai"
+    },
+    {
+      "title": "Framing by Wording, Framing by Selection: A Large-Scale Two-Dimensional Audit of French News Headlines, 2022-2025",
+      "url": "https://arxiv.org/abs/2609.28487",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-25T04:00:00+00:00",
+      "summary": "arXiv:2609.28487v1 Announce Type: new Abstract: News headlines frame public issues both by what they select and by how they word it, yet computational framing work typically collapses these operations into a single score. We introduce a two-dimensional framework that separates sa",
+      "tag": "ai"
+    },
+    {
+      "title": "Reward Hacking Challenges Oversight of Autonomous Research Agents",
+      "url": "https://arxiv.org/abs/2609.28614",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-25T04:00:00+00:00",
+      "summary": "arXiv:2609.28614v1 Announce Type: new Abstract: Autonomous research agents can design experiments, evaluate results, and write reports, giving them control over both a scientific result and the evidence used to support it. This creates a risk of reward hacking: meeting the reward",
+      "tag": "ai"
+    },
+    {
+      "title": "Benchmarking Argumentative Behaviour of LLMs: A Study of Defences Against Character Attacks",
+      "url": "https://arxiv.org/abs/2609.28673",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-09-25T04:00:00+00:00",
+      "summary": "arXiv:2609.28673v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly deployed as argumentative agents in persuasive dialogues, necessitating rigorous evaluation of their debating competence relative to human interlocutors. In this study, we focus on chara",
+      "tag": "ai"
+    },
     {
       "title": "Swarm Scaling",
       "url": "https://www.lesswrong.com/posts/6cb7qd3RSkgnviCpf/swarm-scaling",
@@ -47,86 +127,6 @@
       "source": "Hugging Face Blog",
       "published_at": "2026-09-24T14:08:57+00:00",
       "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "Silent Failures in Agent-Tool Interaction: An Audit of ToolUniverse",
-      "url": "https://arxiv.org/abs/2609.26836",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-24T04:00:00+00:00",
-      "summary": "arXiv:2609.26836v1 Announce Type: new Abstract: Agentic AI systems are increasingly adopting automated pipelines that integrate multiple tools. While prior research and benchmarks have studied about task success and task completion of these agentic systems, the research about age",
-      "tag": "ai"
-    },
-    {
-      "title": "Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity",
-      "url": "https://arxiv.org/abs/2609.26891",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-24T04:00:00+00:00",
-      "summary": "arXiv:2609.26891v1 Announce Type: new Abstract: Modern language-model agents are built around the \\textit{agent loop}, where the LLM is placed in an environment exposing a set of tools, and the LLM has full control over the workflow by alternating between tool calls and observing",
-      "tag": "ai"
-    },
-    {
-      "title": "TwinCheck: Evidence-Grounded Negative-Twin Verification for Stateful Tool Agents",
-      "url": "https://arxiv.org/abs/2609.26911",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-24T04:00:00+00:00",
-      "summary": "arXiv:2609.26911v1 Announce Type: new Abstract: A single locally plausible tool call can derail an otherwise successful agent trajectory. Suspicion alone does not justify intervention, because the replacement itself can introduce the very failure verification is meant to prevent.",
-      "tag": "ai"
-    },
-    {
-      "title": "Building Socio-Affective Artificial Intelligence for Interactive Multi-Agent Simulations",
-      "url": "https://arxiv.org/abs/2609.26927",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-24T04:00:00+00:00",
-      "summary": "arXiv:2609.26927v1 Announce Type: new Abstract: The objective of this article is to provide design principles and a software architecture for enabling interaction between humans and multiple agents in simulated dynamic worlds. This connects the current era of general artificial i",
-      "tag": "ai"
-    },
-    {
-      "title": "The Drift Contract: Spectral Updates for Depth-Robust Local Learning",
-      "url": "https://arxiv.org/abs/2609.26811",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-24T04:00:00+00:00",
-      "summary": "arXiv:2609.26811v1 Announce Type: new Abstract: Local learning trains each layer with its own auxiliary loss and no global backward pass, which makes layer updates structurally parallel. Two problems have kept it marginal: accuracy degrades as depth grows, and hyperparameters are",
-      "tag": "ai"
-    },
-    {
-      "title": "Signal2Symbol: Neuro-Symbolic Temporal Reasoning for Explainable Physiological Time-Series Anomaly Detection",
-      "url": "https://arxiv.org/abs/2609.26820",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-24T04:00:00+00:00",
-      "summary": "arXiv:2609.26820v1 Announce Type: new Abstract: Physiological time series such as electrocardiograms (ECG) and electroencephalograms (EEG) exhibit complex temporal structure, substantial acquisition variability, and a strong need for transparent decision-making. Although deep mod",
-      "tag": "ai"
-    },
-    {
-      "title": "HARN: Hierarchical Associative Resonance Network for Event-Driven Multi-Timeframe Forecasting",
-      "url": "https://arxiv.org/abs/2609.26822",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-24T04:00:00+00:00",
-      "summary": "arXiv:2609.26822v1 Announce Type: new Abstract: Financial time series evolve across multiple temporal resolutions, challenging forecasting systems to incorporate newly available information without repeatedly recomputing unchanged representations. We introduce HARN, a Hierarchica",
-      "tag": "ai"
-    },
-    {
-      "title": "COMED: The Missing Middle Between Routing and Collaboration in Multi-LLM Inference",
-      "url": "https://arxiv.org/abs/2609.26913",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-24T04:00:00+00:00",
-      "summary": "arXiv:2609.26913v1 Announce Type: new Abstract: No single Large Language Model (LLM) is uniformly reliable across queries, motivating multi-model inference systems that either route among models or combine their outputs. However, routing stops after selecting an initial model, wh",
-      "tag": "ai"
-    },
-    {
-      "title": "Experts Rise Where LLMs Disagree: Using Cross-Model Disagreement to Target Expert Effort in LLM Codebook Revision for Large-Scale Annotation",
-      "url": "https://arxiv.org/abs/2609.26926",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-24T04:00:00+00:00",
-      "summary": "arXiv:2609.26926v1 Announce Type: new Abstract: Large-scale text annotation brings expert insight to millions of documents, often through a codebook that AI annotators follow. Developing a robust codebook, however, takes months. Large language models (LLMs) could speed this proce",
-      "tag": "ai"
-    },
-    {
-      "title": "Recognized but Not Produced: A Generation Benchmark for Culturally Specific Kinship Terms",
-      "url": "https://arxiv.org/abs/2609.26942",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-24T04:00:00+00:00",
-      "summary": "arXiv:2609.26942v1 Announce Type: new Abstract: Current literature evaluates large language models (LLMs) on multilingual kinship understanding using multiple choice benchmarks, treating it as a recognition problem. We instead prompt five open weight LLMs to generate kinship term",
       "tag": "ai"
     },
     {
