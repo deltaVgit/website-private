@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T12:31:08Z",
+  "updated_at": "2026-09-26T12:46:07Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.135899,
-        "change_24h": 9.93,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.27832,
+        "change_24h": 14.57,
         "asset": "crypto"
       },
       {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 68.56,
-        "change_24h": 8.71,
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.135388,
+        "change_24h": 10.54,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price": 104.12,
+        "change_24h": 8.83,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 334.15,
-        "change_24h": 8.32,
+        "price": 331.21,
+        "change_24h": 7.92,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.349242,
-        "change_24h": 8.23,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.044962,
-        "change_24h": 7.92,
+        "price": 0.346711,
+        "change_24h": 7.06,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.033174,
-        "change_24h": -6.11,
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 7.72,
+        "change_24h": -7.07,
         "asset": "crypto"
       },
       {
-        "symbol": "INJ",
-        "name": "Injective",
-        "price": 7.76,
-        "change_24h": -6.06,
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.033592,
+        "change_24h": -4.99,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 29.76,
-        "change_24h": -5.11,
+        "price": 29.74,
+        "change_24h": -4.98,
         "asset": "crypto"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price": 1.54,
-        "change_24h": -4.42,
+        "change_24h": -4.7,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.89,
-        "change_24h": -3.1,
+        "price": 4.82,
+        "change_24h": -4.35,
         "asset": "crypto"
       }
     ]
