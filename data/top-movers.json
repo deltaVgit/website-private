@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T16:01:07Z",
+  "updated_at": "2026-09-26T16:16:07Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.047922,
+        "change_24h": 14.92,
+        "asset": "crypto"
+      },
+      {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 71.37,
-        "change_24h": 14.86,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.896252,
-        "change_24h": 13.07,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "TAO",
-        "name": "Bittensor",
-        "price": 339.32,
-        "change_24h": 12.13,
+        "price": 71.59,
+        "change_24h": 14.7,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.13758,
-        "change_24h": 11.35,
+        "price": 0.139474,
+        "change_24h": 11.87,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004477,
-        "change_24h": 9.52,
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.888441,
+        "change_24h": 11.16,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "price": 334.23,
+        "change_24h": 8.53,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.057,
-        "change_24h": -14.23,
+        "price": 1.065,
+        "change_24h": -14.09,
         "asset": "crypto"
       },
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.034377,
-        "change_24h": -7.21,
+        "price": 0.034285,
+        "change_24h": -10.16,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.85,
-        "change_24h": -4.91,
+        "price": 4.82,
+        "change_24h": -6.86,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 7.88,
-        "change_24h": -3.6,
+        "price": 7.84,
+        "change_24h": -4.01,
         "asset": "crypto"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price": 1.55,
-        "change_24h": -1.46,
+        "change_24h": -2.13,
         "asset": "crypto"
       }
     ]
