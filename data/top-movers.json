@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T15:46:08Z",
+  "updated_at": "2026-09-26T16:01:07Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 71.37,
+        "change_24h": 14.86,
+        "asset": "crypto"
+      },
+      {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.892365,
-        "change_24h": 13.86,
+        "price": 0.896252,
+        "change_24h": 13.07,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 334.53,
-        "change_24h": 11.3,
+        "price": 339.32,
+        "change_24h": 12.13,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.137407,
-        "change_24h": 10.99,
+        "price": 0.13758,
+        "change_24h": 11.35,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004464,
-        "change_24h": 10.44,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.274031,
-        "change_24h": 9.58,
+        "price": 0.004477,
+        "change_24h": 9.52,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.053,
-        "change_24h": -13.91,
+        "price": 1.057,
+        "change_24h": -14.23,
         "asset": "crypto"
       },
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.034198,
-        "change_24h": -7.64,
+        "price": 0.034377,
+        "change_24h": -7.21,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.82,
-        "change_24h": -5.06,
+        "price": 4.85,
+        "change_24h": -4.91,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 7.82,
-        "change_24h": -4.04,
+        "price": 7.88,
+        "change_24h": -3.6,
         "asset": "crypto"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price": 1.55,
-        "change_24h": -1.16,
+        "change_24h": -1.46,
         "asset": "crypto"
       }
     ]
