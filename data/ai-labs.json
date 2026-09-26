@@ -1,6 +1,30 @@
 {
-  "updated": "2026-09-25T23:04:58Z",
+  "updated": "2026-09-26T05:34:57Z",
   "items": [
+    {
+      "title": "Stable and Faithful Explanations for Knowledge Tracing",
+      "url": "https://arxiv.org/abs/2609.28502",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-26T04:00:00+00:00",
+      "summary": "arXiv:2609.28502v1 Announce Type: new Abstract: Knowledge tracing (KT) models predict student performance opaquely, limiting pedagogical action. This study contributes a validation protocol testing predictive competitiveness (RQ1), explanation stability (RQ2) and retraining-based",
+      "tag": "ai"
+    },
+    {
+      "title": "SMILESGNN: Interpretable Clinical Toxicity Prediction via SMILES-Graph Cross-Attention Fusion",
+      "url": "https://arxiv.org/abs/2609.28553",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-26T04:00:00+00:00",
+      "summary": "arXiv:2609.28553v1 Announce Type: new Abstract: Drug toxicity prediction is critical for reducing late-stage attrition in drug discovery, yet remains challenging due to severe class imbalance, scaffold-based generalization, and the clinical need for interpretable predictions. Sin",
+      "tag": "ai"
+    },
+    {
+      "title": "CFD Correction of Open Tip Clearance Flow in a Compressor Cascade Using VAE Latent Space Adaptation",
+      "url": "https://arxiv.org/abs/2609.28558",
+      "source": "arXiv cs.LG",
+      "published_at": "2026-09-26T04:00:00+00:00",
+      "summary": "arXiv:2609.28558v1 Announce Type: new Abstract: CFD predictions of open tip clearance flow in compressor cascades are subject to discrepancies relative to experiments, while experimental observations are sparse and high-resolution experimental ground truth is unavailable. This st",
+      "tag": "ai"
+    },
     {
       "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
       "url": "https://openai.com/index/proaction",
@@ -15,86 +39,6 @@
       "source": "Simon Willison",
       "published_at": "2026-09-25T17:22:01+00:00",
       "summary": "Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) and because it’s packaged in an easy-to-install easy-to-use way. It’s literally presented as a cute mas",
-      "tag": "ai"
-    },
-    {
-      "title": "When Should Forecasting Agents Reason? Behavioral Stress Tests for Reliability Routing",
-      "url": "https://arxiv.org/abs/2609.28475",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.28475v1 Announce Type: new Abstract: Forecasting agents increasingly combine language-model reasoning, retrieval, ensembling, and calibration, but it remains unclear when each behavior should be trusted. We study this question on ForecastBench-style binary forecasting ",
-      "tag": "ai"
-    },
-    {
-      "title": "TW3Cast: A Frozen Router of Lightly Fine-Tuned Foundation Models for Time-Series Forecasting on GIFT-Eval, Selected Entirely on the Training Split",
-      "url": "https://arxiv.org/abs/2609.28506",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.28506v1 Announce Type: new Abstract: TW3Cast is a time-series forecasting system that reaches position 3 of 130 entries on the GIFT-Eval benchmark by mean MASE rank, as of 2026-09-14. The two entries above it belong to the leaderboard's agentic category, multi-step sys",
-      "tag": "ai"
-    },
-    {
-      "title": "PAWS: Policy-driven Agentic World Simulation",
-      "url": "https://arxiv.org/abs/2609.28547",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.28547v1 Announce Type: new Abstract: Policy interventions propagate through public communication, institutional decisions, and stakeholder responses, yet datasets for financial multi-agent simulation rarely connect these processes to temporally aligned historical evide",
-      "tag": "ai"
-    },
-    {
-      "title": "Pistis Technical Report",
-      "url": "https://arxiv.org/abs/2609.28554",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.28554v1 Announce Type: new Abstract: We introduce the Pistis model family, comprising 27B- and 9B-parameter multimodal large language models built on Qwen3.6 and Qwen3.5, respectively, and developed through a general and scalable post-training framework. The framework ",
-      "tag": "ai"
-    },
-    {
-      "title": "Stable and Faithful Explanations for Knowledge Tracing",
-      "url": "https://arxiv.org/abs/2609.28502",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.28502v1 Announce Type: new Abstract: Knowledge tracing (KT) models predict student performance opaquely, limiting pedagogical action. This study contributes a validation protocol testing predictive competitiveness (RQ1), explanation stability (RQ2) and retraining-based",
-      "tag": "ai"
-    },
-    {
-      "title": "SMILESGNN: Interpretable Clinical Toxicity Prediction via SMILES-Graph Cross-Attention Fusion",
-      "url": "https://arxiv.org/abs/2609.28553",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.28553v1 Announce Type: new Abstract: Drug toxicity prediction is critical for reducing late-stage attrition in drug discovery, yet remains challenging due to severe class imbalance, scaffold-based generalization, and the clinical need for interpretable predictions. Sin",
-      "tag": "ai"
-    },
-    {
-      "title": "CFD Correction of Open Tip Clearance Flow in a Compressor Cascade Using VAE Latent Space Adaptation",
-      "url": "https://arxiv.org/abs/2609.28558",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.28558v1 Announce Type: new Abstract: CFD predictions of open tip clearance flow in compressor cascades are subject to discrepancies relative to experiments, while experimental observations are sparse and high-resolution experimental ground truth is unavailable. This st",
-      "tag": "ai"
-    },
-    {
-      "title": "Framing by Wording, Framing by Selection: A Large-Scale Two-Dimensional Audit of French News Headlines, 2022-2025",
-      "url": "https://arxiv.org/abs/2609.28487",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.28487v1 Announce Type: new Abstract: News headlines frame public issues both by what they select and by how they word it, yet computational framing work typically collapses these operations into a single score. We introduce a two-dimensional framework that separates sa",
-      "tag": "ai"
-    },
-    {
-      "title": "Reward Hacking Challenges Oversight of Autonomous Research Agents",
-      "url": "https://arxiv.org/abs/2609.28614",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.28614v1 Announce Type: new Abstract: Autonomous research agents can design experiments, evaluate results, and write reports, giving them control over both a scientific result and the evidence used to support it. This creates a risk of reward hacking: meeting the reward",
-      "tag": "ai"
-    },
-    {
-      "title": "Benchmarking Argumentative Behaviour of LLMs: A Study of Defences Against Character Attacks",
-      "url": "https://arxiv.org/abs/2609.28673",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.28673v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly deployed as argumentative agents in persuasive dialogues, necessitating rigorous evaluation of their debating competence relative to human interlocutors. In this study, we focus on chara",
       "tag": "ai"
     },
     {
@@ -319,6 +263,62 @@
       "source": "LessWrong",
       "published_at": "2026-09-17T02:05:40+00:00",
       "summary": "The Huggingface Incident appears to me to match up with an understanding I'd already formed from personal observation of Fable 5 and Sol 5.6, the August 2026 generation of frontier publicly purchasable AI models. [1] This already-formed understanding was: the part of the AI that ",
+      "tag": "ai"
+    },
+    {
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "source": "Google DeepMind",
+      "published_at": "2026-09-15T17:05:57+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
+      "title": "Import AI 472: DeepMind’s cheating math agents; populist AI policies; and Forethought theorizes a nightwatchman",
+      "url": "https://jack-clark.net/2026/09/07/import-ai-472-deepminds-cheating-math-agents-populist-ai-policies-and-forethought-theorizes-a-nightwatchman/",
+      "source": "Import AI",
+      "published_at": "2026-09-07T12:26:31+00:00",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Researchers discover another OpenAI agent emergent communication incident:…Less severe, but worryi",
+      "tag": "ai"
+    },
+    {
+      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
+      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+      "source": "NVIDIA AI",
+      "published_at": "2026-07-08T15:00:27+00:00",
+      "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open mo",
+      "tag": "ai"
+    },
+    {
+      "title": "NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES",
+      "url": "https://blogs.nvidia.com/blog/2026-ces-special-presentation/",
+      "source": "NVIDIA AI",
+      "published_at": "2026-01-05T23:30:18+00:00",
+      "summary": "Editor’s note: The name of NVIDIA DRIVE Hyperion was changed to NVIDIA Hyperion in September 2026. All references to the name have been updated in this blog. NVIDIA founder and CEO Jensen Huang took the stage at the Fontainebleau Las Vegas to open CES 2026, declaring that AI is s",
+      "tag": "ai"
+    },
+    {
+      "title": "As AI Grows More Complex, Model Builders Rely on NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/leading-models-nvidia/",
+      "source": "NVIDIA AI",
+      "published_at": "2025-12-11T19:19:57+00:00",
+      "summary": "Unveiling what it describes as the most capable model series yet for professional knowledge work, OpenAI launched GPT-5.2 in December. The model was trained and deployed on NVIDIA infrastructure, including NVIDIA Hopper and GB200 NVL72 systems. GPT-5.3 Codex — the first OpenAI ag",
+      "tag": "ai"
+    },
+    {
+      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
+      "url": "https://qwenlm.github.io/blog/qwen3guard/",
+      "source": "Qwen (Alibaba)",
+      "published_at": "2025-09-22T20:00:00+00:00",
+      "summary": "Tech Report GitHub Hugging Face ModelScope DISCORD Introduction We are excited to introduce Qwen3Guard, the first safety guardrail model in the Qwen family. Built upon the powerful Qwen3 foundation models and fine-tuned specifically for safety classificatoin, Qwen3Guard ensures r",
+      "tag": "ai"
+    },
+    {
+      "title": "Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency",
+      "url": "https://qwenlm.github.io/blog/qwen-image-edit/",
+      "source": "Qwen (Alibaba)",
+      "published_at": "2025-08-18T17:30:00+00:00",
+      "summary": "QWEN CHAT GITHUB HUGGING FACE MODELSCOPE DISCORD We are excited to introduce Qwen-Image-Edit, the image editing version of Qwen-Image. Built upon our 20B Qwen-Image model, Qwen-Image-Edit successfully extends Qwen-Image’s unique text rendering capabilities to image editing tasks,",
       "tag": "ai"
     }
   ],
