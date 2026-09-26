@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T02:30:41Z",
+  "updated_at": "2026-09-26T02:45:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.134645,
-        "change_24h": 16.79,
-        "asset": "crypto"
-      },
-      {
         "symbol": "SUI",
         "name": "Sui",
-        "price": 1.18,
-        "change_24h": 15.38,
+        "price": 1.17,
+        "change_24h": 16.24,
         "asset": "crypto"
       },
       {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 100.41,
-        "change_24h": 12.44,
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.132171,
+        "change_24h": 15.24,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.48947,
-        "change_24h": 11.8,
+        "price": 0.483265,
+        "change_24h": 11.9,
         "asset": "crypto"
       },
       {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.337805,
-        "change_24h": 10.0,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.004327,
+        "change_24h": 11.88,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price": 100.55,
+        "change_24h": 11.0,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.010641,
-        "change_24h": -11.49,
+        "price": 0.010675,
+        "change_24h": -11.09,
         "asset": "crypto"
       },
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.033292,
-        "change_24h": -5.03,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 0.921966,
-        "change_24h": -4.36,
+        "price": 0.033202,
+        "change_24h": -5.11,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.72,
-        "change_24h": -2.9,
+        "price": 2.71,
+        "change_24h": -2.71,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.87,
-        "change_24h": -2.74,
+        "price": 4.85,
+        "change_24h": -1.96,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 558.24,
+        "change_24h": -1.11,
         "asset": "crypto"
       }
     ]
