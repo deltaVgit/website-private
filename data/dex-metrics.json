@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T05:05:05Z",
+  "updated_at": "2026-09-27T07:05:05Z",
   "source": "https://api.llama.fi/overview/dexs",
   "weekly": [
     {
@@ -1258,21 +1258,21 @@
     },
     {
       "week": "2026-W39",
-      "curated": 69088630164.58,
-      "filtered": 69088630164.58,
-      "raw": 69088630164.58
+      "curated": 69012719178.43001,
+      "filtered": 69012719178.43001,
+      "raw": 69012719178.43001
     }
   ],
   "chains": [
     {
       "chain": "Orca DEX",
-      "volume_24h": 231346059.0,
-      "delta_pct": -40.05
+      "volume_24h": 206131540.0,
+      "delta_pct": -46.59
     },
     {
       "chain": "Raydium AMM",
-      "volume_24h": 184014420.0,
-      "delta_pct": -38.0
+      "volume_24h": 179855179.0,
+      "delta_pct": -39.4
     },
     {
       "chain": "PancakeSwap AMM",
@@ -1285,14 +1285,14 @@
       "delta_pct": 0.0
     },
     {
+      "chain": "Curve DEX",
+      "volume_24h": 7747072.0,
+      "delta_pct": -92.07
+    },
+    {
       "chain": "Quickswap Dex",
       "volume_24h": 6922233.0,
       "delta_pct": 4.76
-    },
-    {
-      "chain": "Curve DEX",
-      "volume_24h": 4296665.0,
-      "delta_pct": -95.6
     },
     {
       "chain": "SushiSwap",
@@ -1301,28 +1301,28 @@
     },
     {
       "chain": "Pangolin V2",
-      "volume_24h": 280065.0,
-      "delta_pct": -77.55
+      "volume_24h": 271671.0,
+      "delta_pct": -78.22
     },
     {
       "chain": "Bancor V2.1",
-      "volume_24h": 221103.0,
-      "delta_pct": -53.68
+      "volume_24h": 219146.0,
+      "delta_pct": -54.09
     },
     {
       "chain": "Defi Swap",
-      "volume_24h": 162021.0,
-      "delta_pct": -63.37
+      "volume_24h": 166529.0,
+      "delta_pct": -62.35
     },
     {
       "chain": "Balancer V1",
-      "volume_24h": 154800.0,
-      "delta_pct": 48.83
+      "volume_24h": 148802.0,
+      "delta_pct": 43.06
     },
     {
       "chain": "SpookySwap V2",
-      "volume_24h": 26852.0,
-      "delta_pct": 8506.41
+      "volume_24h": 26891.0,
+      "delta_pct": 8518.91
     }
   ]
 }
