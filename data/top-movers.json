@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T08:30:11Z",
+  "updated_at": "2026-09-27T08:45:12Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 71.59,
-        "change_24h": 12.77,
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.545398,
+        "change_24h": 13.39,
         "asset": "crypto"
       },
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.539296,
-        "change_24h": 12.59,
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 71.43,
+        "change_24h": 12.45,
         "asset": "crypto"
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.049003,
-        "change_24h": 11.31,
+        "price": 0.048876,
+        "change_24h": 10.18,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.39,
-        "change_24h": 10.83,
+        "price": 5.34,
+        "change_24h": 9.67,
         "asset": "crypto"
       },
       {
         "symbol": "SUI",
         "name": "Sui",
-        "price": 1.28,
-        "change_24h": 10.56,
+        "price": 1.27,
+        "change_24h": 9.35,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.866553,
+        "change_24h": -3.55,
+        "asset": "crypto"
+      },
+      {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.685042,
-        "change_24h": -4.14,
+        "price": 0.685161,
+        "change_24h": -3.42,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.077317,
-        "change_24h": -2.74,
+        "price": 0.077219,
+        "change_24h": -3.08,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.270439,
+        "change_24h": -2.8,
         "asset": "crypto"
       },
       {
         "symbol": "LTC",
         "name": "Litecoin",
-        "price": 71.9,
-        "change_24h": -2.1,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.81,
-        "change_24h": -1.9,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.869574,
-        "change_24h": -1.79,
+        "price": 72.01,
+        "change_24h": -2.65,
         "asset": "crypto"
       }
     ]
