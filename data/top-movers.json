@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T09:15:08Z",
+  "updated_at": "2026-09-27T09:30:11Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.5476,
-        "change_24h": 14.68,
-        "asset": "crypto"
-      },
-      {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 71.03,
-        "change_24h": 12.87,
+        "price": 71.07,
+        "change_24h": 12.77,
         "asset": "crypto"
       },
       {
         "symbol": "PYTH",
         "name": "Pyth Network",
-        "price": 0.084182,
-        "change_24h": 12.09,
+        "price": 0.08368,
+        "change_24h": 11.3,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.048277,
+        "change_24h": 10.06,
         "asset": "crypto"
       },
       {
         "symbol": "GRAM",
         "name": "Gram (prev. Toncoin)",
         "price": 1.59,
-        "change_24h": 10.02,
+        "change_24h": 9.91,
         "asset": "crypto"
       },
       {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.048498,
-        "change_24h": 9.97,
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1652.17,
+        "change_24h": 8.63,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.860714,
-        "change_24h": -3.94,
+        "price": 0.858813,
+        "change_24h": -4.72,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.266969,
-        "change_24h": -3.54,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MNT",
-        "name": "Mantle",
-        "price": 0.683396,
-        "change_24h": -3.48,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.076784,
-        "change_24h": -3.19,
+        "price": 0.267255,
+        "change_24h": -3.08,
         "asset": "crypto"
       },
       {
         "symbol": "LTC",
         "name": "Litecoin",
-        "price": 71.84,
-        "change_24h": -2.29,
+        "price": 72.01,
+        "change_24h": -2.71,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.076757,
+        "change_24h": -2.35,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "MNT",
+        "name": "Mantle",
+        "price": 0.686784,
+        "change_24h": -2.17,
         "asset": "crypto"
       }
     ]
