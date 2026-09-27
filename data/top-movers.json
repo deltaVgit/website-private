@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T01:30:14Z",
+  "updated_at": "2026-09-27T01:45:09Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.012755,
-        "change_24h": 16.38,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PYTH",
-        "name": "Pyth Network",
-        "price": 0.08319,
-        "change_24h": 14.19,
+        "price": 0.012757,
+        "change_24h": 17.15,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 71.37,
-        "change_24h": 13.46,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "GRAM",
-        "name": "Gram (prev. Toncoin)",
-        "price": 1.62,
-        "change_24h": 12.09,
+        "price": 71.2,
+        "change_24h": 12.51,
         "asset": "crypto"
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.046444,
-        "change_24h": 9.58,
+        "price": 0.04676,
+        "change_24h": 10.37,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "GRAM",
+        "name": "Gram (prev. Toncoin)",
+        "price": 1.59,
+        "change_24h": 9.7,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 1.13,
+        "change_24h": 7.74,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "VET",
-        "name": "VeChain",
-        "price": 0.009147,
-        "change_24h": -4.32,
-        "asset": "crypto"
-      },
-      {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -3.57,
+        "change_24h": -3.95,
         "asset": "crypto"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price": 1.52,
-        "change_24h": -3.42,
+        "change_24h": -3.55,
         "asset": "crypto"
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.25087,
-        "change_24h": -3.07,
+        "price": 0.251704,
+        "change_24h": -3.41,
         "asset": "crypto"
       },
       {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.096025,
-        "change_24h": -2.84,
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 29.69,
+        "change_24h": -2.97,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VET",
+        "name": "VeChain",
+        "price": 0.009253,
+        "change_24h": -2.97,
         "asset": "crypto"
       }
     ]
