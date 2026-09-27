@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T08:00:20Z",
+  "updated_at": "2026-09-27T08:15:09Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.049651,
-        "change_24h": 13.19,
-        "asset": "crypto"
-      },
-      {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 71.53,
-        "change_24h": 12.43,
+        "price": 71.45,
+        "change_24h": 13.13,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.538725,
-        "change_24h": 11.18,
+        "price": 0.538412,
+        "change_24h": 12.56,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.049122,
+        "change_24h": 12.29,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.4,
-        "change_24h": 11.14,
+        "price": 5.38,
+        "change_24h": 11.21,
         "asset": "crypto"
       },
       {
         "symbol": "GRAM",
         "name": "Gram (prev. Toncoin)",
         "price": 1.59,
-        "change_24h": 9.52,
+        "change_24h": 9.74,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.033455,
-        "change_24h": -7.18,
+        "symbol": "MNT",
+        "name": "Mantle",
+        "price": 0.686793,
+        "change_24h": -3.62,
         "asset": "crypto"
       },
       {
-        "symbol": "MNT",
-        "name": "Mantle",
-        "price": 0.683396,
-        "change_24h": -4.07,
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.0336,
+        "change_24h": -3.57,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.077206,
-        "change_24h": -2.84,
+        "price": 0.077162,
+        "change_24h": -2.64,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.00446,
-        "change_24h": -2.41,
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.135713,
+        "change_24h": -2.42,
         "asset": "crypto"
       },
       {
-        "symbol": "LTC",
-        "name": "Litecoin",
-        "price": 72.03,
-        "change_24h": -2.28,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.269609,
+        "change_24h": -2.4,
         "asset": "crypto"
       }
     ]
