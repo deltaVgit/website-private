@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T02:30:13Z",
+  "updated_at": "2026-09-27T02:45:07Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.012799,
-        "change_24h": 20.45,
+        "price": 0.012789,
+        "change_24h": 19.69,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 70.93,
-        "change_24h": 13.34,
+        "price": 71.52,
+        "change_24h": 14.33,
         "asset": "crypto"
       },
       {
         "symbol": "PYTH",
         "name": "Pyth Network",
-        "price": 0.083067,
+        "price": 0.082836,
         "change_24h": 12.27,
         "asset": "crypto"
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.047025,
-        "change_24h": 11.07,
+        "price": 0.046884,
+        "change_24h": 10.95,
         "asset": "crypto"
       },
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.027,
-        "change_24h": 10.36,
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 1.14,
+        "change_24h": 9.83,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.252977,
-        "change_24h": -3.23,
-        "asset": "crypto"
-      },
-      {
         "symbol": "VET",
         "name": "VeChain",
-        "price": 0.009245,
-        "change_24h": -2.96,
+        "price": 0.00921,
+        "change_24h": -3.14,
         "asset": "crypto"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "price": 1.53,
+        "price": 1.52,
         "change_24h": -2.8,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price": 0.252827,
+        "change_24h": -2.73,
         "asset": "crypto"
       },
       {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.215643,
-        "change_24h": -2.65,
+        "price": 0.215121,
+        "change_24h": -2.56,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -2.52,
+        "change_24h": -2.41,
         "asset": "crypto"
       }
     ]
