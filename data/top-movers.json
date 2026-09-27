@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T03:30:14Z",
+  "updated_at": "2026-09-27T03:45:11Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.012771,
-        "change_24h": 19.03,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 71.26,
-        "change_24h": 14.48,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.038,
-        "change_24h": 11.67,
+        "price": 0.012778,
+        "change_24h": 18.98,
         "asset": "crypto"
       },
       {
         "symbol": "PYTH",
         "name": "Pyth Network",
-        "price": 0.082226,
-        "change_24h": 11.67,
+        "price": 0.08141,
+        "change_24h": 11.5,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.047645,
+        "change_24h": 11.45,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 1.15,
-        "change_24h": 10.87,
+        "price": 1.14,
+        "change_24h": 10.56,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.037,
+        "change_24h": 9.77,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "VET",
-        "name": "VeChain",
-        "price": 0.009187,
-        "change_24h": -3.33,
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.865471,
+        "change_24h": -3.13,
         "asset": "crypto"
       },
       {
-        "symbol": "CAKE",
-        "name": "PancakeSwap",
-        "price": 2.74,
-        "change_24h": -3.08,
+        "symbol": "VET",
+        "name": "VeChain",
+        "price": 0.009189,
+        "change_24h": -3.01,
         "asset": "crypto"
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price": 1.52,
-        "change_24h": -3.02,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.86342,
-        "change_24h": -2.99,
+        "change_24h": -2.7,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": -2.79,
+        "change_24h": -2.38,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ALGO",
+        "name": "Algorand",
+        "price": 0.114917,
+        "change_24h": -2.28,
         "asset": "crypto"
       }
     ]
