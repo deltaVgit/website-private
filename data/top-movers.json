@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T19:45:17Z",
+  "updated_at": "2026-09-27T20:00:21Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.2,
-        "change_24h": 14.61,
-        "asset": "crypto"
-      },
-      {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.44,
-        "change_24h": 12.82,
+        "price": 5.42,
+        "change_24h": 12.19,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004909,
-        "change_24h": 11.43,
+        "price": 0.004914,
+        "change_24h": 11.79,
         "asset": "crypto"
       },
       {
         "symbol": "SUI",
         "name": "Sui",
         "price": 1.27,
-        "change_24h": 9.43,
+        "change_24h": 9.38,
         "asset": "crypto"
       },
       {
         "symbol": "PYTH",
         "name": "Pyth Network",
-        "price": 0.086063,
-        "change_24h": 7.92,
+        "price": 0.086044,
+        "change_24h": 8.02,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price": 0.03233,
+        "change_24h": 7.06,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.032027,
-        "change_24h": -4.51,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.012577,
-        "change_24h": -3.69,
+        "price": 0.032196,
+        "change_24h": -4.65,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.845471,
-        "change_24h": -3.12,
+        "price": 0.848956,
+        "change_24h": -3.58,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.01257,
+        "change_24h": -2.86,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.717096,
-        "change_24h": -2.7,
+        "price": 0.717053,
+        "change_24h": -2.49,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 69.53,
-        "change_24h": -2.07,
+        "price": 69.43,
+        "change_24h": -2.27,
         "asset": "crypto"
       }
     ]
