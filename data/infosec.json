@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T18:05:27Z",
+  "updatedAt": "2026-09-27T00:34:29Z",
   "kev": [
     {
       "cve": "CVE-2026-67279",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-14349",
+      "id": "CVE-2026-86710",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "The TrueBooker – Appointment Booking and Scheduler System plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 1.2.3. This is due to the plugin not properly verifying that a us",
-      "published": "2026-09-16T04:17:58.777"
+      "description": "The Login with QR WordPress plugin through 1.0.0 does not verify that the code used to log a user in is one it issued, matching any stored user metadata value instead, which allows unauthenticated attackers to log in as ",
+      "published": "2026-09-17T06:16:51.437"
     },
     {
-      "id": "CVE-2026-12793",
+      "id": "CVE-2026-86709",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "The JetFormBuilder — Dynamic Blocks Form Builder plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.6.2. This is due to the plugin not validating that a submitted form ID b",
-      "published": "2026-09-16T04:17:56.110"
+      "description": "The Pressengine WordPress plugin through 1.0 does not stop its login handler from issuing a session when authentication fails, allowing unauthenticated attackers to log in as any user, including administrators.",
+      "published": "2026-09-17T06:16:51.327"
     },
     {
-      "id": "CVE-2026-15640",
+      "id": "CVE-2026-86707",
       "severity": "CRITICAL",
-      "score": 9.5,
-      "description": "Under certain conditions a valid SAML IdP response may be used to impersonate another Secret Server user.",
-      "published": "2026-09-16T00:17:03.577"
+      "score": 9.8,
+      "description": "The Private Feed Key WordPress plugin through 0.1 does not verify that the key used to authenticate a feed request is one it issued, matching any stored user metadata value instead, which allows unauthenticated attackers",
+      "published": "2026-09-17T06:16:51.213"
     },
     {
-      "id": "CVE-2026-15639",
+      "id": "CVE-2026-87796",
       "severity": "CRITICAL",
-      "score": 9.3,
-      "description": "An attacker can craft a malicious link that, if used by a legitimate user, may cause the user's browser to run JavaScript supplied by the attacker.",
-      "published": "2026-09-16T00:17:03.453"
+      "score": 9.8,
+      "description": "The Multi Uploader for Gravity Forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.1.9 via the move_file function. This is due to insufficient file type validation du",
+      "published": "2026-09-17T05:17:02.123"
     },
     {
-      "id": "CVE-2026-15638",
+      "id": "CVE-2026-88795",
       "severity": "CRITICAL",
-      "score": 9.1,
-      "description": "An unauthenticated user with access to Secret Server could leverage a padding oracle to decrypt or encrypt data using one of the server's cryptographic keys. The key itself is not exposed.",
-      "published": "2026-09-16T00:17:02.600"
+      "score": 9.0,
+      "description": "The wpShopGermany IT-RECHT KANZLEI WordPress plugin before 2.4 does not generate its API authentication token securely, deriving it from data the requester controls and creating it as a side effect of the check that is s",
+      "published": "2026-09-17T06:16:52.097"
     },
     {
-      "id": "CVE-2026-76552",
+      "id": "CVE-2026-88904",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "The WP Import Export Lite WordPress plugin before 3.9.33 does not validate the type, extension or content of files it retrieves from a user-supplied URL during import, allowing users granted its import permission to stor",
-      "published": "2026-09-16T06:16:32.080"
+      "description": "The PuppyFW WordPress plugin through 0.4.4 does not have proper authorisation on one of its REST routes, which tests the caller against a capability taken from the request itself, allowing any authenticated user, includi",
+      "published": "2026-09-17T06:16:52.203"
     },
     {
-      "id": "CVE-2026-78088",
+      "id": "CVE-2026-88792",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "The Contest Gallery – Upload & Vote Photos, Media, Sell with PayPal & Stripe plugin for WordPress is vulnerable to Unauthenticated Arbitrary File Overwrite in all versions up to, and including, 32.0.1 due to insufficient",
-      "published": "2026-09-16T04:18:41.503"
+      "description": "The Dictionary WordPress plugin through 1.0 does not have authorisation, sanitisation or escaping in place when adding or updating dictionary entries, allowing unauthenticated users to store arbitrary web scripts which w",
+      "published": "2026-09-17T06:16:51.990"
     },
     {
-      "id": "CVE-2026-86108",
+      "id": "CVE-2026-87786",
       "severity": "HIGH",
-      "score": 8.0,
-      "description": "Insufficient validation of inputs supplied through affected VeloCloud Edge management and configuration workflows may allow an authorized management request or configuration value to be interpreted as an operating-system",
-      "published": "2026-09-16T03:17:00.077"
+      "score": 8.8,
+      "description": "The Dewa Kirim WordPress plugin through 1.0.0 does not escape delivery coordinates submitted at checkout before outputting them inside an inline script, allowing unauthenticated users to store JavaScript that runs in the",
+      "published": "2026-09-17T06:16:51.773"
     },
     {
-      "id": "CVE-2026-89063",
+      "id": "CVE-2026-85130",
       "severity": "HIGH",
-      "score": 7.5,
-      "description": "The Online Scheduling and Appointment Booking System – Bookly plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 28.1 via the 'conversation_id' parameter due to m",
-      "published": "2026-09-16T05:16:47.313"
+      "score": 8.8,
+      "description": "The WPLP Cookie Consent WordPress plugin before 4.4.4 does not escape a value submitted through a public endpoint for the JavaScript context it is later output in on an administrative screen, allowing unauthenticated use",
+      "published": "2026-09-17T06:16:50.990"
     },
     {
-      "id": "CVE-2026-92299",
+      "id": "CVE-2026-25283",
       "severity": "HIGH",
-      "score": 7.4,
-      "description": "@jitsi/electron-sdk before 10.0.5 exposes getDesktopSources() via contextBridge without requiring an active getDisplayMedia() picker, allowing any script in the meeting page to enumerate screens and windows. Attackers ca",
-      "published": "2026-09-16T02:17:39.317"
+      "score": 8.8,
+      "description": "Memory Corruption when copying unverified data from an external source exceeds the allocated buffer size.",
+      "published": "2026-09-17T05:17:01.390"
     },
     {
-      "id": "CVE-2026-73459",
+      "id": "CVE-2026-87935",
       "severity": "HIGH",
-      "score": 7.4,
-      "description": "On affected platforms running Arista EOS with IS-IS configured, an unauthenticated attacker who can inject a specially crafted IS-IS LSP PDU can cause the legitimate LSP to be unexpectedly purged from the IS-IS link-stat",
-      "published": "2026-09-16T00:17:05.213"
+      "score": 8.1,
+      "description": "The Paid Downloads plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 3.15 via the admin_request_handler function. This is due to missing authorization and file type validat",
+      "published": "2026-09-17T05:17:02.263"
     },
     {
-      "id": "CVE-2026-73446",
+      "id": "CVE-2026-25282",
       "severity": "HIGH",
-      "score": 7.4,
-      "description": "On affected platforms running Arista EOS with IS-IS configured on a broadcast interface, an unauthenticated attacker can send a crafted IS-IS Hello Protocol Data Unit (PDU) that causes the device to tear down an establis",
-      "published": "2026-09-16T00:17:05.000"
+      "score": 7.9,
+      "description": "Transient DOS when processing unverified data from a neighboring system causes out of bound memory access.",
+      "published": "2026-09-17T05:17:01.253"
     }
   ],
   "breaches": [
