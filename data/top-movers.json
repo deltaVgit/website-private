@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T06:30:17Z",
+  "updated_at": "2026-09-27T06:45:11Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "PYTH",
-        "name": "Pyth Network",
-        "price": 0.084183,
-        "change_24h": 14.23,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 70.86,
-        "change_24h": 12.6,
-        "asset": "crypto"
-      },
-      {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.0489,
-        "change_24h": 12.54,
+        "price": 0.049588,
+        "change_24h": 14.53,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.539463,
-        "change_24h": 12.39,
+        "price": 0.534875,
+        "change_24h": 11.14,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 70.6,
+        "change_24h": 11.09,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.42,
-        "change_24h": 9.84,
+        "price": 5.46,
+        "change_24h": 10.45,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "GRAM",
+        "name": "Gram (prev. Toncoin)",
+        "price": 1.58,
+        "change_24h": 9.18,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "VET",
-        "name": "VeChain",
-        "price": 0.009237,
-        "change_24h": -5.25,
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.85935,
+        "change_24h": -4.75,
         "asset": "crypto"
       },
       {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.866366,
-        "change_24h": -3.8,
+        "symbol": "VET",
+        "name": "VeChain",
+        "price": 0.009394,
+        "change_24h": -3.73,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.339517,
+        "change_24h": -3.25,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.00446,
-        "change_24h": -2.51,
+        "price": 0.004438,
+        "change_24h": -3.25,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.077152,
-        "change_24h": -2.35,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.033523,
-        "change_24h": -2.31,
+        "price": 0.077052,
+        "change_24h": -2.5,
         "asset": "crypto"
       }
     ]
