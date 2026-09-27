@@ -1,11 +1,51 @@
 [
   {
+    "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+    "source": "BleepingComputer",
+    "summary": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security updates to fix the fl",
+    "added": "2026-09-27T16:02:37+00:00",
+    "expires": "2026-10-11T20:04:28Z"
+  },
+  {
+    "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+    "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+    "source": "BleepingComputer",
+    "summary": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from other customers' containers on the same physical host. [...]",
+    "added": "2026-09-27T14:13:31+00:00",
+    "expires": "2026-10-11T20:04:28Z"
+  },
+  {
+    "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
+    "source": "BleepingComputer",
+    "summary": "Anthropic has just announced a new Claude Marketplace, and it brings all AI-related tools into one place, including plugins, connectors, agents, and more. [...]",
+    "added": "2026-09-27T13:38:40+00:00",
+    "expires": "2026-10-11T20:04:28Z"
+  },
+  {
+    "title": "Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
+    "source": "CISA Advisories",
+    "summary": "CISA is amplifying Citrix’s disclosure of eight new vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway products: CVE-2026-88771 , CVE-2026-88772 , CVE-2026-88773 , CVE-2026-88774 , CVE-2026-88775",
+    "added": "2026-09-27T12:00:00+00:00",
+    "expires": "2026-10-11T20:04:29Z"
+  },
+  {
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA Advisories",
+    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-88771 Citrix NetScaler Improper Input Validation Vulnerability CVE-2026-887",
+    "added": "2026-09-27T12:00:00+00:00",
+    "expires": "2026-10-11T20:04:29Z"
+  },
+  {
     "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
     "url": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
     "source": "The Hacker News",
-    "summary": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr said on September 26.",
+    "summary": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six ot",
     "added": "2026-09-27T07:47:57+00:00",
-    "expires": "2026-10-11T13:34:27Z"
+    "expires": "2026-10-11T20:04:29Z"
   },
   {
     "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
@@ -13,7 +53,7 @@
     "source": "BleepingComputer",
     "summary": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35273 flaw, allowing the threat actors to resume widespread exploitation",
     "added": "2026-09-26T19:03:34+00:00",
-    "expires": "2026-10-11T13:34:27Z"
+    "expires": "2026-10-11T20:04:28Z"
   },
   {
     "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
@@ -21,7 +61,7 @@
     "source": "The Hacker News",
     "summary": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex. The new findings co",
     "added": "2026-09-26T18:22:52+00:00",
-    "expires": "2026-10-11T13:34:27Z"
+    "expires": "2026-10-11T20:04:29Z"
   },
   {
     "title": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
@@ -29,31 +69,7 @@
     "source": "BleepingComputer",
     "summary": "Anthropic's Claude Opus 5.5 appears to be changing how it writes, with new analysis showing fewer obvious AI writing patterns, shorter sentences, and simpler wording compared with Opus 5. [...]",
     "added": "2026-09-26T16:26:58+00:00",
-    "expires": "2026-10-11T13:34:27Z"
-  },
-  {
-    "title": "Microsoft pauses KB5002907 update after Office license deactivations",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
-    "source": "BleepingComputer",
-    "summary": "Microsoft has paused the rollout of the KB5002907 Microsoft 365 update after users report that it deactivated, or in some cases completely removed, perpetual Office 2016 and Office 2019 installations. [...]",
-    "added": "2026-09-26T15:50:38+00:00",
-    "expires": "2026-10-11T13:34:27Z"
-  },
-  {
-    "title": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
-    "url": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
-    "source": "BleepingComputer",
-    "summary": "Two third-party GitHub Actions previously compromised in a Mini Shai-Hulud campaign were re-enabled by their maintainer and remained accessible for more than a week despite still pointing to malicious code. [...]",
-    "added": "2026-09-26T14:19:46+00:00",
-    "expires": "2026-10-11T13:34:27Z"
-  },
-  {
-    "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
-    "source": "BleepingComputer",
-    "summary": "OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tasks. [...]",
-    "added": "2026-09-26T12:28:41+00:00",
-    "expires": "2026-10-11T13:34:27Z"
+    "expires": "2026-10-11T20:04:28Z"
   },
   {
     "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
@@ -61,7 +77,7 @@
     "source": "The Hacker News",
     "summary": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-linked activity involves the weaponization",
     "added": "2026-09-26T11:46:40+00:00",
-    "expires": "2026-10-11T13:34:27Z"
+    "expires": "2026-10-11T20:04:29Z"
   },
   {
     "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
@@ -69,7 +85,7 @@
     "source": "The Hacker News",
     "summary": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much producti",
     "added": "2026-09-26T10:30:00+00:00",
-    "expires": "2026-10-11T13:34:27Z"
+    "expires": "2026-10-11T20:04:29Z"
   },
   {
     "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
@@ -77,7 +93,7 @@
     "source": "The Hacker News",
     "summary": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of",
     "added": "2026-09-26T09:55:22+00:00",
-    "expires": "2026-10-11T13:34:27Z"
+    "expires": "2026-10-11T20:04:29Z"
   },
   {
     "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
@@ -85,7 +101,7 @@
     "source": "Krebs on Security",
     "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&T customers in 2024 was sentenced to 70 months in feder",
     "added": "2026-09-25T21:44:40+00:00",
-    "expires": "2026-10-11T13:34:27Z"
+    "expires": "2026-10-11T20:04:28Z"
   },
   {
     "title": "AI Sandbox Escapes: Why Forensic Readiness Matters More Than Containment",
@@ -93,7 +109,7 @@
     "source": "Dark Reading",
     "summary": "When autonomous AI agents \"escape the sandbox,\" the real story isn't rogue machines — it's the same access-control failures we've seen for decades.",
     "added": "2026-09-25T18:39:32+00:00",
-    "expires": "2026-10-11T13:34:27Z"
+    "expires": "2026-10-11T20:04:29Z"
   },
   {
     "title": "What We Missed: Google Gemini Joins the AI Escape Party",
@@ -101,7 +117,7 @@
     "source": "Dark Reading",
     "summary": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from Google Gemini models breaking containment to ShinyHunters ratting on TeamPCP hackers.",
     "added": "2026-09-25T17:56:23+00:00",
-    "expires": "2026-10-11T13:34:27Z"
+    "expires": "2026-10-11T20:04:29Z"
   },
   {
     "title": "Stopping IT Worker Scams Requires Revamped HR Process",
@@ -109,22 +125,6 @@
     "source": "Dark Reading",
     "summary": "Training human-resource managers in the latest tactics and warning signs goes a long way toward blunting the threat, but automated analysis can help even more.",
     "added": "2026-09-25T14:46:13+00:00",
-    "expires": "2026-10-11T13:34:27Z"
-  },
-  {
-    "title": "Russia's Hybrid Cyber-Physical War in Europe Heats Up",
-    "url": "https://www.darkreading.com/physical-security/russia-hybrid-cyber-physical-war-europe",
-    "source": "Dark Reading",
-    "summary": "A storm is raging in the form of cyber sabotage, disinformation, and drone attacks on European nations, particularly those that provide material support to Ukraine.",
-    "added": "2026-09-25T07:00:00+00:00",
-    "expires": "2026-10-11T13:34:27Z"
-  },
-  {
-    "title": "'Salesbleed' Exploits Salesforce Agents to Enable Slack Phishing",
-    "url": "https://www.darkreading.com/application-security/salesbleed-exploits-salesforce-agents-slack-phishing",
-    "source": "Dark Reading",
-    "summary": "Agentic AI can smuggle arbitrary instructions from the Web, across multiple apps, into trusted internal communications channels.",
-    "added": "2026-09-24T21:04:03+00:00",
-    "expires": "2026-10-11T13:34:27Z"
+    "expires": "2026-10-11T20:04:29Z"
   }
 ]
