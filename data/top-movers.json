@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T21:30:21Z",
+  "updated_at": "2026-09-27T21:45:11Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.005044,
-        "change_24h": 14.82,
-        "asset": "crypto"
-      },
-      {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.54,
-        "change_24h": 13.09,
+        "price": 5.55,
+        "change_24h": 12.7,
         "asset": "crypto"
       },
       {
         "symbol": "SUI",
         "name": "Sui",
         "price": 1.27,
-        "change_24h": 10.16,
+        "change_24h": 9.76,
         "asset": "crypto"
       },
       {
         "symbol": "XDC",
         "name": "XDC Network",
-        "price": 0.032361,
-        "change_24h": 8.91,
+        "price": 0.032457,
+        "change_24h": 9.06,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.361733,
+        "change_24h": 6.48,
         "asset": "crypto"
       },
       {
         "symbol": "PYTH",
         "name": "Pyth Network",
-        "price": 0.084245,
-        "change_24h": 6.75,
+        "price": 0.084229,
+        "change_24h": 5.34,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.031463,
-        "change_24h": -6.89,
+        "price": 0.031594,
+        "change_24h": -5.84,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 68.64,
-        "change_24h": -5.81,
+        "price": 68.54,
+        "change_24h": -5.53,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1597.03,
+        "change_24h": -4.53,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
         "price": 4.67,
-        "change_24h": -3.28,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1604.88,
-        "change_24h": -2.91,
+        "change_24h": -4.15,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.846179,
-        "change_24h": -2.62,
+        "price": 0.842602,
+        "change_24h": -3.31,
         "asset": "crypto"
       }
     ]
