@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T13:45:10Z",
+  "updated_at": "2026-09-27T14:00:19Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,23 +80,30 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.24,
+        "change_24h": 8.56,
+        "asset": "crypto"
+      },
+      {
         "symbol": "GRAM",
         "name": "Gram (prev. Toncoin)",
         "price": 1.6,
-        "change_24h": 8.43,
+        "change_24h": 8.33,
         "asset": "crypto"
       },
       {
         "symbol": "PYTH",
         "name": "Pyth Network",
-        "price": 0.085034,
-        "change_24h": 7.91,
+        "price": 0.08375,
+        "change_24h": 7.84,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1647.51,
+        "price": 1650.92,
         "change_24h": 7.41,
         "asset": "crypto"
       },
@@ -104,14 +111,7 @@
         "symbol": "SUI",
         "name": "Sui",
         "price": 1.25,
-        "change_24h": 7.05,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 5.14,
-        "change_24h": 7.0,
+        "change_24h": 6.46,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.838184,
-        "change_24h": -6.78,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.336584,
-        "change_24h": -3.58,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.074892,
-        "change_24h": -3.16,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MNT",
-        "name": "Mantle",
-        "price": 0.683387,
-        "change_24h": -2.58,
+        "price": 0.836713,
+        "change_24h": -6.97,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 68.03,
-        "change_24h": -2.52,
+        "price": 68.06,
+        "change_24h": -3.66,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.336738,
+        "change_24h": -3.52,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "MNT",
+        "name": "Mantle",
+        "price": 0.682675,
+        "change_24h": -2.67,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.075462,
+        "change_24h": -2.66,
         "asset": "crypto"
       }
     ]
