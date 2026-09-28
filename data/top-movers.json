@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-28T19:45:27Z",
+  "updated_at": "2026-09-28T20:00:38Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "MAAS",
         "name": "Maase Inc.",
-        "price": 17.62,
-        "change_24h": 14.67,
+        "price": 17.95,
+        "change_24h": 16.79,
         "asset": "equity"
       },
       {
         "symbol": "ABCL",
         "name": "AbCellera Biologics Inc.",
-        "price": 14.06,
-        "change_24h": 10.71,
-        "asset": "equity"
-      },
-      {
-        "symbol": "BB",
-        "name": "BlackBerry Limited",
-        "price": 8.925,
-        "change_24h": 8.71,
-        "asset": "equity"
-      },
-      {
-        "symbol": "LQDA",
-        "name": "Liquidia Corporation",
-        "price": 74.65,
-        "change_24h": 9.09,
+        "price": 13.92,
+        "change_24h": 9.61,
         "asset": "equity"
       },
       {
         "symbol": "CAAP",
         "name": "Corporacion America Airports SA",
-        "price": 26.01,
-        "change_24h": 8.92,
+        "price": 26.05,
+        "change_24h": 9.09,
+        "asset": "equity"
+      },
+      {
+        "symbol": "HHH",
+        "name": "Howard Hughes Holdings Inc.",
+        "price": 73.92,
+        "change_24h": 8.02,
+        "asset": "equity"
+      },
+      {
+        "symbol": "ADMA",
+        "name": "ADMA Biologics Inc",
+        "price": 10.12,
+        "change_24h": 7.89,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "MDB",
         "name": "MongoDB, Inc.",
-        "price": 341.65,
-        "change_24h": -16.76,
+        "price": 334.68,
+        "change_24h": -18.46,
         "asset": "equity"
       },
       {
         "symbol": "GFI",
         "name": "Gold Fields Limited",
-        "price": 35.25,
-        "change_24h": -12.7,
-        "asset": "equity"
-      },
-      {
-        "symbol": "MOD",
-        "name": "Modine Manufacturing Company",
-        "price": 174.3,
-        "change_24h": -12.0,
+        "price": 35.17,
+        "change_24h": -12.9,
         "asset": "equity"
       },
       {
         "symbol": "AUR",
         "name": "Aurora Innovation, Inc.",
-        "price": 5.355,
-        "change_24h": -11.34,
+        "price": 5.29,
+        "change_24h": -12.42,
+        "asset": "equity"
+      },
+      {
+        "symbol": "MOD",
+        "name": "Modine Manufacturing Company",
+        "price": 175.31,
+        "change_24h": -11.49,
         "asset": "equity"
       },
       {
         "symbol": "NU",
         "name": "Nu Holdings Ltd.",
-        "price": 12.26,
-        "change_24h": -9.79,
+        "price": 12.22,
+        "change_24h": -10.04,
         "asset": "equity"
       }
     ]
@@ -82,73 +82,73 @@
       {
         "symbol": "HBAR",
         "name": "Hedera",
-        "price": 0.125765,
-        "change_24h": 32.6,
+        "price": 0.121655,
+        "change_24h": 28.25,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.13189,
-        "change_24h": 10.9,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XDC",
-        "name": "XDC Network",
-        "price": 0.035083,
-        "change_24h": 7.6,
+        "price": 0.131465,
+        "change_24h": 10.56,
         "asset": "crypto"
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price": 15.0,
-        "change_24h": 6.74,
+        "price": 15.11,
+        "change_24h": 7.41,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.005158,
-        "change_24h": 5.19,
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price": 0.227344,
+        "change_24h": 5.14,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price": 0.034247,
+        "change_24h": 5.09,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 4.7,
-        "change_24h": -13.58,
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.483012,
+        "change_24h": -13.73,
         "asset": "crypto"
       },
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.484596,
-        "change_24h": -13.31,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 4.72,
+        "change_24h": -12.95,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.200636,
+        "price": 0.201174,
         "change_24h": -11.64,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 8.75,
-        "change_24h": -10.11,
+        "price": 8.76,
+        "change_24h": -10.02,
         "asset": "crypto"
       },
       {
         "symbol": "SUI",
         "name": "Sui",
-        "price": 1.14,
-        "change_24h": -9.97,
+        "price": 1.15,
+        "change_24h": -9.7,
         "asset": "crypto"
       }
     ]
