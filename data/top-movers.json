@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T08:30:14Z",
+  "updated_at": "2026-09-28T08:45:12Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "XDC",
         "name": "XDC Network",
-        "price": 0.034249,
-        "change_24h": 12.32,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004888,
-        "change_24h": 9.53,
+        "price": 0.034268,
+        "change_24h": 12.29,
         "asset": "crypto"
       },
       {
         "symbol": "HBAR",
         "name": "Hedera",
-        "price": 0.098405,
-        "change_24h": 3.17,
+        "price": 0.105193,
+        "change_24h": 10.21,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.004876,
+        "change_24h": 9.78,
         "asset": "crypto"
       },
       {
         "symbol": "GRAM",
         "name": "Gram (prev. Toncoin)",
-        "price": 1.64,
-        "change_24h": 2.51,
+        "price": 1.63,
+        "change_24h": 2.58,
         "asset": "crypto"
       },
       {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.139277,
-        "change_24h": 2.19,
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.127912,
+        "change_24h": 2.24,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.029785,
-        "change_24h": -10.92,
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price": 306.47,
+        "change_24h": -10.7,
         "asset": "crypto"
       },
       {
-        "symbol": "BCH",
-        "name": "Bitcoin Cash",
-        "price": 307.45,
-        "change_24h": -10.63,
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.029621,
+        "change_24h": -10.65,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.783117,
-        "change_24h": -10.01,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "TAO",
-        "name": "Bittensor",
-        "price": 303.39,
-        "change_24h": -9.59,
+        "price": 0.780439,
+        "change_24h": -9.99,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.20853,
-        "change_24h": -9.51,
+        "price": 0.207896,
+        "change_24h": -9.7,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 9.01,
+        "change_24h": -9.66,
         "asset": "crypto"
       }
     ]
