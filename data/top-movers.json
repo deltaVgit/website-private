@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T05:30:15Z",
+  "updated_at": "2026-09-28T05:45:12Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "XDC",
-        "name": "XDC Network",
-        "price": 0.033091,
-        "change_24h": 8.99,
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "price": 0.578198,
+        "change_24h": 7.97,
         "asset": "crypto"
       },
       {
-        "symbol": "ONDO",
-        "name": "Ondo",
-        "price": 0.575906,
-        "change_24h": 8.61,
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price": 0.032804,
+        "change_24h": 7.94,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.08076,
-        "change_24h": 5.26,
+        "price": 0.080045,
+        "change_24h": 3.76,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.128131,
+        "change_24h": 2.79,
         "asset": "crypto"
       },
       {
         "symbol": "SUI",
         "name": "Sui",
         "price": 1.21,
-        "change_24h": 3.57,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.128088,
-        "change_24h": 2.85,
+        "change_24h": 2.37,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.028731,
+        "change_24h": -14.65,
+        "asset": "crypto"
+      },
+      {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.795144,
-        "change_24h": -7.98,
+        "price": 0.79534,
+        "change_24h": -8.24,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 66.74,
-        "change_24h": -7.22,
+        "price": 66.44,
+        "change_24h": -8.23,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.683851,
-        "change_24h": -6.2,
+        "price": 0.68105,
+        "change_24h": -7.45,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 9.28,
-        "change_24h": -5.96,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.45,
-        "change_24h": -5.69,
+        "price": 9.2,
+        "change_24h": -6.51,
         "asset": "crypto"
       }
     ]
