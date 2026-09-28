@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-09-27T20:04:29Z",
+  "updatedAt": "2026-09-28T02:34:30Z",
   "kev": [
+    {
+      "cve": "CVE-2026-88772",
+      "product": "NetScaler",
+      "vendor": "Citrix",
+      "name": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+      "dateAdded": "2026-09-27",
+      "dueDate": "2026-09-30",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-88771",
+      "product": "NetScaler",
+      "vendor": "Citrix",
+      "name": "Citrix NetScaler Improper Input Validation Vulnerability",
+      "dateAdded": "2026-09-27",
+      "dueDate": "2026-09-30",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2026-67279",
       "product": "RouterOS",
@@ -108,110 +126,92 @@
       "dateAdded": "2026-09-18",
       "dueDate": "2026-09-21",
       "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2025-39682",
-      "product": "Kernel",
-      "vendor": "Linux",
-      "name": "Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability",
-      "dateAdded": "2026-09-18",
-      "dueDate": "2026-09-21",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-58704",
-      "product": "Pixel",
-      "vendor": "Google",
-      "name": "Google Pixel Improper Authorization Vulnerability",
-      "dateAdded": "2026-09-16",
-      "dueDate": "2026-09-19",
-      "knownRansomware": "Unknown"
     }
   ],
   "cves": [
     {
-      "id": "CVE-2026-86710",
+      "id": "CVE-2026-69843",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "description": "Authentication bypass by spoofing in Microsoft Fabric allows an unauthorized attacker to elevate privileges over a network.",
+      "published": "2026-09-18T00:17:24.923"
+    },
+    {
+      "id": "CVE-2026-62874",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "description": "Insufficient verification of data authenticity in Azure Billing allows an unauthorized attacker to elevate privileges over a network.",
+      "published": "2026-09-18T00:16:57.930"
+    },
+    {
+      "id": "CVE-2026-85878",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "description": "Improper authorization in Azure Database for PostgreSQL allows an authorized attacker to elevate privileges over a network.",
+      "published": "2026-09-18T00:17:47.777"
+    },
+    {
+      "id": "CVE-2026-93467",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "The Login with QR WordPress plugin through 1.0.0 does not verify that the code used to log a user in is one it issued, matching any stored user metadata value instead, which allows unauthenticated attackers to log in as ",
-      "published": "2026-09-17T06:16:51.437"
+      "description": "The OAKlouds developed by HGiga has a Insecure Deserialization vulnerability. Unauthenticated remote attackers can execute arbitrary code on the server by sending maliciously crafted serialized content.",
+      "published": "2026-09-18T03:16:33.753"
     },
     {
-      "id": "CVE-2026-86709",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The Pressengine WordPress plugin through 1.0 does not stop its login handler from issuing a session when authentication fails, allowing unauthenticated attackers to log in as any user, including administrators.",
-      "published": "2026-09-17T06:16:51.327"
-    },
-    {
-      "id": "CVE-2026-86707",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The Private Feed Key WordPress plugin through 0.1 does not verify that the key used to authenticate a feed request is one it issued, matching any stored user metadata value instead, which allows unauthenticated attackers",
-      "published": "2026-09-17T06:16:51.213"
-    },
-    {
-      "id": "CVE-2026-87796",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The Multi Uploader for Gravity Forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.1.9 via the move_file function. This is due to insufficient file type validation du",
-      "published": "2026-09-17T05:17:02.123"
-    },
-    {
-      "id": "CVE-2026-88795",
-      "severity": "CRITICAL",
-      "score": 9.0,
-      "description": "The wpShopGermany IT-RECHT KANZLEI WordPress plugin before 2.4 does not generate its API authentication token securely, deriving it from data the requester controls and creating it as a side effect of the check that is s",
-      "published": "2026-09-17T06:16:52.097"
-    },
-    {
-      "id": "CVE-2026-88904",
+      "id": "CVE-2026-17086",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "The PuppyFW WordPress plugin through 0.4.4 does not have proper authorisation on one of its REST routes, which tests the caller against a capability taken from the request itself, allowing any authenticated user, includi",
-      "published": "2026-09-17T06:16:52.203"
+      "description": "The ShortPixel Image Optimizer – Optimize Images, Convert WebP & AVIF plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 6.5.5 via deserialization of untrusted input . This m",
+      "published": "2026-09-18T04:17:28.900"
     },
     {
-      "id": "CVE-2026-88792",
+      "id": "CVE-2026-79954",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "The Dictionary WordPress plugin through 1.0 does not have authorisation, sanitisation or escaping in place when adding or updating dictionary entries, allowing unauthenticated users to store arbitrary web scripts which w",
-      "published": "2026-09-17T06:16:51.990"
+      "score": 8.7,
+      "description": "NASA CryptoLib 1.5.0 contains an authentication downgrade vulnerability in the Telecommand (TC) receive path. The receiver selects the Security Association used for SDLS processing solely from the SPI field inside the in",
+      "published": "2026-09-18T01:16:56.120"
     },
     {
-      "id": "CVE-2026-87786",
+      "id": "CVE-2026-93371",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "The Dewa Kirim WordPress plugin through 1.0.0 does not escape delivery coordinates submitted at checkout before outputting them inside an inline script, allowing unauthenticated users to store JavaScript that runs in the",
-      "published": "2026-09-17T06:16:51.773"
+      "score": 8.3,
+      "description": "A security vulnerability has been detected in marcopiovanello yt-dlp-web-ui up to v4. This issue affects the function NewGenericDownload of the file server/internal/downloaders/generic.go. Such manipulation of the argume",
+      "published": "2026-09-18T03:16:33.563"
     },
     {
-      "id": "CVE-2026-85130",
+      "id": "CVE-2026-93453",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "The WPLP Cookie Consent WordPress plugin before 4.4.4 does not escape a value submitted through a public endpoint for the JavaScript context it is later output in on an administrative screen, allowing unauthenticated use",
-      "published": "2026-09-17T06:16:50.990"
+      "score": 8.3,
+      "description": "SOGo before 5.12.11 constructs password-reset links using the client-supplied Origin header as the authority, allowing unauthenticated attackers to redirect recovery tokens to attacker-controlled domains. Attackers can s",
+      "published": "2026-09-18T00:17:49.693"
     },
     {
-      "id": "CVE-2026-25283",
+      "id": "CVE-2026-93456",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "Memory Corruption when copying unverified data from an external source exceeds the allocated buffer size.",
-      "published": "2026-09-17T05:17:01.390"
+      "score": 8.2,
+      "description": "django-page-cms through 2.0.13 exempts five admin mutation views from CSRF protection in pages/admin/views.py, allowing attackers to forge requests that modify page content. Signed-in editors visiting a malicious page ca",
+      "published": "2026-09-18T02:17:09.113"
     },
     {
-      "id": "CVE-2026-87935",
+      "id": "CVE-2026-83946",
       "severity": "HIGH",
-      "score": 8.1,
-      "description": "The Paid Downloads plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 3.15 via the admin_request_handler function. This is due to missing authorization and file type validat",
-      "published": "2026-09-17T05:17:02.263"
+      "score": 8.2,
+      "description": "Improper neutralization of input during web page generation ('cross-site scripting') in Azure Portal allows an unauthorized attacker to perform spoofing over a network.",
+      "published": "2026-09-18T00:17:44.960"
     },
     {
-      "id": "CVE-2026-25282",
+      "id": "CVE-2026-18912",
       "severity": "HIGH",
-      "score": 7.9,
-      "description": "Transient DOS when processing unverified data from a neighboring system causes out of bound memory access.",
-      "published": "2026-09-17T05:17:01.253"
+      "score": 7.7,
+      "description": "ManageEngine DataSecurity Plus versions before 6310 are vulnerable to an authenticated SQL injection vulnerability, allowing an authenticated technician to execute arbitrary SQL queries through the Reports module.",
+      "published": "2026-09-18T06:16:33.250"
+    },
+    {
+      "id": "CVE-2026-85887",
+      "severity": "HIGH",
+      "score": 7.7,
+      "description": "Incorrect permission assignment for critical resource in M365 Copilot allows an authorized attacker to disclose information over a network.",
+      "published": "2026-09-18T00:17:47.920"
     }
   ],
   "breaches": [
