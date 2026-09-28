@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T11:30:27Z",
+  "updated_at": "2026-09-28T11:45:27Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "HBAR",
         "name": "Hedera",
-        "price": 0.116737,
-        "change_24h": 23.13,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XDC",
-        "name": "XDC Network",
-        "price": 0.034476,
-        "change_24h": 10.53,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ALGO",
-        "name": "Algorand",
-        "price": 0.129733,
-        "change_24h": 10.52,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.26,
-        "change_24h": 10.45,
+        "price": 0.117891,
+        "change_24h": 24.69,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004893,
-        "change_24h": 8.86,
+        "price": 0.005025,
+        "change_24h": 12.06,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ALGO",
+        "name": "Algorand",
+        "price": 0.129779,
+        "change_24h": 11.03,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price": 0.034715,
+        "change_24h": 10.13,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.27,
+        "change_24h": 10.09,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 8.95,
-        "change_24h": -10.38,
-        "asset": "crypto"
-      },
-      {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.510057,
-        "change_24h": -10.23,
+        "price": 0.510644,
+        "change_24h": -10.84,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 28.09,
-        "change_24h": -9.45,
+        "price": 28.1,
+        "change_24h": -10.31,
         "asset": "crypto"
       },
       {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.208198,
-        "change_24h": -8.9,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 8.96,
+        "change_24h": -9.52,
         "asset": "crypto"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 310.03,
-        "change_24h": -8.4,
+        "price": 310.4,
+        "change_24h": -8.22,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.208738,
+        "change_24h": -8.15,
         "asset": "crypto"
       }
     ]
