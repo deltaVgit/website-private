@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-28T17:30:26Z",
+  "updated_at": "2026-09-28T17:45:27Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "MAAS",
         "name": "Maase Inc.",
-        "price": 17.88,
-        "change_24h": 16.33,
+        "price": 17.8,
+        "change_24h": 15.81,
         "asset": "equity"
       },
       {
         "symbol": "CAAP",
         "name": "Corporacion America Airports SA",
-        "price": 26.04,
-        "change_24h": 9.05,
-        "asset": "equity"
-      },
-      {
-        "symbol": "DFTX",
-        "name": "Definium Therapeutics, Inc.",
-        "price": 38.72,
-        "change_24h": 7.05,
+        "price": 26.01,
+        "change_24h": 8.92,
         "asset": "equity"
       },
       {
         "symbol": "VSXY",
         "name": "Victorias Secret & Co.",
-        "price": 88.69,
-        "change_24h": 6.97,
+        "price": 89.27,
+        "change_24h": 7.68,
         "asset": "equity"
       },
       {
         "symbol": "HHH",
         "name": "Howard Hughes Holdings Inc.",
-        "price": 73.13,
-        "change_24h": 6.87,
+        "price": 73.11,
+        "change_24h": 6.84,
+        "asset": "equity"
+      },
+      {
+        "symbol": "MBX",
+        "name": "MBX Biosciences, Inc.",
+        "price": 57.38,
+        "change_24h": 6.98,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "MDB",
         "name": "MongoDB, Inc.",
-        "price": 340.25,
-        "change_24h": -17.1,
+        "price": 339.96,
+        "change_24h": -17.17,
         "asset": "equity"
       },
       {
         "symbol": "GFI",
         "name": "Gold Fields Limited",
-        "price": 35.61,
-        "change_24h": -11.81,
+        "price": 35.58,
+        "change_24h": -11.89,
         "asset": "equity"
       },
       {
         "symbol": "CRDO",
         "name": "Credo Technology Group Holding ",
-        "price": 192.03,
-        "change_24h": -8.98,
+        "price": 192.21,
+        "change_24h": -8.89,
         "asset": "equity"
       },
       {
         "symbol": "NU",
         "name": "Nu Holdings Ltd.",
-        "price": 12.4,
-        "change_24h": -8.72,
+        "price": 12.41,
+        "change_24h": -8.65,
         "asset": "equity"
       },
       {
-        "symbol": "MOD",
-        "name": "Modine Manufacturing Company",
-        "price": 181.09,
-        "change_24h": -8.58,
+        "symbol": "CLF",
+        "name": "Cleveland-Cliffs Inc.",
+        "price": 11.12,
+        "change_24h": -8.74,
         "asset": "equity"
       }
     ]
@@ -82,73 +82,73 @@
       {
         "symbol": "HBAR",
         "name": "Hedera",
-        "price": 0.128009,
-        "change_24h": 37.06,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XDC",
-        "name": "XDC Network",
-        "price": 0.034984,
-        "change_24h": 8.39,
+        "price": 0.128702,
+        "change_24h": 37.5,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.005249,
-        "change_24h": 8.05,
+        "price": 0.005272,
+        "change_24h": 8.82,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price": 0.034949,
+        "change_24h": 8.33,
         "asset": "crypto"
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price": 15.21,
-        "change_24h": 7.82,
+        "price": 15.22,
+        "change_24h": 7.75,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.079907,
-        "change_24h": 5.82,
+        "price": 0.079428,
+        "change_24h": 5.29,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.022,
+        "change_24h": -13.91,
+        "asset": "crypto"
+      },
+      {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.499186,
-        "change_24h": -11.09,
+        "price": 0.499813,
+        "change_24h": -10.6,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
         "price": 1.052,
-        "change_24h": -8.35,
+        "change_24h": -8.38,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 8.91,
-        "change_24h": -8.17,
+        "price": 8.9,
+        "change_24h": -7.97,
         "asset": "crypto"
       },
       {
-        "symbol": "PYTH",
-        "name": "Pyth Network",
-        "price": 0.079188,
-        "change_24h": -7.78,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ATOM",
-        "name": "Cosmos Hub",
-        "price": 1.73,
-        "change_24h": -7.48,
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.205283,
+        "change_24h": -7.41,
         "asset": "crypto"
       }
     ]
