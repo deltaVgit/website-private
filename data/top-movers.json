@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-28T14:15:27Z",
+  "updated_at": "2026-09-28T14:30:28Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "VSXY",
-        "name": "Victorias Secret & Co.",
-        "price": 87.58,
-        "change_24h": 5.64,
-        "asset": "equity"
-      },
-      {
         "symbol": "CAAP",
         "name": "Corporacion America Airports SA",
-        "price": 25.28,
-        "change_24h": 5.86,
+        "price": 25.66,
+        "change_24h": 7.43,
         "asset": "equity"
       },
       {
-        "symbol": "TRLV",
-        "name": "Trulieve Cannabis Corp. Subordi",
-        "price": 12.78,
-        "change_24h": 4.67,
+        "symbol": "VSXY",
+        "name": "Victorias Secret & Co.",
+        "price": 87.99,
+        "change_24h": 6.13,
         "asset": "equity"
       },
       {
-        "symbol": "NWCL",
-        "name": "newcleo plc Ordinary Shares",
-        "price": 7.675,
-        "change_24h": 3.37,
+        "symbol": "NTES",
+        "name": "NetEase, Inc.",
+        "price": 121.23,
+        "change_24h": 5.04,
         "asset": "equity"
       },
       {
         "symbol": "AEO",
         "name": "American Eagle Outfitters, Inc.",
-        "price": 17.36,
-        "change_24h": 4.73,
+        "price": 17.38,
+        "change_24h": 4.79,
+        "asset": "equity"
+      },
+      {
+        "symbol": "ABVX",
+        "name": "Abivax SA",
+        "price": 94.97,
+        "change_24h": 4.29,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "MDB",
         "name": "MongoDB, Inc.",
-        "price": 330.83,
-        "change_24h": -19.4,
+        "price": 329.43,
+        "change_24h": -19.74,
         "asset": "equity"
       },
       {
         "symbol": "GFI",
         "name": "Gold Fields Limited",
-        "price": 35.5,
-        "change_24h": -12.09,
+        "price": 35.7,
+        "change_24h": -11.59,
         "asset": "equity"
       },
       {
         "symbol": "ARM",
         "name": "Arm Holdings plc",
-        "price": 281.92,
-        "change_24h": -9.15,
+        "price": 282.9,
+        "change_24h": -8.83,
         "asset": "equity"
       },
       {
-        "symbol": "CRDO",
-        "name": "Credo Technology Group Holding ",
-        "price": 193.97,
-        "change_24h": -8.06,
+        "symbol": "RBLX",
+        "name": "Roblox Corporation",
+        "price": 42.7,
+        "change_24h": -8.04,
         "asset": "equity"
       },
       {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "price": 86.33,
-        "change_24h": -8.0,
+        "symbol": "BE",
+        "name": "Bloom Energy Corporation",
+        "price": 265.39,
+        "change_24h": -8.07,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "HBAR",
         "name": "Hedera",
-        "price": 0.121216,
-        "change_24h": 28.95,
+        "price": 0.119598,
+        "change_24h": 27.92,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.134072,
-        "change_24h": 14.9,
+        "price": 0.133327,
+        "change_24h": 14.67,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.005268,
-        "change_24h": 12.14,
+        "price": 0.005132,
+        "change_24h": 9.0,
         "asset": "crypto"
       },
       {
         "symbol": "XDC",
         "name": "XDC Network",
-        "price": 0.033996,
-        "change_24h": 8.59,
+        "price": 0.033929,
+        "change_24h": 7.75,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.07963,
-        "change_24h": 5.27,
+        "price": 0.079179,
+        "change_24h": 5.18,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.507656,
-        "change_24h": -10.85,
+        "price": 0.49872,
+        "change_24h": -11.73,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 8.95,
-        "change_24h": -9.23,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.35,
-        "change_24h": -8.04,
+        "price": 8.86,
+        "change_24h": -9.25,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 28.07,
-        "change_24h": -7.69,
+        "price": 27.77,
+        "change_24h": -8.28,
         "asset": "crypto"
       },
       {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 1.053,
-        "change_24h": -7.16,
+        "symbol": "ATOM",
+        "name": "Cosmos Hub",
+        "price": 1.72,
+        "change_24h": -7.7,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CAKE",
+        "name": "PancakeSwap",
+        "price": 2.63,
+        "change_24h": -7.63,
         "asset": "crypto"
       }
     ]
