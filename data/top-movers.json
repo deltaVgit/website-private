@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-09-28T13:30:27Z",
+  "updated_at": "2026-09-28T13:45:27Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "PPLI",
-        "name": "People Incorporated",
-        "price": 40.0,
-        "change_24h": 11.33,
+        "symbol": "XXI",
+        "name": "Twenty One Capital, Inc.",
+        "price": 7.055,
+        "change_24h": 6.18,
         "asset": "equity"
       },
       {
-        "symbol": "ALM",
-        "name": "Almonty Industries Inc.",
-        "price": 13.21,
-        "change_24h": -3.72,
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "price": 16.88,
+        "change_24h": 5.82,
         "asset": "equity"
       },
       {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "price": 92.35,
-        "change_24h": -1.59,
+        "symbol": "NTES",
+        "name": "NetEase, Inc.",
+        "price": 121.25,
+        "change_24h": 5.06,
         "asset": "equity"
       },
       {
-        "symbol": "MAAS",
-        "name": "Maase Inc.",
-        "price": 15.37,
-        "change_24h": 0.0,
+        "symbol": "PONY",
+        "name": "Pony AI Inc.",
+        "price": 7.245,
+        "change_24h": 5.15,
         "asset": "equity"
       },
       {
-        "symbol": "VECO",
-        "name": "Veeco Instruments Inc.",
-        "price": 49.67,
-        "change_24h": 9.28,
+        "symbol": "BURL",
+        "name": "Burlington Stores, Inc.",
+        "price": 264.3,
+        "change_24h": 3.71,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "ZS",
-        "name": "Zscaler, Inc.",
-        "price": 189.35,
-        "change_24h": -1.91,
+        "symbol": "MDB",
+        "name": "MongoDB, Inc.",
+        "price": 317.32,
+        "change_24h": -22.69,
         "asset": "equity"
       },
       {
-        "symbol": "FRVO",
-        "name": "Fervo Energy Company",
-        "price": 15.1,
-        "change_24h": -0.53,
+        "symbol": "GFI",
+        "name": "Gold Fields Limited",
+        "price": 35.58,
+        "change_24h": -11.89,
         "asset": "equity"
       },
       {
-        "symbol": "CHRN",
-        "name": "ChronoScale Holdings Corporatio",
-        "price": 19.51,
-        "change_24h": -1.71,
+        "symbol": "HUBS",
+        "name": "HubSpot, Inc.",
+        "price": 190.46,
+        "change_24h": -10.89,
         "asset": "equity"
       },
       {
-        "symbol": "PURR",
-        "name": "Hyperliquid Strategies Inc",
-        "price": 12.58,
-        "change_24h": -2.1,
+        "symbol": "NU",
+        "name": "Nu Holdings Ltd.",
+        "price": 12.52,
+        "change_24h": -7.84,
         "asset": "equity"
       },
       {
-        "symbol": "TWLO",
-        "name": "Twilio Inc.",
-        "price": 266.55,
-        "change_24h": -3.37,
+        "symbol": "ARM",
+        "name": "Arm Holdings plc",
+        "price": 285.17,
+        "change_24h": -8.11,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "HBAR",
         "name": "Hedera",
-        "price": 0.118248,
-        "change_24h": 26.08,
+        "price": 0.122336,
+        "change_24h": 30.47,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.131093,
-        "change_24h": 12.29,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XDC",
-        "name": "XDC Network",
-        "price": 0.033851,
-        "change_24h": 8.1,
+        "price": 0.133792,
+        "change_24h": 14.89,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.080536,
-        "change_24h": 5.63,
+        "price": 0.080753,
+        "change_24h": 7.9,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price": 0.033987,
+        "change_24h": 7.54,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.131658,
-        "change_24h": 4.76,
+        "price": 0.131866,
+        "change_24h": 4.92,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.514981,
-        "change_24h": -10.43,
+        "price": 0.514803,
+        "change_24h": -11.31,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 9.01,
-        "change_24h": -8.47,
+        "price": 9.04,
+        "change_24h": -7.74,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.36,
-        "change_24h": -7.54,
+        "price": 4.38,
+        "change_24h": -7.32,
         "asset": "crypto"
       },
       {
-        "symbol": "ATOM",
-        "name": "Cosmos Hub",
-        "price": 1.73,
-        "change_24h": -7.25,
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price": 313.39,
+        "change_24h": -6.63,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
         "price": 2.65,
-        "change_24h": -7.04,
+        "change_24h": -6.37,
         "asset": "crypto"
       }
     ]
