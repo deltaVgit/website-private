@@ -1,130 +1,130 @@
 [
   {
+    "title": "One Packet Can Crash OT Servers in Industrial Sectors",
+    "url": "https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine",
+    "source": "Dark Reading",
+    "summary": "A high-severity zero-day vulnerability affects the TDengine time-series database used across industrial, IoT, energy, and automotive environments.",
+    "added": "2026-09-28T21:13:04+00:00",
+    "expires": "2026-10-12T22:34:46Z"
+  },
+  {
+    "title": "Japan's Keio confirms ransomware attack disrupted business systems",
+    "url": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
+    "source": "BleepingComputer",
+    "summary": "Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrupting some of its business systems. [...]",
+    "added": "2026-09-28T20:56:47+00:00",
+    "expires": "2026-10-12T22:34:46Z"
+  },
+  {
+    "title": "Times Car confirms data breach affecting 6.6 million user accounts",
+    "url": "https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts/",
+    "source": "BleepingComputer",
+    "summary": "Japanese car-sharing service Times Car has confirmed that approximately 6.6 million user accounts were compromised in a cyberattack disclosed late last week. [...]",
+    "added": "2026-09-28T20:31:16+00:00",
+    "expires": "2026-10-12T22:34:46Z"
+  },
+  {
+    "title": "Carbonato Botnet Puts an AI Agent on Hacked Docker Hosts",
+    "url": "https://www.darkreading.com/identity-access-management-security/carbonato-botnet-ai-agent-hacked-docker-hosts",
+    "source": "Dark Reading",
+    "summary": "The botnet uses the open source Hermes Agent AI framework to execute commands via Telegram and steal AI API keys from exposed Docker hosts.",
+    "added": "2026-09-28T20:23:58+00:00",
+    "expires": "2026-10-12T22:34:46Z"
+  },
+  {
+    "title": "Dutch police confirm arrest in ShinyHunters hacking investigation",
+    "url": "https://www.bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation/",
+    "source": "BleepingComputer",
+    "summary": "Dutch police have confirmed that a 24-year-old Amsterdam man arrested earlier this month was detained as part of an investigation into the ShinyHunters hacking group. [...]",
+    "added": "2026-09-28T19:49:10+00:00",
+    "expires": "2026-10-12T22:34:46Z"
+  },
+  {
+    "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
+    "url": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
+    "source": "The Hacker News",
+    "summary": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks. The vulnerability, tracked as CVE-2026-86950, refers to",
+    "added": "2026-09-28T19:18:01+00:00",
+    "expires": "2026-10-12T22:34:46Z"
+  },
+  {
+    "title": "Over 16,000 Supabase databases expose PII, passwords, auth tokens",
+    "url": "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/",
+    "source": "BleepingComputer",
+    "summary": "Researchers found more than 16,000 misconfigured Supabase databases exposing readable tables with personally identifiable information, passwords, or authentication tokens. [...]",
+    "added": "2026-09-28T18:50:59+00:00",
+    "expires": "2026-10-12T22:34:46Z"
+  },
+  {
+    "title": "AI Agents Are Privileged Users; Who Is Auditing Their Access?",
+    "url": "https://www.darkreading.com/vulnerabilities-threats/ai-agents-are-privileged-users-who-is-auditing-their-access",
+    "source": "Dark Reading",
+    "summary": "Enterprises regularly rigorously monitor human employees, while autonomous AI agents quietly operate with broad privileges that could turn them into the next generation of insider threats.",
+    "added": "2026-09-28T18:44:22+00:00",
+    "expires": "2026-10-12T22:34:46Z"
+  },
+  {
+    "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
+    "url": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
+    "source": "The Hacker News",
+    "summary": "Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in a technical analysis. The malware has been seen in a small number of targeted in",
+    "added": "2026-09-28T18:35:42+00:00",
+    "expires": "2026-10-12T22:34:46Z"
+  },
+  {
+    "title": "IAM for AI agents: A Practical Enterprise Framework",
+    "url": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
+    "source": "The Hacker News",
+    "summary": "What is IAM for AI agents? AI agents authenticate, invoke tools, and act across enterprise systems with delegated authority. IAM for AI Agents is the identity-control architecture that governs those actors. This guide co",
+    "added": "2026-09-28T18:20:38+00:00",
+    "expires": "2026-10-12T22:34:46Z"
+  },
+  {
+    "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
+    "url": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
+    "source": "The Hacker News",
+    "summary": "The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday. The attacker exploited t",
+    "added": "2026-09-28T17:42:18+00:00",
+    "expires": "2026-10-12T22:34:46Z"
+  },
+  {
+    "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
+    "url": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
+    "source": "The Hacker News",
+    "summary": "RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has traced nearly 100 deployments of that console since April 2",
+    "added": "2026-09-28T17:38:33+00:00",
+    "expires": "2026-10-12T22:34:46Z"
+  },
+  {
+    "title": "Chrome Store Hosts 'Poper Blocker' Spyware Downloaded by Millions",
+    "url": "https://www.darkreading.com/application-security/chrome-store-poper-blocker-spyware-downloaded-millions",
+    "source": "Dark Reading",
+    "summary": "A purported ad-blocker exfiltrates reams of sensitive information and benefits from having Google's stamp of approval despite researcher warnings.",
+    "added": "2026-09-28T16:51:25+00:00",
+    "expires": "2026-10-12T22:34:46Z"
+  },
+  {
+    "title": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
+    "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
+    "source": "BleepingComputer",
+    "summary": "The JadePuffer ransomware operator is targeting Azure tenants with agent-driven attacks that conduct reconnaissance, steal credentials, and destroy core components. [...]",
+    "added": "2026-09-28T15:49:27+00:00",
+    "expires": "2026-10-12T22:34:46Z"
+  },
+  {
+    "title": "JadePuffer AI Actor Compromises Azure Tenant in Destructive Cloud Attack",
+    "url": "https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack",
+    "source": "Dark Reading",
+    "summary": "The \"agentic threat actor\" may have used exposed credentials to access resources and delete cloud-based storage, applications, and databases.",
+    "added": "2026-09-28T15:33:21+00:00",
+    "expires": "2026-10-12T22:34:46Z"
+  },
+  {
     "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
     "url": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
     "source": "Krebs on Security",
     "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the sus",
     "added": "2026-09-28T15:08:57+00:00",
-    "expires": "2026-10-12T15:34:47Z"
-  },
-  {
-    "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
-    "url": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
-    "source": "The Hacker News",
-    "summary": "A domain used as harmless placeholder text showed up in roughly 1,700 repositories. Then somebody registered it and started serving malicious lures. That is the kind of week this was: forgotten assumptions turning into l",
-    "added": "2026-09-28T14:00:53+00:00",
-    "expires": "2026-10-12T15:34:48Z"
-  },
-  {
-    "title": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
-    "url": "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/",
-    "source": "BleepingComputer",
-    "summary": "Infostealer logs exposed AI account credentials and sessions tied to more than 80,000 corporate domains, creating risks ranging from stolen conversations to LLMjacking. SOCRadar examines the growing market for stolen AI ",
-    "added": "2026-09-28T14:00:10+00:00",
-    "expires": "2026-10-12T15:34:47Z"
-  },
-  {
-    "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
-    "url": "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
-    "source": "The Hacker News",
-    "summary": "AI agents are moving into production faster than security teams can govern them. They are connecting to apps, handling data, calling APIs, and acting across business systems—often without the same controls applied to hum",
-    "added": "2026-09-28T11:58:00+00:00",
-    "expires": "2026-10-12T15:34:48Z"
-  },
-  {
-    "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
-    "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
-    "source": "The Hacker News",
-    "summary": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent.",
-    "added": "2026-09-28T11:46:00+00:00",
-    "expires": "2026-10-12T15:34:48Z"
-  },
-  {
-    "title": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist",
-    "url": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/",
-    "source": "BleepingComputer",
-    "summary": "Cryptocurrency exchange Bitget has resumed Bitcoin withdrawals suspended after suspected North Korean hackers breached its systems last week and stole over $350 million. [...]",
-    "added": "2026-09-28T09:25:29+00:00",
-    "expires": "2026-10-12T15:34:47Z"
-  },
-  {
-    "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
-    "url": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
-    "source": "The Hacker News",
-    "summary": "The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals. Microsoft, which is tracking the activity under the name",
-    "added": "2026-09-28T09:08:21+00:00",
-    "expires": "2026-10-12T15:34:48Z"
-  },
-  {
-    "title": "US soldier gets 70 months in prison for extorting 10 tech, telecom firms",
-    "url": "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/",
-    "source": "BleepingComputer",
-    "summary": "A former U.S. Army soldier has been sentenced to 70 months in prison for hacking and extorting at least 10 U.S. technology and telecommunications companies between April 2023 and December 2024. [...]",
-    "added": "2026-09-28T07:30:15+00:00",
-    "expires": "2026-10-12T15:34:47Z"
-  },
-  {
-    "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
-    "url": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
-    "source": "The Hacker News",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active explo",
-    "added": "2026-09-28T07:21:49+00:00",
-    "expires": "2026-10-12T15:34:48Z"
-  },
-  {
-    "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
-    "source": "BleepingComputer",
-    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies over the weekend to secure their systems against attacks exploiting two critical Citrix NetScaler vulnerabilities. [...]",
-    "added": "2026-09-28T06:24:19+00:00",
-    "expires": "2026-10-12T15:34:47Z"
-  },
-  {
-    "title": "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
-    "source": "BleepingComputer",
-    "summary": "OpenAI is testing a new always-on assistant called \"o\", and references to the unannounced feature briefly showed up on the company's website. [...]",
-    "added": "2026-09-27T23:40:39+00:00",
-    "expires": "2026-10-12T15:34:47Z"
-  },
-  {
-    "title": "Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
-    "source": "CISA Advisories",
-    "summary": "CISA is amplifying Citrix’s disclosure of eight new vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway products: CVE-2026-88771 , CVE-2026-88772 , CVE-2026-88773 , CVE-2026-88774 , CVE-2026-88775",
-    "added": "2026-09-27T12:00:00+00:00",
-    "expires": "2026-10-12T15:34:48Z"
-  },
-  {
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "url": "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": "CISA Advisories",
-    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-88771 Citrix NetScaler Improper Input Validation Vulnerability CVE-2026-887",
-    "added": "2026-09-27T12:00:00+00:00",
-    "expires": "2026-10-12T15:34:48Z"
-  },
-  {
-    "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
-    "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
-    "source": "Krebs on Security",
-    "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&T customers in 2024 was sentenced to 70 months in feder",
-    "added": "2026-09-25T21:44:40+00:00",
-    "expires": "2026-10-12T15:34:47Z"
-  },
-  {
-    "title": "Why the CISO-CFO Relationship Is a Key to Cybersecurity Success",
-    "url": "https://www.darkreading.com/cyber-risk/how-to-manage-ciso-cfo-relationship-cybersecurity-success",
-    "source": "Dark Reading",
-    "summary": "Organizations where CISOs and CFOs align on cybersecurity strategy to protect assets, manage risk, and enable business growth are better prepared to face today's threat landscape.",
-    "added": "2026-09-25T20:28:10+00:00",
-    "expires": "2026-10-12T15:34:48Z"
-  },
-  {
-    "title": "AI Sandbox Escapes: Why Forensic Readiness Matters More Than Containment",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-sandbox-escapes-forensic-readiness",
-    "source": "Dark Reading",
-    "summary": "When autonomous AI agents \"escape the sandbox,\" the real story isn't rogue machines — it's the same access-control failures we've seen for decades.",
-    "added": "2026-09-25T18:39:32+00:00",
-    "expires": "2026-10-12T15:34:48Z"
+    "expires": "2026-10-12T22:34:46Z"
   }
 ]
