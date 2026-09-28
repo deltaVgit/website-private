@@ -1,11 +1,27 @@
 [
   {
+    "title": "US soldier gets 70 months in prison for extorting 10 tech, telecom firms",
+    "url": "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/",
+    "source": "BleepingComputer",
+    "summary": "A former U.S. Army soldier has been sentenced to 70 months in prison for hacking and extorting at least 10 U.S. technology and telecommunications companies between April 2023 and December 2024. [...]",
+    "added": "2026-09-28T07:30:15+00:00",
+    "expires": "2026-10-12T09:04:47Z"
+  },
+  {
+    "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
+    "source": "BleepingComputer",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies over the weekend to secure their systems against attacks exploiting two critical Citrix NetScaler vulnerabilities. [...]",
+    "added": "2026-09-28T06:24:19+00:00",
+    "expires": "2026-10-12T09:04:47Z"
+  },
+  {
     "title": "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email",
     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
     "source": "BleepingComputer",
     "summary": "OpenAI is testing a new always-on assistant called \"o\", and references to the unannounced feature briefly showed up on the company's website. [...]",
     "added": "2026-09-27T23:40:39+00:00",
-    "expires": "2026-10-12T02:34:30Z"
+    "expires": "2026-10-12T09:04:47Z"
   },
   {
     "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
@@ -13,7 +29,7 @@
     "source": "BleepingComputer",
     "summary": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security updates to fix the fl",
     "added": "2026-09-27T16:02:37+00:00",
-    "expires": "2026-10-12T02:34:30Z"
+    "expires": "2026-10-12T09:04:47Z"
   },
   {
     "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
@@ -21,15 +37,7 @@
     "source": "BleepingComputer",
     "summary": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from other customers' containers on the same physical host. [...]",
     "added": "2026-09-27T14:13:31+00:00",
-    "expires": "2026-10-12T02:34:30Z"
-  },
-  {
-    "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
-    "source": "BleepingComputer",
-    "summary": "Anthropic has just announced a new Claude Marketplace, and it brings all AI-related tools into one place, including plugins, connectors, agents, and more. [...]",
-    "added": "2026-09-27T13:38:40+00:00",
-    "expires": "2026-10-12T02:34:30Z"
+    "expires": "2026-10-12T09:04:47Z"
   },
   {
     "title": "Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway",
@@ -37,7 +45,7 @@
     "source": "CISA Advisories",
     "summary": "CISA is amplifying Citrix’s disclosure of eight new vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway products: CVE-2026-88771 , CVE-2026-88772 , CVE-2026-88773 , CVE-2026-88774 , CVE-2026-88775",
     "added": "2026-09-27T12:00:00+00:00",
-    "expires": "2026-10-12T02:34:30Z"
+    "expires": "2026-10-12T09:04:48Z"
   },
   {
     "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
@@ -45,7 +53,7 @@
     "source": "CISA Advisories",
     "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-88771 Citrix NetScaler Improper Input Validation Vulnerability CVE-2026-887",
     "added": "2026-09-27T12:00:00+00:00",
-    "expires": "2026-10-12T02:34:30Z"
+    "expires": "2026-10-12T09:04:48Z"
   },
   {
     "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
@@ -53,15 +61,7 @@
     "source": "The Hacker News",
     "summary": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six ot",
     "added": "2026-09-27T07:47:57+00:00",
-    "expires": "2026-10-12T02:34:30Z"
-  },
-  {
-    "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
-    "source": "BleepingComputer",
-    "summary": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35273 flaw, allowing the threat actors to resume widespread exploitation",
-    "added": "2026-09-26T19:03:34+00:00",
-    "expires": "2026-10-12T02:34:30Z"
+    "expires": "2026-10-12T09:04:48Z"
   },
   {
     "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
@@ -69,7 +69,7 @@
     "source": "The Hacker News",
     "summary": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex. The new findings co",
     "added": "2026-09-26T18:22:52+00:00",
-    "expires": "2026-10-12T02:34:30Z"
+    "expires": "2026-10-12T09:04:48Z"
   },
   {
     "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
@@ -77,7 +77,7 @@
     "source": "The Hacker News",
     "summary": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-linked activity involves the weaponization",
     "added": "2026-09-26T11:46:40+00:00",
-    "expires": "2026-10-12T02:34:30Z"
+    "expires": "2026-10-12T09:04:48Z"
   },
   {
     "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
@@ -85,7 +85,7 @@
     "source": "The Hacker News",
     "summary": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much producti",
     "added": "2026-09-26T10:30:00+00:00",
-    "expires": "2026-10-12T02:34:30Z"
+    "expires": "2026-10-12T09:04:48Z"
   },
   {
     "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
@@ -93,7 +93,7 @@
     "source": "The Hacker News",
     "summary": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of",
     "added": "2026-09-26T09:55:22+00:00",
-    "expires": "2026-10-12T02:34:30Z"
+    "expires": "2026-10-12T09:04:48Z"
   },
   {
     "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
@@ -101,7 +101,7 @@
     "source": "Krebs on Security",
     "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&T customers in 2024 was sentenced to 70 months in feder",
     "added": "2026-09-25T21:44:40+00:00",
-    "expires": "2026-10-12T02:34:30Z"
+    "expires": "2026-10-12T09:04:47Z"
   },
   {
     "title": "How the CISO CFO Relationship is a Key to Cybersecurity Success",
@@ -109,7 +109,7 @@
     "source": "Dark Reading",
     "summary": "Building a financial bridge: Organizations where CISOs and CFOs align on cybersecurity strategy to protect assets, manage risk and enable business growth are better prepared to face today's threat landscape.",
     "added": "2026-09-25T20:28:10+00:00",
-    "expires": "2026-10-12T02:34:30Z"
+    "expires": "2026-10-12T09:04:47Z"
   },
   {
     "title": "AI Sandbox Escapes: Why Forensic Readiness Matters More Than Containment",
@@ -117,7 +117,7 @@
     "source": "Dark Reading",
     "summary": "When autonomous AI agents \"escape the sandbox,\" the real story isn't rogue machines — it's the same access-control failures we've seen for decades.",
     "added": "2026-09-25T18:39:32+00:00",
-    "expires": "2026-10-12T02:34:30Z"
+    "expires": "2026-10-12T09:04:47Z"
   },
   {
     "title": "What We Missed: Google Gemini Joins the AI Escape Party",
@@ -125,6 +125,6 @@
     "source": "Dark Reading",
     "summary": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from Google Gemini models breaking containment to ShinyHunters ratting on TeamPCP hackers.",
     "added": "2026-09-25T17:56:23+00:00",
-    "expires": "2026-10-12T02:34:30Z"
+    "expires": "2026-10-12T09:04:47Z"
   }
 ]
