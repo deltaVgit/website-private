@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T23:00:31Z",
+  "updated_at": "2026-09-28T23:15:27Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "HBAR",
         "name": "Hedera",
-        "price": 0.123034,
-        "change_24h": 30.48,
+        "price": 0.121658,
+        "change_24h": 28.5,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.134749,
-        "change_24h": 13.95,
+        "price": 0.13341,
+        "change_24h": 12.75,
         "asset": "crypto"
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price": 15.23,
-        "change_24h": 9.27,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XLM",
-        "name": "Stellar",
-        "price": 0.224443,
-        "change_24h": 4.78,
+        "price": 15.28,
+        "change_24h": 9.49,
         "asset": "crypto"
       },
       {
         "symbol": "CRO",
         "name": "Cronos",
-        "price": 0.069109,
-        "change_24h": 4.66,
+        "price": 0.069684,
+        "change_24h": 5.39,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price": 0.225484,
+        "change_24h": 5.08,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 4.79,
-        "change_24h": -12.15,
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.324241,
+        "change_24h": -12.42,
         "asset": "crypto"
       },
       {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.32411,
-        "change_24h": -11.81,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 4.81,
+        "change_24h": -11.28,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.485546,
-        "change_24h": -11.01,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.086,
-        "change_24h": -11.01,
+        "price": 0.48529,
+        "change_24h": -10.92,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.201394,
-        "change_24h": -9.8,
+        "price": 0.200859,
+        "change_24h": -10.4,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.091,
+        "change_24h": -10.16,
         "asset": "crypto"
       }
     ]
