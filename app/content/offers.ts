@@ -48,6 +48,7 @@ const aiEn: PillarCopy = {
         'Model selection benchmarked on your actual tasks — open-weight first when it wins',
         'Local-first wherever it is workable — we favour deployments where your data and keys never leave your infrastructure',
         'Guardrails, evaluation harness, and human-in-the-loop controls for high-stakes actions',
+        'One-off add-on: AI Agent OpSec Review — prompt-injection surface, tool permissions, memory and data-flow audit, scored findings',
         'Documentation and handover so your team owns the system',
       ],
       process: [
@@ -71,6 +72,7 @@ const aiEn: PillarCopy = {
         'Model selection & benchmarking across cost, latency, and quality',
         'Quantization and serving setup sized to your hardware',
         'Inference cost audit: token-level cost breakdown of your current stack vs. API, open-weight, and hybrid options',
+        'Sovereign deployment path: local-first architecture, hardware sizing, and guided execution — you own the infrastructure end to end',
         'Post-training ops: eval regression checks and quarterly re-tunes as your data grows',
       ],
       process: [
@@ -91,7 +93,7 @@ const aiEn: PillarCopy = {
       deliverables: [
         'Reserved monthly engineering hours with same-week turnaround',
         'Continuous model and tooling watch as the frontier moves',
-        'Security reviews of agent permissions, prompts, and data flows',
+        'Security reviews of agent permissions, prompts, and data flows, scored against our own ops review checklist',
         'Quarterly architecture review with a written roadmap',
       ],
       process: [
@@ -228,6 +230,8 @@ const web3En: PillarCopy = {
         'Incident forensics: trace what happened, quantify exposure, and document it',
         'Financial services analysis and research — historical data, wallet mapping, deep EVM DeFi ecosystem knowledge',
         'Continuous monitoring briefs on protocols and entities you care about',
+        'Counterparty Watch: weekly delta brief on the wallets, protocols, and entities you designate — diff-based alerts only when something changes',
+        'Incident intake: prioritized emergency slot — drain/hack response with trace, exposure quantification, and documented report',
         'Confidential reporting — findings never leave your circle',
       ],
       process: [
@@ -262,6 +266,27 @@ const web3En: PillarCopy = {
         'Early-stage protocols and public-goods teams that need traction without compromising values or security.',
       ctaLabel: 'Start growth support',
       ctaTopic: 'growth',
+    },
+    {
+      id: 'wallet-exposure',
+      title: 'Wallet Exposure Scan',
+      pitch:
+        '**Know what the chain knows about you.** Public labels, cluster links, and counterparty paths your wallet already carries — mapped and explained before someone else pulls them.',
+      deliverables: [
+        'Full scan of your addresses: public labels, emitted links, cluster and counterparty exposure, poison-address interaction history',
+        'Severity-typed findings, ordered by impact — funds-relevant risks first',
+        'Human-readable risk summary with a fix plan, not just a score',
+        'Confidential by default — scan artifacts stay with you, never on our systems',
+      ],
+      process: [
+        { step: 'Intake', desc: 'addresses in scope, consent, and sensitivity constraints' },
+        { step: 'Scan', desc: 'labeling, clustering, and counterparty mapping with documented sources' },
+        { step: 'Report', desc: 'findings, exposure levels, and a prioritized fix path' },
+      ],
+      audience:
+        'Pseudonymous operators, DAO signers, and teams whose wallets predate their current opsec bar.',
+      ctaLabel: 'Scan my wallet',
+      ctaTopic: 'wallet-scan',
     },
   ],
 };
@@ -307,6 +332,8 @@ const web3Fr: PillarCopy = {
         'Forensique d’incident : retracer les faits, quantifier l’exposition et la documenter',
         'Analyse et recherche en services financiers — données historiques, cartographie de portefeuilles, connaissance fine de l’écosystème DeFi EVM',
         'Notes de veille continues sur les protocoles et les entités qui vous concernent',
+        'Veille contreparties : note hebdomadaire des changements sur les portefeuilles, protocoles et entités que vous désignez — alertes uniquement quand quelque chose bouge',
+        'Prise en charge d’incident : créneau d’urgence prioritaire — réponse aux drains et hacks, avec traçage, quantification de l’exposition et rapport documenté',
         'Restitution confidentielle — les conclusions ne sortent pas de votre cercle',
       ],
       process: [
@@ -341,6 +368,27 @@ const web3Fr: PillarCopy = {
         'Les protocoles en phase initiale et les équipes de bien commun qui cherchent de la traction sans renier leurs valeurs ni leur sécurité.',
       ctaLabel: 'Lancer l’accompagnement',
       ctaTopic: 'growth',
+    },
+    {
+      id: 'wallet-exposure',
+      title: 'Scan d’exposition de portefeuille',
+      pitch:
+        '**Sachez ce que la chaîne sait de vous.** Labels publics, liens de cluster et chemins de contreparties que vos adresses portent déjà — cartographiés et expliqués avant que quelqu’un d’autre ne les exploite.',
+      deliverables: [
+        'Scan complet de vos adresses : labels publics, liens émis, exposition par cluster et contreparties, historique d’interactions avec des adresses-pièges',
+        'Constats typés par gravité, ordonnés par impact — les risques touchant aux fonds d’abord',
+        'Synthèse de risque lisible avec plan de correction, pas un simple score',
+        'Confidentiel par défaut — les artefacts du scan restent chez vous, jamais sur nos systèmes',
+      ],
+      process: [
+        { step: 'Cadrage', desc: 'adresses concernées, consentement et contraintes de sensibilité' },
+        { step: 'Scan', desc: 'labellisation, clustering et cartographie des contreparties, sources documentées' },
+        { step: 'Rapport', desc: 'constats, niveaux d’exposition et plan de correction priorisé' },
+      ],
+      audience:
+        'Opérateurs pseudonymes, signataires de DAO et équipes dont les portefeuilles précèdent leur niveau d’opsec actuel.',
+      ctaLabel: 'Scanner mon portefeuille',
+      ctaTopic: 'wallet-scan',
     },
   ],
 };
