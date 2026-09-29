@@ -1,20 +1,27 @@
 {
-  "updated_at": "2026-09-29T13:15:28Z",
+  "updated_at": "2026-09-29T13:30:28Z",
   "source": "Yahoo Finance screener + Binance 24hr ticker (fallback)",
   "equities": {
     "gainers": [
       {
+        "symbol": "KOD",
+        "name": "Kodiak Sciences Inc",
+        "price": 90.06,
+        "change_24h": 0.15,
+        "asset": "equity"
+      },
+      {
         "symbol": "MAAS",
         "name": "Maase Inc.",
-        "price": 17.95,
-        "change_24h": 16.79,
+        "price": 17.78,
+        "change_24h": -0.95,
         "asset": "equity"
       },
       {
         "symbol": "ABCL",
         "name": "AbCellera Biologics Inc.",
-        "price": 13.92,
-        "change_24h": 9.61,
+        "price": 14.15,
+        "change_24h": 1.65,
         "asset": "equity"
       },
       {
@@ -30,49 +37,42 @@
         "price": 73.95,
         "change_24h": 8.07,
         "asset": "equity"
-      },
-      {
-        "symbol": "ADMA",
-        "name": "ADMA Biologics Inc",
-        "price": 10.12,
-        "change_24h": 7.89,
-        "asset": "equity"
       }
     ],
     "losers": [
       {
         "symbol": "MDB",
         "name": "MongoDB, Inc.",
-        "price": 334.68,
-        "change_24h": -18.46,
+        "price": 333.87,
+        "change_24h": -0.24,
         "asset": "equity"
       },
       {
         "symbol": "GFI",
         "name": "Gold Fields Limited",
-        "price": 35.18,
-        "change_24h": -12.88,
+        "price": 36.37,
+        "change_24h": 3.41,
         "asset": "equity"
       },
       {
         "symbol": "AUR",
         "name": "Aurora Innovation, Inc.",
-        "price": 5.29,
-        "change_24h": -12.42,
+        "price": 5.33,
+        "change_24h": 0.76,
         "asset": "equity"
       },
       {
         "symbol": "MOD",
         "name": "Modine Manufacturing Company",
-        "price": 175.04,
-        "change_24h": -11.63,
+        "price": 179.55,
+        "change_24h": 2.42,
         "asset": "equity"
       },
       {
         "symbol": "NU",
         "name": "Nu Holdings Ltd.",
-        "price": 12.23,
-        "change_24h": -10.01,
+        "price": 12.35,
+        "change_24h": 0.98,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "0G",
         "name": "0G",
-        "price": 0.3455,
-        "change_24h": 38.03,
+        "price": 0.3407,
+        "change_24h": 35.9,
         "asset": "crypto"
       },
       {
         "symbol": "CELO",
         "name": "CELO",
-        "price": 0.11192,
-        "change_24h": 21.36,
+        "price": 0.11272,
+        "change_24h": 20.23,
         "asset": "crypto"
       },
       {
         "symbol": "CRV",
         "name": "CRV",
-        "price": 0.398,
-        "change_24h": 19.84,
+        "price": 0.3996,
+        "change_24h": 19.75,
         "asset": "crypto"
       },
       {
         "symbol": "AAVE",
         "name": "AAVE",
-        "price": 174.08,
-        "change_24h": 15.88,
+        "price": 174.4,
+        "change_24h": 15.66,
         "asset": "crypto"
       },
       {
         "symbol": "NIGHT",
         "name": "NIGHT",
-        "price": 0.03066,
-        "change_24h": 13.81,
+        "price": 0.03108,
+        "change_24h": 14.56,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ZEC",
         "name": "ZEC",
-        "price": 1442.34,
-        "change_24h": -9.61,
+        "price": 1441.14,
+        "change_24h": -9.71,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR",
+        "price": 4.839,
+        "change_24h": -7.65,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SEI",
+        "name": "SEI",
+        "price": 0.0748,
+        "change_24h": -7.02,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DASH",
+        "name": "DASH",
+        "price": 61.69,
+        "change_24h": -6.92,
         "asset": "crypto"
       },
       {
         "symbol": "MARSCOIN",
         "name": "MARSCOIN",
         "price": 0.1469,
-        "change_24h": -8.7,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR",
-        "price": 4.818,
-        "change_24h": -7.51,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SEI",
-        "name": "SEI",
-        "price": 0.07437,
-        "change_24h": -7.45,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "\u725b\u6765",
-        "name": "\u725b\u6765",
-        "price": 0.10809,
-        "change_24h": -6.58,
+        "change_24h": -6.37,
         "asset": "crypto"
       }
     ]
