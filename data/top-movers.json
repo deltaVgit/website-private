@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-29T19:00:31Z",
+  "updated_at": "2026-09-29T19:15:28Z",
   "source": "Yahoo Finance screener + Binance 24hr ticker (fallback)",
   "equities": {
     "gainers": [
       {
         "symbol": "CCL",
         "name": "Carnival Corporation Ltd.",
-        "price": 25.18,
-        "change_24h": 13.75,
+        "price": 25.07,
+        "change_24h": 13.26,
         "asset": "equity"
       },
       {
         "symbol": "BE",
         "name": "Bloom Energy Corporation",
-        "price": 294.4,
-        "change_24h": 12.0,
+        "price": 293.62,
+        "change_24h": 11.7,
         "asset": "equity"
       },
       {
         "symbol": "MGNI",
         "name": "Magnite, Inc.",
-        "price": 26.16,
-        "change_24h": 11.79,
+        "price": 25.95,
+        "change_24h": 10.92,
         "asset": "equity"
       },
       {
         "symbol": "WRBY",
         "name": "Warby Parker Inc.",
-        "price": 27.36,
-        "change_24h": 10.97,
+        "price": 27.18,
+        "change_24h": 10.24,
         "asset": "equity"
       },
       {
-        "symbol": "AGX",
-        "name": "Argan, Inc.",
-        "price": 383.46,
-        "change_24h": 7.95,
+        "symbol": "CAMT",
+        "name": "Camtek Ltd.",
+        "price": 153.56,
+        "change_24h": 7.68,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "FICO",
         "name": "Fair Isaac Corporation",
-        "price": 616.6,
-        "change_24h": -26.67,
-        "asset": "equity"
-      },
-      {
-        "symbol": "NESR",
-        "name": "National Energy Services Reunit",
-        "price": 26.48,
-        "change_24h": -11.17,
+        "price": 615.71,
+        "change_24h": -26.78,
         "asset": "equity"
       },
       {
         "symbol": "MAAS",
         "name": "Maase Inc.",
-        "price": 15.95,
-        "change_24h": -11.17,
+        "price": 15.73,
+        "change_24h": -12.29,
+        "asset": "equity"
+      },
+      {
+        "symbol": "NESR",
+        "name": "National Energy Services Reunit",
+        "price": 26.2,
+        "change_24h": -12.11,
         "asset": "equity"
       },
       {
         "symbol": "WGS",
         "name": "GeneDx Holdings Corp.",
-        "price": 77.03,
-        "change_24h": -10.35,
+        "price": 77.1,
+        "change_24h": -10.28,
         "asset": "equity"
       },
       {
-        "symbol": "PS",
-        "name": "Pershing Square Inc.",
-        "price": 54.33,
-        "change_24h": -8.18,
+        "symbol": "PIPR",
+        "name": "Piper Sandler Companies",
+        "price": 65.5,
+        "change_24h": -8.63,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "0G",
         "name": "0G",
-        "price": 0.3321,
-        "change_24h": 27.63,
+        "price": 0.3303,
+        "change_24h": 27.82,
         "asset": "crypto"
       },
       {
         "symbol": "NMR",
         "name": "NMR",
-        "price": 12.9,
-        "change_24h": 14.26,
+        "price": 13.08,
+        "change_24h": 15.04,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "QNT",
+        "name": "QNT",
+        "price": 268.99,
+        "change_24h": 14.85,
         "asset": "crypto"
       },
       {
         "symbol": "NIGHT",
         "name": "NIGHT",
-        "price": 0.03204,
-        "change_24h": 14.1,
+        "price": 0.03182,
+        "change_24h": 14.79,
         "asset": "crypto"
       },
       {
         "symbol": "PHA",
         "name": "PHA",
-        "price": 0.0674,
-        "change_24h": 11.96,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ICP",
-        "name": "ICP",
-        "price": 3.4,
-        "change_24h": 11.37,
+        "price": 0.0677,
+        "change_24h": 14.36,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "HBAR",
         "name": "HBAR",
-        "price": 0.1049,
-        "change_24h": -17.84,
+        "price": 0.10511,
+        "change_24h": -17.62,
         "asset": "crypto"
       },
       {
         "symbol": "MARSCOIN",
         "name": "MARSCOIN",
-        "price": 0.1422,
-        "change_24h": -11.57,
+        "price": 0.1408,
+        "change_24h": -11.89,
         "asset": "crypto"
       },
       {
         "symbol": "\u725b\u6765",
         "name": "\u725b\u6765",
-        "price": 0.10556,
-        "change_24h": -11.33,
+        "price": 0.10535,
+        "change_24h": -11.87,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ONE",
+        "name": "ONE",
+        "price": 0.002437,
+        "change_24h": -8.86,
         "asset": "crypto"
       },
       {
         "symbol": "GRAM",
         "name": "GRAM",
-        "price": 1.517,
-        "change_24h": -7.89,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NIL",
-        "name": "NIL",
-        "price": 0.08273,
-        "change_24h": -6.31,
+        "price": 1.513,
+        "change_24h": -6.2,
         "asset": "crypto"
       }
     ]
