@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T00:45:27Z",
+  "updated_at": "2026-09-29T01:00:31Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "HBAR",
         "name": "Hedera",
-        "price": 0.121354,
-        "change_24h": 27.39,
+        "price": 0.121044,
+        "change_24h": 25.36,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.135774,
-        "change_24h": 13.82,
+        "price": 0.135197,
+        "change_24h": 13.43,
         "asset": "crypto"
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price": 15.67,
-        "change_24h": 12.05,
+        "price": 15.54,
+        "change_24h": 10.5,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.031789,
+        "change_24h": 6.17,
         "asset": "crypto"
       },
       {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.23105,
-        "change_24h": 7.5,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CRO",
-        "name": "Cronos",
-        "price": 0.069593,
-        "change_24h": 5.05,
+        "price": 0.22901,
+        "change_24h": 4.84,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 4.82,
-        "change_24h": -8.91,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.202378,
-        "change_24h": -8.88,
+        "price": 0.200157,
+        "change_24h": -10.82,
         "asset": "crypto"
       },
       {
-        "symbol": "SUI",
-        "name": "Sui",
-        "price": 1.16,
-        "change_24h": -8.46,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 8.8,
-        "change_24h": -8.38,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 4.78,
+        "change_24h": -10.73,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.495202,
-        "change_24h": -8.36,
+        "price": 0.488818,
+        "change_24h": -9.78,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.330787,
+        "change_24h": -9.64,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 8.74,
+        "change_24h": -9.61,
         "asset": "crypto"
       }
     ]
