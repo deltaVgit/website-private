@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T21:00:29Z",
+  "updated_at": "2026-09-29T21:15:28Z",
   "source": "Yahoo Finance screener + Binance 24hr ticker (fallback)",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "MOVR",
+        "name": "MOVR",
+        "price": 1.205,
+        "change_24h": 23.59,
+        "asset": "crypto"
+      },
+      {
         "symbol": "0G",
         "name": "0G",
-        "price": 0.3311,
-        "change_24h": 20.27,
+        "price": 0.3308,
+        "change_24h": 18.44,
         "asset": "crypto"
       },
       {
         "symbol": "NIGHT",
         "name": "NIGHT",
-        "price": 0.03249,
-        "change_24h": 16.12,
+        "price": 0.03263,
+        "change_24h": 17.12,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "PUMP",
-        "price": 0.005887,
-        "change_24h": 14.49,
+        "price": 0.00589,
+        "change_24h": 16.2,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "ICP",
-        "price": 3.478,
-        "change_24h": 14.07,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ALICE",
-        "name": "ALICE",
-        "price": 0.1668,
-        "change_24h": 12.17,
+        "price": 3.487,
+        "change_24h": 14.7,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "HBAR",
         "name": "HBAR",
-        "price": 0.10355,
-        "change_24h": -15.99,
+        "price": 0.10366,
+        "change_24h": -15.2,
         "asset": "crypto"
       },
       {
         "symbol": "\u725b\u6765",
         "name": "\u725b\u6765",
         "price": 0.10443,
-        "change_24h": -10.16,
+        "change_24h": -10.17,
         "asset": "crypto"
       },
       {
         "symbol": "MARSCOIN",
         "name": "MARSCOIN",
-        "price": 0.1434,
-        "change_24h": -9.93,
+        "price": 0.1438,
+        "change_24h": -9.67,
         "asset": "crypto"
       },
       {
         "symbol": "NIL",
         "name": "NIL",
-        "price": 0.08158,
-        "change_24h": -7.18,
+        "price": 0.0814,
+        "change_24h": -6.71,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "ALGO",
-        "price": 0.1266,
-        "change_24h": -7.05,
+        "price": 0.1263,
+        "change_24h": -6.65,
         "asset": "crypto"
       }
     ]
