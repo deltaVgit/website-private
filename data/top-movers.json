@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T11:00:28Z",
+  "updated_at": "2026-09-29T11:15:28Z",
   "source": "Yahoo Finance screener + Binance 24hr ticker (fallback)",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "0G",
+        "name": "0G",
+        "price": 0.315,
+        "change_24h": 26.71,
+        "asset": "crypto"
+      },
+      {
         "symbol": "CELO",
         "name": "CELO",
-        "price": 0.11678,
-        "change_24h": 27.95,
+        "price": 0.11502,
+        "change_24h": 26.16,
         "asset": "crypto"
       },
       {
         "symbol": "NMR",
         "name": "NMR",
-        "price": 13.05,
-        "change_24h": 23.46,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "0G",
-        "name": "0G",
-        "price": 0.3034,
-        "change_24h": 20.97,
+        "price": 13.06,
+        "change_24h": 23.21,
         "asset": "crypto"
       },
       {
         "symbol": "CRV",
         "name": "CRV",
-        "price": 0.3945,
-        "change_24h": 19.36,
+        "price": 0.3904,
+        "change_24h": 18.45,
         "asset": "crypto"
       },
       {
-        "symbol": "AAVE",
-        "name": "AAVE",
-        "price": 168.54,
-        "change_24h": 13.75,
+        "symbol": "NIGHT",
+        "name": "NIGHT",
+        "price": 0.03067,
+        "change_24h": 18.28,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ZEC",
         "name": "ZEC",
-        "price": 1418.93,
-        "change_24h": -8.99,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "GRAM",
-        "name": "GRAM",
-        "price": 1.574,
-        "change_24h": -5.8,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SEI",
-        "name": "SEI",
-        "price": 0.075,
-        "change_24h": -5.74,
+        "price": 1419.09,
+        "change_24h": -9.27,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR",
-        "price": 4.774,
-        "change_24h": -5.73,
+        "price": 4.782,
+        "change_24h": -6.0,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SEI",
+        "name": "SEI",
+        "price": 0.07484,
+        "change_24h": -5.94,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "GRAM",
+        "name": "GRAM",
+        "price": 1.577,
+        "change_24h": -5.62,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "DASH",
-        "price": 61.28,
-        "change_24h": -5.48,
+        "price": 61.22,
+        "change_24h": -5.29,
         "asset": "crypto"
       }
     ]
