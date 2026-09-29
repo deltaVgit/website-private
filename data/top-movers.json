@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-29T18:45:29Z",
+  "updated_at": "2026-09-29T19:00:31Z",
   "source": "Yahoo Finance screener + Binance 24hr ticker (fallback)",
   "equities": {
     "gainers": [
       {
-        "symbol": "IOVA",
-        "name": "Iovance Biotherapeutics, Inc.",
-        "price": 14.72,
-        "change_24h": 33.99,
-        "asset": "equity"
-      },
-      {
         "symbol": "CCL",
         "name": "Carnival Corporation Ltd.",
-        "price": 25.14,
-        "change_24h": 13.57,
+        "price": 25.18,
+        "change_24h": 13.75,
         "asset": "equity"
       },
       {
         "symbol": "BE",
         "name": "Bloom Energy Corporation",
-        "price": 293.82,
-        "change_24h": 11.77,
-        "asset": "equity"
-      },
-      {
-        "symbol": "WRBY",
-        "name": "Warby Parker Inc.",
-        "price": 27.12,
-        "change_24h": 10.0,
+        "price": 294.4,
+        "change_24h": 12.0,
         "asset": "equity"
       },
       {
         "symbol": "MGNI",
         "name": "Magnite, Inc.",
-        "price": 25.28,
-        "change_24h": 8.03,
+        "price": 26.16,
+        "change_24h": 11.79,
+        "asset": "equity"
+      },
+      {
+        "symbol": "WRBY",
+        "name": "Warby Parker Inc.",
+        "price": 27.36,
+        "change_24h": 10.97,
+        "asset": "equity"
+      },
+      {
+        "symbol": "AGX",
+        "name": "Argan, Inc.",
+        "price": 383.46,
+        "change_24h": 7.95,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "FICO",
         "name": "Fair Isaac Corporation",
-        "price": 616.0,
-        "change_24h": -26.74,
-        "asset": "equity"
-      },
-      {
-        "symbol": "MAAS",
-        "name": "Maase Inc.",
-        "price": 15.85,
-        "change_24h": -11.7,
+        "price": 616.6,
+        "change_24h": -26.67,
         "asset": "equity"
       },
       {
         "symbol": "NESR",
         "name": "National Energy Services Reunit",
-        "price": 26.41,
-        "change_24h": -11.39,
+        "price": 26.48,
+        "change_24h": -11.17,
+        "asset": "equity"
+      },
+      {
+        "symbol": "MAAS",
+        "name": "Maase Inc.",
+        "price": 15.95,
+        "change_24h": -11.17,
         "asset": "equity"
       },
       {
         "symbol": "WGS",
         "name": "GeneDx Holdings Corp.",
-        "price": 76.98,
-        "change_24h": -10.4,
+        "price": 77.03,
+        "change_24h": -10.35,
         "asset": "equity"
       },
       {
         "symbol": "PS",
         "name": "Pershing Square Inc.",
-        "price": 54.51,
-        "change_24h": -7.88,
+        "price": 54.33,
+        "change_24h": -8.18,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "0G",
         "name": "0G",
-        "price": 0.3328,
-        "change_24h": 27.17,
+        "price": 0.3321,
+        "change_24h": 27.63,
         "asset": "crypto"
       },
       {
         "symbol": "NMR",
         "name": "NMR",
-        "price": 12.83,
-        "change_24h": 14.96,
+        "price": 12.9,
+        "change_24h": 14.26,
         "asset": "crypto"
       },
       {
-        "symbol": "QNT",
-        "name": "QNT",
-        "price": 274.5,
-        "change_24h": 14.41,
+        "symbol": "NIGHT",
+        "name": "NIGHT",
+        "price": 0.03204,
+        "change_24h": 14.1,
         "asset": "crypto"
       },
       {
         "symbol": "PHA",
         "name": "PHA",
         "price": 0.0674,
-        "change_24h": 13.09,
+        "change_24h": 11.96,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "ICP",
-        "price": 3.398,
-        "change_24h": 12.18,
+        "price": 3.4,
+        "change_24h": 11.37,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "HBAR",
         "name": "HBAR",
-        "price": 0.10562,
-        "change_24h": -16.46,
+        "price": 0.1049,
+        "change_24h": -17.84,
         "asset": "crypto"
       },
       {
         "symbol": "MARSCOIN",
         "name": "MARSCOIN",
-        "price": 0.1411,
-        "change_24h": -9.72,
+        "price": 0.1422,
+        "change_24h": -11.57,
         "asset": "crypto"
       },
       {
         "symbol": "\u725b\u6765",
         "name": "\u725b\u6765",
-        "price": 0.10542,
-        "change_24h": -8.85,
+        "price": 0.10556,
+        "change_24h": -11.33,
         "asset": "crypto"
       },
       {
         "symbol": "GRAM",
         "name": "GRAM",
         "price": 1.517,
-        "change_24h": -7.39,
+        "change_24h": -7.89,
         "asset": "crypto"
       },
       {
-        "symbol": "PROM",
-        "name": "PROM",
-        "price": 5.898,
-        "change_24h": -6.17,
+        "symbol": "NIL",
+        "name": "NIL",
+        "price": 0.08273,
+        "change_24h": -6.31,
         "asset": "crypto"
       }
     ]
