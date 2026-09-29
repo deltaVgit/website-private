@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T22:34:40Z",
+  "updated": "2026-09-29T05:04:46Z",
   "items": [
     {
       "title": "Claude Sonnet 5.5",
@@ -10,11 +10,27 @@
       "tag": "ai"
     },
     {
+      "title": "Fixed-weight models are adversarially vulnerable: hence misaligned",
+      "url": "https://www.alignmentforum.org/posts/9LWK9Hh3Qsg36e3FS/fixed-weight-models-are-adversarially-vulnerable-hence",
+      "source": "Alignment Forum",
+      "published_at": "2026-09-28T20:08:39+00:00",
+      "summary": "This post argues that fixed-weight models (at least as we understand them today) will a) always be vulnerable to adversarial examples in their concept-spaces, and b) hence will be misaligned, under sufficient optimisation pressure . Boundaries in concept space To serve any purpos",
+      "tag": "ai"
+    },
+    {
       "title": "Quoting @joedaroo",
       "url": "https://simonwillison.net/2026/Sep/28/joedaroo/",
       "source": "Simon Willison",
       "published_at": "2026-09-28T19:11:42+00:00",
       "summary": "To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Security posture takes time to develop. It’s not just about hardeni",
+      "tag": "ai"
+    },
+    {
+      "title": "How we will do better for Australia",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "source": "OpenAI",
+      "published_at": "2026-09-28T19:00:00+00:00",
+      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
       "tag": "ai"
     },
     {
@@ -58,86 +74,6 @@
       "tag": "ai"
     },
     {
-      "title": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence",
-      "url": "https://arxiv.org/abs/2609.30291",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-28T04:00:00+00:00",
-      "summary": "arXiv:2609.30291v1 Announce Type: new Abstract: The purpose of this article is to highlight the central role of autonomous systems as the ultimate stage in the development of AI, to explain the underlying technical challenges that require a combination of connectionist AI and sym",
-      "tag": "ai"
-    },
-    {
-      "title": "ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?",
-      "url": "https://arxiv.org/abs/2609.30325",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-28T04:00:00+00:00",
-      "summary": "arXiv:2609.30325v1 Announce Type: new Abstract: Agents are increasingly deployed with real autonomy in web application and network penetration testing, where a single out-of-scope action can breach a client's engagement boundary. Existing offensive-security benchmarks measure raw",
-      "tag": "ai"
-    },
-    {
-      "title": "When Is a Multi-Agent Code Judge Actually Grounded? Two Label-Free Measurements, and a Judge That Declines to Guess",
-      "url": "https://arxiv.org/abs/2609.30328",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-28T04:00:00+00:00",
-      "summary": "arXiv:2609.30328v1 Announce Type: new Abstract: When one language model judges whether another's code is correct, it does not report the absence of evidence. It returns a confident verdict with reasoning attached, indistinguishable from a verdict it had grounds for. Multi-agent v",
-      "tag": "ai"
-    },
-    {
-      "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
-      "url": "https://arxiv.org/abs/2609.30341",
-      "source": "arXiv cs.AI",
-      "published_at": "2026-09-28T04:00:00+00:00",
-      "summary": "arXiv:2609.30341v1 Announce Type: new Abstract: Data Spaces enable sovereign and governed data sharing across organizational boundaries, but their integration with AI agents remains challenging due to mismatches between probabilistic language model interactions and policy-driven ",
-      "tag": "ai"
-    },
-    {
-      "title": "HybridInfer: Thermal-Aware Reinforcement-Learning Tier Routing for On-Device, Edge, and Cloud LLM Inference",
-      "url": "https://arxiv.org/abs/2609.30270",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-28T04:00:00+00:00",
-      "summary": "arXiv:2609.30270v1 Announce Type: new Abstract: On-device inference with small language models keeps user data local, works offline, and incurs no per-query cost, so the on-device tier is preferred when it is adequate. It is thermally constrained, however, and I find the constrai",
-      "tag": "ai"
-    },
-    {
-      "title": "When the Preconditioning Exponent Turns Negative: Learning-Rate Coupling and Cross-Environment Generalization",
-      "url": "https://arxiv.org/abs/2609.30271",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-28T04:00:00+00:00",
-      "summary": "arXiv:2609.30271v1 Announce Type: new Abstract: Adaptive optimizers are commonly parameterized by a fixed power of the second-moment estimate. Existing partially adaptive methods study exponents between momentum-like updates and the standard Adam square root, while the interactio",
-      "tag": "ai"
-    },
-    {
-      "title": "ENAS: An Efficient Hardware-Aware Neural Architecture Search Framework for TinyML on Resource-Constrained Microcontrollers",
-      "url": "https://arxiv.org/abs/2609.30272",
-      "source": "arXiv cs.LG",
-      "published_at": "2026-09-28T04:00:00+00:00",
-      "summary": "arXiv:2609.30272v1 Announce Type: new Abstract: We present \\textbf{ENAS}, a hardware-aware Neural Architecture Search (NAS) framework that combines a static feasibility check, a cell-based search space supporting standard, depthwise-separable, and bottleneck blocks with optional ",
-      "tag": "ai"
-    },
-    {
-      "title": "A Mechanistic Study of AI-Text Detection Neurons in Frozen BERT: Sparse Probing and Activation Patching on RAID",
-      "url": "https://arxiv.org/abs/2609.30287",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-28T04:00:00+00:00",
-      "summary": "arXiv:2609.30287v1 Announce Type: new Abstract: AI-generated text detectors achieve high accuracy on standard benchmarks, yet the internal representations that drive these predictions remain poorly understood. We study which neurons in a frozen BERT-base-uncased encoder support A",
-      "tag": "ai"
-    },
-    {
-      "title": "Manifold Projection and Iterative Autoencoder Refinement for Masked Language Modeling",
-      "url": "https://arxiv.org/abs/2609.30288",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-28T04:00:00+00:00",
-      "summary": "arXiv:2609.30288v1 Announce Type: new Abstract: In Transformer-based masked language models, attention is the primary mechanism for context mixing, but there are other ways to mix data across tokens. Recent attention-free mixers replace attention with fixed or hypernetwork-genera",
-      "tag": "ai"
-    },
-    {
-      "title": "Not All Memories Are Equal: Hierarchical Collaborative Memory for Validity-Aware Retrieval in LLM Agents",
-      "url": "https://arxiv.org/abs/2609.30289",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-09-28T04:00:00+00:00",
-      "summary": "arXiv:2609.30289v1 Announce Type: new Abstract: In team collaboration scenarios, memory is heterogeneous and continually evolving. Team memories capture collective decisions, protocols, and current consensus, while individual memories preserve member-specific observations, execut",
-      "tag": "ai"
-    },
-    {
       "title": "Are you a Codex Original?",
       "url": "https://openai.com/form/codex-originals",
       "source": "OpenAI",
@@ -151,14 +87,6 @@
       "source": "OpenAI",
       "published_at": "2026-09-28T00:00:00+00:00",
       "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
-      "tag": "ai"
-    },
-    {
-      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "url": "https://openai.com/index/proaction",
-      "source": "OpenAI",
-      "published_at": "2026-09-25T19:00:00+00:00",
-      "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
       "tag": "ai"
     },
     {
@@ -215,14 +143,6 @@
       "source": "Google AI Blog",
       "published_at": "2026-09-23T18:00:00+00:00",
       "summary": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
-      "tag": "ai"
-    },
-    {
-      "title": "Why I'm scared of RL",
-      "url": "https://www.alignmentforum.org/posts/LcQ9x72eNji2gpS9b/why-i-m-scared-of-rl",
-      "source": "Alignment Forum",
-      "published_at": "2026-09-23T12:07:33+00:00",
-      "summary": "Summary: First, I give several different angles on how I feel about reinforcement learning: Theoretical case: RL is a black-box source of agency — this should give us classic misalignment worries, especially compared to agency-via-scaffolding Recent incidents (huggingface etc) an",
       "tag": "ai"
     },
     {
@@ -319,6 +239,46 @@
       "source": "NVIDIA AI",
       "published_at": "2026-01-05T23:30:18+00:00",
       "summary": "Editor’s note: The name of NVIDIA DRIVE Hyperion was changed to NVIDIA Hyperion in September 2026. All references to the name have been updated in this blog. NVIDIA founder and CEO Jensen Huang took the stage at the Fontainebleau Las Vegas to open CES 2026, declaring that AI is s",
+      "tag": "ai"
+    },
+    {
+      "title": "As AI Grows More Complex, Model Builders Rely on NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/leading-models-nvidia/",
+      "source": "NVIDIA AI",
+      "published_at": "2025-12-11T19:19:57+00:00",
+      "summary": "Unveiling what it describes as the most capable model series yet for professional knowledge work, OpenAI launched GPT-5.2 in December. The model was trained and deployed on NVIDIA infrastructure, including NVIDIA Hopper and GB200 NVL72 systems. GPT-5.3 Codex — the first OpenAI ag",
+      "tag": "ai"
+    },
+    {
+      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
+      "url": "https://qwenlm.github.io/blog/qwen3guard/",
+      "source": "Qwen (Alibaba)",
+      "published_at": "2025-09-22T20:00:00+00:00",
+      "summary": "Tech Report GitHub Hugging Face ModelScope DISCORD Introduction We are excited to introduce Qwen3Guard, the first safety guardrail model in the Qwen family. Built upon the powerful Qwen3 foundation models and fine-tuned specifically for safety classificatoin, Qwen3Guard ensures r",
+      "tag": "ai"
+    },
+    {
+      "title": "Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency",
+      "url": "https://qwenlm.github.io/blog/qwen-image-edit/",
+      "source": "Qwen (Alibaba)",
+      "published_at": "2025-08-18T17:30:00+00:00",
+      "summary": "QWEN CHAT GITHUB HUGGING FACE MODELSCOPE DISCORD We are excited to introduce Qwen-Image-Edit, the image editing version of Qwen-Image. Built upon our 20B Qwen-Image model, Qwen-Image-Edit successfully extends Qwen-Image’s unique text rendering capabilities to image editing tasks,",
+      "tag": "ai"
+    },
+    {
+      "title": "Qwen-Image: Crafting with Native Text Rendering",
+      "url": "https://qwenlm.github.io/blog/qwen-image/",
+      "source": "Qwen (Alibaba)",
+      "published_at": "2025-08-04T14:08:30+00:00",
+      "summary": "GITHUB HUGGING FACE MODELSCOPE DEMO DISCORD We are thrilled to release Qwen-Image, a 20B MMDiT image foundation model that achieves significant advances in complex text rendering and precise image editing. To try the latest model, feel free to visit Qwen Chat and choose “Image Ge",
+      "tag": "ai"
+    },
+    {
+      "title": "GSPO: Towards Scalable Reinforcement Learning for Language Models",
+      "url": "https://qwenlm.github.io/blog/gspo/",
+      "source": "Qwen (Alibaba)",
+      "published_at": "2025-07-27T07:00:00+00:00",
+      "summary": "PAPER DISCORD Introduction Reinforcement Learning (RL) has emerged as a pivotal paradigm for scaling language models and enhancing their deep reasoning and problem-solving capabilities. To scale RL, the foremost prerequisite is maintaining stable and robust training dynamics. How",
       "tag": "ai"
     }
   ],
