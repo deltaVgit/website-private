@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T02:00:37Z",
+  "updated_at": "2026-09-29T02:15:27Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "HBAR",
         "name": "Hedera",
-        "price": 0.119797,
-        "change_24h": 24.17,
+        "price": 0.119038,
+        "change_24h": 22.43,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.133992,
-        "change_24h": 12.31,
+        "price": 0.135105,
+        "change_24h": 13.09,
         "asset": "crypto"
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price": 15.25,
-        "change_24h": 8.55,
+        "price": 15.14,
+        "change_24h": 7.65,
         "asset": "crypto"
       },
       {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.226949,
-        "change_24h": 5.11,
+        "price": 0.226019,
+        "change_24h": 4.5,
         "asset": "crypto"
       },
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.031363,
-        "change_24h": 4.89,
+        "price": 0.031329,
+        "change_24h": 3.8,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "price": 0.495032,
+        "change_24h": -14.37,
+        "asset": "crypto"
+      },
+      {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.195427,
-        "change_24h": -12.5,
+        "price": 0.192598,
+        "change_24h": -14.16,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.67,
-        "change_24h": -12.07,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ONDO",
-        "name": "Ondo",
-        "price": 0.504861,
-        "change_24h": -11.96,
+        "price": 4.64,
+        "change_24h": -12.94,
         "asset": "crypto"
       },
       {
         "symbol": "SUI",
         "name": "Sui",
-        "price": 1.13,
-        "change_24h": -10.81,
+        "price": 1.11,
+        "change_24h": -12.13,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1400.62,
-        "change_24h": -10.8,
+        "price": 1390.59,
+        "change_24h": -12.04,
         "asset": "crypto"
       }
     ]
