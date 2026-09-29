@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T05:30:29Z",
+  "updated_at": "2026-09-29T05:45:27Z",
   "source": "Yahoo Finance screener + Binance 24hr ticker (fallback)",
   "equities": {
     "gainers": [
@@ -83,35 +83,35 @@
         "symbol": "NMR",
         "name": "NMR",
         "price": 13.99,
-        "change_24h": 37.56,
+        "change_24h": 36.62,
         "asset": "crypto"
       },
       {
         "symbol": "MARSCOIN",
         "name": "MARSCOIN",
-        "price": 0.1598,
-        "change_24h": 26.62,
+        "price": 0.1612,
+        "change_24h": 26.04,
         "asset": "crypto"
       },
       {
         "symbol": "HBAR",
         "name": "HBAR",
-        "price": 0.11787,
-        "change_24h": 23.64,
+        "price": 0.11884,
+        "change_24h": 23.21,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "0G",
+        "name": "0G",
+        "price": 0.3093,
+        "change_24h": 19.79,
         "asset": "crypto"
       },
       {
         "symbol": "CRV",
         "name": "CRV",
-        "price": 0.3881,
-        "change_24h": 17.43,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ALGO",
-        "name": "ALGO",
-        "price": 0.136,
-        "change_24h": 17.04,
+        "price": 0.3901,
+        "change_24h": 17.18,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ONE",
         "name": "ONE",
-        "price": 0.002321,
-        "change_24h": -15.2,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "ZEC",
-        "price": 1385.04,
-        "change_24h": -11.02,
+        "price": 0.00232,
+        "change_24h": -16.43,
         "asset": "crypto"
       },
       {
         "symbol": "ONDO",
         "name": "ONDO",
-        "price": 0.5118,
-        "change_24h": -10.98,
+        "price": 0.5099,
+        "change_24h": -12.72,
         "asset": "crypto"
       },
       {
-        "symbol": "DASH",
-        "name": "DASH",
-        "price": 60.0,
-        "change_24h": -9.91,
+        "symbol": "ZEC",
+        "name": "ZEC",
+        "price": 1384.64,
+        "change_24h": -11.09,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR",
-        "price": 4.687,
-        "change_24h": -9.41,
+        "price": 4.692,
+        "change_24h": -10.18,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DASH",
+        "name": "DASH",
+        "price": 59.97,
+        "change_24h": -10.01,
         "asset": "crypto"
       }
     ]
