@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T12:15:28Z",
+  "updated_at": "2026-09-29T12:30:28Z",
   "source": "Yahoo Finance screener + Binance 24hr ticker (fallback)",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "0G",
         "name": "0G",
-        "price": 0.3347,
-        "change_24h": 32.03,
+        "price": 0.3371,
+        "change_24h": 33.4,
         "asset": "crypto"
       },
       {
         "symbol": "CELO",
         "name": "CELO",
-        "price": 0.11215,
-        "change_24h": 22.0,
+        "price": 0.11196,
+        "change_24h": 21.68,
         "asset": "crypto"
       },
       {
         "symbol": "CRV",
         "name": "CRV",
-        "price": 0.3955,
-        "change_24h": 17.95,
+        "price": 0.3994,
+        "change_24h": 19.08,
         "asset": "crypto"
       },
       {
         "symbol": "AAVE",
         "name": "AAVE",
-        "price": 172.64,
-        "change_24h": 15.84,
+        "price": 173.92,
+        "change_24h": 16.24,
         "asset": "crypto"
       },
       {
-        "symbol": "NIGHT",
-        "name": "NIGHT",
-        "price": 0.03083,
-        "change_24h": 13.6,
+        "symbol": "NMR",
+        "name": "NMR",
+        "price": 12.5,
+        "change_24h": 15.63,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "MARSCOIN",
+        "name": "MARSCOIN",
+        "price": 0.1473,
+        "change_24h": -11.43,
+        "asset": "crypto"
+      },
+      {
         "symbol": "ZEC",
         "name": "ZEC",
-        "price": 1450.8,
-        "change_24h": -8.6,
+        "price": 1442.18,
+        "change_24h": -8.92,
         "asset": "crypto"
       },
       {
         "symbol": "SEI",
         "name": "SEI",
-        "price": 0.07564,
-        "change_24h": -7.96,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LSK",
-        "name": "LSK",
-        "price": 0.3067,
-        "change_24h": -6.09,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DASH",
-        "name": "DASH",
-        "price": 61.94,
-        "change_24h": -5.62,
+        "price": 0.07517,
+        "change_24h": -7.31,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR",
-        "price": 4.9,
-        "change_24h": -5.61,
+        "price": 4.864,
+        "change_24h": -6.21,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LSK",
+        "name": "LSK",
+        "price": 0.3071,
+        "change_24h": -5.54,
         "asset": "crypto"
       }
     ]
