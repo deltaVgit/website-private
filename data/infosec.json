@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T22:34:46Z",
+  "updatedAt": "2026-09-29T05:04:52Z",
   "kev": [
     {
       "cve": "CVE-2026-88772",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-69843",
+      "id": "CVE-2026-93741",
       "severity": "CRITICAL",
       "score": 10.0,
-      "description": "Authentication bypass by spoofing in Microsoft Fabric allows an unauthorized attacker to elevate privileges over a network.",
-      "published": "2026-09-18T00:17:24.923"
+      "description": "A security flaw has been discovered in Totolink A3002MU Hh-B20211125.1046. Affected by this vulnerability is the function formWlWds of the file /boafrm/formWlWds. The manipulation of the argument submit-url results in bu",
+      "published": "2026-09-19T06:16:30.557"
     },
     {
-      "id": "CVE-2026-62874",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "description": "Insufficient verification of data authenticity in Azure Billing allows an unauthorized attacker to elevate privileges over a network.",
-      "published": "2026-09-18T00:16:57.930"
-    },
-    {
-      "id": "CVE-2026-85878",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "description": "Improper authorization in Azure Database for PostgreSQL allows an authorized attacker to elevate privileges over a network.",
-      "published": "2026-09-18T00:17:47.777"
-    },
-    {
-      "id": "CVE-2026-93467",
+      "id": "CVE-2026-86591",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "The OAKlouds developed by HGiga has a Insecure Deserialization vulnerability. Unauthenticated remote attackers can execute arbitrary code on the server by sending maliciously crafted serialized content.",
-      "published": "2026-09-18T03:16:33.753"
+      "description": "The Botiga Pro WordPress plugin before 1.6.5 does not perform any authorisation checks on one of its REST routes, allowing unauthenticated users to update arbitrary WordPress options with arbitrary values, which could le",
+      "published": "2026-09-19T07:16:33.063"
     },
     {
-      "id": "CVE-2026-17086",
+      "id": "CVE-2026-84434",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "The Gravity Forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 3.1.0.4 via the upload_file function. This is due to a mismatch between the field validation pipeline an",
+      "published": "2026-09-19T03:17:15.573"
+    },
+    {
+      "id": "CVE-2026-92229",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "description": "The The Forminator Forms – Contact Form, Payment Form & Custom Form Builder plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 1.57.2. This is due to the software al",
+      "published": "2026-09-19T03:17:17.040"
+    },
+    {
+      "id": "CVE-2026-89274",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "description": "The WP Recipe Maker plugin for WordPress is vulnerable to Arbitrary Shortcode Execution in all versions up to, and including, 10.8.1. The vulnerability exists because `WPRM_Metadata::sanitize_metadata()` recursively call",
+      "published": "2026-09-19T03:17:16.587"
+    },
+    {
+      "id": "CVE-2026-88824",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "The ShortPixel Image Optimizer – Optimize Images, Convert WebP & AVIF plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 6.5.5 via deserialization of untrusted input . This m",
-      "published": "2026-09-18T04:17:28.900"
+      "description": "The Master Blocks WordPress plugin before 1.5.0 does not have authorisation on one of its REST routes, allowing unauthenticated users to update its settings, including a value that is output unescaped in the admin area, ",
+      "published": "2026-09-19T07:16:33.273"
     },
     {
-      "id": "CVE-2026-79954",
+      "id": "CVE-2026-85680",
       "severity": "HIGH",
-      "score": 8.7,
-      "description": "NASA CryptoLib 1.5.0 contains an authentication downgrade vulnerability in the Telecommand (TC) receive path. The receiver selects the Security Association used for SDLS processing solely from the SPI field inside the in",
-      "published": "2026-09-18T01:16:56.120"
+      "score": 8.8,
+      "description": "The Ultimate Member WordPress plugin before 2.13.1 does not escape a value derived from user supplied profile names before outputting it in the page title, and decodes HTML entities in it after its own sanitisation has a",
+      "published": "2026-09-19T07:16:32.960"
     },
     {
-      "id": "CVE-2026-93371",
+      "id": "CVE-2026-92807",
       "severity": "HIGH",
-      "score": 8.3,
-      "description": "A security vulnerability has been detected in marcopiovanello yt-dlp-web-ui up to v4. This issue affects the function NewGenericDownload of the file server/internal/downloaders/generic.go. Such manipulation of the argume",
-      "published": "2026-09-18T03:16:33.563"
+      "score": 8.8,
+      "description": "The Save as PDF Plugin by PDFCrowd plugin for WordPress is vulnerable to Arbitrary Function Invocation in all versions up to, and including, 4.6.1 via the `pdf_created_callback` shortcode attribute. The `eval_shortcode()",
+      "published": "2026-09-19T03:17:17.723"
     },
     {
-      "id": "CVE-2026-93453",
+      "id": "CVE-2026-93923",
       "severity": "HIGH",
-      "score": 8.3,
-      "description": "SOGo before 5.12.11 constructs password-reset links using the client-supplied Origin header as the authority, allowing unauthenticated attackers to redirect recovery tokens to attacker-controlled domains. Attackers can s",
-      "published": "2026-09-18T00:17:49.693"
+      "score": 8.8,
+      "description": "SiYuan through 3.8.4 fails to escape heading style attributes when rendering outline and bookmark dock HTML, allowing stored cross-site scripting. Attackers can supply crafted notebooks or call administrative endpoints t",
+      "published": "2026-09-19T00:16:57.963"
     },
     {
-      "id": "CVE-2026-93456",
+      "id": "CVE-2026-93922",
       "severity": "HIGH",
-      "score": 8.2,
-      "description": "django-page-cms through 2.0.13 exempts five admin mutation views from CSRF protection in pages/admin/views.py, allowing attackers to forge requests that modify page content. Signed-in editors visiting a malicious page ca",
-      "published": "2026-09-18T02:17:09.113"
+      "score": 8.8,
+      "description": "SiYuan through 3.8.4 renders notebook names as raw HTML in the Daily Note picker dialog without escaping, allowing stored cross-site scripting in the Electron renderer. Attackers can create notebooks with HTML payloads i",
+      "published": "2026-09-19T00:16:57.783"
     },
     {
-      "id": "CVE-2026-83946",
+      "id": "CVE-2026-88926",
       "severity": "HIGH",
-      "score": 8.2,
-      "description": "Improper neutralization of input during web page generation ('cross-site scripting') in Azure Portal allows an unauthorized attacker to perform spoofing over a network.",
-      "published": "2026-09-18T00:17:44.960"
+      "score": 8.6,
+      "description": "The VikRentItems Flexible Rental Management System WordPress plugin before 1.2.4 does not sanitise and escape some of its parameters before using them in SQL statements, allowing unauthenticated users to perform SQL inje",
+      "published": "2026-09-19T07:16:33.377"
     },
     {
-      "id": "CVE-2026-18912",
+      "id": "CVE-2026-86814",
       "severity": "HIGH",
-      "score": 7.7,
-      "description": "ManageEngine DataSecurity Plus versions before 6310 are vulnerable to an authenticated SQL injection vulnerability, allowing an authenticated technician to execute arbitrary SQL queries through the Reports module.",
-      "published": "2026-09-18T06:16:33.250"
-    },
-    {
-      "id": "CVE-2026-85887",
-      "severity": "HIGH",
-      "score": 7.7,
-      "description": "Incorrect permission assignment for critical resource in M365 Copilot allows an authorized attacker to disclose information over a network.",
-      "published": "2026-09-18T00:17:47.920"
+      "score": 8.1,
+      "description": "The UsersWP WordPress plugin before 1.5.10 does not verify that a social login provider has confirmed ownership of an email address before using it to resolve an existing account, allowing unauthenticated attackers to lo",
+      "published": "2026-09-19T07:16:33.167"
     }
   ],
   "breaches": [
