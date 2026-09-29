@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T00:00:27Z",
+  "updated_at": "2026-09-29T00:15:26Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "HBAR",
         "name": "Hedera",
-        "price": 0.121937,
-        "change_24h": 27.31,
+        "price": 0.121219,
+        "change_24h": 26.61,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.136145,
-        "change_24h": 13.85,
+        "price": 0.136519,
+        "change_24h": 14.74,
         "asset": "crypto"
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price": 15.44,
-        "change_24h": 10.08,
+        "price": 15.61,
+        "change_24h": 11.78,
         "asset": "crypto"
       },
       {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.232495,
-        "change_24h": 7.68,
+        "price": 0.23192,
+        "change_24h": 7.83,
         "asset": "crypto"
       },
       {
         "symbol": "CRO",
         "name": "Cronos",
-        "price": 0.069492,
-        "change_24h": 3.87,
+        "price": 0.068975,
+        "change_24h": 3.83,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.327426,
-        "change_24h": -11.98,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ONDO",
-        "name": "Ondo",
-        "price": 0.518541,
-        "change_24h": -11.63,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.20192,
-        "change_24h": -10.69,
+        "price": 0.201693,
+        "change_24h": -10.74,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.329097,
+        "change_24h": -10.7,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.82,
-        "change_24h": -10.37,
+        "price": 4.81,
+        "change_24h": -9.76,
         "asset": "crypto"
       },
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.490673,
-        "change_24h": -9.86,
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "price": 0.5229,
+        "change_24h": -9.55,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 8.79,
+        "change_24h": -8.87,
         "asset": "crypto"
       }
     ]
