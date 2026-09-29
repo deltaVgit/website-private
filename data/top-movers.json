@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T22:30:28Z",
+  "updated_at": "2026-09-29T22:45:29Z",
   "source": "Yahoo Finance screener + Binance 24hr ticker (fallback)",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "MOVR",
         "name": "MOVR",
-        "price": 1.2,
-        "change_24h": 26.32,
+        "price": 1.217,
+        "change_24h": 26.9,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "PUMP",
+        "price": 0.005889,
+        "change_24h": 21.75,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PHA",
+        "name": "PHA",
+        "price": 0.0728,
+        "change_24h": 21.74,
         "asset": "crypto"
       },
       {
         "symbol": "0G",
         "name": "0G",
         "price": 0.3299,
-        "change_24h": 21.11,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "PUMP",
-        "price": 0.005843,
-        "change_24h": 21.0,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PHA",
-        "name": "PHA",
-        "price": 0.0715,
-        "change_24h": 20.37,
+        "change_24h": 20.05,
         "asset": "crypto"
       },
       {
         "symbol": "NIGHT",
         "name": "NIGHT",
-        "price": 0.03244,
-        "change_24h": 15.36,
+        "price": 0.03238,
+        "change_24h": 14.21,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "HBAR",
         "name": "HBAR",
-        "price": 0.10283,
-        "change_24h": -16.09,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "\u725b\u6765",
-        "name": "\u725b\u6765",
-        "price": 0.10447,
-        "change_24h": -10.46,
+        "price": 0.10316,
+        "change_24h": -16.79,
         "asset": "crypto"
       },
       {
         "symbol": "NMR",
         "name": "NMR",
-        "price": 12.42,
-        "change_24h": -10.0,
+        "price": 12.49,
+        "change_24h": -10.85,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "\u725b\u6765",
+        "name": "\u725b\u6765",
+        "price": 0.1053,
+        "change_24h": -9.6,
         "asset": "crypto"
       },
       {
         "symbol": "MARSCOIN",
         "name": "MARSCOIN",
-        "price": 0.1421,
-        "change_24h": -8.09,
+        "price": 0.1423,
+        "change_24h": -8.84,
         "asset": "crypto"
       },
       {
         "symbol": "NIL",
         "name": "NIL",
-        "price": 0.08001,
-        "change_24h": -8.01,
+        "price": 0.07999,
+        "change_24h": -8.35,
         "asset": "crypto"
       }
     ]
