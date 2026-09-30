@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-29T18:04:43Z",
+  "updated": "2026-09-30T00:34:46Z",
   "items": [
+    {
+      "title": "Quoting Anthropic Frontier Red Team",
+      "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
+      "source": "Simon Willison",
+      "published_at": "2026-09-29T22:20:28+00:00",
+      "summary": "We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview ",
+      "tag": "ai"
+    },
+    {
+      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
+      "source": "Simon Willison",
+      "published_at": "2026-09-29T18:27:48+00:00",
+      "summary": "My comment on GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price — Hacker News. I'm a bit late with the pelicans because I was live-blogging the keynote: https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv... Here they are for GPT-6.1-Sol: https://tools.simonw",
+      "tag": "ai"
+    },
     {
       "title": "OpenAI DevDay 2026 live blog",
       "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
@@ -26,11 +42,27 @@
       "tag": "ai"
     },
     {
-      "title": "Claude Sonnet 5.5",
-      "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
-      "source": "Simon Willison",
-      "published_at": "2026-09-28T22:07:38+00:00",
-      "summary": "Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be cheaper to run as well. Here are some pelicans riding bicycl",
+      "title": "Introducing GPT-6.1 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "source": "OpenAI",
+      "published_at": "2026-09-29T10:00:00+00:00",
+      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "tag": "ai"
+    },
+    {
+      "title": "DevDay 2026 Recap",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "source": "OpenAI",
+      "published_at": "2026-09-29T10:00:00+00:00",
+      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "tag": "ai"
+    },
+    {
+      "title": "Introducing dots",
+      "url": "https://openai.com/index/introducing-dots",
+      "source": "OpenAI",
+      "published_at": "2026-09-29T00:00:00+00:00",
+      "summary": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
       "tag": "ai"
     },
     {
@@ -39,22 +71,6 @@
       "source": "Alignment Forum",
       "published_at": "2026-09-28T20:08:39+00:00",
       "summary": "This post argues that fixed-weight models (at least as we understand them today) will a) always be vulnerable to adversarial examples in their concept-spaces, and b) hence will be misaligned, under sufficient optimisation pressure . Boundaries in concept space To serve any purpos",
-      "tag": "ai"
-    },
-    {
-      "title": "Quoting @joedaroo",
-      "url": "https://simonwillison.net/2026/Sep/28/joedaroo/",
-      "source": "Simon Willison",
-      "published_at": "2026-09-28T19:11:42+00:00",
-      "summary": "To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Security posture takes time to develop. It’s not just about hardeni",
-      "tag": "ai"
-    },
-    {
-      "title": "How we will do better for Australia",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "source": "OpenAI",
-      "published_at": "2026-09-28T19:00:00+00:00",
-      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
       "tag": "ai"
     },
     {
@@ -87,22 +103,6 @@
       "source": "Hugging Face Blog",
       "published_at": "2026-09-28T09:44:05+00:00",
       "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
-      "source": "OpenAI",
-      "published_at": "2026-09-28T07:00:00+00:00",
-      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
-      "tag": "ai"
-    },
-    {
-      "title": "Are you a Codex Original?",
-      "url": "https://openai.com/form/codex-originals",
-      "source": "OpenAI",
-      "published_at": "2026-09-28T00:00:00+00:00",
-      "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
       "tag": "ai"
     },
     {
@@ -146,11 +146,11 @@
       "tag": "ai"
     },
     {
-      "title": "Latent reasoning architectures would undermine CoT, our strongest oversight tool",
-      "url": "https://www.alignmentforum.org/posts/6m29SfjbittooYojj/latent-reasoning-architectures-would-undermine-cot-our",
+      "title": "Latent reasoning architectures would likely undermine CoT, our strongest oversight tool",
+      "url": "https://www.alignmentforum.org/posts/6m29SfjbittooYojj/latent-reasoning-architectures-would-likely-undermine-cot",
       "source": "Alignment Forum",
       "published_at": "2026-09-23T18:01:49+00:00",
-      "summary": "Summary: Currently, “chain of thought” (CoT) is our most valuable tool for understanding the reasoning and cognition of AI systems. However, some architectures would enable AI models to reason much more extensively in latent states rather than in text CoT. We think that a shift t",
+      "summary": "Edited 2026-09-29 ; see note at the start of the conclusion . Summary: Currently, “chain of thought” (CoT) is our most valuable tool for understanding the reasoning and cognition of AI systems. However, some architectures would enable AI models to reason much more extensively in ",
       "tag": "ai"
     },
     {
