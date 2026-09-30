@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T03:45:28Z",
+  "updated_at": "2026-09-30T04:00:28Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.77281,
-        "change_24h": 12.85,
+        "price": 0.768453,
+        "change_24h": 12.39,
         "asset": "crypto"
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price": 11.27,
-        "change_24h": 7.97,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "FLR",
-        "name": "Flare",
-        "price": 0.00759,
-        "change_24h": 7.54,
+        "price": 11.28,
+        "change_24h": 8.34,
         "asset": "crypto"
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 159.53,
-        "change_24h": 7.26,
+        "price": 159.43,
+        "change_24h": 7.99,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FLR",
+        "name": "Flare",
+        "price": 0.007524,
+        "change_24h": 6.74,
         "asset": "crypto"
       },
       {
         "symbol": "ASTER",
         "name": "Aster",
-        "price": 0.749156,
-        "change_24h": 6.66,
+        "price": 0.747479,
+        "change_24h": 6.26,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 3.77,
-        "change_24h": -13.87,
-        "asset": "crypto"
-      },
-      {
         "symbol": "HBAR",
         "name": "Hedera",
-        "price": 0.104408,
-        "change_24h": -11.74,
+        "price": 0.104546,
+        "change_24h": -11.72,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.124951,
-        "change_24h": -8.58,
+        "price": 0.124727,
+        "change_24h": -7.7,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.042,
-        "change_24h": -5.9,
+        "price": 1.033,
+        "change_24h": -5.75,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.127007,
-        "change_24h": -5.1,
+        "price": 0.125955,
+        "change_24h": -4.92,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "GRAM",
+        "name": "Gram (prev. Toncoin)",
+        "price": 1.49,
+        "change_24h": -3.92,
         "asset": "crypto"
       }
     ]
