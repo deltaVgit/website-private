@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T02:00:27Z",
+  "updated_at": "2026-09-30T02:15:28Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.780009,
-        "change_24h": 14.08,
+        "price": 0.778121,
+        "change_24h": 14.6,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PENGU",
+        "name": "Pudgy Penguins",
+        "price": 0.010259,
+        "change_24h": 12.82,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 3.48,
-        "change_24h": 12.58,
+        "price": 3.46,
+        "change_24h": 11.59,
         "asset": "crypto"
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 161.07,
-        "change_24h": 8.8,
+        "price": 160.66,
+        "change_24h": 8.97,
         "asset": "crypto"
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price": 11.43,
-        "change_24h": 8.4,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "FLR",
-        "name": "Flare",
-        "price": 0.007583,
-        "change_24h": 7.77,
+        "price": 11.39,
+        "change_24h": 8.24,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "HBAR",
         "name": "Hedera",
-        "price": 0.102922,
-        "change_24h": -14.17,
+        "price": 0.103325,
+        "change_24h": -13.37,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.9,
-        "change_24h": -10.42,
+        "price": 3.8,
+        "change_24h": -12.45,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.12624,
-        "change_24h": -5.84,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.054,
-        "change_24h": -5.42,
+        "price": 0.12521,
+        "change_24h": -7.4,
         "asset": "crypto"
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
         "price": 14.44,
-        "change_24h": -5.22,
+        "change_24h": -4.92,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.047,
+        "change_24h": -4.9,
         "asset": "crypto"
       }
     ]
