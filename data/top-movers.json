@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-09-30T15:00:13Z",
+  "updated_at": "2026-09-30T15:15:12Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "ROG",
         "name": "Rogers Corporation",
-        "price": 157.6,
-        "change_24h": 14.06,
+        "price": 162.44,
+        "change_24h": 17.57,
         "asset": "equity"
       },
       {
         "symbol": "IBRX",
         "name": "ImmunityBio, Inc.",
-        "price": 9.845,
-        "change_24h": 11.49,
+        "price": 9.995,
+        "change_24h": 13.19,
         "asset": "equity"
       },
       {
         "symbol": "FORM",
         "name": "FormFactor, Inc.",
-        "price": 149.72,
-        "change_24h": 9.89,
+        "price": 149.27,
+        "change_24h": 9.56,
         "asset": "equity"
       },
       {
         "symbol": "GRAL",
         "name": "GRAIL, Inc.",
-        "price": 148.56,
-        "change_24h": 8.78,
+        "price": 148.72,
+        "change_24h": 8.9,
         "asset": "equity"
       },
       {
-        "symbol": "HPE",
-        "name": "Hewlett Packard Enterprise Comp",
-        "price": 65.96,
-        "change_24h": 7.27,
+        "symbol": "SMMT",
+        "name": "Summit Therapeutics Inc.",
+        "price": 17.6,
+        "change_24h": 7.38,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "TRLV",
-        "name": "Trulieve Cannabis Corp. Subordi",
-        "price": 10.47,
-        "change_24h": -15.59,
-        "asset": "equity"
-      },
-      {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "price": 188.84,
-        "change_24h": -7.18,
-        "asset": "equity"
-      },
-      {
-        "symbol": "JBL",
-        "name": "Jabil Inc.",
-        "price": 297.18,
-        "change_24h": -6.79,
+        "price": 189.5,
+        "change_24h": -6.86,
         "asset": "equity"
       },
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "price": 183.6,
-        "change_24h": -5.82,
+        "price": 181.84,
+        "change_24h": -6.72,
+        "asset": "equity"
+      },
+      {
+        "symbol": "JBL",
+        "name": "Jabil Inc.",
+        "price": 298.86,
+        "change_24h": -6.27,
         "asset": "equity"
       },
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "price": 87.31,
-        "change_24h": -5.98,
+        "price": 86.85,
+        "change_24h": -6.47,
+        "asset": "equity"
+      },
+      {
+        "symbol": "SANM",
+        "name": "Sanmina Corporation",
+        "price": 209.44,
+        "change_24h": -5.96,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.034263,
-        "change_24h": 10.48,
+        "price": 0.033352,
+        "change_24h": 8.65,
         "asset": "crypto"
       },
       {
         "symbol": "ASTER",
         "name": "Aster",
-        "price": 0.774061,
-        "change_24h": 6.49,
+        "price": 0.774416,
+        "change_24h": 7.94,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.342441,
-        "change_24h": 5.48,
+        "price": 0.342528,
+        "change_24h": 6.46,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.28,
-        "change_24h": 5.17,
+        "price": 5.24,
+        "change_24h": 5.99,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.53954,
-        "change_24h": 5.09,
+        "price": 0.538312,
+        "change_24h": 5.82,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.95,
-        "change_24h": -12.66,
+        "price": 3.96,
+        "change_24h": -11.6,
         "asset": "crypto"
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 159.65,
-        "change_24h": -8.44,
+        "price": 159.4,
+        "change_24h": -7.68,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.079277,
-        "change_24h": -7.92,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "APT",
-        "name": "Aptos",
-        "price": 0.789788,
-        "change_24h": -6.84,
+        "price": 0.079361,
+        "change_24h": -7.03,
         "asset": "crypto"
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price": 14.17,
-        "change_24h": -6.32,
+        "price": 14.2,
+        "change_24h": -4.85,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.043095,
+        "change_24h": -4.79,
         "asset": "crypto"
       }
     ]
