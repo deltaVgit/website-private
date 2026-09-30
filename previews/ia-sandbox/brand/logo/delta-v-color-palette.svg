@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" fill="none">
+  <rect width="800" height="300" fill="#0A0A0F"/>
+  
+  <!-- Title -->
+  <text x="40" y="40" font-family="monospace" font-size="24" fill="#C0C0C0">DELTA V — BRAND PALETTE</text>
+  <text x="40" y="65" font-family="monospace" font-size="14" fill="#6B5B95">OpSec • Sovereign • AI/Web3 • JouleWork</text>
+  
+  <!-- Swatches -->
+  <!-- Deep Matte Black -->
+  <rect x="40" y="100" width="140" height="120" fill="#0A0A0F" stroke="#333" stroke-width="2"/>
+  <text x="40" y="240" font-family="monospace" font-size="14" fill="#C0C0C0">#0A0A0F</text>
+  <text x="40" y="260" font-family="monospace" font-size="12" fill="#888">Deep Matte Black</text>
+  <text x="40" y="275" font-family="monospace" font-size="11" fill="#666">Primary BG</text>
+  
+  <!-- Electric Cyan -->
+  <rect x="200" y="100" width="140" height="120" fill="#00F5FF" stroke="#333" stroke-width="2"/>
+  <text x="200" y="240" font-family="monospace" font-size="14" fill="#00F5FF">#00F5FF</text>
+  <text x="200" y="260" font-family="monospace" font-size="12" fill="#888">Electric Cyan</text>
+  <text x="200" y="275" font-family="monospace" font-size="11" fill="#666">Accent / Highlights</text>
+  
+  <!-- Subtle Purple -->
+  <rect x="360" y="100" width="140" height="120" fill="#6B5B95" stroke="#333" stroke-width="2"/>
+  <text x="360" y="240" font-family="monospace" font-size="14" fill="#6B5B95">#6B5B95</text>
+  <text x="360" y="260" font-family="monospace" font-size="12" fill="#888">Subtle Purple</text>
+  <text x="360" y="275" font-family="monospace" font-size="11" fill="#666">Secondary / Depth</text>
+  
+  <!-- Silver -->
+  <rect x="520" y="100" width="140" height="120" fill="#C0C0C0" stroke="#333" stroke-width="2"/>
+  <text x="520" y="240" font-family="monospace" font-size="14" fill="#C0C0C0">#C0C0C0</text>
+  <text x="520" y="260" font-family="monospace" font-size="12" fill="#888">Silver</text>
+  <text x="520" y="275" font-family="monospace" font-size="11" fill="#666">Text / UI</text>
+  
+  <!-- Accent line -->
+  <line x1="40" y1="290" x2="760" y2="290" stroke="#00F5FF" stroke-width="1" stroke-opacity="0.3"/>
+</svg>

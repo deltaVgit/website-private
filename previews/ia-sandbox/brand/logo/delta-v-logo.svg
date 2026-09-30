@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Delta V</title>
+  <desc id="desc">Geometric Delta V signal mark.</desc>
+  <defs>
+    <linearGradient id="cyan" x1="20" y1="16" x2="103" y2="103" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8bc8cc"/>
+      <stop offset="1" stop-color="#43a9c8"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="36" y1="84" x2="92" y2="31" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8d79b4"/>
+      <stop offset="1" stop-color="#a9789d"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="57" fill="#0b1716" stroke="#315c5b" stroke-width="2"/>
+  <path d="M60 18 39 55h17l4-8 4 8h17L60 18Z" fill="url(#cyan)"/>
+  <path d="m27 75 17-1 16 28 16-28 17 1-33 28L60 110 27 75Z" fill="url(#violet)"/>
+  <path d="m27 75 17-1 7 12-13 1-11 19H15l21-37h16l8 14-8 14-8-14-5 8-4-7-8 14H15l12-23Z" fill="url(#cyan)" opacity=".95"/>
+  <path d="m93 75-17-1-7 12 13 1 11 19h12L84 69H68l-8 14 8 14 8-14 5 8 4-7 8 14h12L93 75Z" fill="url(#cyan)" opacity=".95"/>
+</svg>

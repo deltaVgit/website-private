@@ -1,0 +1,98 @@
+[
+ {
+  "uid": "23f118fb4bb18561c79c736f6a6dfbb2bedc5076d04376ba506780c0e50cd71a",
+  "severity": "high",
+  "category": "vulnerability-disclosure",
+  "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
+  "link": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
+  "source": "The Hacker News"
+ },
+ {
+  "uid": "def31ece1b358ee6ffb46ff49a992c38ec774960c78d798404698bf4455fd02d",
+  "severity": "high",
+  "category": "web3-security",
+  "title": "New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA",
+  "link": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
+  "source": "The Hacker News"
+ },
+ {
+  "uid": "1c995b694e21f7b9c4ddc4ee602744a163d9a357ca3189f5743b7c3a199cf00f",
+  "severity": "high",
+  "category": "operational-security",
+  "title": "Valve notifies Steam hardware customers of a data breach",
+  "link": "https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/",
+  "source": "BleepingComputer"
+ },
+ {
+  "uid": "8b819e81114f3f99257d90dac6970ce445f388acc22b9042ddb194a2d90ce2a6",
+  "severity": "critical",
+  "category": "vulnerability-disclosure",
+  "title": "[HIGH] Authentication Bypass / Access Control Bypass in keycloak/keycloak",
+  "link": "https://github.com/spaceraccoon/vulnerability-spoiler-alert/issues/398",
+  "source": "Vulnerability Spoiler Alert"
+ },
+ {
+  "uid": "1a822cdaf7ac0b3d9011559f8b5198f24c35a1152bdb1806bdcfed1372f1d4f4",
+  "severity": "high",
+  "category": "vulnerability-disclosure",
+  "title": "[HIGH] Broken Access Control / Information Disclosure in keycloak/keycloak",
+  "link": "https://github.com/spaceraccoon/vulnerability-spoiler-alert/issues/397",
+  "source": "Vulnerability Spoiler Alert"
+ },
+ {
+  "uid": "4c960f0019efe0100daeaa54ffffa8146a3722c718f43c270a63c42948a5f84b",
+  "severity": "critical",
+  "category": "vulnerability-disclosure",
+  "title": "Metabase Patches Vulnerability Exploited as Zero-Day",
+  "link": "https://www.securityweek.com/metabase-patches-vulnerability-exploited-as-zero-day/",
+  "source": "SecurityWeek"
+ },
+ {
+  "uid": "8f99a6a99a54a17e40b632cc33199f4f2a7ccdbe8f6c6dde9647a5c33db3b8df",
+  "severity": "high",
+  "category": "vulnerability-disclosure",
+  "title": "CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability",
+  "link": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/",
+  "source": "SecurityWeek"
+ },
+ {
+  "uid": "84f927d878815641b819272c32ae39eb74756d6e7a08e40ebb563127cecaefae",
+  "severity": "critical",
+  "category": "vulnerability-disclosure",
+  "title": "Critical Progress LoadMaster flaw now actively exploited in attacks",
+  "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
+  "source": "BleepingComputer"
+ },
+ {
+  "uid": "c3ff32802c788261372af9759baec88bc2316227e480f7c3f6fc04d248e5c149",
+  "severity": "high",
+  "category": "vulnerability-disclosure",
+  "title": "[HIGH] Missing Authorization / Broken Access Control in openclaw/openclaw",
+  "link": "https://github.com/spaceraccoon/vulnerability-spoiler-alert/issues/395",
+  "source": "Vulnerability Spoiler Alert"
+ },
+ {
+  "uid": "152fbe78eee47714dcc9fa12f5d87c9b076f399d480c15865f6d5dbb067f541a",
+  "severity": "high",
+  "category": "vulnerability-disclosure",
+  "title": "[HIGH] Authorization Bypass / Access Control Bypass in openclaw/openclaw",
+  "link": "https://github.com/spaceraccoon/vulnerability-spoiler-alert/issues/393",
+  "source": "Vulnerability Spoiler Alert"
+ },
+ {
+  "uid": "0bf159470b217efe16851b25354f377a258bd814873c963e5b565f531d9eedb0",
+  "severity": "critical",
+  "category": "vulnerability-disclosure",
+  "title": "[MEDIUM] Sensitive Data Exposure / Information Disclosure in openclaw/openclaw",
+  "link": "https://github.com/spaceraccoon/vulnerability-spoiler-alert/issues/391",
+  "source": "Vulnerability Spoiler Alert"
+ },
+ {
+  "uid": "29be59f3412abf34e7c82ded5f0a32a8ea8b4a5785a09f0a05563a0fa994b3a9",
+  "severity": "critical",
+  "category": "vulnerability-disclosure",
+  "title": "CVE-2026-64604 KVM: VMX: Grab vmcs12 on CR8 interception update iff vCPU is in guest mode",
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64604",
+  "source": "Microsoft Security Response Center"
+ }
+]

@@ -1,0 +1,47 @@
+{
+  "header": { "uspto": "364K", "wipo": "US Patents Granted (2024)", "yoy": "+0.5% YoY", "utility": "339K", "design": "24K", "filed": "650K" },
+  "topHolders": [
+    { "name": "Samsung", "country": "🇰🇷", "count": "6K", "change": "-3.2%", "dir": "down", "mcap": "$340B" },
+    { "name": "IBM", "country": "🇺🇸", "count": "5K", "change": "-12.5%", "dir": "down", "mcap": "$210B" },
+    { "name": "TSMC", "country": "🇹🇼", "count": "4K", "change": "+8.7%", "dir": "up", "mcap": "$920B" },
+    { "name": "Qualcomm", "country": "🇺🇸", "count": "4K", "change": "+2.1%", "dir": "up", "mcap": "$180B" },
+    { "name": "Apple", "country": "🇺🇸", "count": "4K", "change": "+5.3%", "dir": "up", "mcap": "$3.2T" },
+    { "name": "Huawei", "country": "🇨🇳", "count": "4K", "change": "-1.8%", "dir": "down", "mcap": "private" },
+    { "name": "Intel", "country": "🇺🇸", "count": "3K", "change": "-8.4%", "dir": "down", "mcap": "$85B" },
+    { "name": "LG", "country": "🇰🇷", "count": "3K", "change": "-5.2%", "dir": "down", "mcap": "$12B" },
+    { "name": "Google", "country": "🇺🇸", "count": "3K", "change": "+11.4%", "dir": "up", "mcap": "$2.1T" }
+  ],
+  "techAreas": [
+    { "name": "Computer Hardware & Software", "pct": "14.3%" },
+    { "name": "Semiconductor Devices", "pct": "10.6%" },
+    { "name": "Digital Communications", "pct": "9.7%" },
+    { "name": "Medical Devices", "pct": "7.8%" },
+    { "name": "Drug & Pharmaceutical", "pct": "6.6%" }
+  ],
+  "hotAreas": [
+    { "name": "GenAI / LLMs", "sector": "Tech valuations, compute demand", "trend": "rapid" },
+    { "name": "GLP-1 / Obesity drugs", "sector": "Pharma sector advantage", "trend": "rapid" },
+    { "name": "Solid-state batteries", "sector": "EV supply chain disruption", "trend": "moderate" },
+    { "name": "Quantum computing", "sector": "Encryption, materials", "trend": "moderate" },
+    { "name": "Advanced chip packaging", "sector": "TSMC, Intel positioning", "trend": "rapid" },
+    { "name": "CRISPR therapeutics", "sector": "Biotech M&A targets", "trend": "moderate" }
+  ],
+  "keyLabs": [
+    { "name": "MIT CSAIL", "country": "🇺🇸", "focus": "AI, Robotics", "papers": "1.2K/yr" },
+    { "name": "Stanford HAI", "country": "🇺🇸", "focus": "AI Policy, Research", "papers": "800/yr" },
+    { "name": "DeepMind", "country": "🇬🇧", "focus": "AGI, Biology", "papers": "400/yr" },
+    { "name": "OpenAI", "country": "🇺🇸", "focus": "Frontier Models", "papers": "150/yr" },
+    { "name": "Tsinghua AIR", "country": "🇨🇳", "focus": "AI, Robotics", "papers": "600/yr" },
+    { "name": "ETH Zurich", "country": "🇨🇭", "focus": "Robotics, Systems", "papers": "900/yr" },
+    { "name": "NVIDIA Research", "country": "🇺🇸", "focus": "Compute, Graphics", "papers": "250/yr" },
+    { "name": "Oxford CS", "country": "🇬🇧", "focus": "Quantum, Security", "papers": "700/yr" }
+  ],
+  "marketMovers": [
+    { "name": "S&P 500", "value": "5,847", "change": "+0.8%", "dir": "up" },
+    { "name": "NASDAQ", "value": "18,932", "change": "+1.2%", "dir": "up" },
+    { "name": "VIX", "value": "14.2", "change": "-5.3%", "dir": "down" },
+    { "name": "US 10Y", "value": "4.32%", "change": "+0.05", "dir": "up" },
+    { "name": "Gold", "value": "$3,247", "change": "+0.3%", "dir": "up" },
+    { "name": "WTI Oil", "value": "$72.40", "change": "-1.2%", "dir": "down" }
+  ]
+}

@@ -1,0 +1,85 @@
+/* Delta V brand kit · Zurich / signal / sovereign systems */
+:root {
+  --dv-ink: #080b0a;
+  --dv-surface: #101714;
+  --dv-card: #0b100e;
+  --dv-cyan: #8bc8cc;
+  --dv-cyan-deep: #43a9c8;
+  --dv-purple: #8d79b4;
+  --dv-orchid: #a9789d;
+  --dv-mist: #c5b8e0;
+  --dv-green: #8bd5a5;
+  --dv-border: #26352d;
+  --dv-white: #ededed;
+  --dv-muted: rgba(237, 237, 237, .72);
+  --dv-mono: "Geist Mono", "IBM Plex Mono", ui-monospace, monospace;
+  --dv-sans: "Geist", Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+.dv-brand-banner {
+  position: relative;
+  display: grid;
+  min-height: 420px;
+  overflow: hidden;
+  isolation: isolate;
+  color: var(--dv-white);
+  background: var(--dv-ink);
+  border: 1px solid var(--dv-border);
+  font-family: var(--dv-sans);
+}
+
+.dv-brand-banner::before {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  content: "";
+  background: linear-gradient(90deg, rgba(8, 11, 10, .92) 0%, rgba(8, 11, 10, .64) 45%, rgba(8, 11, 10, .24) 100%), url("./ink-garden/ink-garden-panorama.webp") center / cover;
+}
+
+.dv-brand-banner::after {
+  position: absolute;
+  inset: auto 0 0;
+  z-index: -1;
+  height: 42%;
+  content: "";
+  background: linear-gradient(transparent, rgba(8, 11, 10, .95));
+}
+
+.dv-brand-banner__content {
+  align-self: end;
+  max-width: 720px;
+  padding: clamp(2rem, 6vw, 5rem);
+}
+
+.dv-brand-banner__eyebrow {
+  margin: 0 0 1rem;
+  color: var(--dv-cyan);
+  font: 600 .7rem var(--dv-mono);
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+
+.dv-brand-banner__title {
+  max-width: 12ch;
+  margin: 0;
+  font-size: clamp(2.5rem, 7vw, 6.5rem);
+  line-height: .88;
+  letter-spacing: -.075em;
+  font-weight: 600;
+}
+
+.dv-brand-banner__title em {
+  color: var(--dv-cyan);
+  font-style: normal;
+}
+
+.dv-brand-banner__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 2rem 0 0;
+  color: var(--dv-muted);
+  font: .7rem var(--dv-mono);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}

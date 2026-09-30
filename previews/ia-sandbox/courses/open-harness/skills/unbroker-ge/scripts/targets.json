@@ -1,0 +1,197 @@
+{
+  "profile": "unbroker-ge",
+  "data_dirname": "unbroker-ge",
+  "legal_kind": "fadp",
+  "letter_template": "opposition.fr.txt",
+  "default_country": "CH",
+  "one_shot": "robinson",
+  "order": [
+    "robinson",
+    "youronlinechoices",
+    "localsearch",
+    "moneyhouse",
+    "poste",
+    "kbdirect",
+    "intrum",
+    "google_results",
+    "criteo",
+    "acxiom",
+    "liveramp",
+    "dnb",
+    "crif",
+    "az_direct",
+    "creditreform"
+  ],
+  "targets": {
+    "robinson": {
+      "name": "Liste Robinson (SDV)",
+      "lane": "noid",
+      "kind": "postal",
+      "scan": false,
+      "blind_optout": true,
+      "method": "web_form",
+      "optout_url": "https://sdv-konsumenteninfo.ch/robinsonliste-fr/",
+      "email": null,
+      "notes": "Stops cold addressed paper mail from SDV members. Not a digital or credit wipe. File first. Live recipe 2026-08-19: Gravity Forms + WP Armour — send alt_s empty, honey field fresh from the page."
+    },
+    "youronlinechoices": {
+      "name": "YourOnlineChoices (EDAA)",
+      "lane": "noid",
+      "kind": "adtech",
+      "scan": false,
+      "blind_optout": true,
+      "method": "web_form",
+      "optout_url": "https://www.youronlinechoices.com/ch-fr/vos-choix-pub",
+      "email": null,
+      "notes": "Digital ads one-shot for CH. Complements Robinson (paper). Not erasure of broker files."
+    },
+    "localsearch": {
+      "name": "local.ch / search.ch",
+      "lane": "noid",
+      "kind": "directory",
+      "scan": true,
+      "blind_optout": true,
+      "method": "web_form",
+      "search_urls": [
+        "https://www.local.ch/fr/q/{commune}/{query}",
+        "https://tel.search.ch/?was={query}&wo={commune}"
+      ],
+      "optout_url": "https://www.localsearch.ch/fr/votre-inscription/",
+      "email": "dataprivacy@localsearch.ch",
+      "notes": "Swiss phone book. Form first; nLPD letter to dataprivacy@ if the form blocks. Blind email even when scan is not_found."
+    },
+    "moneyhouse": {
+      "name": "Moneyhouse",
+      "lane": "noid",
+      "kind": "directory",
+      "scan": true,
+      "blind_optout": true,
+      "method": "email",
+      "search_urls": [
+        "https://www.moneyhouse.ch/fr/search?q={query}"
+      ],
+      "optout_url": "https://www.moneyhouse.ch/fr/about/contact",
+      "email": "contact@moneyhouse.ch",
+      "notes": "People + company search. nLPD opposition by email. Company register copies stay. /fr/deletion was 404 on 2026-08-19."
+    },
+    "poste": {
+      "name": "La Poste",
+      "lane": "noid",
+      "kind": "postal",
+      "scan": false,
+      "blind_optout": true,
+      "method": "web_form",
+      "optout_url": "https://www.post.ch/fr/pages/unsubscribe-mailing",
+      "email": null,
+      "human_extra": "Yellow Stop Pub sticker on the letterbox — human, 30 seconds.",
+      "notes": "Digital unsubscribe for addressed mailings. Sticker is human."
+    },
+    "kbdirect": {
+      "name": "KünzlerBachmann Directmarketing",
+      "lane": "noid",
+      "kind": "address_trade",
+      "scan": false,
+      "blind_optout": true,
+      "method": "email",
+      "optout_url": "https://kbdirect.ch/en/data-protection/",
+      "email": "info@kbdirect.ch",
+      "notes": "Swiss address / marketing-data house; localsearch names them as a contract partner. nLPD letter."
+    },
+    "intrum": {
+      "name": "Intrum AG",
+      "lane": "noid",
+      "kind": "credit_marketing",
+      "scan": false,
+      "blind_optout": true,
+      "method": "email",
+      "optout_url": null,
+      "email": "credit.check@intrum.com",
+      "notes": "nLPD opposition to marketing / onward sale. Payment-collection rows may stay. Not a full credit wipe."
+    },
+    "google_results": {
+      "name": "Google — results about you",
+      "lane": "noid",
+      "kind": "search",
+      "scan": true,
+      "blind_optout": true,
+      "method": "web_form",
+      "search_urls": [
+        "https://www.google.com/search?q=%22{query}%22"
+      ],
+      "optout_url": "https://support.google.com/websearch/answer/9673730",
+      "email": null,
+      "notes": "Delist personal contact info from Search. What landlords and colleagues actually see."
+    },
+    "criteo": {
+      "name": "Criteo",
+      "lane": "noid",
+      "kind": "adtech",
+      "scan": false,
+      "blind_optout": true,
+      "method": "web_form",
+      "optout_url": "https://www.criteo.com/privacy/your-rights/",
+      "email": "dpo@criteo.com",
+      "notes": "EU-established adtech that profiles Swiss users. Rights form or DPO email (nLPD + GDPR)."
+    },
+    "acxiom": {
+      "name": "Acxiom",
+      "lane": "noid",
+      "kind": "adtech",
+      "scan": false,
+      "blind_optout": true,
+      "method": "web_form",
+      "optout_url": "https://privacyportal.onetrust.com/webform/342ca6ac-4177-4827-b61e-19070296cbd3/6896cf25-6953-4500-9c69-5a8fb6f6f932",
+      "email": "AskPrivacy@acxiom.com",
+      "notes": "Global broker with a consumer rights portal. Blind opt-out."
+    },
+    "liveramp": {
+      "name": "LiveRamp",
+      "lane": "noid",
+      "kind": "adtech",
+      "scan": false,
+      "blind_optout": true,
+      "method": "web_form",
+      "optout_url": "https://liveramp.com/privacy/your-rights/",
+      "email": null,
+      "notes": "Identity-graph / marketing connectivity. Rights page."
+    },
+    "dnb": {
+      "name": "Dun & Bradstreet CH",
+      "lane": "noid",
+      "kind": "company",
+      "scan": true,
+      "blind_optout": false,
+      "method": "web_form",
+      "search_urls": [
+        "https://www.dnb.com/de-ch.html"
+      ],
+      "optout_url": "https://submit-irm.trustarc.eu/services/validation/ba81b98f-997d-4216-b4cc-d64cf261b082",
+      "email": "info.ch@dnb.com",
+      "notes": "Only if a person/director page is found. Company pages stay. Inconclusive search → blocked, not not_found."
+    },
+    "crif": {
+      "name": "CRIF AG",
+      "lane": "id_gated",
+      "kind": "credit",
+      "scan": false,
+      "email": "selbstauskunft.ch@crif.com",
+      "notes": "Main Swiss credit file. Official ID required. Digest only."
+    },
+    "az_direct": {
+      "name": "AZ Direct AG",
+      "lane": "id_gated",
+      "kind": "address_trade",
+      "scan": false,
+      "email": "datenschutz@az-direct.ch",
+      "notes": "Largest Swiss address trader. Sperrung + ID. Digest only. Prefer block over delete."
+    },
+    "creditreform": {
+      "name": "Creditreform",
+      "lane": "id_gated",
+      "kind": "credit",
+      "scan": false,
+      "email": "info@creditreform.ch",
+      "notes": "Written ID copy. Digest only."
+    }
+  }
+}

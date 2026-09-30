@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 760" role="img" aria-labelledby="title desc">
+  <title id="title">Delta V — high-signal systems</title>
+  <desc id="desc">A Delta V brand banner using the Ink Garden signal background.</desc>
+  <defs>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#080b0a" stop-opacity=".96"/>
+      <stop offset=".52" stop-color="#080b0a" stop-opacity=".68"/>
+      <stop offset="1" stop-color="#080b0a" stop-opacity=".2"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".45" stop-color="#080b0a" stop-opacity="0"/>
+      <stop offset="1" stop-color="#080b0a" stop-opacity=".94"/>
+    </linearGradient>
+  </defs>
+  <image href="../ink-garden/ink-garden-panorama.webp" width="1600" height="760" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="1600" height="760" fill="url(#shade)"/>
+  <rect width="1600" height="760" fill="url(#fade)"/>
+  <rect x="64" y="64" width="1472" height="632" fill="none" stroke="#26352d"/>
+  <text x="128" y="170" fill="#8bc8cc" font-family="monospace" font-size="18" font-weight="600" letter-spacing="5">DELTA V / INK GARDEN</text>
+  <text x="128" y="390" fill="#ededed" font-family="Arial, sans-serif" font-size="102" font-weight="700" letter-spacing="-6">High-signal</text>
+  <text x="128" y="492" fill="#8bc8cc" font-family="Arial, sans-serif" font-size="102" font-weight="700" letter-spacing="-6">systems.</text>
+  <text x="128" y="590" fill="#ededed" fill-opacity=".72" font-family="monospace" font-size="18" letter-spacing="2">AI · WEB3 · OPSEC · OPEN-SOURCE FIRST</text>
+</svg>

@@ -1,0 +1,40 @@
+/*
+  # Delta V ZHC - Security Headers (Cloudflare Pages / static hosting)
+  # Applied to all routes. Site is fully static: no analytics, no third-party scripts.
+  #
+  # This file lives in public/ so `next build` copies it into out/, which is what
+  # both deploys publish. At the repo root it was never shipped, so none of these
+  # headers were ever actually applied.
+
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=(), payment=(), usb=(), bluetooth=()
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+
+  # Strict Content-Security-Policy
+  # Allows self + unsafe-inline for Next.js hydration / Tailwind.
+  #
+  # frame-src: course lessons embed cited posts from X via X's own iframe
+  # endpoint rather than re-hosting the media, and /contact/ embeds the cal.com
+  # booking calendar. No third-party script runs on our pages — script-src
+  # stays 'self'.
+  #
+  # connect-src: the IntelHub dashboards fetch live data at runtime. Every host
+  # below is fetched by app/intelhub/hooks.ts or a dashboard component; drop one
+  # and that panel silently stops updating rather than erroring visibly.
+  #   deltav-cc.github.io / cdn.jsdelivr.net / raw.githubusercontent.com
+  #     — the three gh-pages data mirrors (DATA_MIRRORS)
+  #   proxy.hub.deltav.cc — our CORS proxy for feeds that send no CORS headers
+  #   *.llama.fi, api.alternative.me, feargreedchart.com,
+  #   query1.finance.yahoo.com — market data read straight from the browser
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self' https://deltav-cc.github.io https://cdn.jsdelivr.net https://raw.githubusercontent.com https://proxy.hub.deltav.cc https://api.llama.fi https://stablecoins.llama.fi https://yields.llama.fi https://api.alternative.me https://feargreedchart.com https://query1.finance.yahoo.com; frame-src https://platform.twitter.com https://cal.com https://app.cal.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests;
+
+  # Additional hardening
+  Cross-Origin-Opener-Policy: same-origin
+  # credentialless, not require-corp: the X and cal.com embed frames do not send
+  # CORP headers, and require-corp would block them. Cross-origin subresources
+  # still load without credentials, so the isolation that matters here is kept.
+  Cross-Origin-Embedder-Policy: credentialless
+  Cross-Origin-Resource-Policy: same-origin
+  X-DNS-Prefetch-Control: off

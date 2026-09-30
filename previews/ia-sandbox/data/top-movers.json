@@ -1,0 +1,156 @@
+{
+  "updated_at": "2026-07-28T19:07:31Z",
+  "source": "Yahoo Finance screener + Binance 24hr ticker (fallback)",
+  "equities": {
+    "gainers": [
+      {
+        "symbol": "ITRI",
+        "name": "Itron, Inc.",
+        "price": 107.63,
+        "change_24h": 26.92,
+        "asset": "equity"
+      },
+      {
+        "symbol": "KNSA",
+        "name": "Kiniksa Pharmaceuticals Interna",
+        "price": 79.34,
+        "change_24h": 24.88,
+        "asset": "equity"
+      },
+      {
+        "symbol": "IOND",
+        "name": "Ionic Digital Inc. Class A Common Stock",
+        "price": 61.08,
+        "change_24h": 22.16,
+        "asset": "equity"
+      },
+      {
+        "symbol": "LCID",
+        "name": "Lucid Group, Inc.",
+        "price": 7.665,
+        "change_24h": 17.92,
+        "asset": "equity"
+      },
+      {
+        "symbol": "RGEN",
+        "name": "Repligen Corporation",
+        "price": 149.09,
+        "change_24h": 13.76,
+        "asset": "equity"
+      }
+    ],
+    "losers": [
+      {
+        "symbol": "AMKR",
+        "name": "Amkor Technology, Inc.",
+        "price": 46.16,
+        "change_24h": -23.97,
+        "asset": "equity"
+      },
+      {
+        "symbol": "SANM",
+        "name": "Sanmina Corporation",
+        "price": 171.38,
+        "change_24h": -17.96,
+        "asset": "equity"
+      },
+      {
+        "symbol": "CVLT",
+        "name": "Commvault Systems, Inc.",
+        "price": 123.38,
+        "change_24h": -17.45,
+        "asset": "equity"
+      },
+      {
+        "symbol": "STRL",
+        "name": "Sterling Infrastructure, Inc.",
+        "price": 537.4,
+        "change_24h": -15.32,
+        "asset": "equity"
+      },
+      {
+        "symbol": "GLW",
+        "name": "Corning Incorporated",
+        "price": 123.92,
+        "change_24h": -13.56,
+        "asset": "equity"
+      }
+    ]
+  },
+  "crypto": {
+    "gainers": [
+      {
+        "symbol": "COTI",
+        "name": "COTI",
+        "price": 0.01269,
+        "change_24h": 59.22,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VANRY",
+        "name": "VANRY",
+        "price": 0.004889,
+        "change_24h": 23.55,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DEXE",
+        "price": 3.129,
+        "change_24h": 19.47,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "UTK",
+        "name": "UTK",
+        "price": 0.00795,
+        "change_24h": 16.23,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ACH",
+        "name": "ACH",
+        "price": 0.00437,
+        "change_24h": 7.63,
+        "asset": "crypto"
+      }
+    ],
+    "losers": [
+      {
+        "symbol": "LA",
+        "name": "LA",
+        "price": 0.0651,
+        "change_24h": -38.29,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BANK",
+        "name": "BANK",
+        "price": 0.2258,
+        "change_24h": -31.39,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SNXXB",
+        "name": "SNXXB",
+        "price": 8.33,
+        "change_24h": -24.95,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ESP",
+        "name": "ESP",
+        "price": 0.07196,
+        "change_24h": -14.36,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "KORUB",
+        "name": "KORUB",
+        "price": 14.79,
+        "change_24h": -12.48,
+        "asset": "crypto"
+      }
+    ]
+  }
+}

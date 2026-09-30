@@ -1,0 +1,120 @@
+{
+  "profile": "unbroker-eu",
+  "data_dirname": "unbroker-eu",
+  "legal_kind": "gdpr",
+  "letter_template": "erasure.en.txt",
+  "default_country": "EU",
+  "one_shot": "youronlinechoices",
+  "order": [
+    "youronlinechoices",
+    "acxiom",
+    "criteo",
+    "liveramp",
+    "oracle_ads",
+    "google_results",
+    "dnb",
+    "schufa",
+    "experian",
+    "crif_eu"
+  ],
+  "targets": {
+    "youronlinechoices": {
+      "name": "YourOnlineChoices (EDAA)",
+      "lane": "noid",
+      "scan": false,
+      "blind_optout": true,
+      "method": "web_form",
+      "optout_url": "https://www.youronlinechoices.com/uk/your-ad-choices",
+      "email": null,
+      "notes": "EU one-shot for interest-based ads. File first. Not a full erasure of credit files."
+    },
+    "acxiom": {
+      "name": "Acxiom",
+      "lane": "noid",
+      "scan": false,
+      "blind_optout": true,
+      "method": "web_form",
+      "optout_url": "https://privacyportal.onetrust.com/webform/342ca6ac-4177-4827-b61e-19070296cbd3/6896cf25-6953-4500-9c69-5a8fb6f6f932",
+      "email": "AskPrivacy@acxiom.com",
+      "notes": "EU/UK consumer rights portal. Blind opt-out is the default. Fall back to AskPrivacy@acxiom.com with the GDPR letter."
+    },
+    "criteo": {
+      "name": "Criteo",
+      "lane": "noid",
+      "scan": false,
+      "blind_optout": true,
+      "method": "web_form",
+      "optout_url": "https://www.criteo.com/privacy/your-rights/",
+      "email": "dpo@criteo.com",
+      "notes": "Art. 17 erasure + withdraw consent. Use the rights page; email DPO if the form blocks."
+    },
+    "liveramp": {
+      "name": "LiveRamp",
+      "lane": "noid",
+      "scan": false,
+      "blind_optout": true,
+      "method": "web_form",
+      "optout_url": "https://liveramp.com/privacy/your-rights/",
+      "email": null,
+      "notes": "Identity-graph / marketing connectivity. Use their rights page."
+    },
+    "oracle_ads": {
+      "name": "Oracle Advertising",
+      "lane": "noid",
+      "kind": "adtech",
+      "scan": false,
+      "blind_optout": true,
+      "method": "web_form",
+      "optout_url": "https://www.oracle.com/legal/privacy/privacy-choices.html",
+      "email": "privacy_ww@oracle.com",
+      "notes": "BlueKai / addthis lineage. Privacy-choices page or privacy_ww@oracle.com. GDPR Art. 17/21."
+    },
+    "google_results": {
+      "name": "Google — results about you",
+      "lane": "noid",
+      "scan": true,
+      "blind_optout": true,
+      "method": "web_form",
+      "search_urls": [
+        "https://www.google.com/search?q=%22{query}%22"
+      ],
+      "optout_url": "https://support.google.com/websearch/answer/9673730",
+      "email": null,
+      "notes": "Delist personal contact info from Search. Not a broker; it is what people actually see."
+    },
+    "dnb": {
+      "name": "Dun & Bradstreet",
+      "lane": "noid",
+      "scan": true,
+      "blind_optout": false,
+      "method": "web_form",
+      "search_urls": [
+        "https://www.dnb.com/"
+      ],
+      "optout_url": "https://submit-irm.trustarc.eu/services/validation/ba81b98f-997d-4216-b4cc-d64cf261b082",
+      "email": "complianceofficer@dnb.com",
+      "notes": "Opt out only if a person/director page is found. Company pages stay."
+    },
+    "schufa": {
+      "name": "SCHUFA",
+      "lane": "id_gated",
+      "scan": false,
+      "email": null,
+      "notes": "German credit file. ID / Postident. Digest only. Student sends later if they live in DE."
+    },
+    "experian": {
+      "name": "Experian",
+      "lane": "id_gated",
+      "scan": false,
+      "email": null,
+      "notes": "Credit bureau. ID gated in most EU countries. Digest only."
+    },
+    "crif_eu": {
+      "name": "CRIF (EU)",
+      "lane": "id_gated",
+      "scan": false,
+      "email": null,
+      "notes": "Credit bureau (IT and others). ID gated. Digest only."
+    }
+  }
+}
