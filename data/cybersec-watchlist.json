@@ -1,11 +1,35 @@
 [
   {
+    "title": "South Africa Seeks Help After Cyberattack Targets Air Traffic Control",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/south-africa-help-cyberattack-air-traffic-control",
+    "source": "Dark Reading",
+    "summary": "As aviation infrastructure suffers more cyberattacks, air traffic systems are the latest target, with a ransomware toolkit installed on at least one operational network.",
+    "added": "2026-09-30T07:00:00+00:00",
+    "expires": "2026-10-14T07:04:49Z"
+  },
+  {
+    "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+    "url": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
+    "source": "The Hacker News",
+    "summary": "Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation in the wild. The vulnerability, tracked ",
+    "added": "2026-09-30T05:30:30+00:00",
+    "expires": "2026-10-14T07:04:49Z"
+  },
+  {
+    "title": "Microsoft is rolling out Linux container support to WSL",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
+    "source": "BleepingComputer",
+    "summary": "Microsoft is taking Windows Subsystem for Linux beyond just running Linux distributions, as WSL Containers is now generally available. [...]",
+    "added": "2026-09-30T00:40:57+00:00",
+    "expires": "2026-10-14T07:04:48Z"
+  },
+  {
     "title": "Apple Zero-Day Vulnerability Weaponized in Targeted Attacks",
     "url": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks",
     "source": "Dark Reading",
     "summary": "Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.",
     "added": "2026-09-29T21:31:29+00:00",
-    "expires": "2026-10-14T00:34:53Z"
+    "expires": "2026-10-14T07:04:49Z"
   },
   {
     "title": "Signal adds encypted local backup support to iOS, desktop apps",
@@ -13,7 +37,7 @@
     "source": "BleepingComputer",
     "summary": "Signal, the secure messaging app, released version 8.30, completing the rollout of its secure backups feature across all supported operating systems (Android, iOS, Linux, macOS, and Windows). [...]",
     "added": "2026-09-29T21:30:08+00:00",
-    "expires": "2026-10-14T00:34:52Z"
+    "expires": "2026-10-14T07:04:48Z"
   },
   {
     "title": "Unsloth Studio Flaw Turns Routine Model Inspection Into Code Execution",
@@ -21,7 +45,7 @@
     "source": "Dark Reading",
     "summary": "A patched Unsloth Studio vulnerability allows malicious AI models to execute arbitrary Python code during inspection, via the trust_remote_code setting.",
     "added": "2026-09-29T21:08:42+00:00",
-    "expires": "2026-10-14T00:34:53Z"
+    "expires": "2026-10-14T07:04:49Z"
   },
   {
     "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
@@ -29,7 +53,7 @@
     "source": "BleepingComputer",
     "summary": "Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]",
     "added": "2026-09-29T20:59:39+00:00",
-    "expires": "2026-10-14T00:34:52Z"
+    "expires": "2026-10-14T07:04:48Z"
   },
   {
     "title": "FBI tells ShinyHunters members to turn themselves in after recent arrest",
@@ -37,7 +61,7 @@
     "source": "BleepingComputer",
     "summary": "The FBI is warning members of the ShinyHunters extortion group to turn themselves in after Dutch police arrested a man the bureau described as one of the group's alleged leaders. [...]",
     "added": "2026-09-29T20:09:55+00:00",
-    "expires": "2026-10-14T00:34:52Z"
+    "expires": "2026-10-14T07:04:48Z"
   },
   {
     "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
@@ -45,15 +69,7 @@
     "source": "BleepingComputer",
     "summary": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and spread into internal networks. [...]",
     "added": "2026-09-29T18:37:12+00:00",
-    "expires": "2026-10-14T00:34:52Z"
-  },
-  {
-    "title": "Former US Air Force members sent to prison over BEC attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/",
-    "source": "BleepingComputer",
-    "summary": "Two former members of the United States Air Force were sentenced to a combined 189 months in federal prison for their roles in a multi-year series of business email compromise (BEC) scams and phishing campaigns. [...]",
-    "added": "2026-09-29T18:09:39+00:00",
-    "expires": "2026-10-14T00:34:52Z"
+    "expires": "2026-10-14T07:04:48Z"
   },
   {
     "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
@@ -61,7 +77,7 @@
     "source": "The Hacker News",
     "summary": "An attacker used stolen passwords of staff at France's tax administration to take tax data on hundreds of thousands of taxpayers and businesses in June and July. Neither the tax administration nor France's national cyber",
     "added": "2026-09-29T17:47:01+00:00",
-    "expires": "2026-10-14T00:34:53Z"
+    "expires": "2026-10-14T07:04:49Z"
   },
   {
     "title": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses",
@@ -69,7 +85,7 @@
     "source": "The Hacker News",
     "summary": "A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the",
     "added": "2026-09-29T17:20:17+00:00",
-    "expires": "2026-10-14T00:34:53Z"
+    "expires": "2026-10-14T07:04:49Z"
   },
   {
     "title": "Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor",
@@ -77,7 +93,7 @@
     "source": "The Hacker News",
     "summary": "Russian state hackers known as Star Blizzard have been using fake event invitations to trick people into installing a backdoor on their Windows computers, according to Microsoft. The campaigns, aimed at people and organi",
     "added": "2026-09-29T17:20:08+00:00",
-    "expires": "2026-10-14T00:34:53Z"
+    "expires": "2026-10-14T07:04:49Z"
   },
   {
     "title": "Cloudflare Announces Public Certificate Authority for the Post-Quantum Web",
@@ -85,7 +101,7 @@
     "source": "Dark Reading",
     "summary": "Automated certificates for everyone, built for today, and hardened for the era of quantum computing.",
     "added": "2026-09-29T17:02:16+00:00",
-    "expires": "2026-10-14T00:34:53Z"
+    "expires": "2026-10-14T07:04:49Z"
   },
   {
     "title": "'NeedyMantis' Provides Long-Term Access to Compromised Networks",
@@ -93,15 +109,7 @@
     "source": "Dark Reading",
     "summary": "Microsoft observed a China-based actor using a previously unidentified malware framework in targeted intrusions against telcos, universities, medical, and government-related organizations.",
     "added": "2026-09-29T15:12:39+00:00",
-    "expires": "2026-10-14T00:34:53Z"
-  },
-  {
-    "title": "Dual NetScaler Zero-Days Trigger Chaos for Citrix Customers",
-    "url": "https://www.darkreading.com/vulnerabilities-threats/netscaler-zero-days-chaos-citrix",
-    "source": "Dark Reading",
-    "summary": "The critical vulnerabilities, which impact default configurations of NetScaler products, essentially give attackers a skeleton key to customers' networks.",
-    "added": "2026-09-29T14:19:43+00:00",
-    "expires": "2026-10-14T00:34:53Z"
+    "expires": "2026-10-14T07:04:49Z"
   },
   {
     "title": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown",
@@ -109,15 +117,7 @@
     "source": "The Hacker News",
     "summary": "Kiteworks on Monday said it worked with federal intelligence authorities over the weekend as it identified and addressed a critical security vulnerability during the scheduled precautionary shutdown. \"During the shutdown",
     "added": "2026-09-29T14:13:20+00:00",
-    "expires": "2026-10-14T00:34:53Z"
-  },
-  {
-    "title": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
-    "url": "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
-    "source": "The Hacker News",
-    "summary": "Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber campaign dubbed PhantomSub. \"The malicious packages abuse the 'Baileys' WhatsApp o",
-    "added": "2026-09-29T13:45:10+00:00",
-    "expires": "2026-10-14T00:34:53Z"
+    "expires": "2026-10-14T07:04:49Z"
   },
   {
     "title": "Baicells Nova 430H",
@@ -125,6 +125,6 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to inject malformed messages which may lead to a denial-of-service condition. The following versions of Baicells Nova 430H are affec",
     "added": "2026-09-29T12:00:00+00:00",
-    "expires": "2026-10-14T00:34:53Z"
+    "expires": "2026-10-14T07:04:49Z"
   }
 ]
