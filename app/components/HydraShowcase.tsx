@@ -18,6 +18,11 @@ const ArrowUpRight = () => (
  * (HYDRA_VIDEO_URL); until then it is the live demo, styled as a real button.
  */
 export default function HydraShowcase({ lang }: { lang: Locale }) {
+  // SANDBOX 2026-09-30: demo removed at Marc's call — hydra.deltav.cc returns 530
+  // (origin down). The showcase stays in the tree but renders nothing until the
+  // demo target is alive again or a demo video exists (HYDRA_VIDEO_URL).
+  void lang;
+  return null;
   const copy = HYDRA_SHOWCASE[lang];
   const hasVideo = HYDRA_VIDEO_URL.length > 0;
   const ctaHref = hasVideo ? HYDRA_VIDEO_URL : HYDRA_URL;

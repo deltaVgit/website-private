@@ -12,6 +12,7 @@ import ThemeToggle from './ThemeToggle';
 const NAV_ITEMS = [
   { href: '/ai/', label: 'AI' },
   { href: '/web3/', label: 'Web3' },
+  { href: '/writing/', label: 'Writing' }, // IA v1: fused pool (blog ∪ tutorials)
   { href: '/intelhub/', label: 'IntelHub' },
   { href: '/contact/', label: 'Contact' },
 ];
@@ -48,8 +49,10 @@ const SHOW_WIP =
   process.env.NODE_ENV !== 'production' || process.env.NEXT_PUBLIC_SHOW_WIP === '1';
 
 const FORGE_LINKS = [
-  { href: '/tutorials/', label: 'Tutorials', detail: 'Builds and walkthroughs' },
-  { href: '/blog/', label: 'Blog', detail: 'Essays and field notes' },
+  // IA v1: Forge = AI · Privacy. AI → /forge/ (courses live there for now),
+  // Privacy → its own door page.
+  { href: '/forge/', label: 'AI', detail: 'Courses and the AI Mastery track' },
+  { href: '/forge/privacy/', label: 'Privacy', detail: 'Digital Footprint & OpSec' },
 ];
 
 /**
