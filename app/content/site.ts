@@ -67,7 +67,7 @@ const homeEn: HomeCopy = {
     {
       title: 'Skill Forge',
       cta: 'Explore capability',
-      bullets: ['My First AI Agent', 'Open Design', 'OpSec training and auditing'],
+      bullets: ['AI courses and free curriculum', 'Privacy — digital footprint & OpSec'],
     },
   ],
   offeringsEyebrow: 'Flagship Offerings',
@@ -140,7 +140,7 @@ const homeFr: HomeCopy = {
     {
       title: 'Skill Forge',
       cta: 'Découvrir nos formations',
-      bullets: ['Mon premier agent IA', 'Open Design', 'Formation et audit OpSec'],
+      bullets: ['Cours IA et curriculum gratuit', 'Privacy — empreinte numérique & OpSec'],
     },
   ],
   offeringsEyebrow: 'Nos offres phares',

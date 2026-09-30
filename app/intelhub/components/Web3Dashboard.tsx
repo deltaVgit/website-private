@@ -15,7 +15,6 @@ import BoldYieldsPanel from './BoldYieldsPanel';
 import { defillamaChainUrl, defillamaProtocolUrl, web3EntityLink } from '@/lib/entity-links';
 import CypherpunkFeed from './CypherpunkFeed';
 import ThreatIntelFeed from './ThreatIntelFeed';
-import { blogIndex } from '@/app/data/content-index';
 
 function fmtBig(n: number): string { return fmtCurrency(n); }
 
@@ -157,58 +156,6 @@ function DailyBarsCard({
         <span>{fmtAxisDate(windowed[0].t)}</span>
         <span>{fmtAxisDate(windowed[Math.floor(windowed.length / 2)].t)}</span>
         <span>{fmtAxisDate(windowed[windowed.length - 1].t)}</span>
-      </div>
-    </div>
-  );
-}
-
-/* -- DeFi Weekly Card -- */
-function ArtemisWeeklyCard({ dd }: { dd: any }) {
-  // Latest Delta V-published brief from the site's content index (SSOT).
-  // This is what keeps the dashboard in sync with the blog: when we publish
-  // a new Weekly Delta Financial Brief, the content-index PR makes it appear
-  // here automatically. Delta V owns this card — no third-party (Artemis)
-  // links surface to the visitor.
-  const deltaBrief = blogIndex.find(
-    (e) => e.domain === 'Weekly Delta Financial Brief'
-  );
-  if (!deltaBrief) return null;
-
-  const title = deltaBrief.title;
-  const excerpt = (deltaBrief.excerpt || '').slice(0, 160);
-  const href = deltaBrief.href;
-  const date = deltaBrief.date
-    ? new Date(deltaBrief.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
-    : '';
-
-  return (
-    <div className="rounded-2xl border border-[var(--border-default)] bg-[var(--bg-surface)] overflow-hidden">
-      <div className="px-5 py-3 border-b border-[var(--border-default)] flex items-center justify-between bg-gradient-to-r from-[var(--accent-gold)]/[0.06] to-transparent">
-        <div className="flex items-center gap-2.5">
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="text-[var(--accent-gold)]">
-            <path d="M2 4h12M2 8h12M2 12h8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-            <circle cx="13" cy="11" r="2" fill="var(--accent-gold)" opacity="0.3"/>
-          </svg>
-          <span className="text-xs text-[var(--accent-gold)] uppercase tracking-[1.5px] font-bold">DeFi Weekly</span>
-          {date && <span className="text-[10px] text-[var(--text-muted)]">· {date}</span>}
-          <span className="text-[10px] px-1.5 py-0.5 rounded bg-[var(--accent-gold)]/15 text-[var(--accent-gold)]">Delta V Brief</span>
-        </div>
-      </div>
-      <div className="p-5">
-        <a href={href}
-          className="text-lg font-semibold text-[var(--text-primary)] hover:text-[var(--accent-gold)] transition-colors leading-snug block mb-2">
-          {title}
-        </a>
-        <p className="text-sm text-[var(--text-tertiary)] leading-relaxed mb-3 line-clamp-3">
-          {excerpt}
-        </p>
-        <div className="flex items-center justify-between">
-          <a href={href}
-            className="inline-flex items-center gap-1 text-xs font-medium text-[var(--accent-gold)] hover:underline">
-            Read the brief
-            <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5h6M5 2l3 3-3 3" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/></svg>
-          </a>
-        </div>
       </div>
     </div>
   );
@@ -588,9 +535,8 @@ export default function Web3Dashboard({
         </div>
       </div>
 
-      {/* -- Artemis Weekly Newsletter -- */}
-      <ArtemisWeeklyCard dd={dd} />
-
+      {/* -- DeFi Weekly card retired (Marc, 2026-09-30): the briefs live in the
+          blog feed; this dashboard slot stays out of the IntelHub. -- */}
       {/* -- Market Cap Banner -- */}
       <div className="rounded-2xl border border-[var(--border-default)] bg-[var(--bg-surface)] p-5 bg-gradient-to-r from-[var(--accent-purple)]/[0.04] via-[var(--accent-cyan)]/[0.04] to-transparent">
         {mcap ? (

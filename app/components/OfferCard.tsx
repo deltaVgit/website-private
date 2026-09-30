@@ -22,6 +22,7 @@ const Check = () => (
 export default function OfferCard({
   id, title, pitch, deliverables, process, audience, ctaLabel, ctaTopic, secondary, secondaryTone,
   showcase,
+  ctaHref,
   lang = DEFAULT_LOCALE,
 }: {
   id?: string;
@@ -33,6 +34,8 @@ export default function OfferCard({
   audience: string;
   ctaLabel: string;
   ctaTopic: string;
+  /** Overrides the default /contact/?topic= CTA target (e.g. an on-page anchor). */
+  ctaHref?: string;
   secondary?: { label: string; href: string };
   secondaryTone?: 'forge';
   /** Optional proof panel (e.g. a shipped system) rendered above the CTAs. */
@@ -69,7 +72,7 @@ export default function OfferCard({
             <div className="flex flex-wrap items-center gap-4 pt-6 border-t border-[var(--border-default)]">
         <div className="text-sm text-[var(--text-secondary)] mr-auto max-w-sm leading-relaxed"><span className="font-semibold text-[var(--text-primary)]">{LABELS[lang].forWho}</span> {audience}</div>
         {secondary && <Link href={secondary.href} className={`inline-flex items-center gap-2 px-5 py-2.5 border rounded-xl text-sm font-medium hover:bg-[var(--bg-hover)] transition-all ${secondaryTone === 'forge' ? 'border-[var(--accent-purple)]/40 text-[var(--accent-purple)] hover:border-[var(--accent-purple)]' : 'border-[var(--border-default)] text-[var(--text-primary)] hover:border-[var(--border-hover)]'}`}>{secondary.label}</Link>}
-        <Link href={`${localePath('/contact/', lang)}?topic=${ctaTopic}`} className="inline-flex items-center gap-2 px-6 py-3 bg-[var(--accent-primary)] text-[var(--on-accent)] rounded-xl text-sm font-semibold hover:bg-[var(--accent-primary-bright)] transition-colors">{ctaLabel} <ArrowRight /></Link>
+        <Link href={ctaHref ?? `${localePath('/contact/', lang)}?topic=${ctaTopic}`} className="inline-flex items-center gap-2 px-6 py-3 bg-[var(--accent-primary)] text-[var(--on-accent)] rounded-xl text-sm font-semibold hover:bg-[var(--accent-primary-bright)] transition-colors">{ctaLabel} <ArrowRight /></Link>
       </div>
     </article>
   );

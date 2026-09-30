@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import BackLink from '@/app/components/BackLink';
 import FilterSidebar from '@/app/components/FilterSidebar';
-import { blogIndex } from '@/app/data/content-index';
+import { contentIndex } from '@/app/data/content-index';
 import {
   DOMAIN_ACCENT,
   categoryCardStyle,
@@ -15,7 +15,15 @@ import {
 } from '@/lib/content-accents';
 import { formatReadingTime } from '@/lib/content-meta';
 
-const posts = blogIndex.map((entry) => {
+/**
+ * BLOG — the fused pool (IA v1, 2026-09-30): blog ∪ tutorials in one feed.
+ * Keeps the original card anatomy — per-domain accent borders, format chips,
+ * dual-domain pair labels, gold "Latest weekly brief" card. Tutorials flow
+ * through the same content-accents mapping (format 'Tutorial' already renders
+ * the right chip), so nothing visual is lost in the fuse. The old /tutorials/
+ * section route redirects here; the 4 tutorial articles stay at /tutorials/<slug>/.
+ */
+const posts = contentIndex.map((entry) => {
   const pair = resolveCategoryPair(entry.domain, entry.tags || []);
   return {
     title: entry.title,
@@ -23,6 +31,8 @@ const posts = blogIndex.map((entry) => {
     category: entry.domain,
     tags: entry.tags || [],
     type: entry.format || 'Deep Dive',
+    isTutorial: entry.type === 'tutorial',
+    href: entry.href,
     excerpt: entry.excerpt,
     slug: entry.id,
     domains: pair.domains,
@@ -47,12 +57,15 @@ const CATEGORY_ORDER = ['AI', 'Web3', 'OpSec', 'Hardware', 'Weekly Delta Financi
 
 const monthOf = (d: string) => {
   const m = d.match(/([A-Za-z]+)\s+\d+,\s+(\d{4})/);
-  return m ? `${m[1]} ${m[2]}` : d;
+  if (m) return `${m[1]} ${m[2]}`;
+  const sentinel = d.match(/([A-Za-z]+)\s+(\d{4})$/); // "July 2026" tutorial dates
+  return sentinel ? `${sentinel[1]} ${sentinel[2]}` : d;
 };
 
 export default function Blog() {
   const [cats, setCats] = useState<string[]>([]);
   const [months, setMonths] = useState<string[]>([]);
+  const [tutorialsOnly, setTutorialsOnly] = useState(false);
 
   const toggle = (list: string[], set: (v: string[]) => void, v: string) =>
     set(list.includes(v) ? list.filter((x) => x !== v) : [...list, v]);
@@ -61,7 +74,8 @@ export default function Blog() {
     .filter(
       (p) =>
         (cats.length === 0 || cats.includes(p.category) || p.domains.some((d) => cats.includes(d))) &&
-        (months.length === 0 || months.includes(monthOf(p.date)))
+        (months.length === 0 || months.includes(monthOf(p.date))) &&
+        (!tutorialsOnly || p.isTutorial)
     )
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
@@ -98,8 +112,8 @@ export default function Blog() {
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-[-2px] mb-4">Blog</h1>
           <p className="text-[var(--text-secondary)] text-lg max-w-xl leading-relaxed">
-            Writing about the latest AI and agent research, cybersecurity, hardware, and the Weekly Delta
-            Financial Brief — straight from the IntelHub pipeline.
+            Desk writing and hands-on tutorials in one feed — AI, Web3, OpSec, hardware, and the
+            Weekly Delta Financial Brief. The cyan chip marks a tutorial.
           </p>
         </div>
 
@@ -123,6 +137,12 @@ export default function Blog() {
               onClear={() => {
                 setCats([]);
                 setMonths([]);
+                setTutorialsOnly(false);
+              }}
+              extraToggle={{
+                label: 'Tutorials only',
+                checked: tutorialsOnly,
+                onToggle: () => setTutorialsOnly((v) => !v),
               }}
             />
           </aside>
@@ -178,6 +198,7 @@ export default function Blog() {
                   onClick={() => {
                     setCats([]);
                     setMonths([]);
+                    setTutorialsOnly(false);
                   }}
                   className="text-sm text-[var(--accent-cyan)] hover:underline"
                 >
@@ -221,12 +242,16 @@ export default function Blog() {
                           </button>
                         )}
                         <span
-                          className={`inline-flex items-center px-2 py-0.5 rounded text-[10px] font-semibold tracking-[1px] uppercase border ${formatChipClass(post.type)}`}
+                          className={`inline-flex items-center px-2 py-0.5 rounded text-[10px] font-semibold tracking-[1px] uppercase border ${
+                            post.isTutorial
+                              ? 'bg-[var(--accent-cyan)]/10 border-[var(--accent-cyan)]/40 text-[var(--accent-cyan)]'
+                              : formatChipClass(post.type)
+                          }`}
                         >
                           {post.type}
                         </span>
                       </div>
-                      <Link href={`/blog/${post.slug}/`} className="after:absolute after:inset-0">
+                      <Link href={post.href} className="after:absolute after:inset-0">
                         <h3
                           className="text-lg md:text-xl font-semibold mb-2 leading-snug transition-opacity group-hover:opacity-85"
                           style={categoryTitleStyle(post.accents)}

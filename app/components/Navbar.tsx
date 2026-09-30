@@ -12,7 +12,7 @@ import ThemeToggle from './ThemeToggle';
 const NAV_ITEMS = [
   { href: '/ai/', label: 'AI' },
   { href: '/web3/', label: 'Web3' },
-  { href: '/writing/', label: 'Writing' }, // IA v1: fused pool (blog ∪ tutorials)
+  { href: '/blog/', label: 'Blog' }, // IA v1: fused pool (blog ∪ tutorials) — /tutorials/ redirects here
   { href: '/intelhub/', label: 'IntelHub' },
   { href: '/contact/', label: 'Contact' },
 ];

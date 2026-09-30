@@ -35,7 +35,8 @@ const CAPABILITY_STRUCTURE = [
   {
     href: '/forge/',
     index: '03',
-    bulletHrefs: ['/forge/#my-first-ai-agent', '/forge/#open-design', '/web3/#opsec'],
+    // Forge's two doors (IA v1): AI (courses live on /forge/) · Privacy.
+    bulletHrefs: ['/forge/', '/forge/privacy/'],
     accent: 'var(--accent-purple)',
     titleTint: 'text-[var(--accent-purple)]/90',
   },
@@ -113,7 +114,7 @@ export default function HomeView({ lang }: { lang: Locale }) {
                   <p className="max-w-xl text-[var(--text-secondary)] leading-relaxed">{copy.loopBlurb}</p>
                 </div>
               </div>
-            </div><div className="mt-10"><CuratedIntel /></div><div className="mt-6 flex flex-wrap items-center justify-between gap-4"><div className="flex flex-wrap gap-3"><Link href="/tutorials/" className="button-secondary">{copy.tutorials} <Arrow /></Link><Link href="/blog/" className="button-secondary">{copy.blog} <Arrow /></Link></div><Link href={to('/contact/')} className="button-secondary">{copy.getInTouch} <Arrow /></Link></div></div></div></div></section>
+            </div><div className="mt-10"><CuratedIntel /></div><div className="mt-6 flex flex-wrap items-center justify-between gap-4"><div className="flex flex-wrap gap-3"><Link href="/blog/" className="button-secondary">{copy.blog} <Arrow /></Link></div><Link href={to('/contact/')} className="button-secondary">{copy.getInTouch} <Arrow /></Link></div></div></div></div></section>
     </div>
   </main>;
 }

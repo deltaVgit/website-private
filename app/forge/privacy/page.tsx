@@ -1,15 +1,16 @@
 'use client';
 import { useRef, useState } from 'react';
-import BackLink from '@/app/components/BackLink';
+import { PageHero, PageContainer } from '@/app/components/PageShell';
+import OfferCard from '@/app/components/OfferCard';
 
 /**
- * FORGE · PRIVACY — Digital Footprint & OpSec (IA v1, shipped 2026-09-30).
- * Consumer product door: free audit + first scrub, Protection subscription,
- * Deep Scrub one-shot. Copy source of truth: CGU/CGV v0.4 drafts
- * (notes/03-deliver/web3/opsec/legal/). Intake composes a prefilled email
- * client-side (mailto GET — form-post mailto silently fails on mobile) with
- * a clipboard fallback; a Worker endpoint + processor DPA is the later
- * upgrade per the Phase-5 card.
+ * FORGE · PRIVACY — Digital Footprint & OpSec (IA v1, 2026-09-30).
+ * Service-page grammar (same shape as the AI/Web3 pillar pages): PageHero +
+ * one OfferCard per tier + intake form + guardrails footer. Copy source of
+ * truth: CGU/CGV v0.4 drafts (notes/03-deliver/web3/opsec/legal/).
+ * Intake composes a prefilled email client-side (mailto GET — form-post
+ * mailto silently fails on mobile) with a clipboard fallback; a Worker
+ * endpoint + processor DPA is the later upgrade per the Phase-5 card.
  */
 
 const SCAN_TYPES = [
@@ -25,19 +26,6 @@ const NEVER = [
   'We never log into your accounts',
   'We never promise a removal outcome',
 ];
-
-const Check = () => (
-  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true" className="mt-1 shrink-0">
-    <circle cx="7" cy="7" r="6" stroke="var(--accent-green)" strokeWidth="1.4" />
-    <path d="M4.5 7.2l1.7 1.7L9.5 5.5" stroke="var(--accent-green)" strokeWidth="1.4" strokeLinecap="round" />
-  </svg>
-);
-
-const Cross = () => (
-  <svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true" className="mt-1 shrink-0">
-    <path d="M2.5 10.5l8-8M2.5 2.5l8 8" stroke="var(--accent-red)" strokeWidth="1.4" strokeLinecap="round" />
-  </svg>
-);
 
 export default function ForgePrivacyPage() {
   const [scans, setScans] = useState<string[]>(SCAN_TYPES.filter((s) => s.checked).map((s) => s.id));
@@ -75,143 +63,140 @@ export default function ForgePrivacyPage() {
   };
 
   const copyRequest = () => {
-    const text = requestText(new FormData(formRef.current!));
+    if (!formRef.current) return;
+    const text = requestText(new FormData(formRef.current));
     navigator.clipboard
       .writeText(text + '\n\n→ engage@deltav.cc')
       .then(() => setCopied(true))
       .catch(() => setCopied(false));
   };
 
+  const inputCls =
+    'w-full rounded-xl border border-[var(--border-default)] bg-[var(--bg-base)] px-3 py-2.5 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-muted)] focus:border-[var(--accent-primary)] focus:outline-none';
+  const labelCls =
+    'block text-[10px] font-semibold uppercase tracking-[1.5px] text-[var(--text-tertiary)] mb-1.5';
+
   return (
-    <div className="min-h-screen">
-      <div className="max-w-[900px] mx-auto px-6 md:px-8 py-16 md:py-20">
-        <div className="mb-6">
-          <BackLink
-            fallback="/forge/"
-            label="Back to Forge"
-            className="inline-flex items-center gap-1.5 text-[var(--accent-cyan)] text-sm hover:underline group"
-          />
-        </div>
+    <div className="relative z-10">
+      <PageHero
+        label="Forge · Privacy"
+        title="Find where you're exposed. Then get you off them."
+        description="A human-supervised audit and scrub of your public digital footprint — data brokers, directory listings, public breach corpora. You keep your papers; we never hold your identity. Technical service, not legal advice — no removal is guaranteed; we report honestly what was filed, refused, or reappeared."
+        accent="purple"
+        backFallback="/forge/"
+        backLabel="Back to Forge"
+      />
 
-        <div className="text-[var(--accent-cyan)] text-xs font-semibold tracking-[3px] uppercase mb-3">
-          Forge · Privacy
-        </div>
-        <h1 className="text-4xl md:text-5xl font-semibold tracking-[-2px] mb-4">
-          Find where you&apos;re exposed. Then get you off them.
-        </h1>
-        <p className="text-lg text-[var(--text-secondary)] max-w-2xl leading-relaxed">
-          A human-supervised audit and scrub of your public digital footprint — data brokers,
-          directory listings, public breach corpora. You keep your papers; we never hold your
-          identity.
+      <PageContainer className="pb-16 space-y-5" as="section">
+        <OfferCard
+          id="free-audit"
+          title="The free exposure audit"
+          pitch="One bounded run, no obligation to continue: what the public web knows about you — and the first round of filings to get you off it — before you pay anything."
+          deliverables={[
+            'Exposure audit across your name forms, emails, phone numbers and public pseudonyms: data-broker and directory listings, public breach corpora (k-anonymity — the identifying string, email or phone, is never sent whole), search-engine leakage. Delivered as a written report, source by source.',
+            'First scrub: one initial round of opt-out and erasure filings on no-ID targets, on your recorded instruction. You receive a receipts ledger: per target — filed, refused, no exposure, reappeared.',
+            'The plain answer: if free national mechanisms (Robinson list, Bloctel, Stop Pub) or a cheap self-service tool already cover you, we tell you before you pay anything.',
+          ]}
+          process={[
+            { step: 'Intake', desc: 'the scoped form below — recorded, revocable consent (CGU §3.3)' },
+            { step: 'Audit & first scrub', desc: 'public sources only — ID-gated bureaus are never contacted by us' },
+            { step: 'Written report', desc: 'source by source, within published capacity limits' },
+          ]}
+          audience="Anyone who wants to know exactly where they stand — free, before paying anyone."
+          ctaLabel="Start your audit"
+          ctaTopic="free-audit"
+          ctaHref="#start-audit"
+        />
+
+        <OfferCard
+          id="protection"
+          title="Protection"
+          pitch={
+            <>
+              Continuous monitoring after the free run: periodic re-scans, diff against your
+              receipts ledger, alert when a removed listing reappears.{' '}
+              <strong className="text-[var(--text-primary)]">USD 30/month, cancel anytime.</strong>
+            </>
+          }
+          deliverables={[
+            'Continuous monitoring: periodic re-scans, diff against your receipts ledger, alert when a removed listing reappears.',
+            'Data-poisoning canaries (beta, your consent only) — seeded only into submissions concerning your own profile; no result is promised, effectiveness not warranted.',
+            'Guided privacy-habit sessions: your hands on the keyboard, we guide step by step and hold nothing.',
+          ]}
+          process={[
+            { step: 'Baseline', desc: 'your free-audit report becomes day zero' },
+            { step: 'Watch', desc: 'a quiet period means nothing reappeared — we do not pad reports to look active' },
+            { step: 'Alert & re-file', desc: 'reappearance triggers the re-filing and alert owed under CGU §6.3' },
+          ]}
+          audience="Anyone who wants the watch kept after the first sweep."
+          ctaLabel="Continue with Protection"
+          ctaTopic="protection"
+          secondary={{ label: 'Compare Deep Scrub', href: '#deep-scrub' }}
+        />
+
+        <OfferCard
+          id="deep-scrub"
+          title="Deep Scrub"
+          pitch={
+            <>
+              The bounded one-shot for heavier exposure: up to 3 filing rounds on no-ID targets,
+              30-day re-verification included — then the file closes. No renewal, nothing
+              recurring. <strong className="text-[var(--text-primary)]">USD 99, one-shot.</strong>
+            </>
+          }
+          deliverables={[
+            'Bounded job: up to 3 filing rounds on no-ID targets, 30-day re-verification included — then the file closes. No renewal, nothing recurring.',
+            'The ID-gated checklist: the sources only you can approach (SCHUFA, Experian, CRIF…), prepared for your own verified requests.',
+            'Ordered when monitoring shows fresh reappearance — or once at intake.',
+          ]}
+          process={[
+            { step: 'Scope', desc: 'one bounded job, agreed at intake' },
+            { step: 'File', desc: 'up to 3 rounds on no-ID targets' },
+            { step: 'Close', desc: 're-verification, final ledger — then the file closes' },
+          ]}
+          audience="Heavier exposure that outgrows one round — without a subscription."
+          ctaLabel="Order Deep Scrub"
+          ctaTopic="deep-scrub"
+          secondary={{ label: 'Compare Protection', href: '#protection' }}
+        />
+      </PageContainer>
+
+      <PageContainer as="section" className="pb-16">
+        <p className="text-[11px] text-[var(--text-muted)] max-w-3xl leading-relaxed">
+          A quiet period means nothing reappeared — we don&apos;t pad reports to look active.
+          14-day EU statutory withdrawal applies to both paid formats (model form on request). Pay
+          in USD, EUR, CHF or RON — rate shown at checkout.
         </p>
-        <p className="text-xs text-[var(--text-tertiary)] mt-3">
-          Technical service, not legal advice · No removal is guaranteed — we report honestly what
-          was filed, refused, or reappeared.
-        </p>
+      </PageContainer>
 
-        {/* ---- free tier ---- */}
-        <div className="mt-12">
-          <div className="text-[var(--text-secondary)] text-xs font-semibold tracking-[2px] uppercase mb-4">
-            The free tier — what you actually get
-          </div>
-          <div className="space-y-3">
-            {[
-              {
-                t: 'Exposure audit',
-                d: 'Your public traces scanned across your name forms, emails, phone numbers and public pseudonyms: data-broker and directory listings, public breach corpora (k-anonymity — the identifying string, email or phone, is never sent whole), search-engine leakage. Delivered as a written report, source by source.',
-              },
-              {
-                t: 'First scrub',
-                d: 'One initial round of opt-out and erasure filings on no-ID targets, on your recorded instruction. You receive a receipts ledger: per target — filed, refused, no exposure, reappeared.',
-              },
-              {
-                t: 'The plain answer',
-                d: 'If free national mechanisms (Robinson list, Bloctel, Stop Pub) or a cheap self-service tool already cover you, we tell you before you pay anything.',
-              },
-            ].map((s, i) => (
-              <div key={s.t} className="listing-card relative group rounded-2xl border border-[var(--border-default)] p-5 md:p-6 flex gap-4">
-                <span className="font-mono text-sm font-bold text-[var(--accent-cyan)] tabular-nums pt-0.5">
-                  {String(i + 1).padStart(2, '0')}
-                </span>
-                <div>
-                  <div className="font-semibold text-[var(--text-primary)] text-sm mb-1">{s.t}</div>
-                  <p className="text-[13px] text-[var(--text-tertiary)] leading-relaxed">{s.d}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-          <p className="text-[11px] text-[var(--text-muted)] mt-3">
-            Free tier runs within published capacity limits. No obligation to continue.
-          </p>
-        </div>
-
-        {/* ---- intake form ---- */}
-        <div className="mt-12 rounded-2xl border border-[var(--border-default)] bg-[var(--bg-surface)] p-6 md:p-8">
-          <h2 className="text-lg font-semibold text-[var(--text-primary)]">Start your audit</h2>
-          <p className="text-xs text-[var(--text-tertiary)] mt-1">
+      <PageContainer as="section" className="pb-16">
+        <div id="start-audit" className="scroll-mt-24 rounded-2xl border border-[var(--border-default)] bg-[var(--bg-surface)] p-6 md:p-8">
+          <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">Start your audit</h2>
+          <p className="text-sm text-[var(--text-secondary)] mt-2 max-w-3xl leading-relaxed">
             Only what the first real run needs. Social networks and ID-gated bureaus are never
             contacted by us — the report lists them for your own verified request.
           </p>
-          <form
-            ref={formRef}
-            onSubmit={submitRequest}
-            className="mt-5 space-y-4"
-          >
+          <form ref={formRef} onSubmit={submitRequest} className="mt-6 space-y-5">
             <div className="grid md:grid-cols-2 gap-4">
               <label className="block">
-                <span className="block text-[10px] font-semibold uppercase tracking-[1.5px] text-[var(--text-tertiary)] mb-1.5">
-                  Full name + variants
-                </span>
-                <input
-                  type="text"
-                  name="subject_names"
-                  required
-                  placeholder="As listings would show it"
-                  className="w-full rounded-xl border border-[var(--border-default)] bg-[var(--bg-base)] px-3 py-2.5 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-muted)] focus:border-[var(--accent-cyan)] focus:outline-none"
-                />
+                <span className={labelCls}>Full name + variants</span>
+                <input type="text" name="subject_names" required placeholder="As listings would show it" className={inputCls} />
               </label>
               <label className="block">
-                <span className="block text-[10px] font-semibold uppercase tracking-[1.5px] text-[var(--text-tertiary)] mb-1.5">
-                  Email address(es)
-                </span>
-                <input
-                  type="text"
-                  name="subject_emails"
-                  required
-                  placeholder="yours, and old ones too"
-                  className="w-full rounded-xl border border-[var(--border-default)] bg-[var(--bg-base)] px-3 py-2.5 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-muted)] focus:border-[var(--accent-cyan)] focus:outline-none"
-                />
+                <span className={labelCls}>Email address(es)</span>
+                <input type="text" name="subject_emails" required placeholder="yours, and old ones too" className={inputCls} />
               </label>
               <label className="block">
-                <span className="block text-[10px] font-semibold uppercase tracking-[1.5px] text-[var(--text-tertiary)] mb-1.5">
-                  Phone number(s)
-                </span>
-                <input
-                  type="text"
-                  name="subject_phones"
-                  placeholder="+40 … / +33 … / +41 …"
-                  className="w-full rounded-xl border border-[var(--border-default)] bg-[var(--bg-base)] px-3 py-2.5 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-muted)] focus:border-[var(--accent-cyan)] focus:outline-none"
-                />
+                <span className={labelCls}>Phone number(s)</span>
+                <input type="tel" name="subject_phones" placeholder="+40 … / +33 … / +41 …" className={inputCls} autoComplete="off" />
               </label>
               <label className="block">
-                <span className="block text-[10px] font-semibold uppercase tracking-[1.5px] text-[var(--text-tertiary)] mb-1.5">
-                  Public pseudonyms / handles
-                </span>
-                <input
-                  type="text"
-                  name="subject_pseudonyms"
-                  placeholder="usernames you use publicly"
-                  className="w-full rounded-xl border border-[var(--border-default)] bg-[var(--bg-base)] px-3 py-2.5 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-muted)] focus:border-[var(--accent-cyan)] focus:outline-none"
-                />
+                <span className={labelCls}>Public pseudonyms / handles</span>
+                <input type="text" name="subject_pseudonyms" placeholder="usernames you use publicly" className={inputCls} autoComplete="off" />
               </label>
               <label className="block">
-                <span className="block text-[10px] font-semibold uppercase tracking-[1.5px] text-[var(--text-tertiary)] mb-1.5">
-                  Country of residence
-                </span>
-                <select
-                  name="country"
-                  className="w-full rounded-xl border border-[var(--border-default)] bg-[var(--bg-base)] px-3 py-2.5 text-sm text-[var(--text-primary)] focus:border-[var(--accent-cyan)] focus:outline-none"
-                >
+                <span className={labelCls}>Country of residence</span>
+                <select name="country" className={inputCls} defaultValue="Switzerland">
                   <option>Romania</option>
                   <option>France</option>
                   <option>Belgium</option>
@@ -221,37 +206,29 @@ export default function ForgePrivacyPage() {
                 </select>
               </label>
               <label className="block">
-                <span className="block text-[10px] font-semibold uppercase tracking-[1.5px] text-[var(--text-tertiary)] mb-1.5">
-                  City / commune
-                </span>
-                <input
-                  type="text"
-                  name="city"
-                  placeholder="e.g. Bucharest"
-                  className="w-full rounded-xl border border-[var(--border-default)] bg-[var(--bg-base)] px-3 py-2.5 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-muted)] focus:border-[var(--accent-cyan)] focus:outline-none"
-                />
+                <span className={labelCls}>City / commune</span>
+                <input type="text" name="city" placeholder="e.g. Bucharest" className={inputCls} autoComplete="off" />
               </label>
             </div>
 
-            <div>
-              <span className="block text-[10px] font-semibold uppercase tracking-[1.5px] text-[var(--text-tertiary)] mb-2">
-                Where should we look?
-              </span>
-              <div className="space-y-2">
+            <fieldset>
+              <legend className={labelCls}>Where should we look?</legend>
+              <div className="grid sm:grid-cols-2 gap-2.5">
                 {SCAN_TYPES.map((s) => (
-                  <label key={s.id} className="flex items-start gap-2.5 text-sm text-[var(--text-secondary)] cursor-pointer">
+                  <label key={s.id} className="cursor-pointer">
                     <input
                       type="checkbox"
+                      className="peer sr-only"
                       checked={scans.includes(s.id)}
                       onChange={() => toggleScan(s.id)}
-                      className="mt-0.5 accent-[var(--accent-cyan)]"
                     />
-                    <span>{s.label}</span>
+                    <span className="block rounded-xl border border-[var(--border-default)] px-4 py-3 text-[13px] text-[var(--text-secondary)] transition-colors peer-checked:border-[var(--accent-primary)] peer-checked:bg-[var(--accent-primary)]/10 peer-checked:text-[var(--text-primary)]">
+                      {s.label}
+                    </span>
                   </label>
                 ))}
               </div>
-              <input type="hidden" name="scan_types" value={scans.join(', ')} />
-            </div>
+            </fieldset>
 
             <label className="flex items-start gap-2.5 text-xs text-[var(--text-tertiary)] cursor-pointer">
               <input
@@ -259,7 +236,7 @@ export default function ForgePrivacyPage() {
                 required
                 checked={consent}
                 onChange={() => setConsent((v) => !v)}
-                className="mt-0.5 accent-[var(--accent-cyan)]"
+                className="mt-0.5 accent-[var(--accent-primary)]"
               />
               <span>
                 I consent to a scan of my own identifiers for this audit — recorded, scoped,
@@ -271,80 +248,40 @@ export default function ForgePrivacyPage() {
             <div className="flex flex-wrap items-center gap-3">
               <button
                 type="submit"
-                className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent-primary)] px-5 py-2.5 text-sm font-semibold text-[var(--on-accent)] transition-colors hover:bg-[var(--accent-primary-bright)]"
+                disabled={!consent}
+                className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent-primary)] px-6 py-3 text-sm font-semibold text-[var(--on-accent)] transition-colors hover:bg-[var(--accent-primary-bright)] disabled:opacity-40 disabled:cursor-not-allowed"
               >
                 Request the free audit
               </button>
               <button
                 type="button"
                 onClick={copyRequest}
-                className="inline-flex items-center gap-2 rounded-xl border border-[var(--border-default)] px-5 py-2.5 text-sm font-medium text-[var(--text-secondary)] transition-all hover:border-[var(--border-hover)] hover:bg-[var(--bg-hover)]"
+                className="inline-flex items-center gap-2 rounded-xl border border-[var(--border-default)] px-6 py-3 text-sm font-medium text-[var(--text-secondary)] transition-all hover:border-[var(--border-hover)] hover:bg-[var(--bg-hover)]"
               >
                 {copied ? 'Copied ✓ — send to engage@deltav.cc' : 'Copy request details'}
               </button>
             </div>
-            <p className="text-[11px] text-[var(--text-muted)]">
+            <p className="text-[11px] text-[var(--text-muted)] leading-relaxed">
               Stored on encrypted EU infrastructure, single-operator access · working files
               auto-delete 90 days after the case closes · receipts stay pseudonymised (hashed
               subject id, no name) · full purge on request, confirmed in writing within 30 days.
             </p>
           </form>
         </div>
+      </PageContainer>
 
-        {/* ---- pricing ---- */}
-        <div className="mt-12">
-          <div className="text-[var(--text-secondary)] text-xs font-semibold tracking-[2px] uppercase mb-4">
-            What the report recommends next
-          </div>
-          <div className="space-y-4">
-            <div className="listing-card relative overflow-hidden rounded-2xl border p-6 md:p-7"
-              style={{ borderColor: 'color-mix(in srgb, var(--accent-cyan) 40%, var(--border-default))' }}>
-              <span className="absolute left-0 top-0 bottom-0 w-1 bg-[var(--accent-cyan)]" />
-              <div className="flex flex-wrap items-baseline gap-3">
-                <span className="text-lg font-semibold text-[var(--text-primary)]">Protection</span>
-                <span className="text-2xl font-bold text-[var(--text-primary)] tabular-nums">$30/mo</span>
-                <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-[1px] bg-[var(--accent-cyan)] text-[var(--on-accent)]">
-                  subscription · cancel anytime
-                </span>
-              </div>
-              <ul className="mt-3 space-y-2 text-[13px] text-[var(--text-secondary)]">
-                <li className="flex gap-2.5"><Check />Continuous monitoring: periodic re-scans, diff against your receipts ledger, alert when a removed listing reappears.</li>
-                <li className="flex gap-2.5"><Check />Data-poisoning canaries <em className="text-[var(--text-tertiary)]">(beta, your consent only)</em> — seeded only into submissions concerning your own profile; no result is promised, effectiveness not warranted.</li>
-                <li className="flex gap-2.5"><Check />Guided privacy-habit sessions: your hands on the keyboard, we guide step by step and hold nothing.</li>
-              </ul>
-            </div>
-
-            <div className="listing-card relative rounded-2xl border border-[var(--border-default)] p-6 md:p-7">
-              <div className="flex flex-wrap items-baseline gap-3">
-                <span className="text-lg font-semibold text-[var(--text-primary)]">Deep Scrub</span>
-                <span className="text-2xl font-bold text-[var(--text-primary)] tabular-nums">$99</span>
-                <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-[1px] border border-[var(--accent-gold)]/40 text-[var(--accent-gold)]">
-                  one-shot · no subscription
-                </span>
-              </div>
-              <ul className="mt-3 space-y-2 text-[13px] text-[var(--text-secondary)]">
-                <li className="flex gap-2.5"><Check />Bounded job: up to 3 filing rounds on no-ID targets, 30-day re-verification included — then the file closes. No renewal, nothing recurring.</li>
-                <li className="flex gap-2.5"><Check />The ID-gated checklist: the sources only you can approach (SCHUFA, Experian, CRIF…), prepared for your own verified requests.</li>
-                <li className="flex gap-2.5"><Check />Ordered when monitoring shows fresh reappearance — or once at intake.</li>
-              </ul>
-            </div>
-            <p className="text-[11px] text-[var(--text-muted)]">
-              A quiet period means nothing reappeared — we don&apos;t pad reports to look active.
-              14-day EU statutory withdrawal applies to both paid formats (model form on request).
-              Pay in USD, EUR, CHF or RON — rate shown at checkout.
-            </p>
-          </div>
-        </div>
-
-        {/* ---- never list ---- */}
-        <div className="mt-12 rounded-2xl border border-[var(--border-default)] bg-[var(--bg-surface)] p-6 md:p-7">
+      <PageContainer as="section" className="pb-16">
+        <div className="rounded-2xl border border-[var(--border-default)] bg-[var(--bg-surface)] p-6 md:p-7">
           <div className="text-[var(--text-tertiary)] text-xs font-semibold tracking-[2px] uppercase mb-4">
             What we never do
           </div>
           <div className="grid md:grid-cols-2 gap-3">
             {NEVER.map((n) => (
               <div key={n} className="flex gap-2.5 text-[13px] text-[var(--text-tertiary)]">
-                <Cross />{n}
+                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true" className="mt-1 shrink-0">
+                  <path d="M2.5 10.5l8-8M2.5 2.5l8 8" stroke="var(--accent-red)" strokeWidth="1.4" strokeLinecap="round" />
+                </svg>
+                {n}
               </div>
             ))}
           </div>
@@ -354,7 +291,7 @@ export default function ForgePrivacyPage() {
           <span>Delta V SRL, Bucharest (RO) · contact@deltav.cc</span>
           <span>Terms: CGU/CGV v0.4 draft · AI-Act transparency notice in review</span>
         </div>
-      </div>
+      </PageContainer>
     </div>
   );
 }
