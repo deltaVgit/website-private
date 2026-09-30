@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T03:15:27Z",
+  "updated_at": "2026-09-30T03:30:28Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "AVAX",
-        "name": "Avalanche",
-        "price": 11.35,
-        "change_24h": 9.45,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 3.37,
-        "change_24h": 9.2,
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.774025,
+        "change_24h": 13.33,
         "asset": "crypto"
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 159.89,
-        "change_24h": 8.98,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 4.96,
-        "change_24h": 8.72,
+        "price": 160.19,
+        "change_24h": 7.83,
         "asset": "crypto"
       },
       {
         "symbol": "FLR",
         "name": "Flare",
-        "price": 0.007612,
-        "change_24h": 8.61,
+        "price": 0.007592,
+        "change_24h": 7.68,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price": 11.26,
+        "change_24h": 7.63,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ICP",
+        "name": "Internet Computer",
+        "price": 3.36,
+        "change_24h": 7.19,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.77,
-        "change_24h": -13.21,
+        "price": 3.78,
+        "change_24h": -13.51,
         "asset": "crypto"
       },
       {
         "symbol": "HBAR",
         "name": "Hedera",
-        "price": 0.103446,
-        "change_24h": -12.3,
+        "price": 0.103463,
+        "change_24h": -13.28,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.124961,
-        "change_24h": -6.89,
+        "price": 0.125113,
+        "change_24h": -7.93,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.051,
-        "change_24h": -4.8,
+        "price": 1.044,
+        "change_24h": -5.75,
         "asset": "crypto"
       },
       {
-        "symbol": "XDC",
-        "name": "XDC Network",
-        "price": 0.033178,
-        "change_24h": -3.71,
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.126945,
+        "change_24h": -4.98,
         "asset": "crypto"
       }
     ]
