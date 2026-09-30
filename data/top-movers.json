@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T13:00:30Z",
+  "updated_at": "2026-09-30T13:15:29Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 5.34,
-        "change_24h": 10.01,
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.564723,
+        "change_24h": 12.73,
         "asset": "crypto"
       },
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.543977,
-        "change_24h": 8.51,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.36,
+        "change_24h": 11.21,
         "asset": "crypto"
       },
       {
         "symbol": "ASTER",
         "name": "Aster",
-        "price": 0.769552,
-        "change_24h": 5.97,
+        "price": 0.778724,
+        "change_24h": 7.32,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
         "price": 3.52,
-        "change_24h": 5.64,
+        "change_24h": 5.15,
         "asset": "crypto"
       },
       {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.032456,
-        "change_24h": 4.63,
+        "symbol": "PENGU",
+        "name": "Pudgy Penguins",
+        "price": 0.010487,
+        "change_24h": 4.89,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 3.94,
-        "change_24h": -11.51,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.15,
+        "change_24h": -11.6,
         "asset": "crypto"
       },
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.16,
-        "change_24h": -11.3,
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 3.99,
+        "change_24h": -10.37,
         "asset": "crypto"
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 164.75,
-        "change_24h": -5.17,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XDC",
-        "name": "XDC Network",
-        "price": 0.034272,
-        "change_24h": -4.35,
+        "price": 163.47,
+        "change_24h": -6.16,
         "asset": "crypto"
       },
       {
         "symbol": "HBAR",
         "name": "Hedera",
-        "price": 0.10907,
-        "change_24h": -4.32,
+        "price": 0.108986,
+        "change_24h": -4.53,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price": 0.034432,
+        "change_24h": -4.38,
         "asset": "crypto"
       }
     ]
