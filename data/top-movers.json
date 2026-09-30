@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-30T13:15:29Z",
+  "updated_at": "2026-09-30T13:30:30Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "IOVA",
         "name": "Iovance Biotherapeutics, Inc.",
-        "price": 14.45,
-        "change_24h": 31.48,
+        "price": 14.94,
+        "change_24h": 3.36,
         "asset": "equity"
       },
       {
         "symbol": "CCL",
         "name": "Carnival Corporation Ltd.",
-        "price": 25.11,
-        "change_24h": 13.41,
+        "price": 25.28,
+        "change_24h": 0.58,
         "asset": "equity"
       },
       {
         "symbol": "WRBY",
         "name": "Warby Parker Inc.",
-        "price": 27.47,
-        "change_24h": 11.39,
+        "price": 28.16,
+        "change_24h": 2.44,
         "asset": "equity"
       },
       {
         "symbol": "BE",
         "name": "Bloom Energy Corporation",
-        "price": 291.25,
-        "change_24h": 10.8,
+        "price": 294.99,
+        "change_24h": 1.27,
         "asset": "equity"
       },
       {
         "symbol": "MGNI",
         "name": "Magnite, Inc.",
-        "price": 25.67,
-        "change_24h": 9.7,
+        "price": 25.73,
+        "change_24h": 0.25,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "FICO",
         "name": "Fair Isaac Corporation",
-        "price": 617.87,
-        "change_24h": -26.52,
+        "price": 605.6,
+        "change_24h": -1.82,
         "asset": "equity"
       },
       {
         "symbol": "WGS",
         "name": "GeneDx Holdings Corp.",
-        "price": 75.79,
-        "change_24h": -11.8,
+        "price": 75.74,
+        "change_24h": -0.07,
         "asset": "equity"
       },
       {
         "symbol": "NESR",
         "name": "National Energy Services Reunit",
-        "price": 26.49,
-        "change_24h": -11.14,
+        "price": 26.86,
+        "change_24h": 1.37,
         "asset": "equity"
       },
       {
         "symbol": "MAAS",
         "name": "Maase Inc.",
-        "price": 16.12,
-        "change_24h": -10.2,
+        "price": 16.08,
+        "change_24h": -0.25,
         "asset": "equity"
       },
       {
         "symbol": "PIPR",
         "name": "Piper Sandler Companies",
-        "price": 64.72,
-        "change_24h": -9.72,
+        "price": 64.74,
+        "change_24h": -0.05,
         "asset": "equity"
       }
     ]
@@ -82,73 +82,73 @@
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.564723,
-        "change_24h": 12.73,
+        "price": 0.568313,
+        "change_24h": 13.53,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.36,
-        "change_24h": 11.21,
+        "price": 5.41,
+        "change_24h": 11.41,
         "asset": "crypto"
       },
       {
         "symbol": "ASTER",
         "name": "Aster",
-        "price": 0.778724,
-        "change_24h": 7.32,
+        "price": 0.774215,
+        "change_24h": 6.53,
         "asset": "crypto"
       },
       {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 3.52,
-        "change_24h": 5.15,
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.032338,
+        "change_24h": 5.31,
         "asset": "crypto"
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
-        "price": 0.010487,
-        "change_24h": 4.89,
+        "price": 0.01047,
+        "change_24h": 4.84,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.15,
-        "change_24h": -11.6,
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.03,
+        "change_24h": -10.04,
         "asset": "crypto"
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 3.99,
-        "change_24h": -10.37,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.21,
+        "change_24h": -7.16,
         "asset": "crypto"
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 163.47,
-        "change_24h": -6.16,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "HBAR",
-        "name": "Hedera",
-        "price": 0.108986,
-        "change_24h": -4.53,
+        "price": 164.42,
+        "change_24h": -6.03,
         "asset": "crypto"
       },
       {
         "symbol": "XDC",
         "name": "XDC Network",
-        "price": 0.034432,
-        "change_24h": -4.38,
+        "price": 0.034482,
+        "change_24h": -5.67,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "HBAR",
+        "name": "Hedera",
+        "price": 0.108918,
+        "change_24h": -5.35,
         "asset": "crypto"
       }
     ]
