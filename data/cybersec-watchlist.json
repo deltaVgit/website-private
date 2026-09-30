@@ -1,11 +1,91 @@
 [
   {
-    "title": "TeamViewer urges users to patch severe flaws “as soon as possible”",
-    "url": "https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/",
+    "title": "Over 543,000 valid credentials exposed in public GitHub repositories",
+    "url": "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
     "source": "BleepingComputer",
-    "summary": "Remote access software company TeamViewer warned customers on Tuesday to immediately patch a set of high-severity vulnerabilities affecting its client and host software. [...]",
-    "added": "2026-09-30T12:25:10+00:00",
-    "expires": "2026-10-14T13:34:50Z"
+    "summary": "More than 543,000 credentials exposed in public GitHub repositories were still valid in July despite the platform's security measures to prevent accidental leaks of sensitive data. [...]",
+    "added": "2026-09-30T18:08:34+00:00",
+    "expires": "2026-10-14T19:35:30Z"
+  },
+  {
+    "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
+    "url": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+    "source": "The Hacker News",
+    "summary": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research team. The attack expl",
+    "added": "2026-09-30T16:46:29+00:00",
+    "expires": "2026-10-14T19:35:30Z"
+  },
+  {
+    "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
+    "url": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+    "source": "The Hacker News",
+    "summary": "Microsoft has warned of phishing campaigns distributing an installer for the MSP360 Remote Monitoring and Management (RMM) software under the guise of meeting invitations, PDF-themed lures, software update prompts, and o",
+    "added": "2026-09-30T16:32:59+00:00",
+    "expires": "2026-10-14T19:35:30Z"
+  },
+  {
+    "title": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
+    "source": "BleepingComputer",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a new critical vulnerability in MikroTik RouterOS that could lead to remote code execution or cause a denial-of-service condition. [...]",
+    "added": "2026-09-30T15:49:29+00:00",
+    "expires": "2026-10-14T19:35:30Z"
+  },
+  {
+    "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
+    "url": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+    "source": "The Hacker News",
+    "summary": "Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an advisory on September 30. The flaw, CVE-2026-76504,",
+    "added": "2026-09-30T15:24:54+00:00",
+    "expires": "2026-10-14T19:35:30Z"
+  },
+  {
+    "title": "Russia's Star Blizzard Ditches ClickFix to Widen Phishing Net",
+    "url": "https://www.darkreading.com/threat-intelligence/russia-star-blizzard-apt-ditches-clickfix-widen-phishing-net",
+    "source": "Dark Reading",
+    "summary": "The APT actor is using a new tactic, dubbed \"RedFlick,\" against Ukrainian-linked targets such as NGOs, think tanks, and journalists to deploy its CosmicPulse backdoor.",
+    "added": "2026-09-30T15:02:25+00:00",
+    "expires": "2026-10-14T19:35:30Z"
+  },
+  {
+    "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
+    "url": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+    "source": "The Hacker News",
+    "summary": "Threat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware. Huntress, which observed th",
+    "added": "2026-09-30T15:00:15+00:00",
+    "expires": "2026-10-14T19:35:30Z"
+  },
+  {
+    "title": "Cisco warns of new SD-WAN zero-day exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "summary": "Cisco released security updates to address a critical zero-day in the Catalyst SD-WAN Manager (tracked as CVE-2026-76504) that attackers are actively exploiting to escalate to admin privileges. [...]",
+    "added": "2026-09-30T14:46:40+00:00",
+    "expires": "2026-10-14T19:35:30Z"
+  },
+  {
+    "title": "AI's Third Wave: Coworkers Break the Security Model That Worked for Agents",
+    "url": "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
+    "source": "BleepingComputer",
+    "summary": "Persistent AI coworkers may operate continuously with standing access, creating identity risks that existing security models were not designed to handle. Token Security explains why these agents need their own identities",
+    "added": "2026-09-30T14:01:11+00:00",
+    "expires": "2026-10-14T19:35:30Z"
+  },
+  {
+    "title": "Microsoft to block Entra ID script injection attacks starting October",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/",
+    "source": "BleepingComputer",
+    "summary": "Microsoft has reminded customers that the Entra ID authentication system will get better protection against external script injection attacks starting next month. [...]",
+    "added": "2026-09-30T13:37:15+00:00",
+    "expires": "2026-10-14T19:35:30Z"
+  },
+  {
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/09/30/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA Advisories",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-76504 Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability This type of v",
+    "added": "2026-09-30T12:00:00+00:00",
+    "expires": "2026-10-14T19:35:30Z"
   },
   {
     "title": "Know Your Enemy: Browser-Based Attack Techniques in 2026",
@@ -13,47 +93,7 @@
     "source": "The Hacker News",
     "summary": "Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often, they never leave it, with the entire attack",
     "added": "2026-09-30T11:58:00+00:00",
-    "expires": "2026-10-14T13:34:51Z"
-  },
-  {
-    "title": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
-    "url": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html",
-    "source": "The Hacker News",
-    "summary": "AI coding agents asked to share screenshots of code changes for review have put internal company images in public GitHub repositories, security company Glow said. Its researchers found more than 13,000 internal images fr",
-    "added": "2026-09-30T11:30:00+00:00",
-    "expires": "2026-10-14T13:34:51Z"
-  },
-  {
-    "title": "Bitget hacked via zero-day in third-party security products",
-    "url": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
-    "source": "BleepingComputer",
-    "summary": "Cryptocurrency exchange Bitget revealed today that attackers who stole $387.5 million last week breached its systems after exploiting a zero-day flaw in third-party security products. [...]",
-    "added": "2026-09-30T11:11:46+00:00",
-    "expires": "2026-10-14T13:34:50Z"
-  },
-  {
-    "title": "US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access",
-    "url": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
-    "source": "The Hacker News",
-    "summary": "ANY.RUN researchers traced a US-focused CSuite phishing campaign across 351 sandbox analyses, with 51% of submissions coming from the United States. Technology, manufacturing, government, and consulting organizations sho",
-    "added": "2026-09-30T10:45:00+00:00",
-    "expires": "2026-10-14T13:34:51Z"
-  },
-  {
-    "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
-    "url": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
-    "source": "The Hacker News",
-    "summary": "Unknown threat actors have been observed exploiting a newly patched security flaw in Citrix NetScaler ADC and NetScaler Gateway appliances to target organizations in North America and Europe. The activity, observed by Ma",
-    "added": "2026-09-30T08:24:35+00:00",
-    "expires": "2026-10-14T13:34:51Z"
-  },
-  {
-    "title": "OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted",
-    "url": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html",
-    "source": "The Hacker News",
-    "summary": "A High-severity OpenSSL flaw can leak heap memory to the other side of a DTLS connection or crash the program, OpenSSL said on September 29 as it released fixes. DTLS, the TLS variant used for UDP traffic, resends a hand",
-    "added": "2026-09-30T08:09:28+00:00",
-    "expires": "2026-10-14T13:34:51Z"
+    "expires": "2026-10-14T19:35:30Z"
   },
   {
     "title": "South Africa Seeks Help After Cyberattack Targets Air Traffic Control",
@@ -61,15 +101,7 @@
     "source": "Dark Reading",
     "summary": "As aviation infrastructure suffers more cyberattacks, air traffic systems are the latest target, with a ransomware toolkit installed on at least one operational network.",
     "added": "2026-09-30T07:00:00+00:00",
-    "expires": "2026-10-14T13:34:51Z"
-  },
-  {
-    "title": "Microsoft is rolling out Linux container support to WSL",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
-    "source": "BleepingComputer",
-    "summary": "Microsoft is taking Windows Subsystem for Linux beyond just running Linux distributions, as WSL Containers is now generally available. [...]",
-    "added": "2026-09-30T00:40:57+00:00",
-    "expires": "2026-10-14T13:34:50Z"
+    "expires": "2026-10-14T19:35:30Z"
   },
   {
     "title": "Apple Zero-Day Vulnerability Weaponized in Targeted Attacks",
@@ -77,15 +109,7 @@
     "source": "Dark Reading",
     "summary": "Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.",
     "added": "2026-09-29T21:31:29+00:00",
-    "expires": "2026-10-14T13:34:51Z"
-  },
-  {
-    "title": "Signal adds encypted local backup support to iOS, desktop apps",
-    "url": "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/",
-    "source": "BleepingComputer",
-    "summary": "Signal, the secure messaging app, released version 8.30, completing the rollout of its secure backups feature across all supported operating systems (Android, iOS, Linux, macOS, and Windows). [...]",
-    "added": "2026-09-29T21:30:08+00:00",
-    "expires": "2026-10-14T13:34:50Z"
+    "expires": "2026-10-14T19:35:30Z"
   },
   {
     "title": "Unsloth Studio Flaw Turns Routine Model Inspection Into Code Execution",
@@ -93,15 +117,7 @@
     "source": "Dark Reading",
     "summary": "A patched Unsloth Studio vulnerability allows malicious AI models to execute arbitrary Python code during inspection, via the trust_remote_code setting.",
     "added": "2026-09-29T21:08:42+00:00",
-    "expires": "2026-10-14T13:34:51Z"
-  },
-  {
-    "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
-    "url": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
-    "source": "BleepingComputer",
-    "summary": "Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]",
-    "added": "2026-09-29T20:59:39+00:00",
-    "expires": "2026-10-14T13:34:50Z"
+    "expires": "2026-10-14T19:35:30Z"
   },
   {
     "title": "Cloudflare Announces Public Certificate Authority for the Post-Quantum Web",
@@ -109,22 +125,6 @@
     "source": "Dark Reading",
     "summary": "Automated certificates for everyone, built for today, and hardened for the era of quantum computing.",
     "added": "2026-09-29T17:02:16+00:00",
-    "expires": "2026-10-14T13:34:51Z"
-  },
-  {
-    "title": "'NeedyMantis' Provides Long-Term Access to Compromised Networks",
-    "url": "https://www.darkreading.com/threat-intelligence/needymantis-long-term-access-compromised-networks",
-    "source": "Dark Reading",
-    "summary": "Microsoft observed a China-based actor using a previously unidentified malware framework in targeted intrusions against telcos, universities, medical, and government-related organizations.",
-    "added": "2026-09-29T15:12:39+00:00",
-    "expires": "2026-10-14T13:34:51Z"
-  },
-  {
-    "title": "Baicells Nova 430H",
-    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-04",
-    "source": "CISA Advisories",
-    "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to inject malformed messages which may lead to a denial-of-service condition. The following versions of Baicells Nova 430H are affec",
-    "added": "2026-09-29T12:00:00+00:00",
-    "expires": "2026-10-14T13:34:51Z"
+    "expires": "2026-10-14T19:35:30Z"
   }
 ]
