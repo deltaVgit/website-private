@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T07:45:28Z",
+  "updated_at": "2026-09-30T08:00:28Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.005765,
-        "change_24h": 14.45,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ZRO",
         "name": "LayerZero",
         "price": 1.79,
-        "change_24h": 14.4,
+        "change_24h": 14.83,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 282.86,
-        "change_24h": 13.66,
+        "price": 283.87,
+        "change_24h": 8.73,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 5.04,
-        "change_24h": 6.36,
+        "change_24h": 6.35,
         "asset": "crypto"
       },
       {
         "symbol": "ASTER",
         "name": "Aster",
-        "price": 0.762017,
-        "change_24h": 6.23,
+        "price": 0.76019,
+        "change_24h": 5.97,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.761496,
+        "change_24h": 5.83,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.065,
-        "change_24h": -12.72,
+        "price": 1.054,
+        "change_24h": -13.72,
         "asset": "crypto"
       },
       {
         "symbol": "HBAR",
         "name": "Hedera",
-        "price": 0.106202,
-        "change_24h": -9.42,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.124725,
-        "change_24h": -6.34,
+        "price": 0.106117,
+        "change_24h": -9.11,
         "asset": "crypto"
       },
       {
         "symbol": "GRAM",
         "name": "Gram (prev. Toncoin)",
         "price": 1.48,
-        "change_24h": -6.28,
+        "change_24h": -6.47,
         "asset": "crypto"
       },
       {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price": 14.3,
-        "change_24h": -5.94,
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.04395,
+        "change_24h": -6.26,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "APT",
+        "name": "Aptos",
+        "price": 0.785653,
+        "change_24h": -6.21,
         "asset": "crypto"
       }
     ]
