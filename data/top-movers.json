@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-30T01:30:28Z",
-  "source": "Yahoo Finance screener + Binance 24hr ticker (fallback)",
+  "updated_at": "2026-09-30T01:45:27Z",
+  "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "MOVR",
-        "name": "MOVR",
-        "price": 1.281,
-        "change_24h": 35.99,
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.780941,
+        "change_24h": 14.47,
         "asset": "crypto"
       },
       {
-        "symbol": "QNT",
-        "name": "QNT",
-        "price": 277.92,
-        "change_24h": 31.46,
+        "symbol": "ICP",
+        "name": "Internet Computer",
+        "price": 3.47,
+        "change_24h": 13.07,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "PUMP",
-        "price": 0.005935,
-        "change_24h": 24.53,
+        "symbol": "AAVE",
+        "name": "Aave",
+        "price": 161.26,
+        "change_24h": 9.57,
         "asset": "crypto"
       },
       {
-        "symbol": "0G",
-        "name": "0G",
-        "price": 0.3427,
-        "change_24h": 21.48,
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price": 11.4,
+        "change_24h": 8.2,
         "asset": "crypto"
       },
       {
-        "symbol": "NIGHT",
-        "name": "NIGHT",
-        "price": 0.03256,
-        "change_24h": 17.84,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.02,
+        "change_24h": 8.05,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "NMR",
-        "name": "NMR",
-        "price": 11.87,
-        "change_24h": -14.6,
-        "asset": "crypto"
-      },
-      {
         "symbol": "HBAR",
-        "name": "HBAR",
-        "price": 0.1034,
-        "change_24h": -12.97,
+        "name": "Hedera",
+        "price": 0.103154,
+        "change_24h": -14.36,
         "asset": "crypto"
       },
       {
-        "symbol": "NIL",
-        "name": "NIL",
-        "price": 0.07881,
-        "change_24h": -9.12,
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 3.92,
+        "change_24h": -9.66,
         "asset": "crypto"
       },
       {
-        "symbol": "PROM",
-        "name": "PROM",
-        "price": 5.942,
-        "change_24h": -5.62,
+        "symbol": "ALGO",
+        "name": "Algorand",
+        "price": 0.126471,
+        "change_24h": -5.92,
         "asset": "crypto"
       },
       {
         "symbol": "LINK",
-        "name": "LINK",
-        "price": 14.44,
-        "change_24h": -5.29,
+        "name": "Chainlink",
+        "price": 14.45,
+        "change_24h": -5.47,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.059,
+        "change_24h": -4.68,
         "asset": "crypto"
       }
     ]
