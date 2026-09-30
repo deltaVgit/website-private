@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T11:30:29Z",
+  "updated_at": "2026-09-30T11:45:29Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.005744,
-        "change_24h": 11.48,
+        "symbol": "QNT",
+        "name": "Quant",
+        "price": 321.65,
+        "change_24h": 28.16,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.3,
-        "change_24h": 10.92,
+        "price": 5.29,
+        "change_24h": 8.93,
         "asset": "crypto"
       },
       {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.033428,
-        "change_24h": 8.04,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.005733,
+        "change_24h": 7.89,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.531099,
+        "change_24h": 5.54,
         "asset": "crypto"
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
-        "price": 0.010189,
-        "change_24h": 6.15,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ASTER",
-        "name": "Aster",
-        "price": 0.763278,
-        "change_24h": 4.67,
+        "price": 0.010105,
+        "change_24h": 4.54,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.91,
-        "change_24h": -11.72,
+        "price": 3.9,
+        "change_24h": -13.06,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.15,
-        "change_24h": -11.53,
+        "price": 1.16,
+        "change_24h": -11.95,
         "asset": "crypto"
       },
       {
         "symbol": "HBAR",
         "name": "Hedera",
-        "price": 0.10843,
-        "change_24h": -7.67,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CRO",
-        "name": "Cronos",
-        "price": 0.067079,
-        "change_24h": -7.5,
+        "price": 0.108378,
+        "change_24h": -8.67,
         "asset": "crypto"
       },
       {
         "symbol": "XDC",
         "name": "XDC Network",
-        "price": 0.034077,
-        "change_24h": -6.56,
+        "price": 0.034076,
+        "change_24h": -7.06,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CRO",
+        "name": "Cronos",
+        "price": 0.067032,
+        "change_24h": -6.83,
         "asset": "crypto"
       }
     ]
