@@ -1,6 +1,46 @@
 {
-  "updated": "2026-09-30T13:34:44Z",
+  "updated": "2026-09-30T19:35:24Z",
   "items": [
+    {
+      "title": "Frog and Toad and the Increasingly Capable Machines",
+      "url": "https://www.lesswrong.com/posts/7NZ6ZWjenzzCbCJ5b/frog-and-toad-and-the-increasingly-capable-machines",
+      "source": "LessWrong",
+      "published_at": "2026-09-30T18:27:42+00:00",
+      "summary": "Want to start a conversation about HuggingFace with your mom but she's inexplicably bouncing off the METR report? Try this explainer I wrote in the style of Arnold Lobel's Frog and Toad. Art by the wonderful HungerArtist If you're so inspired, liking and/or following on Substack ",
+      "tag": "ai"
+    },
+    {
+      "title": "Introducing SynthID Bio",
+      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "source": "Google DeepMind",
+      "published_at": "2026-09-30T15:03:07+00:00",
+      "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+      "tag": "ai"
+    },
+    {
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "source": "OpenAI",
+      "published_at": "2026-09-30T10:30:00+00:00",
+      "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+      "tag": "ai"
+    },
+    {
+      "title": "Helping small businesses put AI to work",
+      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "source": "OpenAI",
+      "published_at": "2026-09-30T10:00:00+00:00",
+      "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+      "tag": "ai"
+    },
+    {
+      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+      "url": "https://huggingface.co/blog/open-tts-leaderboard",
+      "source": "Hugging Face Blog",
+      "published_at": "2026-09-30T00:00:00+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
     {
       "title": "Quoting Anthropic Frontier Red Team",
       "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
@@ -18,11 +58,11 @@
       "tag": "ai"
     },
     {
-      "title": "OpenAI DevDay 2026 live blog",
-      "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
+      "title": "Photo Scrubber — local face blur & metadata removal",
+      "url": "https://simonwillison.net/2026/Sep/29/photo-scrubber/",
       "source": "Simon Willison",
-      "published_at": "2026-09-29T15:55:13+00:00",
-      "summary": "I'm at OpenAI DevDay today, in Fort Mason, San Francisco. Same as last year I'll be live blogging the keynote and some other notes during the day. OpenAI gave me a free ticket and a seat in the \"creator\" area for the keynote. Tags: ai , openai , generative-ai , llms , coding-agen",
+      "published_at": "2026-09-29T16:45:27+00:00",
+      "summary": "Tool: Photo Scrubber — local face blur & metadata removal I took a photograph of some protesters, then thought about how I don't like sharing photographs of strangers with identifiable faces. I had GPT-6 Astra build this experimental tool that would identify faces and automatical",
       "tag": "ai"
     },
     {
@@ -58,27 +98,11 @@
       "tag": "ai"
     },
     {
-      "title": "Introducing dots",
-      "url": "https://openai.com/index/introducing-dots",
-      "source": "OpenAI",
-      "published_at": "2026-09-29T00:00:00+00:00",
-      "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
-      "tag": "ai"
-    },
-    {
       "title": "Fixed-weight models are adversarially vulnerable: hence misaligned",
       "url": "https://www.alignmentforum.org/posts/9LWK9Hh3Qsg36e3FS/fixed-weight-models-are-adversarially-vulnerable-hence",
       "source": "Alignment Forum",
       "published_at": "2026-09-28T20:08:39+00:00",
       "summary": "This post argues that fixed-weight models (at least as we understand them today) will a) always be vulnerable to adversarial examples in their concept-spaces, and b) hence will be misaligned, under sufficient optimisation pressure . Boundaries in concept space To serve any purpos",
-      "tag": "ai"
-    },
-    {
-      "title": "Towards safety cases for frontier AI training",
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "source": "OpenAI",
-      "published_at": "2026-09-28T19:00:00+00:00",
-      "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
       "tag": "ai"
     },
     {
@@ -122,10 +146,10 @@
       "tag": "ai"
     },
     {
-      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-      "source": "Hugging Face Blog",
-      "published_at": "2026-09-24T14:08:57+00:00",
+      "title": "Introducing Gemini 3.8 Live with Live Avatar",
+      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "source": "Google DeepMind",
+      "published_at": "2026-09-24T16:20:39+00:00",
       "summary": "",
       "tag": "ai"
     },
@@ -151,6 +175,22 @@
       "source": "Google AI Blog",
       "published_at": "2026-09-23T18:00:00+00:00",
       "summary": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
+      "tag": "ai"
+    },
+    {
+      "title": "Advancing Private AI Compute with secure, server-side memory",
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "source": "Google DeepMind",
+      "published_at": "2026-09-23T16:00:57+00:00",
+      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+      "tag": "ai"
+    },
+    {
+      "title": "Gemini 3.8 text-to-speech says hello",
+      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+      "source": "Google DeepMind",
+      "published_at": "2026-09-23T15:25:14+00:00",
+      "summary": "",
       "tag": "ai"
     },
     {
@@ -215,14 +255,6 @@
       "source": "Google AI Blog",
       "published_at": "2026-09-18T14:00:00+00:00",
       "summary": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
-      "tag": "ai"
-    },
-    {
-      "title": "The Talker Does Not Control The Doer (in Current AIs)",
-      "url": "https://www.lesswrong.com/posts/cJX2ssssGoYqnijwi/the-talker-does-not-control-the-doer-in-current-ais",
-      "source": "LessWrong",
-      "published_at": "2026-09-17T02:05:40+00:00",
-      "summary": "The Huggingface Incident appears to me to match up with an understanding I'd already formed from personal observation of Fable 5 and Sol 5.6, the August 2026 generation of frontier publicly purchasable AI models. [1] This already-formed understanding was: the part of the AI that ",
       "tag": "ai"
     },
     {
