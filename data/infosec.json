@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T07:04:49Z",
+  "updatedAt": "2026-09-30T13:34:51Z",
   "kev": [
     {
       "cve": "CVE-2026-86950",
@@ -216,6 +216,13 @@
   ],
   "breaches": [
     {
+      "name": "Medela",
+      "domain": "medela.com",
+      "date": "2026-09-07",
+      "count": 423947,
+      "data": "Email addresses, Employers, Job titles, Names, Phone numbers"
+    },
+    {
       "name": "ManchesterAirportsGroup",
       "domain": "magairports.com",
       "date": "2026-08-27",
@@ -291,13 +298,6 @@
       "date": "2026-07-15",
       "count": 10869543,
       "data": "Dates of birth, Email addresses, Genders, Names, Personal health data"
-    },
-    {
-      "name": "BrinksHome",
-      "domain": "brinkshome.com",
-      "date": "2026-07-13",
-      "count": 732162,
-      "data": "Dates of birth, Email addresses, Names, Partial credit card data, Phone numbers"
     }
   ]
 }
