@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T20:01:06Z",
+  "updated_at": "2026-09-30T20:16:14Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -13,15 +13,8 @@
       {
         "symbol": "ROG",
         "name": "Rogers Corporation",
-        "price": 153.06,
-        "change_24h": 10.78,
-        "asset": "equity"
-      },
-      {
-        "symbol": "NWCL",
-        "name": "newcleo plc Ordinary Shares",
-        "price": 7.85,
-        "change_24h": 9.33,
+        "price": 152.99,
+        "change_24h": 10.73,
         "asset": "equity"
       },
       {
@@ -29,6 +22,13 @@
         "name": "FormFactor, Inc.",
         "price": 149.31,
         "change_24h": 9.59,
+        "asset": "equity"
+      },
+      {
+        "symbol": "NWCL",
+        "name": "newcleo plc Ordinary Shares",
+        "price": 7.85,
+        "change_24h": 9.33,
         "asset": "equity"
       },
       {
@@ -48,17 +48,17 @@
         "asset": "equity"
       },
       {
+        "symbol": "JBL",
+        "name": "Jabil Inc.",
+        "price": 286.68,
+        "change_24h": -10.09,
+        "asset": "equity"
+      },
+      {
         "symbol": "BLLN",
         "name": "BillionToOne, Inc.",
         "price": 106.44,
         "change_24h": -9.93,
-        "asset": "equity"
-      },
-      {
-        "symbol": "JBL",
-        "name": "Jabil Inc.",
-        "price": 286.84,
-        "change_24h": -10.04,
         "asset": "equity"
       },
       {
@@ -69,10 +69,10 @@
         "asset": "equity"
       },
       {
-        "symbol": "NMIH",
-        "name": "NMI Holdings Inc",
-        "price": 37.32,
-        "change_24h": -8.37,
+        "symbol": "MTG",
+        "name": "MGIC Investment Corporation",
+        "price": 25.84,
+        "change_24h": -8.53,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.360889,
-        "change_24h": 12.28,
+        "price": 0.359174,
+        "change_24h": 11.7,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 296.17,
-        "change_24h": 10.98,
+        "price": 293.21,
+        "change_24h": 9.27,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.530804,
-        "change_24h": 7.4,
+        "price": 0.531923,
+        "change_24h": 8.12,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.35,
-        "change_24h": 7.06,
+        "price": 5.33,
+        "change_24h": 8.06,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.263305,
-        "change_24h": 5.1,
+        "price": 0.263865,
+        "change_24h": 5.93,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.83,
-        "change_24h": -14.18,
+        "price": 3.85,
+        "change_24h": -13.84,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.076427,
-        "change_24h": -9.02,
+        "price": 0.076501,
+        "change_24h": -7.75,
         "asset": "crypto"
       },
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.111526,
-        "change_24h": -5.04,
+        "price": 0.11096,
+        "change_24h": -5.59,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 7.3,
-        "change_24h": -4.83,
+        "price": 7.32,
+        "change_24h": -4.8,
         "asset": "crypto"
       },
       {
-        "symbol": "AAVE",
-        "name": "Aave",
-        "price": 158.11,
-        "change_24h": -4.58,
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price": 10.9,
+        "change_24h": -4.44,
         "asset": "crypto"
       }
     ]
