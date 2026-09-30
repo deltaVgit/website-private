@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-30T17:15:10Z",
+  "updated_at": "2026-09-30T17:30:14Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "NWCL",
         "name": "newcleo plc Ordinary Shares",
-        "price": 7.94,
-        "change_24h": 10.58,
+        "price": 8.24,
+        "change_24h": 14.76,
         "asset": "equity"
       },
       {
         "symbol": "UTHR",
         "name": "United Therapeutics Corporation",
-        "price": 544.74,
-        "change_24h": 13.14,
-        "asset": "equity"
-      },
-      {
-        "symbol": "IBRX",
-        "name": "ImmunityBio, Inc.",
-        "price": 9.825,
-        "change_24h": 11.27,
+        "price": 546.09,
+        "change_24h": 13.42,
         "asset": "equity"
       },
       {
         "symbol": "ROG",
         "name": "Rogers Corporation",
-        "price": 151.97,
-        "change_24h": 9.99,
+        "price": 154.09,
+        "change_24h": 11.52,
         "asset": "equity"
       },
       {
-        "symbol": "ZETA",
-        "name": "Zeta Global Holdings Corp.",
-        "price": 31.49,
-        "change_24h": 8.74,
+        "symbol": "IBRX",
+        "name": "ImmunityBio, Inc.",
+        "price": 9.745,
+        "change_24h": 10.36,
+        "asset": "equity"
+      },
+      {
+        "symbol": "PGEN",
+        "name": "Precigen, Inc.",
+        "price": 8.7901,
+        "change_24h": 9.19,
         "asset": "equity"
       }
     ],
@@ -50,29 +50,29 @@
       {
         "symbol": "TRLV",
         "name": "Trulieve Cannabis Corp. Subordi",
-        "price": 10.48,
-        "change_24h": -15.51,
-        "asset": "equity"
-      },
-      {
-        "symbol": "CBRS",
-        "name": "Cerebras Systems Inc.",
-        "price": 179.31,
-        "change_24h": -8.02,
+        "price": 10.46,
+        "change_24h": -15.75,
         "asset": "equity"
       },
       {
         "symbol": "JBL",
         "name": "Jabil Inc.",
-        "price": 293.77,
-        "change_24h": -7.86,
+        "price": 291.99,
+        "change_24h": -8.42,
+        "asset": "equity"
+      },
+      {
+        "symbol": "CBRS",
+        "name": "Cerebras Systems Inc.",
+        "price": 179.35,
+        "change_24h": -8.0,
         "asset": "equity"
       },
       {
         "symbol": "BLLN",
         "name": "BillionToOne, Inc.",
-        "price": 109.89,
-        "change_24h": -7.02,
+        "price": 109.7,
+        "change_24h": -7.18,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.352482,
-        "change_24h": 10.88,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.542539,
-        "change_24h": 10.3,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.269608,
-        "change_24h": 9.5,
+        "price": 0.357767,
+        "change_24h": 12.92,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 5.38,
-        "change_24h": 9.12,
+        "change_24h": 10.26,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.539261,
+        "change_24h": 9.93,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.268597,
+        "change_24h": 9.33,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
-        "price": 1.26,
-        "change_24h": 6.99,
+        "price": 1.25,
+        "change_24h": 6.64,
         "asset": "crypto"
       }
     ],
@@ -119,35 +119,35 @@
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.98,
-        "change_24h": -10.24,
+        "price": 4.0,
+        "change_24h": -9.02,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.079136,
-        "change_24h": -6.74,
+        "price": 0.079003,
+        "change_24h": -6.43,
         "asset": "crypto"
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 161.61,
-        "change_24h": -3.44,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "INJ",
-        "name": "Injective",
-        "price": 7.39,
-        "change_24h": -3.06,
+        "price": 161.12,
+        "change_24h": -3.66,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.012337,
+        "price": 0.012309,
+        "change_24h": -3.09,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "POL",
+        "name": "POL (ex-MATIC)",
+        "price": 0.113239,
         "change_24h": -2.88,
         "asset": "crypto"
       }
