@@ -80,8 +80,8 @@ export default function ForgePrivacyPage() {
     <div className="relative z-10">
       <PageHero
         label="Forge · Privacy"
-        title="Find where you're exposed. Then get you off them."
-        description="A human-supervised audit and scrub of your public digital footprint — data brokers, directory listings, public breach corpora. You keep your papers; we never hold your identity. Technical service, not legal advice — no removal is guaranteed; we report honestly what was filed, refused, or reappeared."
+        title="Automated check free. Human hands when you pay."
+        description="Your public footprint — data brokers, directory listings, breach corpora — scanned free by machine, then scrubbed by people once you pay. You keep your papers; we never hold your identity. Technical service, not legal advice — no removal is guaranteed; we report honestly what was filed, refused, or reappeared."
         accent="purple"
         backFallback="/forge/"
         backLabel="Back to Forge"
@@ -93,44 +93,43 @@ export default function ForgePrivacyPage() {
         </div>
         <OfferCard
           id="free-audit"
-          title="The free exposure audit"
-          pitch="One bounded run, no obligation to continue: what the public web knows about you — and the first round of filings to get you off it — before you pay anything."
+          title="Free check — USD 0 · automated"
+          pitch="No human, no cost: the machine scan of what the public web shows about you, in your browser, in three minutes. The honest part — most of what it finds, you can scrub yourself for free; we tell you how."
           deliverables={[
-            'Exposure audit across your name forms, emails, phone numbers and public pseudonyms: data-broker and directory listings, public breach corpora (k-anonymity — the identifying string, email or phone, is never sent whole), search-engine leakage. Delivered as a written report, source by source.',
-            'First scrub: one initial round of opt-out and erasure filings on no-ID targets, on your recorded instruction. You receive a receipts ledger: per target — filed, refused, no exposure, reappeared.',
-            'The plain answer: if free national mechanisms (Robinson list, Bloctel, Stop Pub) or a cheap self-service tool already cover you, we tell you before you pay anything.',
+            'Machine scan across your name forms, emails, phone numbers and public pseudonyms: data-broker and directory listings, public breach corpora (k-anonymity — the identifying string, email or phone, is never sent whole), search-engine leakage.',
+            'A verdict with the moves that matter in order — credential rotation first.',
+            'The free path: national mechanisms (Robinson list, Bloctel, Stop Pub, Google&apos;s &quot;Results about you&quot;) laid out per country — most people can cover themselves at zero cost.',
           ]}
           process={[
-            { step: 'Intake', desc: 'the scoped form below — recorded, revocable consent (CGU §3.3)' },
-            { step: 'Audit & first scrub', desc: 'public sources only — ID-gated bureaus are never contacted by us' },
-            { step: 'Written report', desc: 'source by source, within published capacity limits' },
+            { step: 'Run it', desc: 'the hosted self-check app — nothing is sent to Delta V' },
+            { step: 'Decide', desc: 'the verdict tells you if a machine scan was enough' },
+            { step: 'Optional next', desc: 'rung 2 when you want human hands on the filings' },
           ]}
-          audience="Anyone who wants to know exactly where they stand — free, before paying anyone."
-          ctaLabel="Run the free self-check"
+          audience="Anyone. This run is software — it costs us nothing and you nothing."
+          ctaLabel="Run the free check"
           ctaTopic="free-audit"
           ctaHref="/forge/privacy/audit/"
-          secondary={{ label: 'Request the human audit', href: '#start-audit' }}
         />
 
         <OfferCard
           id="deep-scrub"
-          title="The scrub"
+          title="Human scrub — USD 19 · one round"
           pitch={
             <>
-              The check found exposure you don&apos;t want to fight alone: brokers, directories,
-              indexed leaks. We file the opt-outs and erasures for you — up to 3 rounds on the
-              stubborn targets, re-verified at 30 days, then the file closes.{' '}
-              <strong className="text-[var(--text-primary)]">USD 19, one-shot. No subscription.</strong>
+              A person files your opt-outs and erasures for you: brokers, directories, indexed
+              leaks — one filing round on no-ID targets, re-verified at 30 days, then the file
+              closes.{' '}
+              <strong className="text-[var(--text-primary)]">USD 19, one-shot. This is where humans — and cost — start.</strong>
             </>
           }
           deliverables={[
-            'Bounded job: up to 3 filing rounds on no-ID targets, 30-day re-verification included — then the file closes. No renewal, nothing recurring.',
+            'One filing round on no-ID targets, 30-day re-verification included — then the file closes. No renewal, nothing recurring.',
             'A receipts ledger: per target — filed, refused, no exposure, reappeared.',
             'The ID-gated checklist: the sources only you can approach (SCHUFA, Experian, CRIF…), prepared for your own verified requests.',
           ]}
           process={[
             { step: 'Scope', desc: 'one bounded job, agreed at intake' },
-            { step: 'File', desc: 'up to 3 rounds on no-ID targets' },
+            { step: 'File', desc: 'one round on no-ID targets, by a person' },
             { step: 'Close', desc: 're-verification, final ledger — then the file closes' },
           ]}
           audience="Exposure you&apos;ve confirmed and want handled — once, properly."
@@ -141,7 +140,7 @@ export default function ForgePrivacyPage() {
 
         <OfferCard
           id="protection"
-          title="The watch — rung 2, kept running"
+          title="Watch &amp; re-scrub — USD 100/mo · or 500 for 6 months"
           pitch={
             <>
               Everything rung 2 does, kept running: automated regular checks and re-scrubs when
@@ -179,11 +178,12 @@ export default function ForgePrivacyPage() {
 
       <PageContainer as="section" className="pb-16">
         <div id="start-audit" className="scroll-mt-24 rounded-2xl border border-[var(--border-default)] bg-[var(--bg-surface)] p-6 md:p-8">
-          <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">Start your audit</h2>
+          <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">Order the human work</h2>
           <p className="text-sm text-[var(--text-secondary)] mt-2 max-w-3xl leading-relaxed">
-            This form is the human-supervised path: only what the first real run needs. Social
-            networks and ID-gated bureaus are never contacted by us — the report lists them for
-            your own verified request. Prefer an instant answer first?{' '}
+            This form starts the paid path — the USD 19 scrub or the watch. You&apos;ll see the
+            price before anything is filed. Social networks and ID-gated bureaus are never
+            contacted by us — the report lists them for your own verified request. Prefer a
+            free answer first?{' '}
             <a href="/forge/privacy/audit/" className="text-[var(--accent-cyan)] hover:underline">
               Run the free self-check →
             </a>

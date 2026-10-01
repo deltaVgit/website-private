@@ -118,7 +118,7 @@ async function checkEmail(email: string): Promise<EmailResult> {
     }
     return out;
   } catch {
-    return { ...base, error: 'Breach-corpus API unreachable. Try again, or request the human audit.' };
+    return { ...base, error: 'Breach-corpus API unreachable. Try again, or order the USD 19 scrub.' };
   }
 }
 
@@ -224,7 +224,7 @@ export default function PrivacyAuditApp() {
     `Phones / handles swept manually: ${phones.length + handles.length} · leak signs ticked: ${foundManual.length}`,
     `Country: ${country}`,
     '',
-    'I want the human-supervised audit / the USD 19 scrub / the watch (delete as appropriate).',
+    'I want the human work: the USD 19 scrub / the watch (delete as appropriate).',
   ].join('\n');
 
   const sendResult = () => {
@@ -265,7 +265,7 @@ export default function PrivacyAuditApp() {
           the address itself reaches that service — that is how it can answer — never us. Phones
           and pseudonyms never leave this page; they only build the manual search links below.
           This tool is deterministic — no AI in the loop — and indicative: public corpora are not
-          exhaustive; the human audit goes wider.
+          exhaustive; the paid human scrub goes wider.
         </div>
 
         {/* ---- unified intake form ---- */}
@@ -450,7 +450,7 @@ export default function PrivacyAuditApp() {
                 </div>
                 <p className="text-sm text-[var(--text-secondary)] max-w-2xl leading-relaxed mb-4">
                   These stay on your device. Each link opens a quoted search — if you find
-                  yourself, tick it so it feeds the summary (and the human audit, if you send it).
+                  yourself, tick it so it feeds the summary (and the human scrub, if you order it).
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {[...phones, ...handles].map((v) => (
@@ -523,7 +523,7 @@ export default function PrivacyAuditApp() {
                       <span className="flex-shrink-0 w-6 h-6 rounded-lg bg-[var(--accent-purple)]/10 text-[var(--accent-purple)] text-xs font-semibold flex items-center justify-center">{nextStep()}</span>
                       <span>
                         <strong>Start the removals for what your manual sweep found:</strong>{' '}
-                        <span className="text-[var(--text-secondary)]">Google&apos;s “Results about you” tool covers search leakage; broker and directory listings are what the human audit files for you.</span>
+                        <span className="text-[var(--text-secondary)]">Google&apos;s “Results about you” tool covers search leakage; broker and directory listings are what the USD 19 scrub files for you.</span>
                       </span>
                     </li>
                   )}
@@ -554,10 +554,10 @@ export default function PrivacyAuditApp() {
                   </div>
                   <div className="grid md:grid-cols-3 gap-4">
                     <div>
-                      <div className="text-sm font-semibold mb-1">Human audit — free</div>
+                      <div className="text-sm font-semibold mb-1">Free check — automated · USD 0</div>
                       <p className="text-[13px] text-[var(--text-secondary)] leading-relaxed mb-3">
-                        Send this result (counts only, no identifiers), get the full scoped audit:
-                        brokers, directories, leakage — first scrub included.
+                        Send this result (counts only, no identifiers) and a person scopes your
+                        case: brokers, directories, leakage — quote before any filing.
                       </p>
                       <button type="button" onClick={sendResult} className="w-full inline-flex justify-center items-center rounded-xl bg-[var(--accent-primary)] px-4 py-2.5 text-sm font-semibold text-[var(--on-accent)] transition-colors hover:bg-[var(--accent-primary-bright)]">
                         Send my result
