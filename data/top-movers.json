@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-01T17:45:55Z",
-  "source": "Yahoo Finance screener + Binance 24hr ticker (fallback)",
+  "updated_at": "2026-10-01T18:00:41Z",
+  "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "ACN",
         "name": "Accenture plc",
-        "price": 216.7,
-        "change_24h": 18.18,
+        "price": 216.13,
+        "change_24h": 17.87,
         "asset": "equity"
       },
       {
         "symbol": "SNPS",
         "name": "Synopsys, Inc.",
-        "price": 493.73,
-        "change_24h": 13.52,
-        "asset": "equity"
-      },
-      {
-        "symbol": "INOD",
-        "name": "Innodata Inc.",
-        "price": 74.42,
-        "change_24h": 13.17,
+        "price": 493.35,
+        "change_24h": 13.43,
         "asset": "equity"
       },
       {
         "symbol": "FICO",
         "name": "Fair Isaac Corporation",
-        "price": 669.59,
-        "change_24h": 13.02,
+        "price": 668.41,
+        "change_24h": 12.82,
         "asset": "equity"
       },
       {
-        "symbol": "COHR",
-        "name": "Coherent Corp.",
-        "price": 319.68,
-        "change_24h": 11.07,
+        "symbol": "EFXT",
+        "name": "Enerflex Ltd",
+        "price": 25.44,
+        "change_24h": 11.63,
+        "asset": "equity"
+      },
+      {
+        "symbol": "INOD",
+        "name": "Innodata Inc.",
+        "price": 73.0,
+        "change_24h": 11.01,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "price": 26.15,
-        "change_24h": -13.58,
+        "price": 26.71,
+        "change_24h": -11.72,
         "asset": "equity"
       },
       {
         "symbol": "GRND",
         "name": "Grindr Inc.",
-        "price": 14.29,
-        "change_24h": -7.36,
+        "price": 14.24,
+        "change_24h": -7.71,
         "asset": "equity"
       },
       {
         "symbol": "PSKY",
         "name": "Paramount Skydance Corporation",
-        "price": 9.645,
-        "change_24h": -6.63,
+        "price": 9.53,
+        "change_24h": -7.74,
+        "asset": "equity"
+      },
+      {
+        "symbol": "SLS",
+        "name": "SELLAS Life Sciences Group, Inc",
+        "price": 11.4,
+        "change_24h": -7.39,
         "asset": "equity"
       },
       {
         "symbol": "RGEN",
         "name": "Repligen Corporation",
-        "price": 179.75,
-        "change_24h": -6.49,
-        "asset": "equity"
-      },
-      {
-        "symbol": "TEM",
-        "name": "Tempus AI, Inc.",
-        "price": 76.69,
-        "change_24h": -6.37,
+        "price": 178.0,
+        "change_24h": -7.4,
         "asset": "equity"
       }
     ]
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "MOVR",
-        "name": "MOVR",
-        "price": 2.944,
-        "change_24h": 77.56,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.42,
+        "change_24h": 6.93,
         "asset": "crypto"
       },
       {
-        "symbol": "ALICE",
-        "name": "ALICE",
-        "price": 0.2031,
-        "change_24h": 25.06,
+        "symbol": "AAVE",
+        "name": "Aave",
+        "price": 170.63,
+        "change_24h": 6.83,
         "asset": "crypto"
       },
       {
-        "symbol": "MEGA",
-        "name": "MEGA",
-        "price": 0.0527,
-        "change_24h": 24.06,
+        "symbol": "STX",
+        "name": "Stacks",
+        "price": 0.382877,
+        "change_24h": 6.17,
         "asset": "crypto"
       },
       {
-        "symbol": "SYN",
-        "name": "SYN",
-        "price": 0.19971,
-        "change_24h": 20.52,
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.081739,
+        "change_24h": 4.98,
         "asset": "crypto"
       },
       {
-        "symbol": "OPN",
-        "name": "OPN",
-        "price": 0.0631,
-        "change_24h": 16.85,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 9.1,
+        "change_24h": 2.67,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
         "symbol": "QNT",
-        "name": "QNT",
-        "price": 269.88,
-        "change_24h": -10.56,
+        "name": "Quant",
+        "price": 269.01,
+        "change_24h": -10.62,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
-        "name": "NEAR",
-        "price": 4.943,
-        "change_24h": -8.39,
+        "name": "NEAR Protocol",
+        "price": 4.88,
+        "change_24h": -9.13,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
-        "name": "ETHFI",
-        "price": 0.7413,
-        "change_24h": -6.57,
+        "name": "Ether.fi",
+        "price": 0.73653,
+        "change_24h": -7.44,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
-        "name": "WLD",
-        "price": 0.5004,
-        "change_24h": -6.17,
+        "name": "Worldcoin",
+        "price": 0.494728,
+        "change_24h": -7.19,
         "asset": "crypto"
       },
       {
-        "symbol": "MARSCOIN",
-        "name": "MARSCOIN",
-        "price": 0.1295,
-        "change_24h": -6.09,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.249222,
+        "change_24h": -6.47,
         "asset": "crypto"
       }
     ]
