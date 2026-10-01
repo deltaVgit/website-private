@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T09:15:41Z",
+  "updated_at": "2026-10-01T09:30:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.02,
-        "change_24h": 4.94,
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.133988,
+        "change_24h": 4.41,
         "asset": "crypto"
       },
       {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.133795,
-        "change_24h": 4.39,
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 4.01,
+        "change_24h": 3.95,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "GT",
+        "name": "Gate",
+        "price": 11.12,
+        "change_24h": 3.67,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 28.04,
-        "change_24h": 3.58,
+        "price": 28.08,
+        "change_24h": 3.49,
         "asset": "crypto"
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
-        "price": 89.35,
-        "change_24h": 3.49,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ALGO",
-        "name": "Algorand",
-        "price": 0.127921,
-        "change_24h": 3.48,
+        "price": 89.2,
+        "change_24h": 3.28,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.032767,
-        "change_24h": -12.83,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.078258,
-        "change_24h": -4.42,
+        "price": 0.033267,
+        "change_24h": -10.06,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 1.03,
-        "change_24h": -4.17,
+        "price": 1.026,
+        "change_24h": -4.68,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.078371,
+        "change_24h": -4.18,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "POL",
+        "name": "POL (ex-MATIC)",
+        "price": 0.111875,
+        "change_24h": -3.63,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 3.32,
-        "change_24h": -3.71,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.005562,
-        "change_24h": -3.67,
+        "price": 3.33,
+        "change_24h": -3.54,
         "asset": "crypto"
       }
     ]
