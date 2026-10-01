@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-01T17:00:42Z",
+  "updated_at": "2026-10-01T17:15:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "ACN",
         "name": "Accenture plc",
-        "price": 216.14,
-        "change_24h": 17.87,
+        "price": 216.31,
+        "change_24h": 17.96,
         "asset": "equity"
       },
       {
         "symbol": "EFXT",
         "name": "Enerflex Ltd",
-        "price": 25.84,
-        "change_24h": 13.36,
+        "price": 25.59,
+        "change_24h": 12.26,
         "asset": "equity"
       },
       {
         "symbol": "FICO",
         "name": "Fair Isaac Corporation",
-        "price": 665.22,
-        "change_24h": 12.28,
+        "price": 660.49,
+        "change_24h": 11.48,
         "asset": "equity"
       },
       {
         "symbol": "SNPS",
         "name": "Synopsys, Inc.",
-        "price": 482.0,
-        "change_24h": 10.82,
+        "price": 483.88,
+        "change_24h": 11.25,
         "asset": "equity"
       },
       {
         "symbol": "COHR",
         "name": "Coherent Corp.",
-        "price": 316.27,
-        "change_24h": 9.89,
+        "price": 317.81,
+        "change_24h": 10.42,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "price": 26.27,
-        "change_24h": -13.17,
+        "price": 26.42,
+        "change_24h": -12.69,
         "asset": "equity"
       },
       {
         "symbol": "PSKY",
         "name": "Paramount Skydance Corporation",
-        "price": 9.445,
-        "change_24h": -8.57,
+        "price": 9.4999,
+        "change_24h": -8.04,
         "asset": "equity"
       },
       {
         "symbol": "GRND",
         "name": "Grindr Inc.",
-        "price": 14.14,
-        "change_24h": -8.33,
+        "price": 14.21,
+        "change_24h": -7.91,
         "asset": "equity"
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "price": 13.5,
-        "change_24h": -7.47,
+        "price": 13.52,
+        "change_24h": -7.33,
         "asset": "equity"
       },
       {
-        "symbol": "SPHR",
-        "name": "Sphere Entertainment Co.",
-        "price": 125.56,
-        "change_24h": -6.61,
+        "symbol": "RGEN",
+        "name": "Repligen Corporation",
+        "price": 180.05,
+        "change_24h": -6.34,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.45,
-        "change_24h": 10.8,
+        "symbol": "STX",
+        "name": "Stacks",
+        "price": 0.384267,
+        "change_24h": 8.51,
         "asset": "crypto"
       },
       {
-        "symbol": "STX",
-        "name": "Stacks",
-        "price": 0.383794,
-        "change_24h": 9.94,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.44,
+        "change_24h": 8.07,
         "asset": "crypto"
       },
       {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.040705,
-        "change_24h": 9.21,
+        "price": 0.03952,
+        "change_24h": 6.07,
         "asset": "crypto"
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 166.47,
-        "change_24h": 3.13,
+        "price": 165.62,
+        "change_24h": 2.53,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.13367,
-        "change_24h": 1.94,
+        "price": 0.133856,
+        "change_24h": 2.06,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 261.99,
-        "change_24h": -12.96,
+        "price": 263.97,
+        "change_24h": -12.59,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.83,
-        "change_24h": -11.01,
+        "price": 4.82,
+        "change_24h": -10.22,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.728875,
+        "change_24h": -10.08,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.486763,
-        "change_24h": -10.75,
+        "price": 0.48903,
+        "change_24h": -9.51,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.246327,
-        "change_24h": -9.45,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1342.72,
-        "change_24h": -8.56,
+        "price": 0.248324,
+        "change_24h": -8.04,
         "asset": "crypto"
       }
     ]
