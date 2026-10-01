@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T11:45:41Z",
+  "updated_at": "2026-10-01T12:00:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "XDC",
-        "name": "XDC Network",
-        "price": 0.03557,
-        "change_24h": 4.43,
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price": 90.37,
+        "change_24h": 4.51,
         "asset": "crypto"
       },
       {
         "symbol": "CRO",
         "name": "Cronos",
-        "price": 0.069718,
-        "change_24h": 4.03,
+        "price": 0.06982,
+        "change_24h": 4.23,
         "asset": "crypto"
       },
       {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "price": 90.18,
-        "change_24h": 3.97,
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price": 0.035575,
+        "change_24h": 3.89,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.133851,
-        "change_24h": 3.87,
+        "price": 0.133993,
+        "change_24h": 3.68,
         "asset": "crypto"
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 165.76,
-        "change_24h": 2.98,
+        "price": 166.24,
+        "change_24h": 2.79,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price": 276.31,
+        "change_24h": -12.45,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "POL",
+        "name": "POL (ex-MATIC)",
+        "price": 0.11113,
+        "change_24h": -4.5,
+        "asset": "crypto"
+      },
+      {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 1.023,
-        "change_24h": -4.58,
+        "price": 1.025,
+        "change_24h": -4.42,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 59.44,
-        "change_24h": -4.29,
+        "price": 59.48,
+        "change_24h": -3.89,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.48,
-        "change_24h": -4.24,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "APT",
-        "name": "Aptos",
-        "price": 0.772462,
-        "change_24h": -4.05,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 3.29,
-        "change_24h": -4.03,
+        "change_24h": -3.85,
         "asset": "crypto"
       }
     ]
