@@ -1,43 +1,91 @@
 [
   {
-    "title": "Metamask discloses security incident affecting its infrastructure",
-    "url": "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/",
+    "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
+    "url": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
+    "source": "The Hacker News",
+    "summary": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again.",
+    "added": "2026-10-01T14:37:35+00:00",
+    "expires": "2026-10-15T15:05:10Z"
+  },
+  {
+    "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
+    "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
     "source": "BleepingComputer",
-    "summary": "On Thursday, cryptocurrency wallet provider MetaMask has disclosed an ongoing infrastructure security incident affecting some of its infrastructure. [...]",
-    "added": "2026-10-01T07:33:57+00:00",
-    "expires": "2026-10-15T08:35:04Z"
+    "summary": "An international law enforcement operation dubbed \"Operation KillSwitch\" seized the KillSec ransomware gang's data leak site and servers, led to three arrests, and identified a 16-year-old as the group's alleged administ",
+    "added": "2026-10-01T14:25:14+00:00",
+    "expires": "2026-10-15T15:05:09Z"
   },
   {
-    "title": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
-    "url": "https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html",
-    "source": "The Hacker News",
-    "summary": "Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics flaw Apple says may have been used in attacks against specific targeted individuals. The trigger is a malici",
-    "added": "2026-10-01T05:54:41+00:00",
-    "expires": "2026-10-15T08:35:05Z"
+    "title": "The Day-One Hole in Zero Trust Architecture",
+    "url": "https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/",
+    "source": "BleepingComputer",
+    "summary": "Zero Trust can verify users once they are established, but onboarding creates a gap where organizations must decide who to trust before strong authentication exists. Specops explains why identity verification should begi",
+    "added": "2026-10-01T14:01:11+00:00",
+    "expires": "2026-10-15T15:05:09Z"
   },
   {
-    "title": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
-    "url": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
-    "source": "The Hacker News",
-    "summary": "Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing investigation findings from SlowMist. \"Th",
-    "added": "2026-10-01T05:21:10+00:00",
-    "expires": "2026-10-15T08:35:05Z"
+    "title": "Kiteworks patches max severity code injection vulnerability",
+    "url": "https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/",
+    "source": "BleepingComputer",
+    "summary": "Secure file-sharing software company Kiteworks has released security updates to address 126 vulnerabilities, including a max-severity flaw affecting its Email Protection Gateway (EPG) security solution. [...]",
+    "added": "2026-10-01T13:51:08+00:00",
+    "expires": "2026-10-15T15:05:09Z"
   },
   {
-    "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
-    "url": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
-    "source": "The Hacker News",
-    "summary": "MetaMask on Thursday said it's responding to what it described as an \"ongoing security incident\" impacting part of its infrastructure. \"We are actively addressing and remediating the issue internally, in coordination wit",
-    "added": "2026-10-01T05:10:09+00:00",
-    "expires": "2026-10-15T08:35:05Z"
+    "title": "Warlock Ransomware Hits Large Spanish, Portuguese Orgs",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/warlock-ransomware-spanish-portuguese",
+    "source": "Dark Reading",
+    "summary": "A year-old Chinese threat actor looks like a cybercrime gang, acts like a state-associated APT, and attacks organizations in unexpected places.",
+    "added": "2026-10-01T13:00:00+00:00",
+    "expires": "2026-10-15T15:05:10Z"
   },
   {
-    "title": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
-    "url": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
+    "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
+    "url": "https://thehackernews.com/2026/10/how-financial-services-companies-can.html",
     "source": "The Hacker News",
-    "summary": "Threat actors have been observed exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to drop web shells and attempt theft of configuration data. LevelBlu",
-    "added": "2026-10-01T04:35:34+00:00",
-    "expires": "2026-10-15T08:35:05Z"
+    "summary": "Every security leader at a bank, insurer, or asset manager has had a version of this conversation: Security wants to eliminate a class of vulnerabilities. Engineering explains what it would take to upgrade the platform w",
+    "added": "2026-10-01T11:45:00+00:00",
+    "expires": "2026-10-15T15:05:10Z"
+  },
+  {
+    "title": "Microsoft enables Windows settings backup by default for orgs",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
+    "source": "BleepingComputer",
+    "summary": "Microsoft announced that Windows settings backup and restore is now enabled by default on all Microsoft Entra-joined or Microsoft Entra hybrid-joined enterprise systems upgraded to Windows 11 26H2. [...]",
+    "added": "2026-10-01T11:14:28+00:00",
+    "expires": "2026-10-15T15:05:09Z"
+  },
+  {
+    "title": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
+    "url": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
+    "source": "The Hacker News",
+    "summary": "OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models. A \"core cluster of the act",
+    "added": "2026-10-01T10:42:36+00:00",
+    "expires": "2026-10-15T15:05:10Z"
+  },
+  {
+    "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
+    "url": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
+    "source": "The Hacker News",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities (KEV), following re",
+    "added": "2026-10-01T10:33:16+00:00",
+    "expires": "2026-10-15T15:05:10Z"
+  },
+  {
+    "title": "Hackers stole Pentagon personnel records of over 3 million people",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/",
+    "source": "BleepingComputer",
+    "summary": "The Pentagon's Defense Manpower Data Center (DMDC) is notifying millions of military service members that hackers stole their data after breaching the Pentagon's human resources management system in October 2025. [...]",
+    "added": "2026-10-01T09:44:28+00:00",
+    "expires": "2026-10-15T15:05:09Z"
+  },
+  {
+    "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
+    "url": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
+    "source": "The Hacker News",
+    "summary": "Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program. \"It delivers fronti",
+    "added": "2026-10-01T07:49:36+00:00",
+    "expires": "2026-10-15T15:05:10Z"
   },
   {
     "title": "Malicious Custom GPTs Turn ChatGPT Into RAT Delivery Lure",
@@ -45,7 +93,7 @@
     "source": "Dark Reading",
     "summary": "In yet another ClickFix-style campaign, threat actors abuse legitimate domains from OpenAI and Google to fool unsuspecting users.",
     "added": "2026-09-30T21:25:47+00:00",
-    "expires": "2026-10-15T08:35:05Z"
+    "expires": "2026-10-15T15:05:10Z"
   },
   {
     "title": "Trump, Tech Giants Strike Voluntary AI Safety Accord",
@@ -53,23 +101,7 @@
     "source": "Dark Reading",
     "summary": "The new White House Accord on so-called \"Super Intelligence\" calls on companies to implement greater controls and oversight over AI safety.",
     "added": "2026-09-30T20:51:15+00:00",
-    "expires": "2026-10-15T08:35:05Z"
-  },
-  {
-    "title": "Russian state hackers use new RedFlick technique to push malware",
-    "url": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/",
-    "source": "BleepingComputer",
-    "summary": "The Russian state actor Star Blizzard has been using a new malware installation tactic dubbed \"RedFlick\" to deploy its signature CosmicPulse backdoor. [...]",
-    "added": "2026-09-30T20:34:01+00:00",
-    "expires": "2026-10-15T08:35:04Z"
-  },
-  {
-    "title": "DIVD says Zammad zero-days enabled AI-driven network breach",
-    "url": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/",
-    "source": "BleepingComputer",
-    "summary": "The Dutch Institute for Vulnerability Disclosure (DIVD) says that the breach of its network was possible by exploiting a chain of two zero-day vulnerabilities in the open-source Zammad ticketing system. [...]",
-    "added": "2026-09-30T19:49:15+00:00",
-    "expires": "2026-10-15T08:35:04Z"
+    "expires": "2026-10-15T15:05:10Z"
   },
   {
     "title": "As AI Reshapes the SOC Career Ladder, Satisfaction Rises for 91%, but Entry Gets Harder for Nearly Half",
@@ -77,31 +109,7 @@
     "source": "Dark Reading",
     "summary": "New Swimlane research underscores a paradox: While AI detection and response is essential to giving defenders an edge, one in four security pros say AI limits their skill development.",
     "added": "2026-09-30T18:56:56+00:00",
-    "expires": "2026-10-15T08:35:05Z"
-  },
-  {
-    "title": "Over 543,000 valid credentials exposed in public GitHub repositories",
-    "url": "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
-    "source": "BleepingComputer",
-    "summary": "More than 543,000 credentials exposed in public GitHub repositories were still valid in July despite the platform's security measures to prevent accidental leaks of sensitive data. [...]",
-    "added": "2026-09-30T18:08:34+00:00",
-    "expires": "2026-10-15T08:35:04Z"
-  },
-  {
-    "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
-    "url": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
-    "source": "The Hacker News",
-    "summary": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research team. The attack expl",
-    "added": "2026-09-30T16:46:29+00:00",
-    "expires": "2026-10-15T08:35:05Z"
-  },
-  {
-    "title": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
-    "source": "BleepingComputer",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a new critical vulnerability in MikroTik RouterOS that could lead to remote code execution or cause a denial-of-service condition. [...]",
-    "added": "2026-09-30T15:49:29+00:00",
-    "expires": "2026-10-15T08:35:04Z"
+    "expires": "2026-10-15T15:05:10Z"
   },
   {
     "title": "Russia's Star Blizzard Ditches ClickFix to Widen Phishing Net",
@@ -109,7 +117,7 @@
     "source": "Dark Reading",
     "summary": "The APT actor is using a new tactic, dubbed \"RedFlick,\" against Ukrainian-linked targets such as NGOs, think tanks, and journalists to deploy its CosmicPulse backdoor.",
     "added": "2026-09-30T15:02:25+00:00",
-    "expires": "2026-10-15T08:35:05Z"
+    "expires": "2026-10-15T15:05:10Z"
   },
   {
     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
@@ -117,14 +125,6 @@
     "source": "CISA Advisories",
     "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-76504 Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability This type of v",
     "added": "2026-09-30T12:00:00+00:00",
-    "expires": "2026-10-15T08:35:05Z"
-  },
-  {
-    "title": "South Africa Seeks Help After Cyberattack Targets Air Traffic Control",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/south-africa-help-cyberattack-air-traffic-control",
-    "source": "Dark Reading",
-    "summary": "As aviation infrastructure suffers more cyberattacks, air traffic systems are the latest target, with a ransomware toolkit installed on at least one operational network.",
-    "added": "2026-09-30T07:00:00+00:00",
-    "expires": "2026-10-15T08:35:05Z"
+    "expires": "2026-10-15T15:05:10Z"
   }
 ]
