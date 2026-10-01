@@ -1,14 +1,7 @@
 {
-  "updated": "2026-09-30T23:46:03.905227Z",
-  "period": "2026-09-30 \u2192 2026-11-14",
+  "updated": "2026-10-01T00:01:03.994144Z",
+  "period": "2026-10-01 \u2192 2026-11-15",
   "events": [
-    {
-      "date": "2026-09-30",
-      "label": "US Treasury Auction",
-      "currency": "USD",
-      "impact": "low",
-      "country": "US"
-    },
     {
       "date": "2026-10-01",
       "label": "US Initial Jobless Claims",
@@ -109,13 +102,6 @@
     },
     {
       "date": "2026-10-15",
-      "label": "US Initial Jobless Claims",
-      "currency": "USD",
-      "impact": "medium",
-      "country": "US"
-    },
-    {
-      "date": "2026-10-15",
       "label": "US Retail Sales (MoM)",
       "currency": "USD",
       "impact": "medium",
@@ -124,6 +110,13 @@
     {
       "date": "2026-10-15",
       "label": "US ISM Services PMI",
+      "currency": "USD",
+      "impact": "medium",
+      "country": "US"
+    },
+    {
+      "date": "2026-10-15",
+      "label": "US Initial Jobless Claims",
       "currency": "USD",
       "impact": "medium",
       "country": "US"
@@ -200,16 +193,16 @@
     },
     {
       "date": "2026-10-22",
-      "label": "US Initial Jobless Claims",
+      "label": "US New Home Sales",
       "currency": "USD",
-      "impact": "medium",
+      "impact": "low",
       "country": "US"
     },
     {
       "date": "2026-10-22",
-      "label": "US New Home Sales",
+      "label": "US Initial Jobless Claims",
       "currency": "USD",
-      "impact": "low",
+      "impact": "medium",
       "country": "US"
     },
     {
@@ -256,14 +249,14 @@
     },
     {
       "date": "2026-10-28",
-      "label": "US Treasury Auction",
+      "label": "US Existing Home Sales",
       "currency": "USD",
       "impact": "low",
       "country": "US"
     },
     {
       "date": "2026-10-28",
-      "label": "US Existing Home Sales",
+      "label": "US Treasury Auction",
       "currency": "USD",
       "impact": "low",
       "country": "US"
@@ -280,6 +273,13 @@
       "label": "US Initial Jobless Claims",
       "currency": "USD",
       "impact": "medium",
+      "country": "US"
+    },
+    {
+      "date": "2026-11-04",
+      "label": "US Treasury Auction",
+      "currency": "USD",
+      "impact": "low",
       "country": "US"
     }
   ]
