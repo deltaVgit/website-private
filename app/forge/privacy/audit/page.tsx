@@ -181,17 +181,14 @@ export default function PrivacyAuditApp() {
   const [emailResults, setEmailResults] = useState<EmailResult[]>([]);
   const [pwResults, setPwResults] = useState<PwResult[]>([]);
   const [pwErrors, setPwErrors] = useState(0);
-  const [foundManual, setFoundManual] = useState<string[]>([]);
-  const [copied, setCopied] = useState(false);
+    const [copied, setCopied] = useState(false);
 
   const emails = parseList(emailsRaw, 3, EMAIL_RE, 254);
   const phones = parseList(phonesRaw, 3, PHONE_RE, 20, true);
   const handles = parseList(handlesRaw, 3, HANDLE_RE, 40);
   const pws = pwRaw.split('\n').map((p) => p.trim()).filter((p) => p.length >= 4 && p.length <= 128).slice(0, 3);
 
-  const toggleFound = (id: string) =>
-    setFoundManual((l) => (l.includes(id) ? l.filter((x) => x !== id) : [...l, id]));
-
+ 
   const runCheck = async () => {
     if (busy || (emails.length === 0 && pws.length === 0)) return;
     setBusy(true);
@@ -229,7 +226,7 @@ export default function PrivacyAuditApp() {
     `Emails checked: ${emailResults.length} · found in public corpora: ${emailResults.filter((e) => e.found).length}`,
     `Exposed records (approx): ${emailResults.reduce((s, e) => s + (e.records ?? 0), 0) || '—'}`,
     `Passwords tested: ${pwResults.length + pwErrors} · pwned: ${pwnedPwCount}${pwErrors ? ` · ${pwErrors} API errors` : ''}`,
-    `Phones / handles swept manually: ${phones.length + handles.length} · leak signs ticked: ${foundManual.length}`,
+    `Phones / handles on file for the sweep: ${phones.length + handles.length}`,
     `Country: ${country}`,
     '',
     'I want the human work: the USD 19 scrub / the watch (delete as appropriate).',
@@ -451,48 +448,25 @@ export default function PrivacyAuditApp() {
             )}
 
             {(phones.length > 0 || handles.length > 0) && (
-              <div className="rounded-2xl border border-[var(--border-default)] bg-[var(--bg-surface)] p-6 md:p-8">
+              <div className="rounded-2xl border border-[var(--accent-purple)]/30 bg-[var(--accent-purple)]/[0.04] p-6 md:p-8">
                 <div className="flex items-baseline gap-3 mb-2">
                   <span className="font-mono text-sm font-bold text-[var(--accent-purple)] tabular-nums">04</span>
-                  <h2 className="text-lg md:text-xl font-semibold tracking-tight">Manual sweep — phones &amp; pseudonyms</h2>
+                  <h2 className="text-lg md:text-xl font-semibold tracking-tight">Reappearance check — automated in the paid rungs</h2>
                 </div>
                 <p className="text-sm text-[var(--text-secondary)] max-w-2xl leading-relaxed mb-4">
-                  These stay on your device. Each link opens a quoted search — if you find
-                  yourself, tick it so it feeds the summary (and the human scrub, if you order it).
+                  Checking by hand — searching your numbers and handles on Google every few weeks,
+                  watching for your identity to resurface — is exactly the work the{' '}
+                  <strong className="text-[var(--text-primary)]">USD 19 scrub</strong> does once and the{' '}
+                  <strong className="text-[var(--text-primary)]">watch</strong> keeps doing continuously.
+                  You don&apos;t have to do it yourself — that&apos;s what you&apos;d be paying us for.
                 </p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {[...phones, ...handles].map((v) => (
-                    <a
-                      key={v}
-                      href={searchUrl(v)}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="rounded-lg border border-[var(--border-default)] px-3 py-1.5 text-xs text-[var(--text-secondary)] hover:border-[var(--border-hover)]"
-                    >
-                      Search “{v}” ↗
-                    </a>
-                  ))}
-                </div>
-                <div className="grid sm:grid-cols-2 gap-2.5 max-w-3xl">
-                  {[
-                    { id: 'email-google', label: 'An email appears in Google results (quoted search)' },
-                    { id: 'phone-google', label: 'A phone number appears in results or directories' },
-                    { id: 'handle-google', label: 'A pseudonym is indexed and links to your real name' },
-                    { id: 'docs-indexed', label: 'Documents with your name/address are publicly indexed' },
-                  ].map((c) => {
-                    const on = foundManual.includes(c.id);
-                    return (
-                      <button
-                        key={c.id}
-                        type="button"
-                        aria-pressed={on}
-                        onClick={() => toggleFound(c.id)}
-                        className={`block text-left rounded-xl border px-4 py-3 text-[13px] transition-colors ${on ? 'border-[var(--accent-primary)] bg-[var(--accent-primary)]/10 text-[var(--text-primary)]' : 'border-[var(--border-default)] text-[var(--text-secondary)] hover:border-[var(--border-hover)]'}`}
-                      >
-                        {on ? '✓ ' : ''}{c.label}
-                      </button>
-                    );
-                  })}
+                <div className="flex flex-wrap gap-3">
+                  <a href="mailto:engage@deltav.cc?subject=Add%20reappearance%20watch&body=Phone%20numbers%20and%20pseudonyms:%0A(add%20yours%20here)%0A%0ARun%20the%20first%20sweep%20and%20quote%20me%20the%20watch." className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent-primary)] px-5 py-2.5 text-sm font-semibold text-[var(--on-accent)] hover:bg-[var(--accent-primary-bright)] transition-colors">
+                    Add reappearance watch to my case →
+                  </a>
+                  <a href="/forge/privacy/#deep-scrub" className="inline-flex items-center rounded-xl border border-[var(--border-default)] px-5 py-2.5 text-sm font-medium text-[var(--text-primary)] hover:border-[var(--border-hover)] transition-colors">
+                    See the scrub
+                  </a>
                 </div>
               </div>
             )}
@@ -532,12 +506,12 @@ export default function PrivacyAuditApp() {
                       </span>
                     </li>
                   )}
-                  {foundManual.length > 0 && (
+                  {(phones.length > 0 || handles.length > 0) && (
                     <li className="flex gap-3">
                       <span className="flex-shrink-0 w-6 h-6 rounded-lg bg-[var(--accent-purple)]/10 text-[var(--accent-purple)] text-xs font-semibold flex items-center justify-center">{nextStep()}</span>
                       <span>
-                        <strong>Start the removals for what your manual sweep found:</strong>{' '}
-                        <span className="text-[var(--text-secondary)]">Google&apos;s “Results about you” tool covers search leakage; broker and directory listings are what the USD 19 scrub files for you.</span>
+                        <strong>Have your phones and pseudonyms swept:</strong>{' '}
+                        <span className="text-[var(--text-secondary)]">Google&apos;s “Results about you” tool covers search leakage yourself; broker and directory listings are what the USD 19 scrub files for you.</span>
                       </span>
                     </li>
                   )}
