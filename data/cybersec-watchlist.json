@@ -1,11 +1,51 @@
 [
   {
+    "title": "Malicious Custom GPTs Turn ChatGPT Into RAT Delivery Lure",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/malicious-custom-gpts-chatgpt-rat-delivery-lure",
+    "source": "Dark Reading",
+    "summary": "In yet another ClickFix-style campaign, threat actors abuse legitimate domains from OpenAI and Google to fool unsuspecting users.",
+    "added": "2026-09-30T21:25:47+00:00",
+    "expires": "2026-10-15T02:05:03Z"
+  },
+  {
+    "title": "Trump, Tech Giants Strike Voluntary AI Safety Accord",
+    "url": "https://www.darkreading.com/cyber-risk/trump-tech-giants-strike-voluntary-ai-safety-accord",
+    "source": "Dark Reading",
+    "summary": "The new White House Accord on so-called \"Super Intelligence\" calls on companies to implement greater controls and oversight over AI safety.",
+    "added": "2026-09-30T20:51:15+00:00",
+    "expires": "2026-10-15T02:05:03Z"
+  },
+  {
+    "title": "Russian state hackers use new RedFlick technique to push malware",
+    "url": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/",
+    "source": "BleepingComputer",
+    "summary": "The Russian state actor Star Blizzard has been using a new malware installation tactic dubbed \"RedFlick\" to deploy its signature CosmicPulse backdoor. [...]",
+    "added": "2026-09-30T20:34:01+00:00",
+    "expires": "2026-10-15T02:05:02Z"
+  },
+  {
+    "title": "DIVD says Zammad zero-days enabled AI-driven network breach",
+    "url": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/",
+    "source": "BleepingComputer",
+    "summary": "The Dutch Institute for Vulnerability Disclosure (DIVD) says that the breach of its network was possible by exploiting a chain of two zero-day vulnerabilities in the open-source Zammad ticketing system. [...]",
+    "added": "2026-09-30T19:49:15+00:00",
+    "expires": "2026-10-15T02:05:02Z"
+  },
+  {
+    "title": "As AI Reshapes the SOC Career Ladder, Satisfaction Rises for 91%, but Entry Gets Harder for Nearly Half",
+    "url": "https://www.darkreading.com/cybersecurity-careers/ai-reshapes-soc-career-ladder",
+    "source": "Dark Reading",
+    "summary": "New Swimlane research underscores a paradox: While AI detection and response is essential to giving defenders an edge, one in four security pros say AI limits their skill development.",
+    "added": "2026-09-30T18:56:56+00:00",
+    "expires": "2026-10-15T02:05:03Z"
+  },
+  {
     "title": "Over 543,000 valid credentials exposed in public GitHub repositories",
     "url": "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
     "source": "BleepingComputer",
     "summary": "More than 543,000 credentials exposed in public GitHub repositories were still valid in July despite the platform's security measures to prevent accidental leaks of sensitive data. [...]",
     "added": "2026-09-30T18:08:34+00:00",
-    "expires": "2026-10-14T19:35:30Z"
+    "expires": "2026-10-15T02:05:02Z"
   },
   {
     "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
@@ -13,7 +53,7 @@
     "source": "The Hacker News",
     "summary": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research team. The attack expl",
     "added": "2026-09-30T16:46:29+00:00",
-    "expires": "2026-10-14T19:35:30Z"
+    "expires": "2026-10-15T02:05:03Z"
   },
   {
     "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
@@ -21,7 +61,7 @@
     "source": "The Hacker News",
     "summary": "Microsoft has warned of phishing campaigns distributing an installer for the MSP360 Remote Monitoring and Management (RMM) software under the guise of meeting invitations, PDF-themed lures, software update prompts, and o",
     "added": "2026-09-30T16:32:59+00:00",
-    "expires": "2026-10-14T19:35:30Z"
+    "expires": "2026-10-15T02:05:03Z"
   },
   {
     "title": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
@@ -29,7 +69,7 @@
     "source": "BleepingComputer",
     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a new critical vulnerability in MikroTik RouterOS that could lead to remote code execution or cause a denial-of-service condition. [...]",
     "added": "2026-09-30T15:49:29+00:00",
-    "expires": "2026-10-14T19:35:30Z"
+    "expires": "2026-10-15T02:05:02Z"
   },
   {
     "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
@@ -37,7 +77,7 @@
     "source": "The Hacker News",
     "summary": "Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an advisory on September 30. The flaw, CVE-2026-76504,",
     "added": "2026-09-30T15:24:54+00:00",
-    "expires": "2026-10-14T19:35:30Z"
+    "expires": "2026-10-15T02:05:03Z"
   },
   {
     "title": "Russia's Star Blizzard Ditches ClickFix to Widen Phishing Net",
@@ -45,7 +85,7 @@
     "source": "Dark Reading",
     "summary": "The APT actor is using a new tactic, dubbed \"RedFlick,\" against Ukrainian-linked targets such as NGOs, think tanks, and journalists to deploy its CosmicPulse backdoor.",
     "added": "2026-09-30T15:02:25+00:00",
-    "expires": "2026-10-14T19:35:30Z"
+    "expires": "2026-10-15T02:05:03Z"
   },
   {
     "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
@@ -53,7 +93,7 @@
     "source": "The Hacker News",
     "summary": "Threat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware. Huntress, which observed th",
     "added": "2026-09-30T15:00:15+00:00",
-    "expires": "2026-10-14T19:35:30Z"
+    "expires": "2026-10-15T02:05:03Z"
   },
   {
     "title": "Cisco warns of new SD-WAN zero-day exploited in attacks",
@@ -61,23 +101,7 @@
     "source": "BleepingComputer",
     "summary": "Cisco released security updates to address a critical zero-day in the Catalyst SD-WAN Manager (tracked as CVE-2026-76504) that attackers are actively exploiting to escalate to admin privileges. [...]",
     "added": "2026-09-30T14:46:40+00:00",
-    "expires": "2026-10-14T19:35:30Z"
-  },
-  {
-    "title": "AI's Third Wave: Coworkers Break the Security Model That Worked for Agents",
-    "url": "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
-    "source": "BleepingComputer",
-    "summary": "Persistent AI coworkers may operate continuously with standing access, creating identity risks that existing security models were not designed to handle. Token Security explains why these agents need their own identities",
-    "added": "2026-09-30T14:01:11+00:00",
-    "expires": "2026-10-14T19:35:30Z"
-  },
-  {
-    "title": "Microsoft to block Entra ID script injection attacks starting October",
-    "url": "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/",
-    "source": "BleepingComputer",
-    "summary": "Microsoft has reminded customers that the Entra ID authentication system will get better protection against external script injection attacks starting next month. [...]",
-    "added": "2026-09-30T13:37:15+00:00",
-    "expires": "2026-10-14T19:35:30Z"
+    "expires": "2026-10-15T02:05:02Z"
   },
   {
     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
@@ -85,7 +109,7 @@
     "source": "CISA Advisories",
     "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-76504 Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability This type of v",
     "added": "2026-09-30T12:00:00+00:00",
-    "expires": "2026-10-14T19:35:30Z"
+    "expires": "2026-10-15T02:05:03Z"
   },
   {
     "title": "Know Your Enemy: Browser-Based Attack Techniques in 2026",
@@ -93,7 +117,7 @@
     "source": "The Hacker News",
     "summary": "Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often, they never leave it, with the entire attack",
     "added": "2026-09-30T11:58:00+00:00",
-    "expires": "2026-10-14T19:35:30Z"
+    "expires": "2026-10-15T02:05:03Z"
   },
   {
     "title": "South Africa Seeks Help After Cyberattack Targets Air Traffic Control",
@@ -101,30 +125,6 @@
     "source": "Dark Reading",
     "summary": "As aviation infrastructure suffers more cyberattacks, air traffic systems are the latest target, with a ransomware toolkit installed on at least one operational network.",
     "added": "2026-09-30T07:00:00+00:00",
-    "expires": "2026-10-14T19:35:30Z"
-  },
-  {
-    "title": "Apple Zero-Day Vulnerability Weaponized in Targeted Attacks",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks",
-    "source": "Dark Reading",
-    "summary": "Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.",
-    "added": "2026-09-29T21:31:29+00:00",
-    "expires": "2026-10-14T19:35:30Z"
-  },
-  {
-    "title": "Unsloth Studio Flaw Turns Routine Model Inspection Into Code Execution",
-    "url": "https://www.darkreading.com/application-security/unsloth-studio-flaw-model-inspection-code-execution",
-    "source": "Dark Reading",
-    "summary": "A patched Unsloth Studio vulnerability allows malicious AI models to execute arbitrary Python code during inspection, via the trust_remote_code setting.",
-    "added": "2026-09-29T21:08:42+00:00",
-    "expires": "2026-10-14T19:35:30Z"
-  },
-  {
-    "title": "Cloudflare Announces Public Certificate Authority for the Post-Quantum Web",
-    "url": "https://www.darkreading.com/cloud-security/cloudflare-announces-public-certificate-authority-post-quantum-web",
-    "source": "Dark Reading",
-    "summary": "Automated certificates for everyone, built for today, and hardened for the era of quantum computing.",
-    "added": "2026-09-29T17:02:16+00:00",
-    "expires": "2026-10-14T19:35:30Z"
+    "expires": "2026-10-15T02:05:03Z"
   }
 ]
