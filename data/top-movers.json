@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T07:30:41Z",
+  "updated_at": "2026-10-01T07:45:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 5.35,
-        "change_24h": 8.89,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.264669,
-        "change_24h": 6.68,
+        "price": 0.26609,
+        "change_24h": 7.0,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
         "price": 4.01,
-        "change_24h": 6.35,
+        "change_24h": 6.52,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.33,
+        "change_24h": 5.21,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.524802,
-        "change_24h": 5.21,
+        "price": 0.525498,
+        "change_24h": 4.91,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.133774,
-        "change_24h": 4.97,
+        "price": 0.133791,
+        "change_24h": 4.78,
         "asset": "crypto"
       }
     ],
@@ -120,35 +120,35 @@
         "symbol": "ICP",
         "name": "Internet Computer",
         "price": 3.3,
-        "change_24h": -4.08,
+        "change_24h": -4.55,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.078033,
-        "change_24h": -3.76,
+        "price": 0.077931,
+        "change_24h": -3.62,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 1.022,
-        "change_24h": -3.69,
+        "price": 1.025,
+        "change_24h": -3.55,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.48,
+        "change_24h": -3.19,
         "asset": "crypto"
       },
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.111775,
-        "change_24h": -2.87,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLFI",
-        "name": "World Liberty Financial",
-        "price": 0.0552,
-        "change_24h": -2.69,
+        "price": 0.11196,
+        "change_24h": -2.96,
         "asset": "crypto"
       }
     ]
