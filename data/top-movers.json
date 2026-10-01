@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T21:00:42Z",
+  "updated_at": "2026-10-01T21:15:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 1.85,
-        "change_24h": 10.57,
-        "asset": "crypto"
-      },
-      {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.08338,
-        "change_24h": 7.66,
+        "price": 0.083459,
+        "change_24h": 8.24,
         "asset": "crypto"
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 169.87,
-        "change_24h": 6.99,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.046,
-        "change_24h": 6.48,
+        "price": 170.17,
+        "change_24h": 7.15,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.41,
-        "change_24h": 5.23,
+        "price": 1.42,
+        "change_24h": 6.34,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "price": 0.378906,
+        "change_24h": 4.78,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.047,
+        "change_24h": 4.74,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 254.51,
-        "change_24h": -10.65,
+        "price": 252.58,
+        "change_24h": -11.99,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.84,
-        "change_24h": -9.15,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.245506,
-        "change_24h": -6.5,
+        "price": 4.82,
+        "change_24h": -9.57,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.500938,
+        "price": 0.496925,
+        "change_24h": -6.66,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.244681,
         "change_24h": -6.29,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1336.2,
-        "change_24h": -6.13,
+        "price": 1333.24,
+        "change_24h": -6.1,
         "asset": "crypto"
       }
     ]
