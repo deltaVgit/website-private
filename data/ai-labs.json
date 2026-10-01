@@ -1,6 +1,38 @@
 {
-  "updated": "2026-10-01T02:04:57Z",
+  "updated": "2026-10-01T08:34:58Z",
   "items": [
+    {
+      "title": "Quoting Matthew Green",
+      "url": "https://simonwillison.net/2026/Oct/1/matthew-green/",
+      "source": "Simon Willison",
+      "published_at": "2026-10-01T06:29:01+00:00",
+      "summary": "[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared pa",
+      "tag": "ai"
+    },
+    {
+      "title": "FD-VAD: Semantic Endpoint Detection for Streaming Full-Duplex Speech",
+      "url": "https://arxiv.org/abs/2609.35791",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-10-01T04:00:00+00:00",
+      "summary": "arXiv:2609.35791v1 Announce Type: new Abstract: Natural turn-taking in full-duplex voice interaction requires determining from partial speech whether a pause reflects hesitation or a completed conversational intent. Acoustic voice activity detection lacks this semantic informatio",
+      "tag": "ai"
+    },
+    {
+      "title": "Sieve and Sage: Efficient Distraction Filtering for Reliable RALM Abstention",
+      "url": "https://arxiv.org/abs/2609.35794",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-10-01T04:00:00+00:00",
+      "summary": "arXiv:2609.35794v1 Announce Type: new Abstract: Just as Socrates recognized the limits of his own knowledge, Retrieval-Augmented Language Models (RALMs) should learn to abstain when the retrieved evidence cannot support a reliable response. Existing approaches largely rely on mon",
+      "tag": "ai"
+    },
+    {
+      "title": "Developing an OCR model for Extracting Information from Invoices with Korean Language",
+      "url": "https://arxiv.org/abs/2609.35796",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-10-01T04:00:00+00:00",
+      "summary": "arXiv:2609.35796v1 Announce Type: new Abstract: Invoices are commercial documents that contain various pieces of information, including the purchased items, time, and total money. Making the extraction of important information crucial. The stored information serves different purp",
+      "tag": "ai"
+    },
     {
       "title": "He Built This City",
       "url": "https://simonwillison.net/2026/Sep/30/he-built-this-city/",
@@ -63,14 +95,6 @@
       "source": "Simon Willison",
       "published_at": "2026-09-29T22:20:28+00:00",
       "summary": "We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview ",
-      "tag": "ai"
-    },
-    {
-      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
-      "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
-      "source": "Simon Willison",
-      "published_at": "2026-09-29T18:27:48+00:00",
-      "summary": "My comment on GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price — Hacker News. I'm a bit late with the pelicans because I was live-blogging the keynote: https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv... Here they are for GPT-6.1-Sol: https://tools.simonw",
       "tag": "ai"
     },
     {
@@ -295,22 +319,6 @@
       "source": "Qwen (Alibaba)",
       "published_at": "2025-08-18T17:30:00+00:00",
       "summary": "QWEN CHAT GITHUB HUGGING FACE MODELSCOPE DISCORD We are excited to introduce Qwen-Image-Edit, the image editing version of Qwen-Image. Built upon our 20B Qwen-Image model, Qwen-Image-Edit successfully extends Qwen-Image’s unique text rendering capabilities to image editing tasks,",
-      "tag": "ai"
-    },
-    {
-      "title": "Qwen-Image: Crafting with Native Text Rendering",
-      "url": "https://qwenlm.github.io/blog/qwen-image/",
-      "source": "Qwen (Alibaba)",
-      "published_at": "2025-08-04T14:08:30+00:00",
-      "summary": "GITHUB HUGGING FACE MODELSCOPE DEMO DISCORD We are thrilled to release Qwen-Image, a 20B MMDiT image foundation model that achieves significant advances in complex text rendering and precise image editing. To try the latest model, feel free to visit Qwen Chat and choose “Image Ge",
-      "tag": "ai"
-    },
-    {
-      "title": "GSPO: Towards Scalable Reinforcement Learning for Language Models",
-      "url": "https://qwenlm.github.io/blog/gspo/",
-      "source": "Qwen (Alibaba)",
-      "published_at": "2025-07-27T07:00:00+00:00",
-      "summary": "PAPER DISCORD Introduction Reinforcement Learning (RL) has emerged as a pivotal paradigm for scaling language models and enhancing their deep reasoning and problem-solving capabilities. To scale RL, the foremost prerequisite is maintaining stable and robust training dynamics. How",
       "tag": "ai"
     }
   ],
