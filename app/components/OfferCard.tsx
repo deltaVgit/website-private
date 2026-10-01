@@ -23,6 +23,8 @@ export default function OfferCard({
   id, title, pitch, deliverables, process, audience, ctaLabel, ctaTopic, secondary, secondaryTone,
   showcase,
   ctaHref,
+  price,
+  kicker,
   lang = DEFAULT_LOCALE,
 }: {
   id?: string;
@@ -36,6 +38,10 @@ export default function OfferCard({
   ctaTopic: string;
   /** Overrides the default /contact/?topic= CTA target (e.g. an on-page anchor). */
   ctaHref?: string;
+  /** Price token rendered next to the primary CTA (e.g. "USD 19 · once"). */
+  price?: string;
+  /** Small-caps product identity line above the title. */
+  kicker?: string;
   secondary?: { label: string; href: string };
   secondaryTone?: 'forge';
   /** Optional proof panel (e.g. a shipped system) rendered above the CTAs. */
@@ -44,6 +50,9 @@ export default function OfferCard({
   return (
     <article id={id} className="scroll-mt-24 rounded-2xl border border-[var(--border-default)] bg-[var(--bg-surface)] p-8 md:p-10 relative overflow-hidden transition-colors duration-300 hover:border-[var(--accent-primary)]/25">
       <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[var(--accent-primary)] to-transparent" aria-hidden="true" />
+      {kicker && (
+        <div className="text-[10px] font-semibold tracking-[2px] uppercase text-[var(--accent-primary)] mb-2">{kicker}</div>
+      )}
       <h2 className="text-2xl md:text-3xl font-semibold tracking-tight mb-4">{title}</h2>
       <p className="text-[var(--text-secondary)] mb-8 max-w-3xl leading-relaxed">{pitch}</p>
 
@@ -72,6 +81,7 @@ export default function OfferCard({
             <div className="flex flex-wrap items-center gap-4 pt-6 border-t border-[var(--border-default)]">
         <div className="text-sm text-[var(--text-secondary)] mr-auto max-w-sm leading-relaxed"><span className="font-semibold text-[var(--text-primary)]">{LABELS[lang].forWho}</span> {audience}</div>
         {secondary && <Link href={secondary.href} className={`inline-flex items-center gap-2 px-5 py-2.5 border rounded-xl text-sm font-medium hover:bg-[var(--bg-hover)] transition-all ${secondaryTone === 'forge' ? 'border-[var(--accent-purple)]/40 text-[var(--accent-purple)] hover:border-[var(--accent-purple)]' : 'border-[var(--border-default)] text-[var(--text-primary)] hover:border-[var(--border-hover)]'}`}>{secondary.label}</Link>}
+        {price && <span className="text-base font-bold text-[var(--text-primary)] whitespace-nowrap">{price}</span>}
         <Link href={ctaHref ?? `${localePath('/contact/', lang)}?topic=${ctaTopic}`} className="inline-flex items-center gap-2 px-6 py-3 bg-[var(--accent-primary)] text-[var(--on-accent)] rounded-xl text-sm font-semibold hover:bg-[var(--accent-primary-bright)] transition-colors">{ctaLabel} <ArrowRight /></Link>
       </div>
     </article>

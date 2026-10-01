@@ -80,7 +80,7 @@ export default function ForgePrivacyPage() {
     <div className="relative z-10">
       <PageHero
         label="Forge · Privacy"
-        title="Automated check free. Human hands when you pay."
+        title="Know what the internet has on you. Then get it gone."
         description="Your public footprint — data brokers, directory listings, breach corpora — scanned free by machine, then scrubbed by people once you pay. You keep your papers; we never hold your identity. Technical service, not legal advice — no removal is guaranteed; we report honestly what was filed, refused, or reappeared."
         accent="purple"
         backFallback="/forge/"
@@ -93,7 +93,8 @@ export default function ForgePrivacyPage() {
         </div>
         <OfferCard
           id="free-audit"
-          title="Free check — USD 0 · automated"
+          kicker="01 · Free — automated"
+          title="The free check"
           pitch="No human, no cost: the machine scan of what the public web shows about you, in your browser, in three minutes. The honest part — most of what it finds, you can scrub yourself for free; we tell you how."
           deliverables={[
             'Machine scan across your name forms, emails, phone numbers and public pseudonyms: data-broker and directory listings, public breach corpora (k-anonymity — the identifying string, email or phone, is never sent whole), search-engine leakage.',
@@ -107,19 +108,21 @@ export default function ForgePrivacyPage() {
           ]}
           audience="Anyone. This run is software — it costs us nothing and you nothing."
           ctaLabel="Run the free check"
+          price="Free"
           ctaTopic="free-audit"
           ctaHref="/forge/privacy/audit/"
         />
 
         <OfferCard
           id="deep-scrub"
-          title="Human scrub — USD 19 · one round"
+          kicker="02 · Paid — one human round"
+          title="The scrub"
           pitch={
             <>
               A person files your opt-outs and erasures for you: brokers, directories, indexed
               leaks — one filing round on no-ID targets, re-verified at 30 days, then the file
               closes.{' '}
-              <strong className="text-[var(--text-primary)]">USD 19, one-shot. This is where humans — and cost — start.</strong>
+              <strong className="text-[var(--text-primary)]">USD 19, one-shot. No subscription.</strong>
             </>
           }
           deliverables={[
@@ -134,13 +137,15 @@ export default function ForgePrivacyPage() {
           ]}
           audience="Exposure you&apos;ve confirmed and want handled — once, properly."
           ctaLabel="Order the scrub"
+          price="USD 19"
           ctaTopic="deep-scrub"
           secondary={{ label: 'Or keep it clean', href: '#protection' }}
         />
 
         <OfferCard
           id="protection"
-          title="Watch &amp; re-scrub — USD 100/mo · or 500 for 6 months"
+          kicker="03 · Paid — kept running"
+          title="The watch"
           pitch={
             <>
               Everything rung 2 does, kept running: automated regular checks and re-scrubs when
@@ -163,6 +168,7 @@ export default function ForgePrivacyPage() {
           ]}
           audience="Clean now — and decided to stay that way."
           ctaLabel="Get protected"
+          price="USD 100/mo · 500/6mo"
           ctaTopic="protection"
           secondary={{ label: 'Start with the free check', href: '#free-audit' }}
         />
