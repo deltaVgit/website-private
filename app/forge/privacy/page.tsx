@@ -103,9 +103,10 @@ export default function ForgePrivacyPage() {
             { step: 'Written report', desc: 'source by source, within published capacity limits' },
           ]}
           audience="Anyone who wants to know exactly where they stand — free, before paying anyone."
-          ctaLabel="Start your audit"
+          ctaLabel="Run the free self-check"
           ctaTopic="free-audit"
-          ctaHref="#start-audit"
+          ctaHref="/forge/privacy/audit/"
+          secondary={{ label: 'Request the human audit', href: '#start-audit' }}
         />
 
         <OfferCard
@@ -173,8 +174,12 @@ export default function ForgePrivacyPage() {
         <div id="start-audit" className="scroll-mt-24 rounded-2xl border border-[var(--border-default)] bg-[var(--bg-surface)] p-6 md:p-8">
           <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">Start your audit</h2>
           <p className="text-sm text-[var(--text-secondary)] mt-2 max-w-3xl leading-relaxed">
-            Only what the first real run needs. Social networks and ID-gated bureaus are never
-            contacted by us — the report lists them for your own verified request.
+            This form is the human-supervised path: only what the first real run needs. Social
+            networks and ID-gated bureaus are never contacted by us — the report lists them for
+            your own verified request. Prefer an instant answer first?{' '}
+            <a href="/forge/privacy/audit/" className="text-[var(--accent-cyan)] hover:underline">
+              Run the free self-check →
+            </a>
           </p>
           <form ref={formRef} onSubmit={submitRequest} className="mt-6 space-y-5">
             <div className="grid md:grid-cols-2 gap-4">
