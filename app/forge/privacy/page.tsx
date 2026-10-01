@@ -88,6 +88,9 @@ export default function ForgePrivacyPage() {
       />
 
       <PageContainer className="pb-16 space-y-5" as="section">
+        <div className="text-xs font-semibold tracking-[3px] uppercase text-[var(--accent-purple)]">
+          Check · Clean · New skin
+        </div>
         <OfferCard
           id="free-audit"
           title="The free exposure audit"
@@ -110,55 +113,59 @@ export default function ForgePrivacyPage() {
         />
 
         <OfferCard
-          id="protection"
-          title="Protection"
-          pitch={
-            <>
-              Continuous monitoring after the free run: periodic re-scans, diff against your
-              receipts ledger, alert when a removed listing reappears.{' '}
-              <strong className="text-[var(--text-primary)]">USD 30/month, cancel anytime.</strong>
-            </>
-          }
-          deliverables={[
-            'Continuous monitoring: periodic re-scans, diff against your receipts ledger, alert when a removed listing reappears.',
-            'Data-poisoning canaries (beta, your consent only) — seeded only into submissions concerning your own profile; no result is promised, effectiveness not warranted.',
-            'Guided privacy-habit sessions: your hands on the keyboard, we guide step by step and hold nothing.',
-          ]}
-          process={[
-            { step: 'Baseline', desc: 'your free-audit report becomes day zero' },
-            { step: 'Watch', desc: 'a quiet period means nothing reappeared — we do not pad reports to look active' },
-            { step: 'Alert & re-file', desc: 'reappearance triggers the re-filing and alert owed under CGU §6.3' },
-          ]}
-          audience="Anyone who wants the watch kept after the first sweep."
-          ctaLabel="Continue with Protection"
-          ctaTopic="protection"
-          secondary={{ label: 'Compare Deep Scrub', href: '#deep-scrub' }}
-        />
-
-        <OfferCard
           id="deep-scrub"
-          title="Deep Scrub"
+          title="The scrub"
           pitch={
             <>
-              The bounded one-shot for heavier exposure: up to 3 filing rounds on no-ID targets,
-              30-day re-verification included — then the file closes. No renewal, nothing
-              recurring. <strong className="text-[var(--text-primary)]">USD 99, one-shot.</strong>
+              The check found exposure you don&apos;t want to fight alone: brokers, directories,
+              indexed leaks. We file the opt-outs and erasures for you — up to 3 rounds on the
+              stubborn targets, re-verified at 30 days, then the file closes.{' '}
+              <strong className="text-[var(--text-primary)]">USD 19, one-shot. No subscription.</strong>
             </>
           }
           deliverables={[
             'Bounded job: up to 3 filing rounds on no-ID targets, 30-day re-verification included — then the file closes. No renewal, nothing recurring.',
+            'A receipts ledger: per target — filed, refused, no exposure, reappeared.',
             'The ID-gated checklist: the sources only you can approach (SCHUFA, Experian, CRIF…), prepared for your own verified requests.',
-            'Ordered when monitoring shows fresh reappearance — or once at intake.',
           ]}
           process={[
             { step: 'Scope', desc: 'one bounded job, agreed at intake' },
             { step: 'File', desc: 'up to 3 rounds on no-ID targets' },
             { step: 'Close', desc: 're-verification, final ledger — then the file closes' },
           ]}
-          audience="Heavier exposure that outgrows one round — without a subscription."
-          ctaLabel="Order Deep Scrub"
+          audience="Exposure you&apos;ve confirmed and want handled — once, properly."
+          ctaLabel="Order the scrub"
           ctaTopic="deep-scrub"
-          secondary={{ label: 'Compare Protection', href: '#protection' }}
+          secondary={{ label: 'Or keep it clean', href: '#protection' }}
+        />
+
+        <OfferCard
+          id="protection"
+          title="The watch — rung 2, kept running"
+          pitch={
+            <>
+              Everything rung 2 does, kept running: automated regular checks and re-scrubs when
+              listings come back, data-poisoning canaries (beta, consent-gated) seeded into your
+              own submissions, and guided mentoring sessions that end with a new digital skin —
+              fresh habits and a reduced, hardened footprint instead of the one leaks keep
+              finding.{' '}
+              <strong className="text-[var(--text-primary)]">USD 100/month, cancel anytime — or commit six months for USD 500.</strong>
+            </>
+          }
+          deliverables={[
+            'Automated & regular: periodic re-scans, diff against your receipts ledger, alert + re-filing when a removed listing reappears (CGU §6.3).',
+            'Data-poisoning canaries (beta, your consent only) — seeded only into submissions concerning your own profile; no result is promised, effectiveness not warranted.',
+            'New digital skin: guided privacy-habit mentoring — your hands on the keyboard, we guide step by step and hold nothing.',
+          ]}
+          process={[
+            { step: 'Baseline', desc: 'your audit or scrub report becomes day zero' },
+            { step: 'Watch & re-scrub', desc: 'a quiet period means nothing reappeared — we do not pad reports to look active' },
+            { step: 'Re-skin', desc: 'mentoring sessions harden the habits that caused the exposure' },
+          ]}
+          audience="Clean now — and decided to stay that way."
+          ctaLabel="Get protected"
+          ctaTopic="protection"
+          secondary={{ label: 'Start with the free check', href: '#free-audit' }}
         />
       </PageContainer>
 

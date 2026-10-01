@@ -224,7 +224,7 @@ export default function PrivacyAuditApp() {
     `Phones / handles swept manually: ${phones.length + handles.length} · leak signs ticked: ${foundManual.length}`,
     `Country: ${country}`,
     '',
-    'I want the human-supervised audit / Protection / Deep Scrub (delete as appropriate).',
+    'I want the human-supervised audit / the USD 19 scrub / the watch (delete as appropriate).',
   ].join('\n');
 
   const sendResult = () => {
@@ -568,23 +568,23 @@ export default function PrivacyAuditApp() {
                     </div>
                     <div className="relative pl-4">
                       <span className="absolute left-0 top-0 bottom-0 w-1 bg-[var(--accent-purple)]" />
-                      <div className="text-sm font-semibold mb-1">Protection — USD 30/mo</div>
+                      <div className="text-sm font-semibold mb-1">The watch — USD 100/mo or USD 500 / 6 mo</div>
                       <p className="text-[13px] text-[var(--text-secondary)] leading-relaxed mb-3">
                         Continuous re-scan &amp; alert, <strong>guided mentoring sessions</strong> for
                         durable habits, <strong>data-poisoning canaries (beta, consent-gated)</strong>.
                       </p>
                       <Link href="/forge/privacy/#protection" className="inline-flex items-center rounded-xl border border-[var(--accent-purple)]/50 px-4 py-2.5 text-sm font-semibold text-[var(--accent-purple)] transition-colors hover:bg-[var(--accent-purple)]/10">
-                        See Protection
+                        See the watch
                       </Link>
                     </div>
                     <div>
-                      <div className="text-sm font-semibold mb-1">Deep Scrub — USD 99</div>
+                      <div className="text-sm font-semibold mb-1">The scrub — USD 19</div>
                       <p className="text-[13px] text-[var(--text-secondary)] leading-relaxed mb-3">
                         The bounded one-shot: up to 3 filing rounds, 30-day re-verification, then
                         the file closes. No subscription.
                       </p>
                       <Link href="/forge/privacy/#deep-scrub" className="inline-flex items-center rounded-xl border border-[var(--border-default)] px-4 py-2.5 text-sm font-semibold text-[var(--text-primary)] transition-colors hover:bg-[var(--bg-hover)]">
-                        See Deep Scrub
+                        See the scrub
                       </Link>
                     </div>
                   </div>
