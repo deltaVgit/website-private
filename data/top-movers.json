@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T11:00:41Z",
+  "updated_at": "2026-10-01T11:15:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.133649,
-        "change_24h": 4.38,
-        "asset": "crypto"
-      },
-      {
         "symbol": "CRO",
         "name": "Cronos",
-        "price": 0.06971,
-        "change_24h": 3.4,
+        "price": 0.070468,
+        "change_24h": 4.9,
         "asset": "crypto"
       },
       {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "price": 89.73,
-        "change_24h": 3.37,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AAVE",
-        "name": "Aave",
-        "price": 164.88,
-        "change_24h": 2.94,
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.134008,
+        "change_24h": 4.43,
         "asset": "crypto"
       },
       {
         "symbol": "XDC",
         "name": "XDC Network",
-        "price": 0.035168,
-        "change_24h": 2.25,
+        "price": 0.03517,
+        "change_24h": 3.27,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price": 89.47,
+        "change_24h": 3.19,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AAVE",
+        "name": "Aave",
+        "price": 164.47,
+        "change_24h": 2.68,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.031863,
-        "change_24h": -6.51,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "POL",
-        "name": "POL (ex-MATIC)",
-        "price": 0.109969,
-        "change_24h": -5.04,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 1.021,
-        "change_24h": -4.97,
-        "asset": "crypto"
-      },
-      {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 281.61,
-        "change_24h": -4.97,
+        "price": 278.06,
+        "change_24h": -8.01,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.031812,
+        "change_24h": -6.01,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.47,
-        "change_24h": -4.7,
+        "price": 2.46,
+        "change_24h": -4.52,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "POL",
+        "name": "POL (ex-MATIC)",
+        "price": 0.110106,
+        "change_24h": -4.41,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 1.018,
+        "change_24h": -4.27,
         "asset": "crypto"
       }
     ]
