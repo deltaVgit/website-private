@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-10-01T15:05:10Z",
+  "updatedAt": "2026-10-01T21:35:02Z",
   "kev": [
+    {
+      "cve": "CVE-2026-104286",
+      "product": "FortiMail",
+      "vendor": "Fortinet",
+      "name": "Fortinet FortiMail Path Traversal Vulnerability",
+      "dateAdded": "2026-10-01",
+      "dueDate": "2026-10-04",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2026-76504",
       "product": "Catalyst SD-WAN Manager",
@@ -116,15 +125,6 @@
       "name": "Check Point Multiple Products Improper Certificate Validation Vulnerability",
       "dateAdded": "2026-09-22",
       "dueDate": "2026-09-25",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-7273",
-      "product": "GS1900 Series Switches",
-      "vendor": "Zyxel",
-      "name": "Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability",
-      "dateAdded": "2026-09-21",
-      "dueDate": "2026-09-24",
       "knownRansomware": "Unknown"
     }
   ],
