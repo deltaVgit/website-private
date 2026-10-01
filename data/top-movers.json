@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T01:15:41Z",
+  "updated_at": "2026-10-01T01:30:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.541501,
-        "change_24h": 8.31,
+        "symbol": "QNT",
+        "name": "Quant",
+        "price": 299.42,
+        "change_24h": 9.68,
         "asset": "crypto"
       },
       {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 293.21,
-        "change_24h": 7.44,
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.544991,
+        "change_24h": 9.49,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.266671,
-        "change_24h": 7.15,
+        "price": 0.267282,
+        "change_24h": 7.48,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.13333,
-        "change_24h": 5.19,
+        "price": 0.133347,
+        "change_24h": 5.4,
         "asset": "crypto"
       },
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 5.29,
-        "change_24h": 4.88,
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price": 0.034949,
+        "change_24h": 4.72,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "AVAX",
-        "name": "Avalanche",
-        "price": 10.88,
-        "change_24h": -4.81,
-        "asset": "crypto"
-      },
-      {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.078502,
-        "change_24h": -4.51,
+        "price": 0.078639,
+        "change_24h": -4.44,
         "asset": "crypto"
       },
       {
-        "symbol": "INJ",
-        "name": "Injective",
-        "price": 7.43,
-        "change_24h": -4.19,
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price": 10.9,
+        "change_24h": -4.42,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.33,
+        "change_24h": -4.27,
         "asset": "crypto"
       },
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.112949,
-        "change_24h": -4.11,
+        "price": 0.113144,
+        "change_24h": -4.05,
         "asset": "crypto"
       },
       {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 3.35,
-        "change_24h": -3.99,
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 7.45,
+        "change_24h": -4.03,
         "asset": "crypto"
       }
     ]
