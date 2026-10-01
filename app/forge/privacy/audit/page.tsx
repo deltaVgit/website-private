@@ -70,12 +70,20 @@ const EMAIL_RE = /^[^\s@]{1,64}@[^\s@]{1,190}\.[^\s@]{2,}$/;
 const PHONE_RE = /^\+?[0-9][0-9 ()\-.]{5,18}$/;
 const HANDLE_RE = /^[A-Za-z0-9_.@-]{2,40}$/;
 
-const parseList = (raw: string, max: number, re: RegExp, cap: number): string[] => {
+/**
+ * List parser. Phones are comma/semicolon-separated only — spaces INSIDE a
+ * phone are part of the number (+33 6 23 52 65), so whitespace is NOT a
+ * phone separator. Emails/handles stay comma/space-separated.
+ */
+const parseList = (raw: string, max: number, re: RegExp, cap: number, keepSpaces = false): string[] => {
   const seen = new Set<string>();
-  for (const item of raw.split(/[\s,;]+/)) {
-    const v = item.trim();
-    if (v.length === 0 || v.length > cap || !re.test(v)) continue;
-    seen.add(v.toLowerCase());
+  const items = keepSpaces ? raw.split(/[,;]+/) : raw.split(/[\s,;]+/);
+  for (const item of items) {
+    const v = item.trim().replace(/^[,;]+|[,;]+$/g, '');
+    if (v.length === 0 || v.length > cap) continue;
+    const cand = keepSpaces ? v : v.replace(/\s+/g, '');
+    if (!re.test(cand)) continue;
+    seen.add(cand.toLowerCase());
     if (seen.size >= max) break;
   }
   return Array.from(seen);
@@ -177,7 +185,7 @@ export default function PrivacyAuditApp() {
   const [copied, setCopied] = useState(false);
 
   const emails = parseList(emailsRaw, 3, EMAIL_RE, 254);
-  const phones = parseList(phonesRaw, 3, PHONE_RE, 20);
+  const phones = parseList(phonesRaw, 3, PHONE_RE, 20, true);
   const handles = parseList(handlesRaw, 3, HANDLE_RE, 40);
   const pws = pwRaw.split('\n').map((p) => p.trim()).filter((p) => p.length >= 4 && p.length <= 128).slice(0, 3);
 
@@ -471,14 +479,20 @@ export default function PrivacyAuditApp() {
                     { id: 'phone-google', label: 'A phone number appears in results or directories' },
                     { id: 'handle-google', label: 'A pseudonym is indexed and links to your real name' },
                     { id: 'docs-indexed', label: 'Documents with your name/address are publicly indexed' },
-                  ].map((c) => (
-                    <label key={c.id} className="cursor-pointer">
-                      <input type="checkbox" className="peer sr-only" checked={foundManual.includes(c.id)} onChange={() => toggleFound(c.id)} />
-                      <span className="block rounded-xl border border-[var(--border-default)] px-4 py-3 text-[13px] text-[var(--text-secondary)] transition-colors peer-checked:border-[var(--accent-primary)] peer-checked:bg-[var(--accent-primary)]/10 peer-checked:text-[var(--text-primary)]">
-                        {c.label}
-                      </span>
-                    </label>
-                  ))}
+                  ].map((c) => {
+                    const on = foundManual.includes(c.id);
+                    return (
+                      <button
+                        key={c.id}
+                        type="button"
+                        aria-pressed={on}
+                        onClick={() => toggleFound(c.id)}
+                        className={`block text-left rounded-xl border px-4 py-3 text-[13px] transition-colors ${on ? 'border-[var(--accent-primary)] bg-[var(--accent-primary)]/10 text-[var(--text-primary)]' : 'border-[var(--border-default)] text-[var(--text-secondary)] hover:border-[var(--border-hover)]'}`}
+                      >
+                        {on ? '✓ ' : ''}{c.label}
+                      </button>
+                    );
+                  })}
                 </div>
               </div>
             )}
