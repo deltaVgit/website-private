@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T01:30:41Z",
+  "updated_at": "2026-10-01T01:45:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 299.42,
-        "change_24h": 9.68,
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.539789,
+        "change_24h": 9.07,
         "asset": "crypto"
       },
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.544991,
-        "change_24h": 9.49,
+        "symbol": "QNT",
+        "name": "Quant",
+        "price": 298.95,
+        "change_24h": 8.5,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.267282,
-        "change_24h": 7.48,
+        "price": 0.264516,
+        "change_24h": 6.17,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.133347,
-        "change_24h": 5.4,
+        "price": 0.133069,
+        "change_24h": 5.29,
         "asset": "crypto"
       },
       {
         "symbol": "XDC",
         "name": "XDC Network",
-        "price": 0.034949,
-        "change_24h": 4.72,
+        "price": 0.034946,
+        "change_24h": 5.24,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.078639,
-        "change_24h": -4.44,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AVAX",
-        "name": "Avalanche",
-        "price": 10.9,
-        "change_24h": -4.42,
-        "asset": "crypto"
-      },
-      {
         "symbol": "BTW",
         "name": "Bitway",
         "price": 1.33,
-        "change_24h": -4.27,
+        "change_24h": -5.24,
         "asset": "crypto"
       },
       {
-        "symbol": "POL",
-        "name": "POL (ex-MATIC)",
-        "price": 0.113144,
-        "change_24h": -4.05,
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.07782,
+        "change_24h": -5.07,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 7.45,
-        "change_24h": -4.03,
+        "price": 7.39,
+        "change_24h": -4.85,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price": 10.86,
+        "change_24h": -4.79,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "POL",
+        "name": "POL (ex-MATIC)",
+        "price": 0.112426,
+        "change_24h": -4.51,
         "asset": "crypto"
       }
     ]
