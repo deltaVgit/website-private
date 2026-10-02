@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T05:00:41Z",
+  "updated_at": "2026-10-02T05:15:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 186.03,
-        "change_24h": 12.17,
+        "price": 183.88,
+        "change_24h": 10.46,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.084783,
+        "change_24h": 7.47,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.48,
-        "change_24h": 8.44,
+        "price": 1.47,
+        "change_24h": 6.78,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "APT",
+        "name": "Aptos",
+        "price": 0.835441,
+        "change_24h": 6.42,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 5e-06,
-        "change_24h": 8.32,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.084998,
-        "change_24h": 8.31,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "APT",
-        "name": "Aptos",
-        "price": 0.836927,
-        "change_24h": 6.52,
+        "change_24h": 5.74,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 253.67,
-        "change_24h": -13.01,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.24711,
-        "change_24h": -9.24,
+        "price": 0.24706,
+        "change_24h": -9.3,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.04,
-        "change_24h": -7.35,
+        "price": 5.01,
+        "change_24h": -8.12,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.83,
-        "change_24h": -5.74,
+        "price": 3.82,
+        "change_24h": -5.7,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.741776,
-        "change_24h": -4.84,
+        "price": 0.739315,
+        "change_24h": -5.25,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.795462,
+        "change_24h": -5.09,
         "asset": "crypto"
       }
     ]
