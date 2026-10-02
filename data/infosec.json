@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-10-02T11:05:00Z",
+  "updatedAt": "2026-10-02T17:35:03Z",
   "kev": [
+    {
+      "cve": "CVE-2026-102490",
+      "product": "Zammad",
+      "vendor": "Zammad GmbH",
+      "name": "Zammad GmbH Zammad Improper Privilege Management Vulnerability",
+      "dateAdded": "2026-10-02",
+      "dueDate": "2026-10-05",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-102489",
+      "product": "Zammad",
+      "vendor": "Zammad GmbH",
+      "name": "Zammad GmbH Zammad Session Fixation Vulnerability",
+      "dateAdded": "2026-10-02",
+      "dueDate": "2026-10-05",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2026-104286",
       "product": "FortiMail",
@@ -105,24 +123,6 @@
       "product": "BIG-IP APM",
       "vendor": "F5",
       "name": "F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability",
-      "dateAdded": "2026-09-22",
-      "dueDate": "2026-09-25",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-93616",
-      "product": "Multiple Products",
-      "vendor": "Check Point",
-      "name": "Check Point Multiple Products Path Traversal Vulnerability",
-      "dateAdded": "2026-09-22",
-      "dueDate": "2026-09-25",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-85102",
-      "product": "Multiple Products",
-      "vendor": "Check Point",
-      "name": "Check Point Multiple Products Improper Certificate Validation Vulnerability",
       "dateAdded": "2026-09-22",
       "dueDate": "2026-09-25",
       "knownRansomware": "Unknown"
