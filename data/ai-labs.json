@@ -1,12 +1,52 @@
 {
-  "updated": "2026-10-01T21:34:55Z",
+  "updated": "2026-10-02T04:05:00Z",
   "items": [
+    {
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "source": "Hugging Face Blog",
+      "published_at": "2026-10-02T04:01:31+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
+      "title": "On-Device Named-Entity Recognition: A Deployability Study of Accuracy, Cost, Reliability, and Confidence",
+      "url": "https://arxiv.org/abs/2610.00007",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-10-02T04:00:00+00:00",
+      "summary": "arXiv:2610.00007v1 Announce Type: new Abstract: Named-entity recognition (NER) is increasingly wanted on-device (no API, low latency, data kept local). The practitioner's question is not the leaderboard but which model is deployable, how to evaluate it without human annotation, a",
+      "tag": "ai"
+    },
+    {
+      "title": "SCM-based Fairness and Faithful Explainability for Legal Document Classification",
+      "url": "https://arxiv.org/abs/2610.00045",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-10-02T04:00:00+00:00",
+      "summary": "arXiv:2610.00045v1 Announce Type: new Abstract: Transformer models such as LegalBERT are increasingly used in legal decision support, raising concerns about both fairness and the transparency of model explanations. These properties are usually evaluated separately, leaving open w",
+      "tag": "ai"
+    },
+    {
+      "title": "The First Token Is Not the Verdict: Hidden Costs of Reading LLM Judges Without Generating",
+      "url": "https://arxiv.org/abs/2610.00054",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-10-02T04:00:00+00:00",
+      "summary": "arXiv:2610.00054v1 Announce Type: new Abstract: Reading an LLM judge's verdict from the logits of its first generated token is cheap, requires no generation, and is exactly what constrained decoding and likelihood-scoring evaluation harnesses produce. We show that this readout di",
+      "tag": "ai"
+    },
     {
       "title": "The eternal complement",
       "url": "https://openai.com/index/the-eternal-complement",
       "source": "OpenAI",
       "published_at": "2026-10-01T17:00:00+00:00",
       "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+      "tag": "ai"
+    },
+    {
+      "title": "Endogenous Alignment Requires Dependence",
+      "url": "https://www.alignmentforum.org/posts/rp4sB5a6HaPpfD4rA/endogenous-alignment-requires-dependence",
+      "source": "Alignment Forum",
+      "published_at": "2026-10-01T16:20:56+00:00",
+      "summary": "My post on endogenous alignment got several excellent comments. Among them, one from Karl Krueger argued that imitation learning is more important for how humans align their children than reinforcement learning. Teasing out which is more important seems hard, but I agree I was wr",
       "tag": "ai"
     },
     {
@@ -31,30 +71,6 @@
       "source": "Simon Willison",
       "published_at": "2026-10-01T06:29:01+00:00",
       "summary": "[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared pa",
-      "tag": "ai"
-    },
-    {
-      "title": "FD-VAD: Semantic Endpoint Detection for Streaming Full-Duplex Speech",
-      "url": "https://arxiv.org/abs/2609.35791",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-10-01T04:00:00+00:00",
-      "summary": "arXiv:2609.35791v1 Announce Type: new Abstract: Natural turn-taking in full-duplex voice interaction requires determining from partial speech whether a pause reflects hesitation or a completed conversational intent. Acoustic voice activity detection lacks this semantic informatio",
-      "tag": "ai"
-    },
-    {
-      "title": "Sieve and Sage: Efficient Distraction Filtering for Reliable RALM Abstention",
-      "url": "https://arxiv.org/abs/2609.35794",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-10-01T04:00:00+00:00",
-      "summary": "arXiv:2609.35794v1 Announce Type: new Abstract: Just as Socrates recognized the limits of his own knowledge, Retrieval-Augmented Language Models (RALMs) should learn to abstain when the retrieved evidence cannot support a reliable response. Existing approaches largely rely on mon",
-      "tag": "ai"
-    },
-    {
-      "title": "Developing an OCR model for Extracting Information from Invoices with Korean Language",
-      "url": "https://arxiv.org/abs/2609.35796",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-10-01T04:00:00+00:00",
-      "summary": "arXiv:2609.35796v1 Announce Type: new Abstract: Invoices are commercial documents that contain various pieces of information, including the purchased items, time, and total money. Making the extraction of important information crucial. The stored information serves different purp",
       "tag": "ai"
     },
     {
@@ -130,14 +146,6 @@
       "tag": "ai"
     },
     {
-      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-      "source": "Hugging Face Blog",
-      "published_at": "2026-09-29T13:07:00+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
       "title": "Fixed-weight models are adversarially vulnerable: hence misaligned",
       "url": "https://www.alignmentforum.org/posts/9LWK9Hh3Qsg36e3FS/fixed-weight-models-are-adversarially-vulnerable-hence",
       "source": "Alignment Forum",
@@ -191,14 +199,6 @@
       "source": "Meta Engineering",
       "published_at": "2026-09-24T00:00:00+00:00",
       "summary": "We believe glasses are the best form factor for having AI help throughout your day. They can understand your personal context better than other kinds of devices and keep you present without picking up a mobile phone. Most of the time, glasses are helping you see well, protecting ",
-      "tag": "ai"
-    },
-    {
-      "title": "Latent reasoning architectures would likely undermine CoT, our strongest oversight tool",
-      "url": "https://www.alignmentforum.org/posts/6m29SfjbittooYojj/latent-reasoning-architectures-would-likely-undermine-cot",
-      "source": "Alignment Forum",
-      "published_at": "2026-09-23T18:01:49+00:00",
-      "summary": "Edited 2026-09-29 ; see note at the start of the conclusion . Summary: Currently, “chain of thought” (CoT) is our most valuable tool for understanding the reasoning and cognition of AI systems. However, some architectures would enable AI models to reason much more extensively in ",
       "tag": "ai"
     },
     {
