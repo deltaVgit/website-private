@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T11:15:42Z",
+  "updated_at": "2026-10-02T11:30:42Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.089469,
-        "change_24h": 13.33,
-        "asset": "crypto"
-      },
-      {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 185.63,
-        "change_24h": 12.75,
+        "price": 184.81,
+        "change_24h": 11.83,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 30.2,
-        "change_24h": 9.67,
+        "price": 29.98,
+        "change_24h": 8.99,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.65,
+        "price": 2.66,
         "change_24h": 7.79,
         "asset": "crypto"
       },
       {
         "symbol": "APT",
         "name": "Aptos",
-        "price": 0.822727,
-        "change_24h": 7.01,
+        "price": 0.822663,
+        "change_24h": 6.66,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.005894,
+        "change_24h": 5.16,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 237.37,
-        "change_24h": -14.44,
+        "price": 244.05,
+        "change_24h": -13.6,
         "asset": "crypto"
       },
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 4.88,
-        "change_24h": -4.85,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.011671,
-        "change_24h": -4.81,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.127821,
-        "change_24h": -4.77,
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price": 0.033986,
+        "change_24h": -4.69,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.8,
-        "change_24h": -4.27,
+        "price": 3.79,
+        "change_24h": -4.67,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.011656,
+        "change_24h": -4.66,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 4.87,
+        "change_24h": -4.49,
         "asset": "crypto"
       }
     ]
