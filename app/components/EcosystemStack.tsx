@@ -174,7 +174,8 @@ export const AI_ECOSYSTEM: EcosystemItem[] = [
   { name: 'Claude', x: 'AnthropicAI', href: 'https://x.com/AnthropicAI' },
   { name: 'OpenAI', x: 'OpenAI', href: 'https://x.com/OpenAI' },
   { name: 'Google AI', x: 'GoogleAI', href: 'https://x.com/GoogleAI' },
-  // Frameworks & tooling
+  // Frameworks & tooling + training platform (AWS fine-tuning pilots)
+  { name: 'AWS', x: 'awscloud', href: 'https://aws.amazon.com/sagemaker/' },
   { name: 'Hugging Face', x: 'huggingface', href: 'https://x.com/huggingface' },
   { name: 'LangChain', x: 'LangChainAI', href: 'https://x.com/LangChain' },
   { name: 'PyTorch', x: 'PyTorch', href: 'https://x.com/PyTorch' },
