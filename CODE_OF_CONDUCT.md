@@ -31,7 +31,7 @@ This Code of Conduct applies within project spaces (issues, PRs, discussions) an
 
 ## Enforcement
 
-Report incidents to [engage@deltav.cc](mailto:engage@deltav.cc). All complaints will be reviewed and investigated promptly and fairly. Maintainers are obligated to respect the privacy and security of the reporter.
+Report incidents to [contact@deltav.cc](mailto:contact@deltav.cc). All complaints will be reviewed and investigated promptly and fairly. Maintainers are obligated to respect the privacy and security of the reporter.
 
 ## Attribution
 

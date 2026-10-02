@@ -14,7 +14,7 @@ This repository builds the public **Delta V** static website and related edge he
 
 **Please do not open a public GitHub issue for security vulnerabilities.**
 
-Email: **[engage@deltav.cc](mailto:engage@deltav.cc)**
+Email: **[contact@deltav.cc](mailto:contact@deltav.cc)**
 
 Include:
 

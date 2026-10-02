@@ -159,4 +159,4 @@ Issues and PRs welcome. Code of conduct: [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.
 - **Code:** [MIT](./LICENSE) © 2026 Delta V  
 - **Third-party assets:** [ATTRIBUTION.md](./ATTRIBUTION.md) — includes lotus GIF credit: [Aaron Rolston](https://www.aaronrolston.com/) for [Amaranth Foundation](https://amaranth.foundation/)
 
-Contact: [engage@deltav.cc](mailto:engage@deltav.cc)
+Contact: [contact@deltav.cc](mailto:contact@deltav.cc)
