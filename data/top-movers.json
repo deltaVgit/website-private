@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-02T14:30:41Z",
+  "updated_at": "2026-10-02T14:45:42Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "SYNA",
         "name": "Synaptics Incorporated",
-        "price": 120.55,
-        "change_24h": 13.57,
+        "price": 120.85,
+        "change_24h": 13.85,
         "asset": "equity"
       },
       {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "price": 103.52,
-        "change_24h": 12.37,
-        "asset": "equity"
-      },
-      {
-        "symbol": "IBRX",
-        "name": "ImmunityBio, Inc.",
-        "price": 10.36,
-        "change_24h": 11.58,
+        "price": 103.6,
+        "change_24h": 12.46,
         "asset": "equity"
       },
       {
         "symbol": "IMOS",
         "name": "ChipMOS TECHNOLOGIES INC.",
-        "price": 80.58,
-        "change_24h": 10.87,
+        "price": 81.25,
+        "change_24h": 11.78,
         "asset": "equity"
       },
       {
-        "symbol": "BTDR",
-        "name": "Bitdeer Technologies Group",
-        "price": 11.73,
-        "change_24h": 10.24,
+        "symbol": "VSH",
+        "name": "Vishay Intertechnology, Inc.",
+        "price": 38.13,
+        "change_24h": 11.26,
+        "asset": "equity"
+      },
+      {
+        "symbol": "IBRX",
+        "name": "ImmunityBio, Inc.",
+        "price": 10.3,
+        "change_24h": 11.05,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "STX",
         "name": "Seagate Technology Holdings PLC",
-        "price": 833.67,
-        "change_24h": -11.83,
+        "price": 815.48,
+        "change_24h": -13.76,
         "asset": "equity"
       },
       {
         "symbol": "WDC",
         "name": "Western Digital Corporation",
-        "price": 413.54,
-        "change_24h": -10.59,
+        "price": 407.16,
+        "change_24h": -11.98,
         "asset": "equity"
       },
       {
         "symbol": "KOD",
         "name": "Kodiak Sciences Inc",
-        "price": 92.82,
-        "change_24h": -5.73,
+        "price": 92.09,
+        "change_24h": -6.47,
+        "asset": "equity"
+      },
+      {
+        "symbol": "PBF",
+        "name": "PBF Energy Inc.",
+        "price": 77.84,
+        "change_24h": -5.47,
         "asset": "equity"
       },
       {
         "symbol": "NKE",
         "name": "Nike, Inc.",
-        "price": 33.23,
-        "change_24h": -5.46,
-        "asset": "equity"
-      },
-      {
-        "symbol": "GDS",
-        "name": "GDS Holdings Limited",
-        "price": 28.27,
-        "change_24h": -5.15,
+        "price": 33.44,
+        "change_24h": -4.88,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.574332,
-        "change_24h": 14.37,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 29.97,
-        "change_24h": 9.63,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.006042,
-        "change_24h": 8.78,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "APT",
-        "name": "Aptos",
-        "price": 0.837384,
-        "change_24h": 8.76,
+        "price": 0.568762,
+        "change_24h": 14.33,
         "asset": "crypto"
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 183.31,
-        "change_24h": 7.95,
+        "price": 183.24,
+        "change_24h": 10.0,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 29.73,
+        "change_24h": 9.83,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.00603,
+        "change_24h": 9.76,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "APT",
+        "name": "Aptos",
+        "price": 0.834663,
+        "change_24h": 8.9,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 250.08,
-        "change_24h": -6.52,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.244762,
-        "change_24h": -5.33,
+        "price": 249.73,
+        "change_24h": -5.92,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
         "price": 3.69,
-        "change_24h": -5.31,
+        "change_24h": -5.32,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.011543,
-        "change_24h": -5.12,
+        "price": 0.011525,
+        "change_24h": -4.98,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.127379,
-        "change_24h": -4.25,
+        "price": 0.127086,
+        "change_24h": -4.32,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "price": 0.3667,
+        "change_24h": -4.05,
         "asset": "crypto"
       }
     ]
