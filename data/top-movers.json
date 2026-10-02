@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T06:15:41Z",
+  "updated_at": "2026-10-02T06:30:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 1.9,
-        "change_24h": 11.29,
-        "asset": "crypto"
-      },
-      {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 181.32,
-        "change_24h": 7.99,
+        "price": 184.22,
+        "change_24h": 9.45,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.08461,
-        "change_24h": 6.36,
+        "price": 0.084296,
+        "change_24h": 6.13,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
         "price": 1.47,
-        "change_24h": 6.28,
+        "change_24h": 5.96,
         "asset": "crypto"
       },
       {
         "symbol": "APT",
         "name": "Aptos",
-        "price": 0.82621,
-        "change_24h": 5.55,
+        "price": 0.825404,
+        "change_24h": 5.09,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price": 5e-06,
+        "change_24h": 4.34,
         "asset": "crypto"
       }
     ],
@@ -119,35 +119,35 @@
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 247.73,
-        "change_24h": -13.35,
+        "price": 247.57,
+        "change_24h": -14.69,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.247323,
-        "change_24h": -10.35,
+        "price": 0.248174,
+        "change_24h": -10.47,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 5.04,
-        "change_24h": -8.51,
+        "change_24h": -8.32,
         "asset": "crypto"
       },
       {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.79399,
-        "change_24h": -6.33,
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price": 0.033267,
+        "change_24h": -7.69,
         "asset": "crypto"
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 3.84,
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.736039,
         "change_24h": -5.67,
         "asset": "crypto"
       }
