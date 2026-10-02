@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T23:45:41Z",
+  "updated_at": "2026-10-02T00:00:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.42,
-        "change_24h": 8.48,
-        "asset": "crypto"
-      },
-      {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.083989,
-        "change_24h": 8.34,
+        "price": 0.084284,
+        "change_24h": 8.55,
         "asset": "crypto"
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 172.35,
-        "change_24h": 7.92,
+        "price": 171.7,
+        "change_24h": 7.71,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.42,
+        "change_24h": 6.91,
         "asset": "crypto"
       },
       {
         "symbol": "GRAM",
         "name": "Gram (prev. Toncoin)",
-        "price": 1.58,
-        "change_24h": 5.23,
+        "price": 1.57,
+        "change_24h": 4.84,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": 3.45,
+        "change_24h": 3.77,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 245.21,
-        "change_24h": -13.95,
+        "price": 244.52,
+        "change_24h": -14.78,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.79,
-        "change_24h": -10.71,
+        "price": 4.8,
+        "change_24h": -9.96,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.24324,
-        "change_24h": -8.22,
+        "price": 0.243222,
+        "change_24h": -8.1,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.724265,
-        "change_24h": -7.52,
+        "price": 0.725141,
+        "change_24h": -7.6,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1337.8,
-        "change_24h": -7.03,
+        "price": 1333.09,
+        "change_24h": -7.28,
         "asset": "crypto"
       }
     ]

@@ -1,21 +1,7 @@
 {
-  "updated": "2026-10-01T23:45:41.764771Z",
-  "period": "2026-10-01 \u2192 2026-11-15",
+  "updated": "2026-10-02T00:00:41.577655Z",
+  "period": "2026-10-02 \u2192 2026-11-16",
   "events": [
-    {
-      "date": "2026-10-01",
-      "label": "US Initial Jobless Claims",
-      "currency": "USD",
-      "impact": "medium",
-      "country": "US"
-    },
-    {
-      "date": "2026-10-01",
-      "label": "Swiss Unemployment Rate",
-      "currency": "CHF",
-      "impact": "medium",
-      "country": "CH"
-    },
     {
       "date": "2026-10-02",
       "label": "US Non-Farm Payrolls",
@@ -280,6 +266,20 @@
       "label": "US Treasury Auction",
       "currency": "USD",
       "impact": "low",
+      "country": "US"
+    },
+    {
+      "date": "2026-11-04",
+      "label": "Swiss CPI (YoY)",
+      "currency": "CHF",
+      "impact": "medium",
+      "country": "CH"
+    },
+    {
+      "date": "2026-11-05",
+      "label": "US Initial Jobless Claims",
+      "currency": "USD",
+      "impact": "medium",
       "country": "US"
     }
   ]
