@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T13:05:56Z",
+  "updated_at": "2026-10-02T14:05:40Z",
   "source": "https://api.llama.fi/overview/dexs",
   "weekly": [
     {
@@ -1258,9 +1258,9 @@
     },
     {
       "week": "2026-W40",
-      "curated": 54942633098.43001,
-      "filtered": 54942633098.43001,
-      "raw": 54942633098.43001
+      "curated": 54939838787.64001,
+      "filtered": 54939838787.64001,
+      "raw": 54939838787.64001
     }
   ],
   "chains": [
@@ -1300,6 +1300,11 @@
       "delta_pct": 66.46
     },
     {
+      "chain": "Defi Swap",
+      "volume_24h": 293492.0,
+      "delta_pct": 720.75
+    },
+    {
       "chain": "Balancer V1",
       "volume_24h": 203417.0,
       "delta_pct": 70.74
@@ -1313,11 +1318,6 @@
       "chain": "Pangolin V2",
       "volume_24h": 55455.0,
       "delta_pct": -57.65
-    },
-    {
-      "chain": "Defi Swap",
-      "volume_24h": 52587.0,
-      "delta_pct": 47.06
     },
     {
       "chain": "Nerve",
