@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T01:00:41Z",
+  "updated_at": "2026-10-02T01:15:41Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.44,
-        "change_24h": 8.57,
+        "symbol": "AAVE",
+        "name": "Aave",
+        "price": 173.77,
+        "change_24h": 8.67,
         "asset": "crypto"
       },
       {
-        "symbol": "AAVE",
-        "name": "Aave",
-        "price": 173.07,
-        "change_24h": 8.48,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.43,
+        "change_24h": 6.83,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.083959,
-        "change_24h": 7.38,
+        "price": 0.083114,
+        "change_24h": 5.86,
         "asset": "crypto"
       },
       {
         "symbol": "GRAM",
         "name": "Gram (prev. Toncoin)",
-        "price": 1.57,
-        "change_24h": 4.62,
+        "price": 1.56,
+        "change_24h": 3.54,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": 3.21,
+        "change_24h": 2.64,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price": 250.54,
+        "change_24h": -14.71,
+        "asset": "crypto"
+      },
+      {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.242103,
-        "change_24h": -9.07,
+        "price": 0.239871,
+        "change_24h": -10.12,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.84,
-        "change_24h": -8.5,
+        "price": 4.82,
+        "change_24h": -8.95,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.506373,
-        "change_24h": -6.25,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.041157,
-        "change_24h": -6.02,
+        "price": 0.503052,
+        "change_24h": -6.97,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.727563,
-        "change_24h": -5.79,
+        "price": 0.723325,
+        "change_24h": -6.87,
         "asset": "crypto"
       }
     ]
