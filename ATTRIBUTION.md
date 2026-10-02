@@ -15,7 +15,7 @@ Some bundled assets are **not** created by Delta V and retain their original cre
 | **Use** | Decorative / brand-adjacent animation retained in the asset library |
 | **Note** | This GIF is **not** original Delta V work. It is included **with attribution** to Aaron Rolston and Amaranth Foundation. |
 
-If you hold rights in this asset and prefer different credit, a license note, or removal, contact [engage@deltav.cc](mailto:engage@deltav.cc) and we will correct this notice promptly.
+If you hold rights in this asset and prefer different credit, a license note, or removal, contact [contact@deltav.cc](mailto:contact@deltav.cc) and we will correct this notice promptly.
 
 ---
 
