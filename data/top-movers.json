@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T08:30:42Z",
+  "updated_at": "2026-10-02T08:45:42Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 182.47,
-        "change_24h": 10.13,
+        "price": 182.01,
+        "change_24h": 9.63,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.084447,
-        "change_24h": 8.69,
+        "price": 0.0843,
+        "change_24h": 8.21,
         "asset": "crypto"
       },
       {
         "symbol": "APT",
         "name": "Aptos",
-        "price": 0.835783,
-        "change_24h": 7.56,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PEPE",
-        "name": "Pepe",
-        "price": 5e-06,
-        "change_24h": 6.38,
+        "price": 0.838731,
+        "change_24h": 7.97,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.006,
-        "change_24h": 6.37,
+        "price": 0.005971,
+        "change_24h": 7.65,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 29.8,
+        "change_24h": 7.08,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "XDC",
-        "name": "XDC Network",
-        "price": 0.033695,
-        "change_24h": -5.89,
-        "asset": "crypto"
-      },
-      {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 4.97,
-        "change_24h": -5.04,
+        "change_24h": -4.98,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.248948,
-        "change_24h": -4.85,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.129472,
-        "change_24h": -3.62,
+        "price": 0.249219,
+        "change_24h": -4.67,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.375664,
-        "change_24h": -3.4,
+        "price": 0.374015,
+        "change_24h": -3.92,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.12942,
+        "change_24h": -3.6,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.031539,
+        "change_24h": -2.81,
         "asset": "crypto"
       }
     ]
