@@ -1,11 +1,27 @@
 [
   {
+    "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
+    "source": "BleepingComputer",
+    "summary": "Fortinet is warning customers of a critical FortiMail vulnerability, tracked as CVE-2026-104286, that is being actively exploited in zero-day attacks to execute unauthorized code or commands on vulnerable devices. [...]",
+    "added": "2026-10-01T22:42:49+00:00",
+    "expires": "2026-10-16T04:05:06Z"
+  },
+  {
+    "title": "Alleged KillSec Ransomware Mastermind a 16-Year-Old",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/killsec-ransomware-mastermind-16-year-old",
+    "source": "Dark Reading",
+    "summary": "Law enforcement from multiple countries collaborated to disrupt a cybercrime operation that has claimed some 500 victims worldwide in the past two years.",
+    "added": "2026-10-01T21:37:50+00:00",
+    "expires": "2026-10-16T04:05:06Z"
+  },
+  {
     "title": "Autonomous AI agents tried to hack US, Canadian government websites",
     "url": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
     "source": "BleepingComputer",
     "summary": "Autonomous AI agents using aggressive strategies attempted to hack U.S. and Canadian government websites to find school and divorce statistics. [...]",
     "added": "2026-10-01T20:52:50+00:00",
-    "expires": "2026-10-15T21:35:01Z"
+    "expires": "2026-10-16T04:05:06Z"
   },
   {
     "title": "Microsoft says threat actors are ahead in the early AI race",
@@ -13,7 +29,7 @@
     "source": "BleepingComputer",
     "summary": "Microsoft says cyberattackers are currently benefiting from artificial intelligence faster than defenders, allowing threat actors to speed up vulnerability discovery, malware development, and post-compromise activity whi",
     "added": "2026-10-01T19:32:47+00:00",
-    "expires": "2026-10-15T21:35:01Z"
+    "expires": "2026-10-16T04:05:06Z"
   },
   {
     "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
@@ -21,7 +37,7 @@
     "source": "The Hacker News",
     "summary": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on its leak site unless",
     "added": "2026-10-01T16:55:57+00:00",
-    "expires": "2026-10-15T21:35:02Z"
+    "expires": "2026-10-16T04:05:06Z"
   },
   {
     "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
@@ -29,7 +45,7 @@
     "source": "The Hacker News",
     "summary": "This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A ",
     "added": "2026-10-01T16:45:38+00:00",
-    "expires": "2026-10-15T21:35:02Z"
+    "expires": "2026-10-16T04:05:06Z"
   },
   {
     "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
@@ -37,7 +53,7 @@
     "source": "The Hacker News",
     "summary": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again.",
     "added": "2026-10-01T14:37:35+00:00",
-    "expires": "2026-10-15T21:35:02Z"
+    "expires": "2026-10-16T04:05:06Z"
   },
   {
     "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
@@ -45,7 +61,7 @@
     "source": "BleepingComputer",
     "summary": "An international law enforcement operation dubbed \"Operation KillSwitch\" seized the KillSec ransomware gang's data leak site and servers, led to three arrests, and identified a 16-year-old as the group's alleged administ",
     "added": "2026-10-01T14:25:14+00:00",
-    "expires": "2026-10-15T21:35:01Z"
+    "expires": "2026-10-16T04:05:06Z"
   },
   {
     "title": "The Day-One Hole in Zero Trust Architecture",
@@ -53,15 +69,7 @@
     "source": "BleepingComputer",
     "summary": "Zero Trust can verify users once they are established, but onboarding creates a gap where organizations must decide who to trust before strong authentication exists. Specops explains why identity verification should begi",
     "added": "2026-10-01T14:01:11+00:00",
-    "expires": "2026-10-15T21:35:01Z"
-  },
-  {
-    "title": "Kiteworks patches max severity code injection vulnerability",
-    "url": "https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/",
-    "source": "BleepingComputer",
-    "summary": "Secure file-sharing software company Kiteworks has released security updates to address 126 vulnerabilities, including a max-severity flaw affecting its Email Protection Gateway (EPG) security solution. [...]",
-    "added": "2026-10-01T13:51:08+00:00",
-    "expires": "2026-10-15T21:35:01Z"
+    "expires": "2026-10-16T04:05:06Z"
   },
   {
     "title": "Warlock Ransomware Hits Large Spanish, Portuguese Orgs",
@@ -69,7 +77,7 @@
     "source": "Dark Reading",
     "summary": "A year-old Chinese threat actor looks like a cybercrime gang, acts like a state-associated APT, and attacks organizations in unexpected places.",
     "added": "2026-10-01T13:00:00+00:00",
-    "expires": "2026-10-15T21:35:01Z"
+    "expires": "2026-10-16T04:05:06Z"
   },
   {
     "title": "Armatura LLC Armatura One",
@@ -77,7 +85,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to the database, execute arbitrary code on the host with the highest level of privilege, or gain cont",
     "added": "2026-10-01T12:00:00+00:00",
-    "expires": "2026-10-15T21:35:02Z"
+    "expires": "2026-10-16T04:05:06Z"
   },
   {
     "title": "Meari IoT Cloud Platform OpenAPI Service",
@@ -85,7 +93,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to manipulate device configurations, trigger unauthorized behaviors, and access sensitive information such as device credentials, o",
     "added": "2026-10-01T12:00:00+00:00",
-    "expires": "2026-10-15T21:35:02Z"
+    "expires": "2026-10-16T04:05:06Z"
   },
   {
     "title": "Monta monta.app",
@@ -93,7 +101,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services through denial-of-servi",
     "added": "2026-10-01T12:00:00+00:00",
-    "expires": "2026-10-15T21:35:02Z"
+    "expires": "2026-10-16T04:05:06Z"
   },
   {
     "title": "Johnson Controls EasyIO Neo Series EC and CW Controllers",
@@ -101,7 +109,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain access to sensitive information that could be used to conduct further attacks against the system. The following versions of ",
     "added": "2026-10-01T12:00:00+00:00",
-    "expires": "2026-10-15T21:35:02Z"
+    "expires": "2026-10-16T04:05:06Z"
   },
   {
     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
@@ -109,7 +117,7 @@
     "source": "CISA Advisories",
     "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-104286 Fortinet FortiMail Path Traversal Vulnerability This type of vulnerabi",
     "added": "2026-10-01T12:00:00+00:00",
-    "expires": "2026-10-15T21:35:02Z"
+    "expires": "2026-10-16T04:05:06Z"
   },
   {
     "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
@@ -117,14 +125,6 @@
     "source": "The Hacker News",
     "summary": "Every security leader at a bank, insurer, or asset manager has had a version of this conversation: Security wants to eliminate a class of vulnerabilities. Engineering explains what it would take to upgrade the platform w",
     "added": "2026-10-01T11:45:00+00:00",
-    "expires": "2026-10-15T21:35:02Z"
-  },
-  {
-    "title": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
-    "url": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
-    "source": "The Hacker News",
-    "summary": "OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models. A \"core cluster of the act",
-    "added": "2026-10-01T10:42:36+00:00",
-    "expires": "2026-10-15T21:35:02Z"
+    "expires": "2026-10-16T04:05:06Z"
   }
 ]
