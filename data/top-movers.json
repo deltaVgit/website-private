@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T08:00:42Z",
+  "updated_at": "2026-10-02T08:15:42Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 183.9,
-        "change_24h": 11.91,
+        "price": 183.42,
+        "change_24h": 11.73,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.084461,
-        "change_24h": 8.7,
+        "price": 0.084368,
+        "change_24h": 9.15,
         "asset": "crypto"
       },
       {
         "symbol": "APT",
         "name": "Aptos",
-        "price": 0.828633,
-        "change_24h": 7.16,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.005968,
-        "change_24h": 6.66,
+        "price": 0.829392,
+        "change_24h": 7.63,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 5e-06,
-        "change_24h": 5.53,
+        "change_24h": 5.71,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.6,
+        "change_24h": 5.1,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "STX",
-        "name": "Stacks",
-        "price": 0.373579,
-        "change_24h": -6.46,
-        "asset": "crypto"
-      },
-      {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.98,
-        "change_24h": -5.72,
+        "price": 4.97,
+        "change_24h": -5.43,
         "asset": "crypto"
       },
       {
         "symbol": "XDC",
         "name": "XDC Network",
-        "price": 0.033707,
-        "change_24h": -5.21,
+        "price": 0.033758,
+        "change_24h": -5.36,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.248966,
-        "change_24h": -5.14,
+        "price": 0.248833,
+        "change_24h": -5.03,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.733011,
+        "change_24h": -3.12,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.129904,
-        "change_24h": -2.89,
+        "price": 0.129835,
+        "change_24h": -3.05,
         "asset": "crypto"
       }
     ]
