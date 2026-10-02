@@ -1,45 +1,117 @@
 {
-  "updated_at": "2026-10-02T21:06:51Z",
+  "updated_at": "2026-10-02T21:30:23Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
-    "gainers": [],
-    "losers": []
+    "gainers": [
+      {
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "price": 105.93,
+        "change_24h": 14.99,
+        "asset": "equity"
+      },
+      {
+        "symbol": "IMOS",
+        "name": "ChipMOS TECHNOLOGIES INC.",
+        "price": 83.3,
+        "change_24h": 14.61,
+        "asset": "equity"
+      },
+      {
+        "symbol": "SYNA",
+        "name": "Synaptics Incorporated",
+        "price": 121.1,
+        "change_24h": 14.08,
+        "asset": "equity"
+      },
+      {
+        "symbol": "PENG",
+        "name": "Penguin Solutions, Inc.",
+        "price": 61.36,
+        "change_24h": 11.6,
+        "asset": "equity"
+      },
+      {
+        "symbol": "VSH",
+        "name": "Vishay Intertechnology, Inc.",
+        "price": 38.18,
+        "change_24h": 11.41,
+        "asset": "equity"
+      }
+    ],
+    "losers": [
+      {
+        "symbol": "MAAS",
+        "name": "Maase Inc.",
+        "price": 13.7,
+        "change_24h": -13.35,
+        "asset": "equity"
+      },
+      {
+        "symbol": "WDC",
+        "name": "Western Digital Corporation",
+        "price": 415.29,
+        "change_24h": -10.22,
+        "asset": "equity"
+      },
+      {
+        "symbol": "STX",
+        "name": "Seagate Technology Holdings PLC",
+        "price": 848.99,
+        "change_24h": -10.21,
+        "asset": "equity"
+      },
+      {
+        "symbol": "UCTT",
+        "name": "Ultra Clean Holdings, Inc.",
+        "price": 72.69,
+        "change_24h": -7.57,
+        "asset": "equity"
+      },
+      {
+        "symbol": "GDS",
+        "name": "GDS Holdings Limited",
+        "price": 27.57,
+        "change_24h": -7.48,
+        "asset": "equity"
+      }
+    ]
   },
   "crypto": {
     "gainers": [
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.547592,
-        "change_24h": 9.72,
+        "price": 0.540537,
+        "change_24h": 8.84,
         "asset": "crypto"
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 181.57,
-        "change_24h": 6.78,
+        "price": 180.28,
+        "change_24h": 6.05,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 27.9,
-        "change_24h": 5.24,
+        "price": 27.7,
+        "change_24h": 4.86,
         "asset": "crypto"
       },
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.032281,
-        "change_24h": 4.87,
+        "price": 0.031829,
+        "change_24h": 2.85,
         "asset": "crypto"
       },
       {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.087116,
-        "change_24h": 3.94,
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.047,
+        "change_24h": 2.36,
         "asset": "crypto"
       }
     ],
@@ -47,36 +119,36 @@
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.005262,
-        "change_24h": -10.9,
+        "price": 0.005257,
+        "change_24h": -9.42,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 231.95,
-        "change_24h": -9.15,
+        "price": 229.63,
+        "change_24h": -8.89,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.011145,
-        "change_24h": -7.7,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "TAO",
-        "name": "Bittensor",
-        "price": 286.41,
-        "change_24h": -6.0,
+        "price": 0.011127,
+        "change_24h": -7.69,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.6,
-        "change_24h": -5.87,
+        "price": 3.54,
+        "change_24h": -6.95,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.688623,
+        "change_24h": -5.47,
         "asset": "crypto"
       }
     ]
