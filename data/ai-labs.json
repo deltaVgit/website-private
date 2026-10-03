@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T00:04:39Z",
+  "updated": "2026-10-03T06:34:55Z",
   "items": [
     {
       "title": "A model guide for the GPT-6 family",
@@ -31,30 +31,6 @@
       "source": "Hugging Face Blog",
       "published_at": "2026-10-02T04:01:31+00:00",
       "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "On-Device Named-Entity Recognition: A Deployability Study of Accuracy, Cost, Reliability, and Confidence",
-      "url": "https://arxiv.org/abs/2610.00007",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-10-02T04:00:00+00:00",
-      "summary": "arXiv:2610.00007v1 Announce Type: new Abstract: Named-entity recognition (NER) is increasingly wanted on-device (no API, low latency, data kept local). The practitioner's question is not the leaderboard but which model is deployable, how to evaluate it without human annotation, a",
-      "tag": "ai"
-    },
-    {
-      "title": "SCM-based Fairness and Faithful Explainability for Legal Document Classification",
-      "url": "https://arxiv.org/abs/2610.00045",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-10-02T04:00:00+00:00",
-      "summary": "arXiv:2610.00045v1 Announce Type: new Abstract: Transformer models such as LegalBERT are increasingly used in legal decision support, raising concerns about both fairness and the transparency of model explanations. These properties are usually evaluated separately, leaving open w",
-      "tag": "ai"
-    },
-    {
-      "title": "The First Token Is Not the Verdict: Hidden Costs of Reading LLM Judges Without Generating",
-      "url": "https://arxiv.org/abs/2610.00054",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-10-02T04:00:00+00:00",
-      "summary": "arXiv:2610.00054v1 Announce Type: new Abstract: Reading an LLM judge's verdict from the logits of its first generated token is cheap, requires no generation, and is exactly what constrained decoding and likelihood-scoring evaluation harnesses produce. We show that this readout di",
       "tag": "ai"
     },
     {
@@ -106,11 +82,27 @@
       "tag": "ai"
     },
     {
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "source": "Google DeepMind",
+      "published_at": "2026-09-30T20:01:45+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
       "title": "Frog and Toad and the Increasingly Capable Machines",
       "url": "https://www.lesswrong.com/posts/7NZ6ZWjenzzCbCJ5b/frog-and-toad-and-the-increasingly-capable-machines",
       "source": "LessWrong",
       "published_at": "2026-09-30T18:27:42+00:00",
       "summary": "Want to start a conversation about HuggingFace with your mom but she's inexplicably bouncing off the METR report? Try this explainer I wrote in the style of Arnold Lobel's Frog and Toad. Art by the wonderful HungerArtist If you're so inspired, liking and/or following on Substack ",
+      "tag": "ai"
+    },
+    {
+      "title": "Introducing SynthID Bio",
+      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "source": "Google DeepMind",
+      "published_at": "2026-09-30T15:03:07+00:00",
+      "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
       "tag": "ai"
     },
     {
@@ -178,6 +170,14 @@
       "tag": "ai"
     },
     {
+      "title": "Introducing Gemini 3.8 Live with Live Avatar",
+      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "source": "Google DeepMind",
+      "published_at": "2026-09-24T16:20:39+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
       "title": "Bringing Private Processing to Meta AI Glasses",
       "url": "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses/",
       "source": "Meta Engineering",
@@ -191,6 +191,14 @@
       "source": "Google AI Blog",
       "published_at": "2026-09-23T18:00:00+00:00",
       "summary": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
+      "tag": "ai"
+    },
+    {
+      "title": "Advancing Private AI Compute with secure, server-side memory",
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "source": "Google DeepMind",
+      "published_at": "2026-09-23T16:00:57+00:00",
+      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
       "tag": "ai"
     },
     {
