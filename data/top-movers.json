@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T12:30:23Z",
+  "updated_at": "2026-10-03T12:45:23Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.602344,
-        "change_24h": 9.36,
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 2.0,
+        "change_24h": 8.63,
         "asset": "crypto"
       },
       {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 2.03,
-        "change_24h": 9.27,
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.60076,
+        "change_24h": 8.0,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.137301,
-        "change_24h": 7.23,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NIGHT",
-        "name": "Midnight",
-        "price": 0.04959,
-        "change_24h": 5.24,
+        "price": 0.137407,
+        "change_24h": 7.07,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 255.47,
-        "change_24h": 3.63,
+        "price": 254.1,
+        "change_24h": 3.35,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price": 0.048966,
+        "change_24h": 2.35,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.010524,
-        "change_24h": -9.32,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 3.53,
-        "change_24h": -6.93,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 27.82,
-        "change_24h": -6.89,
+        "price": 0.010466,
+        "change_24h": -10.02,
         "asset": "crypto"
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
-        "price": 289.76,
-        "change_24h": -6.45,
+        "price": 289.04,
+        "change_24h": -6.57,
         "asset": "crypto"
       },
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.232658,
-        "change_24h": -5.91,
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 27.71,
+        "change_24h": -6.41,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 3.54,
+        "change_24h": -6.23,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.69428,
+        "change_24h": -5.93,
         "asset": "crypto"
       }
     ]
