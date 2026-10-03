@@ -1,11 +1,35 @@
 [
   {
+    "title": "RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail",
+    "url": "https://www.darkreading.com/cybersecurity-operations/remotethreat-bets-security-teams-need-to-test-what-happens-after-defenses-fail",
+    "source": "Dark Reading",
+    "summary": "The offensive cyber operations startup looks to evolve red teaming beyond traditional methods to simulate attackers' increasingly advanced capabilities.",
+    "added": "2026-10-02T20:18:37+00:00",
+    "expires": "2026-10-17T00:04:45Z"
+  },
+  {
+    "title": "Frontline Education breach exposes school district employee data",
+    "url": "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/",
+    "source": "BleepingComputer",
+    "summary": "Frontline Education is notifying school districts of a data breach after attackers exploited a vulnerability in third-party software to gain unauthorized access to its systems and steal employee information, including So",
+    "added": "2026-10-02T19:01:40+00:00",
+    "expires": "2026-10-17T00:04:45Z"
+  },
+  {
+    "title": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
+    "source": "BleepingComputer",
+    "summary": "The China-linked ransomware group Warlock targeted a water utility, a telecom provider, a regional government body, and a university by exploiting SharePoint vulnerabilities to gain initial access. [...]",
+    "added": "2026-10-02T18:33:01+00:00",
+    "expires": "2026-10-17T00:04:45Z"
+  },
+  {
     "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
     "url": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
     "source": "The Hacker News",
     "summary": "A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab said in an advisory. The gateway is the service that connects ",
     "added": "2026-10-02T17:33:31+00:00",
-    "expires": "2026-10-16T17:35:03Z"
+    "expires": "2026-10-17T00:04:46Z"
   },
   {
     "title": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
@@ -13,7 +37,7 @@
     "source": "The Hacker News",
     "summary": "Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor. The activity, which has targeted government and policy organizations in Taiwan, India, ",
     "added": "2026-10-02T17:33:16+00:00",
-    "expires": "2026-10-16T17:35:03Z"
+    "expires": "2026-10-17T00:04:46Z"
   },
   {
     "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
@@ -21,7 +45,7 @@
     "source": "The Hacker News",
     "summary": "Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are liste",
     "added": "2026-10-02T17:02:12+00:00",
-    "expires": "2026-10-16T17:35:03Z"
+    "expires": "2026-10-17T00:04:46Z"
   },
   {
     "title": "Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response",
@@ -29,7 +53,7 @@
     "source": "Dark Reading",
     "summary": "One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for its product.",
     "added": "2026-10-02T16:56:30+00:00",
-    "expires": "2026-10-16T17:35:03Z"
+    "expires": "2026-10-17T00:04:45Z"
   },
   {
     "title": "SWIFT Banking & Government Middleware Enables RCE",
@@ -37,7 +61,7 @@
     "source": "Dark Reading",
     "summary": "Patch middleware vulnerabilities now to avoid hardware-based MFA exploits in ultra-sensitive environments.",
     "added": "2026-10-02T16:27:54+00:00",
-    "expires": "2026-10-16T17:35:03Z"
+    "expires": "2026-10-17T00:04:45Z"
   },
   {
     "title": "GitLab warns of critical RCE vulnerability in AI Gateway service",
@@ -45,7 +69,7 @@
     "source": "BleepingComputer",
     "summary": "GitLab warned customers today to immediately patch a critical AI Gateway vulnerability that could let attackers run arbitrary commands on vulnerable instances. [...]",
     "added": "2026-10-02T16:20:05+00:00",
-    "expires": "2026-10-16T17:35:02Z"
+    "expires": "2026-10-17T00:04:45Z"
   },
   {
     "title": "Is Your Organization Ready for 2027's AI Accountability Era?",
@@ -53,7 +77,7 @@
     "source": "Dark Reading",
     "summary": "Organizations may face an artificial intelligence (AI) reckoning over the next year. Omdia and Gartner weigh in on how to tackle the governance, security, and value challenges ahead.",
     "added": "2026-10-02T16:01:22+00:00",
-    "expires": "2026-10-16T17:35:03Z"
+    "expires": "2026-10-17T00:04:45Z"
   },
   {
     "title": "Is It Fair to Blame 'Rogue' AI for Security Failures?",
@@ -61,7 +85,7 @@
     "source": "Dark Reading",
     "summary": "\"Rogue AI\" terminology anthropomorphizes LLMs and shifts risk responsibility from vendors. Defenders should treat agents as untrusted, nondeterministic software systems, not sentient beings with malicious intent.",
     "added": "2026-10-02T15:51:33+00:00",
-    "expires": "2026-10-16T17:35:03Z"
+    "expires": "2026-10-17T00:04:45Z"
   },
   {
     "title": "US sanctions Tren de Aragua gang members in ATM hacks crackdown",
@@ -69,7 +93,7 @@
     "source": "BleepingComputer",
     "summary": "The U.S. Treasury Department has sanctioned eight members of the Venezuelan gang Tren de Aragua (TdA) for their role in the theft of millions of dollars in ATM jackpotting attacks across the United States. [...]",
     "added": "2026-10-02T15:20:53+00:00",
-    "expires": "2026-10-16T17:35:02Z"
+    "expires": "2026-10-17T00:04:45Z"
   },
   {
     "title": "The EDR blind spot: 3 ways browser attacks evade endpoint telemetry",
@@ -77,23 +101,7 @@
     "source": "BleepingComputer",
     "summary": "Browser-based attacks can steal sessions, abuse extensions, or manipulate users without creating the endpoint artifacts EDR is designed to detect. NordLayer explains three ways attacks can evade endpoint telemetry and wh",
     "added": "2026-10-02T14:00:10+00:00",
-    "expires": "2026-10-16T17:35:02Z"
-  },
-  {
-    "title": "Vulnerability Backlogs Are an Ownership Problem",
-    "url": "https://www.darkreading.com/cybersecurity-operations/vulnerability-backlogs-ownership-problem",
-    "source": "Dark Reading",
-    "summary": "Organizations don't need better vulnerability scanners; they need to know who owns their assets and has the authority and capacity to actually fix them.",
-    "added": "2026-10-02T14:00:00+00:00",
-    "expires": "2026-10-16T17:35:03Z"
-  },
-  {
-    "title": "Dell asks admins to patch max severity CSM flaws as soon as possible",
-    "url": "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/",
-    "source": "BleepingComputer",
-    "summary": "Dell has patched two maximum severity vulnerabilities in the Container Storage Modules (CSM) that connect Dell enterprise storage arrays to Kubernetes environments. [...]",
-    "added": "2026-10-02T12:37:40+00:00",
-    "expires": "2026-10-16T17:35:02Z"
+    "expires": "2026-10-17T00:04:45Z"
   },
   {
     "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
@@ -101,7 +109,15 @@
     "source": "The Hacker News",
     "summary": "OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wall Street Journal reported. \"We have parted ways with three individuals for viola",
     "added": "2026-10-02T12:23:15+00:00",
-    "expires": "2026-10-16T17:35:03Z"
+    "expires": "2026-10-17T00:04:46Z"
+  },
+  {
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/10/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA Advisories",
+    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-102489 Zammad GmbH Zammad Session Fixation Vulnerability CVE-2026-102490 Za",
+    "added": "2026-10-02T12:00:00+00:00",
+    "expires": "2026-10-17T00:04:46Z"
   },
   {
     "title": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report",
@@ -109,22 +125,6 @@
     "source": "The Hacker News",
     "summary": "The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the vulnerability scanner, the SIEM and the EDR console. Someone is building a spread",
     "added": "2026-10-02T11:30:00+00:00",
-    "expires": "2026-10-16T17:35:03Z"
-  },
-  {
-    "title": "Microsoft’s X account hacked in crypto pump-and-dump scheme",
-    "url": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
-    "source": "BleepingComputer",
-    "summary": "On Thursday, unknown attackers hijacked the official Microsoft account on X, which has over 13 million followers, in what appeared to be a pump-and-dump scheme promoting a crypto token. [...]",
-    "added": "2026-10-02T09:29:56+00:00",
-    "expires": "2026-10-16T17:35:02Z"
-  },
-  {
-    "title": "Armatura LLC Armatura One",
-    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-01",
-    "source": "CISA Advisories",
-    "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to the database, execute arbitrary code on the host with the highest level of privilege, or gain cont",
-    "added": "2026-10-01T12:00:00+00:00",
-    "expires": "2026-10-16T17:35:03Z"
+    "expires": "2026-10-17T00:04:46Z"
   }
 ]
