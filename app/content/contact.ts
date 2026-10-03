@@ -21,6 +21,8 @@ export type ContactCopy = {
   needLabel: string;
   needs: { web3: string; ai: string; upskilling: string };
   descriptionPlaceholder: string;
+  emailPlaceholder: string;
+  privacyNote: string;
   send: string;
   bookingBadge: string;
   bookingTitle: string;
@@ -52,6 +54,9 @@ const en: ContactCopy = {
   needLabel: 'I Need',
   needs: { web3: 'Web3', ai: 'AI', upskilling: 'Upskilling' },
   descriptionPlaceholder: 'Quick description...',
+  emailPlaceholder: 'Your email (for the reply)',
+  privacyNote:
+    'Sent directly to our own encrypted mailbox — no third-party form services, no trackers. We reply within 24h and delete your message once handled.',
   send: 'Send →',
   bookingBadge: 'First Call — Free',
   bookingTitle: 'Book a 30‑minute call',
@@ -109,6 +114,9 @@ const fr: ContactCopy = {
   needLabel: 'J’ai besoin de',
   needs: { web3: 'Web3', ai: 'IA', upskilling: 'Montée en compétences' },
   descriptionPlaceholder: 'Décrivez brièvement…',
+  emailPlaceholder: 'Votre e-mail (pour la réponse)',
+  privacyNote:
+    'Envoyé directement dans notre boîte chiffrée — aucun service de formulaire tiers, aucun traqueur. Réponse sous 24 h, puis suppression de votre message une fois traité.',
   send: 'Envoyer →',
   bookingBadge: 'Premier échange — offert',
   bookingTitle: 'Réservez 30 minutes',

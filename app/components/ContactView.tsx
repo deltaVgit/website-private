@@ -49,25 +49,51 @@ function ContactContent({ lang }: { lang: Locale }) {
     }
   };
 
-  // Native compose: build subject + body client-side and open the visitor's
-  // mail app via a mailto: GET tap. Form POST to mailto: silently fails on
-  // most mobile browsers (iOS Safari opens an empty compose); a real link
-  // tap works everywhere and needs no backend.
-  const compose = (e: React.FormEvent<HTMLFormElement>) => {
+  // Form POST → Cloudflare Worker on form.deltav.cc (Email Routing to our
+  // encrypted mailbox). Falls back to mailto: if the endpoint is unreachable.
+  const [formState, setFormState] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
+
+  const submit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const data = new FormData(e.currentTarget);
     const name = String(data.get('name') || '').trim();
+    const email = String(data.get('email') || '').trim();
     const need = String(data.get('need') || '').trim();
     const description = String(data.get('description') || '').trim();
-    const subject = need
-      ? `[${need}] ${name || copy.title} - ${topicKey || 'enquiry'}`
-      : `Delta V enquiry - ${name || topicKey || 'website'}`;
-    const bodyText = [name && `Name: ${name}`, need && `Need: ${need}`, description]
-      .filter(Boolean)
-      .join('\n\n');
-    window.location.href =
-      'mailto:engage@deltav.cc?subject=' + encodeURIComponent(subject) +
-      '&body=' + encodeURIComponent(bodyText);
+    if (!name && !description) return;
+    setFormState('sending');
+    try {
+      const res = await fetch('https://form.deltav.cc/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name,
+          email,
+          need,
+          description,
+          lang,
+          page: window.location.pathname,
+        }),
+      });
+      if (res.ok) {
+        setFormState('sent');
+        (e.target as HTMLFormElement).reset();
+      } else {
+        throw new Error(String(res.status));
+      }
+    } catch {
+      // mailto fallback keeps the form usable if the endpoint is down
+      const subject = need
+        ? `[${need}] ${name || copy.title} - ${topicKey || 'enquiry'}`
+        : `Delta V enquiry - ${name || topicKey || 'website'}`;
+      const bodyText = [name && `Name: ${name}`, need && `Need: ${need}`, description]
+        .filter(Boolean)
+        .join('\n\n');
+      window.location.href =
+        'mailto:engage@deltav.cc?subject=' + encodeURIComponent(subject) +
+        '&body=' + encodeURIComponent(bodyText);
+      setFormState('error');
+    }
   };
 
   return (
@@ -128,7 +154,7 @@ function ContactContent({ lang }: { lang: Locale }) {
             <p className="text-sm text-[var(--text-tertiary)] mb-6">{copy.formBlurb}</p>
             <form
               key={topicKey || 'default'}
-              onSubmit={compose}
+              onSubmit={submit}
               className="space-y-3"
             >
               <input
@@ -158,6 +184,12 @@ function ContactContent({ lang }: { lang: Locale }) {
                   ))}
                 </div>
               </div>
+              <input
+                type="email"
+                name="email"
+                placeholder={copy.emailPlaceholder}
+                className="w-full bg-[var(--bg-deep)] border border-[var(--border-default)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] placeholder-[var(--text-disabled)] focus:outline-none focus:border-[var(--accent-cyan)]/40 focus:shadow-[var(--glow-cyan)] transition-all"
+              />
               <textarea
                 name="description"
                 rows={3}
@@ -167,10 +199,12 @@ function ContactContent({ lang }: { lang: Locale }) {
               />
               <button
                 type="submit"
-                className="w-full py-3 bg-[var(--accent-cyan)] text-[var(--on-accent)] rounded-xl text-sm font-semibold hover:bg-[var(--accent-primary-bright)] transition-colors"
+                disabled={formState === 'sending'}
+                className="w-full py-3 bg-[var(--accent-cyan)] text-[var(--on-accent)] rounded-xl text-sm font-semibold hover:bg-[var(--accent-primary-bright)] transition-colors disabled:opacity-60"
               >
-                {copy.send}
+                {formState === 'sending' ? '…' : formState === 'sent' ? 'Sent ✓' : formState === 'error' ? 'Retry (opened your email app)' : copy.send}
               </button>
+              <p className="text-[10px] text-[var(--text-muted)] leading-relaxed">{copy.privacyNote}</p>
               <button
                 type="button"
                 onClick={copyEmail}
