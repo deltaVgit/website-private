@@ -34,6 +34,7 @@ export type ContactCopy = {
   whyBody: string;
   whyCards: { number: string; title: string; body: string }[];
   badges: { label: string; value: string; desc: string }[];
+  retentionTile: { label: string; value: string; desc: string };
   /** mailto subject stem — "Delta V — AI enquiry" */
   enquirySubject: (need: string) => string;
   /** Prefilled body per ?topic= */
@@ -85,7 +86,9 @@ const en: ContactCopy = {
     { label: 'Response Time', value: '< 24h', desc: 'Typically same day' },
     { label: 'Consultation', value: 'Free', desc: 'First call is on us' },
     { label: 'NDA', value: 'Available', desc: 'Enterprise ready' },
+    { label: 'Retention', value: 'None', desc: 'Delete on request' },
   ],
+  retentionTile: { label: 'Your data', value: 'Self-hosted', desc: 'Straight to our encrypted mailbox' },
   enquirySubject: (need) => `Delta V — ${need} enquiry`,
   topicPrompts: {
     agents: 'Tailored multi-agent system — my workflows and goals:\n',
@@ -145,7 +148,9 @@ const fr: ContactCopy = {
     { label: 'Délai de réponse', value: '< 24 h', desc: 'Souvent le jour même' },
     { label: 'Consultation', value: 'Offerte', desc: 'Le premier échange est pour nous' },
     { label: 'NDA', value: 'Disponible', desc: 'Prêt pour l’entreprise' },
+    { label: 'Rétention', value: 'Aucune', desc: 'Supprimé sur demande' },
   ],
+  retentionTile: { label: 'Conservation', value: 'Zéro stockage', desc: 'Direct dans notre boîte chiffrée' },
   enquirySubject: (need) => `Delta V — demande ${need}`,
   topicPrompts: {
     agents: 'Système multi-agents sur mesure — mes flux de travail et mes objectifs :\n',

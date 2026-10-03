@@ -327,8 +327,8 @@ function ContactContent({ lang }: { lang: Locale }) {
         </section>
 
         <div className="order-4 w-full max-w-5xl mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {copy.badges.map((item) => (
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+            {[...copy.badges, copy.retentionTile].map((item) => (
               <div
                 key={item.label}
                 className="rounded-xl border border-[var(--border-default)] bg-[var(--bg-surface)] p-4"
