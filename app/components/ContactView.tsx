@@ -7,8 +7,15 @@ import type { Locale } from '@/lib/i18n';
 import { CONTACT_COPY } from '@/app/content/contact';
 import BookingCalendar from './BookingCalendar';
 
-const CONTACT_COPY_EMAIL = 'engage@deltav.cc';
-const CONTACT_FALLBACK_HREF = 'mailto:engage@deltav.cc';
+// Runtime-decoded so scrapers can't harvest the fallback address from the
+// static bundle (Turbopack constant-folds string concatenation, so we decode
+// char codes instead — no plaintext substring survives in the chunk).
+function _decodeEmail(): string {
+  const codes = [101, 110, 103, 97, 103, 101, 64, 100, 101, 108, 116, 97, 118, 46, 99, 99];
+  return codes.map((c) => String.fromCharCode(c)).join('');
+}
+const CONTACT_COPY_EMAIL = _decodeEmail();
+const CONTACT_FALLBACK_HREF = 'mailto:' + CONTACT_COPY_EMAIL;
 
 /** Which "I need" bucket a ?topic= belongs to. Locale-independent. */
 const TOPIC_NEED: Record<string, 'web3' | 'ai' | 'upskilling'> = {
@@ -30,13 +37,6 @@ function ContactContent({ lang }: { lang: Locale }) {
 
   const needLabels = [copy.needs.web3, copy.needs.ai, copy.needs.upskilling];
   const selectedNeed = needKey ? copy.needs[needKey] : undefined;
-
-  const mailtoHref = selectedNeed
-    ? 'mailto:engage@deltav.cc?subject=' +
-      encodeURIComponent(copy.enquirySubject(selectedNeed)) +
-      '&body=' +
-      encodeURIComponent(prompt || '')
-    : 'mailto:engage@deltav.cc';
 
   const [copied, setCopied] = useState(false);
   const copyEmail = async () => {
@@ -90,7 +90,7 @@ function ContactContent({ lang }: { lang: Locale }) {
         .filter(Boolean)
         .join('\n\n');
       window.location.href =
-        'mailto:engage@deltav.cc?subject=' + encodeURIComponent(subject) +
+        'mail' + 'to:' + CONTACT_COPY_EMAIL + '?subject=' + encodeURIComponent(subject) +
         '&body=' + encodeURIComponent(bodyText);
       setFormState('error');
     }
@@ -114,10 +114,10 @@ function ContactContent({ lang }: { lang: Locale }) {
                 {copy.emailLabel}
               </div>
               <a
-                href={mailtoHref}
+                href="#delta-v-contact-form"
                 className="text-xl md:text-2xl font-semibold tracking-tight text-[var(--text-primary)] hover:text-[var(--accent-cyan)] transition-colors"
               >
-                engage@deltav.cc
+                {copy.emailRouteLabel}
               </a>
             </div>
             <div className="flex flex-col flex-1">
@@ -210,7 +210,7 @@ function ContactContent({ lang }: { lang: Locale }) {
                 onClick={copyEmail}
                 className="w-full py-2.5 rounded-xl text-xs font-medium border border-[var(--border-default)] bg-transparent text-[var(--text-tertiary)] hover:text-[var(--text-secondary)] hover:border-[var(--border-hover)] transition-colors"
               >
-                {copied ? 'Copied engage@deltav.cc ✓' : 'Or copy engage@deltav.cc to paste anywhere'}
+                {copied ? copy.copyDoneLabel : copy.copyLabel}
               </button>
             </form>
           </div>

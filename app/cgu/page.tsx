@@ -52,7 +52,7 @@ export default function TermsPage() {
           </section>
           <section>
             <h2 className="text-lg font-semibold text-[var(--text-primary)]">10. Contact</h2>
-            <p className="mt-2">Questions about these Terms can be sent to <a href="mailto:contact@deltav.cc" className="text-[var(--accent-cyan)] hover:underline">contact@deltav.cc</a>.</p>
+            <p className="mt-2">Questions about these Terms can be sent <Link href="/contact/" className="text-[var(--accent-cyan)] hover:underline">via our contact page</Link>.</p>
           </section>
         </div>
         <Link href="/" className="mt-8 inline-flex text-sm text-[var(--accent-cyan)] hover:underline">← Back to Delta V</Link>

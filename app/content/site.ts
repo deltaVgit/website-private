@@ -187,6 +187,7 @@ export type FooterCopy = {
   tutorials: string;
   connect: string;
   contact: string;
+  emailCta: string;
   values: string;
   valueList: string[];
   noTrackers: string;
@@ -208,6 +209,7 @@ const footerEn: FooterCopy = {
   tutorials: 'Tutorials',
   connect: 'Connect',
   contact: 'Contact',
+  emailCta: 'Email',
   values: 'Values',
   valueList: ['Open source', 'Autonomy', 'Privacy', 'Clear exit strategy'],
   noTrackers: 'No trackers · Static export',
@@ -229,6 +231,7 @@ const footerFr: FooterCopy = {
   tutorials: 'Tutoriels',
   connect: 'Nous joindre',
   contact: 'Contact',
+  emailCta: 'E-mail',
   values: 'Nos principes',
   valueList: ['Open source', 'Autonomie', 'Vie privée', 'Stratégie de sortie claire'],
   noTrackers: 'Aucun traceur · Export statique',

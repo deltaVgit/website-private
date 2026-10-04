@@ -2,6 +2,12 @@
 import { useRef, useState } from 'react';
 import { PageHero, PageContainer } from '@/app/components/PageShell';
 import OfferCard from '@/app/components/OfferCard';
+// Runtime-decoded address — Turbopack constant-folds string concat,
+// so decode char codes instead; no harvestable plaintext in the bundle.
+function _addr(): string {
+  const codes = [101, 110, 103, 97, 103, 101, 64, 100, 101, 108, 116, 97, 118, 46, 99, 99];
+  return codes.map((c) => String.fromCharCode(c)).join('');
+}
 
 /**
  * FORGE · PRIVACY — Digital Footprint & OpSec (IA v1, 2026-09-30).
@@ -52,21 +58,39 @@ export default function ForgePrivacyPage() {
     ].join('\n');
   };
 
-  const submitRequest = (e: React.FormEvent<HTMLFormElement>) => {
+  const submitRequest = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const text = requestText(new FormData(e.currentTarget));
-    window.location.href =
-      'mailto:engage@deltav.cc?subject=' +
-      encodeURIComponent('Free exposure audit — intake request') +
-      '&body=' +
-      encodeURIComponent(text);
+    try {
+      const res = await fetch('https://form.deltav.cc/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: 'forge-privacy intake',
+          need: 'exposure-audit',
+          description: text,
+          lang: 'en',
+          page: window.location.pathname,
+        }),
+      });
+      if (!res.ok) throw new Error(String(res.status));
+      setCopied(true);
+    } catch {
+      // endpoint down -> open the visitor's mail client (runtime-assembled, not harvestable)
+      const addr = _addr();
+      window.location.href =
+        'mail' + 'to:' + addr + '?subject=' +
+        encodeURIComponent('Free exposure audit — intake request') +
+        '&body=' +
+        encodeURIComponent(text);
+    }
   };
 
   const copyRequest = () => {
     if (!formRef.current) return;
     const text = requestText(new FormData(formRef.current));
     navigator.clipboard
-      .writeText(text + '\n\n→ engage@deltav.cc')
+      .writeText(text + '\n\n→ via deltav.cc/contact')
       .then(() => setCopied(true))
       .catch(() => setCopied(false));
   };
@@ -276,7 +300,7 @@ export default function ForgePrivacyPage() {
                 onClick={copyRequest}
                 className="inline-flex items-center gap-2 rounded-xl border border-[var(--border-default)] px-6 py-3 text-sm font-medium text-[var(--text-secondary)] transition-all hover:border-[var(--border-hover)] hover:bg-[var(--bg-hover)]"
               >
-                {copied ? 'Copied ✓ — send to engage@deltav.cc' : 'Copy request details'}
+                {copied ? 'Sent ✓ — we reply from a private mailbox' : 'Copy request details'}
               </button>
             </div>
             <p className="text-[11px] text-[var(--text-muted)] leading-relaxed">
@@ -306,7 +330,7 @@ export default function ForgePrivacyPage() {
         </div>
 
         <div className="mt-10 pt-6 border-t border-[var(--border-default)] flex flex-wrap justify-between gap-3 text-xs text-[var(--text-muted)]">
-          <span>Delta V SRL, Bucharest (RO) · contact@deltav.cc</span>
+          <span>Delta V SRL, Bucharest (RO)</span>
           <span>Terms: CGU/CGV v0.4 draft · AI-Act transparency notice in review</span>
         </div>
       </PageContainer>

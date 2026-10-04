@@ -16,7 +16,7 @@ export default function PrivacyPage() {
         <div className="mt-12 space-y-8 border-y border-[var(--border-default)] py-8 text-sm leading-relaxed text-[var(--text-secondary)]">
           <section>
             <h2 className="text-lg font-semibold text-[var(--text-primary)]">1. Who we are</h2>
-            <p className="mt-2">This website is operated by Delta V SRL, registered with the Romanian Trade Registry under number 51301377, with its registered office in Bucharest, Romania. For privacy questions, contact <a href="mailto:contact@deltav.cc" className="text-[var(--accent-cyan)] hover:underline">contact@deltav.cc</a>.</p>
+            <p className="mt-2">This website is operated by Delta V SRL, registered with the Romanian Trade Registry under number 51301377, with its registered office in Bucharest, Romania. For privacy questions, reach us <Link href="/contact/" className="text-[var(--accent-cyan)] hover:underline">via our contact page</Link>.</p>
           </section>
           <section>
             <h2 className="text-lg font-semibold text-[var(--text-primary)]">2. Data we collect</h2>

@@ -54,7 +54,7 @@ export default function Footer() {
           <div className="md:col-span-2">
             <h2 className="text-[10px] font-semibold text-[var(--text-tertiary)] uppercase tracking-[2px] mb-4">{t.connect}</h2>
             <div className="space-y-2.5">
-              <a href="mailto:engage@deltav.cc" target="_blank" rel="noopener noreferrer" className="block text-[var(--text-tertiary)] hover:text-[var(--accent-cyan)] transition-colors duration-150 text-sm">engage@deltav.cc</a>
+              <Link href={to('/contact/')} className="block text-[var(--text-tertiary)] hover:text-[var(--accent-cyan)] transition-colors duration-150 text-sm">{t.emailCta}</Link>
               <div className="text-sm text-[var(--text-tertiary)]">Signal: @DeltaV.01</div>
               <Link href={to('/contact/')} className="block text-[var(--text-tertiary)] hover:text-[var(--accent-cyan)] transition-colors duration-150 text-sm">{t.contact}</Link>
             </div>

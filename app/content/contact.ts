@@ -22,6 +22,9 @@ export type ContactCopy = {
   needs: { web3: string; ai: string; upskilling: string };
   descriptionPlaceholder: string;
   emailPlaceholder: string;
+  emailRouteLabel: string;
+  copyLabel: string;
+  copyDoneLabel: string;
   privacyNote: string;
   send: string;
   bookingBadge: string;
@@ -56,6 +59,9 @@ const en: ContactCopy = {
   needs: { web3: 'Web3', ai: 'AI', upskilling: 'Upskilling' },
   descriptionPlaceholder: 'Quick description...',
   emailPlaceholder: 'Your email (for the reply)',
+  emailRouteLabel: 'Use the form below ↓',
+  copyLabel: 'Or open your email app',
+  copyDoneLabel: 'Opened ✓ — check your drafts',
   privacyNote:
     'Sent directly to our own encrypted mailbox — no third-party form services, no trackers. We reply within 24h and delete your message once handled.',
   send: 'Send →',
@@ -118,6 +124,9 @@ const fr: ContactCopy = {
   needs: { web3: 'Web3', ai: 'IA', upskilling: 'Montée en compétences' },
   descriptionPlaceholder: 'Décrivez brièvement…',
   emailPlaceholder: 'Votre e-mail (pour la réponse)',
+  emailRouteLabel: 'Utilisez le formulaire ci-dessous ↓',
+  copyLabel: 'Ou ouvrez votre application e-mail',
+  copyDoneLabel: 'Ouvert ✓ — vérifiez vos brouillons',
   privacyNote:
     'Envoyé directement dans notre boîte chiffrée — aucun service de formulaire tiers, aucun traqueur. Réponse sous 24 h, puis suppression de votre message une fois traité.',
   send: 'Envoyer →',

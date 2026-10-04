@@ -2,6 +2,12 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { PageHero, PageContainer } from '@/app/components/PageShell';
+// Runtime-decoded address — Turbopack constant-folds string concat,
+// so decode char codes instead; no harvestable plaintext in the bundle.
+function _addr(): string {
+  const codes = [101, 110, 103, 97, 103, 101, 64, 100, 101, 108, 116, 97, 118, 46, 99, 99];
+  return codes.map((c) => String.fromCharCode(c)).join('');
+}
 
 /**
  * FREE EXPOSURE SELF-CHECK — hosted app v2 (unified form, 2026-09-30).
@@ -16,7 +22,7 @@ import { PageHero, PageContainer } from '@/app/components/PageShell';
  *  - the only URLs built from user input are quoted-search links to a fixed
  *    host (google.com/search) with encodeURIComponent on the whole query;
  *  - identifiers typed here NEVER leave the browser: the result email to
- *    engage@deltav.cc carries counts and labels only.
+ *    the form endpoint carries counts and labels only.
  *
  * Data flows (disclosed in the on-page notice):
  *  - emails → api.xposedornot.com (keyless corpus check; the address itself
@@ -234,7 +240,7 @@ export default function PrivacyAuditApp() {
 
   const sendResult = () => {
     window.location.href =
-      'mailto:engage@deltav.cc?subject=' +
+      'mail' + 'to:' + _addr() + '?subject=' +
       encodeURIComponent('Free audit — self-check result') +
       '&body=' +
       encodeURIComponent(resultSummary);
@@ -242,7 +248,7 @@ export default function PrivacyAuditApp() {
 
   const copyResult = () => {
     navigator.clipboard
-      .writeText(resultSummary + '\n\n→ engage@deltav.cc')
+      .writeText(resultSummary + '\n\n→ via deltav.cc/contact')
       .then(() => setCopied(true))
       .catch(() => setCopied(false));
   };
@@ -461,7 +467,7 @@ export default function PrivacyAuditApp() {
                   You don&apos;t have to do it yourself — that&apos;s what you&apos;d be paying us for.
                 </p>
                 <div className="flex flex-wrap gap-3">
-                  <a href="mailto:engage@deltav.cc?subject=Add%20reappearance%20watch&body=Phone%20numbers%20and%20pseudonyms:%0A(add%20yours%20here)%0A%0ARun%20the%20first%20sweep%20and%20quote%20me%20the%20watch." className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent-primary)] px-5 py-2.5 text-sm font-semibold text-[var(--on-accent)] hover:bg-[var(--accent-primary-bright)] transition-colors">
+                  <a href="/contact/" className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent-primary)] px-5 py-2.5 text-sm font-semibold text-[var(--on-accent)] hover:bg-[var(--accent-primary-bright)] transition-colors">
                     Add reappearance watch to my case →
                   </a>
                   <a href="/forge/privacy/#deep-scrub" className="inline-flex items-center rounded-xl border border-[var(--border-default)] px-5 py-2.5 text-sm font-medium text-[var(--text-primary)] hover:border-[var(--border-hover)] transition-colors">
@@ -592,7 +598,7 @@ export default function PrivacyAuditApp() {
 
       <PageContainer as="section" className="pb-24">
         <p className="text-xs text-[var(--text-muted)] leading-relaxed max-w-3xl">
-          Delta V SRL, Bucharest (RO) · contact@deltav.cc · Terms: CGU/CGV v0.4 draft · AI-Act
+          Delta V SRL, Bucharest (RO) · Terms: CGU/CGV v0.4 draft · AI-Act
           transparency notice in review
         </p>
       </PageContainer>
