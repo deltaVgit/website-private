@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T16:15:23Z",
+  "updated_at": "2026-10-04T16:30:24Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.011891,
-        "change_24h": 13.05,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.00662,
+        "change_24h": 13.36,
         "asset": "crypto"
       },
       {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.864438,
-        "change_24h": 8.62,
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.011826,
+        "change_24h": 12.09,
         "asset": "crypto"
       },
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.034796,
-        "change_24h": 8.08,
+        "price": 0.034858,
+        "change_24h": 8.28,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.86754,
+        "change_24h": 8.22,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.752963,
-        "change_24h": 7.0,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "SUI",
-        "name": "Sui",
-        "price": 1.24,
-        "change_24h": 5.33,
+        "price": 0.750113,
+        "change_24h": 6.94,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 2.01,
-        "change_24h": -5.19,
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price": 0.048398,
+        "change_24h": -3.93,
         "asset": "crypto"
       },
       {
-        "symbol": "NIGHT",
-        "name": "Midnight",
-        "price": 0.048818,
-        "change_24h": -3.47,
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 1.98,
+        "change_24h": -3.01,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 7.49,
-        "change_24h": -3.03,
+        "price": 7.47,
+        "change_24h": -2.61,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.582691,
-        "change_24h": -2.21,
+        "price": 0.582063,
+        "change_24h": -2.27,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 1.054,
-        "change_24h": -2.16,
+        "price": 1.05,
+        "change_24h": -2.23,
         "asset": "crypto"
       }
     ]
