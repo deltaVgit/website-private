@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T00:30:23Z",
+  "updated_at": "2026-10-04T00:45:23Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.006269,
-        "change_24h": 14.71,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "price": 1.99,
-        "change_24h": 12.8,
+        "price": 2.0,
+        "change_24h": 14.03,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.011477,
-        "change_24h": 11.18,
+        "price": 0.011573,
+        "change_24h": 13.1,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.006278,
+        "change_24h": 12.51,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.78,
-        "change_24h": 7.98,
+        "change_24h": 8.22,
         "asset": "crypto"
       },
       {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.842548,
-        "change_24h": 6.0,
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.597228,
+        "change_24h": 6.36,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "NIGHT",
-        "name": "Midnight",
-        "price": 0.048146,
-        "change_24h": -2.35,
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.033,
+        "change_24h": -3.04,
         "asset": "crypto"
       },
       {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.034,
-        "change_24h": -1.76,
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price": 0.04838,
+        "change_24h": -2.95,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.643477,
-        "change_24h": -1.36,
+        "price": 0.64332,
+        "change_24h": -1.28,
         "asset": "crypto"
       },
       {
         "symbol": "ASTER",
         "name": "Aster",
-        "price": 0.71526,
-        "change_24h": -1.2,
+        "price": 0.715699,
+        "change_24h": -0.97,
         "asset": "crypto"
       },
       {
-        "symbol": "HBAR",
-        "name": "Hedera",
-        "price": 0.101596,
-        "change_24h": -1.06,
+        "symbol": "LTC",
+        "name": "Litecoin",
+        "price": 70.6,
+        "change_24h": -0.9,
         "asset": "crypto"
       }
     ]
