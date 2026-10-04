@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T18:15:24Z",
+  "updated_at": "2026-10-04T18:30:24Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.006602,
-        "change_24h": 8.88,
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.094722,
+        "change_24h": 8.16,
         "asset": "crypto"
       },
       {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.094016,
-        "change_24h": 6.95,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.006555,
+        "change_24h": 7.79,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 5.0,
-        "change_24h": 6.83,
+        "change_24h": 7.48,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.861228,
-        "change_24h": 5.97,
+        "price": 0.8626,
+        "change_24h": 6.2,
         "asset": "crypto"
       },
       {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1.07,
-        "change_24h": 4.8,
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.128627,
+        "change_24h": 5.85,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 1.97,
-        "change_24h": -4.59,
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price": 0.04784,
+        "change_24h": -4.43,
         "asset": "crypto"
       },
       {
-        "symbol": "NIGHT",
-        "name": "Midnight",
-        "price": 0.047978,
-        "change_24h": -3.94,
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 1.97,
+        "change_24h": -4.4,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
         "price": 7.42,
-        "change_24h": -2.79,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.579321,
-        "change_24h": -2.79,
+        "change_24h": -2.59,
         "asset": "crypto"
       },
       {
         "symbol": "PI",
         "name": "Pi Network",
-        "price": 0.086771,
-        "change_24h": -2.02,
+        "price": 0.086682,
+        "change_24h": -2.11,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.582162,
+        "change_24h": -1.99,
         "asset": "crypto"
       }
     ]
