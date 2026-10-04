@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T22:34:44Z",
+  "updatedAt": "2026-10-04T05:04:46Z",
   "kev": [
     {
       "cve": "CVE-2026-102490",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-96257",
+      "id": "CVE-2026-93577",
       "severity": "CRITICAL",
-      "score": 10.0,
-      "description": "A flaw has been found in Fast FAC1203R Gigabit Edition 2.0.4. Affected by this issue is the function copy_msg_element of the component Device Discovery Service. Executing a manipulation can lead to stack-based buffer ove",
-      "published": "2026-09-23T03:17:06.077"
+      "score": 9.9,
+      "description": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 that under certain conditions could have allowed an authenticated user to execute ",
+      "published": "2026-09-24T00:17:22.850"
     },
     {
-      "id": "CVE-2026-82843",
+      "id": "CVE-2026-96891",
       "severity": "CRITICAL",
-      "score": 9.0,
-      "description": "The WP OAuth Server ( Login with WordPress ) WordPress plugin before 6.4.0 does not bind the OpenID Connect identity assertion it issues to the authorization grant being exchanged, returning instead the assertion belongi",
-      "published": "2026-09-23T06:17:02.363"
+      "score": 9.8,
+      "description": "A vulnerability was identified in D-Link DIR-825 3.00b32. Affected is the function tunnel_set_params of the file tunnel.c of the component rp-l2tp. The manipulation of the argument peer_hostname leads to out-of-bounds wr",
+      "published": "2026-09-24T03:16:58.950"
     },
     {
-      "id": "CVE-2026-75799",
+      "id": "CVE-2026-18467",
       "severity": "CRITICAL",
-      "score": 9.0,
-      "description": "The YAHMAN Add-ons WordPress plugin before 0.9.31 does not validate the type of the remote files it caches in a publicly accessible directory, allowing unauthenticated attackers to write arbitrary PHP files on the server",
-      "published": "2026-09-23T06:17:01.710"
+      "score": 9.8,
+      "description": "The Paytium: Mollie payment forms & donations plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 5.0.3. The 5.0.3 patch introduced a wp_hash()/hash_equals() signature gate on",
+      "published": "2026-09-24T02:16:52.943"
     },
     {
-      "id": "CVE-2022-4997",
+      "id": "CVE-2026-97152",
       "severity": "HIGH",
       "score": 8.6,
-      "description": "The jet-form-builder-stripe-gateway WordPress plugin before 1.1.0 does not sanitise and escape a payment token before using it in a SQL statement, allowing unauthenticated users to extract arbitrary data from the databas",
-      "published": "2026-09-23T06:16:59.060"
+      "description": "Nanomsg versions 0.5-beta through 1.x before 1.2.3 has a remotely exploitable buffer overflow in the WebSocket transport, due to an unchecked copy of the Sec-WebSocket-Version header, through snprintf.",
+      "published": "2026-09-24T04:18:06.213"
     },
     {
-      "id": "CVE-2026-14321",
+      "id": "CVE-2026-82370",
       "severity": "HIGH",
-      "score": 8.2,
-      "description": "The divi-dash WordPress plugin before 1.0.7 does not validate the source of the client IP address it uses for rate limiting and banning, allowing unauthenticated attackers to spoof arbitrary IP addresses in order to bypa",
-      "published": "2026-09-23T06:17:00.850"
+      "score": 8.6,
+      "description": "Unauthenticated remote command injection in the Brocade SANnav orchestrator HTTP service permits network-adjacent attackers to execute arbitrary administrative switch CLI commands and issue container management instructi",
+      "published": "2026-09-24T00:17:21.777"
     },
     {
-      "id": "CVE-2026-19438",
+      "id": "CVE-2026-97151",
       "severity": "HIGH",
-      "score": 7.5,
-      "description": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in ABB Mint Workbench I. This issue affects Mint Workbench I: through 5876.",
-      "published": "2026-09-23T06:17:01.310"
+      "score": 8.4,
+      "description": "mammoth (aka mammoth.js) before 1.12.2 is vulnerable to prototype pollution when reading the styles defined in a document. Converting a crafted .docx file allows an attacker to add arbitrary properties to Object.prototyp",
+      "published": "2026-09-24T04:18:06.027"
     },
     {
-      "id": "CVE-2026-91777",
+      "id": "CVE-2026-97055",
       "severity": "HIGH",
-      "score": 7.5,
-      "description": "Forward-reference completion for @JsonIdentityInfo object IDs in FasterXML jackson-databind performs a linear scan of the pending-reference accumulator for every resolved ID. The affected paths are CollectionDeserializer",
-      "published": "2026-09-23T03:17:04.783"
+      "score": 8.1,
+      "description": "SigNoz from v0.8.0 before v0.143.0 defaults the JWT tokenizer signing secret (tokenizer::jwt::secret, set via SIGNOZ_TOKENIZER_JWT_SECRET or the deprecated SIGNOZ_JWT_SECRET) to an empty string, and Config.Validate() doe",
+      "published": "2026-09-24T02:16:54.333"
     },
     {
-      "id": "CVE-2026-91776",
+      "id": "CVE-2026-92470",
       "severity": "HIGH",
-      "score": 7.5,
-      "description": "TypeDeserializerBase._findDeserializer() in FasterXML jackson-databind caches the resolved deserializer under the raw, attacker-supplied type ID. When name-based polymorphism is configured with a fallback, for example @J",
-      "published": "2026-09-23T03:17:04.620"
+      "score": 7.7,
+      "description": "GitLab has remediated an issue in GitLab EE affecting all versions from 18.7 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 that under certain conditions could have allowed an authenticated user to access sens",
+      "published": "2026-09-24T00:17:22.193"
     },
     {
-      "id": "CVE-2026-89425",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "UTF8DataInputJsonParser._reportInvalidToken() in FasterXML jackson-core builds the offending-token text for its error message by appending Java identifier characters to a StringBuilder in a loop that has no upper bound. ",
-      "published": "2026-09-23T03:17:04.357"
-    },
-    {
-      "id": "CVE-2026-96272",
+      "id": "CVE-2026-80513",
       "severity": "HIGH",
       "score": 7.5,
-      "description": "ClipBucket v5 before 5.5.3-#182 contains a blind SQL injection vulnerability in the photo search endpoint where the query parameter is passed unsanitized into SQL WHERE and ORDER BY clauses. Unauthenticated attackers can",
-      "published": "2026-09-23T01:16:32.633"
+      "description": "The wpForo Forum WordPress plugin before 3.1.6 does not restrict which classes may be instantiated when it deserializes a user-supplied profile field value, allowing authenticated users with Subscriber-level access and a",
+      "published": "2026-09-24T06:17:01.430"
     },
     {
-      "id": "CVE-2026-95927",
+      "id": "CVE-2026-14780",
+      "severity": "HIGH",
+      "score": 7.5,
+      "description": "A vulnerability exists in the PaperCut NG/MF platform's device-scripting functionality due to insufficient sanitization and access restrictions within the embedded execution engine. An authenticated user with administrat",
+      "published": "2026-09-24T06:17:00.567"
+    },
+    {
+      "id": "CVE-2026-96898",
       "severity": "HIGH",
       "score": 7.3,
-      "description": "A vulnerability was identified in SourceCodester Online Reviewer Management System 1.0. This affects an unknown function of the file /reviewer_0/admins/assessments/pretest/exam-delete.php. Such manipulation of the argume",
-      "published": "2026-09-23T02:16:55.537"
+      "description": "A vulnerability was detected in yhx070424 ShopXO up to 2.2.7. Affected by this vulnerability is an unknown functionality of the file config/ueditor.php of the component Ueditor Upload Interface. The manipulation of the a",
+      "published": "2026-09-24T04:18:05.833"
     },
     {
-      "id": "CVE-2026-95926",
+      "id": "CVE-2026-96803",
       "severity": "HIGH",
       "score": 7.3,
-      "description": "A vulnerability was determined in SourceCodester Online Reviewer Management System 1.0. The impacted element is an unknown function of the file /reviewer_0/admins/assessments/pretest/btn_functions.php?action=update. This",
-      "published": "2026-09-23T02:16:54.527"
+      "description": "A vulnerability was identified in java110 MicroCommunity up to 2.0. Affected is the function QueryServiceSMOImpl.fallBack of the file BusinessApi.java of the component fallBack API Endpoint. Such manipulation of the argu",
+      "published": "2026-09-24T02:16:53.770"
     }
   ],
   "breaches": [
