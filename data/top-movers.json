@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T09:00:23Z",
+  "updated_at": "2026-10-04T09:15:23Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.012885,
-        "change_24h": 17.72,
+        "price": 0.012719,
+        "change_24h": 16.89,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.864611,
-        "change_24h": 8.94,
+        "price": 0.863014,
+        "change_24h": 8.56,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 2.02,
+        "change_24h": 7.39,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.76,
-        "change_24h": 8.0,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 2.0,
-        "change_24h": 7.29,
+        "change_24h": 7.21,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.095816,
-        "change_24h": 7.29,
+        "price": 0.095176,
+        "change_24h": 5.82,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "NIGHT",
-        "name": "Midnight",
-        "price": 0.048973,
-        "change_24h": -2.93,
-        "asset": "crypto"
-      },
-      {
         "symbol": "UNI",
         "name": "Uniswap",
         "price": 9.03,
-        "change_24h": -2.41,
+        "change_24h": -2.61,
         "asset": "crypto"
       },
       {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 259.81,
-        "change_24h": -1.47,
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price": 0.048898,
+        "change_24h": -2.28,
         "asset": "crypto"
       },
       {
         "symbol": "PI",
         "name": "Pi Network",
-        "price": 0.087986,
-        "change_24h": -1.02,
+        "price": 0.087809,
+        "change_24h": -1.16,
         "asset": "crypto"
       },
       {
         "symbol": "LEO",
         "name": "LEO Token",
         "price": 8.94,
-        "change_24h": -0.43,
+        "change_24h": -0.39,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "MNT",
+        "name": "Mantle",
+        "price": 0.649185,
+        "change_24h": -0.15,
         "asset": "crypto"
       }
     ]
