@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T00:15:23Z",
+  "updated_at": "2026-10-04T00:30:23Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.006269,
+        "change_24h": 14.71,
+        "asset": "crypto"
+      },
+      {
         "symbol": "ZRO",
         "name": "LayerZero",
         "price": 1.99,
-        "change_24h": 12.97,
+        "change_24h": 12.8,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.01139,
-        "change_24h": 10.48,
+        "price": 0.011477,
+        "change_24h": 11.18,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.75,
-        "change_24h": 7.42,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.034778,
-        "change_24h": 6.94,
+        "price": 2.78,
+        "change_24h": 7.98,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.844186,
-        "change_24h": 6.43,
+        "price": 0.842548,
+        "change_24h": 6.0,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price": 0.048146,
+        "change_24h": -2.35,
+        "asset": "crypto"
+      },
+      {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.034,
-        "change_24h": -1.99,
+        "change_24h": -1.76,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.642588,
-        "change_24h": -1.51,
+        "price": 0.643477,
+        "change_24h": -1.36,
         "asset": "crypto"
       },
       {
         "symbol": "ASTER",
         "name": "Aster",
-        "price": 0.714976,
-        "change_24h": -1.01,
+        "price": 0.71526,
+        "change_24h": -1.2,
         "asset": "crypto"
       },
       {
         "symbol": "HBAR",
         "name": "Hedera",
-        "price": 0.10161,
-        "change_24h": -0.99,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RENDER",
-        "name": "Render",
-        "price": 1.98,
-        "change_24h": -0.83,
+        "price": 0.101596,
+        "change_24h": -1.06,
         "asset": "crypto"
       }
     ]
