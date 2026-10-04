@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T18:30:24Z",
+  "updated_at": "2026-10-04T18:45:24Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.094722,
-        "change_24h": 8.16,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.006555,
-        "change_24h": 7.79,
+        "price": 0.09503,
+        "change_24h": 8.49,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.0,
-        "change_24h": 7.48,
+        "price": 5.04,
+        "change_24h": 7.38,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.8626,
-        "change_24h": 6.2,
+        "price": 0.861528,
+        "change_24h": 5.6,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.128627,
-        "change_24h": 5.85,
+        "price": 0.127918,
+        "change_24h": 5.37,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SUI",
+        "name": "Sui",
+        "price": 1.23,
+        "change_24h": 5.14,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.25,
+        "change_24h": -14.78,
+        "asset": "crypto"
+      },
+      {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.04784,
-        "change_24h": -4.43,
+        "price": 0.047736,
+        "change_24h": -4.51,
         "asset": "crypto"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
         "price": 1.97,
-        "change_24h": -4.4,
+        "change_24h": -4.43,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 7.42,
-        "change_24h": -2.59,
+        "price": 7.43,
+        "change_24h": -2.69,
         "asset": "crypto"
       },
       {
         "symbol": "PI",
         "name": "Pi Network",
-        "price": 0.086682,
+        "price": 0.086739,
         "change_24h": -2.11,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.582162,
-        "change_24h": -1.99,
         "asset": "crypto"
       }
     ]
