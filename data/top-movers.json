@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T02:30:24Z",
+  "updated_at": "2026-10-04T02:45:23Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.013135,
-        "change_24h": 32.4,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 2.04,
-        "change_24h": 13.92,
+        "price": 0.013206,
+        "change_24h": 33.45,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.006248,
-        "change_24h": 11.68,
+        "price": 0.006266,
+        "change_24h": 12.36,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.78,
-        "change_24h": 7.6,
+        "change_24h": 8.08,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 273.63,
-        "change_24h": 6.77,
+        "price": 272.25,
+        "change_24h": 6.04,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.126576,
+        "change_24h": 5.63,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "INJ",
-        "name": "Injective",
-        "price": 7.56,
-        "change_24h": -2.51,
-        "asset": "crypto"
-      },
-      {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.049064,
-        "change_24h": -2.35,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.243897,
-        "change_24h": -1.61,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 3.31,
-        "change_24h": -1.61,
+        "price": 0.048629,
+        "change_24h": -2.68,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.641688,
-        "change_24h": -1.6,
+        "price": 0.640623,
+        "change_24h": -1.77,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 7.56,
+        "change_24h": -1.74,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1305.74,
+        "change_24h": -1.44,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price": 0.244024,
+        "change_24h": -1.42,
         "asset": "crypto"
       }
     ]
