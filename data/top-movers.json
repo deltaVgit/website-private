@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T21:30:24Z",
+  "updated_at": "2026-10-04T21:45:24Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,22 +82,29 @@
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.097635,
-        "change_24h": 9.12,
+        "price": 0.09737,
+        "change_24h": 8.57,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 29.52,
+        "change_24h": 4.93,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.128107,
-        "change_24h": 4.89,
+        "price": 0.128257,
+        "change_24h": 4.73,
         "asset": "crypto"
       },
       {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.866945,
-        "change_24h": 4.75,
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price": 0.096879,
+        "change_24h": 4.35,
         "asset": "crypto"
       },
       {
@@ -106,49 +113,42 @@
         "price": 1.07,
         "change_24h": 4.32,
         "asset": "crypto"
-      },
-      {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price": 0.096844,
-        "change_24h": 4.31,
-        "asset": "crypto"
       }
     ],
     "losers": [
       {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.044748,
-        "change_24h": -8.18,
+        "price": 0.044738,
+        "change_24h": -7.92,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 250.41,
-        "change_24h": -6.48,
+        "price": 250.68,
+        "change_24h": -5.28,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.579938,
-        "change_24h": -2.88,
+        "price": 0.578325,
+        "change_24h": -3.06,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.71,
-        "change_24h": -2.03,
+        "change_24h": -2.29,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 546.77,
-        "change_24h": -1.86,
+        "price": 548.45,
+        "change_24h": -1.94,
         "asset": "crypto"
       }
     ]
