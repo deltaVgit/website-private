@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T01:15:23Z",
+  "updated_at": "2026-10-04T01:30:24Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,72 +82,72 @@
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.01202,
-        "change_24h": 17.3,
+        "price": 0.012216,
+        "change_24h": 18.73,
         "asset": "crypto"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "price": 2.0,
-        "change_24h": 13.25,
+        "price": 2.02,
+        "change_24h": 14.5,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.006267,
-        "change_24h": 11.0,
+        "price": 0.006254,
+        "change_24h": 9.58,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.77,
-        "change_24h": 7.51,
+        "change_24h": 8.22,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 266.82,
-        "change_24h": 6.96,
+        "price": 268.48,
+        "change_24h": 8.1,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "MNT",
+        "name": "Mantle",
+        "price": 0.639219,
+        "change_24h": -2.03,
+        "asset": "crypto"
+      },
+      {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.048448,
-        "change_24h": -4.95,
+        "price": 0.048877,
+        "change_24h": -1.75,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.033,
-        "change_24h": -2.86,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MNT",
-        "name": "Mantle",
-        "price": 0.642803,
-        "change_24h": -1.56,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RENDER",
-        "name": "Render",
-        "price": 1.96,
-        "change_24h": -1.52,
+        "change_24h": -1.63,
         "asset": "crypto"
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.243961,
+        "price": 0.243518,
+        "change_24h": -1.49,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 58.86,
         "change_24h": -1.24,
         "asset": "crypto"
       }
