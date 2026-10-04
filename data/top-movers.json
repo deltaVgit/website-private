@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T12:30:23Z",
+  "updated_at": "2026-10-04T12:45:24Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.00626,
-        "change_24h": 8.18,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.03471,
-        "change_24h": 7.98,
-        "asset": "crypto"
-      },
-      {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.011324,
-        "change_24h": 7.63,
+        "price": 0.011588,
+        "change_24h": 10.47,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.006255,
+        "change_24h": 7.89,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.844747,
-        "change_24h": 6.23,
+        "price": 0.85336,
+        "change_24h": 7.41,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.034668,
+        "change_24h": 6.63,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.735763,
-        "change_24h": 5.72,
+        "price": 0.738545,
+        "change_24h": 6.4,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.579733,
-        "change_24h": -3.82,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 1.98,
-        "change_24h": -2.05,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 9.01,
-        "change_24h": -1.67,
+        "price": 0.581364,
+        "change_24h": -3.32,
         "asset": "crypto"
       },
       {
         "symbol": "PI",
         "name": "Pi Network",
-        "price": 0.087439,
-        "change_24h": -1.54,
+        "price": 0.08736,
+        "change_24h": -1.55,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.041912,
+        "change_24h": -1.15,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
         "price": 1.94,
-        "change_24h": -1.3,
+        "change_24h": -0.95,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price": 10.99,
+        "change_24h": -0.83,
         "asset": "crypto"
       }
     ]
