@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T10:15:24Z",
+  "updated_at": "2026-10-04T10:30:23Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.006377,
-        "change_24h": 14.96,
+        "price": 0.006331,
+        "change_24h": 14.53,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.011964,
-        "change_24h": 12.42,
+        "price": 0.011991,
+        "change_24h": 12.75,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.870962,
-        "change_24h": 9.85,
+        "price": 0.865318,
+        "change_24h": 8.7,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.77,
-        "change_24h": 6.4,
+        "price": 2.76,
+        "change_24h": 6.48,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.094499,
-        "change_24h": 6.31,
+        "price": 0.094131,
+        "change_24h": 6.04,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.581761,
+        "change_24h": -2.91,
+        "asset": "crypto"
+      },
+      {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 9.05,
-        "change_24h": -2.79,
+        "price": 9.06,
+        "change_24h": -2.43,
         "asset": "crypto"
       },
       {
         "symbol": "PI",
         "name": "Pi Network",
-        "price": 0.087659,
-        "change_24h": -1.52,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.582991,
-        "change_24h": -0.98,
+        "price": 0.087633,
+        "change_24h": -1.55,
         "asset": "crypto"
       },
       {
         "symbol": "APT",
         "name": "Aptos",
-        "price": 0.793531,
-        "change_24h": -0.88,
+        "price": 0.792101,
+        "change_24h": -1.26,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.023,
-        "change_24h": -0.7,
+        "price": 1.026,
+        "change_24h": -0.57,
         "asset": "crypto"
       }
     ]
