@@ -1,27 +1,27 @@
 {
-  "updated_at": "2026-10-05T13:15:23Z",
+  "updated_at": "2026-10-05T13:30:23Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "price": 105.93,
-        "change_24h": 14.99,
+        "price": 106.2,
+        "change_24h": 0.25,
         "asset": "equity"
       },
       {
         "symbol": "IMOS",
         "name": "ChipMOS TECHNOLOGIES INC.",
-        "price": 83.3,
-        "change_24h": 14.61,
+        "price": 80.27,
+        "change_24h": -3.64,
         "asset": "equity"
       },
       {
         "symbol": "SYNA",
         "name": "Synaptics Incorporated",
-        "price": 121.1,
-        "change_24h": 14.08,
+        "price": 121.0,
+        "change_24h": -0.08,
         "asset": "equity"
       },
       {
@@ -34,8 +34,8 @@
       {
         "symbol": "VSH",
         "name": "Vishay Intertechnology, Inc.",
-        "price": 38.18,
-        "change_24h": 11.41,
+        "price": 37.86,
+        "change_24h": -0.86,
         "asset": "equity"
       }
     ],
@@ -43,29 +43,29 @@
       {
         "symbol": "MAAS",
         "name": "Maase Inc.",
-        "price": 13.7,
-        "change_24h": -13.35,
+        "price": 13.66,
+        "change_24h": -0.29,
         "asset": "equity"
       },
       {
         "symbol": "WDC",
         "name": "Western Digital Corporation",
-        "price": 415.29,
-        "change_24h": -10.22,
+        "price": 431.29,
+        "change_24h": 3.85,
         "asset": "equity"
       },
       {
         "symbol": "STX",
         "name": "Seagate Technology Holdings PLC",
-        "price": 848.99,
-        "change_24h": -10.21,
+        "price": 879.0,
+        "change_24h": 3.53,
         "asset": "equity"
       },
       {
         "symbol": "UCTT",
         "name": "Ultra Clean Holdings, Inc.",
-        "price": 72.69,
-        "change_24h": -7.57,
+        "price": 72.0,
+        "change_24h": -0.96,
         "asset": "equity"
       },
       {
@@ -82,36 +82,36 @@
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.274347,
-        "change_24h": 11.96,
+        "price": 0.275592,
+        "change_24h": 12.25,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.100547,
-        "change_24h": 9.23,
+        "price": 0.099307,
+        "change_24h": 7.79,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.89,
-        "change_24h": 7.69,
+        "price": 3.87,
+        "change_24h": 7.23,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.253658,
-        "change_24h": 7.03,
+        "price": 0.251807,
+        "change_24h": 6.35,
         "asset": "crypto"
       },
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 29.46,
-        "change_24h": 5.69,
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price": 5e-06,
+        "change_24h": 5.8,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.031528,
-        "change_24h": -8.81,
+        "price": 0.031507,
+        "change_24h": -9.05,
         "asset": "crypto"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "price": 1.95,
-        "change_24h": -3.22,
+        "price": 1.97,
+        "change_24h": -3.02,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.011869,
+        "change_24h": -2.65,
         "asset": "crypto"
       },
       {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.048458,
-        "change_24h": -2.39,
+        "price": 0.048214,
+        "change_24h": -2.48,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.569549,
-        "change_24h": -2.05,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "price": 2.68,
-        "change_24h": -1.75,
+        "price": 0.567343,
+        "change_24h": -2.24,
         "asset": "crypto"
       }
     ]
