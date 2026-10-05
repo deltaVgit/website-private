@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-10-05T14:00:24Z",
+  "updated_at": "2026-10-05T14:15:23Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "XP",
-        "name": "XP Inc.",
-        "price": 27.95,
-        "change_24h": 30.01,
+        "symbol": "PTC",
+        "name": "PTC Inc.",
+        "price": 194.05,
+        "change_24h": 34.73,
         "asset": "equity"
       },
       {
-        "symbol": "RXO",
-        "name": "RXO, Inc.",
-        "price": 28.93,
-        "change_24h": 23.74,
+        "symbol": "XP",
+        "name": "XP Inc.",
+        "price": 28.82,
+        "change_24h": 34.07,
         "asset": "equity"
       },
       {
         "symbol": "STNE",
         "name": "StoneCo Ltd.",
-        "price": 11.85,
-        "change_24h": 24.08,
-        "asset": "equity"
-      },
-      {
-        "symbol": "PAGS",
-        "name": "PagSeguro Digital Ltd.",
-        "price": 11.01,
-        "change_24h": 22.06,
+        "price": 11.94,
+        "change_24h": 24.97,
         "asset": "equity"
       },
       {
         "symbol": "INTR",
         "name": "Inter & Co. Inc.",
-        "price": 6.62,
-        "change_24h": 20.8,
+        "price": 6.8,
+        "change_24h": 24.09,
+        "asset": "equity"
+      },
+      {
+        "symbol": "PAGS",
+        "name": "PagSeguro Digital Ltd.",
+        "price": 11.13,
+        "change_24h": 23.43,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "SPHR",
-        "name": "Sphere Entertainment Co.",
-        "price": 113.66,
-        "change_24h": -11.38,
-        "asset": "equity"
-      },
-      {
         "symbol": "CHRW",
         "name": "C.H. Robinson Worldwide, Inc.",
-        "price": 141.53,
-        "change_24h": -10.26,
+        "price": 138.36,
+        "change_24h": -12.27,
         "asset": "equity"
       },
       {
         "symbol": "UMC",
         "name": "United Microelectronics Corpora",
-        "price": 23.69,
-        "change_24h": -9.82,
+        "price": 23.44,
+        "change_24h": -10.77,
         "asset": "equity"
       },
       {
-        "symbol": "LQDA",
-        "name": "Liquidia Corporation",
-        "price": 26.32,
-        "change_24h": -8.1,
+        "symbol": "SPHR",
+        "name": "Sphere Entertainment Co.",
+        "price": 113.86,
+        "change_24h": -11.22,
+        "asset": "equity"
+      },
+      {
+        "symbol": "INSM",
+        "name": "Insmed Incorporated",
+        "price": 102.55,
+        "change_24h": -7.71,
         "asset": "equity"
       },
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "price": 13.34,
-        "change_24h": -7.68,
+        "price": 13.36,
+        "change_24h": -7.58,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.274363,
-        "change_24h": 12.03,
+        "price": 0.274978,
+        "change_24h": 12.5,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.86,
-        "change_24h": 8.15,
+        "price": 3.88,
+        "change_24h": 8.85,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.251565,
-        "change_24h": 6.52,
+        "price": 0.252191,
+        "change_24h": 6.96,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 5e-06,
-        "change_24h": 6.02,
+        "change_24h": 5.9,
         "asset": "crypto"
       },
       {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.097868,
-        "change_24h": 5.42,
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 29.39,
+        "change_24h": 5.89,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.031268,
-        "change_24h": -9.33,
+        "price": 0.031348,
+        "change_24h": -8.15,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.011801,
-        "change_24h": -4.41,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NIGHT",
-        "name": "Midnight",
-        "price": 0.048357,
-        "change_24h": -2.27,
+        "price": 0.01181,
+        "change_24h": -2.99,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.137246,
-        "change_24h": -1.79,
+        "price": 0.136475,
+        "change_24h": -2.39,
         "asset": "crypto"
       },
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.568959,
-        "change_24h": -1.6,
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price": 0.048151,
+        "change_24h": -1.92,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.18,
+        "change_24h": -1.89,
         "asset": "crypto"
       }
     ]
