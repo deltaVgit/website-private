@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T01:45:24Z",
+  "updated_at": "2026-10-05T02:00:24Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.263625,
-        "change_24h": 8.0,
+        "price": 0.264031,
+        "change_24h": 8.34,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 29.66,
-        "change_24h": 6.17,
+        "price": 29.67,
+        "change_24h": 6.07,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SUI",
+        "name": "Sui",
+        "price": 1.23,
+        "change_24h": 4.81,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.096324,
-        "change_24h": 5.33,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CRO",
-        "name": "Cronos",
-        "price": 0.069204,
-        "change_24h": 5.05,
+        "price": 0.095732,
+        "change_24h": 4.62,
         "asset": "crypto"
       },
       {
         "symbol": "SHIB",
         "name": "Shiba Inu",
         "price": 6e-06,
-        "change_24h": 4.68,
+        "change_24h": 4.59,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.011427,
+        "change_24h": -10.52,
+        "asset": "crypto"
+      },
+      {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.044658,
-        "change_24h": -9.94,
+        "price": 0.044568,
+        "change_24h": -9.77,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 251.34,
-        "change_24h": -7.95,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.011439,
-        "change_24h": -7.64,
+        "price": 251.79,
+        "change_24h": -8.75,
         "asset": "crypto"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "price": 1.93,
-        "change_24h": -5.3,
+        "price": 1.92,
+        "change_24h": -5.42,
         "asset": "crypto"
       },
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.033599,
-        "change_24h": -3.06,
+        "price": 0.033553,
+        "change_24h": -3.74,
         "asset": "crypto"
       }
     ]
