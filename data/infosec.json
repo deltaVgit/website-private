@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T13:35:09Z",
+  "updatedAt": "2026-10-05T20:04:44Z",
   "kev": [
     {
       "cve": "CVE-2026-88779",
@@ -128,7 +128,92 @@
       "knownRansomware": "Unknown"
     }
   ],
-  "cves": [],
+  "cves": [
+    {
+      "id": "CVE-2026-14281",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "The Automation Web Platform – Notifications and OTP for WooCommerce, Advanced Country Code plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 4.8.6. This is due to missing pe",
+      "published": "2026-09-25T07:16:53.540"
+    },
+    {
+      "id": "CVE-2026-89055",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "description": "The Customer Reviews for WooCommerce plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 5.120.0. This is due to the plugin not properly verifying that a user is authorized to",
+      "published": "2026-09-25T07:16:55.140"
+    },
+    {
+      "id": "CVE-2026-92289",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "description": "Lemonldap::NG::Portal versions from 2.23.0 before 2.23.4 for Perl allow a PKCE bypass for public Relying Parties in \"PKCE or secret\" mode because checkEndPointAuthenticationCredentials does not verify the client secret. ",
+      "published": "2026-09-25T01:16:48.943"
+    },
+    {
+      "id": "CVE-2026-92288",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "description": "Lemonldap::NG::Portal versions from 2.20.0 before 2.21.6, from 2.22.0 before 2.23.4 for Perl allow unauthenticated OAuth2 token introspection because checkEndPointAuthenticationCredentials does not verify the client secr",
+      "published": "2026-09-25T01:16:48.820"
+    },
+    {
+      "id": "CVE-2026-62062",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "Cross-Site Request Forgery (CSRF) vulnerability in Elementor Website Builder allows Cross Site Request Forgery. This issue affects Elementor Website Builder: from n/a through 4.3.1.",
+      "published": "2026-09-25T07:16:54.010"
+    },
+    {
+      "id": "CVE-2026-97818",
+      "severity": "HIGH",
+      "score": 8.6,
+      "description": "phpIPAM through 1.8.3 has incorrect authorization for id==\"admins\" and id==\"all\" in api/controllers/User.php.",
+      "published": "2026-09-25T05:17:08.120"
+    },
+    {
+      "id": "CVE-2026-97730",
+      "severity": "HIGH",
+      "score": 8.5,
+      "description": "In Netgate pfSense Plus before 26.07 and pfSense CE before 2.9.0, a Local File Inclusion (LFI) vulnerability in the Dashboard (index.php) widget sequence data handling allows an authenticated attacker to execute arbitrar",
+      "published": "2026-09-25T03:16:59.533"
+    },
+    {
+      "id": "CVE-2026-85082",
+      "severity": "HIGH",
+      "score": 8.5,
+      "description": "Root Browser Classic 3.3.0 passes the path of a selected SQLite database to an operating-system shell without safely separating the filename from the command.",
+      "published": "2026-09-25T00:16:57.720"
+    },
+    {
+      "id": "CVE-2026-97735",
+      "severity": "HIGH",
+      "score": 8.0,
+      "description": "ITFlow before 26.08 allows SVG attachments in the ticket email parser (cron/ticket_email_parser.php) for email messages that may arrive over SMTP from arbitrary senders.",
+      "published": "2026-09-25T04:17:50.763"
+    },
+    {
+      "id": "CVE-2026-97737",
+      "severity": "HIGH",
+      "score": 7.4,
+      "description": "In Wakapi before 2.17.6, the user caching service allows a lookup to be resolved in an unintended lookup context, leading to account takeover.",
+      "published": "2026-09-25T05:17:07.760"
+    },
+    {
+      "id": "CVE-2026-97646",
+      "severity": "HIGH",
+      "score": 7.3,
+      "description": "A weakness has been identified in ningzichun student-management-system up to 98760f5711cf6dc8b4adca53a9e207ca49b02ebf. This affects an unknown function of the file admin/fun/getStudent.php. This manipulation of the argum",
+      "published": "2026-09-25T01:16:49.063"
+    },
+    {
+      "id": "CVE-2026-93303",
+      "severity": "HIGH",
+      "score": 7.2,
+      "description": "The HT Contact Form – Drag & Drop Form Builder for WordPress plugin for WordPress is vulnerable to Stored DOM-Based Cross-Site Scripting via 'form_data' Rich Text Field via Draft Save/Resume in all versions up to, and in",
+      "published": "2026-09-25T07:16:55.890"
+    }
+  ],
   "breaches": [
     {
       "name": "Medela",
