@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-10-04T18:04:45Z",
+  "updatedAt": "2026-10-05T00:34:48Z",
   "kev": [
+    {
+      "cve": "CVE-2026-88779",
+      "product": "NetScaler",
+      "vendor": "Citrix",
+      "name": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+      "dateAdded": "2026-10-04",
+      "dueDate": "2026-10-07",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2026-102490",
       "product": "Zammad",
@@ -117,101 +126,92 @@
       "dateAdded": "2026-09-22",
       "dueDate": "2026-09-25",
       "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-94127",
-      "product": "BIG-IP APM",
-      "vendor": "F5",
-      "name": "F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability",
-      "dateAdded": "2026-09-22",
-      "dueDate": "2026-09-25",
-      "knownRansomware": "Unknown"
     }
   ],
   "cves": [
     {
-      "id": "CVE-2026-93577",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "description": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 that under certain conditions could have allowed an authenticated user to execute ",
-      "published": "2026-09-24T00:17:22.850"
-    },
-    {
-      "id": "CVE-2026-96891",
+      "id": "CVE-2026-14281",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "A vulnerability was identified in D-Link DIR-825 3.00b32. Affected is the function tunnel_set_params of the file tunnel.c of the component rp-l2tp. The manipulation of the argument peer_hostname leads to out-of-bounds wr",
-      "published": "2026-09-24T03:16:58.950"
+      "description": "The Automation Web Platform – Notifications and OTP for WooCommerce, Advanced Country Code plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 4.8.6. This is due to missing pe",
+      "published": "2026-09-25T07:16:53.540"
     },
     {
-      "id": "CVE-2026-18467",
+      "id": "CVE-2026-89055",
       "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The Paytium: Mollie payment forms & donations plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 5.0.3. The 5.0.3 patch introduced a wp_hash()/hash_equals() signature gate on",
-      "published": "2026-09-24T02:16:52.943"
+      "score": 9.1,
+      "description": "The Customer Reviews for WooCommerce plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 5.120.0. This is due to the plugin not properly verifying that a user is authorized to",
+      "published": "2026-09-25T07:16:55.140"
     },
     {
-      "id": "CVE-2026-97152",
+      "id": "CVE-2026-92289",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "description": "Lemonldap::NG::Portal versions from 2.23.0 before 2.23.4 for Perl allow a PKCE bypass for public Relying Parties in \"PKCE or secret\" mode because checkEndPointAuthenticationCredentials does not verify the client secret. ",
+      "published": "2026-09-25T01:16:48.943"
+    },
+    {
+      "id": "CVE-2026-92288",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "description": "Lemonldap::NG::Portal versions from 2.20.0 before 2.21.6, from 2.22.0 before 2.23.4 for Perl allow unauthenticated OAuth2 token introspection because checkEndPointAuthenticationCredentials does not verify the client secr",
+      "published": "2026-09-25T01:16:48.820"
+    },
+    {
+      "id": "CVE-2026-62062",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "Cross-Site Request Forgery (CSRF) vulnerability in Elementor Website Builder allows Cross Site Request Forgery. This issue affects Elementor Website Builder: from n/a through 4.3.1.",
+      "published": "2026-09-25T07:16:54.010"
+    },
+    {
+      "id": "CVE-2026-97818",
       "severity": "HIGH",
       "score": 8.6,
-      "description": "Nanomsg versions 0.5-beta through 1.x before 1.2.3 has a remotely exploitable buffer overflow in the WebSocket transport, due to an unchecked copy of the Sec-WebSocket-Version header, through snprintf.",
-      "published": "2026-09-24T04:18:06.213"
+      "description": "phpIPAM through 1.8.3 has incorrect authorization for id==\"admins\" and id==\"all\" in api/controllers/User.php.",
+      "published": "2026-09-25T05:17:08.120"
     },
     {
-      "id": "CVE-2026-82370",
+      "id": "CVE-2026-97730",
       "severity": "HIGH",
-      "score": 8.6,
-      "description": "Unauthenticated remote command injection in the Brocade SANnav orchestrator HTTP service permits network-adjacent attackers to execute arbitrary administrative switch CLI commands and issue container management instructi",
-      "published": "2026-09-24T00:17:21.777"
+      "score": 8.5,
+      "description": "In Netgate pfSense Plus before 26.07 and pfSense CE before 2.9.0, a Local File Inclusion (LFI) vulnerability in the Dashboard (index.php) widget sequence data handling allows an authenticated attacker to execute arbitrar",
+      "published": "2026-09-25T03:16:59.533"
     },
     {
-      "id": "CVE-2026-97151",
+      "id": "CVE-2026-85082",
       "severity": "HIGH",
-      "score": 8.4,
-      "description": "mammoth (aka mammoth.js) before 1.12.2 is vulnerable to prototype pollution when reading the styles defined in a document. Converting a crafted .docx file allows an attacker to add arbitrary properties to Object.prototyp",
-      "published": "2026-09-24T04:18:06.027"
+      "score": 8.5,
+      "description": "Root Browser Classic 3.3.0 passes the path of a selected SQLite database to an operating-system shell without safely separating the filename from the command.",
+      "published": "2026-09-25T00:16:57.720"
     },
     {
-      "id": "CVE-2026-97055",
+      "id": "CVE-2026-97735",
       "severity": "HIGH",
-      "score": 8.1,
-      "description": "SigNoz from v0.8.0 before v0.143.0 defaults the JWT tokenizer signing secret (tokenizer::jwt::secret, set via SIGNOZ_TOKENIZER_JWT_SECRET or the deprecated SIGNOZ_JWT_SECRET) to an empty string, and Config.Validate() doe",
-      "published": "2026-09-24T02:16:54.333"
+      "score": 8.0,
+      "description": "ITFlow before 26.08 allows SVG attachments in the ticket email parser (cron/ticket_email_parser.php) for email messages that may arrive over SMTP from arbitrary senders.",
+      "published": "2026-09-25T04:17:50.763"
     },
     {
-      "id": "CVE-2026-92470",
+      "id": "CVE-2026-97737",
       "severity": "HIGH",
-      "score": 7.7,
-      "description": "GitLab has remediated an issue in GitLab EE affecting all versions from 18.7 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 that under certain conditions could have allowed an authenticated user to access sens",
-      "published": "2026-09-24T00:17:22.193"
+      "score": 7.4,
+      "description": "In Wakapi before 2.17.6, the user caching service allows a lookup to be resolved in an unintended lookup context, leading to account takeover.",
+      "published": "2026-09-25T05:17:07.760"
     },
     {
-      "id": "CVE-2026-80513",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "The wpForo Forum WordPress plugin before 3.1.6 does not restrict which classes may be instantiated when it deserializes a user-supplied profile field value, allowing authenticated users with Subscriber-level access and a",
-      "published": "2026-09-24T06:17:01.430"
-    },
-    {
-      "id": "CVE-2026-14780",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "A vulnerability exists in the PaperCut NG/MF platform's device-scripting functionality due to insufficient sanitization and access restrictions within the embedded execution engine. An authenticated user with administrat",
-      "published": "2026-09-24T06:17:00.567"
-    },
-    {
-      "id": "CVE-2026-96898",
+      "id": "CVE-2026-97646",
       "severity": "HIGH",
       "score": 7.3,
-      "description": "A vulnerability was detected in yhx070424 ShopXO up to 2.2.7. Affected by this vulnerability is an unknown functionality of the file config/ueditor.php of the component Ueditor Upload Interface. The manipulation of the a",
-      "published": "2026-09-24T04:18:05.833"
+      "description": "A weakness has been identified in ningzichun student-management-system up to 98760f5711cf6dc8b4adca53a9e207ca49b02ebf. This affects an unknown function of the file admin/fun/getStudent.php. This manipulation of the argum",
+      "published": "2026-09-25T01:16:49.063"
     },
     {
-      "id": "CVE-2026-96803",
+      "id": "CVE-2026-93303",
       "severity": "HIGH",
-      "score": 7.3,
-      "description": "A vulnerability was identified in java110 MicroCommunity up to 2.0. Affected is the function QueryServiceSMOImpl.fallBack of the file BusinessApi.java of the component fallBack API Endpoint. Such manipulation of the argu",
-      "published": "2026-09-24T02:16:53.770"
+      "score": 7.2,
+      "description": "The HT Contact Form – Drag & Drop Form Builder for WordPress plugin for WordPress is vulnerable to Stored DOM-Based Cross-Site Scripting via 'form_data' Rich Text Field via Draft Save/Resume in all versions up to, and in",
+      "published": "2026-09-25T07:16:55.890"
     }
   ],
   "breaches": [
