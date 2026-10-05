@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-05T14:45:23Z",
+  "updated_at": "2026-10-05T15:00:24Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "PTC",
         "name": "PTC Inc.",
-        "price": 193.5,
-        "change_24h": 34.35,
-        "asset": "equity"
-      },
-      {
-        "symbol": "PCVX",
-        "name": "Vaxcyte, Inc.",
-        "price": 74.02,
-        "change_24h": 31.07,
+        "price": 193.62,
+        "change_24h": 34.43,
         "asset": "equity"
       },
       {
         "symbol": "XP",
         "name": "XP Inc.",
-        "price": 28.3,
-        "change_24h": 31.65,
+        "price": 28.49,
+        "change_24h": 32.51,
         "asset": "equity"
       },
       {
         "symbol": "STNE",
         "name": "StoneCo Ltd.",
-        "price": 11.79,
-        "change_24h": 23.51,
+        "price": 11.89,
+        "change_24h": 24.55,
         "asset": "equity"
       },
       {
         "symbol": "INTR",
         "name": "Inter & Co. Inc.",
-        "price": 6.735,
-        "change_24h": 22.9,
+        "price": 6.765,
+        "change_24h": 23.45,
+        "asset": "equity"
+      },
+      {
+        "symbol": "PAGS",
+        "name": "PagSeguro Digital Ltd.",
+        "price": 11.06,
+        "change_24h": 22.62,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "CHRW",
         "name": "C.H. Robinson Worldwide, Inc.",
-        "price": 132.5,
-        "change_24h": -15.99,
-        "asset": "equity"
-      },
-      {
-        "symbol": "UMC",
-        "name": "United Microelectronics Corpora",
-        "price": 23.45,
-        "change_24h": -10.73,
+        "price": 136.18,
+        "change_24h": -13.66,
         "asset": "equity"
       },
       {
         "symbol": "SPHR",
         "name": "Sphere Entertainment Co.",
-        "price": 115.58,
-        "change_24h": -9.88,
+        "price": 114.43,
+        "change_24h": -10.79,
         "asset": "equity"
       },
       {
-        "symbol": "INSM",
-        "name": "Insmed Incorporated",
-        "price": 102.53,
-        "change_24h": -7.73,
+        "symbol": "UMC",
+        "name": "United Microelectronics Corpora",
+        "price": 23.43,
+        "change_24h": -10.79,
         "asset": "equity"
       },
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "price": 13.35,
-        "change_24h": -7.65,
+        "price": 13.31,
+        "change_24h": -7.89,
+        "asset": "equity"
+      },
+      {
+        "symbol": "MAAS",
+        "name": "Maase Inc.",
+        "price": 12.68,
+        "change_24h": -7.45,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.270328,
-        "change_24h": 10.11,
+        "price": 0.268302,
+        "change_24h": 9.2,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
         "price": 3.82,
-        "change_24h": 7.83,
+        "change_24h": 7.96,
         "asset": "crypto"
       },
       {
         "symbol": "OKB",
         "name": "OKB",
-        "price": 126.21,
-        "change_24h": 4.48,
+        "price": 126.46,
+        "change_24h": 4.5,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.246592,
-        "change_24h": 4.24,
+        "price": 0.247834,
+        "change_24h": 3.98,
         "asset": "crypto"
       },
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 28.87,
-        "change_24h": 4.22,
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 1.096,
+        "change_24h": 3.59,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.031256,
-        "change_24h": -9.22,
+        "price": 0.031475,
+        "change_24h": -9.37,
         "asset": "crypto"
       },
       {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.046814,
-        "change_24h": -4.31,
+        "price": 0.046792,
+        "change_24h": -4.55,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.562016,
-        "change_24h": -3.32,
+        "price": 0.562426,
+        "change_24h": -4.29,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.128584,
-        "change_24h": -3.26,
+        "price": 0.128649,
+        "change_24h": -3.74,
         "asset": "crypto"
       },
       {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.011695,
-        "change_24h": -3.01,
+        "symbol": "STX",
+        "name": "Stacks",
+        "price": 0.373873,
+        "change_24h": -3.22,
         "asset": "crypto"
       }
     ]
