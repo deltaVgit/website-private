@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T00:30:24Z",
+  "updated_at": "2026-10-05T00:45:24Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 29.98,
-        "change_24h": 6.56,
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price": 0.260976,
+        "change_24h": 6.91,
         "asset": "crypto"
       },
       {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.258505,
-        "change_24h": 5.88,
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 29.98,
+        "change_24h": 6.8,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.096893,
-        "change_24h": 5.66,
+        "price": 0.096612,
+        "change_24h": 5.86,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.750143,
-        "change_24h": 4.0,
+        "price": 0.753093,
+        "change_24h": 4.46,
         "asset": "crypto"
       },
       {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.129213,
-        "change_24h": 3.78,
+        "symbol": "MNT",
+        "name": "Mantle",
+        "price": 0.667725,
+        "change_24h": 3.83,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.044353,
-        "change_24h": -8.14,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.57604,
-        "change_24h": -3.09,
+        "price": 0.044504,
+        "change_24h": -8.01,
         "asset": "crypto"
       },
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.033538,
-        "change_24h": -2.94,
+        "price": 0.033743,
+        "change_24h": -2.7,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.011306,
+        "change_24h": -2.65,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.583298,
+        "change_24h": -2.39,
         "asset": "crypto"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "price": 1.93,
-        "change_24h": -2.56,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 251.15,
-        "change_24h": -2.45,
+        "price": 1.97,
+        "change_24h": -1.86,
         "asset": "crypto"
       }
     ]
