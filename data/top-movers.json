@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T11:00:23Z",
+  "updated_at": "2026-10-05T11:15:23Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.274364,
-        "change_24h": 11.88,
+        "price": 0.273228,
+        "change_24h": 11.44,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.012052,
+        "change_24h": 10.31,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.254551,
-        "change_24h": 7.29,
+        "price": 0.260199,
+        "change_24h": 8.97,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.88,
-        "change_24h": 6.33,
+        "price": 3.9,
+        "change_24h": 7.5,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 5e-06,
-        "change_24h": 5.61,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.767828,
-        "change_24h": 5.3,
+        "change_24h": 5.12,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.031471,
-        "change_24h": -8.23,
+        "price": 0.031412,
+        "change_24h": -10.29,
         "asset": "crypto"
       },
       {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.046718,
-        "change_24h": -6.54,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "price": 2.69,
-        "change_24h": -2.11,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.572206,
-        "change_24h": -1.87,
+        "price": 0.046789,
+        "change_24h": -4.61,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 253.98,
-        "change_24h": -1.71,
+        "price": 250.66,
+        "change_24h": -3.64,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.571378,
+        "change_24h": -2.17,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.68,
+        "change_24h": -2.12,
         "asset": "crypto"
       }
     ]
