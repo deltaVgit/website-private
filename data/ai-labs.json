@@ -1,6 +1,38 @@
 {
-  "updated": "2026-10-05T00:34:41Z",
+  "updated": "2026-10-05T07:04:40Z",
   "items": [
+    {
+      "title": "HakemBench: A Turkish Benchmark of Typed Decisions",
+      "url": "https://arxiv.org/abs/2610.02293",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2610.02293v1 Announce Type: new Abstract: HakemBench is a Turkish benchmark of typed decisions, in which the model under test reads a text, a question and a fixed set of options and returns a probability for every option. Version 1.0 is released fully open under CC BY 4.0, ",
+      "tag": "ai"
+    },
+    {
+      "title": "Finding the Move Is Not Winning the Game: XiangqiBench for Closed-Loop Evaluation of LLM Agents",
+      "url": "https://arxiv.org/abs/2610.02425",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2610.02425v1 Announce Type: new Abstract: Static evaluations credit a language model for naming the right move, but an agent must carry a plan through to a verified outcome while an opponent responds. We introduce XiangqiBench, an executable benchmark that measures this dif",
+      "tag": "ai"
+    },
+    {
+      "title": "Counterexample Generation via Per-Theorem Symbolic Verifiers: When Imitation Hurts and Reinforcement Repairs",
+      "url": "https://arxiv.org/abs/2610.02444",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2610.02444v1 Announce Type: new Abstract: Large language models often solve a theorem forward yet fail to disprove a closely related false one: a falsification gap that supervised fine-tuning does not close and can actively worsen. We frame counterexample generation as cons",
+      "tag": "ai"
+    },
+    {
+      "title": "On Social Reality in China",
+      "url": "https://www.lesswrong.com/posts/b5cSYh4emQb2qrGmK/on-social-reality-in-china",
+      "source": "LessWrong",
+      "published_at": "2026-10-05T02:56:58+00:00",
+      "summary": "[Epistemic status: intuitions and anecdotes.] Recently, several posts and projects ( Thoughts Memo , Babel Translation , Please Give Them a Chance ) have taken important steps towards raising AI safety awareness and sharing rationalist philosophy in China. It’s great that we’re r",
+      "tag": "ai"
+    },
     {
       "title": "We're going to need default hard budget caps on pretty much everything",
       "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
@@ -98,27 +130,11 @@
       "tag": "ai"
     },
     {
-      "title": "Gemini 4 Argon: our next era of frontier intelligence",
-      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "source": "Google DeepMind",
-      "published_at": "2026-09-30T20:01:45+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
       "title": "Frog and Toad and the Increasingly Capable Machines",
       "url": "https://www.lesswrong.com/posts/7NZ6ZWjenzzCbCJ5b/frog-and-toad-and-the-increasingly-capable-machines",
       "source": "LessWrong",
       "published_at": "2026-09-30T18:27:42+00:00",
       "summary": "Want to start a conversation about HuggingFace with your mom but she's inexplicably bouncing off the METR report? Try this explainer I wrote in the style of Arnold Lobel's Frog and Toad. Art by the wonderful HungerArtist If you're so inspired, liking and/or following on Substack ",
-      "tag": "ai"
-    },
-    {
-      "title": "Introducing SynthID Bio",
-      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
-      "source": "Google DeepMind",
-      "published_at": "2026-09-30T15:03:07+00:00",
-      "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
       "tag": "ai"
     },
     {
@@ -170,14 +186,6 @@
       "tag": "ai"
     },
     {
-      "title": "Introducing Gemini 3.8 Live with Live Avatar",
-      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-      "source": "Google DeepMind",
-      "published_at": "2026-09-24T16:20:39+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
       "title": "Bringing Private Processing to Meta AI Glasses",
       "url": "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses/",
       "source": "Meta Engineering",
@@ -194,27 +202,11 @@
       "tag": "ai"
     },
     {
-      "title": "Advancing Private AI Compute with secure, server-side memory",
-      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-      "source": "Google DeepMind",
-      "published_at": "2026-09-23T16:00:57+00:00",
-      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-      "tag": "ai"
-    },
-    {
       "title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
       "url": "https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and",
       "source": "Interconnects",
       "published_at": "2026-09-22T13:37:45+00:00",
       "summary": "Podcast #19",
-      "tag": "ai"
-    },
-    {
-      "title": "We've saved the world before: what the ozone hole teaches us about AI",
-      "url": "https://www.lesswrong.com/posts/zxXPEtSSSEdwpjopb/we-ve-saved-the-world-before-what-the-ozone-hole-teaches-us",
-      "source": "LessWrong",
-      "published_at": "2026-09-22T01:13:30+00:00",
-      "summary": "It might destroy the world, despite passing every known safety test. If we wait for a “warning shot” before we act, it might be too late. And action requires global coordination, because if anyone makes it, everyone dies. Sound familiar? It should, because it already happened hal",
       "tag": "ai"
     },
     {
