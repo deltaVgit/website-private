@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T10:00:30Z",
+  "updated_at": "2026-10-06T10:15:29Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 2.15,
+        "change_24h": 10.54,
+        "asset": "crypto"
+      },
+      {
         "symbol": "FIL",
         "name": "Filecoin",
         "price": 1.17,
-        "change_24h": 9.04,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 2.12,
-        "change_24h": 8.68,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NIGHT",
-        "name": "Midnight",
-        "price": 0.049927,
-        "change_24h": 7.21,
+        "change_24h": 8.16,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
-        "price": 2.14,
-        "change_24h": 6.63,
+        "price": 2.13,
+        "change_24h": 6.38,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price": 0.049918,
+        "change_24h": 6.37,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.25,
-        "change_24h": 4.92,
+        "price": 5.27,
+        "change_24h": 5.28,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.011416,
+        "change_24h": -6.0,
+        "asset": "crypto"
+      },
+      {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.087643,
-        "change_24h": -6.48,
+        "price": 0.088348,
+        "change_24h": -5.74,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 27.88,
-        "change_24h": -6.12,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.011414,
-        "change_24h": -6.06,
+        "price": 28.02,
+        "change_24h": -5.46,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.997444,
-        "change_24h": -4.62,
+        "price": 0.99378,
+        "change_24h": -5.33,
         "asset": "crypto"
       },
       {
-        "symbol": "PEPE",
-        "name": "Pepe",
-        "price": 4e-06,
-        "change_24h": -4.33,
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.733314,
+        "change_24h": -3.94,
         "asset": "crypto"
       }
     ]
