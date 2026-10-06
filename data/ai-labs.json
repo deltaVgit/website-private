@@ -1,6 +1,38 @@
 {
-  "updated": "2026-10-06T05:05:38Z",
+  "updated": "2026-10-06T16:35:30Z",
   "items": [
+    {
+      "title": "NTS: Authenticated Time at Meta",
+      "url": "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/",
+      "source": "Meta Engineering",
+      "published_at": "2026-10-06T16:00:06+00:00",
+      "summary": "Meta’s public time service now speaks NTS (Network Time Security, RFC 8915) at nts.meta.com. Packets are authenticated, so a device can verify the time came from us and was not modified on the way. Our NTS servers hold no per-client state. Cookie keys are derived, not stored and ",
+      "tag": "ai"
+    },
+    {
+      "title": "Scrimshaw Jukebox",
+      "url": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
+      "source": "Simon Willison",
+      "published_at": "2026-10-06T15:17:39+00:00",
+      "summary": "Tool: Scrimshaw Jukebox I wanted to see if Claude Opus 5.5 could compose music, so I tried this : I want you to write some computer game music for me. First design simple text based format for the music and build an artifact that can play it out loud - include some example tracks",
+      "tag": "ai"
+    },
+    {
+      "title": "The Cyber Risk Discourse is Broken",
+      "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
+      "source": "Interconnects",
+      "published_at": "2026-10-06T14:22:41+00:00",
+      "summary": "Open-weights, ideology, and acknowledging trade-offs.",
+      "tag": "ai"
+    },
+    {
+      "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "source": "Hugging Face Blog",
+      "published_at": "2026-10-06T06:44:39+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
     {
       "title": "Quoting Felix Rieseberg",
       "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
@@ -47,14 +79,6 @@
       "source": "Simon Willison",
       "published_at": "2026-10-04T23:34:00+00:00",
       "summary": "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in words\" across increasingly large numbers. Here's the chart he shared of those resu",
-      "tag": "ai"
-    },
-    {
-      "title": "We're going to need default hard budget caps on pretty much everything",
-      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-      "source": "Simon Willison",
-      "published_at": "2026-10-03T23:34:02+00:00",
-      "summary": "Here's a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps . I'm talking about the feature of pay-by-usage services and APIs that lets you say \"after $X/month, cut this thing off and return errors\". The",
       "tag": "ai"
     },
     {
@@ -135,14 +159,6 @@
       "source": "Google DeepMind",
       "published_at": "2026-09-30T15:03:07+00:00",
       "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-      "tag": "ai"
-    },
-    {
-      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
-      "url": "https://huggingface.co/blog/open-tts-leaderboard",
-      "source": "Hugging Face Blog",
-      "published_at": "2026-09-30T00:00:00+00:00",
-      "summary": "",
       "tag": "ai"
     },
     {
@@ -234,27 +250,11 @@
       "tag": "ai"
     },
     {
-      "title": "Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable",
-      "url": "https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable/",
-      "source": "Meta Engineering",
-      "published_at": "2026-09-21T12:00:00+00:00",
-      "summary": "Petal, the next step in Meta’s subsea innovation, will be the first subsea cable to deliver petabit capacity at transoceanic distances, connecting France and the United States over approximately 7,000 km (4,300 mi). Expected to enter service in 2029, it will be the first subsea c",
-      "tag": "ai"
-    },
-    {
       "title": "The current balance of power in open models",
       "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
       "source": "Interconnects",
       "published_at": "2026-09-21T11:56:56+00:00",
       "summary": "The expanded form of a testimony I prepared for Congress.",
-      "tag": "ai"
-    },
-    {
-      "title": "Why I still haven’t bought into true RSI",
-      "url": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
-      "source": "Interconnects",
-      "published_at": "2026-09-19T15:42:20+00:00",
-      "summary": "An “AI moderate’s” view on recent events and the trajectory of frontier models.",
       "tag": "ai"
     },
     {
