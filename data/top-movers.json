@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T21:15:29Z",
+  "updated_at": "2026-10-06T21:30:29Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "INJ",
-        "name": "Injective",
-        "price": 8.15,
-        "change_24h": 6.23,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "price": 2.25,
-        "change_24h": 5.82,
+        "price": 2.24,
+        "change_24h": 7.01,
         "asset": "crypto"
       },
       {
         "symbol": "OKB",
         "name": "OKB",
-        "price": 136.03,
-        "change_24h": 5.61,
+        "price": 136.73,
+        "change_24h": 6.15,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 8.1,
+        "change_24h": 6.01,
         "asset": "crypto"
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price": 11.43,
-        "change_24h": 4.26,
+        "price": 11.53,
+        "change_24h": 5.09,
         "asset": "crypto"
       },
       {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 262.35,
-        "change_24h": 3.52,
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price": 0.034058,
+        "change_24h": 3.94,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.59475,
-        "change_24h": -8.33,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.006141,
-        "change_24h": -8.02,
+        "price": 0.592664,
+        "change_24h": -8.8,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.76,
-        "change_24h": -7.87,
+        "price": 3.79,
+        "change_24h": -8.38,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.006198,
+        "change_24h": -6.17,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 8.62,
-        "change_24h": -5.84,
+        "price": 8.59,
+        "change_24h": -6.03,
         "asset": "crypto"
       },
       {
-        "symbol": "DASH",
-        "name": "Dash",
-        "price": 55.68,
-        "change_24h": -5.78,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.239431,
+        "change_24h": -5.55,
         "asset": "crypto"
       }
     ]
