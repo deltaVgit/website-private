@@ -5,8 +5,8 @@
         "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Uncensored-GGUF",
         "author": "JonathanColetti",
-        "likes": 1448,
-        "downloads": 2233366,
+        "likes": 1461,
+        "downloads": 2251779,
         "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "lastModified": "2026-08-29T04:18:18.000Z",
         "daysAgo": 38,
@@ -26,11 +26,11 @@
         "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "author": "0bserverx",
-        "likes": 622,
-        "downloads": 1330880,
+        "likes": 626,
+        "downloads": 1321639,
         "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
         "lastModified": "2026-09-20T13:42:25.000Z",
-        "daysAgo": 15,
+        "daysAgo": 16,
         "pipeline": "text-generation",
         "tags": [
           "transformers",
@@ -42,16 +42,16 @@
           "abliterated",
           "uncensored"
         ],
-        "pop": 0.9698,
-        "rec": 0.6667,
-        "combo": 0.8637
+        "pop": 0.9683,
+        "rec": 0.6522,
+        "combo": 0.8576
       },
       {
         "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "name": "Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 2207,
-        "downloads": 713324,
+        "likes": 2208,
+        "downloads": 710949,
         "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-06-05T17:55:41.000Z",
         "daysAgo": 122,
@@ -72,10 +72,10 @@
         "name": "Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
         "author": "huihui-ai",
         "likes": 216,
-        "downloads": 371269,
+        "downloads": 363003,
         "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
         "lastModified": "2026-08-03T14:05:07.000Z",
-        "daysAgo": 63,
+        "daysAgo": 64,
         "pipeline": "text-generation",
         "tags": [
           "gguf",
@@ -87,16 +87,16 @@
           "deepseek",
           "deepseek-v4"
         ],
-        "pop": 0.882,
-        "rec": 0.3226,
-        "combo": 0.6862
+        "pop": 0.8795,
+        "rec": 0.3191,
+        "combo": 0.6834
       },
       {
         "id": "orcarouter/GLM-5.3-Flash-Uncensored-FP8",
         "name": "GLM-5.3-Flash-Uncensored-FP8",
         "author": "orcarouter",
-        "likes": 276,
-        "downloads": 223941,
+        "likes": 277,
+        "downloads": 223259,
         "url": "https://huggingface.co/orcarouter/GLM-5.3-Flash-Uncensored-FP8",
         "lastModified": "2026-10-02T04:17:03.000Z",
         "daysAgo": 4,
@@ -118,11 +118,11 @@
         "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
         "name": "Qwen-Image-2.1-Uncensored-GGUF",
         "author": "abenzerps",
-        "likes": 3283,
-        "downloads": 1638838,
+        "likes": 3384,
+        "downloads": 1721760,
         "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
         "lastModified": "2026-09-28T05:56:36.000Z",
-        "daysAgo": 7,
+        "daysAgo": 8,
         "pipeline": "text-to-image",
         "tags": [
           "gguf",
@@ -139,11 +139,11 @@
         "id": "ChrisColeTech/LTX-2.3-uncensored-v1.4-FP8",
         "name": "LTX-2.3-uncensored-v1.4-FP8",
         "author": "ChrisColeTech",
-        "likes": 276,
-        "downloads": 66439,
+        "likes": 278,
+        "downloads": 65726,
         "url": "https://huggingface.co/ChrisColeTech/LTX-2.3-uncensored-v1.4-FP8",
         "lastModified": "2026-08-23T15:13:33.000Z",
-        "daysAgo": 43,
+        "daysAgo": 44,
         "pipeline": "text-to-video",
         "tags": [
           "gguf",
@@ -157,11 +157,32 @@
         ]
       },
       {
+        "id": "Noctaluna/Noct-Q-Uncensored-Qwen-Image-2.1",
+        "name": "Noct-Q-Uncensored-Qwen-Image-2.1",
+        "author": "Noctaluna",
+        "likes": 224,
+        "downloads": 49650,
+        "url": "https://huggingface.co/Noctaluna/Noct-Q-Uncensored-Qwen-Image-2.1",
+        "lastModified": "2026-09-30T15:08:43.000Z",
+        "daysAgo": 6,
+        "pipeline": "text-to-image",
+        "tags": [
+          "diffusion-single-file",
+          "text-to-image",
+          "qwen-image",
+          "comfyui",
+          "int8",
+          "photorealistic",
+          "uncensored",
+          "nsfw"
+        ]
+      },
+      {
         "id": "0xSojalSec/Qwen-Image-2.1-Uncensored-GGUF",
         "name": "Qwen-Image-2.1-Uncensored-GGUF",
         "author": "0xSojalSec",
         "likes": 71,
-        "downloads": 43255,
+        "downloads": 43784,
         "url": "https://huggingface.co/0xSojalSec/Qwen-Image-2.1-Uncensored-GGUF",
         "lastModified": "2026-09-20T20:04:32.000Z",
         "daysAgo": 15,
@@ -181,8 +202,8 @@
         "id": "KasugaiSakura/Qwen-Image-2.1-Uncensored-Abenzerps-GGUF",
         "name": "Qwen-Image-2.1-Uncensored-Abenzerps-GGUF",
         "author": "KasugaiSakura",
-        "likes": 184,
-        "downloads": 42079,
+        "likes": 189,
+        "downloads": 43296,
         "url": "https://huggingface.co/KasugaiSakura/Qwen-Image-2.1-Uncensored-Abenzerps-GGUF",
         "lastModified": "2026-09-29T20:01:31.000Z",
         "daysAgo": 6,
@@ -197,27 +218,6 @@
           "base_model:Qwen/Qwen-Image-2.1",
           "base_model:quantized:Qwen/Qwen-Image-2.1"
         ]
-      },
-      {
-        "id": "Noctaluna/Noct-Q-Uncensored-Qwen-Image-2.1",
-        "name": "Noct-Q-Uncensored-Qwen-Image-2.1",
-        "author": "Noctaluna",
-        "likes": 212,
-        "downloads": 37070,
-        "url": "https://huggingface.co/Noctaluna/Noct-Q-Uncensored-Qwen-Image-2.1",
-        "lastModified": "2026-09-30T15:08:43.000Z",
-        "daysAgo": 5,
-        "pipeline": "text-to-image",
-        "tags": [
-          "diffusion-single-file",
-          "text-to-image",
-          "qwen-image",
-          "comfyui",
-          "int8",
-          "photorealistic",
-          "uncensored",
-          "nsfw"
-        ]
       }
     ],
     "multimodal": [
@@ -225,11 +225,11 @@
         "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 1466,
-        "downloads": 2134360,
+        "likes": 1483,
+        "downloads": 2125779,
         "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "lastModified": "2026-09-25T06:02:14.000Z",
-        "daysAgo": 10,
+        "daysAgo": 11,
         "pipeline": "image-text-to-text",
         "tags": [
           "gguf",
@@ -243,11 +243,35 @@
         ]
       },
       {
+        "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+        "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
+        "author": "huihui-ai",
+        "likes": 1176,
+        "downloads": 2097263,
+        "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+        "lastModified": "2026-10-01T14:09:38.000Z",
+        "daysAgo": 5,
+        "pipeline": "image-text-to-text",
+        "tags": [
+          "transformers",
+          "gguf",
+          "abliterated",
+          "uncensored",
+          "huihui",
+          "qwen3",
+          "unsloth",
+          "ternary"
+        ],
+        "pop": 1.0,
+        "rec": 0.8571,
+        "combo": 0.95
+      },
+      {
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "author": "HauhauCS",
-        "likes": 1647,
-        "downloads": 2082917,
+        "likes": 1656,
+        "downloads": 2084738,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "lastModified": "2026-08-17T22:02:10.000Z",
         "daysAgo": 49,
@@ -264,35 +288,11 @@
         ]
       },
       {
-        "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
-        "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
-        "author": "huihui-ai",
-        "likes": 1162,
-        "downloads": 2063224,
-        "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
-        "lastModified": "2026-10-01T14:09:38.000Z",
-        "daysAgo": 4,
-        "pipeline": "image-text-to-text",
-        "tags": [
-          "transformers",
-          "gguf",
-          "abliterated",
-          "uncensored",
-          "huihui",
-          "qwen3",
-          "unsloth",
-          "ternary"
-        ],
-        "pop": 1.0,
-        "rec": 0.8824,
-        "combo": 0.9588
-      },
-      {
         "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "name": "Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "author": "DavidAU",
-        "likes": 947,
-        "downloads": 1956346,
+        "likes": 953,
+        "downloads": 1990598,
         "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
         "lastModified": "2026-10-02T02:41:44.000Z",
         "daysAgo": 4,
@@ -312,8 +312,8 @@
         "id": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "name": "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "author": "HauhauCS",
-        "likes": 1312,
-        "downloads": 1408841,
+        "likes": 1314,
+        "downloads": 1426182,
         "url": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
         "lastModified": "2026-04-06T03:50:35.000Z",
         "daysAgo": 183,
@@ -336,11 +336,11 @@
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
       "author": "huihui-ai",
-      "likes": 1162,
-      "downloads": 2063224,
+      "likes": 1176,
+      "downloads": 2097263,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "lastModified": "2026-10-01T14:09:38.000Z",
-      "daysAgo": 4,
+      "daysAgo": 5,
       "pipeline": "image-text-to-text",
       "tags": [
         "transformers",
@@ -353,18 +353,18 @@
         "ternary"
       ],
       "pop": 1.0,
-      "rec": 0.8824,
-      "combo": 0.9588
+      "rec": 0.8571,
+      "combo": 0.95
     },
     {
       "id": "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
       "name": "Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
       "author": "huihui-ai",
-      "likes": 143,
-      "downloads": 217533,
+      "likes": 146,
+      "downloads": 235237,
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
       "lastModified": "2026-10-05T07:42:59.000Z",
-      "daysAgo": 0,
+      "daysAgo": 1,
       "pipeline": "image-text-to-text",
       "tags": [
         "transformers",
@@ -376,19 +376,19 @@
         "unsloth",
         "llama.cpp"
       ],
-      "pop": 0.8453,
-      "rec": 1.0,
-      "combo": 0.8994
+      "pop": 0.8497,
+      "rec": 0.9677,
+      "combo": 0.891
     },
     {
       "id": "SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
       "name": "Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
       "author": "SC117",
-      "likes": 94,
-      "downloads": 291404,
+      "likes": 111,
+      "downloads": 369229,
       "url": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
       "lastModified": "2026-10-03T12:52:36.000Z",
-      "daysAgo": 2,
+      "daysAgo": 3,
       "pipeline": "image-text-to-text",
       "tags": [
         "gguf",
@@ -400,19 +400,19 @@
         "gsq",
         "rco"
       ],
-      "pop": 0.8654,
-      "rec": 0.9375,
+      "pop": 0.8807,
+      "rec": 0.9091,
       "combo": 0.8906
     },
     {
       "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "author": "0bserverx",
-      "likes": 622,
-      "downloads": 1330880,
+      "likes": 626,
+      "downloads": 1321639,
       "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "lastModified": "2026-09-20T13:42:25.000Z",
-      "daysAgo": 15,
+      "daysAgo": 16,
       "pipeline": "text-generation",
       "tags": [
         "transformers",
@@ -424,19 +424,19 @@
         "abliterated",
         "uncensored"
       ],
-      "pop": 0.9698,
-      "rec": 0.6667,
-      "combo": 0.8637
+      "pop": 0.9683,
+      "rec": 0.6522,
+      "combo": 0.8576
     },
     {
       "id": "jimmy31chen/RVN-Qwen3.8-Flash-Next-Abliterated-Uncensored-IQ3_S-Strata",
       "name": "RVN-Qwen3.8-Flash-Next-Abliterated-Uncensored-IQ3_S-Strata",
       "author": "jimmy31chen",
       "likes": 4,
-      "downloads": 128762,
+      "downloads": 140178,
       "url": "https://huggingface.co/jimmy31chen/RVN-Qwen3.8-Flash-Next-Abliterated-Uncensored-IQ3_S-Strata",
       "lastModified": "2026-10-01T05:31:55.000Z",
-      "daysAgo": 4,
+      "daysAgo": 5,
       "pipeline": "text-generation",
       "tags": [
         "gguf",
@@ -448,19 +448,19 @@
         "text-generation",
         "en"
       ],
-      "pop": 0.8092,
-      "rec": 0.8824,
-      "combo": 0.8348
+      "pop": 0.8141,
+      "rec": 0.8571,
+      "combo": 0.8292
     },
     {
       "id": "mradermacher/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
       "name": "Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
       "author": "mradermacher",
-      "likes": 3,
-      "downloads": 64136,
+      "likes": 4,
+      "downloads": 64495,
       "url": "https://huggingface.co/mradermacher/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
       "lastModified": "2026-10-03T12:02:54.000Z",
-      "daysAgo": 2,
+      "daysAgo": 3,
       "pipeline": "",
       "tags": [
         "transformers",
@@ -472,67 +472,19 @@
         "en",
         "base_model:huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated"
       ],
-      "pop": 0.7613,
-      "rec": 0.9375,
-      "combo": 0.823
-    },
-    {
-      "id": "IsValorum/Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
-      "name": "Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
-      "author": "IsValorum",
-      "likes": 31,
-      "downloads": 48932,
-      "url": "https://huggingface.co/IsValorum/Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
-      "lastModified": "2026-10-03T16:01:42.000Z",
-      "daysAgo": 2,
-      "pipeline": "text-generation",
-      "tags": [
-        "gguf",
-        "abliterated",
-        "uncensored",
-        "alignment",
-        "heretic",
-        "quantized",
-        "quantization",
-        "apex"
-      ],
-      "pop": 0.7427,
-      "rec": 0.9375,
-      "combo": 0.8109
-    },
-    {
-      "id": "SC117/Spark-X2.5-4B-abliterated-FIT-GGUF",
-      "name": "Spark-X2.5-4B-abliterated-FIT-GGUF",
-      "author": "SC117",
-      "likes": 30,
-      "downloads": 37419,
-      "url": "https://huggingface.co/SC117/Spark-X2.5-4B-abliterated-FIT-GGUF",
-      "lastModified": "2026-10-03T10:26:46.000Z",
-      "daysAgo": 2,
-      "pipeline": "text-generation",
-      "tags": [
-        "gguf",
-        "llama-cpp",
-        "quantization",
-        "sparkx2_5",
-        "fit-gguf",
-        "uncensored",
-        "abliterated",
-        "text-generation"
-      ],
-      "pop": 0.7242,
-      "rec": 0.9375,
-      "combo": 0.7989
+      "pop": 0.7608,
+      "rec": 0.9091,
+      "combo": 0.8127
     },
     {
       "id": "SC117/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
       "name": "Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
       "author": "SC117",
-      "likes": 31,
-      "downloads": 21441,
+      "likes": 35,
+      "downloads": 45260,
       "url": "https://huggingface.co/SC117/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
       "lastModified": "2026-10-04T11:26:01.000Z",
-      "daysAgo": 1,
+      "daysAgo": 2,
       "pipeline": "image-text-to-text",
       "tags": [
         "gguf",
@@ -544,40 +496,64 @@
         "gsq",
         "rco"
       ],
-      "pop": 0.6859,
-      "rec": 0.9677,
-      "combo": 0.7846
+      "pop": 0.7365,
+      "rec": 0.9375,
+      "combo": 0.8068
     },
     {
-      "id": "SC117/occamy-1.0-abliterated-FIT-GGUF",
-      "name": "occamy-1.0-abliterated-FIT-GGUF",
+      "id": "IsValorum/Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
+      "name": "Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
+      "author": "IsValorum",
+      "likes": 32,
+      "downloads": 50346,
+      "url": "https://huggingface.co/IsValorum/Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
+      "lastModified": "2026-10-03T16:01:42.000Z",
+      "daysAgo": 3,
+      "pipeline": "text-generation",
+      "tags": [
+        "gguf",
+        "abliterated",
+        "uncensored",
+        "alignment",
+        "heretic",
+        "quantized",
+        "quantization",
+        "apex"
+      ],
+      "pop": 0.7438,
+      "rec": 0.9091,
+      "combo": 0.8016
+    },
+    {
+      "id": "SC117/Spark-X2.5-4B-abliterated-FIT-GGUF",
+      "name": "Spark-X2.5-4B-abliterated-FIT-GGUF",
       "author": "SC117",
-      "likes": 12,
-      "downloads": 13857,
-      "url": "https://huggingface.co/SC117/occamy-1.0-abliterated-FIT-GGUF",
-      "lastModified": "2026-10-03T10:27:01.000Z",
-      "daysAgo": 2,
-      "pipeline": "image-text-to-text",
+      "likes": 30,
+      "downloads": 37213,
+      "url": "https://huggingface.co/SC117/Spark-X2.5-4B-abliterated-FIT-GGUF",
+      "lastModified": "2026-10-03T10:26:46.000Z",
+      "daysAgo": 3,
+      "pipeline": "text-generation",
       "tags": [
         "gguf",
         "llama-cpp",
         "quantization",
-        "moe",
-        "mixture-of-experts",
-        "qwen35moe",
+        "sparkx2_5",
         "fit-gguf",
-        "imatrix"
+        "uncensored",
+        "abliterated",
+        "text-generation"
       ],
-      "pop": 0.6559,
-      "rec": 0.9375,
-      "combo": 0.7545
+      "pop": 0.723,
+      "rec": 0.9091,
+      "combo": 0.7881
     },
     {
       "id": "BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF",
       "name": "Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF",
       "author": "BoldingBuilds",
       "likes": 71,
-      "downloads": 75536,
+      "downloads": 76210,
       "url": "https://huggingface.co/BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF",
       "lastModified": "2026-09-23T20:44:57.000Z",
       "daysAgo": 12,
@@ -592,16 +568,40 @@
         "prism",
         "bonsai"
       ],
-      "pop": 0.7725,
+      "pop": 0.7723,
       "rec": 0.7143,
-      "combo": 0.7521
+      "combo": 0.752
+    },
+    {
+      "id": "alesha-pro/Qwen3.8-Flash-Next-abliterated-GSQ-RCO-Strata-GGUF",
+      "name": "Qwen3.8-Flash-Next-abliterated-GSQ-RCO-Strata-GGUF",
+      "author": "alesha-pro",
+      "likes": 55,
+      "downloads": 9770,
+      "url": "https://huggingface.co/alesha-pro/Qwen3.8-Flash-Next-abliterated-GSQ-RCO-Strata-GGUF",
+      "lastModified": "2026-10-04T18:20:55.000Z",
+      "daysAgo": 1,
+      "pipeline": "image-text-to-text",
+      "tags": [
+        "gguf",
+        "gsq",
+        "rco",
+        "strata",
+        "abliterated",
+        "control-vector",
+        "image-text-to-text",
+        "arxiv:2604.18556"
+      ],
+      "pop": 0.6312,
+      "rec": 0.9677,
+      "combo": 0.749
     },
     {
       "id": "BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PQ2_0-MTP-GGUF",
       "name": "Ternary-Bonsai-2-27B-Abliterated-PQ2_0-MTP-GGUF",
       "author": "BoldingBuilds",
       "likes": 26,
-      "downloads": 44144,
+      "downloads": 44465,
       "url": "https://huggingface.co/BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PQ2_0-MTP-GGUF",
       "lastModified": "2026-09-26T20:41:52.000Z",
       "daysAgo": 9,
@@ -616,11 +616,11 @@
         "mtp",
         "speculative-decoding"
       ],
-      "pop": 0.7356,
+      "pop": 0.7353,
       "rec": 0.7692,
-      "combo": 0.7474
+      "combo": 0.7471
     }
   ],
   "rank": "per-category top 5 by downloads \u2014 LLM & Multimodal from 'abliterated'; Image/Video from 'uncensored'; flat list = popularity \u00d7 recency",
-  "updated": "2026-10-06T05:05:22Z"
+  "updated": "2026-10-06T16:35:13Z"
 }
