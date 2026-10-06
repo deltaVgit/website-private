@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T11:30:29Z",
+  "updated_at": "2026-10-06T11:45:29Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "ZRO",
         "name": "LayerZero",
+        "price": 2.16,
+        "change_24h": 10.81,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RENDER",
+        "name": "Render",
         "price": 2.15,
-        "change_24h": 10.92,
+        "change_24h": 8.02,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
         "price": 1.17,
-        "change_24h": 7.58,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RENDER",
-        "name": "Render",
-        "price": 2.13,
-        "change_24h": 7.0,
+        "change_24h": 7.6,
         "asset": "crypto"
       },
       {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.049823,
-        "change_24h": 5.76,
+        "price": 0.049936,
+        "change_24h": 5.15,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.23,
-        "change_24h": 4.36,
+        "price": 5.24,
+        "change_24h": 4.71,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.240193,
-        "change_24h": -8.12,
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.089687,
+        "change_24h": -8.72,
         "asset": "crypto"
       },
       {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.088834,
-        "change_24h": -7.3,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.240308,
+        "change_24h": -7.37,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
         "price": 27.83,
-        "change_24h": -5.92,
+        "change_24h": -5.4,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.988986,
-        "change_24h": -5.79,
+        "price": 0.995492,
+        "change_24h": -5.16,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.011413,
-        "change_24h": -5.72,
+        "price": 0.011402,
+        "change_24h": -5.13,
         "asset": "crypto"
       }
     ]
