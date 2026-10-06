@@ -1,30 +1,6 @@
 {
-  "updated": "2026-10-06T23:05:39Z",
+  "updated": "2026-10-06T16:35:30Z",
   "items": [
-    {
-      "title": "llm-mistral 0.16",
-      "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
-      "source": "Simon Willison",
-      "published_at": "2026-10-06T21:32:34+00:00",
-      "summary": "Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning",
-      "tag": "ai"
-    },
-    {
-      "title": "EmbeddingGemma 2",
-      "url": "https://simonwillison.net/2026/Oct/6/hn-49983751/",
-      "source": "Simon Willison",
-      "published_at": "2026-10-06T20:37:53+00:00",
-      "summary": "My comment on EmbeddingGemma 2 — Hacker News. I really appreciate that EmbeddingGemma 2 is under the Apache 2.0 license. For embedding models in particular, I don't think it makes sense to use a closed, proprietary, hosted-only model. Most applications of embedding models involve",
-      "tag": "ai"
-    },
-    {
-      "title": "Introducing Mistral Large 4: Le chonk",
-      "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
-      "source": "Simon Willison",
-      "published_at": "2026-10-06T20:18:19+00:00",
-      "summary": "Introducing Mistral Large 4: Le chonk Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 NVIDIA Grace Blackwell GPUs. The preview is available via thei",
-      "tag": "ai"
-    },
     {
       "title": "NTS: Authenticated Time at Meta",
       "url": "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/",
@@ -34,11 +10,11 @@
       "tag": "ai"
     },
     {
-      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "url": "https://openai.com/index/atlassian-partnership",
-      "source": "OpenAI",
-      "published_at": "2026-10-06T16:00:00+00:00",
-      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "title": "Scrimshaw Jukebox",
+      "url": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
+      "source": "Simon Willison",
+      "published_at": "2026-10-06T15:17:39+00:00",
+      "summary": "Tool: Scrimshaw Jukebox I wanted to see if Claude Opus 5.5 could compose music, so I tried this : I want you to write some computer game music for me. First design simple text based format for the music and build an artifact that can play it out loud - include some example tracks",
       "tag": "ai"
     },
     {
@@ -50,27 +26,19 @@
       "tag": "ai"
     },
     {
-      "title": "Sharing AI progress in mathematics",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "source": "OpenAI",
-      "published_at": "2026-10-06T12:00:00+00:00",
-      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-      "tag": "ai"
-    },
-    {
-      "title": "Advancing computer use with Ironclad",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "source": "OpenAI",
-      "published_at": "2026-10-06T10:00:00+00:00",
-      "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-      "tag": "ai"
-    },
-    {
       "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
       "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
       "source": "Hugging Face Blog",
       "published_at": "2026-10-06T06:44:39+00:00",
       "summary": "",
+      "tag": "ai"
+    },
+    {
+      "title": "Quoting Felix Rieseberg",
+      "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+      "source": "Simon Willison",
+      "published_at": "2026-10-05T23:56:47+00:00",
+      "summary": "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved ",
       "tag": "ai"
     },
     {
@@ -90,6 +58,14 @@
       "tag": "ai"
     },
     {
+      "title": "Building advertising for the way people use AI",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "source": "OpenAI",
+      "published_at": "2026-10-05T10:00:00+00:00",
+      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "tag": "ai"
+    },
+    {
       "title": "On Social Reality in China",
       "url": "https://www.lesswrong.com/posts/b5cSYh4emQb2qrGmK/on-social-reality-in-china",
       "source": "LessWrong",
@@ -98,11 +74,27 @@
       "tag": "ai"
     },
     {
+      "title": "Qwen3.8 27B addition in words",
+      "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
+      "source": "Simon Willison",
+      "published_at": "2026-10-04T23:34:00+00:00",
+      "summary": "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in words\" across increasingly large numbers. Here's the chart he shared of those resu",
+      "tag": "ai"
+    },
+    {
       "title": "The Agent Said It Was Done. The Database Disagreed.",
       "url": "https://huggingface.co/blog/microsoft/thinkingbox",
       "source": "Hugging Face Blog",
       "published_at": "2026-10-03T22:56:48+00:00",
       "summary": "",
+      "tag": "ai"
+    },
+    {
+      "title": "A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "source": "OpenAI",
+      "published_at": "2026-10-02T16:15:00+00:00",
+      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
       "tag": "ai"
     },
     {
@@ -130,6 +122,14 @@
       "tag": "ai"
     },
     {
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "url": "https://openai.com/index/chatham-financial",
+      "source": "OpenAI",
+      "published_at": "2026-10-02T00:00:00+00:00",
+      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "tag": "ai"
+    },
+    {
       "title": "Endogenous Alignment Requires Dependence",
       "url": "https://www.alignmentforum.org/posts/rp4sB5a6HaPpfD4rA/endogenous-alignment-requires-dependence",
       "source": "Alignment Forum",
@@ -138,11 +138,27 @@
       "tag": "ai"
     },
     {
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "source": "Google DeepMind",
+      "published_at": "2026-09-30T20:01:45+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
       "title": "Frog and Toad and the Increasingly Capable Machines",
       "url": "https://www.lesswrong.com/posts/7NZ6ZWjenzzCbCJ5b/frog-and-toad-and-the-increasingly-capable-machines",
       "source": "LessWrong",
       "published_at": "2026-09-30T18:27:42+00:00",
       "summary": "Want to start a conversation about HuggingFace with your mom but she's inexplicably bouncing off the METR report? Try this explainer I wrote in the style of Arnold Lobel's Frog and Toad. Art by the wonderful HungerArtist If you're so inspired, liking and/or following on Substack ",
+      "tag": "ai"
+    },
+    {
+      "title": "Introducing SynthID Bio",
+      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "source": "Google DeepMind",
+      "published_at": "2026-09-30T15:03:07+00:00",
+      "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
       "tag": "ai"
     },
     {
@@ -186,6 +202,14 @@
       "tag": "ai"
     },
     {
+      "title": "Introducing Gemini 3.8 Live with Live Avatar",
+      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "source": "Google DeepMind",
+      "published_at": "2026-09-24T16:20:39+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
       "title": "Bringing Private Processing to Meta AI Glasses",
       "url": "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses/",
       "source": "Meta Engineering",
@@ -199,6 +223,14 @@
       "source": "Google AI Blog",
       "published_at": "2026-09-23T18:00:00+00:00",
       "summary": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
+      "tag": "ai"
+    },
+    {
+      "title": "Advancing Private AI Compute with secure, server-side memory",
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "source": "Google DeepMind",
+      "published_at": "2026-09-23T16:00:57+00:00",
+      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
       "tag": "ai"
     },
     {
