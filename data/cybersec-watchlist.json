@@ -1,11 +1,91 @@
 [
   {
+    "title": "Ninja Forms plugin flaw exploited to hack WordPress sites",
+    "url": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
+    "source": "BleepingComputer",
+    "summary": "Hackers are exploiting stored cross-site scripting (XSS) vulnerabilities in two unrelated WordPress plugins, Ninja Forms and WPC Product Bundles for WooCommerce, to install backdoors and create rogue admin accounts. [...",
+    "added": "2026-10-06T21:00:27+00:00",
+    "expires": "2026-10-20T23:06:05Z"
+  },
+  {
+    "title": "ClickFix Attacks Evolve to Better Hide Malicious Payloads",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/clickfix-attacks-evolve-better-hide-malicious-payloads",
+    "source": "Dark Reading",
+    "summary": "Threat actors are now hiding payloads by using DNS TXT records and browser cache pre-fetching, making it tougher to spot early attack stages.",
+    "added": "2026-10-06T20:32:58+00:00",
+    "expires": "2026-10-20T23:06:06Z"
+  },
+  {
+    "title": "Critical Healthcare Systems Aren't Quantum-Ready",
+    "url": "https://www.darkreading.com/iot/exposed-healthcare-systems-quantum-ready",
+    "source": "Dark Reading",
+    "summary": "A study of 2.5 million devices across 50 healthcare organization suggests the sector has a long way to go in getting ready for the post-quantum cryptography era.",
+    "added": "2026-10-06T20:30:27+00:00",
+    "expires": "2026-10-20T23:06:06Z"
+  },
+  {
+    "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/",
+    "source": "BleepingComputer",
+    "summary": "On the first day of the Pwn2Own Ireland 2026 competition, security researchers hacked the Samsung Galaxy S26 twice and earned $388,500 after exploiting 32 zero-days. [...]",
+    "added": "2026-10-06T19:21:53+00:00",
+    "expires": "2026-10-20T23:06:05Z"
+  },
+  {
+    "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
+    "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
+    "source": "The Hacker News",
+    "summary": "Cybersecurity researchers have disclosed details of a \"human-operated phishing platform\" that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic Claude, OpenAI ChatG",
+    "added": "2026-10-06T18:38:55+00:00",
+    "expires": "2026-10-20T23:06:06Z"
+  },
+  {
+    "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
+    "url": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
+    "source": "The Hacker News",
+    "summary": "Linux backdoors targeting telecom and network appliances in South Korea and Taiwan have been disguising their traffic as email services and seemingly legitimate processes to blend in and evade detection. Threat actors ar",
+    "added": "2026-10-06T18:24:25+00:00",
+    "expires": "2026-10-20T23:06:06Z"
+  },
+  {
+    "title": "Google's PageBreak AI Agent Finds 500 Flaws in Its Web Apps",
+    "url": "https://www.darkreading.com/application-security/google-pagebreak-ai-agent-500-flaws-web-apps",
+    "source": "Dark Reading",
+    "summary": "The situation illustrates a trend toward using AI and deterministic validation to identify flaws and exploitability, and provide a risk assessment.",
+    "added": "2026-10-06T17:56:29+00:00",
+    "expires": "2026-10-20T23:06:06Z"
+  },
+  {
+    "title": "Atlassian warns of critical file-access flaw in Jira, Confluence",
+    "url": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/",
+    "source": "BleepingComputer",
+    "summary": "Atlassian is warning customers of a critical vulnerability, tracked as CVE-2026-21589, that can be exploited for arbitrary file-access in multiple self-hosted Data Center products, including Confluence, Jira, and Bitbuck",
+    "added": "2026-10-06T17:34:59+00:00",
+    "expires": "2026-10-20T23:06:05Z"
+  },
+  {
+    "title": "IANS' Kakolowski: How AI Is Reshaping CISO Budgets & Security Teams",
+    "url": "https://www.darkreading.com/cybersecurity-operations/ai-reshaping-ciso-budgets-security-teams",
+    "source": "Dark Reading",
+    "summary": "In this video interview, Nick Kakolowski, senior director for CISO research at IANS, talks AI: budgets, ROI, and changes inside security teams.",
+    "added": "2026-10-06T17:15:24+00:00",
+    "expires": "2026-10-20T23:06:06Z"
+  },
+  {
+    "title": "'BigDiskBuster' Leaves Microsoft Defender Running While Blocking Updates",
+    "url": "https://www.darkreading.com/application-security/bigdiskbuster-microsoft-defender-running-blocking-updates",
+    "source": "Dark Reading",
+    "summary": "Not quite an EDR-killer, but the proof-of-concept cyber technique creates a silent virus detection gap while service runs normally, no exploit required.",
+    "added": "2026-10-06T16:59:24+00:00",
+    "expires": "2026-10-20T23:06:06Z"
+  },
+  {
     "title": "ASOS confirms data breach after “HACKED” in-app notifications",
     "url": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/",
     "source": "BleepingComputer",
     "summary": "UK fashion retailer ASOS confirmed a data breach Tuesday after hackers sent unauthorized push notifications through its mobile app while claiming to have stolen customer data from the company's Snowflake environment. [..",
     "added": "2026-10-06T16:33:54+00:00",
-    "expires": "2026-10-20T16:35:44Z"
+    "expires": "2026-10-20T23:06:05Z"
   },
   {
     "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
@@ -13,15 +93,7 @@
     "source": "BleepingComputer",
     "summary": "A new campaign targeting ad account managers uses fake ChatGPT, Gemini, Claude, and Perplexity sites that steal login credentials and multi-factor authentication (MFA) codes through browser-in-browser attacks. [...]",
     "added": "2026-10-06T15:16:44+00:00",
-    "expires": "2026-10-20T16:35:44Z"
-  },
-  {
-    "title": "How to secure RMM software: 8 controls MSPs should test",
-    "url": "https://www.bleepingcomputer.com/news/security/how-to-secure-rmm-software-8-controls-msps-should-test/",
-    "source": "BleepingComputer",
-    "summary": "RMM platforms give MSPs privileged access across customer environments, making their security controls critical to limiting risk. Acronis outlines eight controls MSPs should test when evaluating RMM software, from patchi",
-    "added": "2026-10-06T14:00:10+00:00",
-    "expires": "2026-10-20T16:35:44Z"
+    "expires": "2026-10-20T23:06:05Z"
   },
   {
     "title": "Hitachi Energy REB500",
@@ -29,7 +101,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Hitachi Energy is aware of open-source software vulnerabilities that affect REB500 product versions listed in this document. These vulnerabilities can be exploited to carry out Denial of Service (DoS) a",
     "added": "2026-10-06T12:00:00+00:00",
-    "expires": "2026-10-20T16:35:45Z"
+    "expires": "2026-10-20T23:06:07Z"
   },
   {
     "title": "Hitachi Energy Asset Suite",
@@ -37,7 +109,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Hitachi Energy is aware of unauthenticated servlet access vulnerabilities that affect Asset Suite product versions listed in this document. These vulnerabilities can be exploited to potentially cause co",
     "added": "2026-10-06T12:00:00+00:00",
-    "expires": "2026-10-20T16:35:45Z"
+    "expires": "2026-10-20T23:06:07Z"
   },
   {
     "title": "Johnson Controls EasyIO FG",
@@ -45,7 +117,7 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain full unauthorized access to the device. The following versions of Johnson Controls EasyIO FG are affected: EasyIO FG firm",
     "added": "2026-10-06T12:00:00+00:00",
-    "expires": "2026-10-20T16:35:45Z"
+    "expires": "2026-10-20T23:06:07Z"
   },
   {
     "title": "Hitachi Energy SOI",
@@ -53,78 +125,6 @@
     "source": "CISA Advisories",
     "summary": "View CSAF Summary Hitachi Energy is aware of RCE (Remote Code Execution) vulnerability in Apache ActiveMQ component of SOI product versions listed in this document. These vulnerabilities can be exploited to carry out var",
     "added": "2026-10-06T12:00:00+00:00",
-    "expires": "2026-10-20T16:35:45Z"
-  },
-  {
-    "title": "Savannah lwIP SMTP client",
-    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-02",
-    "source": "CISA Advisories",
-    "summary": "View CSAF Summary Successful exploitation of this vulnerability could crash the device being accessed; a buffer overflow condition may allow remote code execution. The following versions of Savannah lwIP SMTP client are ",
-    "added": "2026-10-06T12:00:00+00:00",
-    "expires": "2026-10-20T16:35:45Z"
-  },
-  {
-    "title": "LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings",
-    "url": "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
-    "source": "The Hacker News",
-    "summary": "A malicious spreadsheet can make LibreOffice and Apache OpenOffice run an attacker's code as soon as the file is opened, security researchers have shown. There is no warning first, of the kind either program shows before",
-    "added": "2026-10-06T11:57:00+00:00",
-    "expires": "2026-10-20T16:35:45Z"
-  },
-  {
-    "title": "Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits",
-    "url": "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/",
-    "source": "BleepingComputer",
-    "summary": "The Wikimedia Foundation says rogue OpenAI agents made unauthorized Wikipedia edits and may have been partially responsible for a May outage. [...]",
-    "added": "2026-10-06T11:31:48+00:00",
-    "expires": "2026-10-20T16:35:44Z"
-  },
-  {
-    "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
-    "url": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
-    "source": "The Hacker News",
-    "summary": "The Wikimedia Foundation, which hosts Wikipedia, has confirmed that it has discovered activity by rogue OpenAI agents on its platforms, including unsuccessful efforts to compromise Etherpad, a public note-taking tool, an",
-    "added": "2026-10-06T11:26:25+00:00",
-    "expires": "2026-10-20T16:35:45Z"
-  },
-  {
-    "title": "Welcome to the Jungle: What We Found Inside 15,465 Public MCP Servers",
-    "url": "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
-    "source": "The Hacker News",
-    "summary": "In 2024, MCP (Model Context Protocol) set out to become the USB-C of AI: one standard for connecting models, agents, and IDEs to tools and data. The protocol delivered. Thousands of developers built servers, and enterpri",
-    "added": "2026-10-06T11:02:30+00:00",
-    "expires": "2026-10-20T16:35:45Z"
-  },
-  {
-    "title": "Nikkei discloses breaches of employees’ Microsoft, Google email accounts",
-    "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-breaches-of-employees-microsoft-google-email-accounts/",
-    "source": "BleepingComputer",
-    "summary": "Over the weekend, Japanese publishing giant Nikkei disclosed that unknown attackers recently breached two employee email accounts and used one to send thousands of phishing emails. [...]",
-    "added": "2026-10-06T09:25:50+00:00",
-    "expires": "2026-10-20T16:35:44Z"
-  },
-  {
-    "title": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
-    "url": "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html",
-    "source": "The Hacker News",
-    "summary": "Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software. The change, in effect since October 1, means researchers can no longer submit security flaws in the ",
-    "added": "2026-10-06T09:21:47+00:00",
-    "expires": "2026-10-20T16:35:45Z"
-  },
-  {
-    "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
-    "url": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
-    "source": "The Hacker News",
-    "summary": "A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web application root directory. The attacker must alr",
-    "added": "2026-10-06T06:58:56+00:00",
-    "expires": "2026-10-20T16:35:45Z"
-  },
-  {
-    "title": "ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes",
-    "url": "https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes",
-    "source": "Dark Reading",
-    "summary": "The Linux backdoor exploits 24 known flaws to compromise IoT devices and uses legitimate public STUN servers to obscure communications.",
-    "added": "2026-10-05T21:25:08+00:00",
-    "expires": "2026-10-20T16:35:45Z"
+    "expires": "2026-10-20T23:06:07Z"
   }
 ]
