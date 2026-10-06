@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T02:30:30Z",
+  "updated_at": "2026-10-06T02:45:27Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "NIGHT",
-        "name": "Midnight",
-        "price": 0.050268,
-        "change_24h": 11.04,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ZRO",
         "name": "LayerZero",
         "price": 2.13,
-        "change_24h": 10.95,
+        "change_24h": 11.14,
         "asset": "crypto"
       },
       {
-        "symbol": "OKB",
-        "name": "OKB",
-        "price": 133.03,
-        "change_24h": 8.68,
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price": 0.050174,
+        "change_24h": 10.36,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 4.01,
-        "change_24h": 8.5,
+        "price": 4.0,
+        "change_24h": 8.74,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
         "price": 1.15,
-        "change_24h": 8.47,
+        "change_24h": 7.96,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "OKB",
+        "name": "OKB",
+        "price": 132.31,
+        "change_24h": 7.77,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.02994,
-        "change_24h": -10.6,
+        "price": 0.030207,
+        "change_24h": -10.08,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.088094,
-        "change_24h": -8.03,
+        "price": 0.088231,
+        "change_24h": -7.83,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.374231,
-        "change_24h": -7.0,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.14,
-        "change_24h": -6.25,
+        "price": 0.375824,
+        "change_24h": -5.97,
         "asset": "crypto"
       },
       {
         "symbol": "DASH",
         "name": "Dash",
-        "price": 57.23,
-        "change_24h": -4.44,
+        "price": 57.24,
+        "change_24h": -4.65,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price": 0.214827,
+        "change_24h": -4.58,
         "asset": "crypto"
       }
     ]
