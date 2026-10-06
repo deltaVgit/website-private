@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-06T19:30:29Z",
+  "updated_at": "2026-10-06T20:00:27Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "OPCH",
         "name": "Option Care Health, Inc.",
-        "price": 31.03,
-        "change_24h": 32.78,
-        "asset": "equity"
-      },
-      {
-        "symbol": "CIEN",
-        "name": "Ciena Corporation",
-        "price": 440.56,
-        "change_24h": 13.05,
-        "asset": "equity"
-      },
-      {
-        "symbol": "CTVA",
-        "name": "Corteva, Inc.",
-        "price": 13.98,
-        "change_24h": 12.87,
+        "price": 31.0,
+        "change_24h": 32.65,
         "asset": "equity"
       },
       {
         "symbol": "STDN",
         "name": "Standard Nuclear, Inc.",
-        "price": 14.57,
-        "change_24h": 11.97,
+        "price": 15.21,
+        "change_24h": 16.95,
+        "asset": "equity"
+      },
+      {
+        "symbol": "CIEN",
+        "name": "Ciena Corporation",
+        "price": 444.1,
+        "change_24h": 13.96,
+        "asset": "equity"
+      },
+      {
+        "symbol": "TLN",
+        "name": "Talen Energy Corporation",
+        "price": 373.04,
+        "change_24h": 12.41,
         "asset": "equity"
       },
       {
         "symbol": "INIO",
         "name": "INNIO N.V.",
-        "price": 21.14,
-        "change_24h": 11.35,
+        "price": 21.35,
+        "change_24h": 12.49,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "TWST",
         "name": "Twist Bioscience Corporation",
-        "price": 169.09,
-        "change_24h": -17.53,
+        "price": 166.97,
+        "change_24h": -18.55,
         "asset": "equity"
       },
       {
         "symbol": "TXG",
         "name": "10x Genomics, Inc.",
-        "price": 80.62,
-        "change_24h": -17.52,
+        "price": 80.66,
+        "change_24h": -17.47,
         "asset": "equity"
       },
       {
         "symbol": "ALMR",
         "name": "Alamar Biosciences, Inc.",
-        "price": 32.4,
-        "change_24h": -15.04,
-        "asset": "equity"
-      },
-      {
-        "symbol": "SYRE",
-        "name": "Spyre Therapeutics, Inc.",
-        "price": 80.06,
-        "change_24h": -13.65,
+        "price": 32.25,
+        "change_24h": -15.42,
         "asset": "equity"
       },
       {
         "symbol": "TEM",
         "name": "Tempus AI, Inc.",
-        "price": 72.14,
-        "change_24h": -13.66,
+        "price": 71.96,
+        "change_24h": -13.87,
+        "asset": "equity"
+      },
+      {
+        "symbol": "NEO",
+        "name": "NeoGenomics, Inc.",
+        "price": 16.5,
+        "change_24h": -13.72,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "price": 2.26,
-        "change_24h": 9.51,
+        "price": 2.28,
+        "change_24h": 9.82,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
-        "price": 2.14,
-        "change_24h": 7.05,
+        "price": 2.16,
+        "change_24h": 7.43,
         "asset": "crypto"
       },
       {
         "symbol": "OKB",
         "name": "OKB",
-        "price": 136.4,
-        "change_24h": 6.3,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XDC",
-        "name": "XDC Network",
-        "price": 0.034469,
-        "change_24h": 5.77,
+        "price": 136.96,
+        "change_24h": 6.24,
         "asset": "crypto"
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price": 11.38,
-        "change_24h": 4.42,
+        "price": 11.46,
+        "change_24h": 5.48,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price": 0.03411,
+        "change_24h": 4.23,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.598383,
-        "change_24h": -7.93,
+        "price": 0.600575,
+        "change_24h": -7.26,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 8.63,
+        "change_24h": -5.1,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
         "price": 1.21,
-        "change_24h": -5.95,
+        "change_24h": -4.9,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.79,
-        "change_24h": -5.6,
+        "price": 3.86,
+        "change_24h": -4.74,
         "asset": "crypto"
       },
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 8.6,
-        "change_24h": -5.52,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.808585,
-        "change_24h": -4.86,
+        "symbol": "ICP",
+        "name": "Internet Computer",
+        "price": 3.4,
+        "change_24h": -4.69,
         "asset": "crypto"
       }
     ]
