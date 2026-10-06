@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T00:15:27Z",
+  "updated_at": "2026-10-06T00:30:30Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "NIGHT",
-        "name": "Midnight",
-        "price": 0.051355,
-        "change_24h": 14.69,
-        "asset": "crypto"
-      },
-      {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 1.18,
-        "change_24h": 11.71,
+        "price": 1.17,
+        "change_24h": 11.32,
         "asset": "crypto"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "price": 2.17,
-        "change_24h": 10.55,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 4.04,
-        "change_24h": 10.36,
+        "price": 2.13,
+        "change_24h": 9.6,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.3,
-        "change_24h": 7.99,
+        "price": 5.33,
+        "change_24h": 9.05,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 3.98,
+        "change_24h": 8.98,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "OKB",
+        "name": "OKB",
+        "price": 130.96,
+        "change_24h": 7.69,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.088099,
-        "change_24h": -9.42,
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.030719,
+        "change_24h": -8.42,
         "asset": "crypto"
       },
       {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.030678,
-        "change_24h": -8.72,
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.088491,
+        "change_24h": -8.41,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 28.66,
-        "change_24h": -4.17,
+        "price": 28.65,
+        "change_24h": -4.2,
         "asset": "crypto"
       },
       {
         "symbol": "XLM",
         "name": "Stellar",
-        "price": 0.215648,
-        "change_24h": -3.83,
+        "price": 0.216199,
+        "change_24h": -3.45,
         "asset": "crypto"
       },
       {
-        "symbol": "ALGO",
-        "name": "Algorand",
-        "price": 0.127507,
-        "change_24h": -3.25,
+        "symbol": "DASH",
+        "name": "Dash",
+        "price": 57.77,
+        "change_24h": -3.02,
         "asset": "crypto"
       }
     ]
