@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T09:30:45Z",
+  "updated_at": "2026-10-07T09:45:43Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 2.22,
-        "change_24h": 6.7,
-        "asset": "crypto"
-      },
-      {
         "symbol": "BTW",
         "name": "Bitway",
         "price": 1.24,
-        "change_24h": 4.93,
+        "change_24h": 5.14,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.399655,
-        "change_24h": 4.47,
+        "price": 0.400232,
+        "change_24h": 4.38,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 2.16,
+        "change_24h": 2.58,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.026,
-        "change_24h": 2.62,
+        "price": 1.018,
+        "change_24h": 1.98,
         "asset": "crypto"
       },
       {
-        "symbol": "OKB",
-        "name": "OKB",
-        "price": 133.3,
-        "change_24h": 2.16,
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.14057,
+        "change_24h": 1.67,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.580188,
-        "change_24h": -9.5,
+        "price": 0.57962,
+        "change_24h": -9.54,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.12,
-        "change_24h": -8.35,
+        "change_24h": -9.44,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 8.1,
-        "change_24h": -8.08,
+        "price": 8.01,
+        "change_24h": -9.21,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price": 0.254326,
+        "change_24h": -8.41,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
         "price": 2.26,
-        "change_24h": -7.58,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.25484,
-        "change_24h": -7.34,
+        "change_24h": -7.99,
         "asset": "crypto"
       }
     ]
