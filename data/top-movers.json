@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T09:45:43Z",
+  "updated_at": "2026-10-07T10:00:43Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.24,
-        "change_24h": 5.14,
+        "symbol": "STX",
+        "name": "Stacks",
+        "price": 0.399086,
+        "change_24h": 4.35,
         "asset": "crypto"
       },
       {
-        "symbol": "STX",
-        "name": "Stacks",
-        "price": 0.400232,
-        "change_24h": 4.38,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.24,
+        "change_24h": 2.98,
         "asset": "crypto"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "price": 2.16,
-        "change_24h": 2.58,
+        "price": 2.19,
+        "change_24h": 2.75,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.006478,
+        "change_24h": 2.23,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.018,
-        "change_24h": 1.98,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.14057,
-        "change_24h": 1.67,
+        "price": 1.019,
+        "change_24h": 2.21,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.57962,
-        "change_24h": -9.54,
+        "price": 0.579545,
+        "change_24h": -9.74,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 8.04,
+        "change_24h": -9.27,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.12,
-        "change_24h": -9.44,
+        "change_24h": -9.12,
         "asset": "crypto"
       },
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 8.01,
-        "change_24h": -9.21,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.254326,
-        "change_24h": -8.41,
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 1.063,
+        "change_24h": -9.06,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
         "price": 2.26,
-        "change_24h": -7.99,
+        "change_24h": -8.03,
         "asset": "crypto"
       }
     ]
