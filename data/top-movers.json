@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-07T14:00:45Z",
+  "updated_at": "2026-10-07T14:15:44Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "PENG",
         "name": "Penguin Solutions, Inc.",
-        "price": 74.42,
-        "change_24h": 15.91,
+        "price": 75.5,
+        "change_24h": 17.58,
         "asset": "equity"
       },
       {
         "symbol": "BKV",
         "name": "BKV Corporation",
-        "price": 24.1,
-        "change_24h": 9.3,
-        "asset": "equity"
-      },
-      {
-        "symbol": "BKH",
-        "name": "Black Hills Corporation",
-        "price": 76.05,
-        "change_24h": 7.5,
+        "price": 24.11,
+        "change_24h": 9.37,
         "asset": "equity"
       },
       {
         "symbol": "NWE",
         "name": "NorthWestern Energy Group, Inc.",
-        "price": 74.06,
-        "change_24h": 7.45,
+        "price": 73.95,
+        "change_24h": 7.3,
+        "asset": "equity"
+      },
+      {
+        "symbol": "BKH",
+        "name": "Black Hills Corporation",
+        "price": 75.84,
+        "change_24h": 7.21,
         "asset": "equity"
       },
       {
         "symbol": "GKOS",
         "name": "Glaukos Corporation",
-        "price": 171.5,
-        "change_24h": 6.13,
+        "price": 169.0,
+        "change_24h": 4.59,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "BULL",
         "name": "Webull Corporation",
-        "price": 5.815,
-        "change_24h": -20.12,
+        "price": 5.78,
+        "change_24h": -20.6,
         "asset": "equity"
       },
       {
         "symbol": "HESM",
         "name": "Hess Midstream LP",
-        "price": 32.72,
-        "change_24h": -15.43,
+        "price": 32.48,
+        "change_24h": -16.06,
         "asset": "equity"
       },
       {
-        "symbol": "QXO",
-        "name": "QXO, Inc.",
-        "price": 11.24,
-        "change_24h": -7.19,
-        "asset": "equity"
-      },
-      {
-        "symbol": "STRL",
-        "name": "Sterling Infrastructure, Inc.",
-        "price": 524.04,
-        "change_24h": -7.03,
+        "symbol": "ALMR",
+        "name": "Alamar Biosciences, Inc.",
+        "price": 29.33,
+        "change_24h": -9.08,
         "asset": "equity"
       },
       {
         "symbol": "SITE",
         "name": "SiteOne Landscape Supply, Inc.",
-        "price": 84.47,
-        "change_24h": -6.63,
+        "price": 83.27,
+        "change_24h": -7.97,
+        "asset": "equity"
+      },
+      {
+        "symbol": "QXO",
+        "name": "QXO, Inc.",
+        "price": 11.14,
+        "change_24h": -7.97,
         "asset": "equity"
       }
     ]
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "RAY",
-        "name": "Raydium",
-        "price": 2.51,
-        "change_24h": 14.52,
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.13992,
+        "change_24h": 1.38,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.006307,
-        "change_24h": 1.63,
+        "price": 0.006289,
+        "change_24h": 0.63,
         "asset": "crypto"
       },
       {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.13936,
-        "change_24h": 0.71,
+        "symbol": "USDD",
+        "name": "USDD",
+        "price": 0.999752,
+        "change_24h": 0.06,
         "asset": "crypto"
       },
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.2,
-        "change_24h": 0.55,
+        "symbol": "USTB",
+        "name": "Invesco Short Duration US Government Securities ",
+        "price": 11.24,
+        "change_24h": 0.01,
         "asset": "crypto"
       },
       {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1.038,
-        "change_24h": 0.18,
+        "symbol": "USYC",
+        "name": "Circle USYC",
+        "price": 1.14,
+        "change_24h": 0.01,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "SKY",
-        "name": "Sky",
-        "price": 0.080188,
-        "change_24h": -10.9,
-        "asset": "crypto"
-      },
-      {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 7.95,
-        "change_24h": -10.32,
+        "price": 7.93,
+        "change_24h": -10.71,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.578608,
-        "change_24h": -9.75,
+        "price": 0.578057,
+        "change_24h": -9.64,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.080271,
+        "change_24h": -9.53,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
         "price": 2.23,
-        "change_24h": -9.11,
+        "change_24h": -9.39,
         "asset": "crypto"
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 3.54,
-        "change_24h": -8.84,
+        "symbol": "DOT",
+        "name": "Polkadot",
+        "price": 1.1,
+        "change_24h": -8.8,
         "asset": "crypto"
       }
     ]
