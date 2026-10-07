@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T23:06:07Z",
+  "updatedAt": "2026-10-07T08:36:37Z",
   "kev": [
     {
       "cve": "CVE-2026-88779",
@@ -130,84 +130,98 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-100552",
+      "id": "CVE-2026-100740",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "description": "A vulnerability was detected in D-Link DIR-895L A1_102b07. Impacted is the function tunnel_set_params of the file tunnel.c of the component L2TP Control Channel Parser. Performing a manipulation results in out-of-bounds ",
+      "published": "2026-09-27T01:17:17.810"
+    },
+    {
+      "id": "CVE-2026-100721",
+      "severity": "CRITICAL",
+      "score": 9.0,
+      "description": "vm2 before 3.12.2 contains an authorization bypass in the NodeVM external-module resolver. When an embedder configures `require.external` with a custom resolver (and `context: 'host'`), `LegacyResolver.customResolve` in ",
+      "published": "2026-09-27T02:17:17.547"
+    },
+    {
+      "id": "CVE-2026-100856",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "OpenClaw (npm package 'openclaw') before 2026.8.1 does not correctly enforce per-chat tool policies for Codex app-server runtime tools. A conversation-level tools.allow rule filtered OpenClaw tools but did not restrict t",
-      "published": "2026-09-26T03:17:01.640"
+      "description": "AzuraCast before 0.23.6 contains a code injection vulnerability in the remote relay password field due to incomplete migration from the vulnerable cleanUpString method to toRawString. Attackers with RemoteRelays station ",
+      "published": "2026-09-27T02:17:25.050"
     },
     {
-      "id": "CVE-2026-100544",
+      "id": "CVE-2026-100852",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "openclaw's @openclaw/voice-call package before 2026.8.1 launches the configured agent for classic inbound voice calls without propagating the caller's identity or non-owner status. As a result, owner-only tool filtering ",
-      "published": "2026-09-26T03:17:00.440"
+      "description": "AzuraCast before 0.23.8 contains a command injection vulnerability in the Liquidsoap config generation for live recording that fails to quote the streamer username in process.run calls. Authenticated station users with S",
+      "published": "2026-09-27T02:17:24.437"
     },
     {
-      "id": "CVE-2026-100520",
+      "id": "CVE-2026-100844",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "Laranode versions before 1.2.1 contain a path traversal vulnerability in the POST /filemanager/upload-file endpoint that allows authenticated users to write arbitrary files outside their home directory. Attackers can sup",
-      "published": "2026-09-26T01:17:00.357"
+      "score": 8.4,
+      "description": "MONAI before 1.6.0 is vulnerable to OS command injection in the nnUNetV2Runner component (monai.apps.nnunet.nnunetv2_runner). User-controlled values taken from the YAML configuration file (notably dataset_name_or_id) and",
+      "published": "2026-09-27T02:17:22.993"
     },
     {
-      "id": "CVE-2026-100551",
+      "id": "CVE-2026-100839",
       "severity": "HIGH",
-      "score": 8.3,
-      "description": "OpenClaw for iOS versions >= 2026.7.1 and < 2026.8.11 do not enforce saved Gateway TLS pins in the Control UI. While native connections enforced the saved Gateway fingerprint, the authenticated Terminal and session Dashb",
-      "published": "2026-09-26T03:17:01.487"
+      "score": 8.4,
+      "description": "Contrast is a confidential-computing runtime for Kubernetes. In versions before 1.18.0, the guest kernel's ACPI/AML handling is vulnerable to an AML injection attack (\"BadAML\"). ACPI tables containing AML bytecode are pa",
+      "published": "2026-09-27T02:17:22.230"
     },
     {
-      "id": "CVE-2026-100532",
+      "id": "CVE-2026-100833",
       "severity": "HIGH",
-      "score": 8.1,
-      "description": "@openclaw/whatsapp (npm) before 2026.8.1 exposes the WhatsApp login tool through the generic channel-tool path without preserving the originating sender's owner status, so the owner-only tool boundary is not enforced. An",
-      "published": "2026-09-26T03:16:58.660"
+      "score": 8.2,
+      "description": "Contrast (edgelesssys/contrast) versions 1.14.0 before 1.23.1 generate runtime policies that fail to detect all container image substitutions. A bad rebase during a Kata Containers update accidentally introduced an `allo",
+      "published": "2026-09-27T02:17:21.323"
     },
     {
-      "id": "CVE-2026-100543",
+      "id": "CVE-2026-100857",
       "severity": "HIGH",
-      "score": 7.5,
-      "description": "OpenClaw (npm package openclaw) before 2026.8.1 could include deterministic hashes computed over the original, unredacted configuration in redacted configuration responses. When the Gateway password had low entropy and t",
-      "published": "2026-09-26T03:17:00.287"
+      "score": 8.0,
+      "description": "AzuraCast before 0.23.4 contains a code injection vulnerability in the ConfigWriter::cleanUpString() method that fails to sanitize Liquidsoap string interpolation sequences, allowing authenticated users with Media or Pro",
+      "published": "2026-09-27T02:17:25.197"
     },
     {
-      "id": "CVE-2026-100541",
+      "id": "CVE-2026-100845",
       "severity": "HIGH",
-      "score": 7.5,
-      "description": "OpenClaw's Matrix integration (npm package @openclaw/matrix) versions >= 2026.2.2 and < 2026.8.1 lowercase complete Matrix user IDs — including historical localparts and the case-sensitive server-name portion — when deri",
-      "published": "2026-09-26T03:16:59.987"
+      "score": 7.8,
+      "description": "MONAI before 1.6.0 contains an unsafe deserialization vulnerability in the NumpyReader class that unconditionally uses numpy.load with allow_pickle=True when loading .npy and .npz files. Attackers can craft malicious .np",
+      "published": "2026-09-27T02:17:23.140"
     },
     {
-      "id": "CVE-2026-100535",
+      "id": "CVE-2026-100843",
       "severity": "HIGH",
-      "score": 7.5,
-      "description": "OpenClaw (npm package 'openclaw') versions >= 2026.4.5 and < 2026.8.1 can lose the originating requester's restrictions and untrusted provenance when session-derived text is persisted to session memory. In deployments wh",
-      "published": "2026-09-26T03:16:59.103"
+      "score": 7.8,
+      "description": "MONAI versions before 1.6.0 contain a remote code execution vulnerability in the algo_from_pickle() function due to unsafe pickle.loads() deserialization in monai/auto3dseg/utils.py. Attackers can craft malicious pickle ",
+      "published": "2026-09-27T02:17:22.853"
     },
     {
-      "id": "CVE-2026-100530",
+      "id": "CVE-2026-100841",
       "severity": "HIGH",
-      "score": 7.3,
-      "description": "OpenClaw versions before 2026.8.1 fail to bind working directory context to reusable exec approvals, allowing approved commands to execute in different directories. Attackers with an allow-always approval can reuse it to",
-      "published": "2026-09-26T03:16:58.367"
+      "score": 7.8,
+      "description": "In MONAI 1.6.0, PersistentDataset (monai/data/dataset.py) explicitly rejects the combination track_meta=True with weights_only=True, forcing users who cache MetaTensors (the default tensor type in MONAI >= 1.0) to run to",
+      "published": "2026-09-27T02:17:22.543"
     },
     {
-      "id": "CVE-2026-100555",
+      "id": "CVE-2026-100840",
       "severity": "HIGH",
-      "score": 7.1,
-      "description": "OpenClaw is an npm-distributed gateway application. In versions >= 2026.7.1 and < 2026.8.1, Synology Chat attachment delivery could lose DNS pinning: the Gateway validated a single DNS result for a supplied file URL but ",
-      "published": "2026-09-26T03:17:02.087"
-    },
-    {
-      "id": "CVE-2026-100504",
-      "severity": "HIGH",
-      "score": 7.0,
-      "description": "Ghidra versions through 12.1.4 contain a stack-based out-of-bounds write vulnerability in the decompiler's leftshift128 function when processing negative shift amounts from p-code. Attackers can craft malicious binaries ",
-      "published": "2026-09-26T01:17:00.043"
+      "score": 7.8,
+      "description": "MONAI through 1.6.0 contains a remote code execution vulnerability in the bundle configuration engine that resolves _target_ values to arbitrary importable callables without an allow list and passes $ expressions to Pyth",
+      "published": "2026-09-27T02:17:22.387"
     }
   ],
   "breaches": [
+    {
+      "name": "DoubleCounter",
+      "domain": "doublecounter.gg",
+      "date": "2026-10-04",
+      "count": 274922,
+      "data": "Email addresses, Geographic locations, Names, Usernames"
+    },
     {
       "name": "Medela",
       "domain": "medela.com",
@@ -284,13 +298,6 @@
       "date": "2026-07-21",
       "count": 865336,
       "data": "Device information, Email addresses, Geographic locations, IP addresses, Partial credit card data"
-    },
-    {
-      "name": "ExactSciences",
-      "domain": "exactsciences.com",
-      "date": "2026-07-15",
-      "count": 10869543,
-      "data": "Dates of birth, Email addresses, Genders, Names, Personal health data"
     }
   ]
 }
