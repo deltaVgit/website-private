@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T02:15:44Z",
+  "updated_at": "2026-10-07T02:30:42Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 2.22,
-        "change_24h": 5.73,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.21,
+        "change_24h": 6.17,
         "asset": "crypto"
       },
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.22,
-        "change_24h": 5.53,
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 2.24,
+        "change_24h": 5.57,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.764951,
-        "change_24h": 4.24,
+        "price": 0.765879,
+        "change_24h": 4.55,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.048,
+        "change_24h": 3.63,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.140969,
-        "change_24h": 3.25,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RENDER",
-        "name": "Render",
-        "price": 2.09,
-        "change_24h": 2.64,
+        "price": 0.141005,
+        "change_24h": 3.46,
         "asset": "crypto"
       }
     ],
@@ -119,8 +119,8 @@
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.582378,
-        "change_24h": -10.15,
+        "price": 0.582638,
+        "change_24h": -10.16,
         "asset": "crypto"
       },
       {
@@ -133,22 +133,22 @@
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.186471,
-        "change_24h": -8.72,
+        "price": 0.186242,
+        "change_24h": -8.76,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.225872,
+        "change_24h": -8.58,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
         "price": 26.71,
-        "change_24h": -8.47,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 3.25,
-        "change_24h": -8.09,
+        "change_24h": -8.06,
         "asset": "crypto"
       }
     ]
