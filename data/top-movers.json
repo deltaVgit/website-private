@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T20:15:42Z",
+  "updated_at": "2026-10-07T20:30:45Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -25,10 +25,10 @@
         "asset": "equity"
       },
       {
-        "symbol": "BVC",
-        "name": "BitVentures Limited",
-        "price": 12.49,
-        "change_24h": 4.47,
+        "symbol": "BKV",
+        "name": "BKV Corporation",
+        "price": 23.68,
+        "change_24h": 7.39,
         "asset": "equity"
       },
       {
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "RAY",
+        "name": "Raydium",
+        "price": 2.51,
+        "change_24h": 14.57,
+        "asset": "crypto"
+      },
+      {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.28,
-        "change_24h": 5.56,
+        "price": 1.29,
+        "change_24h": 5.81,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.41,
-        "change_24h": 5.55,
+        "price": 5.4,
+        "change_24h": 4.52,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.00647,
-        "change_24h": 2.83,
+        "price": 0.006402,
+        "change_24h": 1.86,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.141509,
-        "change_24h": 0.36,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "OUSD",
-        "name": "Open USD",
-        "price": 1.001,
-        "change_24h": 0.02,
+        "price": 0.141533,
+        "change_24h": 0.32,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 1.032,
-        "change_24h": -11.09,
-        "asset": "crypto"
-      },
-      {
         "symbol": "APT",
         "name": "Aptos",
-        "price": 0.749833,
-        "change_24h": -10.82,
+        "price": 0.754637,
+        "change_24h": -11.69,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.079673,
-        "change_24h": -10.66,
+        "price": 0.079446,
+        "change_24h": -11.6,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 1.036,
+        "change_24h": -10.96,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.183612,
-        "change_24h": -10.58,
+        "price": 0.184245,
+        "change_24h": -10.18,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 7.79,
-        "change_24h": -9.73,
+        "price": 7.81,
+        "change_24h": -9.7,
         "asset": "crypto"
       }
     ]
