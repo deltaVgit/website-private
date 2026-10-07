@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T12:45:45Z",
+  "updated_at": "2026-10-07T13:00:45Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "RAY",
+        "name": "Raydium",
+        "price": 2.45,
+        "change_24h": 10.25,
+        "asset": "crypto"
+      },
+      {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.395552,
-        "change_24h": 4.36,
+        "price": 0.397774,
+        "change_24h": 4.52,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.028,
-        "change_24h": 2.5,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.139918,
-        "change_24h": 1.89,
+        "change_24h": 2.46,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
         "price": 1.21,
-        "change_24h": 1.57,
+        "change_24h": 1.52,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.006347,
-        "change_24h": 0.53,
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.1394,
+        "change_24h": 1.47,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.707096,
-        "change_24h": -11.09,
-        "asset": "crypto"
-      },
-      {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 7.95,
-        "change_24h": -10.54,
+        "price": 7.94,
+        "change_24h": -10.72,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.57533,
-        "change_24h": -10.19,
+        "price": 0.575126,
+        "change_24h": -10.23,
         "asset": "crypto"
       },
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.515996,
-        "change_24h": -9.0,
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.711223,
+        "change_24h": -9.79,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
         "price": 2.24,
-        "change_24h": -8.94,
+        "change_24h": -9.25,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.513345,
+        "change_24h": -9.24,
         "asset": "crypto"
       }
     ]
