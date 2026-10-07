@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import BlogPostLayout from '@/components/BlogPostLayout';
 import { contentMetadata } from '@/lib/content-meta';
+import { PrivacyTowerFigure, PrivacyScorecardFigure, DoNotBuyFigure } from '../_figures/private-inference-figures';
 
 export const metadata: Metadata = contentMetadata('private-inference-solutions');
 
@@ -24,8 +25,10 @@ export default function PrivateInferenceSolutions() {
         <li><strong>Content</strong>: can anyone (provider, relay, operator) read the prompt?</li>
         <li><strong>Network</strong>: can an observer see that traffic exists at all, and from where?</li>
       </ul>
+      <PrivacyTowerFigure />
       <h2>The scorecard</h2>
       <p>Rating the field on our terms: threat coverage times trust assumed, with one honest question &mdash; <em>can you verify it yourself, or is it somebody's word?</em></p>
+      <PrivacyScorecardFigure />
       <div className="my-8 overflow-x-auto not-prose">
         <table className="w-full text-sm border-collapse" style={{ minWidth: '56rem' }}>
           <thead>
@@ -104,6 +107,7 @@ export default function PrivateInferenceSolutions() {
         <li><strong>Apple PCC / Google Confidential Inference,</strong> said fairly: best-in-class design &mdash; stateless, no retention, PCC even ships sepOS and iBoot in plaintext for researchers. But you extend deep trust to a vendor-graded hardware fleet you will never inspect, with closed weights, as a fully identified paying customer of the very company hosting it. Matthew Green's June 2026 read of the Apple-Google pairing is worth following for one reason: when both platform giants ship verifiable enclave serving, "we promise we don't look" dies industry-wide. That is progress. It is still not our recommendation; it is context for how high the bar is rising.</li>
         <li><strong>TEE-attested cloud,</strong> scoped honestly: Brave Leo's "Verifiably Private with NEAR AI TEE" (DeepSeek V3.1, NVIDIA-backed, attestation reports with model and code hashes) and Venice's Pro TEE/E2EE tier are <em>good practice</em> &mdash; the attestation report is a real artifact and you should read it. But it seals content only. The account, the bill and the operator's metadata log stay attached to you, plus three trust layers (hardware vendor, attestor, operator) that mostly go unexamined. For someone who must run a frontier model through a named account anyway, TEE is the right minimum: a content shield for a known identity. It is not one of the two rungs that clear the bar.</li>
       </ul>
+      <DoNotBuyFigure />
       <h2>The takeaway</h2>
       <ul>
         <li>Sensitive thinking: local (Ollama / LM Studio), full stop.</li>
