@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-07T17:30:44Z",
+  "updated_at": "2026-10-07T17:45:43Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "PENG",
-        "name": "Penguin Solutions, Inc.",
-        "price": 72.44,
-        "change_24h": 12.82,
+        "symbol": "BSP",
+        "name": "Bending Spoons S.p.A.",
+        "price": 38.22,
+        "change_24h": 15.58,
         "asset": "equity"
       },
       {
-        "symbol": "BSP",
-        "name": "Bending Spoons S.p.A.",
-        "price": 37.34,
-        "change_24h": 12.9,
+        "symbol": "PENG",
+        "name": "Penguin Solutions, Inc.",
+        "price": 71.86,
+        "change_24h": 11.92,
         "asset": "equity"
       },
       {
         "symbol": "NWE",
         "name": "NorthWestern Energy Group, Inc.",
-        "price": 74.89,
-        "change_24h": 8.65,
-        "asset": "equity"
-      },
-      {
-        "symbol": "BKH",
-        "name": "Black Hills Corporation",
-        "price": 76.84,
-        "change_24h": 8.63,
+        "price": 74.5,
+        "change_24h": 8.1,
         "asset": "equity"
       },
       {
         "symbol": "BRZE",
         "name": "Braze, Inc.",
-        "price": 28.5,
-        "change_24h": 8.22,
+        "price": 28.49,
+        "change_24h": 8.16,
+        "asset": "equity"
+      },
+      {
+        "symbol": "BKH",
+        "name": "Black Hills Corporation",
+        "price": 76.45,
+        "change_24h": 8.08,
         "asset": "equity"
       }
     ],
@@ -43,22 +43,22 @@
       {
         "symbol": "BULL",
         "name": "Webull Corporation",
-        "price": 5.865,
-        "change_24h": -19.43,
+        "price": 5.91,
+        "change_24h": -18.82,
         "asset": "equity"
       },
       {
         "symbol": "HESM",
         "name": "Hess Midstream LP",
-        "price": 33.0,
-        "change_24h": -14.71,
+        "price": 33.22,
+        "change_24h": -14.14,
         "asset": "equity"
       },
       {
         "symbol": "IESC",
         "name": "IES Holdings, Inc.",
-        "price": 307.32,
-        "change_24h": -10.1,
+        "price": 307.29,
+        "change_24h": -10.11,
         "asset": "equity"
       },
       {
@@ -69,10 +69,10 @@
         "asset": "equity"
       },
       {
-        "symbol": "XE",
-        "name": "X-Energy, Inc.",
-        "price": 14.16,
-        "change_24h": -8.35,
+        "symbol": "SKYD",
+        "name": "Paramount Skydance Corporation",
+        "price": 8.735,
+        "change_24h": -8.34,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "RAY",
         "name": "Raydium",
-        "price": 2.45,
-        "change_24h": 9.91,
+        "price": 2.44,
+        "change_24h": 10.5,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.26,
-        "change_24h": 5.05,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1.044,
-        "change_24h": 2.71,
+        "price": 1.27,
+        "change_24h": 6.09,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.12,
-        "change_24h": 1.56,
+        "price": 5.13,
+        "change_24h": 1.98,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.140783,
-        "change_24h": 0.23,
+        "price": 0.140871,
+        "change_24h": 0.58,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "OUSD",
+        "name": "Open USD",
+        "price": 1.004,
+        "change_24h": 0.41,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 1.023,
-        "change_24h": -12.06,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.3168,
-        "change_24h": -10.89,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.182443,
-        "change_24h": -9.87,
+        "price": 1.021,
+        "change_24h": -12.69,
         "asset": "crypto"
       },
       {
         "symbol": "APT",
         "name": "Aptos",
-        "price": 0.745336,
-        "change_24h": -9.87,
+        "price": 0.740518,
+        "change_24h": -10.77,
         "asset": "crypto"
       },
       {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 7.82,
-        "change_24h": -9.41,
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.316844,
+        "change_24h": -10.61,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.182915,
+        "change_24h": -9.72,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DOT",
+        "name": "Polkadot",
+        "price": 1.096,
+        "change_24h": -9.65,
         "asset": "crypto"
       }
     ]
