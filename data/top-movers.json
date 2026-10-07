@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T12:15:46Z",
+  "updated_at": "2026-10-07T12:30:46Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "RAY",
+        "name": "Raydium",
+        "price": 2.46,
+        "change_24h": 11.98,
+        "asset": "crypto"
+      },
+      {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.398819,
-        "change_24h": 4.9,
+        "price": 0.397553,
+        "change_24h": 4.53,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.036,
-        "change_24h": 3.36,
+        "price": 1.03,
+        "change_24h": 2.57,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.21,
-        "change_24h": 2.94,
+        "price": 1.2,
+        "change_24h": 2.14,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.140049,
-        "change_24h": 2.09,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.00639,
-        "change_24h": 0.58,
+        "price": 0.139455,
+        "change_24h": 1.62,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.574454,
-        "change_24h": -10.86,
+        "price": 0.573786,
+        "change_24h": -10.49,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 7.99,
-        "change_24h": -10.04,
+        "price": 7.94,
+        "change_24h": -10.37,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.703867,
+        "change_24h": -10.09,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 1.05,
+        "change_24h": -9.21,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.11,
-        "change_24h": -9.63,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CAKE",
-        "name": "PancakeSwap",
-        "price": 2.24,
-        "change_24h": -9.14,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 1.054,
-        "change_24h": -8.98,
+        "change_24h": -9.18,
         "asset": "crypto"
       }
     ]
