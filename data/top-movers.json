@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-07T15:45:45Z",
+  "updated_at": "2026-10-07T16:00:43Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "PENG",
         "name": "Penguin Solutions, Inc.",
-        "price": 73.9,
-        "change_24h": 15.09,
+        "price": 73.82,
+        "change_24h": 14.97,
         "asset": "equity"
       },
       {
         "symbol": "BKH",
         "name": "Black Hills Corporation",
-        "price": 77.8,
-        "change_24h": 9.98,
+        "price": 77.55,
+        "change_24h": 9.63,
         "asset": "equity"
       },
       {
         "symbol": "NWE",
         "name": "NorthWestern Energy Group, Inc.",
-        "price": 75.84,
-        "change_24h": 10.04,
+        "price": 75.48,
+        "change_24h": 9.52,
         "asset": "equity"
       },
       {
         "symbol": "BKV",
         "name": "BKV Corporation",
-        "price": 24.02,
-        "change_24h": 8.96,
+        "price": 24.03,
+        "change_24h": 8.98,
         "asset": "equity"
       },
       {
         "symbol": "GKOS",
         "name": "Glaukos Corporation",
-        "price": 172.72,
-        "change_24h": 6.89,
+        "price": 173.3,
+        "change_24h": 7.25,
         "asset": "equity"
       }
     ],
@@ -43,35 +43,35 @@
       {
         "symbol": "BULL",
         "name": "Webull Corporation",
-        "price": 5.7251,
-        "change_24h": -21.37,
+        "price": 5.83,
+        "change_24h": -19.92,
         "asset": "equity"
       },
       {
         "symbol": "HESM",
         "name": "Hess Midstream LP",
-        "price": 32.64,
-        "change_24h": -15.65,
-        "asset": "equity"
-      },
-      {
-        "symbol": "QXO",
-        "name": "QXO, Inc.",
-        "price": 10.82,
-        "change_24h": -10.61,
+        "price": 32.63,
+        "change_24h": -15.66,
         "asset": "equity"
       },
       {
         "symbol": "IESC",
         "name": "IES Holdings, Inc.",
-        "price": 308.68,
-        "change_24h": -9.7,
+        "price": 306.45,
+        "change_24h": -10.35,
         "asset": "equity"
       },
       {
-        "symbol": "CW",
-        "name": "Curtiss-Wright Corporation",
-        "price": 506.65,
+        "symbol": "QXO",
+        "name": "QXO, Inc.",
+        "price": 10.91,
+        "change_24h": -9.91,
+        "asset": "equity"
+      },
+      {
+        "symbol": "OUST",
+        "name": "Ouster, Inc.",
+        "price": 41.12,
         "change_24h": -8.44,
         "asset": "equity"
       }
@@ -82,29 +82,29 @@
       {
         "symbol": "RAY",
         "name": "Raydium",
-        "price": 2.49,
-        "change_24h": 13.29,
+        "price": 2.47,
+        "change_24h": 13.01,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
         "price": 1.24,
-        "change_24h": 3.27,
+        "change_24h": 2.95,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.140218,
+        "change_24h": 1.08,
         "asset": "crypto"
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
         "price": 1.036,
-        "change_24h": 0.89,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.139799,
-        "change_24h": 0.67,
+        "change_24h": 0.97,
         "asset": "crypto"
       },
       {
@@ -117,38 +117,38 @@
     ],
     "losers": [
       {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.314572,
-        "change_24h": -11.33,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "APT",
-        "name": "Aptos",
-        "price": 0.7488,
-        "change_24h": -10.66,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 1.038,
-        "change_24h": -10.58,
-        "asset": "crypto"
-      },
-      {
         "symbol": "CAKE",
         "name": "PancakeSwap",
-        "price": 2.2,
-        "change_24h": -10.37,
+        "price": 2.21,
+        "change_24h": -9.59,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.079236,
+        "change_24h": -9.59,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 7.83,
-        "change_24h": -10.32,
+        "price": 7.85,
+        "change_24h": -9.53,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 1.041,
+        "change_24h": -9.44,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.316313,
+        "change_24h": -9.28,
         "asset": "crypto"
       }
     ]
