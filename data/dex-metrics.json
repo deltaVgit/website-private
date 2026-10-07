@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T03:05:46Z",
+  "updated_at": "2026-10-07T04:06:00Z",
   "source": "https://api.llama.fi/overview/dexs",
   "weekly": [
     {
@@ -1258,9 +1258,9 @@
     },
     {
       "week": "2026-W41",
-      "curated": 25568544408.04,
-      "filtered": 25568544408.04,
-      "raw": 25568544408.04
+      "curated": 25338466901.23,
+      "filtered": 25338466901.23,
+      "raw": 25338466901.23
     }
   ],
   "chains": [
@@ -1271,18 +1271,18 @@
     },
     {
       "chain": "Raydium AMM",
-      "volume_24h": 181666590.0,
-      "delta_pct": 3.32
-    },
-    {
-      "chain": "Curve DEX",
-      "volume_24h": 97074891.0,
-      "delta_pct": 20.44
+      "volume_24h": 192461569.0,
+      "delta_pct": 9.46
     },
     {
       "chain": "PancakeSwap AMM",
       "volume_24h": 34777929.0,
       "delta_pct": -22.13
+    },
+    {
+      "chain": "Curve DEX",
+      "volume_24h": 21643159.0,
+      "delta_pct": -73.15
     },
     {
       "chain": "Quickswap Dex",
@@ -1296,33 +1296,33 @@
     },
     {
       "chain": "SushiSwap",
-      "volume_24h": 776399.0,
-      "delta_pct": 26.89
+      "volume_24h": 676273.0,
+      "delta_pct": 10.52
     },
     {
       "chain": "Balancer V1",
-      "volume_24h": 418728.0,
-      "delta_pct": 163.97
-    },
-    {
-      "chain": "Defi Swap",
-      "volume_24h": 264989.0,
-      "delta_pct": -2.12
+      "volume_24h": 418331.0,
+      "delta_pct": 163.72
     },
     {
       "chain": "Bancor V2.1",
-      "volume_24h": 257076.0,
-      "delta_pct": -36.74
+      "volume_24h": 267046.0,
+      "delta_pct": -34.28
     },
     {
       "chain": "Pangolin V2",
-      "volume_24h": 117860.0,
-      "delta_pct": 32.28
+      "volume_24h": 116392.0,
+      "delta_pct": 30.63
+    },
+    {
+      "chain": "Defi Swap",
+      "volume_24h": 18094.0,
+      "delta_pct": -93.32
     },
     {
       "chain": "Nerve",
-      "volume_24h": 7333.0,
-      "delta_pct": -69.23
+      "volume_24h": 8144.0,
+      "delta_pct": -65.82
     }
   ]
 }
