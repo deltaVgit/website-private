@@ -1,19 +1,91 @@
 [
   {
-    "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
-    "url": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
+    "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
+    "url": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
     "source": "The Hacker News",
-    "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (",
-    "added": "2026-10-07T06:57:54+00:00",
-    "expires": "2026-10-21T08:36:37Z"
+    "summary": "Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts. The campaign has been codenamed ",
+    "added": "2026-10-07T17:43:20+00:00",
+    "expires": "2026-10-21T19:06:11Z"
   },
   {
-    "title": "Ninja Forms plugin flaw exploited to hack WordPress sites",
-    "url": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
+    "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
+    "url": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
+    "source": "The Hacker News",
+    "summary": "SonicWall has released hotfixes for four flaws in its SMA1000 appliances, the gateways that give remote workers access to a company's network and applications. The most serious could allow an attacker without a login to ",
+    "added": "2026-10-07T16:17:44+00:00",
+    "expires": "2026-10-21T19:06:11Z"
+  },
+  {
+    "title": "Microsoft Outlook to block MSIX attachments starting November",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks/",
     "source": "BleepingComputer",
-    "summary": "Hackers are exploiting stored cross-site scripting (XSS) vulnerabilities in two unrelated WordPress plugins, Ninja Forms and WPC Product Bundles for WooCommerce, to install backdoors and create rogue admin accounts. [...",
-    "added": "2026-10-06T21:00:27+00:00",
-    "expires": "2026-10-21T08:36:34Z"
+    "summary": "Microsoft announced that it will add .msix and .msixbundle attachments to the list of blocked attachments in Outlook Web and the new Outlook Windows client starting next month. [...]",
+    "added": "2026-10-07T15:44:22+00:00",
+    "expires": "2026-10-21T19:06:10Z"
+  },
+  {
+    "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+    "url": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
+    "source": "The Hacker News",
+    "summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is availabl",
+    "added": "2026-10-07T15:34:53+00:00",
+    "expires": "2026-10-21T19:06:11Z"
+  },
+  {
+    "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
+    "url": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
+    "source": "The Hacker News",
+    "summary": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy cryptocurr",
+    "added": "2026-10-07T15:33:51+00:00",
+    "expires": "2026-10-21T19:06:11Z"
+  },
+  {
+    "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
+    "source": "BleepingComputer",
+    "summary": "A cryptomining campaign targeting exposed AI services is using PoeLLM malware to turn compromised servers into scanners and exploit launchpads. [...]",
+    "added": "2026-10-07T15:04:08+00:00",
+    "expires": "2026-10-21T19:06:10Z"
+  },
+  {
+    "title": "Ransomware has a new target. Is your backup ready?",
+    "url": "https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready/",
+    "source": "BleepingComputer",
+    "summary": "Ransomware groups are increasingly targeting backup infrastructure to eliminate recovery options and increase pressure on victims to pay. Kaseya explains why organizations need isolated, immutable, and regularly tested b",
+    "added": "2026-10-07T14:01:11+00:00",
+    "expires": "2026-10-21T19:06:10Z"
+  },
+  {
+    "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
+    "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+    "source": "Krebs on Security",
+    "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. Kreb",
+    "added": "2026-10-07T13:48:45+00:00",
+    "expires": "2026-10-21T19:06:11Z"
+  },
+  {
+    "title": "Hackers exploit critical Atlassian flaw after public PoC release",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
+    "source": "BleepingComputer",
+    "summary": "A critical vulnerability (CVE-2026-21589) affecting multiple Atlassian product families, including Jira, Confluence, and Bitbucket, is being exploited in attacks that do not require authentication. [...]",
+    "added": "2026-10-07T12:49:01+00:00",
+    "expires": "2026-10-21T19:06:10Z"
+  },
+  {
+    "title": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
+    "url": "https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html",
+    "source": "The Hacker News",
+    "summary": "The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging inside the systems where work actually h",
+    "added": "2026-10-07T11:57:05+00:00",
+    "expires": "2026-10-21T19:06:11Z"
+  },
+  {
+    "title": "SonicWall warns of max severity SSRF flaw in SMA1000 gateways",
+    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
+    "source": "BleepingComputer",
+    "summary": "SonicWall has released hotfixes to address a maximum-severity server-side request forgery (SSRF) flaw in SMA1000 series appliances. [...]",
+    "added": "2026-10-07T11:37:07+00:00",
+    "expires": "2026-10-21T19:06:10Z"
   },
   {
     "title": "ClickFix Attacks Evolve to Better Hide Malicious Payloads",
@@ -21,39 +93,15 @@
     "source": "Dark Reading",
     "summary": "Threat actors are now hiding payloads by using DNS TXT records and browser cache pre-fetching, making it tougher to spot early attack stages.",
     "added": "2026-10-06T20:32:58+00:00",
-    "expires": "2026-10-21T08:36:36Z"
+    "expires": "2026-10-21T19:06:11Z"
   },
   {
     "title": "Critical Healthcare Systems Aren't Quantum-Ready",
     "url": "https://www.darkreading.com/iot/exposed-healthcare-systems-quantum-ready",
     "source": "Dark Reading",
-    "summary": "A study of 2.5 million devices across 50 healthcare organization suggests the sector has a long way to go in getting ready for the post-quantum cryptography era.",
+    "summary": "A study of 2.5 million devices across 50 healthcare organizations suggests the sector has a long way to go in getting ready for the post-quantum cryptography era.",
     "added": "2026-10-06T20:30:27+00:00",
-    "expires": "2026-10-21T08:36:36Z"
-  },
-  {
-    "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/",
-    "source": "BleepingComputer",
-    "summary": "On the first day of the Pwn2Own Ireland 2026 competition, security researchers hacked the Samsung Galaxy S26 twice and earned $388,500 after exploiting 32 zero-days. [...]",
-    "added": "2026-10-06T19:21:53+00:00",
-    "expires": "2026-10-21T08:36:34Z"
-  },
-  {
-    "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
-    "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
-    "source": "The Hacker News",
-    "summary": "Cybersecurity researchers have disclosed details of a \"human-operated phishing platform\" that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic Claude, OpenAI ChatG",
-    "added": "2026-10-06T18:38:55+00:00",
-    "expires": "2026-10-21T08:36:37Z"
-  },
-  {
-    "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
-    "url": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
-    "source": "The Hacker News",
-    "summary": "Linux backdoors targeting telecom and network appliances in South Korea and Taiwan have been disguising their traffic as email services and seemingly legitimate processes to blend in and evade detection. Threat actors ar",
-    "added": "2026-10-06T18:24:25+00:00",
-    "expires": "2026-10-21T08:36:37Z"
+    "expires": "2026-10-21T19:06:11Z"
   },
   {
     "title": "Google's PageBreak AI Agent Finds 500 Flaws in Its Web Apps",
@@ -61,15 +109,7 @@
     "source": "Dark Reading",
     "summary": "The situation illustrates a trend toward using AI and deterministic validation to identify flaws and exploitability, and provide a risk assessment.",
     "added": "2026-10-06T17:56:29+00:00",
-    "expires": "2026-10-21T08:36:36Z"
-  },
-  {
-    "title": "Atlassian warns of critical file-access flaw in Jira, Confluence",
-    "url": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/",
-    "source": "BleepingComputer",
-    "summary": "Atlassian is warning customers of a critical vulnerability, tracked as CVE-2026-21589, that can be exploited for arbitrary file-access in multiple self-hosted Data Center products, including Confluence, Jira, and Bitbuck",
-    "added": "2026-10-06T17:34:59+00:00",
-    "expires": "2026-10-21T08:36:34Z"
+    "expires": "2026-10-21T19:06:11Z"
   },
   {
     "title": "IANS' Kakolowski: How AI Is Reshaping CISO Budgets & Security Teams",
@@ -77,7 +117,7 @@
     "source": "Dark Reading",
     "summary": "In this video interview, Nick Kakolowski, senior director for CISO research at IANS, talks AI: budgets, ROI, and changes inside security teams.",
     "added": "2026-10-06T17:15:24+00:00",
-    "expires": "2026-10-21T08:36:36Z"
+    "expires": "2026-10-21T19:06:11Z"
   },
   {
     "title": "'BigDiskBuster' Leaves Microsoft Defender Running While Blocking Updates",
@@ -85,46 +125,6 @@
     "source": "Dark Reading",
     "summary": "Not quite an EDR-killer, but the proof-of-concept cyber technique creates a silent virus detection gap while service runs normally, no exploit required.",
     "added": "2026-10-06T16:59:24+00:00",
-    "expires": "2026-10-21T08:36:36Z"
-  },
-  {
-    "title": "ASOS confirms data breach after “HACKED” in-app notifications",
-    "url": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/",
-    "source": "BleepingComputer",
-    "summary": "UK fashion retailer ASOS confirmed a data breach Tuesday after hackers sent unauthorized push notifications through its mobile app while claiming to have stolen customer data from the company's Snowflake environment. [..",
-    "added": "2026-10-06T16:33:54+00:00",
-    "expires": "2026-10-21T08:36:34Z"
-  },
-  {
-    "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
-    "url": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
-    "source": "BleepingComputer",
-    "summary": "A new campaign targeting ad account managers uses fake ChatGPT, Gemini, Claude, and Perplexity sites that steal login credentials and multi-factor authentication (MFA) codes through browser-in-browser attacks. [...]",
-    "added": "2026-10-06T15:16:44+00:00",
-    "expires": "2026-10-21T08:36:34Z"
-  },
-  {
-    "title": "Hitachi Energy REB500",
-    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-05",
-    "source": "CISA Advisories",
-    "summary": "View CSAF Summary Hitachi Energy is aware of open-source software vulnerabilities that affect REB500 product versions listed in this document. These vulnerabilities can be exploited to carry out Denial of Service (DoS) a",
-    "added": "2026-10-06T12:00:00+00:00",
-    "expires": "2026-10-21T08:36:37Z"
-  },
-  {
-    "title": "Hitachi Energy Asset Suite",
-    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-03",
-    "source": "CISA Advisories",
-    "summary": "View CSAF Summary Hitachi Energy is aware of unauthenticated servlet access vulnerabilities that affect Asset Suite product versions listed in this document. These vulnerabilities can be exploited to potentially cause co",
-    "added": "2026-10-06T12:00:00+00:00",
-    "expires": "2026-10-21T08:36:37Z"
-  },
-  {
-    "title": "Johnson Controls EasyIO FG",
-    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-01",
-    "source": "CISA Advisories",
-    "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain full unauthorized access to the device. The following versions of Johnson Controls EasyIO FG are affected: EasyIO FG firm",
-    "added": "2026-10-06T12:00:00+00:00",
-    "expires": "2026-10-21T08:36:37Z"
+    "expires": "2026-10-21T19:06:11Z"
   }
 ]
