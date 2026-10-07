@@ -29,62 +29,6 @@ export default function PrivateInferenceSolutions() {
       <h2>The scorecard</h2>
       <p>Rating the field on our terms: threat coverage times trust assumed, with one honest question &mdash; <em>can you verify it yourself, or is it somebody's word?</em></p>
       <PrivacyScorecardFigure />
-      <div className="my-8 overflow-x-auto not-prose">
-        <table className="w-full text-sm border-collapse" style={{ minWidth: '56rem' }}>
-          <thead>
-            <tr>
-          <th>Approach</th>
-          <th>Identity unlink</th>
-          <th>Content sealed</th>
-          <th>Network hidden</th>
-          <th>Trust you must extend</th>
-          <th>Verifiable by you</th>
-            </tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td><strong>Local</strong> (Ollama, LM Studio, llama.cpp)</td>
-            <td>5 &mdash; nothing leaves the machine</td>
-            <td>5</td>
-            <td>5</td>
-            <td>~none</td>
-            <td>5 &mdash; it's your machine</td>
-          </tr>
-          <tr>
-            <td><strong>zkAPI</strong> (EF, live on mainnet)</td>
-            <td>5 &mdash; Groth16 + nullifiers</td>
-            <td>0&ndash;1 &mdash; the provider reads the prompt</td>
-            <td>1 &mdash; their own admission; bring Tor</td>
-            <td>low: contract + crypto design, no operator honesty needed</td>
-            <td>5 &mdash; open contracts; check the vault on Etherscan</td>
-          </tr>
-          <tr>
-            <td><strong>TEE-attested cloud</strong> (Brave Leo, Venice Pro, Privatemode AI)</td>
-            <td>2 &mdash; account and bill exist</td>
-            <td>4 &mdash; enclave seals content; attestation covers code and weights</td>
-            <td>1</td>
-            <td>moderate: NVIDIA root of trust, attestor, operator metadata</td>
-            <td>3&ndash;4 &mdash; you can read the attestation report; most people won't</td>
-          </tr>
-          <tr>
-            <td><strong>Apple PCC / Google Confidential Inference</strong></td>
-            <td>2 &mdash; you're their customer</td>
-            <td>4 &mdash; same enclave class, stateless, no retention</td>
-            <td>2</td>
-            <td>high: vendor hardware, vendor-run attestation, closed weights</td>
-            <td>2 &mdash; transparent in design, opaque in production</td>
-          </tr>
-          <tr>
-            <td><strong>Policy-privacy chatbots</strong> ("no log by default", training opt-outs)</td>
-            <td>1</td>
-            <td>1 &mdash; "we promise"</td>
-            <td>1</td>
-            <td>total: their word, their infra, churn risk every ToS update</td>
-            <td>1</td>
-          </tr>
-          </tbody>
-        </table>
-      </div>
       <p>Two rungs survive that bar.</p>
       <h2>Rung 1: local, the only zero-trust tier</h2>
       <p><strong>Ollama</strong> (OpenAI-compatible on localhost), <strong>LM Studio</strong> (MLX backend, fully offline), and <strong>llama.cpp</strong> underneath make serious open-weight models run on consumer and Apple Silicon hardware. Nothing leaves the machine, so identity, content and network all score 5 by construction: leaks of exactly zero kinds.</p>
