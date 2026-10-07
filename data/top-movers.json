@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-07T17:15:44Z",
-  "source": "Yahoo Finance screener + Binance 24hr ticker (fallback)",
+  "updated_at": "2026-10-07T17:30:44Z",
+  "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "PENG",
         "name": "Penguin Solutions, Inc.",
-        "price": 73.06,
-        "change_24h": 13.78,
+        "price": 72.44,
+        "change_24h": 12.82,
         "asset": "equity"
       },
       {
         "symbol": "BSP",
         "name": "Bending Spoons S.p.A.",
-        "price": 37.16,
-        "change_24h": 12.37,
-        "asset": "equity"
-      },
-      {
-        "symbol": "BRZE",
-        "name": "Braze, Inc.",
-        "price": 28.62,
-        "change_24h": 8.66,
+        "price": 37.34,
+        "change_24h": 12.9,
         "asset": "equity"
       },
       {
         "symbol": "NWE",
         "name": "NorthWestern Energy Group, Inc.",
         "price": 74.89,
-        "change_24h": 8.66,
+        "change_24h": 8.65,
         "asset": "equity"
       },
       {
         "symbol": "BKH",
         "name": "Black Hills Corporation",
-        "price": 76.82,
-        "change_24h": 8.59,
+        "price": 76.84,
+        "change_24h": 8.63,
+        "asset": "equity"
+      },
+      {
+        "symbol": "BRZE",
+        "name": "Braze, Inc.",
+        "price": 28.5,
+        "change_24h": 8.22,
         "asset": "equity"
       }
     ],
@@ -44,35 +44,35 @@
         "symbol": "BULL",
         "name": "Webull Corporation",
         "price": 5.865,
-        "change_24h": -19.44,
+        "change_24h": -19.43,
         "asset": "equity"
       },
       {
         "symbol": "HESM",
         "name": "Hess Midstream LP",
-        "price": 32.93,
-        "change_24h": -14.89,
+        "price": 33.0,
+        "change_24h": -14.71,
         "asset": "equity"
       },
       {
         "symbol": "IESC",
         "name": "IES Holdings, Inc.",
-        "price": 305.37,
-        "change_24h": -10.67,
-        "asset": "equity"
-      },
-      {
-        "symbol": "ALMR",
-        "name": "Alamar Biosciences, Inc.",
-        "price": 29.36,
-        "change_24h": -9.0,
+        "price": 307.32,
+        "change_24h": -10.1,
         "asset": "equity"
       },
       {
         "symbol": "UUUU",
         "name": "Energy Fuels Inc",
-        "price": 10.29,
-        "change_24h": -8.66,
+        "price": 10.27,
+        "change_24h": -8.84,
+        "asset": "equity"
+      },
+      {
+        "symbol": "XE",
+        "name": "X-Energy, Inc.",
+        "price": 14.16,
+        "change_24h": -8.35,
         "asset": "equity"
       }
     ]
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "SAND",
-        "name": "SAND",
-        "price": 0.08207,
-        "change_24h": 25.07,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "HEMI",
-        "name": "HEMI",
-        "price": 0.00679,
-        "change_24h": 16.07,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "GLMR",
-        "name": "GLMR",
-        "price": 0.012034,
-        "change_24h": 13.28,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LAZIO",
-        "name": "LAZIO",
-        "price": 0.432,
-        "change_24h": 10.49,
-        "asset": "crypto"
-      },
-      {
         "symbol": "RAY",
-        "name": "RAY",
-        "price": 2.4611,
-        "change_24h": 9.99,
+        "name": "Raydium",
+        "price": 2.45,
+        "change_24h": 9.91,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.26,
+        "change_24h": 5.05,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.044,
+        "change_24h": 2.71,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.12,
+        "change_24h": 1.56,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.140783,
+        "change_24h": 0.23,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "MINA",
-        "name": "MINA",
-        "price": 0.0952,
-        "change_24h": -24.68,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RLC",
-        "name": "RLC",
-        "price": 0.6948,
-        "change_24h": -17.32,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ACE",
-        "name": "ACE",
-        "price": 0.1672,
-        "change_24h": -15.6,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MARSCOIN",
-        "name": "MARSCOIN",
-        "price": 0.098,
-        "change_24h": -12.34,
-        "asset": "crypto"
-      },
-      {
         "symbol": "FIL",
-        "name": "FIL",
-        "price": 1.0285,
-        "change_24h": -11.29,
+        "name": "Filecoin",
+        "price": 1.023,
+        "change_24h": -12.06,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.3168,
+        "change_24h": -10.89,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.182443,
+        "change_24h": -9.87,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "APT",
+        "name": "Aptos",
+        "price": 0.745336,
+        "change_24h": -9.87,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 7.82,
+        "change_24h": -9.41,
         "asset": "crypto"
       }
     ]
