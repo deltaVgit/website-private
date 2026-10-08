@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T21:45:44Z",
+  "updated_at": "2026-10-08T22:00:51Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "PYTH",
+        "name": "Pyth Network",
+        "price": 0.082441,
+        "change_24h": 14.19,
+        "asset": "crypto"
+      },
+      {
         "symbol": "BTW",
         "name": "Bitway",
         "price": 1.4,
-        "change_24h": 9.6,
+        "change_24h": 9.16,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 1.075,
-        "change_24h": 3.83,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ONDO",
-        "name": "Ondo",
-        "price": 0.484367,
-        "change_24h": 3.81,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "STX",
-        "name": "Stacks",
-        "price": 0.377283,
-        "change_24h": 3.72,
+        "price": 1.078,
+        "change_24h": 4.03,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.815922,
-        "change_24h": 3.18,
+        "price": 0.815962,
+        "change_24h": 3.37,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "price": 0.480691,
+        "change_24h": 3.09,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.53,
-        "change_24h": -13.9,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 22.68,
-        "change_24h": -9.69,
+        "price": 4.52,
+        "change_24h": -14.55,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1183.55,
-        "change_24h": -9.46,
+        "price": 1183.82,
+        "change_24h": -10.01,
         "asset": "crypto"
       },
       {
-        "symbol": "AVAX",
-        "name": "Avalanche",
-        "price": 10.11,
-        "change_24h": -8.23,
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 22.63,
+        "change_24h": -9.93,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 1.98,
+        "change_24h": -8.95,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
-        "price": 1.85,
-        "change_24h": -8.22,
+        "price": 1.84,
+        "change_24h": -8.57,
         "asset": "crypto"
       }
     ]
