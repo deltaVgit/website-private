@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T19:06:12Z",
+  "updatedAt": "2026-10-08T04:36:06Z",
   "kev": [
     {
       "cve": "CVE-2026-88779",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-100740",
+      "id": "CVE-2026-101001",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "description": "A vulnerability was identified in Netcore NBR200V2 1.3.241127.071246. This impacts the function eval of the file /www/cgi-bin/network_tools of the component Web Management Interface. Such manipulation of the argument QUE",
+      "published": "2026-09-28T05:16:30.570"
+    },
+    {
+      "id": "CVE-2026-101000",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "description": "A vulnerability was determined in Netcore NBR100V2 1.3.240614.030928. This affects the function uci.apply of the file /usr/share/rpcd/acl.d/unauthenticated.json of the component ACL Handler. This manipulation of the argu",
+      "published": "2026-09-28T05:16:30.270"
+    },
+    {
+      "id": "CVE-2026-101002",
       "severity": "CRITICAL",
       "score": 9.9,
-      "description": "A vulnerability was detected in D-Link DIR-895L A1_102b07. Impacted is the function tunnel_set_params of the file tunnel.c of the component L2TP Control Channel Parser. Performing a manipulation results in out-of-bounds ",
-      "published": "2026-09-27T01:17:17.810"
+      "description": "A security flaw has been discovered in Netcore NBR200V2 1.3.241127.071246. Affected is the function system of the file /usr/bin/network_tools of the component Tools Ping Handler. Performing a manipulation of the argument",
+      "published": "2026-09-28T06:16:29.783"
     },
     {
-      "id": "CVE-2026-100721",
+      "id": "CVE-2026-100896",
       "severity": "CRITICAL",
-      "score": 9.0,
-      "description": "vm2 before 3.12.2 contains an authorization bypass in the NodeVM external-module resolver. When an embedder configures `require.external` with a custom resolver (and `context: 'host'`), `LegacyResolver.customResolve` in ",
-      "published": "2026-09-27T02:17:17.547"
+      "score": 9.9,
+      "description": "A weakness has been identified in TOTOLINK N150RT 3.4.0-B20201030. The affected element is the function system of the file /boafrm/formWlSiteSurvey of the component Web Management Interface. This manipulation of the argu",
+      "published": "2026-09-28T02:17:19.617"
     },
     {
-      "id": "CVE-2026-100856",
+      "id": "CVE-2026-101008",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "description": "A vulnerability was found in aaPanel BaoTa up to 11.8.0. Impacted is the function merge_split_file of the file /www/server/panel/class/files.py of the component File Merge Handler. Performing a manipulation of the argume",
+      "published": "2026-09-28T07:17:20.403"
+    },
+    {
+      "id": "CVE-2026-100750",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "AzuraCast before 0.23.6 contains a code injection vulnerability in the remote relay password field due to incomplete migration from the vulnerable cleanUpString method to toRawString. Attackers with RemoteRelays station ",
-      "published": "2026-09-27T02:17:25.050"
+      "score": 8.5,
+      "description": "Joomla Extension - regularlabs.com - LFI / SSRF in Modules Anywhere 1.5.0 - 9.0.5 for Joomla - Modules Anywhere Pro lets additional attributes on a module tag replace arbitrary parameters of the selected module. This fea",
+      "published": "2026-09-28T07:17:18.620"
     },
     {
-      "id": "CVE-2026-100852",
-      "severity": "HIGH",
-      "score": 8.8,
-      "description": "AzuraCast before 0.23.8 contains a command injection vulnerability in the Liquidsoap config generation for live recording that fails to quote the streamer username in process.run calls. Authenticated station users with S",
-      "published": "2026-09-27T02:17:24.437"
-    },
-    {
-      "id": "CVE-2026-100844",
-      "severity": "HIGH",
-      "score": 8.4,
-      "description": "MONAI before 1.6.0 is vulnerable to OS command injection in the nnUNetV2Runner component (monai.apps.nnunet.nnunetv2_runner). User-controlled values taken from the YAML configuration file (notably dataset_name_or_id) and",
-      "published": "2026-09-27T02:17:22.993"
-    },
-    {
-      "id": "CVE-2026-100839",
+      "id": "CVE-2026-101009",
       "severity": "HIGH",
       "score": 8.4,
-      "description": "Contrast is a confidential-computing runtime for Kubernetes. In versions before 1.18.0, the guest kernel's ACPI/AML handling is vulnerable to an AML injection attack (\"BadAML\"). ACPI tables containing AML bytecode are pa",
-      "published": "2026-09-27T02:17:22.230"
+      "description": "A vulnerability was determined in aaPanel BaoTa up to 11.8.0. The affected element is the function panelTask.bt_task._unzip of the file /www/server/panel/class/panelTask.py of the component Unzip Handler. Executing a man",
+      "published": "2026-09-28T07:17:20.573"
     },
     {
-      "id": "CVE-2026-100833",
+      "id": "CVE-2026-101007",
       "severity": "HIGH",
-      "score": 8.2,
-      "description": "Contrast (edgelesssys/contrast) versions 1.14.0 before 1.23.1 generate runtime policies that fail to detect all container image substitutions. A bad rebase during a Kata Containers update accidentally introduced an `allo",
-      "published": "2026-09-27T02:17:21.323"
+      "score": 8.4,
+      "description": "A vulnerability has been found in aaPanel BaoTa up to 11.8.0. This issue affects the function InputSql of the file class/database.py of the component Database Backup Handler. Such manipulation of the argument Password le",
+      "published": "2026-09-28T07:17:20.197"
     },
     {
-      "id": "CVE-2026-100857",
+      "id": "CVE-2026-100751",
       "severity": "HIGH",
-      "score": 8.0,
-      "description": "AzuraCast before 0.23.4 contains a code injection vulnerability in the ConfigWriter::cleanUpString() method that fails to sanitize Liquidsoap string interpolation sequences, allowing authenticated users with Media or Pro",
-      "published": "2026-09-27T02:17:25.197"
+      "score": 7.5,
+      "description": "Joomla Extension - regularlabs.com - Privileged stored XSS via data-rlta-url attributes in Tabs & Accordions (Pro) 2.3.0 - 3.1.0 - Tabs & Accordions Pro accepts a url option for an item and writes it to a generated data-",
+      "published": "2026-09-28T07:17:19.703"
     },
     {
-      "id": "CVE-2026-100845",
+      "id": "CVE-2026-100908",
       "severity": "HIGH",
-      "score": 7.8,
-      "description": "MONAI before 1.6.0 contains an unsafe deserialization vulnerability in the NumpyReader class that unconditionally uses numpy.load with allow_pickle=True when loading .npy and .npz files. Attackers can craft malicious .np",
-      "published": "2026-09-27T02:17:23.140"
+      "score": 7.5,
+      "description": "A vulnerability has been found in Eyeplus 57.0.0.0308. This affects an unknown function of the component p2pcam HTTP Parser. Such manipulation leads to stack-based buffer overflow. The attack may be performed from remote",
+      "published": "2026-09-28T05:16:29.877"
     },
     {
-      "id": "CVE-2026-100843",
+      "id": "CVE-2026-101005",
       "severity": "HIGH",
-      "score": 7.8,
-      "description": "MONAI versions before 1.6.0 contain a remote code execution vulnerability in the algo_from_pickle() function due to unsafe pickle.loads() deserialization in monai/auto3dseg/utils.py. Attackers can craft malicious pickle ",
-      "published": "2026-09-27T02:17:22.853"
+      "score": 7.3,
+      "description": "A vulnerability was detected in October CMS up to 4.3.4. This affects the function validateExternalImageHost of the file System/Classes/ResizeImages.php of the component SSRF Protection. The manipulation results in serve",
+      "published": "2026-09-28T07:17:19.827"
     },
     {
-      "id": "CVE-2026-100841",
+      "id": "CVE-2026-100909",
       "severity": "HIGH",
-      "score": 7.8,
-      "description": "In MONAI 1.6.0, PersistentDataset (monai/data/dataset.py) explicitly rejects the combination track_meta=True with weights_only=True, forcing users who cache MetaTensors (the default tensor type in MONAI >= 1.0) to run to",
-      "published": "2026-09-27T02:17:22.543"
-    },
-    {
-      "id": "CVE-2026-100840",
-      "severity": "HIGH",
-      "score": 7.8,
-      "description": "MONAI through 1.6.0 contains a remote code execution vulnerability in the bundle configuration engine that resolves _target_ values to arbitrary importable callables without an allow list and passes $ expressions to Pyth",
-      "published": "2026-09-27T02:17:22.387"
+      "score": 7.3,
+      "description": "A vulnerability was found in OctoberCMS up to 4.1.19/4.2.25/4.3.4. The impacted element is the function getSourcePathForResize of the file modules/system/classes/ResizeImages.php. The manipulation of the argument realSou",
+      "published": "2026-09-28T05:16:30.067"
     }
   ],
   "breaches": [
@@ -265,6 +265,13 @@
       "data": "Email addresses, Names, Passwords, Usernames"
     },
     {
+      "name": "CyrusOne",
+      "domain": "cyrusone.com",
+      "date": "2026-08-05",
+      "count": 373460,
+      "data": "Email addresses, Employers, Job titles, Names, Phone numbers"
+    },
+    {
       "name": "Chess2026",
       "domain": "chess.com",
       "date": "2026-08-03",
@@ -291,13 +298,6 @@
       "date": "2026-07-27",
       "count": 1596490,
       "data": "Email addresses, Names, Phone numbers, Physical addresses"
-    },
-    {
-      "name": "SplitVPN",
-      "domain": "splitvpn.io",
-      "date": "2026-07-21",
-      "count": 865336,
-      "data": "Device information, Email addresses, Geographic locations, IP addresses, Partial credit card data"
     }
   ]
 }

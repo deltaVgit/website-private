@@ -1,11 +1,75 @@
 [
   {
+    "title": "Ransomware recovery CEO charged over secret ransom payments",
+    "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
+    "source": "BleepingComputer",
+    "summary": "The owner of ransomware remediation company MonsterCloud has been charged with allegedly defrauding ransomware victims by secretly paying their attackers for decryptors while claiming to use proprietary technology to rec",
+    "added": "2026-10-07T23:04:37+00:00",
+    "expires": "2026-10-22T04:36:05Z"
+  },
+  {
+    "title": "Australian Gov't Weighs Mandatory AI Incident Reporting",
+    "url": "https://www.darkreading.com/cybersecurity-operations/australian-govt-ai-incident-reporting",
+    "source": "Dark Reading",
+    "summary": "In the wake of an agentic attack against its own Medicare systems, Australia's government is feeling out what regulations might look like for frontier AI companies.",
+    "added": "2026-10-07T21:42:55+00:00",
+    "expires": "2026-10-22T04:36:05Z"
+  },
+  {
+    "title": "FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins",
+    "url": "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
+    "source": "BleepingComputer",
+    "summary": "The FBI is warning that FortiBleed attacks are still ongoing, targeting exposed Fortinet FortiGate firewalls and SSL VPN gateways and locking out legitimate administrators. [...]",
+    "added": "2026-10-07T21:28:54+00:00",
+    "expires": "2026-10-22T04:36:05Z"
+  },
+  {
+    "title": "Citizen Lab Slams Trump Administration, 'Techno-Fascist' Executives",
+    "url": "https://www.darkreading.com/cyber-risk/citizen-lab-slams-trump-administration-techno-fascist-executives",
+    "source": "Dark Reading",
+    "summary": "The Citizen Lab's Ron Deibert warns the US government is pushing for pervasive surveillance and says certain technology executives are all too happy to help.",
+    "added": "2026-10-07T21:25:13+00:00",
+    "expires": "2026-10-22T04:36:05Z"
+  },
+  {
+    "title": "Anthropic Gives Vetted Defenders Fewer Claude Guardrails",
+    "url": "https://www.darkreading.com/vulnerabilities-threats/anthropic-vetted-defenders-claude-guardrails",
+    "source": "Dark Reading",
+    "summary": "Anthropic has merged Project Glasswing into a tiered access program for its advanced cyber LLMs, including Opus, Sonnet, and Mythos.",
+    "added": "2026-10-07T20:51:25+00:00",
+    "expires": "2026-10-22T04:36:05Z"
+  },
+  {
+    "title": "Hackers hijack Google domains after breaching ccTLD registries",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
+    "source": "BleepingComputer",
+    "summary": "Hackers obtained unauthorized HTTPS certificates for several Google domains and hijacked domains in the country-code top-level domains (ccTLDs) for Ghana, American Samoa, and Sierra Leone after compromising third-party o",
+    "added": "2026-10-07T20:50:13+00:00",
+    "expires": "2026-10-22T04:36:05Z"
+  },
+  {
+    "title": "OpenAI Agent Escape Causes Wikimedia Service Outage",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/openai-agent-escape-causes-wikimedia-service-outage",
+    "source": "Dark Reading",
+    "summary": "Autonomous agents also tried to abuse other websites and services hosted by the foundation, using them as proxies for unauthorized activities.",
+    "added": "2026-10-07T19:34:08+00:00",
+    "expires": "2026-10-22T04:36:05Z"
+  },
+  {
+    "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
+    "url": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+    "source": "The Hacker News",
+    "summary": "Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google said on October 6. Google's own systems were not breached, but any domai",
+    "added": "2026-10-07T18:48:17+00:00",
+    "expires": "2026-10-22T04:36:06Z"
+  },
+  {
     "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
     "url": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
     "source": "The Hacker News",
     "summary": "Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts. The campaign has been codenamed ",
     "added": "2026-10-07T17:43:20+00:00",
-    "expires": "2026-10-21T19:06:11Z"
+    "expires": "2026-10-22T04:36:06Z"
   },
   {
     "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
@@ -13,7 +77,7 @@
     "source": "The Hacker News",
     "summary": "SonicWall has released hotfixes for four flaws in its SMA1000 appliances, the gateways that give remote workers access to a company's network and applications. The most serious could allow an attacker without a login to ",
     "added": "2026-10-07T16:17:44+00:00",
-    "expires": "2026-10-21T19:06:11Z"
+    "expires": "2026-10-22T04:36:06Z"
   },
   {
     "title": "Microsoft Outlook to block MSIX attachments starting November",
@@ -21,7 +85,7 @@
     "source": "BleepingComputer",
     "summary": "Microsoft announced that it will add .msix and .msixbundle attachments to the list of blocked attachments in Outlook Web and the new Outlook Windows client starting next month. [...]",
     "added": "2026-10-07T15:44:22+00:00",
-    "expires": "2026-10-21T19:06:10Z"
+    "expires": "2026-10-22T04:36:05Z"
   },
   {
     "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
@@ -29,7 +93,7 @@
     "source": "The Hacker News",
     "summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is availabl",
     "added": "2026-10-07T15:34:53+00:00",
-    "expires": "2026-10-21T19:06:11Z"
+    "expires": "2026-10-22T04:36:06Z"
   },
   {
     "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
@@ -37,7 +101,7 @@
     "source": "The Hacker News",
     "summary": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy cryptocurr",
     "added": "2026-10-07T15:33:51+00:00",
-    "expires": "2026-10-21T19:06:11Z"
+    "expires": "2026-10-22T04:36:06Z"
   },
   {
     "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
@@ -45,15 +109,7 @@
     "source": "BleepingComputer",
     "summary": "A cryptomining campaign targeting exposed AI services is using PoeLLM malware to turn compromised servers into scanners and exploit launchpads. [...]",
     "added": "2026-10-07T15:04:08+00:00",
-    "expires": "2026-10-21T19:06:10Z"
-  },
-  {
-    "title": "Ransomware has a new target. Is your backup ready?",
-    "url": "https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready/",
-    "source": "BleepingComputer",
-    "summary": "Ransomware groups are increasingly targeting backup infrastructure to eliminate recovery options and increase pressure on victims to pay. Kaseya explains why organizations need isolated, immutable, and regularly tested b",
-    "added": "2026-10-07T14:01:11+00:00",
-    "expires": "2026-10-21T19:06:10Z"
+    "expires": "2026-10-22T04:36:05Z"
   },
   {
     "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
@@ -61,31 +117,7 @@
     "source": "Krebs on Security",
     "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. Kreb",
     "added": "2026-10-07T13:48:45+00:00",
-    "expires": "2026-10-21T19:06:11Z"
-  },
-  {
-    "title": "Hackers exploit critical Atlassian flaw after public PoC release",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
-    "source": "BleepingComputer",
-    "summary": "A critical vulnerability (CVE-2026-21589) affecting multiple Atlassian product families, including Jira, Confluence, and Bitbucket, is being exploited in attacks that do not require authentication. [...]",
-    "added": "2026-10-07T12:49:01+00:00",
-    "expires": "2026-10-21T19:06:10Z"
-  },
-  {
-    "title": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
-    "url": "https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html",
-    "source": "The Hacker News",
-    "summary": "The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging inside the systems where work actually h",
-    "added": "2026-10-07T11:57:05+00:00",
-    "expires": "2026-10-21T19:06:11Z"
-  },
-  {
-    "title": "SonicWall warns of max severity SSRF flaw in SMA1000 gateways",
-    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
-    "source": "BleepingComputer",
-    "summary": "SonicWall has released hotfixes to address a maximum-severity server-side request forgery (SSRF) flaw in SMA1000 series appliances. [...]",
-    "added": "2026-10-07T11:37:07+00:00",
-    "expires": "2026-10-21T19:06:10Z"
+    "expires": "2026-10-22T04:36:05Z"
   },
   {
     "title": "ClickFix Attacks Evolve to Better Hide Malicious Payloads",
@@ -93,38 +125,6 @@
     "source": "Dark Reading",
     "summary": "Threat actors are now hiding payloads by using DNS TXT records and browser cache pre-fetching, making it tougher to spot early attack stages.",
     "added": "2026-10-06T20:32:58+00:00",
-    "expires": "2026-10-21T19:06:11Z"
-  },
-  {
-    "title": "Critical Healthcare Systems Aren't Quantum-Ready",
-    "url": "https://www.darkreading.com/iot/exposed-healthcare-systems-quantum-ready",
-    "source": "Dark Reading",
-    "summary": "A study of 2.5 million devices across 50 healthcare organizations suggests the sector has a long way to go in getting ready for the post-quantum cryptography era.",
-    "added": "2026-10-06T20:30:27+00:00",
-    "expires": "2026-10-21T19:06:11Z"
-  },
-  {
-    "title": "Google's PageBreak AI Agent Finds 500 Flaws in Its Web Apps",
-    "url": "https://www.darkreading.com/application-security/google-pagebreak-ai-agent-500-flaws-web-apps",
-    "source": "Dark Reading",
-    "summary": "The situation illustrates a trend toward using AI and deterministic validation to identify flaws and exploitability, and provide a risk assessment.",
-    "added": "2026-10-06T17:56:29+00:00",
-    "expires": "2026-10-21T19:06:11Z"
-  },
-  {
-    "title": "IANS' Kakolowski: How AI Is Reshaping CISO Budgets & Security Teams",
-    "url": "https://www.darkreading.com/cybersecurity-operations/ai-reshaping-ciso-budgets-security-teams",
-    "source": "Dark Reading",
-    "summary": "In this video interview, Nick Kakolowski, senior director for CISO research at IANS, talks AI: budgets, ROI, and changes inside security teams.",
-    "added": "2026-10-06T17:15:24+00:00",
-    "expires": "2026-10-21T19:06:11Z"
-  },
-  {
-    "title": "'BigDiskBuster' Leaves Microsoft Defender Running While Blocking Updates",
-    "url": "https://www.darkreading.com/application-security/bigdiskbuster-microsoft-defender-running-blocking-updates",
-    "source": "Dark Reading",
-    "summary": "Not quite an EDR-killer, but the proof-of-concept cyber technique creates a silent virus detection gap while service runs normally, no exploit required.",
-    "added": "2026-10-06T16:59:24+00:00",
-    "expires": "2026-10-21T19:06:11Z"
+    "expires": "2026-10-22T04:36:05Z"
   }
 ]
