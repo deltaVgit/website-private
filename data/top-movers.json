@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T22:00:51Z",
+  "updated_at": "2026-10-08T22:15:46Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "PYTH",
-        "name": "Pyth Network",
-        "price": 0.082441,
-        "change_24h": 14.19,
-        "asset": "crypto"
-      },
-      {
         "symbol": "BTW",
         "name": "Bitway",
         "price": 1.4,
-        "change_24h": 9.16,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 1.078,
-        "change_24h": 4.03,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.815962,
-        "change_24h": 3.37,
+        "change_24h": 8.63,
         "asset": "crypto"
       },
       {
         "symbol": "ONDO",
         "name": "Ondo",
-        "price": 0.480691,
-        "change_24h": 3.09,
+        "price": 0.484384,
+        "change_24h": 3.73,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 1.079,
+        "change_24h": 3.48,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ATOM",
+        "name": "Cosmos Hub",
+        "price": 1.76,
+        "change_24h": 3.27,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.817189,
+        "change_24h": 3.18,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.52,
-        "change_24h": -14.55,
+        "price": 4.54,
+        "change_24h": -14.29,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1183.82,
-        "change_24h": -10.01,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 22.63,
-        "change_24h": -9.93,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 1.98,
-        "change_24h": -8.95,
+        "price": 1184.74,
+        "change_24h": -9.85,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
         "price": 1.84,
-        "change_24h": -8.57,
+        "change_24h": -8.84,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 22.92,
+        "change_24h": -8.66,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 2.0,
+        "change_24h": -8.58,
         "asset": "crypto"
       }
     ]
