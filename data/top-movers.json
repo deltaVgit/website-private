@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T11:45:43Z",
+  "updated_at": "2026-10-08T12:00:46Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.369868,
+        "change_24h": 15.0,
+        "asset": "crypto"
+      },
+      {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.133067,
-        "change_24h": 13.92,
+        "price": 0.133199,
+        "change_24h": 14.51,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.38,
-        "change_24h": 12.58,
+        "price": 1.37,
+        "change_24h": 11.77,
         "asset": "crypto"
       },
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.030779,
-        "change_24h": 11.13,
+        "price": 0.030423,
+        "change_24h": 8.57,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
-        "price": 1.81,
-        "change_24h": 7.84,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ONDO",
-        "name": "Ondo",
-        "price": 0.481696,
-        "change_24h": 4.08,
+        "price": 1.8,
+        "change_24h": 7.64,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.00584,
-        "change_24h": -8.09,
+        "price": 0.005764,
+        "change_24h": -9.62,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 24.3,
-        "change_24h": -7.67,
+        "price": 24.27,
+        "change_24h": -8.02,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1209.29,
-        "change_24h": -6.67,
+        "price": 1205.89,
+        "change_24h": -7.04,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.07843,
-        "change_24h": -5.94,
+        "price": 0.07851,
+        "change_24h": -5.89,
         "asset": "crypto"
       },
       {
-        "symbol": "OKB",
-        "name": "OKB",
-        "price": 124.88,
-        "change_24h": -5.58,
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 2.02,
+        "change_24h": -5.75,
         "asset": "crypto"
       }
     ]
