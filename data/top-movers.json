@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-08T19:45:50Z",
+  "updated_at": "2026-10-08T20:00:46Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "HAE",
         "name": "Haemonetics Corporation",
-        "price": 118.47,
-        "change_24h": 16.48,
+        "price": 119.59,
+        "change_24h": 17.58,
         "asset": "equity"
       },
       {
         "symbol": "MANE",
         "name": "Veradermics, Incorporated",
-        "price": 124.75,
-        "change_24h": 12.44,
+        "price": 126.68,
+        "change_24h": 14.18,
         "asset": "equity"
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "price": 12.75,
-        "change_24h": 11.84,
+        "price": 12.66,
+        "change_24h": 11.05,
         "asset": "equity"
       },
       {
         "symbol": "COCO",
         "name": "The Vita Coco Company, Inc.",
-        "price": 56.65,
-        "change_24h": 11.85,
+        "price": 55.98,
+        "change_24h": 10.52,
         "asset": "equity"
       },
       {
         "symbol": "ERAS",
         "name": "Erasca, Inc.",
-        "price": 15.52,
-        "change_24h": 9.92,
+        "price": 15.46,
+        "change_24h": 9.49,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "price": 105.27,
-        "change_24h": -14.09,
+        "price": 105.9,
+        "change_24h": -13.58,
         "asset": "equity"
       },
       {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "price": 93.56,
-        "change_24h": -12.85,
-        "asset": "equity"
-      },
-      {
-        "symbol": "EQPT",
-        "name": "EquipmentShare.com Inc",
-        "price": 15.35,
-        "change_24h": -13.21,
-        "asset": "equity"
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "price": 78.9,
-        "change_24h": -11.64,
+        "price": 93.7,
+        "change_24h": -12.72,
         "asset": "equity"
       },
       {
         "symbol": "ARGX",
         "name": "argenx SE",
-        "price": 823.27,
-        "change_24h": -11.33,
+        "price": 818.63,
+        "change_24h": -11.83,
+        "asset": "equity"
+      },
+      {
+        "symbol": "EQPT",
+        "name": "EquipmentShare.com Inc",
+        "price": 15.66,
+        "change_24h": -11.43,
+        "asset": "equity"
+      },
+      {
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "price": 79.59,
+        "change_24h": -10.87,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "PYTH",
-        "name": "Pyth Network",
-        "price": 0.08219,
-        "change_24h": 13.85,
-        "asset": "crypto"
-      },
-      {
         "symbol": "BTW",
         "name": "Bitway",
         "price": 1.39,
-        "change_24h": 7.42,
+        "change_24h": 8.62,
         "asset": "crypto"
       },
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.029228,
-        "change_24h": 7.36,
+        "price": 0.029286,
+        "change_24h": 7.38,
         "asset": "crypto"
       },
       {
         "symbol": "ONDO",
         "name": "Ondo",
-        "price": 0.493871,
-        "change_24h": 4.85,
+        "price": 0.490133,
+        "change_24h": 4.43,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.341475,
-        "change_24h": 4.41,
+        "price": 0.337859,
+        "change_24h": 3.55,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.824455,
+        "change_24h": 3.38,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.56,
-        "change_24h": -14.87,
+        "price": 4.57,
+        "change_24h": -14.46,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.005515,
-        "change_24h": -14.69,
+        "price": 0.005531,
+        "change_24h": -13.92,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1161.52,
-        "change_24h": -12.98,
+        "price": 1165.79,
+        "change_24h": -12.25,
         "asset": "crypto"
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price": 10.08,
-        "change_24h": -10.74,
+        "price": 10.1,
+        "change_24h": -10.21,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 6.75,
-        "change_24h": -10.35,
+        "price": 6.76,
+        "change_24h": -10.12,
         "asset": "crypto"
       }
     ]
