@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T02:30:45Z",
+  "updated_at": "2026-10-08T02:45:43Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "RAY",
+        "name": "Raydium",
+        "price": 2.48,
+        "change_24h": 14.62,
+        "asset": "crypto"
+      },
+      {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.372464,
-        "change_24h": 12.59,
+        "price": 0.37376,
+        "change_24h": 12.69,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
         "price": 1.35,
-        "change_24h": 11.66,
+        "change_24h": 10.99,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.4,
-        "change_24h": 8.5,
+        "price": 5.41,
+        "change_24h": 9.32,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.006326,
+        "symbol": "ATOM",
+        "name": "Cosmos Hub",
+        "price": 1.74,
         "change_24h": 2.09,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.801347,
-        "change_24h": 1.74,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.080056,
-        "change_24h": -7.15,
+        "price": 0.080186,
+        "change_24h": -7.51,
         "asset": "crypto"
       },
       {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.046478,
-        "change_24h": -6.82,
+        "price": 0.046589,
+        "change_24h": -6.21,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.728079,
-        "change_24h": -5.23,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PI",
-        "name": "Pi Network",
-        "price": 0.080585,
-        "change_24h": -4.25,
+        "price": 0.728893,
+        "change_24h": -5.59,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
         "price": 25.57,
-        "change_24h": -4.14,
+        "change_24h": -4.68,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 3.57,
+        "change_24h": -4.52,
         "asset": "crypto"
       }
     ]
