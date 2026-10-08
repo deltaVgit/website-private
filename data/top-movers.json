@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T07:30:49Z",
+  "updated_at": "2026-10-08T07:45:45Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.379552,
+        "change_24h": 14.03,
+        "asset": "crypto"
+      },
+      {
         "symbol": "BTW",
         "name": "Bitway",
         "price": 1.38,
-        "change_24h": 11.38,
+        "change_24h": 10.84,
         "asset": "crypto"
       },
       {
         "symbol": "RAY",
         "name": "Raydium",
-        "price": 2.51,
-        "change_24h": 9.87,
+        "price": 2.5,
+        "change_24h": 10.22,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.49,
-        "change_24h": 5.95,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ATOM",
-        "name": "Cosmos Hub",
-        "price": 1.78,
-        "change_24h": 4.08,
+        "price": 5.48,
+        "change_24h": 5.6,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.123628,
-        "change_24h": 3.11,
+        "price": 0.126068,
+        "change_24h": 5.05,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.079667,
-        "change_24h": -8.26,
+        "price": 0.079993,
+        "change_24h": -7.94,
         "asset": "crypto"
       },
       {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.045482,
-        "change_24h": -7.34,
+        "price": 0.045401,
+        "change_24h": -7.4,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
         "price": 24.96,
-        "change_24h": -7.23,
+        "change_24h": -7.28,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "price": 0.373533,
+        "change_24h": -7.12,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.221348,
-        "change_24h": -6.78,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.006139,
-        "change_24h": -6.73,
+        "price": 0.221498,
+        "change_24h": -7.09,
         "asset": "crypto"
       }
     ]
