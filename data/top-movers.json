@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T12:30:45Z",
+  "updated_at": "2026-10-08T12:45:47Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.367227,
+        "change_24h": 14.7,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.39,
+        "change_24h": 14.48,
+        "asset": "crypto"
+      },
+      {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.131665,
-        "change_24h": 13.07,
+        "price": 0.131369,
+        "change_24h": 12.5,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
-        "price": 1.81,
-        "change_24h": 7.1,
+        "price": 1.82,
+        "change_24h": 7.66,
         "asset": "crypto"
       },
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.029862,
-        "change_24h": 5.67,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ONDO",
-        "name": "Ondo",
-        "price": 0.480146,
-        "change_24h": 4.14,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "APT",
-        "name": "Aptos",
-        "price": 0.783841,
-        "change_24h": 3.89,
+        "price": 0.029282,
+        "change_24h": 4.26,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 23.22,
-        "change_24h": -11.06,
+        "price": 23.13,
+        "change_24h": -12.05,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.005751,
-        "change_24h": -9.46,
+        "price": 0.005778,
+        "change_24h": -9.15,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1202.95,
-        "change_24h": -7.65,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NIGHT",
-        "name": "Midnight",
-        "price": 0.044729,
-        "change_24h": -6.02,
+        "price": 1206.78,
+        "change_24h": -8.3,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.215568,
-        "change_24h": -5.96,
+        "price": 0.214594,
+        "change_24h": -7.28,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 2.01,
+        "change_24h": -6.32,
         "asset": "crypto"
       }
     ]
