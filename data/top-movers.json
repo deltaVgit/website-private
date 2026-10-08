@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-08T19:15:46Z",
+  "updated_at": "2026-10-08T19:30:47Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "HAE",
         "name": "Haemonetics Corporation",
-        "price": 119.28,
-        "change_24h": 17.28,
+        "price": 119.03,
+        "change_24h": 17.02,
         "asset": "equity"
       },
       {
         "symbol": "MANE",
         "name": "Veradermics, Incorporated",
-        "price": 125.06,
-        "change_24h": 12.72,
+        "price": 125.51,
+        "change_24h": 13.12,
         "asset": "equity"
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "price": 12.6,
-        "change_24h": 10.54,
+        "price": 12.71,
+        "change_24h": 11.48,
         "asset": "equity"
       },
       {
         "symbol": "COCO",
         "name": "The Vita Coco Company, Inc.",
-        "price": 56.07,
-        "change_24h": 10.71,
+        "price": 56.24,
+        "change_24h": 11.04,
         "asset": "equity"
       },
       {
         "symbol": "ERAS",
         "name": "Erasca, Inc.",
-        "price": 15.31,
-        "change_24h": 8.43,
+        "price": 15.45,
+        "change_24h": 9.38,
         "asset": "equity"
       }
     ],
@@ -43,15 +43,15 @@
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "price": 105.83,
-        "change_24h": -13.64,
+        "price": 106.16,
+        "change_24h": -13.37,
         "asset": "equity"
       },
       {
         "symbol": "EQPT",
         "name": "EquipmentShare.com Inc",
-        "price": 15.46,
-        "change_24h": -12.58,
+        "price": 15.7,
+        "change_24h": -11.23,
         "asset": "equity"
       },
       {
@@ -64,15 +64,15 @@
       {
         "symbol": "ARGX",
         "name": "argenx SE",
-        "price": 825.21,
-        "change_24h": -11.12,
+        "price": 823.15,
+        "change_24h": -11.34,
         "asset": "equity"
       },
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "price": 79.79,
-        "change_24h": -10.65,
+        "price": 79.66,
+        "change_24h": -10.8,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.39,
-        "change_24h": 8.58,
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.029123,
+        "change_24h": 7.1,
         "asset": "crypto"
       },
       {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.029072,
-        "change_24h": 6.88,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.38,
+        "change_24h": 6.29,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.342954,
-        "change_24h": 5.67,
+        "price": 0.340218,
+        "change_24h": 4.45,
         "asset": "crypto"
       },
       {
         "symbol": "ONDO",
         "name": "Ondo",
-        "price": 0.486001,
-        "change_24h": 3.66,
+        "price": 0.489938,
+        "change_24h": 3.96,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.812477,
-        "change_24h": 2.55,
+        "price": 0.816619,
+        "change_24h": 2.73,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.53,
-        "change_24h": -14.68,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1143.37,
-        "change_24h": -14.29,
+        "price": 4.54,
+        "change_24h": -14.73,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.005471,
-        "change_24h": -13.51,
+        "price": 0.005516,
+        "change_24h": -14.42,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1145.61,
+        "change_24h": -14.22,
         "asset": "crypto"
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price": 10.01,
-        "change_24h": -11.01,
+        "price": 10.05,
+        "change_24h": -11.07,
         "asset": "crypto"
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.229543,
-        "change_24h": -10.64,
+        "price": 0.230031,
+        "change_24h": -10.49,
         "asset": "crypto"
       }
     ]
