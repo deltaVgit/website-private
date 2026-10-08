@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-08T12:35:54Z",
+  "updated": "2026-10-08T19:35:40Z",
   "items": [
+    {
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "url": "https://openai.com/index/oracle",
+      "source": "OpenAI",
+      "published_at": "2026-10-08T16:00:00+00:00",
+      "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+      "tag": "ai"
+    },
+    {
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "url": "https://openai.com/index/pollo-ai",
+      "source": "OpenAI",
+      "published_at": "2026-10-08T12:00:00+00:00",
+      "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+      "tag": "ai"
+    },
     {
       "title": "Tokka-Bench: Evaluating Tokenizers Across 100 Natural and 20 Programming Languages",
       "url": "https://arxiv.org/abs/2610.08794",
@@ -31,6 +47,14 @@
       "source": "LessWrong",
       "published_at": "2026-10-08T02:49:10+00:00",
       "summary": "User asks “What’s the date? Answer with only the date.”. No date provided. Given date in ChatGPT normally. No date in system prompt, must not hallucinate because autop will flag to watcher for penalty. So we say we don’t know, but must answer with date. Penalty larger for abstain",
+      "tag": "ai"
+    },
+    {
+      "title": "Disrupting AI-enabled “false front” operations",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "source": "OpenAI",
+      "published_at": "2026-10-08T00:00:00+00:00",
+      "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
       "tag": "ai"
     },
     {
@@ -66,6 +90,14 @@
       "tag": "ai"
     },
     {
+      "title": "Introducing Falcon ASR",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "source": "Hugging Face Blog",
+      "published_at": "2026-10-07T13:21:03+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
       "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
       "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
       "source": "Hugging Face Blog",
@@ -87,22 +119,6 @@
       "source": "Google AI Blog",
       "published_at": "2026-10-07T12:00:00+00:00",
       "summary": "Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
-      "tag": "ai"
-    },
-    {
-      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "url": "https://openai.com/index/radisson",
-      "source": "OpenAI",
-      "published_at": "2026-10-07T07:00:00+00:00",
-      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
-      "tag": "ai"
-    },
-    {
-      "title": "GPT-6 and Intelligent UI for everyone",
-      "url": "https://openai.com/index/gpt-6-for-everyone",
-      "source": "OpenAI",
-      "published_at": "2026-10-07T00:00:00+00:00",
-      "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
       "tag": "ai"
     },
     {
@@ -130,14 +146,6 @@
       "tag": "ai"
     },
     {
-      "title": "How Jump Trading is scaling quant research with ChatGPT",
-      "url": "https://openai.com/index/jump-trading",
-      "source": "OpenAI",
-      "published_at": "2026-10-06T12:00:00+00:00",
-      "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
-      "tag": "ai"
-    },
-    {
       "title": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy",
       "url": "https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy/",
       "source": "Import AI",
@@ -158,14 +166,6 @@
       "url": "https://huggingface.co/blog/microsoft/thinkingbox",
       "source": "Hugging Face Blog",
       "published_at": "2026-10-03T22:56:48+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-      "url": "https://huggingface.co/blog/allenai/astabrief",
-      "source": "Hugging Face Blog",
-      "published_at": "2026-10-02T15:19:50+00:00",
       "summary": "",
       "tag": "ai"
     },
