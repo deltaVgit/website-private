@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T21:00:44Z",
+  "updated_at": "2026-10-08T21:15:42Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "PYTH",
-        "name": "Pyth Network",
-        "price": 0.083391,
-        "change_24h": 14.67,
-        "asset": "crypto"
-      },
-      {
         "symbol": "BTW",
         "name": "Bitway",
         "price": 1.4,
-        "change_24h": 8.9,
+        "change_24h": 9.59,
         "asset": "crypto"
       },
       {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.343638,
-        "change_24h": 3.64,
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 1.078,
+        "change_24h": 3.69,
         "asset": "crypto"
       },
       {
         "symbol": "ONDO",
         "name": "Ondo",
-        "price": 0.488756,
-        "change_24h": 3.46,
+        "price": 0.485307,
+        "change_24h": 3.17,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.378572,
-        "change_24h": 3.06,
+        "price": 0.376984,
+        "change_24h": 2.62,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.056,
+        "change_24h": 2.62,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.59,
-        "change_24h": -15.17,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.00564,
-        "change_24h": -11.2,
+        "price": 4.54,
+        "change_24h": -15.51,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1178.81,
-        "change_24h": -10.86,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "INJ",
-        "name": "Injective",
-        "price": 6.81,
-        "change_24h": -9.37,
+        "price": 1178.93,
+        "change_24h": -10.78,
         "asset": "crypto"
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price": 10.17,
-        "change_24h": -9.36,
+        "price": 10.12,
+        "change_24h": -10.0,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 22.73,
+        "change_24h": -9.79,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.005707,
+        "change_24h": -9.34,
         "asset": "crypto"
       }
     ]
