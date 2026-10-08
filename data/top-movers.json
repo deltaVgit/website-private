@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-10-08T14:30:46Z",
+  "updated_at": "2026-10-08T14:45:51Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "MANE",
-        "name": "Veradermics, Incorporated",
-        "price": 125.19,
-        "change_24h": 12.83,
+        "symbol": "HAE",
+        "name": "Haemonetics Corporation",
+        "price": 115.44,
+        "change_24h": 13.5,
         "asset": "equity"
       },
       {
-        "symbol": "HAE",
-        "name": "Haemonetics Corporation",
-        "price": 114.71,
-        "change_24h": 12.78,
+        "symbol": "MANE",
+        "name": "Veradermics, Incorporated",
+        "price": 122.67,
+        "change_24h": 10.56,
         "asset": "equity"
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "price": 12.59,
-        "change_24h": 10.43,
+        "price": 12.43,
+        "change_24h": 9.02,
         "asset": "equity"
       },
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "price": 28.84,
-        "change_24h": 8.11,
+        "price": 28.7,
+        "change_24h": 7.57,
         "asset": "equity"
       },
       {
-        "symbol": "GFS",
-        "name": "GlobalFoundries Inc.",
-        "price": 51.12,
-        "change_24h": 6.34,
+        "symbol": "COCO",
+        "name": "The Vita Coco Company, Inc.",
+        "price": 53.8,
+        "change_24h": 6.23,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "GKOS",
-        "name": "Glaukos Corporation",
-        "price": 148.46,
-        "change_24h": -13.77,
+        "symbol": "ARGX",
+        "name": "argenx SE",
+        "price": 796.57,
+        "change_24h": -14.2,
         "asset": "equity"
       },
       {
-        "symbol": "ARGX",
-        "name": "argenx SE",
-        "price": 800.93,
-        "change_24h": -13.73,
+        "symbol": "GKOS",
+        "name": "Glaukos Corporation",
+        "price": 148.57,
+        "change_24h": -13.71,
         "asset": "equity"
       },
       {
         "symbol": "RVMD",
         "name": "Revolution Medicines, Inc.",
-        "price": 184.5,
-        "change_24h": -8.15,
-        "asset": "equity"
-      },
-      {
-        "symbol": "BSP",
-        "name": "Bending Spoons S.p.A.",
-        "price": 37.9,
-        "change_24h": -7.68,
+        "price": 183.46,
+        "change_24h": -8.67,
         "asset": "equity"
       },
       {
         "symbol": "PBLS",
         "name": "Parabilis Medicines, Inc.",
-        "price": 26.42,
-        "change_24h": -8.33,
+        "price": 26.45,
+        "change_24h": -8.21,
+        "asset": "equity"
+      },
+      {
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "price": 13.48,
+        "change_24h": -7.42,
         "asset": "equity"
       }
     ]
@@ -83,35 +83,35 @@
         "symbol": "BTW",
         "name": "Bitway",
         "price": 1.36,
-        "change_24h": 13.1,
+        "change_24h": 12.61,
         "asset": "crypto"
       },
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.030644,
-        "change_24h": 9.86,
+        "price": 0.030819,
+        "change_24h": 10.67,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
-        "price": 1.82,
-        "change_24h": 7.32,
+        "price": 1.81,
+        "change_24h": 7.12,
         "asset": "crypto"
       },
       {
         "symbol": "ONDO",
         "name": "Ondo",
-        "price": 0.49834,
-        "change_24h": 7.19,
+        "price": 0.495574,
+        "change_24h": 6.64,
         "asset": "crypto"
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 3.7,
-        "change_24h": 5.26,
+        "symbol": "APT",
+        "name": "Aptos",
+        "price": 0.78719,
+        "change_24h": 5.23,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 23.0,
-        "change_24h": -11.49,
+        "price": 22.81,
+        "change_24h": -11.9,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1208.8,
-        "change_24h": -8.7,
+        "price": 1206.18,
+        "change_24h": -8.75,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price": 0.043964,
+        "change_24h": -6.29,
         "asset": "crypto"
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price": 10.62,
-        "change_24h": -5.75,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.005823,
-        "change_24h": -5.49,
+        "price": 10.6,
+        "change_24h": -6.08,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.216531,
-        "change_24h": -5.33,
+        "price": 0.21547,
+        "change_24h": -5.56,
         "asset": "crypto"
       }
     ]
