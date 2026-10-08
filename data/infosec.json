@@ -1,6 +1,51 @@
 {
-  "updatedAt": "2026-10-08T12:36:16Z",
+  "updatedAt": "2026-10-08T19:36:01Z",
   "kev": [
+    {
+      "cve": "CVE-2015-5477",
+      "product": "BIND",
+      "vendor": "ISC",
+      "name": " ISC BIND Data Processing Errors Vulnerability",
+      "dateAdded": "2026-10-08",
+      "dueDate": "2026-10-11",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2016-3081",
+      "product": "Struts",
+      "vendor": "Apache",
+      "name": "Apache Struts Command Injection Vulnerability",
+      "dateAdded": "2026-10-08",
+      "dueDate": "2026-10-11",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2023-22894",
+      "product": "Strapi",
+      "vendor": "Strapi",
+      "name": "Strapi Cleartext Storage of Sensitive Information Vulnerability",
+      "dateAdded": "2026-10-08",
+      "dueDate": "2026-10-11",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2021-3199",
+      "product": "Docs",
+      "vendor": "ONLYOFFICE",
+      "name": "ONLYOFFICE Docs Server Path Traversal Vulnerability",
+      "dateAdded": "2026-10-08",
+      "dueDate": "2026-10-11",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2015-3306",
+      "product": "ProFTPD",
+      "vendor": "ProFTPD",
+      "name": "ProFTPD Improper Access Control Vulnerability",
+      "dateAdded": "2026-10-08",
+      "dueDate": "2026-10-11",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2026-88779",
       "product": "NetScaler",
@@ -52,7 +97,7 @@
       "vendor": "Apple",
       "name": "Apple Multiple Products Out-of-Bounds Write Vulnerability",
       "dateAdded": "2026-09-29",
-      "dueDate": "2026-10-02",
+      "dueDate": "2026-10-13",
       "knownRansomware": "Unknown"
     },
     {
@@ -80,51 +125,6 @@
       "name": "Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability",
       "dateAdded": "2026-09-25",
       "dueDate": "2026-09-28",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-65660",
-      "product": "SharePoint",
-      "vendor": "Microsoft",
-      "name": "Microsoft SharePoint Code Injection Vulnerability",
-      "dateAdded": "2026-09-25",
-      "dueDate": "2026-09-28",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-87902",
-      "product": "Core",
-      "vendor": "WordPress",
-      "name": "WordPress Core Remote File Inclusion Vulnerability",
-      "dateAdded": "2026-09-25",
-      "dueDate": "2026-09-28",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-5430",
-      "product": "Multiple Products",
-      "vendor": "WSO2",
-      "name": "WSO2 Multiple Products Path Traversal Vulnerability ",
-      "dateAdded": "2026-09-24",
-      "dueDate": "2026-09-27",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-71362",
-      "product": "Commerce and Magento",
-      "vendor": "Adobe",
-      "name": "Adobe Commerce and Magento Incorrect Authorization Vulnerability ",
-      "dateAdded": "2026-09-24",
-      "dueDate": "2026-09-27",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-93952",
-      "product": "VeloCloud Orchestrator",
-      "vendor": "Arista",
-      "name": "Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
-      "dateAdded": "2026-09-22",
-      "dueDate": "2026-09-25",
       "knownRansomware": "Unknown"
     }
   ],
