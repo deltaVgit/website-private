@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-10-09T14:15:45Z",
+  "updated_at": "2026-10-09T14:30:45Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "NVAX",
         "name": "Novavax, Inc.",
-        "price": 12.51,
-        "change_24h": 13.62,
+        "price": 12.32,
+        "change_24h": 11.9,
         "asset": "equity"
       },
       {
         "symbol": "HUM",
         "name": "Humana Inc.",
-        "price": 432.37,
-        "change_24h": 11.69,
-        "asset": "equity"
-      },
-      {
-        "symbol": "NN",
-        "name": "NextNav Inc.",
-        "price": 12.81,
-        "change_24h": 10.47,
-        "asset": "equity"
-      },
-      {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "price": 27.9,
-        "change_24h": 10.32,
+        "price": 433.1,
+        "change_24h": 11.88,
         "asset": "equity"
       },
       {
         "symbol": "CCI",
         "name": "Crown Castle Inc.",
-        "price": 75.8,
-        "change_24h": 10.04,
+        "price": 76.74,
+        "change_24h": 11.39,
+        "asset": "equity"
+      },
+      {
+        "symbol": "NN",
+        "name": "NextNav Inc.",
+        "price": 12.89,
+        "change_24h": 11.12,
+        "asset": "equity"
+      },
+      {
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "price": 27.93,
+        "change_24h": 10.44,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "TMUS",
-        "name": "T-Mobile US, Inc.",
-        "price": 154.74,
-        "change_24h": -9.67,
+        "symbol": "AVNT",
+        "name": "Avient Corporation",
+        "price": 37.07,
+        "change_24h": -9.54,
         "asset": "equity"
       },
       {
-        "symbol": "AVNT",
-        "name": "Avient Corporation",
-        "price": 37.18,
-        "change_24h": -9.27,
+        "symbol": "TMUS",
+        "name": "T-Mobile US, Inc.",
+        "price": 154.79,
+        "change_24h": -9.64,
         "asset": "equity"
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "price": 52.15,
-        "change_24h": -8.4,
+        "price": 51.5,
+        "change_24h": -9.54,
         "asset": "equity"
       },
       {
         "symbol": "JOBY",
         "name": "Joby Aviation, Inc.",
-        "price": 5.3018,
-        "change_24h": -7.79,
+        "price": 5.265,
+        "change_24h": -8.43,
         "asset": "equity"
       },
       {
         "symbol": "BKD",
         "name": "Brookdale Senior Living Inc.",
-        "price": 10.05,
-        "change_24h": -7.72,
+        "price": 9.995,
+        "change_24h": -8.22,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.54,
-        "change_24h": 11.19,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PYTH",
-        "name": "Pyth Network",
-        "price": 0.085488,
-        "change_24h": 7.56,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XDC",
-        "name": "XDC Network",
-        "price": 0.035019,
-        "change_24h": 7.41,
+        "price": 1.53,
+        "change_24h": 12.08,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
-        "price": 1.95,
-        "change_24h": 6.64,
+        "price": 1.96,
+        "change_24h": 7.86,
         "asset": "crypto"
       },
       {
-        "symbol": "DOT",
-        "name": "Polkadot",
-        "price": 1.17,
-        "change_24h": 5.1,
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price": 0.035034,
+        "change_24h": 7.6,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PYTH",
+        "name": "Pyth Network",
+        "price": 0.085694,
+        "change_24h": 6.52,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "GRAM",
+        "name": "Gram (prev. Toncoin)",
+        "price": 1.49,
+        "change_24h": 5.16,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.686339,
-        "change_24h": -9.44,
+        "price": 0.687089,
+        "change_24h": -8.68,
         "asset": "crypto"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 272.69,
-        "change_24h": -8.06,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RENDER",
-        "name": "Render",
-        "price": 1.87,
-        "change_24h": -6.5,
+        "price": 274.27,
+        "change_24h": -7.63,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
         "price": 6.93,
-        "change_24h": -6.38,
+        "change_24h": -6.08,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RENDER",
+        "name": "Render",
+        "price": 1.87,
+        "change_24h": -5.83,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.005455,
-        "change_24h": -6.19,
+        "price": 0.005484,
+        "change_24h": -5.7,
         "asset": "crypto"
       }
     ]
