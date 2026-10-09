@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-09T17:15:49Z",
+  "updated_at": "2026-10-09T17:30:47Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "price": 29.48,
-        "change_24h": 16.57,
+        "price": 29.64,
+        "change_24h": 17.2,
         "asset": "equity"
       },
       {
         "symbol": "NVAX",
         "name": "Novavax, Inc.",
-        "price": 12.49,
-        "change_24h": 13.48,
-        "asset": "equity"
-      },
-      {
-        "symbol": "CCI",
-        "name": "Crown Castle Inc.",
-        "price": 77.73,
-        "change_24h": 12.83,
+        "price": 12.55,
+        "change_24h": 13.99,
         "asset": "equity"
       },
       {
         "symbol": "HUM",
         "name": "Humana Inc.",
-        "price": 435.31,
-        "change_24h": 12.45,
+        "price": 435.93,
+        "change_24h": 12.61,
+        "asset": "equity"
+      },
+      {
+        "symbol": "CCI",
+        "name": "Crown Castle Inc.",
+        "price": 77.08,
+        "change_24h": 11.88,
         "asset": "equity"
       },
       {
         "symbol": "AUGO",
         "name": "Aura Minerals Inc.",
-        "price": 91.97,
-        "change_24h": 11.48,
+        "price": 92.06,
+        "change_24h": 11.6,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "price": 48.63,
-        "change_24h": -14.58,
+        "price": 48.7,
+        "change_24h": -14.46,
         "asset": "equity"
       },
       {
         "symbol": "TMUS",
         "name": "T-Mobile US, Inc.",
-        "price": 148.73,
-        "change_24h": -13.18,
-        "asset": "equity"
-      },
-      {
-        "symbol": "T",
-        "name": "AT&T Inc.",
-        "price": 22.14,
-        "change_24h": -9.95,
+        "price": 148.79,
+        "change_24h": -13.15,
         "asset": "equity"
       },
       {
         "symbol": "VZ",
         "name": "Verizon Communications Inc.",
-        "price": 41.27,
-        "change_24h": -9.57,
+        "price": 41.39,
+        "change_24h": -9.32,
+        "asset": "equity"
+      },
+      {
+        "symbol": "T",
+        "name": "AT&T Inc.",
+        "price": 22.27,
+        "change_24h": -9.46,
         "asset": "equity"
       },
       {
         "symbol": "JOBY",
         "name": "Joby Aviation, Inc.",
-        "price": 5.265,
-        "change_24h": -8.43,
+        "price": 5.2777,
+        "change_24h": -8.21,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "APT",
-        "name": "Aptos",
-        "price": 0.806537,
-        "change_24h": 13.0,
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.380989,
+        "change_24h": 13.68,
         "asset": "crypto"
       },
       {
         "symbol": "XDC",
         "name": "XDC Network",
-        "price": 0.035023,
-        "change_24h": 12.31,
+        "price": 0.035059,
+        "change_24h": 12.27,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
         "price": 1.54,
-        "change_24h": 11.95,
+        "change_24h": 11.51,
         "asset": "crypto"
       },
       {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.378358,
-        "change_24h": 11.11,
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price": 0.04527,
+        "change_24h": 10.11,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.180917,
-        "change_24h": 8.81,
+        "price": 0.17999,
+        "change_24h": 9.57,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.114982,
-        "change_24h": -3.05,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 21.9,
-        "change_24h": -1.53,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BCH",
-        "name": "Bitcoin Cash",
-        "price": 274.82,
-        "change_24h": -1.42,
+        "price": 0.114337,
+        "change_24h": -2.02,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.028,
-        "change_24h": -0.81,
+        "price": 1.025,
+        "change_24h": -1.0,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 21.81,
+        "change_24h": -0.6,
         "asset": "crypto"
       },
       {
         "symbol": "KCS",
         "name": "KuCoin",
         "price": 7.54,
-        "change_24h": -0.54,
+        "change_24h": -0.42,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price": 274.83,
+        "change_24h": -0.3,
         "asset": "crypto"
       }
     ]
