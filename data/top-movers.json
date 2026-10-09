@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-09T19:30:52Z",
+  "updated_at": "2026-10-09T19:45:45Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "NVAX",
         "name": "Novavax, Inc.",
-        "price": 12.95,
-        "change_24h": 17.58,
+        "price": 13.01,
+        "change_24h": 18.13,
         "asset": "equity"
       },
       {
@@ -20,22 +20,22 @@
       {
         "symbol": "CCI",
         "name": "Crown Castle Inc.",
-        "price": 78.48,
-        "change_24h": 13.92,
+        "price": 79.23,
+        "change_24h": 15.01,
         "asset": "equity"
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "price": 220.55,
-        "change_24h": 11.95,
+        "price": 222.42,
+        "change_24h": 12.9,
         "asset": "equity"
       },
       {
-        "symbol": "AUGO",
-        "name": "Aura Minerals Inc.",
-        "price": 92.06,
-        "change_24h": 11.6,
+        "symbol": "HUM",
+        "name": "Humana Inc.",
+        "price": 434.25,
+        "change_24h": 12.17,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "TMUS",
         "name": "T-Mobile US, Inc.",
-        "price": 149.52,
-        "change_24h": -12.72,
+        "price": 148.97,
+        "change_24h": -13.04,
         "asset": "equity"
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "price": 50.38,
-        "change_24h": -11.51,
+        "price": 50.4,
+        "change_24h": -11.47,
         "asset": "equity"
       },
       {
         "symbol": "T",
         "name": "AT&T Inc.",
-        "price": 22.14,
-        "change_24h": -9.99,
+        "price": 22.16,
+        "change_24h": -9.89,
         "asset": "equity"
       },
       {
         "symbol": "VZ",
         "name": "Verizon Communications Inc.",
-        "price": 41.77,
-        "change_24h": -8.48,
+        "price": 41.7,
+        "change_24h": -8.63,
         "asset": "equity"
       },
       {
         "symbol": "TIGO",
         "name": "Millicom International Cellular",
-        "price": 81.22,
-        "change_24h": -7.65,
+        "price": 80.55,
+        "change_24h": -8.42,
         "asset": "equity"
       }
     ]
@@ -82,73 +82,73 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.58,
-        "change_24h": 14.28,
+        "price": 1.56,
+        "change_24h": 12.56,
         "asset": "crypto"
       },
       {
         "symbol": "XDC",
         "name": "XDC Network",
-        "price": 0.035156,
-        "change_24h": 10.91,
+        "price": 0.035104,
+        "change_24h": 10.83,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.373113,
-        "change_24h": 9.87,
+        "price": 0.36996,
+        "change_24h": 8.85,
         "asset": "crypto"
       },
       {
         "symbol": "APT",
         "name": "Aptos",
-        "price": 0.796564,
-        "change_24h": 8.07,
+        "price": 0.793216,
+        "change_24h": 7.59,
         "asset": "crypto"
       },
       {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.045842,
-        "change_24h": 7.75,
+        "price": 0.045303,
+        "change_24h": 6.13,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 21.73,
-        "change_24h": -4.69,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.113339,
-        "change_24h": -4.34,
+        "price": 0.11233,
+        "change_24h": -5.96,
         "asset": "crypto"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "price": 1.93,
-        "change_24h": -3.87,
+        "price": 1.91,
+        "change_24h": -5.37,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 21.79,
+        "change_24h": -4.6,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "price": 0.471939,
+        "change_24h": -4.22,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.00529,
-        "change_24h": -3.65,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.018,
-        "change_24h": -3.59,
+        "price": 0.005288,
+        "change_24h": -4.15,
         "asset": "crypto"
       }
     ]
