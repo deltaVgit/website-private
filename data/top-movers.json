@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T06:45:43Z",
+  "updated_at": "2026-10-09T07:00:44Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "PYTH",
+        "name": "Pyth Network",
+        "price": 0.085142,
+        "change_24h": 14.58,
+        "asset": "crypto"
+      },
+      {
         "symbol": "BTW",
         "name": "Bitway",
         "price": 1.49,
-        "change_24h": 7.77,
+        "change_24h": 7.48,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
-        "price": 1.87,
-        "change_24h": 7.48,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "APT",
-        "name": "Aptos",
-        "price": 0.818092,
-        "change_24h": 7.21,
+        "price": 1.88,
+        "change_24h": 7.3,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.17,
-        "change_24h": 6.47,
+        "change_24h": 5.86,
         "asset": "crypto"
       },
       {
-        "symbol": "STX",
-        "name": "Stacks",
-        "price": 0.389347,
-        "change_24h": 6.47,
+        "symbol": "APT",
+        "name": "Aptos",
+        "price": 0.812365,
+        "change_24h": 5.74,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.85,
-        "change_24h": -11.16,
+        "price": 4.84,
+        "change_24h": -11.98,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 22.92,
-        "change_24h": -8.26,
+        "price": 22.87,
+        "change_24h": -8.53,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.005659,
-        "change_24h": -5.66,
+        "price": 0.005668,
+        "change_24h": -6.76,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.496309,
-        "change_24h": -5.38,
+        "price": 0.494892,
+        "change_24h": -6.44,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "price": 2.39,
-        "change_24h": -5.25,
+        "change_24h": -5.8,
         "asset": "crypto"
       }
     ]
