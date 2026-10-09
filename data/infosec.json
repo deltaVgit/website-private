@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T19:36:01Z",
+  "updatedAt": "2026-10-09T03:35:46Z",
   "kev": [
     {
       "cve": "CVE-2015-5477",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-101001",
+      "id": "CVE-2026-102240",
       "severity": "CRITICAL",
       "score": 10.0,
-      "description": "A vulnerability was identified in Netcore NBR200V2 1.3.241127.071246. This impacts the function eval of the file /www/cgi-bin/network_tools of the component Web Management Interface. Such manipulation of the argument QUE",
-      "published": "2026-09-28T05:16:30.570"
+      "description": "A vulnerability was found in Netcore NAP930 0.1.241010.141410. This affects the function eval of the file /www/cgi-bin/network_tools of the component Network Tools CGI. The manipulation of the argument sid results in os ",
+      "published": "2026-09-29T02:16:55.153"
     },
     {
-      "id": "CVE-2026-101000",
+      "id": "CVE-2026-101354",
       "severity": "CRITICAL",
-      "score": 10.0,
-      "description": "A vulnerability was determined in Netcore NBR100V2 1.3.240614.030928. This affects the function uci.apply of the file /usr/share/rpcd/acl.d/unauthenticated.json of the component ACL Handler. This manipulation of the argu",
-      "published": "2026-09-28T05:16:30.270"
+      "score": 9.6,
+      "description": "A security flaw has been discovered in FAST FAC1203R 20200116_2.0.4. The affected element is the function _tWlanTask of the component MmtAtePrase Parser. Performing a manipulation results in stack-based buffer overflow. ",
+      "published": "2026-09-29T02:16:53.230"
     },
     {
-      "id": "CVE-2026-101002",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "description": "A security flaw has been discovered in Netcore NBR200V2 1.3.241127.071246. Affected is the function system of the file /usr/bin/network_tools of the component Tools Ping Handler. Performing a manipulation of the argument",
-      "published": "2026-09-28T06:16:29.783"
-    },
-    {
-      "id": "CVE-2026-100896",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "description": "A weakness has been identified in TOTOLINK N150RT 3.4.0-B20201030. The affected element is the function system of the file /boafrm/formWlSiteSurvey of the component Web Management Interface. This manipulation of the argu",
-      "published": "2026-09-28T02:17:19.617"
-    },
-    {
-      "id": "CVE-2026-101008",
+      "id": "CVE-2026-102361",
       "severity": "CRITICAL",
       "score": 9.1,
-      "description": "A vulnerability was found in aaPanel BaoTa up to 11.8.0. Impacted is the function merge_split_file of the file /www/server/panel/class/files.py of the component File Merge Handler. Performing a manipulation of the argume",
-      "published": "2026-09-28T07:17:20.403"
+      "description": "mall4j through 4.0 contains a missing authentication vulnerability in the PUT /user/updatePwd endpoint that allows unauthenticated attackers to reset any storefront account password. Attackers can supply a target usernam",
+      "published": "2026-09-29T00:17:03.183"
     },
     {
-      "id": "CVE-2026-100750",
+      "id": "CVE-2026-101264",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "description": "A vulnerability was determined in Ziroom ZHOME A0101 1.0.1.0. Impacted is an unknown function of the file /api/ZRnetwork/set_passwd. This manipulation of the argument password1 causes command injection. The attack can be",
+      "published": "2026-09-29T00:17:02.663"
+    },
+    {
+      "id": "CVE-2026-101263",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "description": "A vulnerability was found in Ziroom ZHOME A0101 1.0.1.0. This issue affects some unknown processing of the file /api/ZRQos/set_online_client. The manipulation of the argument mac results in command injection. It is possi",
+      "published": "2026-09-29T00:17:01.540"
+    },
+    {
+      "id": "CVE-2026-101860",
       "severity": "HIGH",
-      "score": 8.5,
-      "description": "Joomla Extension - regularlabs.com - LFI / SSRF in Modules Anywhere 1.5.0 - 9.0.5 for Joomla - Modules Anywhere Pro lets additional attributes on a module tag replace arbitrary parameters of the selected module. This fea",
-      "published": "2026-09-28T07:17:18.620"
+      "score": 8.8,
+      "description": "A vulnerability was found in RaspAP raspap-webgui up to 3.5.5. Affected by this issue is the function PluginInstaller::addSudoers of the file src/RaspAP/Plugins/PluginInstaller.php of the component sudo Configuration. Pe",
+      "published": "2026-09-29T02:16:54.787"
     },
     {
-      "id": "CVE-2026-101009",
+      "id": "CVE-2026-102422",
       "severity": "HIGH",
-      "score": 8.4,
-      "description": "A vulnerability was determined in aaPanel BaoTa up to 11.8.0. The affected element is the function panelTask.bt_task._unzip of the file /www/server/panel/class/panelTask.py of the component Unzip Handler. Executing a man",
-      "published": "2026-09-28T07:17:20.573"
+      "score": 8.1,
+      "description": "shell-quote's `quote()` function emits a `{ comment }` token as `#` followed by its text, which comments out the rest of the shell line, including the opening quote of any later string token. A line terminator (\\n, \\r, U",
+      "published": "2026-09-29T04:17:55.707"
     },
     {
-      "id": "CVE-2026-101007",
-      "severity": "HIGH",
-      "score": 8.4,
-      "description": "A vulnerability has been found in aaPanel BaoTa up to 11.8.0. This issue affects the function InputSql of the file class/database.py of the component Database Backup Handler. Such manipulation of the argument Password le",
-      "published": "2026-09-28T07:17:20.197"
-    },
-    {
-      "id": "CVE-2026-100751",
+      "id": "CVE-2026-101878",
       "severity": "HIGH",
       "score": 7.5,
-      "description": "Joomla Extension - regularlabs.com - Privileged stored XSS via data-rlta-url attributes in Tabs & Accordions (Pro) 2.3.0 - 3.1.0 - Tabs & Accordions Pro accepts a url option for an item and writes it to a generated data-",
-      "published": "2026-09-28T07:17:19.703"
+      "description": "Bitwarden Server 2025.6.0 before 2026.5.0 declares the @ExternalId parameter of the User_ReadBySsoUserOrganizationIdExternalId stored procedure as NVARCHAR(50) while the column it queries stores NVARCHAR(300), silently t",
+      "published": "2026-09-29T02:16:54.990"
     },
     {
-      "id": "CVE-2026-100908",
+      "id": "CVE-2026-102243",
       "severity": "HIGH",
-      "score": 7.5,
-      "description": "A vulnerability has been found in Eyeplus 57.0.0.0308. This affects an unknown function of the component p2pcam HTTP Parser. Such manipulation leads to stack-based buffer overflow. The attack may be performed from remote",
-      "published": "2026-09-28T05:16:29.877"
+      "score": 7.4,
+      "description": "A vulnerability was identified in MODSetter SurfSense up to 2.0.3. This issue affects some unknown processing of the file /api/search-source/connectors/mcp/test of the component MCP Connector Integration. Such manipulati",
+      "published": "2026-09-29T03:17:15.730"
     },
     {
-      "id": "CVE-2026-101005",
-      "severity": "HIGH",
-      "score": 7.3,
-      "description": "A vulnerability was detected in October CMS up to 4.3.4. This affects the function validateExternalImageHost of the file System/Classes/ResizeImages.php of the component SSRF Protection. The manipulation results in serve",
-      "published": "2026-09-28T07:17:19.827"
-    },
-    {
-      "id": "CVE-2026-100909",
+      "id": "CVE-2026-102249",
       "severity": "HIGH",
       "score": 7.3,
-      "description": "A vulnerability was found in OctoberCMS up to 4.1.19/4.2.25/4.3.4. The impacted element is the function getSourcePathForResize of the file modules/system/classes/ResizeImages.php. The manipulation of the argument realSou",
-      "published": "2026-09-28T05:16:30.067"
+      "description": "A security flaw has been discovered in REBUILD up to 4.4.11. This vulnerability affects unknown code of the file /commons/file-editor-save. The manipulation of the argument url/fileKey results in missing authorization. I",
+      "published": "2026-09-29T04:17:54.917"
+    },
+    {
+      "id": "CVE-2026-102248",
+      "severity": "HIGH",
+      "score": 7.3,
+      "description": "A vulnerability was identified in Rebuild up to 4.4.7/4.5.0-beta5. This affects an unknown part of the file /user/login of the component Login Endpoint. The manipulation leads to improper authentication. It is possible t",
+      "published": "2026-09-29T04:17:54.570"
+    },
+    {
+      "id": "CVE-2026-102245",
+      "severity": "HIGH",
+      "score": 7.3,
+      "description": "A weakness has been identified in MODSetter SurfSense up to 2.0.3. The affected element is an unknown function of the file surfsense_backend/app/routes/circleback_webhook_route.py of the component circleback Endpoint. Ex",
+      "published": "2026-09-29T04:17:52.653"
     }
   ],
   "breaches": [
