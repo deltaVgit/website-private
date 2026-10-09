@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T20:00:45Z",
+  "updated_at": "2026-10-09T20:15:46Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -21,7 +21,7 @@
         "symbol": "CCI",
         "name": "Crown Castle Inc.",
         "price": 79.64,
-        "change_24h": 15.61,
+        "change_24h": 15.6,
         "asset": "equity"
       },
       {
@@ -34,8 +34,8 @@
       {
         "symbol": "HUM",
         "name": "Humana Inc.",
-        "price": 431.8,
-        "change_24h": 11.54,
+        "price": 431.87,
+        "change_24h": 11.56,
         "asset": "equity"
       }
     ],
@@ -57,8 +57,8 @@
       {
         "symbol": "T",
         "name": "AT&T Inc.",
-        "price": 22.17,
-        "change_24h": -9.85,
+        "price": 22.18,
+        "change_24h": -9.81,
         "asset": "equity"
       },
       {
@@ -82,36 +82,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.57,
-        "change_24h": 12.51,
+        "price": 1.56,
+        "change_24h": 12.11,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "DOT",
+        "name": "Polkadot",
+        "price": 1.21,
+        "change_24h": 11.86,
         "asset": "crypto"
       },
       {
         "symbol": "XDC",
         "name": "XDC Network",
-        "price": 0.035146,
-        "change_24h": 11.45,
+        "price": 0.035145,
+        "change_24h": 10.19,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.367281,
-        "change_24h": 9.48,
+        "price": 0.368996,
+        "change_24h": 8.38,
         "asset": "crypto"
       },
       {
         "symbol": "APT",
         "name": "Aptos",
-        "price": 0.791973,
-        "change_24h": 7.14,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NIGHT",
-        "name": "Midnight",
-        "price": 0.045294,
-        "change_24h": 5.94,
+        "price": 0.805093,
+        "change_24h": 7.08,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.111042,
-        "change_24h": -7.3,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 1.89,
-        "change_24h": -5.0,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 21.78,
-        "change_24h": -4.78,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.005267,
-        "change_24h": -4.51,
+        "price": 0.112141,
+        "change_24h": -6.96,
         "asset": "crypto"
       },
       {
         "symbol": "ONDO",
         "name": "Ondo",
-        "price": 0.470251,
-        "change_24h": -4.01,
+        "price": 0.472831,
+        "change_24h": -4.71,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.005293,
+        "change_24h": -4.7,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 21.88,
+        "change_24h": -4.25,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 1.91,
+        "change_24h": -3.96,
         "asset": "crypto"
       }
     ]
