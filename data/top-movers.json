@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T00:15:44Z",
+  "updated_at": "2026-10-09T00:30:49Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "PYTH",
-        "name": "Pyth Network",
-        "price": 0.081273,
-        "change_24h": 10.18,
-        "asset": "crypto"
-      },
-      {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.39,
-        "change_24h": 5.21,
+        "price": 1.38,
+        "change_24h": 5.25,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.828535,
-        "change_24h": 4.01,
+        "price": 0.823635,
+        "change_24h": 3.63,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.382288,
-        "change_24h": 3.08,
+        "price": 0.381393,
+        "change_24h": 2.32,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 1.062,
-        "change_24h": 2.12,
+        "price": 1.06,
+        "change_24h": 1.89,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ATOM",
+        "name": "Cosmos Hub",
+        "price": 1.77,
+        "change_24h": 1.71,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.51,
-        "change_24h": -15.59,
+        "price": 4.46,
+        "change_24h": -16.09,
         "asset": "crypto"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "price": 1.96,
-        "change_24h": -10.95,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.005563,
-        "change_24h": -10.48,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1191.08,
-        "change_24h": -10.24,
+        "price": 1.95,
+        "change_24h": -11.61,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 22.87,
-        "change_24h": -10.21,
+        "price": 22.81,
+        "change_24h": -10.81,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.005551,
+        "change_24h": -10.72,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1188.78,
+        "change_24h": -10.22,
         "asset": "crypto"
       }
     ]
