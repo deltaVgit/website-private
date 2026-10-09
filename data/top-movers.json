@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T07:30:44Z",
+  "updated_at": "2026-10-09T07:45:47Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "APT",
-        "name": "Aptos",
-        "price": 0.836406,
-        "change_24h": 8.53,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.48,
-        "change_24h": 7.63,
+        "symbol": "PYTH",
+        "name": "Pyth Network",
+        "price": 0.085231,
+        "change_24h": 12.13,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
-        "price": 1.89,
-        "change_24h": 6.0,
+        "price": 1.95,
+        "change_24h": 9.73,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "APT",
+        "name": "Aptos",
+        "price": 0.838505,
+        "change_24h": 8.86,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.49,
+        "change_24h": 8.07,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
-        "price": 1.17,
-        "change_24h": 5.75,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XDC",
-        "name": "XDC Network",
-        "price": 0.034371,
-        "change_24h": 5.42,
+        "price": 1.18,
+        "change_24h": 7.05,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.86,
-        "change_24h": -11.42,
+        "price": 4.89,
+        "change_24h": -10.49,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 22.95,
-        "change_24h": -8.06,
+        "price": 22.9,
+        "change_24h": -8.15,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.005682,
-        "change_24h": -7.35,
+        "price": 0.00566,
+        "change_24h": -7.86,
         "asset": "crypto"
       },
       {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.363025,
-        "change_24h": -6.13,
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.4,
+        "change_24h": -6.56,
         "asset": "crypto"
       },
       {
-        "symbol": "SUI",
-        "name": "Sui",
-        "price": 1.067,
-        "change_24h": -6.04,
+        "symbol": "RENDER",
+        "name": "Render",
+        "price": 1.93,
+        "change_24h": -5.88,
         "asset": "crypto"
       }
     ]
