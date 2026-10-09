@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-09T16:00:45Z",
+  "updated_at": "2026-10-09T16:15:45Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "price": 28.82,
-        "change_24h": 13.96,
+        "price": 29.04,
+        "change_24h": 14.83,
         "asset": "equity"
       },
       {
         "symbol": "CCI",
         "name": "Crown Castle Inc.",
-        "price": 78.54,
-        "change_24h": 14.01,
-        "asset": "equity"
-      },
-      {
-        "symbol": "HUM",
-        "name": "Humana Inc.",
-        "price": 435.85,
-        "change_24h": 12.59,
+        "price": 78.19,
+        "change_24h": 13.51,
         "asset": "equity"
       },
       {
         "symbol": "NVAX",
         "name": "Novavax, Inc.",
-        "price": 12.31,
-        "change_24h": 11.85,
+        "price": 12.41,
+        "change_24h": 12.76,
+        "asset": "equity"
+      },
+      {
+        "symbol": "HUM",
+        "name": "Humana Inc.",
+        "price": 434.52,
+        "change_24h": 12.24,
         "asset": "equity"
       },
       {
         "symbol": "AUGO",
         "name": "Aura Minerals Inc.",
-        "price": 91.18,
-        "change_24h": 10.53,
+        "price": 91.41,
+        "change_24h": 10.81,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "price": 48.15,
-        "change_24h": -15.42,
+        "price": 48.76,
+        "change_24h": -14.35,
         "asset": "equity"
       },
       {
         "symbol": "TMUS",
         "name": "T-Mobile US, Inc.",
-        "price": 150.04,
-        "change_24h": -12.42,
+        "price": 149.96,
+        "change_24h": -12.46,
         "asset": "equity"
       },
       {
         "symbol": "T",
         "name": "AT&T Inc.",
-        "price": 22.11,
-        "change_24h": -10.11,
+        "price": 22.16,
+        "change_24h": -9.91,
         "asset": "equity"
       },
       {
         "symbol": "VZ",
         "name": "Verizon Communications Inc.",
-        "price": 41.21,
-        "change_24h": -9.71,
+        "price": 41.34,
+        "change_24h": -9.43,
         "asset": "equity"
       },
       {
         "symbol": "JOBY",
         "name": "Joby Aviation, Inc.",
-        "price": 5.28,
-        "change_24h": -8.17,
+        "price": 5.2782,
+        "change_24h": -8.21,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "APT",
         "name": "Aptos",
-        "price": 0.800333,
-        "change_24h": 12.36,
+        "price": 0.811466,
+        "change_24h": 14.37,
         "asset": "crypto"
       },
       {
         "symbol": "XDC",
         "name": "XDC Network",
-        "price": 0.034989,
-        "change_24h": 11.12,
+        "price": 0.034973,
+        "change_24h": 11.21,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
         "price": 1.54,
-        "change_24h": 11.08,
+        "change_24h": 10.62,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.182606,
+        "change_24h": 10.02,
         "asset": "crypto"
       },
       {
         "symbol": "GRAM",
         "name": "Gram (prev. Toncoin)",
         "price": 1.47,
-        "change_24h": 9.2,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 249.29,
-        "change_24h": 8.86,
+        "change_24h": 9.39,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 274.4,
-        "change_24h": -2.4,
+        "price": 275.97,
+        "change_24h": -2.07,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.116087,
-        "change_24h": -2.35,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.028,
-        "change_24h": -1.21,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLFI",
-        "name": "World Liberty Financial",
-        "price": 0.053919,
-        "change_24h": -0.95,
+        "price": 0.116505,
+        "change_24h": -1.13,
         "asset": "crypto"
       },
       {
         "symbol": "MNT",
         "name": "Mantle",
-        "price": 0.548055,
-        "change_24h": -0.61,
+        "price": 0.548243,
+        "change_24h": -0.83,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLFI",
+        "name": "World Liberty Financial",
+        "price": 0.054259,
+        "change_24h": -0.67,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LEO",
+        "name": "LEO Token",
+        "price": 8.9,
+        "change_24h": -0.48,
         "asset": "crypto"
       }
     ]
