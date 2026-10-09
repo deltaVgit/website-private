@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T23:15:46Z",
+  "updated_at": "2026-10-09T23:30:44Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.58,
-        "change_24h": 12.41,
+        "price": 1.57,
+        "change_24h": 11.98,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.23,
-        "change_24h": 11.74,
+        "change_24h": 10.98,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.374804,
-        "change_24h": 10.5,
+        "price": 0.374456,
+        "change_24h": 10.29,
         "asset": "crypto"
       },
       {
         "symbol": "XDC",
         "name": "XDC Network",
-        "price": 0.035166,
-        "change_24h": 9.8,
+        "price": 0.03529,
+        "change_24h": 10.09,
         "asset": "crypto"
       },
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 4.96,
-        "change_24h": 9.52,
+        "symbol": "APT",
+        "name": "Aptos",
+        "price": 0.812569,
+        "change_24h": 9.29,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.024,
+        "change_24h": -4.18,
+        "asset": "crypto"
+      },
+      {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.798217,
-        "change_24h": -4.91,
+        "price": 0.801542,
+        "change_24h": -4.14,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 22.01,
-        "change_24h": -4.2,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.025,
-        "change_24h": -4.08,
+        "price": 22.06,
+        "change_24h": -4.1,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.113565,
-        "change_24h": -3.87,
+        "price": 0.11454,
+        "change_24h": -3.05,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.005447,
-        "change_24h": -3.3,
+        "price": 0.005466,
+        "change_24h": -3.0,
         "asset": "crypto"
       }
     ]
