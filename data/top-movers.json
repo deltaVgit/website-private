@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-10-09T13:30:46Z",
+  "updated_at": "2026-10-09T13:45:47Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "HAE",
-        "name": "Haemonetics Corporation",
-        "price": 119.62,
-        "change_24h": 0.03,
+        "symbol": "HUM",
+        "name": "Humana Inc.",
+        "price": 453.69,
+        "change_24h": 17.19,
         "asset": "equity"
       },
       {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "price": 13.14,
-        "change_24h": 3.83,
+        "symbol": "CCI",
+        "name": "Crown Castle Inc.",
+        "price": 77.0,
+        "change_24h": 11.8,
         "asset": "equity"
       },
       {
-        "symbol": "COCO",
-        "name": "The Vita Coco Company, Inc.",
-        "price": 55.1,
-        "change_24h": -1.57,
+        "symbol": "CLOV",
+        "name": "Clover Health Investments, Corp",
+        "price": 5.185,
+        "change_24h": 13.2,
         "asset": "equity"
       },
       {
-        "symbol": "ERAS",
-        "name": "Erasca, Inc.",
-        "price": 15.46,
-        "change_24h": 0.0,
+        "symbol": "NN",
+        "name": "NextNav Inc.",
+        "price": 12.9,
+        "change_24h": 11.21,
         "asset": "equity"
       },
       {
-        "symbol": "CSGP",
-        "name": "CoStar Group, Inc.",
-        "price": 30.1,
-        "change_24h": 0.97,
+        "symbol": "AMT",
+        "name": "American Tower Corporation (REI",
+        "price": 179.05,
+        "change_24h": 7.37,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "AAOI",
-        "name": "Applied Optoelectronics, Inc.",
-        "price": 114.0,
-        "change_24h": 7.65,
+        "symbol": "TMUS",
+        "name": "T-Mobile US, Inc.",
+        "price": 155.38,
+        "change_24h": -9.3,
         "asset": "equity"
       },
       {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "price": 97.95,
-        "change_24h": 4.53,
+        "symbol": "AVNT",
+        "name": "Avient Corporation",
+        "price": 37.06,
+        "change_24h": -9.55,
         "asset": "equity"
       },
       {
-        "symbol": "ARGX",
-        "name": "argenx SE",
-        "price": 820.71,
-        "change_24h": 0.25,
+        "symbol": "BKD",
+        "name": "Brookdale Senior Living Inc.",
+        "price": 9.865,
+        "change_24h": -9.37,
         "asset": "equity"
       },
       {
-        "symbol": "EQPT",
-        "name": "EquipmentShare.com Inc",
-        "price": 15.63,
-        "change_24h": -0.19,
+        "symbol": "SWKS",
+        "name": "Skyworks Solutions, Inc.",
+        "price": 74.73,
+        "change_24h": -7.46,
         "asset": "equity"
       },
       {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "price": 80.12,
-        "change_24h": 0.67,
+        "symbol": "T",
+        "name": "AT&T Inc.",
+        "price": 22.89,
+        "change_24h": -6.96,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "PYTH",
         "name": "Pyth Network",
-        "price": 0.085588,
-        "change_24h": 12.97,
+        "price": 0.085671,
+        "change_24h": 13.65,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.54,
-        "change_24h": 11.53,
+        "price": 1.52,
+        "change_24h": 9.32,
         "asset": "crypto"
       },
       {
         "symbol": "XDC",
         "name": "XDC Network",
-        "price": 0.034965,
-        "change_24h": 8.16,
+        "price": 0.034998,
+        "change_24h": 8.81,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
-        "price": 1.95,
-        "change_24h": 7.46,
+        "price": 1.93,
+        "change_24h": 7.02,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
-        "price": 1.18,
-        "change_24h": 6.57,
+        "price": 1.17,
+        "change_24h": 6.11,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 275.45,
-        "change_24h": -6.83,
+        "price": 274.1,
+        "change_24h": -6.91,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
-        "price": 1.88,
-        "change_24h": -5.07,
+        "price": 1.86,
+        "change_24h": -5.51,
         "asset": "crypto"
       },
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.491703,
-        "change_24h": -4.56,
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 6.93,
+        "change_24h": -4.69,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 2.98,
-        "change_24h": -4.47,
+        "price": 2.96,
+        "change_24h": -4.63,
         "asset": "crypto"
       },
       {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.003,
-        "change_24h": -4.44,
+        "symbol": "ALGO",
+        "name": "Algorand",
+        "price": 0.116867,
+        "change_24h": -4.59,
         "asset": "crypto"
       }
     ]
