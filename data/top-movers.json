@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T16:00:45Z",
+  "updated_at": "2026-10-10T16:15:47Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.561454,
-        "change_24h": 13.99,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 5.38,
-        "change_24h": 13.22,
+        "price": 0.564892,
+        "change_24h": 13.12,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.914355,
-        "change_24h": 12.33,
+        "price": 0.920248,
+        "change_24h": 12.44,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.35,
+        "change_24h": 12.0,
         "asset": "crypto"
       },
       {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.048198,
-        "change_24h": 7.51,
+        "price": 0.04879,
+        "change_24h": 8.32,
         "asset": "crypto"
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.254444,
-        "change_24h": 7.2,
+        "price": 0.254744,
+        "change_24h": 6.95,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 0.994597,
+        "change_24h": -4.17,
+        "asset": "crypto"
+      },
+      {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.135827,
-        "change_24h": -4.63,
+        "price": 0.136839,
+        "change_24h": -3.73,
         "asset": "crypto"
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
         "price": 1.001,
-        "change_24h": -2.8,
+        "change_24h": -2.74,
         "asset": "crypto"
       },
       {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.0,
-        "change_24h": -2.71,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 524.9,
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.366865,
         "change_24h": -2.2,
         "asset": "crypto"
       },
       {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 245.44,
-        "change_24h": -1.69,
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 2.01,
+        "change_24h": -1.91,
         "asset": "crypto"
       }
     ]
