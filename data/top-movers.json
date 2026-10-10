@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T18:00:49Z",
+  "updated_at": "2026-10-10T18:15:47Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price": 0.05164,
+        "change_24h": 13.31,
+        "asset": "crypto"
+      },
+      {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.33,
-        "change_24h": 13.23,
+        "price": 5.32,
+        "change_24h": 12.94,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.557901,
-        "change_24h": 12.19,
+        "price": 0.55915,
+        "change_24h": 12.29,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.900823,
-        "change_24h": 11.63,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NIGHT",
-        "name": "Midnight",
-        "price": 0.050429,
-        "change_24h": 10.12,
+        "price": 0.897411,
+        "change_24h": 11.66,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 7.57,
-        "change_24h": 8.7,
+        "price": 7.62,
+        "change_24h": 9.57,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "ATOM",
+        "name": "Cosmos Hub",
+        "price": 1.95,
+        "change_24h": -4.86,
+        "asset": "crypto"
+      },
+      {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.362458,
-        "change_24h": -5.53,
+        "price": 0.361732,
+        "change_24h": -4.45,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.992717,
-        "change_24h": -3.56,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.118171,
-        "change_24h": -3.41,
+        "price": 0.992068,
+        "change_24h": -3.27,
         "asset": "crypto"
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
         "price": 1.001,
-        "change_24h": -3.24,
+        "change_24h": -3.25,
         "asset": "crypto"
       },
       {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.138334,
-        "change_24h": -2.91,
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.118187,
+        "change_24h": -3.06,
         "asset": "crypto"
       }
     ]
