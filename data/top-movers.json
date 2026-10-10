@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T13:00:45Z",
+  "updated_at": "2026-10-10T13:15:48Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.89851,
+        "change_24h": 11.49,
+        "asset": "crypto"
+      },
+      {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.549341,
-        "change_24h": 11.15,
+        "price": 0.544902,
+        "change_24h": 10.56,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.3,
-        "change_24h": 10.49,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.89102,
-        "change_24h": 10.44,
+        "price": 5.32,
+        "change_24h": 9.62,
         "asset": "crypto"
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.254983,
-        "change_24h": 7.23,
+        "price": 0.254455,
+        "change_24h": 6.89,
         "asset": "crypto"
       },
       {
-        "symbol": "NIGHT",
-        "name": "Midnight",
-        "price": 0.048102,
-        "change_24h": 6.64,
+        "symbol": "WLFI",
+        "name": "World Liberty Financial",
+        "price": 0.057072,
+        "change_24h": 5.74,
         "asset": "crypto"
       }
     ],
@@ -120,35 +120,35 @@
         "symbol": "ZRO",
         "name": "LayerZero",
         "price": 1.96,
-        "change_24h": -6.31,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.137169,
-        "change_24h": -3.98,
+        "change_24h": -6.87,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.119754,
-        "change_24h": -3.53,
+        "price": 0.11959,
+        "change_24h": -4.74,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.137027,
+        "change_24h": -3.89,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.674661,
+        "change_24h": -3.05,
         "asset": "crypto"
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
         "price": 1.001,
-        "change_24h": -3.08,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.676388,
-        "change_24h": -2.83,
+        "change_24h": -2.82,
         "asset": "crypto"
       }
     ]
