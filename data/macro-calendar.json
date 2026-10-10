@@ -1,28 +1,7 @@
 {
-  "updated": "2026-10-09T23:45:45.990588Z",
-  "period": "2026-10-09 \u2192 2026-11-23",
+  "updated": "2026-10-10T00:00:51.430194Z",
+  "period": "2026-10-10 \u2192 2026-11-24",
   "events": [
-    {
-      "date": "2026-10-09",
-      "label": "EU CPI Flash (YoY)",
-      "currency": "EUR",
-      "impact": "high",
-      "country": "EU"
-    },
-    {
-      "date": "2026-10-09",
-      "label": "UK GDP (MoM)",
-      "currency": "GBP",
-      "impact": "medium",
-      "country": "UK"
-    },
-    {
-      "date": "2026-10-09",
-      "label": "China CPI (YoY)",
-      "currency": "CNY",
-      "impact": "medium",
-      "country": "CN"
-    },
     {
       "date": "2026-10-13",
       "label": "EU ZEW Economic Sentiment",
@@ -281,6 +260,27 @@
       "currency": "EUR",
       "impact": "medium",
       "country": "EU"
+    },
+    {
+      "date": "2026-11-12",
+      "label": "US Initial Jobless Claims",
+      "currency": "USD",
+      "impact": "medium",
+      "country": "US"
+    },
+    {
+      "date": "2026-11-12",
+      "label": "Japan GDP (QoQ)",
+      "currency": "JPY",
+      "impact": "medium",
+      "country": "JP"
+    },
+    {
+      "date": "2026-11-13",
+      "label": "US PPI (MoM)",
+      "currency": "USD",
+      "impact": "medium",
+      "country": "US"
     }
   ]
 }
