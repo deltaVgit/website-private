@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T05:30:47Z",
+  "updated_at": "2026-10-10T05:45:48Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.548156,
-        "change_24h": 10.01,
+        "price": 0.558175,
+        "change_24h": 11.9,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
         "price": 1.61,
-        "change_24h": 9.64,
+        "change_24h": 9.71,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.27,
-        "change_24h": 9.63,
+        "change_24h": 8.66,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 1.17,
-        "change_24h": 8.68,
+        "price": 1.16,
+        "change_24h": 8.34,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
         "price": 2.03,
-        "change_24h": 7.79,
+        "change_24h": 7.76,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 2.03,
+        "change_24h": -4.78,
+        "asset": "crypto"
+      },
+      {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.57,
-        "change_24h": -4.24,
+        "price": 3.59,
+        "change_24h": -3.47,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.115702,
-        "change_24h": -3.48,
+        "price": 0.116234,
+        "change_24h": -3.39,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.684399,
-        "change_24h": -3.4,
+        "price": 0.691116,
+        "change_24h": -3.16,
         "asset": "crypto"
       },
       {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 2.02,
-        "change_24h": -3.32,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.019,
-        "change_24h": -3.29,
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.001,
+        "change_24h": -2.8,
         "asset": "crypto"
       }
     ]
