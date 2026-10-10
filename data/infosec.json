@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T17:06:01Z",
+  "updatedAt": "2026-10-10T00:05:51Z",
   "kev": [
     {
       "cve": "CVE-2015-5477",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-102240",
+      "id": "CVE-2026-86131",
       "severity": "CRITICAL",
-      "score": 10.0,
-      "description": "A vulnerability was found in Netcore NAP930 0.1.241010.141410. This affects the function eval of the file /www/cgi-bin/network_tools of the component Network Tools CGI. The manipulation of the argument sid results in os ",
-      "published": "2026-09-29T02:16:55.153"
+      "score": 9.8,
+      "description": "A code injection vulnerability in WatchGuard Fireware OS's BOVPN Over TLS client configuration handling allows an attacker who controls the remote VPN server to execute arbitrary commands as root on the connecting Firebo",
+      "published": "2026-09-30T00:16:36.817"
     },
     {
-      "id": "CVE-2026-101354",
-      "severity": "CRITICAL",
-      "score": 9.6,
-      "description": "A security flaw has been discovered in FAST FAC1203R 20200116_2.0.4. The affected element is the function _tWlanTask of the component MmtAtePrase Parser. Performing a manipulation results in stack-based buffer overflow. ",
-      "published": "2026-09-29T02:16:53.230"
-    },
-    {
-      "id": "CVE-2026-102361",
+      "id": "CVE-2026-102794",
       "severity": "CRITICAL",
       "score": 9.1,
-      "description": "mall4j through 4.0 contains a missing authentication vulnerability in the PUT /user/updatePwd endpoint that allows unauthenticated attackers to reset any storefront account password. Attackers can supply a target usernam",
-      "published": "2026-09-29T00:17:03.183"
+      "description": "A vulnerability has been found in Ziroom ZHOME A0101 1.0.1.0. This issue affects some unknown processing of the file /api/ZRnetwork/ping. Such manipulation of the argument url leads to command injection. It is possible t",
+      "published": "2026-09-30T00:16:34.963"
     },
     {
-      "id": "CVE-2026-101264",
+      "id": "CVE-2026-102793",
       "severity": "CRITICAL",
       "score": 9.1,
-      "description": "A vulnerability was determined in Ziroom ZHOME A0101 1.0.1.0. Impacted is an unknown function of the file /api/ZRnetwork/set_passwd. This manipulation of the argument password1 causes command injection. The attack can be",
-      "published": "2026-09-29T00:17:02.663"
+      "description": "A flaw has been found in Ziroom ZHOME A0101 1.0.1.0. This vulnerability affects the function set_time_zone of the file /api/ZRFirmware/set_time_zone. This manipulation of the argument hostname/zonename causes command inj",
+      "published": "2026-09-30T00:16:33.743"
     },
     {
-      "id": "CVE-2026-101263",
+      "id": "CVE-2026-103056",
       "severity": "CRITICAL",
-      "score": 9.1,
-      "description": "A vulnerability was found in Ziroom ZHOME A0101 1.0.1.0. This issue affects some unknown processing of the file /api/ZRQos/set_online_client. The manipulation of the argument mac results in command injection. It is possi",
-      "published": "2026-09-29T00:17:01.540"
+      "score": 9.0,
+      "description": "AiSOC versions 7.2.0 before 12.0.0 contain a command injection vulnerability in the actions service that builds CrowdStrike Real Time Response command strings by interpolating unescaped action parameters in crowdstrike_r",
+      "published": "2026-09-30T01:16:37.050"
     },
     {
-      "id": "CVE-2026-101860",
+      "id": "CVE-2026-81433",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "A vulnerability was found in RaspAP raspap-webgui up to 3.5.5. Affected by this issue is the function PluginInstaller::addSudoers of the file src/RaspAP/Plugins/PluginInstaller.php of the component sudo Configuration. Pe",
-      "published": "2026-09-29T02:16:54.787"
+      "score": 8.7,
+      "description": "A stack-based buffer overflow vulnerability in WatchGuard Fireware OS's DHCP fingerprinting daemon (fingerd) allows an unauthenticated attacker with adjacent network access to execute arbitrary code or crash the process ",
+      "published": "2026-09-30T00:16:36.150"
     },
     {
-      "id": "CVE-2026-102422",
+      "id": "CVE-2026-90441",
       "severity": "HIGH",
       "score": 8.1,
-      "description": "shell-quote's `quote()` function emits a `{ comment }` token as `#` followed by its text, which comments out the rest of the shell line, including the opening quote of any later string token. A line terminator (\\n, \\r, U",
-      "published": "2026-09-29T04:17:55.707"
+      "description": "A missing authorization vulnerability in the wgagent management daemon's session initialization function allows an authenticated, low-privileged user (including a read-only or guest administrator account) to crash the wg",
+      "published": "2026-09-30T00:16:37.363"
     },
     {
-      "id": "CVE-2026-101878",
+      "id": "CVE-2026-103088",
       "severity": "HIGH",
       "score": 7.5,
-      "description": "Bitwarden Server 2025.6.0 before 2026.5.0 declares the @ExternalId parameter of the User_ReadBySsoUserOrganizationIdExternalId stored procedure as NVARCHAR(50) while the column it queries stores NVARCHAR(300), silently t",
-      "published": "2026-09-29T02:16:54.990"
+      "description": "Handlebars.java before 4.5.5 allows directory traversal. In handlebars-springmvc 4.5.3 and 4.5.4, the path-containment fix for CVE-2026-63490 validates template locations as raw percent-encoded strings, whereas the templ",
+      "published": "2026-09-30T02:16:57.203"
     },
     {
-      "id": "CVE-2026-102243",
+      "id": "CVE-2026-103055",
       "severity": "HIGH",
-      "score": 7.4,
-      "description": "A vulnerability was identified in MODSetter SurfSense up to 2.0.3. This issue affects some unknown processing of the file /api/search-source/connectors/mcp/test of the component MCP Connector Integration. Such manipulati",
-      "published": "2026-09-29T03:17:15.730"
+      "score": 7.5,
+      "description": "AiSOC versions 7.5.0 before 12.0.0 use a hard-coded constant for JWT verification in the realtime WebSocket and SSE service when the AISOC_REALTIME_JWT_SECRET environment variable is not set. Unauthenticated attackers ca",
+      "published": "2026-09-30T01:16:36.880"
     },
     {
-      "id": "CVE-2026-102249",
+      "id": "CVE-2026-86133",
       "severity": "HIGH",
-      "score": 7.3,
-      "description": "A security flaw has been discovered in REBUILD up to 4.4.11. This vulnerability affects unknown code of the file /commons/file-editor-save. The manipulation of the argument url/fileKey results in missing authorization. I",
-      "published": "2026-09-29T04:17:54.917"
+      "score": 7.5,
+      "description": "An integer underflow vulnerability in the WatchGuard Fireware OS IKE daemon (iked) allows a remote attacker who has completed the initial IKEv2 handshake to crash the iked process by sending a specially crafted encrypted",
+      "published": "2026-09-30T00:16:37.087"
     },
     {
-      "id": "CVE-2026-102248",
+      "id": "CVE-2026-86132",
       "severity": "HIGH",
-      "score": 7.3,
-      "description": "A vulnerability was identified in Rebuild up to 4.4.7/4.5.0-beta5. This affects an unknown part of the file /user/login of the component Login Endpoint. The manipulation leads to improper authentication. It is possible t",
-      "published": "2026-09-29T04:17:54.570"
+      "score": 7.5,
+      "description": "An integer underflow vulnerability in the WatchGuard Fireware OS IKEv2 daemon (iked) allows a remote, unauthenticated attacker to crash the process by sending a specially crafted encrypted IKEv2 message negotiated with a",
+      "published": "2026-09-30T00:16:36.957"
     },
     {
-      "id": "CVE-2026-102245",
+      "id": "CVE-2026-86128",
       "severity": "HIGH",
-      "score": 7.3,
-      "description": "A weakness has been identified in MODSetter SurfSense up to 2.0.3. The affected element is an unknown function of the file surfsense_backend/app/routes/circleback_webhook_route.py of the component circleback Endpoint. Ex",
-      "published": "2026-09-29T04:17:52.653"
+      "score": 7.5,
+      "description": "A NULL pointer dereference vulnerability in Fireware OS's NetFlow packet-processing feature allows a remote, unauthenticated attacker to cause a denial of service by sending a specially crafted IPv6 packet.",
+      "published": "2026-09-30T00:16:36.687"
+    },
+    {
+      "id": "CVE-2026-86104",
+      "severity": "HIGH",
+      "score": 7.5,
+      "description": "An uncontrolled resource consumption vulnerability in the Fireware OS login process (wgagent) allows a remote, unauthenticated attacker to cause a denial of service by sending a specially crafted request.",
+      "published": "2026-09-30T00:16:36.420"
     }
   ],
   "breaches": [
