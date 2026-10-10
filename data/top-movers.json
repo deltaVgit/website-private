@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T11:00:51Z",
+  "updated_at": "2026-10-10T11:15:47Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.544252,
-        "change_24h": 10.6,
+        "price": 0.540677,
+        "change_24h": 10.1,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.25,
-        "change_24h": 10.29,
+        "price": 5.24,
+        "change_24h": 9.5,
         "asset": "crypto"
       },
       {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.048969,
-        "change_24h": 8.85,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.255056,
-        "change_24h": 7.69,
+        "price": 0.048779,
+        "change_24h": 8.66,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.25,
-        "change_24h": 7.41,
+        "change_24h": 7.59,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price": 0.254228,
+        "change_24h": 7.48,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "price": 1.96,
-        "change_24h": -7.34,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.138708,
-        "change_24h": -2.79,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.676926,
-        "change_24h": -2.46,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "price": 83.86,
-        "change_24h": -2.15,
+        "price": 1.95,
+        "change_24h": -7.75,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.120484,
-        "change_24h": -1.93,
+        "price": 0.120397,
+        "change_24h": -3.97,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.137541,
+        "change_24h": -3.49,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.673232,
+        "change_24h": -2.89,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.005544,
+        "change_24h": -2.37,
         "asset": "crypto"
       }
     ]
