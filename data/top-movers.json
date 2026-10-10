@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T14:00:45Z",
+  "updated_at": "2026-10-10T14:15:46Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.899593,
-        "change_24h": 12.5,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.4,
+        "change_24h": 13.17,
         "asset": "crypto"
       },
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 5.36,
-        "change_24h": 12.21,
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.89323,
+        "change_24h": 11.37,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.543819,
-        "change_24h": 11.08,
+        "price": 0.543258,
+        "change_24h": 10.94,
         "asset": "crypto"
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.254825,
-        "change_24h": 7.79,
+        "price": 0.254611,
+        "change_24h": 7.49,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.26,
-        "change_24h": 7.43,
+        "change_24h": 7.31,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.137187,
-        "change_24h": -3.26,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.119983,
-        "change_24h": -3.1,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 1.98,
-        "change_24h": -2.98,
+        "price": 0.137472,
+        "change_24h": -3.45,
         "asset": "crypto"
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
         "price": 1.001,
-        "change_24h": -2.77,
+        "change_24h": -2.76,
         "asset": "crypto"
       },
       {
         "symbol": "GRAM",
         "name": "Gram (prev. Toncoin)",
         "price": 1.45,
-        "change_24h": -2.42,
+        "change_24h": -2.66,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 1.99,
+        "change_24h": -2.12,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.119853,
+        "change_24h": -2.12,
         "asset": "crypto"
       }
     ]
