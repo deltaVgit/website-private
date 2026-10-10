@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T08:00:49Z",
+  "updated_at": "2026-10-10T08:15:45Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.553544,
-        "change_24h": 10.38,
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price": 0.050779,
+        "change_24h": 14.34,
         "asset": "crypto"
       },
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.61,
-        "change_24h": 8.15,
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.552857,
+        "change_24h": 10.44,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.22,
-        "change_24h": 7.11,
+        "price": 5.21,
+        "change_24h": 7.92,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.62,
+        "change_24h": 7.12,
         "asset": "crypto"
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.253622,
-        "change_24h": 5.72,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLFI",
-        "name": "World Liberty Financial",
-        "price": 0.057009,
-        "change_24h": 5.22,
+        "price": 0.256488,
+        "change_24h": 6.79,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "price": 1.98,
-        "change_24h": -8.72,
+        "price": 1.97,
+        "change_24h": -8.69,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.677696,
-        "change_24h": -5.48,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 3.56,
-        "change_24h": -3.9,
+        "price": 0.676295,
+        "change_24h": -5.49,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.115924,
+        "price": 0.1158,
         "change_24h": -3.55,
         "asset": "crypto"
       },
       {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1.001,
-        "change_24h": -2.8,
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 3.58,
+        "change_24h": -3.38,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 528.88,
+        "change_24h": -2.88,
         "asset": "crypto"
       }
     ]
