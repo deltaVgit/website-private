@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T00:15:46Z",
+  "updated_at": "2026-10-10T00:30:46Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.58,
-        "change_24h": 13.7,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XDC",
-        "name": "XDC Network",
-        "price": 0.035354,
-        "change_24h": 11.52,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "DOT",
-        "name": "Polkadot",
-        "price": 1.23,
-        "change_24h": 11.46,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "APT",
-        "name": "Aptos",
-        "price": 0.817009,
-        "change_24h": 10.95,
+        "price": 1.57,
+        "change_24h": 13.57,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.37511,
-        "change_24h": 10.35,
+        "price": 0.37751,
+        "change_24h": 11.83,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "APT",
+        "name": "Aptos",
+        "price": 0.817434,
+        "change_24h": 11.63,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price": 0.035311,
+        "change_24h": 11.35,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 4.92,
+        "change_24h": 10.64,
         "asset": "crypto"
       }
     ],
@@ -119,29 +119,15 @@
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 520.48,
-        "change_24h": -3.95,
+        "price": 518.95,
+        "change_24h": -4.17,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.029,
-        "change_24h": -3.29,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 22.17,
-        "change_24h": -3.14,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.802978,
-        "change_24h": -3.01,
+        "change_24h": -2.98,
         "asset": "crypto"
       },
       {
@@ -149,6 +135,20 @@
         "name": "Figure Heloc",
         "price": 1.001,
         "change_24h": -2.8,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.803815,
+        "change_24h": -2.42,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.005464,
+        "change_24h": -1.64,
         "asset": "crypto"
       }
     ]
