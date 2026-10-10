@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T00:45:49Z",
+  "updated_at": "2026-10-10T01:00:46Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "ATOM",
-        "name": "Cosmos Hub",
-        "price": 2.04,
-        "change_24h": 14.59,
-        "asset": "crypto"
-      },
-      {
         "symbol": "BTW",
         "name": "Bitway",
         "price": 1.57,
-        "change_24h": 13.71,
+        "change_24h": 12.88,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.377954,
-        "change_24h": 11.92,
+        "price": 0.378567,
+        "change_24h": 12.25,
         "asset": "crypto"
       },
       {
         "symbol": "XDC",
         "name": "XDC Network",
-        "price": 0.035323,
-        "change_24h": 11.27,
+        "price": 0.035389,
+        "change_24h": 11.17,
         "asset": "crypto"
       },
       {
         "symbol": "APT",
         "name": "Aptos",
-        "price": 0.819125,
-        "change_24h": 10.95,
+        "price": 0.819433,
+        "change_24h": 11.14,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ATOM",
+        "name": "Cosmos Hub",
+        "price": 1.98,
+        "change_24h": 11.02,
         "asset": "crypto"
       }
     ],
@@ -119,8 +119,15 @@
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 516.49,
-        "change_24h": -5.36,
+        "price": 516.73,
+        "change_24h": -5.23,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.005431,
+        "change_24h": -3.15,
         "asset": "crypto"
       },
       {
@@ -134,21 +141,14 @@
         "symbol": "M",
         "name": "MemeCore",
         "price": 1.029,
-        "change_24h": -2.56,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.005452,
-        "change_24h": -2.51,
+        "change_24h": -2.59,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.806499,
-        "change_24h": -2.0,
+        "price": 0.806183,
+        "change_24h": -1.85,
         "asset": "crypto"
       }
     ]
