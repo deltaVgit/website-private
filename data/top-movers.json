@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T16:15:47Z",
+  "updated_at": "2026-10-10T16:30:47Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.38,
+        "change_24h": 13.54,
+        "asset": "crypto"
+      },
+      {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.564892,
-        "change_24h": 13.12,
+        "price": 0.561898,
+        "change_24h": 12.91,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.920248,
-        "change_24h": 12.44,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 5.35,
-        "change_24h": 12.0,
+        "price": 0.909565,
+        "change_24h": 12.09,
         "asset": "crypto"
       },
       {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.04879,
-        "change_24h": 8.32,
+        "price": 0.048664,
+        "change_24h": 7.84,
         "asset": "crypto"
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.254744,
-        "change_24h": 6.95,
+        "price": 0.255002,
+        "change_24h": 7.29,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.994597,
-        "change_24h": -4.17,
+        "price": 0.993148,
+        "change_24h": -3.75,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.136839,
-        "change_24h": -3.73,
+        "price": 0.137509,
+        "change_24h": -3.24,
         "asset": "crypto"
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
         "price": 1.001,
-        "change_24h": -2.74,
+        "change_24h": -2.9,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.366865,
-        "change_24h": -2.2,
+        "price": 0.36812,
+        "change_24h": -2.3,
         "asset": "crypto"
       },
       {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 2.01,
-        "change_24h": -1.91,
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.119732,
+        "change_24h": -1.46,
         "asset": "crypto"
       }
     ]
