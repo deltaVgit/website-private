@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T10:00:47Z",
+  "updated_at": "2026-10-10T10:15:47Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 5.28,
-        "change_24h": 9.97,
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.545865,
+        "change_24h": 9.95,
         "asset": "crypto"
       },
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.544377,
-        "change_24h": 9.56,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.28,
+        "change_24h": 9.82,
         "asset": "crypto"
       },
       {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.04892,
-        "change_24h": 7.83,
+        "price": 0.048702,
+        "change_24h": 7.9,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
-        "price": 1.27,
-        "change_24h": 7.42,
+        "price": 1.26,
+        "change_24h": 7.81,
         "asset": "crypto"
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.255548,
-        "change_24h": 7.1,
+        "price": 0.255214,
+        "change_24h": 6.79,
         "asset": "crypto"
       }
     ],
@@ -120,35 +120,35 @@
         "symbol": "ZRO",
         "name": "LayerZero",
         "price": 1.97,
-        "change_24h": -9.43,
+        "change_24h": -9.06,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.680036,
-        "change_24h": -3.46,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ALGO",
-        "name": "Algorand",
-        "price": 0.115339,
-        "change_24h": -2.66,
+        "price": 0.675113,
+        "change_24h": -3.81,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 527.66,
-        "change_24h": -2.57,
+        "price": 522.67,
+        "change_24h": -3.18,
         "asset": "crypto"
       },
       {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.139485,
-        "change_24h": -2.36,
+        "symbol": "ALGO",
+        "name": "Algorand",
+        "price": 0.114977,
+        "change_24h": -3.07,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price": 84.06,
+        "change_24h": -2.39,
         "asset": "crypto"
       }
     ]
