@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-10T00:05:35Z",
+  "updated": "2026-10-10T07:05:38Z",
   "items": [
+    {
+      "title": "Quoting The New York Times",
+      "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
+      "source": "Simon Willison",
+      "published_at": "2026-10-10T02:04:12+00:00",
+      "summary": "Anthropic detailed the activity of its A.I. agents in a blog post on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applications through a form available on the State Department’s we",
+      "tag": "ai"
+    },
     {
       "title": "Deno is joining Cloudflare",
       "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
@@ -34,14 +42,6 @@
       "tag": "ai"
     },
     {
-      "title": "A new feature for my blog, built using my voice",
-      "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
-      "source": "Simon Willison",
-      "published_at": "2026-10-09T12:54:06+00:00",
-      "summary": "I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I've sent out, both my free weekly Substack and my monthly sponsors-only updates. I built the feature almost entirely using my voice, chatting away to my laptop while ",
-      "tag": "ai"
-    },
-    {
       "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
       "url": "https://openai.com/index/sophos",
       "source": "OpenAI",
@@ -55,30 +55,6 @@
       "source": "OpenAI",
       "published_at": "2026-10-09T07:00:00+00:00",
       "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "tag": "ai"
-    },
-    {
-      "title": "Diffu-LoRA: A Novel Low-Rank Adaptation for Personalized Diffusion Models",
-      "url": "https://arxiv.org/abs/2610.10550",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2610.10550v1 Announce Type: new Abstract: Personalizing text-to-image diffusion models from a few reference images requires preserving subject identity while following prompts that describe new contexts. Full-model fine-tuning is parameter-intensive, whereas low-rank adapta",
-      "tag": "ai"
-    },
-    {
-      "title": "Wieszcz-XIX: A 3.1-Billion-Word Corpus of Pre-1918 Polish and Temporally Bounded Language Models Trained From Scratch",
-      "url": "https://arxiv.org/abs/2610.10592",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2610.10592v1 Announce Type: new Abstract: Historical Polish is well documented as a language but annotated in machine-readable form only to about a million words for the period this paper covers; the rest sits behind optical character recognition of variable quality. We pre",
-      "tag": "ai"
-    },
-    {
-      "title": "Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study with WisDOT WisTMP System",
-      "url": "https://arxiv.org/abs/2610.10650",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2610.10650v1 Announce Type: new Abstract: Work zones are critical yet hazardous components of transportation infrastructure, requiring carefully designed Transportation Management Plans (TMPs) to ensure safety and mobility. However, TMP preparation remains labor-intensive a",
       "tag": "ai"
     },
     {
@@ -138,14 +114,6 @@
       "tag": "ai"
     },
     {
-      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-      "source": "Google DeepMind",
-      "published_at": "2026-10-06T19:57:04+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
       "title": "NTS: Authenticated Time at Meta",
       "url": "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/",
       "source": "Meta Engineering",
@@ -194,27 +162,11 @@
       "tag": "ai"
     },
     {
-      "title": "Gemini 4 Argon: our next era of frontier intelligence",
-      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "source": "Google DeepMind",
-      "published_at": "2026-09-30T20:01:45+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
       "title": "Frog and Toad and the Increasingly Capable Machines",
       "url": "https://www.lesswrong.com/posts/7NZ6ZWjenzzCbCJ5b/frog-and-toad-and-the-increasingly-capable-machines",
       "source": "LessWrong",
       "published_at": "2026-09-30T18:27:42+00:00",
       "summary": "Want to start a conversation about HuggingFace with your mom but she's inexplicably bouncing off the METR report? Try this explainer I wrote in the style of Arnold Lobel's Frog and Toad. Art by the wonderful HungerArtist If you're so inspired, liking and/or following on Substack ",
-      "tag": "ai"
-    },
-    {
-      "title": "Introducing SynthID Bio",
-      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
-      "source": "Google DeepMind",
-      "published_at": "2026-09-30T15:03:07+00:00",
-      "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
       "tag": "ai"
     },
     {
@@ -247,14 +199,6 @@
       "source": "Alignment Forum",
       "published_at": "2026-09-24T23:45:34+00:00",
       "summary": "Many control protocols work by intervening on an untrusted AI's actions during deployment. For example, you might set up a monitor that scores each action's suspiciousness and blocks actions above a threshold, replacing them with actions from a weaker \"trusted\" model (a defer-to-",
-      "tag": "ai"
-    },
-    {
-      "title": "Introducing Gemini 3.8 Live with Live Avatar",
-      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-      "source": "Google DeepMind",
-      "published_at": "2026-09-24T16:20:39+00:00",
-      "summary": "",
       "tag": "ai"
     },
     {
@@ -319,6 +263,22 @@
       "source": "Qwen (Alibaba)",
       "published_at": "2025-08-18T17:30:00+00:00",
       "summary": "QWEN CHAT GITHUB HUGGING FACE MODELSCOPE DISCORD We are excited to introduce Qwen-Image-Edit, the image editing version of Qwen-Image. Built upon our 20B Qwen-Image model, Qwen-Image-Edit successfully extends Qwen-Image’s unique text rendering capabilities to image editing tasks,",
+      "tag": "ai"
+    },
+    {
+      "title": "Qwen-Image: Crafting with Native Text Rendering",
+      "url": "https://qwenlm.github.io/blog/qwen-image/",
+      "source": "Qwen (Alibaba)",
+      "published_at": "2025-08-04T14:08:30+00:00",
+      "summary": "GITHUB HUGGING FACE MODELSCOPE DEMO DISCORD We are thrilled to release Qwen-Image, a 20B MMDiT image foundation model that achieves significant advances in complex text rendering and precise image editing. To try the latest model, feel free to visit Qwen Chat and choose “Image Ge",
+      "tag": "ai"
+    },
+    {
+      "title": "GSPO: Towards Scalable Reinforcement Learning for Language Models",
+      "url": "https://qwenlm.github.io/blog/gspo/",
+      "source": "Qwen (Alibaba)",
+      "published_at": "2025-07-27T07:00:00+00:00",
+      "summary": "PAPER DISCORD Introduction Reinforcement Learning (RL) has emerged as a pivotal paradigm for scaling language models and enhancing their deep reasoning and problem-solving capabilities. To scale RL, the foremost prerequisite is maintaining stable and robust training dynamics. How",
       "tag": "ai"
     }
   ],
