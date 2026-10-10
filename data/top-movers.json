@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T02:30:45Z",
+  "updated_at": "2026-10-10T02:45:45Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -83,58 +83,65 @@
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.28,
-        "change_24h": 13.39,
+        "change_24h": 12.54,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
-        "price": 2.03,
-        "change_24h": 12.08,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.59,
-        "change_24h": 11.72,
+        "price": 2.02,
+        "change_24h": 11.29,
         "asset": "crypto"
       },
       {
         "symbol": "APT",
         "name": "Aptos",
-        "price": 0.830299,
-        "change_24h": 10.56,
+        "price": 0.833725,
+        "change_24h": 10.73,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.58,
+        "change_24h": 10.51,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.376494,
-        "change_24h": 10.04,
+        "price": 0.378072,
+        "change_24h": 9.92,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 517.48,
-        "change_24h": -4.67,
-        "asset": "crypto"
-      },
-      {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.803611,
-        "change_24h": -4.62,
+        "price": 0.804754,
+        "change_24h": -5.23,
         "asset": "crypto"
       },
       {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.025,
-        "change_24h": -3.01,
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 1.95,
+        "change_24h": -4.28,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 518.55,
+        "change_24h": -4.2,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 3.58,
+        "change_24h": -3.1,
         "asset": "crypto"
       },
       {
@@ -142,13 +149,6 @@
         "name": "Figure Heloc",
         "price": 1.001,
         "change_24h": -2.8,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 1.96,
-        "change_24h": -2.66,
         "asset": "crypto"
       }
     ]
