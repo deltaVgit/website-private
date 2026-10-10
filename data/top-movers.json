@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T03:30:46Z",
+  "updated_at": "2026-10-10T03:45:44Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -83,72 +83,72 @@
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.27,
-        "change_24h": 10.47,
+        "change_24h": 10.17,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
         "price": 1.58,
-        "change_24h": 10.01,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "APT",
-        "name": "Aptos",
-        "price": 0.830887,
-        "change_24h": 8.62,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ATOM",
-        "name": "Cosmos Hub",
-        "price": 1.98,
-        "change_24h": 8.24,
+        "change_24h": 9.82,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
         "price": 1.17,
-        "change_24h": 7.87,
+        "change_24h": 8.65,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "APT",
+        "name": "Aptos",
+        "price": 0.828971,
+        "change_24h": 8.54,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ATOM",
+        "name": "Cosmos Hub",
+        "price": 1.98,
+        "change_24h": 7.5,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 518.93,
-        "change_24h": -4.38,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.807498,
-        "change_24h": -4.19,
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 1.97,
+        "change_24h": -5.23,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.56,
-        "change_24h": -4.18,
+        "price": 3.55,
+        "change_24h": -4.39,
         "asset": "crypto"
       },
       {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 1.021,
-        "change_24h": -3.85,
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.804306,
+        "change_24h": -4.23,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.005436,
-        "change_24h": -3.57,
+        "price": 0.005422,
+        "change_24h": -4.03,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 1.019,
+        "change_24h": -4.0,
         "asset": "crypto"
       }
     ]
