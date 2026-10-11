@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T21:15:47Z",
+  "updated_at": "2026-10-11T21:30:45Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "STRK",
-        "name": "Starknet",
-        "price": 0.115481,
-        "change_24h": 11.44,
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 1.25,
+        "change_24h": 10.58,
         "asset": "crypto"
       },
       {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 1.24,
-        "change_24h": 9.87,
+        "symbol": "STRK",
+        "name": "Starknet",
+        "price": 0.11408,
+        "change_24h": 10.06,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
         "price": 3.39,
-        "change_24h": 7.73,
+        "change_24h": 7.9,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.733982,
-        "change_24h": 6.86,
+        "price": 0.731872,
+        "change_24h": 6.32,
         "asset": "crypto"
       },
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.235826,
-        "change_24h": 6.04,
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.056,
+        "change_24h": 5.48,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.010345,
-        "change_24h": -7.97,
+        "price": 0.010351,
+        "change_24h": -7.92,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.931526,
-        "change_24h": -6.5,
+        "price": 0.921521,
+        "change_24h": -7.12,
         "asset": "crypto"
       },
       {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.048827,
-        "change_24h": -4.22,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ATOM",
-        "name": "Cosmos Hub",
-        "price": 1.92,
-        "change_24h": -3.15,
+        "price": 0.048478,
+        "change_24h": -5.1,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.394927,
-        "change_24h": -2.67,
+        "price": 0.391498,
+        "change_24h": -2.89,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.545076,
+        "change_24h": -2.82,
         "asset": "crypto"
       }
     ]
