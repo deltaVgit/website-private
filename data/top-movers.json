@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T09:00:46Z",
+  "updated_at": "2026-10-11T09:15:46Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "INJ",
-        "name": "Injective",
-        "price": 7.62,
-        "change_24h": 7.66,
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.200369,
+        "change_24h": 8.72,
         "asset": "crypto"
       },
       {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.194612,
-        "change_24h": 5.52,
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 7.64,
+        "change_24h": 7.92,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.711592,
-        "change_24h": 5.26,
+        "price": 0.713319,
+        "change_24h": 5.45,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "price": 0.404887,
+        "change_24h": 4.04,
         "asset": "crypto"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "price": 2.02,
-        "change_24h": 3.12,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "APT",
-        "name": "Aptos",
-        "price": 0.841905,
-        "change_24h": 3.0,
+        "price": 2.04,
+        "change_24h": 3.92,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "AAVE",
-        "name": "Aave",
-        "price": 167.3,
-        "change_24h": -4.09,
+        "symbol": "QNT",
+        "name": "Quant",
+        "price": 239.51,
+        "change_24h": -4.63,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.964863,
-        "change_24h": -4.07,
+        "price": 0.964825,
+        "change_24h": -4.25,
         "asset": "crypto"
       },
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.54,
-        "change_24h": -3.87,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 240.72,
-        "change_24h": -3.83,
+        "symbol": "AAVE",
+        "name": "Aave",
+        "price": 167.62,
+        "change_24h": -3.74,
         "asset": "crypto"
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.247628,
-        "change_24h": -3.36,
+        "price": 0.248199,
+        "change_24h": -3.05,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 1.1,
+        "change_24h": -2.62,
         "asset": "crypto"
       }
     ]
