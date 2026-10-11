@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T17:00:49Z",
+  "updated_at": "2026-10-11T17:15:48Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "ALGO",
-        "name": "Algorand",
-        "price": 0.12945,
-        "change_24h": 8.94,
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.74362,
+        "change_24h": 9.58,
         "asset": "crypto"
       },
       {
         "symbol": "APT",
         "name": "Aptos",
-        "price": 0.922707,
-        "change_24h": 8.9,
+        "price": 0.918858,
+        "change_24h": 8.82,
         "asset": "crypto"
       },
       {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.736435,
-        "change_24h": 8.65,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.239621,
-        "change_24h": 8.37,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.82,
+        "change_24h": 8.34,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 24.11,
-        "change_24h": 7.6,
+        "price": 24.31,
+        "change_24h": 8.33,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ALGO",
+        "name": "Algorand",
+        "price": 0.1284,
+        "change_24h": 8.33,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.950779,
-        "change_24h": -4.08,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "STX",
-        "name": "Stacks",
-        "price": 0.396002,
-        "change_24h": -3.68,
+        "price": 0.948346,
+        "change_24h": -4.39,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.13552,
-        "change_24h": -2.64,
+        "price": 0.136038,
+        "change_24h": -1.95,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "price": 0.3965,
+        "change_24h": -1.43,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CRO",
+        "name": "Cronos",
+        "price": 0.060869,
+        "change_24h": -0.73,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.25,
-        "change_24h": -0.6,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CRO",
-        "name": "Cronos",
-        "price": 0.061051,
-        "change_24h": -0.43,
+        "change_24h": -0.4,
         "asset": "crypto"
       }
     ]
