@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T15:45:47Z",
+  "updated_at": "2026-10-11T16:00:48Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "ALGO",
-        "name": "Algorand",
-        "price": 0.12735,
-        "change_24h": 8.26,
+        "symbol": "APT",
+        "name": "Aptos",
+        "price": 0.946192,
+        "change_24h": 13.97,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.728282,
-        "change_24h": 7.4,
+        "price": 0.735543,
+        "change_24h": 8.27,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ALGO",
+        "name": "Algorand",
+        "price": 0.127848,
+        "change_24h": 8.09,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.200183,
-        "change_24h": 7.12,
+        "price": 0.200429,
+        "change_24h": 7.27,
         "asset": "crypto"
       },
       {
-        "symbol": "INJ",
-        "name": "Injective",
-        "price": 7.73,
-        "change_24h": 6.15,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.970387,
-        "change_24h": 5.87,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.74,
+        "change_24h": 6.38,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.934268,
-        "change_24h": -6.64,
+        "price": 0.936811,
+        "change_24h": -6.32,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.38862,
-        "change_24h": -4.31,
+        "price": 0.390887,
+        "change_24h": -4.11,
         "asset": "crypto"
       },
       {
         "symbol": "CRO",
         "name": "Cronos",
-        "price": 0.060107,
-        "change_24h": -1.51,
+        "price": 0.060417,
+        "change_24h": -1.32,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AAVE",
+        "name": "Aave",
+        "price": 170.01,
+        "change_24h": -0.91,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 242.17,
-        "change_24h": -1.24,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price": 0.251921,
-        "change_24h": -1.11,
+        "price": 243.22,
+        "change_24h": -0.89,
         "asset": "crypto"
       }
     ]
