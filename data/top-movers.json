@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T03:00:51Z",
+  "updated_at": "2026-10-11T03:15:47Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,22 +82,15 @@
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 7.63,
-        "change_24h": 9.65,
+        "price": 7.54,
+        "change_24h": 7.86,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.562091,
-        "change_24h": 7.46,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 5.3,
-        "change_24h": 6.4,
+        "price": 0.555593,
+        "change_24h": 6.56,
         "asset": "crypto"
       },
       {
@@ -110,45 +103,52 @@
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.010899,
-        "change_24h": 6.18,
+        "price": 0.010823,
+        "change_24h": 5.5,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.23,
+        "change_24h": 5.2,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 0.977128,
-        "change_24h": -4.74,
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 1.1,
+        "change_24h": -6.87,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.357614,
-        "change_24h": -4.65,
+        "price": 0.356012,
+        "change_24h": -4.84,
         "asset": "crypto"
       },
       {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 1.11,
-        "change_24h": -4.45,
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 0.975814,
+        "change_24h": -4.63,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 237.3,
-        "change_24h": -4.19,
+        "price": 237.21,
+        "change_24h": -4.23,
         "asset": "crypto"
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "price": 0.040295,
-        "change_24h": -2.92,
+        "price": 0.040196,
+        "change_24h": -3.24,
         "asset": "crypto"
       }
     ]
