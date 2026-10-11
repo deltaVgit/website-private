@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T04:15:53Z",
+  "updated_at": "2026-10-11T04:30:48Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,17 +80,10 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.930328,
-        "change_24h": 14.69,
-        "asset": "crypto"
-      },
-      {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 7.52,
-        "change_24h": 6.92,
+        "price": 7.6,
+        "change_24h": 8.42,
         "asset": "crypto"
       },
       {
@@ -103,15 +96,22 @@
       {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.049023,
-        "change_24h": 5.02,
+        "price": 0.048998,
+        "change_24h": 5.34,
         "asset": "crypto"
       },
       {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.010688,
-        "change_24h": 4.28,
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.192728,
+        "change_24h": 5.14,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.546587,
+        "change_24h": 4.72,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 1.076,
-        "change_24h": -8.85,
+        "price": 1.083,
+        "change_24h": -7.9,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.957416,
-        "change_24h": -5.9,
+        "price": 0.959102,
+        "change_24h": -5.71,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.352726,
-        "change_24h": -5.23,
+        "price": 0.353828,
+        "change_24h": -5.1,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 237.83,
-        "change_24h": -3.81,
+        "price": 238.02,
+        "change_24h": -3.9,
         "asset": "crypto"
       },
       {
-        "symbol": "KAS",
-        "name": "Kaspa",
-        "price": 0.040017,
-        "change_24h": -3.12,
+        "symbol": "ATOM",
+        "name": "Cosmos Hub",
+        "price": 1.93,
+        "change_24h": -2.78,
         "asset": "crypto"
       }
     ]
