@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T21:06:05Z",
+  "updatedAt": "2026-10-11T04:35:55Z",
   "kev": [
     {
       "cve": "CVE-2015-5477",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-86131",
+      "id": "CVE-2026-101148",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "description": "The BackupSheep WordPress Backup Plugin WordPress plugin through 1.8 does not properly validate its integration key, treating an unset or blank key as valid, which allows unauthenticated attackers to create and download ",
+      "published": "2026-10-01T06:17:04.057"
+    },
+    {
+      "id": "CVE-2026-82829",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "A code injection vulnerability in WatchGuard Fireware OS's BOVPN Over TLS client configuration handling allows an attacker who controls the remote VPN server to execute arbitrary commands as root on the connecting Firebo",
-      "published": "2026-09-30T00:16:36.817"
+      "description": "Hitachi Coding Software Suite contains a vulnerability related to Hidden Functionality vulnerability which allows an attacker to gain unauthorized access by exploiting hidden accounts or hard coded credentials. This issu",
+      "published": "2026-10-01T05:17:11.090"
     },
     {
-      "id": "CVE-2026-102794",
+      "id": "CVE-2026-82827",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "Hitachi Coding Software Suite contains a vulnerability related to Use of Hard-coded Cryptographic Key. The Hardcoding of JWT signing secret key allows an attacker to generate unauthorized Bearer tokens and exploit admini",
+      "published": "2026-10-01T05:17:10.780"
+    },
+    {
+      "id": "CVE-2026-82825",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "Hitachi Coding Software Suite contains a vulnerability related to Missing Authentication for Critical Function. This allows an unauthenticated attacker to invoke a critical API, potentially leading to unauthorized retrie",
+      "published": "2026-10-01T05:17:10.443"
+    },
+    {
+      "id": "CVE-2026-82824",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "description": "Hitachi Coding Software Suite contains a vulnerability related to Path Traversal vulnerability that allows an attacker to access, create, modify, or delete files. This issue affects Hitachi Coding Software Suite: through",
+      "published": "2026-10-01T05:17:10.270"
+    },
+    {
+      "id": "CVE-2026-14157",
+      "severity": "CRITICAL",
+      "score": 9.4,
+      "description": "Use of an Externally Controlled Format String in the ASUS Router modules allow a remote authenticated user to execute arbitrary commands via a crafted file uploaded through the web management interface.",
+      "published": "2026-10-01T02:16:53.983"
+    },
+    {
+      "id": "CVE-2026-76142",
+      "severity": "CRITICAL",
+      "score": 9.3,
+      "description": "Insufficient authentication and access control on the internal-only IPC SOAP endpoint of the Genian NAC/ZTNA policy server allows an unauthenticated attacker to invoke internal functions",
+      "published": "2026-10-01T05:17:09.093"
+    },
+    {
+      "id": "CVE-2026-92966",
       "severity": "CRITICAL",
       "score": 9.1,
-      "description": "A vulnerability has been found in Ziroom ZHOME A0101 1.0.1.0. This issue affects some unknown processing of the file /api/ZRnetwork/ping. Such manipulation of the argument url leads to command injection. It is possible t",
-      "published": "2026-09-30T00:16:34.963"
+      "description": "The The Appointment Booking Plugin – LatePoint | Calendar & Scheduling for WordPress plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 5.7.0. This is due to the sof",
+      "published": "2026-10-01T05:17:11.967"
     },
     {
-      "id": "CVE-2026-102793",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "description": "A flaw has been found in Ziroom ZHOME A0101 1.0.1.0. This vulnerability affects the function set_time_zone of the file /api/ZRFirmware/set_time_zone. This manipulation of the argument hostname/zonename causes command inj",
-      "published": "2026-09-30T00:16:33.743"
+      "id": "CVE-2026-13313",
+      "severity": "HIGH",
+      "score": 8.9,
+      "description": "An Active Debug Code vulnerability in certain ASUS router models allows a remote authenticated user, via a crafted HTTP request, to bypass security mechanisms and enable the Telnet service, thereby executing arbitrary co",
+      "published": "2026-10-01T02:16:53.817"
     },
     {
-      "id": "CVE-2026-103056",
-      "severity": "CRITICAL",
-      "score": 9.0,
-      "description": "AiSOC versions 7.2.0 before 12.0.0 contain a command injection vulnerability in the actions service that builds CrowdStrike Real Time Response command strings by interpolating unescaped action parameters in crowdstrike_r",
-      "published": "2026-09-30T01:16:37.050"
+      "id": "CVE-2026-101147",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "The Featured Image from URL (FIFU) WordPress plugin before 6.0.8, Featured Image from URL (FIFU) Premium WordPress plugin before 8.2.8 do not correctly enforce the REST API nonce, disabling the check for the whole reques",
+      "published": "2026-10-01T06:17:01.790"
     },
     {
-      "id": "CVE-2026-81433",
+      "id": "CVE-2026-82828",
+      "severity": "HIGH",
+      "score": 8.8,
+      "description": "Hitachi Coding Software Suite contains an Incorrect Authorization vulnerability that allows an unprivileged user to perform administrator-level operations. This issue affects Hitachi Coding Software Suite: through 3.3.0.",
+      "published": "2026-10-01T05:17:10.937"
+    },
+    {
+      "id": "CVE-2026-19253",
       "severity": "HIGH",
       "score": 8.7,
-      "description": "A stack-based buffer overflow vulnerability in WatchGuard Fireware OS's DHCP fingerprinting daemon (fingerd) allows an unauthenticated attacker with adjacent network access to execute arbitrary code or crash the process ",
-      "published": "2026-09-30T00:16:36.150"
-    },
-    {
-      "id": "CVE-2026-90441",
-      "severity": "HIGH",
-      "score": 8.1,
-      "description": "A missing authorization vulnerability in the wgagent management daemon's session initialization function allows an authenticated, low-privileged user (including a read-only or guest administrator account) to crash the wg",
-      "published": "2026-09-30T00:16:37.363"
-    },
-    {
-      "id": "CVE-2026-103088",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "Handlebars.java before 4.5.5 allows directory traversal. In handlebars-springmvc 4.5.3 and 4.5.4, the path-containment fix for CVE-2026-63490 validates template locations as raw percent-encoded strings, whereas the templ",
-      "published": "2026-09-30T02:16:57.203"
-    },
-    {
-      "id": "CVE-2026-103055",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "AiSOC versions 7.5.0 before 12.0.0 use a hard-coded constant for JWT verification in the realtime WebSocket and SSE service when the AISOC_REALTIME_JWT_SECRET environment variable is not set. Unauthenticated attackers ca",
-      "published": "2026-09-30T01:16:36.880"
-    },
-    {
-      "id": "CVE-2026-86133",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "An integer underflow vulnerability in the WatchGuard Fireware OS IKE daemon (iked) allows a remote attacker who has completed the initial IKEv2 handshake to crash the iked process by sending a specially crafted encrypted",
-      "published": "2026-09-30T00:16:37.087"
-    },
-    {
-      "id": "CVE-2026-86132",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "An integer underflow vulnerability in the WatchGuard Fireware OS IKEv2 daemon (iked) allows a remote, unauthenticated attacker to crash the process by sending a specially crafted encrypted IKEv2 message negotiated with a",
-      "published": "2026-09-30T00:16:36.957"
-    },
-    {
-      "id": "CVE-2026-86128",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "A NULL pointer dereference vulnerability in Fireware OS's NetFlow packet-processing feature allows a remote, unauthenticated attacker to cause a denial of service by sending a specially crafted IPv6 packet.",
-      "published": "2026-09-30T00:16:36.687"
-    },
-    {
-      "id": "CVE-2026-86104",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "An uncontrolled resource consumption vulnerability in the Fireware OS login process (wgagent) allows a remote, unauthenticated attacker to cause a denial of service by sending a specially crafted request.",
-      "published": "2026-09-30T00:16:36.420"
+      "description": "The Cache Enabler WordPress plugin before 1.8.17 does not validate a URL before using it to build a filesystem path in its cache purge routine, and does not confine the resulting deletion to the cache directory, allowing",
+      "published": "2026-10-01T06:17:08.467"
     }
   ],
   "breaches": [
