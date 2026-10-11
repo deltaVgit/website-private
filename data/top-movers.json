@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T06:45:45Z",
+  "updated_at": "2026-10-11T07:00:50Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -83,72 +83,72 @@
         "symbol": "INJ",
         "name": "Injective",
         "price": 7.72,
-        "change_24h": 9.38,
+        "change_24h": 9.48,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.197033,
+        "change_24h": 6.71,
         "asset": "crypto"
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
         "price": 1.065,
-        "change_24h": 6.39,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.194234,
-        "change_24h": 4.94,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.010664,
-        "change_24h": 3.91,
+        "change_24h": 6.38,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.70505,
-        "change_24h": 3.17,
+        "price": 0.708795,
+        "change_24h": 4.24,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.010677,
+        "change_24h": 4.14,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.38,
+        "change_24h": -14.28,
+        "asset": "crypto"
+      },
+      {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.96471,
-        "change_24h": -4.9,
+        "price": 0.963617,
+        "change_24h": -4.91,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.356148,
-        "change_24h": -4.55,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 1.1,
-        "change_24h": -4.15,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AAVE",
-        "name": "Aave",
-        "price": 167.32,
-        "change_24h": -3.72,
+        "price": 0.356641,
+        "change_24h": -4.37,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.136612,
-        "change_24h": -3.66,
+        "price": 0.135835,
+        "change_24h": -3.84,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AAVE",
+        "name": "Aave",
+        "price": 167.41,
+        "change_24h": -3.57,
         "asset": "crypto"
       }
     ]
