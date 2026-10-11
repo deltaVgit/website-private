@@ -1,20 +1,28 @@
 {
-  "updated": "2026-10-10T21:05:40Z",
+  "updated": "2026-10-11T04:35:39Z",
   "items": [
+    {
+      "title": "Dwarf Fortress uses version control now",
+      "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
+      "source": "Simon Willison",
+      "published_at": "2026-10-11T00:52:37+00:00",
+      "summary": "I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control more . That's art. I went looking and I'm sad to ",
+      "tag": "ai"
+    },
+    {
+      "title": "Python 3.15.0 added to actions/python-versions",
+      "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
+      "source": "Simon Willison",
+      "published_at": "2026-10-10T23:58:04+00:00",
+      "summary": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions and git pull once an hour until they add the stable 3.15 - then tell me ",
+      "tag": "ai"
+    },
     {
       "title": "Quoting The New York Times",
       "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
       "source": "Simon Willison",
       "published_at": "2026-10-10T02:04:12+00:00",
       "summary": "Anthropic detailed the activity of its A.I. agents in a blog post on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applications through a form available on the State Department’s we",
-      "tag": "ai"
-    },
-    {
-      "title": "Deno is joining Cloudflare",
-      "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
-      "source": "Simon Willison",
-      "published_at": "2026-10-09T22:48:37+00:00",
-      "summary": "Deno is joining Cloudflare The Deno team released the first version of celld back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers. Today, Cloudflare are acquiring Deno outright, with the goal of building on celld to \"make worker",
       "tag": "ai"
     },
     {
@@ -31,14 +39,6 @@
       "source": "Hugging Face Blog",
       "published_at": "2026-10-09T15:20:29+00:00",
       "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "Quoting Matthew Green",
-      "url": "https://simonwillison.net/2026/Oct/9/matthew-green/",
-      "source": "Simon Willison",
-      "published_at": "2026-10-09T15:02:29+00:00",
-      "summary": "Everyone is very concerned about being respectable, so I’m going to be the goofball who raises worst-case possibilities. I think there is a 1% chance we live in Minicrypt, and a 15% chance we functionally lose confidence in our existing public-key encryption algorithms. [...] The",
       "tag": "ai"
     },
     {
