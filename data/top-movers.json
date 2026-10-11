@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T10:00:48Z",
+  "updated_at": "2026-10-11T10:15:46Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.979738,
+        "change_24h": 14.91,
+        "asset": "crypto"
+      },
+      {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.19846,
-        "change_24h": 8.02,
+        "price": 0.197191,
+        "change_24h": 7.32,
         "asset": "crypto"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
         "price": 2.09,
-        "change_24h": 6.17,
+        "change_24h": 6.43,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 7.6,
-        "change_24h": 5.06,
+        "price": 7.58,
+        "change_24h": 5.58,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.706849,
-        "change_24h": 4.03,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.64,
-        "change_24h": 3.93,
+        "price": 0.702398,
+        "change_24h": 3.9,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 240.15,
-        "change_24h": -4.24,
-        "asset": "crypto"
-      },
-      {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 167.43,
-        "change_24h": -3.96,
+        "price": 167.29,
+        "change_24h": -3.98,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.964763,
-        "change_24h": -3.75,
+        "price": 0.963091,
+        "change_24h": -3.87,
         "asset": "crypto"
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price": 0.247278,
-        "change_24h": -3.14,
+        "price": 0.246712,
+        "change_24h": -3.34,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.135916,
+        "change_24h": -2.65,
         "asset": "crypto"
       },
       {
         "symbol": "OKB",
         "name": "OKB",
-        "price": 123.33,
-        "change_24h": -2.59,
+        "price": 123.07,
+        "change_24h": -2.61,
         "asset": "crypto"
       }
     ]
