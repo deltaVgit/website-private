@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T06:15:46Z",
+  "updated_at": "2026-10-11T06:30:46Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,17 +80,10 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.940604,
-        "change_24h": 14.57,
-        "asset": "crypto"
-      },
-      {
         "symbol": "INJ",
         "name": "Injective",
         "price": 7.73,
-        "change_24h": 9.13,
+        "change_24h": 9.74,
         "asset": "crypto"
       },
       {
@@ -101,54 +94,61 @@
         "asset": "crypto"
       },
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.69,
-        "change_24h": 3.83,
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.193271,
+        "change_24h": 4.23,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.010616,
-        "change_24h": 3.54,
+        "price": 0.010642,
+        "change_24h": 3.73,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.706346,
+        "change_24h": 3.58,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 1.095,
-        "change_24h": -5.18,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.41,
+        "change_24h": -12.27,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.964762,
-        "change_24h": -5.18,
+        "price": 0.963782,
+        "change_24h": -5.19,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.355349,
-        "change_24h": -4.84,
+        "price": 0.355488,
+        "change_24h": -4.76,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 1.099,
+        "change_24h": -4.69,
         "asset": "crypto"
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
-        "price": 167.22,
-        "change_24h": -4.64,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 235.24,
-        "change_24h": -4.38,
+        "price": 167.62,
+        "change_24h": -3.99,
         "asset": "crypto"
       }
     ]
