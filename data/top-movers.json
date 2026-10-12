@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-10-12T14:00:30Z",
+  "updated_at": "2026-10-12T14:15:17Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "CCC",
         "name": "CCC Intelligent Solutions Holdi",
-        "price": 7.56,
-        "change_24h": 7.69,
+        "price": 7.575,
+        "change_24h": 7.91,
         "asset": "equity"
       },
       {
         "symbol": "MANH",
         "name": "Manhattan Associates, Inc.",
-        "price": 218.84,
-        "change_24h": 6.81,
+        "price": 220.61,
+        "change_24h": 7.67,
+        "asset": "equity"
+      },
+      {
+        "symbol": "FIGS",
+        "name": "FIGS, Inc.",
+        "price": 16.95,
+        "change_24h": 7.39,
         "asset": "equity"
       },
       {
         "symbol": "DHT",
         "name": "DHT Holdings, Inc.",
-        "price": 26.3,
-        "change_24h": 6.74,
+        "price": 26.27,
+        "change_24h": 6.59,
         "asset": "equity"
       },
       {
-        "symbol": "FRO",
-        "name": "Frontline Plc",
-        "price": 59.22,
-        "change_24h": 5.56,
-        "asset": "equity"
-      },
-      {
-        "symbol": "ECO",
-        "name": "Okeanis Eco Tankers Corp.",
-        "price": 98.16,
-        "change_24h": 5.42,
+        "symbol": "VSXY",
+        "name": "Victorias Secret & Co.",
+        "price": 87.73,
+        "change_24h": 5.87,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "price": 12.54,
-        "change_24h": -9.26,
-        "asset": "equity"
-      },
-      {
         "symbol": "IONQ",
         "name": "IonQ, Inc.",
-        "price": 37.22,
-        "change_24h": -6.69,
+        "price": 36.38,
+        "change_24h": -8.81,
         "asset": "equity"
       },
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "price": 153.41,
-        "change_24h": -6.55,
+        "price": 150.32,
+        "change_24h": -8.44,
         "asset": "equity"
       },
       {
         "symbol": "TTMI",
         "name": "TTM Technologies, Inc.",
-        "price": 112.67,
-        "change_24h": -6.9,
+        "price": 111.74,
+        "change_24h": -7.66,
         "asset": "equity"
       },
       {
-        "symbol": "SNDK",
-        "name": "Sandisk Corporation",
-        "price": 1479.44,
-        "change_24h": -6.47,
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "price": 27.13,
+        "change_24h": -7.41,
+        "asset": "equity"
+      },
+      {
+        "symbol": "SMTC",
+        "name": "Semtech Corporation",
+        "price": 173.84,
+        "change_24h": -7.18,
         "asset": "equity"
       }
     ]
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "BDX",
-        "name": "Beldex",
-        "price": 0.090651,
-        "change_24h": 12.99,
-        "asset": "crypto"
-      },
-      {
         "symbol": "FIL",
         "name": "Filecoin",
         "price": 1.22,
-        "change_24h": 10.92,
+        "change_24h": 11.55,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BDX",
+        "name": "Beldex",
+        "price": 0.0895,
+        "change_24h": 11.34,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
-        "price": 2.1,
-        "change_24h": 10.05,
+        "price": 2.09,
+        "change_24h": 9.81,
         "asset": "crypto"
       },
       {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 3.38,
-        "change_24h": 7.53,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.78,
+        "change_24h": 8.13,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.127871,
-        "change_24h": 7.48,
+        "price": 0.128113,
+        "change_24h": 7.8,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "STRK",
-        "name": "Starknet",
-        "price": 0.095964,
-        "change_24h": -13.05,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
         "price": 1.86,
-        "change_24h": -7.69,
+        "change_24h": -8.03,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.906525,
-        "change_24h": -6.95,
+        "price": 0.905326,
+        "change_24h": -6.66,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 230.49,
-        "change_24h": -5.52,
+        "price": 229.37,
+        "change_24h": -5.67,
         "asset": "crypto"
       },
       {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1.001,
-        "change_24h": -5.22,
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.350521,
+        "change_24h": -4.64,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.534396,
+        "change_24h": -3.82,
         "asset": "crypto"
       }
     ]
