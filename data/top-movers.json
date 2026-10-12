@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T11:15:19Z",
+  "updated_at": "2026-10-12T11:30:16Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -83,72 +83,72 @@
         "symbol": "FIL",
         "name": "Filecoin",
         "price": 1.24,
-        "change_24h": 13.09,
+        "change_24h": 12.83,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 3.42,
-        "change_24h": 11.66,
+        "price": 3.41,
+        "change_24h": 10.99,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
         "price": 2.09,
-        "change_24h": 9.98,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 5.72,
-        "change_24h": 9.41,
+        "change_24h": 9.73,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.128508,
-        "change_24h": 8.83,
+        "price": 0.128589,
+        "change_24h": 8.99,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.73,
+        "change_24h": 8.97,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.915761,
-        "change_24h": -5.68,
+        "symbol": "STRK",
+        "name": "Starknet",
+        "price": 0.105715,
+        "change_24h": -6.06,
         "asset": "crypto"
       },
       {
-        "symbol": "STRK",
-        "name": "Starknet",
-        "price": 0.105104,
-        "change_24h": -4.93,
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.909448,
+        "change_24h": -6.04,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 235.48,
-        "change_24h": -3.13,
+        "price": 233.09,
+        "change_24h": -3.95,
         "asset": "crypto"
       },
       {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.048805,
-        "change_24h": -2.9,
+        "price": 0.048497,
+        "change_24h": -3.33,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.010126,
-        "change_24h": -2.49,
+        "price": 0.01012,
+        "change_24h": -2.97,
         "asset": "crypto"
       }
     ]
