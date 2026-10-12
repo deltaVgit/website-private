@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T05:00:48Z",
+  "updated_at": "2026-10-12T05:15:45Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 1.25,
-        "change_24h": 14.25,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ICP",
         "name": "Internet Computer",
         "price": 3.49,
-        "change_24h": 14.12,
+        "change_24h": 13.94,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 1.24,
+        "change_24h": 13.35,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.93,
-        "change_24h": 12.31,
+        "price": 5.91,
+        "change_24h": 12.7,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 25.13,
-        "change_24h": 12.02,
+        "price": 24.85,
+        "change_24h": 10.95,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.130613,
-        "change_24h": 10.96,
+        "price": 0.130543,
+        "change_24h": 10.84,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 0.921982,
-        "change_24h": -4.48,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "STRK",
-        "name": "Starknet",
-        "price": 0.10596,
-        "change_24h": -2.58,
-        "asset": "crypto"
-      },
-      {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.389661,
-        "change_24h": -2.55,
+        "price": 0.38754,
+        "change_24h": -3.32,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 0.933127,
+        "change_24h": -3.23,
         "asset": "crypto"
       },
       {
         "symbol": "NEXO",
         "name": "NEXO",
-        "price": 0.836797,
-        "change_24h": -1.65,
+        "price": 0.838985,
+        "change_24h": -1.3,
         "asset": "crypto"
       },
       {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.137297,
-        "change_24h": -0.96,
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.056,
+        "change_24h": -0.86,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.67,
+        "change_24h": -0.7,
         "asset": "crypto"
       }
     ]
