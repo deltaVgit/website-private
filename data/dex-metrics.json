@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T13:05:26Z",
+  "updated_at": "2026-10-12T15:05:18Z",
   "source": "https://api.llama.fi/overview/dexs",
   "weekly": [
     {
@@ -1252,15 +1252,15 @@
     },
     {
       "week": "2026-W41",
-      "curated": 55707707162.41,
-      "filtered": 55707707162.41,
-      "raw": 55707707162.41
+      "curated": 56350562076.41001,
+      "filtered": 56350562076.41001,
+      "raw": 56350562076.41001
     },
     {
       "week": "2026-W42",
-      "curated": 5928158132.64,
-      "filtered": 5928158132.64,
-      "raw": 5928158132.64
+      "curated": 6755394491.39,
+      "filtered": 6755394491.39,
+      "raw": 6755394491.39
     }
   ],
   "chains": [
@@ -1271,13 +1271,13 @@
     },
     {
       "chain": "Raydium AMM",
-      "volume_24h": 129741544.0,
-      "delta_pct": 22.28
+      "volume_24h": 138068260.0,
+      "delta_pct": 30.12
     },
     {
       "chain": "Curve DEX",
-      "volume_24h": 23089293.0,
-      "delta_pct": -47.04
+      "volume_24h": 33424182.0,
+      "delta_pct": -23.34
     },
     {
       "chain": "PancakeSwap AMM",
@@ -1291,28 +1291,23 @@
     },
     {
       "chain": "SushiSwap",
-      "volume_24h": 1101994.0,
-      "delta_pct": -25.51
-    },
-    {
-      "chain": "Defi Swap",
-      "volume_24h": 268843.0,
-      "delta_pct": 4.09
+      "volume_24h": 1073806.0,
+      "delta_pct": -27.41
     },
     {
       "chain": "Bancor V2.1",
-      "volume_24h": 101005.0,
-      "delta_pct": -18.43
+      "volume_24h": 103185.0,
+      "delta_pct": -16.66
     },
     {
       "chain": "Pangolin V2",
-      "volume_24h": 84410.0,
-      "delta_pct": 171.02
+      "volume_24h": 88067.0,
+      "delta_pct": 182.76
     },
     {
       "chain": "Balancer V1",
-      "volume_24h": 78027.0,
-      "delta_pct": -7.3
+      "volume_24h": 82443.0,
+      "delta_pct": -2.06
     },
     {
       "chain": "DODO AMM",
@@ -1321,8 +1316,13 @@
     },
     {
       "chain": "Nerve",
-      "volume_24h": 35536.0,
-      "delta_pct": 15.43
+      "volume_24h": 39582.0,
+      "delta_pct": 28.58
+    },
+    {
+      "chain": "Ellipsis Finance",
+      "volume_24h": 27979.0,
+      "delta_pct": 416254.17
     }
   ]
 }
