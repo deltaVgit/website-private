@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T08:30:48Z",
+  "updated_at": "2026-10-12T08:45:55Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 3.45,
-        "change_24h": 12.67,
-        "asset": "crypto"
-      },
-      {
         "symbol": "BTW",
         "name": "Bitway",
         "price": 1.72,
+        "change_24h": 12.47,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ICP",
+        "name": "Internet Computer",
+        "price": 3.44,
         "change_24h": 12.28,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 1.24,
-        "change_24h": 12.05,
+        "price": 1.23,
+        "change_24h": 11.78,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.131771,
-        "change_24h": 11.17,
+        "price": 0.132426,
+        "change_24h": 11.15,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 24.77,
-        "change_24h": 10.99,
+        "price": 24.89,
+        "change_24h": 10.74,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "STRK",
         "name": "Starknet",
-        "price": 0.101521,
-        "change_24h": -7.12,
+        "price": 0.101559,
+        "change_24h": -5.9,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.919517,
-        "change_24h": -4.27,
+        "price": 0.91793,
+        "change_24h": -4.56,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
-        "price": 1.87,
-        "change_24h": -3.55,
+        "price": 1.86,
+        "change_24h": -3.7,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.930328,
-        "change_24h": -3.36,
+        "price": 0.933458,
+        "change_24h": -3.29,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.383425,
-        "change_24h": -2.66,
+        "price": 0.384322,
+        "change_24h": -3.27,
         "asset": "crypto"
       }
     ]
