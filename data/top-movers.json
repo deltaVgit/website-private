@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T10:45:16Z",
+  "updated_at": "2026-10-12T11:00:29Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "PYTH",
-        "name": "Pyth Network",
-        "price": 0.087479,
-        "change_24h": 14.64,
-        "asset": "crypto"
-      },
-      {
         "symbol": "FIL",
         "name": "Filecoin",
         "price": 1.24,
-        "change_24h": 13.8,
+        "change_24h": 13.35,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 3.43,
-        "change_24h": 12.18,
+        "price": 3.44,
+        "change_24h": 12.33,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
-        "price": 2.11,
-        "change_24h": 11.46,
+        "price": 2.13,
+        "change_24h": 12.2,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 24.77,
-        "change_24h": 10.64,
+        "price": 24.69,
+        "change_24h": 10.07,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ALGO",
+        "name": "Algorand",
+        "price": 0.130065,
+        "change_24h": 10.07,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.91339,
-        "change_24h": -5.85,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "STRK",
-        "name": "Starknet",
-        "price": 0.106727,
-        "change_24h": -3.18,
+        "price": 0.914255,
+        "change_24h": -5.55,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.01002,
-        "change_24h": -2.56,
+        "price": 0.010016,
+        "change_24h": -4.19,
         "asset": "crypto"
       },
       {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 0.93817,
-        "change_24h": -2.41,
+        "symbol": "STRK",
+        "name": "Starknet",
+        "price": 0.105911,
+        "change_24h": -2.89,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 236.63,
-        "change_24h": -2.31,
+        "price": 236.18,
+        "change_24h": -2.88,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price": 0.048952,
+        "change_24h": -2.75,
         "asset": "crypto"
       }
     ]
