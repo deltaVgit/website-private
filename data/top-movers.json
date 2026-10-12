@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T22:45:15Z",
+  "updated_at": "2026-10-12T23:00:31Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "BDX",
         "name": "Beldex",
-        "price": 0.088147,
+        "price": 0.088065,
         "change_24h": 9.93,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.73,
-        "change_24h": 8.22,
+        "price": 1.72,
+        "change_24h": 7.51,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
-        "price": 2.11,
-        "change_24h": 5.78,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PYTH",
-        "name": "Pyth Network",
-        "price": 0.082319,
-        "change_24h": 5.1,
+        "price": 2.1,
+        "change_24h": 5.43,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.412719,
-        "change_24h": 4.47,
+        "price": 0.415067,
+        "change_24h": 5.29,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PYTH",
+        "name": "Pyth Network",
+        "price": 0.082312,
+        "change_24h": 4.37,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.210243,
-        "change_24h": -12.35,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.05,
+        "change_24h": -12.92,
         "asset": "crypto"
       },
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 5.12,
-        "change_24h": -11.69,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.209499,
+        "change_24h": -12.07,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.005013,
-        "change_24h": -10.47,
+        "price": 0.005003,
+        "change_24h": -10.69,
         "asset": "crypto"
       },
       {
         "symbol": "APT",
         "name": "Aptos",
-        "price": 0.811426,
-        "change_24h": -10.43,
+        "price": 0.810248,
+        "change_24h": -10.37,
         "asset": "crypto"
       },
       {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 1.1,
-        "change_24h": -10.15,
+        "symbol": "ICP",
+        "name": "Internet Computer",
+        "price": 3.15,
+        "change_24h": -9.99,
         "asset": "crypto"
       }
     ]
