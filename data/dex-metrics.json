@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T17:05:22Z",
+  "updated_at": "2026-10-12T18:05:17Z",
   "source": "https://api.llama.fi/overview/dexs",
   "weekly": [
     {
@@ -1258,26 +1258,26 @@
     },
     {
       "week": "2026-W42",
-      "curated": 7147950355.2,
-      "filtered": 7147950355.2,
-      "raw": 7147950355.2
+      "curated": 7149925852.63,
+      "filtered": 7149925852.63,
+      "raw": 7149925852.63
     }
   ],
   "chains": [
     {
       "chain": "Orca DEX",
-      "volume_24h": 217970158.0,
-      "delta_pct": 83.27
+      "volume_24h": 250945893.0,
+      "delta_pct": 111.0
     },
     {
       "chain": "Raydium AMM",
-      "volume_24h": 148161104.0,
-      "delta_pct": 39.64
+      "volume_24h": 158329826.0,
+      "delta_pct": 49.22
     },
     {
       "chain": "Curve DEX",
-      "volume_24h": 38018933.0,
-      "delta_pct": -12.8
+      "volume_24h": 42722165.0,
+      "delta_pct": -2.01
     },
     {
       "chain": "PancakeSwap AMM",
@@ -1291,28 +1291,23 @@
     },
     {
       "chain": "SushiSwap",
-      "volume_24h": 1113702.0,
-      "delta_pct": -24.72
-    },
-    {
-      "chain": "Defi Swap",
-      "volume_24h": 271710.0,
-      "delta_pct": 5.2
-    },
-    {
-      "chain": "Bancor V2.1",
-      "volume_24h": 111320.0,
-      "delta_pct": -10.09
+      "volume_24h": 1088563.0,
+      "delta_pct": -26.42
     },
     {
       "chain": "Pangolin V2",
-      "volume_24h": 89569.0,
-      "delta_pct": 187.59
+      "volume_24h": 84508.0,
+      "delta_pct": 171.34
     },
     {
       "chain": "Balancer V1",
-      "volume_24h": 83225.0,
-      "delta_pct": -1.13
+      "volume_24h": 79674.0,
+      "delta_pct": -5.35
+    },
+    {
+      "chain": "Bancor V2.1",
+      "volume_24h": 78165.0,
+      "delta_pct": -36.87
     },
     {
       "chain": "DODO AMM",
@@ -1321,8 +1316,13 @@
     },
     {
       "chain": "Nerve",
-      "volume_24h": 39582.0,
-      "delta_pct": 28.58
+      "volume_24h": 37575.0,
+      "delta_pct": 22.06
+    },
+    {
+      "chain": "Defi Swap",
+      "volume_24h": 29072.0,
+      "delta_pct": -88.74
     }
   ]
 }
