@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T13:00:32Z",
+  "updated_at": "2026-10-12T13:15:17Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 1.22,
-        "change_24h": 10.75,
+        "price": 1.23,
+        "change_24h": 11.56,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.78,
+        "change_24h": 8.97,
         "asset": "crypto"
       },
       {
         "symbol": "ICP",
         "name": "Internet Computer",
         "price": 3.4,
-        "change_24h": 9.19,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RENDER",
-        "name": "Render",
-        "price": 2.08,
-        "change_24h": 8.49,
+        "change_24h": 8.74,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.127282,
-        "change_24h": 7.53,
+        "price": 0.128126,
+        "change_24h": 8.32,
         "asset": "crypto"
       },
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 23.98,
-        "change_24h": 5.63,
+        "symbol": "RENDER",
+        "name": "Render",
+        "price": 2.06,
+        "change_24h": 7.68,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "STRK",
         "name": "Starknet",
-        "price": 0.103507,
-        "change_24h": -9.8,
+        "price": 0.101734,
+        "change_24h": -11.45,
         "asset": "crypto"
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.89953,
-        "change_24h": -7.33,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 231.03,
-        "change_24h": -4.64,
+        "price": 0.899821,
+        "change_24h": -7.61,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
-        "price": 1.86,
-        "change_24h": -4.48,
+        "price": 1.85,
+        "change_24h": -7.5,
         "asset": "crypto"
       },
       {
-        "symbol": "NIGHT",
-        "name": "Midnight",
-        "price": 0.047306,
-        "change_24h": -4.37,
+        "symbol": "QNT",
+        "name": "Quant",
+        "price": 230.14,
+        "change_24h": -5.47,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.001,
+        "change_24h": -5.23,
         "asset": "crypto"
       }
     ]
