@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T14:45:21Z",
+  "updated_at": "2026-10-12T15:00:31Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -13,29 +13,29 @@
       {
         "symbol": "FIGS",
         "name": "FIGS, Inc.",
-        "price": 16.95,
-        "change_24h": 7.41,
-        "asset": "equity"
-      },
-      {
-        "symbol": "DHT",
-        "name": "DHT Holdings, Inc.",
-        "price": 26.2,
-        "change_24h": 6.35,
+        "price": 17.2,
+        "change_24h": 9.03,
         "asset": "equity"
       },
       {
         "symbol": "MANH",
         "name": "Manhattan Associates, Inc.",
-        "price": 217.88,
-        "change_24h": 6.34,
+        "price": 217.22,
+        "change_24h": 6.02,
         "asset": "equity"
       },
       {
-        "symbol": "FRO",
-        "name": "Frontline Plc",
-        "price": 59.23,
-        "change_24h": 5.59,
+        "symbol": "DHT",
+        "name": "DHT Holdings, Inc.",
+        "price": 25.95,
+        "change_24h": 5.32,
+        "asset": "equity"
+      },
+      {
+        "symbol": "ECO",
+        "name": "Okeanis Eco Tankers Corp.",
+        "price": 97.74,
+        "change_24h": 4.97,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "price": 12.53,
-        "change_24h": -9.33,
-        "asset": "equity"
-      },
-      {
-        "symbol": "TTMI",
-        "name": "TTM Technologies, Inc.",
-        "price": 109.68,
-        "change_24h": -9.36,
-        "asset": "equity"
-      },
-      {
-        "symbol": "IONQ",
-        "name": "IonQ, Inc.",
-        "price": 36.24,
-        "change_24h": -9.15,
+        "price": 12.46,
+        "change_24h": -9.84,
         "asset": "equity"
       },
       {
         "symbol": "BLCO",
         "name": "Bausch + Lomb Corporation",
-        "price": 15.8,
-        "change_24h": -8.67,
+        "price": 15.61,
+        "change_24h": -9.73,
         "asset": "equity"
       },
       {
-        "symbol": "LITE",
-        "name": "Lumentum Holdings Inc.",
-        "price": 1022.35,
-        "change_24h": -7.34,
+        "symbol": "IONQ",
+        "name": "IonQ, Inc.",
+        "price": 36.06,
+        "change_24h": -9.6,
+        "asset": "equity"
+      },
+      {
+        "symbol": "TTMI",
+        "name": "TTM Technologies, Inc.",
+        "price": 110.77,
+        "change_24h": -8.46,
+        "asset": "equity"
+      },
+      {
+        "symbol": "AAOI",
+        "name": "Applied Optoelectronics, Inc.",
+        "price": 101.08,
+        "change_24h": -7.8,
         "asset": "equity"
       }
     ]
@@ -82,73 +82,73 @@
       {
         "symbol": "BDX",
         "name": "Beldex",
-        "price": 0.090085,
-        "change_24h": 11.99,
+        "price": 0.09,
+        "change_24h": 12.36,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 1.2,
-        "change_24h": 8.02,
+        "price": 1.21,
+        "change_24h": 9.06,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
         "price": 2.03,
-        "change_24h": 6.28,
+        "change_24h": 5.94,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.77,
-        "change_24h": 5.93,
+        "price": 1.76,
+        "change_24h": 5.46,
         "asset": "crypto"
       },
       {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 3.32,
-        "change_24h": 4.38,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.59,
+        "change_24h": 4.73,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "APT",
-        "name": "Aptos",
-        "price": 0.846234,
-        "change_24h": -8.5,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.522622,
-        "change_24h": -8.37,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
-        "price": 1.85,
-        "change_24h": -8.33,
+        "price": 1.84,
+        "change_24h": -8.45,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "APT",
+        "name": "Aptos",
+        "price": 0.848461,
+        "change_24h": -8.12,
         "asset": "crypto"
       },
       {
         "symbol": "JUP",
         "name": "Jupiter",
-        "price": 0.342875,
-        "change_24h": -7.98,
+        "price": 0.343751,
+        "change_24h": -8.03,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.524349,
+        "change_24h": -7.49,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 227.1,
-        "change_24h": -6.74,
+        "price": 228.62,
+        "change_24h": -6.32,
         "asset": "crypto"
       }
     ]
