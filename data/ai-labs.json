@@ -1,6 +1,70 @@
 {
-  "updated": "2026-10-12T00:35:50Z",
+  "updated": "2026-10-12T14:05:12Z",
   "items": [
+    {
+      "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+      "url": "https://jack-clark.net/2026/10/12/import-ai-476-creativity-and-rsi-worse-than-china-open-weight-models-ai-goes-to-space/",
+      "source": "Import AI",
+      "published_at": "2026-10-12T12:30:39+00:00",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now New benchmark shows how AI models lack intuitive visual reasoning:…Humanity’s Sixth Sense highligh",
+      "tag": "ai"
+    },
+    {
+      "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
+      "url": "https://arxiv.org/abs/2610.12493",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12493v1 Announce Type: new Abstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable. However, evidence accumulated over th",
+      "tag": "ai"
+    },
+    {
+      "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
+      "url": "https://arxiv.org/abs/2610.12536",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12536v1 Announce Type: new Abstract: EliteTable is a self-improving program-search algorithm guided by large language models (LLMs) that uses a fixed-capacity table of high-scoring solutions to guide new proposals, edits of existing solutions, and remixes of several so",
+      "tag": "ai"
+    },
+    {
+      "title": "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study",
+      "url": "https://arxiv.org/abs/2610.12542",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12542v1 Announce Type: new Abstract: Monte Carlo Tree Search (MCTS) is often proposed for scheduling directed-acyclic-graph (DAG) workflows, yet most studies never run the comparison that could refute it - giving a much simpler method the same search effort. We run tha",
+      "tag": "ai"
+    },
+    {
+      "title": "Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning",
+      "url": "https://arxiv.org/abs/2610.12593",
+      "source": "arXiv cs.AI",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12593v1 Announce Type: new Abstract: The continued improvement of large language models increasingly depends on synthetic experience, yet effective data synthesis for interactive agents requires not only executable and verifiable trajectories, but also interactions tha",
+      "tag": "ai"
+    },
+    {
+      "title": "AutoIndexer: Flexible-Order Decoding by Training Causal Models on Chains of Edits",
+      "url": "https://arxiv.org/abs/2610.12545",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12545v1 Announce Type: new Abstract: Autoregressive decoding is less suited to non-causally ordered data, e.g., cross-references or future dependencies, since their outputs cannot be revised post hoc, unlike iterative human reasoning. Diffusion LLMs partially mitigate ",
+      "tag": "ai"
+    },
+    {
+      "title": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
+      "url": "https://arxiv.org/abs/2610.12569",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12569v1 Announce Type: new Abstract: Static coding benchmarks are fixed at release. Over time their tasks leak into training data, and stronger agents eventually saturate them. We argue that a benchmark should instead aim to be self-scaling: its tasks and oracles are c",
+      "tag": "ai"
+    },
+    {
+      "title": "Contextual Correction of Parallel Draftsfor Speculative Decoding",
+      "url": "https://arxiv.org/abs/2610.12570",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-10-12T04:00:00+00:00",
+      "summary": "arXiv:2610.12570v1 Announce Type: new Abstract: Speculative decoding accelerates large language model inference by using a lightweight drafter to propose multiple tokens that are subsequently verified in parallel by the target model. Recent diffusion-based drafters make this para",
+      "tag": "ai"
+    },
     {
       "title": "Minimum required pacing: finish aligning it before you train the next one",
       "url": "https://www.alignmentforum.org/posts/ZWSstGSwmaxTjQ8W7/minimum-required-pacing-finish-aligning-it-before-you-train",
@@ -130,14 +194,6 @@
       "tag": "ai"
     },
     {
-      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-      "source": "Google DeepMind",
-      "published_at": "2026-10-06T19:57:04+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
       "title": "NTS: Authenticated Time at Meta",
       "url": "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/",
       "source": "Meta Engineering",
@@ -170,6 +226,14 @@
       "tag": "ai"
     },
     {
+      "title": "Rocks to Rules: Climbing a Rickety-But-Interoperable Semantic Ladder",
+      "url": "https://www.alignmentforum.org/posts/hEDMDFmb322yfufYL/rocks-to-rules-climbing-a-rickety-but-interoperable-semantic",
+      "source": "Alignment Forum",
+      "published_at": "2026-10-03T08:07:32+00:00",
+      "summary": "(Epistemic status: A promising but weird research direction in agent foundations and philosophy of language. A half-built conceptual tower whose mortar and paint are both still wet: please excuse our mess while we innovate. Some of it, I'm confident in as pretty much right; some ",
+      "tag": "ai"
+    },
+    {
       "title": "The latest AI news we announced in September 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
       "source": "Google AI Blog",
@@ -186,51 +250,11 @@
       "tag": "ai"
     },
     {
-      "title": "Gemini 4 Argon: our next era of frontier intelligence",
-      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "source": "Google DeepMind",
-      "published_at": "2026-09-30T20:01:45+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "Introducing SynthID Bio",
-      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
-      "source": "Google DeepMind",
-      "published_at": "2026-09-30T15:03:07+00:00",
-      "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-      "tag": "ai"
-    },
-    {
-      "title": "Fixed-weight models are adversarially vulnerable: hence misaligned",
-      "url": "https://www.alignmentforum.org/posts/9LWK9Hh3Qsg36e3FS/fixed-weight-models-are-adversarially-vulnerable-hence",
-      "source": "Alignment Forum",
-      "published_at": "2026-09-28T20:08:39+00:00",
-      "summary": "This post argues that fixed-weight models (at least as we understand them today) will a) always be vulnerable to adversarial examples in their concept-spaces, and b) hence will be misaligned, under sufficient optimisation pressure . Boundaries in concept space To serve any purpos",
-      "tag": "ai"
-    },
-    {
       "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
       "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
       "source": "Google AI Blog",
       "published_at": "2026-09-28T19:00:00+00:00",
       "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "tag": "ai"
-    },
-    {
-      "title": "Import AI 474: Platonic mindspace; TPUs in space; Zhipu starts an outer RSI loop",
-      "url": "https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop/",
-      "source": "Import AI",
-      "published_at": "2026-09-28T12:32:03+00:00",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Are minds patterns from a Platonic space, with bodies and machines as their interfaces, Michael Le",
-      "tag": "ai"
-    },
-    {
-      "title": "Introducing Gemini 3.8 Live with Live Avatar",
-      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-      "source": "Google DeepMind",
-      "published_at": "2026-09-24T16:20:39+00:00",
-      "summary": "",
       "tag": "ai"
     },
     {
@@ -295,22 +319,6 @@
       "source": "Qwen (Alibaba)",
       "published_at": "2025-08-18T17:30:00+00:00",
       "summary": "QWEN CHAT GITHUB HUGGING FACE MODELSCOPE DISCORD We are excited to introduce Qwen-Image-Edit, the image editing version of Qwen-Image. Built upon our 20B Qwen-Image model, Qwen-Image-Edit successfully extends Qwen-Image’s unique text rendering capabilities to image editing tasks,",
-      "tag": "ai"
-    },
-    {
-      "title": "Qwen-Image: Crafting with Native Text Rendering",
-      "url": "https://qwenlm.github.io/blog/qwen-image/",
-      "source": "Qwen (Alibaba)",
-      "published_at": "2025-08-04T14:08:30+00:00",
-      "summary": "GITHUB HUGGING FACE MODELSCOPE DEMO DISCORD We are thrilled to release Qwen-Image, a 20B MMDiT image foundation model that achieves significant advances in complex text rendering and precise image editing. To try the latest model, feel free to visit Qwen Chat and choose “Image Ge",
-      "tag": "ai"
-    },
-    {
-      "title": "GSPO: Towards Scalable Reinforcement Learning for Language Models",
-      "url": "https://qwenlm.github.io/blog/gspo/",
-      "source": "Qwen (Alibaba)",
-      "published_at": "2025-07-27T07:00:00+00:00",
-      "summary": "PAPER DISCORD Introduction Reinforcement Learning (RL) has emerged as a pivotal paradigm for scaling language models and enhancing their deep reasoning and problem-solving capabilities. To scale RL, the foremost prerequisite is maintaining stable and robust training dynamics. How",
       "tag": "ai"
     }
   ],
