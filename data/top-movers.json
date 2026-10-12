@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T00:30:48Z",
+  "updated_at": "2026-10-12T00:45:52Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "STRK",
-        "name": "Starknet",
-        "price": 0.119952,
-        "change_24h": 14.72,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ICP",
         "name": "Internet Computer",
         "price": 3.47,
-        "change_24h": 12.62,
+        "change_24h": 13.14,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.85,
-        "change_24h": 11.07,
+        "price": 5.92,
+        "change_24h": 12.07,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 1.23,
-        "change_24h": 10.89,
+        "price": 1.24,
+        "change_24h": 11.75,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.241341,
-        "change_24h": 9.69,
+        "price": 0.242776,
+        "change_24h": 10.16,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 24.67,
+        "change_24h": 9.21,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.925865,
-        "change_24h": -6.72,
+        "price": 0.929783,
+        "change_24h": -6.11,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.010353,
-        "change_24h": -5.15,
+        "price": 0.010393,
+        "change_24h": -4.8,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
-        "price": 1.91,
-        "change_24h": -2.35,
+        "price": 1.92,
+        "change_24h": -2.09,
         "asset": "crypto"
       },
       {
         "symbol": "NEXO",
         "name": "NEXO",
-        "price": 0.837623,
-        "change_24h": -1.59,
+        "price": 0.836496,
+        "change_24h": -1.4,
         "asset": "crypto"
       },
       {
-        "symbol": "PI",
-        "name": "Pi Network",
-        "price": 0.082327,
-        "change_24h": -1.12,
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 7.76,
+        "change_24h": -1.34,
         "asset": "crypto"
       }
     ]
