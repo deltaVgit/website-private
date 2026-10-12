@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T09:45:50Z",
+  "updated_at": "2026-10-12T10:15:18Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 3.48,
-        "change_24h": 13.54,
-        "asset": "crypto"
-      },
-      {
         "symbol": "FIL",
         "name": "Filecoin",
         "price": 1.24,
-        "change_24h": 12.76,
+        "change_24h": 13.43,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ICP",
+        "name": "Internet Computer",
+        "price": 3.45,
+        "change_24h": 12.52,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
-        "price": 2.11,
-        "change_24h": 10.86,
+        "price": 2.13,
+        "change_24h": 11.81,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.8,
-        "change_24h": 10.64,
+        "price": 5.79,
+        "change_24h": 10.49,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 24.73,
-        "change_24h": 10.19,
+        "price": 24.57,
+        "change_24h": 9.36,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.009475,
+        "change_24h": -6.77,
+        "asset": "crypto"
+      },
+      {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
-        "price": 0.922,
-        "change_24h": -6.79,
+        "price": 0.913756,
+        "change_24h": -6.56,
         "asset": "crypto"
       },
       {
         "symbol": "STRK",
         "name": "Starknet",
-        "price": 0.10528,
+        "price": 0.105255,
         "change_24h": -3.66,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price": 236.64,
+        "change_24h": -2.88,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.931142,
-        "change_24h": -3.59,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ATOM",
-        "name": "Cosmos Hub",
-        "price": 1.86,
-        "change_24h": -3.41,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.19396,
-        "change_24h": -2.66,
+        "price": 0.941026,
+        "change_24h": -2.22,
         "asset": "crypto"
       }
     ]
