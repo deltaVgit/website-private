@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-12T17:00:28Z",
+  "updated_at": "2026-10-12T17:15:20Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "FIGS",
         "name": "FIGS, Inc.",
-        "price": 17.46,
-        "change_24h": 10.68,
+        "price": 17.54,
+        "change_24h": 11.15,
         "asset": "equity"
       },
       {
         "symbol": "CCC",
         "name": "CCC Intelligent Solutions Holdi",
-        "price": 7.705,
-        "change_24h": 9.76,
-        "asset": "equity"
-      },
-      {
-        "symbol": "VSXY",
-        "name": "Victorias Secret & Co.",
-        "price": 88.87,
-        "change_24h": 7.24,
+        "price": 7.695,
+        "change_24h": 9.62,
         "asset": "equity"
       },
       {
         "symbol": "FICO",
         "name": "Fair Isaac Corporation",
-        "price": 713.51,
-        "change_24h": 6.88,
+        "price": 713.9,
+        "change_24h": 6.94,
         "asset": "equity"
       },
       {
         "symbol": "VEON",
         "name": "VEON Ltd.",
-        "price": 81.88,
-        "change_24h": 6.6,
+        "price": 82.05,
+        "change_24h": 6.82,
+        "asset": "equity"
+      },
+      {
+        "symbol": "VSXY",
+        "name": "Victorias Secret & Co.",
+        "price": 88.6,
+        "change_24h": 6.91,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "TTMI",
         "name": "TTM Technologies, Inc.",
-        "price": 107.41,
-        "change_24h": -11.24,
-        "asset": "equity"
-      },
-      {
-        "symbol": "CBRS",
-        "name": "Cerebras Systems Inc.",
-        "price": 147.09,
-        "change_24h": -10.41,
+        "price": 107.7,
+        "change_24h": -10.99,
         "asset": "equity"
       },
       {
         "symbol": "LITE",
         "name": "Lumentum Holdings Inc.",
-        "price": 990.11,
-        "change_24h": -10.26,
+        "price": 985.1,
+        "change_24h": -10.72,
         "asset": "equity"
       },
       {
         "symbol": "TXG",
         "name": "10x Genomics, Inc.",
-        "price": 72.38,
-        "change_24h": -10.25,
+        "price": 72.03,
+        "change_24h": -10.69,
+        "asset": "equity"
+      },
+      {
+        "symbol": "CBRS",
+        "name": "Cerebras Systems Inc.",
+        "price": 147.29,
+        "change_24h": -10.28,
         "asset": "equity"
       },
       {
         "symbol": "CIEN",
         "name": "Ciena Corporation",
-        "price": 405.69,
-        "change_24h": -9.8,
+        "price": 405.25,
+        "change_24h": -9.9,
         "asset": "equity"
       }
     ]
@@ -82,73 +82,73 @@
       {
         "symbol": "PYTH",
         "name": "Pyth Network",
-        "price": 0.085021,
-        "change_24h": 9.77,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BDX",
-        "name": "Beldex",
-        "price": 0.085904,
-        "change_24h": 6.88,
+        "price": 0.087054,
+        "change_24h": 13.58,
         "asset": "crypto"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "price": 2.21,
-        "change_24h": 6.65,
+        "price": 2.2,
+        "change_24h": 6.15,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BDX",
+        "name": "Beldex",
+        "price": 0.085322,
+        "change_24h": 6.1,
         "asset": "crypto"
       },
       {
         "symbol": "KCS",
         "name": "KuCoin",
-        "price": 7.91,
-        "change_24h": 3.35,
+        "price": 7.92,
+        "change_24h": 3.68,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.139862,
-        "change_24h": 3.19,
+        "price": 0.139983,
+        "change_24h": 2.9,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "price": 0.336953,
-        "change_24h": -11.56,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.005224,
+        "change_24h": -10.33,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.005203,
-        "change_24h": -10.82,
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.338496,
+        "change_24h": -10.2,
         "asset": "crypto"
       },
       {
         "symbol": "APT",
         "name": "Aptos",
-        "price": 0.826424,
-        "change_24h": -10.35,
+        "price": 0.829444,
+        "change_24h": -9.81,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.515692,
-        "change_24h": -9.87,
+        "price": 0.521014,
+        "change_24h": -8.79,
         "asset": "crypto"
       },
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.218746,
-        "change_24h": -8.91,
+        "symbol": "ATOM",
+        "name": "Cosmos Hub",
+        "price": 1.81,
+        "change_24h": -8.27,
         "asset": "crypto"
       }
     ]
