@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T01:15:48Z",
+  "updated_at": "2026-10-12T01:30:51Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "STRK",
+        "name": "Starknet",
+        "price": 0.122164,
+        "change_24h": 13.87,
+        "asset": "crypto"
+      },
+      {
         "symbol": "ICP",
         "name": "Internet Computer",
-        "price": 3.46,
-        "change_24h": 12.93,
+        "price": 3.44,
+        "change_24h": 11.48,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.9,
-        "change_24h": 11.22,
+        "price": 5.89,
+        "change_24h": 10.35,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
         "price": 1.22,
-        "change_24h": 10.59,
+        "change_24h": 9.39,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.239934,
-        "change_24h": 8.77,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.735508,
-        "change_24h": 8.08,
+        "price": 0.238396,
+        "change_24h": 7.52,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.010373,
-        "change_24h": -5.4,
+        "price": 0.010367,
+        "change_24h": -5.79,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.931766,
-        "change_24h": -5.22,
+        "price": 0.930791,
+        "change_24h": -4.93,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
-        "price": 1.9,
-        "change_24h": -2.79,
+        "price": 1.91,
+        "change_24h": -2.9,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.394044,
-        "change_24h": -1.25,
+        "price": 0.392574,
+        "change_24h": -1.93,
         "asset": "crypto"
       },
       {
         "symbol": "PI",
         "name": "Pi Network",
-        "price": 0.081872,
-        "change_24h": -1.25,
+        "price": 0.081961,
+        "change_24h": -1.56,
         "asset": "crypto"
       }
     ]
