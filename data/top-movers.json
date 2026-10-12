@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T06:00:50Z",
+  "updated_at": "2026-10-12T06:15:49Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "ICP",
-        "name": "Internet Computer",
-        "price": 3.46,
-        "change_24h": 13.6,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.69,
+        "change_24h": 15.96,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
         "price": 1.24,
-        "change_24h": 13.38,
+        "change_24h": 13.57,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ICP",
+        "name": "Internet Computer",
+        "price": 3.45,
+        "change_24h": 13.23,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.91,
-        "change_24h": 13.01,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 24.87,
-        "change_24h": 11.44,
+        "price": 5.89,
+        "change_24h": 12.42,
         "asset": "crypto"
       },
       {
         "symbol": "ALGO",
         "name": "Algorand",
-        "price": 0.131223,
-        "change_24h": 11.03,
+        "price": 0.131524,
+        "change_24h": 11.6,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.927539,
-        "change_24h": -4.08,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "STRK",
-        "name": "Starknet",
-        "price": 0.106221,
-        "change_24h": -3.01,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.010374,
-        "change_24h": -2.58,
+        "price": 0.92372,
+        "change_24h": -4.22,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.38869,
-        "change_24h": -2.51,
+        "price": 0.385462,
+        "change_24h": -3.15,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.010333,
+        "change_24h": -2.6,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "STRK",
+        "name": "Starknet",
+        "price": 0.10574,
+        "change_24h": -2.53,
         "asset": "crypto"
       },
       {
         "symbol": "ATOM",
         "name": "Cosmos Hub",
-        "price": 1.9,
-        "change_24h": -1.17,
+        "price": 1.89,
+        "change_24h": -1.65,
         "asset": "crypto"
       }
     ]
