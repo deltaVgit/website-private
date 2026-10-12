@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T22:30:15Z",
+  "updated_at": "2026-10-12T22:45:15Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "BDX",
         "name": "Beldex",
-        "price": 0.087985,
-        "change_24h": 9.8,
+        "price": 0.088147,
+        "change_24h": 9.93,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.76,
-        "change_24h": 9.09,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "STX",
-        "name": "Stacks",
-        "price": 0.420069,
-        "change_24h": 6.73,
+        "price": 1.73,
+        "change_24h": 8.22,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
         "price": 2.11,
-        "change_24h": 6.08,
+        "change_24h": 5.78,
         "asset": "crypto"
       },
       {
-        "symbol": "KCS",
-        "name": "KuCoin",
-        "price": 7.85,
-        "change_24h": 1.69,
+        "symbol": "PYTH",
+        "name": "Pyth Network",
+        "price": 0.082319,
+        "change_24h": 5.1,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "price": 0.412719,
+        "change_24h": 4.47,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 1.1,
-        "change_24h": -11.58,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.209926,
-        "change_24h": -11.36,
+        "price": 0.210243,
+        "change_24h": -12.35,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.18,
-        "change_24h": -10.18,
+        "price": 5.12,
+        "change_24h": -11.69,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004988,
-        "change_24h": -10.14,
+        "price": 0.005013,
+        "change_24h": -10.47,
         "asset": "crypto"
       },
       {
         "symbol": "APT",
         "name": "Aptos",
-        "price": 0.812885,
-        "change_24h": -9.9,
+        "price": 0.811426,
+        "change_24h": -10.43,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 1.1,
+        "change_24h": -10.15,
         "asset": "crypto"
       }
     ]
