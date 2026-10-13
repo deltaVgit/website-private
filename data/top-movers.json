@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T22:16:04Z",
+  "updated_at": "2026-10-13T22:31:05Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,36 +82,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.95,
-        "change_24h": 10.3,
+        "price": 1.98,
+        "change_24h": 12.34,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 8.09,
-        "change_24h": 8.54,
+        "price": 8.11,
+        "change_24h": 9.51,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 7.58,
+        "change_24h": 5.0,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": 4.68,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "price": 7.57,
-        "change_24h": 4.62,
+        "change_24h": 4.96,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
         "price": 1.15,
-        "change_24h": 3.74,
+        "change_24h": 4.14,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.83317,
-        "change_24h": -10.01,
+        "price": 0.833079,
+        "change_24h": -10.08,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 213.06,
-        "change_24h": -6.51,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 3.35,
-        "change_24h": -5.81,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 2.02,
-        "change_24h": -5.0,
+        "price": 213.41,
+        "change_24h": -6.32,
         "asset": "crypto"
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.677786,
-        "change_24h": -4.96,
+        "price": 0.678616,
+        "change_24h": -4.1,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RENDER",
+        "name": "Render",
+        "price": 2.04,
+        "change_24h": -4.01,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 2.01,
+        "change_24h": -3.99,
         "asset": "crypto"
       }
     ]
