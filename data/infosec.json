@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T23:05:35Z",
+  "updatedAt": "2026-10-13T10:06:17Z",
   "kev": [
     {
       "cve": "CVE-2015-5477",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-19660",
+      "id": "CVE-2026-105080",
       "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The Divi Membership plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 2.3.0. The `process_paypal_callback` function, hooked to the `init` action, accepts a base64-encoded `",
-      "published": "2026-10-02T05:16:38.430"
+      "score": 9.9,
+      "description": "In ConvertX before 0.19.0, converters/calibre.ts does not block recipe files, and instead passes them to the ebook-convert program from Calibre. This affects executable code in a .recipe or .downloaded_recipe file.",
+      "published": "2026-10-03T01:17:23.650"
     },
     {
-      "id": "CVE-2026-14378",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "The DevKit Pro plugin for WordPress is vulnerable to Authentication Bypass Leading to Administrator Account Takeover in all versions up to, and including, 2.3.0 This is due to the `revert_switch` handler trusting the att",
-      "published": "2026-10-02T04:18:06.277"
-    },
-    {
-      "id": "CVE-2026-103764",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "description": "Mooncake transfer engine before 0.3.13 contains an untrusted pointer dereference in ServerSession::readHeader that allows unauthenticated attackers to read and write arbitrary process memory via the TCP transport data po",
-      "published": "2026-10-02T00:16:59.253"
-    },
-    {
-      "id": "CVE-2026-104480",
-      "severity": "CRITICAL",
-      "score": 9.4,
-      "description": "Discord libdave before 1.2.0 did not reject an MLS Welcome message when the resulting group roster contained an unrecognized participant. An attacker in control of the DAVE signaling path (the voice gateway, or an equiva",
-      "published": "2026-10-02T02:17:02.007"
-    },
-    {
-      "id": "CVE-2026-103765",
-      "severity": "CRITICAL",
-      "score": 9.4,
-      "description": "Mooncake through 0.3.13.post1 contains a missing authentication vulnerability in the HTTP metadata server /metadata handler that allows unauthenticated attackers to read, overwrite, and delete transfer engine metadata ke",
-      "published": "2026-10-02T00:16:59.663"
-    },
-    {
-      "id": "CVE-2026-15896",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "description": "The Super Forms – Drag & Drop Form Builder plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 6.3.316 via the parse_request function. This makes it possible for unauthenticate",
-      "published": "2026-10-02T06:16:40.773"
-    },
-    {
-      "id": "CVE-2026-86345",
-      "severity": "CRITICAL",
-      "score": 9.0,
-      "description": "A flaw was found in 389-ds-base. The server does not discard plaintext bytes already buffered from a client connection when negotiating StartTLS, allowing an on-path attacker to inject a crafted LDAP message that is proc",
-      "published": "2026-10-02T00:17:04.180"
-    },
-    {
-      "id": "CVE-2026-16000",
+      "id": "CVE-2026-97644",
       "severity": "HIGH",
-      "score": 8.7,
-      "description": "Missing cryptographic step in the DSTU 7624 CCM mode implementation (KCcmBlockCipher) in Legion of the Bouncy Castle Inc. bc-csharp before 2.7.0 allows an attacker who can observe encrypted messages of known or chosen co",
-      "published": "2026-10-02T07:16:36.400"
+      "score": 8.8,
+      "description": "The Groundhogg — CRM, Newsletters, and Marketing Automation plugin for WordPress is vulnerable to Privilege Escalation via Contact Identity Rebinding in all versions up to, and including, 4.9 The vulnerability exists bec",
+      "published": "2026-10-03T04:18:04.917"
     },
     {
-      "id": "CVE-2026-15999",
+      "id": "CVE-2026-92536",
       "severity": "HIGH",
-      "score": 8.2,
-      "description": "Improper validation of integrity check value in the AES-CCM implementation (CcmParameters and CcmBlockCipher) in Legion of the Bouncy Castle Inc. bc-csharp before 2.7.0 allows an on-path attacker to modify CCM-encrypted ",
-      "published": "2026-10-02T07:16:36.193"
+      "score": 8.8,
+      "description": "The Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile & Restrict Content – ProfilePress plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and in",
+      "published": "2026-10-03T04:18:01.853"
     },
     {
-      "id": "CVE-2026-92820",
+      "id": "CVE-2026-101923",
       "severity": "HIGH",
       "score": 8.1,
-      "description": "The Ninja Forms - File Uploads plugin for WordPress is vulnerable to arbitrary file operations in all versions up to, and including, 3.3.34 via the external (Amazon S3) upload flow. The plugin trusts an attacker-supplied",
-      "published": "2026-10-02T06:16:43.197"
+      "description": "The Photo Reviews for WooCommerce plugin for WordPress is vulnerable to Arbitrary Content Deletion in versions up to, and including, 1.2.30. This is due to the plugin storing attacker-controlled post IDs from the wcpr_im",
+      "published": "2026-10-03T06:16:39.603"
     },
     {
-      "id": "CVE-2026-92174",
+      "id": "CVE-2026-103514",
       "severity": "HIGH",
       "score": 7.5,
-      "description": "The SiteOrigin Widgets Bundle plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 1.73.2 via the 'theme' parameter parameter. This makes it possible for authenticated attacker",
-      "published": "2026-10-02T06:16:43.007"
+      "description": "The WP 2FA WordPress plugin before 4.1.0 does not invalidate a time-based one-time passcode once it has been used, allowing an attacker who knows an account's password and has observed a valid code within its validity wi",
+      "published": "2026-10-03T06:16:40.740"
     },
     {
-      "id": "CVE-2026-91828",
+      "id": "CVE-2026-101161",
       "severity": "HIGH",
       "score": 7.5,
-      "description": "The OMGF | GDPR/DSGVO Compliant, Faster Google Fonts. Easy. WordPress plugin before 6.3.11 does not require authentication or a valid nonce on an action that issues a slow server-side loopback request, allowing unauthent",
-      "published": "2026-10-02T06:16:42.857"
+      "description": "The WP Ultimate Review WordPress plugin before 2.4.4 does not prevent unauthenticated users from storing crafted review content that makes the reviewed page fail with a fatal error on every subsequent visit, resulting in",
+      "published": "2026-10-03T06:16:38.590"
+    },
+    {
+      "id": "CVE-2026-101160",
+      "severity": "HIGH",
+      "score": 7.5,
+      "description": "The WP Ultimate Review WordPress plugin before 2.4.4 does not validate that a submitted review rating is numeric before storing it and later using it in numeric operations when rendering reviews, allowing unauthenticated",
+      "published": "2026-10-03T06:16:38.350"
+    },
+    {
+      "id": "CVE-2026-101159",
+      "severity": "HIGH",
+      "score": 7.5,
+      "description": "The WP Ultimate Review WordPress plugin before 2.4.4 does not properly sanitise and escape reviews submitted through its public review form, which is available to unauthenticated visitors, allowing them to perform Stored",
+      "published": "2026-10-03T06:16:38.023"
+    },
+    {
+      "id": "CVE-2026-93428",
+      "severity": "HIGH",
+      "score": 7.5,
+      "description": "The Ultimate Member – User Profile, Registration, Login, Member Directory, Content Restriction & Membership Plugin plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 2.13.1 T",
+      "published": "2026-10-03T03:16:37.067"
+    },
+    {
+      "id": "CVE-2026-104433",
+      "severity": "HIGH",
+      "score": 7.5,
+      "description": "Mooncake transfer engine before 0.3.12 contains an out-of-bounds read vulnerability in the readString function of include/common.h that allows unauthenticated attackers to crash the service by sending a zero-length hands",
+      "published": "2026-10-03T00:16:35.253"
+    },
+    {
+      "id": "CVE-2026-101928",
+      "severity": "HIGH",
+      "score": 7.2,
+      "description": "The Magic Tooltips For Contact Form 7 plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'author' parameter in all versions up to, and including, 1.0.34 due to insufficient input sanitization and o",
+      "published": "2026-10-03T06:16:40.080"
+    },
+    {
+      "id": "CVE-2026-92977",
+      "severity": "HIGH",
+      "score": 7.2,
+      "description": "The Real Cookie Banner: GDPR & ePrivacy Cookie Consent plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Comment in all versions up to, and including, 5.3.5 due to insufficient input sanitization and ",
+      "published": "2026-10-03T04:18:04.190"
     }
   ],
   "breaches": [
@@ -265,6 +265,13 @@
       "data": "Email addresses, Names, Phone numbers, Physical addresses"
     },
     {
+      "name": "Sharecare",
+      "domain": "sharecare.com",
+      "date": "2026-08-12",
+      "count": 318185,
+      "data": "Dates of birth, Email addresses, Employers, Genders, Government issued IDs"
+    },
+    {
       "name": "Fanlore",
       "domain": "fanlore.org",
       "date": "2026-08-06",
@@ -291,13 +298,6 @@
       "date": "2026-08-01",
       "count": 218395,
       "data": "Email addresses, Names, Phone numbers, Physical addresses"
-    },
-    {
-      "name": "Questel",
-      "domain": "questel.com",
-      "date": "2026-08-01",
-      "count": 1226209,
-      "data": "Email addresses, Employers, Job titles, Names, Phone numbers"
     }
   ]
 }
