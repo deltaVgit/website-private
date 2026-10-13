@@ -1,19 +1,27 @@
 {
-  "updated": "2026-10-13T16:35:17Z",
+  "updated": "2026-10-13T23:05:20Z",
   "items": [
     {
-      "title": "Gemini 4 Argon for Robotics",
-      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-      "source": "Google DeepMind",
-      "published_at": "2026-10-13T16:01:58+00:00",
-      "summary": "",
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+      "source": "Simon Willison",
+      "published_at": "2026-10-13T23:00:06+00:00",
+      "summary": "Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 ",
       "tag": "ai"
     },
     {
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-      "source": "Google DeepMind",
-      "published_at": "2026-10-13T16:01:52+00:00",
+      "title": "The Continual Constitutional Convention: How language models revise the documents that govern them",
+      "url": "https://www.alignmentforum.org/posts/c9woewdY9ddsPqf3J/the-continual-constitutional-convention-how-language-models",
+      "source": "Alignment Forum",
+      "published_at": "2026-10-13T22:19:04+00:00",
+      "summary": "Executive Summary Human societies exhibit broad shifts in values and norms over time, often driven by moral disagreements. One way of understanding moral progress is the resolution of these disagreements through a process of reflection by rational agents. Frontier AI companies us",
+      "tag": "ai"
+    },
+    {
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "source": "Hugging Face Blog",
+      "published_at": "2026-10-13T17:05:48+00:00",
       "summary": "",
       "tag": "ai"
     },
@@ -26,6 +34,14 @@
       "tag": "ai"
     },
     {
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "source": "Google AI Blog",
+      "published_at": "2026-10-13T16:00:00+00:00",
+      "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+      "tag": "ai"
+    },
+    {
       "title": "Quoting Geoffrey Huntley",
       "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
       "source": "Simon Willison",
@@ -34,19 +50,27 @@
       "tag": "ai"
     },
     {
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "source": "OpenAI",
+      "published_at": "2026-10-13T12:00:00+00:00",
+      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "tag": "ai"
+    },
+    {
+      "title": "llm-meta-ai 0.2",
+      "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
+      "source": "Simon Willison",
+      "published_at": "2026-10-12T23:58:46+00:00",
+      "summary": "Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as equivalent to GPT-6.1 Sol. I updated my llm-meta-ai plugin f",
+      "tag": "ai"
+    },
+    {
       "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
       "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
       "source": "Meta Engineering",
       "published_at": "2026-10-12T21:19:18+00:00",
       "summary": "At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including: Our first liquid-cooled network rack (IcePack), and 102.4T switch platform (IceCube). Flattened Planar Fabric (FPF), a multiplane backend scale-out fa",
-      "tag": "ai"
-    },
-    {
-      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
-      "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
-      "source": "Simon Willison",
-      "published_at": "2026-10-12T18:15:38+00:00",
-      "summary": "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start",
       "tag": "ai"
     },
     {
@@ -63,14 +87,6 @@
       "source": "Meta Engineering",
       "published_at": "2026-10-12T16:01:32+00:00",
       "summary": "Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our protocol stack for live streaming video and enhance overall user experience for live video. We’re sharing how we shipped MoQ on Instagram L",
-      "tag": "ai"
-    },
-    {
-      "title": "web-edit 0.1a0",
-      "url": "https://simonwillison.net/2026/Oct/12/web-edit/",
-      "source": "Simon Willison",
-      "published_at": "2026-10-12T15:54:36+00:00",
-      "summary": "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself. So... I had Codex and GPT-6 Astra Extra High build this Python web app which",
       "tag": "ai"
     },
     {
@@ -138,14 +154,6 @@
       "tag": "ai"
     },
     {
-      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
-      "url": "https://openai.com/index/pollo-ai",
-      "source": "OpenAI",
-      "published_at": "2026-10-08T12:00:00+00:00",
-      "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
-      "tag": "ai"
-    },
-    {
       "title": "What's the date?",
       "url": "https://www.lesswrong.com/posts/vzKWsEskYBEWTwpBP/what-s-the-date",
       "source": "LessWrong",
@@ -158,14 +166,6 @@
       "url": "https://huggingface.co/blog/building-with-ml-intern",
       "source": "Hugging Face Blog",
       "published_at": "2026-10-08T00:00:00+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "Multimodal open d1 decision models for the edge",
-      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
-      "source": "Hugging Face Blog",
-      "published_at": "2026-10-07T16:54:33+00:00",
       "summary": "",
       "tag": "ai"
     },
@@ -183,14 +183,6 @@
       "source": "Google AI Blog",
       "published_at": "2026-10-07T12:00:00+00:00",
       "summary": "Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
-      "tag": "ai"
-    },
-    {
-      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-      "source": "Google DeepMind",
-      "published_at": "2026-10-06T19:57:04+00:00",
-      "summary": "",
       "tag": "ai"
     },
     {
@@ -218,27 +210,11 @@
       "tag": "ai"
     },
     {
-      "title": "Rocks to Rules: Climbing a Rickety-But-Interoperable Semantic Ladder",
-      "url": "https://www.alignmentforum.org/posts/hEDMDFmb322yfufYL/rocks-to-rules-climbing-a-rickety-but-interoperable-semantic",
-      "source": "Alignment Forum",
-      "published_at": "2026-10-03T08:07:32+00:00",
-      "summary": "(Epistemic status: A promising but weird research direction in agent foundations and philosophy of language. A half-built conceptual tower whose mortar and paint are both still wet: please excuse our mess while we innovate. Some of it, I'm confident in as pretty much right; some ",
-      "tag": "ai"
-    },
-    {
       "title": "The latest AI news we announced in September 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
       "source": "Google AI Blog",
       "published_at": "2026-10-02T15:00:00+00:00",
       "summary": "Here are Google’s latest AI updates from September 2026",
-      "tag": "ai"
-    },
-    {
-      "title": "Gemini 4 Argon: our next era of frontier intelligence",
-      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "source": "Google DeepMind",
-      "published_at": "2026-09-30T20:01:45+00:00",
-      "summary": "",
       "tag": "ai"
     },
     {
