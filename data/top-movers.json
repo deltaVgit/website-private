@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-13T17:16:09Z",
+  "updated_at": "2026-10-13T17:31:09Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "RGC",
         "name": "Regencell Bioscience Holdings L",
-        "price": 8.5146,
-        "change_24h": 19.62,
+        "price": 8.5323,
+        "change_24h": 19.67,
         "asset": "equity"
       },
       {
         "symbol": "EFXT",
         "name": "Enerflex Ltd",
-        "price": 27.46,
-        "change_24h": 14.04,
-        "asset": "equity"
-      },
-      {
-        "symbol": "STGW",
-        "name": "Stagwell Inc.",
-        "price": 9.455,
-        "change_24h": 6.72,
+        "price": 27.52,
+        "change_24h": 14.29,
         "asset": "equity"
       },
       {
         "symbol": "PARR",
         "name": "Par Pacific Holdings, Inc. Comm",
-        "price": 88.58,
-        "change_24h": 6.57,
+        "price": 88.88,
+        "change_24h": 6.93,
         "asset": "equity"
       },
       {
         "symbol": "CVI",
         "name": "CVR Energy Inc.",
-        "price": 62.73,
-        "change_24h": 6.49,
+        "price": 62.69,
+        "change_24h": 6.42,
+        "asset": "equity"
+      },
+      {
+        "symbol": "LIFE",
+        "name": "Ethos Technologies Inc.",
+        "price": 39.57,
+        "change_24h": 5.92,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "PS",
         "name": "Pershing Square Inc.",
-        "price": 47.67,
-        "change_24h": -12.08,
+        "price": 47.66,
+        "change_24h": -12.09,
         "asset": "equity"
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "price": 11.55,
-        "change_24h": -11.15,
+        "price": 11.57,
+        "change_24h": -10.98,
         "asset": "equity"
       },
       {
         "symbol": "CHRN",
         "name": "ChronoScale Holdings Corporatio",
-        "price": 16.15,
-        "change_24h": -9.68,
+        "price": 16.27,
+        "change_24h": -9.0,
+        "asset": "equity"
+      },
+      {
+        "symbol": "AMAT",
+        "name": "Applied Materials, Inc.",
+        "price": 456.15,
+        "change_24h": -8.31,
         "asset": "equity"
       },
       {
         "symbol": "SMMT",
         "name": "Summit Therapeutics Inc.",
-        "price": 15.66,
-        "change_24h": -8.58,
-        "asset": "equity"
-      },
-      {
-        "symbol": "DPC",
-        "name": "DPC Holdings PLC",
-        "price": 33.0,
-        "change_24h": -8.1,
+        "price": 15.7,
+        "change_24h": -8.35,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.94,
-        "change_24h": 13.52,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.129953,
-        "change_24h": 7.01,
+        "price": 1.93,
+        "change_24h": 12.58,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 8.14,
-        "change_24h": 6.79,
+        "price": 8.12,
+        "change_24h": 7.03,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.429775,
-        "change_24h": 6.45,
+        "price": 0.43298,
+        "change_24h": 6.85,
         "asset": "crypto"
       },
       {
-        "symbol": "BDX",
-        "name": "Beldex",
-        "price": 0.086383,
-        "change_24h": 3.15,
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.128618,
+        "change_24h": 5.95,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 7.58,
+        "change_24h": 3.13,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 203.8,
-        "change_24h": -10.61,
+        "price": 203.9,
+        "change_24h": -10.13,
         "asset": "crypto"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
         "price": 2.01,
-        "change_24h": -9.03,
+        "change_24h": -8.52,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.01,
-        "change_24h": -8.33,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 3.34,
-        "change_24h": -8.13,
+        "price": 5.0,
+        "change_24h": -8.18,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.86302,
-        "change_24h": -6.86,
+        "price": 0.86066,
+        "change_24h": -7.51,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 3.37,
+        "change_24h": -6.8,
         "asset": "crypto"
       }
     ]
