@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T01:30:18Z",
+  "updated_at": "2026-10-13T01:45:18Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "BDX",
-        "name": "Beldex",
-        "price": 0.09107,
-        "change_24h": 12.88,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.83,
+        "change_24h": 11.84,
         "asset": "crypto"
       },
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.81,
-        "change_24h": 11.01,
+        "symbol": "BDX",
+        "name": "Beldex",
+        "price": 0.089815,
+        "change_24h": 10.3,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.418079,
-        "change_24h": 6.78,
+        "price": 0.419984,
+        "change_24h": 7.52,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PYTH",
+        "name": "Pyth Network",
+        "price": 0.083278,
+        "change_24h": 6.55,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
-        "price": 2.08,
-        "change_24h": 5.56,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "KCS",
-        "name": "KuCoin",
-        "price": 7.82,
-        "change_24h": 1.11,
+        "price": 2.11,
+        "change_24h": 6.43,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.20557,
-        "change_24h": -13.51,
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 3.29,
+        "change_24h": -13.22,
         "asset": "crypto"
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 3.3,
-        "change_24h": -13.29,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.20708,
+        "change_24h": -12.57,
         "asset": "crypto"
       },
       {
         "symbol": "APT",
         "name": "Aptos",
-        "price": 0.787105,
-        "change_24h": -12.66,
+        "price": 0.789443,
+        "change_24h": -11.96,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.13,
-        "change_24h": -12.57,
+        "price": 5.17,
+        "change_24h": -11.56,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004906,
-        "change_24h": -12.22,
+        "price": 0.004944,
+        "change_24h": -11.06,
         "asset": "crypto"
       }
     ]
