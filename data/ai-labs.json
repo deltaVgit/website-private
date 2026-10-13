@@ -1,6 +1,38 @@
 {
-  "updated": "2026-10-13T10:06:01Z",
+  "updated": "2026-10-13T16:35:17Z",
   "items": [
+    {
+      "title": "Gemini 4 Argon for Robotics",
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "source": "Google DeepMind",
+      "published_at": "2026-10-13T16:01:58+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+      "source": "Google DeepMind",
+      "published_at": "2026-10-13T16:01:52+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
+      "title": "Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI",
+      "url": "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai/",
+      "source": "Meta Engineering",
+      "published_at": "2026-10-13T16:01:00+00:00",
+      "summary": "Last year, we introduced GEM, the industry’s largest recommendation system (RecSys) foundation model. GEM established Meta’s first LLM-inspired paradigm for ads recommendation, driving major performance gains. Building on this foundation, our next goal is to further scale both co",
+      "tag": "ai"
+    },
+    {
+      "title": "Quoting Geoffrey Huntley",
+      "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+      "source": "Simon Willison",
+      "published_at": "2026-10-13T13:32:00+00:00",
+      "summary": "If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fai",
+      "tag": "ai"
+    },
     {
       "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
       "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
@@ -34,14 +66,6 @@
       "tag": "ai"
     },
     {
-      "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
-      "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
-      "source": "Meta Engineering",
-      "published_at": "2026-10-12T16:00:50+00:00",
-      "summary": "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation work to expand across opportunistic capacity, without compromising baseline performance. This post desc",
-      "tag": "ai"
-    },
-    {
       "title": "web-edit 0.1a0",
       "url": "https://simonwillison.net/2026/Oct/12/web-edit/",
       "source": "Simon Willison",
@@ -55,14 +79,6 @@
       "source": "Import AI",
       "published_at": "2026-10-12T12:30:39+00:00",
       "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now New benchmark shows how AI models lack intuitive visual reasoning:…Humanity’s Sixth Sense highligh",
-      "tag": "ai"
-    },
-    {
-      "title": "datasette-ports 0.4",
-      "url": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
-      "source": "Simon Willison",
-      "published_at": "2026-10-12T04:57:07+00:00",
-      "summary": "Release: datasette-ports 0.4 My plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well. Knowing the PID makes it easier to attach the new Python 3.15 profiler . Tags: datasette",
       "tag": "ai"
     },
     {
@@ -170,6 +186,14 @@
       "tag": "ai"
     },
     {
+      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+      "source": "Google DeepMind",
+      "published_at": "2026-10-06T19:57:04+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
       "title": "The Cyber Risk Discourse is Broken",
       "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
       "source": "Interconnects",
@@ -210,11 +234,11 @@
       "tag": "ai"
     },
     {
-      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
-      "source": "Google AI Blog",
-      "published_at": "2026-09-28T19:00:00+00:00",
-      "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "source": "Google DeepMind",
+      "published_at": "2026-09-30T20:01:45+00:00",
+      "summary": "",
       "tag": "ai"
     },
     {
