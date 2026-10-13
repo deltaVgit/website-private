@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T04:30:17Z",
+  "updated_at": "2026-10-13T04:45:18Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "STX",
-        "name": "Stacks",
-        "price": 0.429084,
-        "change_24h": 11.47,
-        "asset": "crypto"
-      },
-      {
         "symbol": "BDX",
         "name": "Beldex",
         "price": 0.089943,
-        "change_24h": 10.55,
+        "change_24h": 10.24,
         "asset": "crypto"
       },
       {
-        "symbol": "PYTH",
-        "name": "Pyth Network",
-        "price": 0.087164,
-        "change_24h": 8.8,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RENDER",
-        "name": "Render",
-        "price": 2.14,
-        "change_24h": 8.02,
+        "symbol": "STX",
+        "name": "Stacks",
+        "price": 0.428697,
+        "change_24h": 9.74,
         "asset": "crypto"
       },
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.78,
-        "change_24h": 6.81,
+        "price": 1.81,
+        "change_24h": 8.43,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PYTH",
+        "name": "Pyth Network",
+        "price": 0.087161,
+        "change_24h": 8.37,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RENDER",
+        "name": "Render",
+        "price": 2.16,
+        "change_24h": 7.41,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.212122,
-        "change_24h": -13.53,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.005077,
+        "change_24h": -13.81,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.005056,
-        "change_24h": -12.46,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.212734,
+        "change_24h": -13.23,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.45,
-        "change_24h": -11.67,
+        "price": 3.47,
+        "change_24h": -11.77,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 22.71,
-        "change_24h": -10.51,
+        "price": 22.57,
+        "change_24h": -10.6,
         "asset": "crypto"
       },
       {
-        "symbol": "APT",
-        "name": "Aptos",
-        "price": 0.826948,
-        "change_24h": -8.93,
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price": 0.038658,
+        "change_24h": -10.03,
         "asset": "crypto"
       }
     ]
