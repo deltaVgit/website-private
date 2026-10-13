@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-13T18:01:11Z",
+  "updated_at": "2026-10-13T18:16:06Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "RGC",
         "name": "Regencell Bioscience Holdings L",
-        "price": 8.4453,
-        "change_24h": 18.45,
+        "price": 8.59,
+        "change_24h": 20.48,
         "asset": "equity"
       },
       {
         "symbol": "EFXT",
         "name": "Enerflex Ltd",
-        "price": 27.3,
-        "change_24h": 13.37,
+        "price": 27.33,
+        "change_24h": 13.5,
         "asset": "equity"
       },
       {
         "symbol": "LIFE",
         "name": "Ethos Technologies Inc.",
-        "price": 40.5,
-        "change_24h": 8.41,
+        "price": 40.55,
+        "change_24h": 8.53,
         "asset": "equity"
       },
       {
         "symbol": "PARR",
         "name": "Par Pacific Holdings, Inc. Comm",
-        "price": 89.66,
-        "change_24h": 7.87,
+        "price": 89.89,
+        "change_24h": 8.14,
         "asset": "equity"
       },
       {
         "symbol": "PBF",
         "name": "PBF Energy Inc.",
-        "price": 90.84,
-        "change_24h": 6.84,
+        "price": 90.94,
+        "change_24h": 6.97,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "PS",
         "name": "Pershing Square Inc.",
-        "price": 47.5,
-        "change_24h": -12.39,
+        "price": 47.2,
+        "change_24h": -12.95,
         "asset": "equity"
       },
       {
         "symbol": "PDFS",
         "name": "PDF Solutions, Inc.",
-        "price": 47.51,
-        "change_24h": -9.83,
+        "price": 48.27,
+        "change_24h": -8.38,
         "asset": "equity"
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "price": 11.74,
-        "change_24h": -9.65,
+        "price": 11.82,
+        "change_24h": -9.04,
         "asset": "equity"
       },
       {
         "symbol": "SMMT",
         "name": "Summit Therapeutics Inc.",
-        "price": 15.59,
-        "change_24h": -8.99,
+        "price": 15.63,
+        "change_24h": -8.76,
         "asset": "equity"
       },
       {
-        "symbol": "BETA",
-        "name": "Beta Technologies, Inc.",
-        "price": 18.14,
-        "change_24h": -8.45,
+        "symbol": "DPC",
+        "name": "DPC Holdings PLC",
+        "price": 32.81,
+        "change_24h": -8.62,
         "asset": "equity"
       }
     ]
@@ -82,73 +82,73 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.9,
-        "change_24h": 12.01,
+        "price": 1.91,
+        "change_24h": 13.12,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 8.14,
-        "change_24h": 6.69,
+        "price": 8.44,
+        "change_24h": 11.08,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.126366,
-        "change_24h": 4.0,
+        "price": 0.127937,
+        "change_24h": 5.47,
         "asset": "crypto"
       },
       {
-        "symbol": "STX",
-        "name": "Stacks",
-        "price": 0.417337,
-        "change_24h": 3.08,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price": 7.59,
+        "change_24h": 3.12,
         "asset": "crypto"
       },
       {
-        "symbol": "BDX",
-        "name": "Beldex",
-        "price": 0.087618,
-        "change_24h": 2.07,
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price": 4e-06,
+        "change_24h": 2.99,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 0.847472,
+        "change_24h": -9.02,
+        "asset": "crypto"
+      },
+      {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "price": 2.0,
-        "change_24h": -10.39,
+        "price": 2.01,
+        "change_24h": -8.78,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 204.17,
-        "change_24h": -9.89,
+        "price": 209.45,
+        "change_24h": -7.61,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 4.97,
-        "change_24h": -8.13,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 0.860016,
-        "change_24h": -7.92,
+        "price": 5.03,
+        "change_24h": -7.28,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.35,
-        "change_24h": -7.61,
+        "price": 3.38,
+        "change_24h": -6.45,
         "asset": "crypto"
       }
     ]
