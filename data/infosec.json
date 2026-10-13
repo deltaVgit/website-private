@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-10-13T10:06:17Z",
+  "updatedAt": "2026-10-13T16:35:23Z",
   "kev": [
+    {
+      "cve": "CVE-2026-104935",
+      "product": "Connect Secure",
+      "vendor": "Ivanti",
+      "name": "Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
+      "dateAdded": "2026-10-13",
+      "dueDate": "2026-10-16",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2015-5477",
       "product": "BIND",
@@ -116,15 +125,6 @@
       "name": "Citrix NetScaler Improper Input Validation Vulnerability",
       "dateAdded": "2026-09-27",
       "dueDate": "2026-09-30",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-67279",
-      "product": "RouterOS",
-      "vendor": "MikroTik",
-      "name": "Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability",
-      "dateAdded": "2026-09-25",
-      "dueDate": "2026-09-28",
       "knownRansomware": "Unknown"
     }
   ],
