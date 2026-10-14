@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-14T13:45:19Z",
+  "updated_at": "2026-10-14T14:00:31Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
+        "symbol": "BSP",
+        "name": "Bending Spoons S.p.A.",
+        "price": 50.34,
+        "change_24h": 32.96,
+        "asset": "equity"
+      },
+      {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "price": 35.92,
-        "change_24h": 33.98,
+        "price": 35.6,
+        "change_24h": 32.79,
         "asset": "equity"
       },
       {
         "symbol": "RGC",
         "name": "Regencell Bioscience Holdings L",
-        "price": 8.965,
-        "change_24h": 9.46,
+        "price": 8.76,
+        "change_24h": 6.97,
+        "asset": "equity"
+      },
+      {
+        "symbol": "HALO",
+        "name": "Halozyme Therapeutics, Inc.",
+        "price": 115.66,
+        "change_24h": 5.51,
         "asset": "equity"
       },
       {
         "symbol": "ESLT",
         "name": "Elbit Systems Ltd.",
-        "price": 709.79,
-        "change_24h": 6.31,
-        "asset": "equity"
-      },
-      {
-        "symbol": "GFS",
-        "name": "GlobalFoundries Inc.",
-        "price": 48.99,
-        "change_24h": 4.91,
-        "asset": "equity"
-      },
-      {
-        "symbol": "GTLB",
-        "name": "GitLab Inc.",
-        "price": 54.38,
-        "change_24h": 4.69,
+        "price": 702.42,
+        "change_24h": 5.2,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "SKYD",
         "name": "Skydance Corporation",
-        "price": 7.075,
-        "change_24h": -22.01,
+        "price": 6.875,
+        "change_24h": -24.24,
         "asset": "equity"
       },
       {
         "symbol": "CRWV",
         "name": "CoreWeave, Inc.",
-        "price": 67.73,
-        "change_24h": -12.95,
+        "price": 66.57,
+        "change_24h": -14.45,
         "asset": "equity"
       },
       {
         "symbol": "NBIS",
         "name": "Nebius Group N.V.",
-        "price": 188.76,
-        "change_24h": -8.75,
+        "price": 186.1,
+        "change_24h": -10.04,
+        "asset": "equity"
+      },
+      {
+        "symbol": "IREN",
+        "name": "IREN LIMITED",
+        "price": 31.34,
+        "change_24h": -9.93,
         "asset": "equity"
       },
       {
         "symbol": "PGR",
         "name": "Progressive Corporation (The)",
-        "price": 203.82,
-        "change_24h": -8.53,
-        "asset": "equity"
-      },
-      {
-        "symbol": "BAC",
-        "name": "Bank of America Corporation",
-        "price": 49.91,
-        "change_24h": -7.47,
+        "price": 201.4,
+        "change_24h": -9.64,
         "asset": "equity"
       }
     ]
@@ -83,72 +83,72 @@
         "symbol": "PRL",
         "name": "Pearl",
         "price": 1.89,
-        "change_24h": 13.28,
+        "change_24h": 13.88,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 558.66,
-        "change_24h": 5.54,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PYTH",
-        "name": "Pyth Network",
-        "price": 0.084879,
-        "change_24h": 3.83,
+        "price": 553.91,
+        "change_24h": 4.68,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.428155,
-        "change_24h": 3.82,
+        "price": 0.426746,
+        "change_24h": 4.18,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 22.76,
-        "change_24h": 2.96,
+        "price": 22.63,
+        "change_24h": 2.97,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PYTH",
+        "name": "Pyth Network",
+        "price": 0.08352,
+        "change_24h": 2.57,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "KCS",
-        "name": "KuCoin",
-        "price": 7.28,
-        "change_24h": -7.91,
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.117423,
+        "change_24h": -7.76,
         "asset": "crypto"
       },
       {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.118706,
-        "change_24h": -6.46,
+        "symbol": "KCS",
+        "name": "KuCoin",
+        "price": 7.3,
+        "change_24h": -7.59,
         "asset": "crypto"
       },
       {
         "symbol": "BDX",
         "name": "Beldex",
-        "price": 0.08265,
-        "change_24h": -5.93,
+        "price": 0.082707,
+        "change_24h": -6.34,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
-        "price": 1.94,
-        "change_24h": -5.21,
+        "price": 1.92,
+        "change_24h": -5.38,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.009533,
-        "change_24h": -5.14,
+        "price": 0.009527,
+        "change_24h": -5.19,
         "asset": "crypto"
       }
     ]
