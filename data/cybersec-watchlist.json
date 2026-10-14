@@ -1,27 +1,67 @@
 [
   {
+    "title": "Hirudo Android malware replaces banking apps to evade security checks",
+    "url": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
+    "source": "BleepingComputer",
+    "summary": "A new Android malware called Hirudo steals bank account credentials by replacing legitimate banking apps with modified versions that disable security checks. [...]",
+    "added": "2026-10-14T11:41:20+00:00",
+    "expires": "2026-10-28T12:04:39Z"
+  },
+  {
+    "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
+    "url": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
+    "source": "The Hacker News",
+    "summary": "A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said. Its researchers built the attack",
+    "added": "2026-10-14T11:19:02+00:00",
+    "expires": "2026-10-28T12:04:40Z"
+  },
+  {
+    "title": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
+    "url": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
+    "source": "The Hacker News",
+    "summary": "Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions designed to bypass security checks from i",
+    "added": "2026-10-14T11:08:22+00:00",
+    "expires": "2026-10-28T12:04:40Z"
+  },
+  {
+    "title": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
+    "url": "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html",
+    "source": "The Hacker News",
+    "summary": "The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part. TL;DR During an authorized assessment, an AI pentesting agent found a critical authentication byp",
+    "added": "2026-10-14T11:00:00+00:00",
+    "expires": "2026-10-28T12:04:40Z"
+  },
+  {
+    "title": "Microsoft: Recent Windows updates may trigger Remote Desktop failures",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/",
+    "source": "BleepingComputer",
+    "summary": "Microsoft has confirmed that non-admin users may be unable to connect to devices via Remote Desktop after installing recent Windows updates if the \"Administrator protection\" security feature is enabled. [...]",
+    "added": "2026-10-14T10:48:09+00:00",
+    "expires": "2026-10-28T12:04:39Z"
+  },
+  {
+    "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
+    "url": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+    "source": "The Hacker News",
+    "summary": "A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write ",
+    "added": "2026-10-14T07:46:57+00:00",
+    "expires": "2026-10-28T12:04:40Z"
+  },
+  {
+    "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
+    "url": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
+    "source": "The Hacker News",
+    "summary": "Security researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the computer is taken over. The protected area is a VBS enclave, an isolated slice of memo",
+    "added": "2026-10-14T05:52:28+00:00",
+    "expires": "2026-10-28T12:04:40Z"
+  },
+  {
     "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
     "url": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking",
     "source": "Dark Reading",
     "summary": "Organizations are reporting that employees face threats to their families, stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
     "added": "2026-10-14T05:00:00+00:00",
-    "expires": "2026-10-28T05:34:37Z"
-  },
-  {
-    "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
-    "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html",
-    "source": "The Hacker News",
-    "summary": "Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation. These include 1,102 flaws in Windows, 1",
-    "added": "2026-10-14T04:34:43+00:00",
-    "expires": "2026-10-28T05:34:37Z"
-  },
-  {
-    "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
-    "url": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
-    "source": "The Hacker News",
-    "summary": "A Saudi National and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations",
-    "added": "2026-10-14T01:59:25+00:00",
-    "expires": "2026-10-28T05:34:37Z"
+    "expires": "2026-10-28T12:04:40Z"
   },
   {
     "title": "Microsoft Patches More Than 1,400 Security Flaws",
@@ -29,7 +69,7 @@
     "source": "Krebs on Security",
     "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was alre",
     "added": "2026-10-13T23:24:53+00:00",
-    "expires": "2026-10-28T05:34:37Z"
+    "expires": "2026-10-28T12:04:39Z"
   },
   {
     "title": "OpenAI engineer arrested for allegedly planting spy device in office",
@@ -37,7 +77,7 @@
     "source": "BleepingComputer",
     "summary": "A Saudi OpenAI engineer has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to secretly record sensitive conversations. [...]",
     "added": "2026-10-13T22:33:02+00:00",
-    "expires": "2026-10-28T05:34:37Z"
+    "expires": "2026-10-28T12:04:39Z"
   },
   {
     "title": "Zero-Days Lurk in Microsoft's Overgrown October Patch Tuesday",
@@ -45,7 +85,7 @@
     "source": "Dark Reading",
     "summary": "The scary surprises for the largest security update ever include security bypasses and unauthenticated RCEs.",
     "added": "2026-10-13T22:29:57+00:00",
-    "expires": "2026-10-28T05:34:37Z"
+    "expires": "2026-10-28T12:04:40Z"
   },
   {
     "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
@@ -53,7 +93,7 @@
     "source": "BleepingComputer",
     "summary": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF files. [...]",
     "added": "2026-10-13T21:33:26+00:00",
-    "expires": "2026-10-28T05:34:37Z"
+    "expires": "2026-10-28T12:04:39Z"
   },
   {
     "title": "North Korea Phishes Ukrainians for War Intel",
@@ -61,7 +101,7 @@
     "source": "Dark Reading",
     "summary": "The Democratic People's Republic of Korea (DPRK) is trying to get insight into its own war effort in Ukraine, through simple reply-baiting phishing attacks.",
     "added": "2026-10-13T21:24:45+00:00",
-    "expires": "2026-10-28T05:34:37Z"
+    "expires": "2026-10-28T12:04:40Z"
   },
   {
     "title": "Anthropic warns self-replicating AI could spread to your smart devices",
@@ -69,7 +109,7 @@
     "source": "BleepingComputer",
     "summary": "Anthropic is warning that small AI models could soon be able to self-replicate across consumer IoT devices, from Android TV boxes to smart ovens, creating distributed botnets capable of running AI workloads without relyi",
     "added": "2026-10-13T21:16:34+00:00",
-    "expires": "2026-10-28T05:34:37Z"
+    "expires": "2026-10-28T12:04:39Z"
   },
   {
     "title": "Anthropic Finds Ingredients for Future AI Worms",
@@ -77,47 +117,7 @@
     "source": "Dark Reading",
     "summary": "Anthropic's latest study combined IoT and network tests to explore AI self-replication, which researchers said would be \"challenging\" to shut down.",
     "added": "2026-10-13T20:35:23+00:00",
-    "expires": "2026-10-28T05:34:37Z"
-  },
-  {
-    "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
-    "source": "BleepingComputer",
-    "summary": "Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]",
-    "added": "2026-10-13T19:56:09+00:00",
-    "expires": "2026-10-28T05:34:37Z"
-  },
-  {
-    "title": "Microsoft releases Windows 10 KB5126657 extended security update",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5126657-extended-security-update/",
-    "source": "BleepingComputer",
-    "summary": "Microsoft released the Windows 10 KB5126657 extended security update, which includes this month's record-breaking October 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
-    "added": "2026-10-13T19:47:30+00:00",
-    "expires": "2026-10-28T05:34:37Z"
-  },
-  {
-    "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
-    "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
-    "source": "The Hacker News",
-    "summary": "Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic. The front",
-    "added": "2026-10-13T18:20:57+00:00",
-    "expires": "2026-10-28T05:34:37Z"
-  },
-  {
-    "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
-    "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
-    "source": "The Hacker News",
-    "summary": "A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence that ",
-    "added": "2026-10-13T18:03:18+00:00",
-    "expires": "2026-10-28T05:34:37Z"
-  },
-  {
-    "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
-    "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
-    "source": "The Hacker News",
-    "summary": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm Volexity said on October 13. Ivanti has released fixes for two of the flaws an",
-    "added": "2026-10-13T17:33:11+00:00",
-    "expires": "2026-10-28T05:34:37Z"
+    "expires": "2026-10-28T12:04:40Z"
   },
   {
     "title": "Maximum-Severity SSRF Flaw in SonicWall SMA Devices Under Attack",
@@ -125,6 +125,6 @@
     "source": "Dark Reading",
     "summary": "Attackers are currently targeting a critical vulnerability in SMA 1000 appliances, putting SonicWall customers in a familiar yet unenviable position.",
     "added": "2026-10-12T21:42:42+00:00",
-    "expires": "2026-10-28T05:34:37Z"
+    "expires": "2026-10-28T12:04:40Z"
   }
 ]
