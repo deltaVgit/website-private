@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T09:45:19Z",
+  "updated_at": "2026-10-14T10:00:20Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "XDC",
-        "name": "XDC Network",
-        "price": 0.035178,
-        "change_24h": 2.68,
-        "asset": "crypto"
-      },
-      {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.439725,
-        "change_24h": 2.5,
+        "price": 0.444912,
+        "change_24h": 4.84,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
-        "price": 2.35,
-        "change_24h": 2.02,
+        "price": 2.38,
+        "change_24h": 3.45,
         "asset": "crypto"
       },
       {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 552.14,
-        "change_24h": 1.97,
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price": 0.035162,
+        "change_24h": 2.71,
         "asset": "crypto"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 276.82,
-        "change_24h": 1.82,
+        "price": 277.56,
+        "change_24h": 2.29,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 552.82,
+        "change_24h": 2.08,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "RENDER",
         "name": "Render",
-        "price": 1.95,
-        "change_24h": -8.47,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 0.817915,
-        "change_24h": -6.65,
+        "price": 1.97,
+        "change_24h": -6.15,
         "asset": "crypto"
       },
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.098049,
-        "change_24h": -6.11,
+        "price": 0.098197,
+        "change_24h": -5.99,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 0.81961,
+        "change_24h": -5.77,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BDX",
+        "name": "Beldex",
+        "price": 0.082631,
+        "change_24h": -5.34,
         "asset": "crypto"
       },
       {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.044103,
-        "change_24h": -5.77,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 210.08,
-        "change_24h": -5.65,
+        "price": 0.044174,
+        "change_24h": -5.21,
         "asset": "crypto"
       }
     ]
