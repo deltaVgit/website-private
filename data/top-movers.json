@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T11:45:19Z",
+  "updated_at": "2026-10-14T12:00:31Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "PRL",
+        "name": "Pearl",
+        "price": 1.92,
+        "change_24h": 14.15,
+        "asset": "crypto"
+      },
+      {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 23.13,
-        "change_24h": 4.56,
+        "price": 23.25,
+        "change_24h": 5.48,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.438898,
-        "change_24h": 4.33,
+        "price": 0.437953,
+        "change_24h": 4.59,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1240.34,
-        "change_24h": 3.74,
+        "price": 1240.28,
+        "change_24h": 4.49,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 553.32,
-        "change_24h": 3.52,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BCH",
-        "name": "Bitcoin Cash",
-        "price": 278.13,
-        "change_24h": 3.47,
+        "price": 554.13,
+        "change_24h": 4.18,
         "asset": "crypto"
       }
     ],
@@ -120,35 +120,35 @@
         "symbol": "KCS",
         "name": "KuCoin",
         "price": 7.34,
-        "change_24h": -5.96,
+        "change_24h": -4.94,
         "asset": "crypto"
       },
       {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 1.98,
-        "change_24h": -3.63,
+        "symbol": "BDX",
+        "name": "Beldex",
+        "price": 0.08245,
+        "change_24h": -4.7,
         "asset": "crypto"
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
         "price": 1.026,
-        "change_24h": -3.57,
+        "change_24h": -3.62,
         "asset": "crypto"
       },
       {
-        "symbol": "BDX",
-        "name": "Beldex",
-        "price": 0.083325,
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 1.98,
         "change_24h": -3.3,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.120595,
-        "change_24h": -2.97,
+        "price": 0.120614,
+        "change_24h": -2.73,
         "asset": "crypto"
       }
     ]
