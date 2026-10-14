@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T23:05:27Z",
+  "updatedAt": "2026-10-14T05:34:37Z",
   "kev": [
     {
       "cve": "CVE-2026-104935",
@@ -130,88 +130,88 @@
   ],
   "cves": [
     {
-      "id": "CVE-2026-105080",
+      "id": "CVE-2026-105135",
       "severity": "CRITICAL",
-      "score": 9.9,
-      "description": "In ConvertX before 0.19.0, converters/calibre.ts does not block recipe files, and instead passes them to the ebook-convert program from Calibre. This affects executable code in a .recipe or .downloaded_recipe file.",
-      "published": "2026-10-03T01:17:23.650"
+      "score": 10.0,
+      "description": "A vulnerability has been found in InternLM MindSearch 0.1.0. This issue affects the function ExecutionAction.run of the file mindsearch/agent/graph.py of the component Planner Agent. The manipulation of the argument inpu",
+      "published": "2026-10-04T07:16:33.693"
     },
     {
-      "id": "CVE-2026-97644",
+      "id": "CVE-2026-105134",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "description": "A flaw has been found in Ahsay AhsayCBS up to 10.3.2. This vulnerability affects unknown code of the file /rps/api/json/UpdateReceivers.do of the component Replication Receiver. Executing a manipulation of the argument r",
+      "published": "2026-10-04T07:16:33.480"
+    },
+    {
+      "id": "CVE-2026-103355",
+      "severity": "CRITICAL",
+      "score": 9.3,
+      "description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Unlimited Elements Unlimited Elements For Elementor (Free Widgets, Addons, Templates) unlimited-elements-for-elementor",
+      "published": "2026-10-04T09:16:38.820"
+    },
+    {
+      "id": "CVE-2026-93549",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "The Groundhogg — CRM, Newsletters, and Marketing Automation plugin for WordPress is vulnerable to Privilege Escalation via Contact Identity Rebinding in all versions up to, and including, 4.9 The vulnerability exists bec",
-      "published": "2026-10-03T04:18:04.917"
+      "description": "The CoCart WordPress plugin before 4.9.7 does not scope its REST API authentication filter to its own endpoints, which disables WordPress core's REST nonce protection for every route, allowing an attacker to perform a cr",
+      "published": "2026-10-04T07:16:34.180"
     },
     {
-      "id": "CVE-2026-92536",
+      "id": "CVE-2026-105123",
       "severity": "HIGH",
       "score": 8.8,
-      "description": "The Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile & Restrict Content – ProfilePress plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and in",
-      "published": "2026-10-03T04:18:01.853"
+      "description": "W (vincent-peugnet/wcms) through 3.18.0 contains a remote code execution vulnerability that allows authenticated editors to write arbitrary files by abusing the unvalidated path in POST /api/v0/media/upload/[*:path]. Att",
+      "published": "2026-10-04T00:16:35.703"
     },
     {
-      "id": "CVE-2026-101923",
-      "severity": "HIGH",
-      "score": 8.1,
-      "description": "The Photo Reviews for WooCommerce plugin for WordPress is vulnerable to Arbitrary Content Deletion in versions up to, and including, 1.2.30. This is due to the plugin storing attacker-controlled post IDs from the wcpr_im",
-      "published": "2026-10-03T06:16:39.603"
-    },
-    {
-      "id": "CVE-2026-103514",
+      "id": "CVE-2026-97307",
       "severity": "HIGH",
       "score": 7.5,
-      "description": "The WP 2FA WordPress plugin before 4.1.0 does not invalidate a time-based one-time passcode once it has been used, allowing an attacker who knows an account's password and has observed a valid code within its validity wi",
-      "published": "2026-10-03T06:16:40.740"
+      "description": "Insertion of Sensitive Information Into Sent Data vulnerability in StylemixThemes Cost Calculator Builder cost-calculator-builder allows Retrieve Embedded Sensitive Data.This issue affects Cost Calculator Builder: from n",
+      "published": "2026-10-04T11:16:33.073"
     },
     {
-      "id": "CVE-2026-101161",
+      "id": "CVE-2026-88779",
       "severity": "HIGH",
       "score": 7.5,
-      "description": "The WP Ultimate Review WordPress plugin before 2.4.4 does not prevent unauthenticated users from storing crafted review content that makes the reviewed page fail with a fatal error on every subsequent visit, resulting in",
-      "published": "2026-10-03T06:16:38.590"
+      "description": "Vulnerability in NetScaler ADC and NetScaler Gateway. This issue affects ADC: before 14.1-73.41, before 13.1-64.28, before 14.1-73.41 FIPS, and before 13.1-37.282; Gateway: before 14.1-73.41 and before 13.1-64.28.",
+      "published": "2026-10-04T04:16:43.680"
     },
     {
-      "id": "CVE-2026-101160",
+      "id": "CVE-2026-105158",
       "severity": "HIGH",
-      "score": 7.5,
-      "description": "The WP Ultimate Review WordPress plugin before 2.4.4 does not validate that a submitted review rating is numeric before storing it and later using it in numeric operations when rendering reviews, allowing unauthenticated",
-      "published": "2026-10-03T06:16:38.350"
+      "score": 7.3,
+      "description": "A vulnerability was detected in RainyGao DocSys up to 2.02.85. The impacted element is the function BaseController.createDBForMysql of the file BaseController.java of the component Database Management. The manipulation o",
+      "published": "2026-10-04T15:16:31.150"
     },
     {
-      "id": "CVE-2026-101159",
+      "id": "CVE-2026-105149",
       "severity": "HIGH",
-      "score": 7.5,
-      "description": "The WP Ultimate Review WordPress plugin before 2.4.4 does not properly sanitise and escape reviews submitted through its public review form, which is available to unauthenticated visitors, allowing them to perform Stored",
-      "published": "2026-10-03T06:16:38.023"
+      "score": 7.3,
+      "description": "A security flaw has been discovered in mooSocial up to 3.2.4. This issue affects some unknown processing of the file /stores/all-products. Performing a manipulation of the argument rating results in sql injection. The at",
+      "published": "2026-10-04T13:16:55.923"
     },
     {
-      "id": "CVE-2026-93428",
+      "id": "CVE-2026-105148",
       "severity": "HIGH",
-      "score": 7.5,
-      "description": "The Ultimate Member – User Profile, Registration, Login, Member Directory, Content Restriction & Membership Plugin plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 2.13.1 T",
-      "published": "2026-10-03T03:16:37.067"
+      "score": 7.3,
+      "description": "A vulnerability was identified in SciPhi-AI R2R up to 3.6.6. This vulnerability affects unknown code of the file py/shared/abstractions/llm.py of the component Retrieval Completion API Endpoint. Such manipulation of the ",
+      "published": "2026-10-04T13:16:55.733"
     },
     {
-      "id": "CVE-2026-104433",
+      "id": "CVE-2026-105147",
       "severity": "HIGH",
-      "score": 7.5,
-      "description": "Mooncake transfer engine before 0.3.12 contains an out-of-bounds read vulnerability in the readString function of include/common.h that allows unauthenticated attackers to crash the service by sending a zero-length hands",
-      "published": "2026-10-03T00:16:35.253"
+      "score": 7.3,
+      "description": "A vulnerability was determined in SciPhi-AI R2R up to 3.6.6. This affects an unknown part of the component JWT Secret Handler. This manipulation of the argument DEFAULT_BCRYPT_SECRET_KEY/DEFAULT_NACL_SECRET_KEY causes ha",
+      "published": "2026-10-04T13:16:54.773"
     },
     {
-      "id": "CVE-2026-101928",
+      "id": "CVE-2026-105133",
       "severity": "HIGH",
-      "score": 7.2,
-      "description": "The Magic Tooltips For Contact Form 7 plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'author' parameter in all versions up to, and including, 1.0.34 due to insufficient input sanitization and o",
-      "published": "2026-10-03T06:16:40.080"
-    },
-    {
-      "id": "CVE-2026-92977",
-      "severity": "HIGH",
-      "score": 7.2,
-      "description": "The Real Cookie Banner: GDPR & ePrivacy Cookie Consent plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Comment in all versions up to, and including, 5.3.5 due to insufficient input sanitization and ",
-      "published": "2026-10-03T04:18:04.190"
+      "score": 7.3,
+      "description": "A vulnerability was detected in Ahsay AhsayCBS up to 10.3.2. This affects the function checkSysPwd of the file com/ahsay/obs/api/ApiStructsAction.java of the component API. Performing a manipulation of the argument rando",
+      "published": "2026-10-04T07:16:33.087"
     }
   ],
   "breaches": [
