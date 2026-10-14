@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T05:00:21Z",
+  "updated_at": "2026-10-14T05:15:19Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 8.27,
-        "change_24h": 7.42,
+        "price": 8.24,
+        "change_24h": 5.05,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 556.49,
-        "change_24h": 4.74,
+        "price": 554.37,
+        "change_24h": 3.55,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1264.64,
-        "change_24h": 4.15,
+        "price": 1251.63,
+        "change_24h": 2.84,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": 4.06,
+        "change_24h": 2.79,
         "asset": "crypto"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 280.7,
-        "change_24h": 3.26,
+        "price": 278.38,
+        "change_24h": 2.07,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 0.841744,
-        "change_24h": -6.6,
+        "symbol": "RENDER",
+        "name": "Render",
+        "price": 2.02,
+        "change_24h": -7.52,
         "asset": "crypto"
       },
       {
-        "symbol": "RENDER",
-        "name": "Render",
-        "price": 2.04,
-        "change_24h": -6.29,
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 0.8371,
+        "change_24h": -7.33,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 214.23,
-        "change_24h": -6.03,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "KCS",
-        "name": "KuCoin",
-        "price": 7.43,
-        "change_24h": -4.82,
+        "price": 212.74,
+        "change_24h": -6.9,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.09,
-        "change_24h": -4.68,
+        "price": 5.04,
+        "change_24h": -5.75,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.682409,
+        "change_24h": -5.15,
         "asset": "crypto"
       }
     ]
