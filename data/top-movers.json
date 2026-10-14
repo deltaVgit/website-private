@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T10:30:19Z",
+  "updated_at": "2026-10-14T10:45:20Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "STX",
+        "name": "Stacks",
+        "price": 0.437764,
+        "change_24h": 3.68,
+        "asset": "crypto"
+      },
+      {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 553.4,
-        "change_24h": 3.42,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XDC",
-        "name": "XDC Network",
-        "price": 0.035168,
-        "change_24h": 2.73,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BCH",
-        "name": "Bitcoin Cash",
-        "price": 277.5,
-        "change_24h": 2.72,
+        "price": 552.28,
+        "change_24h": 3.41,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1237.1,
-        "change_24h": 2.62,
+        "price": 1236.53,
+        "change_24h": 2.99,
         "asset": "crypto"
       },
       {
-        "symbol": "ALGO",
-        "name": "Algorand",
-        "price": 0.120597,
-        "change_24h": 2.62,
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price": 277.41,
+        "change_24h": 2.93,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price": 0.035182,
+        "change_24h": 2.88,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.098162,
-        "change_24h": -5.81,
+        "price": 0.098192,
+        "change_24h": -5.39,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "KCS",
+        "name": "KuCoin",
+        "price": 7.4,
+        "change_24h": -5.04,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
         "price": 1.98,
-        "change_24h": -5.24,
+        "change_24h": -4.88,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price": 210.24,
+        "change_24h": -4.32,
         "asset": "crypto"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
         "price": 2.0,
-        "change_24h": -4.96,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 210.67,
-        "change_24h": -4.94,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "KCS",
-        "name": "KuCoin",
-        "price": 7.42,
-        "change_24h": -4.91,
+        "change_24h": -4.1,
         "asset": "crypto"
       }
     ]
