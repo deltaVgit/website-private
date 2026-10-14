@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-10-14T13:30:22Z",
+  "updated_at": "2026-10-14T13:45:19Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
+        "symbol": "LQDA",
+        "name": "Liquidia Corporation",
+        "price": 35.92,
+        "change_24h": 33.98,
+        "asset": "equity"
+      },
+      {
         "symbol": "RGC",
         "name": "Regencell Bioscience Holdings L",
-        "price": 8.2,
-        "change_24h": 0.12,
+        "price": 8.965,
+        "change_24h": 9.46,
         "asset": "equity"
       },
       {
-        "symbol": "EFXT",
-        "name": "Enerflex Ltd",
-        "price": 27.49,
-        "change_24h": -0.07,
+        "symbol": "ESLT",
+        "name": "Elbit Systems Ltd.",
+        "price": 709.79,
+        "change_24h": 6.31,
         "asset": "equity"
       },
       {
-        "symbol": "PARR",
-        "name": "Par Pacific Holdings, Inc. Comm",
-        "price": 90.2,
-        "change_24h": 0.34,
+        "symbol": "GFS",
+        "name": "GlobalFoundries Inc.",
+        "price": 48.99,
+        "change_24h": 4.91,
         "asset": "equity"
       },
       {
-        "symbol": "PBF",
-        "name": "PBF Energy Inc.",
-        "price": 91.56,
-        "change_24h": 0.43,
-        "asset": "equity"
-      },
-      {
-        "symbol": "CVI",
-        "name": "CVR Energy Inc.",
-        "price": 63.34,
-        "change_24h": 0.34,
+        "symbol": "GTLB",
+        "name": "GitLab Inc.",
+        "price": 54.38,
+        "change_24h": 4.69,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "price": 10.69,
-        "change_24h": -5.73,
+        "symbol": "SKYD",
+        "name": "Skydance Corporation",
+        "price": 7.075,
+        "change_24h": -22.01,
         "asset": "equity"
       },
       {
-        "symbol": "PS",
-        "name": "Pershing Square Inc.",
-        "price": 46.53,
-        "change_24h": -1.89,
+        "symbol": "CRWV",
+        "name": "CoreWeave, Inc.",
+        "price": 67.73,
+        "change_24h": -12.95,
         "asset": "equity"
       },
       {
-        "symbol": "SMMT",
-        "name": "Summit Therapeutics Inc.",
-        "price": 15.27,
-        "change_24h": -1.61,
+        "symbol": "NBIS",
+        "name": "Nebius Group N.V.",
+        "price": 188.76,
+        "change_24h": -8.75,
         "asset": "equity"
       },
       {
-        "symbol": "CHRN",
-        "name": "ChronoScale Holdings Corporatio",
-        "price": 16.0,
-        "change_24h": -1.9,
+        "symbol": "PGR",
+        "name": "Progressive Corporation (The)",
+        "price": 203.82,
+        "change_24h": -8.53,
         "asset": "equity"
       },
       {
-        "symbol": "ASTS",
-        "name": "AST SpaceMobile, Inc.",
-        "price": 45.64,
-        "change_24h": -3.03,
+        "symbol": "BAC",
+        "name": "Bank of America Corporation",
+        "price": 49.91,
+        "change_24h": -7.47,
         "asset": "equity"
       }
     ]
@@ -82,73 +82,73 @@
       {
         "symbol": "PRL",
         "name": "Pearl",
-        "price": 1.88,
-        "change_24h": 13.87,
+        "price": 1.89,
+        "change_24h": 13.28,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 553.81,
-        "change_24h": 4.47,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "STX",
-        "name": "Stacks",
-        "price": 0.428078,
-        "change_24h": 3.38,
+        "price": 558.66,
+        "change_24h": 5.54,
         "asset": "crypto"
       },
       {
         "symbol": "PYTH",
         "name": "Pyth Network",
-        "price": 0.083803,
-        "change_24h": 2.1,
+        "price": 0.084879,
+        "change_24h": 3.83,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "price": 0.428155,
+        "change_24h": 3.82,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 22.47,
-        "change_24h": 1.99,
+        "price": 22.76,
+        "change_24h": 2.96,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "BDX",
-        "name": "Beldex",
-        "price": 0.082668,
-        "change_24h": -8.12,
-        "asset": "crypto"
-      },
-      {
         "symbol": "KCS",
         "name": "KuCoin",
-        "price": 7.25,
-        "change_24h": -8.02,
+        "price": 7.28,
+        "change_24h": -7.91,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.118276,
-        "change_24h": -6.8,
+        "price": 0.118706,
+        "change_24h": -6.46,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BDX",
+        "name": "Beldex",
+        "price": 0.08265,
+        "change_24h": -5.93,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
-        "price": 1.93,
-        "change_24h": -6.34,
+        "price": 1.94,
+        "change_24h": -5.21,
         "asset": "crypto"
       },
       {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.199643,
-        "change_24h": -5.8,
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.009533,
+        "change_24h": -5.14,
         "asset": "crypto"
       }
     ]
