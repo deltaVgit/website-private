@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-14T15:45:20Z",
+  "updated_at": "2026-10-14T16:00:26Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "price": 33.57,
-        "change_24h": 25.21,
+        "price": 33.46,
+        "change_24h": 24.8,
         "asset": "equity"
       },
       {
         "symbol": "HALO",
         "name": "Halozyme Therapeutics, Inc.",
-        "price": 118.11,
-        "change_24h": 7.74,
+        "price": 118.19,
+        "change_24h": 7.82,
         "asset": "equity"
       },
       {
         "symbol": "LEGN",
         "name": "Legend Biotech Corporation",
-        "price": 19.3,
-        "change_24h": 7.94,
+        "price": 19.09,
+        "change_24h": 6.8,
         "asset": "equity"
       },
       {
         "symbol": "NRIX",
         "name": "Nurix Therapeutics, Inc.",
-        "price": 23.38,
-        "change_24h": 5.65,
+        "price": 23.55,
+        "change_24h": 6.42,
         "asset": "equity"
       },
       {
         "symbol": "BLLN",
         "name": "BillionToOne, Inc.",
-        "price": 98.54,
-        "change_24h": 4.34,
+        "price": 98.68,
+        "change_24h": 4.49,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "SKYD",
         "name": "Skydance Corporation",
-        "price": 6.735,
-        "change_24h": -25.8,
+        "price": 6.785,
+        "change_24h": -25.25,
         "asset": "equity"
       },
       {
         "symbol": "CRWV",
         "name": "CoreWeave, Inc.",
-        "price": 66.1,
-        "change_24h": -15.05,
+        "price": 65.86,
+        "change_24h": -15.35,
         "asset": "equity"
       },
       {
         "symbol": "DOCN",
         "name": "DigitalOcean Holdings, Inc.",
-        "price": 108.81,
-        "change_24h": -15.13,
+        "price": 109.59,
+        "change_24h": -14.51,
+        "asset": "equity"
+      },
+      {
+        "symbol": "AFRM",
+        "name": "Affirm Holdings, Inc.",
+        "price": 69.66,
+        "change_24h": -10.57,
         "asset": "equity"
       },
       {
         "symbol": "WULF",
         "name": "TeraWulf Inc.",
-        "price": 11.78,
-        "change_24h": -10.83,
-        "asset": "equity"
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "price": 74.54,
-        "change_24h": -10.84,
+        "price": 11.81,
+        "change_24h": -10.56,
         "asset": "equity"
       }
     ]
@@ -83,35 +83,35 @@
         "symbol": "PRL",
         "name": "Pearl",
         "price": 2.0,
-        "change_24h": 8.04,
+        "change_24h": 8.56,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 22.54,
-        "change_24h": 4.46,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PYTH",
-        "name": "Pyth Network",
-        "price": 0.081579,
-        "change_24h": 4.04,
+        "price": 22.46,
+        "change_24h": 4.27,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 551.02,
-        "change_24h": 4.03,
+        "price": 546.38,
+        "change_24h": 3.51,
         "asset": "crypto"
       },
       {
         "symbol": "OKB",
         "name": "OKB",
-        "price": 124.28,
-        "change_24h": 2.5,
+        "price": 123.29,
+        "change_24h": 1.88,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.139898,
+        "change_24h": 1.74,
         "asset": "crypto"
       }
     ],
@@ -120,35 +120,35 @@
         "symbol": "KCS",
         "name": "KuCoin",
         "price": 7.22,
-        "change_24h": -8.7,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.11734,
-        "change_24h": -8.6,
+        "change_24h": -8.84,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.009221,
-        "change_24h": -7.6,
+        "price": 0.009205,
+        "change_24h": -7.85,
         "asset": "crypto"
       },
       {
-        "symbol": "BDX",
-        "name": "Beldex",
-        "price": 0.082667,
-        "change_24h": -6.64,
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.117866,
+        "change_24h": -7.74,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.19618,
-        "change_24h": -6.41,
+        "price": 0.195178,
+        "change_24h": -6.76,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price": 0.071147,
+        "change_24h": -6.55,
         "asset": "crypto"
       }
     ]
