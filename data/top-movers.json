@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-14T14:45:19Z",
+  "updated_at": "2026-10-14T15:00:28Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "price": 34.7,
-        "change_24h": 29.45,
+        "price": 33.5,
+        "change_24h": 24.95,
         "asset": "equity"
       },
       {
@@ -18,24 +18,24 @@
         "asset": "equity"
       },
       {
-        "symbol": "GFS",
-        "name": "GlobalFoundries Inc.",
-        "price": 49.17,
-        "change_24h": 5.29,
+        "symbol": "LEGN",
+        "name": "Legend Biotech Corporation",
+        "price": 18.9,
+        "change_24h": 5.7,
         "asset": "equity"
       },
       {
         "symbol": "MBLY",
         "name": "Mobileye Global Inc.",
-        "price": 7.4,
-        "change_24h": 5.41,
+        "price": 7.39,
+        "change_24h": 5.27,
         "asset": "equity"
       },
       {
         "symbol": "CAI",
         "name": "Caris Life Sciences, Inc.",
-        "price": 31.13,
-        "change_24h": 5.42,
+        "price": 30.98,
+        "change_24h": 4.91,
         "asset": "equity"
       }
     ],
@@ -43,8 +43,8 @@
       {
         "symbol": "SKYD",
         "name": "Skydance Corporation",
-        "price": 6.875,
-        "change_24h": -24.25,
+        "price": 6.795,
+        "change_24h": -25.13,
         "asset": "equity"
       },
       {
@@ -57,22 +57,22 @@
       {
         "symbol": "DOCN",
         "name": "DigitalOcean Holdings, Inc.",
-        "price": 116.17,
-        "change_24h": -9.39,
+        "price": 115.65,
+        "change_24h": -9.8,
         "asset": "equity"
       },
       {
-        "symbol": "UUUU",
-        "name": "Energy Fuels Inc",
-        "price": 8.455,
-        "change_24h": -8.79,
+        "symbol": "AFRM",
+        "name": "Affirm Holdings, Inc.",
+        "price": 71.0,
+        "change_24h": -8.85,
         "asset": "equity"
       },
       {
-        "symbol": "NBIS",
-        "name": "Nebius Group N.V.",
-        "price": 189.32,
-        "change_24h": -8.48,
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "price": 76.09,
+        "change_24h": -8.99,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "PRL",
         "name": "Pearl",
-        "price": 1.92,
-        "change_24h": 8.37,
+        "price": 1.97,
+        "change_24h": 10.6,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 551.01,
-        "change_24h": 3.85,
+        "price": 552.67,
+        "change_24h": 4.24,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.139972,
-        "change_24h": 1.95,
+        "price": 0.139932,
+        "change_24h": 1.94,
         "asset": "crypto"
       },
       {
         "symbol": "TRX",
         "name": "TRON",
-        "price": 0.332946,
-        "change_24h": 1.64,
+        "price": 0.332967,
+        "change_24h": 1.77,
         "asset": "crypto"
       },
       {
-        "symbol": "LEO",
-        "name": "LEO Token",
-        "price": 9.04,
-        "change_24h": 1.55,
+        "symbol": "STX",
+        "name": "Stacks",
+        "price": 0.426487,
+        "change_24h": 1.71,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "KCS",
         "name": "KuCoin",
-        "price": 7.21,
-        "change_24h": -8.99,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.195511,
-        "change_24h": -8.29,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.009305,
-        "change_24h": -7.85,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BDX",
-        "name": "Beldex",
-        "price": 0.083142,
-        "change_24h": -7.63,
+        "price": 7.22,
+        "change_24h": -8.9,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.117153,
-        "change_24h": -7.57,
+        "price": 0.117929,
+        "change_24h": -7.58,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BDX",
+        "name": "Beldex",
+        "price": 0.083422,
+        "change_24h": -7.15,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.009344,
+        "change_24h": -6.96,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.197772,
+        "change_24h": -6.37,
         "asset": "crypto"
       }
     ]
