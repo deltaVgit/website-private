@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T11:30:20Z",
+  "updated_at": "2026-10-14T11:45:19Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "STX",
-        "name": "Stacks",
-        "price": 0.437955,
-        "change_24h": 4.08,
-        "asset": "crypto"
-      },
-      {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 23.1,
-        "change_24h": 3.72,
+        "price": 23.13,
+        "change_24h": 4.56,
         "asset": "crypto"
       },
       {
-        "symbol": "XDC",
-        "name": "XDC Network",
-        "price": 0.035193,
-        "change_24h": 3.45,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 553.22,
-        "change_24h": 3.43,
+        "symbol": "STX",
+        "name": "Stacks",
+        "price": 0.438898,
+        "change_24h": 4.33,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1236.63,
-        "change_24h": 3.17,
+        "price": 1240.34,
+        "change_24h": 3.74,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 553.32,
+        "change_24h": 3.52,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price": 278.13,
+        "change_24h": 3.47,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "KCS",
         "name": "KuCoin",
-        "price": 7.35,
-        "change_24h": -5.83,
+        "price": 7.34,
+        "change_24h": -5.96,
         "asset": "crypto"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "price": 1.97,
-        "change_24h": -4.71,
+        "price": 1.98,
+        "change_24h": -3.63,
         "asset": "crypto"
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
         "price": 1.026,
-        "change_24h": -3.56,
+        "change_24h": -3.57,
         "asset": "crypto"
       },
       {
-        "symbol": "RENDER",
-        "name": "Render",
-        "price": 1.98,
-        "change_24h": -3.21,
+        "symbol": "BDX",
+        "name": "Beldex",
+        "price": 0.083325,
+        "change_24h": -3.3,
         "asset": "crypto"
       },
       {
-        "symbol": "POL",
-        "name": "POL (ex-MATIC)",
-        "price": 0.098643,
-        "change_24h": -2.86,
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.120595,
+        "change_24h": -2.97,
         "asset": "crypto"
       }
     ]
