@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T06:30:24Z",
+  "updated_at": "2026-10-14T06:45:19Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "INJ",
-        "name": "Injective",
-        "price": 8.14,
-        "change_24h": 2.94,
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1250.72,
+        "change_24h": 2.83,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 553.09,
-        "change_24h": 2.84,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1250.72,
-        "change_24h": 2.67,
+        "price": 550.6,
+        "change_24h": 2.09,
         "asset": "crypto"
       },
       {
         "symbol": "XDC",
         "name": "XDC Network",
-        "price": 0.034978,
-        "change_24h": 1.52,
+        "price": 0.034974,
+        "change_24h": 1.53,
         "asset": "crypto"
       },
       {
-        "symbol": "PEPE",
-        "name": "Pepe",
-        "price": 4e-06,
-        "change_24h": 1.36,
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 8.1,
+        "change_24h": 1.5,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.138943,
+        "change_24h": 1.25,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.009768,
-        "change_24h": -9.27,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RENDER",
-        "name": "Render",
-        "price": 2.0,
-        "change_24h": -8.62,
+        "price": 0.009709,
+        "change_24h": -9.64,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.828676,
-        "change_24h": -8.52,
+        "price": 0.827848,
+        "change_24h": -8.56,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RENDER",
+        "name": "Render",
+        "price": 1.99,
+        "change_24h": -7.92,
         "asset": "crypto"
       },
       {
         "symbol": "QNT",
         "name": "Quant",
-        "price": 213.14,
-        "change_24h": -7.62,
+        "price": 213.22,
+        "change_24h": -7.42,
         "asset": "crypto"
       },
       {
-        "symbol": "KCS",
-        "name": "KuCoin",
-        "price": 7.33,
-        "change_24h": -6.11,
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price": 0.044546,
+        "change_24h": -6.4,
         "asset": "crypto"
       }
     ]
