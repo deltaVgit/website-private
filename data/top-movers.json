@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T20:15:21Z",
+  "updated_at": "2026-10-14T20:30:20Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 2.2,
-        "change_24h": 13.68,
+        "price": 2.22,
+        "change_24h": 14.25,
         "asset": "crypto"
       },
       {
         "symbol": "PYTH",
         "name": "Pyth Network",
-        "price": 0.084511,
-        "change_24h": 6.66,
+        "price": 0.084932,
+        "change_24h": 7.93,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 23.27,
-        "change_24h": 5.88,
+        "price": 23.51,
+        "change_24h": 7.03,
         "asset": "crypto"
       },
       {
         "symbol": "PRL",
         "name": "Pearl",
-        "price": 1.94,
-        "change_24h": 4.43,
+        "price": 1.95,
+        "change_24h": 6.71,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.141101,
-        "change_24h": 2.12,
+        "price": 0.141076,
+        "change_24h": 2.09,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.116247,
+        "change_24h": -9.39,
+        "asset": "crypto"
+      },
+      {
         "symbol": "KCS",
         "name": "KuCoin",
         "price": 7.21,
-        "change_24h": -8.65,
+        "change_24h": -8.67,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.00918,
-        "change_24h": -8.32,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 1.088,
-        "change_24h": -8.27,
+        "price": 0.009175,
+        "change_24h": -8.14,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
-        "price": 1.92,
-        "change_24h": -7.84,
+        "price": 1.93,
+        "change_24h": -7.95,
         "asset": "crypto"
       },
       {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.116782,
-        "change_24h": -7.71,
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 1.085,
+        "change_24h": -7.58,
         "asset": "crypto"
       }
     ]
