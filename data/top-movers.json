@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T09:30:22Z",
+  "updated_at": "2026-10-14T09:45:19Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price": 0.035178,
+        "change_24h": 2.68,
+        "asset": "crypto"
+      },
+      {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.439774,
-        "change_24h": 3.16,
+        "price": 0.439725,
+        "change_24h": 2.5,
         "asset": "crypto"
       },
       {
         "symbol": "CAKE",
         "name": "PancakeSwap",
-        "price": 2.37,
-        "change_24h": 2.9,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1236.9,
-        "change_24h": 2.04,
+        "price": 2.35,
+        "change_24h": 2.02,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 554.19,
+        "price": 552.14,
         "change_24h": 1.97,
         "asset": "crypto"
       },
       {
         "symbol": "BCH",
         "name": "Bitcoin Cash",
-        "price": 277.46,
-        "change_24h": 1.86,
+        "price": 276.82,
+        "change_24h": 1.82,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "RENDER",
         "name": "Render",
-        "price": 1.96,
-        "change_24h": -7.97,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.009735,
-        "change_24h": -7.03,
+        "price": 1.95,
+        "change_24h": -8.47,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.823559,
-        "change_24h": -6.24,
+        "price": 0.817915,
+        "change_24h": -6.65,
         "asset": "crypto"
       },
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.098516,
-        "change_24h": -6.05,
+        "price": 0.098049,
+        "change_24h": -6.11,
         "asset": "crypto"
       },
       {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.044169,
-        "change_24h": -6.03,
+        "price": 0.044103,
+        "change_24h": -5.77,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price": 210.08,
+        "change_24h": -5.65,
         "asset": "crypto"
       }
     ]
