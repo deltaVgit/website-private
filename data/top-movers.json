@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T11:15:19Z",
+  "updated_at": "2026-10-14T11:30:20Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.437482,
-        "change_24h": 5.61,
+        "price": 0.437955,
+        "change_24h": 4.08,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 23.13,
-        "change_24h": 4.54,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1238.4,
-        "change_24h": 4.05,
+        "price": 23.1,
+        "change_24h": 3.72,
         "asset": "crypto"
       },
       {
         "symbol": "XDC",
         "name": "XDC Network",
         "price": 0.035193,
-        "change_24h": 3.55,
+        "change_24h": 3.45,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 552.14,
-        "change_24h": 3.49,
+        "price": 553.22,
+        "change_24h": 3.43,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1236.63,
+        "change_24h": 3.17,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 1.97,
-        "change_24h": -5.51,
-        "asset": "crypto"
-      },
-      {
         "symbol": "KCS",
         "name": "KuCoin",
         "price": 7.35,
-        "change_24h": -5.4,
+        "change_24h": -5.83,
         "asset": "crypto"
       },
       {
-        "symbol": "BDX",
-        "name": "Beldex",
-        "price": 0.083179,
-        "change_24h": -3.8,
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 1.97,
+        "change_24h": -4.71,
         "asset": "crypto"
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
         "price": 1.026,
-        "change_24h": -3.57,
+        "change_24h": -3.56,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RENDER",
+        "name": "Render",
+        "price": 1.98,
+        "change_24h": -3.21,
         "asset": "crypto"
       },
       {
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
-        "price": 0.098477,
-        "change_24h": -2.91,
+        "price": 0.098643,
+        "change_24h": -2.86,
         "asset": "crypto"
       }
     ]
