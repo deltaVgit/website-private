@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T21:00:31Z",
+  "updated_at": "2026-10-14T21:15:19Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,73 +82,73 @@
       {
         "symbol": "PYTH",
         "name": "Pyth Network",
-        "price": 0.085955,
-        "change_24h": 9.48,
+        "price": 0.085187,
+        "change_24h": 8.87,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 23.25,
+        "change_24h": 5.81,
         "asset": "crypto"
       },
       {
         "symbol": "PRL",
         "name": "Pearl",
         "price": 1.95,
-        "change_24h": 6.97,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 23.39,
-        "change_24h": 6.5,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "XMR",
-        "name": "Monero",
-        "price": 551.2,
-        "change_24h": 2.51,
+        "change_24h": 4.38,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.141241,
+        "price": 0.141424,
         "change_24h": 2.38,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price": 550.0,
+        "change_24h": 2.11,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "KCS",
-        "name": "KuCoin",
-        "price": 7.18,
-        "change_24h": -9.21,
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.11599,
+        "change_24h": -9.09,
         "asset": "crypto"
       },
       {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.116333,
-        "change_24h": -8.93,
+        "symbol": "KCS",
+        "name": "KuCoin",
+        "price": 7.17,
+        "change_24h": -8.97,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.009152,
-        "change_24h": -8.69,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.195222,
-        "change_24h": -7.75,
+        "price": 0.00912,
+        "change_24h": -8.9,
         "asset": "crypto"
       },
       {
         "symbol": "RENDER",
         "name": "Render",
-        "price": 1.92,
-        "change_24h": -7.62,
+        "price": 1.91,
+        "change_24h": -8.02,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 3.1,
+        "change_24h": -7.61,
         "asset": "crypto"
       }
     ]
