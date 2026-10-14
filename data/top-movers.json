@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T12:00:31Z",
+  "updated_at": "2026-10-14T12:15:20Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "PRL",
-        "name": "Pearl",
-        "price": 1.92,
-        "change_24h": 14.15,
-        "asset": "crypto"
-      },
-      {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 23.25,
-        "change_24h": 5.48,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "STX",
-        "name": "Stacks",
-        "price": 0.437953,
-        "change_24h": 4.59,
+        "price": 23.45,
+        "change_24h": 6.52,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1240.28,
-        "change_24h": 4.49,
+        "price": 1251.68,
+        "change_24h": 6.1,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 554.13,
-        "change_24h": 4.18,
+        "price": 555.16,
+        "change_24h": 4.95,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.005125,
+        "change_24h": 4.56,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "price": 0.436585,
+        "change_24h": 4.52,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "KCS",
         "name": "KuCoin",
-        "price": 7.34,
-        "change_24h": -4.94,
+        "price": 7.36,
+        "change_24h": -4.46,
         "asset": "crypto"
       },
       {
-        "symbol": "BDX",
-        "name": "Beldex",
-        "price": 0.08245,
-        "change_24h": -4.7,
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.121523,
+        "change_24h": -3.97,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 0.813303,
+        "change_24h": -3.71,
         "asset": "crypto"
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
         "price": 1.026,
-        "change_24h": -3.62,
+        "change_24h": -3.63,
         "asset": "crypto"
       },
       {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 1.98,
-        "change_24h": -3.3,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.120614,
-        "change_24h": -2.73,
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.671782,
+        "change_24h": -2.58,
         "asset": "crypto"
       }
     ]
