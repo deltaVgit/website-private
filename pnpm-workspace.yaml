@@ -6,3 +6,32 @@ packages:
 allowBuilds:
   sharp: true
   unrs-resolver: true
+
+# Security overrides — mirrored from package.json > pnpm > overrides.
+# pnpm reads this key from pnpm-workspace.yaml in v10+; the package.json copy
+# covers v9. Both are kept so a future install cannot silently drop the fixes.
+overrides:
+  "baseline-browser-mapping@>=2.0.0 <2.11.0": ">=2.11.0"
+  "brace-expansion@<1.1.17": ">=1.1.17"
+  "brace-expansion@<1.1.18": ">=1.1.18"
+  "brace-expansion@<1.1.19": ">=1.1.19"
+  "brace-expansion@<1.1.20": ">=1.1.20"
+  "brace-expansion@<1.1.21": ">=1.1.21"
+  "brace-expansion@>=4.0.0 <5.0.10": ">=5.0.10"
+  "brace-expansion@>=4.0.0 <5.0.11": ">=5.0.11"
+  "brace-expansion@>=4.0.0 <5.0.12": ">=5.0.12"
+  "brace-expansion@>=4.0.0 <5.0.8": ">=5.0.8"
+  "brace-expansion@>=4.0.0 <5.0.9": ">=5.0.9"
+  "katex@>=0.11.0 <0.18.2": ">=0.18.2"
+  "mermaid@>=11.0.0-alpha.1 <11.16.1": ">=11.16.1"
+  "mermaid@>=11.5.0 <11.16.1": ">=11.16.1"
+  "mermaid@>=11.6.0 <11.16.1": ">=11.16.1"
+  "postcss@<=8.5.22": ">=8.5.23"
+  "sharp@<0.35.4": ">=0.35.4"
+  "sharp@<0.35.5": ">=0.35.5"
+  "undici@>=7.0.0 <7.29.1": ">=7.29.1"
+  "undici@>=7.1.0 <7.29.1": ">=7.29.1"
+  "undici@>=7.11.0 <7.29.1": ">=7.29.1"
+  "undici@>=7.15.0 <7.29.1": ">=7.29.1"
+  "undici@>=7.24.1 <7.29.1": ">=7.29.1"
+  "undici@>=7.28.0 <7.29.1": ">=7.29.1"

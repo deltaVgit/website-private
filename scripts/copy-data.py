@@ -7,7 +7,35 @@ import json, os, shutil, re, sys, urllib.request, ssl, subprocess
 
 PUBLIC_DIR = os.path.join(os.path.dirname(__file__), '..', 'public', 'data')
 SIGNALS_DIR = os.path.join(os.path.dirname(__file__), '..', '..', 'wiki', 'signals')
-WORKSPACE_DIR = os.path.join(os.path.dirname(__file__), '..', '..', '..', 'DeltaV-persistent-workspace', 'intel')
+
+# Intel pipeline output. The pipeline has moved between trees over time, so probe
+# candidates (in preference order) instead of hardcoding one path — a stale path
+# silently skips raw-items generation and leaves public/data/raw-items.json frozen.
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+WORKSPACE_CANDIDATES = [
+    os.environ.get('DELTAV_INTEL_RAW'),                      # explicit override
+    os.path.join(_SCRIPT_DIR, '..', '..', 'DeltaV-ops', 'intel'),
+    os.path.join(_SCRIPT_DIR, '..', '..', '..', 'DeltaV-persistent-workspace', 'intel'),
+    os.path.join(_SCRIPT_DIR, '..', '..', '..', 'DeltaV-ops', 'intel'),
+    os.path.join(os.path.expanduser('~'), 'DeltaV-ops', 'intel'),
+]
+
+
+def _resolve_workspace():
+    """First candidate that actually contains a non-empty raw/ dir."""
+    for c in WORKSPACE_CANDIDATES:
+        if not c:
+            continue
+        c = os.path.abspath(c)
+        raw = os.path.join(c, 'raw')
+        if os.path.isdir(raw) and any(f.endswith('.json') for f in os.listdir(raw)):
+            return c
+    return None
+
+
+WORKSPACE_DIR = _resolve_workspace() or os.path.abspath(
+    os.path.join(_SCRIPT_DIR, '..', '..', '..', 'DeltaV-persistent-workspace', 'intel')
+)
 
 os.makedirs(PUBLIC_DIR, exist_ok=True)
 
@@ -41,6 +69,11 @@ def fetch_yahoo_quote(symbol):
 
 # --- Copy raw items from workspace ---
 raw_dir = os.path.join(WORKSPACE_DIR, 'raw')
+if not os.path.exists(raw_dir):
+    # Loud, because silently skipping here is what froze public/data/raw-items.json
+    # for months while every build reported success.
+    print(f"  ⚠ raw/ NOT FOUND under {WORKSPACE_DIR} — raw-items.json will NOT be regenerated")
+    print(f"    probed: {WORKSPACE_CANDIDATES}")
 if os.path.exists(raw_dir):
     all_items = []
     for fname in sorted(os.listdir(raw_dir)):
@@ -78,12 +111,10 @@ if os.path.exists(raw_dir):
         return _dt.min.replace(tzinfo=_tz.utc)
     unique.sort(key=_parse_date, reverse=True)
     top200 = unique[:200]
-    # Only overwrite if file is stale (>30 min) or doesn't exist — trust sync-intel-to-site.py
     out_path = os.path.join(PUBLIC_DIR, 'raw-items.json')
-    if os.path.exists(out_path):
-        age_min = (os.path.getmtime(__file__) - os.path.getmtime(out_path)) / 60 if os.path.getmtime(out_path) else 999
-        # Always write during build — this is the authoritative snapshot
-        pass
+    # Always write during build — this is the authoritative snapshot.
+    # (A previous "only if stale" guard here was dead code: the age check was
+    # computed and then ignored by a bare `pass`, so it never gated anything.)
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(top200, f)
     print(f'✓ {len(top200)} raw items cached (newest first)')
