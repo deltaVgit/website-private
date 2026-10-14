@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T23:45:22Z",
+  "updated_at": "2026-10-14T00:00:22Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,52 +82,59 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 2.04,
-        "change_24h": 17.15,
+        "price": 2.06,
+        "change_24h": 18.49,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 8.14,
-        "change_24h": 12.0,
+        "price": 8.11,
+        "change_24h": 11.19,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 7.54,
-        "change_24h": 8.19,
+        "price": 7.53,
+        "change_24h": 8.14,
         "asset": "crypto"
       },
       {
         "symbol": "PEPE",
         "name": "Pepe",
         "price": 4e-06,
-        "change_24h": 7.42,
+        "change_24h": 7.21,
         "asset": "crypto"
       },
       {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 1.16,
-        "change_24h": 5.6,
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.191083,
+        "change_24h": 6.08,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 0.839213,
-        "change_24h": -7.38,
+        "symbol": "QNT",
+        "name": "Quant",
+        "price": 209.62,
+        "change_24h": -7.13,
         "asset": "crypto"
       },
       {
-        "symbol": "QNT",
-        "name": "Quant",
-        "price": 209.61,
-        "change_24h": -6.93,
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 0.840377,
+        "change_24h": -7.05,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "RENDER",
+        "name": "Render",
+        "price": 2.01,
+        "change_24h": -3.8,
         "asset": "crypto"
       },
       {
@@ -140,15 +147,8 @@
       {
         "symbol": "BDX",
         "name": "Beldex",
-        "price": 0.086015,
-        "change_24h": -3.42,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RENDER",
-        "name": "Render",
-        "price": 2.01,
-        "change_24h": -2.39,
+        "price": 0.086042,
+        "change_24h": -3.53,
         "asset": "crypto"
       }
     ]

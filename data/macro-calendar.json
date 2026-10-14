@@ -1,14 +1,7 @@
 {
-  "updated": "2026-10-13T23:45:22.835197Z",
-  "period": "2026-10-13 \u2192 2026-11-27",
+  "updated": "2026-10-14T00:00:22.258613Z",
+  "period": "2026-10-14 \u2192 2026-11-28",
   "events": [
-    {
-      "date": "2026-10-13",
-      "label": "EU ZEW Economic Sentiment",
-      "currency": "EUR",
-      "impact": "medium",
-      "country": "EU"
-    },
     {
       "date": "2026-10-14",
       "label": "US CPI (MoM)",
@@ -281,6 +274,13 @@
       "currency": "USD",
       "impact": "medium",
       "country": "US"
+    },
+    {
+      "date": "2026-11-13",
+      "label": "EU CPI Flash (YoY)",
+      "currency": "EUR",
+      "impact": "high",
+      "country": "EU"
     }
   ]
 }
