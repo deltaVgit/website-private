@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-10-15T14:04:40Z",
+  "updatedAt": "2026-10-15T20:05:22Z",
   "kev": [
+    {
+      "cve": "CVE-2026-21589",
+      "product": "Multiple Products",
+      "vendor": "Atlassian",
+      "name": "Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
+      "dateAdded": "2026-10-15",
+      "dueDate": "2026-10-18",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2026-105134",
       "product": "AhsayCBS",
@@ -114,15 +123,6 @@
       "product": "Zammad",
       "vendor": "Zammad GmbH",
       "name": "Zammad GmbH Zammad Improper Privilege Management Vulnerability",
-      "dateAdded": "2026-10-02",
-      "dueDate": "2026-10-05",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-102489",
-      "product": "Zammad",
-      "vendor": "Zammad GmbH",
-      "name": "Zammad GmbH Zammad Session Fixation Vulnerability",
       "dateAdded": "2026-10-02",
       "dueDate": "2026-10-05",
       "knownRansomware": "Unknown"

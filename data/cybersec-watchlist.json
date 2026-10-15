@@ -1,91 +1,99 @@
 [
   {
+    "title": "Android gets AI defenses against messaging scams, fake calls",
+    "url": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
+    "source": "BleepingComputer",
+    "summary": "Google announced new AI-powered defenses against scam messages and call-forwarding abuse on Android, currently rolling out to eligible devices. [...]",
+    "added": "2026-10-15T19:48:43+00:00",
+    "expires": "2026-10-29T20:05:22Z"
+  },
+  {
+    "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
+    "url": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
+    "source": "The Hacker News",
+    "summary": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories. The rest gets interesting in different ",
+    "added": "2026-10-15T18:49:33+00:00",
+    "expires": "2026-10-29T20:05:22Z"
+  },
+  {
+    "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
+    "source": "BleepingComputer",
+    "summary": "A proxyjacking campaign has impacted devices in 34 countries, monetizing victims' internet connections through a commercial residential proxy network. [...]",
+    "added": "2026-10-15T18:20:59+00:00",
+    "expires": "2026-10-29T20:05:22Z"
+  },
+  {
+    "title": "Fake Arch Linux packages push malware with root privileges",
+    "url": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
+    "source": "BleepingComputer",
+    "summary": "A threat actor uploaded malicious packages to the Arch User Repository (AUR) that impersonated two popular helper tools, yay and paru. [...]",
+    "added": "2026-10-15T17:12:31+00:00",
+    "expires": "2026-10-29T20:05:22Z"
+  },
+  {
+    "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
+    "url": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
+    "source": "The Hacker News",
+    "summary": "Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, researchers at the Cit",
+    "added": "2026-10-15T16:01:57+00:00",
+    "expires": "2026-10-29T20:05:22Z"
+  },
+  {
+    "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
+    "url": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
+    "source": "The Hacker News",
+    "summary": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS). The activity, observed from June 2025 through Au",
+    "added": "2026-10-15T16:00:26+00:00",
+    "expires": "2026-10-29T20:05:22Z"
+  },
+  {
+    "title": "Vulnerability Management Isn't About the Score — It's About How It Applies to You",
+    "url": "https://www.darkreading.com/cybersecurity-operations/vulnerability-management-isnt-about-the-score-its-about-how-it-applies-to-you",
+    "source": "Dark Reading",
+    "summary": "Organizations need to move away from vendor-assigned, theoretical scores toward real exploit data specific to their environments.",
+    "added": "2026-10-15T15:17:18+00:00",
+    "expires": "2026-10-29T20:05:22Z"
+  },
+  {
+    "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
+    "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
+    "source": "The Hacker News",
+    "summary": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777. Help TDS is asse",
+    "added": "2026-10-15T14:11:36+00:00",
+    "expires": "2026-10-29T20:05:22Z"
+  },
+  {
+    "title": "Is AI pentesting as good as a human pentester?",
+    "url": "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/",
+    "source": "BleepingComputer",
+    "summary": "AI pentesting can uncover vulnerabilities missed by human testers, but it also has limitations in consistency, risk assessment, and understanding business context. Intruder compares the strengths and weaknesses of both a",
+    "added": "2026-10-15T14:01:11+00:00",
+    "expires": "2026-10-29T20:05:22Z"
+  },
+  {
     "title": "Microsoft: Windows Server 2022 reached end of mainstream support",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/",
     "source": "BleepingComputer",
     "summary": "Microsoft announced that Windows Server 2022 has reached the end of mainstream support and will remain in extended support until October 2031. [...]",
     "added": "2026-10-15T13:18:36+00:00",
-    "expires": "2026-10-29T14:04:40Z"
+    "expires": "2026-10-29T20:05:22Z"
   },
   {
-    "title": "Drupal Patches Critical Core RCE Flaw with No-Login Path via Contributed Modules",
-    "url": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
+    "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
+    "url": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
     "source": "The Hacker News",
-    "summary": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19. An attacker cannot reach the ",
-    "added": "2026-10-15T12:07:20+00:00",
-    "expires": "2026-10-29T14:04:40Z"
-  },
-  {
-    "title": "Police arrests 95 suspects in international CSAM crackdown action",
-    "url": "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/",
-    "source": "BleepingComputer",
-    "summary": "Law enforcement authorities from 17 countries in Latin America and Europe have arrested 95 suspects in an INTERPOL-coordinated operation targeting the distribution of child sexual abuse material (CSAM) through online mes",
-    "added": "2026-10-15T11:55:38+00:00",
-    "expires": "2026-10-29T14:04:40Z"
-  },
-  {
-    "title": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
-    "url": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
-    "source": "The Hacker News",
-    "summary": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and October",
-    "added": "2026-10-15T11:46:59+00:00",
-    "expires": "2026-10-29T14:04:40Z"
-  },
-  {
-    "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
-    "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
-    "source": "The Hacker News",
-    "summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation. The vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of rem",
-    "added": "2026-10-15T11:46:49+00:00",
-    "expires": "2026-10-29T14:04:40Z"
-  },
-  {
-    "title": "Why AI Confidence Is Not Validation",
-    "url": "https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html",
-    "source": "The Hacker News",
-    "summary": "AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in their own output faster than practitioners a",
-    "added": "2026-10-15T11:04:35+00:00",
-    "expires": "2026-10-29T14:04:40Z"
-  },
-  {
-    "title": "India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1",
-    "url": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html",
-    "source": "The Hacker News",
-    "summary": "The Indian government has directed telecom service providers (TSPs) in the country to mandatorily display callers' registered names along with their numbers for incoming calls starting November 1, 2026, in an effort to h",
-    "added": "2026-10-15T10:42:16+00:00",
-    "expires": "2026-10-29T14:04:40Z"
-  },
-  {
-    "title": "Microsoft fixes bug causing Windows black screens, Explorer crashes",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/",
-    "source": "BleepingComputer",
-    "summary": "Microsoft has resolved a known issue that was causing black screens, desktop loading issues, and Explorer crashes after installing Windows 11 updates released since August. [...]",
-    "added": "2026-10-15T09:10:20+00:00",
-    "expires": "2026-10-29T14:04:40Z"
-  },
-  {
-    "title": "UK Legal Aid Agency: Hackers stole records dating back to 1978",
-    "url": "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/",
-    "source": "BleepingComputer",
-    "summary": "The Legal Aid Agency (LAA), an executive agency of the UK's Ministry of Justice that manages the country's Public Defender Service, says attackers who breached its IT systems in April 2025 stole records dating back to 19",
-    "added": "2026-10-15T08:06:47+00:00",
-    "expires": "2026-10-29T14:04:40Z"
+    "summary": "NGINX released versions 1.30.6 and 1.31.7 on October 14 to fix five vulnerabilities, one of them present in every release since May 2005. There are three memory bugs that F5, the company behind NGINX, says could crash a ",
+    "added": "2026-10-15T12:58:05+00:00",
+    "expires": "2026-10-29T20:05:22Z"
   },
   {
     "title": "EU Grocers Pay a Steep Price for Unpatched Fridge Firmware",
     "url": "https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware",
     "source": "Dark Reading",
-    "summary": "Hundreds of stores lost millions of dollars because they hired third parties to manage the outdated OT firmware running their cooling systems.",
+    "summary": "Hundreds of stores lost millions of euros because they hired third parties to manage the outdated OT firmware running their cooling systems.",
     "added": "2026-10-15T07:00:00+00:00",
-    "expires": "2026-10-29T14:04:40Z"
-  },
-  {
-    "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
-    "source": "BleepingComputer",
-    "summary": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls. [...]",
-    "added": "2026-10-14T22:56:47+00:00",
-    "expires": "2026-10-29T14:04:40Z"
+    "expires": "2026-10-29T20:05:22Z"
   },
   {
     "title": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
@@ -93,7 +101,7 @@
     "source": "Dark Reading",
     "summary": "CVE-2026-104935, a high-severity authentication bypass + RCE vulnerability, was only partially discovered and patched in July, leaving an opening for threat actors to capitalize on.",
     "added": "2026-10-14T21:20:13+00:00",
-    "expires": "2026-10-29T14:04:40Z"
+    "expires": "2026-10-29T20:05:22Z"
   },
   {
     "title": "Yam Store: The Phishing Network Behind a Billion Messages",
@@ -101,7 +109,7 @@
     "source": "Dark Reading",
     "summary": "A sprawling cybercrime marketplace supplied cloud infrastructure and phishing kits that helped fuel more than 1 billion phishing messages worldwide.",
     "added": "2026-10-14T20:57:16+00:00",
-    "expires": "2026-10-29T14:04:40Z"
+    "expires": "2026-10-29T20:05:22Z"
   },
   {
     "title": "Anthropic 'SneakPeek' Flaw Is a Silent Zero-Click Threat",
@@ -109,7 +117,7 @@
     "source": "Dark Reading",
     "summary": "A bug in Claude Code Desktop's preview pane can allow adversaries to quietly steal credentials from developers, including SSH private keys, AWS credentials, and Claude 0Auth tokens.",
     "added": "2026-10-14T20:09:42+00:00",
-    "expires": "2026-10-29T14:04:40Z"
+    "expires": "2026-10-29T20:05:22Z"
   },
   {
     "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
@@ -117,14 +125,6 @@
     "source": "Krebs on Security",
     "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud a",
     "added": "2026-10-14T14:22:49+00:00",
-    "expires": "2026-10-29T14:04:40Z"
-  },
-  {
-    "title": "Russian Influence Operation Widely Targeting Latin America",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/russian-influence-operation-targeting-latin-america",
-    "source": "Dark Reading",
-    "summary": "The AI-enabled operation used spoofed emails, fake government documents, and the creation of a local organization to target schools in Peru and Ecuador, among other efforts.",
-    "added": "2026-10-14T13:00:00+00:00",
-    "expires": "2026-10-29T14:04:40Z"
+    "expires": "2026-10-29T20:05:22Z"
   }
 ]
