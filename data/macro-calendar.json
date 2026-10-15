@@ -1,21 +1,7 @@
 {
-  "updated": "2026-10-14T23:45:20.718511Z",
-  "period": "2026-10-14 \u2192 2026-11-28",
+  "updated": "2026-10-15T00:00:31.890843Z",
+  "period": "2026-10-15 \u2192 2026-11-29",
   "events": [
-    {
-      "date": "2026-10-14",
-      "label": "US CPI (MoM)",
-      "currency": "USD",
-      "impact": "high",
-      "country": "US"
-    },
-    {
-      "date": "2026-10-14",
-      "label": "EU Final CPI (YoY)",
-      "currency": "EUR",
-      "impact": "medium",
-      "country": "EU"
-    },
     {
       "date": "2026-10-15",
       "label": "US Retail Sales (MoM)",
@@ -281,6 +267,20 @@
       "currency": "EUR",
       "impact": "high",
       "country": "EU"
+    },
+    {
+      "date": "2026-11-13",
+      "label": "UK GDP (MoM)",
+      "currency": "GBP",
+      "impact": "medium",
+      "country": "UK"
+    },
+    {
+      "date": "2026-11-15",
+      "label": "China Industrial Production",
+      "currency": "CNY",
+      "impact": "medium",
+      "country": "CN"
     }
   ]
 }
