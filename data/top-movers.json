@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T00:30:20Z",
+  "updated_at": "2026-10-15T00:45:20Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "PYTH",
-        "name": "Pyth Network",
-        "price": 0.085427,
-        "change_24h": 8.39,
-        "asset": "crypto"
-      },
-      {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 2.36,
-        "change_24h": 8.13,
+        "price": 2.37,
+        "change_24h": 9.0,
         "asset": "crypto"
       },
       {
         "symbol": "PRL",
         "name": "Pearl",
-        "price": 1.89,
-        "change_24h": 5.76,
+        "price": 1.87,
+        "change_24h": 5.55,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PYTH",
+        "name": "Pyth Network",
+        "price": 0.083896,
+        "change_24h": 4.56,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.141389,
-        "change_24h": 2.43,
+        "price": 0.140936,
+        "change_24h": 2.0,
         "asset": "crypto"
       },
       {
         "symbol": "TRX",
         "name": "TRON",
-        "price": 0.33227,
-        "change_24h": 1.6,
+        "price": 0.331873,
+        "change_24h": 1.46,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.009151,
-        "change_24h": -8.57,
-        "asset": "crypto"
-      },
-      {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.1,
-        "change_24h": -8.36,
+        "price": 3.09,
+        "change_24h": -9.2,
         "asset": "crypto"
       },
       {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.115048,
-        "change_24h": -8.28,
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.009135,
+        "change_24h": -9.11,
         "asset": "crypto"
       },
       {
-        "symbol": "KCS",
-        "name": "KuCoin",
-        "price": 7.16,
-        "change_24h": -8.02,
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1137.3,
+        "change_24h": -8.43,
         "asset": "crypto"
       },
       {
         "symbol": "SKY",
         "name": "Sky",
-        "price": 0.071294,
-        "change_24h": -7.74,
+        "price": 0.071202,
+        "change_24h": -8.39,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.194893,
+        "change_24h": -8.31,
         "asset": "crypto"
       }
     ]
