@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-14T18:34:31Z",
+  "updated": "2026-10-15T01:04:35Z",
   "items": [
+    {
+      "title": "Tree Appreciator",
+      "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+      "source": "Simon Willison",
+      "published_at": "2026-10-14T21:23:01+00:00",
+      "summary": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode) where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees ",
+      "tag": "ai"
+    },
     {
       "title": "AI is mass decompiling games. That's both awesome and scary.",
       "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
@@ -42,19 +50,11 @@
       "tag": "ai"
     },
     {
-      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "source": "Google DeepMind",
-      "published_at": "2026-10-14T02:00:14+00:00",
-      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-      "tag": "ai"
-    },
-    {
-      "title": "The EU’s next chapter in AI is agentic",
-      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "title": "How Block is building AI-powered security with OpenAI technology",
+      "url": "https://openai.com/index/block-ai-powered-security",
       "source": "OpenAI",
-      "published_at": "2026-10-14T00:00:00+00:00",
-      "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+      "published_at": "2026-10-14T07:00:00+00:00",
+      "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
       "tag": "ai"
     },
     {
@@ -66,27 +66,11 @@
       "tag": "ai"
     },
     {
-      "title": "llm-gemini 0.35",
-      "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
-      "source": "Simon Willison",
-      "published_at": "2026-10-13T22:28:54+00:00",
-      "summary": "Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a",
-      "tag": "ai"
-    },
-    {
       "title": "The Continual Constitutional Convention: How language models revise the documents that govern them",
       "url": "https://www.alignmentforum.org/posts/c9woewdY9ddsPqf3J/the-continual-constitutional-convention-how-language-models",
       "source": "Alignment Forum",
       "published_at": "2026-10-13T22:19:04+00:00",
       "summary": "Executive Summary Human societies exhibit broad shifts in values and norms over time, often driven by moral disagreements. One way of understanding moral progress is the resolution of these disagreements through a process of reflection by rational agents. Frontier AI companies us",
-      "tag": "ai"
-    },
-    {
-      "title": "Developing Gemini 4 Argon responsibly and safely",
-      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "source": "Google DeepMind",
-      "published_at": "2026-10-13T19:43:07+00:00",
-      "summary": "",
       "tag": "ai"
     },
     {
@@ -98,27 +82,19 @@
       "tag": "ai"
     },
     {
-      "title": "Gemini 4 Argon for Robotics",
-      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-      "source": "Google DeepMind",
-      "published_at": "2026-10-13T16:01:58+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-      "source": "Google DeepMind",
-      "published_at": "2026-10-13T16:01:52+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
       "title": "Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI",
       "url": "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai/",
       "source": "Meta Engineering",
       "published_at": "2026-10-13T16:01:00+00:00",
       "summary": "Last year, we introduced GEM, the industry’s largest recommendation system (RecSys) foundation model. GEM established Meta’s first LLM-inspired paradigm for ads recommendation, driving major performance gains. Building on this foundation, our next goal is to further scale both co",
+      "tag": "ai"
+    },
+    {
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "source": "Google AI Blog",
+      "published_at": "2026-10-13T16:00:00+00:00",
+      "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
       "tag": "ai"
     },
     {
