@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T10:15:21Z",
+  "updated_at": "2026-10-15T10:30:21Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.028869,
-        "change_24h": 13.3,
-        "asset": "crypto"
-      },
-      {
         "symbol": "PYTH",
         "name": "Pyth Network",
-        "price": 0.086219,
-        "change_24h": 5.55,
+        "price": 0.086071,
+        "change_24h": 5.45,
         "asset": "crypto"
       },
       {
         "symbol": "BDX",
         "name": "Beldex",
-        "price": 0.083798,
-        "change_24h": 1.19,
+        "price": 0.083833,
+        "change_24h": 0.4,
         "asset": "crypto"
       },
       {
         "symbol": "PAXG",
         "name": "PAX Gold",
-        "price": 4154.46,
-        "change_24h": 0.27,
+        "price": 4152.62,
+        "change_24h": 0.28,
         "asset": "crypto"
       },
       {
         "symbol": "LEO",
         "name": "LEO Token",
-        "price": 9.03,
-        "change_24h": 0.25,
+        "price": 9.04,
+        "change_24h": 0.23,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XAUT",
+        "name": "Tether Gold",
+        "price": 4147.2,
+        "change_24h": 0.18,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1079.11,
+        "change_24h": -12.82,
+        "asset": "crypto"
+      },
+      {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.106017,
-        "change_24h": -12.3,
+        "price": 0.105756,
+        "change_24h": -12.72,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.008542,
-        "change_24h": -12.1,
+        "price": 0.008529,
+        "change_24h": -12.4,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.185205,
-        "change_24h": -11.89,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1090.57,
-        "change_24h": -11.8,
+        "price": 0.184039,
+        "change_24h": -12.4,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 2.96,
-        "change_24h": -11.48,
+        "price": 2.93,
+        "change_24h": -12.13,
         "asset": "crypto"
       }
     ]
