@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-10-15T13:45:21Z",
+  "updated_at": "2026-10-15T14:00:22Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "ERIC",
-        "name": "Ericsson",
-        "price": 10.46,
-        "change_24h": 9.24,
-        "asset": "equity"
-      },
-      {
         "symbol": "SAH",
         "name": "Sonic Automotive, Inc.",
         "price": 66.26,
-        "change_24h": 10.38,
+        "change_24h": 10.34,
         "asset": "equity"
       },
       {
         "symbol": "PAG",
         "name": "Penske Automotive Group, Inc.",
-        "price": 211.35,
-        "change_24h": 8.49,
+        "price": 211.21,
+        "change_24h": 8.43,
+        "asset": "equity"
+      },
+      {
+        "symbol": "ERIC",
+        "name": "Ericsson",
+        "price": 10.34,
+        "change_24h": 7.96,
         "asset": "equity"
       },
       {
         "symbol": "ABG",
         "name": "Asbury Automotive Group Inc",
-        "price": 173.01,
-        "change_24h": 6.94,
+        "price": 172.48,
+        "change_24h": 6.49,
         "asset": "equity"
       },
       {
         "symbol": "LAD",
         "name": "Lithia Motors, Inc.",
-        "price": 300.32,
-        "change_24h": 6.75,
+        "price": 299.95,
+        "change_24h": 6.56,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "RKLB",
-        "name": "Rocket Lab Corporation",
-        "price": 51.29,
-        "change_24h": -13.33,
-        "asset": "equity"
-      },
-      {
         "symbol": "MAN",
         "name": "ManpowerGroup",
-        "price": 44.85,
-        "change_24h": -13.7,
+        "price": 45.09,
+        "change_24h": -13.22,
         "asset": "equity"
       },
       {
-        "symbol": "TWST",
-        "name": "Twist Bioscience Corporation",
-        "price": 134.88,
-        "change_24h": -8.96,
+        "symbol": "RKLB",
+        "name": "Rocket Lab Corporation",
+        "price": 50.66,
+        "change_24h": -14.4,
         "asset": "equity"
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "price": 55.61,
-        "change_24h": -9.71,
+        "price": 54.48,
+        "change_24h": -11.55,
         "asset": "equity"
       },
       {
-        "symbol": "NBIS",
-        "name": "Nebius Group N.V.",
-        "price": 169.35,
-        "change_24h": -8.96,
+        "symbol": "IREN",
+        "name": "IREN LIMITED",
+        "price": 26.8,
+        "change_24h": -12.3,
+        "asset": "equity"
+      },
+      {
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "price": 63.37,
+        "change_24h": -11.36,
         "asset": "equity"
       }
     ]
@@ -82,36 +82,36 @@
       {
         "symbol": "XAUT",
         "name": "Tether Gold",
-        "price": 4148.95,
-        "change_24h": 1.22,
+        "price": 4148.83,
+        "change_24h": 1.41,
         "asset": "crypto"
       },
       {
         "symbol": "PAXG",
         "name": "PAX Gold",
-        "price": 4154.07,
-        "change_24h": 1.16,
+        "price": 4151.5,
+        "change_24h": 1.3,
         "asset": "crypto"
       },
       {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1.036,
-        "change_24h": 0.74,
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 22.78,
+        "change_24h": 1.08,
         "asset": "crypto"
       },
       {
         "symbol": "EURSAFO",
         "name": "Spiko Amundi Overnight Swap Fund (EUR)",
         "price": 1.14,
-        "change_24h": 0.71,
+        "change_24h": 0.75,
         "asset": "crypto"
       },
       {
-        "symbol": "BDX",
-        "name": "Beldex",
-        "price": 0.083019,
-        "change_24h": 0.52,
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.035,
+        "change_24h": 0.59,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.007906,
-        "change_24h": -17.15,
+        "price": 0.007911,
+        "change_24h": -16.72,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004282,
-        "change_24h": -13.88,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1100.12,
-        "change_24h": -10.25,
+        "price": 0.004254,
+        "change_24h": -12.37,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.106658,
-        "change_24h": -10.13,
+        "price": 0.105606,
+        "change_24h": -10.03,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1090.57,
+        "change_24h": -9.64,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 7.17,
-        "change_24h": -9.66,
+        "price": 7.1,
+        "change_24h": -9.15,
         "asset": "crypto"
       }
     ]
