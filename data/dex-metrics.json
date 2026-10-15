@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T01:05:19Z",
+  "updated_at": "2026-10-15T02:05:22Z",
   "source": "https://api.llama.fi/overview/dexs",
   "weekly": [
     {
@@ -1258,9 +1258,9 @@
     },
     {
       "week": "2026-W42",
-      "curated": 33778599198.310005,
-      "filtered": 33778599198.310005,
-      "raw": 33778599198.310005
+      "curated": 34089445254.07,
+      "filtered": 34089445254.07,
+      "raw": 34089445254.07
     }
   ],
   "chains": [
@@ -1271,18 +1271,23 @@
     },
     {
       "chain": "Raydium AMM",
-      "volume_24h": 171143143.0,
-      "delta_pct": -3.9
+      "volume_24h": 171261836.0,
+      "delta_pct": -3.83
     },
     {
       "chain": "Curve DEX",
-      "volume_24h": 56795044.0,
-      "delta_pct": -31.82
+      "volume_24h": 55469013.0,
+      "delta_pct": -33.41
     },
     {
       "chain": "PancakeSwap AMM",
       "volume_24h": 41093665.0,
       "delta_pct": 16.54
+    },
+    {
+      "chain": "DODO AMM",
+      "volume_24h": 9317372.0,
+      "delta_pct": 0.0
     },
     {
       "chain": "Quickswap Dex",
@@ -1291,38 +1296,33 @@
     },
     {
       "chain": "SushiSwap",
-      "volume_24h": 614467.0,
-      "delta_pct": -39.52
+      "volume_24h": 608086.0,
+      "delta_pct": -40.15
     },
     {
       "chain": "Bancor V2.1",
-      "volume_24h": 116273.0,
-      "delta_pct": -29.97
+      "volume_24h": 115973.0,
+      "delta_pct": -30.15
     },
     {
       "chain": "Pangolin V2",
-      "volume_24h": 71210.0,
-      "delta_pct": -52.86
+      "volume_24h": 70659.0,
+      "delta_pct": -53.23
     },
     {
       "chain": "Balancer V1",
-      "volume_24h": 65089.0,
-      "delta_pct": 0.46
+      "volume_24h": 65334.0,
+      "delta_pct": 0.84
     },
     {
       "chain": "Defi Swap",
-      "volume_24h": 32432.0,
-      "delta_pct": -88.69
-    },
-    {
-      "chain": "Nerve",
-      "volume_24h": 8998.0,
-      "delta_pct": -66.32
+      "volume_24h": 33858.0,
+      "delta_pct": -88.19
     },
     {
       "chain": "Swapr V2",
-      "volume_24h": 6283.0,
-      "delta_pct": 39.22
+      "volume_24h": 6203.0,
+      "delta_pct": 37.45
     }
   ]
 }
