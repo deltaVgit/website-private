@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T07:00:19Z",
+  "updated_at": "2026-10-15T07:15:20Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,8 +82,8 @@
       {
         "symbol": "PYTH",
         "name": "Pyth Network",
-        "price": 0.085874,
-        "change_24h": 7.78,
+        "price": 0.084894,
+        "change_24h": 5.16,
         "asset": "crypto"
       },
       {
@@ -101,54 +101,54 @@
         "asset": "crypto"
       },
       {
-        "symbol": "USDY",
-        "name": "Ondo US Dollar Yield",
-        "price": 1.15,
-        "change_24h": 0.09,
+        "symbol": "EURSAFO",
+        "name": "Spiko Amundi Overnight Swap Fund (EUR)",
+        "price": 1.14,
+        "change_24h": 0.04,
         "asset": "crypto"
       },
       {
-        "symbol": "USTB",
-        "name": "Invesco Short Duration US Government Securities ",
-        "price": 11.24,
+        "symbol": "EUTBL",
+        "name": "Spiko EU T-Bills Money Market Fund",
+        "price": 1.19,
         "change_24h": 0.04,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004267,
-        "change_24h": -14.46,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1091.34,
-        "change_24h": -12.94,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.107713,
-        "change_24h": -12.31,
+        "price": 1091.85,
+        "change_24h": -12.96,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.183734,
-        "change_24h": -12.13,
+        "price": 0.183132,
+        "change_24h": -12.41,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.107625,
+        "change_24h": -12.22,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 7.17,
+        "change_24h": -11.96,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
         "price": 2.96,
-        "change_24h": -11.75,
+        "change_24h": -11.83,
         "asset": "crypto"
       }
     ]
