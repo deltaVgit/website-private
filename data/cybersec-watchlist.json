@@ -1,11 +1,27 @@
 [
   {
+    "title": "EU Grocers Pay a Steep Price for Unpatched Fridge Firmware",
+    "url": "https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware",
+    "source": "Dark Reading",
+    "summary": "Hundreds of stores lost millions of dollars because they hired third parties to manage the outdated OT firmware running their cooling systems.",
+    "added": "2026-10-15T07:00:00+00:00",
+    "expires": "2026-10-29T07:34:40Z"
+  },
+  {
+    "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+    "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+    "source": "The Hacker News",
+    "summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation. The vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of rem",
+    "added": "2026-10-15T06:17:58+00:00",
+    "expires": "2026-10-29T07:34:40Z"
+  },
+  {
     "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
     "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
     "source": "BleepingComputer",
     "summary": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls. [...]",
     "added": "2026-10-14T22:56:47+00:00",
-    "expires": "2026-10-29T01:04:42Z"
+    "expires": "2026-10-29T07:34:39Z"
   },
   {
     "title": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
@@ -13,7 +29,7 @@
     "source": "Dark Reading",
     "summary": "CVE-2026-104935, a high-severity authentication bypass + RCE vulnerability, was only partially discovered and patched in July, leaving an opening for threat actors to capitalize on.",
     "added": "2026-10-14T21:20:13+00:00",
-    "expires": "2026-10-29T01:04:42Z"
+    "expires": "2026-10-29T07:34:40Z"
   },
   {
     "title": "Yam Store: The Phishing Network Behind a Billion Messages",
@@ -21,7 +37,7 @@
     "source": "Dark Reading",
     "summary": "A sprawling cybercrime marketplace supplied cloud infrastructure and phishing kits that helped fuel more than 1 billion phishing messages worldwide.",
     "added": "2026-10-14T20:57:16+00:00",
-    "expires": "2026-10-29T01:04:42Z"
+    "expires": "2026-10-29T07:34:40Z"
   },
   {
     "title": "Anthropic 'SneakPeek' Flaw Is a Silent Zero-Click Threat",
@@ -29,7 +45,7 @@
     "source": "Dark Reading",
     "summary": "A bug in Claude Code Desktop's preview pane can allow adversaries to quietly steal credentials from developers, including SSH private keys, AWS credentials, and Claude 0Auth tokens.",
     "added": "2026-10-14T20:09:42+00:00",
-    "expires": "2026-10-29T01:04:42Z"
+    "expires": "2026-10-29T07:34:40Z"
   },
   {
     "title": "FBI raids DPRK IT worker laptop farms in Texas, US nationals arrested",
@@ -37,7 +53,7 @@
     "source": "BleepingComputer",
     "summary": "The U.S. Department of Justice (DoJ) has disrupted the Famous Chollima threat group's operations by arresting two suspects, charging 14 individuals, and seizing nearly 187 laptops used in North Korean remote IT worker sc",
     "added": "2026-10-14T19:41:43+00:00",
-    "expires": "2026-10-29T01:04:42Z"
+    "expires": "2026-10-29T07:34:39Z"
   },
   {
     "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
@@ -45,7 +61,7 @@
     "source": "The Hacker News",
     "summary": "Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco said in an advisory on Wednesday. The attacker sends an email",
     "added": "2026-10-14T18:38:56+00:00",
-    "expires": "2026-10-29T01:04:42Z"
+    "expires": "2026-10-29T07:34:40Z"
   },
   {
     "title": "Ledger asks sellers across Asia to halt sales after supply-chain attack",
@@ -53,7 +69,7 @@
     "source": "BleepingComputer",
     "summary": "Ledger has asked resellers and distributors of its wallets in Indonesia, Singapore, Thailand, the Philippines, Vietnam, Malaysia, and Hong Kong to suspend device sales and remove products from shelves while it investigat",
     "added": "2026-10-14T17:46:50+00:00",
-    "expires": "2026-10-29T01:04:42Z"
+    "expires": "2026-10-29T07:34:39Z"
   },
   {
     "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
@@ -61,7 +77,7 @@
     "source": "The Hacker News",
     "summary": "Attackers exploited a flaw in an optional Nextcloud app, Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators reported the issue on GitHub, with the first logged attack ",
     "added": "2026-10-14T17:38:31+00:00",
-    "expires": "2026-10-29T01:04:42Z"
+    "expires": "2026-10-29T07:34:40Z"
   },
   {
     "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
@@ -69,7 +85,7 @@
     "source": "BleepingComputer",
     "summary": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges. [...]",
     "added": "2026-10-14T17:29:14+00:00",
-    "expires": "2026-10-29T01:04:42Z"
+    "expires": "2026-10-29T07:34:39Z"
   },
   {
     "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
@@ -77,15 +93,15 @@
     "source": "The Hacker News",
     "summary": "Microsoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of t",
     "added": "2026-10-14T17:09:15+00:00",
-    "expires": "2026-10-29T01:04:42Z"
+    "expires": "2026-10-29T07:34:40Z"
   },
   {
     "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
     "url": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
     "source": "The Hacker News",
-    "summary": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme. The indictment charges a ",
+    "summary": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers and KVM devices as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme. The indic",
     "added": "2026-10-14T16:34:31+00:00",
-    "expires": "2026-10-29T01:04:42Z"
+    "expires": "2026-10-29T07:34:40Z"
   },
   {
     "title": "Microsoft fixes VPN issues caused by September Windows updates",
@@ -93,7 +109,7 @@
     "source": "BleepingComputer",
     "summary": "Microsoft has resolved a known issue that caused Always On VPN connection issues after installing the September 2026 Windows 11 security updates. [...]",
     "added": "2026-10-14T14:27:01+00:00",
-    "expires": "2026-10-29T01:04:42Z"
+    "expires": "2026-10-29T07:34:39Z"
   },
   {
     "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
@@ -101,7 +117,7 @@
     "source": "Krebs on Security",
     "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud a",
     "added": "2026-10-14T14:22:49+00:00",
-    "expires": "2026-10-29T01:04:42Z"
+    "expires": "2026-10-29T07:34:39Z"
   },
   {
     "title": "Russian Influence Operation Widely Targeting Latin America",
@@ -109,22 +125,6 @@
     "source": "Dark Reading",
     "summary": "The AI-enabled operation used spoofed emails, fake government documents, and the creation of a local organization to target schools in Peru and Ecuador, among other efforts.",
     "added": "2026-10-14T13:00:00+00:00",
-    "expires": "2026-10-29T01:04:42Z"
-  },
-  {
-    "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
-    "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
-    "source": "The Hacker News",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version follo",
-    "added": "2026-10-14T12:30:42+00:00",
-    "expires": "2026-10-29T01:04:42Z"
-  },
-  {
-    "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
-    "url": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking",
-    "source": "Dark Reading",
-    "summary": "Organizations are reporting that employees face threats of stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
-    "added": "2026-10-14T05:00:00+00:00",
-    "expires": "2026-10-29T01:04:42Z"
+    "expires": "2026-10-29T07:34:40Z"
   }
 ]
