@@ -1,11 +1,67 @@
 [
   {
+    "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "summary": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls. [...]",
+    "added": "2026-10-14T22:56:47+00:00",
+    "expires": "2026-10-29T01:04:42Z"
+  },
+  {
+    "title": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
+    "url": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching",
+    "source": "Dark Reading",
+    "summary": "CVE-2026-104935, a high-severity authentication bypass + RCE vulnerability, was only partially discovered and patched in July, leaving an opening for threat actors to capitalize on.",
+    "added": "2026-10-14T21:20:13+00:00",
+    "expires": "2026-10-29T01:04:42Z"
+  },
+  {
+    "title": "Yam Store: The Phishing Network Behind a Billion Messages",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/yam-store-phishing-network-behind-billion-messages",
+    "source": "Dark Reading",
+    "summary": "A sprawling cybercrime marketplace supplied cloud infrastructure and phishing kits that helped fuel more than 1 billion phishing messages worldwide.",
+    "added": "2026-10-14T20:57:16+00:00",
+    "expires": "2026-10-29T01:04:42Z"
+  },
+  {
+    "title": "Anthropic 'SneakPeek' Flaw Is a Silent Zero-Click Threat",
+    "url": "https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat",
+    "source": "Dark Reading",
+    "summary": "A bug in Claude Code Desktop's preview pane can allow adversaries to quietly steal credentials from developers, including SSH private keys, AWS credentials, and Claude 0Auth tokens.",
+    "added": "2026-10-14T20:09:42+00:00",
+    "expires": "2026-10-29T01:04:42Z"
+  },
+  {
+    "title": "FBI raids DPRK IT worker laptop farms in Texas, US nationals arrested",
+    "url": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/",
+    "source": "BleepingComputer",
+    "summary": "The U.S. Department of Justice (DoJ) has disrupted the Famous Chollima threat group's operations by arresting two suspects, charging 14 individuals, and seizing nearly 187 laptops used in North Korean remote IT worker sc",
+    "added": "2026-10-14T19:41:43+00:00",
+    "expires": "2026-10-29T01:04:42Z"
+  },
+  {
+    "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
+    "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
+    "source": "The Hacker News",
+    "summary": "Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco said in an advisory on Wednesday. The attacker sends an email",
+    "added": "2026-10-14T18:38:56+00:00",
+    "expires": "2026-10-29T01:04:42Z"
+  },
+  {
     "title": "Ledger asks sellers across Asia to halt sales after supply-chain attack",
     "url": "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/",
     "source": "BleepingComputer",
     "summary": "Ledger has asked resellers and distributors of its wallets in Indonesia, Singapore, Thailand, the Philippines, Vietnam, Malaysia, and Hong Kong to suspend device sales and remove products from shelves while it investigat",
     "added": "2026-10-14T17:46:50+00:00",
-    "expires": "2026-10-28T18:34:37Z"
+    "expires": "2026-10-29T01:04:42Z"
+  },
+  {
+    "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
+    "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+    "source": "The Hacker News",
+    "summary": "Attackers exploited a flaw in an optional Nextcloud app, Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators reported the issue on GitHub, with the first logged attack ",
+    "added": "2026-10-14T17:38:31+00:00",
+    "expires": "2026-10-29T01:04:42Z"
   },
   {
     "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
@@ -13,7 +69,15 @@
     "source": "BleepingComputer",
     "summary": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges. [...]",
     "added": "2026-10-14T17:29:14+00:00",
-    "expires": "2026-10-28T18:34:37Z"
+    "expires": "2026-10-29T01:04:42Z"
+  },
+  {
+    "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
+    "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
+    "source": "The Hacker News",
+    "summary": "Microsoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of t",
+    "added": "2026-10-14T17:09:15+00:00",
+    "expires": "2026-10-29T01:04:42Z"
   },
   {
     "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
@@ -21,7 +85,7 @@
     "source": "The Hacker News",
     "summary": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme. The indictment charges a ",
     "added": "2026-10-14T16:34:31+00:00",
-    "expires": "2026-10-28T18:34:38Z"
+    "expires": "2026-10-29T01:04:42Z"
   },
   {
     "title": "Microsoft fixes VPN issues caused by September Windows updates",
@@ -29,7 +93,7 @@
     "source": "BleepingComputer",
     "summary": "Microsoft has resolved a known issue that caused Always On VPN connection issues after installing the September 2026 Windows 11 security updates. [...]",
     "added": "2026-10-14T14:27:01+00:00",
-    "expires": "2026-10-28T18:34:37Z"
+    "expires": "2026-10-29T01:04:42Z"
   },
   {
     "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
@@ -37,23 +101,7 @@
     "source": "Krebs on Security",
     "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud a",
     "added": "2026-10-14T14:22:49+00:00",
-    "expires": "2026-10-28T18:34:37Z"
-  },
-  {
-    "title": "The Blind Spots of Agentic Pentesting and How to Close Them",
-    "url": "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/",
-    "source": "BleepingComputer",
-    "summary": "AI-powered penetration testing can uncover complex attack paths, but safety restrictions and network limitations leave many assets and vulnerabilities untested. Picus Security explains how combining agentic pentesting wi",
-    "added": "2026-10-14T14:00:10+00:00",
-    "expires": "2026-10-28T18:34:37Z"
-  },
-  {
-    "title": "Global takedown hits network behind 1 billion phishing messages",
-    "url": "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/",
-    "source": "BleepingComputer",
-    "summary": "A massive cybercriminal ecosystem facilitating more than a billion malicious messages targeting over 75,000 organizations across 150 countries has been disrupted by law enforcement agencies and partners worldwide. [...]",
-    "added": "2026-10-14T13:12:52+00:00",
-    "expires": "2026-10-28T18:34:37Z"
+    "expires": "2026-10-29T01:04:42Z"
   },
   {
     "title": "Russian Influence Operation Widely Targeting Latin America",
@@ -61,7 +109,7 @@
     "source": "Dark Reading",
     "summary": "The AI-enabled operation used spoofed emails, fake government documents, and the creation of a local organization to target schools in Peru and Ecuador, among other efforts.",
     "added": "2026-10-14T13:00:00+00:00",
-    "expires": "2026-10-28T18:34:37Z"
+    "expires": "2026-10-29T01:04:42Z"
   },
   {
     "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
@@ -69,31 +117,7 @@
     "source": "The Hacker News",
     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version follo",
     "added": "2026-10-14T12:30:42+00:00",
-    "expires": "2026-10-28T18:34:38Z"
-  },
-  {
-    "title": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
-    "url": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
-    "source": "The Hacker News",
-    "summary": "A flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client's memory, and the researcher who reported it turned that into code execution on the uploading machine. The curl pro",
-    "added": "2026-10-14T12:13:36+00:00",
-    "expires": "2026-10-28T18:34:38Z"
-  },
-  {
-    "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
-    "url": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
-    "source": "The Hacker News",
-    "summary": "Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake. The ",
-    "added": "2026-10-14T11:50:00+00:00",
-    "expires": "2026-10-28T18:34:38Z"
-  },
-  {
-    "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
-    "url": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
-    "source": "The Hacker News",
-    "summary": "A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said. Its researchers built the attack",
-    "added": "2026-10-14T11:19:02+00:00",
-    "expires": "2026-10-28T18:34:38Z"
+    "expires": "2026-10-29T01:04:42Z"
   },
   {
     "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
@@ -101,30 +125,6 @@
     "source": "Dark Reading",
     "summary": "Organizations are reporting that employees face threats of stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
     "added": "2026-10-14T05:00:00+00:00",
-    "expires": "2026-10-28T18:34:37Z"
-  },
-  {
-    "title": "Microsoft Patches More Than 1,400 Security Flaws",
-    "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
-    "source": "Krebs on Security",
-    "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was alre",
-    "added": "2026-10-13T23:24:53+00:00",
-    "expires": "2026-10-28T18:34:37Z"
-  },
-  {
-    "title": "Zero-Days Lurk in Microsoft's Overgrown October Patch Tuesday",
-    "url": "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday",
-    "source": "Dark Reading",
-    "summary": "The scary surprises in the largest security update ever include security bypasses and unauthenticated RCEs.",
-    "added": "2026-10-13T22:29:57+00:00",
-    "expires": "2026-10-28T18:34:37Z"
-  },
-  {
-    "title": "North Korea Phishes Ukrainians for War Intel",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/north-korea-phishes-ukrainians-war-intel",
-    "source": "Dark Reading",
-    "summary": "The Democratic People's Republic of Korea (DPRK) is trying to get insight into its own war effort in Ukraine, through simple reply-baiting phishing attacks.",
-    "added": "2026-10-13T21:24:45+00:00",
-    "expires": "2026-10-28T18:34:37Z"
+    "expires": "2026-10-29T01:04:42Z"
   }
 ]

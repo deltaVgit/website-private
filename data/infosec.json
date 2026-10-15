@@ -1,6 +1,42 @@
 {
-  "updatedAt": "2026-10-14T18:34:38Z",
+  "updatedAt": "2026-10-15T01:04:42Z",
   "kev": [
+    {
+      "cve": "CVE-2026-105134",
+      "product": "AhsayCBS",
+      "vendor": "Ahsay",
+      "name": "Ahsay AhsayCBS Command Injection Vulnerability",
+      "dateAdded": "2026-10-14",
+      "dueDate": "2026-10-17",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-76519",
+      "product": "Secure Email Gateway",
+      "vendor": "Cisco",
+      "name": "Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
+      "dateAdded": "2026-10-14",
+      "dueDate": "2026-10-17",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-105133",
+      "product": "AhsayCBS",
+      "vendor": "Ahsay",
+      "name": "Ahsay AhsayCBS Improper Authentication Vulnerability",
+      "dateAdded": "2026-10-14",
+      "dueDate": "2026-10-17",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2026-0322",
+      "product": "PAN-OS",
+      "vendor": "Palo Alto Networks",
+      "name": "Palo Alto Networks PAN-OS Code Injection Vulnerability",
+      "dateAdded": "2026-10-14",
+      "dueDate": "2026-10-17",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2026-104935",
       "product": "Connect Secure",
@@ -90,128 +126,92 @@
       "dateAdded": "2026-10-02",
       "dueDate": "2026-10-05",
       "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-104286",
-      "product": "FortiMail",
-      "vendor": "Fortinet",
-      "name": "Fortinet FortiMail Path Traversal Vulnerability",
-      "dateAdded": "2026-10-01",
-      "dueDate": "2026-10-04",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-76504",
-      "product": "Catalyst SD-WAN Manager",
-      "vendor": "Cisco",
-      "name": "Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
-      "dateAdded": "2026-09-30",
-      "dueDate": "2026-10-03",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-86950",
-      "product": "Multiple Products",
-      "vendor": "Apple",
-      "name": "Apple Multiple Products Out-of-Bounds Write Vulnerability",
-      "dateAdded": "2026-09-29",
-      "dueDate": "2026-10-13",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-88772",
-      "product": "NetScaler",
-      "vendor": "Citrix",
-      "name": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
-      "dateAdded": "2026-09-27",
-      "dueDate": "2026-09-30",
-      "knownRansomware": "Unknown"
     }
   ],
   "cves": [
     {
-      "id": "CVE-2026-105135",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "description": "A vulnerability has been found in InternLM MindSearch 0.1.0. This issue affects the function ExecutionAction.run of the file mindsearch/agent/graph.py of the component Planner Agent. The manipulation of the argument inpu",
-      "published": "2026-10-04T07:16:33.693"
-    },
-    {
-      "id": "CVE-2026-105134",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "description": "A flaw has been found in Ahsay AhsayCBS up to 10.3.2. This vulnerability affects unknown code of the file /rps/api/json/UpdateReceivers.do of the component Replication Receiver. Executing a manipulation of the argument r",
-      "published": "2026-10-04T07:16:33.480"
-    },
-    {
-      "id": "CVE-2026-103355",
-      "severity": "CRITICAL",
-      "score": 9.3,
-      "description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Unlimited Elements Unlimited Elements For Elementor (Free Widgets, Addons, Templates) unlimited-elements-for-elementor",
-      "published": "2026-10-04T09:16:38.820"
-    },
-    {
-      "id": "CVE-2026-93549",
+      "id": "CVE-2026-20531",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "The CoCart WordPress plugin before 4.9.7 does not scope its REST API authentication filter to its own endpoints, which disables WordPress core's REST nonce protection for every route, allowing an attacker to perform a cr",
-      "published": "2026-10-04T07:16:34.180"
+      "score": 8.4,
+      "description": "In apu, there is a possible memory corruption due to use after free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. Patch",
+      "published": "2026-10-05T02:16:51.907"
     },
     {
-      "id": "CVE-2026-105123",
+      "id": "CVE-2026-20524",
       "severity": "HIGH",
-      "score": 8.8,
-      "description": "W (vincent-peugnet/wcms) through 3.18.0 contains a remote code execution vulnerability that allows authenticated editors to write arbitrary files by abusing the unvalidated path in POST /api/v0/media/upload/[*:path]. Att",
-      "published": "2026-10-04T00:16:35.703"
+      "score": 8.4,
+      "description": "In apu, there is a possible memory corruption due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploita",
+      "published": "2026-10-05T02:16:51.040"
     },
     {
-      "id": "CVE-2026-97307",
+      "id": "CVE-2026-20523",
       "severity": "HIGH",
-      "score": 7.5,
-      "description": "Insertion of Sensitive Information Into Sent Data vulnerability in StylemixThemes Cost Calculator Builder cost-calculator-builder allows Retrieve Embedded Sensitive Data.This issue affects Cost Calculator Builder: from n",
-      "published": "2026-10-04T11:16:33.073"
+      "score": 8.4,
+      "description": "In neuropilot, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for ex",
+      "published": "2026-10-05T02:16:50.917"
     },
     {
-      "id": "CVE-2026-88779",
+      "id": "CVE-2026-20521",
+      "severity": "HIGH",
+      "score": 8.4,
+      "description": "In Video HAL, there is a possible escalation of privilege due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for",
+      "published": "2026-10-05T02:16:50.660"
+    },
+    {
+      "id": "CVE-2026-105293",
+      "severity": "HIGH",
+      "score": 8.1,
+      "description": "Legcord 1.1.0 through 1.3.0 contains a path traversal vulnerability in theme IPC handlers that allows script in the Discord page to escape the themes directory via unvalidated theme ids. Attackers running script in the D",
+      "published": "2026-10-05T01:16:28.780"
+    },
+    {
+      "id": "CVE-2026-20526",
       "severity": "HIGH",
       "score": 7.5,
-      "description": "Vulnerability in NetScaler ADC and NetScaler Gateway. This issue affects ADC: before 14.1-73.41, before 13.1-64.28, before 14.1-73.41 FIPS, and before 13.1-37.282; Gateway: before 14.1-73.41 and before 13.1-64.28.",
-      "published": "2026-10-04T04:16:43.680"
+      "description": "In Modem, there is a possible out of bounds write due to a missing bounds check. This could lead to remote escalation of privilege, if a UE has connected to a rogue base station controlled by the attacker, with no additi",
+      "published": "2026-10-05T02:16:51.283"
     },
     {
-      "id": "CVE-2026-105158",
+      "id": "CVE-2026-105295",
       "severity": "HIGH",
-      "score": 7.3,
-      "description": "A vulnerability was detected in RainyGao DocSys up to 2.02.85. The impacted element is the function BaseController.createDBForMysql of the file BaseController.java of the component Database Management. The manipulation o",
-      "published": "2026-10-04T15:16:31.150"
+      "score": 7.5,
+      "description": "GitAhead 2.5.0 through 2.7.1 contains an insecure update mechanism that installs downloaded updates without integrity or signature verification and permanently ignores TLS errors after one SSL error dialog. Network attac",
+      "published": "2026-10-05T01:16:29.063"
     },
     {
-      "id": "CVE-2026-105149",
+      "id": "CVE-2026-105294",
       "severity": "HIGH",
-      "score": 7.3,
-      "description": "A security flaw has been discovered in mooSocial up to 3.2.4. This issue affects some unknown processing of the file /stores/all-products. Performing a manipulation of the argument rating results in sql injection. The at",
-      "published": "2026-10-04T13:16:55.923"
+      "score": 7.4,
+      "description": "Legcord 1.1.0 through 1.3.0 contains a configuration injection vulnerability that allows script in the Discord page to write any config key via the window.legcord settings.setConfig bridge. Attackers exploiting a Discord",
+      "published": "2026-10-05T01:16:28.923"
     },
     {
-      "id": "CVE-2026-105148",
+      "id": "CVE-2026-105223",
       "severity": "HIGH",
-      "score": 7.3,
-      "description": "A vulnerability was identified in SciPhi-AI R2R up to 3.6.6. This vulnerability affects unknown code of the file py/shared/abstractions/llm.py of the component Retrieval Completion API Endpoint. Such manipulation of the ",
-      "published": "2026-10-04T13:16:55.733"
+      "score": 7.4,
+      "description": "maclof kubernetes-client 0.17.0 before 0.32.0 disables TLS certificate verification in parseKubeconfig() and parseKubeconfigFile() when a kubeconfig lacks certificate-authority-data, ignoring insecure-skip-tls-verify. On",
+      "published": "2026-10-05T01:16:28.480"
     },
     {
-      "id": "CVE-2026-105147",
+      "id": "CVE-2026-105175",
       "severity": "HIGH",
       "score": 7.3,
-      "description": "A vulnerability was determined in SciPhi-AI R2R up to 3.6.6. This affects an unknown part of the component JWT Secret Handler. This manipulation of the argument DEFAULT_BCRYPT_SECRET_KEY/DEFAULT_NACL_SECRET_KEY causes ha",
-      "published": "2026-10-04T13:16:54.773"
+      "description": "A vulnerability was found in SourceCodester Drug Recommendation System 1.0. This issue affects some unknown processing of the file /Auth/add_student.php of the component Student Registration. The manipulation of the argu",
+      "published": "2026-10-05T01:16:28.190"
     },
     {
-      "id": "CVE-2026-105133",
+      "id": "CVE-2026-105172",
       "severity": "HIGH",
       "score": 7.3,
-      "description": "A vulnerability was detected in Ahsay AhsayCBS up to 10.3.2. This affects the function checkSysPwd of the file com/ahsay/obs/api/ApiStructsAction.java of the component API. Performing a manipulation of the argument rando",
-      "published": "2026-10-04T07:16:33.087"
+      "description": "A vulnerability was detected in itsourcecode Online Admission System 1.0. Affected by this issue is some unknown functionality of the file /login1.php. Performing a manipulation of the argument User results in sql inject",
+      "published": "2026-10-05T01:16:27.157"
+    },
+    {
+      "id": "CVE-2026-105170",
+      "severity": "HIGH",
+      "score": 7.3,
+      "description": "A weakness has been identified in kishor-23 food-waste-management-system 411989e3ecb82895e53dca7865f72145f03d7d93/b3a70b2c492dc9904de5be1ad9389bd79b87f82c. Affected is an unknown function of the file admin/signup.php of ",
+      "published": "2026-10-05T00:16:58.720"
     }
   ],
   "breaches": [
