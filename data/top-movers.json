@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-15T15:00:31Z",
+  "updated_at": "2026-10-15T15:15:28Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
+        "symbol": "BSP",
+        "name": "Bending Spoons S.p.A.",
+        "price": 58.31,
+        "change_24h": 9.07,
+        "asset": "equity"
+      },
+      {
         "symbol": "APPN",
         "name": "Appian Corporation",
-        "price": 42.16,
-        "change_24h": 9.64,
+        "price": 42.14,
+        "change_24h": 9.6,
         "asset": "equity"
       },
       {
-        "symbol": "ERIC",
-        "name": "Ericsson",
-        "price": 10.45,
-        "change_24h": 9.08,
-        "asset": "equity"
-      },
-      {
-        "symbol": "SAH",
-        "name": "Sonic Automotive, Inc.",
-        "price": 65.45,
-        "change_24h": 8.99,
+        "symbol": "KRMN",
+        "name": "Karman Holdings Inc.",
+        "price": 33.04,
+        "change_24h": 9.62,
         "asset": "equity"
       },
       {
         "symbol": "ARQT",
         "name": "Arcutis Biotherapeutics, Inc.",
-        "price": 28.64,
-        "change_24h": 8.43,
+        "price": 28.81,
+        "change_24h": 9.09,
         "asset": "equity"
       },
       {
-        "symbol": "PAG",
-        "name": "Penske Automotive Group, Inc.",
-        "price": 211.16,
-        "change_24h": 8.4,
+        "symbol": "SAH",
+        "name": "Sonic Automotive, Inc.",
+        "price": 65.19,
+        "change_24h": 8.57,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "MAN",
         "name": "ManpowerGroup",
-        "price": 44.28,
-        "change_24h": -14.78,
+        "price": 44.02,
+        "change_24h": -15.27,
         "asset": "equity"
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "price": 216.36,
-        "change_24h": -11.82,
+        "price": 215.29,
+        "change_24h": -12.25,
         "asset": "equity"
       },
       {
         "symbol": "RKLB",
         "name": "Rocket Lab Corporation",
-        "price": 53.22,
-        "change_24h": -10.07,
+        "price": 53.89,
+        "change_24h": -8.94,
         "asset": "equity"
       },
       {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "price": 65.3,
-        "change_24h": -8.66,
+        "symbol": "SEI",
+        "name": "Solaris Energy Infrastructure, ",
+        "price": 63.59,
+        "change_24h": -8.34,
         "asset": "equity"
       },
       {
-        "symbol": "DOCN",
-        "name": "DigitalOcean Holdings, Inc.",
-        "price": 100.2,
-        "change_24h": -8.32,
+        "symbol": "PENG",
+        "name": "Penguin Solutions, Inc.",
+        "price": 62.19,
+        "change_24h": -7.99,
         "asset": "equity"
       }
     ]
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 24.61,
-        "change_24h": 10.17,
+        "symbol": "PYTH",
+        "name": "Pyth Network",
+        "price": 0.091572,
+        "change_24h": 11.94,
         "asset": "crypto"
       },
       {
-        "symbol": "PYTH",
-        "name": "Pyth Network",
-        "price": 0.090514,
-        "change_24h": 8.93,
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 24.69,
+        "change_24h": 10.36,
         "asset": "crypto"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "price": 1.98,
-        "change_24h": 3.05,
+        "price": 2.06,
+        "change_24h": 7.91,
         "asset": "crypto"
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
-        "price": 2.38,
-        "change_24h": 2.81,
+        "price": 2.4,
+        "change_24h": 4.1,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 7.4,
-        "change_24h": 2.79,
+        "price": 7.44,
+        "change_24h": 3.8,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.108976,
+        "change_24h": -7.02,
+        "asset": "crypto"
+      },
+      {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.008554,
-        "change_24h": -8.67,
+        "price": 0.008737,
+        "change_24h": -6.31,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004454,
-        "change_24h": -8.04,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.108943,
-        "change_24h": -7.63,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "STX",
-        "name": "Stacks",
-        "price": 0.404708,
-        "change_24h": -5.19,
+        "price": 0.0045,
+        "change_24h": -5.71,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
         "price": 3.04,
-        "change_24h": -4.97,
+        "change_24h": -4.49,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.133854,
+        "change_24h": -4.19,
         "asset": "crypto"
       }
     ]
