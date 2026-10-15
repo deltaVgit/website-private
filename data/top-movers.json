@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T12:15:21Z",
+  "updated_at": "2026-10-15T12:30:21Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,29 +82,22 @@
       {
         "symbol": "PYTH",
         "name": "Pyth Network",
-        "price": 0.086293,
-        "change_24h": 1.53,
+        "price": 0.087192,
+        "change_24h": 4.11,
         "asset": "crypto"
       },
       {
         "symbol": "BDX",
         "name": "Beldex",
-        "price": 0.083451,
-        "change_24h": 0.97,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLFI",
-        "name": "World Liberty Financial",
-        "price": 0.057283,
-        "change_24h": 0.17,
+        "price": 0.081517,
+        "change_24h": 1.49,
         "asset": "crypto"
       },
       {
         "symbol": "EURSAFO",
         "name": "Spiko Amundi Overnight Swap Fund (EUR)",
         "price": 1.14,
-        "change_24h": 0.13,
+        "change_24h": 0.15,
         "asset": "crypto"
       },
       {
@@ -113,42 +106,49 @@
         "price": 11.24,
         "change_24h": 0.04,
         "asset": "crypto"
+      },
+      {
+        "symbol": "LEO",
+        "name": "LEO Token",
+        "price": 9.04,
+        "change_24h": 0.03,
+        "asset": "crypto"
       }
     ],
     "losers": [
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.008292,
-        "change_24h": -14.66,
+        "price": 0.008289,
+        "change_24h": -14.8,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1089.77,
-        "change_24h": -12.77,
+        "price": 1088.47,
+        "change_24h": -12.69,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
         "price": 2.95,
-        "change_24h": -12.0,
+        "change_24h": -11.57,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.186446,
-        "change_24h": -11.74,
+        "price": 0.187162,
+        "change_24h": -11.42,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.107054,
-        "change_24h": -11.68,
+        "price": 0.107306,
+        "change_24h": -11.29,
         "asset": "crypto"
       }
     ]
