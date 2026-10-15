@@ -1,20 +1,27 @@
 {
-  "updated_at": "2026-10-15T18:00:54Z",
+  "updated_at": "2026-10-15T18:16:00Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "RGC",
         "name": "Regencell Bioscience Holdings L",
-        "price": 10.58,
-        "change_24h": 30.44,
+        "price": 10.6,
+        "change_24h": 30.7,
         "asset": "equity"
       },
       {
         "symbol": "APPN",
         "name": "Appian Corporation",
-        "price": 42.45,
-        "change_24h": 10.41,
+        "price": 42.39,
+        "change_24h": 10.24,
+        "asset": "equity"
+      },
+      {
+        "symbol": "ERIC",
+        "name": "Ericsson",
+        "price": 10.55,
+        "change_24h": 10.18,
         "asset": "equity"
       },
       {
@@ -25,54 +32,47 @@
         "asset": "equity"
       },
       {
-        "symbol": "ERIC",
-        "name": "Ericsson",
-        "price": 10.56,
-        "change_24h": 10.23,
-        "asset": "equity"
-      },
-      {
         "symbol": "ZG",
         "name": "Zillow Group, Inc.",
-        "price": 32.2,
-        "change_24h": 10.01,
+        "price": 32.17,
+        "change_24h": 9.93,
         "asset": "equity"
       }
     ],
     "losers": [
       {
+        "symbol": "MAN",
+        "name": "ManpowerGroup",
+        "price": 43.53,
+        "change_24h": -16.21,
+        "asset": "equity"
+      },
+      {
         "symbol": "SMTC",
         "name": "Semtech Corporation",
-        "price": 136.93,
-        "change_24h": -14.56,
+        "price": 138.44,
+        "change_24h": -13.61,
         "asset": "equity"
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "price": 214.01,
-        "change_24h": -12.77,
+        "price": 211.83,
+        "change_24h": -13.66,
         "asset": "equity"
       },
       {
         "symbol": "PENG",
         "name": "Penguin Solutions, Inc.",
-        "price": 60.12,
-        "change_24h": -11.06,
+        "price": 59.65,
+        "change_24h": -11.75,
         "asset": "equity"
       },
       {
         "symbol": "RKLB",
         "name": "Rocket Lab Corporation",
-        "price": 53.44,
-        "change_24h": -9.7,
-        "asset": "equity"
-      },
-      {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "price": 55.75,
-        "change_24h": -9.48,
+        "price": 53.3,
+        "change_24h": -9.94,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 2.09,
-        "change_24h": 10.96,
+        "symbol": "PYTH",
+        "name": "Pyth Network",
+        "price": 0.092457,
+        "change_24h": 13.24,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 24.99,
-        "change_24h": 10.55,
+        "price": 25.23,
+        "change_24h": 11.03,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.26,
-        "change_24h": 9.03,
+        "price": 5.28,
+        "change_24h": 9.55,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 2.08,
+        "change_24h": 9.4,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 8.23,
-        "change_24h": 6.97,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1225.05,
-        "change_24h": 5.85,
+        "price": 8.3,
+        "change_24h": 7.65,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.88,
-        "change_24h": -11.3,
+        "price": 1.91,
+        "change_24h": -10.67,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.108082,
-        "change_24h": -7.74,
+        "price": 0.107458,
+        "change_24h": -8.46,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.13409,
-        "change_24h": -4.93,
+        "price": 0.13418,
+        "change_24h": -5.08,
         "asset": "crypto"
       },
       {
         "symbol": "NIGHT",
         "name": "Midnight",
-        "price": 0.042443,
-        "change_24h": -4.0,
+        "price": 0.042168,
+        "change_24h": -4.92,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004563,
-        "change_24h": -3.66,
+        "symbol": "STX",
+        "name": "Stacks",
+        "price": 0.399803,
+        "change_24h": -4.59,
         "asset": "crypto"
       }
     ]
