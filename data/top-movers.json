@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-15T19:45:53Z",
+  "updated_at": "2026-10-15T20:00:54Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "RGC",
         "name": "Regencell Bioscience Holdings L",
-        "price": 9.79,
-        "change_24h": 20.72,
+        "price": 9.52,
+        "change_24h": 17.39,
         "asset": "equity"
       },
       {
         "symbol": "APPN",
         "name": "Appian Corporation",
-        "price": 43.24,
-        "change_24h": 12.47,
+        "price": 43.82,
+        "change_24h": 13.97,
         "asset": "equity"
       },
       {
         "symbol": "KRMN",
         "name": "Karman Holdings Inc.",
-        "price": 33.91,
-        "change_24h": 12.49,
-        "asset": "equity"
-      },
-      {
-        "symbol": "KD",
-        "name": "Kyndryl Holdings, Inc.",
-        "price": 13.14,
-        "change_24h": 11.49,
+        "price": 33.9,
+        "change_24h": 12.48,
         "asset": "equity"
       },
       {
         "symbol": "ERIC",
         "name": "Ericsson",
-        "price": 10.65,
-        "change_24h": 11.22,
+        "price": 10.71,
+        "change_24h": 11.8,
+        "asset": "equity"
+      },
+      {
+        "symbol": "KD",
+        "name": "Kyndryl Holdings, Inc.",
+        "price": 13.21,
+        "change_24h": 12.0,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "MAN",
         "name": "ManpowerGroup",
-        "price": 43.69,
-        "change_24h": -15.92,
+        "price": 43.74,
+        "change_24h": -15.82,
         "asset": "equity"
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "price": 217.14,
-        "change_24h": -11.5,
-        "asset": "equity"
-      },
-      {
-        "symbol": "PENG",
-        "name": "Penguin Solutions, Inc.",
-        "price": 61.38,
-        "change_24h": -9.2,
+        "price": 219.92,
+        "change_24h": -10.36,
         "asset": "equity"
       },
       {
         "symbol": "SMTC",
         "name": "Semtech Corporation",
-        "price": 145.38,
-        "change_24h": -9.28,
+        "price": 144.21,
+        "change_24h": -10.01,
         "asset": "equity"
       },
       {
-        "symbol": "DELL",
-        "name": "Dell Technologies Inc.",
-        "price": 465.55,
-        "change_24h": -8.34,
+        "symbol": "PENG",
+        "name": "Penguin Solutions, Inc.",
+        "price": 61.86,
+        "change_24h": -8.48,
+        "asset": "equity"
+      },
+      {
+        "symbol": "LBRT",
+        "name": "Liberty Energy Inc.",
+        "price": 16.7,
+        "change_24h": -7.35,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "PYTH",
+        "name": "Pyth Network",
+        "price": 0.094983,
+        "change_24h": 14.73,
+        "asset": "crypto"
+      },
+      {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 5.41,
-        "change_24h": 13.48,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZRO",
-        "name": "LayerZero",
-        "price": 2.11,
-        "change_24h": 11.17,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 25.3,
-        "change_24h": 10.27,
+        "change_24h": 12.72,
         "asset": "crypto"
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 8.47,
-        "change_24h": 10.24,
+        "price": 8.45,
+        "change_24h": 9.98,
         "asset": "crypto"
       },
       {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.677813,
-        "change_24h": 8.3,
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 2.09,
+        "change_24h": 9.85,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 25.05,
+        "change_24h": 8.6,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.9,
-        "change_24h": -11.88,
+        "price": 1.92,
+        "change_24h": -11.85,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.107778,
-        "change_24h": -7.32,
+        "price": 0.107501,
+        "change_24h": -7.71,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PRL",
+        "name": "Pearl",
+        "price": 1.88,
+        "change_24h": -6.32,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.13308,
-        "change_24h": -5.61,
+        "price": 0.132979,
+        "change_24h": -5.73,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.404683,
-        "change_24h": -4.63,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "OKB",
-        "name": "OKB",
-        "price": 117.87,
-        "change_24h": -3.57,
+        "price": 0.405482,
+        "change_24h": -4.9,
         "asset": "crypto"
       }
     ]
