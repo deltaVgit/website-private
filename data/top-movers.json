@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T08:30:21Z",
+  "updated_at": "2026-10-15T08:45:20Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.02924,
-        "change_24h": 13.8,
-        "asset": "crypto"
-      },
-      {
         "symbol": "PYTH",
         "name": "Pyth Network",
-        "price": 0.08745,
-        "change_24h": 5.92,
+        "price": 0.087699,
+        "change_24h": 7.63,
         "asset": "crypto"
       },
       {
         "symbol": "LEO",
         "name": "LEO Token",
         "price": 9.03,
-        "change_24h": 0.24,
+        "change_24h": 0.79,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BDX",
+        "name": "Beldex",
+        "price": 0.083976,
+        "change_24h": 0.46,
         "asset": "crypto"
       },
       {
         "symbol": "EURSAFO",
         "name": "Spiko Amundi Overnight Swap Fund (EUR)",
         "price": 1.14,
-        "change_24h": 0.15,
+        "change_24h": 0.19,
         "asset": "crypto"
       },
       {
         "symbol": "OUSD",
         "name": "Open USD",
-        "price": 0.998955,
-        "change_24h": 0.12,
+        "price": 0.998867,
+        "change_24h": 0.15,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004306,
-        "change_24h": -14.4,
+        "price": 0.004322,
+        "change_24h": -13.51,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.107006,
-        "change_24h": -12.47,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1105.23,
-        "change_24h": -11.81,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.186015,
-        "change_24h": -11.69,
+        "price": 0.106516,
+        "change_24h": -12.61,
         "asset": "crypto"
       },
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.008664,
-        "change_24h": -11.44,
+        "price": 0.008673,
+        "change_24h": -11.08,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1105.64,
+        "change_24h": -10.7,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.187099,
+        "change_24h": -10.6,
         "asset": "crypto"
       }
     ]
