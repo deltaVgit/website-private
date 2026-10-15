@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T10:45:20Z",
+  "updated_at": "2026-10-15T11:00:26Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,22 +82,29 @@
       {
         "symbol": "PYTH",
         "name": "Pyth Network",
-        "price": 0.086026,
-        "change_24h": 4.83,
+        "price": 0.08631,
+        "change_24h": 5.3,
         "asset": "crypto"
       },
       {
         "symbol": "BDX",
         "name": "Beldex",
-        "price": 0.084426,
-        "change_24h": 1.23,
+        "price": 0.084504,
+        "change_24h": 0.91,
         "asset": "crypto"
       },
       {
         "symbol": "PAXG",
         "name": "PAX Gold",
-        "price": 4151.54,
-        "change_24h": 0.22,
+        "price": 4152.54,
+        "change_24h": 0.26,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "XAUT",
+        "name": "Tether Gold",
+        "price": 4148.34,
+        "change_24h": 0.2,
         "asset": "crypto"
       },
       {
@@ -106,49 +113,42 @@
         "price": 1.14,
         "change_24h": 0.18,
         "asset": "crypto"
-      },
-      {
-        "symbol": "OUSD",
-        "name": "Open USD",
-        "price": 0.99805,
-        "change_24h": 0.15,
-        "asset": "crypto"
       }
     ],
     "losers": [
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.008516,
-        "change_24h": -12.81,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.10579,
-        "change_24h": -12.77,
+        "price": 0.008515,
+        "change_24h": -12.99,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1087.06,
-        "change_24h": -12.2,
+        "price": 1087.72,
+        "change_24h": -12.6,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.106427,
+        "change_24h": -12.14,
         "asset": "crypto"
       },
       {
         "symbol": "ENA",
         "name": "Ethena",
-        "price": 0.18476,
-        "change_24h": -12.19,
+        "price": 0.184757,
+        "change_24h": -12.09,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
         "price": 2.94,
-        "change_24h": -11.91,
+        "change_24h": -11.85,
         "asset": "crypto"
       }
     ]
