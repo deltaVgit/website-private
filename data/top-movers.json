@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-15T15:15:28Z",
+  "updated_at": "2026-10-15T15:30:22Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "BSP",
-        "name": "Bending Spoons S.p.A.",
-        "price": 58.31,
-        "change_24h": 9.07,
-        "asset": "equity"
-      },
-      {
         "symbol": "APPN",
         "name": "Appian Corporation",
-        "price": 42.14,
-        "change_24h": 9.6,
+        "price": 42.57,
+        "change_24h": 10.72,
         "asset": "equity"
       },
       {
         "symbol": "KRMN",
         "name": "Karman Holdings Inc.",
-        "price": 33.04,
-        "change_24h": 9.62,
+        "price": 33.21,
+        "change_24h": 10.19,
         "asset": "equity"
       },
       {
-        "symbol": "ARQT",
-        "name": "Arcutis Biotherapeutics, Inc.",
-        "price": 28.81,
-        "change_24h": 9.09,
+        "symbol": "MAAS",
+        "name": "Maase Inc.",
+        "price": 13.03,
+        "change_24h": 9.32,
         "asset": "equity"
       },
       {
         "symbol": "SAH",
         "name": "Sonic Automotive, Inc.",
         "price": 65.19,
-        "change_24h": 8.57,
+        "change_24h": 8.56,
+        "asset": "equity"
+      },
+      {
+        "symbol": "ERIC",
+        "name": "Ericsson",
+        "price": 10.38,
+        "change_24h": 8.3,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "MAN",
         "name": "ManpowerGroup",
-        "price": 44.02,
-        "change_24h": -15.27,
+        "price": 43.99,
+        "change_24h": -15.34,
         "asset": "equity"
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "price": 215.29,
-        "change_24h": -12.25,
+        "price": 214.03,
+        "change_24h": -12.76,
         "asset": "equity"
       },
       {
         "symbol": "RKLB",
         "name": "Rocket Lab Corporation",
-        "price": 53.89,
-        "change_24h": -8.94,
-        "asset": "equity"
-      },
-      {
-        "symbol": "SEI",
-        "name": "Solaris Energy Infrastructure, ",
-        "price": 63.59,
-        "change_24h": -8.34,
+        "price": 53.29,
+        "change_24h": -9.95,
         "asset": "equity"
       },
       {
         "symbol": "PENG",
         "name": "Penguin Solutions, Inc.",
-        "price": 62.19,
-        "change_24h": -7.99,
+        "price": 61.35,
+        "change_24h": -9.23,
+        "asset": "equity"
+      },
+      {
+        "symbol": "IREN",
+        "name": "IREN LIMITED",
+        "price": 27.96,
+        "change_24h": -8.51,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "PYTH",
-        "name": "Pyth Network",
-        "price": 0.091572,
-        "change_24h": 11.94,
+        "symbol": "STRK",
+        "name": "Starknet",
+        "price": 0.086571,
+        "change_24h": 10.32,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 24.69,
-        "change_24h": 10.36,
+        "price": 24.73,
+        "change_24h": 9.3,
         "asset": "crypto"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "price": 2.06,
-        "change_24h": 7.91,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "price": 2.4,
-        "change_24h": 4.1,
+        "price": 2.08,
+        "change_24h": 8.39,
         "asset": "crypto"
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
-        "price": 7.44,
-        "change_24h": 3.8,
+        "price": 7.5,
+        "change_24h": 3.65,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price": 2.41,
+        "change_24h": 2.89,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.108976,
-        "change_24h": -7.02,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.008737,
-        "change_24h": -6.31,
+        "price": 0.108932,
+        "change_24h": -7.22,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.0045,
-        "change_24h": -5.71,
+        "price": 0.004482,
+        "change_24h": -6.54,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.04,
-        "change_24h": -4.49,
+        "price": 3.03,
+        "change_24h": -5.86,
         "asset": "crypto"
       },
       {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.133854,
-        "change_24h": -4.19,
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price": 0.008825,
+        "change_24h": -4.94,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "OKB",
+        "name": "OKB",
+        "price": 117.91,
+        "change_24h": -4.68,
         "asset": "crypto"
       }
     ]
