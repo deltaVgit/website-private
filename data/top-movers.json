@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-15T17:15:53Z",
+  "updated_at": "2026-10-15T17:30:54Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "RGC",
         "name": "Regencell Bioscience Holdings L",
-        "price": 10.92,
-        "change_24h": 34.67,
-        "asset": "equity"
-      },
-      {
-        "symbol": "KRMN",
-        "name": "Karman Holdings Inc.",
-        "price": 33.48,
-        "change_24h": 11.08,
+        "price": 9.9901,
+        "change_24h": 23.17,
         "asset": "equity"
       },
       {
         "symbol": "APPN",
         "name": "Appian Corporation",
-        "price": 42.76,
-        "change_24h": 11.21,
+        "price": 42.6,
+        "change_24h": 10.81,
         "asset": "equity"
       },
       {
-        "symbol": "Z",
-        "name": "Zillow Group, Inc.",
-        "price": 30.85,
-        "change_24h": 8.9,
+        "symbol": "KRMN",
+        "name": "Karman Holdings Inc.",
+        "price": 33.18,
+        "change_24h": 10.09,
         "asset": "equity"
       },
       {
         "symbol": "ZG",
         "name": "Zillow Group, Inc.",
-        "price": 31.87,
-        "change_24h": 8.88,
+        "price": 32.02,
+        "change_24h": 9.4,
+        "asset": "equity"
+      },
+      {
+        "symbol": "ERIC",
+        "name": "Ericsson",
+        "price": 10.48,
+        "change_24h": 9.45,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "price": 211.14,
-        "change_24h": -13.94,
-        "asset": "equity"
-      },
-      {
-        "symbol": "SMTC",
-        "name": "Semtech Corporation",
-        "price": 141.87,
-        "change_24h": -11.48,
+        "price": 212.22,
+        "change_24h": -13.49,
         "asset": "equity"
       },
       {
         "symbol": "PENG",
         "name": "Penguin Solutions, Inc.",
-        "price": 60.13,
-        "change_24h": -11.04,
+        "price": 60.09,
+        "change_24h": -11.1,
+        "asset": "equity"
+      },
+      {
+        "symbol": "SMTC",
+        "name": "Semtech Corporation",
+        "price": 143.54,
+        "change_24h": -10.43,
         "asset": "equity"
       },
       {
         "symbol": "RKLB",
         "name": "Rocket Lab Corporation",
-        "price": 52.79,
-        "change_24h": -10.8,
+        "price": 53.0,
+        "change_24h": -10.44,
         "asset": "equity"
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, ",
-        "price": 62.24,
-        "change_24h": -10.27,
+        "price": 62.13,
+        "change_24h": -10.44,
         "asset": "equity"
       }
     ]
@@ -82,73 +82,73 @@
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 25.09,
-        "change_24h": 9.11,
+        "price": 25.03,
+        "change_24h": 9.52,
         "asset": "crypto"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "price": 2.07,
-        "change_24h": 6.33,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "INJ",
-        "name": "Injective",
-        "price": 8.14,
-        "change_24h": 5.44,
+        "price": 2.1,
+        "change_24h": 9.37,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "price": 5.15,
-        "change_24h": 5.35,
+        "change_24h": 6.79,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1212.35,
-        "change_24h": 4.01,
+        "price": 1223.78,
+        "change_24h": 5.64,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 8.1,
+        "change_24h": 5.32,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.88,
-        "change_24h": -13.36,
-        "asset": "crypto"
-      },
-      {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.108793,
-        "change_24h": -8.66,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.00451,
-        "change_24h": -5.49,
+        "price": 0.10839,
+        "change_24h": -8.6,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.133968,
-        "change_24h": -5.24,
+        "price": 0.133981,
+        "change_24h": -5.14,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.004509,
+        "change_24h": -4.87,
         "asset": "crypto"
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
-        "price": 3.08,
-        "change_24h": -5.13,
+        "price": 3.07,
+        "change_24h": -4.52,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price": 0.04237,
+        "change_24h": -4.02,
         "asset": "crypto"
       }
     ]
