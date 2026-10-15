@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T06:30:22Z",
+  "updated_at": "2026-10-15T06:45:20Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,29 +82,22 @@
       {
         "symbol": "PYTH",
         "name": "Pyth Network",
-        "price": 0.086594,
-        "change_24h": 7.52,
+        "price": 0.086875,
+        "change_24h": 8.99,
         "asset": "crypto"
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
         "price": 1.039,
-        "change_24h": 1.32,
+        "change_24h": 1.3,
         "asset": "crypto"
       },
       {
         "symbol": "LEO",
         "name": "LEO Token",
         "price": 9.03,
-        "change_24h": 0.24,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "USDY",
-        "name": "Ondo US Dollar Yield",
-        "price": 1.15,
-        "change_24h": 0.06,
+        "change_24h": 0.23,
         "asset": "crypto"
       },
       {
@@ -113,42 +106,49 @@
         "price": 11.24,
         "change_24h": 0.04,
         "asset": "crypto"
+      },
+      {
+        "symbol": "OUSD",
+        "name": "Open USD",
+        "price": 0.997785,
+        "change_24h": 0.02,
+        "asset": "crypto"
       }
     ],
     "losers": [
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004308,
-        "change_24h": -13.86,
+        "price": 0.004267,
+        "change_24h": -14.68,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1087.32,
-        "change_24h": -12.99,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ENA",
-        "name": "Ethena",
-        "price": 0.184607,
-        "change_24h": -12.01,
+        "price": 1087.22,
+        "change_24h": -13.23,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.108373,
-        "change_24h": -11.88,
+        "price": 0.108144,
+        "change_24h": -12.23,
         "asset": "crypto"
       },
       {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 1.034,
-        "change_24h": -11.63,
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price": 0.185069,
+        "change_24h": -11.56,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price": 2.98,
+        "change_24h": -11.17,
         "asset": "crypto"
       }
     ]
