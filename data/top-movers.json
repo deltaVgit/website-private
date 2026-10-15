@@ -1,78 +1,78 @@
 {
-  "updated_at": "2026-10-15T13:30:23Z",
+  "updated_at": "2026-10-15T13:45:21Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
-        "symbol": "BSP",
-        "name": "Bending Spoons S.p.A.",
-        "price": 52.01,
-        "change_24h": -2.71,
+        "symbol": "ERIC",
+        "name": "Ericsson",
+        "price": 10.46,
+        "change_24h": 9.24,
         "asset": "equity"
       },
       {
-        "symbol": "LQDA",
-        "name": "Liquidia Corporation",
-        "price": 35.14,
-        "change_24h": 3.54,
+        "symbol": "SAH",
+        "name": "Sonic Automotive, Inc.",
+        "price": 66.26,
+        "change_24h": 10.38,
         "asset": "equity"
       },
       {
-        "symbol": "DAO",
-        "name": "Youdao, Inc.",
-        "price": 19.5,
-        "change_24h": 7.62,
+        "symbol": "PAG",
+        "name": "Penske Automotive Group, Inc.",
+        "price": 211.35,
+        "change_24h": 8.49,
         "asset": "equity"
       },
       {
-        "symbol": "NRIX",
-        "name": "Nurix Therapeutics, Inc.",
-        "price": 23.67,
-        "change_24h": 6.96,
+        "symbol": "ABG",
+        "name": "Asbury Automotive Group Inc",
+        "price": 173.01,
+        "change_24h": 6.94,
         "asset": "equity"
       },
       {
-        "symbol": "HALO",
-        "name": "Halozyme Therapeutics, Inc.",
-        "price": 116.82,
-        "change_24h": 6.57,
+        "symbol": "LAD",
+        "name": "Lithia Motors, Inc.",
+        "price": 300.32,
+        "change_24h": 6.75,
         "asset": "equity"
       }
     ],
     "losers": [
       {
-        "symbol": "SKYD",
-        "name": "Skydance Corporation",
-        "price": 7.06,
-        "change_24h": 0.0,
+        "symbol": "RKLB",
+        "name": "Rocket Lab Corporation",
+        "price": 51.29,
+        "change_24h": -13.33,
         "asset": "equity"
       },
       {
-        "symbol": "CRWV",
-        "name": "CoreWeave, Inc.",
-        "price": 61.38,
-        "change_24h": -6.69,
+        "symbol": "MAN",
+        "name": "ManpowerGroup",
+        "price": 44.85,
+        "change_24h": -13.7,
         "asset": "equity"
       },
       {
-        "symbol": "DOCN",
-        "name": "DigitalOcean Holdings, Inc.",
-        "price": 101.12,
-        "change_24h": -7.37,
+        "symbol": "TWST",
+        "name": "Twist Bioscience Corporation",
+        "price": 134.88,
+        "change_24h": -8.96,
         "asset": "equity"
       },
       {
-        "symbol": "PENG",
-        "name": "Penguin Solutions, Inc.",
-        "price": 63.85,
-        "change_24h": -5.53,
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "price": 55.61,
+        "change_24h": -9.71,
         "asset": "equity"
       },
       {
-        "symbol": "WULF",
-        "name": "TeraWulf Inc.",
-        "price": 10.98,
-        "change_24h": -4.85,
+        "symbol": "NBIS",
+        "name": "Nebius Group N.V.",
+        "price": 169.35,
+        "change_24h": -8.96,
         "asset": "equity"
       }
     ]
@@ -82,29 +82,15 @@
       {
         "symbol": "XAUT",
         "name": "Tether Gold",
-        "price": 4147.73,
-        "change_24h": 1.37,
+        "price": 4148.95,
+        "change_24h": 1.22,
         "asset": "crypto"
       },
       {
         "symbol": "PAXG",
         "name": "PAX Gold",
-        "price": 4152.97,
-        "change_24h": 1.33,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "EURSAFO",
-        "name": "Spiko Amundi Overnight Swap Fund (EUR)",
-        "price": 1.14,
-        "change_24h": 0.85,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "EUTBL",
-        "name": "Spiko EU T-Bills Money Market Fund",
-        "price": 1.19,
-        "change_24h": 0.85,
+        "price": 4154.07,
+        "change_24h": 1.16,
         "asset": "crypto"
       },
       {
@@ -113,42 +99,56 @@
         "price": 1.036,
         "change_24h": 0.74,
         "asset": "crypto"
+      },
+      {
+        "symbol": "EURSAFO",
+        "name": "Spiko Amundi Overnight Swap Fund (EUR)",
+        "price": 1.14,
+        "change_24h": 0.71,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BDX",
+        "name": "Beldex",
+        "price": 0.083019,
+        "change_24h": 0.52,
+        "asset": "crypto"
       }
     ],
     "losers": [
       {
         "symbol": "RAIN",
         "name": "Rain",
-        "price": 0.007996,
-        "change_24h": -16.0,
+        "price": 0.007906,
+        "change_24h": -17.15,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004249,
-        "change_24h": -13.05,
+        "price": 0.004282,
+        "change_24h": -13.88,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1091.99,
-        "change_24h": -10.38,
+        "price": 1100.12,
+        "change_24h": -10.25,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.106693,
-        "change_24h": -9.73,
+        "price": 0.106658,
+        "change_24h": -10.13,
         "asset": "crypto"
       },
       {
-        "symbol": "ALGO",
-        "name": "Algorand",
-        "price": 0.10857,
-        "change_24h": -8.81,
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 7.17,
+        "change_24h": -9.66,
         "asset": "crypto"
       }
     ]
