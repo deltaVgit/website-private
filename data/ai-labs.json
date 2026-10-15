@@ -1,6 +1,30 @@
 {
-  "updated": "2026-10-15T07:34:33Z",
+  "updated": "2026-10-15T14:04:33Z",
   "items": [
+    {
+      "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+      "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+      "source": "Simon Willison",
+      "published_at": "2026-10-15T13:04:03+00:00",
+      "summary": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO The phrase \"told investors\" appears four times in this FT article, which reports on Anthropic's day of hosting investors on Wednesday. Lots of details in here from \" people with knowledge of the mat",
+      "tag": "ai"
+    },
+    {
+      "title": "Teaching students to think and learn through questions",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "source": "OpenAI",
+      "published_at": "2026-10-15T13:00:00+00:00",
+      "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "tag": "ai"
+    },
+    {
+      "title": "Apertus 1.5 Release Notes",
+      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "source": "Hugging Face Blog",
+      "published_at": "2026-10-15T09:08:45+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
     {
       "title": "Following the Flow the Law Requires: Training Voice Agents to Transfer to Unseen Regulated Procedures in Debt Collection",
       "url": "https://arxiv.org/abs/2610.18881",
@@ -82,19 +106,11 @@
       "tag": "ai"
     },
     {
-      "title": "How Block is building AI-powered security with OpenAI technology",
-      "url": "https://openai.com/index/block-ai-powered-security",
-      "source": "OpenAI",
-      "published_at": "2026-10-14T07:00:00+00:00",
-      "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-      "tag": "ai"
-    },
-    {
-      "title": "Redesigning source control at Anthropic",
-      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-      "source": "Simon Willison",
-      "published_at": "2026-10-13T23:00:06+00:00",
-      "summary": "Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 ",
+      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "source": "Google DeepMind",
+      "published_at": "2026-10-14T02:00:14+00:00",
+      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
       "tag": "ai"
     },
     {
@@ -106,10 +122,34 @@
       "tag": "ai"
     },
     {
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "source": "Google DeepMind",
+      "published_at": "2026-10-13T19:43:07+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
       "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
       "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
       "source": "Hugging Face Blog",
       "published_at": "2026-10-13T17:05:48+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
+      "title": "Gemini 4 Argon for Robotics",
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "source": "Google DeepMind",
+      "published_at": "2026-10-13T16:01:58+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+      "source": "Google DeepMind",
+      "published_at": "2026-10-13T16:01:52+00:00",
       "summary": "",
       "tag": "ai"
     },
@@ -119,14 +159,6 @@
       "source": "Meta Engineering",
       "published_at": "2026-10-13T16:01:00+00:00",
       "summary": "Last year, we introduced GEM, the industry’s largest recommendation system (RecSys) foundation model. GEM established Meta’s first LLM-inspired paradigm for ads recommendation, driving major performance gains. Building on this foundation, our next goal is to further scale both co",
-      "tag": "ai"
-    },
-    {
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "source": "Google AI Blog",
-      "published_at": "2026-10-13T16:00:00+00:00",
-      "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
       "tag": "ai"
     },
     {
@@ -198,14 +230,6 @@
       "url": "https://huggingface.co/blog/building-with-ml-intern",
       "source": "Hugging Face Blog",
       "published_at": "2026-10-08T00:00:00+00:00",
-      "summary": "",
-      "tag": "ai"
-    },
-    {
-      "title": "Introducing Falcon ASR",
-      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
-      "source": "Hugging Face Blog",
-      "published_at": "2026-10-07T13:21:03+00:00",
       "summary": "",
       "tag": "ai"
     },
@@ -295,14 +319,6 @@
       "source": "Qwen (Alibaba)",
       "published_at": "2025-08-04T14:08:30+00:00",
       "summary": "GITHUB HUGGING FACE MODELSCOPE DEMO DISCORD We are thrilled to release Qwen-Image, a 20B MMDiT image foundation model that achieves significant advances in complex text rendering and precise image editing. To try the latest model, feel free to visit Qwen Chat and choose “Image Ge",
-      "tag": "ai"
-    },
-    {
-      "title": "GSPO: Towards Scalable Reinforcement Learning for Language Models",
-      "url": "https://qwenlm.github.io/blog/gspo/",
-      "source": "Qwen (Alibaba)",
-      "published_at": "2025-07-27T07:00:00+00:00",
-      "summary": "PAPER DISCORD Introduction Reinforcement Learning (RL) has emerged as a pivotal paradigm for scaling language models and enhancing their deep reasoning and problem-solving capabilities. To scale RL, the foremost prerequisite is maintaining stable and robust training dynamics. How",
       "tag": "ai"
     }
   ],
