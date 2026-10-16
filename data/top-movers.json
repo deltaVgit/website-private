@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T05:45:53Z",
+  "updated_at": "2026-10-16T06:00:53Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 5.22,
-        "change_24h": 12.25,
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.685954,
+        "change_24h": 13.43,
         "asset": "crypto"
       },
       {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.680426,
-        "change_24h": 11.52,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.22,
+        "change_24h": 13.15,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.195609,
+        "change_24h": 12.91,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1222.43,
+        "change_24h": 12.39,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
         "price": 1.15,
-        "change_24h": 11.1,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1220.1,
-        "change_24h": 11.02,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.009714,
-        "change_24h": 11.0,
+        "change_24h": 12.21,
         "asset": "crypto"
       }
     ],
@@ -120,35 +120,35 @@
         "symbol": "BTW",
         "name": "Bitway",
         "price": 2.04,
-        "change_24h": -5.53,
+        "change_24h": -3.38,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.402769,
-        "change_24h": -3.77,
+        "price": 0.403001,
+        "change_24h": -3.26,
         "asset": "crypto"
       },
       {
         "symbol": "JST",
         "name": "JUST",
-        "price": 0.134401,
-        "change_24h": -2.48,
+        "price": 0.135086,
+        "change_24h": -1.79,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.105971,
-        "change_24h": -2.23,
+        "price": 0.106413,
+        "change_24h": -1.39,
         "asset": "crypto"
       },
       {
-        "symbol": "M",
-        "name": "MemeCore",
-        "price": 0.794985,
-        "change_24h": -1.1,
+        "symbol": "FIGR_HELOC",
+        "name": "Figure Heloc",
+        "price": 1.031,
+        "change_24h": -0.8,
         "asset": "crypto"
       }
     ]
