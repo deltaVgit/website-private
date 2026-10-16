@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T08:00:54Z",
+  "updated_at": "2026-10-16T08:15:53Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,61 +80,61 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.9665,
-        "change_24h": 14.8,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.695423,
-        "change_24h": 13.76,
+        "price": 0.696811,
+        "change_24h": 14.45,
         "asset": "crypto"
       },
       {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.19667,
-        "change_24h": 11.95,
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.958401,
+        "change_24h": 13.62,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1228.62,
-        "change_24h": 11.21,
+        "price": 1232.93,
+        "change_24h": 12.07,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.195644,
+        "change_24h": 11.61,
         "asset": "crypto"
       },
       {
         "symbol": "APT",
         "name": "Aptos",
-        "price": 0.858084,
-        "change_24h": 10.56,
+        "price": 0.861431,
+        "change_24h": 10.87,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "STX",
-        "name": "Stacks",
-        "price": 0.404345,
-        "change_24h": -3.29,
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.95,
+        "change_24h": -4.34,
         "asset": "crypto"
       },
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.96,
-        "change_24h": -3.12,
+        "symbol": "STX",
+        "name": "Stacks",
+        "price": 0.404917,
+        "change_24h": -2.82,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.106822,
-        "change_24h": -0.8,
+        "price": 0.106129,
+        "change_24h": -1.11,
         "asset": "crypto"
       },
       {
@@ -147,8 +147,8 @@
       {
         "symbol": "XDC",
         "name": "XDC Network",
-        "price": 0.033771,
-        "change_24h": -0.48,
+        "price": 0.033779,
+        "change_24h": -0.38,
         "asset": "crypto"
       }
     ]
