@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-16T14:00:54Z",
+  "updated_at": "2026-10-16T14:15:54Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "AA",
         "name": "Alcoa Corporation",
-        "price": 43.23,
-        "change_24h": 6.95,
-        "asset": "equity"
-      },
-      {
-        "symbol": "PAYP",
-        "name": "PayPay Corporation - American D",
-        "price": 15.54,
-        "change_24h": 6.0,
+        "price": 43.5,
+        "change_24h": 7.62,
         "asset": "equity"
       },
       {
         "symbol": "KRMN",
         "name": "Karman Holdings Inc.",
-        "price": 35.57,
-        "change_24h": 4.94,
+        "price": 35.92,
+        "change_24h": 5.96,
+        "asset": "equity"
+      },
+      {
+        "symbol": "PAYP",
+        "name": "PayPay Corporation - American D",
+        "price": 15.55,
+        "change_24h": 6.14,
         "asset": "equity"
       },
       {
         "symbol": "CENX",
         "name": "Century Aluminum Company",
-        "price": 35.61,
-        "change_24h": 4.12,
+        "price": 36.06,
+        "change_24h": 5.45,
         "asset": "equity"
       },
       {
-        "symbol": "CAVA",
-        "name": "CAVA Group, Inc.",
-        "price": 58.0,
-        "change_24h": 4.69,
+        "symbol": "INDB",
+        "name": "Independent Bank Corp.",
+        "price": 80.73,
+        "change_24h": 4.74,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "TLK",
         "name": "PT Telekomunikasi Indonesia, Tb",
-        "price": 11.06,
-        "change_24h": -13.47,
-        "asset": "equity"
-      },
-      {
-        "symbol": "SLS",
-        "name": "SELLAS Life Sciences Group, Inc",
-        "price": 9.915,
-        "change_24h": -12.57,
+        "price": 11.07,
+        "change_24h": -13.38,
         "asset": "equity"
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "price": 213.36,
-        "change_24h": -9.78,
+        "price": 213.4,
+        "change_24h": -9.77,
+        "asset": "equity"
+      },
+      {
+        "symbol": "SLS",
+        "name": "SELLAS Life Sciences Group, Inc",
+        "price": 10.27,
+        "change_24h": -9.44,
         "asset": "equity"
       },
       {
         "symbol": "DOCN",
         "name": "DigitalOcean Holdings, Inc.",
-        "price": 100.54,
-        "change_24h": -8.16,
+        "price": 101.27,
+        "change_24h": -7.49,
         "asset": "equity"
       },
       {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "price": 23.06,
-        "change_24h": -8.02,
+        "symbol": "FROG",
+        "name": "JFrog Ltd.",
+        "price": 87.43,
+        "change_24h": -7.53,
         "asset": "equity"
       }
     ]
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "price": 0.009082,
-        "change_24h": 14.76,
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 2.16,
+        "change_24h": 14.62,
         "asset": "crypto"
       },
       {
-        "symbol": "APT",
-        "name": "Aptos",
-        "price": 0.873453,
-        "change_24h": 14.58,
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price": 0.691651,
+        "change_24h": 12.41,
         "asset": "crypto"
       },
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 5.24,
-        "change_24h": 14.46,
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.199071,
+        "change_24h": 12.18,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
         "price": 1.15,
-        "change_24h": 14.24,
+        "change_24h": 12.09,
         "asset": "crypto"
       },
       {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.532374,
-        "change_24h": 14.15,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.23,
+        "change_24h": 11.39,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "BTW",
         "name": "Bitway",
-        "price": 1.9,
-        "change_24h": -5.6,
+        "price": 1.89,
+        "change_24h": -4.21,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.104227,
+        "change_24h": -3.09,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 0.812717,
+        "change_24h": -0.68,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CAKE",
+        "name": "PancakeSwap",
+        "price": 2.18,
+        "change_24h": -0.55,
         "asset": "crypto"
       },
       {
         "symbol": "FIGR_HELOC",
         "name": "Figure Heloc",
         "price": 1.032,
-        "change_24h": -0.36,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LEO",
-        "name": "LEO Token",
-        "price": 9.01,
-        "change_24h": -0.28,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "USDD",
-        "name": "USDD",
-        "price": 0.996997,
-        "change_24h": -0.03,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BCAP",
-        "name": "Blockchain Capital",
-        "price": 105.74,
-        "change_24h": 0.0,
+        "change_24h": -0.33,
         "asset": "crypto"
       }
     ]
