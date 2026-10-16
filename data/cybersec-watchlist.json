@@ -1,11 +1,51 @@
 [
   {
+    "title": "SecTor 2026 Reveals a Rapidly Shifting Cybersecurity Landscape",
+    "url": "https://www.darkreading.com/cybersecurity-operations/sector-2026-reveals-a-rapidly-shifting-cybersecurity-landscape",
+    "source": "Dark Reading",
+    "summary": "The event closed in Toronto last week, with experts sharing critical perspectives on emerging risks, drawing record attendance and marking 22% growth.",
+    "added": "2026-10-15T22:10:08+00:00",
+    "expires": "2026-10-30T02:35:17Z"
+  },
+  {
+    "title": "F-Secure Launches Victim-First Scam Encyclopedia Covering 50+ Types of Consumer Fraud",
+    "url": "https://www.darkreading.com/threat-intelligence/f-secure-launches-victim-first-scam-encyclopedia-covering-50-types-of-consumer-fraud",
+    "source": "Dark Reading",
+    "summary": "Built from decades of threat intelligence research, the new resource explains scams from the victims' perspective and tracks emerging forms of cyber crime.",
+    "added": "2026-10-15T21:55:07+00:00",
+    "expires": "2026-10-30T02:35:17Z"
+  },
+  {
+    "title": "AI Slop Isn't Just for Social Media; It's Ruining Cyberattacks, Too",
+    "url": "https://www.darkreading.com/threat-intelligence/ai-slop-ruining-cyberattacks",
+    "source": "Dark Reading",
+    "summary": "Don't buy the hype! AI has been dumbing down cyberattacks, and serious threat actors are barely touching it.",
+    "added": "2026-10-15T20:43:20+00:00",
+    "expires": "2026-10-30T02:35:17Z"
+  },
+  {
+    "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+    "source": "BleepingComputer",
+    "summary": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud. [...]",
+    "added": "2026-10-15T20:25:04+00:00",
+    "expires": "2026-10-30T02:35:17Z"
+  },
+  {
+    "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+    "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+    "source": "The Hacker News",
+    "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Verce",
+    "added": "2026-10-15T20:24:36+00:00",
+    "expires": "2026-10-30T02:35:17Z"
+  },
+  {
     "title": "Android gets AI defenses against messaging scams, fake calls",
     "url": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
     "source": "BleepingComputer",
     "summary": "Google announced new AI-powered defenses against scam messages and call-forwarding abuse on Android, currently rolling out to eligible devices. [...]",
     "added": "2026-10-15T19:48:43+00:00",
-    "expires": "2026-10-29T20:05:22Z"
+    "expires": "2026-10-30T02:35:17Z"
   },
   {
     "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
@@ -13,7 +53,7 @@
     "source": "The Hacker News",
     "summary": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories. The rest gets interesting in different ",
     "added": "2026-10-15T18:49:33+00:00",
-    "expires": "2026-10-29T20:05:22Z"
+    "expires": "2026-10-30T02:35:17Z"
   },
   {
     "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
@@ -21,7 +61,7 @@
     "source": "BleepingComputer",
     "summary": "A proxyjacking campaign has impacted devices in 34 countries, monetizing victims' internet connections through a commercial residential proxy network. [...]",
     "added": "2026-10-15T18:20:59+00:00",
-    "expires": "2026-10-29T20:05:22Z"
+    "expires": "2026-10-30T02:35:17Z"
   },
   {
     "title": "Fake Arch Linux packages push malware with root privileges",
@@ -29,7 +69,7 @@
     "source": "BleepingComputer",
     "summary": "A threat actor uploaded malicious packages to the Arch User Repository (AUR) that impersonated two popular helper tools, yay and paru. [...]",
     "added": "2026-10-15T17:12:31+00:00",
-    "expires": "2026-10-29T20:05:22Z"
+    "expires": "2026-10-30T02:35:17Z"
   },
   {
     "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
@@ -37,7 +77,7 @@
     "source": "The Hacker News",
     "summary": "Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, researchers at the Cit",
     "added": "2026-10-15T16:01:57+00:00",
-    "expires": "2026-10-29T20:05:22Z"
+    "expires": "2026-10-30T02:35:17Z"
   },
   {
     "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
@@ -45,7 +85,7 @@
     "source": "The Hacker News",
     "summary": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS). The activity, observed from June 2025 through Au",
     "added": "2026-10-15T16:00:26+00:00",
-    "expires": "2026-10-29T20:05:22Z"
+    "expires": "2026-10-30T02:35:17Z"
   },
   {
     "title": "Vulnerability Management Isn't About the Score — It's About How It Applies to You",
@@ -53,7 +93,7 @@
     "source": "Dark Reading",
     "summary": "Organizations need to move away from vendor-assigned, theoretical scores toward real exploit data specific to their environments.",
     "added": "2026-10-15T15:17:18+00:00",
-    "expires": "2026-10-29T20:05:22Z"
+    "expires": "2026-10-30T02:35:17Z"
   },
   {
     "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
@@ -61,7 +101,7 @@
     "source": "The Hacker News",
     "summary": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777. Help TDS is asse",
     "added": "2026-10-15T14:11:36+00:00",
-    "expires": "2026-10-29T20:05:22Z"
+    "expires": "2026-10-30T02:35:17Z"
   },
   {
     "title": "Is AI pentesting as good as a human pentester?",
@@ -69,23 +109,7 @@
     "source": "BleepingComputer",
     "summary": "AI pentesting can uncover vulnerabilities missed by human testers, but it also has limitations in consistency, risk assessment, and understanding business context. Intruder compares the strengths and weaknesses of both a",
     "added": "2026-10-15T14:01:11+00:00",
-    "expires": "2026-10-29T20:05:22Z"
-  },
-  {
-    "title": "Microsoft: Windows Server 2022 reached end of mainstream support",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/",
-    "source": "BleepingComputer",
-    "summary": "Microsoft announced that Windows Server 2022 has reached the end of mainstream support and will remain in extended support until October 2031. [...]",
-    "added": "2026-10-15T13:18:36+00:00",
-    "expires": "2026-10-29T20:05:22Z"
-  },
-  {
-    "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
-    "url": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
-    "source": "The Hacker News",
-    "summary": "NGINX released versions 1.30.6 and 1.31.7 on October 14 to fix five vulnerabilities, one of them present in every release since May 2005. There are three memory bugs that F5, the company behind NGINX, says could crash a ",
-    "added": "2026-10-15T12:58:05+00:00",
-    "expires": "2026-10-29T20:05:22Z"
+    "expires": "2026-10-30T02:35:17Z"
   },
   {
     "title": "EU Grocers Pay a Steep Price for Unpatched Fridge Firmware",
@@ -93,31 +117,7 @@
     "source": "Dark Reading",
     "summary": "Hundreds of stores lost millions of euros because they hired third parties to manage the outdated OT firmware running their cooling systems.",
     "added": "2026-10-15T07:00:00+00:00",
-    "expires": "2026-10-29T20:05:22Z"
-  },
-  {
-    "title": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
-    "url": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching",
-    "source": "Dark Reading",
-    "summary": "CVE-2026-104935, a high-severity authentication bypass + RCE vulnerability, was only partially discovered and patched in July, leaving an opening for threat actors to capitalize on.",
-    "added": "2026-10-14T21:20:13+00:00",
-    "expires": "2026-10-29T20:05:22Z"
-  },
-  {
-    "title": "Yam Store: The Phishing Network Behind a Billion Messages",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/yam-store-phishing-network-behind-billion-messages",
-    "source": "Dark Reading",
-    "summary": "A sprawling cybercrime marketplace supplied cloud infrastructure and phishing kits that helped fuel more than 1 billion phishing messages worldwide.",
-    "added": "2026-10-14T20:57:16+00:00",
-    "expires": "2026-10-29T20:05:22Z"
-  },
-  {
-    "title": "Anthropic 'SneakPeek' Flaw Is a Silent Zero-Click Threat",
-    "url": "https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat",
-    "source": "Dark Reading",
-    "summary": "A bug in Claude Code Desktop's preview pane can allow adversaries to quietly steal credentials from developers, including SSH private keys, AWS credentials, and Claude 0Auth tokens.",
-    "added": "2026-10-14T20:09:42+00:00",
-    "expires": "2026-10-29T20:05:22Z"
+    "expires": "2026-10-30T02:35:17Z"
   },
   {
     "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
@@ -125,6 +125,6 @@
     "source": "Krebs on Security",
     "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud a",
     "added": "2026-10-14T14:22:49+00:00",
-    "expires": "2026-10-29T20:05:22Z"
+    "expires": "2026-10-30T02:35:17Z"
   }
 ]
