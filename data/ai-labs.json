@@ -1,6 +1,30 @@
 {
-  "updated": "2026-10-16T02:35:10Z",
+  "updated": "2026-10-16T09:05:10Z",
   "items": [
+    {
+      "title": "DeepUnfolding_Agent: A Classical_Quantum Adaptive Control API",
+      "url": "https://arxiv.org/abs/2610.20615",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-10-16T04:00:00+00:00",
+      "summary": "arXiv:2610.20615v1 Announce Type: new Abstract: Adaptive optimization workflows in machine learning, federated learning, quantum machine learning, and hybrid classical quantum systems often embed controller logic directly inside task specific training scripts. This coupling limit",
+      "tag": "ai"
+    },
+    {
+      "title": "PRISM: PRIvileged Sibling-guided Multi-Agent Topology Design",
+      "url": "https://arxiv.org/abs/2610.20628",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-10-16T04:00:00+00:00",
+      "summary": "arXiv:2610.20628v1 Announce Type: new Abstract: Multi-agent systems (MAS) based on large language models (LLMs) have become a powerful way to address complex problems, and their effectiveness depends critically on the collaboration topology that decides which agents participate a",
+      "tag": "ai"
+    },
+    {
+      "title": "A Large-Scale Dataset for Multi-Class Financial News Classification in Brazilian Portuguese",
+      "url": "https://arxiv.org/abs/2610.20630",
+      "source": "arXiv cs.CL",
+      "published_at": "2026-10-16T04:00:00+00:00",
+      "summary": "arXiv:2610.20630v1 Announce Type: new Abstract: The development of Financial Natural Language Processing (NLP) systems for Brazilian Portuguese is hindered by the scarcity of domain-specific datasets. To address this, we present a large-scale corpus of approximately 160,000 Brazi",
+      "tag": "ai"
+    },
     {
       "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
       "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
@@ -50,6 +74,14 @@
       "tag": "ai"
     },
     {
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "source": "Google DeepMind",
+      "published_at": "2026-10-15T16:08:03+00:00",
+      "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+      "tag": "ai"
+    },
+    {
       "title": "Sapienz Receives ISSTA 2026 Impact Paper Award",
       "url": "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta/",
       "source": "Meta Engineering",
@@ -79,30 +111,6 @@
       "source": "OpenAI",
       "published_at": "2026-10-15T13:00:00+00:00",
       "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-      "tag": "ai"
-    },
-    {
-      "title": "Following the Flow the Law Requires: Training Voice Agents to Transfer to Unseen Regulated Procedures in Debt Collection",
-      "url": "https://arxiv.org/abs/2610.18881",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-10-15T04:00:00+00:00",
-      "summary": "arXiv:2610.18881v1 Announce Type: new Abstract: Voice agents built on large language models (LLMs) now handle customer calls, but in regulated applications completing the task is not enough: the agent must follow a conversational flow set by law. In debt collection, it must confi",
-      "tag": "ai"
-    },
-    {
-      "title": "Evaluating Large Language Models for Multilingual Abstractive Summarization: A Comprehensive Study of English and Bengali",
-      "url": "https://arxiv.org/abs/2610.19003",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-10-15T04:00:00+00:00",
-      "summary": "arXiv:2610.19003v1 Announce Type: new Abstract: Abstractive summarization remains challenging across languages, where linguistic quality and factual consistency may diverge, particularly in low-resource settings. We present a standardized zero-shot benchmark of eight closed-sourc",
-      "tag": "ai"
-    },
-    {
-      "title": "Can LLMs Access their World Knowledge for Event Prediction?",
-      "url": "https://arxiv.org/abs/2610.19021",
-      "source": "arXiv cs.CL",
-      "published_at": "2026-10-15T04:00:00+00:00",
-      "summary": "arXiv:2610.19021v1 Announce Type: new Abstract: Recent work has questioned whether large language models (LLMs) can be useful for temporal event prediction. Despite vast pretrained world knowledge, LLMs often underperform simpler specialized models. We ask whether this knowledge ",
       "tag": "ai"
     },
     {
@@ -154,11 +162,35 @@
       "tag": "ai"
     },
     {
+      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "source": "Google DeepMind",
+      "published_at": "2026-10-14T02:00:14+00:00",
+      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+      "tag": "ai"
+    },
+    {
       "title": "The Continual Constitutional Convention: How language models revise the documents that govern them",
       "url": "https://www.alignmentforum.org/posts/c9woewdY9ddsPqf3J/the-continual-constitutional-convention-how-language-models",
       "source": "Alignment Forum",
       "published_at": "2026-10-13T22:19:04+00:00",
       "summary": "Executive Summary Human societies exhibit broad shifts in values and norms over time, often driven by moral disagreements. One way of understanding moral progress is the resolution of these disagreements through a process of reflection by rational agents. Frontier AI companies us",
+      "tag": "ai"
+    },
+    {
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "source": "Google DeepMind",
+      "published_at": "2026-10-13T19:43:07+00:00",
+      "summary": "",
+      "tag": "ai"
+    },
+    {
+      "title": "Gemini 4 Argon for Robotics",
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "source": "Google DeepMind",
+      "published_at": "2026-10-13T16:01:58+00:00",
+      "summary": "",
       "tag": "ai"
     },
     {
@@ -287,22 +319,6 @@
       "source": "Qwen (Alibaba)",
       "published_at": "2025-08-18T17:30:00+00:00",
       "summary": "QWEN CHAT GITHUB HUGGING FACE MODELSCOPE DISCORD We are excited to introduce Qwen-Image-Edit, the image editing version of Qwen-Image. Built upon our 20B Qwen-Image model, Qwen-Image-Edit successfully extends Qwen-Image’s unique text rendering capabilities to image editing tasks,",
-      "tag": "ai"
-    },
-    {
-      "title": "Qwen-Image: Crafting with Native Text Rendering",
-      "url": "https://qwenlm.github.io/blog/qwen-image/",
-      "source": "Qwen (Alibaba)",
-      "published_at": "2025-08-04T14:08:30+00:00",
-      "summary": "GITHUB HUGGING FACE MODELSCOPE DEMO DISCORD We are thrilled to release Qwen-Image, a 20B MMDiT image foundation model that achieves significant advances in complex text rendering and precise image editing. To try the latest model, feel free to visit Qwen Chat and choose “Image Ge",
-      "tag": "ai"
-    },
-    {
-      "title": "GSPO: Towards Scalable Reinforcement Learning for Language Models",
-      "url": "https://qwenlm.github.io/blog/gspo/",
-      "source": "Qwen (Alibaba)",
-      "published_at": "2025-07-27T07:00:00+00:00",
-      "summary": "PAPER DISCORD Introduction Reinforcement Learning (RL) has emerged as a pivotal paradigm for scaling language models and enhancing their deep reasoning and problem-solving capabilities. To scale RL, the foremost prerequisite is maintaining stable and robust training dynamics. How",
       "tag": "ai"
     }
   ],
