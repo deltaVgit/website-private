@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T06:30:53Z",
+  "updated_at": "2026-10-16T06:45:53Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.030763,
-        "change_24h": 13.56,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.689023,
-        "change_24h": 13.26,
+        "price": 0.695511,
+        "change_24h": 14.31,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1226.03,
-        "change_24h": 12.77,
+        "price": 1230.91,
+        "change_24h": 13.35,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.18,
-        "change_24h": 12.2,
+        "price": 5.22,
+        "change_24h": 12.79,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.950961,
+        "change_24h": 12.43,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.195912,
-        "change_24h": 12.09,
+        "price": 0.195999,
+        "change_24h": 12.12,
         "asset": "crypto"
       }
     ],
@@ -119,29 +119,8 @@
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.403192,
-        "change_24h": -3.6,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.106881,
-        "change_24h": -1.37,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.135002,
-        "change_24h": -1.34,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 1.99,
-        "change_24h": -1.06,
+        "price": 0.403459,
+        "change_24h": -4.67,
         "asset": "crypto"
       },
       {
@@ -149,6 +128,27 @@
         "name": "Figure Heloc",
         "price": 1.031,
         "change_24h": -0.76,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.135696,
+        "change_24h": -0.67,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price": 0.792524,
+        "change_24h": -0.58,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "USDG",
+        "name": "Global Dollar",
+        "price": 1.0,
+        "change_24h": -0.01,
         "asset": "crypto"
       }
     ]
