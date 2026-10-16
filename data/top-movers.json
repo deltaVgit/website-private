@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T12:00:53Z",
+  "updated_at": "2026-10-16T12:15:54Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 5.31,
-        "change_24h": 15.5,
+        "symbol": "APT",
+        "name": "Aptos",
+        "price": 0.88281,
+        "change_24h": 14.42,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.538429,
-        "change_24h": 14.79,
+        "price": 0.537015,
+        "change_24h": 14.23,
         "asset": "crypto"
       },
       {
-        "symbol": "APT",
-        "name": "Aptos",
-        "price": 0.879311,
-        "change_24h": 14.11,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.26,
+        "change_24h": 14.21,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1233.58,
-        "change_24h": 13.12,
+        "price": 1226.43,
+        "change_24h": 12.11,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
         "price": 1.16,
-        "change_24h": 12.25,
+        "change_24h": 11.95,
         "asset": "crypto"
       }
     ],
@@ -120,28 +120,21 @@
         "symbol": "BTW",
         "name": "Bitway",
         "price": 1.69,
-        "change_24h": -9.67,
+        "change_24h": -10.3,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.103643,
-        "change_24h": -3.77,
+        "price": 0.103483,
+        "change_24h": -3.65,
         "asset": "crypto"
       },
       {
         "symbol": "XDC",
         "name": "XDC Network",
-        "price": 0.034344,
-        "change_24h": -1.38,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLFI",
-        "name": "World Liberty Financial",
-        "price": 0.057002,
-        "change_24h": -0.91,
+        "price": 0.034524,
+        "change_24h": -1.37,
         "asset": "crypto"
       },
       {
@@ -149,6 +142,13 @@
         "name": "Figure Heloc",
         "price": 1.031,
         "change_24h": -0.77,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLFI",
+        "name": "World Liberty Financial",
+        "price": 0.056959,
+        "change_24h": -0.69,
         "asset": "crypto"
       }
     ]
