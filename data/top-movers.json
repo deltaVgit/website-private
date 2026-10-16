@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T08:45:54Z",
+  "updated_at": "2026-10-16T09:00:54Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -82,59 +82,52 @@
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
-        "price": 0.705302,
-        "change_24h": 14.96,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.94887,
-        "change_24h": 12.26,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.197489,
-        "change_24h": 11.81,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "APT",
-        "name": "Aptos",
-        "price": 0.874096,
-        "change_24h": 11.56,
+        "price": 0.703367,
+        "change_24h": 14.68,
         "asset": "crypto"
       },
       {
         "symbol": "WLD",
         "name": "Worldcoin",
-        "price": 0.531108,
-        "change_24h": 11.37,
+        "price": 0.542191,
+        "change_24h": 13.76,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price": 0.197787,
+        "change_24h": 12.24,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price": 0.939168,
+        "change_24h": 11.1,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.26,
+        "change_24h": 11.05,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "BTW",
-        "name": "Bitway",
-        "price": 2.06,
-        "change_24h": -2.13,
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.105022,
+        "change_24h": -1.59,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.410873,
-        "change_24h": -1.56,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.105088,
-        "change_24h": -1.39,
+        "price": 0.412277,
+        "change_24h": -1.21,
         "asset": "crypto"
       },
       {
@@ -149,6 +142,13 @@
         "name": "BlackRock USD Institutional Digital Liquidity Fu",
         "price": 1.0,
         "change_24h": 0.0,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "USYC",
+        "name": "Circle USYC",
+        "price": 1.14,
+        "change_24h": 0.01,
         "asset": "crypto"
       }
     ]
