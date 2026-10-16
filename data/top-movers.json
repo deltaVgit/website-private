@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-10-16T17:45:54Z",
+  "updated_at": "2026-10-16T18:00:54Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
       {
         "symbol": "PAYP",
         "name": "PayPay Corporation - American D",
-        "price": 15.61,
-        "change_24h": 6.52,
+        "price": 15.55,
+        "change_24h": 6.11,
         "asset": "equity"
       },
       {
         "symbol": "MTDR",
         "name": "Matador Resources Company",
-        "price": 57.06,
-        "change_24h": 6.12,
+        "price": 56.87,
+        "change_24h": 5.77,
         "asset": "equity"
       },
       {
         "symbol": "CRGY",
         "name": "Crescent Energy Company",
-        "price": 13.22,
-        "change_24h": 5.72,
-        "asset": "equity"
-      },
-      {
-        "symbol": "KRMN",
-        "name": "Karman Holdings Inc.",
-        "price": 35.64,
-        "change_24h": 5.12,
+        "price": 13.16,
+        "change_24h": 5.24,
         "asset": "equity"
       },
       {
         "symbol": "AR",
         "name": "Antero Resources Corporation",
-        "price": 38.32,
-        "change_24h": 5.16,
+        "price": 38.22,
+        "change_24h": 4.88,
+        "asset": "equity"
+      },
+      {
+        "symbol": "FMX",
+        "name": "Fomento Economico Mexicano S.A.",
+        "price": 126.98,
+        "change_24h": 4.95,
         "asset": "equity"
       }
     ],
@@ -43,36 +43,36 @@
       {
         "symbol": "BSP",
         "name": "Bending Spoons S.p.A.",
-        "price": 48.07,
-        "change_24h": -13.81,
+        "price": 47.23,
+        "change_24h": -15.3,
         "asset": "equity"
       },
       {
         "symbol": "TWLO",
         "name": "Twilio Inc.",
-        "price": 239.42,
-        "change_24h": -12.43,
+        "price": 238.88,
+        "change_24h": -12.63,
         "asset": "equity"
       },
       {
         "symbol": "TLK",
         "name": "PT Telekomunikasi Indonesia, Tb",
-        "price": 11.18,
-        "change_24h": -12.52,
+        "price": 11.12,
+        "change_24h": -12.99,
         "asset": "equity"
       },
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "price": 22.1,
-        "change_24h": -11.84,
+        "price": 22.02,
+        "change_24h": -12.15,
         "asset": "equity"
       },
       {
-        "symbol": "DOCN",
-        "name": "DigitalOcean Holdings, Inc.",
-        "price": 97.37,
-        "change_24h": -11.05,
+        "symbol": "SLS",
+        "name": "SELLAS Life Sciences Group, Inc",
+        "price": 9.98,
+        "change_24h": -11.99,
         "asset": "equity"
       }
     ]
@@ -82,73 +82,73 @@
       {
         "symbol": "INJ",
         "name": "Injective",
-        "price": 8.77,
-        "change_24h": 6.44,
+        "price": 8.67,
+        "change_24h": 5.43,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 1.15,
-        "change_24h": 6.41,
+        "price": 1.14,
+        "change_24h": 4.96,
         "asset": "crypto"
       },
       {
         "symbol": "DOT",
         "name": "Polkadot",
         "price": 1.17,
-        "change_24h": 5.34,
+        "change_24h": 3.65,
         "asset": "crypto"
       },
       {
         "symbol": "APT",
         "name": "Aptos",
-        "price": 0.848921,
-        "change_24h": 4.08,
+        "price": 0.845092,
+        "change_24h": 2.74,
         "asset": "crypto"
       },
       {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "price": 0.194416,
-        "change_24h": 1.72,
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.135727,
+        "change_24h": 1.27,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.02992,
-        "change_24h": -13.55,
-        "asset": "crypto"
-      },
-      {
         "symbol": "PYTH",
         "name": "Pyth Network",
-        "price": 0.0856,
-        "change_24h": -8.39,
+        "price": 0.084261,
+        "change_24h": -10.17,
         "asset": "crypto"
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "price": 23.24,
-        "change_24h": -7.7,
+        "price": 22.83,
+        "change_24h": -8.85,
         "asset": "crypto"
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
-        "price": 1161.67,
-        "change_24h": -5.53,
+        "price": 1146.4,
+        "change_24h": -6.62,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.004289,
+        "change_24h": -6.2,
         "asset": "crypto"
       },
       {
         "symbol": "M",
         "name": "MemeCore",
-        "price": 0.785216,
-        "change_24h": -5.21,
+        "price": 0.782378,
+        "change_24h": -5.65,
         "asset": "crypto"
       }
     ]
