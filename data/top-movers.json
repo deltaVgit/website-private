@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T03:30:53Z",
+  "updated_at": "2026-10-16T03:45:53Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,75 +80,75 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "price": 24.72,
-        "change_24h": 14.79,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.030493,
-        "change_24h": 14.17,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "price": 5.27,
-        "change_24h": 12.67,
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price": 2.11,
+        "change_24h": 14.87,
         "asset": "crypto"
       },
       {
         "symbol": "PYTH",
         "name": "Pyth Network",
-        "price": 0.094052,
-        "change_24h": 12.52,
+        "price": 0.092583,
+        "change_24h": 13.85,
         "asset": "crypto"
       },
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "price": 1224.56,
-        "change_24h": 10.94,
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.030518,
+        "change_24h": 13.05,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price": 23.98,
+        "change_24h": 12.25,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price": 5.14,
+        "change_24h": 10.74,
         "asset": "crypto"
       }
     ],
     "losers": [
       {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 1.94,
+        "change_24h": -10.86,
+        "asset": "crypto"
+      },
+      {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.105931,
-        "change_24h": -3.8,
+        "price": 0.1052,
+        "change_24h": -3.38,
         "asset": "crypto"
       },
       {
         "symbol": "OKB",
         "name": "OKB",
-        "price": 117.32,
-        "change_24h": -2.36,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "JST",
-        "name": "JUST",
-        "price": 0.135315,
-        "change_24h": -2.26,
+        "price": 116.17,
+        "change_24h": -2.97,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.411981,
-        "change_24h": -1.64,
+        "price": 0.402624,
+        "change_24h": -2.52,
         "asset": "crypto"
       },
       {
-        "symbol": "FIGR_HELOC",
-        "name": "Figure Heloc",
-        "price": 1.031,
-        "change_24h": -0.8,
+        "symbol": "JST",
+        "name": "JUST",
+        "price": 0.135796,
+        "change_24h": -1.86,
         "asset": "crypto"
       }
     ]
