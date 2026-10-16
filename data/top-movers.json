@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T09:00:54Z",
+  "updated_at": "2026-10-16T09:16:49Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "ETHFI",
-        "name": "Ether.fi",
-        "price": 0.703367,
-        "change_24h": 14.68,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "WLD",
-        "name": "Worldcoin",
-        "price": 0.542191,
-        "change_24h": 13.76,
-        "asset": "crypto"
-      },
-      {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.197787,
-        "change_24h": 12.24,
+        "price": 0.200934,
+        "change_24h": 14.67,
         "asset": "crypto"
       },
       {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "price": 0.939168,
-        "change_24h": 11.1,
+        "symbol": "APT",
+        "name": "Aptos",
+        "price": 0.87159,
+        "change_24h": 11.7,
         "asset": "crypto"
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "price": 5.26,
-        "change_24h": 11.05,
+        "price": 5.24,
+        "change_24h": 11.52,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price": 1231.29,
+        "change_24h": 11.08,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price": 0.524443,
+        "change_24h": 10.65,
         "asset": "crypto"
       }
     ],
@@ -119,15 +119,29 @@
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.105022,
-        "change_24h": -1.59,
+        "price": 0.104764,
+        "change_24h": -2.38,
         "asset": "crypto"
       },
       {
-        "symbol": "STX",
-        "name": "Stacks",
-        "price": 0.412277,
-        "change_24h": -1.21,
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.030815,
+        "change_24h": -0.61,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price": 2.02,
+        "change_24h": -0.6,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "USDGO",
+        "name": "USDGO",
+        "price": 1.0,
+        "change_24h": -0.0,
         "asset": "crypto"
       },
       {
@@ -135,20 +149,6 @@
         "name": "Blockchain Capital",
         "price": 105.74,
         "change_24h": 0.0,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "BUIDL",
-        "name": "BlackRock USD Institutional Digital Liquidity Fu",
-        "price": 1.0,
-        "change_24h": 0.0,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "USYC",
-        "name": "Circle USYC",
-        "price": 1.14,
-        "change_24h": 0.01,
         "asset": "crypto"
       }
     ]
