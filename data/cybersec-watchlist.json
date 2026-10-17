@@ -1,11 +1,19 @@
 [
   {
+    "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+    "source": "BleepingComputer",
+    "summary": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
+    "added": "2026-10-17T15:18:51+00:00",
+    "expires": "2026-10-31T21:34:37Z"
+  },
+  {
     "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
     "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
     "source": "BleepingComputer",
     "summary": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
     "added": "2026-10-17T14:32:48+00:00",
-    "expires": "2026-10-31T15:04:37Z"
+    "expires": "2026-10-31T21:34:37Z"
   },
   {
     "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
@@ -13,7 +21,7 @@
     "source": "The Hacker News",
     "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded to the package regis",
     "added": "2026-10-17T11:11:56+00:00",
-    "expires": "2026-10-31T15:04:38Z"
+    "expires": "2026-10-31T21:34:37Z"
   },
   {
     "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
@@ -21,7 +29,7 @@
     "source": "The Hacker News",
     "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyK",
     "added": "2026-10-17T06:16:46+00:00",
-    "expires": "2026-10-31T15:04:38Z"
+    "expires": "2026-10-31T21:34:37Z"
   },
   {
     "title": "BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs",
@@ -29,7 +37,7 @@
     "source": "Dark Reading",
     "summary": "Ivanti, Cisco, and Palo Alto Networks all had vulnerabilities in edge devices come under fire this week. Now BeyondTrust joins the group.",
     "added": "2026-10-16T20:34:37+00:00",
-    "expires": "2026-10-31T15:04:37Z"
+    "expires": "2026-10-31T21:34:37Z"
   },
   {
     "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
@@ -37,7 +45,7 @@
     "source": "BleepingComputer",
     "summary": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers. [...]",
     "added": "2026-10-16T20:00:59+00:00",
-    "expires": "2026-10-31T15:04:37Z"
+    "expires": "2026-10-31T21:34:37Z"
   },
   {
     "title": "Fake Claude, ChatGPT Attacks Surge, Putting Developers at Risk",
@@ -45,7 +53,7 @@
     "source": "Dark Reading",
     "summary": "Campaigns that impersonate popular AI brands are on the rise, and they typically use ClickFix-like tactics to target unsuspecting enterprise employees.",
     "added": "2026-10-16T19:49:30+00:00",
-    "expires": "2026-10-31T15:04:37Z"
+    "expires": "2026-10-31T21:34:37Z"
   },
   {
     "title": "Biomemory Launches DNA Shield, First Commercial Product Built on Its Molecular IT Platform",
@@ -53,7 +61,7 @@
     "source": "Dark Reading",
     "summary": "The launch follows the acquisition of catalog's assets and the appointment of Laurent Guengant as CEO earlier this year.",
     "added": "2026-10-16T19:22:12+00:00",
-    "expires": "2026-10-31T15:04:37Z"
+    "expires": "2026-10-31T21:34:37Z"
   },
   {
     "title": "Enterprise AI Enters Risk Management Phase as Security Concerns Rise",
@@ -61,7 +69,7 @@
     "source": "Dark Reading",
     "summary": "Companies are increasingly discovering that the challenge with AI is no longer adoption, but execution.",
     "added": "2026-10-16T19:13:59+00:00",
-    "expires": "2026-10-31T15:04:37Z"
+    "expires": "2026-10-31T21:34:37Z"
   },
   {
     "title": "AI Takes Control of Robotic Arm in 16 Minutes Flat",
@@ -69,7 +77,7 @@
     "source": "Dark Reading",
     "summary": "Most OT devices at utilities, factories, and elsewhere have been deployed for a decade or more, but operators need to get agile and deploy new cyber defenses.",
     "added": "2026-10-16T18:37:50+00:00",
-    "expires": "2026-10-31T15:04:37Z"
+    "expires": "2026-10-31T21:34:37Z"
   },
   {
     "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
@@ -77,7 +85,7 @@
     "source": "The Hacker News",
     "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its",
     "added": "2026-10-16T17:48:45+00:00",
-    "expires": "2026-10-31T15:04:38Z"
+    "expires": "2026-10-31T21:34:37Z"
   },
   {
     "title": "Targeted ads installed Candiru spyware in zero-click attacks",
@@ -85,7 +93,7 @@
     "source": "BleepingComputer",
     "summary": "Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device. [...]",
     "added": "2026-10-16T17:20:03+00:00",
-    "expires": "2026-10-31T15:04:37Z"
+    "expires": "2026-10-31T21:34:37Z"
   },
   {
     "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
@@ -93,7 +101,7 @@
     "source": "The Hacker News",
     "summary": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of the Windows backup prog",
     "added": "2026-10-16T16:43:39+00:00",
-    "expires": "2026-10-31T15:04:38Z"
+    "expires": "2026-10-31T21:34:37Z"
   },
   {
     "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
@@ -101,7 +109,7 @@
     "source": "The Hacker News",
     "summary": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversar",
     "added": "2026-10-16T16:16:44+00:00",
-    "expires": "2026-10-31T15:04:38Z"
+    "expires": "2026-10-31T21:34:37Z"
   },
   {
     "title": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
@@ -109,15 +117,7 @@
     "source": "BleepingComputer",
     "summary": "Employees using personal ChatGPT accounts at work can expose sensitive company data, even when their organization provides an approved Enterprise workspace. NordLayer explains how IT teams can investigate unauthorized AI",
     "added": "2026-10-16T13:50:59+00:00",
-    "expires": "2026-10-31T15:04:37Z"
-  },
-  {
-    "title": "Burger King Japan data breach exposes 11 million customer records",
-    "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
-    "source": "BleepingComputer",
-    "summary": "Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]",
-    "added": "2026-10-16T12:01:29+00:00",
-    "expires": "2026-10-31T15:04:37Z"
+    "expires": "2026-10-31T21:34:37Z"
   },
   {
     "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
@@ -125,6 +125,6 @@
     "source": "Krebs on Security",
     "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud a",
     "added": "2026-10-14T14:22:49+00:00",
-    "expires": "2026-10-31T15:04:37Z"
+    "expires": "2026-10-31T21:34:37Z"
   }
 ]
