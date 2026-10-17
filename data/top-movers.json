@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T16:00:26Z",
+  "updated_at": "2026-10-17T16:15:15Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "CAKE",
-        "name": "PancakeSwap",
-        "price": 2.21,
-        "change_24h": 2.66,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price": 0.004414,
+        "change_24h": 2.33,
         "asset": "crypto"
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "price": 0.004409,
-        "change_24h": 2.62,
+        "symbol": "CAKE",
+        "name": "PancakeSwap",
+        "price": 2.2,
+        "change_24h": 2.33,
         "asset": "crypto"
       },
       {
         "symbol": "CC",
         "name": "Canton",
-        "price": 0.104972,
-        "change_24h": 2.16,
+        "price": 0.104604,
+        "change_24h": 1.83,
         "asset": "crypto"
       },
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "price": 0.028847,
-        "change_24h": 0.6,
+        "price": 0.029075,
+        "change_24h": 1.3,
         "asset": "crypto"
       },
       {
-        "symbol": "KCS",
-        "name": "KuCoin",
-        "price": 7.44,
-        "change_24h": 0.52,
+        "symbol": "HTX",
+        "name": "HTX DAO",
+        "price": 2e-06,
+        "change_24h": 0.61,
         "asset": "crypto"
       }
     ],
@@ -120,35 +120,35 @@
         "symbol": "ZRO",
         "name": "LayerZero",
         "price": 1.88,
-        "change_24h": -10.56,
+        "change_24h": -10.01,
         "asset": "crypto"
       },
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.36385,
-        "change_24h": -7.76,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "FIL",
-        "name": "Filecoin",
-        "price": 1.087,
-        "change_24h": -6.8,
+        "price": 0.3637,
+        "change_24h": -7.73,
         "asset": "crypto"
       },
       {
         "symbol": "APT",
         "name": "Aptos",
-        "price": 0.797367,
-        "change_24h": -6.79,
+        "price": 0.796508,
+        "change_24h": -7.03,
         "asset": "crypto"
       },
       {
-        "symbol": "TIA",
-        "name": "Celestia",
-        "price": 0.657793,
-        "change_24h": -5.89,
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price": 1.093,
+        "change_24h": -6.78,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price": 8.48,
+        "change_24h": -6.06,
         "asset": "crypto"
       }
     ]
