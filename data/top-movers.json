@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T17:15:15Z",
+  "updated_at": "2026-10-17T17:30:15Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
-        "symbol": "CAKE",
-        "name": "PancakeSwap",
-        "price": 2.21,
-        "change_24h": 2.88,
+        "symbol": "PRL",
+        "name": "Pearl",
+        "price": 1.86,
+        "change_24h": 5.26,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004346,
-        "change_24h": 1.56,
+        "price": 0.0044,
+        "change_24h": 3.06,
         "asset": "crypto"
       },
       {
-        "symbol": "CC",
-        "name": "Canton",
-        "price": 0.103385,
-        "change_24h": 1.07,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "price": 3.07,
-        "change_24h": 0.75,
+        "symbol": "CAKE",
+        "name": "PancakeSwap",
+        "price": 2.21,
+        "change_24h": 3.01,
         "asset": "crypto"
       },
       {
         "symbol": "XMR",
         "name": "Monero",
-        "price": 551.49,
-        "change_24h": 0.37,
+        "price": 552.11,
+        "change_24h": 1.22,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price": 0.103667,
+        "change_24h": 1.05,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "STX",
         "name": "Stacks",
-        "price": 0.362643,
-        "change_24h": -7.45,
+        "price": 0.363899,
+        "change_24h": -7.22,
         "asset": "crypto"
       },
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "price": 1.85,
-        "change_24h": -7.13,
+        "price": 1.87,
+        "change_24h": -5.97,
         "asset": "crypto"
       },
       {
         "symbol": "FIL",
         "name": "Filecoin",
-        "price": 1.067,
-        "change_24h": -7.13,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "AKE",
-        "name": "Akedo",
-        "price": 0.028709,
-        "change_24h": -6.07,
+        "price": 1.064,
+        "change_24h": -5.02,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.180969,
-        "change_24h": -5.87,
+        "price": 0.181348,
+        "change_24h": -5.0,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price": 0.028991,
+        "change_24h": -4.78,
         "asset": "crypto"
       }
     ]
