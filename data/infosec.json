@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-10-16T15:35:16Z",
+  "updatedAt": "2026-10-17T15:04:38Z",
   "kev": [
+    {
+      "cve": "CVE-2026-102764",
+      "product": "Remote Support",
+      "vendor": "BeyondTrust",
+      "name": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+      "dateAdded": "2026-10-16",
+      "dueDate": "2026-10-19",
+      "knownRansomware": "Unknown"
+    },
+    {
+      "cve": "CVE-2025-61624",
+      "product": "Multiple Products",
+      "vendor": "Fortinet",
+      "name": "Fortinet Multiple Products Path Traversal Vulnerability",
+      "dateAdded": "2026-10-16",
+      "dueDate": "2026-10-19",
+      "knownRansomware": "Unknown"
+    },
     {
       "cve": "CVE-2026-21589",
       "product": "Multiple Products",
@@ -108,110 +126,92 @@
       "dateAdded": "2026-10-08",
       "dueDate": "2026-10-11",
       "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-88779",
-      "product": "NetScaler",
-      "vendor": "Citrix",
-      "name": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
-      "dateAdded": "2026-10-04",
-      "dueDate": "2026-10-07",
-      "knownRansomware": "Unknown"
-    },
-    {
-      "cve": "CVE-2026-102490",
-      "product": "Zammad",
-      "vendor": "Zammad GmbH",
-      "name": "Zammad GmbH Zammad Improper Privilege Management Vulnerability",
-      "dateAdded": "2026-10-02",
-      "dueDate": "2026-10-05",
-      "knownRansomware": "Unknown"
     }
   ],
   "cves": [
     {
-      "id": "CVE-2026-105484",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "description": "A security vulnerability has been detected in TOTOLINK X6000R 9.4.0cu.652_B20230116. The impacted element is the function firmware_check of the file /cgi-bin/cstecgi.cgi of the component UploadFirmwareFile Handler. Such ",
-      "published": "2026-10-06T02:17:04.040"
-    },
-    {
-      "id": "CVE-2026-82989",
+      "id": "CVE-2026-93674",
       "severity": "CRITICAL",
       "score": 9.8,
-      "description": "There is an input injection in vCast exposed network services in ViewSonic ViewBoard that allows a remote, unauthenticated attacker to inject arbitrary input into service endpoints via network-based HTTP requests to unau",
-      "published": "2026-10-06T00:16:37.097"
+      "description": "IBM Langflow OSS 1.0.0 through 1.12.2 could allow a remote attacker to execute arbitrary code due to improper neutralization of special elements used in an OS command.",
+      "published": "2026-10-07T01:16:35.187"
     },
     {
-      "id": "CVE-2026-105763",
+      "id": "CVE-2026-19572",
       "severity": "CRITICAL",
-      "score": 9.6,
-      "description": "Twenty is an open-source CRM (customer relationship management) platform. From 1.20.10 until 2.7.0, the /metadata GraphQL connectedAccounts query returned connectionParameters from ConnectedAccountDTO for every connected",
-      "published": "2026-10-06T00:16:33.247"
+      "score": 9.3,
+      "description": "A security vulnerability has been identified in FlexNet Publisher lmadmin. The vulnerability exists in a SOAP handler, where a hardcoded authentication bypass could allow an unauthenticated user to obtain a privileged ad",
+      "published": "2026-10-07T04:18:09.053"
     },
     {
-      "id": "CVE-2026-105786",
-      "severity": "HIGH",
-      "score": 8.5,
-      "description": "Joplin is an open source note-taking and to-do application that organises notes and lists into notebooks. Prior to 3.7.13, packages/server/src/models/ApplicationModel.ts accepts a caller-chosen application authorization ",
-      "published": "2026-10-06T00:16:34.283"
+      "id": "CVE-2026-14911",
+      "severity": "CRITICAL",
+      "score": 9.3,
+      "description": "Improper Neutralization of Input During Web Page Generation (“Cross-site Scripting”) in ASUS router modules allows a remote attacker to read DOM information, modify router settings, and cause a denial-of-service conditio",
+      "published": "2026-10-07T03:16:58.670"
     },
     {
-      "id": "CVE-2026-105762",
-      "severity": "HIGH",
-      "score": 8.3,
-      "description": "Dify is an open-source LLM app development platform. Prior to 1.13.0, the /console/api/remote-files/upload endpoint in api/controllers/web/remote_files.py accepted an attacker-controlled URL without authentication and ca",
-      "published": "2026-10-06T00:16:33.090"
+      "id": "CVE-2026-19386",
+      "severity": "CRITICAL",
+      "score": 9.3,
+      "description": "A stack-based buffer overflow in the ASUS router modules allows an authenticated nearby user to execute arbitrary code via a crafted configuration file upload that exceeds the expected buffer size.Refer to the ' Security",
+      "published": "2026-10-07T02:16:57.883"
     },
     {
-      "id": "CVE-2026-105764",
-      "severity": "HIGH",
-      "score": 7.7,
-      "description": "Immich is a high-performance self-hosted photo and video management solution. Prior to 3.2.4, an authenticated non-admin user could upload SVG files that thumbnail-generation code in server/src/repositories/media.reposit",
-      "published": "2026-10-06T00:16:33.450"
+      "id": "CVE-2026-105324",
+      "severity": "CRITICAL",
+      "score": 9.2,
+      "description": "An HTTP header injection vulnerability in start-page-loader.cgi of ADM allows an unauthenticated remote attacker to read arbitrary files on the host system. By sending a crafted HTTP request with injected headers via the",
+      "published": "2026-10-07T02:16:57.433"
     },
     {
-      "id": "CVE-2026-82988",
-      "severity": "HIGH",
-      "score": 7.5,
-      "description": "There exists an arbitrary file download in vCast APK delivery mechanism in ViewSonic ViewBoard unknown allows a remote, unauthenticated attacker to trigger unprivileged APK installation via serving a malicious APK URL th",
-      "published": "2026-10-06T00:16:36.973"
+      "id": "CVE-2026-81535",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "description": "In wolfSSH through 1.5.0 built with --enable-fwd, DoChannelOpen() in src/internal.c gates only direct-tcpip channel opens with the forwarding policy callback. forwarded-tcpip opens are admitted without an authorization c",
+      "published": "2026-10-07T03:16:59.567"
     },
     {
-      "id": "CVE-2026-105782",
+      "id": "CVE-2026-83742",
       "severity": "HIGH",
-      "score": 7.5,
-      "description": "Scrapy is a high-level web crawling and scraping framework for Python. From 1.4.0 until 2.14.2, RefererMiddleware in scrapy/spidermiddlewares/referer.py treated a Referrer-Policy response-header value that resembled a Py",
-      "published": "2026-10-06T00:16:33.613"
+      "score": 8.8,
+      "description": "Unsigned integer underflow in wstrncat() in src/port.c in wolfSSL wolfSSH from v1.4.11 through v1.5.0 on non-Windows platforms allows an authenticated remote attacker to write one out-of-bounds null byte past the end of ",
+      "published": "2026-10-07T03:16:59.880"
     },
     {
-      "id": "CVE-2026-105704",
+      "id": "CVE-2026-83540",
       "severity": "HIGH",
-      "score": 7.3,
-      "description": "A vulnerability was identified in SourceCodester Drug Recommendation System 1.0. This affects an unknown function of the component Auth Guard. Such manipulation of the argument user_id leads to improper authentication. T",
-      "published": "2026-10-06T05:16:37.663"
+      "score": 8.8,
+      "description": "When password or public key authentication is used with the Windows port of wolfSSHd, the Windows logon token acquired for one authenticated connection is not released before a token is acquired for a subsequent connecti",
+      "published": "2026-10-07T03:16:59.730"
     },
     {
-      "id": "CVE-2026-105571",
+      "id": "CVE-2026-97679",
       "severity": "HIGH",
-      "score": 7.3,
-      "description": "A flaw has been found in PickMall Lilishop up to 4.2.4. The impacted element is an unknown function of the file /buyer/passport/member/bindMobile of the component Mobile Binding. This manipulation of the argument Usernam",
-      "published": "2026-10-06T02:17:04.613"
+      "score": 8.8,
+      "description": "IBM Langflow OSS 1.0.0 through 1.12.2 could allow a remote authenticated attacker to execute arbitrary code due to improper neutralization of special elements used in an OS command ('Code Injection') related to improper ",
+      "published": "2026-10-07T01:16:36.643"
     },
     {
-      "id": "CVE-2026-105486",
+      "id": "CVE-2026-102478",
       "severity": "HIGH",
-      "score": 7.3,
-      "description": "A vulnerability was detected in OSSRS srs up to 7.0-a1. This affects the function systemAPI.Run of the file internal/proxy/api.go of the component System API. Performing a manipulation results in missing authentication. ",
-      "published": "2026-10-06T02:17:04.213"
+      "score": 8.7,
+      "description": "In affected versions of Octopus Server, an authenticated user with permission to modify roles could bypass the protections preventing access abuse resulting in privilege escalation. It was possible for the built-in role ",
+      "published": "2026-10-07T02:16:56.320"
     },
     {
-      "id": "CVE-2026-105471",
+      "id": "CVE-2026-16528",
       "severity": "HIGH",
-      "score": 7.3,
-      "description": "A security flaw has been discovered in girishsaraf Online-Appointment-Booking-System up to f427b4757128ca253d33d0cc4e87bbb9c999a4d5. Impacted is an unknown function of the file signup.php of the component Registration Ha",
-      "published": "2026-10-06T00:16:32.920"
+      "score": 8.4,
+      "description": "Insertion of Sensitive Information into Log File in certain ASUS router models allows a remote authenticated attacker to obtain DDNS credentials from the system log, potentially enabling modification of DNS settings.Refe",
+      "published": "2026-10-07T02:16:57.730"
+    },
+    {
+      "id": "CVE-2026-106471",
+      "severity": "HIGH",
+      "score": 8.1,
+      "description": "A flaw was found in Candlepin. The central authorization filter incorrectly grants access when any one of multiple @Verify-annotated parameters is accessible, instead of requiring access to every verified entity. A low-p",
+      "published": "2026-10-07T02:16:57.583"
     }
   ],
   "breaches": [
