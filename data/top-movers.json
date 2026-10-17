@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T21:30:16Z",
+  "updated_at": "2026-10-17T21:45:15Z",
   "source": "Yahoo Finance screener + CoinGecko markets",
   "equities": {
     "gainers": [
@@ -80,38 +80,38 @@
   "crypto": {
     "gainers": [
       {
+        "symbol": "PRL",
+        "name": "Pearl",
+        "price": 1.84,
+        "change_24h": 7.1,
+        "asset": "crypto"
+      },
+      {
         "symbol": "HBAR",
         "name": "Hedera",
-        "price": 0.084354,
-        "change_24h": 1.25,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "CAKE",
-        "name": "PancakeSwap",
-        "price": 2.2,
-        "change_24h": 0.98,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "GRAM",
-        "name": "Gram (prev. Toncoin)",
-        "price": 1.36,
-        "change_24h": 0.32,
+        "price": 0.083345,
+        "change_24h": 0.35,
         "asset": "crypto"
       },
       {
         "symbol": "HTX",
         "name": "HTX DAO",
         "price": 2e-06,
-        "change_24h": 0.27,
+        "change_24h": 0.11,
         "asset": "crypto"
       },
       {
-        "symbol": "MORPHO",
-        "name": "Morpho",
-        "price": 2.37,
-        "change_24h": 0.26,
+        "symbol": "LEO",
+        "name": "LEO Token",
+        "price": 9.04,
+        "change_24h": 0.09,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "USDD",
+        "name": "USDD",
+        "price": 0.998302,
+        "change_24h": 0.05,
         "asset": "crypto"
       }
     ],
@@ -119,36 +119,36 @@
       {
         "symbol": "ZRO",
         "name": "LayerZero",
-        "price": 1.86,
-        "change_24h": -10.56,
+        "price": 1.87,
+        "change_24h": -8.96,
         "asset": "crypto"
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "price": 0.004335,
-        "change_24h": -7.71,
-        "asset": "crypto"
-      },
-      {
-        "symbol": "STX",
-        "name": "Stacks",
-        "price": 0.370928,
-        "change_24h": -6.03,
+        "price": 0.004324,
+        "change_24h": -7.33,
         "asset": "crypto"
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "price": 0.180891,
-        "change_24h": -5.73,
+        "price": 0.179121,
+        "change_24h": -6.67,
         "asset": "crypto"
       },
       {
-        "symbol": "PYTH",
-        "name": "Pyth Network",
-        "price": 0.082302,
-        "change_24h": -5.38,
+        "symbol": "STX",
+        "name": "Stacks",
+        "price": 0.368264,
+        "change_24h": -6.64,
+        "asset": "crypto"
+      },
+      {
+        "symbol": "APT",
+        "name": "Aptos",
+        "price": 0.785741,
+        "change_24h": -6.53,
         "asset": "crypto"
       }
     ]
